@@ -5,19 +5,21 @@ description: Potente tool per gestire password, autenticazione a due fattori e a
 
 ![cover](assets/cover.webp)
 
-La privacy e la sicurezza online sono un argomento che chiunque, a prescindere dalla propria attività,  dovrebbe tenere in grande considerazione.
+La privacy e la sicurezza online sono un argomento che chiunque, a prescindere dalla propria attività, dovrebbe tenere in grande considerazione.
 
 Questi temi sono, inoltre, parte di un mondo in continuo fermento: sempre più sviluppatori partecipano all'argomento, portando implementazioni a soluzioni già consolidate e nuovi prodotti.
 
-È il caso di **Leendert de Borst** e del suo `Alias Vault`, un rivoluzionario strumento (il primo nel suo genere) che consente di gestire e memorizare le password, usare i record delle stesse per autenticarsi ai servizi web, amministrare l'autenticazione a due fattori, ma soprattutto generare veri e propri _alias_, tutto in un'uninca interfaccia.
+È il caso di **Leendert de Borst** e del suo `Alias Vault`, un rivoluzionario strumento (il primo nel suo genere) che consente di gestire e memorizzare le password, usare i record delle stesse per autenticarsi ai servizi web, amministrare l'autenticazione a due fattori, ma soprattutto generare veri e propri _alias_, tutto in un'unica interfaccia.
 
 **Ma Alias Vault non si ferma qui**.
 
+
 ## Caratteristiche principali
 
-Alias Vault lavora in cloud sui server dello sviluppatore o self-hosted nella propria infrastruttura, opzione per la quale sono disponibili file e immagine Docker da installare con uno scipt. Oltre all'interfaccia web, sono disponibili le estensioni per tutti i browser più utilizzati, nonché le app mobili per iOS e Android; quest'ultima si può scaricare anche da F-Droid, bypassando lo store ufficiale di Google.
+Alias Vault lavora in cloud sui server dello sviluppatore o self-hosted nella propria infrastruttura, opzione per la quale sono disponibili file e immagine Docker da installare con uno script. Oltre all'interfaccia web, sono disponibili le estensioni per tutti i browser più utilizzati, nonché le app mobili per iOS e Android; quest'ultima si può scaricare anche da F-Droid, bypassando lo store ufficiale di Google.
 
 In un'unica interfaccia Alias Vault è:
+
 - **Free e open source**
 - **Password Manager**, per memorizzare tutte le password complesse. Grazie all'estensione del browser, il password manager completa i login ai siti web
 - **2FA**, per supportare l'autenticazione a due fattori
@@ -27,13 +29,13 @@ Fa parte del pacchetto un'ampia e accurata documentazione, che accompagnerà i n
 
 ## Niente dati personali!
 
-Si inizia, come sempre, dal sito web [aliasvault.net](aliasvault.net). Come detto, Alias Vault si può utilizzare sul proprio server, oppure dal cloud dello sviluppatore per iniziare a conoscerlo prima di passare alla soluzione self-hosted.
+Si inizia, come sempre, dal sito web [aliasvault.net](https://www.aliasvault.net/). Come detto, Alias Vault si può utilizzare sul proprio server, oppure dal cloud dello sviluppatore per iniziare a conoscerlo prima di passare alla soluzione self-hosted.
 
 Il sito ha una grafica realmente accattivante e ben curata, ma il bello arriva se inizi a mettere le mani in pasta: **crea il tuo account**.
 
 ![img](assets/en/01.webp)
 
-Con enorme sorpresa scoprirai che Alias Vault non chiede informazioni personali: per creare l'account basta un qualunque nickname, una parola a te familiare, purché sia disponibile. Accetta i Termini di Servizio, scegli la parola e prosegui.
+Con enorme sorpresa scoprirai che Alias Vault non chiede informazioni personali: per creare l'account basta un qualunque nickname, una parola a te familiare, purché sia disponibile. Accetta i Termini di Servizio, scegli la parola in questione e prosegui.
 
 ![img](assets/en/02.webp)
 
@@ -47,17 +49,17 @@ Fatto: hai creato il tuo password manager e gestore di alias, ma senza dare un t
 
 Alias Vault ti da il benvenuto in uno spazio blindato, nuovo, personale ma anche vuoto. Ed ora iniziamo a popolarlo un po'.
 
-Se hai già un password manager, puoi importare il file da quello in uso, per valutare le differenze con altro provider, o magari eliminare l'alias manager così da gestire tutto in un'unica applicazione.
+Se hai già un password manager, puoi importare il file da quello in uso, per valutare le differenze con un altro provider, o magari eliminare l'alias manager così da gestire tutto in un'unica applicazione.
 
 ![img](assets/en/05.webp)
 
 Alias Vault è estremamente semplice: hai una pagina principale, che è la `Home`, con due menu:
 - `Credentials`: che  ti permette di creare e poi gestire le identità e gli alias
-- `Email`: una inbox dove potrai controllare i messaggiin arrivo per gli alias che hai generato.
+- `Email`: una inbox dove potrai controllare i messaggi in arrivo per gli alias che hai generato.
 
 ![img](assets/en/06.webp)
 
-È la creazione di un primo `alias` che ci interessa fare, pertanto vai nella parte superiore destra della pagina e clicca _+New Alias_.
+Ci interessa creare un primo `alias`, pertanto vai nella parte superiore destra della pagina e clicca _+New Alias_.
 
 ![img](assets/en/07.webp)
 
@@ -75,11 +77,11 @@ Se hai attivato l'autentizazione a due fattori su qualcuno dei suddetti servizi 
 
 ![img](assets/en/14.webp)
 
-La parte inferiore di questa schermata è quella più divertente. Clicca su _Generate Random Alias_ e Alias Vault creerà per te identità separate per diverse necessità, ognuna delle quali con la propria casella d posta, password di livello molto robusto, integrate con altri dettagli come il gender, la data di nascita e un nickname adatto.
+La parte inferiore di questa schermata è quella più divertente. Clicca su _Generate Random Alias_ e Alias Vault creerà per te identità separate per diverse necessità, ognuna delle quali con la propria casella di posta, password di livello molto robusto, integrate con altri dettagli come il gender, la data di nascita e un nickname adatto.
 
 ![img](assets/en/10.webp)
 
-Da un apposto menu, puoi cambiare le impostazioni che riguardano la generazione delle password, scegliendo ad esempio solo lettere minuscole ed eliminando i caratteri che possono risultare ambigui.
+Da un apposito menu, puoi cambiare le impostazioni che riguardano la generazione delle password, scegliendo ad esempio solo lettere minuscole ed eliminando i caratteri che possono risultare ambigui.
 
 ![img](assets/en/11.webp)
 
@@ -99,6 +101,7 @@ Per cancellare un alias che hai creato a titolo di prova, non dovrai far altro c
 
 ![img](assets/en/16.webp)
 
+
 ## Estensione del browser
 
 A seconda di quelle che sono le tue necessità, puoi ricorrere all'estensione del browser, che puoi trovare sui browser più utilizzati.
@@ -113,11 +116,12 @@ L'estensione del browser è lì per facilitare le operazioni di login ai servizi
 
 L'unica attenzione è verificare che Alias Vault sia attivo. L'applicazione ha infatti un'impostazione di default, per cui si mette in pausa dopo un periodo di inattività. È una funzione molto utile, **quando ti devi ad esempio allontanare dal computer ed evitare che qualcun altro possa accedere ai tuoi account**. Una procedura snella ti permetterà di accedere nuovamente immettendo la `master password`, se la sessione precedente è ancora nella cache. Il tempo per la disconnessione è uno dei parametri che puoi personalizzare, accorciandolo o allungandolo a seconda delle tue preferenze.
 
-## App mobile
+
+## App su Mobile
 
 Come tutte le applicazioni di questo genere che si rispettino, Alias Vault ha la versione per dispositivi mobili, sia in ambiente Android sia iOS. Per Android è possibile scaricare l'app da [F-Droid](https://f-droid.org/packages/net.aliasvault.app/).
 
-Al momento della stesura di questa guida (fine agosto 2025), l'app mobile considera l' `auto-fill` una feature sperimentale, non funziona se non con pochissimi siti. Finché non verrà implementata a tutti gli effetti, per usare Alias Vault in mobilità è necessario fare copia/incolla dei dati.
+Al momento della stesura di questa guida (fine agosto 2025), l'app mobile considera l'`auto-fill` una feature sperimentale, non funziona se non con pochissimi siti. Finché non verrà implementata a tutti gli effetti, per usare Alias Vault in mobilità è necessario fare copia/incolla dei dati.
 
 Una volta scaricata l'app dallo store, per fare login ti basterà inserire user e `master password` creati sulla web app.
 
@@ -127,23 +131,24 @@ Durante l'apertura del tuo `vault`, ti verrà chiesto se vuoi attivare l'accesso
 
 ![img](assets/en/19.webp)
 
-Se decidi impostare il controllo biometrico, procedi. Se salti il passaggio e cambi idea, potrai configurarlo anche in seguito dal menu dei _Settings_.
+Se decidi di impostare il controllo biometrico, procedi. Se salti il passaggio e cambi idea, potrai configurarlo anche in seguito dal menu dei _Settings_.
 
 Completato l'accesso, ritroverai sincronizzati i dati che hai già creato.
 
 ![img](assets/en/20.webp)
 
-L'app per cellulare può essere instradata al collegamento verso il`vault` ospitato sul proprio server. 
+L'app per cellulare può essere instradata al collegamento verso il `vault` ospitato sul proprio server. 
 
 ![img](assets/en/22.webp)
 
 Ed è appunto la versione self-hosted che affronteremo, brevemente, nel prossimo paragrafo.
 
+
 ## Self-Hosting: pieno controllo sui tuoi dati
 
 Alias Vault, a onor del vero, non è il primo `password manager` che permette di implementare il servizio sulla tua infrastruttura. Ce ne sono altri, ma alcuni o hanno delle limitazioni o sono parzialmente closed source.
 
-L'opportunità è unica: **fine della dipendenza da fornitori di servizi o cloud esterni, ma usare il tuo server locale per custodire e gestire le password, gli alias e le informazioni estremamente sensibili associate a tutto ciò**. Con Alias Vault puoi anche far puntare il servizio email verso il tuo server di posta elettronica, per una maggiore confidenzialità.
+L'opportunità è unica: **fine della dipendenza da fornitori di servizi o cloud esterni, ma potrai usare il tuo server locale per custodire e gestire le password, gli alias e le informazioni estremamente sensibili associate a tutto ciò**. Con Alias Vault puoi anche far puntare il servizio email verso il tuo server di posta elettronica, per una maggiore confidenzialità.
 
 È il momento di ricorrere alla [documentazione](https://docs.aliasvault.net/installation/), per scoprire come procedere per self-hostare Alias Vault.
 
@@ -186,7 +191,7 @@ Alias Vault adesso gira sul tuo server personale.
 
 ![img](assets/en/30.webp)
 
-Apri un browser e digita l'url: ti comparirà la pagina per fare login come `Admin` di Alias Vault.
+Apri un browser e digita l'url: ti comparirà la pagina per fare il login come `Admin` di Alias Vault.
 
 ![img](assets/en/26.webp)
 
@@ -210,10 +215,10 @@ Per fermare Alias Vault, torna al terminale e digita:
 
 ``` Stop-Alias-Vault
 ./install.sh stop
-
 ```
 
 ![img](assets/en/31.webp)
+
 
 ## Considerazioni su cifratura e sicurezza
 
@@ -221,7 +226,7 @@ Per fermare Alias Vault, torna al terminale e digita:
 
 Secondo quanto dichiara Lanedirt sul sito, nella documentazione e su Github, con Alias Vault **tutte le informazioni (componenti) che inserirai su Alias Vault, rimangono strettamente legate al dispositivo, cifrate e inaccessibili a chiunque non conosca la `master password`**.
 
-La `master password`è dunque l'elemento fondamentale dell'intero `vault`. Dopo il suo inserimento, viene processata con l'algoritmo `Argon2id`, una funzione di derivazione di chiavi hard-memory, per impedire che il segreto esca dal dispositivo.
+La `master password` è dunque l'elemento fondamentale dell'intero `vault`. Dopo il suo inserimento, viene processata con l'algoritmo `Argon2id`, una funzione di derivazione di chiavi hard-memory, per impedire che il segreto esca dal dispositivo.
 
 Tutto resta nascosto anche al gestore del cloud o del servizio di hosting. Infatti, dal pannello di amministrazione non si accede ai dettagli degli utenti, si può solo sapere se hanno creato alias, ricevuto email e poco altro.
 
@@ -235,12 +240,15 @@ Essendo Alias Vault in fase _Beta_ potresti avere difficoltà di accesso in caso
 
 Per una completa comprensione dell'architettura e della sicurezza adottate da Alias Vault, ti consiglio vivamente di consultare [questa pagina](https://docs.aliasvault.net/architecture/), che contiene i dettagli della crittografia alla base del suo funzionamento.
 
-## Roadmap
-Le intenzioni degli sviluppatori sono di rendere Alias Vault maturo e stabile entro la fine del 2025, in modo da definirne le caratteristiche d'uso future.
 
-Alias Vault è e rimarrà sempre open source e free, ma probabilmente non in maniera illimitata come in fase beta. Alcune feature a pagamento stanno per essere implementate, in quanto già annunciate.
+## Roadmap
+
+Le intenzioni degli sviluppatori sono di rendere Alias Vault maturo e stabile entro la fine del 2025, in modo da definirne le future caratteristiche d'uso.
+
+Alias Vault è, e rimarrà sempre open source e free, ma probabilmente non in maniera illimitata come in fase beta. Alcune feature a pagamento stanno per essere implementate, in quanto già annunciate.
 
 Sono previsti piani per team/famiglie e il supporto alle chiavi hardware, queste ultime per l'autenticazione con FIDO2 o WebAuth.
+
 
 ## A chi serve Alias Vault
 

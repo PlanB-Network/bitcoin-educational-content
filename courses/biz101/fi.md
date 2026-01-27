@@ -199,7 +199,7 @@ Yhdessä ne tekevät Bitcoinista **kantajan omaisuuserän** ja digitaalisen valu
 
 ![BIZ101](assets/fi/003.webp)
 
-Bitcoinilla on kiinteä rahapolitiikka, ja sen **katto on 21 miljoonaa bitcoinia**, joista ~19,8 miljoonaa on jo jaettu. Tämä tekee siitä **deflatorisen**, ja sen arvo nousee ajan mittaan, kun käyttäjät tallentavat siihen säästöjä ja tuottavuushyötyjä.
+Bitcoinilla on kiinteä rahapolitiikka, ja sen **enimmäismäärä on 21 miljoonaa bitcoinia**, joista noin 19,8 (2024) miljoonaa on jo louhittu. Tämä tekee siitä **deflatorisen**, jolloin sen arvo nousee ajan myötä, kun käyttäjät tallentavat siihen säästöjä ja tuottavuuden kasvuja.
 
 Sen tekniset ominaisuudet ylittävät kullan ja dollarin tekniset ominaisuudet yhteensä, mikä tekee siitä kovimman koskaan luodun rahoitusvarallisuuden. Bitcoin on sekä arvon säilyttäjä että vaihdon väline, syntymässä oleva valuutta. Kuvittele, että arvo siirretään yrityksen kassasta toiseen nopeasti, ilman välikäsiä, minimaalisin kustannuksin, ilman petoksia, ympäri vuorokauden ja ilman kolmansia osapuolia.
 
@@ -211,7 +211,7 @@ Bitcoin on mullistava, koska se kannustaa meitä oppimaan matematiikan, kryptogr
 
 Bitcoin haastaa meidät miettimään uudelleen itse rahan luonnetta. Voisitteko selittää, mitä raha todella on? Palkkatyöntekijä tai yrittäjä saattaa käyttää 50 000-100 000 tuntia elämästään rahan ansaitsemiseen, mutta kuinka moni käyttää edes 100 tuntia sen ymmärtämiseen paremmin **ja säilyttämiseen?** Bitcoin rohkaisee meitä kyseenalaistamaan rahan tarpeemme ja ajallisen perspektiivimme perimmäiset syyt. Onko raha välitöntä ylellisyyttä vai pitkän aikavälin kestävyyttä varten? Jos meillä olisi arvoa kasvattava omaisuuserä, jonka avulla voisimme lykätä ostoksia, millaisia valintoja tekisimme? Mitä keskusteluja haluaisimme käydä itsemme kanssa 20 tai 30 vuoden kuluttua?
 
-**BITCOIN-HENKILÖKORTTI**
+**BITCOININ HENKILÖKORTTI (vuonna 2024)**
 
 
 - **Ikä:** 15 vuotta (3. tammikuuta 2009)
@@ -296,7 +296,7 @@ Lightning Network on ihanteellinen Bitcoin-maksuihin fyysisissä tai verkkokaupo
 - **Lopullisuus:** Kun maksu on suoritettu Lightningille, se on lopullinen. Kolmannet osapuolet eivät voi periä maksua takaisin tai tehdä petoksiin liittyviä kiistoja.
 - **Maksut:** Lightning-verkoston transaktiomaksut ovat minimaalisia, ja ne maksaa käyttäjä, ei kauppias. Kauppiaille aiheutuu maksuja vain, jos he joutuvat myöhemmin siirtämään Bitcoininsa toiseen verkkoon tai palveluun.
 
-**SALAMA-TUNNISTE** *SALAMA-TUNNISTE** *SALAMA-TUNNISTE**
+**LIGHTNINGIN HENKILÖKORTTI (vuonna 2024)**
 
 
 - **Keksintö:** 2015

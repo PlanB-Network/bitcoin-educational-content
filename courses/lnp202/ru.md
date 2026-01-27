@@ -998,7 +998,7 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@34.216.52.158:9911
 ```
 
-Чтобы поблагодарить их за предоставление этой бесплатной услуги сторожевой башни, [вы можете сделать пожертвование через Lightning] (https://lightningnetwork.plus/donation).
+Чтобы поблагодарить их за предоставление этой бесплатной услуги сторожевой башни, [вы можете сделать пожертвование через Lightning](https://lightningnetwork.plus/donation).
 
 
 Теперь, когда мы используем службу альтруистической сторожевой башни, давайте посмотрим, как настроить ее на узле LND под Umbrel.
@@ -1403,7 +1403,7 @@ https://planb.academy/tutorials/node/lightning-network/1ml-37ada2ab-7a24-4473-87
 
 
 - [Alby Hub](https://albyhub.com/);
-- [Ride The Lightning] (https://www.ridethelightning.info/);
+- [Ride The Lightning](https://www.ridethelightning.info/);
 - [ThunderHub](https://thunderhub.io/).
 
 

@@ -372,14 +372,15 @@ Da bismo bolje razumeli pozicioniranje Arkade-a, hajde da ga uporedimo sa druga 
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Kriterijum | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Model** | Zajednički UTXO koordinisan od strane servera (ASP) | P2P mreža platnih kanala | Slepi tokeni izdati od strane banke (Mint) |
+| **Starateljstvo** | **Nesitodijalno** (vi imate ključeve) | **Nesitodijalno** (vi imate ključeve) | **Kustodijalno** (Mint drži sredstva) |
+| **Privatnost** | **Visoka** (izvorni CoinJoin, slepo za javnost) | **Srednja** (Onion rutiranje, ali kanali vidljivi) | **Veoma Visoka** (slepo čak i za Mint) |
+| **Skalabilnost** | Odlična (masovni batching on-chain) | Odlična (beskonačne transakcije off-chain) | Odlična (jednostavni potpisi servera) |
+| **Iskustvo** | Jednostavno (blizu on-chain novčanika) | Kompleksno (upravljanje kanalima, likvidnost) | Veoma jednostavno (kao digitalni keš) |
+| **Glavni rizik** | Dostupnost ASP-a i isteknuće | Upravljanje kanalima i rezervne kopije | Poverenje u Mint (rizik od krađe) |
 
 **Arkade** je idealan kompromis: jednostavnost i poverljivost Cashu-a, ali sa suverenitetom (bez starateljstva) Lightning-a.
 

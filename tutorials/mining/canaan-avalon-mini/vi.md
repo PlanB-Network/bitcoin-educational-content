@@ -122,16 +122,17 @@ Dưới đây là bảng tóm tắt thông số kỹ thuật chung của Mini 3:
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Đặc tính                                      | Giá trị                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Tiêu thụ điện năng                              | 800 W                                                     |
+| Tiếng ồn                                                | 35-55 dB                                                  |
+| Nhiệt độ không khí ra                       | 60-70°C (ở nhiệt độ môi trường 25°C)                  |
+| Yêu cầu nhiệt độ môi trường để sử dụng | -5° C - 40°C                                              |
+| Dải điện áp đầu vào thiết bị                         | 110V-240V AC 50/60Hz                                      |
+| Kích thước máy                                 | Chiều dài: 760 mm / Chiều sâu: 104 mm / Chiều cao: 214.5 mm |
+| Trọng lượng máy                                  |  8.35 kg                                                  |
 
 ## Kết nối với Mining pool
 

@@ -1,8 +1,8 @@
 question: Que se passe-t-il pour une variable lorsque la propriété est transférée à une autre variable dans Rust ?
-answer: La variable d'origine devient invalide et ne peut plus être utilisée
+answer: La variable d'origine devient invalide et ne peut plus être utilisée.
 wrong_answers:
-  - La variable d'origine devient une référence en lecture seule aux données
-  - Les deux variables se partagent la propriété et peuvent modifier les données indépendamment l'une de l'autre
-  - La variable d'origine est automatiquement convertie en une référence mutable
+  - La variable d'origine devient une référence en lecture seule aux données.
+  - Les deux variables se partagent la propriété et peuvent modifier les données indépendamment l'une de l'autre.
+  - La variable d'origine est automatiquement convertie en une référence mutable.
 explanation: |
   Lorsque la propriété est déplacée dans Rust, la variable d'origine devient complètement invalide et ne peut plus être accédée. Il s'agit d'une fonction de sécurité fondamentale qui empêche plusieurs variables de gérer la même mémoire de tas, ce qui pourrait entraîner des bogues de type "use-after-free" ou des erreurs de type "double-free". L'opération de déplacement transfère le contrôle complet à la nouvelle variable, et le compilateur produira une erreur si vous essayez d'utiliser la variable d'origine après le déplacement. Cette opération diffère de la copie (où les deux variables restent valides) et de l'emprunt (où le propriétaire initial conserve la propriété).

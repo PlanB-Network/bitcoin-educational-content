@@ -1,8 +1,8 @@
-question: 通过部分工作证明估算合作成员的哈希率涉及什么？
-answer: 检索由哈希生成器产生的低于网络难度的低阶工作证明
+question: 通过“部分工作量证明”来估算矿池成员的算力时，这一过程涉及什么操作？
+answer: 获取由矿工生成、难度低于全网难度的工作量证明
 wrong_answers:
-  - 检索包括哈希生成器产生的每个区块哈希的第一个字节的印记
-  - 每月检索哈希生成器的电费账单
-  - 检索在像BitDNS这样难度较低的网络上产生的工作证明
+  - 获取工作印记，其中包括矿工生成的每个区块哈希的首字节
+  - 每月获取矿工的电费账单
+  - 获取在其他低难度网络（如 BitDNS）上生成的工作量证明
 explanation:
-  这个简单的方法是由ribuck、Nils Schneider和Gavin Andresen于2010年10月14日在[论坛](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951)上提出的。()
+  这种简单的方法由 Ribuck、Nils Schneider 和 Gavin Andresen 于 2010 年 10 月 14 日在论坛上提出。

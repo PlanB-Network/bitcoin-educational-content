@@ -727,14 +727,15 @@ BTCPay Server bestaat uit de volgende standaard Wallet functies:
 Beheerders kunnen de inkomende en uitgaande transacties voor de On-Chain Wallet die verbonden zijn met deze specifieke winkel zien in het transacties overzicht. Elke transactie heeft een onderscheid tussen de ontvangen en verzonden bedragen. Ontvangen is Green en uitgaande transacties zijn rood. In het BTCPay Server transactieweergave, zullen beheerders ook een set standaard labels zien.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Transactietype | Beschrijving                                      |
+| --------------- | ------------------------------------------------- |
+| App              | Betaling is ontvangen via een door een app aangemaakte factuur |
+| Factuur          | Betaling is ontvangen via een factuur             |
+| Payjoin          | Niet betaald, de factuurtimer is nog niet verlopen |
+| Payjoin-blootgesteld | UTXO is blootgesteld via een payjoin-voorstel in een factuur |
+| Betalingsverzoek | Betaling is ontvangen via een betalingsverzoek    |
+| Uitbetaling      | Betaling is verzonden via een uitbetaling of terugbetaling |
 
 ### Hoe verzenden
 
@@ -1805,28 +1806,30 @@ Elk type heeft zijn eigen parameters om in te vullen. De winkeleigenaar kan deze
 Met BTCPay Server kunt u ook formulieren in code bouwen. JSON, in het bijzonder. In plaats van naar de editor te kijken, kunnen winkeleigenaars op de knop CODE naast de editor klikken en in de code van hun formulieren duiken. In een velddefinitie kunnen alleen de volgende velden worden ingesteld; de waarden van de velden worden opgeslagen in de metadata van de Invoice:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Veld | Beschrijving |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Indien true, moet de .value worden ingesteld in de formulierdefinitie, en de gebruiker zal de waarde van het veld niet kunnen wijzigen. (voorbeeld: de versie van de formulierdefinitie) |
+| .fields.type | Het HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Als .fields.type select is, de lijst met selecteerbare waarden |
+| .fields.options.text | De tekst die voor deze optie wordt weergegeven |
+| .fields.options.value | De waarde van het veld als deze optie is geselecteerd |
+| .fields.type=fieldset | Maak een HTML fieldset rond de onderliggende .fields.fields (zie hieronder) |
+| .fields.name | De JSON property naam van het veld zoals deze in de metadata van de factuur zal verschijnen |
+| .fields.value | De standaardwaarde van het veld |
+| .fields.required | indien true, is het veld verplicht |
+| .fields.label | Het label van het veld |
+| .fields.helpText | Aanvullende tekst om een uitleg bij het veld te geven. |
+| .fields.fields | U kunt uw velden organiseren in een hiërarchie, waardoor onderliggende velden kunnen worden genest binnen de metadata van de factuur. Deze structuur kan u helpen de verzamelde informatie beter te organiseren en te beheren, waardoor deze gemakkelijker toegankelijk en interpreteerbaar wordt. Bijvoorbeeld, als u een formulier heeft dat klantgegevens verzamelt, kunt u de velden groeperen onder een bovenliggend veld genaamd customer. Binnen dit bovenliggende veld kunt u onderliggende velden hebben zoals name, Email, en address. |
 
 De veldnaam staat voor de JSON eigenschapsnaam die de door de gebruiker opgegeven waarde opslaat in de metadata van de Invoice. Sommige bekende namen kunnen worden geïnterpreteerd en aangepast om de instellingen van de Invoice aan te passen.
 
 
-| Field name       | Description            |
+
+| Veldnaam         | Beschrijving          |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Factuurbedrag         |
+| invoice_currency | Factuurvaluta         |
 
 Je kunt de velden van een Invoice automatisch voorvullen door query strings toe te voegen aan de URL van het formulier, zoals "?your_field=value".
 
@@ -2275,7 +2278,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Logbestanden | Containernaam                      |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2466,21 +2470,22 @@ Tenzij u een ingebouwde [Wallet](https://docs.btcpayserver.org/Wallet/) gebruikt
 In de onderstaande tabel worden de standaard Invoice statussen in BTCPay opgesomd en beschreven, samen met de voorgestelde veelvoorkomende acties. Acties zijn slechts aanbevelingen. Het is aan gebruikers om te bepalen wat de beste actie is voor hun gebruik en bedrijf.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Factuurstatus | Beschrijving | Actie |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Niet betaald, factuurtimer is nog niet verlopen | Geen |
+| New (paidPartial) | Betaald, niet volledig, factuurtimer is nog niet verlopen | Geen |
+| Expired | Niet betaald, factuurtimer verlopen | Geen |
+| Expired (paidPartial) ** | Betaald, niet volledig bedrag, en verlopen | Neem contact op met koper voor terugbetaling of vraag restbetaling. Markeer factuur optioneel als settled of invalid |
+| Expired (paidLate) | Volledig betaald nadat de factuurtimer is verlopen | Neem contact op met koper voor terugbetaling of verwerk order als late bevestigingen acceptabel zijn. |
+| Settled (paidOver) | Meer betaald dan het factuurbedrag, afgewikkeld, voldoende bevestigingen ontvangen | Neem contact op met koper voor terugbetaling van het extra bedrag, of wacht optioneel tot koper contact opneemt |
+| Processing | Volledig betaald, maar onvoldoende bevestigingen ontvangen volgens winkelinstellingen | Neem contact op met koper voor terugbetaling van het extra bedrag, of wacht optioneel tot koper contact opneemt |
+| Processing (paidOver) | Meer betaald dan factuurbedrag, onvoldoende bevestigingen ontvangen | Wacht op afwikkeling, neem dan contact op voor terugbetaling van extra bedrag, of wacht op contact van koper |
+| Settled | Volledig betaald, voldoende bevestigingen ontvangen in de winkel | Bestelling uitvoeren |
+| Settled (marked) | Status is handmatig gewijzigd in settled vanuit een processing of invalid status | Winkelbeheerder heeft de betaling gemarkeerd als settled |
+| Invalid* | Betaald, maar onvoldoende bevestigingen ontvangen binnen de tijd in winkelinstellingen | Controleer transactie op blockchain explorer; bij voldoende bevestigingen, markeer als settled |
+| Invalid (marked) | Status is handmatig gewijzigd in invalid vanuit een settled of expired status | Winkelbeheerder heeft de betaling gemarkeerd als invalid |
+| Invalid (paidOver) | Meer dan factuurbedrag betaald, maar onvoldoende bevestigingen ontvangen binnen de tijd | Controleer transactie op blockchain explorer; bij voldoende bevestigingen, markeer als settled |
 
 #### Invoice details
 

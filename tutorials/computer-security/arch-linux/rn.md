@@ -265,20 +265,22 @@ Hitamwo **GPT** iyo uri muri UEFI, **DOS** iyo uri muri BIOS.
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Umwanya w'ingenzi ku sisitemu ikorereranye | Igice                 | Ubwoko bw'igice       | Ubunini bwifuzwa |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | Igice cy'EFI sisitemu   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Inzira y'ibihana (swap) | Bake 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 umuzi (/) | Ibisigira ku gitara |
 
 - Muri BIOS
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Umwanya w'ingenzi ku sisitemu ikorereranye | Igice           | Ubwoko bw'igice       | Ubunini bwifuzwa |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Inzira y'ibihana (swap) | Bake 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Ibisigira ku gitara |
 
 ![0_10](assets/fr/10.webp)
 

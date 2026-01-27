@@ -1,8 +1,8 @@
 question: Lors de la création d'une macro de type fonction personnalisée qui doit gérer différents nombres d'arguments d'entrée, quelle combinaison de spécificateur de fragment et de modèle de répétition serait la plus appropriée ?
-answer: Utilisez $($x:expr),* pour faire correspondre zéro ou plusieurs expressions séparées par des virgules
+answer: Utilisez $($x:expr),* pour faire correspondre zéro ou plusieurs expressions séparées par des virgules.
 wrong_answers:
-  - Utilisez $($x:ident)+ pour faire correspondre un ou plusieurs identificateurs sans séparateur
-  - Utilisez $($x:ty);* pour faire correspondre zéro ou plusieurs types séparés par des points-virgules
-  - Utilisez $($x:expr) ? pour faire correspondre une expression unique facultative sans répétition
+  - Utilisez $($x:ident)+ pour faire correspondre un ou plusieurs identificateurs sans séparateur.
+  - Utilisez $($x:ty);* pour faire correspondre zéro ou plusieurs types séparés par des points-virgules.
+  - Utilisez $($x:expr)? pour faire correspondre une expression unique facultative sans répétition.
 explanation: |
-  Le motif $($x:expr),* est spécialement conçu pour les macros à arguments variables, où expr correspond à n'importe quelle expression et la syntaxe ,* gère zéro ou plusieurs répétitions séparées par des virgules. C'est exactement ce qui est nécessaire pour les macros comme vec ! qui peuvent accepter un nombre variable d'arguments. Les autres options sont incorrectes parce que : ident ne correspond qu'aux identificateurs (pas aux expressions complètes), ty correspond aux types (pas aux valeurs), et ? correspond aux éléments uniques optionnels plutôt qu'aux répétitions de variables.
+  Le motif $($x:expr),* est spécialement conçu pour les macros à arguments variables, où expr correspond à n'importe quelle expression et la syntaxe ,* gère zéro ou plusieurs répétitions séparées par des virgules. C'est exactement ce qui est nécessaire pour les macros comme vec! qui peuvent accepter un nombre variable d'arguments. Les autres options sont incorrectes parce que : ident ne correspond qu'aux identificateurs (pas aux expressions complètes), ty correspond aux types (pas aux valeurs), et ? correspond aux éléments uniques optionnels plutôt qu'aux répétitions de variables.

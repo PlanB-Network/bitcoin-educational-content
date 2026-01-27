@@ -10,4 +10,4 @@ explanation: |
   ratusan ribu transaksi dalam waktu kurang dari 10 menit. Ini akan membuat menjalankan
   node Bitcoin tidak dapat diakses oleh orang biasa, mengganggu desentralisasi
   protokol serta keabadian transaksi dan aturan konsensus.
-reviewed: false
+reviewed: true

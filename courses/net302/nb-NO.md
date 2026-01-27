@@ -306,18 +306,19 @@ Det aller første feltet i headeren kalles Version. Denne 4-biters verdien angir
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Versjonsnummer | Protokoll | Versjonsbeskrivelse | Referanse |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Reservert | Reservert | |
+| 2–3 | Ikke tildelt | Ikke tildelt | |
+| 4 | IP | Internett-protokoll | RFC 791 |
+| **5** | **ST** | **ST-datagrammodus** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internett-protokoll versjon 6 | RFC 8200 |
+| 7 | TP/IX | Den neste internett | RFC 1475 |
+| 8 | PIP | P-internettprotokollen | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Ikke tildelt | Ikke tildelt | |
+| 15 | Reservert | Reservert | |
 
 Blant disse er IPv5, som, selv om den stort sett er ukjent for offentligheten, eksisterte som ST (_Stream Protocol_). IPv5 ble utviklet på 1980-tallet for å dekke et voksende behov på den tiden: å tilby "_Quality of Service_" (QoS) for visse datastrømmer som krevde kontinuerlig og stabil overføring, for eksempel Voice over IP eller multimediastrømmer. Målet var å garantere båndbredde og prioritet fra ende til ende, et konsept som ligner på det RSVP (_Resource Reservation Protocol_) tilbyr i dag for dynamisk reservasjon av nettverksressurser på moderne rutere.
 
@@ -485,14 +486,15 @@ Historisk sett baserte IPv4-systemet seg på et klassebasert system, merket fra 
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Klasse** | **IPv4-adresseområde**          | **Bruk**                    |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x til 126.x.x.x             | Unicast-adresser             |
+|           | (127.x.x.x reservert for loopback)| Lokal loopback               |
+| B         | 128.0.x.x til 191.255.x.x         | Unicast-adresser             |
+| C         | 192.0.0.x til 223.255.255.x       | Unicast-adresser             |
+| D         | 224.0.0.0 til 239.255.255.255     | IP Multicast                 |
+| E         | 240.0.0.0 til 255.255.255.255     | Reservert for eksperimentering |
 
 Ikke alle mulige verdier kan tilordnes verter. I en **klasse C** Address har for eksempel den siste byten 8 bits (256 verdier). Men to av disse er reservert:
 
@@ -573,13 +575,14 @@ Vi ønsker fire undernett med opptil 60 verter hver.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Subnett-ID (biter) | Subnettadresse | Subnettmaske | Adresseområde             | Broadcast-adresse |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Trinn 5**: Dette skaper fire undernettverk, som hver støtter opptil 62 maskiner, samtidig som det overordnede adresseringsskjemaet forblir effektivt. _hostid_-delen deles opp i en _subnetid_-del og en host-del.
 
@@ -623,7 +626,9 @@ En /17-blokk inneholder 2^(32-17) adresser, så 2^15 = 32 768 adresser totalt. H
 For å gjøre CIDR-dimensjonering enklere å forstå, følger her en tabell over vanlige prefikser og deres tilsvarende nettverksmasker og brukbare adresser:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| CIDR-prefiks | Tilgjengelige vertsbiter | Subnettmaske | Brukbare vertsadresser |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -635,9 +640,8 @@ For å gjøre CIDR-dimensjonering enklere å forstå, følger her en tabell over
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (kun punkt-til-punkt) |
+| /32         | 0                   | 255.255.255.255 | 1 (kun vertsadresse)          |
 
 **MERKNAD**: Tidligere frarådet RFC 950 bruk av subnett null, hovedsakelig for å unngå forvirring i ruting.  Denne begrensningen ble foreldet med RFC 1878, som tillater bruk av subnett null fullt ut. Den gamle begrensningen skyldtes hovedsakelig manglende kompatibilitet med eldre maskinvare som ikke kunne håndtere CIDR på riktig måte. Moderne utstyr har ikke slike problemer.
 
@@ -819,12 +823,13 @@ Den lagdelte arkitekturen følger prinsippet om at hver Layer kun behandler den 
 Tabellen nedenfor oppsummerer begrepene for TCP- og UDP-kontekster:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP-lag           | Enhetsnavn (TCP) | Enhetsnavn (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Applikasjonslag      | Strøm            | Melding          |
+| Transportlag         | Segment          | Pakke            |
+| Internettlag         | Datagram         | Datagram         |
+| Nettverkstilgangslag | Ramme            | Ramme            |
 
 ### Tjenesteprimitiver og dataenheter
 
@@ -907,7 +912,8 @@ Tabellen nedenfor illustrerer denne sammenhengen:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Binærkode   | Aktiverte bitverdier          | Desimalverdi |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -922,7 +928,8 @@ Tabellen nedenfor illustrerer denne sammenhengen:
 For å konvertere binær til desimal, legger du sammen vektene til de bitene som er satt til 1.
 
 
-| Binary     | Decimal Value |
+
+| Binær      | Desimalverdi  |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -961,13 +968,14 @@ Opprinnelig var IPv4-nettverk delt inn i fem **klasser**: (A, B, C, D og E). Hve
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Klasse | Ledende biter | Første byte-område | Standard subnettmaske | Formål                         |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Svært store nettverk             |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Middels store nettverk           |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Små nettverk                     |
+| D     | 1110         | 224 – 239        | Ikke aktuelt        | Multicast-adresser               |
+| E     | 1111         | 240 – 255        | Ikke aktuelt        | Eksperimentell (ikke offentlig brukt) |
 
 Spesielle adresser:
 
@@ -1222,7 +1230,8 @@ Rutetabellen, som enten administreres manuelt (statisk ruting) eller dynamisk (d
 Routing-tabellen fungerer som en mapping-tabell mellom IP-adresser og neste gateway. Den lagrer vanligvis nettverksidentifikatorer (_nettverks-ID_) i stedet for hver enkelt host Address, noe som reduserer størrelsen kraftig.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Destinasjonsadresse | Adresse til neste hopp-ruter | Grensesnitt |
 | ------------------- | ----------------------- | --------- |
 
 Ved hjelp av disse oppføringene kan ruteren raskt finne ut hvilken Interface og til hvilken node hvert datagram skal sendes. Kombinert med ARP for å løse de matchende MAC-adressene, sikrer dette effektiv og pålitelig dataoverføring over nettverket.
@@ -1298,11 +1307,12 @@ Dette dynamiske oversettelsesprinsippet baserer seg på presis tabellhåndtering
 _Eksempel på en forenklet NAT-oversettelsestabell:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Intern IP | Ekstern IP | Varighet (sek) | Gjenbrukbar? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | nei       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | ja        |
+| 10.100.0.89   | 193.48.100.46  | 0              | nei       |
 
 I dette eksempelet er den andre oppføringen merket som gjenbrukbar hvis det ikke har gått noen pakke gjennom den på over en time (3600 sekunder). En varighet på null indikerer derimot at kommunikasjonen er aktiv, og at mappingen er låst.
 
@@ -1766,13 +1776,14 @@ En uspesifisert IPv6 Address representeres av `::` eller, mer eksplisitt, `::0.0
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6-adresseprefiks | Beskrivelse                            |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Reserverte adresser                        |
+| 2000::/3            | Unicast-adresser, rutbare på Internett     |
+| fc00::/7            | Unike lokale adresser (1)                  |
+| fe80::/10           | Link-lokale adresser                       |
+| ff00::/8            | Multicast-adresser                         |
 
 (1): *På et privat LAN foretrekkes prefikset `fd00::/8` for å tildele interne adresser som ikke kan rutes på Internett*
 
@@ -1854,23 +1865,27 @@ Til slutt er unike lokale adresser (_ULA_, for _Unique Local Addresses_) interne
 Konseptuelt er IPv6-adresser ofte representert som en binær struktur der den første halvdelen (de første 64 bitene) identifiserer nettverksprefikset, og den andre halvdelen (også 64 bits) unikt identifiserer enhetens Interface i det nettverket. Denne oppdelingen gjør Address autokonfigurasjon enklere gjennom mekanismer som SLAAC (_Stateless Address Autoconfiguration_), som lar maskiner automatisk generate velge en stabil Address basert på MAC Address eller en pseudo-tilfeldig identifikator.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Felt      | Prefiks | L | Global ID | Undernett | Grensesnitt-ID |
 |-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+| Biter     | 7      | 1 | 40        | 16     | 64            |
 
 IPv6-arkitekturen følger den hierarkiske globale rutingsmodellen i dagens Internett. Prefikspartisjonering gjør det mulig for regionale registre og nettverksoperatører å administrere Address-tildeling på en desentralisert måte, samtidig som global unikhet sikres. Innenfor dette rammeverket kan den samme verten samtidig ha en global unicast Address for Internett-kommunikasjon og en link-lokal Address for lokale interaksjoner, f.eks. med det umiddelbare nabolaget eller for ruteroppdagelsesmeldinger.
 
 
-| Field     | Prefix | Zero | Interface ID |
+
+
+| Felt      | Prefiks | Null | Grensesnitt-ID |
 |-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Biter     | 10     | 54   | 64           |
 
 **Anycast-adresser** representerer et mellomliggende konsept som bygger på unicast-modellen, men som i visse tilfeller kan oppføre seg som multicast. En anycast Address er i bunn og grunn en unicast Address som er tilordnet flere grensesnitt fordelt på forskjellige nettverksnoder. Når en pakke sendes til en anycast Address, forsøker IPv6-protokollen å levere den til en av vertene som deler denne Address-en, vanligvis den som ligger nærmest når det gjelder rutingstopologi. Denne tilnærmingen optimaliserer hastigheten på behandlingen av forespørsler og forbedrer robustheten til distribuerte tjenester. Et klassisk eksempel er DNS-rotserverne, der anycast-adressering automatisk leder forespørsler til det nærmeste punktet for tilstedeværelse.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
+
+| Felt     | Prefiks | Subnet | Grensesnitts-ID |
+|-----------|--------|--------|______________|
 | Bits      | 48     | 16     | 64           |
 
 I IPv6 erstatter **multicast-adresser** kringkastingsmekanismen, som ble ansett som for kostbar og uegnet for et globalt nettverk. En multicast Address identifiserer en gruppe grensesnitt, vanligvis på tvers av flere verter, som ønsker å motta de samme pakkene samtidig.
@@ -1893,7 +1908,8 @@ Strukturen til en IPv6 multicast Address inkluderer:
 - et identifikasjonsfelt (112 bits) som identifiserer multicast-gruppens nummer.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Felt      | Prefiks | Flagg | Omfang | Gruppe-ID |
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 
@@ -2013,8 +2029,9 @@ Siden 2006 har hver RIR mottatt en IPv6 /12-blokk fra IANA, en fast størrelse s
 Det typiske allokeringshierarkiet ser slik ut:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Kunde | Subnet | Grensesnitt |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Med denne overfloden av adresser er det ikke lenger nødvendig med NAT (*Network Address Translation*), som en gang i tiden var nødvendig i IPv4 for å takle mangelen på Address. Hver vert kan ha en unik, globalt rutbar offentlig Address, noe som forenkler ende-til-ende-tilkobling og gjør det enklere å bruke protokoller som IPSec, VoIP eller innkommende tilkoblinger.

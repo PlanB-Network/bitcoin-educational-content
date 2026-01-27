@@ -255,12 +255,13 @@ be-BOP inakuwezesha kukubali malipo ya Bitcoin moja kwa moja kwenye Blockchain (
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Sehemu                  | Maelezo                                               | Mfano wa Kutumia                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Aina ya anwani inayotumiwa                               | BIP84 (kwa anwani katika muundo wa bech32 zinazoanza na `bc1`) |
+| **Ufunguo wa Umma Ulioongezwa** | Zpub yako (au Xpub kulingana na pochi iliyotumiwa)        | `zpub...` (iliyochorwa kutoka kwa pochi yako ya Bitcoin) |
+| **Derivation Index**   | Faharasa ya kuanzia kwa ajili ya kuzalisha anwani         | `1`                                              |
+| **URL ya Mempool**        | URL ya huduma ya mempool inayotumiwa kusambaza miamala | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -849,12 +850,13 @@ Sehemu hii huamua **wapi** na **jinsi** bidhaa inaweza kutazamwa na kununuliwa:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Jukwaa        | Bidhaa Inayoonekana | Inaweza Kuongezwa kwenye Sebule |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (tovuti ya umma)        | ✔️              | ✔️                  |
+| Retail POS (mahali pa mauzo)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (mauzo kupitia bot)  | ✔️              | ✔️                  |
 
 Angalia tu vituo unavyotaka kutumia.
 
@@ -1024,14 +1026,15 @@ Tumia **njia fupi** katika maudhui ya kurasa zako za CMS:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Lengo                 | Tagi ya Kuingiza                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Kuonyesha bidhaa      | `[Product=slug?display=img-1]`        |
+| Kuonyesha picha       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Kuunganisha kilinganisha       | `[Slider=slug?autoplay=3000]`         |
+| Kuongeza changamoto     | `[Challenge=slug]`                    |
+| Kuongeza hesabu ya chini | `[Countdown=slug]`                 |
+| Kuunganisha fomu   | `[Form=slug]`                         |
 
 **Vigezo vya sasa**:
 
@@ -1813,14 +1816,15 @@ Bango:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Kazi                         | Maelezo                                             |
+|----------------------------------|---------------------------------------------------------|
+| Jukumu la POS                         | Kutengana kupitia ARM                                         |
+| Kiolesura cha Mkuu             | `/pos` au `/pos/touch`                                 |
+| Onyesho la Mteja (Skrini 2)       | `/pos/session`                                         |
+| Malipo                         | Pesa, kadi, Lightning n.k.                         |
+| Kuongeza Bidhaa                    | Jina la jia au kusafishi barcode                              |
+| Punguzo / VAT                    | Wenye uthibitisho wa usimamizi unaohitajika              |
 
 Asante kwa kufuatilia mafunzo haya kwa makini.

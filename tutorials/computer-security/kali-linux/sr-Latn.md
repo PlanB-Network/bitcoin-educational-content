@@ -459,29 +459,30 @@ Hajde da sumiramo neke osnovne zadatke u Kali Linux-u u tabeli.
 
 
 
-| **Catégorie**              | **Tâche de base**                      | **Description / Objectif**                                 | **Méthode principale**                                       |
+
+| **Kategorija** | **Osnovni zadatak** | **Opis / Cilj** | **Glavni metod** |
 | -------------------------- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| **Navigation système**     | Ouvrir le terminal                     | Accéder à la ligne de commande principale de Kali          | Cliquez sur l’icône du terminal ou utilisez `Ctrl + Alt + T` |
-|                            | Parcourir les dossiers                 | Se déplacer dans l’arborescence du système                 | `cd /chemin/du/dossier`, `ls` pour lister les fichiers       |
-|                            | Créer / supprimer un dossier           | Organiser les fichiers                                     | `mkdir nom_dossier`, `rm -r nom_dossier`                     |
-| **Gestion des fichiers**   | Copier / déplacer un fichier           | Manipuler des fichiers dans le terminal                    | `cp fichier destination`, `mv fichier destination`           |
-|                            | Supprimer un fichier                   | Libérer de l’espace disque                                 | `rm nom_du_fichier`                                          |
-|                            | Afficher le contenu d’un fichier texte | Lire rapidement un fichier                                 | `cat fichier.txt`, `less fichier.txt`                        |
-| **Gestion du système**     | Mettre à jour Kali Linux               | Installer les dernières versions et correctifs de sécurité | `sudo apt update && sudo apt full-upgrade -y`                |
-|                            | Installer un logiciel                  | Ajouter un nouvel outil ou utilitaire                      | `sudo apt install nom_du_paquet`                             |
-|                            | Supprimer un logiciel                  | Nettoyer le système                                        | `sudo apt remove nom_du_paquet`                              |
-|                            | Nettoyer les dépendances inutiles      | Gagner de l’espace disque                                  | `sudo apt autoremove`                                        |
-| **Réseau et Internet**     | Vérifier la connexion réseau           | Tester l’accès à Internet                                  | `ping google.com`                                            |
-|                            | Identifier l’adresse IP                | Connaître sa configuration réseau                          | `ip a` ou `ifconfig`                                         |
-|                            | Changer de réseau Wi-Fi                | Se connecter à un autre point d’accès                      | Icône réseau → Sélectionner le Wi-Fi voulu                   |
-| **Comptes et permissions** | Exécuter une commande administrateur   | Obtenir les droits root temporairement                     | `sudo commande`                                              |
-|                            | Créer un nouvel utilisateur            | Ajouter un compte local                                    | `sudo adduser nom_utilisateur`                               |
-|                            | Modifier un mot de passe               | Sécuriser un compte                                        | `passwd`                                                     |
-| **Apparence et confort**   | Changer le fond d’écran                | Personnaliser le bureau                                    | Clic droit sur le bureau → **Paramètres du bureau**          |
-|                            | Modifier le thème / icônes             | Améliorer la lisibilité et l’esthétique                    | Paramètres → Apparence / Thèmes                              |
-| **Outils Kali**            | Ouvrir le menu des outils              | Explorer les outils de test et de sécurité                 | Menu **Applications → Kali Linux**                           |
-|                            | Lancer un outil (ex : nmap, wireshark) | Découverte pratique des utilitaires de sécurité            | `sudo nmap`, `wireshark`, etc.                               |
-| **Aide et documentation**  | Obtenir de l’aide sur une commande     | Comprendre une commande avant de l’utiliser                | `man commande` ou `commande --help`                          |
+| **Navigacija sistemom** | Otvoriti terminal | Pristupiti glavnoj komandnoj liniji Kali-ja | Kliknite na ikonu terminala ili koristite `Ctrl + Alt + T` |
+| | Pregledati fascikle | Kretanje kroz stablo sistema | `cd /putanja/do/fascikle`, `ls` za izlistavanje datoteka |
+| | Kreirati / obrisati fasciklu | Organizovati datoteke | `mkdir naziv_fascikle`, `rm -r naziv_fascikle` |
+| **Upravljanje datotekama** | Kopirati / premestiti datoteku | Manipulacija datotekama u terminalu | `cp datoteka odredište`, `mv datoteka odredište` |
+| | Obrisati datoteku | Oslobađanje prostora na disku | `rm naziv_datoteke` |
+| | Prikazati sadržaj tekstualne datoteke | Brzo čitanje datoteke | `cat datoteka.txt`, `less datoteka.txt` |
+| **Upravljanje sistemom** | Ažurirati Kali Linux | Instaliranje najnovijih verzija i sigurnosnih zakrpa | `sudo apt update && sudo apt full-upgrade -y` |
+| | Instalirati softver | Dodavanje novog alata ili uslužnog programa | `sudo apt install naziv_paketa` |
+| | Obrisati softver | Čišćenje sistema | `sudo apt remove naziv_paketa` |
+| | Očistiti nepotrebne zavisnosti | Ušteda prostora na disku | `sudo apt autoremove` |
+| **Mreža i Internet** | Proveriti mrežnu vezu | Testiranje pristupa Internetu | `ping google.com` |
+| | Identifikovati IP adresu | Poznavanje mrežne konfiguracije | `ip a` ili `ifconfig` |
+| | Promeniti Wi-Fi mrežu | Povezivanje na drugu pristupnu tačku | Ikona mreže → Izabrati željeni Wi-Fi |
+| **Nalozi i dozvole** | Izvršiti komandu administratora | Privremeno dobijanje root prava | `sudo komanda` |
+| | Kreirati novog korisnika | Dodavanje lokalnog naloga | `sudo adduser korisničko_ime` |
+| | Izmeniti lozinku | Osiguravanje naloga | `passwd` |
+| **Izgled i udobnost** | Promeniti pozadinu | Personalizacija radne površine | Desni klik na radnu površinu → **Podešavanja radne površine** |
+| | Izmeniti temu / ikonice | Poboljšanje čitljivosti i estetike | Podešavanja → Izgled / Teme |
+| **Kali alati** | Otvoriti meni sa alatima | Istraživanje alata za testiranje i sigurnost | Meni **Aplikacije → Kali Linux** |
+| | Pokrenuti alat (npr: nmap, wireshark) | Praktično otkrivanje sigurnosnih uslužnih programa | `sudo nmap`, `wireshark`, itd. |
+| **Pomoć i dokumentacija** | Dobiti pomoć za komandu | Razumevanje komande pre upotrebe | `man komanda` ili `komanda --help` |
 
 ## Zaključak
 

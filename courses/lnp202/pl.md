@@ -998,7 +998,7 @@ Tutaj znajdują się dane logowania:
 023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@34.216.52.158:9911
 ```
 
-Aby podziękować im za dostarczanie tej bezpłatnej usługi strażniczej, [możesz przekazać darowiznę za pośrednictwem Lightning] (https://lightningnetwork.plus/donation).
+Aby podziękować im za dostarczanie tej bezpłatnej usługi strażniczej, [możesz przekazać darowiznę za pośrednictwem Lightning](https://lightningnetwork.plus/donation).
 
 
 Teraz, gdy używamy altruistycznej usługi strażniczej, zobaczmy, jak skonfigurować ją na naszym węźle LND pod Umbrel.
@@ -1581,7 +1581,7 @@ Istnieje wiele sposobów na zakup płynności przychodzącej. Osobiście używam
 
 
 
-Przejdź do [strony internetowej Magma] (https://magma.amboss.tech/buy), w sekcji `Kup kanały`.
+Przejdź do [strony internetowej Magma](https://magma.amboss.tech/buy), w sekcji `Kup kanały`.
 
 
 

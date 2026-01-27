@@ -1,9 +1,9 @@
-question: 哪项接受比特币的服务是由Teppy管理的，他在2010年7月11日在Slashdot上介绍了比特币？
-answer: MMORPG《沙漠中的故事》
+question: 哪项接受比特币的服务是由 Teppy 管理的？（Teppy 于 2010 年 7 月 11 日在 Slashdot 上介绍了比特币）
+answer: MMORPG《A Tale in the Desert》
 wrong_answers:
   - VPN Mullvad
-  - VoIP服务Link2VoIP
-  - 网络托管服务Vekja.net
+  - VoIP 服务 Link2VoIP
+  - 网络托管服务 Vekja.net
 explanation:
-  这个服务[开始](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) 在5月19日接受比特币。
+  这个服务于 5 月 19 日[开始](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) 接受比特币。
 reviewed: true

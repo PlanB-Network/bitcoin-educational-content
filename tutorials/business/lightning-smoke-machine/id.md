@@ -263,11 +263,12 @@ Tujuan: Hubungkan relai ke tombol ON/OFF pada remote control
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Deskripsi**           | **Fungsi**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Biasanya Terbuka)   | Sirkuit terbuka secara default | Menutup saat relay diaktifkan |
+| NC (Biasanya Tertutup) | Sirkuit tertutup secara default  | Membuka saat relay diaktifkan  |
+| COM (Umum)         | Terminal pusat          | Beralih antara NO dan NC              |
 
 **Pengkabelan dari remote control ke modul relai:**
 
@@ -301,11 +302,12 @@ Ketika ESP32 memutus relai, COM dan NO akan terpisah, yang setara dengan melepas
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Modul Relai** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Masukan)        |
 
 **Verifikasi:**
 
@@ -894,14 +896,15 @@ Sebelum tes akhir, periksa :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Masalah**                        | **Penyebab Kemungkinan**              | **Solusi**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 tidak terhubung            | Driver USB hilang             | Pasang [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Relay tidak mengklik                | Kabel GPIO salah            | Periksa GPIO 21 → IN                                                                        |
+| Mesin asap tidak merespons         | Kontrol jarak jauh terkabel dengan salah         | Periksa NO/NC/COM                                                                           |
+| Waktu tunggu WebSocket                   | URL tidak benar                  | Periksa wss:// dan /bitcoinswitch                                                            |
+| WiFi tidak terhubung             | SSID/Password salah            | Flash ulang config WiFi                                                                    |
+| Pembayaran diterima tetapi tidak ada yang terjadi | ESP32 tidak terhubung ke WebSocket | Periksa log RESET                                                                      |
 
 ## Sumber daya
 

@@ -263,11 +263,12 @@ Objetivo: Conectar el relé al botón ON/OFF del mando a distancia
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Descripción**           | **Función**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normalmente Abierto)   | Circuito abierto por defecto | Se cierra cuando se activa el relé |
+| NC (Normalmente Cerrado) | Circuito cerrado por defecto  | Se abre cuando se activa el relé  |
+| COM (Común)         | Terminal central          | Conmuta entre NO y NC              |
 
 **Cableado del mando a distancia al módulo de relés:**
 
@@ -301,11 +302,12 @@ Cuando el ESP32 corta el relé, COM y NO se separan, lo que equivale a soltar el
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Módulo de relé** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Entrada)        |
 
 **Verificación:**
 
@@ -894,14 +896,15 @@ Antes de la prueba final, compruebe :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Problema**                        | **Causa probable**              | **Solución**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 no se conecta            | Falta de controlador USB             | Instalar [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| El relé no hace clic                | Cableado GPIO incorrecto            | Verificar GPIO 21 → IN                                                                        |
+| La máquina de humo no responde         | Control remoto incorrectamente cableado         | Verificar NO/NC/COM                                                                           |
+| Tiempo de espera de WebSocket                   | URL incorrecta                  | Verificar wss:// y /bitcoinswitch                                                            |
+| WiFi no se conecta             | SSID/Contraseña incorrecto            | Re-grabar la configuración de WiFi                                                                    |
+| Pago recibido pero nada sucede | ESP32 no conectado a WebSocket | Verificar registros de RESET                                                                      |
 
 ## Recursos
 

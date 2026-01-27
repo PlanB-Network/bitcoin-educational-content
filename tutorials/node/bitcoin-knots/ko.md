@@ -317,10 +317,11 @@ Bitcoin-QT의 Interface 그래픽을 통해서도 "*설정*" > "*옵션*"으로 
 그런 다음 Wallet 관리 소프트웨어(예: Sparrow wallet 또는 Liana)로 이동하여 쿠키 파일 경로를 입력합니다(운영 체제에 따라 일반적으로 `Bitcoin.conf`와 같은 폴더에 위치):
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -345,10 +346,11 @@ server=1
 파일을 편집한 후에는 운영 체제에 맞는 폴더에 저장해야 합니다:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 이 작업은 Bitcoin-QT의 Interface 그래픽을 통해서도 수행할 수 있습니다. "*설정*" 메뉴로 이동한 다음 "*옵션...*"으로 이동하여 해당 상자를 체크하여 "*RPC 서버 활성화*" 옵션을 활성화합니다. 'Bitcoin.conf' 파일이 없는 경우 "*구성 파일 열기*"를 클릭하여 이 Interface에서 직접 생성할 수 있습니다.
 

@@ -1,8 +1,8 @@
 question: Quel type d'erreur doit déclencher une panique dans les programmes Rust ?
-answer: Erreurs irrécupérables indiquant des erreurs de logique de programmation ou des états dangereux
+answer: Erreurs irrécupérables indiquant des erreurs de logique de programmation ou des états dangereux.
 wrong_answers:
-  - Échecs de connexion au réseau ou erreurs de dépassement de délai de la part de services externes
-  - Entrée utilisateur non valide ou fichiers de configuration manquants
-  - Erreurs de fichiers non trouvés ou exceptions de refus d'autorisation
+  - Échecs de connexion au réseau ou erreurs de dépassement de délai de la part de services externes.
+  - Entrée utilisateur non valide ou fichiers de configuration manquants.
+  - Erreurs de fichiers non trouvés ou exceptions de refus d'autorisation.
 explanation: |
   Les paniques doivent être réservées aux erreurs irrécupérables qui représentent des erreurs de programmation ou des situations où le programme est entré dans un état dangereux, comme les violations de limites de tableaux ou les problèmes de sécurité de la mémoire. Les mauvaises réponses décrivent toutes des erreurs récupérables - les pannes de réseau, les problèmes d'entrée utilisateur et les problèmes de système de fichiers sont des conditions attendues que les programmes doivent traiter avec élégance en utilisant des types de résultats plutôt que de se bloquer. Ces erreurs récupérables permettent aux programmes de continuer à fonctionner en mettant en œuvre des stratégies de gestion des erreurs appropriées.

@@ -1,8 +1,8 @@
-question: 谁在2010年7月18日，也就是比特币“大斜杠事件”一周后，创建了Mt. Gox交易平台？
+question: 谁在 2010 年 7 月 18 日，也就是比特币“巨大关注潮”一周后，创建了 Mt. Gox 交易平台？
 answer: Jed McCaleb
 wrong_answers:
   - Mark Karpelès
   - Martti Malmi
   - Gavin Andresen
 explanation: |
-  他“一时兴起”创建了这个高效的市场，意识到用美元兑换比特币有多困难（尤其是在Bitcoin Market上）。
+  他“一时兴起”创建了这个高效的市场，意识到用美元兑换比特币有多困难（尤其是在 Bitcoin Market 上）。

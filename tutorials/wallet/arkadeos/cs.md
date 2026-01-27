@@ -372,14 +372,15 @@ Abychom lépe pochopili pozici společnosti Arkade, porovnejme ji s dalšími dv
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Kritérium | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Model** | Sdílené UTXO koordinované serverem (ASP) | P2P síť platebních kanálů | Slepé tokeny vydávané bankou (Mint) |
+| **Custody** | **Non-custodial** (máte klíče) | **Non-custodial** (máte klíče) | **Custodial** (Mint drží prostředky) |
+| **Soukromí** | **Vysoké** (nativní CoinJoin, slepé pro veřejnost) | **Střední** (Onion routing, ale kanály jsou viditelné) | **Velmi vysoké** (slepé i pro Mint) |
+| **Škálovatelnost** | Excelentní (masivní batching on-chain) | Excelentní (nekonečné transakce off-chain) | Excelentní (jednoduché podpisy serveru) |
+| **Zkušenost** | Jednoduché (blízké on-chain peněžence) | Komplexní (správa kanálů, likvidita) | Velmi jednoduché (jako digitální hotovost) |
+| **Hlavní riziko** | Dostupnost ASP a expirace | Správa kanálů a zálohy | Důvěra v Mint (riziko krádeže) |
 
 **Arkade** je ideálním kompromisem: jednoduchost a důvěrnost Cashu, ale suverenita (bez vazby) Blesku.
 

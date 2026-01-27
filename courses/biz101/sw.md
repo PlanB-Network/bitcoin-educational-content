@@ -203,7 +203,7 @@ Kwa pamoja wanafanya ya Bitcoin kuwa **rasilimali inayomilikiwa** na sarafu ya k
 
 ![BIZ101](assets/sw/003.webp)
 
-Bitcoin ina sera ya fedha ya kudumu, na **kikomo cha bitcoins milioni 21 **, ambayo ~ milioni 19.8 tayari imesambazwa. Hii huifanya **kupungua bei**, huku thamani yake ikiongezeka kadiri watumiaji wanavyohifadhi akiba na faida za tija ndani yake.
+Bitcoin ina sera ya kifedha iliyowekwa, ikiwa na **kiwango cha juu cha bitcoin milioni 21**, ambapo ~milioni 19.8 (2024) tayari zimechimbwa. Hii inaifanya kuwa ya **deflationary**, huku thamani yake ikiongezeka kadiri muda unavyopita wakati watumiaji wanahifadhi akiba na faida za tija ndani yake.
 
 Vipengele vyake vya kiufundi vinapita zile za dhahabu na dola kwa pamoja, na kuifanya kuwa mali ngumu zaidi ya kifedha kuwahi kuundwa. Bitcoin ni duka la thamani na kati ya Exchange, sarafu inayotengenezwa. Hebu fikiria kuhamisha thamani kutoka hazina ya kampuni moja hadi nyingine kwa haraka, bila wapatanishi, kwa gharama ndogo, bila ulaghai, 24/7, na bila wahusika wengine wanaohusika.
 
@@ -215,7 +215,7 @@ Bitcoin inasumbua kwa sababu inatuhimiza kujifunza dhana katika hisabati, fiche,
 
 Bitcoin inatupa changamoto ya kufikiria upya asili ya pesa yenyewe. Unaweza kueleza pesa ni nini hasa? Mfanyakazi anayelipwa au mjasiriamali anaweza kutumia saa 50,000 hadi 100,000 za maisha yake kupata pesa, ilhali ni **ngapi hutenga hata saa 100 ili kuielewa vyema** na kuihifadhi? Bitcoin inatuhimiza kuhoji sababu za kimsingi nyuma ya hitaji letu la pesa na mtazamo wetu wa muda. Je, fedha ni kwa ajili ya anasa ya haraka au ustahimilivu wa muda mrefu? Ikiwa tungekuwa na kipengee cha thamani kinachoturuhusu kuchelewesha ununuzi, tungefanya maamuzi gani? Je, ni mazungumzo gani tungependa kuwa nayo na sisi wenyewe miaka 20 au 30 kutoka sasa?
 
-**KITAMBULISHO CHA BITCOIN**
+**KADI YA KITAMBULISHO YA BITCOIN (mnamo 2024)**
 
 - **Umri:** Miaka 15 (Januari 3, 2009)
 - **Thamani ya kila siku ya Exchange:** $10 bilioni (> CAC40)
@@ -295,7 +295,7 @@ Lightning Network ni bora kwa malipo ya Bitcoin katika maduka ya kimwili au ya m
 - **Mwisho:** Mara tu malipo yanapofanywa kwa Umeme, ni ya mwisho. Hakuna uwezekano wa kurudisha malipo kwa wahusika wengine au mizozo inayohusiana na ulaghai.
 - **Ada:** Ada za muamala kwenye Lightning Network ni ndogo na hulipwa na mtumiaji, si mfanyabiashara. Wauzaji hutozwa tu ada ikiwa baadaye watahitaji kuhamisha Bitcoin yao hadi mtandao au huduma nyingine.
 
-**KITAMBULISHO CHA LIGHTNING**
+**KADI YA KITAMBULISHO YA LIGHTNING (mnamo 2024)**
 
 
 - **Uvumbuzi:** 2015

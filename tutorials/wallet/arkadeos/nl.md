@@ -372,14 +372,15 @@ Om de positionering van Arkade beter te begrijpen, vergelijken we het met de and
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Criterium | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Model** | Gedeelde UTXO gecoördineerd door server (ASP) | P2P-netwerk van betalingskanalen | Blinde tokens uitgegeven door een bank (Mint) |
+| **Custodie** | **Non-custodial** (u heeft de sleutels) | **Non-custodial** (u heeft de sleutels) | **Custodial** (de Mint heeft de fondsen) |
+| **Privacy** | **Hoog** (Native CoinJoin, blind voor het publiek) | **Gemiddeld** (Onion routing, maar kanalen zichtbaar) | **Zeer hoog** (Blind zelfs voor de Mint) |
+| **Schaalbaarheid** | Uitstekend (Massale on-chain batching) | Uitstekend (Oneindige off-chain transacties) | Uitstekend (Eenvoudige server-handtekeningen) |
+| **Ervaring** | Eenvoudig (vergelijkbaar met on-chain wallet) | Complex (kanaalbeheer, liquiditeit) | Zeer eenvoudig (zoals digitaal contant geld) |
+| **Belangrijkste risico** | Beschikbaarheid ASP & Verloop | Kanaalbeheer & Backups | Vertrouwen in de Mint (risico op diefstal) |
 
 **Arkade** is het ideale compromis: de eenvoud en vertrouwelijkheid van Cashu, maar met de soevereiniteit (niet-vrijblijvend) van Lightning.
 

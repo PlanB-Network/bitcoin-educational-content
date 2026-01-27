@@ -201,7 +201,7 @@ Bersama-sama, mereka menjadikan Bitcoin sebagai **bearer asset** dan mata uang d
 
 ![BIZ101](assets/id/003.webp)
 
-Bitcoin memiliki kebijakan moneter yang tetap, dengan **cap 21 juta bitcoin**, dimana ~19,8 juta di antaranya telah didistribusikan. Hal ini menjadikannya **deflasi**, dengan nilainya yang meningkat dari waktu ke waktu karena pengguna menyimpan tabungan dan keuntungan produktivitas di dalamnya.
+Bitcoin memiliki kebijakan moneter tetap, dengan **maksimum 21 juta bitcoin**, di mana ~19,8 (2024) juta di antaranya telah ditambang. Hal ini membuatnya menjadi **deflasiner**, di mana nilainya meningkat seiring waktu karena pengguna menyimpan tabungan dan keuntungan produktivitas di dalamnya.
 
 Fitur teknisnya melebihi emas dan dolar, menjadikannya aset keuangan paling sulit yang pernah diciptakan. Bitcoin adalah penyimpan nilai dan alat tukar, sebuah mata uang yang sedang dibuat. Bayangkan mentransfer nilai dari satu perusahaan ke perusahaan lain dengan cepat, tanpa perantara, dengan biaya minimal, tanpa penipuan, 24/7, dan tanpa pihak ketiga yang terlibat.
 
@@ -213,7 +213,7 @@ Bitcoin bersifat disruptif karena mendorong kita untuk mempelajari konsep-konsep
 
 Bitcoin menantang kita untuk mempertimbangkan kembali sifat uang itu sendiri. Dapatkah Anda menjelaskan apa sebenarnya uang itu? Seorang pekerja atau pengusaha yang digaji mungkin menghabiskan 50.000 hingga 100.000 jam dalam hidupnya untuk mendapatkan uang, namun berapa banyak yang mendedikasikan 100 jam untuk memahaminya dengan lebih baik **dan melestarikannya?** Bitcoin mendorong kita untuk mempertanyakan alasan mendasar di balik kebutuhan kita akan uang dan perspektif kita yang bersifat sementara. Apakah uang untuk kemewahan sesaat atau ketahanan jangka panjang? Jika kita memiliki aset yang dapat dihargai yang memungkinkan kita untuk menunda pembelian, pilihan apa yang akan kita ambil? Percakapan apa yang ingin kita lakukan dengan diri kita sendiri 20 atau 30 tahun dari sekarang?
 
-**KARTU IDENTITAS BITCOIN**
+**KARTU IDENTITAS BITCOIN (pada tahun 2024)**
 
 
 - **Usia:** 15 tahun (3 Januari 2009)
@@ -298,7 +298,7 @@ Lightning Network sangat ideal untuk pembayaran Bitcoin di toko fisik atau onlin
 - **Finalitas:** Setelah pembayaran dilakukan di Lightning, pembayaran bersifat final. Tidak ada kemungkinan tolak bayar oleh pihak ketiga atau sengketa terkait penipuan.
 - **Biaya:** Biaya transaksi di Lightning Network sangat minim dan dibayarkan oleh pengguna, bukan pedagang. Pedagang hanya akan dikenakan biaya jika mereka kemudian perlu mentransfer Bitcoin mereka ke jaringan atau layanan lain.
 
-**KARTU IDENTITAS KILAT**
+**KARTU IDENTITAS LIGHTNING (pada tahun 2024)**
 
 
 - **Penemuan:** 2015

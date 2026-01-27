@@ -75,17 +75,18 @@ https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| 特性                                      | 値                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| ハッシュレート                                      | 6 Th/s +- 5%                                            |
+| 消費電力                               | 140 W                                                   |
+| ノイズ                                                | 30 - 40 dB                                              |
+| 出力空気温度範囲                 | 60-70°C (周囲温度25°C)                |
+| 使用のための周囲温度要件 | -5～30°C                                            |
+| デバイス入力電圧範囲                         | 28V 5A連続                                          |
+| アダプター入力電圧範囲                       | 110-240V AC 50/60Hz                                     |
+| デバイスサイズ                                 | 長さ: 205 mm / 幅: 115 mm / 高さ: 58.5 mm |
+| デバイスの重量                                  | 0.86 kg                                                 |
 
 ## 電源投入とローカルネットワークへの接続
 

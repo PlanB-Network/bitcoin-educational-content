@@ -554,13 +554,14 @@ Model bisnis Ente didasarkan pada layanan Ente Photos berbayar, yang memungkinka
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Aplikasi              | Sumber Terbuka | Cadangan Cloud | E2EE | Sinkronisasi Multi-perangkat | Platform                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (tanpa E2EE)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(aplikasi desktop dihapus Agustus 2024)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(baru, kurang mapan)*              |
 
 Ente Auth menonjol sebagai salah satu dari sedikit solusi yang menggabungkan semua keunggulan: transparansi kode sumber, pencadangan awan terenkripsi, dan sinkronisasi lintas platform.
 

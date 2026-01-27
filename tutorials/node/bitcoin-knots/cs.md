@@ -212,13 +212,14 @@ Po provedení těchto změn nezapomeňte restartovat software.
 
 Poté přejděte do softwaru pro správu portfolia (např. Sparrow Wallet nebo Liana) a zadejte cestu k souboru cookie, který se obvykle nachází ve stejné složce jako soubor `Bitcoin.conf`, v závislosti na operačním systému:
 
-|**macOS**|~/Library/Application Support/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -236,13 +237,14 @@ server=1
 
 Po úpravě souboru se ujistěte, že jste jej uložili do příslušné složky operačního systému:
 
+
+
+
+
 |**macOS**|~/Library/Application Support/Bitcoin|
-
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Tuto operaci lze provést také prostřednictvím grafiky Bitcoin-QT Interface. Přejděte do nabídky "*Nastavení*", poté "*Možnosti...*" a aktivujte možnost "*Povolit server RPC*" zaškrtnutím příslušného políčka. Pokud soubor `Bitcoin.conf` neexistuje, můžete jej vytvořit přímo z tohoto Interface kliknutím na "*Otevřít konfigurační soubor*".
 

@@ -122,16 +122,17 @@ https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| विशेषता                                      | मूल्य                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
-| Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| हैशरेट                                             | 37.5 Th/s +- 5%                                           |
+| विद्युत खपत                              | 800 W                                                     |
+| शोर                                                | 35-55 dB                                                  |
+| आउटपुट हवा का तापमान                       | 60-70°C (परिवेश तापमान 25°C पर)                  |
+| उपयोग के लिए परिवेश तापमान आवश्यकताएं | -5° C - 40°C                                              |
+| डिवाइस इनपुट वोल्टेज रेंज                         | 110V-240V AC 50/60Hz                                      |
+| मशीन का आकार                                 | लंबाई: 760 मिमी / गहराई: 104 मिमी / ऊंचाई: 214.5 मिमी |
+| मशीन का वजन                                  |  8.35 kg                                                  |
 
 ## Mining pool से कनेक्ट करना
 

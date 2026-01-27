@@ -3,6 +3,6 @@ answer: RUST_BACKTRACE
 wrong_answers:
   - RUST_STACKTRACE
   - RUST_DEBUG_TRACE
-  - RUST_PANIC_TRACE
+  - RUST_PANIC_TRACE 
 explanation: |
   RUST_BACKTRACE est la variable d'environnement correcte qui fournit des informations de débogage supplémentaires en affichant la pile d'appels complète qui a conduit à une panique. Cela permet aux développeurs de savoir exactement quelle séquence d'appels de fonction a provoqué l'erreur. Les autres options (RUST_STACKTRACE, RUST_DEBUG_TRACE et RUST_PANIC_TRACE) ne sont pas des variables d'environnement Rust valides et ne produiront aucune sortie de débogage en cas de panique.

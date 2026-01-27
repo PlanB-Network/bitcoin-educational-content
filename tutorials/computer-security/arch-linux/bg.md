@@ -265,20 +265,22 @@ cfdisk /dev/nom-du-disque
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Точка на монтиране в инсталираната система | Раздел                 | Тип на раздел       | Препоръчан размер |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI системен раздел   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Пространство за размяна (swap) | Поне 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 root (/) | Остатък от диска |
 
 - В BIOS
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Точка на монтиране в инсталираната система | Раздел           | Тип на раздел       | Препоръчан размер |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Пространство за размяна (swap) | Поне 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Остатък от диска |
 
 ![0_10](assets/fr/10.webp)
 

@@ -147,11 +147,12 @@ Sinun on otettava huomioon OPNsensen käyttämiseen tarvittavat laitteistoresurs
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Ominaisuudet | Minimi | Suositus |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Prosessori | 1 GHz - 2 ydintä | 1.5 GHz - Moniydin |
+| Muisti (RAM) | 2 GB | 8 GB |
+| Tallennustila järjestelmälle | Kovalevy, SSD tai SD-kortti (4 GB) | 120 GB SSD:llä |
 
 Lopuksi, **resurssivaatimukset riippuvat ennen kaikkea hallinnoitavien yhteyksien määrästä** ja siten **kaistanleveysvaatimuksista**. Lisäksi on **pidettävä mielessä aktivoitavat ja käytettävät palvelut** (välityspalvelin, tunkeutumisen havaitseminen jne...), sillä ne voivat vaatia paljon suorittimen ja/tai RAM-muistia.
 

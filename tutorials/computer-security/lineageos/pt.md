@@ -685,13 +685,14 @@ Estas actualizações regulares são um trunfo importante, especialmente para os
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Aspecto** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Compatibilidade** | Apenas Pixels | Centenas de dispositivos |
+| **Segurança** | Mitigações avançadas | Segurança padrão AOSP |
+| **Google Play** | Sandboxing opcional | Instalação clássica possível |
+| **Instalação** | Interface web + USB | Procedimento manual técnico |
+| **Filosofia** | Segurança acima de tudo | Equilíbrio e liberdade de escolha |
 
 ### Recomendações de utilização
 

@@ -255,12 +255,13 @@ be-BOP iragufasha kwemera amahera ya Bitcoin ataco uhinduye kuri Blockchain (On-
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Umwanya                  | Isobanuzo                                               | Urugero Rw'Ukurangi                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Ubwoko bw'aderesisinganya bukoreshwa                               | BIP84 (kuri aderesi mu buryo bw'bech32 bijya mu `bc1`) |
+| **Imboneza Ryubwenge Rwitungurangira** | Zpub yacu (canke Xpub ukurikije ibikira byakoreshejwe)        | `zpub...` (iyatandukanye mu bicira bya Bitcoin) |
+| **Derivation Index**   | Inshuro y'itangira kugirango habeho aderesi         | `1`                                              |
+| **Mempool URL**        | URL ya serivisi ya mempool ikoreshwa mu gukurura ibigori | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -849,12 +850,13 @@ Iki gice kigena **aho** n'ingene** igicuruzwa gishobora kurabwa no kugurwa:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platform        | Igicuruzwa Kiragira | Irashobora Kongeza mu Gupisiro |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (urubuga rwa popu)        | ✔️              | ✔️                  |
+| Retail POS (aho ahagurishijwe)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (kugurishwa kuva kuri bot)  | ✔️              | ✔️                  |
 
 Suzuma gusa imirongo wipfuza gukoresha.
 
@@ -1024,14 +1026,15 @@ Koresha **amakode magufi** mu birimwo kuri paji zawe za CMS:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Icyo Mukama Yapaye                 | Ikirango cy'Ubwinjijwe                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Kwerekeza ibicuruzwa      | `[Product=slug?display=img-1]`        |
+| Kwerekeza ishusho       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Kwinjiza igikoresho cy'Ubwinjijwe       | `[Slider=slug?autoplay=3000]`         |
+| Kongeza ishingiro     | `[Challenge=slug]`                    |
+| Kongeza ubwayo-ubwayo | `[Countdown=slug]`                 |
+| Kwinjiza Ikirango   | `[Form=slug]`                         |
 
 **Ivyagezwe ubu**:
 
@@ -1813,14 +1816,15 @@ Icapa:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Ibikorwa                         | Insobanuro                                             |
+|----------------------------------|---------------------------------------------------------|
+| Urwego rw'ibicuruzwa                         | Rwaciye kuva kuri ARM                                         |
+| Inzira y'iyambere             | `/pos` canke `/pos/touch`                                 |
+| Igiceri cy'umukozi (Icara 2)       | `/pos/session`                                         |
+| Ikipimo                         | Amafaranga, ikarite, Lightning n'ibindi                         |
+| Kongeza ibicuruzwa                    | Izina ry'inzira canke gukurura igiceri                              |
+| Ikinini / Impitanzito                    | Hamwe n'ibyakozwe na nyir'inama              |
 
 Murakoze gukurikira neza iyi nyigisho.

@@ -211,11 +211,12 @@ Bitcoin saatmiseks:
 4. Valige tehingu kiirus:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Kiirus   | Ligikaudne kinnitusaeg | Tasude tase     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Aeglane**    | ~120 minutit              | Madalaim
+| **Vaikimisi** | ~60 minutit               | Keskmise
+| **Kiire**    | ~20 minutit               | Kõrgem
 
 5. Kinnitage oma 4-kohaline PIN-kood → tehing on eetrisse saadetud
 
@@ -251,12 +252,13 @@ Lisateave Replace-by-fee (RBF) kohta: https://bitcoinops.org/en/topics/replace-b
 (99 % kasutajatest ei tee seda kunagi - 12-sõnalisest passphrase-st piisab)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Olukord                                      | Miks teil on vaja privaatset võtit                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Vana paberrahahoidla puhastamine                   | Vahendite teisaldamine praegusesse rahakotti             |
+| Riistvara allkirjastajale importimine (nt Coldcard) | Võrguühenduseta allkirjastamiseks                              |
+| Hädaolukorras taastamine (kadunud seeme, kuid rakendus on endiselt avatud) | Müntide päästmine enne rakenduse kadumist           |
+| Tööriistade kasutamine, mis ei aktsepteeri seemefraase     | Mõned ainult jälgimisvõi allkirjastamise utiliidid             |
 
 ### Kuidas eksportida privaatseid võtmeid Coin Wallet abil
 
@@ -313,14 +315,16 @@ Coin Wallet järgib rangelt ametlikke Bitcoin standardeid, mida kasutavad peaaeg
 wallet saab generate ühe peavõti abil miljardeid aadresse rangelt määratletud järjekorras. Seetõttu näitavad samad 12 sõna, mis on sisestatud Electrum, Sparrow, Trezorisse, Ledger, BlueWalletisse jne, täpselt samu aadresse ja saldosid.
 
 
-** Coin-s kasutatud tuletõrjerajad Wallet Bitcoin jaoks**
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+**Coin Wallet-is Bitcoini jaoks kasutatavad tuletamise teed**
+
+| Aadressi tüüp              | Standard | Tuletamise tee       | Algab | Kommentaar                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| Omandolik SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Kaasaegne vorming, madalaim tasu           |
+| Pesastatud SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Ühilduvusumbrella vanale teenuste jaoks |
+| Pärand (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Vanin vorming, kõrgeim tasu          |
 
 Iga tee sees:
 

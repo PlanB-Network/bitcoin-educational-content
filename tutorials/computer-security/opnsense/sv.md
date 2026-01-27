@@ -147,11 +147,12 @@ Du måste ta hänsyn till de maskinvaruresurser som krävs för att köra OPNsen
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Funktioner | Minimum | Rekommendation |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Processor | 1 GHz - 2 kärnor | 1.5 GHz - Multi-core |
+| RAM | 2 GB | 8 GB |
+| Lagringsutrymme för systemet | Hårddisk, SSD eller SD-kort (4 GB) | 120 GB på SSD |
 
 Slutligen beror **dina resurskrav framför allt på antalet anslutningar som ska hanteras**, och därmed på **dina bandbreddskrav**. Dessutom måste du **ha i åtanke de tjänster som kommer att aktiveras och användas** (proxy, intrångsdetektering, etc.) eftersom de kan vara CPU- och/eller RAM-krävande.
 

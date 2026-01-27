@@ -731,14 +731,15 @@ Address ได้มาจาก Public key ผ่าน “hashing algorithm”
 ผู้ดูแลระบบสามารถดูธุรกรรมที่เข้ามาและออกไปสำหรับ on-chain wallet ที่เชื่อมต่อกับร้านค้านี้ในมุมมองธุรกรรม แต่ละธุรกรรมจะมีความแตกต่างระหว่างจำนวนที่ได้รับและจำนวนที่ส่งออก จำนวนที่ได้รับจะเป็นสีเขียว และธุรกรรมที่ออกไปจะเป็นสีแดง ภายในมุมมองธุรกรรมของ BTCPay Server ผู้ดูแลระบบจะเห็นชุดของป้ายกำกับมาตรฐานด้วย
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| ประเภทธุรกรรม | คำอธิบาย                                         |
+| --------------- | ------------------------------------------------ |
+| แอป              | ได้รับการชำระเงินผ่านใบแจ้งหนี้ที่สร้างโดยแอป    |
+| ใบแจ้งหนี้       | ได้รับการชำระเงินผ่านใบแจ้งหนี้                 |
+| Payjoin          | ยังไม่ได้ชำระเงิน ตัวจับเวลาของใบแจ้งหนี้ยังไม่หมดอายุ |
+| Payjoin-เปิดเผย | UTXO ถูกเปิดเผยผ่านข้อเสนอ Payjoin ในใบแจ้งหนี้ |
+| คำขอชำระเงิน    | ได้รับการชำระเงินผ่านคำขอชำระเงิน               |
+| การจ่ายเงิน      | การชำระเงินถูกส่งผ่านการจ่ายเงินหรือการคืนเงิน |
 
 ### วิธีการส่ง
 
@@ -1808,28 +1809,30 @@ BTCPay Server ทำให้ง่ายขึ้นในการกรอก
 BTCPay Server ยังช่วยให้คุณสร้างฟอร์มในโค้ดได้อีกด้วย โดยเฉพาะ JSON แทนที่จะดูที่ตัวแก้ไข เจ้าของร้านสามารถคลิกที่ปุ่ม CODE ที่อยู่ถัดจากตัวแก้ไขและเข้าสู่โค้ดของฟอร์มของพวกเขาได้ ในการกำหนดฟิลด์ สามารถตั้งค่าได้เฉพาะฟิลด์ต่อไปนี้เท่านั้น; ค่าของฟิลด์จะถูกเก็บไว้ในเมตาดาต้าของใบแจ้งหนี้:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| ฟิลด์ | คำอธิบาย |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | หากเป็น true ต้องกำหนด .value ในนิยามของฟอร์ม และผู้ใช้จะไม่สามารถเปลี่ยนแปลงค่าของฟิลด์ได้ (ตัวอย่าง: เวอร์ชันของนิยามฟอร์ม) |
+| .fields.type | ประเภทอินพุต HTML: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | หาก .fields.type คือ select จะเป็นรายการค่าที่เลือกได้ |
+| .fields.options.text | ข้อความที่แสดงสำหรับตัวเลือกนี้ |
+| .fields.options.value | ค่าของฟิลด์หากเลือกตัวเลือกนี้ |
+| .fields.type=fieldset | สร้าง fieldset ของ HTML ครอบคลุมฟิลด์ลูก .fields.fields (ดูด้านล่าง) |
+| .fields.name | ชื่อคุณสมบัติ JSON ของฟิลด์ตามที่จะปรากฏในข้อมูลเมตาของใบแจ้งหนี้ |
+| .fields.value | ค่าเริ่มต้นของฟิลด์ |
+| .fields.required | หากเป็น true ฟิลด์นี้จำเป็นต้องกรอก |
+| .fields.label | ป้ายกำกับของฟิลด์ |
+| .fields.helpText | ข้อความเพิ่มเติมเพื่ออธิบายรายละเอียดของฟิลด์ |
+| .fields.fields | คุณสามารถจัดระเบียบฟิลด์ของคุณตามลำดับชั้น ซึ่งช่วยให้ฟิลด์ลูกสามารถซ้อนอยู่ภายในข้อมูลเมตาของใบแจ้งหนี้ได้ โครงสร้างนี้ช่วยให้คุณจัดระเบียบและจัดการข้อมูลที่รวบรวมได้ดีขึ้น ทำให้เข้าถึงและตีความได้ง่ายขึ้น ตัวอย่างเช่น หากคุณมีฟอร์มที่รวบรวมข้อมูลลูกค้า คุณสามารถจัดกลุ่มฟิลด์ภายใต้ฟิลด์หลักที่ชื่อว่า customer ภายในฟิลด์หลักนี้ คุณอาจมีฟิลด์ลูก เช่น name, Email และ address |
 
 ชื่อฟิลด์แสดงถึงชื่อคุณสมบัติ JSON ที่เก็บค่าที่ผู้ใช้ให้ไว้ในข้อมูลเมตาของใบแจ้งหนี้ ชื่อที่เป็นที่รู้จักกันดีบางชื่อสามารถตีความและแก้ไขเพื่อปรับการตั้งค่าของใบแจ้งหนี้ได้
 
 
-| Field name       | Description            |
+
+| ชื่อฟิลด์         | คำอธิบาย             |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | จำนวนเงินในใบแจ้งหนี้ |
+| invoice_currency | สกุลเงินของใบแจ้งหนี้ |
 
 คุณสามารถกรอกข้อมูลในฟิลด์ของใบแจ้งหนี้โดยอัตโนมัติโดยการเพิ่มสตริงการค้นหาไปยัง URL ของฟอร์ม เช่น "?your_field=value"
 
@@ -2279,7 +2282,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| บันทึกสำหรับ   | ชื่อคอนเทนเนอร์                    |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2470,21 +2474,22 @@ BTCPay Server มีคุณสมบัติระบบไฟล์ในเ
 ตารางด้านล่างนี้แสดงและอธิบายสถานะใบแจ้งหนี้มาตรฐานใน BTCPay พร้อมกับการดำเนินการที่แนะนำทั่วไป การดำเนินการเป็นเพียงคำแนะนำ ขึ้นอยู่กับผู้ใช้ในการกำหนดแนวทางการดำเนินการที่ดีที่สุดสำหรับกรณีการใช้งานและธุรกิจของตนเอง
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| สถานะใบแจ้งหนี้ | คำอธิบาย | การดำเนินการ |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | ยังไม่ชำระเงิน ตัวจับเวลาใบแจ้งหนี้ยังไม่หมดอายุ | ไม่มี |
+| New (paidPartial) | ชำระเงินแล้วแต่ไม่ครบ ตัวจับเวลาใบแจ้งหนี้ยังไม่หมดอายุ | ไม่มี |
+| Expired | ยังไม่ชำระเงิน ตัวจับเวลาใบแจ้งหนี้หมดอายุแล้ว | ไม่มี |
+| Expired (paidPartial) ** | ชำระเงินแล้วไม่ครบถ้วน และหมดอายุแล้ว | ติดต่อผู้ซื้อเพื่อจัดทำการคืนเงินหรือขอให้ชำระส่วนที่ค้าง เลือกทำเครื่องหมายใบแจ้งหนี้เป็น settled หรือ invalid ได้ |
+| Expired (paidLate) | ชำระเงินเต็มจำนวนหลังจากตัวจับเวลาใบแจ้งหนี้หมดอายุ | ติดต่อผู้ซื้อเพื่อคืนเงินหรือดำเนินการตามคำสั่งซื้อหากยอมรับการยืนยันที่ล่าช้าได้ |
+| Settled (paidOver) | ชำระเงินเกินจำนวนในใบแจ้งหนี้ ชำระเรียบร้อยแล้ว ได้รับการยืนยันเพียงพอแล้ว | ติดต่อผู้ซื้อเพื่อคืนเงินส่วนเกิน หรือรอให้ผู้ซื้อติดต่อมาเอง |
+| Processing | ชำระเต็มจำนวนแล้ว แต่ยังได้รับการยืนยันไม่เพียงพอตามที่กำหนดในตั้งค่าร้านค้า | ติดต่อผู้ซื้อเพื่อคืนเงินส่วนเกิน หรือรอให้ผู้ซื้อติดต่อมาเอง |
+| Processing (paidOver) | ชำระเกินจำนวนใบแจ้งหนี้ ยังได้รับการยืนยันไม่เพียงพอ | รอให้สถานะเป็น settled จากนั้นติดต่อผู้ซื้อเพื่อคืนเงินส่วนเกิน หรือรอให้ผู้ซื้อติดต่อมา |
+| Settled | ชำระเงินเต็มจำนวนแล้ว ได้รับการยืนยันในร้านค้าเพียงพอแล้ว | ดำเนินการตามคำสั่งซื้อ |
+| Settled (marked) | สถานะถูกเปลี่ยนด้วยตนเองเป็น settled จากสถานะ processing หรือ invalid | ผู้ดูแลร้านค้าได้ทำเครื่องหมายการชำระเงินเป็น settled |
+| Invalid* | ชำระเงินแล้ว แต่ไม่ได้รับการยืนยันที่เพียงพอภายในเวลาที่กำหนดในตั้งค่าร้านค้า | ตรวจสอบธุรกรรมบน blockchain explorer หากได้รับการยืนยันเพียงพอ ให้ทำเครื่องหมายเป็น settled |
+| Invalid (marked) | สถานะถูกเปลี่ยนด้วยตนเองเป็น invalid จากสถานะ settled หรือ expired | ผู้ดูแลร้านค้าได้ทำเครื่องหมายการชำระเงินเป็น invalid |
+| Invalid (paidOver) | ชำระเงินเกินจำนวน แต่ไม่ได้รับการยืนยันเพียงพอภายในเวลาที่กำหนดในตั้งค่าร้านค้า | ตรวจสอบธุรกรรมบน blockchain explorer หากได้รับการยืนยันเพียงพอ ให้ทำเครื่องหมายเป็น settled |
 
 #### รายละเอียด Invoice
 

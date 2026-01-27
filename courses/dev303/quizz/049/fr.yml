@@ -1,8 +1,8 @@
 question: Quel problème fondamental RC résout-il que Box ne peut pas gérer dans le système de propriété de Rust ?
-answer: Le RC permet la propriété multiple des mêmes données par le biais du comptage de références
+answer: Le RC permet la propriété multiple des mêmes données par le biais du comptage de références.
 wrong_answers:
-  - RC permet une allocation et une désallocation plus rapides de la mémoire que Box
-  - RC permet une gestion automatique de la mémoire sans surcharge d'exécution
-  - RC permet d'effectuer des contrôles d'emprunt au moment de la compilation, ce que Box ne peut pas faire
+  - RC permet une allocation et une désallocation plus rapides de la mémoire que Box.
+  - RC permet une gestion automatique de la mémoire sans surcharge d'exécution.
+  - RC permet d'effectuer des contrôles d'emprunt au moment de la compilation, ce que Box ne peut pas faire.
 explanation: |
-  RC (Reference Counter) répond spécifiquement aux limites du modèle de propriété unique de Box en permettant à plusieurs parties du code de partager simultanément la propriété des mêmes données. Box suit les règles de propriété traditionnelles selon lesquelles une seule entité peut posséder des données à la fois, ce qui rend impossible la création de scénarios tels que les structures de données partagées où plusieurs listes font référence à la même partie de la queue. RC maintient un compteur interne qui suit les références, s'incrémentant en cas de clonage et se décrémentant en cas d'abandon, ne libérant la mémoire que lorsque le compteur atteint zéro. Cela permet des schémas de partage de données flexibles tout en maintenant la sécurité de la mémoire, ce qui est fondamentalement différent de l'approche de propriété exclusive de Box.
+  RC (Reference Counted) répond spécifiquement aux limites du modèle de propriété unique de Box en permettant à plusieurs parties du code de partager simultanément la propriété des mêmes données. Box suit les règles de propriété traditionnelles selon lesquelles une seule entité peut posséder des données à la fois, ce qui rend impossible la création de scénarios tels que les structures de données partagées où plusieurs listes font référence à la même partie de la queue. RC maintient un compteur interne qui suit les références, s'incrémentant en cas de clonage et se décrémentant en cas d'abandon, ne libérant la mémoire que lorsque le compteur atteint zéro. Cela permet des schémas de partage de données flexibles tout en maintenant la sécurité de la mémoire, ce qui est fondamentalement différent de l'approche de propriété exclusive de Box.

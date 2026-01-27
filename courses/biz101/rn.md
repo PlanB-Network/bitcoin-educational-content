@@ -287,7 +287,7 @@ Ivyo vyose hamwe bihindura Bitcoin **umutungo w’umuntu wese ayifise ** n’ifa
 ![BIZ101](assets/rn/003.webp)
 
 
-Bitcoin ni  politike y’amahera idahinduka ( ishakamye ), ifise **irugezo  rwimiliyoni 21 za bitcoins**, muri yo imiriyoni igera kuri ~19.8 ziramaze gutangwa . Ivyo bituma **bitcoin iguma iduza agaciro kayo **, agaciro kayo kakarushirizaho uko igihe kigenda kirarenga uko abayikoresha bagenda bayizera babikamwo  amafaranga yabo yukuzigama n’inyungu z’umyimbu yabo.
+Bitcoin ifise ingingo y'amahera idahinduka, ifise **igitigiri ntarengwa c'izigera kuri miliyoni 21**, muri zo izishika miliyoni ~19,8 (2024) zaramaze gucukurwa. Ivyo bituma iba **iyigabanya agaciro k'ibintu**, aho agaciro kwayo kiyongera uko igihe kigenda kubera abantu babika uburyo n'inyungu z'ivyo bakoze muri yo.
 
 
 Ubwo buranga bwa bitcoin burenze kure na kure uburyo bwogukoresha inzahabu( uburyo bwa kera) n’idolari( amahera ya none) vyose hamwe, ivyo bikaba bituma iba umutungo w’amahera ukomeye cane utajegajega isi atari bwigere  irema . Bitcoin ni ububiko bw’agaciro kandi ni uburyo bwo bwoguhanahana amafaranga  , amafaranga ariko araza bukebuke ahindura amateka. Ibaze ko woshora kurungika ubutunzi  mu bubiko bw’ishirahamwe rimwe bukaja mu rindi vyihuta, ata bahuza ( akarorero amabanki), ku giciro gitoyi, ata busuma bubayemwo , amasaha 24 kuri 24 ,imisi 7 kuri 7 kandi atabutegetsi canke ishirahamwe kanaka ibigizemwo uruhara.
@@ -305,7 +305,7 @@ Bitcoin irahungabanya kuko idutera intege zo kwiga ivyiyumviro vyo mu biharuro, 
 Bitcoin iratuma  dusubiramwo kwihweza neza kamere ka faranga. Woba woshobora gusigura amahera ico ari co vy’ukuri? Umukozi ahembwa ku kwezi  canke uwikorera ivyiwe arashobora kumara amasaha 50.000 gushika ku 100.000 y’ubuzima bwiwe akorera  amahera, yamara ni bangahe **baheba  amasaha agera kwi 100 bariko biyumvira amahera ingene akora** ukuntu bayazigama? Bitcoin iduhamagarira  kwibaza imvo nyamukuru zituma dukenera amahera be n’ukuntu  tuyabona mugihe ca none no muri kazoza . Amahera yoba ari ikintu ciza cagaciro co kwishimira mwakokanya nyene  canke ni ayo kwihanganira  igihe kirekire? Iyo uzigamye ubutunzi bwawe ikiringo kanaka amahera(bitcoin) yawe araoduza agaciro uko imisi igenda iraza  bisigura ko umuntu azoba atomboye  murikazoza , ni amahitamwo ayahe twogira? Ni ibiyago ibihe twokwipfuza kugirana natwe ubwacu mu myaka 20 canke 30 ikurikira?
 
 
-**IKARITA ndaga ya bitcoin**
+**IKARANGAMUNTU YA BITCOIN (muri 2024)**
 
 
 - **Imyaka:** Imyaka 15 (3 Munyonyo 2009)
@@ -411,7 +411,7 @@ Lightning Network ni nziza cane ku kwishura Bitcoin mu maduka agaragara canke yo
 - **Amafaranga:** Amafaranga y'ugucuruza kuri Lightning Network ni make cane kandi arihwa n'uwukoresha, atari umucuruzi. Abacuruzi bariha amahera gusa iyo mu nyuma bakeneye kwimurira Bitcoin yabo ku yindi nzira canke ku yundi muhora .
 
 
-**IKARITA NDANGA YA LIGHTNING**
+**IKARANGAMUNTU YA LIGHTNING (muri 2024)**
 
 
 

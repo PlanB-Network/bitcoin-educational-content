@@ -1,7 +1,7 @@
 question: Wakati wa kufafanua violesura vya kupiga simu tena katika UniFFI, ni mipaka gani ya ziada ya sifa za Rust ambayo kwa kawaida huhitajika kwenye sifa ya kupiga simu tena ili kuhakikisha uombaji salama wa lugha mtambuka?
 answer: Mipaka ya Kutuma na Kusawazisha inahitajika kwa sababu miito ya kurudi nyuma inaweza kuvuka mipaka ya nyuzi kati ya Rust na lugha lengwa
 wrong_answers:
-  - Mipaka ya nakala na nakala inahitajika ili kuruhusu data ya simu kurudiwa kurudiwa katika mipaka ya lugha
+  - Mipaka ya nakala na nakala inahitajika ili kuruhusu data ya simu kurudiwa kila mara katika mipaka ya lugha
   - Mipaka ya utatuzi na Onyesho inahitajika ili kuwezesha kuripoti makosa sahihi wakati simu zinazorudishwa zinaposhindwa wakati wa utekelezaji
   - Mipaka ya kuweka mfululizo na kuondoa serial inahitajika ili kupanga vigezo vya kupiga simu tena kati ya nyakati tofauti za uendeshaji wa lugha
 explanation: |

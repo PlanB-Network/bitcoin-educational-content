@@ -486,14 +486,15 @@ Historisk sett baserte IPv4-systemet seg på et klassebasert system, merket fra 
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Klasse** | **IPv4-adresseområde**          | **Bruk**                    |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x til 126.x.x.x             | Unicast-adresser             |
+|           | (127.x.x.x reservert for loopback)| Lokal loopback               |
+| B         | 128.0.x.x til 191.255.x.x         | Unicast-adresser             |
+| C         | 192.0.0.x til 223.255.255.x       | Unicast-adresser             |
+| D         | 224.0.0.0 til 239.255.255.255     | IP Multicast                 |
+| E         | 240.0.0.0 til 255.255.255.255     | Reservert for eksperimentering |
 
 Ikke alle mulige verdier kan tilordnes verter. I en **klasse C** Address har for eksempel den siste byten 8 bits (256 verdier). Men to av disse er reservert:
 

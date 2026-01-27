@@ -486,14 +486,15 @@ Historisch gezien was het IPv4-systeem gebaseerd op een op klassen gebaseerd sch
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Klasse** | **IPv4-adresbereik**            | **Gebruik**                 |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x tot 126.x.x.x             | Unicast-adressen             |
+|           | (127.x.x.x gereserveerd voor loopback)| Lokale loopback         |
+| B         | 128.0.x.x tot 191.255.x.x         | Unicast-adressen             |
+| C         | 192.0.0.x tot 223.255.255.x       | Unicast-adressen             |
+| D         | 224.0.0.0 tot 239.255.255.255     | IP Multicast                 |
+| E         | 240.0.0.0 tot 255.255.255.255     | Gereserveerd voor experimenten |
 
 Niet alle mogelijke waarden kunnen aan hosts worden toegewezen. Bijvoorbeeld, in een **klasse C** Address biedt de laatste byte 8 bits (256 waarden). Maar twee daarvan zijn gereserveerd:
 

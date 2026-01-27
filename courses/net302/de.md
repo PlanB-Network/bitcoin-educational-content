@@ -486,14 +486,15 @@ In der Vergangenheit beruhte das IPv4-System auf einem klassenbasierten Schema, 
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Klasse** | **IPv4-Adressbereich**           | **Verwendung**               |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x bis 126.x.x.x             | Unicast-Adressen             |
+|           | (127.x.x.x für Loopback reserviert)| Lokaler Loopback             |
+| B         | 128.0.x.x bis 191.255.x.x         | Unicast-Adressen             |
+| C         | 192.0.0.x bis 223.255.255.x       | Unicast-Adressen             |
+| D         | 224.0.0.0 bis 239.255.255.255     | IP-Multicast                 |
+| E         | 240.0.0.0 bis 255.255.255.255     | Für Experimente reserviert   |
 
 Nicht alle möglichen Werte können den Hosts zugeordnet werden. Bei einem Address der **Klasse C** beispielsweise bietet das letzte Byte 8 Bits (256 Werte). Zwei davon sind jedoch reserviert:
 

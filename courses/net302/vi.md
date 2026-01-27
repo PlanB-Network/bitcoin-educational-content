@@ -486,14 +486,15 @@ Trước đây, hệ thống IPv4 dựa trên sơ đồ phân lớp, được đ
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Lớp** | **Phạm vi địa chỉ IPv4**          | **Mục đích sử dụng**         |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x đến 126.x.x.x             | Địa chỉ unicast              |
+|           | (127.x.x.x dành riêng cho loopback)| Loopback cục bộ           |
+| B         | 128.0.x.x đến 191.255.x.x         | Địa chỉ unicast              |
+| C         | 192.0.0.x đến 223.255.255.x       | Địa chỉ unicast              |
+| D         | 224.0.0.0 đến 239.255.255.255     | IP Multicast                 |
+| E         | 240.0.0.0 đến 255.255.255.255     | Dành riêng cho thử nghiệm    |
 
 Không phải tất cả các giá trị khả thi đều có thể được gán cho máy chủ. Ví dụ, trong **lớp C** Address, byte cuối cùng cung cấp 8 bit (256 giá trị). Tuy nhiên, hai trong số này được dành riêng:
 

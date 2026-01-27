@@ -423,14 +423,15 @@ Esta separación permite estructurar lógicamente la Internet global en muchas r
 
 Históricamente, el sistema IPv4 se basaba en un esquema de clases, etiquetadas de la A a la E, que definían el rango de direcciones y su uso previsto. Cada clase asignaba un número determinado de bits al _netid_ y al _hostid_, lo que afectaba directamente al número posible de redes y hosts.
 
-| **Clase** | **Rango de direcciones IPv4**            | **Uso**                    |
+
+| **Clase** | **Rango de direcciones IPv4**     | **Uso**                      |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x a 126.x.x.x              | Dirección unicast           |
-|           | (127.x.x.x Reservado para loopback) | Loopback local           |
-| B         | 128.0.x.x a 191.255.x.x          | Dirección unicast           |
-| C         | 192.0.0.x a 223.255.255.x        | Dirección unicast           |
-| D         | 224.0.0.0 a 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 a 255.255.255.255      | Reservado para experimentación |
+| A         | 1.x.x.x a 126.x.x.x               | Direcciones unicast          |
+|           | (127.x.x.x reservado para loopback)| Loopback local               |
+| B         | 128.0.x.x a 191.255.x.x           | Direcciones unicast          |
+| C         | 192.0.0.x a 223.255.255.x         | Direcciones unicast          |
+| D         | 224.0.0.0 a 239.255.255.255       | Multicast IP                 |
+| E         | 240.0.0.0 a 255.255.255.255       | Reservado para experimentación |
 
 No todos los valores posibles pueden asignarse a los hosts. Por ejemplo, en una dirección **clase C** , el último byte ofrece 8 bits (256 valores). Pero dos de ellos están reservados:
 

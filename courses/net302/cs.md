@@ -486,14 +486,15 @@ Historicky se systém IPv4 opíral o schéma založené na třídách s označen
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Třída** | **Rozsah IPv4 adres**            | **Použití**                  |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x až 126.x.x.x              | Unicast adresy               |
+|           | (127.x.x.x vyhrazeno pro loopback)| Lokální loopback             |
+| B         | 128.0.x.x až 191.255.x.x          | Unicast adresy               |
+| C         | 192.0.0.x až 223.255.255.x        | Unicast adresy               |
+| D         | 224.0.0.0 až 239.255.255.255      | IP Multicast                 |
+| E         | 240.0.0.0 až 255.255.255.255      | Vyhrazeno pro experimenty    |
 
 Hostitelům nelze přiřadit všechny možné hodnoty. Například v **třídě C** Address nabízí poslední bajt 8 bitů (256 hodnot). Dva z nich jsou však vyhrazeny:
 

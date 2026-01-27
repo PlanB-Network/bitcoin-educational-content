@@ -486,14 +486,15 @@ Historiskt sett har IPv4-systemet förlitat sig på ett klassbaserat system, mä
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Klass** | **IPv4-adressintervall**         | **Användning**              |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x till 126.x.x.x            | Unicast-adresser             |
+|           | (127.x.x.x reserverad för loopback)| Lokal loopback            |
+| B         | 128.0.x.x till 191.255.x.x        | Unicast-adresser             |
+| C         | 192.0.0.x till 223.255.255.x      | Unicast-adresser             |
+| D         | 224.0.0.0 till 239.255.255.255    | IP Multicast                 |
+| E         | 240.0.0.0 till 255.255.255.255    | Reserverad för experiment    |
 
 Värdena kan inte tilldelas alla möjliga värden. I en **klass C** Address erbjuder till exempel den sista byten 8 bitar (256 värden). Men två av dessa är reserverade:
 

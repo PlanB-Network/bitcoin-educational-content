@@ -486,14 +486,15 @@ Secara historis, sistem IPv4 bergantung pada skema berbasis kelas, diberi label 
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Kelas** | **Rentang Alamat IPv4**          | **Penggunaan**              |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x hingga 126.x.x.x          | Alamat unicast               |
+|           | (127.x.x.x dicadangkan untuk loopback)| Loopback lokal          |
+| B         | 128.0.x.x hingga 191.255.x.x      | Alamat unicast               |
+| C         | 192.0.0.x hingga 223.255.255.x    | Alamat unicast               |
+| D         | 224.0.0.0 hingga 239.255.255.255  | IP Multicast                 |
+| E         | 240.0.0.0 hingga 255.255.255.255  | Dicadangkan untuk eksperimen |
 
 Tidak semua nilai yang mungkin dapat ditetapkan ke host. Sebagai contoh, dalam **kelas C** Address, byte terakhir menawarkan 8 bit (256 nilai). Tetapi dua di antaranya dicadangkan:
 

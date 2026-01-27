@@ -486,14 +486,15 @@ Aikaisemmin IPv4-järjestelmä perustui luokkapohjaiseen järjestelmään, joka 
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Luokka** | **IPv4-osoitealue**              | **Käyttö**                  |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x – 126.x.x.x               | Unicast-osoitteet            |
+|           | (127.x.x.x varattu loopbackille)  | Paikallinen loopback         |
+| B         | 128.0.x.x – 191.255.x.x           | Unicast-osoitteet            |
+| C         | 192.0.0.x – 223.255.255.x         | Unicast-osoitteet            |
+| D         | 224.0.0.0 – 239.255.255.255       | IP Multicast                 |
+| E         | 240.0.0.0 – 255.255.255.255       | Varattu kokeiluihin          |
 
 Kaikkia mahdollisia arvoja ei voida määrittää isännille. Esimerkiksi **luokan C** Address:ssa viimeinen tavu tarjoaa 8 bittiä (256 arvoa). Näistä kaksi on kuitenkin varattu:
 

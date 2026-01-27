@@ -486,14 +486,15 @@ Historicamente, o sistema IPv4 assentava num esquema baseado em classes, rotulad
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Classe** | **Intervalo de endereços IPv4** | **Uso**                     |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x a 126.x.x.x               | Endereços unicast            |
+|           | (127.x.x.x reservado para loopback)| Loopback local              |
+| B         | 128.0.x.x a 191.255.x.x           | Endereços unicast            |
+| C         | 192.0.0.x a 223.255.255.x         | Endereços unicast            |
+| D         | 224.0.0.0 a 239.255.255.255       | IP Multicast                 |
+| E         | 240.0.0.0 a 255.255.255.255       | Reservado para experimentação |
 
 Nem todos os valores possíveis podem ser atribuídos aos anfitriões. Por exemplo, numa **classe C** Address, o último byte oferece 8 bits (256 valores). Mas dois deles estão reservados:
 

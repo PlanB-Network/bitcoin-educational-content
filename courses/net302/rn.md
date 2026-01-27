@@ -486,14 +486,15 @@ Mu mateka, ubuhinga bwa IPv4 bwari bwishingikirije ku mugambi ushingiye ku rwego
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Icyiciro** | **Urugero rwa aderesi IPv4**  | **Ikoreshwa**               |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x gushika 126.x.x.x         | Aderesi za unicast           |
+|           | (127.x.x.x yabikiwe loopback)     | Loopback yo hafi             |
+| B         | 128.0.x.x gushika 191.255.x.x     | Aderesi za unicast           |
+| C         | 192.0.0.x gushika 223.255.255.x   | Aderesi za unicast           |
+| D         | 224.0.0.0 gushika 239.255.255.255 | IP Multicast                 |
+| E         | 240.0.0.0 gushika 255.255.255.255 | Yabikiwe igerageza           |
 
 Si agaciro kose gashoboka gashobora guhabwa abashitsi. Nk’akarorero, mu **umugwi C** Address, byte ya nyuma itanga ibice 8 (agaciro 256). Ariko bibiri muri ivyo birabitswe:
 

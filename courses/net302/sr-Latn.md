@@ -484,14 +484,15 @@ Istorijski gledano, IPv4 sistem se oslanjao na šemu zasnovanu na klasama, ozna�
 
 
 
-| **Class** | **IPv4 opseg adresa **            | **Upotreba**                 |
+
+| **Klasa** | **Opseg IPv4 adresa**            | **Namena**                  |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast adrese               |
-|           | (127.x.x.x rezervisana za loopback)| Lokalna petlja (engl. local loopback)|
-| B         | 128.0.x.x to 191.255.x.x          | Unicast adrese               |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast adrese               |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Rezervisano za eksperimentisanje |
+| A         | 1.x.x.x do 126.x.x.x              | Unicast adrese               |
+|           | (127.x.x.x rezervisano za loopback)| Lokalni loopback          |
+| B         | 128.0.x.x do 191.255.x.x          | Unicast adrese               |
+| C         | 192.0.0.x do 223.255.255.x        | Unicast adrese               |
+| D         | 224.0.0.0 do 239.255.255.255      | IP Multicast                 |
+| E         | 240.0.0.0 do 255.255.255.255      | Rezervisano za eksperimentisanje |
 
 Nije moguće dodeliti sve moguće vrednosti hostovima. Na primer, u **klasi C** adresa, poslednji bajt nudi 8 bita (256 vrednosti). Ali dve od njih su rezervisane:
 

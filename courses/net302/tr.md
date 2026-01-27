@@ -486,14 +486,15 @@ Tarihsel olarak, IPv4 sistemi, Address aralığını ve kullanım amaçlarını 
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Sınıf** | **IPv4 Adres Aralığı**           | **Kullanım**                |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x ile 126.x.x.x             | Unicast adresler             |
+|           | (127.x.x.x loopback için ayrılmış)| Yerel loopback               |
+| B         | 128.0.x.x ile 191.255.x.x         | Unicast adresler             |
+| C         | 192.0.0.x ile 223.255.255.x       | Unicast adresler             |
+| D         | 224.0.0.0 ile 239.255.255.255     | IP Multicast                 |
+| E         | 240.0.0.0 ile 255.255.255.255     | Deneysel kullanım için ayrılmış |
 
 Tüm olası değerler ana bilgisayarlara atanamaz. Örneğin, bir **class C** Address'de, son bayt 8 bit (256 değer) sunar. Ancak bunlardan ikisi ayrılmıştır:
 

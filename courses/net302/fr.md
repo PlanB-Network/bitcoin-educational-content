@@ -297,14 +297,14 @@ Une adresse IP est structurée en deux parties distinctes : la première, appe
 
 Historiquement, le système IPv4 s’appuie sur un découpage en classes, notées de A à E, qui détermine l’étendue des plages d’adresses et leur usage. Chaque classe réserve un nombre défini de bits au _netid_ et au _hostid_, ce qui influe directement sur le nombre de réseaux et d’hôtes possibles.
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
-| --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| Classe | Plage d'adresses IPv4           | Utilisation                    |
+| :----- | :------------------------------ | :----------------------------- |
+| A      | 1.x.x.x à 126.x.x.x             | Adresses Unicast               |
+|        | (127.x.x.x réservé au loopback) | Boucle locale (loopback)       |
+| B      | 128.0.x.x à 191.255.x.x         | Adresses Unicast               |
+| C      | 192.0.0.x à 223.255.255.x       | Adresses Unicast               |
+| D      | 224.0.0.0 à 239.255.255.255     | Multicast IP                   |
+| E      | 240.0.0.0 à 255.255.255.255     | Réservé pour l'expérimentation |
 
 Il faut savoir que toutes les combinaisons binaires ne sont pas exploitables pour identifier des hôtes. Dans une adresse de **classe C**, par exemple, le dernier octet offre 8 bits, soit 256 valeurs possibles. Toutefois, deux d’entre elles ont une fonction spéciale : la valeur 0 désigne le réseau lui-même, tandis que 255 correspond à l’adresse de **diffusion** (_broadcast_), qui permet d’envoyer un paquet à tous les hôtes du réseau en une seule fois. Il reste donc 254 adresses réellement utilisables pour des machines.
 

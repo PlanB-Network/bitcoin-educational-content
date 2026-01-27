@@ -486,14 +486,15 @@ Ajalooliselt tugines IPv4-süsteem klassipõhisele skeemile, mis oli tähistatud
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Klass** | **IPv4-aadressivahemik**          | **Kasutus**                  |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x kuni 126.x.x.x            | Unicast-aadressid            |
+|           | (127.x.x.x reserveeritud loopback'iks)| Kohalik loopback        |
+| B         | 128.0.x.x kuni 191.255.x.x        | Unicast-aadressid            |
+| C         | 192.0.0.x kuni 223.255.255.x      | Unicast-aadressid            |
+| D         | 224.0.0.0 kuni 239.255.255.255    | IP Multicast                 |
+| E         | 240.0.0.0 kuni 255.255.255.255    | Reserveeritud katsetamiseks |
 
 Kõiki võimalikke väärtusi ei saa määrata hostidele. Näiteks **klassi C** Address puhul pakub viimane bait 8 bitti (256 väärtust). Kuid kaks neist on reserveeritud:
 

@@ -486,14 +486,15 @@ Kihistoria, mfumo wa IPv4 ulitegemea mpango wa msingi wa darasa, unaoitwa kutoka
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Darasa** | **Mfululizo wa Anwani za IPv4** | **Matumizi**                |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x hadi 126.x.x.x            | Anwani za unicast            |
+|           | (127.x.x.x imehifadhiwa kwa loopback)| Loopback ya ndani        |
+| B         | 128.0.x.x hadi 191.255.x.x        | Anwani za unicast            |
+| C         | 192.0.0.x hadi 223.255.255.x      | Anwani za unicast            |
+| D         | 224.0.0.0 hadi 239.255.255.255    | IP Multicast                 |
+| E         | 240.0.0.0 hadi 255.255.255.255    | Imehifadhiwa kwa majaribio   |
 
 Sio thamani zote zinazowezekana zinaweza kupewa wapangishaji. Kwa mfano, katika **darasa C** Address, byte ya mwisho inatoa bits 8 (maadili 256). Lakini mbili kati ya hizi zimehifadhiwa:
 

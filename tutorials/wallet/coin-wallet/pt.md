@@ -318,6 +318,8 @@ A partir de uma chave mestra, o wallet pode generate biliões de endereços numa
 
 
 
+**Caminhos de derivação usados em Coin Wallet para Bitcoin**
+
 | Tipo de endereço              | Padrão | Caminho de derivação       | Começa com | Comentário                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | SegWit Nativo (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Formato moderno, taxas mais baixas           |

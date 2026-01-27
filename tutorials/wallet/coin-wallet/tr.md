@@ -318,6 +318,8 @@ Tek bir ana anahtardan wallet, kesin olarak tanımlanmış bir sırayla milyarla
 
 
 
+**Coin Wallet'de Bitcoin için kullanılan türetme yolları**
+
 | Adres türü              | Standart | Türetme yolu       | Başlangıç | Yorum                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | Yerel SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, en düşük ücretler           |

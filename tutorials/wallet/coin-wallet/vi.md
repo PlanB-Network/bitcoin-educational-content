@@ -318,6 +318,8 @@ Từ một khóa chính duy nhất, wallet có thể truy cập hàng tỷ đị
 
 
 
+**Đường dẫn dẫn xuất được sử dụng trong Coin Wallet cho Bitcoin**
+
 | Loại địa chỉ              | Tiêu chuẩn | Đường dẫn dẫn xuất       | Bắt đầu bằng | Nhận xét                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | SegWit Gốc (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Định dạng hiện đại, phí thấp nhất           |

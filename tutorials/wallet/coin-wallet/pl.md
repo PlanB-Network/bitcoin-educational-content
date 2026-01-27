@@ -318,6 +318,8 @@ Z jednego klucza głównego wallet może generate miliardy adresów w ściśle o
 
 
 
+**Ścieżki pochodne używane w Coin Wallet dla Bitcoin**
+
 | Typ adresu              | Standard | Ścieżka pochodna       | Zaczyna się od | Komentarz                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | Natywny SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Nowoczesny format, najniższe opłaty           |

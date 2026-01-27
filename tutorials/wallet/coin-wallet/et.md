@@ -318,6 +318,8 @@ wallet saab generate ühe peavõti abil miljardeid aadresse rangelt määratletu
 
 
 
+**Coin Wallet-is Bitcoini jaoks kasutatavad tuletamise teed**
+
 | Aadressi tüüp              | Standard | Tuletamise tee       | Algab | Kommentaar                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | Omandolik SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Kaasaegne vorming, madalaim tasu           |

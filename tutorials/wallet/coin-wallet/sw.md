@@ -318,6 +318,8 @@ Kutoka kwa ufunguo mmoja mkuu, wallet inaweza kutoa anwani bilioni 82 za generat
 
 
 
+**Njia za utokaji zinazotumiwa katika Coin Wallet kwa Bitcoin**
+
 | Aina ya anwani              | Kiwango | Njia ya utokaji       | Huanza kwa | Maoni                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | SegWit ya Asili (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Muundo wa kisasa, ada za chini           |

@@ -318,6 +318,8 @@ Od jednog glavnog ključa wallet može generate milijarde adresa u strogo defini
 
 
 
+**Putanje derivacije korišćene u Coin Wallet za Bitcoin**
+
 | Tip adrese              | Standard | Putanja derivacije       | Počinje sa | Komentar                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | Prirodni SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Moderni format, najniže naknade           |

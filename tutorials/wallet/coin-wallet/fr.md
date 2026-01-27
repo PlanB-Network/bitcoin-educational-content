@@ -318,6 +318,8 @@ A partir d'une clé principale, le wallet peut generate des milliards d'adresses
 
 
 
+**Chemins de dérivation utilisés dans Coin Wallet pour Bitcoin**
+
 | Type d'adresse              | Norme | Chemin de dérivation       | Commence par | Commentaire                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | SegWit natif (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Format moderne, frais les plus bas           |

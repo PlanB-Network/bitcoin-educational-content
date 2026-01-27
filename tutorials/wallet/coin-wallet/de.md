@@ -318,6 +318,8 @@ Von einem Hauptschlüssel aus kann der wallet generate Milliarden von Adressen i
 
 
 
+**Ableitungspfade, die in Coin Wallet für Bitcoin verwendet werden**
+
 | Adresstyp              | Standard | Ableitungspfad       | Beginnt mit | Kommentar                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | Nativ SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modernes Format, niedrigste Gebühren           |

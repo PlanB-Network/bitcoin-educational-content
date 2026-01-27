@@ -318,6 +318,8 @@ Dari satu kunci utama, wallet dapat mengakses milyaran alamat dengan urutan yang
 
 
 
+**Jalur derivasi yang digunakan dalam Coin Wallet untuk Bitcoin**
+
 | Jenis alamat              | Standar | Jalur derivasi       | Dimulai dengan | Komentar                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | SegWit Asli (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Format modern, biaya terendah           |

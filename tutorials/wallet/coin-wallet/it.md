@@ -318,6 +318,8 @@ Da un'unica chiave master, il wallet è in grado di generate miliardi di indiriz
 
 
 
+**Percorsi di derivazione utilizzati in Coin Wallet per Bitcoin**
+
 | Tipo di indirizzo              | Standard | Percorso di derivazione       | Inizia con | Commento                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | SegWit nativo (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Formato moderno, commissioni più basse           |

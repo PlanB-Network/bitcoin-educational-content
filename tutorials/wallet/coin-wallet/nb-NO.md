@@ -318,6 +318,8 @@ Fra én hovednøkkel kan wallet generate milliarder av adresser i en strengt def
 
 
 
+**Derivasjonsbaner brukt i Coin Wallet for Bitcoin**
+
 | Adressetype              | Standard | Avledningsbane       | Starter med | Kommentar                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | Inneboende SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Moderne format, laveste gebyrer           |

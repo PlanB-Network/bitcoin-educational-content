@@ -318,6 +318,8 @@ Kuva ku rufunguzo rumwe rwa mbere, wallet irashobora generate amamiliyaridi y’
 
 
 
+**Inzira z'inzira zikoreshwa muri Coin Wallet kuri Bitcoin**
+
 | Ubwoko bwa mujyi              | Icyerekezo | Inzira y'inzira       | Bisubirwo | Ibigaragambwe                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | SegWit Nyamukuru (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Imiterere y'imbere, imfashabigambo ya hakoze           |

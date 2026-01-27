@@ -318,6 +318,8 @@ Yhdestä pääavaimesta wallet voi generate generate miljardeja osoitteita tarka
 
 
 
+**Coin Walletissa Bitcoinille käytetyt johtamispolut**
+
 | Osoitteen tyyppi              | Standardi | Johtamisen polku       | Alkaa | Kommentti                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | Natiivi SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Moderni muoto, alhaisimmat maksut           |

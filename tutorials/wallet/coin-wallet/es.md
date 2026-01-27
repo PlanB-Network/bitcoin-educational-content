@@ -318,6 +318,8 @@ A partir de una llave maestra, la wallet puede generate miles de millones de dir
 
 
 
+**Rutas de derivación utilizadas en Coin Wallet para Bitcoin**
+
 | Tipo de dirección              | Estándar | Ruta de derivación       | Comienza con | Comentario                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | SegWit nativo (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Formato moderno, tarifas más bajas           |

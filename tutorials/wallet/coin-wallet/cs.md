@@ -318,6 +318,8 @@ Z jednoho hlavního klíče wallet může generate získat miliardy adres v pře
 
 
 
+**Cesty derivace používané v Coin Wallet pro Bitcoin**
+
 | Typ adresy              | Standard | Cesta odvozování       | Začíná | Komentář                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | Nativní SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Moderní formát, nejnižší poplatky           |

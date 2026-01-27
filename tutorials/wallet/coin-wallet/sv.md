@@ -318,6 +318,8 @@ Från en huvudnyckel kan wallet generate miljontals adresser i en strikt definie
 
 
 
+**Derivationsstigar som används i Coin Wallet för Bitcoin**
+
 | Adresstyp              | Standard | Härleddningsväg       | Börjar med | Kommentar                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | Inbyggd SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lägsta avgifter           |

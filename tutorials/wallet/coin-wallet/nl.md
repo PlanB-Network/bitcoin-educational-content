@@ -318,6 +318,8 @@ Vanaf één hoofdsleutel kan de wallet generate miljarden adressen in een strikt
 
 
 
+**Afleidingspaden gebruikt in Coin Wallet voor Bitcoin**
+
 | Adrestype              | Standaard | Afleidingspad       | Begint met | Opmerking                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
 | Inheems SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern formaat, laagste kosten           |

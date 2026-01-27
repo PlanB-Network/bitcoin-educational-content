@@ -1872,37 +1872,38 @@ docker ps
 docker logs --tail 100 generated_btcpayserver_1
 ```
 
-| लॉग्स के लिए     | कंटेनर का नाम                    |
 
-| ------------ | -------------------------------- |
 
-| बीटीसीपे सर्वर | जनरेटेड_बीटीसीपे_सर्वर_१          |
 
-| एनबीएक्सप्लोरर    | जनरेटेड_एनबीएक्सप्लोरर_1             |
 
-| bitcoind     | बीटीसीपेसर्वर_बिटकॉइनडी             |
 
-| पोस्टग्रेस     | जनरेटेड_पोस्टग्रेस_1              |
 
-| प्रॉक्सी        | लेट्सएन्क्रिप्ट-एन्जिन्क्स-प्रॉक्सी-कम्पेनियन |
 
-| एन्गिन्क्स   | एन्गिन्क्स-जनरेशन               |
 
-| एन्गिन्क्स   | एन्गिन्क्स                         |
 
-| सी-लाइटनिंग  | बीटीसीपेसर्वर_सी-लाइटनिंग_बिटकॉइन   |
 
+
+
+
+
+
+
+| के लिए लॉग | कंटेनर का नाम                      |
+| ------------ | --------------------------------- |
+| BTCPayServer | generated_btcpayserver_1          |
+| NBXplorer    | generated_nbxplorer_1             |
+| Bitcoind     | btcpayserver_bitcoind             |
+| Postgres     | generated_postgres_1              |
+| proxy        | letsencrypt-nginx-proxy-companion |
+| Nginx        | nginx-gen                         |
+| Nginx        | nginx                             |
+| c-lightning  | btcpayserver_clightning_bitcoin   |
 | LND          | btcpayserver_lnd_bitcoin          |
-
-| दाएं से बाएं          | जनरेटेड_एलएनडी_बिटकॉइन_आरटीएल_1       |
-
-| थंडरहब   | जनरेटेड_बिटकॉइन_थब_1          |
-
-| लिब्रेपैट्रॉन  | लिब्रेपैट्रॉन                       |
-
-| टोर          | टोर-जन                           |
-
-| टोर          | टोर                               |
+| RTL          | generated_lnd_bitcoin_rtl_1       |
+| Thunderhub   | generated_bitcoin_thub_1          |
+| LibrePatron  | librepatron                       |
+| Tor          | tor-gen                           |
+| Tor          | tor                               |
 
 ###### जीडब्ल्यू-434 जीडब्ल्यू-435 - डॉकर
 

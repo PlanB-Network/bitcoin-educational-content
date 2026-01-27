@@ -2277,7 +2277,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logovi za    | Naziv kontejnera                  |
+
+| Logovi za     | Naziv kontejnera                   |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |

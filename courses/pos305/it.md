@@ -1592,7 +1592,8 @@ docker ps
 docker logs --tail 100 generated_btcpayserver_1
 ```
 
-| Log per      | Nome del Container                |
+
+| Registri per  | Nome del contenitore               |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |

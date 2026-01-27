@@ -1636,22 +1636,23 @@ docker ps
 docker logs --tail 100 generated_btcpayserver_1
 ```
 
-| Kumbukumbu za  | Jina la Chombo                      |
-| -------------- | ----------------------------------- |
-| BTCPayServer   | generated_btcpayserver_1            |
-| NBXplorer      | generated_nbxplorer_1               |
-| Bitcoind       | btcpayserver_bitcoind               |
-| Postgres       | generated_postgres_1                |
-| proxy          | letsencrypt-nginx-proxy-companion   |
-| Nginx          | nginx-gen                           |
-| Nginx          | nginx                               |
-| c-lightning    | btcpayserver_clightning_bitcoin     |
-| LND            | btcpayserver_lnd_bitcoin            |
-| RTL            | generated_lnd_bitcoin_rtl_1         |
-| Thunderhub     | generated_bitcoin_thub_1            |
-| LibrePatron    | librepatron                         |
-| Tor            | tor-gen                             |
-| Tor            | tor                                 |
+
+| Kumbukumbu   | Jina la kontena                    |
+| ------------ | --------------------------------- |
+| BTCPayServer | generated_btcpayserver_1          |
+| NBXplorer    | generated_nbxplorer_1             |
+| Bitcoind     | btcpayserver_bitcoind             |
+| Postgres     | generated_postgres_1              |
+| proxy        | letsencrypt-nginx-proxy-companion |
+| Nginx        | nginx-gen                         |
+| Nginx        | nginx                             |
+| c-lightning  | btcpayserver_clightning_bitcoin   |
+| LND          | btcpayserver_lnd_bitcoin          |
+| RTL          | generated_lnd_bitcoin_rtl_1       |
+| Thunderhub   | generated_bitcoin_thub_1          |
+| LibrePatron  | librepatron                       |
+| Tor          | tor-gen                           |
+| Tor          | tor                               |
 
 ###### Lightning Network LND - Docker
 

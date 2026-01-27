@@ -1659,37 +1659,38 @@ docker ps
 docker logs --tail 100 generated_btcpayserver_1
 ```
 
-| 容器名稱 | | 日誌
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| 日誌         | 容器名稱                           |
 | ------------ | --------------------------------- |
-
-| BTCPayServer | generated_btcpayserver_1 | BTCPayServer | 生成的 BTCPayServer_1
-
-| NBXplorer | generated_nbxplorer_1 | NBXplorer
-
-| bitcoind | btcpayserver_bitcoind | bitcoind
-
-| Postgres | generated_postgres_1 | Postgres_1
-
-| 代理權 | letsencrypt-nginx-proxy-companion | 代理權 | letsencrypt-nginx-proxy-companion |代理權
-
-| Nginx | nginx-gen | nginx-gen
-
-| Nginx | nginx |
-
-| c-lightning | btcpayserver_clightning_bitcoin | btcpayserver_clightning_bitcoin | btcpayserver_clightning_bitcoin
-
-| LND | btcpayserver_lnd_bitcoin | LND
-
-| RTL | generated_lnd_bitcoin_rtl_1 | 生成的比特币。
-
-| Thunderhub | generated_bitcoin_thub_1 | 生成的比特幣
-
-| LibrePatron | librepatron | | LibrePatron
-
-| Tor | tor-gen |
-
-| Tor | Tor |
+| BTCPayServer | generated_btcpayserver_1          |
+| NBXplorer    | generated_nbxplorer_1             |
+| Bitcoind     | btcpayserver_bitcoind             |
+| Postgres     | generated_postgres_1              |
+| proxy        | letsencrypt-nginx-proxy-companion |
+| Nginx        | nginx-gen                         |
+| Nginx        | nginx                             |
+| c-lightning  | btcpayserver_clightning_bitcoin   |
+| LND          | btcpayserver_lnd_bitcoin          |
+| RTL          | generated_lnd_bitcoin_rtl_1       |
+| Thunderhub   | generated_bitcoin_thub_1          |
+| LibrePatron  | librepatron                       |
+| Tor          | tor-gen                           |
+| Tor          | tor                               |
 
 ###### Lightning Network LND - Docker
 

@@ -75,17 +75,18 @@ https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| 特徵                                      | 值                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| 哈希率                                      | 6 Th/s +- 5%                                            |
+| 功耗                               | 140 W                                                   |
+| 噪音                                                | 30 - 40 dB                                              |
+| 出風口空氣溫度範圍                 | 60-70°C (環境溫度 25°C)                |
+| 使用環境溫度要求 | -5 至 30°C                                            |
+| 設備輸入電壓範圍                         | 28V 5A 連續                                          |
+| 適配器輸入電壓範圍                       | 110-240V AC 50/60Hz                                     |
+| 設備尺寸                                 | 長度: 205 毫米 / 寬度: 115 毫米 / 高度: 58.5 毫米 |
+| 設備重量                                  | 0.86 kg                                                 |
 
 ## 開啟電源並連線至本機網路
 

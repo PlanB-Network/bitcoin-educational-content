@@ -75,17 +75,18 @@ Aha hepfo hariho imbonerahamwe ivuga mu ncamake ubuhinga rusangi bwa Nano 3S :
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Ikintu                                      | Agaciro                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Igipimo cy'hash                                      | 6 Th/s +- 5%                                            |
+| Gukoresha amashanyalaze                               | 140 W                                                   |
+| Inzira                                                | 30 - 40 dB                                              |
+| Umfuruka w'ubushyuhe bw'umuyaga uvakire                 | 60-70°C (mugihe ubushyuhe bw'amasiga 25°C)                |
+| Ishingiro ry'ubushyuhe bw'amasiga kwa bijyane | -5 kugeza 30°C                                            |
+| Umfuruka w'intambiko z'igikoresho                         | 28V 5A neza                                          |
+| Umfuruka w'intambiko z'adapteri                       | 110-240V AC 50/60Hz                                     |
+| Ubunini bw'igikoresho                                 | Uburebure: 205 mm / Ubugari: 115 mm / Ubuhagarike: 58.5 mm |
+| Ibiro rw'igikoresho                                  | 0.86 kg                                                 |
 
 ## Gutanga umuriro no kwifatanya n'urubuga rw'aho hantu
 

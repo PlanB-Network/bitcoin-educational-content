@@ -75,17 +75,18 @@ Segue-se um quadro que resume as especificações técnicas gerais do Nano 3S :
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Característica                                      | Valor                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Taxa de hash                                      | 6 Th/s +- 5%                                            |
+| Consumo de energia                               | 140 W                                                   |
+| Ruído                                                | 30 - 40 dB                                              |
+| Intervalo de temperatura do ar de saída                 | 60-70°C (na temperatura ambiente 25°C)                |
+| Requisitos de temperatura ambiente para uso | -5 a 30°C                                            |
+| Intervalo de tensão de entrada do dispositivo                         | 28V 5A contínuo                                          |
+| Intervalo de tensão de entrada do adaptador                       | 110-240V AC 50/60Hz                                     |
+| Tamanho do dispositivo                                 | Comprimento: 205 mm / Largura: 115 mm / Altura: 58.5 mm |
+| Peso do dispositivo                                  | 0.86 kg                                                 |
 
 ## Ligar e estabelecer ligação à rede local
 

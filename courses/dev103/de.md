@@ -3952,12 +3952,13 @@ counter += 1 // dasselbe wie counter = counter + 1
 
 Hier sind die häufigsten:
 
-| Operator | Bedeutung                  |
-| -------- | ---------------------------|
-| `+=`     | addiere und weise zu       |
-| `-=`     | subtrahiere und weise zu   |
-| `*=`     | multipliziere und weise zu |
-| `/=`     | dividiere und weise zu     |
+
+| Operator | Bedeutung |
+| -------- | ------------------- |
+| `+=` | addieren und zuweisen |
+| `-=` | subtrahieren und zuweisen |
+| `*=` | multiplizieren und zuweisen |
+| `/=` | dividieren und zuweisen |
 
 Beispiele:
 

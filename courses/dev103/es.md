@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 He aquí los más comunes:
 
 
-| Operator | Meaning             |
+
+| Operador | Significado |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | sumar y asignar |
+| `-=` | restar y asignar |
+| `*=` | multiplicar y asignar |
+| `/=` | dividir y asignar |
 
 Ejemplos:
 

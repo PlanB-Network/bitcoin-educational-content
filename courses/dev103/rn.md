@@ -5031,12 +5031,13 @@ counter += 1 // same as counter = counter + 1
 Akira ivyo bikunze gukoreshwa cane:
 
 
-| Operator | Meaning             |
+
+| Ibimenyetso | Inyigisho |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | ongerako wongere uhebe |
+| `-=` | kurako wongere uhebe |
+| `*=` | gwiza wongere uhebe |
+| `/=` | gabura wongere uhebe |
 
 Ingero:
 

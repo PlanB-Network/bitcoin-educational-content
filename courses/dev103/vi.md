@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 Sau đây là những điều phổ biến nhất:
 
 
-| Operator | Meaning             |
+
+| Toán tử | Ý nghĩa |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | cộng và gán |
+| `-=` | trừ và gán |
+| `*=` | nhân và gán |
+| `/=` | chia và gán |
 
 Ví dụ:
 

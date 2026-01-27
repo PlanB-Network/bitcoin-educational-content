@@ -5025,12 +5025,13 @@ counter += 1 // same as counter = counter + 1
 Voici les doubles opérations les plus courantes :
 
 
-| Operator | Meaning             |
-| -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+
+| Opérateur | Signification          |
+| --------- | ---------------------- |
+| `+=`      | ajouter et assigner    |
+| `-=`      | soustraire et assigner |
+| `*=`      | multiplier et assigner |
+| `/=`      | diviser et assigner    |
 
 Exemples :
 

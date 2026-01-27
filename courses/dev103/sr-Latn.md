@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 Evo najčešćih:
 
 
-| Operator | Meaning             |
+
+| Operator | Značenje |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | saberi i dodeli |
+| `-=` | oduzmi i dodeli |
+| `*=` | pomnoži i dodeli |
+| `/=` | podeli i dodeli |
 
 Primeri:
 

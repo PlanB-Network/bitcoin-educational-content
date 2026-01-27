@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 Siin on kõige levinumad:
 
 
-| Operator | Meaning             |
+
+| Operaator | Tähendus |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | liida ja omista |
+| `-=` | lahuta ja omista |
+| `*=` | korruta ja omista |
+| `/=` | jaga ja omista |
 
 Näited:
 

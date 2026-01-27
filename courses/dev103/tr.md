@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 İşte en yaygın olanları:
 
 
-| Operator | Meaning             |
+
+| Operatör | Anlam |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | topla ve ata |
+| `-=` | çıkar ve ata |
+| `*=` | çarp ve ata |
+| `/=` | böl ve ata |
 
 Örnekler:
 

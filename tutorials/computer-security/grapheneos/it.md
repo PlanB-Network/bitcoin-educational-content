@@ -245,8 +245,6 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) offre un'esperienza di YouTube senza i fastidiosi annunci e le autorizzazioni discutibili. Con NewPipe è possibile iscriversi a canali, ascoltare in background e anche scaricare per la visualizzazione offline. NewPipe è accessibile tramite F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) è un podcast player che ti permette di iscriverti e gestire tutti i tuoi podcast preferiti. AntennaPod è disponibile tramite F-Droid.
 
-![image](assets/it/11.webp)
-
 _Immagine di Spotube_
 
 ### Mappe

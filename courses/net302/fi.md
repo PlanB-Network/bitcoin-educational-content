@@ -968,13 +968,14 @@ Alun perin IPv4-verkot jaettiin viiteen **luokkaan**: (A, B, C, D ja E). Kukin l
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Luokka | Johtavat bitit | Ensimmäisen tavun alue | Oletusverkon peite | Tarkoitus                      |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Erittäin suuret verkot           |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Keskikokoiset verkot             |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Pienet verkot                    |
+| D     | 1110         | 224 – 239        | Ei sovelleta        | Multicast-osoitteet              |
+| E     | 1111         | 240 – 255        | Ei sovelleta        | Kokeellinen (ei julkisessa käytössä) |
 
 Erityispuheenvuorot:
 

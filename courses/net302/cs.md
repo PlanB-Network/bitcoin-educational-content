@@ -968,13 +968,14 @@ Původně byly sítě IPv4 rozděleny do pěti **tříd**: (A, B, C, D a E). Ka�
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Třída | Úvodní bity | Rozsah prvního bajtu | Výchozí maska podsítě | Účel                           |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Velmi velké sítě                 |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Středně velké sítě               |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Malé sítě                        |
+| D     | 1110         | 224 – 239        | N/A                 | Multicastové adresy              |
+| E     | 1111         | 240 – 255        | N/A                 | Experimentální (neveřejně používané) |
 
 Zvláštní adresy:
 

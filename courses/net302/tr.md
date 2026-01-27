@@ -968,13 +968,14 @@ Başlangıçta, IPv4 ağları beş **sınıfa** ayrılmıştır: (A, B, C, D ve 
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Sınıf | Öncü Bitler | İlk Bayt Aralığı | Varsayılan Alt Ağ Maskesi | Amaç                          |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Çok büyük ağlar                  |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Orta ölçekli ağlar               |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Küçük ağlar                      |
+| D     | 1110         | 224 – 239        | Uygulanamaz          | Multicast adresleri              |
+| E     | 1111         | 240 – 255        | Uygulanamaz          | Deneysel (genel kullanımda değil) |
 
 Özel Adresler:
 

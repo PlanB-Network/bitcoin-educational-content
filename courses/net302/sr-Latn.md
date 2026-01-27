@@ -966,13 +966,14 @@ Prvobitno su IPv4 mreže bile podeljene u pet **klasa**: (A, B, C, D i E). Svaka
 
 
 
-| Klasa | Vodeći bitovi| Raspon prvog bajta | Podrazumevana Subnet Maska | Svrha                   |
+
+| Klasa | Vodeći bitovi | Opseg prvog bajta | Podrazumevana maska podmreže | Svrha                         |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
 | A     | 0            | 0 – 127          | 255.0.0.0           | Veoma velike mreže               |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Srednje mreže                    |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Mreže srednje veličine           |
 | C     | 110          | 192 – 223        | 255.255.255.0       | Male mreže                       |
 | D     | 1110         | 224 – 239        | N/A                 | Multicast adrese                 |
-| E     | 1111         | 240 – 255        | N/A                 | Eksperimentalne (nije u javnoj upotrebi) |
+| E     | 1111         | 240 – 255        | N/A                 | Eksperimentalno (ne koristi se javno) |
 
 Specijalne adrese:
 

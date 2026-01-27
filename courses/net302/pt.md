@@ -972,13 +972,14 @@ Originalmente, as redes IPv4 estavam divididas em cinco **classes**: (A, B, C, D
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Classe | Bits iniciais | Intervalo do primeiro byte | Máscara de sub-rede padrão | Finalidade                    |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Redes muito grandes              |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Redes de médio porte             |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Redes pequenas                   |
+| D     | 1110         | 224 – 239        | N/A                 | Endereços multicast              |
+| E     | 1111         | 240 – 255        | N/A                 | Experimental (não usado publicamente) |
 
 Endereços especiais:
 

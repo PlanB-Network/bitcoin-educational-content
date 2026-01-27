@@ -968,13 +968,14 @@ Ursprungligen var IPv4-nätverk indelade i fem **klasser**: (A, B, C, D och E). 
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Klass | Inledande bitar | Första byte-intervall | Standardnätmask | Syfte                           |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Mycket stora nätverk             |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Medelstora nätverk               |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Små nätverk                      |
+| D     | 1110         | 224 – 239        | Ej tillämpligt      | Multicast-adresser               |
+| E     | 1111         | 240 – 255        | Ej tillämpligt      | Experimentell (inte offentligt använd) |
 
 Särskilda adresser:
 

@@ -968,13 +968,14 @@ Ban đầu, mạng IPv4 được chia thành năm **lớp**: (A, B, C, D và E).
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Lớp | Bit dẫn đầu | Phạm vi byte đầu tiên | Mặt nạ mạng con mặc định | Mục đích                      |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Mạng rất lớn                     |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Mạng cỡ trung                    |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Mạng nhỏ                         |
+| D     | 1110         | 224 – 239        | Không áp dụng        | Địa chỉ multicast                |
+| E     | 1111         | 240 – 255        | Không áp dụng        | Thử nghiệm (không dùng công khai) |
 
 Địa chỉ đặc biệt:
 

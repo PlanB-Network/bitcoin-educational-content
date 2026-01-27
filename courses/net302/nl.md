@@ -968,13 +968,14 @@ Oorspronkelijk waren IPv4-netwerken onderverdeeld in vijf **klassen**: (A, B, C,
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Klasse | Leidende bits | Bereik van eerste byte | Standaard subnetmasker | Doel                           |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Zeer grote netwerken             |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Middelgrote netwerken            |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Kleine netwerken                 |
+| D     | 1110         | 224 – 239        | N.v.t.              | Multicast-adressen               |
+| E     | 1111         | 240 – 255        | N.v.t.              | Experimenteel (niet openbaar gebruikt) |
 
 Speciale adressen:
 

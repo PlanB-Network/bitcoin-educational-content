@@ -575,13 +575,13 @@ Dans les débuts d’IPv4, les réseaux étaient organisés en **classes** (A, B
 - Classe D : adresses réservées à la multidiffusion (_multicast_)
 - Classe E : adresses expérimentales, non utilisées pour l’adressage classique
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
-| ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| Classe | Bits de tête | Plage du premier octet | Masque de sous-réseau par défaut | Objectif                                |
+| ------ | ------------ | ---------------------- | -------------------------------- | --------------------------------------- |
+| A      | 0            | 0 – 127                | 255.0.0.0                        | Réseaux très étendus                    |
+| B      | 10           | 128 – 191              | 255.255.0.0                      | Réseaux de taille moyenne               |
+| C      | 110          | 192 – 223              | 255.255.255.0                    | Petits réseaux                          |
+| D      | 1110         | 224 – 239              | N/A                              | Adresses multicast                      |
+| E      | 1111         | 240 – 255              | N/A                              | Expérimental (non utilisé publiquement) |
 
 Certaines adresses ont un rôle bien particulier. L’**adresse de réseau** désigne l’identifiant du réseau lui-même et sert à configurer les tables de routage ; l’**adresse de diffusion** (_broadcast_) permet d’envoyer un paquet à tous les hôtes d’un même sous-réseau en une seule émission : pour cela, tous les bits du HostID sont mis à 1.
 

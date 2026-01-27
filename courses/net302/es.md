@@ -762,13 +762,14 @@ Originalmente, las redes IPv4 se dividían en cinco **clases**: (A, B, C, D y E)
 - Clase D: direcciones reservadas a la multidifusión (_multicast_)
 - Clase E: direcciones experimentales, no utilizadas para el direccionamiento convencional
 
-| Clase | Bits principales | Rango del primer bit | Máscara de subred por defecto | Propósito                          |
+
+| Clase | Bits iniciales | Rango del primer byte | Máscara de subred predeterminada | Propósito                       |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Redes muy grande              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Redes medianas           |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Redes muy grandes                |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Redes de tamaño medio            |
 | C     | 110          | 192 – 223        | 255.255.255.0       | Redes pequeñas                   |
-| D     | 1110         | 224 – 239        | N/A                 | Direcciones de multidifusión              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (no utilizado públicamente) |
+| D     | 1110         | 224 – 239        | N/A                 | Direcciones multicast            |
+| E     | 1111         | 240 – 255        | N/A                 | Experimental (no usado públicamente) |
 
 Direcciones especiales:
 

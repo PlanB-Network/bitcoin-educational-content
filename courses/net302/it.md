@@ -968,13 +968,14 @@ Originariamente, le reti IPv4 erano suddivise in cinque **classi**: (A, B, C, D 
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Classe | Bit iniziali | Intervallo del primo byte | Maschera di sottorete predefinita | Scopo                          |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Reti molto grandi                |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Reti di medie dimensioni         |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Reti piccole                     |
+| D     | 1110         | 224 – 239        | N/A                 | Indirizzi multicast              |
+| E     | 1111         | 240 – 255        | N/A                 | Sperimentale (non usato pubblicamente) |
 
 Indirizzi speciali:
 

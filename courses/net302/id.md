@@ -972,13 +972,14 @@ Pada awalnya, jaringan IPv4 dibagi menjadi lima **kelas**: (A, B, C, D, dan E). 
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Kelas | Bit Awal | Rentang Byte Pertama | Subnet Mask Bawaan | Tujuan                         |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Jaringan sangat besar            |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Jaringan berukuran sedang        |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Jaringan kecil                   |
+| D     | 1110         | 224 – 239        | N/A                 | Alamat multicast                 |
+| E     | 1111         | 240 – 255        | N/A                 | Eksperimental (tidak digunakan secara publik) |
 
 Alamat Khusus:
 

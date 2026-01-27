@@ -969,13 +969,14 @@ Hapo awali, mitandao ya IPv4 iligawanywa katika **madarasa** matano: (A, B, C, D
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Daraja | Biti za mwanzo | Masafa ya baiti ya kwanza | Maski ya subnet chaguo-msingi | Kusudi                        |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Mitandao mikubwa sana            |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Mitandao ya ukubwa wa kati       |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Mitandao midogo                  |
+| D     | 1110         | 224 – 239        | Haitumiki            | Anwani za multicast              |
+| E     | 1111         | 240 – 255        | Haitumiki            | Majaribio (haitumiki hadharani)  |
 
 Address Maalum:
 

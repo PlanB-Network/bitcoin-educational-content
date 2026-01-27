@@ -15,25 +15,26 @@ In 2015, SFLPhone was renamed Ring, and integrated a distributed architecture no
 Today, Jami is available on many systems. It's renowned for its performance, fluidity and ease of use. It lets you communicate via instant messaging, audio calls or video calls, while ensuring the confidentiality of your conversations through end-to-end encryption. Simple installation and a host of features make it a complete communications application that's easy and convenient to use on a daily basis.
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Application | E2EE 1:1 | E2EE groups | Anonymous registration | Open-source client license | Open-source server license | Decentralized server | Year of creation |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| **Jami**                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (optional) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (optional) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federated) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (via email) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federated) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (no directory) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| **Jami** | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = End-to-end encryption*
 

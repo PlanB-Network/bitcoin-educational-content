@@ -19,25 +19,26 @@ I dag er Jami tilgjengelig på mange systemer. Den er kjent for sin ytelse, smid
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Applikasjon | E2EE 1:1 | E2EE-grupper | Anonym registrering | Klientlisens (åpen kildekode) | Serverlisens (åpen kildekode) | Desentralisert server | Opprettelsesår |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| **Jami**                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (valgfritt) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (valgfritt) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federert) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (via e-post) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federert) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (ingen katalog) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| **Jami** | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = ende-til-ende-kryptering*
 

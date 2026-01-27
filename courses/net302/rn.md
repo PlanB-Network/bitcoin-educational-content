@@ -2029,8 +2029,9 @@ Kuva mu mwaka w’2006, RIR yose yararonse IPv6 /12 block iva kuri IANA, ubunini
 Uburongozi busanzwe bw'ugutanga busa n'ubu:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Umuntu uguzi | Umuringa w'imibare | Umwibutsa |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Kubera ubwo bwinshi bw’amaderesi, NAT (*Impinduro y’urubuga Address*), yahora ari ngirakamaro muri IPv4 kugira ngo umuntu ashobore guhangana n’ubukene bwa Address, ntabwo igikenewe. Buri mushitsi ashobora kugira Address yihariye, ishobora gukoreshwa kw’isi yose, yorosha uguhuza kw’iherezo n’iherezo no gutuma amasezerano nka IPSec, VoIP, canke uguhuza kwinjira yoroha gukoresha.

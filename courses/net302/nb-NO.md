@@ -2029,8 +2029,9 @@ Siden 2006 har hver RIR mottatt en IPv6 /12-blokk fra IANA, en fast størrelse s
 Det typiske allokeringshierarkiet ser slik ut:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Kunde | Subnet | Grensesnitt |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Med denne overfloden av adresser er det ikke lenger nødvendig med NAT (*Network Address Translation*), som en gang i tiden var nødvendig i IPv4 for å takle mangelen på Address. Hver vert kan ha en unik, globalt rutbar offentlig Address, noe som forenkler ende-til-ende-tilkobling og gjør det enklere å bruke protokoller som IPSec, VoIP eller innkommende tilkoblinger.

@@ -2029,8 +2029,9 @@ Seit 2006 hat jedes RIR von der IANA einen IPv6 /12-Block erhalten, eine feste G
 Die typische Zuordnungshierarchie sieht wie folgt aus:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Kunde | Subnetz | Schnittstelle |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Mit dieser Fülle an Adressen ist NAT (*Network Address Translation*), das in IPv4 einst unerlässlich war, um mit Address-Knappheit fertig zu werden, nicht mehr notwendig. Jeder Host kann eine eindeutige, global routbare öffentliche Address-Adresse haben, was die End-to-End-Konnektivität vereinfacht und die Verwendung von Protokollen wie IPSec, VoIP oder eingehenden Verbindungen erleichtert.

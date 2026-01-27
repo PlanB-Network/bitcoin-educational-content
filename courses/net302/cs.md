@@ -2029,8 +2029,9 @@ Od roku 2006 dostává každý RIR od IANA blok IPv6 /12, jehož pevná velikost
 Typická hierarchie přidělování vypadá takto:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Zákazník | Podsíť | Rozhraní |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Díky tomuto množství adres již není nutné používat NAT (*Network Address Translation*), který byl v IPv4 nezbytný pro řešení nedostatku adres Address. Každý hostitel může mít jedinečnou, globálně směrovatelnou veřejnou adresu Address, což zjednodušuje konektivitu mezi koncovými body a usnadňuje používání protokolů, jako je IPSec, VoIP nebo příchozí připojení.

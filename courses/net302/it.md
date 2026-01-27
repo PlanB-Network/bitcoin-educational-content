@@ -2029,8 +2029,9 @@ Dal 2006, ogni RIR riceve dalla IANA un blocco IPv6 /12, una dimensione fissa pe
 La gerarchia di allocazione tipica è la seguente:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Cliente | Subnet | Interfaccia |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Con questa abbondanza di indirizzi, il NAT (*Network Address Translation*), un tempo essenziale in IPv4 per far fronte alla carenza di Address, non è più necessario. Ogni host può avere un Address pubblico unico e instradabile a livello globale, semplificando la connettività end-to-end e rendendo più facile l'uso di protocolli come IPSec, VoIP o connessioni in entrata.

@@ -2029,8 +2029,9 @@ Sedan 2006 har varje RIR fått ett IPv6 /12-block från IANA, en fast storlek so
 Den typiska fördelningshierarkin ser ut så här:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Kund | Undernät | Gränssnitts |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Med detta överflöd av adresser är NAT (*Network Address Translation*), som en gång var nödvändigt i IPv4 för att klara av Address-bristen, inte längre nödvändigt. Varje värd kan ha en unik, globalt routningsbar publik Address, vilket förenklar end-to-end-anslutning och gör protokoll som IPSec, VoIP eller inkommande anslutningar enklare att använda.

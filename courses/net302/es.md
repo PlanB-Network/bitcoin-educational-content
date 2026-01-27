@@ -1517,8 +1517,9 @@ Desde 2006, cada RIR recibe de IANA un bloque IPv6 /12, un tamaño fijo diseñad
 
 La jerarquía de asignación típica tiene este aspecto:
 
-| IANA | RIR | LIR | Cliente | Sub red | Interfaz  |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Cliente | Subred | Interfaz |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Con esta abundancia de direcciones, NAT (*Network Address Translation*), antaño esencial en IPv4 para hacer frente a la escasez de direcciones, ya no es necesario. Cada host puede tener una dirección pública, única y enrutable globalmente, lo que simplifica la conectividad de extremo a extremo y facilita el uso de protocolos como IPSec, VoIP o conexiones entrantes.

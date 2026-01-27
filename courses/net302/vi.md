@@ -2029,8 +2029,9 @@ Từ năm 2006, mỗi RIR đều nhận được một khối IPv6 /12 từ IANA
 Hệ thống phân bổ điển hình trông như thế này:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Khách hàng | Mạng con | Giao diện |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Với sự phong phú của địa chỉ này, NAT (*Network Address Translation*), vốn từng là yếu tố thiết yếu trong IPv4 để đối phó với tình trạng thiếu hụt Address, giờ đây không còn cần thiết nữa. Mỗi máy chủ có thể có một Address công cộng duy nhất, có thể định tuyến toàn cầu, giúp đơn giản hóa kết nối đầu cuối và giúp các giao thức như IPSec, VoIP hoặc kết nối đến dễ sử dụng hơn.

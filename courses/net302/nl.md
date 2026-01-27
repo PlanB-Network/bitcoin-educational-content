@@ -2029,8 +2029,9 @@ Sinds 2006 ontvangt elke RIR een IPv6 /12-blok van IANA, een vaste grootte die i
 De typische toewijzingshiërarchie ziet er als volgt uit:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Klant | Subnet | Interface |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Met deze overvloed aan adressen is NAT (*Network Address Translation*), ooit essentieel in IPv4 om Address tekorten op te vangen, niet langer nodig. Elke host kan een unieke, wereldwijd routeerbare publieke Address hebben, wat end-to-end connectiviteit vereenvoudigt en het gebruik van protocollen zoals IPSec, VoIP of inkomende verbindingen makkelijker maakt.

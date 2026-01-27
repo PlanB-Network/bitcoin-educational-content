@@ -2033,8 +2033,9 @@ Desde 2006, cada RIR tem recebido um bloco IPv6 /12 da IANA, um tamanho fixo pro
 A hierarquia de atribuição típica tem o seguinte aspeto:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Cliente | Subnet | Interface |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Com essa abundância de endereços, o NAT (*Network Address Translation*), antes essencial no IPv4 para lidar com a escassez de Address, não é mais necessário. Cada anfitrião pode ter um Address público único e globalmente encaminhável, simplificando a conetividade de ponta a ponta e tornando mais fácil a utilização de protocolos como o IPSec, VoIP ou ligações de entrada.

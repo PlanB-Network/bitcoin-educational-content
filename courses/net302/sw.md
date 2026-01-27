@@ -2033,8 +2033,9 @@ Tangu 2006, kila RIR imepokea block ya IPv6 /12 kutoka kwa IANA, saizi isiyobadi
 Kiwango cha kawaida cha ugawaji kinaonekana kama hii:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Mteja | Mtandao mdogo | Muunganisho |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Kwa wingi huu wa anwani, NAT (*Network Address Translation*), ambayo ilikuwa muhimu katika IPv4 ili kukabiliana na uhaba wa Address, haihitajiki tena. Kila seva pangishi inaweza kuwa na Address ya umma ya kipekee, inayoweza kuendeshwa kimataifa, ikirahisisha muunganisho wa mwisho hadi mwisho na kufanya itifaki kama vile IPSec, VoIP, au miunganisho ya ndani iwe rahisi kutumia.

@@ -2033,8 +2033,9 @@ Sejak tahun 2006, setiap RIR telah menerima satu blok IPv6 /12 dari IANA, sebuah
 Hirarki alokasi umumnya terlihat seperti ini:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Pelanggan | Subnet | Antarmuka |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Dengan banyaknya alamat ini, NAT (*Network Address Translation*), yang dulunya sangat penting dalam IPv4 untuk mengatasi kekurangan Address, tidak lagi diperlukan. Setiap host dapat memiliki Address publik yang unik dan dapat dirutekan secara global, sehingga menyederhanakan konektivitas ujung ke ujung dan membuat protokol seperti IPSec, VoIP, atau sambungan masuk menjadi lebih mudah digunakan.

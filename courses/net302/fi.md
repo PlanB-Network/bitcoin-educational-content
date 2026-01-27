@@ -2029,8 +2029,9 @@ Vuodesta 2006 lähtien kukin RIR on saanut IANA:lta IPv6 /12-lohkon, jonka kiint
 Tyypillinen jakohierarkia näyttää seuraavalta:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Asiakas | Aliverkko | Liittymä |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Kun osoitteita on näin runsaasti, NAT (*Network Address Translation*), joka oli aikoinaan IPv4:ssä välttämätön Address-pulan ratkaisemiseksi, ei ole enää tarpeen. Jokaisella isännällä voi olla yksilöllinen, globaalisti reititettävissä oleva julkinen Address, mikä yksinkertaistaa päästä päähän -yhteyttä ja helpottaa IPSecin, VoIP:n tai saapuvien yhteyksien kaltaisten protokollien käyttöä.

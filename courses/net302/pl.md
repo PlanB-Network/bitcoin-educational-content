@@ -2033,8 +2033,9 @@ Od 2006 r. każdy RIR otrzymał od IANA blok IPv6 /12, o stałym rozmiarze zapro
 Typowa hierarchia alokacji wygląda następująco:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Klient | Podsieć | Interfejs |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Dzięki tej obfitości adresów, NAT (*Network Address Translation*), niegdyś niezbędny w IPv4, aby poradzić sobie z niedoborem Address, nie jest już potrzebny. Każdy host może mieć unikalny, globalnie routowalny publiczny Address, upraszczając łączność end-to-end i ułatwiając korzystanie z protokołów takich jak IPSec, VoIP lub połączenia przychodzące.

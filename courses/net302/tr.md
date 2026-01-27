@@ -2029,8 +2029,9 @@ IANA, her bir RIR'ye genellikle /23 ve /12 arasında değişen büyüklükte IPv
 Tipik tahsis hiyerarşisi şu şekildedir:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Müşteri | Alt ağ | Arayüz |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Bu adres bolluğu sayesinde, bir zamanlar IPv4'te Address eksiklikleriyle başa çıkmak için gerekli olan NAT (*Network Address Translation*) artık gerekli değildir. Her ana bilgisayarın benzersiz, küresel olarak yönlendirilebilir bir genel Address'i olabilir, bu da uçtan uca bağlantıyı basitleştirir ve IPSec, VoIP veya gelen bağlantılar gibi protokollerin kullanımını kolaylaştırır.

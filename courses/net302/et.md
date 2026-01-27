@@ -2029,8 +2029,9 @@ Alates 2006. aastast on iga RIR saanud IANA-lt IPv6 /12 ploki, mis on fikseeritu
 Tüüpiline jaotamise hierarhia näeb välja järgmiselt:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Klient | Alamvõrk | Liides |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Sellise aadresside rohkuse tõttu ei ole NAT (*Network Address Translation*), mis oli kunagi IPv4-s hädavajalik, et tulla toime Address puudusega, enam vajalik. Igal hostil võib olla unikaalne, globaalselt marsruutitav avalik Address, mis lihtsustab otsest ühenduvust ja lihtsustab selliste protokollide nagu IPSec, VoIP või sissetulevate ühenduste kasutamist.

@@ -2025,8 +2025,9 @@ Od 2006. godine, svaki RIR je dobio IPv6 blok veličine /12 od IANA, fiksna veli
 Tipična hijerarhija alokacije izgleda ovako:
 
 
-| IANA | RIR | LIR | Klijent  | Podmreža | Interfejs |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Klijent | Podstiica | Interfejs |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Sa ovom obiljem adresa, NAT (*Network Address Translation*), nekada neophodan u IPv4 za rešavanje nedostatka adresa, više nije potreban. Svaki host može imati jedinstvenu, globalno rutabilnu javnu adresu, što pojednostavljuje end-to-end povezivanje i olakšava korišćenje protokola kao što su IPSec, VoIP ili dolazne konekcije.

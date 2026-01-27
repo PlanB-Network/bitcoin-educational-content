@@ -912,7 +912,8 @@ Seuraavassa taulukossa esitetään tämä vastaavuus:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Binäärikoodi | Aktivoidut bittiarvot        | Desimaaliarvo |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -927,7 +928,8 @@ Seuraavassa taulukossa esitetään tämä vastaavuus:
 Kun haluat muuntaa binäärin desimaaliluvuksi, lisää niiden bittien painot, jotka on asetettu arvoon 1.
 
 
-| Binary     | Decimal Value |
+
+| Binääri    | Desimaaliarvo |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

@@ -916,7 +916,8 @@ Poniższa tabela ilustruje tę zgodność:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Kod binarny | Aktywowane wartości bitów    | Wartość dziesiętna |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -931,7 +932,8 @@ Poniższa tabela ilustruje tę zgodność:
 Aby przekonwertować binarny na dziesiętny, dodaj wagi bitów, które są ustawione na 1.
 
 
-| Binary     | Decimal Value |
+
+| Binarny    | Wartość dziesiętna |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

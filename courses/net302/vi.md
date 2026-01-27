@@ -912,7 +912,8 @@ Bảng dưới đây minh họa sự tương ứng này:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Mã nhị phân | Giá trị bit được kích hoạt   | Giá trị thập phân |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -927,7 +928,8 @@ Bảng dưới đây minh họa sự tương ứng này:
 Để chuyển đổi nhị phân sang thập phân, hãy cộng trọng số của các bit được đặt thành 1.
 
 
-| Binary     | Decimal Value |
+
+| Nhị phân   | Giá trị thập phân |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

@@ -912,7 +912,8 @@ Tuto shodu ilustruje následující tabulka:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Binární kód | Aktivované hodnoty bitů       | Desítková hodnota |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -927,7 +928,8 @@ Tuto shodu ilustruje následující tabulka:
 Chcete-li převést binární číslo na desítkové, sečtěte váhy bitů, které jsou nastaveny na 1.
 
 
-| Binary     | Decimal Value |
+
+| Binární    | Desítková hodnota |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

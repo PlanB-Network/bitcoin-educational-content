@@ -912,7 +912,8 @@ Järgnev tabel illustreerib seda vastavust:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Binaarkood  | Aktiveeritud bittide väärtused | Kümnendväärtus |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -927,7 +928,8 @@ Järgnev tabel illustreerib seda vastavust:
 Binaarsüsteemi teisendamiseks kümnendsüsteemiks tuleb liita nende bittide osakaalud, mis on seatud 1.
 
 
-| Binary     | Decimal Value |
+
+| Binaarne   | Kümnendväärtus |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

@@ -714,7 +714,8 @@ Cada bit de un byte tiene un valor (o "peso"): el bit de la izquierda (el más s
 
 El cuadro siguiente ilustra esta correspondencia:
 
-| Código binario | Valores de bits activados          | Valor decimal |
+
+| Código binario | Valores de bits activados   | Valor decimal |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -729,7 +730,8 @@ El cuadro siguiente ilustra esta correspondencia:
 Para convertir binario a decimal, suma los pesos de los bits que están a 1.
 
 
-| Binary     | Decimal Value |
+
+| Binario    | Valor decimal |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

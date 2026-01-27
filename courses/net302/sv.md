@@ -912,7 +912,8 @@ Tabellen nedan illustrerar denna korrespondens:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Binärkod    | Aktiverade bitvärden          | Decimalvärde |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -927,7 +928,8 @@ Tabellen nedan illustrerar denna korrespondens:
 För att konvertera binär till decimal adderas vikterna för de bitar som är satta till 1.
 
 
-| Binary     | Decimal Value |
+
+| Binär      | Decimalvärde |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

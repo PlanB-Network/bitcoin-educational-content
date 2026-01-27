@@ -912,7 +912,8 @@ Die nachstehende Tabelle veranschaulicht diesen Zusammenhang:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Binärcode   | Aktivierte Bitwerte            | Dezimalwert  |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -927,7 +928,8 @@ Die nachstehende Tabelle veranschaulicht diesen Zusammenhang:
 Zur Umwandlung von Binär- in Dezimalzahlen addiert man die Gewichte der Bits, die auf 1 gesetzt sind.
 
 
-| Binary     | Decimal Value |
+
+| Binär      | Dezimalwert   |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

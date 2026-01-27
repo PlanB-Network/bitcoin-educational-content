@@ -912,7 +912,8 @@ De onderstaande tabel illustreert deze correspondentie:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Binaire code | Geactiveerde bitwaarden      | Decimale waarde |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -927,7 +928,8 @@ De onderstaande tabel illustreert deze correspondentie:
 Om binair naar decimaal om te zetten, tel je de gewichten op van de bits die op 1 zijn gezet.
 
 
-| Binary     | Decimal Value |
+
+| Binair     | Decimale waarde |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

@@ -912,7 +912,8 @@ Tabellen nedenfor illustrerer denne sammenhengen:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Binærkode   | Aktiverte bitverdier          | Desimalverdi |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -927,7 +928,8 @@ Tabellen nedenfor illustrerer denne sammenhengen:
 For å konvertere binær til desimal, legger du sammen vektene til de bitene som er satt til 1.
 
 
-| Binary     | Decimal Value |
+
+| Binær      | Desimalverdi  |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

@@ -912,7 +912,8 @@ Imbonerahamwe iri musi yerekana iyo nzira:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Kode ya binary | Uduciro twa bit dukora       | Agaciro ka desimali |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -927,7 +928,8 @@ Imbonerahamwe iri musi yerekana iyo nzira:
 Guhindura bibiri mu cumi, wongereko uburemere bw'ibice vyashizwe kuri 1.
 
 
-| Binary     | Decimal Value |
+
+| Binary     | Agaciro ka desimali |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

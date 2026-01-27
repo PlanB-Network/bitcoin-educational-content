@@ -913,7 +913,8 @@ Jedwali hapa chini linaonyesha mawasiliano haya:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Msimbo wa jozi | Thamani za biti zilizoamilishwa | Thamani ya desimali |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -928,7 +929,8 @@ Jedwali hapa chini linaonyesha mawasiliano haya:
 Ili kubadilisha binary kuwa desimali, ongeza uzani wa biti ambazo zimewekwa kuwa 1.
 
 
-| Binary     | Decimal Value |
+
+| Binaari    | Thamani ya desimali |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

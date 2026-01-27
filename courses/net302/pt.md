@@ -916,7 +916,8 @@ O quadro seguinte ilustra esta correspondência:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Código binário | Valores de bits ativados   | Valor decimal |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -931,7 +932,8 @@ O quadro seguinte ilustra esta correspondência:
 Para converter binário em decimal, adicione os pesos dos bits que estão definidos para 1.
 
 
-| Binary     | Decimal Value |
+
+| Binário    | Valor decimal |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

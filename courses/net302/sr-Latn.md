@@ -910,7 +910,8 @@ Tabela ispod ilustruje ovu korespondenciju:
 
 
 
-| Binarni kod |Postavljene vrednosti bitova   | Decimalna vrednost |
+
+| Binarni kod | Aktivirane vrednosti bitova   | Decimalna vrednost |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -925,7 +926,8 @@ Tabela ispod ilustruje ovu korespondenciju:
 Da biste konvertovali binarni u decimalni broj, saberite težine bitova koji su postavljeni na 1.
 
 
-| Binarana   | Decimalna vrednost |
+
+| Binarni    | Decimalna vrednost |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

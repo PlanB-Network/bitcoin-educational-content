@@ -912,7 +912,8 @@ La tabella seguente illustra questa corrispondenza:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Codice binario | Valori dei bit attivati     | Valore decimale |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -927,7 +928,8 @@ La tabella seguente illustra questa corrispondenza:
 Per convertire il binario in decimale, sommare i pesi dei bit impostati a 1.
 
 
-| Binary     | Decimal Value |
+
+| Binario    | Valore decimale |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

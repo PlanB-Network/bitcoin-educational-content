@@ -538,7 +538,8 @@ _Exemple : l’adresse 172.16.254.1_
 Chaque bit au sein d’un octet a un poids bien défini : le bit de gauche (bit de poids fort) vaut 128, le suivant 64, puis 32, 16, 8, 4, 2 et 1 pour le bit de droite (bit de poids faible). Ainsi, l’écriture binaire est convertie en décimal par simple addition des poids activés.  
 Le tableau ci-dessous rappelle cette correspondance :
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Code binaire | Valeurs de bits activés      | Valeur décimale |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -552,7 +553,8 @@ Le tableau ci-dessous rappelle cette correspondance :
 
 Par exemple, pour convertir une adresse IP binaire en notation décimale, on additionne les valeurs des bits à 1 pour chaque octet.
 
-| Binary     | Decimal Value |
+
+| Binaire    | Valeur décimale |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

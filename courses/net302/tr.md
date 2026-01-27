@@ -912,7 +912,8 @@ Aşağıdaki tablo bu yazışmayı göstermektedir:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| İkili Kod   | Etkinleştirilen bit değerleri | Ondalık değer |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -927,7 +928,8 @@ Aşağıdaki tablo bu yazışmayı göstermektedir:
 İkiliyi ondalık sayıya dönüştürmek için, 1'e ayarlanmış bitlerin ağırlıklarını toplayın.
 
 
-| Binary     | Decimal Value |
+
+| İkili      | Ondalık değer |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

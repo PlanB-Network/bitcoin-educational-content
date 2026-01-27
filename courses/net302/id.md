@@ -916,7 +916,8 @@ Tabel di bawah ini mengilustrasikan korespondensi ini:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Kode Biner  | Nilai Bit yang Diaktifkan     | Nilai Desimal |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -931,7 +932,8 @@ Tabel di bawah ini mengilustrasikan korespondensi ini:
 Untuk mengonversi biner ke desimal, tambahkan bobot bit yang ditetapkan ke 1.
 
 
-| Binary     | Decimal Value |
+
+| Biner      | Nilai desimal |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |

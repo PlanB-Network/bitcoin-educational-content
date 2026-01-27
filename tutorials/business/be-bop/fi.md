@@ -255,12 +255,13 @@ be-BOP:n avulla voit hyväksyä Bitcoin-maksuja suoraan Blockchain:lla (On-Chain
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Kenttä                  | Kuvaus                                               | Käyttöesimerkki                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP-standardi**       | Käytetty osoitteistyyppi                               | BIP84 (osoitteille bech32-muodossa, jotka alkavat `bc1`:llä) |
+| **Laajennettu julkinen avain** | Sinun Zpub (tai Xpub käytetystä lompakon mukaan)        | `zpub...` (poimittu Bitcoin-lompakostasi) |
+| **Derivation Index**   | Aloitusindeksi osoitteiden luomiseen         | `1`                                              |
+| **Mempool URL**        | Mempool-palvelun URL, jota käytetään transaktioiden seuraamiseen | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

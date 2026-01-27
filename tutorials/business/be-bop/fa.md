@@ -255,12 +255,13 @@ be-BOP به شما امکان می‌دهد پرداخت‌های Bitcoin را �
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| فیلد                  | توضیح                                               | مثالی برای استفاده                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **استاندارد BIP**       | نوع آدرس‌دهی مورد استفاده                               | BIP84 (برای آدرس‌های فرمت bech32 که با `bc1` شروع می‌شوند) |
+| **کلید عمومی گسترده شده** | Zpub شما (یا Xpub بسته به کیف پول مورد استفاده)        | `zpub...` (استخراج شده از کیف پول Bitcoin شما) |
+| **Derivation Index**   | شاخص شروع برای تولید آدرس         | `1`                                              |
+| **URL Mempool**        | URL سرویس mempool مورد استفاده برای ردیابی تراکنش‌ها | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

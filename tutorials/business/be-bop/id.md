@@ -255,12 +255,13 @@ be-BOP memungkinkan Anda menerima pembayaran Bitcoin secara langsung pada Blockc
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Bidang                  | Deskripsi                                               | Contoh yang Digunakan                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **Standar BIP**       | Jenis pengalamatan yang digunakan                               | BIP84 (untuk alamat dalam format bech32 yang dimulai dengan `bc1`) |
+| **Kunci Publik Diperpanjang** | Zpub Anda (atau Xpub sesuai dompet yang digunakan)        | `zpub...` (diekstrak dari dompet Bitcoin Anda) |
+| **Derivation Index**   | Indeks awal untuk pembuatan alamat         | `1`                                              |
+| **URL Mempool**        | URL layanan mempool yang digunakan untuk melacak transaksi | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

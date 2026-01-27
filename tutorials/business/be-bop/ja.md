@@ -255,12 +255,13 @@ be-BOPは、Blockchain（On-Chain）で直接Bitcoinの支払いを簡単かつ�
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| フィールド                  | 説明                                               | 使用例                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP標準**       | 使用されるアドレス指定の種類                               | BIP84 (`bc1` で始まる bech32 形式のアドレス) |
+| **拡張公開鍵** | 您的 Zpub（または使用されたウォレットに応じた Xpub）        | `zpub...` (ビットコインウォレットから抽出) |
+| **Derivation Index**   | アドレス生成の開始インデックス         | `1`                                              |
+| **Mempool URL**        | トランザクションを追跡するために使用される mempool サービスの URL | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

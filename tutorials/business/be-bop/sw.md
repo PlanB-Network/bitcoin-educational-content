@@ -255,12 +255,13 @@ be-BOP inakuwezesha kukubali malipo ya Bitcoin moja kwa moja kwenye Blockchain (
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Sehemu                  | Maelezo                                               | Mfano wa Kutumia                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Aina ya anwani inayotumiwa                               | BIP84 (kwa anwani katika muundo wa bech32 zinazoanza na `bc1`) |
+| **Ufunguo wa Umma Ulioongezwa** | Zpub yako (au Xpub kulingana na pochi iliyotumiwa)        | `zpub...` (iliyochorwa kutoka kwa pochi yako ya Bitcoin) |
+| **Derivation Index**   | Faharasa ya kuanzia kwa ajili ya kuzalisha anwani         | `1`                                              |
+| **URL ya Mempool**        | URL ya huduma ya mempool inayotumiwa kusambaza miamala | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

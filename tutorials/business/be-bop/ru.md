@@ -255,12 +255,13 @@ be-BOP позволяет принимать платежи Bitcoin непоср
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Поле                  | Описание                                               | Пример для использования                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **Стандарт BIP**       | Тип используемой адресации                               | BIP84 (для адресов в формате bech32, начинающихся с `bc1`) |
+| **Расширенный открытый ключ** | Ваш Zpub (или Xpub в зависимости от используемого кошелька)        | `zpub...` (извлечено из вашего кошелька Bitcoin) |
+| **Derivation Index**   | Начальный индекс для создания адресов         | `1`                                              |
+| **URL Mempool**        | URL сервиса mempool, используемый для отслеживания транзакций | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

@@ -255,12 +255,13 @@ be-BOP võimaldab teil lihtsalt ja turvaliselt vastu võtta Bitcoin makseid otse
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Väli                  | Kirjeldus                                               | Kasutatav Näide                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Kasutatava adresseerimise tüüp                               | BIP84 (aadressid bech32 vormingus, mis algavad `bc1`-ga) |
+| **Laiendatud avalik võti** | Teie Zpub (või Xpub olenevalt kasutatavast rahakotist)        | `zpub...` (teie Bitcoin rahakotist eraldatud) |
+| **Derivation Index**   | Aadresside loomise algusindeks         | `1`                                              |
+| **Mempool URL**        | Mempool teenuse URL, mida kasutatakse tehingute jälgimiseks | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

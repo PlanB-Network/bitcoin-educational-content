@@ -255,12 +255,13 @@ be-BOP le permite aceptar pagos de Bitcoin directamente en Blockchain (On-Chain)
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Campo                  | Descripción                                               | Ejemplo a Utilizar                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **Estándar BIP**       | El tipo de direccionamiento utilizado                               | BIP84 (para direcciones en formato bech32 que comienzan con `bc1`) |
+| **Clave Pública Extendida** | Su Zpub (o Xpub según la billetera utilizada)        | `zpub...` (extraído de su billetera Bitcoin) |
+| **Derivation Index**   | El índice inicial para la generación de direcciones         | `1`                                              |
+| **URL de Mempool**        | La URL del servicio mempool utilizado para rastrear transacciones | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

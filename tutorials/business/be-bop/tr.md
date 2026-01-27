@@ -255,12 +255,13 @@ be-BOP, Bitcoin ödemelerini doğrudan Blockchain (On-Chain) üzerinden basit ve
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Alan                  | Açıklama                                               | Kullanılacak Örnek                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standardı**       | Kullanılan adreslandırma türü                               | BIP84 (`bc1` ile başlayan bech32 formatındaki adresler) |
+| **Genişletilmiş Açık Anahtar** | Sizin Zpub'unuz (veya kullanılan cüzdana göre Xpub)        | `zpub...` (Bitcoin cüzdanınızdan çıkarılmış) |
+| **Derivation Index**   | Adres oluşturma için başlangıç indeksi         | `1`                                              |
+| **Mempool URL**        | İşlemleri izlemek için kullanılan mempool hizmetinin URL'si | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

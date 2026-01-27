@@ -255,12 +255,13 @@ be-BOP을 사용하면 Blockchain(On-Chain)에서 간단하고 안전하게 Bitc
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| 필드                  | 설명                                               | 사용할 예제                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP 표준**       | 사용되는 주소 지정 유형                               | BIP84 (`bc1`로 시작하는 bech32 형식의 주소) |
+| **확장 공개 키** | 귀하의 Zpub (또는 사용된 지갑에 따른 Xpub)        | `zpub...` (비트코인 지갑에서 추출) |
+| **Derivation Index**   | 주소 생성의 시작 인덱스         | `1`                                              |
+| **Mempool URL**        | 거래를 추적하는 데 사용되는 mempool 서비스의 URL | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

@@ -255,12 +255,13 @@ be-BOP ช่วยให้คุณยอมรับการชำระเ�
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| ช่อง                  | คำอธิบาย                                               | ตัวอย่างที่จะใช้                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **มาตรฐาน BIP**       | ประเภทของการระบุที่อยู่ที่ใช้                               | BIP84 (สำหรับที่อยู่ในรูปแบบ bech32 ที่เริ่มต้นด้วย `bc1`) |
+| **คีย์สาธารณะแบบขยาย** | Zpub ของคุณ (หรือ Xpub ตามกระเป๋าที่ใช้)        | `zpub...` (ดึงมาจากกระเป๋า Bitcoin ของคุณ) |
+| **Derivation Index**   | ดัชนีเริ่มต้นสำหรับการสร้างที่อยู่         | `1`                                              |
+| **URL Mempool**        | URL ของบริการ mempool ที่ใช้ในการติดตามธุรกรรม | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

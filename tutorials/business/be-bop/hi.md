@@ -255,12 +255,13 @@ be-BOP कई भुगतान समाधानों के साथ स�
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| क्षेत्र                  | विवरण                                               | उपयोग के लिए उदाहरण                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **बीआईपी मानक**       | प्रयुक्त पते का प्रकार                               | BIP84 (`bc1` से शुरू होने वाले bech32 प्रारूप में पते) |
+| **विस्तारित सार्वजनिक कुंजी** | आपका Zpub (या उपयोग किए गए वॉलेट के अनुसार Xpub)        | `zpub...` (आपके बिटकॉइन वॉलेट से निकाला गया) |
+| **Derivation Index**   | पते की पीढ़ी के लिए शुरुआती सूचकांक         | `1`                                              |
+| **Mempool URL**        | Mempool सेवा का URL जो लेनदेन को ट्रैक करने के लिए उपयोग किया जाता है | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

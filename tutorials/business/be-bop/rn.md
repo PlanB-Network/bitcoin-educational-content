@@ -255,12 +255,13 @@ be-BOP iragufasha kwemera amahera ya Bitcoin ataco uhinduye kuri Blockchain (On-
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Umwanya                  | Isobanuzo                                               | Urugero Rw'Ukurangi                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Ubwoko bw'aderesisinganya bukoreshwa                               | BIP84 (kuri aderesi mu buryo bw'bech32 bijya mu `bc1`) |
+| **Imboneza Ryubwenge Rwitungurangira** | Zpub yacu (canke Xpub ukurikije ibikira byakoreshejwe)        | `zpub...` (iyatandukanye mu bicira bya Bitcoin) |
+| **Derivation Index**   | Inshuro y'itangira kugirango habeho aderesi         | `1`                                              |
+| **Mempool URL**        | URL ya serivisi ya mempool ikoreshwa mu gukurura ibigori | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

@@ -255,12 +255,13 @@ med be-BOP kan du ta emot Bitcoin-betalningar direkt på Blockchain (On-Chain), 
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Fält                  | Beskrivning                                               | Exempel att Använda                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Typen av adressering som används                               | BIP84 (för adresser i bech32-format som börjar med `bc1`) |
+| **Utökad offentlig nyckel** | Din Zpub (eller Xpub beroende på använd plånbok)        | `zpub...` (extraherad från din Bitcoin-plånbok) |
+| **Derivation Index**   | Startindexet för adressgenerering         | `1`                                              |
+| **Mempool URL**        | URL:en till mempool-tjänsten som används för att spåra transaktioner | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

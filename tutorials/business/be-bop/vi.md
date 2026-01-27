@@ -255,12 +255,13 @@ be-BOP cho phép bạn chấp nhận thanh toán Bitcoin trực tiếp trên Blo
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Trường                  | Mô Tả                                               | Ví Dụ Để Sử Dụng                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **Tiêu Chuẩn BIP**       | Loại địa chỉ được sử dụng                               | BIP84 (cho các địa chỉ ở định dạng bech32 bắt đầu bằng `bc1`) |
+| **Khóa Công Khai Mở Rộng** | Zpub của bạn (hoặc Xpub tùy thuộc vào ví được sử dụng)        | `zpub...` (được trích xuất từ ví Bitcoin của bạn) |
+| **Derivation Index**   | Chỉ mục bắt đầu để tạo địa chỉ         | `1`                                              |
+| **URL Mempool**        | URL của dịch vụ mempool được sử dụng để theo dõi giao dịch | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 

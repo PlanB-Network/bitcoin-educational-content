@@ -1872,9 +1872,10 @@ Conceptueel worden IPv6-adressen vaak voorgesteld als een binaire structuur waar
 De IPv6-architectuur volgt het hiërarchische globale routeringsmodel van het huidige internet. Prefix-partitionering stelt regionale registers en netwerkoperators in staat om de Address toewijzing op een gedecentraliseerde manier te beheren, terwijl globale uniciteit gewaarborgd blijft. Binnen dit kader kan dezelfde host tegelijkertijd een globale unicast Address hebben voor internetcommunicatie en een link-lokale Address voor lokale interacties, bijvoorbeeld met de directe omgeving of voor routerzoekberichten.
 
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Veld      | Prefix | L | Globale ID | Subnet | Interface-ID |
+|-----------|--------|---|-----------|--------|---------------|
+| Bits      | 7      | 1 | 40        | 16     | 64            |
 
 **Anycast-adressen** vertegenwoordigen een tussenliggend concept dat voortbouwt op het unicast-model maar zich in bepaalde gevallen als multicast kan gedragen. Een anycast Address is in wezen een unicast Address toegewezen aan meerdere interfaces verdeeld over verschillende netwerkknooppunten. Wanneer een pakket naar een anycast Address wordt gestuurd, heeft het IPv6-protocol als doel het af te leveren bij een van de hosts die deze Address deelt, meestal degene die het dichtst in de buurt zit qua routeringstopologie. Deze aanpak optimaliseert de verwerkingssnelheid van query's en verbetert de veerkracht van gedistribueerde diensten. Een klassiek voorbeeld zijn de root DNS servers, waar anycast adressering automatisch queries naar het dichtstbijzijnde point of presence leidt.
 

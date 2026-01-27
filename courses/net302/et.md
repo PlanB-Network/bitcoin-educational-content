@@ -1872,9 +1872,10 @@ Kontseptuaalselt esitatakse IPv6-aadressid sageli binaarse struktuurina, mille e
 IPv6 arhitektuur järgib tänase Interneti hierarhilist globaalse marsruutimise mudelit. Prefiksite jaotamine võimaldab piirkondlikel registritel ja võrguoperaatoritel hallata Address jaotamist detsentraliseeritult, tagades samas ülemaailmse unikaalsuse. Selles raamistikus võib üks ja sama host omada samaaegselt globaalset üheaadressi Address Interneti-suhtluseks ja link-lokaalset Address kohalikuks suhtluseks, nt vahetu naabruskonnaga või marsruuteri avastamissõnumite jaoks.
 
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Väli      | Prefiks | L | Globaalne ID | Alamvõrk | Liidese ID |
+|-----------|--------|---|-----------|--------|---------------|
+| Bitid     | 7      | 1 | 40        | 16     | 64            |
 
 **Anycast-aadressid** kujutavad endast vahepealset kontseptsiooni, mis põhineb unicast-mudelil, kuid võib teatud juhtudel käituda nagu multicast. Anycast Address on sisuliselt unicast Address, mis on määratud mitmele eri võrgusõlmedesse jaotatud liidesele. Kui pakett saadetakse anycast Address-le, püüab IPv6-protokoll edastada selle ühele seda Address jagavale hostile, mis on tavaliselt marsruutimistopoloogia poolest kõige lähemal. Selline lähenemisviis optimeerib päringute töötlemise kiirust ja parandab hajutatud teenuste vastupidavust. Klassikaline näide on juur-DNS-serverid, kus anycast-aadressimine suunab päringud automaatselt lähimale kohalolekupunktile.
 

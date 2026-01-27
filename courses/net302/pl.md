@@ -1876,9 +1876,10 @@ Koncepcyjnie adresy IPv6 są często reprezentowane jako struktura binarna, w kt
 Architektura IPv6 jest zgodna z hierarchicznym globalnym modelem routingu dzisiejszego Internetu. Podział prefiksów umożliwia regionalnym rejestrom i operatorom sieci zarządzanie alokacją Address w sposób zdecentralizowany, przy jednoczesnym zapewnieniu globalnej unikalności. W tych ramach ten sam host może jednocześnie posiadać globalny unicast Address do komunikacji internetowej i link-local Address do lokalnych interakcji, np. z bezpośrednim sąsiedztwem lub dla komunikatów wykrywania routerów.
 
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Pole      | Prefiks | L | Globalny identyfikator | Podsieć | Identyfikator interfejsu |
+|-----------|--------|---|-----------|--------|---------------|
+| Bity      | 7      | 1 | 40        | 16     | 64            |
 
 **Adresy anycast** reprezentują koncepcję pośrednią, która opiera się na modelu unicast, ale w niektórych przypadkach może zachowywać się jak multicast. Anycast Address jest w istocie unicastem Address przypisanym do kilku interfejsów rozproszonych w różnych węzłach sieci. Gdy pakiet jest wysyłany do anycast Address, protokół IPv6 ma na celu dostarczenie go do jednego z hostów współdzielących ten Address, zazwyczaj najbliższego pod względem topologii routingu. Takie podejście optymalizuje szybkość przetwarzania zapytań i poprawia odporność usług rozproszonych. Klasycznym przykładem są główne serwery DNS, gdzie adresowanie anycast automatycznie kieruje zapytania do najbliższego punktu obecności.
 

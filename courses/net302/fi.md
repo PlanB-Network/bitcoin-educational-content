@@ -1872,9 +1872,10 @@ Käsitteellisesti IPv6-osoitteet esitetään usein binäärirakenteena, jonka en
 IPv6-arkkitehtuuri noudattaa nykyisen Internetin hierarkkista globaalia reititysmallia. Prefiksien jakamisen avulla alueelliset rekisterit ja verkko-operaattorit voivat hallita Address:n jakamista hajautetusti ja varmistaa samalla maailmanlaajuisen yksikäsitteisyyden. Tässä järjestelmässä sama isäntä voi samanaikaisesti pitää hallussaan maailmanlaajuista yksilähetys Address:tä Internet-viestintää varten ja linkkilokaalista Address:tä paikallista vuorovaikutusta varten, esimerkiksi välittömien naapurien kanssa tai reitittimen etsintäviestejä varten.
 
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Kenttä    | Etuliite | L | Globaali tunniste | Aliverkko | Liitännän tunniste |
+|-----------|--------|---|-----------|--------|---------------|
+| Bitit     | 7      | 1 | 40        | 16     | 64            |
 
 **Anycast-osoitteet** ovat välikäsite, joka perustuu unicast-malliin mutta voi tietyissä tapauksissa käyttäytyä kuten multicast. Anycast Address on pohjimmiltaan unicast Address, joka on osoitettu useille eri verkkosolmujen välille jaetuille liitännöille. Kun paketti lähetetään anycast Address:lle, IPv6-protokolla pyrkii toimittamaan sen jollekin kyseisen Address:n jakavista isännistä, yleensä reititystopologialtaan lähimmälle. Tämä lähestymistapa optimoi kyselyjen käsittelynopeuden ja parantaa hajautettujen palvelujen häiriönsietokykyä. Klassinen esimerkki tästä ovat DNS-palvelimet, joissa anycast-osoitteet ohjaavat kyselyt automaattisesti lähimpään läsnäolopisteeseen.
 

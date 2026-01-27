@@ -1876,9 +1876,10 @@ Secara konseptual, alamat IPv6 sering direpresentasikan sebagai struktur biner d
 Arsitektur IPv6 mengikuti model perutean global hirarkis dari Internet saat ini. Partisi awalan memungkinkan pendaftar regional dan operator jaringan untuk mengelola alokasi Address dengan cara yang terdesentralisasi, sekaligus memastikan keunikan global. Dalam kerangka kerja ini, host yang sama dapat secara bersamaan memegang Address unicast global untuk komunikasi internet dan Address link-lokal untuk interaksi lokal, misalnya dengan lingkungan terdekat atau untuk pesan penemuan router.
 
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Bidang    | Prefiks | L | ID Global | Subnet | ID Antarmuka |
+|-----------|--------|---|-----------|--------|---------------|
+| Bit       | 7      | 1 | 40        | 16     | 64            |
 
 **Alamat anycast mewakili konsep perantara yang dibangun di atas model unicast tetapi dapat berperilaku seperti multicast dalam kasus-kasus tertentu.** Address anycast pada dasarnya adalah Address unicast yang ditugaskan ke beberapa antarmuka yang didistribusikan melalui node jaringan yang berbeda. Ketika sebuah paket dikirim ke anycast Address, protokol IPv6 bertujuan untuk mengirimkannya ke salah satu host yang berbagi Address tersebut, biasanya yang paling dekat dalam hal topologi perutean. Pendekatan ini mengoptimalkan kecepatan pemrosesan permintaan dan meningkatkan ketahanan layanan terdistribusi. Contoh klasiknya adalah server DNS root, di mana pengalamatan anycast secara otomatis mengarahkan kueri ke titik terdekat.
 

@@ -1400,9 +1400,10 @@ Conceptualmente, las direcciones IPv6 suelen representarse como una estructura b
 
 La arquitectura IPv6 sigue el modelo de enrutamiento global jerárquico de la Internet actual. La partición de prefijos permite a los registros regionales y a los operadores de red gestionar la asignación de dirección de forma descentralizada, garantizando al mismo tiempo la unicidad global. Dentro de este marco, el mismo host puede tener simultáneamente una dirección de unidifusión global para la comunicación por Internet y una dirección de enlace local para interacciones locales, por ejemplo, con el vecindario inmediato o para mensajes de descubrimiento de enrutadores.
 
-| Campo     | Prefijo | Cero | ID de interfaz |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Campo     | Prefijo | L | ID global | Subred | ID de interfaz |
+|-----------|--------|---|-----------|--------|---------------|
+| Bits      | 7      | 1 | 40        | 16     | 64            |
 
 **Las direcciones anycast** representan un concepto intermedio que se basa en el modelo unicast pero que puede comportarse como multicast en ciertos casos. Una dirección anycast es, en esencia, una dirección unicast asignada a varias interfaces distribuidas en diferentes nodos de red. Cuando se envía un paquete a una dirección anycast, el protocolo IPv6 intenta entregarlo a uno de los hosts que comparten esa dirección, normalmente el más cercano en términos de topología de encaminamiento. Este enfoque optimiza la velocidad de procesamiento de las consultas y mejora la resistencia de los servicios distribuidos. Un ejemplo clásico son los servidores DNS raíz, donde el direccionamiento anycast dirige automáticamente las consultas al punto de presencia más cercano.
 

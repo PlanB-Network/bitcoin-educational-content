@@ -1868,9 +1868,10 @@ Konceptualno, IPv6 adrese se često predstavljaju kao binarna struktura gde prva
 IPv6 arhitektura prati hijerarhijski model globalnog rutiranja današnjeg interneta. Podela prefiksa omogućava regionalnim registrima i mrežnim operatorima da upravljaju dodelom adresa na decentralizovan način, uz obezbeđivanje globalne jedinstvenosti. U okviru ovog okvira, isti host može istovremeno imati globalnu unicast adresu za internet komunikaciju i link-lokalnu adresu za lokalne interakcije, npr. sa neposrednim susedstvom ili za poruke otkrivanja rutera.
 
 
-| polje     | Prefiks | Zero | Interfejs ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Polje     | Prefiks | L | Globalni ID | Podmreža | ID interfejsa |
+|-----------|--------|---|-----------|--------|---------------|
+| Bitovi    | 7      | 1 | 40        | 16     | 64            |
 
 **Anycast adrese** predstavljaju posredni koncept koji se nadovezuje na unicast model, ali se u određenim slučajevima može ponašati kao multicast. Anycast adresa je, u suštini, unicast adresa dodeljena na nekoliko interfejsa raspoređenih preko različitih mrežnih čvorova. Kada se paket pošalje na anycast adresu, IPv6 protokol ima za cilj da ga isporuči jednom od domaćina koji dele tu adresu, obično onom najbližem u smislu rutirajuće topologije. Ovaj pristup optimizuje brzinu obrade upita i poboljšava otpornost distribuiranih servisa. Klasičan primer su root DNS serveri, gde anycast adresiranje automatski usmerava upite na najbližu tačku prisustva.
 

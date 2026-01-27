@@ -1872,9 +1872,10 @@ Về mặt khái niệm, địa chỉ IPv6 thường được biểu diễn dư�
 Kiến trúc IPv6 tuân theo mô hình định tuyến toàn cầu phân cấp của Internet ngày nay. Phân vùng tiền tố cho phép các cơ quan đăng ký khu vực và nhà điều hành mạng quản lý việc phân bổ Address theo cách phi tập trung, đồng thời đảm bảo tính duy nhất toàn cầu. Trong khuôn khổ này, cùng một máy chủ có thể đồng thời giữ một Address đơn hướng toàn cầu cho giao tiếp internet và một Address liên kết cục bộ cho các tương tác cục bộ, ví dụ như với các vùng lân cận hoặc cho các thông báo khám phá bộ định tuyến.
 
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Trường    | Tiền tố | L | ID toàn cục | Mạng con | ID giao diện |
+|-----------|--------|---|-----------|--------|---------------|
+| Bit       | 7      | 1 | 40        | 16     | 64            |
 
 **Địa chỉ Anycast** đại diện cho một khái niệm trung gian được xây dựng dựa trên mô hình đơn hướng nhưng có thể hoạt động như đa hướng trong một số trường hợp. Về bản chất, Anycast Address là một Unicast Address được gán cho nhiều giao diện phân tán trên các nút mạng khác nhau. Khi một gói tin được gửi đến Anycast Address, giao thức IPv6 sẽ chuyển gói tin đó đến một trong các máy chủ chia sẻ Address đó, thường là máy chủ gần nhất về mặt cấu trúc định tuyến. Cách tiếp cận này tối ưu hóa tốc độ xử lý truy vấn và cải thiện khả năng phục hồi của các dịch vụ phân tán. Một ví dụ điển hình là các máy chủ DNS gốc, nơi địa chỉ Anycast tự động chuyển hướng truy vấn đến điểm hiện diện gần nhất.
 

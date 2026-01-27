@@ -1872,9 +1872,10 @@ Koncepčně jsou adresy IPv6 často reprezentovány jako binární struktura, kd
 Architektura IPv6 se řídí hierarchickým modelem globálního směrování dnešního internetu. Rozdělení prefixů umožňuje regionálním registrům a provozovatelům sítí řídit přidělování Address decentralizovaným způsobem a zároveň zajišťuje globální jedinečnost. V tomto rámci může mít tentýž hostitel současně globální jednosměrový Address pro internetovou komunikaci a linkový lokální Address pro místní interakce, např. s nejbližším okolím nebo pro zprávy o vyhledávání směrovačů.
 
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Pole      | Prefix | L | Globální ID | Podsíť | ID rozhraní |
+|-----------|--------|---|-----------|--------|---------------|
+| Bity      | 7      | 1 | 40        | 16     | 64            |
 
 **Anycast adresy** představují přechodný koncept, který vychází z modelu unicast, ale v určitých případech se může chovat jako multicast. Anycast Address je v podstatě unicast Address přiřazený několika rozhraním rozmístěným v různých uzlech sítě. Když je paket odeslán na anycast Address, cílem protokolu IPv6 je doručit jej jednomu z hostitelů sdílejících tento Address, obvykle tomu, který je z hlediska topologie směrování nejblíže. Tento přístup optimalizuje rychlost zpracování dotazů a zvyšuje odolnost distribuovaných služeb. Klasickým příkladem jsou kořenové servery DNS, kde anycastové adresování automaticky směřuje dotazy na nejbližší místo výskytu.
 

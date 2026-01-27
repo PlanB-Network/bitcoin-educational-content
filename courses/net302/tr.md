@@ -1872,9 +1872,10 @@ Kavramsal olarak, IPv6 adresleri genellikle ilk yarının (ilk 64 bit) ağ önek
 IPv6 mimarisi, günümüz İnternetinin hiyerarşik küresel yönlendirme modelini takip etmektedir. Önek bölümleme, bölgesel kayıtların ve ağ operatörlerinin Address tahsisini merkezi olmayan bir şekilde yönetmesini sağlarken, küresel benzersizliği de garanti eder. Bu çerçevede, aynı ana bilgisayar aynı anda internet iletişimi için küresel bir tek noktaya yayın Address'a ve yerel etkileşimler için, örneğin yakın komşularla veya yönlendirici keşif mesajları için bir bağlantı yerel Address'a sahip olabilir.
 
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Alan      | Önek | L | Küresel Kimlik | Alt ağ | Arayüz Kimliği |
+|-----------|--------|---|-----------|--------|---------------|
+| Bitler    | 7      | 1 | 40        | 16     | 64            |
 
 **Anycast adresleri**, unicast modelini temel alan ancak belirli durumlarda multicast gibi davranabilen bir ara kavramı temsil eder. Bir anycast Address, özünde, farklı ağ düğümlerine dağıtılmış birkaç arayüze atanmış tek noktaya yayın Address'dir. Bir anycast Address'e bir paket gönderildiğinde, IPv6 protokolü bu paketi Address'i paylaşan ana bilgisayarlardan birine, tipik olarak yönlendirme topolojisi açısından en yakın olanına ulaştırmayı amaçlar. Bu yaklaşım, sorgu işleme hızını optimize eder ve dağıtılmış hizmetlerin esnekliğini artırır. Klasik bir örnek, anycast adreslemenin sorguları otomatik olarak en yakın varlık noktasına yönlendirdiği kök DNS sunucularıdır.
 

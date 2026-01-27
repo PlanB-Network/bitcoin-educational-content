@@ -1872,9 +1872,10 @@ Konceptuellt representeras IPv6-adresser ofta som en binär struktur där den f�
 IPv6-arkitekturen följer den hierarkiska globala routingmodellen i dagens Internet. Prefixpartitionering gör det möjligt för regionala register och nätoperatörer att hantera Address-allokering på ett decentraliserat sätt, samtidigt som global unikhet säkerställs. Inom detta ramverk kan samma värd samtidigt inneha en global unicast Address för internetkommunikation och en link-local Address för lokala interaktioner, t.ex. med närmaste grannskap eller för meddelanden om routerupptäckt.
 
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Fält      | Prefix | L | Globalt ID | Subnät | Gränssnitts-ID |
+|-----------|--------|---|-----------|--------|---------------|
+| Bitar     | 7      | 1 | 40        | 16     | 64            |
 
 **Anycast-adresser** representerar ett mellanliggande koncept som bygger på unicast-modellen men som i vissa fall kan bete sig som multicast. En anycast Address är i själva verket en unicast Address som tilldelats flera gränssnitt fördelade över olika nätverksnoder. När ett paket skickas till en anycast Address strävar IPv6-protokollet efter att leverera det till en av de värdar som delar den Address, vanligtvis den som ligger närmast i fråga om routningstopologi. Detta tillvägagångssätt optimerar hastigheten för frågebearbetning och förbättrar motståndskraften hos distribuerade tjänster. Ett klassiskt exempel är DNS-rotservrarna, där anycast-adressering automatiskt leder frågor till den närmaste punkten av närvaro.
 

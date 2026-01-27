@@ -1876,9 +1876,10 @@ Conceptualmente, os endereços IPv6 são frequentemente representados como uma e
 A arquitetura IPv6 segue o modelo hierárquico de encaminhamento global da Internet atual. A partição de prefixos permite aos registos regionais e aos operadores de rede gerir a atribuição de Address de forma descentralizada, assegurando simultaneamente a exclusividade global. Neste contexto, o mesmo anfitrião pode possuir simultaneamente um Address global unicast para comunicação na Internet e um Address local para interações locais, por exemplo, com a vizinhança imediata ou para mensagens de descoberta de encaminhadores.
 
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Campo     | Prefixo | L | ID global | Sub-rede | ID da interface |
+|-----------|--------|---|-----------|--------|---------------|
+| Bits      | 7      | 1 | 40        | 16     | 64            |
 
 **Os endereços anycast** representam um conceito intermédio que se baseia no modelo unicast mas que, em certos casos, se pode comportar como multicast. Um Address anycast é, na sua essência, um Address unicast atribuído a várias interfaces distribuídas por diferentes nós da rede. Quando um pacote é enviado para um Address anycast, o protocolo IPv6 pretende entregá-lo a um dos hosts que partilham esse Address, normalmente o mais próximo em termos de topologia de encaminhamento. Esta abordagem optimiza a velocidade de processamento das consultas e melhora a resiliência dos serviços distribuídos. Um exemplo clássico são os servidores DNS de raiz, em que o endereçamento anycast direciona automaticamente as consultas para o ponto de presença mais próximo.
 

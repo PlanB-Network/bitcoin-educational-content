@@ -1872,9 +1872,10 @@ Mu vyiyumviro, aderesi za IPv6 akenshi zigaragazwa nk’imiterere y’ibice bibi
 Ubwubatsi bwa IPv6 bukurikira uburyo bwo gukoresha inzira z’isi yose bwa Internet y’ubu. Gucapura amajambo y’intango bituma amashirahamwe y’akarere n’abakoresha urubuga bashobora gucunga ugutanga Address mu buryo bwegerejwe, mu gihe bashobora gutuma haba ubudasa kw’isi yose. Muri iyo nzira, uwo mushitsi umwe arashobora gufata icarimwe unicast y’isi yose Address yo guhanahana amakuru kuri internet n’iyindi Address yo gukorana n’abandi, nk’akarorero. n'ababanyi ba hafi canke ku butumwa bwo kuvumbura router.
 
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Umwanya   | Prefix | L | Indangamuntu rusangi | Subnet | Indangamuntu y’interface |
+|-----------|--------|---|-----------|--------|---------------|
+| Bits      | 7      | 1 | 40        | 16     | 64            |
 
 **Anderesi za Anycast** zigereranya iciyumviro co hagati cubatse ku citegererezo ca unicast ariko gishobora kwigenza nk’ica multicast mu bihe bimwe bimwe. Anycast Address ni, mu vy’ukuri, unicast Address igenewe interfaces nyinshi zikwiragijwe ku nzira zitandukanye z’uruja n’uruza. Iyo umuzigo woherejwe kuri anycast Address, IPv6 protocol igamije kuyishikana kuri umwe mu bashitsi basangira iyo Address, cane cane iyo iri hafi cane mu bijanye n’inzira y’ubuhinga. Ubwo buryo buratuma ibibazo vyihuta kandi bugatuma ibikorwa bitangazwa bishobora gukomera. Akarorero ka kera ni imizi ya DNS servers, aho anycast addressing ihita irungika ibibazo ku ntumbero iri hafi cane.
 

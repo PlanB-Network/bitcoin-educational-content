@@ -1872,9 +1872,10 @@ IPv6-Adressen werden häufig als binäre Struktur dargestellt, bei der die erste
 Die IPv6-Architektur folgt dem hierarchischen globalen Routing-Modell des heutigen Internets. Die Aufteilung der Präfixe ermöglicht es den regionalen Registern und Netzbetreibern, die Address-Zuweisung dezentral zu verwalten und gleichzeitig die globale Einzigartigkeit zu gewährleisten. In diesem Rahmen kann ein und derselbe Host gleichzeitig einen globalen Unicast-Address für die Internetkommunikation und einen link-lokalen Address für lokale Interaktionen, z. B. mit der unmittelbaren Nachbarschaft oder für Router-Ermittlungsnachrichten, besitzen.
 
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Feld      | Präfix | L | Globale ID | Subnetz | Schnittstellen-ID |
+|-----------|--------|---|-----------|--------|---------------|
+| Bits      | 7      | 1 | 40        | 16     | 64            |
 
 **Anycast-Adressen** stellen ein Zwischenkonzept dar, das auf dem Unicast-Modell aufbaut, sich aber in bestimmten Fällen wie Multicast verhalten kann. Ein Anycast-Address ist im Wesentlichen ein Unicast-Address, der mehreren Schnittstellen zugewiesen ist, die über verschiedene Netzknoten verteilt sind. Wenn ein Paket an einen Anycast-Address gesendet wird, versucht das IPv6-Protokoll, es an einen der Hosts zuzustellen, die diesen Address gemeinsam nutzen, in der Regel an denjenigen, der in Bezug auf die Routing-Topologie am nächsten liegt. Dieser Ansatz optimiert die Geschwindigkeit der Abfrageverarbeitung und verbessert die Ausfallsicherheit von verteilten Diensten. Ein klassisches Beispiel sind die Root-DNS-Server, bei denen die Anycast-Adressierung die Abfragen automatisch an den nächstgelegenen Präsenzpunkt leitet.
 

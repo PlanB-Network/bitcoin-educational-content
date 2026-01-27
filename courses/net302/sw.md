@@ -1875,9 +1875,10 @@ Kidhahania, address za IPv6 mara nyingi huwakilishwa kama muundo wa jozi ambapo 
 Usanifu wa IPv6 unafuata mtindo wa ngazi ya kimataifa wa uelekezaji wa Mtandao wa leo. Kugawanya kiambishi awali huwezesha sajili za kikanda na waendeshaji mtandao kudhibiti ugawaji wa Address kwa njia iliyogatuliwa, huku ikihakikisha upekee wa kimataifa. Ndani ya mfumo huu mpangishi sawa anaweza kushikilia kwa wakati mmoja unicast Address ya kimataifa kwa mawasiliano ya intaneti na kiunganishi cha ndani cha Address kwa mwingiliano wa ndani, k.m. kwa ujirani wa karibu au kwa ujumbe wa kugundua kipanga njia.
 
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+
+| Sehemu    | Kiambishi | L | Kitambulisho cha kimataifa | Subnet | Kitambulisho cha kiolesura |
+|-----------|--------|---|-----------|--------|---------------|
+| Biti      | 7      | 1 | 40        | 16     | 64            |
 
 **Address za Anycast** zinawakilisha dhana ya kati ambayo hujengwa juu ya muundo wa unicast lakini inaweza kuwa kama utangazaji anuwai katika hali fulani. Address ya anycast ni, kimsingi, unicast Address iliyopewa miingiliano kadhaa iliyosambazwa kwenye nodi tofauti za mtandao. Pakiti inapotumwa kwa Address ya onyesho lolote, protocol ya IPv6 inalenga kuiwasilisha kwa mojawapo ya seva pangishi zinazoshiriki Address, ambayo kwa kawaida ndiyo iliyo karibu zaidi katika suala la topolojia ya uelekezaji. Mbinu hii huongeza kasi ya uchakataji wa hoja na kuboresha uthabiti wa huduma zinazosambazwa. Mfano wa kawaida ni seva za DNS za mizizi, ambapo anwani ya utumaji wowote huelekeza maswali kiotomatiki kwenye eneo la karibu la uwepo.
 

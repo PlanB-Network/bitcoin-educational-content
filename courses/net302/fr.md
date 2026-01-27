@@ -1177,7 +1177,8 @@ Les **adresses unicast** constituent la catégorie la plus courante et englobent
 
 Ce découpage conceptuel se matérialise souvent par une structure binaire où la première partie de l’adresse (les 64 premiers bits) identifie le préfixe réseau et la seconde moitié (64 bits également) identifie de façon unique l’interface de l’équipement sur ce réseau. Cette séparation facilite l’autoconfiguration des adresses grâce aux mécanismes comme SLAAC (_Stateless Address Autoconfiguration_), qui permettent aux machines de générer automatiquement une adresse stable basée sur l’adresse MAC ou un identifiant pseudo-aléatoire.
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Champ     | Préfixe | L | ID global | Sous-réseau | ID d’interface |
 |-----------|--------|---|-----------|--------|---------------|
 | Bits      | 7      | 1 | 40        | 16     | 64            |
 

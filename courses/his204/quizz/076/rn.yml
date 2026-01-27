@@ -1,8 +1,9 @@
-question: Ni ibintu bitatu ibihe bisigura ubukerebutsi Turgot yari afise?
-answer: Inkomoko y'umuryango wiwe, ibihe, ubukerebutsi bwiwe
+question: Ni ibintu bitatu ibihe bisigura munyabwenge Turgot yari we?
+answer: Inkomoko y'umuryango wiwe, igihe, ukuntu yaciye ubwenge cane hakiri kare
 wrong_answers:
-  - Inkomoko y'umuryango wiwe, uruja n'uruza rw'abagenzi biwe, ubutunzi bwiwe
-  - Ibihe, ubutunzi bwiwe, izina rya mwenewabo
-  - Ubuhinga bwiwe, ubuhinga bwiwe bwo kuvuga neza, umwiyemezo wiwe
+  - Inkomoko y'umuryango wiwe,abagenzi biwe, ubutunzi bwiwe
+  - Ibihe, ubutunzi bwiwe, icubahiro ca mwenewabo
+  - Uburwaneza bwiwe, ubuhinga bwiwe bwo kuvuga neza, ishaka ryiwe
 explanation: |
-  Inkomoko y’umuryango wa Turgot, kuba yari mu muryango w’icubahiro kandi w’abanyacubahiro, igihe yarimwo ugutera imbere kw’ubwenge n’icipfuzo co guhindura ibintu, be n’ubwenge bwiwe bwari buteye imbere, ivyo bikaba vyatumye ashobora kwihuta kumenya ivy’ubutunzi n’ivy’ubutegetsi, vyose vyatumye aba umunyabwenge cane.
+  Inkomoko y’umuryango wa Turgot, kuba yari mu muryango w’icubahiro kandi w’abanyacubahiro, igihe yarimwo ugutera imbere kw’ubwenge n’icipfuzo co guhindura ibintu, be n’ubwenge bwiwe bwari bwinshi, ivyo bikaba vyatumye ashobora kwihuta kumenya ivy’ubutunzi n’ivy’ubutegetsi, vyose vyatumye aba umunyabwenge cane.
+reviewed: true

@@ -263,11 +263,12 @@ Cíl: Připojte relé k tlačítku ON/OFF na dálkovém ovladači
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Svorka**         | **Popis**           | **Funkce**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normálně otevřeno)   | Obvod otevřený ve výchozím stavu | Zavře se, když je relé aktivováno |
+| NC (Normálně uzavřeno) | Obvod uzavřený ve výchozím stavu  | Otevře se, když je relé aktivováno  |
+| COM (Společné)         | Centrální svorka          | Přepíná mezi NO a NC              |
 
 **Zapojení dálkového ovládání do reléového modulu:**
 
@@ -301,11 +302,12 @@ Když ESP32 přeruší relé, COM a NO se oddělí, což odpovídá uvolnění t
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Modul relé** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Vstup)        |
 
 **Ověřování:**
 

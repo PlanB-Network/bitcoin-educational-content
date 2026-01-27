@@ -263,11 +263,12 @@ Tavoite: Kytke rele kaukosäätimen ON/OFF-painikkeeseen
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Nasta**         | **Kuvaus**           | **Funktio**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Tavallisesti avoin)   | Piiri on oletuksena avoin | Sulkeutuu kun rele aktivoidaan |
+| NC (Tavallisesti suljettu) | Piiri on oletuksena suljettu  | Avautuu kun rele aktivoidaan  |
+| COM (Yhteinen)         | Keskus nasta          | Vaihtuu NO ja NC välillä              |
 
 **Johdotus kaukosäätimestä relemoduuliin:**
 
@@ -301,11 +302,12 @@ Kun ESP32 katkaisee releen, COM ja NO eroavat toisistaan, mikä vastaa painikkee
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Releemoduuli** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Tulo)        |
 
 **Varmennus:**
 

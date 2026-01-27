@@ -263,11 +263,12 @@ Lengo: Unganisha relay kwenye kitufe cha ON/OFF kwenye rimoti
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Maelezo**           | **Kazi**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Kawaida Wazi)   | Mzunguko wazi kwa chaguo la ziada | Hufunga wakati relay inaruhusiwa |
+| NC (Kawaida Umefungwa) | Mzunguko umefungwa kwa chaguo la ziada  | Hufungua wakati relay inaruhusiwa  |
+| COM (Kawaida)         | Terminal ya kati          | Inabadilisha kati ya NO na NC              |
 
 **Kuunganisha waya kutoka kwa kidhibiti cha mbali hadi moduli ya kupokezana:**
 
@@ -301,11 +302,12 @@ ESP32 inapokata relay, COM na NO hutengana, ambayo ni sawa na kutoa kitufe.
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Moduli ya Relay** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Ingizo)        |
 
 **Uthibitishaji:**
 

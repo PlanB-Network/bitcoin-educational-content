@@ -263,11 +263,12 @@ Doel: Sluit het relais aan op de AAN/UIT-knop van de afstandsbediening
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Beschrijving**           | **Functie**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normaal geopend)   | Schakeling standaard geopend | Sluit wanneer het relais wordt geactiveerd |
+| NC (Normaal gesloten) | Schakeling standaard gesloten  | Opent wanneer het relais wordt geactiveerd  |
+| COM (Gemeenschappelijk)         | Centrale terminal          | Schakelt tussen NO en NC              |
 
 **Bedrading van afstandsbediening naar relaismodule:**
 
@@ -301,11 +302,12 @@ Wanneer de ESP32 het relais uitschakelt, worden COM en NO gescheiden, wat gelijk
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Relaismodule** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Ingang)        |
 
 **Verificatie:**
 

@@ -263,11 +263,12 @@ Eesmärk: Ühendage relee kaugjuhtimispuldi ON/OFF nupu külge
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Klemm**         | **Kirjeldus**           | **Funktsioon**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Tavaliselt avatud)   | Ahel on vaikimisi avatud | Sulgub, kui rele aktiveeritakse |
+| NC (Tavaliselt suletud) | Ahel on vaikimisi suletud  | Avaneb, kui rele aktiveeritakse  |
+| COM (Ühine)         | Keskne klemm          | Lülitub NO ja NC vahel              |
 
 **Puldi juhtmestik releemoodulile:**
 
@@ -301,11 +302,12 @@ Kui ESP32 katkestab relee, eralduvad COM ja NO, mis on samaväärne nupu vabasta
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Relee moodul** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Sisend)        |
 
 **Kontroll:**
 

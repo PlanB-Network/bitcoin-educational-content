@@ -192,11 +192,12 @@ Objective: Connect the relay to the ON/OFF button on the remote control
 **Reminder: Relay terminology
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Description**           | **Function**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normally Open)   | Circuit open by default | Closes when the relay is activated |
+| NC (Normally Closed) | Circuit closed by default  | Opens when the relay is activated  |
+| COM (Common)         | Central terminal          | Switches between NO and NC              |
 
 **Wiring from remote control to relay module:**
 
@@ -221,7 +222,8 @@ When the ESP32 cuts the relay, COM and NO separate, which is equivalent to relea
 **Wiring diagram:**
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Relay Module** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |

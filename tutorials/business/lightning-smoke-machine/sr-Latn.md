@@ -263,11 +263,12 @@ Cilj: Povežite relej sa ON/OFF dugmetom na daljinskom upravljaču
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Opis**           | **Funkcija**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normalno otvoren)   | Kolo otvoreno po zadanoj postavci | Zatvara se kada je relej aktiviran |
+| NC (Normalno zatvoren) | Kolo zatvoreno po zadanoj postavci  | Otvara se kada je relej aktiviran  |
+| COM (Zajedničko)         | Centralni terminal          | Prebacuje se između NO i NC              |
 
 **Ožičenje od daljinskog upravljača do relejnog modula:**
 
@@ -301,11 +302,12 @@ Kada ESP32 isključi relej, COM i NO se razdvajaju, što je ekvivalentno otpušt
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Relej modul** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Ulaz)        |
 
 **Verifikacija:**
 

@@ -263,11 +263,12 @@ Intumbero: Huza iyo relay n'ubuto ON/OFF buri ku gikoresho co gukoresha kure
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Icara**         | **Insobanuro**           | **Ibikorwa**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Zahabu mu buhe)   | Ikirango kigwire mu mahoro | Gifungira iyo aparatile yinjira mu mibare |
+| NC (Zahabu mu mbarizo) | Ikirango kigwire mu mahoro  | Kigwire iyo aparatile yinjira mu mibare  |
+| COM (Ubwiyunge)         | Icara cy'ubwiyunge          | Kuhindukirako hagati ya NO na NC              |
 
 **Ugushiramwo amawaya kuva ku gikoresho co kure gushika ku gikoresho co gutanga amakuru:**
 
@@ -301,11 +302,12 @@ Iyo ESP32 ikata relay, COM na NO biratandukana, ivyo bikaba bingana no kurekura 
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Igikoresho cy'aparatile** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Inyinjira)        |
 
 **Igenzura:**
 

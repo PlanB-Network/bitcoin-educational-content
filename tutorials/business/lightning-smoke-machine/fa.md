@@ -263,11 +263,12 @@ description: یک دستگاه دودزا را با پرداخت لایتنین�
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **پایانه**         | **توضیح**           | **عملکرد**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (معمولاً باز)   | مدار به طور پیش‌فرض باز است | هنگام فعال شدن رله بسته می‌شود |
+| NC (معمولاً بسته) | مدار به طور پیش‌فرض بسته است  | هنگام فعال شدن رله باز می‌شود  |
+| COM (مشترک)         | پایانه مرکزی          | بین NO و NC تغییر می‌کند              |
 
 **سیم‌کشی از کنترل از راه دور به ماژول رله:**
 
@@ -301,11 +302,12 @@ description: یک دستگاه دودزا را با پرداخت لایتنین�
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **ماژول رله** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (ورودی)        |
 
 **تأیید:**
 

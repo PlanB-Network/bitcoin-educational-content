@@ -263,11 +263,12 @@ description: ESP32経由のLightning決済でスモークマシンを起動。
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **端子**         | **説明**           | **機能**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (常時開放)   | デフォルトではサーキットは開放 | リレーが動作したときに閉じる |
+| NC (常時閉鎖) | デフォルトではサーキットは閉鎖  | リレーが動作したときに開く  |
+| COM (共通)         | 中央端子          | NOとNCの間で切り替わる              |
 
 *リモコンからリレーモジュールへの配線：***。
 
@@ -301,11 +302,12 @@ ESP32がリレーをカットすると、COMとNOが分離し、ボタンを離�
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **リレーモジュール** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (入力)        |
 
 **検証
 

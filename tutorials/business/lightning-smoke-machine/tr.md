@@ -263,11 +263,12 @@ Amaç: Röleyi uzaktan kumanda üzerindeki AÇMA/KAPAMA düğmesine bağlayın
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Açıklama**           | **Fonksiyon**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normaliter Açık)   | Devre varsayılan olarak açık | Rölesi etkinleştirildiğinde kapanır |
+| NC (Normaliter Kapalı) | Devre varsayılan olarak kapalı  | Rölesi etkinleştirildiğinde açılır  |
+| COM (Ortak)         | Merkez terminal          | NO ve NC arasında geçiş yapar              |
 
 **Uzaktan kumandadan röle modülüne kablolama:**
 
@@ -301,11 +302,12 @@ ESP32 röleyi kestiğinde, COM ve NO ayrılır, bu da düğmeyi bırakmaya eşde
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Rölü Modülü** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Giriş)        |
 
 **Doğrulama:**
 

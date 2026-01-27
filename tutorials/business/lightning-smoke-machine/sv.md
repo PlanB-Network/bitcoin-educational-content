@@ -263,11 +263,12 @@ Målsättning: Anslut reläet till ON/OFF-knappen på fjärrkontrollen
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Beskrivning**           | **Funktion**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normalt öppen)   | Krets öppen enligt standard | Stängs när reläet aktiveras |
+| NC (Normalt sluten) | Krets sluten enligt standard  | Öppnas när reläet aktiveras  |
+| COM (Gemensam)         | Central terminal          | Växlar mellan NO och NC              |
 
 **Kabeldragning från fjärrkontroll till relämodul:**
 
@@ -301,11 +302,12 @@ När ESP32 slår av reläet separeras COM och NO, vilket motsvarar att släppa k
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Relemodul** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Ingång)        |
 
 **Verifiering:**
 

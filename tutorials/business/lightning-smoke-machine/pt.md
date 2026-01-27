@@ -263,11 +263,12 @@ Objetivo: Ligar o relé ao botão ON/OFF do controlo remoto
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Descrição**           | **Função**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normalmente Aberto)   | Circuito aberto por padrão | Fecha quando o relé é ativado |
+| NC (Normalmente Fechado) | Circuito fechado por padrão  | Abre quando o relé é ativado  |
+| COM (Comum)         | Terminal central          | Alterna entre NO e NC              |
 
 **Cablagem do controlo remoto para o módulo de relé:**
 
@@ -301,11 +302,12 @@ Quando o ESP32 corta o relé, COM e NO separam-se, o que equivale a soltar o bot
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Módulo de Relé** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Entrada)        |
 
 **Verificação: **
 

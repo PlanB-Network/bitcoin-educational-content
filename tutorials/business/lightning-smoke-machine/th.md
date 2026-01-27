@@ -263,11 +263,12 @@ description: เรียกใช้งานเครื่องทำคว�
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **ขั้ว**         | **คำอธิบาย**           | **ฟังก์ชัน**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (เปิดปกติ)   | วงจรเปิดตามค่าเริ่มต้น | ปิดเมื่อรีเลย์ถูกเปิดใช้งาน |
+| NC (ปิดปกติ) | วงจรปิดตามค่าเริ่มต้น  | เปิดเมื่อรีเลย์ถูกเปิดใช้งาน  |
+| COM (ร่วม)         | ขั้วกลาง          | สลับระหว่าง NO และ NC              |
 
 **การเดินสายจากรีโมทคอนโทรลไปยังโมดูลรีเลย์:**
 
@@ -301,11 +302,12 @@ description: เรียกใช้งานเครื่องทำคว�
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **โมดูลรีเลย์** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (อินพุต)        |
 
 **การยืนยัน:**
 

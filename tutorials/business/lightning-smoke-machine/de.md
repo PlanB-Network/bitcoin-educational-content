@@ -263,11 +263,12 @@ Zielsetzung: Verbinden Sie das Relais mit der ON/OFF-Taste der Fernsteuerung
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Anschluss**         | **Beschreibung**           | **Funktion**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normalerweise offen)   | Stromkreis standardmäßig offen | Schließt sich, wenn das Relais aktiviert wird |
+| NC (Normalerweise geschlossen) | Stromkreis standardmäßig geschlossen  | Öffnet sich, wenn das Relais aktiviert wird  |
+| COM (Allgemein)         | Zentraler Anschluss          | Schaltet zwischen NO und NC um              |
 
 **Verkabelung von der Fernbedienung zum Relaismodul:**
 
@@ -301,11 +302,12 @@ Wenn der ESP32 das Relais abschaltet, trennen sich COM und NO, was dem Loslassen
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Relaismodul** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Eingang)        |
 
 **Verifizierung:**
 

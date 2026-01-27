@@ -263,11 +263,12 @@ Obiettivo: Collegare il relè al pulsante ON/OFF del telecomando
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminale**         | **Descrizione**           | **Funzione**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normalmente Aperto)   | Circuito aperto per impostazione predefinita | Si chiude quando il relè è attivato |
+| NC (Normalmente Chiuso) | Circuito chiuso per impostazione predefinita  | Si apre quando il relè è attivato  |
+| COM (Comune)         | Terminale centrale          | Commuta tra NO e NC              |
 
 **Cablaggio dal telecomando al modulo relè:**
 
@@ -301,11 +302,12 @@ Quando l'ESP32 interrompe il relè, COM e NO si separano, il che equivale a rila
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Modulo Relè** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Ingresso)        |
 
 **Verifica:**
 

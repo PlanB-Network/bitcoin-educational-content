@@ -263,11 +263,12 @@ description: 透過 ESP32 以 Lightning 付款觸發煙霧機。
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **端子**         | **說明**           | **功能**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (常開)   | 電路預設開啟 | 繼電器激活時閉合 |
+| NC (常閉) | 電路預設閉合  | 繼電器激活時開啟  |
+| COM (公共)         | 中心端子          | 在NO和NC之間切換              |
 
 **從遙控器到繼電器模組的接線：**
 
@@ -301,11 +302,12 @@ description: 透過 ESP32 以 Lightning 付款觸發煙霧機。
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **繼電器模組** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (輸入)        |
 
 **驗證：**
 

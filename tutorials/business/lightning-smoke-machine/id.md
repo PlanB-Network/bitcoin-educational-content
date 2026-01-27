@@ -263,11 +263,12 @@ Tujuan: Hubungkan relai ke tombol ON/OFF pada remote control
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Deskripsi**           | **Fungsi**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Biasanya Terbuka)   | Sirkuit terbuka secara default | Menutup saat relay diaktifkan |
+| NC (Biasanya Tertutup) | Sirkuit tertutup secara default  | Membuka saat relay diaktifkan  |
+| COM (Umum)         | Terminal pusat          | Beralih antara NO dan NC              |
 
 **Pengkabelan dari remote control ke modul relai:**
 
@@ -301,11 +302,12 @@ Ketika ESP32 memutus relai, COM dan NO akan terpisah, yang setara dengan melepas
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Modul Relai** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Masukan)        |
 
 **Verifikasi:**
 

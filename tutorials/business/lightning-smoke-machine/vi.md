@@ -263,11 +263,12 @@ Mục tiêu: Kết nối rơle với nút BẬT/TẮT trên điều khiển từ
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Cực**         | **Mô tả**           | **Chức năng**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Bình thường Mở)   | Mạch mở theo mặc định | Đóng khi rơle được kích hoạt |
+| NC (Bình thường Đóng) | Mạch đóng theo mặc định  | Mở khi rơle được kích hoạt  |
+| COM (Chung)         | Cực trung tâm          | Chuyển đổi giữa NO và NC              |
 
 **Sơ đồ đấu dây từ bộ điều khiển từ xa đến mô-đun rơle:**
 
@@ -301,11 +302,12 @@ Khi ESP32 ngắt rơle, chân COM và NO sẽ tách rời, điều này tương 
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Mô-đun Rơle** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Đầu vào)        |
 
 **Xác minh:**
 

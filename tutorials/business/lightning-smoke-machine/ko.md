@@ -263,11 +263,12 @@ description: ESP32를 통해 라이트닝 결제로 연기 기계를 트리거�
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **단자**         | **설명**           | **기능**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (상시 개방)   | 기본적으로 회로가 열려 있음 | 릴레이가 활성화될 때 닫힘 |
+| NC (상시 폐쇄) | 기본적으로 회로가 닫혀 있음  | 릴레이가 활성화될 때 열림  |
+| COM (공통)         | 중앙 단자          | NO와 NC 사이를 전환              |
 
 **리모컨에서 릴레이 모듈까지 배선:**
 
@@ -301,11 +302,12 @@ ESP32가 릴레이를 차단하면 COM과 NO가 분리되며, 이는 버튼에�
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **릴레이 모듈** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (입력)        |
 
 **인증: **
 

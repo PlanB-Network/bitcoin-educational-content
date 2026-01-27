@@ -263,11 +263,12 @@ description: 通过 ESP32 以闪电支付方式触发烟雾机。
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **端子**         | **说明**           | **功能**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (常开)   | 电路默认开启 | 继电器激活时闭合 |
+| NC (常闭) | 电路默认闭合  | 继电器激活时开启  |
+| COM (公共)         | 中心端子          | 在NO和NC之间切换              |
 
 **从遥控器到继电器模块的接线：**
 
@@ -301,11 +302,12 @@ description: 通过 ESP32 以闪电支付方式触发烟雾机。
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **继电器模块** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (输入)        |
 
 **验证：**
 

@@ -263,11 +263,12 @@ Cel: Podłącz przekaźnik do przycisku ON/OFF na pilocie zdalnego sterowania
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Zacisk**         | **Opis**           | **Funkcja**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normalnie otwarty)   | Obwód otwarty domyślnie | Zamyka się po aktywacji przekaźnika |
+| NC (Normalnie zamknięty) | Obwód zamknięty domyślnie  | Otwiera się po aktywacji przekaźnika  |
+| COM (Wspólny)         | Zacisk centralny          | Przełącza między NO i NC              |
 
 **Okablowanie od pilota do modułu przekaźnika:**
 
@@ -301,11 +302,12 @@ Gdy ESP32 rozłączy przekaźnik, COM i NO zostaną rozdzielone, co jest równoz
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Moduł przekaźnika** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Wejście)        |
 
 **Weryfikacja:**
 

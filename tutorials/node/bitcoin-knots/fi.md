@@ -237,13 +237,14 @@ server=1
 
 Kun olet muokannut tiedostoa, varmista, että tallennat sen käyttöjärjestelmääsi sopivaan kansioon:
 
-|**macOS**|~/Library/Application Support/Bitcoin||
 
+
+
+
+|**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Tämä toiminto voidaan suorittaa myös Bitcoin-QT:n Interface-grafiikan avulla. Siirry "*Settings*"-valikkoon, sitten "*Options...*" ja aktivoi "*Enable RPC server*"-vaihtoehto merkitsemällä vastaava ruutu. Jos `Bitcoin.conf`-tiedostoa ei ole olemassa, voit luoda sen suoraan tästä Interface:stä klikkaamalla "*Open Configuration File*".
 

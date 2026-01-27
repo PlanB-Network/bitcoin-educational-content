@@ -237,13 +237,14 @@ server=1
 
 Nachdem Sie die Datei bearbeitet haben, speichern Sie sie im entsprechenden Ordner Ihres Betriebssystems:
 
+
+
+
+
 |**macOS**|~/Library/Application Support/Bitcoin|
-
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Dieser Vorgang kann auch über die Interface-Grafik des Bitcoin-QT durchgeführt werden. Gehen Sie in das Menü "*Einstellungen*", dann "*Optionen...*", und aktivieren Sie die Option "*RPC-Server aktivieren*", indem Sie das entsprechende Kästchen anklicken. Wenn die Datei `Bitcoin.conf` nicht existiert, können Sie sie direkt von diesem Interface aus erstellen, indem Sie auf "*Open Configuration File*" klicken.
 

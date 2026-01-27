@@ -343,10 +343,11 @@ server=1
 Baada ya kuhariri faili, hakikisha umeihifadhi kwenye folda inayofaa kwa mfumo wako wa kufanya kazi:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Operesheni hii pia inaweza kufanywa kupitia michoro ya Interface ya Bitcoin-QT. Nenda kwenye menyu ya "*Mipangilio*", kisha "* Chaguzi...*", na uamilishe chaguo la "* Wezesha seva ya RPC*" kwa kuangalia kisanduku sambamba. Ikiwa faili `Bitcoin.conf` haipo, unaweza kuiunda moja kwa moja kutoka kwa Interface hii kwa kubofya "*Fungua Faili ya Usanidi*".
 

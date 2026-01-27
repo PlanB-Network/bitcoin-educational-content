@@ -346,10 +346,11 @@ server=1
 Uhejeje guhindura dosiye, urabe ko uyibika muri dosiye ibereye sisitemu yawe:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Ivyo bishobora kandi gukorwa biciye ku bishushanyo vya Bitcoin-QT vya Interface. Genda kuri "*Ivyagezwe*", hanyuma "*Amahitamwo...*", hanyuma ukoreshe amahitamwo ya "*Gushoboza server ya RPC*" mu guca ku gasandugu kahuye. Niba dosiye `Bitcoin.conf` itahari, ushobora kuyihingura uhereye kuri iyi Interface ukanda kuri "*Gufungura dosiye y'imiterere*".
 

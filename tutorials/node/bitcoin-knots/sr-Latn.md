@@ -343,10 +343,11 @@ server=1
 Nakon uređivanja datoteke, obavezno je sačuvajte u odgovarajućem folderu za vaš operativni sistem:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Ova operacija se takođe može izvesti putem Bitcoin-QT korisničkog interfejsa. Idite na meni "*Settings*", zatim "*Options...*", i aktivirajte opciju "*Enable RPC server*" označavanjem odgovarajućeg polja. Ako `Bitcoin.conf` datoteka ne postoji, možete je kreirati direktno iz ovog Interface klikom na "*Open Configuration File*".
 

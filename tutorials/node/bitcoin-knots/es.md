@@ -234,6 +234,7 @@ server=1
 
 Después de editar el archivo, asegúrate de guardarlo en la carpeta adecuada para tu sistema operativo:
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|

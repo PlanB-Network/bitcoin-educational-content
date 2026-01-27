@@ -346,10 +346,11 @@ server=1
 När du har redigerat filen ska du se till att spara den i rätt mapp för ditt operativsystem:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Denna operation kan också utföras via Bitcoin-QT:s Interface-grafik. Gå till menyn "*Settings*", sedan "*Options...*" och aktivera alternativet "*Enable RPC server*" genom att markera motsvarande ruta. Om filen `Bitcoin.conf` inte finns, kan du skapa den direkt från denna Interface genom att klicka på "*Open Configuration File*".
 

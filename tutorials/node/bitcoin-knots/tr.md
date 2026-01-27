@@ -346,10 +346,11 @@ server=1
 Dosyayı düzenledikten sonra, işletim sisteminiz için uygun klasöre kaydettiğinizden emin olun:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Bu işlem Bitcoin-QT'nin Interface grafikleri üzerinden de gerçekleştirilebilir. "*Ayarlar*" menüsüne gidin, ardından "*Seçenekler...*" ve ilgili kutuyu işaretleyerek "*RPC sunucusunu etkinleştir*" seçeneğini etkinleştirin. Eğer `Bitcoin.conf` dosyası mevcut değilse, "*Open Configuration File*" seçeneğine tıklayarak doğrudan bu Interface'ten oluşturabilirsiniz.
 

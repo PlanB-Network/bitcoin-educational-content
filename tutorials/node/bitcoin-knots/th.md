@@ -346,10 +346,11 @@ server=1
 หลังจากแก้ไขไฟล์แล้ว ให้แน่ใจว่าคุณบันทึกไฟล์ในโฟลเดอร์ที่เหมาะสมสำหรับระบบปฏิบัติการของคุณ:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 การดำเนินการนี้สามารถทำได้ผ่านกราฟิก Bitcoin-QT ของ Interface ไปที่เมนู "*Settings*" จากนั้นเลือก "*Options...*" และเปิดใช้งานตัวเลือก "*Enable RPC server*" โดยการทำเครื่องหมายในช่องที่สอดคล้องกัน หากไฟล์ `Bitcoin.conf` ไม่มีอยู่ คุณสามารถสร้างไฟล์ได้โดยตรงจาก Interface นี้โดยคลิกที่ "*Open Configuration File*"
 

@@ -1869,7 +1869,8 @@ Finalmente, os endereços locais únicos (_ULA_, para _Unique Local Addresses_) 
 Conceptualmente, os endereços IPv6 são frequentemente representados como uma estrutura binária em que a primeira metade (os primeiros 64 bits) identifica o prefixo da rede e a segunda metade (também 64 bits) identifica exclusivamente o Interface dispositivo nessa rede. Esta divisão facilita a autoconfiguração do Address através de mecanismos como o SLAAC (_Stateless Address Autoconfiguration_), que permite que as máquinas generate automaticamente um Address estável baseado no MAC Address ou num identificador pseudo-aleatório.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Campo     | Prefixo | L | ID global | Sub-rede | ID da interface |
 |-----------|--------|---|-----------|--------|---------------|
 | Bits      | 7      | 1 | 40        | 16     | 64            |
 
@@ -1877,16 +1878,18 @@ A arquitetura IPv6 segue o modelo hierárquico de encaminhamento global da Inter
 
 
 
-| Campo     | Prefixo | L | ID global | Sub-rede | ID da interface |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+
+| Campo     | Prefixo | Zero | ID da interface |
+|-----------|--------|------|--------------|
+| Bits      | 10     | 54   | 64           |
 
 **Os endereços anycast** representam um conceito intermédio que se baseia no modelo unicast mas que, em certos casos, se pode comportar como multicast. Um Address anycast é, na sua essência, um Address unicast atribuído a várias interfaces distribuídas por diferentes nós da rede. Quando um pacote é enviado para um Address anycast, o protocolo IPv6 pretende entregá-lo a um dos hosts que partilham esse Address, normalmente o mais próximo em termos de topologia de encaminhamento. Esta abordagem optimiza a velocidade de processamento das consultas e melhora a resiliência dos serviços distribuídos. Um exemplo clássico são os servidores DNS de raiz, em que o endereçamento anycast direciona automaticamente as consultas para o ponto de presença mais próximo.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
+
+| Campo     | Prefixo | Subnet | ID da Interface |
+|-----------|--------|--------|______________|
 | Bits      | 48     | 16     | 64           |
 
 No IPv6, os endereços **multicast** substituem o mecanismo de difusão, que foi considerado demasiado dispendioso e inadequado para uma rede à escala global. Um Address multicast identifica um grupo de interfaces, normalmente em vários hosts, que desejam receber os mesmos pacotes simultaneamente.
@@ -1909,7 +1912,8 @@ A estrutura de um Address multicast IPv6 inclui:
 - um campo de identificação (112 bits) que identifica o número do grupo multicast.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Campo      | Prefixo | Sinalizadores | Escopo | ID do grupo |
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 

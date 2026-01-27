@@ -1865,25 +1865,28 @@ Lõpuks, unikaalsed kohalikud aadressid (_ULA_, mis tähendab _Unique Local Addr
 Kontseptuaalselt esitatakse IPv6-aadressid sageli binaarse struktuurina, mille esimene pool (esimesed 64 bitti) tähistab võrgu eesliidet ja teine pool (samuti 64 bitti) tähistab üheselt seadme Interface selles võrgus. Selline jagunemine lihtsustab Address autokonfigureerimist selliste mehhanismide abil nagu SLAAC (_Stateless Address Autoconfiguration_), mis võimaldavad masinatel automaatselt generate stabiilset Address MAC Address või pseudosituatsioonilise identifikaatori alusel.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
-
-IPv6 arhitektuur järgib tänase Interneti hierarhilist globaalse marsruutimise mudelit. Prefiksite jaotamine võimaldab piirkondlikel registritel ja võrguoperaatoritel hallata Address jaotamist detsentraliseeritult, tagades samas ülemaailmse unikaalsuse. Selles raamistikus võib üks ja sama host omada samaaegselt globaalset üheaadressi Address Interneti-suhtluseks ja link-lokaalset Address kohalikuks suhtluseks, nt vahetu naabruskonnaga või marsruuteri avastamissõnumite jaoks.
-
-
 
 | Väli      | Prefiks | L | Globaalne ID | Alamvõrk | Liidese ID |
 |-----------|--------|---|-----------|--------|---------------|
 | Bitid     | 7      | 1 | 40        | 16     | 64            |
 
+IPv6 arhitektuur järgib tänase Interneti hierarhilist globaalse marsruutimise mudelit. Prefiksite jaotamine võimaldab piirkondlikel registritel ja võrguoperaatoritel hallata Address jaotamist detsentraliseeritult, tagades samas ülemaailmse unikaalsuse. Selles raamistikus võib üks ja sama host omada samaaegselt globaalset üheaadressi Address Interneti-suhtluseks ja link-lokaalset Address kohalikuks suhtluseks, nt vahetu naabruskonnaga või marsruuteri avastamissõnumite jaoks.
+
+
+
+
+| Väli      | Prefiks | Null | Liidese ID |
+|-----------|--------|------|--------------|
+| Bitid     | 10     | 54   | 64           |
+
 **Anycast-aadressid** kujutavad endast vahepealset kontseptsiooni, mis põhineb unicast-mudelil, kuid võib teatud juhtudel käituda nagu multicast. Anycast Address on sisuliselt unicast Address, mis on määratud mitmele eri võrgusõlmedesse jaotatud liidesele. Kui pakett saadetakse anycast Address-le, püüab IPv6-protokoll edastada selle ühele seda Address jagavale hostile, mis on tavaliselt marsruutimistopoloogia poolest kõige lähemal. Selline lähenemisviis optimeerib päringute töötlemise kiirust ja parandab hajutatud teenuste vastupidavust. Klassikaline näide on juur-DNS-serverid, kus anycast-aadressimine suunab päringud automaatselt lähimale kohalolekupunktile.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Väli     | Eesliide | Alamvõrk | Liidese ID |
+|-----------|--------|--------|______________|
+| Bitid      | 48     | 16     | 64           |
 
 IPv6s asendavad **multisaateaadressid** ringhäälingumehhanismi, mida peeti liiga kulukaks ja ülemaailmsete võrkude jaoks ebasobivaks. Multisaate Address identifitseerib grupi liideseid, tavaliselt mitme hosti vahel, mis soovivad saada samu pakette samaaegselt.
 
@@ -1905,9 +1908,10 @@ IPv6 multisaate Address struktuur hõlmab järgmist:
 - identifitseerimisväli (112 bitti), mis identifitseerib multisaadete grupi numbri.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Väli      | Eesliide | Lipud | Ulatusala | Grupi ID |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bitid       | 8      | 4      | 4      | 112      |
 
 Tuntud näide IPv6 multisaadetiste toimimisest on _Neighbor Discovery Protocol_ (NDP). Selle asemel, et kasutada ARP-d nagu IPv4-s, kasutab NDP naabrite avastamise päringute edastamiseks multisaateaadresse, näiteks `ff02::1:ff00:0/104`, mis on suunatud ainult asjaomastele hostidele samal lingil.
 

@@ -1865,25 +1865,28 @@ Yksilölliset paikalliset osoitteet (_ULA_, lyhenne sanoista _Unique Local Addre
 Käsitteellisesti IPv6-osoitteet esitetään usein binäärirakenteena, jonka ensimmäinen puolikas (ensimmäiset 64 bittiä) yksilöi verkon etuliitteen ja toinen puolikas (myös 64 bittiä) yksilöi laitteen Interface:n kyseisessä verkossa. Tämä jako helpottaa Address automaattista konfigurointia SLAAC:n (_Stateless Address Autoconfiguration_) kaltaisten mekanismien avulla, joiden avulla koneet voivat automaattisesti generate valita vakaan Address MAC Address:n tai pseudosattumanvaraisen tunnisteen perusteella.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
-
-IPv6-arkkitehtuuri noudattaa nykyisen Internetin hierarkkista globaalia reititysmallia. Prefiksien jakamisen avulla alueelliset rekisterit ja verkko-operaattorit voivat hallita Address:n jakamista hajautetusti ja varmistaa samalla maailmanlaajuisen yksikäsitteisyyden. Tässä järjestelmässä sama isäntä voi samanaikaisesti pitää hallussaan maailmanlaajuista yksilähetys Address:tä Internet-viestintää varten ja linkkilokaalista Address:tä paikallista vuorovaikutusta varten, esimerkiksi välittömien naapurien kanssa tai reitittimen etsintäviestejä varten.
-
-
 
 | Kenttä    | Etuliite | L | Globaali tunniste | Aliverkko | Liitännän tunniste |
 |-----------|--------|---|-----------|--------|---------------|
 | Bitit     | 7      | 1 | 40        | 16     | 64            |
 
+IPv6-arkkitehtuuri noudattaa nykyisen Internetin hierarkkista globaalia reititysmallia. Prefiksien jakamisen avulla alueelliset rekisterit ja verkko-operaattorit voivat hallita Address:n jakamista hajautetusti ja varmistaa samalla maailmanlaajuisen yksikäsitteisyyden. Tässä järjestelmässä sama isäntä voi samanaikaisesti pitää hallussaan maailmanlaajuista yksilähetys Address:tä Internet-viestintää varten ja linkkilokaalista Address:tä paikallista vuorovaikutusta varten, esimerkiksi välittömien naapurien kanssa tai reitittimen etsintäviestejä varten.
+
+
+
+
+| Kenttä    | Etuliite | Nolla | Liitännän tunniste |
+|-----------|--------|------|--------------|
+| Bitit     | 10     | 54   | 64           |
+
 **Anycast-osoitteet** ovat välikäsite, joka perustuu unicast-malliin mutta voi tietyissä tapauksissa käyttäytyä kuten multicast. Anycast Address on pohjimmiltaan unicast Address, joka on osoitettu useille eri verkkosolmujen välille jaetuille liitännöille. Kun paketti lähetetään anycast Address:lle, IPv6-protokolla pyrkii toimittamaan sen jollekin kyseisen Address:n jakavista isännistä, yleensä reititystopologialtaan lähimmälle. Tämä lähestymistapa optimoi kyselyjen käsittelynopeuden ja parantaa hajautettujen palvelujen häiriönsietokykyä. Klassinen esimerkki tästä ovat DNS-palvelimet, joissa anycast-osoitteet ohjaavat kyselyt automaattisesti lähimpään läsnäolopisteeseen.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Kenttä     | Etuliite | Aliverkko | Liittymän tunnus |
+|-----------|--------|--------|______________|
+| Bitit      | 48     | 16     | 64           |
 
 IPv6:ssa **monilähetysosoitteet** korvaavat broadcast-mekanismin, jota pidettiin liian kalliina ja sopimattomana maailmanlaajuiseen verkkoon. Monilähetys Address yksilöi ryhmän liitäntöjä, tyypillisesti useita isäntiä, jotka haluavat vastaanottaa samoja paketteja samanaikaisesti.
 
@@ -1905,9 +1908,10 @@ IPv6-multicast Address:n rakenne sisältää seuraavat osat:
 - tunnistekenttä (112 bittiä), joka yksilöi monilähetysryhmän numeron.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Kenttä      | Etuliite | Liput | Laajuus | Ryhmän tunnus |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bitit       | 8      | 4      | 4      | 112      |
 
 Tunnettu esimerkki IPv6-monilähetysten käytöstä on _Neighbor Discovery Protocol_ (NDP). Sen sijaan, että NDP käyttäisi ARP:tä kuten IPv4:ssä, se käyttää monilähetysosoitteita, kuten `ff02::1:ff00:0/104`, naapurien löytämispyyntöjen lähettämiseen, ja se kohdistuu vain samalla linkillä oleviin isäntäkoneisiin.
 

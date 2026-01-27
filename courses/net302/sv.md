@@ -1865,25 +1865,28 @@ Slutligen är unika lokala adresser (_ULA_, för _Unique Local Addresses_) inter
 Konceptuellt representeras IPv6-adresser ofta som en binär struktur där den första halvan (de första 64 bitarna) identifierar nätverksprefixet och den andra halvan (också 64 bitar) unikt identifierar enhetens Interface i det nätverket. Denna uppdelning gör Address autokonfiguration enklare genom mekanismer som SLAAC (_Stateless Address Autoconfiguration_), som gör det möjligt för maskiner att automatiskt generate en stabil Address baserat på MAC Address eller en pseudoslumpmässig identifierare.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
-
-IPv6-arkitekturen följer den hierarkiska globala routingmodellen i dagens Internet. Prefixpartitionering gör det möjligt för regionala register och nätoperatörer att hantera Address-allokering på ett decentraliserat sätt, samtidigt som global unikhet säkerställs. Inom detta ramverk kan samma värd samtidigt inneha en global unicast Address för internetkommunikation och en link-local Address för lokala interaktioner, t.ex. med närmaste grannskap eller för meddelanden om routerupptäckt.
-
-
 
 | Fält      | Prefix | L | Globalt ID | Subnät | Gränssnitts-ID |
 |-----------|--------|---|-----------|--------|---------------|
 | Bitar     | 7      | 1 | 40        | 16     | 64            |
 
+IPv6-arkitekturen följer den hierarkiska globala routingmodellen i dagens Internet. Prefixpartitionering gör det möjligt för regionala register och nätoperatörer att hantera Address-allokering på ett decentraliserat sätt, samtidigt som global unikhet säkerställs. Inom detta ramverk kan samma värd samtidigt inneha en global unicast Address för internetkommunikation och en link-local Address för lokala interaktioner, t.ex. med närmaste grannskap eller för meddelanden om routerupptäckt.
+
+
+
+
+| Fält      | Prefix | Noll | Gränssnitts-ID |
+|-----------|--------|------|--------------|
+| Bitar     | 10     | 54   | 64           |
+
 **Anycast-adresser** representerar ett mellanliggande koncept som bygger på unicast-modellen men som i vissa fall kan bete sig som multicast. En anycast Address är i själva verket en unicast Address som tilldelats flera gränssnitt fördelade över olika nätverksnoder. När ett paket skickas till en anycast Address strävar IPv6-protokollet efter att leverera det till en av de värdar som delar den Address, vanligtvis den som ligger närmast i fråga om routningstopologi. Detta tillvägagångssätt optimerar hastigheten för frågebearbetning och förbättrar motståndskraften hos distribuerade tjänster. Ett klassiskt exempel är DNS-rotservrarna, där anycast-adressering automatiskt leder frågor till den närmaste punkten av närvaro.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Fält     | Prefix | Undernät | Gränssnitts-ID |
+|-----------|--------|--------|______________|
+| Bitar      | 48     | 16     | 64           |
 
 I IPv6 ersätter **multicast-adresser** broadcast-mekanismen, som ansågs vara för kostsam och olämplig för ett globalt nätverk. En multicast Address identifierar en grupp gränssnitt, vanligtvis över flera värdar, som vill ta emot samma paket samtidigt.
 
@@ -1905,9 +1908,10 @@ Strukturen för en IPv6 multicast Address inkluderar:
 - ett identifieringsfält (112 bitar) som identifierar multicastgruppens nummer.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Fält      | Prefix | Flaggor | Omfattning | Grupp-ID |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bitar       | 8      | 4      | 4      | 112      |
 
 Ett välkänt exempel på IPv6 multicast i praktiken är _Neighbor Discovery Protocol_ (NDP). I stället för att använda ARP som i IPv4 förlitar sig NDP på multicast-adresser som `ff02::1:ff00:0/104` för att sända ut förfrågningar om grannupptäckt, som endast riktar sig till relevanta värdar på samma länk.
 

@@ -1869,25 +1869,28 @@ Wreszcie, unikalne adresy lokalne (_ULA_, od _Unique Local Addresses_) są wewn�
 Koncepcyjnie adresy IPv6 są często reprezentowane jako struktura binarna, w której pierwsza połowa (pierwsze 64 bity) identyfikuje prefiks sieci, a druga połowa (również 64 bity) jednoznacznie identyfikuje Interface urządzenia w tej sieci. Podział ten ułatwia autokonfigurację Address poprzez mechanizmy takie jak SLAAC (_Stateless Address Autoconfiguration_), które umożliwiają maszynom automatyczne generate stabilne Address w oparciu o MAC Address lub pseudolosowy identyfikator.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
-
-Architektura IPv6 jest zgodna z hierarchicznym globalnym modelem routingu dzisiejszego Internetu. Podział prefiksów umożliwia regionalnym rejestrom i operatorom sieci zarządzanie alokacją Address w sposób zdecentralizowany, przy jednoczesnym zapewnieniu globalnej unikalności. W tych ramach ten sam host może jednocześnie posiadać globalny unicast Address do komunikacji internetowej i link-local Address do lokalnych interakcji, np. z bezpośrednim sąsiedztwem lub dla komunikatów wykrywania routerów.
-
-
 
 | Pole      | Prefiks | L | Globalny identyfikator | Podsieć | Identyfikator interfejsu |
 |-----------|--------|---|-----------|--------|---------------|
 | Bity      | 7      | 1 | 40        | 16     | 64            |
 
+Architektura IPv6 jest zgodna z hierarchicznym globalnym modelem routingu dzisiejszego Internetu. Podział prefiksów umożliwia regionalnym rejestrom i operatorom sieci zarządzanie alokacją Address w sposób zdecentralizowany, przy jednoczesnym zapewnieniu globalnej unikalności. W tych ramach ten sam host może jednocześnie posiadać globalny unicast Address do komunikacji internetowej i link-local Address do lokalnych interakcji, np. z bezpośrednim sąsiedztwem lub dla komunikatów wykrywania routerów.
+
+
+
+
+| Pole      | Prefiks | Zero | Identyfikator interfejsu |
+|-----------|--------|------|--------------|
+| Bity      | 10     | 54   | 64           |
+
 **Adresy anycast** reprezentują koncepcję pośrednią, która opiera się na modelu unicast, ale w niektórych przypadkach może zachowywać się jak multicast. Anycast Address jest w istocie unicastem Address przypisanym do kilku interfejsów rozproszonych w różnych węzłach sieci. Gdy pakiet jest wysyłany do anycast Address, protokół IPv6 ma na celu dostarczenie go do jednego z hostów współdzielących ten Address, zazwyczaj najbliższego pod względem topologii routingu. Takie podejście optymalizuje szybkość przetwarzania zapytań i poprawia odporność usług rozproszonych. Klasycznym przykładem są główne serwery DNS, gdzie adresowanie anycast automatycznie kieruje zapytania do najbliższego punktu obecności.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Pole     | Prefiks | Podsieć | Identyfikator interfejsu |
+|-----------|--------|--------|______________|
+| Bity      | 48     | 16     | 64           |
 
 W IPv6, **adresy multicast** zastępują mechanizm rozgłoszeniowy, który został uznany za zbyt kosztowny i nieodpowiedni dla sieci o zasięgu globalnym. Multicast Address identyfikuje grupę interfejsów, zazwyczaj na wielu hostach, które chcą otrzymywać te same pakiety jednocześnie.
 
@@ -1909,9 +1912,10 @@ Struktura multiemisji IPv6 Address obejmuje:
 - pole identyfikacyjne (112 bitów) identyfikujące numer grupy multicast.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Pole      | Prefiks | Flagi | Zakres | ID grupy |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bity       | 8      | 4      | 4      | 112      |
 
 Dobrze znanym przykładem IPv6 multicast w akcji jest _Neighbor Discovery Protocol_ (NDP). Zamiast używać ARP, jak w IPv4, NDP opiera się na adresach multicastowych, takich jak `ff02::1:ff00:0/104`, aby rozgłaszać żądania wykrywania sąsiadów, kierując je tylko do odpowiednich hostów na tym samym łączu.
 

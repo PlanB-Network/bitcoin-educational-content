@@ -1865,25 +1865,28 @@ Son olarak, benzersiz yerel adresler (_ULA_, _Unique Local Addresses_ için) öz
 Kavramsal olarak, IPv6 adresleri genellikle ilk yarının (ilk 64 bit) ağ önekini tanımladığı ve ikinci yarının (ayrıca 64 bit) cihazın bu ağdaki Interface'sini benzersiz bir şekilde tanımladığı ikili bir yapı olarak temsil edilir. Bu bölünme, SLAAC (_Stateless Address Autoconfiguration_) gibi mekanizmalar aracılığıyla Address otomatik yapılandırmasını kolaylaştırır, bu da makinelerin MAC Address veya sözde rasgele bir tanımlayıcıya dayalı olarak otomatik olarak generate kararlı bir Address oluşturmasına olanak tanır.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
-
-IPv6 mimarisi, günümüz İnternetinin hiyerarşik küresel yönlendirme modelini takip etmektedir. Önek bölümleme, bölgesel kayıtların ve ağ operatörlerinin Address tahsisini merkezi olmayan bir şekilde yönetmesini sağlarken, küresel benzersizliği de garanti eder. Bu çerçevede, aynı ana bilgisayar aynı anda internet iletişimi için küresel bir tek noktaya yayın Address'a ve yerel etkileşimler için, örneğin yakın komşularla veya yönlendirici keşif mesajları için bir bağlantı yerel Address'a sahip olabilir.
-
-
 
 | Alan      | Önek | L | Küresel Kimlik | Alt ağ | Arayüz Kimliği |
 |-----------|--------|---|-----------|--------|---------------|
 | Bitler    | 7      | 1 | 40        | 16     | 64            |
 
+IPv6 mimarisi, günümüz İnternetinin hiyerarşik küresel yönlendirme modelini takip etmektedir. Önek bölümleme, bölgesel kayıtların ve ağ operatörlerinin Address tahsisini merkezi olmayan bir şekilde yönetmesini sağlarken, küresel benzersizliği de garanti eder. Bu çerçevede, aynı ana bilgisayar aynı anda internet iletişimi için küresel bir tek noktaya yayın Address'a ve yerel etkileşimler için, örneğin yakın komşularla veya yönlendirici keşif mesajları için bir bağlantı yerel Address'a sahip olabilir.
+
+
+
+
+| Alan      | Önek | Sıfır | Arayüz Kimliği |
+|-----------|--------|------|--------------|
+| Bitler    | 10     | 54   | 64           |
+
 **Anycast adresleri**, unicast modelini temel alan ancak belirli durumlarda multicast gibi davranabilen bir ara kavramı temsil eder. Bir anycast Address, özünde, farklı ağ düğümlerine dağıtılmış birkaç arayüze atanmış tek noktaya yayın Address'dir. Bir anycast Address'e bir paket gönderildiğinde, IPv6 protokolü bu paketi Address'i paylaşan ana bilgisayarlardan birine, tipik olarak yönlendirme topolojisi açısından en yakın olanına ulaştırmayı amaçlar. Bu yaklaşım, sorgu işleme hızını optimize eder ve dağıtılmış hizmetlerin esnekliğini artırır. Klasik bir örnek, anycast adreslemenin sorguları otomatik olarak en yakın varlık noktasına yönlendirdiği kök DNS sunucularıdır.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Alan     | Ön ek | Alt ağ | Arayüz Kimliği |
+|-----------|--------|--------|______________|
+| Bitler      | 48     | 16     | 64           |
 
 IPv6'da, **çok noktaya yayın adresleri**, çok maliyetli ve küresel ölçekli bir ağ için uygun olmadığı düşünülen yayın mekanizmasının yerini alır. Bir çok noktaya yayın Address, aynı paketleri aynı anda almak isteyen, genellikle birden çok ana bilgisayarda bulunan bir grup arabirimi tanımlar.
 
@@ -1905,9 +1908,10 @@ IPv6 çok noktaya yayın Address'ün yapısı şunları içerir:
 - çok noktaya yayın grup numarasını tanımlayan bir kimlik alanı (112 bit).
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Alan      | Ön ek | Bayraklar | Kapsam | Grup Kimliği |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bitler       | 8      | 4      | 4      | 112      |
 
 IPv6 multicast'in iyi bilinen bir örneği _Neighbor Discovery Protocol_ (NDP)'dir. NDP, IPv4'te olduğu gibi ARP kullanmak yerine, komşu keşif isteklerini yayınlamak için `ff02::1:ff00:0/104` gibi çok noktaya yayın adreslerine dayanır ve yalnızca aynı bağlantıdaki ilgili ana bilgisayarları hedefler.
 

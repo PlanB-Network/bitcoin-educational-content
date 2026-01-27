@@ -1865,25 +1865,28 @@ Infine, gli indirizzi locali unici (_ULA_, per _Unique Local Addresses_) sono in
 Concettualmente, gli indirizzi IPv6 sono spesso rappresentati come una struttura binaria in cui la prima metà (i primi 64 bit) identifica il prefisso di rete e la seconda metà (anch'essa di 64 bit) identifica in modo univoco il Interface del dispositivo su quella rete. Questa suddivisione facilita l'autoconfigurazione Address attraverso meccanismi come SLAAC (_Stateless Address Autoconfiguration_), che consentono alle macchine di assegnare automaticamente generate un Address stabile basato sul MAC Address o su un identificatore pseudo-casuale.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
-
-L'architettura IPv6 segue il modello di routing globale gerarchico dell'attuale Internet. Il partizionamento dei prefissi consente ai registri regionali e agli operatori di rete di gestire l'assegnazione dei Address in modo decentralizzato, garantendo al contempo l'unicità globale. In questo contesto, lo stesso host può possedere contemporaneamente un Address unicast globale per le comunicazioni Internet e un Address link-local per le interazioni locali, ad esempio con il vicinato immediato o per i messaggi di scoperta dei router.
-
-
 
 | Campo     | Prefisso | L | ID globale | Sottorete | ID interfaccia |
 |-----------|--------|---|-----------|--------|---------------|
 | Bit       | 7      | 1 | 40        | 16     | 64            |
 
+L'architettura IPv6 segue il modello di routing globale gerarchico dell'attuale Internet. Il partizionamento dei prefissi consente ai registri regionali e agli operatori di rete di gestire l'assegnazione dei Address in modo decentralizzato, garantendo al contempo l'unicità globale. In questo contesto, lo stesso host può possedere contemporaneamente un Address unicast globale per le comunicazioni Internet e un Address link-local per le interazioni locali, ad esempio con il vicinato immediato o per i messaggi di scoperta dei router.
+
+
+
+
+| Campo     | Prefisso | Zero | ID interfaccia |
+|-----------|--------|------|--------------|
+| Bit       | 10     | 54   | 64           |
+
 **Gli indirizzi anycast** rappresentano un concetto intermedio che si basa sul modello unicast ma che in alcuni casi può comportarsi come il multicast. Un Address anycast è, in sostanza, un Address unicast assegnato a più interfacce distribuite su diversi nodi di rete. Quando un pacchetto viene inviato a un Address anycast, il protocollo IPv6 mira a consegnarlo a uno degli host che condividono quel Address, in genere quello più vicino in termini di topologia di routing. Questo approccio ottimizza la velocità di elaborazione delle query e migliora la resilienza dei servizi distribuiti. Un esempio classico sono i server DNS root, dove l'indirizzamento anycast indirizza automaticamente le query al punto di presenza più vicino.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Campo     | Prefisso | Subnet | ID interfaccia |
+|-----------|--------|--------|______________|
+| Bit      | 48     | 16     | 64           |
 
 Nell'IPv6, gli **indirizzi multicast** sostituiscono il meccanismo di broadcast, considerato troppo costoso e inadatto a una rete su scala globale. Un Address multicast identifica un gruppo di interfacce, in genere tra più host, che desiderano ricevere gli stessi pacchetti contemporaneamente.
 
@@ -1905,9 +1908,10 @@ La struttura di un Address multicast IPv6 comprende:
 - un campo di identificazione (112 bit) che identifica il numero del gruppo multicast.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Campo      | Prefisso | Flag | Ambito | ID gruppo |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bit       | 8      | 4      | 4      | 112      |
 
 Un noto esempio di multicast IPv6 in azione è il _Neighbor Discovery Protocol_ (NDP). Invece di usare ARP come in IPv4, NDP si basa su indirizzi multicast come `ff02::1:ff00:0/104` per trasmettere richieste di neighbor discovery, indirizzate solo agli host rilevanti sullo stesso link.
 

@@ -1868,24 +1868,27 @@ Hatimaye, Unique Local Addresses  (_ULA_, kwa _Anwani za Kipekee za Mitaa_) ni z
 Kidhahania, address za IPv6 mara nyingi huwakilishwa kama muundo wa jozi ambapo nusu ya kwanza (biti 64 za kwanza) hutambulisha kiambishi awali cha mtandao, na nusu ya pili (pia biti 64) hutambulisha Interface ya kifaa kwenye mtandao huo kwa njia ya kipekee. Mgawanyiko huu hurahisisha usanidi wa kiotomatiki wa Address kupitia mitambo kama vile SLAAC (_Stateless Address Autoconfiguration_), ambayo huruhusu mashine kiotomatiki generate Address thabiti kulingana na MAC Address au kitambulishi cha bahati nasibu.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
-
-Usanifu wa IPv6 unafuata mtindo wa ngazi ya kimataifa wa uelekezaji wa Mtandao wa leo. Kugawanya kiambishi awali huwezesha sajili za kikanda na waendeshaji mtandao kudhibiti ugawaji wa Address kwa njia iliyogatuliwa, huku ikihakikisha upekee wa kimataifa. Ndani ya mfumo huu mpangishi sawa anaweza kushikilia kwa wakati mmoja unicast Address ya kimataifa kwa mawasiliano ya intaneti na kiunganishi cha ndani cha Address kwa mwingiliano wa ndani, k.m. kwa ujirani wa karibu au kwa ujumbe wa kugundua kipanga njia.
-
-
 
 | Sehemu    | Kiambishi | L | Kitambulisho cha kimataifa | Subnet | Kitambulisho cha kiolesura |
 |-----------|--------|---|-----------|--------|---------------|
 | Biti      | 7      | 1 | 40        | 16     | 64            |
 
+Usanifu wa IPv6 unafuata mtindo wa ngazi ya kimataifa wa uelekezaji wa Mtandao wa leo. Kugawanya kiambishi awali huwezesha sajili za kikanda na waendeshaji mtandao kudhibiti ugawaji wa Address kwa njia iliyogatuliwa, huku ikihakikisha upekee wa kimataifa. Ndani ya mfumo huu mpangishi sawa anaweza kushikilia kwa wakati mmoja unicast Address ya kimataifa kwa mawasiliano ya intaneti na kiunganishi cha ndani cha Address kwa mwingiliano wa ndani, k.m. kwa ujirani wa karibu au kwa ujumbe wa kugundua kipanga njia.
+
+
+
+
+| Sehemu    | Kiambishi | Sifuri | Kitambulisho cha kiolesura |
+|-----------|--------|------|--------------|
+| Biti      | 10     | 54   | 64           |
+
 **Address za Anycast** zinawakilisha dhana ya kati ambayo hujengwa juu ya muundo wa unicast lakini inaweza kuwa kama utangazaji anuwai katika hali fulani. Address ya anycast ni, kimsingi, unicast Address iliyopewa miingiliano kadhaa iliyosambazwa kwenye nodi tofauti za mtandao. Pakiti inapotumwa kwa Address ya onyesho lolote, protocol ya IPv6 inalenga kuiwasilisha kwa mojawapo ya seva pangishi zinazoshiriki Address, ambayo kwa kawaida ndiyo iliyo karibu zaidi katika suala la topolojia ya uelekezaji. Mbinu hii huongeza kasi ya uchakataji wa hoja na kuboresha uthabiti wa huduma zinazosambazwa. Mfano wa kawaida ni seva za DNS za mizizi, ambapo anwani ya utumaji wowote huelekeza maswali kiotomatiki kwenye eneo la karibu la uwepo.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
+
+| Sehemu     | Kiambishi | Mtandao mdogo | Kitambulisho cha Muunganisho |
+|-----------|--------|--------|______________|
 | Bits      | 48     | 16     | 64           |
 
 Katika IPv6, **Multicast Address** huchukua nafasi ya utaratibu wa utangazaji, ambao ulionekana kuwa wa gharama kubwa sana na usiofaa kwa mtandao wa kimataifa. Address ya onyesho nyingi hutambua kundi la violesura, kwa kawaida kwenye seva pangishi nyingi, ambazo zingependa kupokea pakiti sawa kwa wakati mmoja.
@@ -1908,7 +1911,8 @@ Muundo wa IPv6 multicast Address ni pamoja na:
 - sehemu ya kitambulisho (biti 112) inayotambulisha nambari ya kikundi cha watangazaji anuwai.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Sehemu      | Kiambishi | Bendera | Upeo | ID ya Kikundi |
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 

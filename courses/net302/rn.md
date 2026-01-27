@@ -1865,7 +1865,8 @@ Ubwa nyuma, amaderesi yihariye yo mu karere (_ULA_, ku _Aderesi yihariye yo mu k
 Mu vyiyumviro, aderesi za IPv6 akenshi zigaragazwa nk’imiterere y’ibice bibiri aho igice ca mbere (ibice 64 vya mbere) kigaragaza intango y’urubuga, igice ca kabiri (na co nyene ni ibice 64) kigaragaza mu buryo budasanzwe Interface y’igikoresho kuri urwo rubuga. Ivyo bica bituma Address ishobora gutunganya ubwayo biciye mu buryo nka SLAAC (_Stateless Address Autoconfiguration_), butuma imashini zishobora gutunganya Address idahinduka ishingiye kuri MAC Address canke ikimenyetso c’ibinyoma.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Umwanya   | Prefix | L | Indangamuntu rusangi | Subnet | Indangamuntu y’interface |
 |-----------|--------|---|-----------|--------|---------------|
 | Bits      | 7      | 1 | 40        | 16     | 64            |
 
@@ -1873,16 +1874,18 @@ Ubwubatsi bwa IPv6 bukurikira uburyo bwo gukoresha inzira z’isi yose bwa Inter
 
 
 
-| Umwanya   | Prefix | L | Indangamuntu rusangi | Subnet | Indangamuntu y’interface |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+
+| Umwanya   | Prefix | Zeru | Indangamuntu y’interface |
+|-----------|--------|------|--------------|
+| Bits      | 10     | 54   | 64           |
 
 **Anderesi za Anycast** zigereranya iciyumviro co hagati cubatse ku citegererezo ca unicast ariko gishobora kwigenza nk’ica multicast mu bihe bimwe bimwe. Anycast Address ni, mu vy’ukuri, unicast Address igenewe interfaces nyinshi zikwiragijwe ku nzira zitandukanye z’uruja n’uruza. Iyo umuzigo woherejwe kuri anycast Address, IPv6 protocol igamije kuyishikana kuri umwe mu bashitsi basangira iyo Address, cane cane iyo iri hafi cane mu bijanye n’inzira y’ubuhinga. Ubwo buryo buratuma ibibazo vyihuta kandi bugatuma ibikorwa bitangazwa bishobora gukomera. Akarorero ka kera ni imizi ya DNS servers, aho anycast addressing ihita irungika ibibazo ku ntumbero iri hafi cane.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
+
+| Umwanya     | Imbanziriza | Umuringa w'imibare | Numero y'umwibutsa |
+|-----------|--------|--------|______________|
 | Bits      | 48     | 16     | 64           |
 
 Mu IPv6, **amaderesi menshi** asubirira uburyo bwo gutangaza, bwabonwa ko buzimvye cane kandi butabereye ku rubuga rw’isi yose. Multicast Address igaragaza umugwi w’ibikoresho, cane cane mu bibanza vyinshi, bipfuza kwakira amapakete amwe icarimwe.
@@ -1905,7 +1908,8 @@ Ubuhinga bwa IPv6 Address burimwo:
 - umwanya wo kumenya (112 bits) ugaragaza umubare w'umugwi w'abamenyeshamakuru benshi.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Umwanya      | Imbanziriza | Ibidukiro | Iciro | Numero ya guruswa |
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 

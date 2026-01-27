@@ -1865,25 +1865,28 @@ A konečně, jedinečné místní adresy (_ULA_, zkratka _Unique Local Addresses
 Koncepčně jsou adresy IPv6 často reprezentovány jako binární struktura, kde první polovina (prvních 64 bitů) identifikuje předponu sítě a druhá polovina (rovněž 64 bitů) jednoznačně identifikuje zařízení Interface v dané síti. Toto rozdělení usnadňuje automatickou konfiguraci Address pomocí mechanismů, jako je SLAAC (_Stateless Address Autoconfiguration_), které umožňují strojům automaticky generate stabilní Address na základě MAC Address nebo pseudonáhodného identifikátoru.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
-
-Architektura IPv6 se řídí hierarchickým modelem globálního směrování dnešního internetu. Rozdělení prefixů umožňuje regionálním registrům a provozovatelům sítí řídit přidělování Address decentralizovaným způsobem a zároveň zajišťuje globální jedinečnost. V tomto rámci může mít tentýž hostitel současně globální jednosměrový Address pro internetovou komunikaci a linkový lokální Address pro místní interakce, např. s nejbližším okolím nebo pro zprávy o vyhledávání směrovačů.
-
-
 
 | Pole      | Prefix | L | Globální ID | Podsíť | ID rozhraní |
 |-----------|--------|---|-----------|--------|---------------|
 | Bity      | 7      | 1 | 40        | 16     | 64            |
 
+Architektura IPv6 se řídí hierarchickým modelem globálního směrování dnešního internetu. Rozdělení prefixů umožňuje regionálním registrům a provozovatelům sítí řídit přidělování Address decentralizovaným způsobem a zároveň zajišťuje globální jedinečnost. V tomto rámci může mít tentýž hostitel současně globální jednosměrový Address pro internetovou komunikaci a linkový lokální Address pro místní interakce, např. s nejbližším okolím nebo pro zprávy o vyhledávání směrovačů.
+
+
+
+
+| Pole      | Prefix | Nula | ID rozhraní |
+|-----------|--------|------|--------------|
+| Bity      | 10     | 54   | 64           |
+
 **Anycast adresy** představují přechodný koncept, který vychází z modelu unicast, ale v určitých případech se může chovat jako multicast. Anycast Address je v podstatě unicast Address přiřazený několika rozhraním rozmístěným v různých uzlech sítě. Když je paket odeslán na anycast Address, cílem protokolu IPv6 je doručit jej jednomu z hostitelů sdílejících tento Address, obvykle tomu, který je z hlediska topologie směrování nejblíže. Tento přístup optimalizuje rychlost zpracování dotazů a zvyšuje odolnost distribuovaných služeb. Klasickým příkladem jsou kořenové servery DNS, kde anycastové adresování automaticky směřuje dotazy na nejbližší místo výskytu.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Pole     | Předpona | Podsíť | ID rozhraní |
+|-----------|--------|--------|______________|
+| Bity      | 48     | 16     | 64           |
 
 V protokolu IPv6 nahrazují **multicastové adresy** mechanismus broadcast, který byl považován za příliš nákladný a nevhodný pro sítě globálního rozsahu. Vícesměrové vysílání Address identifikuje skupinu rozhraní, obvykle na více hostitelských počítačích, která si přejí přijímat stejné pakety současně.
 
@@ -1905,9 +1908,10 @@ Struktura vícesměrového vysílání IPv6 Address zahrnuje:
 - identifikační pole (112 bitů) identifikující číslo skupiny vícesměrového vysílání.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Pole      | Předpona | Příznaky | Rozsah | ID skupiny |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bity       | 8      | 4      | 4      | 112      |
 
 Známým příkladem vícesměrového vysílání IPv6 v praxi je protokol _Neighbor Discovery Protocol_ (NDP). Namísto použití protokolu ARP jako v protokolu IPv4 se protokol NDP spoléhá na vícesměrové adresy, jako je `ff02::1:ff00:0/104`, které vysílají požadavky na vyhledání sousedů a zaměřují se pouze na příslušné hostitele na stejné lince.
 

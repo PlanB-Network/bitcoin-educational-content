@@ -1865,25 +1865,28 @@ Cuối cùng, các địa chỉ cục bộ duy nhất (_ULA_, viết tắt của
 Về mặt khái niệm, địa chỉ IPv6 thường được biểu diễn dưới dạng nhị phân, trong đó nửa đầu (64 bit đầu tiên) xác định tiền tố mạng, và nửa sau (cũng 64 bit) xác định duy nhất Interface của thiết bị trên mạng đó. Sự phân chia này giúp việc tự động cấu hình Address dễ dàng hơn thông qua các cơ chế như SLAAC (_Stateless Address Autoconfiguration_), cho phép máy tự động generate một Address ổn định dựa trên MAC Address hoặc một mã định danh giả ngẫu nhiên.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
-
-Kiến trúc IPv6 tuân theo mô hình định tuyến toàn cầu phân cấp của Internet ngày nay. Phân vùng tiền tố cho phép các cơ quan đăng ký khu vực và nhà điều hành mạng quản lý việc phân bổ Address theo cách phi tập trung, đồng thời đảm bảo tính duy nhất toàn cầu. Trong khuôn khổ này, cùng một máy chủ có thể đồng thời giữ một Address đơn hướng toàn cầu cho giao tiếp internet và một Address liên kết cục bộ cho các tương tác cục bộ, ví dụ như với các vùng lân cận hoặc cho các thông báo khám phá bộ định tuyến.
-
-
 
 | Trường    | Tiền tố | L | ID toàn cục | Mạng con | ID giao diện |
 |-----------|--------|---|-----------|--------|---------------|
 | Bit       | 7      | 1 | 40        | 16     | 64            |
 
+Kiến trúc IPv6 tuân theo mô hình định tuyến toàn cầu phân cấp của Internet ngày nay. Phân vùng tiền tố cho phép các cơ quan đăng ký khu vực và nhà điều hành mạng quản lý việc phân bổ Address theo cách phi tập trung, đồng thời đảm bảo tính duy nhất toàn cầu. Trong khuôn khổ này, cùng một máy chủ có thể đồng thời giữ một Address đơn hướng toàn cầu cho giao tiếp internet và một Address liên kết cục bộ cho các tương tác cục bộ, ví dụ như với các vùng lân cận hoặc cho các thông báo khám phá bộ định tuyến.
+
+
+
+
+| Trường    | Tiền tố | Số không | ID giao diện |
+|-----------|--------|------|--------------|
+| Bit       | 10     | 54   | 64           |
+
 **Địa chỉ Anycast** đại diện cho một khái niệm trung gian được xây dựng dựa trên mô hình đơn hướng nhưng có thể hoạt động như đa hướng trong một số trường hợp. Về bản chất, Anycast Address là một Unicast Address được gán cho nhiều giao diện phân tán trên các nút mạng khác nhau. Khi một gói tin được gửi đến Anycast Address, giao thức IPv6 sẽ chuyển gói tin đó đến một trong các máy chủ chia sẻ Address đó, thường là máy chủ gần nhất về mặt cấu trúc định tuyến. Cách tiếp cận này tối ưu hóa tốc độ xử lý truy vấn và cải thiện khả năng phục hồi của các dịch vụ phân tán. Một ví dụ điển hình là các máy chủ DNS gốc, nơi địa chỉ Anycast tự động chuyển hướng truy vấn đến điểm hiện diện gần nhất.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Trường     | Tiền tố | Mạng con | ID Giao diện |
+|-----------|--------|--------|______________|
+| Bit      | 48     | 16     | 64           |
 
 Trong IPv6, **địa chỉ đa hướng** thay thế cơ chế phát sóng, vốn được coi là quá tốn kém và không phù hợp với mạng lưới toàn cầu. Address đa hướng xác định một nhóm giao diện, thường trên nhiều máy chủ, muốn nhận cùng một gói tin đồng thời.
 
@@ -1905,9 +1908,10 @@ Cấu trúc của IPv6 multicast Address bao gồm:
 - trường nhận dạng (112 bit) xác định số nhóm đa hướng.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Trường      | Tiền tố | Cờ | Phạm vi | ID nhóm |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bit       | 8      | 4      | 4      | 112      |
 
 Một ví dụ nổi tiếng về multicast IPv6 đang hoạt động là _Giao thức Khám phá Hàng xóm_ (NDP). Thay vì sử dụng ARP như trong IPv4, NDP dựa vào các địa chỉ multicast như `ff02::1:ff00:0/104` để phát các yêu cầu khám phá hàng xóm, chỉ nhắm mục tiêu đến các máy chủ liên quan trên cùng một liên kết.
 

@@ -1865,24 +1865,27 @@ Til slutt er unike lokale adresser (_ULA_, for _Unique Local Addresses_) interne
 Konseptuelt er IPv6-adresser ofte representert som en binær struktur der den første halvdelen (de første 64 bitene) identifiserer nettverksprefikset, og den andre halvdelen (også 64 bits) unikt identifiserer enhetens Interface i det nettverket. Denne oppdelingen gjør Address autokonfigurasjon enklere gjennom mekanismer som SLAAC (_Stateless Address Autoconfiguration_), som lar maskiner automatisk generate velge en stabil Address basert på MAC Address eller en pseudo-tilfeldig identifikator.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
-
-IPv6-arkitekturen følger den hierarkiske globale rutingsmodellen i dagens Internett. Prefikspartisjonering gjør det mulig for regionale registre og nettverksoperatører å administrere Address-tildeling på en desentralisert måte, samtidig som global unikhet sikres. Innenfor dette rammeverket kan den samme verten samtidig ha en global unicast Address for Internett-kommunikasjon og en link-lokal Address for lokale interaksjoner, f.eks. med det umiddelbare nabolaget eller for ruteroppdagelsesmeldinger.
-
-
 
 | Felt      | Prefiks | L | Global ID | Undernett | Grensesnitt-ID |
 |-----------|--------|---|-----------|--------|---------------|
 | Biter     | 7      | 1 | 40        | 16     | 64            |
 
+IPv6-arkitekturen følger den hierarkiske globale rutingsmodellen i dagens Internett. Prefikspartisjonering gjør det mulig for regionale registre og nettverksoperatører å administrere Address-tildeling på en desentralisert måte, samtidig som global unikhet sikres. Innenfor dette rammeverket kan den samme verten samtidig ha en global unicast Address for Internett-kommunikasjon og en link-lokal Address for lokale interaksjoner, f.eks. med det umiddelbare nabolaget eller for ruteroppdagelsesmeldinger.
+
+
+
+
+| Felt      | Prefiks | Null | Grensesnitt-ID |
+|-----------|--------|------|--------------|
+| Biter     | 10     | 54   | 64           |
+
 **Anycast-adresser** representerer et mellomliggende konsept som bygger på unicast-modellen, men som i visse tilfeller kan oppføre seg som multicast. En anycast Address er i bunn og grunn en unicast Address som er tilordnet flere grensesnitt fordelt på forskjellige nettverksnoder. Når en pakke sendes til en anycast Address, forsøker IPv6-protokollen å levere den til en av vertene som deler denne Address-en, vanligvis den som ligger nærmest når det gjelder rutingstopologi. Denne tilnærmingen optimaliserer hastigheten på behandlingen av forespørsler og forbedrer robustheten til distribuerte tjenester. Et klassisk eksempel er DNS-rotserverne, der anycast-adressering automatisk leder forespørsler til det nærmeste punktet for tilstedeværelse.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
+
+| Felt     | Prefiks | Subnet | Grensesnitts-ID |
+|-----------|--------|--------|______________|
 | Bits      | 48     | 16     | 64           |
 
 I IPv6 erstatter **multicast-adresser** kringkastingsmekanismen, som ble ansett som for kostbar og uegnet for et globalt nettverk. En multicast Address identifiserer en gruppe grensesnitt, vanligvis på tvers av flere verter, som ønsker å motta de samme pakkene samtidig.
@@ -1905,7 +1908,8 @@ Strukturen til en IPv6 multicast Address inkluderer:
 - et identifikasjonsfelt (112 bits) som identifiserer multicast-gruppens nummer.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Felt      | Prefiks | Flagg | Omfang | Gruppe-ID |
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 

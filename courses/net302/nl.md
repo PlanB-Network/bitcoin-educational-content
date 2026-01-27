@@ -1865,7 +1865,8 @@ Tenslotte zijn unieke lokale adressen (_ULA_, voor _Unique Local Addresses_) int
 Conceptueel worden IPv6-adressen vaak voorgesteld als een binaire structuur waarbij de eerste helft (de eerste 64 bits) de netwerkprefix identificeert en de tweede helft (ook 64 bits) uniek de Interface van het apparaat op dat netwerk identificeert. Deze splitsing maakt Address autoconfiguratie eenvoudiger door mechanismen zoals SLAAC (_Stateless Address Autoconfiguration_), die machines in staat stellen om automatisch generate een stabiele Address te kiezen op basis van het MAC Address of een pseudo-willekeurige identificatiecode.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Veld      | Prefix | L | Globale ID | Subnet | Interface-ID |
 |-----------|--------|---|-----------|--------|---------------|
 | Bits      | 7      | 1 | 40        | 16     | 64            |
 
@@ -1873,16 +1874,18 @@ De IPv6-architectuur volgt het hiërarchische globale routeringsmodel van het hu
 
 
 
-| Veld      | Prefix | L | Globale ID | Subnet | Interface-ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+
+| Veld      | Prefix | Nul | Interface-ID |
+|-----------|--------|------|--------------|
+| Bits      | 10     | 54   | 64           |
 
 **Anycast-adressen** vertegenwoordigen een tussenliggend concept dat voortbouwt op het unicast-model maar zich in bepaalde gevallen als multicast kan gedragen. Een anycast Address is in wezen een unicast Address toegewezen aan meerdere interfaces verdeeld over verschillende netwerkknooppunten. Wanneer een pakket naar een anycast Address wordt gestuurd, heeft het IPv6-protocol als doel het af te leveren bij een van de hosts die deze Address deelt, meestal degene die het dichtst in de buurt zit qua routeringstopologie. Deze aanpak optimaliseert de verwerkingssnelheid van query's en verbetert de veerkracht van gedistribueerde diensten. Een klassiek voorbeeld zijn de root DNS servers, waar anycast adressering automatisch queries naar het dichtstbijzijnde point of presence leidt.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
+
+| Veld     | Voorvoegsel | Subnet | Interface-ID |
+|-----------|--------|--------|______________|
 | Bits      | 48     | 16     | 64           |
 
 In IPv6 vervangen **multicast-adressen** het broadcast-mechanisme, dat te duur en ongeschikt werd geacht voor een wereldwijd netwerk. Een multicast Address identificeert een groep interfaces, typisch over meerdere hosts, die dezelfde pakketten tegelijkertijd willen ontvangen.
@@ -1905,7 +1908,8 @@ De structuur van een IPv6 multicast Address omvat:
 - een identificatieveld (112 bits) dat het multicastgroepnummer identificeert.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Veld      | Voorvoegsel | Vlaggen | Bereik | Groeps-ID |
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 

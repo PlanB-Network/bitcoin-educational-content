@@ -1861,25 +1861,28 @@ Konačno, jedinstvene lokalne adrese (_ULA_, za _Unique Local Addresses_) su int
 Konceptualno, IPv6 adrese se često predstavljaju kao binarna struktura gde prva polovina (prvih 64 bita) identifikuje mrežni prefiks, a druga polovina (takođe 64 bita) jedinstveno identifikuje interfejs uređaja na toj mreži. Ova podela olakšava autokonfiguraciju adresa kroz mehanizme kao što je SLAAC (_Stateless Address Autoconfiguration_), koji omogućavaju mašinama da automatski generišu stabilnu adresu na osnovu MAC adrese ili pseudo-slučajnog identifikatora.
 
 
-| polje     | Prefiks | L | Globalni ID | Subnet | Interfejs ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
-
-IPv6 arhitektura prati hijerarhijski model globalnog rutiranja današnjeg interneta. Podela prefiksa omogućava regionalnim registrima i mrežnim operatorima da upravljaju dodelom adresa na decentralizovan način, uz obezbeđivanje globalne jedinstvenosti. U okviru ovog okvira, isti host može istovremeno imati globalnu unicast adresu za internet komunikaciju i link-lokalnu adresu za lokalne interakcije, npr. sa neposrednim susedstvom ili za poruke otkrivanja rutera.
-
-
 
 | Polje     | Prefiks | L | Globalni ID | Podmreža | ID interfejsa |
 |-----------|--------|---|-----------|--------|---------------|
 | Bitovi    | 7      | 1 | 40        | 16     | 64            |
 
+IPv6 arhitektura prati hijerarhijski model globalnog rutiranja današnjeg interneta. Podela prefiksa omogućava regionalnim registrima i mrežnim operatorima da upravljaju dodelom adresa na decentralizovan način, uz obezbeđivanje globalne jedinstvenosti. U okviru ovog okvira, isti host može istovremeno imati globalnu unicast adresu za internet komunikaciju i link-lokalnu adresu za lokalne interakcije, npr. sa neposrednim susedstvom ili za poruke otkrivanja rutera.
+
+
+
+
+| Polje     | Prefiks | Nula | ID interfejsa |
+|-----------|--------|------|--------------|
+| Bitovi    | 10     | 54   | 64           |
+
 **Anycast adrese** predstavljaju posredni koncept koji se nadovezuje na unicast model, ali se u određenim slučajevima može ponašati kao multicast. Anycast adresa je, u suštini, unicast adresa dodeljena na nekoliko interfejsa raspoređenih preko različitih mrežnih čvorova. Kada se paket pošalje na anycast adresu, IPv6 protokol ima za cilj da ga isporuči jednom od domaćina koji dele tu adresu, obično onom najbližem u smislu rutirajuće topologije. Ovaj pristup optimizuje brzinu obrade upita i poboljšava otpornost distribuiranih servisa. Klasičan primer su root DNS serveri, gde anycast adresiranje automatski usmerava upite na najbližu tačku prisustva.
 
 
 
-| polje     | Prefiks | Subnet | Interfejs ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Polje     | Prefiks | Podstiica | ID interfejsa |
+|-----------|--------|--------|______________|
+| Bitovi      | 48     | 16     | 64           |
 
 U IPv6, **multicast adrese** zamenjuju mehanizam emitovanja, koji se smatrao previše skupim i nepodesnim za mrežu globalnog obima. Multicast adresa identifikuje grupu interfejsa, obično na više hostova, koji žele da istovremeno prime iste pakete.
 
@@ -1901,9 +1904,10 @@ Struktura IPv6 multicast adresa uključuje:
 - polje za identifikaciju (112 bita) koje identifikuje broj multicast grupe.
 
 
-| polje      | Prefiks | Zastavice | Opseg | Grupni ID |
+
+| Polje      | Prefiks | Zastavice | Opseg | ID grupe |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bitovi       | 8      | 4      | 4      | 112      |
 
 Poznat primer IPv6 multicast-a u akciji je _Neighbor Discovery Protocol_ (NDP). Umesto korišćenja ARP kao u IPv4, NDP se oslanja na multicast adrese kao što je `ff02::1:ff00:0/104` za emitovanje zahteva za otkrivanje lokalnih uređaja, ciljajući samo relevantne uređaje na istoj mrežnoj vezi.
 

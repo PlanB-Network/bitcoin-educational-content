@@ -1865,7 +1865,8 @@ Einzigartige lokale Adressen (_ULA_, für _Unique Local Addresses_) schließlich
 IPv6-Adressen werden häufig als binäre Struktur dargestellt, bei der die erste Hälfte (die ersten 64 Bits) das Netzpräfix und die zweite Hälfte (ebenfalls 64 Bits) den Interface des Geräts in diesem Netz eindeutig kennzeichnet. Diese Aufteilung erleichtert die Address-Autokonfiguration durch Mechanismen wie SLAAC (_Stateless Address Autoconfiguration_), die es Maschinen ermöglichen, automatisch einen stabilen Address auf der Grundlage der MAC Address oder eines Pseudo-Zufallsbezeichners zu wählen.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Feld      | Präfix | L | Globale ID | Subnetz | Schnittstellen-ID |
 |-----------|--------|---|-----------|--------|---------------|
 | Bits      | 7      | 1 | 40        | 16     | 64            |
 
@@ -1873,16 +1874,18 @@ Die IPv6-Architektur folgt dem hierarchischen globalen Routing-Modell des heutig
 
 
 
-| Feld      | Präfix | L | Globale ID | Subnetz | Schnittstellen-ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+
+| Feld      | Präfix | Null | Schnittstellen-ID |
+|-----------|--------|------|--------------|
+| Bits      | 10     | 54   | 64           |
 
 **Anycast-Adressen** stellen ein Zwischenkonzept dar, das auf dem Unicast-Modell aufbaut, sich aber in bestimmten Fällen wie Multicast verhalten kann. Ein Anycast-Address ist im Wesentlichen ein Unicast-Address, der mehreren Schnittstellen zugewiesen ist, die über verschiedene Netzknoten verteilt sind. Wenn ein Paket an einen Anycast-Address gesendet wird, versucht das IPv6-Protokoll, es an einen der Hosts zuzustellen, die diesen Address gemeinsam nutzen, in der Regel an denjenigen, der in Bezug auf die Routing-Topologie am nächsten liegt. Dieser Ansatz optimiert die Geschwindigkeit der Abfrageverarbeitung und verbessert die Ausfallsicherheit von verteilten Diensten. Ein klassisches Beispiel sind die Root-DNS-Server, bei denen die Anycast-Adressierung die Abfragen automatisch an den nächstgelegenen Präsenzpunkt leitet.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
+
+| Feld     | Präfix | Subnetz | Schnittstellen-ID |
+|-----------|--------|--------|______________|
 | Bits      | 48     | 16     | 64           |
 
 In IPv6 ersetzen **Multicast-Adressen** den Broadcast-Mechanismus, der als zu kostspielig und ungeeignet für ein globales Netz angesehen wurde. Eine Multicast-Address identifiziert eine Gruppe von Schnittstellen, typischerweise über mehrere Hosts, die die gleichen Pakete gleichzeitig empfangen möchten.
@@ -1905,7 +1908,8 @@ Die Struktur einer IPv6-Multicast-Address umfasst:
 - ein Identifikationsfeld (112 Bits), das die Nummer der Multicast-Gruppe angibt.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Feld      | Präfix | Flags | Bereich | Gruppen-ID |
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 

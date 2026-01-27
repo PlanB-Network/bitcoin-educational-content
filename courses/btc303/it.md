@@ -866,44 +866,43 @@ Lombrozo parla anche del processo che circonda le modifiche del consenso, ma que
 ### Sviluppo senza permessi
 
 
-Abbiamo stabilito che chiunque può scrivere codice per Bitcoin Core senza chiedere alcun permesso, ma non è detto che venga unito al repository Git principale. Ciò riguarda qualsiasi modifica, dalla modifica degli schemi di colore dell'interfaccia grafica, al modo in cui sono formattati i messaggi peer-to-peer, e persino le regole di consenso, cioè l'insieme di regole che definiscono una blockchain valida.
+Abbiamo stabilito che chiunque può scrivere codice per Bitcoin Core senza chiedere alcun permesso, ma non è detto che venga integrato al repository Git principale. Questo vale per qualsiasi tipo di modifica: dal cambiamento degli schemi di colore dell'interfaccia grafica, al modo in cui sono formattati i messaggi peer-to-peer, fino alle regole di consenso, cioè l'insieme di regole che definiscono una blockchain valida.
 
-Altrettanto importante è che gli utenti siano liberi di sviluppare sistemi sulla base di Bitcoin, senza chiedere alcun permesso. Abbiamo visto innumerevoli progetti software di successo costruiti sulla base di Bitcoin, come ad esempio:
+Altrettanto importante è che gli utenti siano liberi di sviluppare sistemi su Bitcoin, senza chiedere alcun permesso. Abbiamo visto innumerevoli progetti software di successo essere costruiti su Bitcoin, come ad esempio:
 
-- Lightning Network: Rete di pagamento che consente di pagare velocemente importi molto piccoli. Richiede pochissime transazioni On-Chain Bitcoin. Esistono diverse implementazioni interoperabili, come [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) e [Lightning Dev Kit](https://github.com/lightningdevkit).
-- CoinJoin: Più parti collaborano per combinare i loro pagamenti in un'unica transazione per rendere più difficile il clustering Address. Esistono diverse implementazioni.
-- Sidechains: Questo sistema può bloccare una moneta sulla blockchain di Bitcoin per sbloccarla su un'altra blockchain. Il motivo per cui si può voler utilizzare una Sidechain, sono le funzionalità disponibili su tale Sidechain. Alcuni esempi sono [Blockstream's Elements](https://github.com/ElementsProject/Elements).
-- OpenTimestamps: consente di fare [Timestamp un documento](https://opentimestamps.org/) sulla blockchain di Bitcoin in modo privato. È quindi possibile utilizzare quel Timestamp per dimostrare che un documento deve essere esistito prima di un certo momento.
+- Lightning Network: Una rete di pagamento che consente di pagare velocemente importi molto piccoli. Richiede pochissime transazioni sulla blockchain di Bitcoin. Ne esistono diverse implementazioni interoperabili, come [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) e [Lightning Dev Kit](https://github.com/lightningdevkit).
+- CoinJoin: Quando più individui collaborano per combinare i loro pagamenti in un'unica transazione per rendere più difficile il raggruppamento degli indirizzi. Ne esistono diverse versioni.
+- Sidechains(catene laterali): Questo sistema può bloccare una moneta sulla blockchain di Bitcoin per sbloccarne una corrispondente su un'altra blockchain. Il motivo per cui si può voler utilizzare una sidechain, sono le funzionalità disponibili su tale sidechain. Alcuni esempi sono [Blockstream's Elements](https://github.com/ElementsProject/Elements).
+- OpenTimestamps: consente di apporre un [timestamp a un documento](https://opentimestamps.org/) sulla blockchain di Bitcoin in modo privato. È quindi possibile utilizzare quel Timestamp per dimostrare che un documento deve essere esistito prima di un certo momento.
 
-Se non esistesse lo sviluppo senza permessi, molti di questi progetti non sarebbero stati possibili. Come si è detto nel capitolo sulla neutralità, se gli sviluppatori dovessero chiedere il permesso di costruire protocolli su Bitcoin, verrebbero sviluppati solo i protocolli consentiti dal comitato centrale di concessione degli sviluppatori.
+Se non esistesse lo sviluppo senza permessi, molti di questi progetti non sarebbero stati possibili. Come si è detto nel capitolo sulla neutralità, se gli sviluppatori dovessero chiedere il permesso per costruire protocolli su Bitcoin, verrebbero sviluppati solo quelli consentiti dal comitato centrale che supervisiona gli sviluppatori.
 
 È comune che sistemi come quelli elencati in precedenza adottino una licenza di software open source, che consente a chiunque di contribuire, riutilizzare o esaminare il codice senza chiedere alcun permesso. Anche lo standard delle licenze software di Bitcoin è open source. 
-
 
 ### Sviluppo pseudonimo
 
 
-Non dover chiedere l'autorizzazione per sviluppare il software Bitcoin offre un'opzione interessante e importante: è possibile scrivere e pubblicare codice, in Bitcoin Core o in qualsiasi altro progetto open source, senza rivelare la propria identità.
+Non dover chiedere l'autorizzazione per sviluppare software Bitcoin offre un'opzione interessante e importante: è possibile scrivere e pubblicare codice, in Bitcoin Core o in qualsiasi altro progetto open source, senza rivelare la propria identità.
 
-Molti sviluppatori scelgono questa opzione operando con uno pseudonimo e cercando di tenerlo separato dalla loro vera identità. Le ragioni di questa scelta possono variare da sviluppatore a sviluppatore. Un utente pseudonimo è ZmnSCPxj. Tra gli altri progetti, contribuisce a Bitcoin Core e Core Lightning, una delle diverse implementazioni di Lightning Network. [Scrive](https://zmnscpxj.github.io/about.html) sulla sua pagina web:
+Molti sviluppatori scelgono questa opzione operando con uno pseudonimo e cercando di tenerlo separato dalla loro vera identità. Le ragioni di questa scelta possono variare da sviluppatore a sviluppatore. Tra gli utenti pseudonimi c'è ZmnSCPxj. Tra gli altri progetti, contribuisce a Bitcoin Core e Core Lightning, una delle diverse implementazioni di Lightning Network. [Scrive](https://zmnscpxj.github.io/about.html) sulla sua pagina web:
 
 > Sono ZmnSCPxj, una persona di Internet generata a caso. I miei pronomi sono maschili.
 >
 > Capisco che gli esseri umani desiderino istintivamente conoscere la mia identità. Tuttavia, ritengo che la mia identità sia in gran parte immateriale e preferisco essere giudicato in base al mio lavoro.
 >
-> Se vi state chiedendo se fare una donazione o meno, e vi chiedete quale sia il mio costo della vita o il mio reddito, sappiate che, in termini corretti, dovreste farmi una donazione in base all'utilità che trovate nei miei articoli e nel mio lavoro su Bitcoin e sul Lightning Network.
+> Se vi state chiedendo se fare una donazione o meno, o vi chiedete quale sia il mio costo della vita o il mio reddito, sappiate che, in termini corretti, dovreste farmi una donazione in base all'utilità che trovate nei miei articoli e nel mio lavoro su Bitcoin e sul Lightning Network.
 
-Nel suo caso, il motivo dell'utilizzo di uno pseudonimo deve essere giudicato in base ai suoi meriti e non in base a chi sia o siano la persona o le persone dietro lo pseudonimo. È interessante notare che in un [articolo su CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) ha rivelato che lo pseudonimo è stato creato per un motivo diverso.
+Nel suo caso, il motivo dell'utilizzo di uno pseudonimo, è di essere giudicato in base ai suoi meriti e non in base a chi sia o siano, le persone dietro lo pseudonimo. È interessante notare che in un [articolo su CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) ha rivelato che lo pseudonimo fu creato per un motivo diverso.
 
-> La mia ragione iniziale [per l'uso di uno pseudonimo] era semplicemente che ero preoccupato di commettere un errore madornale; quindi ZmnSCPxj era originariamente inteso come uno pseudonimo usa e getta, che poteva essere abbandonato in un caso del genere. Tuttavia, sembra che abbia ottenuto una reputazione per lo più positiva, quindi l'ho mantenuto.
+> La mia ragione iniziale [per l'uso di uno pseudonimo] era semplice: ero preoccupato di commettere un errore madornale; quindi ZmnSCPxj era originariamente inteso come uno pseudonimo usa e getta, che poteva essere abbandonato in un caso del genere. Tuttavia, sembra che abbia ottenuto una reputazione per lo più positiva, quindi l'ho mantenuto.
 
-L'uso di uno pseudonimo consente infatti di parlare più liberamente senza mettere a rischio la propria reputazione personale nel caso in cui si dica qualcosa di stupido o si commetta un grosso errore. Come si è scoperto, il suo pseudonimo ha ottenuto una grande reputazione e nel 2019 [ha persino ottenuto una ricompensa per lo sviluppo](https://twitter.com/spiralbtc/status/1204815615678177280), il che è di per sé una prova della natura senza permessi di  Bitcoin.
+L'uso di uno pseudonimo consente infatti di esprimersi più liberamente senza mettere a rischio la propria reputazione personale nel caso in cui si dica qualcosa di stupido o si commetta un grosso errore. Come si è scoperto, il suo pseudonimo ha ottenuto una grande reputazione e nel 2019 [ha persino ottenuto un contributo per lo sviluppo](https://twitter.com/spiralbtc/status/1204815615678177280), il che è di per sé una prova della natura senza permessi di Bitcoin.
 
 Probabilmente, lo pseudonimo più noto di Bitcoin è quello di Satoshi Nakamoto. Non è chiaro perché abbia scelto di essere pseudonimo, ma con il senno di poi è stata probabilmente una buona decisione per diversi motivi:
 
 - Poiché molte persone ipotizzano che Nakamoto possieda molti Bitcoin, è imperativo per la sua sicurezza finanziaria e personale mantenere la sua identità sconosciuta.
 - Dal momento che la sua identità è sconosciuta, non c'è la possibilità di perseguire nessuno, il che crea un prolema alle varie autorità governative.
-- Non c'è una persona autorevole a cui guardare, il che rende Bitcoin più meritocratico e resistente ai ricatti.
+- Non c'è una persona autorevole a cui fare riferimento, il che rende Bitcoin più meritocratico e resistente ai ricatti.
 
 Si noti che questi punti non valgono solo per Satoshi Nakamoto, ma per chiunque lavori in Bitcoin o detenga quantità significative della valuta, a vari livelli.
 
@@ -915,7 +914,7 @@ In un [discorso sulla crittografia filosofico](https://btctranscripts.com/greg-m
 
 > La crittografia è l'arte e la scienza che usiamo per combattere la natura fondamentale dell'informazione, per piegarla alla nostra volontà politica e morale e per indirizzarla verso fini umani contro ogni possibilità e sforzo di opporsi.
 
-Introduce poi il termine *crittografia di selezione*, definita come l'arte di selezionare gli strumenti crittografici, e spiega perché è una parte importante della crittografia. Si tratta di come selezionare le librerie, gli strumenti e le pratiche crittografiche, o come dice lui "il crittosistema della scelta dei crittosistemi".
+Introduce poi il termine *selection cryptography* (crittografia selettiva), definita come l'arte di selezionare gli strumenti crittografici, e spiega perché è una parte importante della crittografia. Si tratta di come selezionare le librerie, gli strumenti e le pratiche crittografiche, o come dice lui "il crittosistema della scelta dei crittosistemi".
 
 Utilizzando esempi concreti, l'autore mostra come la crittografia di selezione possa facilmente andare male e propone un elenco di domande da porsi quando la si pratica. Di seguito riportiamo una versione ridotta di tale elenco:
 
@@ -930,27 +929,26 @@ Utilizzando esempi concreti, l'autore mostra come la crittografia di selezione p
 
 Anche se questa non è la guida definitiva al successo, può essere molto utile passare in rassegna questi punti quando si fa crittografia di selezione.
 
-A causa dei problemi menzionati da Maxwell, Bitcoin Core cerca di [ridurre al minimo l'esposizione a librerie di terze parti](https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Naturalmente, non è possibile eliminare tutte le dipendenze esterne, altrimenti si dovrebbe scrivere tutto da soli, dal rendering dei caratteri all'implementazione delle chiamate di sistema.
+A causa dei problemi menzionati da Maxwell, Bitcoin Core cerca di [ridurre al minimo l'esposizione a librerie di terze parti](https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Naturalmente, non è possibile eliminare tutte le dipendenze esterne, altrimenti si dovrebbe scrivere tutto da soli, dal rendering (visualizzaione) dei caratteri all'implementazione delle chiamate di sistema.
 
-### Recensione
+### Revisione
 
 
-Questa sezione è denominata "Revisione", anziché "Revisione del codice", perché la sicurezza di Bitcoin si basa molto sulla revisione a più livelli, non solo del codice sorgente. Inoltre, idee diverse richiedono una revisione a livelli diversi: una modifica delle regole del consenso richiederebbe una revisione più approfondita a più livelli rispetto a una modifica dello schema dei colori o alla correzione di un refuso.
+Questa sezione è denominata "Revisione", anziché "Revisione del codice", perché la sicurezza di Bitcoin si basa molto sulla revisione a più livelli, non solo del codice sorgente. Inoltre, idee diverse richiedono una approfondimento diverso: una modifica delle regole del consenso richiederebbe una revisione più accurata rispetto a una modifica dell'aspetto grafico, o alla correzione di un dettaglio testuale.
 
 Nel percorso verso l'adozione finale, un'idea passa di solito attraverso diverse fasi di discussione e revisione. Alcune di queste fasi sono elencate di seguito:
 
+- Un'idea è stata pubblicata sulla mailing list Bitcoin-dev.
+- L'idea è stata formalizzata in una proposta di miglioramento di  Bitcoin (BIP).
+- Il BIP è implementato in una pull request (PR) a Bitcoin Core.
+- Vengono discussi i meccanismi di distribuzione.
+- Alcuni meccanismi di distribuzione alternativi sono stati implementati nelle pull request a Bitcoin Core.
+- Le pull request vengono integrate al ramo master.
+- Gli utenti scelgono se utilizzare o meno il software.
 
-- Un'idea è stata pubblicata sulla mailing list Bitcoin-dev
-- L'idea è stata formalizzata in una proposta di miglioramento di  Bitcoin (BIP)
-- Il BIP è implementato in una richiesta di pull (PR) a Bitcoin Core
-- Vengono discussi i meccanismi di distribuzione
-- Alcuni meccanismi di distribuzione concorrenti sono stati implementati nelle richieste di pull al Bitcoin Core
-- Le richieste di pull vengono unite al ramo master
-- Gli utenti scelgono se utilizzare o meno il software
+In ognuna di queste fasi, persone con punti di vista e background diversi esaminano le informazioni disponibili, che si tratti del codice sorgente, di un BIP o di un'idea vagamente descritta. Le fasi di solito non vengono eseguite in modo rigoroso dall'alto verso il basso, anzi, possono verificarsi più fasi contemporaneamente e a volte si va avanti e indietro tra di esse. Chiuque può fornire feedback durante le varie fasi.
 
-In ognuna di queste fasi, persone con punti di vista e background diversi esaminano le informazioni disponibili, che si tratti del codice sorgente, di un PIF o di un'idea vagamente descritta. Le fasi di solito non vengono eseguite in modo rigoroso dall'alto verso il basso, anzi, possono verificarsi più fasi contemporaneamente e a volte si va avanti e indietro tra di esse. Anche persone diverse possono fornire feedback durante le varie fasi.
-
-Uno dei revisori di codice più prolifici di Bitcoin Core è Jon Atack. Ha scritto [un post sul blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) su come revisionare le richieste di pull in Bitcoin Core. Sottolinea che un buon revisore di codice si concentra sul modo migliore per aggiungere valore.
+Uno dei revisori di codice più prolifici di Bitcoin Core è Jon Atack. Ha scritto [un post sul suo blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) su come revisionare le pull request in Bitcoin Core. Sottolinea che un buon revisore di codice si concentra sul modo migliore per aggiungere valore.
 
 > Come nuovo arrivato, l'obiettivo è cercare di aggiungere valore, con cordialità e umiltà, imparando il più possibile.
 >

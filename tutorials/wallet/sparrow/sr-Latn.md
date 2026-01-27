@@ -143,10 +143,11 @@ Ne zaboravite da restartujete softver nakon što napravite ove promene.
 Zatim se vratite na Sparrow Wallet i unesite putanju do vaše datoteke kolačića, koja se obično nalazi u istoj fascikli kao i `Bitcoin.conf`, u zavisnosti od vašeg operativnog sistema:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

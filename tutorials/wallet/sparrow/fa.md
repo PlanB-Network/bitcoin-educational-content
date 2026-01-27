@@ -146,10 +146,11 @@ server=1
 سپس به Sparrow wallet بازگردید و مسیر فایل کوکی خود را وارد کنید، که معمولاً در همان پوشه‌ای که `Bitcoin.conf` قرار دارد، بسته به سیستم‌عامل شما، واقع شده است:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

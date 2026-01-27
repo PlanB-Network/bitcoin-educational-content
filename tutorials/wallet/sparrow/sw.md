@@ -143,10 +143,11 @@ Usisahau kuanzisha upya programu baada ya kufanya mabadiliko haya.
 Kisha rudi kwa Sparrow Wallet na uweke njia ya faili yako ya kidakuzi, ambayo kwa kawaida iko katika folda sawa na `Bitcoin.conf`, kulingana na mfumo wako wa uendeshaji:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

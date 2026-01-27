@@ -146,10 +146,11 @@ Ntukibagire gusubira gufungura porogarama umaze guhindura ivyo.
 Hanyuma usubire kuri Sparrow wallet winjize inzira ija kuri dosiye yawe y'amakuru, akenshi iri muri dosiye imwe na `Bitcoin.conf`, bivanye n'uburyo ukoresha:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

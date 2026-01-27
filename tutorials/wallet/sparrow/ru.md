@@ -95,13 +95,14 @@ server=1
 
 Затем вернитесь в Sparrow Wallet и введите путь к файлу cookie, который обычно находится в той же папке, что и `Bitcoin.conf`, в зависимости от вашей операционной системы:
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

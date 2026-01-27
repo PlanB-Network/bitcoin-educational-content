@@ -95,13 +95,14 @@ Muista käynnistää ohjelmisto uudelleen näiden muutosten tekemisen jälkeen.
 
 Palaa sitten Sparrow Wallet:een ja syötä evästetiedoston polku, joka sijaitsee yleensä samassa kansiossa kuin `Bitcoin.conf`, käyttöjärjestelmästäsi riippuen:
 
-| **macOS** | ~/Library/Application Support/Bitcoin | ~/Library/Application Support/Bitcoin |
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

@@ -95,13 +95,14 @@ Seda saate teha ka Bitcoin-QT Interface graafiku kaudu, kui navigeerite "*Settin
 
 Seejärel naaske Sparrow Wallet-sse ja sisestage oma küpsiste faili tee, mis tavaliselt asub samas kaustas nagu `Bitcoin.conf`, sõltuvalt teie operatsioonisüsteemist:
 
-| **macOS** | ~/Library/Application Support/Bitcoin | ~/Library/Application Support/Bitcoin |
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

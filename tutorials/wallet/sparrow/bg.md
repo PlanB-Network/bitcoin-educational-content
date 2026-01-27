@@ -146,10 +146,11 @@ server=1
 След това се върнете в Sparrow Wallet и въведете пътя до файла с бисквитките, който обикновено се намира в същата папка като `Bitcoin.conf`, в зависимост от операционната система:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

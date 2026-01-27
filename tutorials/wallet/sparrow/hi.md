@@ -143,10 +143,11 @@ server=1
 फिर स्पैरो Wallet पर वापस जाएं और अपनी कुकी फ़ाइल का पथ दर्ज करें, जो आमतौर पर आपके ऑपरेटिंग सिस्टम के आधार पर `Bitcoin.conf` के समान फ़ोल्डर में स्थित होता है:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

@@ -146,10 +146,11 @@ Bu değişiklikleri yaptıktan sonra yazılımı yeniden başlatmayı unutmayın
 Ardından Sparrow wallet'e dönün ve işletim sisteminize bağlı olarak genellikle `Bitcoin.conf` ile aynı klasörde bulunan çerez dosyanızın yolunu girin:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

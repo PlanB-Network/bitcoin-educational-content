@@ -146,10 +146,11 @@ Bitcoin-QT의 Interface 그래픽을 통해 "*설정*" > "*옵션*"으로 이동
 그런 다음 Sparrow wallet로 돌아가서 쿠키 파일 경로를 입력합니다(운영 체제에 따라 일반적으로 `Bitcoin.conf`와 같은 폴더에 위치):
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

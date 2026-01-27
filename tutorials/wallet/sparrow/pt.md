@@ -95,13 +95,14 @@ Não se esqueça de reiniciar o software depois de efetuar estas alterações.
 
 Em seguida, retorne ao Sparrow Wallet e digite o caminho para o seu arquivo de cookie, geralmente localizado na mesma pasta que `Bitcoin.conf`, dependendo do seu sistema operacional:
 
-| **macOS** | ~/Biblioteca/Apoio a aplicações/Bitcoin |
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

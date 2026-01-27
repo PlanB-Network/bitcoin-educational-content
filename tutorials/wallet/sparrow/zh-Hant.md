@@ -143,10 +143,11 @@ server=1
 然後回到 Sparrow Wallet，輸入 cookie 檔案的路徑，通常與 `Bitcoin.conf`位於同一資料夾，視您的作業系統而定：
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

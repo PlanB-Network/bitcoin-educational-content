@@ -146,10 +146,11 @@ server=1
 จากนั้นกลับไปที่ Sparrow Wallet และป้อนเส้นทางไปยังไฟล์คุกกี้ของคุณ ซึ่งมักจะอยู่ในโฟลเดอร์เดียวกับ `Bitcoin.conf` ขึ้นอยู่กับระบบปฏิบัติการของคุณ:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

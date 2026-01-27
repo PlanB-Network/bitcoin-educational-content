@@ -95,13 +95,14 @@ server=1
 
 その後、Sparrow Walletに戻り、Cookieファイルのパスを入力します。Cookieファイルは、OSにもよりますが、通常`Bitcoin.conf`と同じフォルダにあります：
 
-| ~/Library/Application Support/Bitcoin | **macOS** | ~/Library/Application Support/Bitcoin | **macOS** | ~/Library/Application Support/Bitcoin
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%Bitcoin | %APPDATA%Bitcoin | %APPDATA%Bitcoin | %APPDATA%Bitcoin
-
-|**Linux** | ~/.Bitcoin
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

@@ -146,10 +146,11 @@ Glöm inte att starta om programvaran efter att du har gjort dessa ändringar.
 Gå sedan tillbaka till Sparrow wallet och ange sökvägen till din cookie-fil, som vanligtvis finns i samma mapp som `Bitcoin.conf`, beroende på ditt operativsystem:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 

@@ -1,8 +1,9 @@
-question: Ni uwuhe mwanditsi Mirabeau akoresha mu gitabu ciwe citwa L’Ami des Hommes?
-answer: Faransuwa Keseni
+question: Ni uwuhe mwanditsi Mirabeau yisunze mu gitabu ciwe citwa L’Ami des Hommes?
+answer:  François Quesnay
 wrong_answers:
-  - Vinsenti de Gournay
-  - Rishari Kantiloni
-  - Adamu Smith
+  - Vincent de Gournay
+  - Richard Cantillon
+  - Adam Smith
 explanation: |
-  Mirabeau yahumekewe n’ivyiyumviro vya François Quesnay n’ivy’ubutegetsi bw’umubiri, ivyo bikaba vyashimika ku kamaro k’uburimyi n’umwidegemvyo mu vy’ubutunzi.
+  Mirabeau yahumekewe n’ivyiyumviro vya François Quesnay n’ivy’ubutegetsi bw’aba physiocrats, ivyo bikaba vyashimika ku kamaro k’uburimyi n’umwidegemvyo mu vy’ubutunzi.
+reviewed: true

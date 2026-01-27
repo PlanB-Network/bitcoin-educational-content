@@ -543,6 +543,14 @@ Joinstr ubu itanga ama pools y'abantu **2 gushika kuri 5** ku rugero rwa mwayeni
 
 
 
+| Inzira | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+|--------|--------|--------------------|------------|-------------|
+| **Abanyamureba mu mulwanyi** | 50-100 | 5-10 | Ivanjire (P2P) | **2-5** |
+| **Umuntu wiyigira** | Wiyigira (2024 aracyiritswe) | Wiyigira (akora) | P2P maker/taker | **Nta (Nostr)** |
+| **Kuwubwiyunga ici** | Kinini | Rimwe | Ryinshi cyane | **Ryinshi cyane** |
+| **Impamvu z'iyigira** | Icyerekana | Impamvu y'injira | Yishyurw'abakozi | **Nta** |
+| **Guhura UTXO** | Yego (inyandiko nzira) | Oya | Oya | **Oya** |
+
 💡 **Ibindi bisubizo vya CoinJoin bikora** :
 
 

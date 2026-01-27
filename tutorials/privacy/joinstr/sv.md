@@ -543,6 +543,14 @@ Joinstr genererar för närvarande pooler med **2 till 5 deltagare** i genomsnit
 
 
 
+| Aspekt | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+|--------|--------|--------------------|------------|-------------|
+| **Deltagare per pool** | 50-100 | 5-10 | Variabel (P2P) | **2-5** |
+| **Koordinator** | Centraliserad (stängd 2024) | Centraliserad (aktiv) | P2P maker/taker | **Ingen (Nostr)** |
+| **Censurbeständighet** | Svag | Medel | Mycket hög | **Mycket hög** |
+| **Koordineringsavgifter** | Procent | Inträdesavgift | Betalat till makers | **Ingen** |
+| **UTXO-diskriminering** | Ja (svarta listor) | Nej | Nej | **Nej** |
+
 💡 **Andra aktiva CoinJoin-lösningar** :
 
 

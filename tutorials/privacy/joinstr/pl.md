@@ -543,6 +543,14 @@ Joinstr generuje obecnie pule średnio od **2 do 5 uczestników**. Liczby te są
 
 
 
+| Aspekt | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+|--------|--------|--------------------|------------|-------------|
+| **Uczestnicy na pulę** | 50-100 | 5-10 | Zmienny (P2P) | **2-5** |
+| **Koordynator** | Scentralizowany (zamknięty 2024) | Scentralizowany (aktywny) | P2P maker/taker | **Brak (Nostr)** |
+| **Odporność na cenzurę** | Słaba | Średnia | Bardzo wysoka | **Bardzo wysoka** |
+| **Opłaty koordynacyjne** | Procent | Opłata wejściowa | Zapłacone twórcom | **Brak** |
+| **Dyskryminacja UTXO** | Tak (czarne listy) | Nie | Nie | **Nie** |
+
 **Inne aktywne rozwiązania CoinJoin** :
 
 

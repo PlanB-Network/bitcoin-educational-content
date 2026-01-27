@@ -543,6 +543,14 @@ Joinstr genereert momenteel pools van gemiddeld **2 tot 5 deelnemers**. Deze cij
 
 
 
+| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+|--------|--------|--------------------|------------|-------------|
+| **Deelnemers per pool** | 50-100 | 5-10 | Variabel (P2P) | **2-5** |
+| **Coördinator** | Gecentraliseerd (gesloten 2024) | Gecentraliseerd (actief) | P2P maker/taker | **Geen (Nostr)** |
+| **Censuurbestendigheid** | Zwak | Gemiddeld | Zeer hoog | **Zeer hoog** |
+| **Coördinatiekosten** | Percentage | Ingangsvergoeding | Betaald aan makers | **Geen** |
+| **UTXO-discriminatie** | Ja (zwarte lijsten) | Nee | Nee | **Nee** |
+
 💡 **Andere actieve CoinJoin oplossingen** :
 
 

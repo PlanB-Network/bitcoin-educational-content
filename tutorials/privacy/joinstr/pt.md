@@ -543,6 +543,14 @@ Atualmente, o Joinstr gera pools de **2 a 5 participantes** em média. Estes nú
 
 
 
+| Aspecto | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+|--------|--------|--------------------|------------|-------------|
+| **Participantes por pool** | 50-100 | 5-10 | Variável (P2P) | **2-5** |
+| **Coordenador** | Centralizado (fechado 2024) | Centralizado (ativo) | P2P maker/taker | **Nenhum (Nostr)** |
+| **Resistência à censura** | Fraca | Média | Muito alta | **Muito alta** |
+| **Taxas de coordenação** | Percentual | Taxa de entrada | Pago aos makers | **Nenhum** |
+| **Discriminação UTXO** | Sim (listas negras) | Não | Não | **Não** |
+
 💡 **Outras soluções activas de CoinJoin** :
 
 

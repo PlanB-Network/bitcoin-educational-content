@@ -543,6 +543,14 @@ Joinstr trenutno generiše grupe od **2 do 5 učesnika** u proseku. Ove brojke s
 
 
 
+| Aspekt | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+|--------|--------|--------------------|------------|-------------|
+| **Učesnici po basu** | 50-100 | 5-10 | Promenljiv (P2P) | **2-5** |
+| **Koordinator** | Centralizovan (zatvoren 2024) | Centralizovan (aktivan) | P2P maker/taker | **Nije (Nostr)** |
+| **Otpornost na cenzuru** | Slaba | Srednja | Veoma visoka | **Veoma visoka** |
+| **Naknade za koordinaciju** | Procenat | Ulazna naknada | Plaćeno tvorcima | **Nije** |
+| **UTXO diskriminacija** | Da (crne liste) | Ne | Ne | **Ne** |
+
 💡 **Ostala aktivna CoinJoin rešenja** :
 
 

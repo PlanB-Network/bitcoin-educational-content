@@ -529,6 +529,14 @@ Joinstr saat ini menghasilkan rata-rata **2 hingga 5 peserta**. Angka-angka ini 
 
 
 
+| Aspek | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+|--------|--------|--------------------|------------|-------------|
+| **Peserta per pool** | 50-100 | 5-10 | Variabel (P2P) | **2-5** |
+| **Koordinator** | Tersentralisasi (ditutup 2024) | Tersentralisasi (aktif) | P2P maker/taker | **Tidak ada (Nostr)** |
+| **Ketahanan sensor** | Lemah | Sedang | Sangat tinggi | **Sangat tinggi** |
+| **Biaya koordinasi** | Persentase | Biaya masuk | Dibayar kepada pembuat | **Tidak ada** |
+| **Diskriminasi UTXO** | Ya (daftar hitam) | Tidak | Tidak | **Tidak** |
+
 💡 **Solusi CoinJoin aktif lainnya**:
 
 

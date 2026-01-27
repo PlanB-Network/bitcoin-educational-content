@@ -1460,7 +1460,7 @@ Der Wert des Seeds wird also durch den Wert der mnemonischen Phrase und der Pass
 Jetzt, da wir unseren Seed haben, können wir mit der Ableitung unserer Bitcoin-Wallet fortfahren.
 
 ### Der Master-Schlüssel und der Master-Chain-Code
-Sobald der Seed erhalten wurde, besteht der nächste Schritt bei der Ableitung einer HD-Wallets darin, den privaten Master-Schlüssel und den Master-Chain-Code zu berechnen, welche die Tiefe 0 unseres Wallets darstellen werden.
+Sobald der Seed erhalten wurde, besteht der nächste Schritt bei der Ableitung einer HD-Wallets darin, den privaten Master-Schlüssel und den Master-Chain-Code zu berechnen, welche die Tiefe 0 unserer Wallet darstellen werden.
 
 Um den privaten Master-Schlüssel und den Master-Chain-Code zu erhalten, wird die HMAC-SHA512-Funktion auf den Seed angewendet, unter Verwendung eines festen Schlüssels "*Bitcoin Seed*", der für alle Bitcoin-Nutzer identisch ist. Diese Konstante wird gewählt, um sicherzustellen, dass die Schlüsselableitungen spezifisch für Bitcoin sind. Hier sind die Elemente:
 - $\text{HMAC-SHA512}$: die Ableitungsfunktion;

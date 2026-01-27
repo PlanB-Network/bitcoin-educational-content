@@ -1307,11 +1307,12 @@ Nguyên lý dịch chuyển động này dựa trên việc quản lý bảng ch
 _Ví dụ về bảng dịch NAT được đơn giản hóa:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| IP nội bộ | IP bên ngoài | Thời lượng (giây) | Có thể tái sử dụng? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | không     |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | có        |
+| 10.100.0.89   | 193.48.100.46  | 0              | không     |
 
 Trong ví dụ này, nếu không có gói tin nào được chuyển qua cho mục nhập thứ hai trong hơn một giờ (3.600 giây), nó được đánh dấu là có thể sử dụng lại. Ngược lại, thời lượng bằng 0 biểu thị giao tiếp đang hoạt động, với ánh xạ bị khóa.
 

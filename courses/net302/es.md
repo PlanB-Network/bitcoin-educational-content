@@ -993,10 +993,11 @@ Este principio de traducción dinámica se basa en una gestión precisa de la ta
 _Ejemplo de tabla de traducción NAT simplificada:_
 
 
-| IP interna   | IP Externa   | Duración (seg) | Reutilizable? |
+
+| IP interna | IP externa | Duración (seg) | ¿Reutilizable? |
 | ------------- | -------------- | -------------- | --------- |
 | 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | sí       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | sí        |
 | 10.100.0.89   | 193.48.100.46  | 0              | no        |
 
 En este ejemplo, si no ha pasado ningún paquete por la segunda entrada en más de una hora (3.600 segundos), se marca como reutilizable. Por el contrario, una duración de cero indica una comunicación activa, con el mapeo bloqueado.

@@ -778,11 +778,12 @@ Ce principe de traduction dynamique repose sur une gestion fine de la table : ch
 
 _Exemple de table de traduction NAT simplifiée :_
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| IP interne | IP externe | Durée (sec) | Réutilisable ? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | non       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | oui       |
+| 10.100.0.89   | 193.48.100.46  | 0              | non       |
 
 Dans cet exemple, si aucun paquet n’a transité pour la seconde ligne depuis plus d’une heure (3600 secondes), l’entrée est marquée comme réutilisable. À l’inverse, un champ de durée à zéro indique qu’une communication est en cours et que la correspondance est verrouillée.
 

@@ -1307,11 +1307,12 @@ Dieses dynamische Übersetzungsprinzip beruht auf einer präzisen Tabellenverwal
 beispiel für eine vereinfachte NAT-Übersetzungstabelle:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Interne IP | Externe IP | Dauer (Sek.) | Wiederverwendbar? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | nein      |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | ja        |
+| 10.100.0.89   | 193.48.100.46  | 0              | nein      |
 
 Wenn in diesem Beispiel für den zweiten Eintrag seit über einer Stunde (3.600 Sekunden) kein Paket mehr durchgelassen wurde, wird er als wiederverwendbar markiert. Umgekehrt zeigt eine Dauer von Null eine aktive Kommunikation an, wobei die Zuordnung gesperrt ist.
 

@@ -1308,11 +1308,12 @@ Kanuni hii tendaji ya utafsiri inategemea usimamizi sahihi wa jedwali: kila ingi
 _Mfano wa jedwali la tafsiri lililorahisishwa la NAT:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| IP ya Ndani | IP ya Nje | Muda (sek) | Inatumika tena? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | hapana    |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | ndiyo     |
+| 10.100.0.89   | 193.48.100.46  | 0              | hapana    |
 
 Katika mfano huu, ikiwa hakuna pakiti imepitia kwa ingizo la pili kwa zaidi ya saa moja (sekunde 3,600), imetiwa alama kuwa inaweza kutumika tena. Kinyume chake, muda wa sifuri unaonyesha mawasiliano amilifu, ramani ikiwa imefungwa.
 

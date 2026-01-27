@@ -1307,11 +1307,12 @@ Tämä dynaamisen käännöksen periaate perustuu tarkkaan taulukon hallintaan: 
 _Esimerkki yksinkertaistetusta NAT-käännöstaulukosta:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Sisäinen IP | Ulkoinen IP | Kesto (sek) | Uudelleenkäytettävä? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | ei        |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | kyllä     |
+| 10.100.0.89   | 193.48.100.46  | 0              | ei        |
 
 Tässä esimerkissä, jos yksikään paketti ei ole kulkenut toisen merkinnän kautta yli tuntiin (3600 sekuntiin), se merkitään uudelleenkäytettäväksi. Sitä vastoin kesto nolla osoittaa aktiivista viestintää, jolloin kartoitus on lukittu.
 

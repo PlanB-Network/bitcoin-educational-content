@@ -1307,11 +1307,12 @@ Tento princip dynamického překladu se opírá o přesnou správu tabulek: kaž
 _Příklad zjednodušené překladové tabulky NAT:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Interní IP | Externí IP | Doba trvání (sek) | Znovupoužitelné? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | ne        |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | ano       |
+| 10.100.0.89   | 193.48.100.46  | 0              | ne        |
 
 Pokud v tomto příkladu neprošel u druhé položky žádný paket za více než hodinu (3600 sekund), je označena jako opakovaně použitelná. Naopak doba trvání nula znamená aktivní komunikaci s uzamčeným mapováním.
 

@@ -1307,11 +1307,12 @@ Bu dinamik çeviri prensibi hassas tablo yönetimine dayanır: her giriş, onu h
 basitleştirilmiş bir NAT çeviri tablosu örneği:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Dahili IP | Harici IP | Süre (sn) | Yeniden kullanılabilir mi? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | hayır     |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | evet      |
+| 10.100.0.89   | 193.48.100.46  | 0              | hayır     |
 
 Bu örnekte, ikinci giriş için bir saatten uzun bir süre (3.600 saniye) boyunca hiçbir paket geçmediyse, yeniden kullanılabilir olarak işaretlenir. Tersine, sürenin sıfır olması, eşlemenin kilitli olduğu aktif bir iletişimi gösterir.
 

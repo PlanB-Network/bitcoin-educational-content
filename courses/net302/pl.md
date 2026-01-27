@@ -1311,11 +1311,12 @@ Ta zasada dynamicznej translacji opiera się na precyzyjnym zarządzaniu tabelą
 przykład uproszczonej tabeli translacji NAT:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Wewnętrzny IP | Zewnętrzny IP | Czas trwania (sek) | Wielokrotnego użytku? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | nie       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | tak       |
+| 10.100.0.89   | 193.48.100.46  | 0              | nie       |
 
 W tym przykładzie, jeśli żaden pakiet nie przeszedł przez drugi wpis w ciągu ponad godziny (3600 sekund), jest on oznaczony jako wielokrotnego użytku. I odwrotnie, czas trwania równy zero wskazuje na aktywną komunikację z zablokowanym mapowaniem.
 

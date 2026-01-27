@@ -1311,11 +1311,12 @@ Prinsip penerjemahan dinamis ini bergantung pada manajemen tabel yang tepat: set
 contoh tabel terjemahan NAT yang disederhanakan:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| IP Internal | IP Eksternal | Durasi (detik) | Dapat digunakan ulang? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | tidak     |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | ya        |
+| 10.100.0.89   | 193.48.100.46  | 0              | tidak     |
 
 Dalam contoh ini, jika tidak ada paket yang melewati entri kedua dalam waktu lebih dari satu jam (3.600 detik), maka akan ditandai sebagai dapat digunakan kembali. Sebaliknya, durasi nol menunjukkan komunikasi aktif, dengan pemetaan terkunci.
 

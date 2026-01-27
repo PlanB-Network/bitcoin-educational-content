@@ -1307,11 +1307,12 @@ See dünaamilise tõlkimise põhimõte tugineb täpsele tabelihaldusele: iga kir
 näide lihtsustatud NAT-tõlketabelist:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Sisemine IP | Väline IP | Kestus (sek) | Taaskasutatav? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | ei        |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | jah       |
+| 10.100.0.89   | 193.48.100.46  | 0              | ei        |
 
 Selles näites, kui teise kirje puhul ei ole üle tunni aja (3600 sekundit) ükski pakett läbinud, märgitakse see korduvkasutatavaks. Seevastu kestus null tähistab aktiivset sidet, mille kaardistus on lukustatud.
 

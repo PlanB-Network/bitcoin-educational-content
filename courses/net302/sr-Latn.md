@@ -1303,10 +1303,11 @@ Ovaj dinamički princip prevođenja oslanja se na precizno upravljanje tabelama:
 _Primer pojednostavljene NAT tabele prevođenja:_
 
 
-| Interna  IP   | Eksterna IP    | Trajanje (sec) | Ponovo upotrebljiv? |
+
+| Interna IP | Eksterna IP | Trajanje (sek) | Ponovno upotrebljivo? |
 | ------------- | -------------- | -------------- | --------- |
 | 10.101.10.20  | 193.48.100.174 | 1,200          | ne        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | da       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | da        |
 | 10.100.0.89   | 193.48.100.46  | 0              | ne        |
 
 U ovom primeru, ako nijedan paket nije prošao kroz drugi unos duže od sat vremena (3.600 sekundi), označava se kao ponovo upotrebljiv. Suprotno tome, trajanje od nula označava aktivnu komunikaciju, sa zaključanim mapiranjem.

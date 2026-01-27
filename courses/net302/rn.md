@@ -1307,11 +1307,12 @@ Iryo hame ry’ubuhinduzi ry’inguvu rishingiye ku gucunga neza imeza: ikintu c
 _Akarorero k'imbonerahamwe yoroshe y'ubuhinduzi bwa NAT:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| IP y’imbere | IP yo hanze | Igihe (amasegonda) | Ishobora gukoreshwa kandi? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | oya       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | ego       |
+| 10.100.0.89   | 193.48.100.46  | 0              | oya       |
 
 Muri aka karorero, iyo ata paketi yaciyemwo ku bijanye n’injira ya kabiri mu kiringo kirenze isaha (amasegonda 3.600), irashirwako ikimenyetso c’uko ishobora gusubira gukoreshwa. Ku rundi ruhande, igihe c’ubusa kigaragaza uguhanahana amakuru gukomeye, n’ikarata ipfungiwe.
 

@@ -1311,11 +1311,12 @@ Este princípio de tradução dinâmica assenta numa gestão precisa da tabela: 
 _Exemplo de uma tabela de tradução NAT simplificada
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| IP interno | IP externo | Duração (seg) | Reutilizável? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | não       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | sim       |
+| 10.100.0.89   | 193.48.100.46  | 0              | não       |
 
 Neste exemplo, se nenhum pacote tiver passado pela segunda entrada em mais de uma hora (3.600 segundos), ela é marcada como reutilizável. Por outro lado, uma duração de zero indica uma comunicação ativa, com o mapeamento bloqueado.
 

@@ -1307,11 +1307,12 @@ Dette dynamiske oversettelsesprinsippet baserer seg på presis tabellhåndtering
 _Eksempel på en forenklet NAT-oversettelsestabell:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Intern IP | Ekstern IP | Varighet (sek) | Gjenbrukbar? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | nei       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | ja        |
+| 10.100.0.89   | 193.48.100.46  | 0              | nei       |
 
 I dette eksempelet er den andre oppføringen merket som gjenbrukbar hvis det ikke har gått noen pakke gjennom den på over en time (3600 sekunder). En varighet på null indikerer derimot at kommunikasjonen er aktiv, og at mappingen er låst.
 

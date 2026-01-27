@@ -1307,11 +1307,12 @@ Denna dynamiska översättningsprincip bygger på en exakt tabellhantering: varj
 _Exempel på en förenklad NAT-översättningstabell:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Intern IP | Extern IP | Varaktighet (sek) | Återanvändbar? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | nej       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | ja        |
+| 10.100.0.89   | 193.48.100.46  | 0              | nej       |
 
 I det här exemplet markeras den andra posten som återanvändbar om inget paket har passerat på över en timme (3 600 sekunder). Omvänt innebär en varaktighet på noll att kommunikationen är aktiv och att mappningen är låst.
 

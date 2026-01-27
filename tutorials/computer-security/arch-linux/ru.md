@@ -276,10 +276,11 @@ cfdisk /dev/nom-du-disque
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Точка монтирования в установленной системе | Раздел           | Тип раздела       | Рекомендуемый размер |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Пространство подкачки (swap) | Не менее 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Остаток диска |
 
 ![0_10](assets/fr/10.webp)
 

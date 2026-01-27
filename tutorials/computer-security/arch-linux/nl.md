@@ -276,10 +276,11 @@ Kies **GPT** als je in UEFI zit, **DOS** als je in BIOS zit.
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Koppelingspunt op het geïnstalleerde systeem | Partitie           | Partitietype       | Aanbevolen grootte |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Wisselgeheugen (swap) | Minstens 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Rest van schijf |
 
 ![0_10](assets/fr/10.webp)
 

@@ -276,10 +276,11 @@ Chọn **GPT** nếu bạn đang ở UEFI, **DOS** nếu bạn đang ở BIOS.
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Điểm gắn kết trên hệ thống được cài đặt | Phân vùng           | Loại phân vùng       | Kích thước được đề xuất |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Không gian hoán đổi (swap) | Ít nhất 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Phần còn lại của đĩa |
 
 ![0_10](assets/fr/10.webp)
 

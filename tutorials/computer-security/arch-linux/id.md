@@ -180,10 +180,11 @@ Pilih **GPT** jika Anda menggunakan UEFI, **DOS** jika Anda menggunakan BIOS.
 
 - **Di BIOS**
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Titik pemasangan pada sistem yang diinstal | Partisi           | Tipe partisi       | Ukuran yang disarankan |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Ruang pertukaran (swap) | Setidaknya 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Sisa disk |
 
 ![0_10](assets/fr/10.webp)
 

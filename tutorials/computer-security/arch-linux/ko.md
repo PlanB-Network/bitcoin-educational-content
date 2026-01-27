@@ -276,10 +276,11 @@ UEFI를 사용하는 경우 **GPT**를, BIOS를 사용하는 경우 **DOS**를 �
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| 설치된 시스템의 마운트 지점 | 파티션           | 파티션 유형       | 권장 크기 |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | 스왑 공간 (swap) | 최소 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | 디스크의 나머지 |
 
 ![0_10](assets/fr/10.webp)
 

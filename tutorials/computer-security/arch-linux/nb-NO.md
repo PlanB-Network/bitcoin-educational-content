@@ -276,10 +276,11 @@ Velg **GPT** hvis du bruker UEFI, og **DOS** hvis du bruker BIOS.
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Monteringspunkt på det installerte systemet | Partisjon           | Partisjonstype       | Foreslått størrelse |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Vekslingsminne (swap) | Minst 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Rest av disken |
 
 ![0_10](assets/fr/10.webp)
 

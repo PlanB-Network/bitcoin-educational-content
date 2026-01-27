@@ -276,10 +276,11 @@ Wybierz **GPT** jeśli jesteś w UEFI, **DOS** jeśli jesteś w BIOS.
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Punkt montażu w zainstalowanym systemie | Partycja           | Typ partycji       | Sugerowany rozmiar |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Przestrzeń wymiany (swap) | Co najmniej 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Pozostałość dysku |
 
 ![0_10](assets/fr/10.webp)
 

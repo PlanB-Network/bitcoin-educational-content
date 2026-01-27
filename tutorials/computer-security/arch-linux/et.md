@@ -276,10 +276,11 @@ Valige **GPT**, kui olete UEFI-s, **DOS**, kui olete BIOS-s.
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Paigaldusmisõige paigaldatud süsteemis | Partitsioon           | Partitsiooni tüüp       | Soovitatud suurus |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Vahetuspind (swap) | Vähemalt 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Ülejäänud ketas |
 
 ![0_10](assets/fr/10.webp)
 

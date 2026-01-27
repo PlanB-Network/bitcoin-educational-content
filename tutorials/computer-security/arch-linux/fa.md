@@ -276,10 +276,11 @@ cfdisk /dev/nom-du-disque
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| نقطه اتصال در سیستم نصب شده | پارتیشن           | نوع پارتیشن       | اندازه پیشنهادی |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | فضای مبادله (swap) | حداقل 4 GB   |
+| /                                        | /dev/root_partition | لینوکس                   | بقیه دیسک |
 
 ![0_10](assets/fr/10.webp)
 

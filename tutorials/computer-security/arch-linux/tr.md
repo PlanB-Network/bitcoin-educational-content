@@ -276,10 +276,11 @@ UEFI'de iseniz **GPT**, BIOS'ta iseniz **DOS** öğesini seçin.
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Yüklü sistemde bağlantı noktası | Bölüm           | Bölüm türü       | Önerilen boyut |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Takas alanı (swap) | En az 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Diskin geri kalanı |
 
 ![0_10](assets/fr/10.webp)
 

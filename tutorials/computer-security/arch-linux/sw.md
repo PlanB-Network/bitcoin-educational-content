@@ -276,10 +276,11 @@ Chagua **GPT** ikiwa uko kwenye UEFI, **DOS** ikiwa uko kwenye BIOS.
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Mahali pa kukamatia kwenye mfumo ulioundwa | Sehemu           | Aina ya sehemu       | Ukubwa uliopendekezwa |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Nafasi ya kubadilishana (swap) | Angalau 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Sehemu iliyobaki ya diski |
 
 ![0_10](assets/fr/10.webp)
 

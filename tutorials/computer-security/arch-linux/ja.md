@@ -276,10 +276,11 @@ UEFIの場合は**GPT**を、BIOSの場合は**DOS**を選択してください�
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| インストールされたシステムのマウントポイント | パーティション           | パーティションタイプ       | 推奨サイズ |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | スワップスペース (swap) | 最低4 GB   |
+| /                                        | /dev/root_partition | Linux                   | ディスクの残り |
 
 ![0_10](assets/fr/10.webp)
 

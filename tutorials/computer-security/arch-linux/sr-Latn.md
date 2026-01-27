@@ -276,10 +276,11 @@ Izaberite **GPT** ako ste u UEFI, **DOS** ako ste u BIOS-u.
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Tačka montiranja na instaliranom sistemu | Particija           | Tip particije       | Predložena veličina |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Prostor za razmenu (swap) | Najmanje 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Ostatak diska |
 
 ![0_10](assets/fr/10.webp)
 

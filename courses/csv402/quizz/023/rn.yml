@@ -1,9 +1,9 @@
-question: RGB ibuza gute Double-spending mu gihe ca State Transition?
-answer: Gufunga Seal iriho no guhingura iyindi nshasha
+question: Nigute RGB yirinda ukuriha kabiri mugihe c'impinduka ?
+answer: Kwugara Serire isanzwe ihari hama ugakora nshsasha
 wrong_answers:
-  - Mu kugenzura amafaranga yose akoreshwa kuri Blockchain.
+  - Mu gususzuma amahanahana yose kuri Blockchain.
   - Mu gushinga imikono ya multi-sig ku gikorwa cose
-  - Kwemeza amakuru ya Global State
+  - Kwemeza amakuru yuko bimeze muri rusangi
 explanation: |
-  Gufunga Seal n’iyindi UTXO yakoreshejwe vyerekana ko uguhinduka ari ukwo kwihariza kandi ko kudashobora gusubirwamwo.
-reviewed: false
+  Kwugara Serire hamwe n'iyemeza ry'irungika ry UTXO  yuko ihinduka ari rimwe kandi ridasubirizwa.
+reviewed: true

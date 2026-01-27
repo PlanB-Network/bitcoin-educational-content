@@ -1,0 +1,9 @@
+question: Perché il ripristino di un vecchio channel.db è pericoloso?
+answer: Rischio di penalità
+wrong_answers:
+  - Perdita di seed
+  - Corruzione da gossip
+  - Blocco del routing
+explanation: |
+  Uno stato non aggiornato può essere interpretato come un tentativo di imbroglio e comportare la perdita dei fondi del canale.
+reviewed: false

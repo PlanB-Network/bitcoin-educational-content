@@ -40,39 +40,11 @@ En este curso, discutiremos algunos aspectos monetarios de Bitcoin, incluyendo c
 Es esencial entender que Bitcoin es un nuevo sistema monetario que cambia por completo nuestra relación con el dinero, por lo que aprender a usarlo es una habilidad necesaria para cualquiera que quiera tener el control de sus propios fondos.
 
 
-**Sección 1 - Introducción**  
-- Capítulo 1 - Descripción del curso  
-- Capítulo 2 - La prehistoria de Bitcoin  
 
-**Sección 2 - El dinero**  
-- Capítulo 3 - El dinero a través de la historia  
-- Capítulo 4 - Monedas fiduciarias  
-- Capítulo 5 - Hiperinflación  
-- Capítulo 6 - 21 millones de bitcoins  
 
-**Sección 3 - Carteras Bitcoin**  
-- Capítulo 7 - ¿Qué es una cartera Bitcoin?  
-- Capítulo 8 - Carteras Bitcoin y seguridad  
-- Capítulo 9 - Configuración de una cartera  
-- Capítulo 10 - Superar la prueba del tiempo  
 
-**Sección 4 - Aspectos técnicos de Bitcoin**  
-- Capítulo 11 - Lanzamiento de Bitcoin  
-- Capítulo 12 - Transacciones en bitcoins  
-- Capítulo 13 - Nodos de Bitcoin  
-- Capítulo 14 - Mineros  
-- Capítulo 15 - Bitcoin y ecología  
 
-**Sección 5 - ¿Cómo obtener bitcoins?**  
-- Capítulo 16 - ¡Bitcoin nunca duerme!  
-- Capítulo 17 - Obtener bitcoins trabajando  
-- Capítulo 18 - Ahorrar con Bitcoin  
-- Capítulo 19 - La hiperbitcoinización  
 
-**Sección 6 - El futuro de Bitcoin: Lightning Network**  
-- Capítulo 20 - Una breve introducción a Lightning Network  
-- Capítulo 21 - Casos de uso de Lightning Network  
-- Capítulo 22 - ¿Píldora roja o píldora azul?  
 
 Antes de introducir la definición de dinero y su función en la sociedad (Capítulo 1), debemos partir de la génesis de Bitcoin. Lanzado en 2009, Bitcoin es una tecnología relativamente nueva y diferente a todo lo demás. Por lo tanto, es normal no entenderlo todo sobre ella, todo a la vez. De hecho, al igual que cuando se aprende a utilizar Internet o a conducir un coche, no es necesario conocer todos los detalles técnicos de inmediato: se puede empezar por aprender a recibir, pagar y asegurar los fondos, y luego dar pequeños pasos para estudiarlo más a fondo.
 
@@ -719,7 +691,7 @@ En 2010, cuando Bitcoin empezó a atraer la atención de los medios, Satoshi dec
 
 Para algunos, Bitcoin se define como una entidad fúngica como un [micelio](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), mientras que otros lo describen como un [agujero negro](https://dergigi.com/). Lo ame o lo odie, Bitcoin sigue existiendo, con su ritmo constante de 10 minutos por bloque, como el latido de un nuevo sistema monetario.
 
-Para saber más sobre los escritos de Satoshi Nakamoto, recomendamos leer ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) de Phil Champagne o el documental de ARTE "Le mystaire Satoshi".
+Para profundizar en los escritos de Satoshi Nakamoto, recomiendo la lectura de [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) de Phil Champagne, que reúne y contextualiza sus principales textos, así como el documental de ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), que propone una investigación accesible y bien documentada sobre su identidad y su legado.
 
 ![image](assets/es/044.webp)
 

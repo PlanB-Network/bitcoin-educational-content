@@ -1,0 +1,9 @@
+question: Vad är den största kompromissen med LN inbyggda noder?
+answer: Operatörsberoende
+wrong_answers:
+  - Förlust av privata nycklar
+  - Ingen egen vårdnadshavare
+  - Onchain-betalningar obligatoriska för alla Lightning-transaktioner
+explanation: |
+  Användaren är starkt beroende av huvudoperatören för uppkoppling och kanalhantering.
+reviewed: false

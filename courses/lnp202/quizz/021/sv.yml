@@ -1,0 +1,9 @@
+question: Vilken fil innehåller LND:s detaljerade kanalstatus?
+answer: kanal.db
+wrong_answers:
+  - wallet.db
+  - blixt.db
+  - peers.db
+explanation: |
+  I filen channel.db lagras kanalstatus, peers och commitment transaction.
+reviewed: false

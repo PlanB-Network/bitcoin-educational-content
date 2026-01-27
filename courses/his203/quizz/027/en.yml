@@ -1,9 +1,11 @@
-question: What problem did the deterministic portfolio concept formalized by developer Gregory Maxwell in June 2011 solve?
+question: What problem did the deterministic wallet concept solve formalized by developer Gregory Maxwell in June 2011?
 answer: The need for regular backups of private keys to secure bitcoins
 wrong_answers:
   - The risk of piracy associated with storing bitcoins on an Internet-connected device
   - Vulnerability to brute force attacks due to the low entropy of random number generators
   - The inability to reuse the account on another device
 explanation: |
- Deterministic portfolios apply key derivation: instead of being generated individually at random, as was done in the main software, private keys are derived deterministically from information (called the seed) using cryptographic functions. This method was applied by the BitcoinSpinner and Electrum software portfolios at the end of 2011.
-reviewed: false
+ Deterministic wallets apply key derivation: instead of being generated individually at random, as was done in the main software, private keys are derived 
+ deterministically from information (called the seed) using cryptographic functions. This method was applied by the BitcoinSpinner and Electrum software 
+ wallets at the end of 2011.
+reviewed: true

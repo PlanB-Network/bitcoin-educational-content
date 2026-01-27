@@ -1,0 +1,9 @@
+question: Vilken mekanism förhindrar frisläppandet av ett gammalt blixtkanaltillstånd?
+answer: Nyckel för återkallande
+wrong_answers:
+  - Transaktionsavgifter
+  - Absoluta tidsur
+  - Skvaller i nätverket
+explanation: |
+  Revocation-nycklar används för att straffa en nod som försöker publicera ett gammalt kanaltillstånd.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Какво може да възстанови LND seed самостоятелно?
+answer: Onchain wallet
+wrong_answers:
+  - Отворени канали
+  - Състояния на канала
+  - Нищо
+explanation: |
+  seed извлича Bitcoin на веригата wallet, но не и активните канали на Lightning.
+reviewed: false

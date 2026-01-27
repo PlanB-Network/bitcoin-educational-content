@@ -6517,36 +6517,36 @@ console.error("Error reading file:", err)
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 در اینجا اتفاقی که می‌افتد:
 
 
-1. `fs.createWriteStream()` یک جریان نوشتنی ایجاد می‌کند.
+1. تابع `fs.createWriteStream()` یک جریان قابل نوشتن ایجاد می‌کند.
 
-۲. با استفاده از `.write()` مقداری متن به آن می‌نویسیم.
+2. ما هندلرهایی را برای رویدادهای `error` و `finish` ثبت می‌کنیم.
 
-۳. وقتی کارمان تمام شد، با فراخوانی `.end()` جریان را می‌بندیم.
+3. ما با استفاده از `.write()` متنی را در آن می‌نویسیم.
 
-۴. زمانی که تمام داده‌ها نوشته شد، رویداد `finish` منتشر می‌شود.
+4. وقتی کارمان تمام شد، برای بستن جریان `.end()` را فراخوانی می‌کنیم.
 
-۵. اگر مشکلی پیش بیاید، رویداد `error` فعال می‌شود.
+5. پس از اینکه تمام داده‌های بافر شده تخلیه و نوشته شدند، رویداد `finish` صادر می‌شود. اگر مشکلی پیش بیاید، رویداد `error` صادر می‌شود.
 
 
 دقیقاً مانند جریان‌های قابل خواندن، جریان‌های قابل نوشتن برای داده‌های بزرگ مناسب هستند زیرا نیازی به نگه‌داشتن همه چیز در حافظه به‌طور همزمان ندارند.

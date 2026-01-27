@@ -6517,21 +6517,21 @@ Siin on näide kirjutamisest faili `target.txt` voo abil:
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
@@ -6540,13 +6540,13 @@ See juhtub järgmiselt:
 
 1. `fs.createWriteStream()` loob kirjutatava voo.
 
-2. Kirjutame sinna teksti, kasutades `.write()`.
+2. Registreerime sündmuste `error` ja `finish` käsitlejad.
 
-3. Kui oleme lõpetanud, kutsume `.end()`, et voog sulgeda.
+3. Kirjutame sellesse teksti, kasutades meetodit `.write()`.
 
-4. Kui kõik andmed on kirjutatud, saadetakse sündmus "finish".
+4. Kui oleme lõpetanud, kutsume voo sulgemiseks välja meetodi `.end()`.
 
-5. Kui midagi läheb valesti, käivitub sündmus `error`.
+5. Kui kõik puhverdatud andmed on tühjendatud ja kirjutatud, väljastatakse sündmus `finish`. Kui midagi läheb valesti, väljastatakse sündmus `error`.
 
 
 Nii nagu loetavad, on ka kirjutatavad andmevood head suurte andmete jaoks, sest nad ei pea kõike korraga mälus hoidma.

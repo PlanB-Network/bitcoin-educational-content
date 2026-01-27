@@ -1,5 +1,5 @@
-question: Why can't a Lightning node operator profile rely on its own payments?
-answer: Mostly incoming flows
+question: Why can't a merchant Lightning node operator rely on its own payments to generate inbound liquidity?
+answer: Mostly inbound flows
 wrong_answers:
   - Mainly outbound flows
   - Channels too small

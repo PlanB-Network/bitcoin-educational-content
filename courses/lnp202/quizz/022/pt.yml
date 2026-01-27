@@ -1,0 +1,9 @@
+question: O que é que o LND seed pode restaurar por si só?
+answer: A cadeia wallet
+wrong_answers:
+  - Canais abertos
+  - Estados dos canais
+  - Nada
+explanation: |
+  O seed recupera o Bitcoin na cadeia wallet, mas não os canais Lightning activos.
+reviewed: false

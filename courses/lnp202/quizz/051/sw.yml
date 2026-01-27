@@ -1,0 +1,9 @@
+question: Ni mlango gani lazima uwekewe katika Zeus kwa muunganisho wa LND (REST) ​​ulioelezwa katika sura hii?
+answer: 8080
+wrong_answers:
+  - 8333
+  - 8332
+  - 50001
+explanation: |
+  Ili kufikia API kutoka kwa nodi yako ya LND kwenye Umbrel, unahitaji kutumia mlango 8080 wakati wa kusanidi Zeus.
+reviewed: false

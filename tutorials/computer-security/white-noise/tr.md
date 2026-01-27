@@ -53,16 +53,17 @@ MLS (Messaging Layer Security) ise mesajların uçtan uca şifrelenmesini sağla
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Karşılaştırma noktaları     | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE şifreleme / 1:1        | ✅ Evet       | İsteğe bağlı| ✅ Evet           | ✅ Evet  | ✅ Evet   | ✅ Evet            | ✅ Evet |
+| Grup E2EE şifreleme         | ✅ Evet       | ❌ Hayır    | ✅ Evet           | ✅ Evet  | ✅ Evet   | İsteğe bağlı      | ✅ Evet |
+| Kimlik anonimleştirme       | ✅ Evet       | İsteğe bağlı| ❌ Hayır          | ✅ Evet  | ❌ Hayır  | ❌ Hayır           | ❌ Hayır|
+| Açık kaynak sunucu          | ✅ Evet       | ❌ Hayır    | ❌ Hayır          | ✅ Evet  | ❌ Hayır  | ❌ Hayır           | ✅ Evet |
+| Açık kaynak istemci         | ✅ Evet       | ✅ Evet      | ❌ Hayır          | ✅ Evet  | ❌ Hayır  | ❌ Hayır           | ✅ Evet |
+| Merkeziyetsiz sunucu        | ✅ Evet       | ❌ Hayır    | ❌ Hayır          | ✅ Evet  | ❌ Hayır  | ❌ Hayır           | ❌ Hayır|
+| Kuruluş yılı                | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## White Noise ile çalışmaya başlama
 

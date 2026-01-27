@@ -1,11 +1,10 @@
-question: Jaka była powszechna reakcja rządów na kryzys monetarny lub gospodarczy, jak w przypadku Zimbabwe i Republiki Weimarskiej?
-answer: Sprawowanie ścisłej kontroli nad przepływem i formami kapitału.
+question: Jaka jest powszechna reakcja rządów na kryzys monetarny lub gospodarczy, jak w przypadku Zimbabwe i Republiki Weimarskiej?
+answer: Sprawowanie ścisłej kontroli nad przepływem kapitału i jego formą.
 wrong_answers:
   - Dewaluacja waluty krajowej.
   - Zachęcanie do inwestycji zagranicznych.
   - Rosnące stopy procentowe.
 explanation: |
-  Kiedy kraj staje w obliczu kryzysu monetarnego lub gospodarczego, jedną z powszechnych reakcji rządów jest
-  przez rządy jest sprawowanie ścisłej kontroli nad przepływem i formami kapitału.
+  Kiedy kraj staje w obliczu kryzysu monetarnego lub gospodarczego, jedną z powszechnych reakcji rządów jest sprawowanie ścisłej kontroli nad przepływem kapitału i jego formą.
   Często ma to na celu powstrzymanie paniki i przywrócenie zaufania.
-reviewed: false
+reviewed: true

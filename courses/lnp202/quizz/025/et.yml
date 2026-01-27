@@ -1,0 +1,9 @@
+question: Millised tingimused muudavad välgukaristuse tõhusaks?
+answer: Tuvastus enne ajaluku lõppu
+wrong_answers:
+  - Tuvastus enne ajaluku algust
+  - Pettuse tuvastamine enne vabastamist TX
+  - Tuvastus pärast ajaluku lõppu
+explanation: |
+  Õigusemõistmise tehing peab olema vabastatud enne ajapiirangu lõppemist, et sanktsioneerida petmist. Seda ei saa vabastada enne timelocki algust või TX-i avaldamist, sest see tähendaks, et petmist lihtsalt ei toimunud.
+reviewed: false

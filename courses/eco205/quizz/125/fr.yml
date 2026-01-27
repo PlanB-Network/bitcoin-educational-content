@@ -1,0 +1,8 @@
+question: Selon Hayek, quelle est la conséquence principale du fait que les décisions économiques individuelles sont prises sur la base d'informations limitées et dispersées ?
+answer: Toutes les décisions économiques deviennent essentiellement des spéculations, mais le système des prix permet de les coordonner efficacement
+wrong_answers:
+  - Les marchés deviennent inefficaces et nécessitent une intervention gouvernementale pour corriger les déséquilibres informationnels
+  - Les agents économiques doivent obligatoirement partager toutes leurs informations pour que le marché fonctionne correctement
+  - "Il devient impossible de prendre des décisions rationnelles, ce qui conduit inévitablement à l'échec du système de marché"
+explanation: |
+  Pour Hayek, la dispersion de l'information transforme toutes les décisions économiques en spéculations basées sur des connaissances partielles. Cependant, le système des prix résout ce problème en servant de mécanisme de coordination spontané qui transmet l'information essentielle sans nécessiter de planification centrale. Les autres réponses sont incorrectes car elles suggèrent soit un échec du marché, soit la nécessité d'une intervention externe, ce qui contredit la théorie hayékienne de l'ordre spontané.

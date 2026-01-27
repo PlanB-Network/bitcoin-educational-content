@@ -1,0 +1,9 @@
+question: Zorunlu kapatmanın ana dezavantajı nedir?
+answer: Fonlar zaman kilidi tarafından bloke edildi
+wrong_answers:
+  - Kısmi fon kaybı
+  - Lightning düğümünün eskimesi
+  - Yıldırım düğümü senkronizasyonu
+explanation: |
+  Fonlar bir zaman kilidi tarafından bloke edilir ve ücretler genellikle yüksektir.
+reviewed: false

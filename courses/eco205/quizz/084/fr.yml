@@ -1,0 +1,8 @@
+question: Quelle est la différence fondamentale entre la conception autrichienne et schumpeterienne de l'entrepreneur?
+answer: L'entrepreneur autrichien est une force équilibrante endogène qui coordonne l'information dispersée, tandis que l'entrepreneur schumpeterien perturbe l'équilibre comme innovateur exogène
+wrong_answers:
+  - "L'entrepreneur autrichien se concentre uniquement sur l'allocation rationnelle des ressources, tandis que l'entrepreneur schumpeterien privilégie l'innovation technologique"
+  - "L'entrepreneur autrichien détruit l'équilibre du marché par la concurrence, tandis que l'entrepreneur schumpeterien maintient la stabilité économique"
+  - "L'entrepreneur autrichien agit de manière exogène au système, tandis que l'entrepreneur schumpeterien est intégré de façon endogène dans le processus de marché"
+explanation: |
+  La conception autrichienne présente l'entrepreneur comme un agent endogène qui contribue à l'équilibre du marché en coordonnant l'information dispersée et en découvrant des opportunités. Kirzner souligne que l'entrepreneur tend vers l'équilibre plutôt que de s'en éloigner. À l'inverse, Schumpeter voit l'entrepreneur comme un innovateur exogène qui bouleverse l'équilibre existant par la destruction créatrice, où le nouveau fait concurrence à l'ancien jusqu'à le ruiner.

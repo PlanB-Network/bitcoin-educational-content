@@ -1,5 +1,5 @@
 ---
-name: 儲存您的 Mnemonic 詞組
+name: 保存助記詞
 description: 探索保護您的 Bitcoin Wallet 的最佳作法
 ---
 ![cover](assets/cover.webp)

@@ -1,9 +1,9 @@
 question: ビットコインコアの主な代替案は？
 answer: Bitcoin Knots
 wrong_answers:
-  - ビットコインキャッシュ
+  - Bitcoin Cash
   - BTCD
-  - Bコイン
+  - Bcoin
 explanation: |
   Luke Dashjrが開発したBitcoin Knotsは、コアからのフォークであり、追加オプションとより保守的なビジョンを提供する。
 reviewed: true

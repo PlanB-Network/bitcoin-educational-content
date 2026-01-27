@@ -1,5 +1,7 @@
 id: c8ef7476-5f60-4205-935e-a545ced0022a
 
+last_update_date: 2025-02-06
+
 project_id: 3ad86f15-94ef-401c-b708-b28c7767b9be
 
 category: others
@@ -19,144 +21,144 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.84
+    reward: 0.93
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.21
+    reward: 2.74
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.69
+    reward: 1.86
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.69
+    reward: 1.86
   - language: es
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - Salgraphics
-    reward: 0.84
+    reward: 0.93
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.21
+    reward: 2.74
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.21
+    reward: 2.74
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.74
+    reward: 3.62
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.69
+    reward: 1.86
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.74
+    reward: 4.5
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.21
+    reward: 2.74
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.69
+    reward: 1.86
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.21
+    reward: 2.74
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.74
+    reward: 3.62
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.74
+    reward: 4.5
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.74
+    reward: 4.5
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.21
+    reward: 2.74
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.21
+    reward: 3.62
   - language: sw
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 1.11
+    reward: 1.37
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.74
+    reward: 3.62
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.21
+    reward: 2.74
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.69
+    reward: 1.86
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.21
+    reward: 2.74
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.74
+    reward: 3.62
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.74
+    reward: 3.62
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.74
+    reward: 4.5
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.21
+    reward: 2.74
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.74
+    reward: 3.62
 tags:
   - business
   - case-studies

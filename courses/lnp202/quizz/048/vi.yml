@@ -1,0 +1,9 @@
+question: Giải pháp miễn phí nào để thu hút thanh khoản đầu tư dựa trên sự hợp tác?
+answer: LN+
+wrong_answers:
+  - Dung nham
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus cung cấp thanh khoản đầu vào thông qua việc mở các kênh tuần hoàn.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, pourquoi l'égalité des salaires dans un système socialiste empêche-t-elle la découverte de la productivité marginale des individus?
+answer: Parce que les salaires constituent un signal informationnel sur les compétences individuelles, et leur égalisation artificielle supprime ce mécanisme de découverte des talents
+wrong_answers:
+  - "Parce que l'égalité des salaires décourage l'innovation technologique et réduit mécaniquement la productivité globale de l'économie socialiste"
+  - Parce que sans différenciation salariale, les travailleurs perdent leur motivation intrinsèque et deviennent moins productifs dans leurs tâches quotidiennes
+  - "Parce que l'égalité des salaires empêche l'accumulation de capital humain nécessaire à l'amélioration des techniques de production industrielle"
+explanation: |
+  L'école autrichienne considère que les salaires différenciés jouent un rôle informationnel crucial : ils révèlent la productivité marginale de chaque individu à travers le mécanisme des prix. Quand tous reçoivent le même salaire indépendamment de leur contribution, cette fonction de signal disparaît. La société perd alors sa capacité à identifier et valoriser les compétences spécifiques de chacun, rendant impossible l'allocation optimale des talents aux postes où ils seraient le plus productifs.

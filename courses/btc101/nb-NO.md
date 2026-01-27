@@ -39,39 +39,11 @@ I dette kurset tar vi for oss noen av de monetære aspektene ved Bitcoin, blant 
 
 Det er viktig å forstå at Bitcoin er et nytt pengesystem som fullstendig endrer vårt forhold til penger, så å lære seg å bruke det er en nødvendig ferdighet for alle som ønsker å ha kontroll over sine egne midler.
 
-**Seksjon 1 - Introduksjon**  
-- Kapittel 1 - Kursoversikt  
-- Kapittel 2 - Bitcoins forhistorie  
 
-**Seksjon 2 - Penger**  
-- Kapittel 3 - Penger gjennom historien  
-- Kapittel 4 - Fiat-valutaer  
-- Kapittel 5 - Hyperinflasjon  
-- Kapittel 6 - 21 millioner bitcoins  
 
-**Seksjon 3 - Bitcoin-lommebøker**  
-- Kapittel 7 - Hva er en Bitcoin-lommebok?  
-- Kapittel 8 - Bitcoin-lommebøker og sikkerhet  
-- Kapittel 9 - Sette opp en lommebok  
-- Kapittel 10 - Å bestå tidens prøve  
 
-**Seksjon 4 - De tekniske aspektene ved Bitcoin**  
-- Kapittel 11 - Lansering av Bitcoin  
-- Kapittel 12 - Bitcoin-transaksjoner  
-- Kapittel 13 - Bitcoin-noder  
-- Kapittel 14 - Minere  
-- Kapittel 15 - Bitcoin og økologi  
 
-**Seksjon 5 - Hvordan skaffe seg bitcoins?**  
-- Kapittel 16 - Bitcoin sover aldri!  
-- Kapittel 17 - Tjene bitcoins gjennom arbeid  
-- Kapittel 18 - Spare med Bitcoin  
-- Kapittel 19 - Hyperbitcoinisering  
 
-**Seksjon 6 - Fremtiden for Bitcoin: Lightning Network**  
-- Kapittel 20 - En kort introduksjon til Lightning Network  
-- Kapittel 21 - Brukstilfeller for Lightning Network  
-- Kapittel 22 - Rød pille eller blå pille?  
 
 Før vi introduserer definisjonen av penger og deres funksjon i samfunnet (kapittel 1), bør vi ta utgangspunkt i opprinnelsen til Bitcoin. Bitcoin ble lansert i 2009, og er en relativt ny teknologi som skiller seg fra alt annet. Det er derfor normalt at man ikke forstår alt om den på en gang. Akkurat som når du lærer deg å bruke Internett eller å kjøre bil, trenger du ikke å kunne alle de tekniske detaljene med en gang: Du kan begynne med å lære hvordan du mottar, betaler og sikrer pengene dine, og deretter ta små skritt for å studere det dypere.
 
@@ -717,7 +689,7 @@ I 2010, da Bitcoin begynte å tiltrekke seg medieoppmerksomhet, bestemte Satoshi
 
 For noen er Bitcoin definert som en sopp-enhet som et [mycel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), mens andre beskriver det som et [svart hull](https://dergigi.com/). Uansett om man elsker eller hater den, fortsetter Bitcoin å eksistere, med sin konstante rytme på 10 minutter per blokk, som hjerteslagene til et nytt pengesystem.
 
-Hvis du vil lære mer om Satoshi Nakamotos forfatterskap, anbefaler vi å lese ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) av Phil Champagne eller ARTE-dokumentaren "Le mystaire Satoshi".
+For å gå dypere inn i skriftene til Satoshi Nakamoto anbefaler jeg å lese [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) av Phil Champagne, som samler og setter hans viktigste tekster i kontekst, samt ARTE-dokumentaren [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), som tilbyr en tilgjengelig og godt dokumentert undersøkelse av hans identitet og arv.
 
 ![image](assets/nb-NO/044.webp)
 

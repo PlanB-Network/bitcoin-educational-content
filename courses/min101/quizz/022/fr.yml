@@ -1,0 +1,9 @@
+question: Que mesure le hashrate ?
+answer: Des hachages par seconde
+wrong_answers:
+  - Des blocs par seconde
+  - Des transactions par seconde
+  - Des octets par seconde
+explanation: |
+  Le hashrate exprime le nombre d’essais de hachage réalisés chaque seconde, en H/s.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Watchtower hileyi izlemek için hangi bilgileri alıyor?
+answer: Hile işleminin kısmi TXID'si
+wrong_answers:
+  - Özel kanal anahtarı
+  - Tam kanal durumu
+  - Hile işleminin TXID'si
+explanation: |
+  Gözetleme kulesi, kanalı bilmeden şüpheli bir işlemi tanımlamak için hile işleminin TXID'sinin yalnızca bir kısmını alır.
+reviewed: false

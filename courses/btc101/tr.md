@@ -55,56 +55,28 @@ Bu derste, bitcoinlerin nasıl alınıp satılacağı, dijital cüzdanlarda güv
 Bitcoin'ün parayla olan ilişkimizi tamamen değiştiren yeni bir para sistemi olduğunu anlamak çok önemlidir, bu nedenle nasıl kullanılacağını öğrenmek, kendi fonlarının kontrolünü elinde tutmak isteyen herkes için gerekli bir beceridir.
 
 
-**Bölüm 1 - Giriş**
 
 
-- Bölüm 1 - Kursa Genel Bakış
-- Bölüm 2 - Bitcoin'in Tarih Öncesi
 
 
-**Bölüm 2 - Para**
 
 
-- Bölüm 3 - Tarih Boyunca Para
-- Bölüm 4 - Fiat Para Birimleri
-- Bölüm 5 - Hiperenflasyon
-- Bölüm 6 - 21 Milyon Bitcoin
 
 
-**Bölüm 3 - Bitcoin Cüzdanlar**
 
 
-- Bölüm 7 - Bitcoin Wallet nedir?
-- Bölüm 8 - Bitcoin Cüzdanlar ve Güvenlik
-- Bölüm 9 - Bir Wallet Kurulumu
-- Bölüm 10 - Zamanın Testine Dayanmak
 
 
-**Bölüm 4 - Bitcoin**'in Teknik Yönleri
 
 
-- Bölüm 11 - Bitcoin'nin Başlatılması
-- Bölüm 12 - Bitcoin İşlemleri
-- Bölüm 13 - Bitcoin Düğümleri
-- Bölüm 14 - Madenciler
-- Bölüm 15 - Bitcoin ve Ekoloji
 
 
-**Bölüm 5 - Bitcoin Nasıl Elde Edilir?**
 
 
-- Bölüm 16 - Bitcoin Asla Uyumaz!
-- Bölüm 17 - Çalışarak Bitcoin Kazanmak
-- Bölüm 18 - Bitcoin ile Tasarruf
-- Bölüm 19 - Hiperbitcoinizasyon
 
 
-**Bölüm 6 - Bitcoin'un Geleceği: Lightning Network**
 
 
-- Bölüm 20 - Lightning Network'a Kısa Bir Giriş
-- Bölüm 21 - Lightning Network Kullanım Örnekleri
-- Bölüm 22 - Kırmızı Hap mı Mavi Hap mı?
 
 
 Paranın tanımını ve toplumdaki işlevini (Bölüm 1) açıklamadan önce, Genesis'ün Bitcoin'sinden başlamalıyız. 2009 yılında piyasaya sürülen Bitcoin, başka hiçbir şeye benzemeyen nispeten yeni bir teknolojidir. Bu nedenle onunla ilgili her şeyi bir anda anlamamak normaldir. Aslında, tıpkı internet kullanmayı veya araba sürmeyi öğrenirken olduğu gibi, tüm teknik ayrıntıları hemen bilmeniz gerekmez: fonlarınızı nasıl alacağınızı, ödeyeceğinizi ve güvence altına alacağınızı öğrenerek başlayabilir ve ardından daha derinlemesine çalışmak için küçük adımlar atabilirsiniz.
@@ -1059,7 +1031,7 @@ Satoshi'in yokluğuna rağmen, Bitcoin geliştirilmeye devam etti: Bitcoin'ün t
 Bazıları için Bitcoin bir [miselyum](https://brandonquittem.com/Bitcoin-is-the-mycelium-of-money/) gibi mantar bir varlık olarak tanımlanırken, diğerleri onu bir [kara delik](https://dergigi.com/) olarak tanımlamaktadır. Sevin ya da nefret edin, Bitcoin yeni bir para sisteminin kalp atışı gibi blok başına 10 dakikalık sabit ritmiyle var olmaya devam ediyor.
 
 
-Satoshi Nakamoto'nun yazıları hakkında daha fazla bilgi edinmek için Phil Champagne tarafından yazılan ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) veya ARTE belgeseli "Le mystaire Satoshi "yi okumanızı öneririz.
+Satoshi Nakamoto’nun yazılarını daha derinlemesine incelemek için, başlıca metinlerini bir araya getirip bağlamlandıran Phil Champagne’ın [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) adlı eserini ve kimliği ile mirası etrafında erişilebilir ve iyi belgelenmiş bir soruşturma sunan ARTE belgeseli [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c)’yi tavsiye ederim.
 
 
 ![image](assets/tr/044.webp)

@@ -1,5 +1,6 @@
 id: c6143241-d900-4047-9b73-1caba5e1f874
 
+last_update_date: 2026-01-26
 
 category: peer-to-peer
 
@@ -7,157 +8,24 @@ level: intermediate
 
 professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
 
-# Proofreading metadata
-
 project_id: 82feae8c-b14c-4d6f-9fb8-9f4ebe919388
+
 license: CC-BY-SA-V4
 
-original_language: fr
-proofreading:
-  - language: fr
-    last_contribution_date: '2025-12-04'
-    urgency: 1
-    contributor_names:
-      - Pivii
-      - marshal-opsource
-    reward: 0.73
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.88
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.94
-  - language: en
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.94
-  - language: es
-    last_contribution_date: '2025-12-04'
-    urgency: 1
-    contributor_names:
-      - Salgraphics
-    reward: 1.47
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.88
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.88
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.82
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.94
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.82
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.88
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.94
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.88
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.82
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.82
-  - language: hi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.82
-  - language: pl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.88
-  - language: sr-Latn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.88
-  - language: sw
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.88
-  - language: zh-Hant
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.82
-  - language: fa
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.88
-  - language: sv
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 2.94
-  - language: nl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.88
-  - language: tr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.82
-  - language: ko
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.82
-  - language: rn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.82
-  - language: bg
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 3.88
-  - language: th
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 4.82
 tags:
   - guides
   - wallets
   - user-friendly
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: '2026-01-26'
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+      - nuxblock
+    reward: 0
+

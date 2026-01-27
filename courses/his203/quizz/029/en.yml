@@ -5,5 +5,6 @@ wrong_answers:
   - Lealana Cents
   - PrintCoins
 explanation: |
- Casascius was the pseudonym of Mike Caldwell, a 33-year-old developer living in Utah. His physical bitcoins came in 1 BTC, 25 BTC and other denominations, as well as ingots of up to 1,000 BTC. They have been a huge success, storing almost 100,000 bitcoins over the years.
-reviewed: false
+ Casascius was the pseudonym of Mike Caldwell, a 33-year-old developer living in Utah. His physical bitcoins came in 1 BTC, 25 BTC and other denominations, as 
+ well as ingots of up to 1,000 BTC. They have been a huge success, storing almost 100,000 bitcoins over the years.
+reviewed: true

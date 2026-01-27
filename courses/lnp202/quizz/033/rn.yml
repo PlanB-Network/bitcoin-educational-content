@@ -1,0 +1,9 @@
+question: Ni ikihe muri ivyo bikoresho kitagaragaza urunganwe rubereye ku Muravyo?
+answer: Electrum
+wrong_answers:
+  - Ibarabara ry'umuravyo
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum si umugenzuzi w'umuravyo wo kuronka amakuru ku nzira z'uruja n'uruza. Ku rundi ruhande, ibindi bikoresho bitatu birakora neza ico gikorwa.
+reviewed: false

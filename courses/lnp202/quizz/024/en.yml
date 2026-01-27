@@ -1,4 +1,4 @@
-question: Why is backing up a Lightning node more complex than a wallet Bitcoin onchain?
+question: Why is backing up a Lightning node more complex than a Bitcoin onchain wallet?
 answer: The state of the channels is evolving
 wrong_answers:
   - Channel liquidity depends on mempool

@@ -1,0 +1,9 @@
+question: Hvilke fellestrekk har Aqua og Bull Bitcoin Wallet?
+answer: Lynatombytter
+wrong_answers:
+  - Innfødte Lightning-kanaler
+  - Sentralisert forvaring
+  - Integrert Lightning-node
+explanation: |
+  Disse wallet-enhetene bruker atombytter til å betale Lightning-fakturaer uten å bruke en Lightning-node direkte på telefonen, samtidig som de forblir i eget depot.
+reviewed: false

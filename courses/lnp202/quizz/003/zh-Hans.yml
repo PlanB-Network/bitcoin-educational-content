@@ -1,0 +1,9 @@
+question: 这些 "闪电 "操作中，哪些需要发布链上交易？
+answer: 通道开放
+wrong_answers:
+  - 闪电付款
+  - 多跳路由
+  - 移动客户端连接
+explanation: |
+  一个通道的开启相当于在区块链上发布了一个 Bitcoin 交易。
+reviewed: false

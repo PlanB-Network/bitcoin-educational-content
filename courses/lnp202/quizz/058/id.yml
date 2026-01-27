@@ -1,0 +1,9 @@
+question: Dalam protokol NWC, mekanisme apa yang digunakan untuk mengangkut permintaan antara aplikasi dan node?
+answer: Peristiwa pada relai Nostr
+wrong_answers:
+  - Panggilan REST langsung ke LND
+  - Koneksi VPN titik-ke-titik
+  - Permintaan DNS terenkripsi
+explanation: |
+  Permintaan dienkripsi dan kemudian dipublikasikan sebagai sebuah peristiwa pada relai Nostr, yang dibaca oleh node untuk mengeksekusi tindakan.
+reviewed: false

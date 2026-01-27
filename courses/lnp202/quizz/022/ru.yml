@@ -1,0 +1,9 @@
+question: Что может самостоятельно восстановить LND seed?
+answer: Ончейн wallet
+wrong_answers:
+  - Открытые каналы
+  - Состояния каналов
+  - Ничего
+explanation: |
+  seed извлекает Bitcoin из цепочки wallet, но не из активных каналов Lightning.
+reviewed: false

@@ -17,161 +17,161 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.45
+    reward: 11.78
   - language: de
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - maggo83
-    reward: 3.55
+    reward: 3.94
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - 2raj2raj
-    reward: 3.55
+    reward: 3.94
   - language: es
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - lutxoitalico
-    reward: 3.55
+    reward: 3.94
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
     contributor_names:
       - KryptoKeskus
-    reward: 4.72
+    reward: 5.89
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 3.55
+    reward: 3.94
   - language: it
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - TinF0ilHat1
       - Bitman-ops
-    reward: 1.78
+    reward: 0
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.78
+    reward: 19.57
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.11
+    reward: 7.89
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.45
+    reward: 11.78
   - language: vi
     last_contribution_date: 2024-05-05
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 5.89
+    reward: 9.79
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.45
+    reward: 11.78
   - language: id
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - MilankovicProtocol
       - AgoesRichie
-    reward: 2.95
+    reward: 0
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.78
+    reward: 15.68
   - language: nb-NO
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - turdsferguson
-    reward: 4.72
+    reward: 5.89
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.45
+    reward: 11.78
   - language: hi
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - amolutxo
-    reward: 5.89
+    reward: 9.79
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.45
+    reward: 15.68
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - Arianebtc
       - monyangi10
-    reward: 2.36
+    reward: 0
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.78
+    reward: 15.68
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.45
+    reward: 11.78
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.11
+    reward: 7.89
   - language: nl
     last_contribution_date: 2025-08-24
     urgency: 1
     contributor_names:
       - rogerbracket
-    reward: 4.72
+    reward: 5.89
   - language: tr
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - H5RV
-    reward: 5.89
+    reward: 7.84
   - language: ko
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - 4xvgal
-    reward: 5.89
+    reward: 7.84
   - language: rn
     last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - miguelandy875
-    reward: 5.89
+    reward: 9.79
   - language: bg
     last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - dnabg
-    reward: 4.72
+    reward: 5.89
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.78
+    reward: 15.68
 tags:
   - personal-security
   - privacy

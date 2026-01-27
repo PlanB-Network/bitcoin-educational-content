@@ -1,0 +1,8 @@
+question: Selon Menger, quel phénomène explique pourquoi une marchandise devient de plus en plus échangeable à mesure qu'elle est adoptée comme monnaie?
+answer: L'effet d'externalité de réseau qui crée un cercle vertueux d'adoption
+wrong_answers:
+  - "La régulation institutionnelle qui stabilise progressivement sa valeur d'échange"
+  - "La diminution naturelle de l'offre qui augmente mécaniquement sa rareté"
+  - "L'intervention des autorités centrales qui garantissent son acceptation universelle"
+explanation: |
+  Menger identifie l'effet d'externalité de réseau comme le mécanisme clé : plus une marchandise est utilisée comme monnaie, plus elle devient échangeable, créant un cercle vertueux où l'accumulation entraîne l'échangeabilité qui accroît la demande. Les autres options contredisent la théorie autrichienne de l'émergence spontanée, qui rejette l'intervention institutionnelle comme origine de la monnaie.

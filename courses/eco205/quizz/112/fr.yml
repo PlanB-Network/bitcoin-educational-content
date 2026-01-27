@@ -1,0 +1,8 @@
+question: Selon la théorie autrichienne, que se passerait-il si deux individus valorisaient exactement de la même manière les biens qu'ils possèdent?
+answer: Aucun échange n'aurait lieu car il n'y aurait pas de différence de valorisation pour motiver la transaction
+wrong_answers:
+  - "L'échange aurait lieu mais à un prix parfaitement équitable déterminé par cette valorisation commune"
+  - Le prix se formerait automatiquement au niveau de cette valorisation partagée par les deux parties
+  - "L'État devrait intervenir pour fixer un prix juste basé sur cette valorisation objective commune"
+explanation: |
+  La théorie autrichienne explique que l'échange n'est possible que grâce à la discordance entre les jugements de valeur des individus. Si deux personnes valorisaient identiquement leurs biens respectifs, aucune ne serait incitée à échanger car elles ne percevraient aucun avantage mutuel. C'est précisément parce que la boulangère préfère l'argent à sa baguette tandis que l'acheteur préfère la baguette à son argent que l'échange devient possible et mutuellement bénéfique.

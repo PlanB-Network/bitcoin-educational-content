@@ -1,0 +1,9 @@
+question: 為什麼還原舊的 channel.db 會有危險？
+answer: 罰款風險
+wrong_answers:
+  - 失去 seed
+  - 流言蜚語腐敗
+  - 阻斷路由
+explanation: |
+  過期的狀態可能會被解讀為試圖作弊，導致頻道資金流失。
+reviewed: false

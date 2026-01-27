@@ -1,0 +1,8 @@
+question: Que représente le coût d'opportunité selon l'école autrichienne d'économie?
+answer: La valeur de la meilleure alternative sacrifiée lors d'un choix
+wrong_answers:
+  - "Le prix d'achat réel d'un bien sur le marché"
+  - "Le coût de production total d'un bien ou service"
+  - "La différence entre le prix de vente et le prix d'achat"
+explanation: |
+  Le coût d'opportunité est un concept central de l'école autrichienne qui représente la valeur de la meilleure alternative à laquelle on renonce quand on fait un choix. Cette notion subjective structure toutes les décisions économiques des agents. Il ne s'agit pas du prix d'achat, du coût de production ou d'une différence de prix, mais bien de ce à quoi on renonce en choisissant une option plutôt qu'une autre.

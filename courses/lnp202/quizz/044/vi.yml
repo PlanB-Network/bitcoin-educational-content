@@ -1,0 +1,9 @@
+question: ThunderHub đóng vai trò gì so với nút LND của bạn?
+answer: Quản lý Interface
+wrong_answers:
+  - Triển khai Lightning
+  - Dịch vụ giám hộ
+  - Nút định tuyến
+explanation: |
+  ThunderHub là giao diện kết nối với LND để quản lý nút mạng.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qu’est-ce que le halving modifie sur Bitcoin ?
+answer: La subvention de bloc
+wrong_answers:
+  - Les frais de transaction
+  - La taille de bloc
+  - La cible de difficulté
+explanation: |
+  Le halving divise par deux la subvention maximale créée par bloc, sans toucher aux frais.
+reviewed: false

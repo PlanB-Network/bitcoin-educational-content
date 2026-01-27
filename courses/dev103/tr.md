@@ -6517,21 +6517,21 @@ Yazılabilir bir akış, verileri yığın yığın bir yere göndermenizi sağl
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
@@ -6540,13 +6540,13 @@ console.error("Error:", err)
 
 1. `fs.createWriteStream()` yazılabilir bir akış oluşturur.
 
-2. .write()` kullanarak bir metin yazıyoruz.
+2. `error` ve `finish` olayları için işleyiciler kaydediyoruz.
 
-3. İşimiz bittiğinde, akışı kapatmak için `.end()` işlevini çağırırız.
+3. `.write()` kullanarak içine biraz metin yazıyoruz.
 
-4. Tüm veriler yazıldığında, `finish` olayı yayınlanır.
+4. İşimiz bittiğinde, akışı kapatmak için `.end()` işlevini çağırırız.
 
-5. Bir şeyler ters giderse, `error` olayı tetiklenir.
+5. Arabelleğe alınan tüm veriler boşaltılıp yazıldıktan sonra `finish` olayı yayınlanır. Bir şeyler ters giderse bir `error` olayı yayınlanır.
 
 
 Tıpkı okunabilir akışlar gibi, yazılabilir akışlar da büyük veriler için iyidir çünkü her şeyi aynı anda bellekte tutmaları gerekmez.

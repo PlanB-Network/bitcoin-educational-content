@@ -4,15 +4,15 @@ goal: Elewa ugumu wa wigo wa kisiasa wa kisasa ili kutambua mwelekeo wako mwenye
 objectives: 
   - Kuelewa kwamba aina ya kisiasa ina maelezo zaidi kuliko mhimili rahisi wa kushoto/kulia
   - Tambua vipimo viwili vikuu vinavyounda wigo wa kisiasa
-  - Taja familia nne kuu za kisiasa
+  - Elezea familia nne kuu za kisiasa
   - Kuchunguza nafasi ya wafanyabiashara wa bitcoin katika wigo wa kisiasa
 ---
 
-Je, msimamo wako wa kisiasa unaanzia kulia au kushoto? Kozi hii inatoa mbinu ya mapinduzi ya kuelewa wigo wa kisiasa kupitia mhimili wa msingi wa Uhuru na Ushuru. Kwa kutumia Mchoro wa Nolan, tunachambua familia za kisiasa - wasoshalisti, wahafidhina, wa katikati na waliberali - si kulingana na nia zao zilizotajwa, bali kulingana na kiwango chao cha kujiamini katika udhibiti wa serikali. Gundua mantiki ya mpangilio wa hiari, chunguza masuala halisi ya kifalsafa (ubinafsi dhidi ya ujumuishaji) na ujifunze kufafanua maadili yako mwenyewe bila kuanguka katika mitego ya lebo za kitamaduni.
+Je, msimamo wako wa kisiasa unaegemea kulia au kushoto? Kozi hii inatoa mbinu ya mapinduzi ya kuelewa wigo wa kisiasa kupitia mhimili wa msingi wa Uhuru na Ushuru. Kwa kutumia Mchoro wa Nolan, tunachambua familia za kisiasa - wasoshalisti, wahafidhina, wa katikati na waliberali - si kulingana na nia zao zilizotajwa, bali kulingana na kiwango chao cha kujiamini katika udhibiti wa serikali. Gundua mantiki ya mpangilio wa hiari, chunguza masuala halisi ya kifalsafa (ubinafsi dhidi ya ujumuishaji) na ujifunze kufafanua maadili yako mwenyewe bila kuanguka katika mitego ya lebo za kitamaduni.
 
 
 
-Kozi hii pia itafichua kwa nini Bitcoin ni zaidi ya sarafu tu: ni mradi wa kisiasa uliorithiwa kutoka kwa Wacypherpunks. Mbali na kuainishwa kwa mhimili wa mstari, Bitcoin ni nguvu ya kugawanya madaraka inayopinga sarafu ya serikali, ikitoa njia ya kutoroka kwa amani kutokana na mfumuko wa bei na ufuatiliaji. Kwa kupunguza nguvu kuu juu ya pesa, Bitcoin inafafanua upya swali muhimu la kisiasa: Je, unaamua maisha yako, au unaamua mtu mwingine? Ingia katika uchambuzi huu ili kunoa dira yako ya kiitikadi na uelewe athari kubwa ya kisiasa ya teknolojia hii kwenye uhuru wako binafsi.
+Kozi hii pia itafichua kwa nini Bitcoin ni zaidi ya sarafu tu: ni mradi wa kisiasa uliorithiwa kutoka kwa Wacypherpunks. Mbali na kuainishwa kwa mhimili wa mstari, Bitcoin ni nguvu ya kugawanya madaraka inayopinga sarafu ya serikali, ikitoa njia ya kutoroka kwa amani kutokana na mfumuko wa bei na ufuatiliaji. Kwa kupunguza nguvu kuu juu ya pesa, Bitcoin inafafanua upya swali muhimu la kisiasa: Je, unaamua maisha yako, au mtu mwingine anaamua? Ingia katika uchambuzi huu ili kunoa dira yako ya kiitikadi na uelewe athari kubwa ya kisiasa ya teknolojia hii kwenye uhuru wako binafsi.
 
 
 
@@ -43,7 +43,7 @@ Wengi wanaamini kwamba mgawanyiko mkubwa zaidi katika nchi za Magharibi leo ni k
 
 
 
-Kwa hivyo, ili kutambua mwelekeo wa kisiasa wa mtu binafsi, tunaupanga kwenye mstari rahisi wa mlalo. Tunajiweka upande wa kushoto, kushoto, katikati, kulia na kulia kabisa wa mstari, kulingana na mielekeo tofauti.
+Kwa hivyo, ili kutambua mwelekeo wa kisiasa wa mtu binafsi, tunauweka kwenye mstari rahisi wa mlalo. Tunajiweka upande wa kushoto, kushoto, katikati, kulia na kulia kabisa wa mstari, kulingana na mielekeo tofauti.
 
 
 
@@ -55,7 +55,7 @@ Wengine huegemea kwa wale ambao lazima utaratibu uhifadhiwe na kulazimishwa kwa 
 
 
 
-Hata hivyo, uainishaji huu mara nyingi ni rahisi sana na hauna ufanisi. Kwa kawaida, kwa mfano, mrengo wa kushoto huonekana kama mtetezi wa mageuzi, huku mrengo wa kulia ukiwa wa kihafidhina zaidi. Lakini hili limekuwa la kutiliwa shaka katika wakati wetu, kwani mrengo wa kushoto sasa unapigania kuhifadhi faida zilizopatikana, jambo linaloufanya, kutoka kwa mtazamo huo, kuwa wa kihafidhina.
+Hata hivyo, uainishaji huu mara ni rahisi nyingi sana na hauna ufanisi. Kwa kawaida, kwa mfano, mrengo wa kushoto huonekana kuwa mtetezi wa mageuzi, huku mrengo wa kulia ukiwa wa kihafidhina zaidi. Lakini hili limekuwa la kutiliwa shaka katika wakati wetu, kwani mrengo wa kushoto sasa unapigania kuhifadhi faida zilizopatikana, jambo linaloufanya, kutoka kwa mtazamo huo, kuwa wa kihafidhina.
 
 
 
@@ -71,7 +71,7 @@ Watu wengi hawakubaliani nao, wakifikiri kwamba kushoto au kulia, kijamaa au kih
 
 
 
-Je, umewahi kuhisi kwamba haitoshi kila mara kuelezea utofauti na ugumu wa maoni ya kisiasa? Watu wengi hawapati nafasi yao ndani yake, na wanafikiri kwamba wa kushoto au kulia, wasoshalisti au wahafidhina hawaelezi maoni yao kwa usahihi.
+Je, umewahi hisi kwamba haitoshi kila mara kuelezea utofauti na ugumu wa maoni ya kisiasa? Watu wengi hawapati nafasi yao ndani yake, na wanafikiri kwamba wa kushoto au kulia, wasoshalisti au wahafidhina hawaelezi maoni yao kwa usahihi.
 
 
 
@@ -83,7 +83,7 @@ Tatizo la mhimili wa kushoto-kulia ni kwamba hauachi nafasi kwa mawazo ya kilibe
 
 
 
-Hakika, ni wapi tunapowaweka watu kama Thomas Jefferson, Alexis de Tocqueville, Frédéric Bastiat, Ron Paul, Elon Musk, Javier Milei katika wigo wa kushoto-kulia?
+Hakika, tunawaweka wapi  watu kama Thomas Jefferson, Alexis de Tocqueville, Frédéric Bastiat, Ron Paul, Elon Musk, Javier Milei katika wigo wa kushoto-kulia?
 
 
 
@@ -103,7 +103,7 @@ Hii haikumaanisha kuwa alikuwa mrengo wa kati au mwanademokrasia wa kijamii. Bas
 
 
 
-Tuchukue mfano mwingine: **Je, Bitcoin iko kulia au kushoto?
+Tuchukue mfano mwingine: **Je, Bitcoin inaegemea kulia au kushoto?
 
 
 
@@ -115,13 +115,13 @@ Bila shaka, Bitcoin ni mradi unaokiuka sera ya sasa ya fedha. Kwa hivyo ni mradi
 
 
 
-Kwa kuanzia, ufafanuzi wa kulia na kushoto ni mgumu na hubadilika baada ya muda, na kufanya uainishaji mkali kuwa mgumu. Lakini zaidi ya yote, Bitcoin, kama teknolojia iliyogawanywa, hupita mgawanyiko wa kisiasa wa kitamaduni, na kuvutia wafuasi kutoka asili mbalimbali za kisiasa, kutoka kushoto na kulia, wakiwemo wanaharakati na watu wanaojiona kuwa hawapendi siasa.
+Kwa kuanzia, ufafanuzi wa kulia na kushoto ni mgumu na hubadilika mara kwa mara, na kufanya uainishaji mkali kuwa mgumu. Lakini zaidi ya yote, Bitcoin, kama teknolojia iliyogawanywa, hupita mgawanyiko wa kisiasa wa kitamaduni, na kuvutia wafuasi kutoka asili mbalimbali za kisiasa, kutoka kushoto na kulia, wakiwemo wanaharakati na watu wanaojiona kuwa hawapendi siasa.
 
 
 
 
 
-- Watu mashuhuri wa mrengo wa kulia wanaweza kuona Bitcoin kama njia mbadala ya sera za fedha za benki kuu.
+- Watu mashuhuri wa mrengo wa kulia wanaweza kuiona Bitcoin kama njia mbadala ya sera za fedha za benki kuu.
 - Watu mashuhuri wa mrengo wa kushoto pia wapo, haswa kwa sababu ya uwezo wa Bitcoin wa kuingizwa kifedha na kama chombo dhidi ya udhibiti.
 
 
@@ -130,7 +130,7 @@ Kwa kweli, mgawanyiko wa kitamaduni kati ya kulia na kushoto hautoshi, hauna msi
 
 
 
-Zaidi ya hayo, mhimili rahisi wa mstari unaoanzia kushoto kwenda kulia haufanyi kazi vizuri, kwani itikadi kama vile ufashisti na ukomunisti zina kufanana (utawala wa kiimla) ambazo hazionekani wazi kwenye mhimili kama huo.
+Zaidi ya hayo, mhimili rahisi wa mstari unaoanzia kushoto kuelekea kulia haufanyi kazi vizuri, kwani itikadi kama vile ufashisti na ukomunisti zina kufanana (utawala wa kiimla) ambazo hazionekani wazi kwenye mhimili kama huo.
 
 
 
@@ -146,7 +146,7 @@ Inafurahisha kutambua kwamba misimamo fulani ya kisiasa inaweza kukatiza mgawany
 
 
 
-Hatimaye, je, mgawanyiko huu wa vyama vya siasa haufichi mgawanyiko wa kina zaidi na wa kale zaidi: ule ambao umewatenganisha wale wanaotawala na wale wanaotawaliwa kwa karne nyingi?
+Je, hatimaye, mgawanyiko huu wa vyama vya siasa haufichi mgawanyiko wa kina zaidi na wa kale zaidi: ule ambao umewatenganisha wale wanaotawala na wale wanaotawaliwa kwa karne nyingi?
 
 
 
@@ -209,7 +209,7 @@ Kabla ya kuanza kozi hii, ningependa kukualika kufanya jaribio fupi. Jaribu kuji
 
 
 
-Katika maswali haya yote, kuna suala moja kuu na la msingi linalojitokeza: kiwango cha udhibiti wa serikali unachoweza kuvumilia, na kwa hivyo pia kiwango cha ufadhili ambacho unalazimishwa kushiriki.
+Katika maswali haya yote, suala moja kuu na la msingi hujitokeza: kiwango cha udhibiti wa serikali unachoweza kuvumilia, na kwa hivyo pia kiwango cha ufadhili ambacho unalazimishwa kushiriki.
 
 
 
@@ -263,7 +263,7 @@ Kwa hivyo, je, mfumo wa kisiasa wa jadi wa mrengo wa kushoto dhidi ya kulia unap
 
 
 
-Badala ya kugawanya mafundisho ya kisiasa kwa mhimili wa kulia/kushoto, ingekuwa na maana zaidi kuangalia mambo kupitia prism ya uhuru. Kisha tungekuwa na mhimili wa uhuru-nguvu, ili mawazo ya kiliberali ya kitamaduni hatimaye yapate nafasi yake kwenye ubao wa chess wa kisiasa.
+Badala ya kugawanya mafundisho ya kisiasa kwa mhimili wa kulia/kushoto, ingekuwa na maana zaidi kuangalia mambo kupitia prism ya uhuru. Kisha tungekuwa na mhimili wa uhuru-nguvu, ili mawazo ya kiliberali ya kitamaduni hatimaye yapate nafasi yake kwenye bodi ya chess wa kisiasa.
 
 
 
@@ -321,7 +321,7 @@ Mpango huu unategemea wazo kwamba masuala mengi ya kisiasa yanaweza kugawanywa k
 ### Uhuru wa kiuchumi
 
 
-Kipengele cha Uhuru wa Kiuchumi kinajumuisha unachofanya kama mzalishaji na mtumiaji - unachoweza kununua, kuuza au kuzalisha. Unafanya kazi wapi, unaajiri nani au unachofanya na pesa zako.
+Kipengele cha Uhuru wa Kiuchumi kinajumuisha unachofanya kama mzalishaji wa mali na mtumiaji - unachoweza kununua, kuuza au kuzalisha. Unafanya kazi wapi, unaajiri nani au unachofanya na pesa zako.
 
 
 
@@ -366,7 +366,7 @@ Kipengele cha Uhuru wa Kibinafsi kinajumuisha kile unachofanya katika mahusiano 
 
 
 - Juu ya mhimili** (kuelekea 100 kwenye kipimo cha Masuala ya Kijamii): upendeleo wa **uhuru wa mtu binafsi** na uvumilivu. Serikali inapaswa kuingilia kati kidogo iwezekanavyo katika chaguzi za maisha za watu binafsi (haki za utoaji mimba, haki za LGBTQ+, uhuru wa kujieleza, kuhalalisha vitu fulani, n.k.). Tunathamini uhuru na utofauti.
-  - Watu wenye mfano:* Nelson Mandela, Simone Veil, Noam Chomsky.
+  - Mfano wa watu:* Nelson Mandela, Simone Veil, Noam Chomsky.
 
 
 
@@ -378,7 +378,7 @@ Kipengele cha Uhuru wa Kibinafsi kinajumuisha kile unachofanya katika mahusiano 
 
 
 - Chini ya mhimili** (kuelekea 0 kwenye kipimo cha Masuala ya Kijamii): upendeleo wa **utaratibu, usalama na maadili ya kitamaduni**. Serikali ina jukumu la kuchukua katika kudhibiti maadili, kudumisha utulivu wa umma, na wakati mwingine kutetea maono fulani ya maadili au mila, ikiwa ni pamoja na kupitia vurugu. Hizi ni pamoja na misimamo inayounga mkono adhabu ya kifo, vikwazo vya uhamiaji, au kukuza familia ya kitamaduni inayoongozwa na serikali.
-  - Watu wenye mfano:* Joseph de Maistre (mwanafalsafa Mfaransa mpinga mapinduzi) - kwa mawazo yake kuhusu utaratibu na mamlaka ya kimungu. Viongozi wa kidikteta wa kisasa kama vile Vladimir Putin nchini Urusi na Xi Jinping nchini China.
+  - Mfano wa watu:* Joseph de Maistre (mwanafalsafa Mfaransa mpinga mapinduzi) - kwa mawazo yake kuhusu utaratibu na mamlaka ya kimungu. Viongozi wa kidikteta wa kisasa kama vile Vladimir Putin nchini Urusi na Xi Jinping nchini China.
 
 
 
@@ -387,7 +387,7 @@ Kipengele cha Uhuru wa Kibinafsi kinajumuisha kile unachofanya katika mahusiano 
 
 
 
-## Je, wewe ni mrengo wa kulia au mrengo wa kushoto?
+## Je, wewe unaegemea mrengo wa kulia au mrengo wa kushoto?
 
 
 
@@ -399,7 +399,7 @@ Kipengele cha Uhuru wa Kibinafsi kinajumuisha kile unachofanya katika mahusiano 
 
 
 
-Mtu anaweza kuwa mrengo wa kushoto katika uchumi (kwa kupendelea ugawaji upya) lakini mrengo wa kulia katika masuala ya kijamii (anayezingatia sana utaratibu na mila). Na kinyume chake! Mfano wenye umbo la almasi unakamata ugumu huu.
+Mtu anaweza kuwa mrengo wa kushoto kiuchumi (kwa kupendelea ugawaji upya) lakini mrengo wa kulia katika masuala ya kijamii (kwa kuzingatia sana utaratibu na mila). Na kinyume chake! Mfano wenye umbo la almasi unakamata ugumu huu.
 
 
 
@@ -407,7 +407,7 @@ Mstari wa kushoto kwa kawaida hufafanuliwa kama unaohusishwa na ujamaa, mfumo am
 
 
 
-Hakika, sera zinazofuatwa na serikali za kulia na kushoto katika miongo michache iliyopita hazijakuwa tofauti kimsingi, na hakuna hata moja ambayo imekuwa ya kiliberali kweli katika maana ya kitamaduni ya neno hilo la Ulaya.
+Hakika, sera zinazofuatwa na serikali za kulia na kushoto katika miongo michache iliyopita hazijakuwa tofauti kimsingi, na hakuna sera hata moja ambayo imekuwa ya kiliberali kweli katika maana ya kitamaduni ya neno hilo la Ulaya.
 
 
 
@@ -415,7 +415,7 @@ Wazo kuu la mchoro wa Nolan ni kwamba tofauti kubwa kati ya falsafa za kisiasa, 
 
 
 
-Kwa maneno mengine, hakuna tu mhimili wa kushoto-kulia unaoakisi maadili yako binafsi, lakini pia mhimili wa juu-chini unaoakisi nia yako ya kutumia nguvu kuwalazimisha wengine kufuata maadili yako.
+Hii ni kusema, hakuna tu mhimili wa kushoto-kulia unaoakisi maadili yako binafsi, lakini pia mhimili wa juu-chini unaoakisi nia yako ya kutumia nguvu kuwalazimisha wengine kufuata maadili yako.
 
 
 
@@ -458,7 +458,7 @@ Kwa upande wake, upande wa kushoto hauzingatii sana mahitaji ya kitamaduni ya ki
 
 
 
-Uhafidhina wa kitamaduni ni kufuata kibinafsi kile kinachoitwa maadili ya kitamaduni, anthropolojia, urembo na metafizikia, vyote vikiwa vimerithiwa kutoka zamani. Ni hekima ya maisha, inayoongozwa na kanuni za mababu, iwe ni za Kigiriki-Kirumi au za Kiyahudi-Kikristo. **Si falsafa ya kisiasa.**
+Uhafidhina wa kitamaduni ni kufuata kibinafsi kile kinachoitwa maadili ya jadi kitamaduni, anthropolojia, urembo na metafizikia, yote yaliyorithiwa kutoka zamani. Ni hekima ya maisha, inayoongozwa na kanuni za mababu, iwe ni za Kigiriki-Kirumi au za Kiyahudi-Kikristo. **Si falsafa ya kisiasa.**
 
 
 
@@ -466,7 +466,7 @@ Kama wewe ni mhafidhina wa kitamaduni, unapendelea familia ya kitamaduni, maadil
 
 
 
-Kwa upande mwingine, **uhafidhina wa kisiasa** ni njia ya kupanga jamii kulingana na utaratibu uliowekwa. Hii ndiyo sababu wahafidhina wanapinga maendeleo. Wanataka kuganda jamii katika hali ambayo imefikia wakati wanapozungumza, na wanaamini kwamba mabadiliko yoyote yatakuwa mabaya zaidi.
+Kwa upande mwingine, **uhafidhina wa kisiasa** ni njia ya kupanga jamii kulingana na mpangilio uliowekwa. Hii ndiyo sababu wahafidhina wanapinga maendeleo. Wanataka kuganda jamii katika hali ambayo imefikia wakati wanapozungumza, na wanaamini kwamba mabadiliko yoyote yatakuwa mabaya zaidi.
 
 
 
@@ -474,7 +474,7 @@ Kisiasa, wahafidhina wa kitamaduni mara nyingi hujiunga na safu ya wahafidhina w
 
 
 
-Kwa mfano, mtu anaweza kutetea mila za kitamaduni (kama vile familia, dini au desturi za wenyeji) katika maisha yake binafsi au ya kijamii, huku akitetea serikali yenye mipaka ambayo hailazimishi maadili haya kisheria. Mtu wa aina hii anaweza kuhimiza kanuni za kihafidhina kupitia ushawishi, elimu au kuongoza kwa mfano, huku akiheshimu haki ya wengine kuishi tofauti, kulingana na kanuni za uhuru.
+Kwa mfano, mtu anaweza kutetea mila za kitamaduni (kama za familia, dini au desturi za wenyeji) katika maisha yake binafsi au ya kijamii, huku akitetea serikali yenye mipaka ambayo hailazimishi maadili haya kisheria. Mtu wa aina hii anaweza kuhimiza kanuni za kihafidhina kupitia ushawishi, elimu au kuongoza kwa mfano, huku akiheshimu haki ya wengine kuishi tofauti, kulingana na kanuni za uhuru.
 
 
 
@@ -482,7 +482,7 @@ Mtetezi wa uhuru wa kitamaduni mwenye msimamo mkali anaweza kutokubali tabia ful
 
 
 
-Kwa vitendo, watu kama Ron Paul au wanafikra kama Rothbard na Hoppe nchini Marekani wamejaribu kupatanisha maono haya mawili, wakitetea maadili ya kitamaduni na uhuru wa juu wa mtu binafsi.
+Kwa vitendo, watu kama Ron Paul au wanafikra kama Rothbard na Hoppe nchini Marekani wamejaribu kupatanisha maono haya mawili, wakitetea maadili ya kitamaduni na uhuru wa mtu binafsi wa juu.
 
 
 
@@ -529,7 +529,7 @@ Kuanzia miaka ya 1960 na kuendelea, wafuasi wa uliberali wa kitamaduni huko Mare
 
 
 
-## Je, wewe ni mliberali au mliberali/mtawala wa anarchist (kwa Kifaransa mliberali)?
+## Je, wewe ni mliberali au mliberali/mtawala wa anarchist (kwa Kifaransa libertaire)?
 
 
 <chapterId>fc761194-249f-4009-a20f-1f98b7226cf2</chapterId>
@@ -540,7 +540,7 @@ Kuanzia miaka ya 1960 na kuendelea, wafuasi wa uliberali wa kitamaduni huko Mare
 
 
 
-Neno **mliberali** wakati mwingine hutafsiriwa kama mliberali au mliberali, jambo ambalo ni kutoelewana kubwa.
+Neno **mliberali** wakati mwingine hutafsiriwa kama mliberali, jambo ambalo ni kutoelewana kubwa.
 
 
 
@@ -593,7 +593,7 @@ Libertines ni wanaharakati wa uhuru wa kijinsia. Sio falsafa ya kisiasa bali ni 
 
 
 
-Sasa hebu tuangalie kwa undani falsafa mbalimbali za kisiasa. Sehemu ya chini ya fremu itachukuliwa kwa kiasi fulani, kwani si itikadi ya kisiasa tu, bali ni mfumo wa kijamii unaoelekea kwenye utawala wa kiimla.
+Hebu sasa tuziangalie kwa undani falsafa mbalimbali za kisiasa. Sehemu ya chini ya fremu itachukuliwa kwa kiasi fulani, kwani si itikadi ya kisiasa tu, bali ni mfumo wa kijamii unaoelekea kwenye utawala wa kiimla.
 
 
 
@@ -657,14 +657,14 @@ Sura zifuatazo zinaelezea jinsi ya kufafanua familia za kisiasa kimuundo.
 Dhana ya ujamaa ni neologism ambayo ilitumiwa kwa mara ya kwanza kimfumo na kwa maana sahihi na Mfaransa Pierre Leroux mnamo 1833. Ndani ya ujamaa wa kisasa, mila mbili zinaweza kutofautishwa:
 
 
-1. **Wasoshalisti wa mapinduzi** wanapinga haki za mali, na wanataka kuharibu jamii ya mabepari wa kibepari. Wanafuata nyayo za wanasiasa wa karne ya 19 kama vile Bakunin. Utawala huu wa kibepari baadaye ulisababisha ukomunisti wa Marx.
+1. **Wasoshalisti wa mapinduzi** wanapinga haki za mali, na wanataka kuharibu jamii ya mabepari wa kibepari. Wanafuata nyayo za wanasiasa wa karne yalibertaire 19 kama vile Bakunin. Utawala huu wa kibepari baadaye ulisababisha ukomunisti wa Marx.
 
 
-2. **Wasoshalisti wa mageuzi** hawana mwelekeo wa vurugu. Hawajaacha lengo lao la haki ya kijamii, lakini lengo hili linafuatiliwa kupitia chaguzi za kidemokrasia na kodi, kwa kutumia rasilimali zinazotokana na uchumi wa soko. Hivi ndivyo ilivyokuwa kwa Jean Jaurès, Leon Blum, Olof Palme (Uswidi), Willy Brandt (Ujerumani) na François Mitterrand (Ufaransa).
+2. **Wasoshalisti wa mageuzi** hawana mwelekeo wa vurugu. Hawajaliacha lengo lao la haki ya kijamii, lakini lengo hili linafuatiliwa kupitia chaguzi za kidemokrasia na kodi, kwa kutumia rasilimali zinazotokana na uchumi wa soko. Hivi ndivyo ilivyokuwa kwa Jean Jaurès, Leon Blum, Olof Palme (Uswidi), Willy Brandt (Ujerumani) na François Mitterranlibertaired (Ufaransa).
 
 
 
-Mpango Mpya wa Franklin Delano Rossevelt ulichangia katika uundaji wa ujamaa wa kidemokrasia wa Marekani (Bernie Sanders).
+Mpango Mpya wa Franklin Delano Rossevelt ulichangia kwenye uundaji wa ujamaa wa kidemokrasia wa Marekani (Bernie Sanders).
 
 
 
@@ -713,7 +713,7 @@ Kulingana na Bernie Sanders, *mageuzi haya, yamekuwa muundo wa kijamii wa taifa 
 
 
 
-- Falsafa na kanuni:** Wahafidhina wanaamini kwamba mambo kwa ujumla ni mazuri kama yalivyo, na kwamba mabadiliko yoyote yanaweza kuyafanya kuwa mabaya zaidi. Wanatafuta kuhifadhi kile ambacho tayari kipo, wakikitetea kama kizuri chenyewe, na wanachukia mabadiliko katika mfumo ambao wanahisi umethibitika kuwa mzuri. Katikati ya dhana ya kitamaduni ya uhafidhina kuna heshima kubwa kwa taasisi za kijamii zilizoanzishwa kwa muda mrefu, zinazoonekana kama ulinzi muhimu dhidi ya machafuko, dhuluma na ukatili. Majengo haya ya kijamii yanadumisha mshikamano, usalama na nguvu ambayo ubinadamu unahitaji ili kupinga kupita kiasi kwa usasa.
+- Falsafa na kanuni:** Wahafidhina wanaamini kwamba mambo kwa ujumla ni mazuri kama yalivyo, na kwamba mabadiliko yoyote yanaweza kuyafanya mabaya zaidi. Wanataka kukihifadhi kile ambacho tayari kipo, wakikitetea kama kizuri chenyewe, na wanachukia mabadiliko katika mfumo ambao wanahisi umethibitika kuwa mzuri. Katikati ya dhana ya kitamaduni ya uhafidhina kuna heshima kubwa kwa taasisi za kijamii zilizoanzishwa kwa muda mrefu, zinazoonekana kama ulinzi muhimu dhidi ya machafuko, dhuluma na ukatili. Majengo haya ya kijamii yanadumisha mshikamano, usalama na nguvu ambayo ubinadamu unahitaji ili kupinga kupita kiasi kwa usasa.
 
 
 
@@ -732,7 +732,7 @@ Kulingana na Bernie Sanders, *mageuzi haya, yamekuwa muundo wa kijamii wa taifa 
 **Aina za wahafidhina:**
 
 
-Katika karne ya 19 barani Ulaya, wahafidhina ni wapingaji. Wanatetea kurudi kwenye jamii ya zamani ya kibepari, kilimo na ufundi. Wanataka kutoroka jamii ya leo na kurudi kwenye yaliyopita, kabla ya mageuko wanayoyaona kuwa hatari: maendeleo ya kisayansi na kiteknolojia, pamoja na matokeo yake kwa uchumi na jamii.
+Mnamo karne ya 19 barani Ulaya, wahafidhina ni wapingaji. Wanatetea kurudi kwenye jamii ya zamani ya kibepari, kilimo na ufundi. Wanataka kutoroka jamii ya leo na kurudi kwenye yaliyopita, kabla ya mageuko wanayoyaona kuwa hatari: maendeleo ya kisayansi na kiteknolojia, pamoja na matokeo yake kwa uchumi na jamii.
 
 
 
@@ -745,7 +745,7 @@ Katika nchi za Anglo-Saxon, uhafidhina unafanana na siasa za mrengo wa kulia kat
 
 
 
-1. **Uhafidhina wa kitamaduni wa Marekani** umejengwa juu ya wazo la "uhuru uliopangwa", ambalo linalenga kuunganisha matarajio ambayo wakati mwingine yanapingana ya jamii na mtu binafsi, uhuru na uwajibikaji wa mtu binafsi, serikali yenye mipaka na masoko huria. Baada ya Vita vya Pili vya Dunia, uhafidhina wa Marekani ulijijenga upya, ukitafuta kupatanisha maadili ya kitamaduni ya kiliberali na kihafidhina. Walipinga ukomunisti, lakini pia upanuzi mkubwa wa serikali ya shirikisho ya Marekani, wakisema kwamba matatizo yaliyotokana nayo hayangeweza kutatuliwa kwa kuboresha usimamizi wake tu, bali pia kwa kurejesha maadili ya kimaadili na kidini.
+1. **Uhafidhina wa kitamaduni wa Marekani** umejengwa juu ya wazo la "uhuru uliopangwa", waso hili linalenga kuunganisha matarajio ambayo wakati mwingine yanapingana ya jamii na mtu binafsi, uhuru na uwajibikaji wa mtu binafsi, serikali yenye mipaka na masoko huria. Baada ya Vita vya Pili vya Dunia, uhafidhina wa Marekani ulijijenga upya, ukitafuta kupatanisha maadili ya kitamaduni ya kiliberali na kihafidhina. Walipinga ukomunisti, lakini pia upanuzi mkubwa wa serikali ya shirikisho ya Marekani, wakisema kwamba matatizo yaliyotokana nayo hayangeweza kutatuliwa kwa kuboresha usimamizi wake tu, bali pia kwa kurejesha maadili ya kimaadili na kidini.
 
 
 
@@ -814,7 +814,7 @@ Wanaharakati wa uhuru wanatilia shaka sana mkusanyiko wowote wa madaraka, iwe ya
 **Aina za wanaharakati wa uhuru:**
 
 
-Katika karne ya 20, mitindo miwili mikubwa iliibuka:
+Mnamo karne ya 20, mitindo miwili mikubwa iliibuka:
 
 
 1. **Minarchist:** ambayo inaona kwamba mamlaka ya Serikali yanapaswa kuwekewa mipaka madhubuti katika ulinzi wa uhuru wa mtu binafsi. Ni utawala mdogo wa serikali (*Nchi ya walinzi wa usiku*), ambapo mamlaka ni halali tu ili kuhakikisha kazi kuu za polisi, haki na ulinzi wa eneo hilo kwa kutumia silaha.
@@ -846,7 +846,7 @@ Hata hivyo, zote mbili zinakubaliana juu ya kanuni ya msingi ya uhuru wa mtu bin
 
 
 
-- Uhuru:** Wao ni wafuasi wa wastani wa uhuru wa mtu binafsi na wa kiuchumi.
+- Uhuru:** Hawa ni wafuasi wa wastani wa uhuru wa mtu binafsi na wa kiuchumi.
 
 
 
@@ -903,7 +903,7 @@ Keynes hakutetea uhuru kamili (kama wale wanaounga mkono soko) wala udhibiti kam
 Mbinu hii inawakilisha "njia ya tatu" ya kiuchumi, inayotafuta usawa kati ya uliberali wa kitamaduni, unaotaka soko huria, na ujamaa uliopangwa na serikali, unaotaka mipango ya hali ya juu.
 
 
-Kwa upande wa falsafa, tunaweza kumrejelea mwanafalsafa maarufu wa kisiasa John Rawls, mwandishi wa *The Theory of Justice* (1971).
+Kwa upande wa falsafa, tunaweza kumrejelea mwanafalsafa maarufu kisiasa John Rawls, mwandishi wa *The Theory of Justice* (1971).
 
 
 
@@ -911,13 +911,13 @@ Kanuni zake mbili za haki (uhuru sawa kwa wote na kanuni ya tofauti, kuruhusu uk
 
 
 
-Dhana ya **kuingiliana kwa makubaliano** pia ni muhimu kwa mawazo ya John Rawls, haswa katika kitabu chake *Political Liberalism* (1993). Hapa kuna nukuu inayoelezea dhana hii:
+Dhana ya **kuingiliana kwa makubaliano** kwa mawazo ya John Rawls pia ni muhimu, haswa katika kitabu chake *Political Liberalism* (1993). Hapa kuna nukuu inayoelezea dhana hii:
 
 
 
 > Makubaliano yanayoingiliana yanafikiwa wakati raia, huku wakifuata mafundisho tofauti ya kina, ya kidini au ya kifalsafa, wanapokutana katika seti ya kanuni za kisiasa za haki ambazo wote wanaweza kuziunga mkono kutokana na mitazamo yao wenyewe.
 
-Lengo lake ni kuonyesha kwamba inawezekana kupatanisha mafundisho ya msingi yasiyolingana kuhusu kanuni za pamoja za haki, kiini hasa cha falsafa ya kiserikali.
+Lengo lake ni kuonyesha kwamba kuna uwezekana wa kupatanisha mafundisho ya msingi yasiyolingana kuhusu kanuni za pamoja za haki, kiini hasa cha falsafa ya kiserikali.
 
 
 
@@ -949,7 +949,7 @@ Ni muhimu kutambua hapa kwamba neno utawala wa kiimla linamaanisha mfumo wa kisi
 
 
 
-**Kuna aina mbili za jumla za tawala za kidikteta**: utawala wa kidikteta wa mrengo wa kushoto (ukomunisti, ujamaa wa kitaifa) na utawala wa kidikteta wa mrengo wa kulia (udikteta wa kijeshi, ufashisti). Lakini aina hizi hupoteza maana yake ikiwa tunaelewa kwamba matrix ni sawa. Hivi ndivyo ilivyo kwa Hitler na Stalin. Licha ya uadui wao wa kihistoria, tunapata ibada ile ile ya kiongozi, kuajiri vijana, udhibiti, ufuatiliaji, ukandamizaji wa upinzani wote, mateso ya kisiasa na kupondwa kwa uhuru wote wa mtu binafsi.
+**Kuna aina mbili za jumla za tawala za kidikteta**: utawala wa kidikteta wa mrengo wa kushoto (ukomunisti, ujamaa wa kitaifa) na utawala wa kidikteta wa mrengo wa kulia (udikteta wa kijeshi, ufashisti). Lakini aina hizi hupoteza maana yake ikiwa tunaelewa kwamba matrix ni sawa. Hivi ndivyo ilivyokuwa kwa Hitler na Stalin. Licha ya uadui wao wa kihistoria, tunapata ibada ile ile ya kiongozi, kuajiri vijana, udhibiti, ufuatiliaji, ukandamizaji wa upinzani wote, mateso ya kisiasa na kupondwa kwa uhuru wote wa mtu binafsi.
 
 
 
@@ -1004,7 +1004,7 @@ Masuala ya kijamii si kuhusu pesa, bali kuhusu maamuzi tunayofanya kuhusu kile t
 
 
 
-- Wasoshalisti:** Ndiyo, wanaona wengi wa jinsia tofauti wakikandamiza wachache wa jinsia moja kwa kuwanyima ndoa, na kwa hivyo wanaunga mkono mageuzi hayo kwa kawaida. Wasoshalisti wanataka kulazimisha dhana moja ya ndoa ya kiraia, ikiwa ni pamoja na ushoga, kwa madhara kwa wale wanaoona ndoa kuwa kati ya mwanamume na mwanamke pekee. Kwa hivyo, kuhalalisha ndoa ya mashoga ni kitendo cha haki ya kijamii kinachokuza jamii inayojumuisha zaidi na yenye uvumilivu. Inahakikisha kwamba wanandoa wa jinsia moja wanafurahia haki sawa za kisheria (urithi, kodi, upatanishi, n.k.) na ulinzi kama wanandoa wa jinsia tofauti, hivyo kuziba ukosefu wa usawa wa kweli. Katikati ya hoja hiyo kuna imani kwamba raia wote wanapaswa kutendewa sawa chini ya sheria, bila kujali mwelekeo wa kijinsia. Kukataa ndoa kwa wanandoa wa jinsia moja kunaonekana kama ubaguzi usiokubalika.
+- Wasoshalisti:** Ndiyo, wanaona wengi wa jinsia tofauti wakikandamiza wachache wa jinsia moja kwa kuwanyima ndoa, na kwa hivyo wanaunga mkono mageuzi hayo kwa kawaida. Wasoshalisti wanataka kulazimisha dhana moja ya ndoa ya kiraia, ikiwa ni pamoja na ushoga, kwa madhara kwa wale wanaoona ndoa kuwa kati ya mwanamume na mwanamke pekee. Kwa hivyo, kuhalalisha ndoa ya mashoga ni kitendo cha haki kwa kijamii kinachoikuza jamii inayojumuisha zaidi na yenye uvumilivu. Inahakikisha kwamba wanandoa wa jinsia moja wanafurahia haki sawa za kisheria (urithi, kodi, upatanishi, n.k.) na ulinzi kama wanandoa wa jinsia tofauti, hivyo kuziba ukosefu wa usawa wa kweli. Katikati ya hoja hiyo kuna imani kwamba raia wote wanapaswa kutendewa sawa chini ya sheria, bila kujali mwelekeo wa kijinsia. Kukataa ndoa kwa wanandoa wa jinsia moja kunaonekana kama ubaguzi usiokubalika.
 
 
 
@@ -1016,7 +1016,7 @@ Masuala ya kijamii si kuhusu pesa, bali kuhusu maamuzi tunayofanya kuhusu kile t
 
 
 
-- Wana-Libertarians:** Ndiyo na hapana. Mbinu thabiti ya uhuru ni kutetea ubinafsishaji wa ndoa, yaani ndoa isiyo na uingiliaji kati wa serikali. Ndoa ni taasisi isiyo ya serikali, na serikali haina jukumu la kuwalazimisha wengine kutambua ndoa ya kitamaduni au ya mashoga. Suluhisho? Ondoa ndoa ya lazima ya kiraia na uachie jukumu hili kwa vyama vya kibinafsi: makanisa, masinagogi, misikiti au mashirika ya kibinafsi ya kidunia. Suluhisho hili la kisiasa, ambalo linaheshimu haki za mali na uhuru wa mtu binafsi, linaweza kuitwa kutenganisha ndoa na serikali.
+- Wana-Libertarians:** Ndiyo na hapana. Mbinu thabiti ya uhuru ni kutetea ubinafsishaji wa ndoa, yaani ndoa ambayo serikali haina uingiliaji kati. Ndoa ni taasisi isiyo ya serikali, na serikali haina jukumu la kuwalazimisha wengine kutambua ndoa ya kitamaduni au ya mashoga. Suluhisho? Ondoa ndoa ya lazima ya kiraia na uachie jukumu hili kwa vyama vya kibinafsi: makanisa, masinagogi, misikiti au mashirika ya kibinafsi ya kidunia. Suluhisho hili la kisiasa, ambalo linaheshimu haki za mali na uhuru wa mtu binafsi, linaweza kuitwa kutenganisha ndoa na serikali.
 
 
 
@@ -1047,7 +1047,7 @@ Masuala ya kijamii si kuhusu pesa, bali kuhusu maamuzi tunayofanya kuhusu kile t
 
 
 
-- Wanaliberali:** Ndiyo na hapana. Ndiyo kutangaza uhamiaji na hapana kwa uhamiaji wa serikali. Kwa sababu katika ulimwengu unaofadhiliwa sana na serikali, uhamiaji hufadhiliwa kila wakati na husababisha madai mabaya kwa kazi ya wengine, yaani, haki bandia, aina ya uhamisho wa kiuchumi. Hata hivyo, kutoka kwa mtazamo wa mhimili wa uhuru/kulazimisha, mpaka wazi humpa mtu chaguo la serikali na uwezo wa kupiga kura kwa miguu yake. Hii ndiyo sababu sera bora ya uhamiaji itakuwa kupunguza ushiriki wa serikali na kuruhusu raia kujiamulia wenyewe.
+- Wanaliberali:** Ndiyo na hapana. Ndiyo kutangaza uhamiaji na hapana kwa uhamiaji wa serikali. Kwa sababu katika ulimwengu unaofadhiliwa sana na serikali, uhamiaji hufadhiliwa kila wakati na husababisha madai mabaya kwa kazi za wengine, yaani, haki bandia, aina ya uhamisho wa kiuchumi. Hata hivyo, kutoka kwa mtazamo wa mhimili wa uhuru/kulazimisha, mpaka wazi humpa mtu chaguo la serikali na uwezo wa kupiga kura kwa miguu yake. Hii ndiyo sababu sera bora ya uhamiaji itakuwa kupunguza ushiriki wa serikali na kuruhusu raia kujiamulia wenyewe.
 
 
 
@@ -1067,7 +1067,7 @@ Masuala ya kijamii si kuhusu pesa, bali kuhusu maamuzi tunayofanya kuhusu kile t
 
 
 
-- Wasoshalisti:** Hapana. Usalama wa umma lazima upewe kipaumbele kuliko uhuru wa kumiliki bunduki. Kanuni kali ni muhimu ili kupunguza vurugu na kuhakikisha usalama wa wote, kwa sababu serikali ina wajibu wa kuwalinda raia wake.
+- Wasoshalisti:** Hapana. Usalama wa umma lazima upewe kipaumbele kuliko uhuru wa kumiliki bunduki. Ili kupunguza vurugu na kuhakikisha usalama wa wote kanuni kali ni muhimu, kwa sababu serikali ina wajibu wa kuwalinda raia wake.
 
 
 
@@ -1157,7 +1157,7 @@ Masuala ya kijamii si kuhusu pesa, bali kuhusu maamuzi tunayofanya kuhusu kile t
 
 
 
-Masuala ya kiuchumi yanahusu pesa, kama vile ajira, kununua na kuuza, uwekezaji na miamala ya kibiashara. Nimechagua maswali matano ili kuwasilisha majibu ya kila familia ya kisiasa. Ni wazi kwamba majibu haya ya haraka yanatoa muhtasari tu wa kila mtazamo.
+Masuala ya kiuchumi yanahusu pesa, kama vile ajira, ununuzi na uuzaji, uwekezaji na miamala ya kibiashara. Nimechagua maswali matano ili kuwasilisha majibu ya kila familia ya kisiasa. Ni wazi kwamba majibu haya ya haraka yanatoa muhtasari tu wa kila mtazamo.
 
 
 
@@ -1230,7 +1230,7 @@ Masuala ya kiuchumi yanahusu pesa, kama vile ajira, kununua na kuuza, uwekezaji 
 
 
 
-- Wasoshalisti:** Hapana. Upatikanaji wa huduma ya afya ni haki ya msingi, si bidhaa. Serikali lazima ihakikishe mfumo wa huduma ya afya unaofadhiliwa na umma kwa wote, ili kila mtu aweze kupata huduma, bila kujali mapato.
+- Wasoshalisti:** Hapana. Kupatikana kwa huduma ya afya ni haki ya msingi, si bidhaa. Serikali lazima ihakikishe mfumo wa huduma ya afya unaofadhiliwa na umma kwa wote, ili kila mtu aweze kupata huduma, bila kujali mapato.
 
 
 
@@ -1344,7 +1344,7 @@ Tukilinganisha familia tofauti za kisiasa, tunaweza kuona kwamba kuna kufanana k
 
 
 
-Ili kuondoa mkanganyiko huu, tutaelezea dhana 3 za uhuru.
+Ili kuondoa mkanganyiko huu, tutaelezea dhana tatu za uhuru.
 
 
 
@@ -1364,7 +1364,7 @@ Kwao, uhuru si kanuni ya msingi, bali ni suala la manufaa. Kwa mfano, mhafidhina
 
 
 
-Upinzani huu kati ya familia za kisiasa ulikuwa tayari upo - kwa maneno tofauti - katika kitabu cha Gustave Molinari cha Les Soirées de la rue Saint Lazare. Kitabu hiki, kilichochapishwa mwaka 1849 na mwanafunzi wa Frédéric Bastiat, kinawaangazia wahusika watatu: msoshalisti, mhafidhina na mchumi. Mhusika anayejulikana kama mchumi kwa kweli ni mliberali, kwa maana ya kawaida ya neno hilo; leo, tungesema mliberali.
+Upinzani huu kati ya familia za kisiasa ulikuwa upo tayari - kwa maneno tofauti - katika kitabu cha Gustave Molinari cha Les Soirées de la rue Saint Lazare. Kitabu hiki, kilichochapishwa mwaka 1849 na mwanafunzi wa Frédéric Bastiat, kinawaangazia wahusika watatu: msoshalisti, mhafidhina na mchumi. Mhusika anayejulikana kama mchumi kwa kweli ni mliberali, kwa maana ya kawaida ya neno hilo; leo, tungesema mliberali.
 
 
 
@@ -1372,7 +1372,7 @@ Katika mazungumzo haya yaliyobuniwa na Molinari, mchumi (waliberali/waliberali) 
 
 
 
-## Utaratibu wa hiari dhidi ya uliojengwa
+## Utaratibu wa kiasili dhidi ya utaratibu uliojengwa
 
 
 <chapterId>504aa7da-ecd5-4177-87d9-c8792f58c8e3</chapterId>
@@ -1383,7 +1383,7 @@ Katika mazungumzo haya yaliyobuniwa na Molinari, mchumi (waliberali/waliberali) 
 
 
 
-Dhana za *utaratibu wa hiari* na *utaratibu uliojengwa* ni muhimu katika kuelewa tofauti kati ya hisia tofauti za kisiasa, ikiwa ni pamoja na uhuru na uundaji wa haki (uhafidhina) na kushoto (ujamaa).
+Dhana za *utaratibu wa kiasili* na *utaratibu uliojengwa* ni muhimu katika kuelewa tofauti kati ya hisia tofauti za kisiasa, ikiwa ni pamoja na uhuru na uundaji wa haki (uhafidhina) na kushoto (ujamaa).
 
 
 
@@ -1391,7 +1391,7 @@ Ujenzi hurejelea hamu ya kuunda jamii kulingana na mpango fulani. Ni mbinu inayo
 
 
 
-Kinyume cha ujenzi ni mpangilio wa hiari, ambao hujitokeza kiasili kutokana na mwingiliano huru wa watu binafsi, huku mpangilio uliojengwa ni matokeo ya uingiliaji kati wa makusudi na uliopangwa ili kuunda jamii kulingana na maono fulani, iwe ya kihafidhina (ya kudumu) au ya kimaendeleo (yaliyobadilishwa).
+Kinyume cha ujenzi ni mpangilio wa kiasili, ambao hujitokeza kiasili kutokana na mwingiliano huru wa watu binafsi, huku mpangilio uliojengwa ni matokeo ya uingiliaji kati wa makusudi na uliopangwa ili kuunda jamii kulingana na maono fulani, iwe ya kihafidhina (ya kudumu) au ya kimaendeleo (yaliyobadilishwa).
 
 
 
@@ -1406,7 +1406,7 @@ Akielezea utaratibu wa mkono usioonekana, Adam Smith naye aliandika: *Kwa kutafu
 
 
 
-Kulingana na Hayek, kujidai yoyote kwa kupanga jamii kisayansi na soko husababisha kuzidisha matatizo badala ya kuyarekebisha. Kama Burke alivyosema, akifuata nyayo za Waskoti Smith na Hume, historia hutoa taasisi ambazo ni ngumu zaidi na zilizobadilishwa vyema kuliko kitu chochote ambacho akili inaweza kufikiria kwa makusudi.
+Kulingana na Hayek, jaribio lolote la kupanga jamii na soko kisayansi husababisha kuzidisha matatizo badala ya kuyarekebisha. Kama Burke alivyosema, akifuata nyayo za Waskoti Smith na Hume, historia hutoa taasisi ambazo ni ngumu zaidi na zilizobadilishwa vyema kuliko kitu chochote ambacho akili inaweza kufikiria kwa makusudi.
 
 
 
@@ -1447,7 +1447,7 @@ Kwa hivyo, wanaliberali wanapingana na wasoshalisti na wahafidhina, yaani, makun
 **Siasa au soko?**
 
 
-Wajenzi, watetezi wa kati, wahafidhina na wasoshalisti wote wanakubaliana juu ya jambo moja muhimu: wanaona mchakato wa kisiasa kuwa na ufanisi zaidi kuliko mchakato wa soko.
+Wajenzi, wafuazi wa kati, wahafidhina na wasoshalisti wote wanakubaliana juu ya jambo moja muhimu: wanaona mchakato wa kisiasa kuwa na ufanisi zaidi kuliko mchakato wa soko.
 
 
 
@@ -1484,7 +1484,7 @@ Vile vile, mtetezi wa uhuru atakubaliana na wazo la kihafidhina kwamba ustaarabu
 Wana-Libertaria wanaamini kwamba utaratibu wa kiuchumi na kijamii unajipanga, mradi tu haki na wajibu wa watu binafsi umefafanuliwa wazi. Mtazamo wao unategemea heshima ya haki za mali na kutoingilia kati kwa serikali, na kuacha jamii kujipanga yenyewe.
 
 
-Kwa wanaharakati wa uhuru, udhibiti wa kweli wa jamii si demokrasia, ambayo ina matumizi yake kama njia ya kuteua wawakilishi, lakini kwanza kabisa soko huria. Bila soko huria, hakuna dira. Kwa maana soko ni kiashiria bora cha mapendeleo ya kibinafsi. Katika soko huria, wachezaji hutumia kikamilifu haki yao ya kuamua mambo yao wenyewe.
+Kwa wanaharakati wa uhuru, udhibiti wa kweli wa jamii si demokrasia, ambayo ina matumizi yake kama njia ya kuchagua wawakilishi, bali kwanza kabisa soko huria. Bila soko huria, hakuna dira. Kwa maana soko ni kiashiria bora cha mapendeleo ya kibinafsi. Katika soko huria, wachezaji hutumia kikamilifu haki yao ya kuamua mambo yao wenyewe.
 
 
 
@@ -1499,7 +1499,7 @@ Kwa wanaharakati wa uhuru, udhibiti wa kweli wa jamii si demokrasia, ambayo ina 
 
 
 
-Ubinafsi na ujumuishaji vinawakilisha maono mawili yanayopingana kimsingi ya uhusiano kati ya mtu binafsi na jamii.
+Ubinafsi na ujumuishaji huwakilisha maono mawili yanayopingana kimsingi ya uhusiano kati ya mtu binafsi na jamii.
 
 
 Mchumi wa Austria Ludwig von Mises alikuwa akisema: Ni mtu binafsi tu anayefikiri, ni yeye tu anayetoa hoja, ni yeye tu anayetenda.
@@ -1518,7 +1518,7 @@ Kwa mtazamo wa kimaadili na kisheria, mtu binafsi ndiye mwakilishi pekee wa kima
 
 
 
-Kanuni ya msingi ya anthropolojia inayounga mkono ubinafsi huu unaoeleweka vizuri iliwekwa wazi na Immanuel Kant katika karne ya 18: *Thubutu kufikiria mwenyewe*.
+Kanuni ya msingi ya anthropolojia inayounga mkono ubinafsi huu unaoeleweka vyema iliwekwa wazi na Immanuel Kant katika karne ya 18: *Thubutu kufikiri mwenyewe*.
 
 
 
@@ -1542,7 +1542,7 @@ Kwa hivyo, umoja unaweka umoja, iwe wa kitaifa, kitamaduni au kidini, mbele, uki
 
 
 
-Kwa Karl Max: "si ufahamu wa wanadamu unaoamua kuwepo kwao; kinyume chake, ni uhai wao wa kijamii unaoamua fahamu zao". Kwa hivyo Marx alisisitiza kwamba mtu binafsi amejikita sana katika uhalisia wa kijamii, na kwamba ufahamu wake unaamuliwa na uhalisia huu. Kwa maneno mengine, mtu binafsi ni halisi tu kwa kadri anavyokuwa mwanachama wa jamii, na kuwepo kwake binafsi kuna maana tu katika muktadha wa mapambano ya kitabaka kwa ajili ya manufaa ya wote.
+Kwa Karl Max: "si ufahamu wa wanadamu unaoamua kuwepo kwao; kinyume chake, ni uhai wao wa kijamii unaoamua fahamu zao". Kwa hivyo Marx alisisitiza kwamba mtu binafsi amejikita sana katika uhalisia wa kijamii, na kwamba ufahamu wake unaamuliwa na uhalisia huu. Hii ni kusema, mtu binafsi ni halisi tu kwa kadri anavyokuwa mwanachama wa jamii, na kuwepo kwake binafsi kuna maana tu katika muktadha wa mapambano ya kitabaka kwa ajili ya manufaa ya wote.
 
 
 
@@ -1569,7 +1569,7 @@ Kulingana na Karl Popper, jamii iliyo wazi na jamii iliyofungwa ni dhana za msin
 
 
 
-  - Jamii iliyofungwa ni jamii inayokataa, kimsingi, uhuru muhimu wa watu binafsi, kubadilishana na ulimwengu wa nje, na maendeleo na utofauti unaotokana. Ni mfumo wa kijamii unaotokana na mawazo ya pamoja ambayo yanaogopa mabadiliko, yanakataa ukosoaji na uwajibikaji wa mtu binafsi, na yanafafanua utaratibu tulivu, wenye upatano, na mara nyingi wa kikabila.
+  - Jamii iliyofungwa ni jamii inayokataa, kimsingi, uhuru muhimu wa watu binafsi, kubadilishana na ulimwengu wa nje, pamoja na maendeleo na utofauti unaotokana. Ni mfumo wa kijamii unaotokana na mawazo ya pamoja ambayo yanaogopa mabadiliko, yanakataa ukosoaji na uwajibikaji wa mtu binafsi, na yanafafanua utaratibu tulivu, wenye upatano, na mara nyingi wa kikabila.
   - Jamii iliyo wazi ina sifa ya uwezo wa mwanadamu wa kufanya uamuzi muhimu na uwajibikaji wa mtu binafsi. Pamoja nayo huja kanuni mpya ya upangaji wa kijamii inayotegemea ubora wa uwajibikaji, chaguo huru la maadili, imani, kubadilishana na mahusiano, ndani ya mfumo wa sheria dhahania za mwenendo sahihi.
 
 
@@ -1592,7 +1592,7 @@ Upinzani huu unaangazia kutolingana kwa msingi kati ya mfumo unaotegemea uhuru w
 
 
 
-Lakini jamii iliyo wazi ni dhaifu, haijakamilika kila wakati na inatiliwa shaka kila mara. Inakabiliwa na mielekeo ya kutamani kukumbuka mambo ya zamani, kupoteza hisia ya usalama ambayo jamii ya kikabila iliifanya kwa ajili ya wanachama wake, na hamu ya kurejesha utaratibu wa awali wa kijumuiya, labda kupitia vurugu.
+Lakini jamii iliyo wazi ni dhaifu, hakuna wakati imekamilika kabisa na inatiliwa shaka kila mara. Inakabiliwa na mielekeo ya kutamani kukumbuka mambo ya zamani, kupoteza hisia ya usalama ambayo jamii ya kikabila iliifanya kwa ajili ya wanachama wake, na hamu ya kurejesha utaratibu wa awali wa kijumuiya, labda kupitia vurugu.
 
 
 
@@ -1623,7 +1623,7 @@ Mwishoni mwa kozi hii, tunahisi ni muhimu kushughulikia msimamo wa kisiasa wa Bi
 
 
 
-Bitcoin ni sarafu ya kidijitali iliyotengwa, iliyoundwa na Satoshi Nakamoto mnamo 2008, ambayo huwezesha miamala ya kifedha isiyoaminika, ya rika-kwa-rika.
+Bitcoin ni sarafu ya kidijitali isiyo na mamlaka kuu, iliyoundwa na Satoshi Nakamoto mnamo 2008, ambayo huwezesha miamala ya kifedha isiyoaminika, ya rika-kwa-rika.
 
 
 Bitcoin inadhibitiwa na itifaki ya programu huria, bila Mkurugenzi Mtendaji, bila ofisi kuu, bila bajeti ya uuzaji na bila mamlaka iliyoteuliwa. Hii ina maana kwamba hakuna chombo cha kisiasa au serikali inayo udhibiti juu yake.
@@ -1642,7 +1642,7 @@ Ingawa Bitcoin yenyewe si ya mrengo wa kulia wala wa kushoto, wala si ya dini yo
 
 
 
-Tukisoma Waraka Mweupe wa Satoshi Nakamoto, tunaweza kuona kwamba Bitcoin iliundwa ili kutoa ulinzi bunifu dhidi ya vitisho viwili vikuu vya kisasa: ufuatiliaji ulioenea na kuongeza kasi ya uundaji wa pesa bandia.
+Tukisoma Waraka Mweupe wa Satoshi Nakamoto, tunaweza kuona kwamba Bitcoin iliundwa ili kutoa ulinzi bunifu dhidi ya vitisho viwili vikuu vya kisasa: ufuatiliajiwa kila mahali na ongezeko la kasi la kuunda pesa bandia.
 
 
 
@@ -1658,7 +1658,7 @@ Tukisoma Waraka Mweupe wa Satoshi Nakamoto, tunaweza kuona kwamba Bitcoin iliund
 
 
 
-Kwa hivyo Bitcoin ni zaidi ya teknolojia ya kifedha, ni mradi wa kubadilisha ulimwengu, kuuboresha. Ni mradi kabambe wa kisiasa wa kufafanua upya uhusiano wa madaraka kati ya watu binafsi na taasisi:
+Kwa hivyo Bitcoin ni zaidi ya teknolojia ya kifedha, ni mradi wa kubadilisha na kuuboresha ulimwengu. Ni mradi kabambe wa kisiasa wa kufafanua upya uhusiano wa madaraka kati ya watu binafsi na taasisi:
 
 
 
@@ -1678,7 +1678,7 @@ Kwa hivyo, sehemu ya kuanzia ya mbinu ya kiakili ya Satoshi Nakamoto ni kujiamin
 
 
 
-Kuingizwa kwa jina hili katika sehemu ya mwanzo kunaweza kufasiriwa. Lakini inaweza kuonekana kama maoni ya Satoshi kuhusu kushindwa kwa taasisi za fedha za jadi, na kama taarifa ya lengo la Bitcoin: kutoa njia mbadala ya mifumo ya benki kuu.
+Kuingizwa kwa jina hili mwanzoni kunaweza kufasiriwa. Lakini inaweza kuonekana kama maoni ya Satoshi kuhusu kushindwa kwa taasisi za fedha za jadi, na kama taarifa ya lengo la Bitcoin: kutoa njia mbadala ya mifumo ya benki kuu.
 
 
 
@@ -1686,7 +1686,7 @@ Wakati serikali inapoweka udhibiti mkali juu ya miamala yote (kwa mfano, kwa kup
 
 
 
-Hata hivyo, Bitcoin iliundwa kufanya kazi bila kuingilia kati kwa benki kuu au wapatanishi wengine wa kifedha wanaodhibitiwa na serikali. Kwa sababu ya asili yake ya kugawanyika, jina bandia na upinzani dhidi ya udanganyifu, inaweza kudhoofisha misingi ya serikali ya ustawi kwa kupunguza udhibiti wake wa pesa, kodi na mfumo wa kifedha.
+Hata hivyo, Bitcoin iliundwa kufanya kazi bila kuingiliwa kati na benki kuu au wapatanishi wengine wa kifedha wanaodhibitiwa na serikali. Kwa sababu ya asili yake ya kugawanyika, jina bandia na upinzani dhidi ya udanganyifu, inaweza kudhoofisha misingi ya serikali ya ustawi kwa kupunguza udhibiti wake wa pesa, kodi na mfumo wa kifedha.
 
 
 
@@ -1737,7 +1737,7 @@ Lakini Bitcoin haikutokea ghafla. Inategemea maendeleo katika hisabati, fizikia,
 
 
 
-Harakati hii ilizaliwa mwanzoni mwa miaka ya 1990 kutokana na wasiwasi wa uhuru wa binadamu licha ya ufuatiliaji wa serikali katika enzi ya kidijitali.
+Harakati hii ilizaliwa mwanzoni mwa miaka ya 1990 kutokana na wasiwasi juu ya uhuru wa binadamu licha ya ufuatiliaji wa serikali katika enzi ya kidijitali.
 
 
 
@@ -1757,7 +1757,7 @@ Ilani ya Cypherpunk, iliyoandikwa na Eric Hughes mwaka wa 1993, inafupisha falsa
 
 
 
-> Faragha ni muhimu kwa jamii iliyo wazi katika enzi ya kielektroniki (...) Hatuwezi kutarajia serikali, mashirika au mashirika mengine makubwa yasiyojulikana kuhakikisha faragha yetu (...) Lengo langu kuu kwa Cypherpunks ni kuwafanya watu watetee faragha yao, badala ya kutegemea mtu mwingine kutoa.
+> Faragha ni muhimu kwa jamii iliyo wazi katika enzi ya kielektroniki (...) Hatuwezi kutegemea serikali, mashirika au mashirika mengine makubwa yasiyojulikana kuhakikisha faragha yetu (...) Lengo langu kuu kwa Cypherpunks ni kuwafanya watu watetee faragha yao, badala ya kutegemea mtu mwingine kutoa.
 >
 
 
@@ -1773,7 +1773,7 @@ Hii ndiyo sababu usimbaji fiche utatumika kama chombo cha kupinga aina zote za u
 
 
 
-Wa-Cypherpunks wanaamini katika nguvu ya usimbaji fiche kuunda nafasi za uhuru na uhuru wa mtu binafsi, na kuwawezesha watu kuwasiliana na kuingiliana kwa usalama na bila majina.
+Wana-Cypherpunk wanaamini katika nguvu ya usimbaji fiche kuunda nafasi za uhuru na uhuru wa mtu binafsi, na kuwawezesha watu kuwasiliana na kuingiliana kwa usalama na bila majina.
 
 
 
@@ -1803,7 +1803,7 @@ Kisiasa, wanatafuta kujenga mitandao ya madaraka ambapo maamuzi huchukuliwa kwa 
 
 
 
-Falsafa hii ya uhuru na ujenzi hai, iliyorithiwa kutoka kwa Wacypherpunks, ilijumuishwa na Satoshi Nakamoto mnamo 2008, pamoja na uvumbuzi wa Bitcoin. Alikuwa wa kwanza kutekeleza wazo la sarafu ya kielektroniki isiyo na udhibiti na huru.
+Falsafa hii ya uhuru na ujenzi hai, iliyorithiwa kutoka kwa Wacypherpunks, ilijumuishwa na Satoshi Nakamoto mnamo 2008, pamoja na uvumbuzi wa Bitcoin. Alikuwa wa kwanza kutekeleza wazo la sarafu ya kielektroniki isiyo na udhibiti na yenye mamlaka ya kujitegemea.
 
 
 
@@ -1811,7 +1811,7 @@ Falsafa hii ya uhuru na ujenzi hai, iliyorithiwa kutoka kwa Wacypherpunks, iliju
 
 
 
-Bitcoin inapunguza mamlaka ya serikali kwa kutoa njia mbadala ya kifedha iliyogatuliwa, bandia na ngumu kudhibiti. Iwe imepitishwa na wanaharakati wa mrengo wa kulia au wa kushoto, na watetezi wa uhuru au usawa, au na waweka akiba tu wasio na lebo ya kisiasa, inawapa watu fursa ya kujikomboa kutoka kwa mfumo wa kifedha wa jadi na kupata tena udhibiti wa pesa zao.
+Bitcoin inapunguza nguvu ya serikali kwa kutoa mbadala wa fedha usio na mamlaka kuu, wenye majina bandia na mgumu kudhibiti. Iwe imepitishwa na wanaharakati wa mrengo wa kulia au wa kushoto, na watetezi wa uhuru au usawa, au na waweka akiba tu wasio na lebo ya kisiasa, inawapa watu fursa ya kujikomboa kutoka kwa mfumo wa kifedha wa jadi na kupata tena udhibiti wa pesa zao.
 
 
 
@@ -1837,7 +1837,7 @@ Katika kozi hii, nimejaribu kuonyesha kwamba mgawanyiko halisi si kati ya kushot
 Lakini vipi kuhusu wale wanaotaka serikali ndogo na serikali kuu kidogo? Kwa mfano, watumiaji wa Bitcoin, wanaotaka kukomesha ukiritimba wa uundaji wa pesa. Tunawawekaje katika wigo huu wa kisiasa?
 
 
-Kwa kweli, mgawanyiko halisi wa kisiasa upo katika kanuni za msingi za kifalsafa: uhuru au kulazimishwa, ridhaa au kulazimishwa kwa hiari, mtu binafsi anayewajibika au kwa pamoja.
+Kwa kweli, mgawanyiko halisi wa kisiasa upo katika kanuni za msingi za kifalsafa: uhuru au kulazimishwa, ridhaa au hiari iliyolazimishwa, mtu binafsi anayewajibika au kwa pamoja.
 
 
 
@@ -1884,7 +1884,7 @@ Kwa kifupi, tofauti kubwa kati ya mitindo ya kisiasa iko katika nafasi ya dola k
 
 
 
-Ndiyo maana Bitcoin pia ni mpasuko wa kisiasa. Ni uasi wa amani dhidi ya siasa za pesa na kunyang'anywa kwake na wachache. Bitcoin haihusu kulia na kushoto. Kinyume chake, ni sarafu ya soko kinyume na pesa za serikali.
+Ndiyo maana Bitcoin pia ni mpasuko wa kisiasa. Ni uasi wa amani dhidi ya siasa za kifedha na kunyang'anywa kwake na wachache. Bitcoin haihusu kulia na kushoto. Kinyume chake, ni sarafu ya soko kinyume na pesa za serikali.
 
 
 

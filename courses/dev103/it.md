@@ -6517,36 +6517,36 @@ Ecco un esempio di scrittura su un file `target.txt` utilizzando un flusso:
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Ecco cosa succede:
 
 
-1. `fs.createWriteStream()` crea un flusso scrivibile.
+1. `fs.createWriteStream()` crea uno stream scrivibile.
 
-2. Scriviamo del testo su di esso usando `.write()`.
+2. Registriamo i gestori per gli eventi `error` e `finish`.
 
-3. Quando abbiamo finito, chiamiamo `.end()` per chiudere lo stream.
+3. Scriviamo del testo al suo interno usando `.write()`.
 
-4. Quando tutti i dati sono stati scritti, viene emesso l'evento `finish`.
+4. Quando abbiamo finito, chiamiamo `.end()` per chiudere lo stream.
 
-5. Se qualcosa va storto, viene attivato l'evento `error`.
+5. Una volta che tutti i dati nel buffer sono stati svuotati e scritti, viene emesso l'evento `finish`. Se qualcosa va storto, viene emesso un evento `error`.
 
 
 Proprio come gli stream leggibili, gli stream scrivibili sono ottimi per i grandi dati, perché non hanno bisogno di tenere tutto in memoria contemporaneamente.

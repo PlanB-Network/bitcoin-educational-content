@@ -53,16 +53,17 @@ https://planb.academy/tutorials/node/others/nostr-f6d21a64-9b04-4f21-ba1c-02c98c
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| معیارهای مقایسه             | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| رمزنگاری E2EE / 1:1         | ✅ بله        | اختیاری    | ✅ بله            | ✅ بله   | ✅ بله    | ✅ بله             | ✅ بله  |
+| رمزنگاری گروهی E2EE         | ✅ بله        | ❌ خیر      | ✅ بله            | ✅ بله   | ✅ بله    | اختیاری           | ✅ بله  |
+| ناشناس‌سازی هویت            | ✅ بله        | اختیاری    | ❌ خیر            | ✅ بله   | ❌ خیر    | ❌ خیر             | ❌ خیر  |
+| سرور متن‌باز                | ✅ بله        | ❌ خیر      | ❌ خیر            | ✅ بله   | ❌ خیر    | ❌ خیر             | ✅ بله  |
+| کلاینت متن‌باز              | ✅ بله        | ✅ بله       | ❌ خیر            | ✅ بله   | ❌ خیر    | ❌ خیر             | ✅ بله  |
+| سرور غیرمتمرکز              | ✅ بله        | ❌ خیر      | ❌ خیر            | ✅ بله   | ❌ خیر    | ❌ خیر             | ❌ خیر  |
+| سال ایجاد                   | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## شروع به کار با White Noise
 

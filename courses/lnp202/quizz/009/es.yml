@@ -1,0 +1,9 @@
+question: ¿Qué poder tiene un operador de custodia sobre los pagos de sus usuarios?
+answer: El poder de la censura
+wrong_answers:
+  - Potencia Mining
+  - El poder del consenso
+  - Potencia Halving
+explanation: |
+  Un operador que controla los fondos y los canales puede bloquear, retrasar o filtrar los pagos.
+reviewed: false

@@ -1592,6 +1592,10 @@ Twarabonye ko gucunga amafaranga ari ingorane kuri Lightning kugira ngo amafaran
 ![LNP201](assets/en/084.webp)
 
 
+Ubu ko umaze gutahura uko Lightning Network ikora mu vyiyumviro, urashobora gutangura ibikorwa nyavyo ugashiraho node yawe ya mbere ya Lightning kugira ngo urushirize kwigenga mu kuyikoresha. Kubw’ivyo, kurikiza inyigisho LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # Igice ca nyuma
 
 

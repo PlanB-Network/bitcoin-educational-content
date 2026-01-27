@@ -1,0 +1,9 @@
+question: Cần những điều kiện gì để cài đặt LND trên Umbrel?
+answer: Nút Bitcoin được đồng bộ hóa
+wrong_answers:
+  - Tài khoản Umbrel Premium
+  - Kênh Lightning hiện có
+  - Địa chỉ Lightning đang hoạt động
+explanation: |
+  LND phụ thuộc vào việc nút Bitcoin được đồng bộ hóa 100%, đây là điều kiện tiên quyết để nó hoạt động.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mitkä kriteerit määräävät Lightning-ratkaisun valinnan?
+answer: Käyttötiheys ja halukkuus hallita
+wrong_answers:
+  - Vaihdetut määrät ja protokollan nopeus
+  - Paikannus ja koulutus
+  - Riskinsietokyky ja ohjelmistojen suunnittelu
+explanation: |
+  Valinta riippuu pääasiassa siitä, kuinka usein Salamaa käytetään ja kuinka paljon pidät teknisestä hallinnasta.
+reviewed: false

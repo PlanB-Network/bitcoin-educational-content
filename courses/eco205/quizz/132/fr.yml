@@ -1,0 +1,8 @@
+question: Selon la théorie autrichienne, quelle est la relation fondamentale entre débiteur et créancier dans le processus de formation du taux d'intérêt?
+answer: Le débiteur privilégie la consommation présente et paie des intérêts pour s'affranchir de l'accumulation préalable de capital, tandis que le créancier reporte sa consommation contre une récompense future
+wrong_answers:
+  - Le débiteur accepte de payer des intérêts pour obtenir de la liquidité immédiate, tandis que le créancier cherche à maximiser son profit en exploitant les besoins urgents du débiteur
+  - Le débiteur emprunte pour investir dans des projets productifs à long terme, tandis que le créancier prête uniquement son excédent de liquidité temporaire sans considération temporelle
+  - "Le débiteur paie des intérêts comme compensation du risque de défaut, tandis que le créancier demande une prime pour couvrir l'inflation et l'incertitude économique"
+explanation: |
+  La relation débiteur-créancier reflète les préférences temporelles opposées : le débiteur valorise davantage le présent et accepte de payer le prix (intérêt) pour consommer immédiatement sans épargner au préalable, tandis que le créancier a une faible préférence temporelle et accepte de reporter sa consommation contre une amélioration future. Cette relation n'est pas basée sur l'exploitation, l'investissement productif ou le risque, mais sur les valorisations subjectives du temps.

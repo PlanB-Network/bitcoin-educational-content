@@ -1,0 +1,9 @@
+question: Mikä sovellus on asennettava Umbrel:ssa NWC-yhteyden muodostamiseksi?
+answer: Alby Hub
+wrong_answers:
+  - NWC Connector
+  - ThunderHub
+  - Zeus-palvelin
+explanation: |
+  Koska erityisesti NWC:tä varten tarkoitettua Umbrel-sovellusta ei enää ole saatavilla, sinun on käytettävä Alby Hub:a tämäntyyppiseen yhteyteen.
+reviewed: false

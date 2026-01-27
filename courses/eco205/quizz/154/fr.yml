@@ -1,0 +1,8 @@
+question: Selon l'analyse de Mises et Hayek, pourquoi l'URSS utilisait-elle les prix des marchés capitalistes occidentaux pour ses calculs économiques internes?
+answer: Parce qu'elle ne pouvait pas générer ses propres prix rationnels sans propriété privée et échange libre des moyens de production
+wrong_answers:
+  - "Parce qu'elle voulait maintenir une parité économique avec les pays capitalistes pour faciliter le commerce international"
+  - Parce que les dirigeants soviétiques reconnaissaient la supériorité théorique du système capitaliste sur le socialisme
+  - "Parce qu'elle cherchait à espionner et comprendre les stratégies économiques des pays occidentaux pour mieux les concurrencer"
+explanation: |
+  L'URSS copiait les prix occidentaux car elle était structurellement incapable de générer des prix rationnels. Sans propriété privée des moyens de production, il n'y avait pas d'échange libre, donc pas de formation naturelle des prix par l'offre et la demande. Cette dépendance aux prix capitalistes confirmait empiriquement la thèse de Mises sur l'impossibilité du calcul économique en régime socialiste.

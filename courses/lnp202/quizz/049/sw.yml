@@ -1,0 +1,9 @@
+question: Ni ipi kati ya mifumo hii inayokuruhusu kununua ukwasi unaoingia?
+answer: Magma
+wrong_answers:
+  - Kiini cha Bitcoin
+  - 1ML
+  - Boltz
+explanation: |
+  Magma hurahisisha kununua ukwasi unaoingia kupitia soko otomatiki.
+reviewed: false

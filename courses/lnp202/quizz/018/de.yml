@@ -1,0 +1,9 @@
+question: Wie viele Wörter enthält die mnemonische Phrase LND?
+answer: 24 Wörter
+wrong_answers:
+  - 10 Wörter
+  - 18 Wörter
+  - 36 Wörter
+explanation: |
+  LND generate ist eine mnemonische Phrase mit 24 Wörtern für die Sicherung und Wiederherstellung von Knoten.
+reviewed: false

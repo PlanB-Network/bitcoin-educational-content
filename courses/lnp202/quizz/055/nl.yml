@@ -1,0 +1,9 @@
+question: Wanneer vindt in de NWC-stroom encryptie plaats aan de applicatiezijde?
+answer: Voor publicatie op het relais
+wrong_answers:
+  - Na het lezen van het knooppunt
+  - Na publicatie op het relais
+  - Nooit
+explanation: |
+  De applicatie serialiseert het verzoek, versleutelt het en publiceert het dan als een gebeurtenis op een Nostr relais.
+reviewed: false

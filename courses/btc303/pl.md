@@ -51,7 +51,7 @@ Książka została zamówiona i sfinansowana przez [Chaincode Labs](https://lear
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Witamy w kursie PHI 301 na temat filozofii rozwoju Bitcoin.
+Witamy w kursie BTC 303 na temat filozofii rozwoju Bitcoin.
 
 
 Bitcoin to coś więcej niż tylko kryptowaluta, to ucieleśnienie filozoficznej wizji decentralizacji, prywatności, braku zaufania i odporności. Kurs ten został zaprojektowany specjalnie dla programistów zaznajomionych już z technicznymi podstawami Bitcoin, którzy chcą teraz pogłębić swoje zrozumienie zasad leżących u podstaw projektu i zarządzania Bitcoin.
@@ -1168,14 +1168,14 @@ Bitcoin Core jest zgodny z tą definicją, ponieważ jest rozpowszechniany na li
 
 
 ```
-The MIT License (MIT)
+Licencja MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Deweloperzy Bitcoin Core
+Copyright (c) 2009-2022 Deweloperzy Bitcoin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Niniejszym udziela się bezpłatnego zezwolenia każdej osobie, która uzyskuje kopię tego oprogramowania i powiązanych plików dokumentacji ("Oprogramowanie"), na korzystanie z Oprogramowania bez ograniczeń, w tym bez ograniczeń prawa do używania, kopiowania, modyfikowania, łączenia, publikowania, dystrybucji, udzielania sublicencji i/lub sprzedaży kopii Oprogramowania, oraz zezwalania osobom, którym Oprogramowanie jest dostarczane, na to samo, z zastrzeżeniem następujących warunków:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Powyższa informacja o prawach autorskich i niniejsza informacja o zezwoleniu muszą być zawarte we wszystkich kopiach lub istotnych częściach Oprogramowania.
 ```
 
 

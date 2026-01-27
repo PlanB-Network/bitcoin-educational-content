@@ -318,7 +318,7 @@ Mfano wa kielelezo wa MMT ni tata ya kijeshi na viwanda ya Marekani. Kulingana n
 
 Japani mara nyingi hutajwa na watetezi wa MMT kama mfano mwingine wa kutokuwepo kwa mfumuko wa bei licha ya uchapishaji mkubwa wa fedha. Hata hivyo, hali nchini Japani pia inaangazia vikwazo vya hatua za jadi za mfumuko wa bei kama vile Fahirisi ya Bei ya Watumiaji (CPI). Huko Japan, sehemu kubwa ya pesa zilizochapishwa huhifadhiwa au kuwekezwa katika soko la mali isiyohamishika au soko la hisa, badala ya kutumika katika uchumi wa sasa wa matumizi. CPI, kwa kutokamata kikamilifu mienendo hii, inaweza kudharau mfumuko wa bei halisi.
 
-Uchanganuzi wa Japani (https://ideas.repec.org/p/ces/ceswps/_9821.html) pia unaonyesha kuwa tabia ya mawakala wa kiuchumi, kama vile kuokoa au kuwekeza katika mali ambayo haijajumuishwa katika CPI, inaweza kuficha athari ya mfumuko wa bei ya uchapishaji wa kifedha. Zaidi ya hayo, uwezo wa sekta mbalimbali kunyonya ukwasi unaodungwa una jukumu muhimu katika iwapo mfumuko wa bei hutokea au la.
+[Uchambuzi wa Japani](https://ideas.repec.org/p/ces/ceswps/_9821.html) pia unaangazia kwamba tabia ya wahusika wa kiuchumi, kama vile kuweka akiba au kuwekeza katika mali zisizojumuishwa katika CPI, inaweza kuficha athari ya mfumuko wa bei inayotokana na uchapishaji wa fedha. Aidha, uwezo wa sekta mbalimbali kunyonya ukwasi uliodungwa una jukumu muhimu katika kujitokeza au kutokujitokeza kwa mfumuko wa bei.
 
 #### Mizani ya Benki na Benki Kuu
 

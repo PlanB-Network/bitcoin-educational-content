@@ -1,0 +1,9 @@
+question: Qual è la liquidità in uscita di un nodo Lightning?
+answer: Capacità di pagare
+wrong_answers:
+  - Capacità di connessione
+  - Capacità di ricevere
+  - Capacità di chiudere i canali
+explanation: |
+  La liquidità in uscita rappresenta il sats disponibile dal lato dell'operatore per effettuare i pagamenti.
+reviewed: false

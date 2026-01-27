@@ -3,6 +3,6 @@ answer: Permite ejecutar bases de código unificadas en plataformas móviles, na
 wrong_answers:
   - Gestiona automáticamente las conversiones de los tipos de cambio de las criptomonedas en diferentes mercados regionales y divisas
   - Proporciona protocolos integrados de sincronización de cadenas de bloques que funcionan de forma idéntica en todas las arquitecturas de red
-  - Ofrece integración nativa con monederos electrónicos y módulos de seguridad en todas las plataformas compatibles
+  - Ofrece integración nativa con wallets electrónicas y módulos de seguridad en todas las plataformas compatibles
 explanation: |
   Las capacidades multiplataforma de Rust permiten a los desarrolladores escribir aplicaciones Bitcoin que pueden desplegarse en diversos entornos, incluidos móviles (Android/iOS), navegadores web (mediante compilación WebAssembly) y sistemas operativos de escritorio tradicionales. Esta versatilidad queda demostrada por proyectos como Mutiny Wallet, que aprovecha la compatibilidad con WebAssembly de Rust para crear carteras Lightning que se ejecutan directamente en navegadores. Las respuestas erróneas describen funciones que no están relacionadas con la compatibilidad entre plataformas: la conversión de divisas es una función a nivel de aplicación, los protocolos de cadena de bloques son problemas de la capa de red y la integración de hardware requiere API específicas en lugar de compatibilidad general entre plataformas.

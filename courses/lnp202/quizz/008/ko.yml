@@ -1,0 +1,9 @@
+question: 보관형 라이트닝 wallet을 사용하면 비트코인은 누가 소유하나요?
+answer: 회사
+wrong_answers:
+  - 사용자
+  - 라이트닝 네트워크
+  - Bitcoin 코어
+explanation: |
+  수탁 모델에서는 회사가 키를 보유하고 자금을 관리하는 반면, 사용자는 계정 잔액만 보유합니다.
+reviewed: false

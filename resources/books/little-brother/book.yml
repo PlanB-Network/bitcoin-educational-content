@@ -7,123 +7,123 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.37
+    reward: 0.27
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
+    reward: 0.21
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.15
+    reward: 0.11
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
+    reward: 0.21
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.37
+    reward: 0.27
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
+    reward: 0.21
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
+    reward: 0.21
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.39
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
+    reward: 0.21
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.37
+    reward: 0.27
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.39
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.33
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.33
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.37
+    reward: 0.27
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.37
+    reward: 0.27
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.39
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.37
+    reward: 0.27
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.37
+    reward: 0.33
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.37
+    reward: 0.27
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.33
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.37
+    reward: 0.27
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
+    reward: 0.21
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.37
+    reward: 0.27
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.33
 tags:
   - privacy
   - personal-security

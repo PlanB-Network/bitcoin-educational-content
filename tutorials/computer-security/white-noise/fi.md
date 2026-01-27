@@ -53,16 +53,17 @@ Tässä on nopea vertailu White Noise:n ja tunnetuimpien viestisovellusten väli
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Vertailukohdat              | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE-salaus / 1:1           | ✅ Kyllä      | Valinnainen| ✅ Kyllä          | ✅ Kyllä | ✅ Kyllä  | ✅ Kyllä           | ✅ Kyllä|
+| Ryhmä-E2EE-salaus           | ✅ Kyllä      | ❌ Ei       | ✅ Kyllä          | ✅ Kyllä | ✅ Kyllä  | Valinnainen       | ✅ Kyllä|
+| Identiteetin anonymisointi  | ✅ Kyllä      | Valinnainen| ❌ Ei             | ✅ Kyllä | ❌ Ei     | ❌ Ei              | ❌ Ei   |
+| Avoimen lähdekoodin palvelin| ✅ Kyllä      | ❌ Ei       | ❌ Ei             | ✅ Kyllä | ❌ Ei     | ❌ Ei              | ✅ Kyllä|
+| Avoimen lähdekoodin asiakas | ✅ Kyllä      | ✅ Kyllä     | ❌ Ei             | ✅ Kyllä | ❌ Ei     | ❌ Ei              | ✅ Kyllä|
+| Hajautettu palvelin         | ✅ Kyllä      | ❌ Ei       | ❌ Ei             | ✅ Kyllä | ❌ Ei     | ❌ Ei              | ❌ Ei   |
+| Perustamisvuosi             | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## White Noise:n käytön aloittaminen
 

@@ -1,5 +1,6 @@
 id: 873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
+last_update_date: 2025-01-19
 
 category: hardware
 
@@ -20,144 +21,144 @@ proofreading:
     contributor_names:
       - LoicPandul
       - nrak10
-    reward: 0.57
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 3.7
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 2.5
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 2.5
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 2.5
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 3.7
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 3.7
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.7
+    reward: 4.9
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 2.5
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.7
+    reward: 6.11
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 3.7
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 2.5
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 3.7
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.7
+    reward: 6.11
   - language: zh-Hans
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 1.85
+    reward: 2.45
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.7
+    reward: 6.11
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 3.7
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 4.9
   - language: sw
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 1.49
+    reward: 1.85
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.7
+    reward: 4.9
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 3.7
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 2.5
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 3.7
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.7
+    reward: 4.9
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.7
+    reward: 4.9
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.7
+    reward: 6.11
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 3.7
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.7
+    reward: 4.9
 tags:
   - wallets
   - guides

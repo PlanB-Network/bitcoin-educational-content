@@ -1,0 +1,9 @@
+question: Vilken av dessa plattformar låter dig köpa inkommande likviditet?
+answer: Magma
+wrong_answers:
+  - Bitcoin Kärnverksamhet
+  - 1ML
+  - Boltz
+explanation: |
+  Magma gör det enkelt att köpa inkommande likviditet via en automatiserad marknadsplats.
+reviewed: false

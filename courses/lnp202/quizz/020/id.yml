@@ -1,0 +1,9 @@
+question: Mengapa memulihkan channel.db lama berbahaya?
+answer: Risiko penalti
+wrong_answers:
+  - Hilangnya seed
+  - Korupsi gosip
+  - Memblokir perutean
+explanation: |
+  Status kedaluwarsa dapat diartikan sebagai upaya untuk menipu dan mengakibatkan hilangnya dana saluran.
+reviewed: false

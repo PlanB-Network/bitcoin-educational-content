@@ -6517,36 +6517,36 @@ Aqui está um exemplo de escrita para um arquivo `target.txt` usando um fluxo:
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 O que acontece é o seguinte:
 
 
-1. `fs.createWriteStream()` cria um fluxo gravável.
+1. `fs.createWriteStream()` cria um fluxo de escrita.
 
-2. Escrevemos algum texto nele usando `.write()`.
+2. Registamos manipuladores para os eventos `error` e `finish`.
 
-3. Quando terminarmos, chamamos `.end()` para fechar o fluxo.
+3. Escrevemos algum texto nele usando `.write()`.
 
-4. Quando todos os dados tiverem sido escritos, o evento `finish` é emitido.
+4. Quando terminarmos, chamamos `.end()` para fechar o fluxo.
 
-5. Se algo correr mal, é acionado o evento `error`.
+5. Assim que todos os dados em buffer forem limpos e gravados, o evento `finish` é emitido. Se algo der errado, um evento `error` é emitido.
 
 
 Tal como os fluxos legíveis, os fluxos graváveis são bons para grandes volumes de dados porque não precisam de manter tudo na memória ao mesmo tempo.

@@ -1,5 +1,7 @@
 id: 111b56b0-4872-4130-ad2e-e58f8363451d
 
+last_update_date: 2024-09-01
+
 level: beginner
 
 category: mobile
@@ -17,148 +19,148 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.45
+    reward: 5.53
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.36
+    reward: 3.72
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 1.68
+    reward: 1.86
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.36
+    reward: 3.72
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.45
+    reward: 5.53
   - language: fr
     last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - nrak10
-    reward: 1.68
+    reward: 1.86
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.36
+    reward: 3.72
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.53
+    reward: 9.15
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.36
+    reward: 3.72
   - language: ru
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 2.22
+    reward: 2.77
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 2.77
+    reward: 4.58
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.45
+    reward: 5.53
   - language: id
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 2.77
+    reward: 3.67
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.53
+    reward: 7.34
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.45
+    reward: 5.53
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.53
+    reward: 9.15
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.45
+    reward: 5.53
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.45
+    reward: 7.34
   - language: sw
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 2.22
+    reward: 2.77
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.53
+    reward: 7.34
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.45
+    reward: 5.53
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.36
+    reward: 3.72
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.45
+    reward: 5.53
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.53
+    reward: 7.34
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.53
+    reward: 7.34
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.53
+    reward: 9.15
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.45
+    reward: 5.53
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.53
+    reward: 7.34
 tags:
   - guides
   - wallets

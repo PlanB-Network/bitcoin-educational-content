@@ -1,0 +1,8 @@
+question: Dans l'exemple de Böhm-Bawerk, pourquoi le paysan a-t-il choisi d'arrêter de nourrir les perroquets quand il a perdu un sac de blé?
+answer: Parce que nourrir les perroquets était l'utilisation la moins prioritaire selon ses préférences subjectives
+wrong_answers:
+  - Parce que les perroquets coûtaient le plus cher à nourrir en termes de quantité de blé
+  - Parce que les perroquets étaient malades et ne pouvaient plus être vendus au marché
+  - Parce que la production de whisky générait automatiquement plus de revenus que les perroquets
+explanation: |
+  L'exemple illustre parfaitement le principe de l'utilité marginale et du coût d'opportunité subjectif. Le paysan a établi une hiérarchie personnelle de ses besoins : alimentation de base, développement de sa force, nourriture pour les poulets, production de whisky, et enfin les perroquets. Face à la contrainte de ressources limitées, il renonce naturellement à l'usage qu'il valorise le moins subjectivement, démontrant que la valeur n'est pas objective mais dépend des préférences individuelles de chacun.

@@ -1,0 +1,9 @@
+question: Wat kan de LND seed zelf herstellen?
+answer: De wallet
+wrong_answers:
+  - Open kanalen
+  - Kanaal staten
+  - Niets
+explanation: |
+  De seed haalt de Bitcoin onchain wallet op, maar niet de actieve Lightning-kanalen.
+reviewed: false

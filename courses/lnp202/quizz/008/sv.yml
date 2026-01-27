@@ -1,0 +1,9 @@
+question: Vem äger bitcoins med en custodial Lightning wallet?
+answer: Företaget
+wrong_answers:
+  - Användaren
+  - Blixtens nätverk
+  - Bitcoin Kärnan
+explanation: |
+  I en depåmodell har företaget nycklarna och kontrollerar medlen, medan användaren endast har ett bokföringsmässigt saldo.
+reviewed: false

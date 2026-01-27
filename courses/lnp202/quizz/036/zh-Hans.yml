@@ -1,0 +1,9 @@
+question: 为什么 "闪电 "路由难以盈利？
+answer: 成本与竞争
+wrong_answers:
+  - 通道限制
+  - 无要求
+  - 缺乏全球流动性
+explanation: |
+  链上成本、竞争和运营要求使得路由业务的盈利能力不确定。
+reviewed: false

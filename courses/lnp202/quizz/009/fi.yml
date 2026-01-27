@@ -1,0 +1,9 @@
+question: Millainen valta säilytyspalvelun tarjoajalla on käyttäjiensä maksuihin?
+answer: Sensuurin valta
+wrong_answers:
+  - Mining teho
+  - Konsensuksen tema
+  - Halving teho
+explanation: |
+  Varoja ja kanavia valvova operaattori te estää, viivästyttää tai suodattaa maksuja.
+reviewed: false

@@ -1,5 +1,7 @@
 id: 81fdd0db-b2bd-4a6c-a082-2de269e26779
 
+last_update_date: 2025-07-24
+
 credit_link: https://www.it-connect.fr/mise-en-place-de-wireguard-vpn-sur-debian-11/
 
 tags:
@@ -24,141 +26,141 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 4.25
+    reward: 1.6
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.29
+    reward: 4.76
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.49
+    reward: 3.21
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.49
+    reward: 3.21
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.49
+    reward: 3.21
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.29
+    reward: 4.76
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.29
+    reward: 4.76
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.29
+    reward: 4.76
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.09
+    reward: 7.87
   - language: id
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - AgoesRichie
-    reward: 7.04
+    reward: 3.16
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.49
+    reward: 3.21
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.09
+    reward: 7.87
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.29
+    reward: 4.76
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.29
+    reward: 4.76
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.49
+    reward: 3.21
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.29
+    reward: 4.76
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.29
+    reward: 6.32
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.49
+    reward: 3.21
   - language: sw
     last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 5.64
+    reward: 2.38
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.09
+    reward: 7.87
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.09
+    reward: 6.32
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.09
+    reward: 6.32
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.29
+    reward: 4.76
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.09
+    reward: 6.32
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.09
+    reward: 6.32
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.09
+    reward: 7.87
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.29
+    reward: 4.76
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.09
+    reward: 6.32

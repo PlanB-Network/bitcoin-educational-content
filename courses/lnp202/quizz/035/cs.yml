@@ -1,0 +1,9 @@
+question: Jaký je hlavní účel směrovače v systému Lightning?
+answer: Vydělávejte na poplatcích za směrování
+wrong_answers:
+  - Vydělávejte peníze tím, že ukazujete cestu
+  - Vydělávání peněz prodejem příchozí likvidity
+  - Vydělávejte peníze zveřejňováním zastaralých stavů kanálů
+explanation: |
+  Směrovač se snaží směrovat platby od jiných osob vybíráním poplatků za směrování.
+reviewed: false

@@ -55,7 +55,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.13
+    reward: 0.16
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -75,7 +75,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.13
+    reward: 0.16
   - language: zh-Hans
     last_contribution_date: '2025-08-19'
     urgency: 1
@@ -86,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.13
+    reward: 0.16
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -96,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.13
+    reward: 0.15
   - language: sw
     last_contribution_date:
     urgency: 1
@@ -106,7 +106,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.13
+    reward: 0.15
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -126,14 +126,14 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.13
+    reward: 0.15
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.13
+    reward: 0.15
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.13
+    reward: 0.16

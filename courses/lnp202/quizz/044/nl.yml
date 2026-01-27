@@ -1,0 +1,9 @@
+question: Welke rol speelt ThunderHub in relatie tot je LND knooppunt?
+answer: Interface beheer
+wrong_answers:
+  - Implementatie van bliksem
+  - Conciërgedienst
+  - Routing knooppunt
+explanation: |
+  ThunderHub is een interface die verbinding maakt met LND om het knooppunt te beheren.
+reviewed: false

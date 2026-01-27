@@ -1,8 +1,8 @@
 question: Qu'est-ce qui permet à LDK de prendre en charge divers mécanismes de transport tels que les sockets TCP, les WebSockets et les connexions série USB pour la communication Lightning Network ?
-answer: Le système de gestion des pairs fonctionne indépendamment du mécanisme de transport sous-jacent tout en gérant le cryptage du protocole de bruit
+answer: Le système de gestion des pairs fonctionne indépendamment du mécanisme de transport sous-jacent tout en gérant le cryptage du protocole Noise.
 wrong_answers:
-  - Le gestionnaire de canaux se coordonne avec plusieurs adaptateurs de réseau par le biais d'une couche d'abstraction de socket unifiée
-  - LDK met en œuvre des pilotes spécifiques à chaque protocole pour chaque type de transport au sein de son module central de mise en réseau
-  - Le système d'événements détecte automatiquement les méthodes de transport disponibles et configure les gestionnaires de connexion appropriés
+  - Le gestionnaire de canaux se coordonne avec plusieurs adaptateurs de réseau par le biais d'une couche d'abstraction de sockets unifiée.
+  - LDK met en œuvre des pilotes spécifiques à chaque protocole pour chaque type de transport au sein de son module central de mise en réseau.
+  - Le système d'événements détecte automatiquement les méthodes de transport disponibles et configure les gestionnaires de connexion appropriés.
 explanation: |
   Le système de gestion des pairs de LDK est spécialement conçu pour gérer la communication du protocole Lightning (y compris le cryptage du bruit et les structures de message) indépendamment de la couche de transport proprement dite. Cette séparation architecturale permet aux développeurs de mettre en œuvre n'importe quel canal de communication bidirectionnel tandis que le gestionnaire de pairs se concentre uniquement sur la conformité au protocole Lightning. Les autres options suggèrent à tort que LDK fournit des implémentations de transport intégrées ou une détection automatique, alors qu'en réalité la force de LDK réside dans l'abstraction totale des mécanismes de transport spécifiques.

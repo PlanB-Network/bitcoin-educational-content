@@ -1,0 +1,9 @@
+question: Eski bir channel.db dosyasını geri yüklemek neden tehlikelidir?
+answer: Ceza riski
+wrong_answers:
+  - seed'ın kaybı
+  - Dedikodu yolsuzluğu
+  - Yönlendirmeyi engelleme
+explanation: |
+  Güncel olmayan bir durum, hile yapma girişimi olarak yorumlanabilir ve kanal fonlarının kaybedilmesine neden olabilir.
+reviewed: false

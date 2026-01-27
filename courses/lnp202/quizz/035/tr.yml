@@ -1,0 +1,9 @@
+question: Lightning'de bir yönlendiricinin temel amacı nedir?
+answer: Yönlendirme ücretleri ile para kazanın
+wrong_answers:
+  - Yol göstererek para kazanın
+  - Gelen likiditeyi satarak para kazanmak
+  - Güncelliğini yitirmiş kanal durumlarını yayınlayarak para kazanın
+explanation: |
+  Yönlendirici, yönlendirme ücretlerini toplayarak başkalarından gelen ödemeleri yönlendirmeye çalışır.
+reviewed: false

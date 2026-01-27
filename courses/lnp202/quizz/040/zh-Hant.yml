@@ -1,0 +1,9 @@
+question: 為什麼要使用 Lightning 節點管理器？
+answer: 輕鬆存取進階功能
+wrong_answers:
+  - 取代 LND 實作
+  - 消除對 Umbrel 的依賴
+  - 修改 Lightning 通訊協定
+explanation: |
+  進階管理員提供基本介面所沒有的功能，同時維持簡單的介面。
+reviewed: false

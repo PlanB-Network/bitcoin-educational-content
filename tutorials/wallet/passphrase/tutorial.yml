@@ -1,5 +1,6 @@
 id: a26a0220-806c-44b4-af14-bafdeb1adce7
 
+last_update_date: 2024-10-18
 
 category: backup
 
@@ -20,143 +21,143 @@ proofreading:
     contributor_names:
       - LoicPandul
       - nrak10
-    reward: 0.55
+    reward: 0
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 1.26
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 1.26
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.19
+    reward: 0.88
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.19
+    reward: 0.88
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.19
+    reward: 0.88
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 1.26
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.59
+    reward: 1.65
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.19
+    reward: 0.88
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.59
+    reward: 2.04
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.19
+    reward: 0.88
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 1.26
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.59
+    reward: 2.04
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.59
+    reward: 1.65
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 1.26
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.59
+    reward: 2.04
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 1.26
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 1.65
   - language: sw
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 1.45
+    reward: 0.63
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.59
+    reward: 1.65
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 1.26
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.19
+    reward: 0.88
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 1.26
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.59
+    reward: 1.65
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.59
+    reward: 1.65
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.59
+    reward: 2.04
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 1.26
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.59
+    reward: 1.65
 tags:
   - keys
   - backup

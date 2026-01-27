@@ -1,0 +1,9 @@
+question: Miks on Lightning-sõlme varundamine keerulisem kui Bitcoin onchain wallet?
+answer: Kanalite olukord areneb
+wrong_answers:
+  - Kanali likviidsus sõltub mempoolist
+  - Salvestage Lightning võrgu klatš
+  - Tühistamisvõtmed aeguvad aja jooksul
+explanation: |
+  Välgukanalid muudavad oma seisundit iga makse korral, mistõttu lihtne fikseeritud või perioodiline varundamine on ohtlik.
+reviewed: false

@@ -1,0 +1,9 @@
+question: De quoi se compose la récompense de bloc ?
+answer: Subvention + frais
+wrong_answers:
+  - Subvention + difficulté
+  - Frais + nonce
+  - Hashrate + frais
+explanation: |
+  La récompense additionne la subvention de bloc et l’ensemble des frais des transactions incluses.
+reviewed: false

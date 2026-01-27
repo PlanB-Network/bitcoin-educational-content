@@ -38,7 +38,6 @@ objectives:
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -94,7 +93,6 @@ objectives:
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -150,7 +148,6 @@ objectives:
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -236,7 +233,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -304,7 +300,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -381,7 +376,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -450,7 +444,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -509,7 +502,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -569,7 +561,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -628,7 +619,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -682,7 +672,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -743,7 +732,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -799,7 +787,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -858,7 +845,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -918,7 +904,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -974,7 +959,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1033,7 +1017,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1093,7 +1076,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1165,7 +1147,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1225,7 +1206,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1295,7 +1275,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1339,7 +1318,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1394,7 +1372,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1454,7 +1431,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1513,7 +1489,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1580,7 +1555,6 @@ Ownership може да се наблюдава във всички възрас
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1644,7 +1618,6 @@ Exchange и договорът са взаимно обогатяващи се, 
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1705,7 +1678,6 @@ Exchange и договорът са взаимно обогатяващи се, 
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1769,7 +1741,6 @@ Exchange и договорът са взаимно обогатяващи се, 
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1829,7 +1800,6 @@ Exchange и договорът са взаимно обогатяващи се, 
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

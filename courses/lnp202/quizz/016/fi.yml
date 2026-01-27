@@ -1,0 +1,9 @@
+question: Mikä tieto kertoo Lightning-solmun vastaanottokapasiteetin?
+answer: Saapuva likviditeetti
+wrong_answers:
+  - Aktiiviset yhteydet
+  - Lähtevä likviditeetti
+  - Lohkojen lukumäärä
+explanation: |
+  Saapuva likviditeetti edustaa sats:ta, jonka solmu te vastaanottaa Lightningin kautta.
+reviewed: false

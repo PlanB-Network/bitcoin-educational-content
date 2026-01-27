@@ -23,7 +23,7 @@ Od antiky přes osvícenství svoboda vzkvétala, jak společnosti přijímaly t
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-Vítejte v kurzu PHI201!
+Vítejte v kurzu PHI101!
 
 Tento kurz vás zve k prozkoumání vývoje svobody v dějinách prostřednictvím analýzy hlavních myšlenkových proudů, které ji formovaly. Zjistíte, jak se pojem svobody utvářel během staletí, ať už ve spolupráci či v opozici vůči moci, při historickém putování od antiky po současné debaty.
 

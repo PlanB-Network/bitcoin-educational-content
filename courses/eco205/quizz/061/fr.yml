@@ -1,0 +1,8 @@
+question: Que signifie le fait que les biens capitaux ne sont pas interchangeables selon la théorie autrichienne?
+answer: Une machine d'extraction ne peut pas être reconvertie instantanément en moissonneuse-batteuse
+wrong_answers:
+  - Tous les biens capitaux ont la même valeur monétaire sur le marché
+  - Les biens capitaux peuvent être facilement échangés entre différentes industries
+  - La productivité de tous les biens capitaux est identique dans tous les secteurs
+explanation: |
+  L'hétérogénéité du capital signifie que chaque bien capital a des caractéristiques uniques et des usages spécifiques. Cette non-interchangeabilité a des conséquences importantes : les mauvais investissements ne peuvent être facilement corrigés et une structure de capital mal orientée ne peut être instantanément réallouée vers d'autres usages plus productifs, ce qui explique en partie les cycles économiques selon les autrichiens.

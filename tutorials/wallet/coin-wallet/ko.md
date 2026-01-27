@@ -211,11 +211,12 @@ Bitcoin을 보내려면:
 4. 트랜잭션 속도를 선택합니다:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| 속도   | 대략적인 확인 시간 | 수수료 수준     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **느림**    | ~120분              | 최저
+| **기본값** | ~60분               | 중간
+| **빠름**    | ~20분               | 높음
 
 5. 4자리 PIN으로 확인 → 거래가 브로드캐스트됩니다
 

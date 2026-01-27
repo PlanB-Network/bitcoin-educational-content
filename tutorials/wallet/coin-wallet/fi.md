@@ -211,11 +211,12 @@ Bitcoin:n lähettäminen:
 4. Valitse tapahtuman nopeus:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Nopeus   | Likimääräinen vahvistusaika | Maksujen taso     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Hidas**    | ~120 minuuttia              | Alin
+| **Oletus** | ~60 minuuttia               | Keskitaso
+| **Nopea**    | ~20 minuuttia               | Korkeampi
 
 5. Vahvista 4-numeroisella PIN-koodillasi → maksutapahtuma lähetetään
 

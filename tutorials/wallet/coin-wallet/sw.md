@@ -211,11 +211,12 @@ Kutuma Bitcoin:
 4. Chagua kasi ya muamala:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Kasi   | Wakati wa uthibitisho takriban | Kiwango cha ada     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Polepole**    | ~120 dakika              | Chini zaidi
+| **Chaguo-msingi** | ~60 dakika               | Kati
+| **Haraka**    | ~20 dakika               | Juu zaidi
 
 5. Thibitisha kwa kutumia PIN yako ya tarakimu 4 → muamala unatangazwa
 

@@ -211,11 +211,12 @@ Odeslání Bitcoin:
 4. Zvolte rychlost transakce:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Rychlost   | Přibližný čas potvrzení | Úroveň poplatku     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Pomalá**    | ~120 minut              | Nejnižší
+| **Výchozí** | ~60 minut               | Střední
+| **Rychlá**    | ~20 minut               | Vyšší
 
 5. Potvrďte čtyřmístným kódem PIN → transakce se vysílá
 

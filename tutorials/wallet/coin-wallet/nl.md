@@ -211,11 +211,12 @@ Bitcoin verzenden:
 4. Kies transactiesnelheid:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Snelheid   | Geschatte bevestigingstijd | Tariefniveau     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Langzaam**    | ~120 minuten              | Laagste
+| **Standaard** | ~60 minuten               | Gemiddeld
+| **Snel**    | ~20 minuten               | Hoger
 
 5. Bevestig met je 4-cijferige PIN → transactie is uitgezonden
 

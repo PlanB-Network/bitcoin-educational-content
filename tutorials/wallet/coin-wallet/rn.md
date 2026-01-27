@@ -211,11 +211,12 @@ Kugira ngo wohereze Bitcoin:
 4. Hitamwo umuvuduko wo gucuruza:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Umwimerere   | Umwanya w'ubwigire bugenguye | Ikinini cy'intambiko     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Gake**    | ~120 iminsi              | Kinini
+| **Igishushanyo** | ~60 iminsi               | Rimwe
+| **Hagati**    | ~20 iminsi               | Kirimpa
 
 5. Wemeze ukoresheje PIN yawe y'imirongo 4 → amafaranga yawe aratangazwa
 

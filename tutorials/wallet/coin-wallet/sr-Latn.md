@@ -211,11 +211,12 @@ Da pošaljete Bitcoin:
 4. Izaberite brzinu transakcije:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Brzina   | Približno vreme potvrde | Nivo naknade     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Spora**    | ~120 minuta              | Najniža
+| **Podrazumevana** | ~60 minuta               | Srednja
+| **Brza**    | ~20 minuta               | Viša
 
 5. Potvrdite sa vašim 4-cifrenim PIN-om → transakcija se emituje
 

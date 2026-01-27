@@ -211,11 +211,12 @@ Bitcoin saatmiseks:
 4. Valige tehingu kiirus:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Kiirus   | Ligikaudne kinnitusaeg | Tasude tase     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Aeglane**    | ~120 minutit              | Madalaim
+| **Vaikimisi** | ~60 minutit               | Keskmise
+| **Kiire**    | ~20 minutit               | Kõrgem
 
 5. Kinnitage oma 4-kohaline PIN-kood → tehing on eetrisse saadetud
 

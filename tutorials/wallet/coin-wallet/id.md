@@ -211,11 +211,12 @@ Untuk mengirim Bitcoin:
 4. Pilih kecepatan transaksi:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Kecepatan   | Waktu konfirmasi perkiraan | Tingkat biaya     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Lambat**    | ~120 menit              | Terendah
+| **Default** | ~60 menit               | Sedang
+| **Cepat**    | ~20 menit               | Lebih tinggi
 
 5. Konfirmasi dengan 4 digit PIN Anda → transaksi disiarkan
 

@@ -211,11 +211,12 @@ Pour envoyer Bitcoin :
 4. Choisissez la vitesse de transaction :
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Vitesse   | Temps de confirmation approximatif | Niveau de frais     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Lent**    | ~120 minutes              | Plus bas
+| **Par défaut** | ~60 minutes               | Moyen
+| **Rapide**    | ~20 minutes               | Plus élevé
 
 5. Confirmez avec votre code PIN à 4 chiffres → la transaction est diffusée
 

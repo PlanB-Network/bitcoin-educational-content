@@ -211,11 +211,12 @@ Mecto hoàn toàn là tùy chọn – hãy tắt nó đi nếu bạn muốn có 
 4. Chọn tốc độ giao dịch:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Tốc độ   | Thời gian xác nhận gần đúng | Mức phí     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Chậm**    | ~120 phút              | Thấp nhất
+| **Mặc định** | ~60 phút               | Trung bình
+| **Nhanh**    | ~20 phút               | Cao hơn
 
 5. Xác nhận bằng mã PIN 4 chữ số của bạn → giao dịch được thực hiện
 

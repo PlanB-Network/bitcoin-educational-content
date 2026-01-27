@@ -211,11 +211,12 @@ Bitcoin'i göndermek için:
 4. İşlem hızını seçin:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Hız   | Yaklaşık onay süresi | Ücret seviyesi     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Yavaş**    | ~120 dakika              | En düşük
+| **Varsayılan** | ~60 dakika               | Orta
+| **Hızlı**    | ~20 dakika               | Daha yüksek
 
 5. 4 haneli PIN kodunuzla onaylayın → işlem yayınlanır
 

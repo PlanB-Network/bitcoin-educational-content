@@ -211,11 +211,12 @@ För att skicka Bitcoin:
 4. Välj transaktionshastighet:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Hastighet   | Ungefärlig bekräftelsestid | Gebyrsnivå     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Långsam**    | ~120 minuter              | Lägsta
+| **Standard** | ~60 minuter               | Medel
+| **Snabb**    | ~20 minuter               | Högre
 
 5. Bekräfta med din 4-siffriga PIN-kod → transaktionen sänds
 

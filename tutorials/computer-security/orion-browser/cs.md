@@ -522,15 +522,16 @@ Aby byl Orion rychlý a soukromý:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Kritérium | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Telemetrie** | Žádná | Minimální | Rozsáhlá | Umírněná | Minimální |
+| **Nativní blokátor** | 99,9% účinný | Základní | Chybí | Částečný | Úplný |
+| **Rozšíření** | Chrome + Firefox | Omezená | Pouze Chrome | Pouze Firefox | Pouze Chrome |
+| **Výkon Mac** | Vynikající | Vynikající | Dobrý | Průměrný | Dobrý |
+| **Spotřeba RAM** | Velmi nízká | Nízká | Vysoká | Průměrná | Průměrná |
+| **Open Source** | Částečný | Částečný (WebKit) | Částečný | Úplný | Úplný |
+| **Platformy** | Mac/iOS | Mac/iOS | Všechny | Všechny | Všechny |
 
 **Oproti Safari**: Orion nabízí vynikající ochranu díky pokročilému blokování a podpoře rozšíření, přičemž zachovává výkon WebKitu.
 

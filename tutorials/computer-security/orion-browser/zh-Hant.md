@@ -522,15 +522,16 @@ Orion 的私人導航 (⌘⇧N) 提供：
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| 標準 | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **遙測** | 無 | 最少 | 廣泛 | 適度 | 最少 |
+| **原生阻止程序** | 99.9% 有效 | 基礎 | 不存在 | 部分 | 完整 |
+| **擴展** | Chrome + Firefox | 有限 | 僅 Chrome | 僅 Firefox | 僅 Chrome |
+| **Mac 性能** | 卓越 | 卓越 | 良好 | 平均 | 良好 |
+| **RAM 消耗** | 非常低 | 低 | 高 | 平均 | 平均 |
+| **開源** | 部分 | 部分 (WebKit) | 部分 | 完整 | 完整 |
+| **平台** | Mac/iOS | Mac/iOS | 全部 | 全部 | 全部 |
 
 **對比 Safari**：Orion 以其先進的封鎖程式和擴充支援提供優異的保護，同時維持 WebKit 的效能。
 

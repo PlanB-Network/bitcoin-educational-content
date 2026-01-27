@@ -522,15 +522,16 @@ Da bi Orion ostao brz i privatan:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Kriterijum | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Telemetrija** | Nema | Minimalna | Obimna | Umerena | Minimalna |
+| **Ugrađeni blokator** | 99,9% efikasan | Osnovna | Nedostaje | Delimična | Potpuna |
+| **Proširenja** | Chrome + Firefox | Ograničena | Samo Chrome | Samo Firefox | Samo Chrome |
+| **Performanse Mac** | Odličan | Odličan | Dobar | Prosečan | Dobar |
+| **Potrošnja RAM** | Veoma niska | Niska | Visoka | Prosečna | Prosečna |
+| **Open Source** | Delimičan | Delimičan (WebKit) | Delimičan | Potpun | Potpun |
+| **Platforme** | Mac/iOS | Mac/iOS | Sve | Sve | Sve |
 
 **Versus Safari**: Orion nudi superiornu zaštitu sa svojim naprednim blokatorom i podrškom za ekstenzije, dok održava WebKit performanse.
 

@@ -522,15 +522,16 @@ For å holde Orion rask og privat:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Kriterium | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Telemetri** | Ingen | Minimal | Omfattende | Moderat | Minimal |
+| **Native blokkering** | 99,9% effektiv | Grunnleggende | Fraværende | Delvis | Fullstendig |
+| **Utvidelser** | Chrome + Firefox | Begrenset | Kun Chrome | Kun Firefox | Kun Chrome |
+| **Mac-ytelse** | Utmerket | Utmerket | God | Gjennomsnittlig | God |
+| **RAM-forbruk** | Svært lavt | Lavt | Høyt | Gjennomsnittlig | Gjennomsnittlig |
+| **Åpen kildekode** | Delvis | Delvis (WebKit) | Delvis | Fullstendig | Fullstendig |
+| **Plattformer** | Mac/iOS | Mac/iOS | Alle | Alle | Alle |
 
 **I motsetning til Safari**: Orion tilbyr overlegen beskyttelse med sin avanserte blokkering og støtte for utvidelser, samtidig som WebKit-ytelsen opprettholdes.
 

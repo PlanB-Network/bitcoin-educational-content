@@ -522,15 +522,16 @@ Orionin pitäminen nopeana ja yksityisenä:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Kriteeri | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Telemetria** | Ei mitään | Vähäinen | Laaja | Maltillinen | Vähäinen |
+| **Natiivi esto** | 99,9% tehokas | Perusyksinkertainen | Puuttuu | Osittainen | Täydellinen |
+| **Laajennukset** | Chrome + Firefox | Rajoitettu | Vain Chrome | Vain Firefox | Vain Chrome |
+| **Mac-suorituskyky** | Erinomainen | Erinomainen | Hyvä | Keskimääräinen | Hyvä |
+| **RAM-kulutus** | Hyvin alhainen | Alhainen | Korkea | Keskimääräinen | Keskimääräinen |
+| **Avoin lähdekoodi** | Osittainen | Osittainen (WebKit) | Osittainen | Täydellinen | Täydellinen |
+| **Alustat** | Mac/iOS | Mac/iOS | Kaikki | Kaikki | Kaikki |
 
 **Versus Safari**: Orion tarjoaa ylivoimaisen suojan kehittyneiden esto- ja laajennustukiensa ansiosta ja säilyttää samalla WebKit-suorituskyvyn.
 

@@ -632,7 +632,7 @@ Cada uno de estos roles es esencial para la funcionalidad y el éxito de Bitcoin
 
 En la sección anterior, profundizamos en la funcionalidad única de Bitcoin que lo diferencia de las monedas tradicionales y cómo Bitcoin logra la codiciada insignia de ser descentralizado. Ahora, cambiemos nuestro enfoque y exploremos cómo Bitcoin difiere de la moneda fiduciaria en términos de las características que hacen grande a una moneda. Solo examinando estas características clave podemos obtener una comprensión más profunda de por qué Bitcoin es único y está en un mundo propio cuando se trata de dinero.
 
-Si recuerdas del Módulo Uno, echamos un vistazo tanto a las funciones como a las características del dinero, siendo estas:
+Si recuerdas del módulo uno, echamos un vistazo tanto a las funciones como a las características del dinero, siendo estas:
 
 **Reserva de Valor:** Mantiene el poder adquisitivo a lo largo del tiempo.
 
@@ -662,24 +662,24 @@ Mientras que las monedas fiduciarias están sujetas a la inflación y histórica
 
 #### Medio de Intercambio
 
-Aunque el bitcoin aún no es aceptado globalmente como las monedas fiduciarias, su naturaleza de peer-to-peer, tiempos de transacción rápidos y bajas comisiones lo hacen un medio de intercambio cada vez más atractivo, particularmente para transacciones transfronterizas. Esto es posible debido a que es:
+Aunque bitcoin aún no es aceptado globalmente como las monedas fiduciarias, su naturaleza de peer-to-peer, tiempos de transacción rápidos y bajas comisiones lo hacen un medio de intercambio cada vez más atractivo, particularmente para transacciones transfronterizas. Esto es posible debido a que es:
 
-- **Portátil:** El bitcoin, al ser digital, permite transferencias sin fronteras y sin intermediarios entre individuos, lo que lo hace un medio de intercambio conveniente y accesible. Aunque algunas monedas fiduciarias también ofrecen soluciones digitales, aquellos en países en desarrollo o en guerra pueden tener dificultades para acceder a servicios bancarios que cumplan esta necesidad. La naturaleza descentralizada del bitcoin lo hace accesible para cualquier persona con una conexión a internet, proporcionando una alternativa viable a los sistemas bancarios tradicionales en áreas con acceso limitado a servicios financieros.
-- **Divisible:** La extrema divisibilidad del bitcoin es una de sus principales ventajas como moneda. Con cada bitcoin divisible hasta ocho lugares decimales, la unidad más pequeña, un Satoshi, vale apenas una fracción de centavo. Dependiendo del método de transacción, es decir, capa uno o dos, esto hace que el bitcoin sea altamente adaptable a transacciones de cualquier tamaño, desde pequeñas compras hasta grandes inversiones.
-- **Aceptado:** Aunque la aceptación del bitcoin aún no es universal, su creciente adopción por comerciantes, instituciones e individuos alrededor del mundo sugiere que se está volviendo más ampliamente aceptado como una forma legítima de pago.
+- **Portátil:** Bitcoin, al ser digital, permite transferencias sin fronteras y sin intermediarios entre individuos, lo que lo hace un medio de intercambio conveniente y accesible. Aunque algunas monedas fiduciarias también ofrecen soluciones digitales, aquellos en países en desarrollo o en guerra pueden tener dificultades para acceder a servicios bancarios que cumplan esta necesidad. La naturaleza descentralizada de bitcoin lo hace accesible para cualquier persona con una conexión a internet, proporcionando una alternativa viable a los sistemas bancarios tradicionales en áreas con acceso limitado a servicios financieros.
+- **Divisible:** La extrema divisibilidad del bitcoin es una de sus principales ventajas como moneda. Con cada bitcoin divisible hasta ocho lugares decimales, la unidad más pequeña, un Satoshi, vale apenas una fracción de centavo. Dependiendo del método de transacción, es decir, capa uno o dos, esto hace que bitcoin sea altamente adaptable a transacciones de cualquier tamaño, desde pequeñas compras hasta grandes inversiones.
+- **Aceptado:** Aunque la aceptación de bitcoin aún no es universal, su creciente adopción por comerciantes, instituciones e individuos alrededor del mundo sugiere que se está volviendo más ampliamente aceptado como una forma legítima de pago.
 
 ### Unidad de Cuenta
 
-A medida que el bitcoin ha ganado reconocimiento como medio de intercambio, rápidamente ha escalado posiciones como una unidad de cuenta confiable para bienes y servicios, muy similar a las monedas fiduciarias. Sin embargo, lo que distingue al Bitcoin de las fiduciarias es su capacidad para proporcionar un método de transacción seguro, transparente y descentralizado. El principal contribuyente a la creciente adopción de Bitcoin como unidad de cuenta es el hecho de que es:
+A medida que bitcoin ha ganado reconocimiento como medio de intercambio, rápidamente ha escalado posiciones como una unidad de cuenta confiable para bienes y servicios, muy similar a las monedas fiduciarias. Sin embargo, lo que distingue a Bitcoin de las fiduciarias es su capacidad para proporcionar un método de transacción seguro, transparente y descentralizado. El principal contribuyente a la creciente adopción de Bitcoin como unidad de cuenta es el hecho de que es:
 
 - **Fungible:** Cada bitcoin es indistinguible de cualquier otro, lo que lo hace fácilmente intercambiable, lo cual no siempre es el caso con las monedas físicas que pueden tener identificadores únicos o ser de calidad variante.
 
-### El Activo vs La Red
+### El Activo vs la red
 
 Puede que hayas notado arriba que Bitcoin no es simplemente un activo poderoso para almacenar valor, sino que sus características únicas también lo hacen una red increíblemente segura y eficiente para transaccionar. Esto puede sonar un poco confuso, así que permítenos explicar. Bitcoin, como las monedas fiduciarias, se compone de dos componentes:
 
 **El activo (referido como bitcoin con una “b” minúscula)** – Esto es lo que compramos que es accesible desde nuestra billetera. Cuando se almacena fuera de los intercambios centralizados o billeteras, nuestra dependencia en la confianza se minimiza, centrando principalmente alrededor de la seguridad de nuestro hardware. Incluso entonces, podemos minimizar esa confianza asegurando de forma segura nuestra frase semilla o utilizando opciones de custodia como la multi-firma. Además, considerando que cualquier decisión dirigida a modificar los atributos fundamentales de Bitcoin, como su oferta total, son determinadas y mantenidas por la comunidad, hay una salvaguarda robusta contra la implementación de cambios perjudiciales que podrían dañar a los usuarios, es decir, la devaluación de la moneda a través de la expansión de la oferta.
-**La red (referida como Bitcoin con una "B" mayúscula)** - Estos son los rieles que facilitan el comercio del bitcoin-como-activo. La red permite a cualquiera enviar, verificar o confirmar transacciones. La naturaleza descentralizada de Bitcoin, respaldada por numerosos nodos, mineros y desarrolladores, asegura una estructura distribuida donde ninguna entidad única tiene dominio sobre otra. Esto ofrece una sensación reconfortante de seguridad y fiabilidad al realizar transacciones, eliminando preocupaciones sobre posibles revocaciones, negaciones, congelaciones u otras interrupciones.
+**La red (referida como Bitcoin con una "B" mayúscula)** - Estos son los rieles que facilitan el comercio de bitcoin-como-activo. La red permite a cualquiera enviar, verificar o confirmar transacciones. La naturaleza descentralizada de Bitcoin, respaldada por numerosos nodos, mineros y desarrolladores, asegura una estructura distribuida donde ninguna entidad única tiene dominio sobre otra. Esto ofrece una sensación reconfortante de seguridad y fiabilidad al realizar transacciones, eliminando preocupaciones sobre posibles revocaciones, negaciones, congelaciones u otras interrupciones.
 Cuando vemos las monedas fiduciarias desde la perspectiva de "el activo" y "la red", se hace evidente que debemos colocar mucha más confianza y dependencia en terceros e intermediarios. Por ejemplo:
 
 #### **El Activo** - _Las monedas fiduciarias que usamos como reserva de valor (por ejemplo, dólar estadounidense, euro, yen, franco, libra esterlina, etc.)._
@@ -699,7 +699,7 @@ Como ciudadanos, estamos sujetos a las decisiones tomadas por aquellos a cargo d
 **Los organismos reguladores supervisan varias ramas de las vías financieras que usamos diariamente** - Si nuestras opiniones políticas entran en conflicto con las regulaciones que gobiernan las redes monetarias o cualquier parte del proceso intermediario, nuestras transacciones pueden correr el riesgo de ser bloqueadas, y nuestros activos podrían ser confiscados. En casos extremos, incluso podríamos enfrentar la posibilidad de ser excluidos del sistema financiero por completo.
 ¿Te parece esto aterrador o improbable? A principios de 2022, durante la manifestación de camioneros en Canadá, individuos donaron para apoyar la causa. El Primer Ministro Trudeau hizo congelar las cuentas bancarias de algunos de estos individuos por su decreto. Independientemente de la opinión que se tenga sobre el asunto, el hecho de que se incautaran los activos de las personas por sus opiniones diferentes debería ser una señal de alerta.
 
-Con esto en mente, hay enormes ventajas no solo de tener acceso a un activo valioso y escaso, sino también a una red segura, eficiente, sin confianza, global y de bajo costo para intercambiar valor. Y es aquí donde Bitcoin sobresale. Como se ha discutido extensamente, la naturaleza descentralizada y digital de Bitcoin hace una red sin paralelo para transacciones rápidas, seguras y rentables sin la necesidad de intermediarios o terceras partes. Aquí hay algunos ejemplos de aquellos que se benefician del activo y la red sin igual de Bitcoin:
+Con esto en mente, hay enormes ventajas no solo de tener acceso a un activo valioso y escaso, sino también a una red segura, eficiente, confiable, global y de bajo costo para intercambiar valor. Y es aquí donde Bitcoin sobresale. Como se ha discutido extensamente, la naturaleza descentralizada y digital de Bitcoin hace una red sin paralelo para transacciones rápidas, seguras y rentables sin la necesidad de intermediarios o terceras partes. Aquí hay algunos ejemplos de aquellos que se benefician del activo y la red sin igual de Bitcoin:
 
 #### Comercio
 
@@ -716,7 +716,7 @@ Bitcoin proporciona una opción viable para mover valor para aquellos que huyen 
 #### Transferencia de Dinero
 
 Discutiremos esto con mucho más detalle en el siguiente módulo, pero por ahora, queremos mencionar que Bitcoin proporciona a los individuos una manera eficiente y rentable de enviar dinero de vuelta a sus seres queridos en el extranjero. A diferencia de los métodos tradicionales de remesas, que a menudo involucran altas tarifas de transacción y tiempos de procesamiento largos, las transacciones de Bitcoin se pueden completar rápidamente y con tarifas mínimas.
-En vista de esto, aunque el bitcoin, como activo, puede ofrecer beneficios significativos para aquellos que buscan escapar de la inflación o almacenar valor en una moneda más segura, reconocemos que muchas personas pueden no ser capaces de aprovechar el activo, es decir, la volatilidad del bitcoin como activo, puede no ser adecuada para el almacenamiento de valor a corto plazo o para aquellos con ahorros limitados. Afortunadamente, la red de Bitcoin jugará un papel crucial aquí, especialmente para individuos sin acceso a bancos o activos financieros, dado que los raíles de pago de la red facilitan transacciones financieras digitales para cualquier persona con un teléfono móvil y conexión a internet.
+En vista de esto, aunque bitcoin, como activo, puede ofrecer beneficios significativos para aquellos que buscan escapar de la inflación o almacenar valor en una moneda más segura, reconocemos que muchas personas pueden no ser capaces de aprovechar el activo, es decir, la volatilidad de bitcoin como activo, puede no ser adecuada para el almacenamiento de valor a corto plazo o para aquellos con ahorros limitados. Afortunadamente, la red de Bitcoin jugará un papel crucial aquí, especialmente para individuos sin acceso a bancos o activos financieros, dado que los raíles de pago de la red facilitan transacciones financieras digitales para cualquier persona con un teléfono móvil y conexión a internet.
 Bitcoin también se está convirtiendo rápidamente en el protocolo subyacente de transferencia de valor de internet. Debido a la capacidad de transacción de bajo costo, servicios como el streaming de valor están empezando a proliferar, conectando a los creadores de contenido directamente con sus audiencias. De manera similar, esta capacidad de streaming de bajo costo está viendo avances en servicios pagados como la medición de energía, donde los usuarios pueden pagar por demanda instantánea, transmitiendo bitcoin en una base de costo por uso. Las ofertas de pago peer-to-peer sin fricciones están revolucionando la forma en que las personas interactúan con bienes y servicios a través del ámbito digital.
 
 **Conclusión**
@@ -770,12 +770,12 @@ Lo que hace revolucionario a Bitcoin es que, por primera vez en la historia, pod
 
 #### Dónde almacenar tu bitcoin
 
-El primer paso para asegurar tu bitcoin es elegir la billetera adecuada. Sin entrar en demasiados detalles, hay principalmente dos tipos de billeteras disponibles: custodia y no custodia.
+El primer paso para asegurar tu bitcoin es elegir la billetera adecuada. Sin entrar en demasiados detalles, hay principalmente dos tipos de billeteras disponibles: Custodia y no custodia.
 
 **Billeteras de Custodia**
 Estas son billeteras donde, aunque puedes acceder a tu billetera y mover fondos, un tercero almacena y asegura tu bitcoin.
 
-Un ejemplo común de una billetera de custodia es una cuenta de intercambio. Cuando compras bitcoin a través de un intercambio y dejas tu bitcoin en el intercambio, estás usando una billetera de custodia. El intercambio tiene custodia sobre tu bitcoin y es responsable de almacenar y asegurar tus fondos.
+Un ejemplo común de una billetera de custodia es una cuenta en una casa de intercambio. Cuando compras bitcoin a través de una casa de intercambio y dejas tu bitcoin ahí, estás usando una billetera de custodia. La casa de intercambio tiene custodia sobre tu bitcoin y es responsable de almacenar y asegurar tus fondos.
 
 También hay innumerables otras soluciones de billetera de custodia disponibles para dispositivos móviles que te dan fácil acceso a tu bitcoin. Estas billeteras son típicamente fáciles de usar y ofrecen una manera simple de manejar tu bitcoin, pero aún así retienen las llaves de tu bitcoin.
 
@@ -784,7 +784,7 @@ Las billeteras no custodiales son un tipo de billetera Bitcoin donde tú eres el
 
 Las billeteras no custodiales ofrecen un nivel más alto de seguridad y privacidad sobre las billeteras de custodia, ya que tú eres el único responsable de la seguridad de tus fondos. Ejemplos de billeteras no custodiales incluyen billeteras de hardware como [Coldcard](https://store.coinkite.com/store/coldcard) y [Trezor](https://trezor.io/), que son dispositivos físicos que almacenan tus llaves privadas fuera de línea y proporcionan una capa extra de seguridad. Otras billeteras no custodiales populares son billeteras de software como [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), y [Blockstream Green](https://blockstream.com/green/), que pueden ser descargadas e instaladas en tu computadora o dispositivo móvil.
 
-*Aunque no podemos recomendar una billetera específica, te aconsejamos encarecidamente tomar control de tu bitcoin a través de la auto-custodia o custodia colaborativa, lo que implica seleccionar una billetera que se ajuste a tus necesidades y preferencias. Es esencial realizar una investigación exhaustiva antes de decidir sobre una billetera para asegurar que se alinee con tus requisitos de seguridad y usabilidad.*
+*Aunque no podemos recomendar una billetera específica, te aconsejamos tomar control de tu bitcoin a través de la auto-custodia o custodia colaborativa, lo que implica seleccionar una billetera que se ajuste a tus necesidades y preferencias. Es esencial realizar una investigación exhaustiva antes de decidir sobre una billetera para asegurar que se alinee con tus requisitos de seguridad y usabilidad.*
 
 Aunque las billeteras de custodia pueden parecer convenientes, vienen con riesgos significativos. Al dar custodia de tus llaves privadas a un tercero, efectivamente les das control sobre tus fondos. Si el custodio se vuelve insolvente, es hackeado o cierra, podrías perder acceso a tu bitcoin. Y esto ha ocurrido en innumerables ocasiones, con ejemplos de alto perfil incluyendo los hackeos de Mt. Gox y QuadrigaCX resultando en la pérdida de fondos de los clientes, o FTX, Voyager, BlockFi y Celsius experimentando insolvencias catastróficas, llevando a la pérdida de sus fondos de clientes. Especialmente para ahorros, practicar la auto-custodia y tomar responsabilidad por asegurar tu bitcoin es crucial.
 
@@ -798,26 +798,26 @@ Una vez que hayas decidido sobre una billetera, la diversión y los juegos aún 
 
 Aunque la auto-custodia es nuestro enfoque recomendado, entendemos que puede no ser adecuado para todos. Aquí hay algunas pautas generales para ayudar a minimizar el riesgo:
 
-- Usa intercambios para comprar bitcoin, billeteras móviles para transacciones cotidianas y billeteras de hardware para almacenar tus ahorros de bitcoin a largo plazo.
-- Trata los intercambios o billeteras móviles como tu billetera física, manteniendo solo la cantidad de bitcoin que llevarías en tu billetera cotidiana.
+- Usa plataformas de intercambio para comprar bitcoin, billeteras móviles para transacciones cotidianas y billeteras de hardware para almacenar tus ahorros de bitcoin a largo plazo.
+- Trata las cuentas en plataformas de intercambio o billeteras móviles como tu billetera física, manteniendo solo la cantidad de bitcoin que llevarías en tu billetera cotidiana.
 - Considera tu billetera de hardware como tu cuenta de ahorros. Está destinada para un acceso infrecuente y prioriza la seguridad y protección a largo plazo.
 
-Y si estás usando un intercambio:
+Y si estás usando una plataforma de intercambio:
 
 1. Crea una contraseña fuerte y única. Evita usar frases comunes o contraseñas fáciles de adivinar. Considera usar un gestor de contraseñas.
 2. Habilita la autenticación de dos factores (2FA) siempre que sea posible. Esto agrega una capa extra de seguridad al requerir un código de tu teléfono o dispositivo de hardware además de tu contraseña.
 
-Si aún tienes dudas, te recomendamos encarecidamente que consultes a Ben de [BTCsessions](https://www.youtube.com/c/BTCSessions) en YouTube.
+Si aún tienes dudas, te recomendamos que consultes a Ben de [BTCsessions](https://www.youtube.com/c/BTCSessions) en YouTube.
 
-Recuerda, con gran poder viene una gran responsabilidad, y tomarte el tiempo para asegurar tu bitcoin adecuadamente es esencial para proteger tu futuro financiero.
+Recuerda, con un gran poder viene una gran responsabilidad, y tomarte el tiempo para asegurar tu bitcoin adecuadamente es esencial para proteger tu futuro financiero.
 
-Antes de cerrar este módulo, me gustaría dejarte con un último pensamiento...
+Antes de cerrar este módulo, nos gustaría dejarte con un último pensamiento...
 
 ### Profundizando
 
 Si estás interesado en explorar más a fondo el mundo de Bitcoin, hay muchas opciones disponibles. Tales como:
 
-1. **Nodos:** Ejecutar un nodo es un excelente punto de entrada para aquellos curiosos sobre Bitcoin más allá de las transacciones básicas. Te permite no solo contribuir a la red de Bitcoin verificando la blockchain e influenciando en nuevas actualizaciones o cambios, sino que minimiza la confianza y ofrece una privacidad mejorada al darte la capacidad de verificar tus propias transacciones y saldos. Al ejecutar un nodo, te conviertes en parte de la red descentralizada y ayudas a asegurar su seguridad e integridad.
+1. **Nodos:** Ejecutar un nodo es un excelente punto de entrada para aquellos curiosos sobre Bitcoin más allá de las transacciones básicas. Te permite no solo contribuir a la red de Bitcoin verificando la blockchain e influenciando en nuevas actualizaciones o cambios, sino que aumenta la confianza y ofrece una privacidad mejorada al darte la capacidad de verificar tus propias transacciones y saldos. Al ejecutar un nodo, te conviertes en parte de la red descentralizada y ayudas a asegurar su seguridad e integridad.
 2. **Minería:** La minería es otra forma de contribuir a la red de Bitcoin y potencialmente ganar bitcoin. Aunque requiere un poco más de recursos que ejecutar un nodo y no es tan rentable como solía ser, la minería es una actividad gratificante para aquellos interesados en los aspectos técnicos de la red.
 3. **Desarrollo:** Si tienes experiencia en desarrollo de software y estás interesado en contribuir al desarrollo de Bitcoin, un gran punto de partida es el repositorio de [GitHub](https://github.com/bitcoin/bitcoin) de Bitcoin.
    Independientemente de tus intereses, hay muchos recursos disponibles para ayudarte a aprender más sobre Bitcoin y a involucrarte.
@@ -832,20 +832,20 @@ La mayor ventaja de Bitcoin es que nos permite tener auto-custodia de un activo 
 
 <chapterId>1c7b8165-d67b-5f7c-a1cb-b83db58b77c7</chapterId>
 
-Ahora que has pasado por el Módulo "Un Examen de Cómo Llegamos Aquí", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has entendido las últimas secciones. Comenzaremos con varias Preguntas Abiertas y luego un pequeño cuestionario.
+Ahora que has pasado por el Módulo "Un examen de cómo llegamos aquí", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has entendido las últimas secciones. Comenzaremos con varias Preguntas Abiertas y luego un pequeño cuestionario.
 
-1. ¿Cuáles son tus pensamientos sobre el concepto de una moneda digital descentralizada sin confianza y sin permisos como Bitcoin? ¿Cómo crees que se compara con las formas tradicionales de moneda?
+1. ¿Cuáles son tus pensamientos sobre el concepto de una moneda digital descentralizada confiable y sin permisos como Bitcoin? ¿Cómo crees que se compara con las formas tradicionales de moneda?
 2. ¿Crees que el suministro limitado de bitcoin, con solo 21 millones de monedas, le da valor y lo hace más deseable? ¿Por qué sí o por qué no?
 3. Basado en la información proporcionada sobre Satoshi Nakamoto, ¿crees que es importante conocer la verdadera identidad del creador de Bitcoin? ¿Por qué sí o por qué no?
 4. ¿Estás de acuerdo con las preocupaciones de Satoshi Nakamoto sobre los sistemas bancarios centralizados y la confianza requerida en las monedas convencionales? ¿Por qué sí o por qué no?
 5. Imagina que vives en un país que experimenta alta inflación. ¿Cómo podría bitcoin proporcionar una solución para preservar tu poder adquisitivo?
 6. Considera un escenario donde necesitas enviar dinero a un familiar en un país diferente. ¿Cómo podría la naturaleza de igual a igual de Bitcoin y las bajas comisiones beneficiarte en esta situación?
 
-# Estabilidad en Medio del Caos - Una Introducción a Tether y el Mundo de las Stablecoins
+# Estabilidad en Medio del Caos - Una introducción a Tether y el mundo de las Stablecoins
 
 <partId>60b1f3c4-e161-53fe-84ca-88d8cd62aa75</partId>
 
-## Una Introducción a Tether y el Mundo de las Stablecoins
+## Una Introducción a Tether y el mundo de las Stablecoins
 
 <chapterId>427a72b5-8af7-503e-bc45-bb8b95483993</chapterId>
 

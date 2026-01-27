@@ -1,8 +1,9 @@
 question: Mu 1776, harasohowe igitabu kivuga ngo ubudandaji n’ubutegetsi bifitaniye isano n’ubutunzi. Ni igitabu ikihe kindi casohowe muri uwo mwaka nyene?
-answer: Ubutunzi bw'amahanga bwanditswe na Adamu Smith
+answer: Ubutunzi bw'amahanga(The Wealth of Nations) canditswe na Adamu Smith
 wrong_answers:
-  - Igitabo ca Jean-Baptiste Say kivuga ku bukungu bwa politike
+  - Igitabo ca Jean-Baptiste Say kivuga ku butunzi bwa politike
   - Ivyiyumviro vya Turgot ku bijanye n’uguhingura no gusangira ubutunzi
-  - Ivy’Imibano Contract.
+  - Amasezerano y'imibano.
 explanation: |
   igitabu ca adam Smith citwa "Ubutunzi bw'amahanga" casohowe mu mwaka w'1776, umwaka w'agaciro kanini mu vyiyumviro vy'ubutunzi.
+reviewed: true

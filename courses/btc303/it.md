@@ -954,56 +954,49 @@ Uno degli revisori di codice più prolifici di Bitcoin Core è Jon Atack. Ha scr
 >
 > Un buon approccio è non concentrarsi su se stessi, ma chiedersi, "Come posso essere più utile?"
 
-Jon sottolinea il fatto che la revisione è un fattore veramente limitante in Bitcoin Core. Molte buone idee rimangono bloccate in un limbo, in attesa di essere revisionate. Va notato che la revisione non è solo utile a Bitcoin, è anche un ottimo modo per imparare a conoscere il software offrendo al contempo un contributo concreto. La regola empirica di Atack è quella di esaminare 5-15 PR prima di fare un proprio PR. Anche in questo caso, l'attenzione deve essere rivolta a come servire al meglio la community, non a come ottenere l'integrazione del proprio codice. Inoltre, sottolinea l'importanza di fare la revisione al giusto livello: è il momento di fare i conti con i refusi e gli errori di battitura, o lo sviluppatore ha bisogno di una revisione più concettuale? Jon aggiunge:
+Jon sottolinea il fatto che la revisione è un fattore veramente limitante in Bitcoin Core. Molte buone idee rimangono bloccate in un limbo, in attesa di essere revisionate. Va notato che la revisione non è solo utile a Bitcoin, è anche un ottimo modo per imparare a conoscere il software offrendo al contempo un contributo concreto. La regola empirica di Atack è quella di esaminare 5-15 PR prima di fare un proprio PR. Anche in questo caso, l'attenzione deve essere rivolta a come servire al meglio la community, non a come ottenere l'integrazione del proprio codice. Inoltre, sottolinea l'importanza di fare la revisione al giusto livello: è il momento di fare i conti con i refusi e gli errori di battitura, o lo sviluppatore ha bisogno di una revisione più concettuale? Inoltre Jon aggiunge:
 
-> Una prima domanda utile quando si inizia una revisione può essere: "Che cosa è più necessario qui in questo momento?" Rispondere a questa domanda richiede esperienza e un contesto accumulato, ma è una domanda utile per decidere come aggiungere il massimo valore nel minor tempo possibile.
+> Una prima domanda utile quando si inizia una revisione può essere: "Qual è la priorità in questo momento?" Rispondere a questa domanda richiede esperienza e un contesto accumulato, ma è una domanda utile per decidere come aggiungere il massimo valore nel minor tempo possibile.
 
-La seconda metà del post consiste in alcune utili indicazioni tecniche pratiche su come eseguire effettivamente la revisione e fornisce collegamenti a importanti documenti per ulteriori letture.
+La seconda metà del post consiste in alcune indicazioni utili, tecniche e pratiche su come eseguire effettivamente la revisione. Inoltre fornisce link a importanti documenti per ulteriori letture.
 
-Gloria Zhao, sviluppatrice e revisore del codice di Bitcoin Core, ha scritto [un articolo](https://github.com/glozow/Bitcoin-notes/blob/master/review-checklist.md) contenente le domande che solitamente si pone durante una revisione. Ha anche indicato cosa considera una buona revisione:
+Gloria Zhao, sviluppatrice e revisore del codice di Bitcoin Core, ha scritto [un articolo](https://github.com/glozow/Bitcoin-notes/blob/master/review-checklist.md) con le domande che solitamente si pone durante una revisione. Ha anche indicato una definizione personale di buona revisione:
 
-> Personalmente ritengo che una buona recensione sia quella in cui mi sono posto molte domande precise sulla PR e sono stato soddisfatto delle risposte
-a loro. [...] Naturalmente, inizio con le domande concettuali, poi con quelle relative all'approccio e infine con quelle relative all'implementazione. In generale, personalmente ritengo inutile lasciare commenti relativi alla sintassi del C++ su una bozza di PR, e mi sentirei scortese a tornare a "questo ha senso" dopo che l'autore ha risposto ad oltre 20 dei miei suggerimenti sull'organizzazione del codice.
+> Personalmente ritengo che una buona revisione sia quella in cui mi sono posta molte domande precise sulla PR e sono soddisfatta delle risposte. [...] Naturalmente, inizio con le domande concettuali, poi con quelle relative all'approccio e infine con quelle relative all'implementazione. In generale, personalmente ritengo inutile lasciare commenti relativi alla sintassi del C++ su una bozza di PR, e mi sentirei scortese a tornare a "questo ha senso" dopo che l'autore ha risposto ad oltre 20 dei miei suggerimenti sull'organizzazione del codice.
 
-La sua idea che una buona revisione debba concentrarsi su ciò che è più necessario in un momento specifico si allinea bene con i consigli di Jon Atack. Lei
+La sua idea che una buona revisione debba concentrarsi su ciò che è più necessario in un momento specifico si allinea bene con i consigli di Jon Atack. Gloria propone un elenco di domande da porsi ai vari livelli del processo di revisione, ma sottolinea che questo elenco non è in alcun modo esaustivo né rappresenta una vera e propria procedura rigida. L'elenco è illustrato con esempi reali tratti da GitHub.
 
-propone un elenco di domande che ci si può porre a vari livelli del processo di revisione, ma sottolinea che questo elenco non è in alcun modo esaustivo né rappresenta una vera e propria ricetta. L'elenco è illustrato con esempi reali tratti da GitHub.
-
-### Finanziamento
+### Finanziamenti
 
 Molte persone lavorano allo sviluppo open source di Bitcoin, sia per Bitcoin Core che per altri progetti. Molti lo fanno nel tempo libero senza ricevere alcun compenso, ma alcuni sviluppatori vengono anche pagati per farlo.
 
-Le aziende, gli individui e le organizzazioni che hanno interesse a che il Bitcoin continui ad avere successo possono donare fondi agli sviluppatori, direttamente o attraverso organizzazioni che a loro volta distribuiscono i fondi ai singoli sviluppatori. Esistono anche diverse aziende che si occupano di Bitcoin e che assumono sviluppatori qualificati per farli lavorare a tempo pieno su Bitcoin.
+Aziende, gli individui e le associazioni interessati al successo duraturo di Bitcoin possono donare fondi agli sviluppatori, direttamente o attraverso organizzazioni che poi distribuiscono i fondi ai singoli sviluppatori. Esistono anche diverse aziende che si occupano di Bitcoin e assumono sviluppatori qualificati per farli lavorare a tempo pieno su Bitcoin.
 
 ### Shock culturale
 
 
-La gente a volte ha l'impressione che ci siano molte lotte intestine e infiniti dibattiti accesi tra gli sviluppatori di Bitcoin, e che siano incapaci di prendere decisioni.
+La gente a volte ha l'impressione che ci siano molte lotte interne e infiniti dibattiti accesi tra gli sviluppatori di Bitcoin, e che siano incapaci di prendere decisioni.
 
-Ad esempio, il meccanismo di distribuzione del Taproot è stato discusso per un lungo periodo di tempo durante il quale si sono formati due "campi". Uno voleva "bocciare" l'aggiornamento se i miner non avessero votato in modo schiacciante per le nuove regole dopo un certo momento, mentre l'altro voleva far rispettare le regole dopo quel momento a prescindere da tutto. Michael Folkson riassume le argomentazioni delle due fazioni in una [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) alla mailing list Bitcoin-dev.
+Ad esempio, il meccanismo di distribuzione di Taproot è stato discusso per un lungo periodo di tempo durante il quale si sono formate due "squadre". Una voleva "bocciare" l'aggiornamento se i miner non avessero votato in modo schiacciante per le nuove regole dopo un certo momento, mentre l'altra voleva far rispettare le regole dopo quel momento a prescindere da tutto. Michael Folkson riassume le argomentazioni delle due fazioni in una [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) alla mailing list Bitcoin-dev.
 
-Il dibattito si è protratto apparentemente all'infinito ed è stato davvero Hard vedere un consenso su questo argomento in tempi brevi. Questo ha reso le persone frustrate e di conseguenza il calore si è intensificato. Gregory Maxwell (come utente nullc) si è preoccupato [su Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) che le lunghe discussioni avrebbero reso l'aggiornamento meno sicuro:
+Il dibattito si è protratto apparentemente all'infinito ed è stato davvero difficile vedere un consenso su questo argomento in tempi brevi. Questo ha reso le persone frustrate e di conseguenza il calore si è intensificato. Gregory Maxwell (con alias nullc) si è preoccupato [su Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) che le lunghe discussioni avrebbero reso l'aggiornamento meno sicuro:
 
-> In questo momento, un'ulteriore attesa non sta aggiungendo ulteriori revisioni e certezze. Al contrario, un ulteriore ritardo sta distruggendo l'inerzia e potenzialmente aumentando il rischio, poiché le persone iniziano a dimenticare i dettagli, a ritardare il lavoro sull'utilizzo a valle (come il supporto per il Wallet) e a non investire ulteriori sforzi di revisione come farebbero se si sentissero sicuri dei tempi di attivazione.
+> In questo momento, un'ulteriore attesa non sta aggiungendo ulteriori revisioni e certezze. Al contrario, un ulteriore ritardo sta distruggendo l'inerzia e potenzialmente aumentando il rischio, poiché le persone iniziano a dimenticare i dettagli, a ritardare il lavoro sull'utilizzo a valle (come il supporto per i wallet) e a non investire ulteriori sforzi di revisione come farebbero se si sentissero sicuri dei tempi di attivazione.
 
-Alla fine, questa disputa si è risolta grazie a una nuova proposta di David Harding e Russel O'Connor, chiamata Speedy Trial, che prevedeva un periodo di segnalazione relativamente più breve per i miner per bloccare l'attivazione del Taproot, o fallire velocemente. Se l'avessero attivata in quel lasso di tempo, il Taproot sarebbe stato distribuito circa 6 mesi dopo.
+Alla fine, questa disputa si è risolta grazie a una nuova proposta di David Harding e Russel O'Connor, chiamata Speedy Trial, che prevedeva un periodo di segnalazione relativamente breve per i miner, affinché confermassero l'attivazione di Taproot, o altrimenti falliva. Se l'avessero attivata in quel lasso di tempo, Taproot sarebbe stato implementato circa 6 mesi dopo.
 
-Chi non è abituato al processo di sviluppo di Bitcoin probabilmente penserebbe che questi accesi dibattiti siano terribilmente negativi e addirittura tossici. Ci sono almeno due fattori che li fanno sembrare cattivi, agli occhi di alcune persone:
+Chi non è abituato al processo di sviluppo di Bitcoin probabilmente penserebbe che questi accesi dibattiti siano terribilmente negativi e addirittura tossici. Ci sono almeno due fattori che li fanno sembrare nocivi, agli occhi di alcune persone:
 
 - Rispetto alle aziende closed source, tutti i dibattiti avvengono alla luce del sole, senza modifiche. Un'azienda di software come Google non permetterebbe mai ai suoi dipendenti di discutere apertamente delle funzionalità proposte, anzi, al massimo pubblicherebbe una dichiarazione sulla posizione dell'azienda in merito. Questo fa sembrare le aziende più armoniche rispetto a Bitcoin.
-- Poiché Bitcoin è privo di permessi, chiunque può esprimere le proprie opinioni. Questo è fondamentalmente diverso da un'azienda closed source che ha una manciata di persone con un'opinione, di solito persone che la pensano allo stesso modo. La pletora di opinioni espresse all'interno di Bitcoin è semplicemente sbalorditiva rispetto, ad esempio, a PayPal.
+- Poiché Bitcoin è privo di permessi, chiunque può esprimere le proprie opinioni. Questo è fondamentalmente diverso da un'azienda closed source che ha una manciata di persone con un'opinione rilevante, e di solito sono persone che la pensano allo stesso modo. La moltitudine di opinioni espresse all'interno di Bitcoin è semplicemente sbalorditiva rispetto, ad esempio, a PayPal.
 
-La maggior parte degli sviluppatori di Bitcoin sosterrebbe che questa apertura crea un ambiente buono e sano, e addirittura che è necessaria per produrre il miglior risultato.
+La maggior parte degli sviluppatori di Bitcoin sostiene che questa apertura crea un ambiente buono e sano, e addirittura che è necessaria per produrre il miglior risultato.
 
-Come accennato nel capitolo Minaccia, il secondo punto può essere molto vantaggioso, ma ha un rovescio della medaglia. Un attaccante potrebbe usare tattiche di stallo, come quelle descritte nel [Simple Sabotage Field Manual](https://www.gutenberg.org/ebooks/26184), per distorcere il processo decisionale e di sviluppo.
+Come accennato nel capitolo "Minaccie", il secondo punto può essere molto vantaggioso, ma ha un rovescio della medaglia. Un attaccante potrebbe usare tattiche di stallo, come quelle descritte nel [Simple Sabotage Field Manual](https://www.gutenberg.org/ebooks/26184), per distorcere il processo decisionale e di sviluppo.
 
-Un'altra cosa che vale la pena menzionare è che, poiché il Bitcoin è denaro e il Bitcoin Core assicura quantità insondabili di denaro, la sicurezza in questo contesto non viene presa alla leggera. Ecco perché il Bitcoin Core stagionato
+Un'altra cosa che vale la pena menzionare è che, poiché Bitcoin è denaro e Bitcoin Core assicura quantità insondabili di denaro, la sicurezza in questo contesto non viene presa alla leggera. Ecco perché gli sviluppatori esperti di Bitcoin Core potrebbero apparire molto "testardi", ma questo atteggiamento è di solito giustificato. In effetti, una funzionalità con una motivazione debole al suo sostegno non sarà accettata. Lo stesso accadrebbe se si rompessero le build riproducibili, introducesse nuove dipendenze o se il codice non rispettasse le [best practices] di Bitcoin (https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
-gli sviluppatori potrebbero apparire molto "testardi", ma questo atteggiamento è di solito giustificato. In effetti, una funzionalità con una motivazione debole alle spalle non sarà accettata. Lo stesso succederebbe se si rompesse il
-
-riproducibili, ha aggiunto nuove dipendenze o se il codice non seguiva le [best practices] di Bitcoin (https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
-
-I nuovi (e i vecchi) sviluppatori possono sentirsi frustrati da questa situazione. Ma, come è consuetudine nel software open source, si può sempre Fork accedere al repository, unire tutto ciò che si desidera al proprio Fork e creare ed eseguire il proprio binario.
+I nuovi (e i vecchi) sviluppatori possono sentirsi frustrati da questa situazione. Ma, come è consuetudine nel software open source, si può sempre crearee un fork del repository, unire tutto ciò che si desidera al proprio fork e creare ed eseguire il proprio software.
 
 ### Conclusioni sull'Open Source
 

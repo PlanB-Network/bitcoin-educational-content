@@ -1,5 +1,5 @@
 ---
-name: 도장
+name: Dojo
 description: 프라이버시 및 자율성을 위한 오픈소스 Bitcoin 노드
 ---
 
@@ -64,7 +64,7 @@ description: 프라이버시 및 자율성을 위한 오픈소스 Bitcoin 노드
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### 권장 장비
 
@@ -192,7 +192,7 @@ https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. 시스템 업데이트
 
@@ -428,7 +428,7 @@ sudo passwd dojo
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. 사용자에게 도커 사용 권한 부여
 
@@ -1068,7 +1068,7 @@ IBD에 대한 지식과 더 일반적으로 Bitcoin 노드의 운영 및 역할�
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. 동기화 모니터링

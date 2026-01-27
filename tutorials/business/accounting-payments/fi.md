@@ -28,7 +28,7 @@ Seuraava askel on hyväksyä Bitcoin suoraan yrityksessäsi; yksinkertaisin tapa
 Yksinkertaisuuden vuoksi käytämme esimerkkinä Satoshi:n Wallet:tä. Asenna ja määritä se seuraavien ohjeiden mukaisesti:
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Kun olet noudattanut opasta, olet valmis hyväksymään Bitcoin:n maksutapana: avaa mobiilisovellus ja napsauta "Vastaanota"-painiketta ja syötä sitten käyttäjän maksettavaksi tuleva summa (yleensä paikallisessa valuutassa) generate:een tai Invoice:een.
 
@@ -45,7 +45,7 @@ Hieman edistyneempi konfiguraatio on Wallet:n Satoshi:n Point of Sale -ominaisuu
 ![image](assets/en/01.webp)
 
 
-Tämä on toinen kahdesta tavasta käyttää Point of Sale -toimintoa. Toinen tapa on oma [Wallet of Satoshi PoS-sovellus] (https://www.walletofsatoshi.com/pos.)
+Tämä on toinen kahdesta tavasta käyttää Point of Sale -toimintoa. Toinen tapa on oma [Wallet of Satoshi PoS-sovellus](https://www.walletofsatoshi.com/pos.)
 
 
 Point of Sale -ominaisuuden käytöstä on kolme etua:
@@ -59,7 +59,7 @@ Point of Sale -ominaisuuden käytöstä on kolme etua:
 Lisätietoja on Satoshi - Myyntipisteen Wallet:tä koskevassa oppaassa:
 
 
-https://planb.network/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
+https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
 
 ## Asetus
 

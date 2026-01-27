@@ -1,13 +1,11 @@
 ---
-name: 从理论到实践的 RGB 协议
+name: RGB编程
 goal: 掌握理解和使用 RGB 所需的技能
-objectives: 
-
-  - 了解 RGB 协议的基本概念
-  - 掌握客户端验证和比特币承诺的原则
-  - 了解如何创建、管理和转移 RGB 合同
-  - 如何操作兼容 RGB 的 Lightning 节点
-
+objectives:
+- 了解 RGB 协议的基本概念
+- 掌握客户端验证和比特币承诺的原则
+- 了解如何创建、管理和转移 RGB 合同
+- 如何操作兼容 RGB 的 Lightning 节点
 ---
 # 发现 RGB 协议
 
@@ -45,7 +43,7 @@ objectives:
 ---
 本培训课程最初源于 [Fulgur'Ventures](https://fulgur.ventures/) 在托斯卡纳 Viareggio 举办的为期两周的高级开发训练营。第一周的重点是 Rust 和 SDK，可在另一个课程中找到：
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 在本课程中，我们将重点讲解新兵训练营的第二周内容，即 RGB。
 
@@ -346,11 +344,11 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 这一过程可概括如下
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -1824,7 +1822,7 @@ ETP（*额外交易证明*）是锚文件的一部分，包含验证**Tapret承�
 
 如需了解有关 "闪电 "工作原理的更多信息，我建议您学习另一门课程：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### 多协议承诺 - MPC
 
@@ -3037,8 +3035,8 @@ rgb schemata
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3082,7 +3080,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-然后，下一条命令会显示全局状态（名称、代号、供应量......）和自有状态列表，即分配情况（例如，UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` 中定义的 100 万个 `PBN` 代币）。
+然后，下一条命令会显示全局状态（名称、代号、供应量......）和自有状态列表，即分配情况（例如，UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` 中定义的 100 万个 `Plan ₿ Academy` 代币）。
 
 ```bash
 rgb state '<ContractId>'
@@ -3176,7 +3174,7 @@ rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-..
 要从本发票转账 ：
 
 
-- 鲍勃（在他的储藏中持有代币）有一个比特币钱包。他需要准备一个比特币交易（以 PSBT 的形式，例如 `tx.psbt`），花费所需 RGB 代币所在的 UTXO，外加一个用于货币（兑换）的 UTXO；
+- Bob（在其stash中持有代币）拥有一个比特币钱包。他必须准备一笔比特币交易（以PSBT形式，例如`tx.psbt`），该交易花费包含所需RGB代币的UTXO，另外还需要一个用于找零的UTXO（change）；
 - 鲍勃执行以下命令
 
 ```bash
@@ -3265,7 +3263,7 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 因此，RGB 在 Lightning 上的运行必须与 Lightning 网络本身的运行同步考虑。如果您想更深入地了解这一主题，我强烈建议您参加其他综合培训课程：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB 代码图
 
@@ -3762,7 +3760,7 @@ http://localhost:3001/createutxos
 ./regtest.sh mine 1
 ```
 
-现在我们可以创建一个 RGB 资产。命令取决于您要创建的资产类型及其参数。在这里，我要创建一个名为 "PBN "的 NIA（*非充气资产*）令牌，供应量为 1000 个单位。精度 "允许您定义单位的可分割性。
+现在我们可以创建一个 RGB 资产。命令取决于您要创建的资产类型及其参数。在这里，我要创建一个名为 "Plan ₿ Academy "的 NIA（*非充气资产*）令牌，供应量为 1000 个单位。精度 "允许您定义单位的可分割性。
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3770,8 +3768,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3807,7 +3805,7 @@ curl -X 'GET' \
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-接下来，我们将通过指定相关资产（`PBN`）来打开通道。通过 `/openchannel` 命令，您可以用 satoshis 为单位定义通道的大小，并选择是否包含 RGB 资产。这取决于你想创建什么，但在我的情况下，命令是 ：
+接下来，我们将通过指定相关资产（`Plan ₿ Academy`）来打开通道。通过 `/openchannel` 命令，您可以用 satoshis 为单位定义通道的大小，并选择是否包含 RGB 资产。这取决于你想创建什么，但在我的情况下，命令是 ：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3846,7 +3844,7 @@ http://localhost:3001/openchannel
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-现在，"闪电 "通道已打开，节点 n°1 一侧也包含 500 个 "PBN "代币。如果节点 n°2 希望接收 `PBN` 代币，则必须生成一张发票。具体方法如下
+现在，"闪电 "通道已打开，节点 n°1 一侧也包含 500 个 "Plan ₿ Academy "代币。如果节点 n°2 希望接收 `Plan ₿ Academy` 代币，则必须生成一张发票。具体方法如下
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3875,7 +3873,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-现在，我们将从第一个节点支付这张发票，该节点持有必要的`PBN`令牌现金：
+现在，我们将从第一个节点支付这张发票，该节点持有必要的`Plan ₿ Academy`令牌现金：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

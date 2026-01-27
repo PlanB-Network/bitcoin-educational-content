@@ -1,6 +1,6 @@
 ---
-name: PlanB Network'e bir etkinlik ekleyin
-description: PlanB Network'e yeni bir etkinlik eklemeyi nasıl öneririm?
+name: Plan ₿ Academy'e bir etkinlik ekleyin
+description: Plan ₿ Academy'e yeni bir etkinlik eklemeyi nasıl öneririm?
 ---
 ![event](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: PlanB Network'e yeni bir etkinlik eklemeyi nasıl öneririm?
 PlanB'nin misyonu, Bitcoin hakkında mümkün olduğunca çok dilde üst düzey eğitim kaynakları sağlamaktır. Sitede yayınlanan tüm içerik açık kaynaklıdır ve GitHub'da barındırılmaktadır, bu da herkese platformun zenginleştirilmesine katkıda bulunma fırsatı sunmaktadır.
 
 
-PlanB Network sitesine bir Bitcoin konferansı eklemek ve etkinliğinizin görünürlüğünü artırmak istiyor ancak nasıl yapacağınızı bilmiyorsanız? Bu eğitim tam size göre!
+Plan ₿ Academy sitesine bir Bitcoin konferansı eklemek ve etkinliğinizin görünürlüğünü artırmak istiyor ancak nasıl yapacağınızı bilmiyorsanız? Bu eğitim tam size göre!
 
 ![event](assets/01.webp)
 
@@ -16,7 +16,7 @@ PlanB Network sitesine bir Bitcoin konferansı eklemek ve etkinliğinizin görü
 - İlk olarak, GitHub'da bir hesabınızın olması gerekir. Nasıl hesap oluşturacağınızı bilmiyorsanız, size rehberlik edecek ayrıntılı bir eğitim hazırladık.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- PlanB Network'ün içeriğine daha önce hiç katkıda bulunmadıysanız, orijinal deponun Fork'ünü oluşturmanız gerekecektir. Bir depoyu çatallamak, kendi GitHub hesabınızda o deponun bir kopyasını oluşturmak anlamına gelir ve orijinal depoyu etkilemeden proje üzerinde çalışmanıza olanak tanır. Fork this repository` düğmesine tıklayın:
+- Plan ₿ Academy'ün içeriğine daha önce hiç katkıda bulunmadıysanız, orijinal deponun Fork'ünü oluşturmanız gerekecektir. Bir depoyu çatallamak, kendi GitHub hesabınızda o deponun bir kopyasını oluşturmak anlamına gelir ve orijinal depoyu etkilemeden proje üzerinde çalışmanıza olanak tanır. Fork this repository` düğmesine tıklayın:
 
 ![event](assets/04.webp)
 
@@ -118,7 +118,7 @@ tags:
 Kuruluşunuz için henüz bir "*proje*" tanımlayıcınız yoksa, bu diğer öğreticiyi izleyerek ekleyebilirsiniz.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -199,7 +199,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 - Önce `Dosya ekle` düğmesine, ardından `Dosya yükle` düğmesine tıklayın: ![event](assets/25.webp)
-- Yeni bir sayfa açılacaktır. Konferansınızı temsil eden ve PlanB Network sitesinde görüntülenecek bir görseli sürükleyip bırakın:
+- Yeni bir sayfa açılacaktır. Konferansınızı temsil eden ve Plan ₿ Academy sitesinde görüntülenecek bir görseli sürükleyip bırakın:
 
 ![event](assets/26.webp)
 
@@ -258,10 +258,10 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![event](assets/37.webp)
 
-Tebrikler! Halkla İlişkileriniz başarıyla oluşturuldu. Şimdi bir yönetici bunu kontrol edecek ve her şey yolundaysa PlanB Network'ün ana havuzuyla birleştirecektir. Etkinliğinizin birkaç gün sonra web sitesinde göründüğünü göreceksiniz.
+Tebrikler! Halkla İlişkileriniz başarıyla oluşturuldu. Şimdi bir yönetici bunu kontrol edecek ve her şey yolundaysa Plan ₿ Academy'ün ana havuzuyla birleştirecektir. Etkinliğinizin birkaç gün sonra web sitesinde göründüğünü göreceksiniz.
 
 
-Halkla ilişkilerinizin ilerleyişini takip ettiğinizden emin olun. Bir yönetici ek bilgi isteyen bir yorum bırakabilir. PR'niz onaylanmadığı sürece, PlanB Network GitHub deposundaki `Pull requests` sekmesinde ona danışabilirsiniz:
+Halkla ilişkilerinizin ilerleyişini takip ettiğinizden emin olun. Bir yönetici ek bilgi isteyen bir yorum bırakabilir. PR'niz onaylanmadığı sürece, Plan ₿ Academy GitHub deposundaki `Pull requests` sekmesinde ona danışabilirsiniz:
 
 ![event](assets/38.webp)
 

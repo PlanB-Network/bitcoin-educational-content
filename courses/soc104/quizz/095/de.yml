@@ -1,0 +1,9 @@
+question: Was ist nach der Philosophie von Satoshi Nakamoto das grundlegende Problem mit konventionellen Währungen, das Bitcoin lösen soll?
+answer: Das übermäßige Vertrauen in zentralisierte Institutionen, die dieses Vertrauen in der Vergangenheit durch die Entwertung der Währung missbraucht haben
+wrong_answers:
+  - Die fehlende digitale Infrastruktur und die langsame Verarbeitung von Transaktionen in traditionellen Bankensystemen
+  - Die hohen Transaktionsgebühren und die eingeschränkte Zugänglichkeit von internationalen Geldüberweisungen durch Banken
+  - Die Umweltauswirkungen und der Energieverbrauch herkömmlicher Bank- und Zahlungsverarbeitungssysteme
+explanation: |
+  Satoshi Nakamoto erklärte ausdrücklich, dass "das Grundproblem bei konventionellen Währungen das Vertrauen ist, das erforderlich ist, damit sie funktionieren" und dass man den Zentralbanken vertrauen muss, dass sie die Währung nicht entwerten, aber "die Geschichte der Fiat-Währungen ist voll von Verstößen gegen dieses Vertrauen".
+  Dieses Zitat offenbart den Hauptzweck von Bitcoin: die Beseitigung der Notwendigkeit des Vertrauens in zentralisierte Institutionen. Die anderen Optionen sind zwar potenziell berechtigte Bedenken gegenüber dem traditionellen Finanzwesen, gehen aber nicht auf das grundlegende philosophische Problem ein, das Satoshi identifiziert hat - dass Fiat-Systeme blindes Vertrauen in Institutionen erfordern, die sich durch Geldmanipulation und Geldentwertung wiederholt als unzuverlässig erwiesen haben.

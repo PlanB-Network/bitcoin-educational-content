@@ -1,4 +1,4 @@
-question: Z jakimi zasadami ekonomicznymi zgadza się Bitcoin?
+question: Z jakimi zasadami ekonomicznymi zgodny jest Bitcoin?
 answer: Zasady ekonomii austriackiej.
 wrong_answers:
   - Zasady ekonomii keynesowskiej.
@@ -6,7 +6,5 @@ wrong_answers:
   - Zasady ekonomii neoklasycznej.
 explanation: |
   Bitcoin jest zgodny z zasadami ekonomii austriackiej.
-  Jego ograniczona ilość i brak jednostki centralnej chronią go przed nieodłącznym ryzykiem inflacji
-  przed nieodłącznym ryzykiem inflacji, które występuje w tradycyjnych walutach
-  tradycyjnych walutach.
+  Jego ograniczona ilość i brak jednostki centralnej chronią go przed nieodłącznym ryzykiem inflacji, które występuje w tradycyjnych walutach.
 reviewed: true

@@ -216,7 +216,7 @@ Om du vill visa loggarna för din Bitcoin-nod som är specifikt relaterade till 
 **Tips💡:** här är några intressanta länkar:
 
 
-- [Wiki-sida som förklarar Tor och dess förhållande till Bitcoin] (https://en.Bitcoin.it/wiki/Tor)
+- [Wiki-sida som förklarar Tor och dess förhållande till Bitcoin](https://en.Bitcoin.it/wiki/Tor)
 - [Bitcoin core konfigurationsfilgenerator av Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
 - [Tor-konfigurationsguide av Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 

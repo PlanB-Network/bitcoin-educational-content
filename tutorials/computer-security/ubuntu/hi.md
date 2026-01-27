@@ -328,4 +328,4 @@ sudo apt install vlc
 अपने डिजिटल जीवन की सुरक्षा को एक कदम आगे ले जाने के लिए, हम आपको हमारी एन्क्रिप्टेड मैसेजिंग सेवा पर एक नज़र डालने की सलाह देते हैं, जो आपकी गोपनीयता की रक्षा के लिए पूरी तरह से उपयुक्त है और आपके उबंटू इंस्टॉलेशन को पूरक बनाती है:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

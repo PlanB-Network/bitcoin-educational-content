@@ -1,9 +1,9 @@
-question: What is one benefit of starting small when first accepting Bitcoin payments?
-answer: It allows the business to learn from a few initial transactions and gradually move to more sophisticated solutions if customer demand grows.
+question: Một lợi ích của việc bắt đầu với số tiền nhỏ khi mới chấp nhận thanh toán Bitcoin là gì?
+answer: Nó cho phép doanh nghiệp học hỏi từ một vài giao dịch ban đầu và dần dần chuyển sang các giải pháp phức tạp hơn nếu nhu cầu của khách hàng tăng lên.
 wrong_answers:
-  - It forces the business to use only self-custody solutions immediately.
-  - It prevents the business from upgrading or changing providers later.
-  - It requires a company to accept Bitcoin from every customer before understanding the process.
+  - Nó buộc doanh nghiệp phải sử dụng ngay các giải pháp tự lưu giữ.
+  - Nó ngăn cản doanh nghiệp nâng cấp hoặc thay đổi nhà cung cấp sau này.
+  - Công ty phải chấp nhận Bitcoin từ mọi khách hàng trước khi hiểu được quy trình.
 explanation: |
-  Beginning with a simple, starter-level approach enables the business to gain practical experience without significant risk. If the interest in Bitcoin payments proves worthwhile, the company can then upgrade its infrastructure and integrate more advanced tools.
-reviewed: false
+  Bắt đầu với phương pháp tiếp cận đơn giản, cấp độ khởi đầu cho phép doanh nghiệp tích lũy kinh nghiệm thực tế mà không gặp nhiều rủi ro. Nếu việc quan tâm đến thanh toán Bitcoin tỏ ra đáng giá, công ty có thể nâng cấp cơ sở hạ tầng và tích hợp các công cụ tiên tiến hơn.
+reviewed: true

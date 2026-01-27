@@ -3,7 +3,7 @@ answer: Hardware Wallet
 wrong_answers:
   - Hot Wallet
   - Huduma ya uhifadhi
-  - Karatasi ya Wallet
+  - Wallet ya Karatasi 
 explanation: |
   Hodler, ambaye anashikilia bitcoins kwa muda mrefu, anapaswa kutumia Hardware Wallet ili kuongeza usalama.
-reviewed: false
+reviewed: true

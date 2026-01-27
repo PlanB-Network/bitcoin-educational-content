@@ -1,11 +1,11 @@
 question: Bitcoin Mining에서 소프트웨어의 역할은 무엇이며, 효율성에 어떻게 기여하나요?
-answer: BrainsOS Plus와 같은 Bitcoin Mining의 소프트웨어는 Mining 기계의 원래 운영 체제를 대체하여 동일한 작업을 더 효율적으로 수행할 수 있도록 합니다. 이는 기계의 효율을 25%까지 높일 수 있으며, 이는 동일한 양의 전기로 Hashrate의 25%의 추가 생산이 가능하여 Miner가 받는 보상을 늘릴 수 있음을 의미합니다.
+answer: BraiinsOS Plus와 같은 Bitcoin Mining의 소프트웨어는 Mining 기계의 원래 운영 체제를 대체하여 동일한 작업을 더 효율적으로 수행할 수 있도록 합니다. 이는 기계의 효율을 25%까지 높일 수 있으며, 이는 동일한 양의 전기로 Hashrate의 25%의 추가 생산이 가능하여 Miner가 받는 보상을 늘릴 수 있음을 의미합니다.
 wrong_answers:
   - Bitcoin Mining의 소프트웨어는 채굴된 Bitcoin의 양을 추적하는 데 사용되며 효율성에 기여하지 않습니다.
   - 최신 프로토콜 중 하나를 사용하는 경우 Bitcoin Mining의 소프트웨어는 Mining 머신에 더 나은 인터넷 연결만 제공하며, 해당 머신의 효율성을 14%까지 높일 수 있습니다.
   - Bitcoin Mining의 소프트웨어는 Mining 머신을 냉각하는 데 사용되며 효율성에 기여하지 않습니다.
 explanation: |
-  이 장에서는 BrainsOS Plus와 같은 소프트웨어가 다음을 수행할 수 있다고 설명합니다
+  이 장에서는 BraiinsOS Plus와 같은 소프트웨어가 다음을 수행할 수 있다고 설명합니다
   gW-13 머신의 원래 운영 체제를 대체할 수 있습니다,
   동일한 작업을 보다
   효율적으로 수행할 수 있습니다. 이러한 소프트웨어 최적화는

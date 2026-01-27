@@ -1,0 +1,8 @@
+question: Ni igiki kiba iyo uguhinduranya ubwato bwo mu mazi buhindutse canke igihe kirangiye mu nyubakwa ya Breez SDK?
+answer: SDK ihita yubaka kandi igatangaza igikorwa co gusubiza amahera kugira ngo amahera asubire kuri wallet y’ukoresha.
+wrong_answers:
+  - Uwutanga swap atangura n'amaboko uburyo bwo gusubirana bisaba ko umukoresha yinjira mu masaha 24
+  - Amahera aguma yugarijwe ubudasiba gushika aho uruja n’uruza rwa Lightning Network rugarutse .
+  - Uwukoresha ategerezwa guhamagara abafasha Boltz kugira ngo akoreshe n'amaboko igikorwa ca federated peg-out
+explanation: |
+  Breez SDK ishira mu ngiro Uburongozi bw’Ivyiyumviro vy’Ivyiyumviro nk’uburyo buhambaye bwo kwirinda. Iyo ama swaps ananiwe canke igihe kirangiye, SDK irakurikirana ivy’ama swap yose maze igakora ubwayo igikorwa co gusubirana ata n’umwe akoresha. Ivyo bikuraho ubugoyagoye bw’amasezerano afise igihe kirekire kandi bikaba bituma amahera atazokwigera atakarira ubudasiba. Ibindi bihitamwo ntivyiza kuko bisaba gufasha umuntu n’amaboko, kwiyumvira ko amahera azotakaza ubudasiba, canke bikaba birimwo ibikorwa bitaboneka muri sisitemu yikoresha.

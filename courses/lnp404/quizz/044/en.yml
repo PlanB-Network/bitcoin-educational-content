@@ -1,0 +1,8 @@
+question: What fundamental characteristic distinguishes liquidity management problems in Lightning nodes from other operational failures in distributed systems?
+answer: Liquidity failures manifest as silent invisible problems where payments route around the node without generating error notifications or revenue loss alerts
+wrong_answers:
+  - Liquidity failures generate cascading error messages across multiple channels but these errors are often filtered out by monitoring systems
+  - Liquidity failures cause immediate channel closures and force-close transactions that require manual intervention to resolve within 24 hours
+  - Liquidity failures trigger automatic rebalancing protocols that consume excessive on-chain fees and reduce overall node profitability
+explanation: |
+  The correct answer captures the unique challenge of Lightning liquidity management - its silent nature. Unlike crashed servers or rejected transactions that generate clear error signals, poor liquidity simply causes payments to route around your node invisibly, resulting in lost revenue opportunities without any notification. The wrong answers describe visible, active failure modes with clear symptoms (error messages, channel closures, automatic responses), which contradicts the fundamental problem that liquidity issues are 'invisible' and provide no feedback mechanism to alert operators of the lost routing opportunities.

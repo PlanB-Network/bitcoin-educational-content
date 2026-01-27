@@ -1,9 +1,9 @@
-question: Ni ingaruka izihe zishobora guterwa n’ugucika intege kw’amahera y’igihugu?
-answer: Ukudatekana kw'imibano n'ugutera imbere kw'ubuhezanguni bwa politike
+question: Ni ingaruka izihe zishobora guterwa n'ugusubira inyuma kw’amahera y’igihugu?
+answer: Uruhagarara mu gihugu n'ukugira inguvu kw'abatavuga mu vya politike
 wrong_answers:
   - Ukwiyongera kw'ubutunzi n'uguterimbere kw'igihugu
   - Guteza imbere ubudandaji mpuzamakungu
-  - Gukomeza demokarasi n'uburenganzira bw'umuntu ku giti ciwe
+  - Gukomeza demokarasi n'uburenganzira bw'umuntu wese
 explanation: |
-  Gucika kw’agaciro k’ibintu birashobora gutuma haba ingorane z’ubutunzi biciye mu gutera imbere kw’ibiciro, bikaba bituma abantu badashira akanyota be n’ugutera imbere kw’abanyapolitike b’abanyaruyeri.
+  Gucika kw’agaciro k’ibintu birashobora gutuma haba ingorane z’ubutunzi biciye mu gutera imbere kw’ibiciro, bikaba bituma abantu badashira akanyota be n’ugutera imbere kw’abanyapolitike batavuga rumwe mu gihugu.
 reviewed: false

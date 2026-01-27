@@ -10,25 +10,26 @@ End-to-end-kryptering är en tjänst som erbjuds av många meddelandeappar som W
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| **Tox**              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+
+| Applikation          | E2EE 1:1       | E2EE grupper | Anonym registrering | Öppen källkod-klientlicens | Öppen källkod-serverlicens | Decentraliserad server | Grundningsår    |
+| -------------------- | -------------- | -------------- | -------------------- | -------------------------- | --------------------------- | --------------------- | --------------- |
+| WhatsApp             | ✅              | ✅              | ❌                    | ❌                          | ❌                           | ❌                     | 2009            |
+| WeChat               | ❌              | ❌              | ❌                    | ❌                          | ❌                           | ❌                     | 2011            |
+| Facebook Messenger   | ✅              | 🟡 (valfritt) | ❌                    | ❌                          | ❌                           | ❌                     | 2011            |
+| Telegram             | 🟡 (valfritt) | ❌              | 🟡                   | ✅                          | ❌                           | ❌                     | 2013            |
+| LINE                 | ✅              | ✅              | ❌                    | ❌                          | ❌                           | ❌                     | 2011            |
+| Signal               | ✅              | ✅              | ❌                    | ✅                          | ✅                           | ❌                     | 2014            |
+| Threema              | ✅              | ✅              | ✅                    | ✅                          | ❌                           | ❌                     | 2012            |
+| Element (Matrix)     | ✅              | ✅              | ✅                    | ✅                          | ✅                           | 🟡 (federerad)         | 2016            |
+| Delta Chat           | ✅              | ✅              | ✅                    | ✅                          | N/A                         | 🟡 (via e-post)        | 2017            |
+| Conversations (XMPP) | ✅              | ✅              | ✅                    | ✅                          | ✅                           | 🟡 (federerad)         | 2014            |
+| Session              | ✅              | ✅              | ✅                    | ✅                          | ✅                           | ✅                     | 2020            |
+| SimpleX              | ✅              | ✅              | ✅                    | ✅                          | ✅                           | ✅                     | 2021            |
+| Olvid                | ✅              | ✅              | ✅                    | ✅                          | ❌                           | 🟡(ingen katalog)      | 2019            |
+| Keet                 | ✅              | ✅              | ✅                    | ❌                          | N/A                         | ✅                     | 2022            |
+| Jami                 | ✅              | ✅              | ✅                    | ✅                          | N/A                         | ✅                     | 2005            |
+| Briar                | ✅              | ✅              | ✅                    | ✅                          | N/A                         | ✅                     | 2018            |
+| **Tox**              | ✅              | ✅              | ✅                    | ✅                          | N/A                         | ✅                     | 2013            |
 
 *E2EE = End-to-end-kryptering*
 
@@ -50,7 +51,7 @@ Den teknik som Tox-protokollet använder liknar peer-to-peer-nätverk som blockk
 
 
 
-Du kan använda Tox-protokollet via en snabbmeddelandeklient som du kan ladda ner från [Tox Chat-webbplatsen] (https://tox.chat).
+Du kan använda Tox-protokollet via en snabbmeddelandeklient som du kan ladda ner från [Tox Chat-webbplatsen](https://tox.chat).
 
 
 
@@ -74,7 +75,7 @@ Beroende på ditt operativsystem kan du ladda ner och installera en Tox-klient s
 
 
 
-- qTox: En Tox-klient från [öppen källkod] (https://github.com/TokTok/qTox) baserad på Qt Framework (C++) tillgänglig på Windows, Linux, MacOs.
+- qTox: En Tox-klient från [öppen källkod](https://github.com/TokTok/qTox) baserad på Qt Framework (C++) tillgänglig på Windows, Linux, MacOs.
 
 
 
@@ -304,4 +305,4 @@ Om du har tyckt om att upptäcka Tox och har kunnat förstå hur det är använd
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

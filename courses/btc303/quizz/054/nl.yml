@@ -1,0 +1,9 @@
+question: Welk belangrijk kenmerk van het ontwikkelingsproces van Bitcoin maakt het bijzonder kwetsbaar voor infiltratietactieken beschreven in sabotagehandleidingen in oorlogstijd?
+answer: Bitcoin ontwikkeling is open voor iedereen om aan deel te nemen zonder poortwachters
+wrong_answers:
+  - De ontwikkeling van Bitcoin is afhankelijk van een kleine groep vertrouwde kernbeheerders
+  - Bitcoin ontwikkeling vereist formele goedkeuring van de overheid voor grote veranderingen
+  - Bitcoin ontwikkeling gebruikt closed-source code die externe bijdragen beperkt
+explanation: |
+  Het open ontwikkelingsproces van Bitcoin is een van de sterkste punten voor decentralisatie en transparantie, maar creëert ook kwetsbaarheid voor infiltratie door tegenstanders. Omdat iedereen kan deelnemen aan discussies, wijzigingen kan voorstellen en kan deelnemen aan het evaluatieproces zonder toestemming of referenties nodig te hebben, kunnen toegewijde aanvallers deze openheid uitbuiten. Ze kunnen de voortgang tegenhouden door eindeloze discussies over irrelevante kwesties, kibbelen over precieze formuleringen, discussies herhalen die al gevoerd zijn of 'sociale Sybil aanvallen' uitvoeren waarbij meerdere valse identiteiten worden gebruikt om valse indrukken van weerstand te creëren. Deze openheid staat in schril contrast met gesloten ontwikkelingsmodellen die poortwachters of goedkeuringsprocessen hebben die slechte actoren eruit kunnen filteren.
+reviewed: false

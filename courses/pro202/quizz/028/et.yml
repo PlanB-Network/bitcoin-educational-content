@@ -1,0 +1,8 @@
+question: Milline on P2PK ja P2PKH põhimõtteline erinevus selles osas, milline teave avalikustatakse enne müntide kulutamist?
+answer: P2PK avaldab täieliku avaliku võtme ScriptPubKey's enne kulutamist, samas kui P2PKH avaldab ainult avaliku võtme hash'i kuni kulutamiseni
+wrong_answers:
+  - P2PK nõuab valideerimiseks mitut allkirja, samas kui P2PKH vajab müntide avamiseks ainult ühte allkirja
+  - P2PK kasutab teistsugust hashing-algoritmi kui P2PKH, mis muudab selle turvalisemaks kvantarvutirünnakute vastu
+  - P2PK salvestab privaatvõtme ScriptPubKey's, P2PKH aga ainult allkirja kontrollimise tulemuse
+explanation: |
+  P2PK lukustab mündid otse täieliku avaliku võtmega, mis on nähtav ScriptPubKey's enne kulutuste tegemist. P2PKH parandab privaatsust, näidates ScriptPubKey's ainult 20 baidi suurust avaliku võtme hash'i, varjates tegeliku avaliku võtme, kuni omanik esitab selle kulutamise ajal ScriptSig'is. See privaatsuse parandamine on üks P2PKH peamisi eeliseid varasema P2PK-mudeli ees.

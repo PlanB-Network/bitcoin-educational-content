@@ -6,7 +6,7 @@ description: 如何使用 Raspberry Pi Zero 和配件套件构建一个最小化
 
 
 
-如果您已经在 Plan ₿ Network 页面上浏览了一段时间，那么您已经了解到，最受欢迎的安全设置之一，几乎是必须的，**就是通过离线存储私人密钥来管理资金**。
+如果您已经在 Plan ₿ Academy 页面上浏览了一段时间，那么您已经了解到，最受欢迎的安全设置之一，几乎是必须的，**就是通过离线存储私人密钥来管理资金**。
 
 
 
@@ -14,7 +14,7 @@ description: 如何使用 Raspberry Pi Zero 和配件套件构建一个最小化
 
 
 
-要离线管理私钥，就需要一台始终与网络断开的设备，无论是[硬件钱包](https://planb.network/resources/glossary/hardware-wallet)还是专用于此特定功能的隔离计算机。
+要离线管理私钥，就需要一台始终与网络断开的设备，无论是[硬件钱包](https://planb.academy/resources/glossary/hardware-wallet)还是专用于此特定功能的隔离计算机。
 
 
 
@@ -500,7 +500,7 @@ top
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## 结论
 

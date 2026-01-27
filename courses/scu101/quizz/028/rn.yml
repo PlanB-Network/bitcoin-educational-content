@@ -1,11 +1,10 @@
-question: Ni igiki ca mbere gitera abasuma?
-answer: Imeyili
+question: Ni igiki kiza ubwamebere mugutegwa?
+answer: Imeyiri
 wrong_answers:
-  - Imbuga ngurukanabumenyi
-  - Imbuga zo kugura kuri internet
+  - Imbuga nkoranyambaga
+  - Imbuga zo kugurirako kuri internet
   - Imbuga za banki
 explanation: |
-  Emails ni zo zibanza gutera abasuma. Bakoresha
-  ubuhendanyi buragerageza gukura amakuru y'agaciro nk'
-  ivyemezo vyawe n’amajambo banga yawe.
+  Emails ni zo ziza ubwambere mugutegwa. Bakoresha ububeshi bw'udutego mukugerageza kuronka amakuru y'agaciro nk'
+  ivyemezo vyawe n’amajambo y'ibanga yawe.
 reviewed: false

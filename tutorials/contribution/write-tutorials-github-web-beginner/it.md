@@ -1,30 +1,30 @@
 ---
 name: Contributo - Tutorial web GitHub (principiante)
-description: Guida completa ai tutorial Plan ₿ Network con GitHub Web
+description: Guida completa ai tutorial Plan ₿ Academy con GitHub Web
 ---
 ![cover](assets/cover.webp)
 
 Prima di seguire questa guida sull'aggiunta di un nuovo tutorial, è necessario aver completato alcuni passaggi preliminari. Se non l'hai ancora fatto, dai prima un'occhiata a questo tutorial introduttivo e poi torna qui:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 A questo punto, hai già:
 
 
 - Scelto un tema per il tuo tutorial;
-- Contattato il team di Plan ₿ Network tramite [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o la mail paolo@planb.network;
+- Contattato il team di Plan ₿ Academy tramite [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o la mail paolo@planb.network;
 - Scelto quali strumenti utilizzare.
 
-In questa guida vedremo come aggiungere il tuo tutorial a Plan ₿ Network utilizzando la versione web di GitHub. Se sei già esperto di Git, questo tutorial molto dettagliato potrebbe non essere necessario per te. Ti consiglio invece di dare un'occhiata a uno di questi altri due tutorial, in cui sono descritte in dettaglio le linee guida da seguire e i passaggi per apportare modifiche da un file:
+In questa guida vedremo come aggiungere il tuo tutorial a Plan ₿ Academy utilizzando la versione web di GitHub. Se sei già esperto di Git, questo tutorial molto dettagliato potrebbe non essere necessario per te. Ti consiglio invece di dare un'occhiata a uno di questi altri due tutorial, in cui sono descritte in dettaglio le linee guida da seguire e i passaggi per apportare modifiche da un file:
 
 
 **- Utenti esperti**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 **- Intermedio (GitHub Desktop)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Prerequisiti
 
@@ -32,23 +32,23 @@ Prerequisiti da avere prima di iniziare il tutorial:
 
 
 - Avere un [account GitHub](https://github.com/signup);
-- Avere un fork del [repository dei sorgenti di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content);
-- Avere [un profilo docente su Plan ₿ Network](https://planb.network/professors) (solo se vuoi fare un tutorial completo).
+- Avere un fork del [repository dei sorgenti di Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content);
+- Avere [un profilo docente su Plan ₿ Academy](https://planb.academy/professors) (solo se vuoi fare un tutorial completo).
 
 Se hai bisogno di aiuto per ottenere i prerequisiti elencati sopra, questi altri tutorial ti aiuteranno:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Una volta che tutto è a posto e che hai il tuo fork del repository Plan ₿ Network, puoi iniziare ad aggiungere il tutorial.
+Una volta che tutto è a posto e che hai il tuo fork del repository Plan ₿ Academy, puoi iniziare ad aggiungere il tutorial.
 
 ## 1 - Creare un nuovo branch
 
-Apri il browser e vai alla pagina del tuo fork (del repository Plan ₿ Network). Questo è il fork che hai creato su GitHub. L'URL del tuo fork dovrebbe essere simile a questo: `https://github.com/[nomeutente]/bitcoin-educational-content`:
+Apri il browser e vai alla pagina del tuo fork (del repository Plan ₿ Academy). Questo è il fork che hai creato su GitHub. L'URL del tuo fork dovrebbe essere simile a questo: `https://github.com/[nomeutente]/bitcoin-educational-content`:
 
 ![GITHUB](assets/fr/01.webp)
 
@@ -74,7 +74,7 @@ Un branch in Git rappresenta una versione parallela del progetto, che consente d
 
 Ora che il branch di lavoro è stato creato, è il momento di inserire il nuovo tutorial.
 
-All'interno dei file del tuo branch, devi trovare la sottocartella appropriata per caricare il tutorial. L'organizzazione delle cartelle riflette le diverse sezioni del sito web [planb.network](https://planb.network/). Nel nostro esempio, dato che stiamo aggiungendo un tutorial su Green, segui questo percorso: `bitcoin-educational-content\tutorials\wallet` che corrisponde alla sezione `WALLET` del sito web:
+All'interno dei file del tuo branch, devi trovare la sottocartella appropriata per caricare il tutorial. L'organizzazione delle cartelle riflette le diverse sezioni del sito web [planb.network](https://planb.academy/). Nel nostro esempio, dato che stiamo aggiungendo un tutorial su Green, segui questo percorso: `bitcoin-educational-content\tutorials\wallet` che corrisponde alla sezione `WALLET` del sito web:
 
 ![GITHUB](assets/fr/05.webp)
 
@@ -147,11 +147,11 @@ Ecco i campi obbligatori:
 
 - **id**: Un UUID (_Identificatore Unico Universale_) che identifica univocamente il tutorial. Puoi generarlo con [uno strumento online](https://www.uuidgenerator.net/version4). L'unico requisito è che questo UUID sia casuale per evitare conflitti con altri UUID presenti sulla piattaforma;
 
-- **project_id**: L'UUID dell'azienda o organizzazione che ha creato lo strumento presentato nel tutorial [dall'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, se stai creando un tutorial sul software Green, puoi trovare il `project_id` nel seguente file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Queste informazioni vengono aggiunte al file YAML del tuo tutorial perché Plan ₿ Network mantiene un database di tutte le aziende e organizzazioni che lavorano su Bitcoin o progetti correlati. Aggiungendo il `project_id` dell'entità associata al tuo tutorial, si crea quindi un collegamento tra i due elementi;
+- **project_id**: L'UUID dell'azienda o organizzazione che ha creato lo strumento presentato nel tutorial [dall'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, se stai creando un tutorial sul software Green, puoi trovare il `project_id` nel seguente file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Queste informazioni vengono aggiunte al file YAML del tuo tutorial perché Plan ₿ Academy mantiene un database di tutte le aziende e organizzazioni che lavorano su Bitcoin o progetti correlati. Aggiungendo il `project_id` dell'entità associata al tuo tutorial, si crea quindi un collegamento tra i due elementi;
 
-- **tags**: 2 o 3 parole chiave pertinenti al contenuto del tutorial, scelte esclusivamente [dall'elenco dei tag di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 o 3 parole chiave pertinenti al contenuto del tutorial, scelte esclusivamente [dall'elenco dei tag di Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: La sottocategoria corrispondente al contenuto del tutorial, in base alla struttura del sito Plan ₿ Network (ad esempio per i wallet: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: La sottocategoria corrispondente al contenuto del tutorial, in base alla struttura del sito Plan ₿ Academy (ad esempio per i wallet: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Il livello di difficoltà del tutorial, selezionabile tra:
     - `beginner`
@@ -172,7 +172,7 @@ Ecco i campi obbligatori:
 
 Per maggiori dettagli sull'ID insegnante, consulta il tutorial corrispondente:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -343,7 +343,7 @@ Il punto esclamativo all'inizio indica un'immagine. Il testo alternativo, che ai
 
 ![GITHUB](assets/fr/35.webp)
 
-Se desideri creare manualmente delle immagini o degli schemi, assicurati di seguire le linee guida grafiche di Plan ₿ Network per garantire la coerenza visiva:
+Se desideri creare manualmente delle immagini o degli schemi, assicurati di seguire le linee guida grafiche di Plan ₿ Academy per garantire la coerenza visiva:
 
 
 - **Font**: Utilizzare [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
@@ -352,7 +352,7 @@ Se desideri creare manualmente delle immagini o degli schemi, assicurati di segu
  - Nero: #000000
  - Bianco: #FFFFFF
 
-**È indispensabile che tutte le immagini inserite nei tutorial siano libere da copyright o rispettino la licenza del file sorgente**. Pertanto, tutti i file pubblicati su Plan ₿ Network sono resi disponibili con licenza CC-BY-SA, così come avviene per il testo.
+**È indispensabile che tutte le immagini inserite nei tutorial siano libere da copyright o rispettino la licenza del file sorgente**. Pertanto, tutti i file pubblicati su Plan ₿ Academy sono resi disponibili con licenza CC-BY-SA, così come avviene per il testo.
 
 **-> Suggerimento:** Quando si condividono file in pubblico, come le immagini, è importante rimuovere i metadati superflui. Questi possono contenere informazioni sensibili, come dati sulla posizione, date sulla creazione del file, e dettagli sull'autore. Per proteggere la propria privacy, è bene rimuoverli. Per semplificare questa operazione, è possibile utilizzare strumenti specializzati come [Exif Cleaner](https://exifcleaner.com/), che consente di ripulire i metadati di un documento trascinandoli semplicemente al di fuori dell'immagine.
 
@@ -364,19 +364,19 @@ Per procedere con la pull request, dopo aver salvato tutte le modifiche, clicca 
 
 ![GITHUB](assets/fr/36.webp)
 
-Una pull request è una richiesta fatta per integrare le modifiche dal proprio branch nel branch principale del repository Plan ₿ Network, che consente la revisione e la discussione delle modifiche prima che vengano unite.
+Una pull request è una richiesta fatta per integrare le modifiche dal proprio branch nel branch principale del repository Plan ₿ Academy, che consente la revisione e la discussione delle modifiche prima che vengano unite.
 
 Prima di continuare, controlla attentamente nella parte inferiore dell'interfaccia che le modifiche apportate corrispondano a quanto previsto:
 
 ![GITHUB](assets/fr/37.webp)
 
-Assicurati, all'inizio dell'interfaccia, che il tuo branch di lavoro sia unito al branch `dev' del repository Plan ₿ Network (che è il branch principale).
+Assicurati, all'inizio dell'interfaccia, che il tuo branch di lavoro sia unito al branch `dev' del repository Plan ₿ Academy (che è il branch principale).
 
-Inserisci un titolo che riassuma brevemente le modifiche che desideri effettuare al repository sorgente. Aggiungi un breve commento che descriva queste modifiche (se alla creazione del tutorial è associato un numero di issue, ricordati di annotare `Close #{numero di issue}` come commento), quindi clicca sul pulsante verde "*Create pull request*" per confermare la richiesta di ["merge"](https://planb.network/resources/glossary/merge):
+Inserisci un titolo che riassuma brevemente le modifiche che desideri effettuare al repository sorgente. Aggiungi un breve commento che descriva queste modifiche (se alla creazione del tutorial è associato un numero di issue, ricordati di annotare `Close #{numero di issue}` come commento), quindi clicca sul pulsante verde "*Create pull request*" per confermare la richiesta di ["merge"](https://planb.academy/resources/glossary/merge):
 
 ![GITHUB](assets/fr/38.webp)
 
-La tua PR sarà quindi visibile nella scheda "*Pull Request*" del repository principale di Plan ₿ Network. A questo punto non resta che attendere che un amministratore ti contatti per confermare che il tuo tutorial sia stato unito al repository principale, o per richiedere ulteriori modifiche.
+La tua PR sarà quindi visibile nella scheda "*Pull Request*" del repository principale di Plan ₿ Academy. A questo punto non resta che attendere che un amministratore ti contatti per confermare che il tuo tutorial sia stato unito al repository principale, o per richiedere ulteriori modifiche.
 
 ![GITHUB](assets/fr/39.webp)
 
@@ -388,6 +388,6 @@ Se desideri apportare modifiche ai tuoi file dopo aver già inviato la Pull Requ
 
 
 - Se la PR è ancora aperta e non è ancora stato fatto il "merge", puoi apportare le modifiche nello stesso branch dove hai lavorato. Le modifiche del commit saranno aggiunte alla PR ancora aperta;
-- Nel caso in cui la tua PR sia già stata unita al branch principale, devi rifare il processo dall'inizio, creando un nuovo branch e inviando una nuova PR. Assicurati che il fork sia sincronizzato con il repository sorgente di Plan ₿ Network sul branch `dev` prima di procedere.
+- Nel caso in cui la tua PR sia già stata unita al branch principale, devi rifare il processo dall'inizio, creando un nuovo branch e inviando una nuova PR. Assicurati che il fork sia sincronizzato con il repository sorgente di Plan ₿ Academy sul branch `dev` prima di procedere.
 
 Se hai difficoltà tecniche a inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato ai contributors](https://t.me/PlanBNetwork_ContentBuilder). Grazie mille!

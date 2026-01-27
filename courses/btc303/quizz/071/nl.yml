@@ -1,0 +1,9 @@
+question: Wat was de belangrijkste kritiek in de allereerste e-mailreactie op Satoshi Nakamoto's aankondiging van de Bitcoin whitepaper op de Cryptography mailinglijst?
+answer: Het voorgestelde systeem leek niet te kunnen worden opgeschaald naar de vereiste grootte
+wrong_answers:
+  - De gebruikte cryptografische algoritmen waren niet veilig genoeg voor financiële toepassingen
+  - De peer-to-peer architectuur zou het systeem kwetsbaar maken voor netwerkaanvallen
+  - Het consensusmechanisme zou te veel rekenkracht verbruiken om praktisch te zijn
+explanation: |
+  De allereerste zin van de eerste e-mail reactie op Satoshi's Bitcoin whitepaper aankondiging stelde specifiek 'het lijkt niet te schalen naar de vereiste grootte' Dit toont aan dat er al vanaf de eerste openbare discussies over Bitcoin zorgen waren over de schaalgrootte, zelfs voordat het netwerk werd gelanceerd. De andere opties, hoewel potentieel geldige zorgen voor een cryptocurrency systeem, waren niet de focus van die eerste reactie, die onmiddellijk schaalbaarheid aanwees als het primaire probleem met Satoshi's voorstel.
+reviewed: false

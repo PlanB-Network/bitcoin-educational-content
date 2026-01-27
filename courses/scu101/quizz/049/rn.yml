@@ -1,9 +1,9 @@
 question: Ni kuki SMS itabonwa ko ari yo nzira nziza yo gukoresha 2FA?
-answer: Ubu buryo burashobora guterwa n’ibitero nk’ivy’uguhindura SIM.
+answer: Ubu buryo burashobora guterwa n’ibitero nk’ivy’uguhindura SIM(SIM swap scam).
 wrong_answers:
   - Ni buhoro cane kandi birazimvye; guhamagara kuri telefone bizoba vyiza kuruta.
   - Itanga gusa ikimenyamenya c’uko umuntu afise inomero ya telefone.
-  - Biragoye cane gushinga ku rugero rw’ubuhinga.
+  - Biragoye cane gushiraho ku rugero rw’ubuhinga.
 explanation: |
-  SMS ntifatwa nk’uburyo bwiza bwo gukoresha 2FA kuko ni uburyo bwa 2FA bushobora guterwa n’ibitero, nk’ubuhendanyi bwo guhindura SIM. Iyo zimaze gukoreshwa neza, izo nzira zica zisambura uburinzi bwose butangwa n’inyongera Layer y’ukwemeza 2FA.
+  SMS ntifatwa nk’uburyo bwiza bwo gukoresha na 2FA kuko ni uburyo bwa 2FA bushobora guterwa n’ibitero, nk’ububeshi bwa SIM swap scam. Iyo ihungabanyijwe, vyonona uburinzi bwose butangwa n’ uburinzi bw'inyongera bw’ukwemeza kwa 2FA.
 reviewed: true

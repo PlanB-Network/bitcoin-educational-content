@@ -34,7 +34,7 @@ Thunderbird er et e-postprogram som er kjent for sin fleksibilitet og sitt brede
 ### Last ned
 
 
-For å installere Thunderbird må du laste ned programvaren fra [official site] (https://www.thunderbird.net/). Merk at programmet er tilgjengelig for forskjellige operativsystemer. Standardversjonen vil imidlertid være den som automatisk oppdages av dataene fra nettleseren din.
+For å installere Thunderbird må du laste ned programvaren fra [official site](https://www.thunderbird.net/). Merk at programmet er tilgjengelig for forskjellige operativsystemer. Standardversjonen vil imidlertid være den som automatisk oppdages av dataene fra nettleseren din.
 
 
 
@@ -42,7 +42,7 @@ For å installere Thunderbird må du laste ned programvaren fra [official site] 
 
 
 
-Hvis du vil laste ned en bestemt versjon av Thunderbird, går du til [denne siden] (https://www.thunderbird.net/an/thunderbird/all/). Velg språk, operativsystem og prosessorarkitektur, og start deretter nedlastingen.
+Hvis du vil laste ned en bestemt versjon av Thunderbird, går du til [denne siden](https://www.thunderbird.net/an/thunderbird/all/). Velg språk, operativsystem og prosessorarkitektur, og start deretter nedlastingen.
 
 
 
@@ -213,4 +213,4 @@ Oppdag vår veiledning om Proton Mail, en ende-til-ende-kryptert meldingsløsnin
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

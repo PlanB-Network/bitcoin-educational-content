@@ -1,12 +1,10 @@
-question: Jaki mechanizm zapewnia dodawanie nowego bloku do Blockchain co dziesięć minut?
+question: Jaki mechanizm zapewnia dodawanie nowego bloku do łańcucha bloków co dziesięć minut?
 answer: Regulacja trudności.
 wrong_answers:
   - Regulacja prędkości.
   - Regulacja czasu.
   - Regulacja blokady.
 explanation: |
-  Mechanizmem zapewniającym dodawanie nowego bloku do Blockchain co dziesięć minut jest regulacja trudności
-  Blockchain co dziesięć minut jest dostosowanie trudności.
-  Regulacja ta odbywa się co 2016 bloków, czyli około
-  dwa tygodnie.
+  Mechanizmem zapewniającym dodawanie nowego bloku do łańcucha bloków co dziesięć minut jest regulacja trudności.
+  Regulacja ta odbywa się co 2016 bloków, czyli co około dwa tygodnie.
 reviewed: true

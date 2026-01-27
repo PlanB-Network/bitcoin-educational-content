@@ -28,7 +28,7 @@ Aby zarządzać bezpiecznym Wallet na Passport, masz kilka opcji. Ten Hardware W
 Jeśli jesteś początkującym użytkownikiem, najłatwiejszą opcją jest użycie Passport z natywną aplikacją Envoy, opracowaną przez Foundation. Aby dowiedzieć się, jak używać Envoy z Passport, zapoznaj się z tym samouczkiem :
 
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Rozpakowywanie paszportu
 
@@ -106,7 +106,7 @@ Następnym krokiem jest sprawdzenie urządzenia. Potwierdza to autentyczność p
 ![Image](assets/fr/08.webp)
 
 
-Wejdź na [oficjalną stronę weryfikacji] (https://validate.foundationdevices.com/) i wybierz "*Passport*".
+Wejdź na [oficjalną stronę weryfikacji](https://validate.foundationdevices.com/) i wybierz "*Passport*".
 
 
 ![Image](assets/fr/09.webp)
@@ -199,7 +199,7 @@ Aby to zrobić, użyj karty MicroSD dołączonej do pudełka Passport (lub innej
 Przed zainstalowaniem go na urządzeniu zdecydowanie zalecamy sprawdzenie autentyczności i integralności pobranego oprogramowania układowego. Jeśli potrzebujesz pomocy, zapoznaj się z tym samouczkiem :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Po sprawdzeniu pliku `.bin` umieść go na karcie MicroSD, a następnie włóż ją do urządzenia Passport. Otworzy się eksplorator plików Passport. Wybierz plik `vN.N.N-passport.bin`.
 
@@ -297,7 +297,7 @@ Kliknij przycisk potwierdzenia, aby zobaczyć swoją frazę Mnemonic.
 Aby uzyskać więcej informacji na temat prawidłowego sposobu zapisywania i zarządzania frazą Mnemonic, zdecydowanie polecam skorzystanie z tego samouczka, zwłaszcza jeśli jesteś początkującym:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 oczywiście nigdy nie wolno dzielić się tymi słowami w Internecie, tak jak robię to w tym samouczku. Ten przykładowy Wallet będzie używany tylko na Testnet i zostanie usunięty po zakończeniu samouczka.
 
@@ -426,7 +426,7 @@ Przed kontynuowaniem, jeśli chcesz, możesz dodać BIP39 passphrase. BIP39 pass
 Przed skonfigurowaniem tej opcji w urządzeniu Passport zdecydowanie zaleca się przeczytanie tego artykułu, aby w pełni zrozumieć teoretyczne działanie passphrase i uniknąć błędów, które mogą prowadzić do utraty bitcoinów:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Aby ją aktywować, przejdź do menu "*More*" i kliknij "*Enter passphrase*".
 
@@ -443,7 +443,7 @@ Wprowadź swoje passphrase za pomocą klawiatury aA1 i upewnij się, że zapisa�
 Należy pamiętać, że w hasłach BIP39 wielkość liter ma znaczenie. Jeśli wprowadzisz passphrase nieznacznie różniący się od początkowo skonfigurowanego, Passport nie zgłosi błędu, ale wyprowadzi inny zestaw kluczy kryptograficznych, które nie będą tymi w początkowym Wallet.
 
 
-Dlatego ważne jest, aby podczas konfiguracji zanotować gdzieś odcisk palca klucza głównego, który zostanie podany w następnym kroku. Na przykład, w moim passphrase `Plan B Network`, mój odcisk palca klucza głównego to `745D526B`.
+Dlatego ważne jest, aby podczas konfiguracji zanotować gdzieś odcisk palca klucza głównego, który zostanie podany w następnym kroku. Na przykład, w moim passphrase `Plan ₿ Academy`, mój odcisk palca klucza głównego to `745D526B`.
 
 
 ![Image](assets/fr/52.webp)
@@ -458,7 +458,7 @@ Przy każdym odblokowaniu, po zapisaniu passphrase, sprawdź na ekranie potwierd
 Przed otrzymaniem pierwszych bitcoinów na Wallet, **Zalecam wykonanie pustego testu odzyskiwania**. Zanotuj informacje referencyjne, takie jak xpub lub pierwszy otrzymany Address, a następnie usuń Wallet z Paszportu, gdy jest jeszcze pusty (`Ustawienia -> Zaawansowane -> Wymaż Paszport`). Następnie spróbuj przywrócić Wallet przy użyciu papierowych kopii zapasowych frazy Mnemonic i dowolnego passphrase. Sprawdź, czy informacje o plikach cookie wygenerowane po przywróceniu są zgodne z pierwotnie zapisanymi. Jeśli tak, możesz mieć pewność, że Twoje papierowe kopie zapasowe są wiarygodne. Aby dowiedzieć się więcej o tym, jak przeprowadzić odzyskiwanie testowe, zapoznaj się z tym innym samouczkiem :
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -478,7 +478,7 @@ Zacznij od pobrania i zainstalowania Sparrow Wallet [z oficjalnej strony interne
 Przed instalacją należy sprawdzić autentyczność i integralność oprogramowania. Jeśli nie wiesz, jak to zrobić, zapoznaj się z tym samouczkiem:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Po otwarciu Sparrow Wallet kliknij zakładkę "*Plik*", a następnie "*Nowy Wallet*".
 
@@ -708,4 +708,4 @@ Gratulacje, wiesz już jak skonfigurować i używać Passport. Jeśli ten poradn
 Więcej informacji można znaleźć w naszym samouczku na temat oprogramowania Liana:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

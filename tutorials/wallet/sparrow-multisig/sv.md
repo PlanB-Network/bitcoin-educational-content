@@ -48,17 +48,17 @@ I den här handledningen lär vi oss hur man skapar och använder en klassisk mu
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 ## Förkunskapskrav
 
 
 
-För denna handledning ska jag visa dig hur du gör en Multisig med [Sparrow wallet Wallet management software] (https://sparrowwallet.com/download/). Om du ännu inte har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow wallet :
+För denna handledning ska jag visa dig hur du gör en Multisig med [Sparrow wallet Wallet management software](https://sparrowwallet.com/download/). Om du ännu inte har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow wallet :
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
 För att sätta upp en Wallet med flera signaturer behöver du olika hårdvaruplånböcker. För en Multisig 2-de-3 kan du till exempel använda :
 
@@ -101,11 +101,11 @@ Innan du konfigurerar din Multisig Wallet, se till att varje Hardware Wallet är
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Som vi kommer att se senare i den här handledningen är det också möjligt att integrera en faktor i din Multisig-konfiguration som inte är kopplad till en Hardware Wallet, men vars privata nycklar lagras på din dator. Den här metoden är naturligtvis mindre säker än den exklusiva användningen av hårdvaruplånböcker, men den kan vara relevant i vissa fall. För en Multisig 2-de-3 kan du till exempel välja två hårdvaruplånböcker och en Software Wallet.
 
@@ -375,7 +375,7 @@ Förutom att spara *Descriptor*, glöm inte att ägna särskild uppmärksamhet �
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Innan du tar emot dina första bitcoins på din Multisig, **råder jag dig starkt att utföra ett tomt återställningstest**. Anteckna viss referensinformation, till exempel den första mottagande Address, och återställ sedan dina hårdvaruplånböcker medan Wallet fortfarande är tom. Försök sedan återställa dina Multisig Wallet på hårdvaruplånböckerna med hjälp av dina Mnemonic fraspapperskopior, sedan på Sparrow med hjälp av *Descriptor*. Kontrollera att den första Address som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga.
 
@@ -385,7 +385,7 @@ Om du vill veta mer om hur du utför ett återställningstest föreslår jag att
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Ta emot bitcoins på din Multisig
 
@@ -491,7 +491,7 @@ Ange det belopp som ska skickas till den valda Address.
 
 
 
-Justera laddningsgraden efter aktuella nätverksförhållanden. Se till exempel [Mempool.space] (https://Mempool.space/) för att välja en lämplig laddningsnivå.
+Justera laddningsgraden efter aktuella nätverksförhållanden. Se till exempel [Mempool.space](https://Mempool.space/) för att välja en lämplig laddningsnivå.
 
 
 
@@ -619,4 +619,4 @@ För att gå vidare rekommenderar jag att du läser den här handledningen om en
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

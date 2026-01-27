@@ -1,0 +1,8 @@
+question: Jaká je hlavní výhoda toho, že iterátory jsou v Rust líné?
+answer: Nevykonávají žádnou práci, dokud nejsou spotřebovány, což umožňuje efektivní řetězení bez vytváření mezisbírek
+wrong_answers:
+  - Automaticky paralelizují operace na více jader procesoru, čímž zvyšují výkon
+  - Předchozí výsledky ukládají do mezipaměti, aby se zabránilo opakovanému přepočítávání stejných hodnot
+  - Využívají méně paměti, protože ukládají pouze odkazy namísto kopírování skutečných hodnot dat
+explanation: |
+  Líné vyhodnocování v iterátorech Rust znamená, že neprovádějí žádné zpracování, dokud není zavolána konzumující metoda. To umožňuje řetězit více operací, jako je mapování, filtrování a další adaptéry, bez vytváření mezikroků mezi jednotlivými kroky. Překladač může celý řetězec optimalizovat do efektivního kódu, který zpracovává prvky postupně přes všechny transformace, místo aby v každé fázi vytvářel dočasné vektory nebo jiné kolekce.

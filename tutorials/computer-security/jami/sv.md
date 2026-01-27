@@ -82,7 +82,7 @@ Applikationen finns tillgänglig direkt från App Store eller Play Store. Sök b
 
 
 
-För att installera Jami på din enhet måste du först besöka den officiella Jami-webbplatsen. Som standard visar webbplatsen den programvara som motsvarar din enhets operativsystem, och du kan klicka direkt på nedladdningsknappen för att starta den. Du kan dock också ladda ner den körbara Windows-filen direkt från [nedladdningssidan] (https://jami.net/download-jami-windows/).
+För att installera Jami på din enhet måste du först besöka den officiella Jami-webbplatsen. Som standard visar webbplatsen den programvara som motsvarar din enhets operativsystem, och du kan klicka direkt på nedladdningsknappen för att starta den. Du kan dock också ladda ner den körbara Windows-filen direkt från [nedladdningssidan](https://jami.net/download-jami-windows/).
 
 
 
@@ -90,7 +90,7 @@ För att installera Jami på din enhet måste du först besöka den officiella J
 
 
 
-För macOS-användare är filen också tillgänglig från [macOS download page] (https://jami.net/download-jami-macos/).
+För macOS-användare är filen också tillgänglig från [macOS download page](https://jami.net/download-jami-macos/).
 
 
 
@@ -118,7 +118,7 @@ För att installera Jami på Linux är det bäst att använda kommandoraden. Det
 
 
 
-När du har valt din distribution kan du installera systemet. Du måste installera de beroenden som krävs för att köra Jami på ditt Linux-operativsystem. Kommandona är direkt tillgängliga på [den här sidan] (https://jami.net/download-jami-linux/).
+När du har valt din distribution kan du installera systemet. Du måste installera de beroenden som krävs för att köra Jami på ditt Linux-operativsystem. Kommandona är direkt tillgängliga på [den här sidan](https://jami.net/download-jami-linux/).
 
 
 
@@ -140,7 +140,7 @@ Detta kommando installerar de verktyg som behövs för att hantera GPG-nycklar (
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -312,7 +312,7 @@ När lösenordet har angetts kommer enheten automatiskt att ansluta till kontot 
 
 
 
-En av Jamis intressanta funktioner är dess förmåga att integrera nya alternativ via tillägg (plugins). Plugins är inbyggda moduler (C/C++); SDK tillhandahåller verktyg och skript (särskilt i Python) för att hjälpa till att skapa dem. Vissa plugins är tillgängliga direkt [här] (https://jami.net/extensions/).
+En av Jamis intressanta funktioner är dess förmåga att integrera nya alternativ via tillägg (plugins). Plugins är inbyggda moduler (C/C++); SDK tillhandahåller verktyg och skript (särskilt i Python) för att hjälpa till att skapa dem. Vissa plugins är tillgängliga direkt [här](https://jami.net/extensions/).
 
 
 
@@ -360,4 +360,4 @@ Discover Tox, ett decentraliserat protokoll som kombinerar end-to-end-kryptering
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

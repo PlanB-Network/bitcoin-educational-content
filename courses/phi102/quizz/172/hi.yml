@@ -1,0 +1,8 @@
+question: According to the physiocrats' analysis, why does state planning of economic activity fundamentally fail?
+answer: The state lacks the 'master's eye' - the detailed local knowledge that only individual economic agents possess in their daily activities
+wrong_answers:
+  - The state has insufficient financial resources to effectively coordinate all economic sectors across large territories
+  - Political leaders are inherently corrupt and prioritize personal gain over efficient economic management
+  - Democratic voting processes are too slow to respond quickly to rapidly changing market conditions
+explanation: |
+  The physiocrats identified a fundamental epistemological problem with state planning: the impossibility of centrally gathering and processing the vast, complex, and constantly changing information that drives economic activity. They argued that only individual economic agents, operating in their specific contexts, possess the detailed knowledge ('l'œil du maître') necessary to make appropriate economic decisions. This insight predated and anticipated modern Austrian school arguments about the knowledge problem in socialist calculation, demonstrating that the failure of central planning stems not from resource constraints or corruption, but from the inherent impossibility of replacing dispersed individual knowledge with centralized bureaucratic decision-making.

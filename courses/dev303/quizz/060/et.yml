@@ -1,0 +1,8 @@
+question: Kui arendate Rust-s kohandatud funktsioonilaadset makrot, siis mis on fragmentide nagu `expr`, `ty` ja `ident` kasutamise peamine eesmärk mustri sobitamisel?
+answer: Määratleda, milliseid koodielemente saab sobitada ja tagada süntaktiliselt kehtiv sisend
+wrong_answers:
+  - Genereeritud koodi tagastustüübi täpsustamiseks ja kompileerimise jõudluse optimeerimiseks
+  - Makroharude täitmise järjekorra määramiseks ja tüübi kontrollimiseks jooksva aja jooksul
+  - Mälu jaotamise mustrite kontrollimiseks ja muutujate piiritlemise reeglite määratlemiseks laiendatud koodis
+explanation: |
+  Makromustrite fragmendi täpsustajad on tüübipiirangud, mis kinnitavad sisendmärgendite süntaksit makro laiendamisel. Nad tagavad, et makro saab õiget liiki koodielemendi (väljend, tüüp, identifikaator jne) ja annavad selgeid veateateid, kui tekib vigane süntaks. See toimub kompileerimise ajal mustri sobitamise ajal, mitte täitmise ajal, ja nad ei kontrolli otseselt mälu eraldamist, täitmise järjekorda ega genereeritud koodi tagastamistüüpe.

@@ -1,0 +1,8 @@
+question: Milline on peamine piirang, millega arendajad peavad töötama, kui nad kasutavad UniFFI-d mobiilirakenduste arendamiseks, mis nõuavad reageerivaid kasutajaliideseid?
+answer: UniFFI toetab ainult sünkroonseid liideseid, nõudes arendajatelt asünkroonsete operatsioonide käsitlemist eraldi lõimimehhanismide kaudu
+wrong_answers:
+  - UniFFI ei saa käsitleda keerulisi andmetüüpe nagu enumid ja struktuurid, mis piirab mobiilse API liideste rikkalikkust
+  - UniFFI genereerib seoseid, mis ei ole mälusõbralikud üle keelepiiride, mistõttu on vaja käsitsi mälu hallata
+  - UniFFI ei toeta veakäitluse tõlget, mis sunnib arendajaid rakendama igas sihtkeeles individuaalset erandite käsitlemist
+explanation: |
+  UniFFI kõige olulisemaks piiranguks on asünkroonsete liideste toetuse puudumine - kõik genereeritud sidumised on sünkroonsed. See tekitab probleeme mobiilse arenduse jaoks, kus tundlikud kasutajaliidesed on kriitilise tähtsusega, kuna arendajad peavad rakendama omaenda keermestuslahendusi, et vältida põhikeerme blokeerimist. Valed vastused on valed, sest UniFFI on tegelikult suurepärane keeruliste tüüpide, nagu enumid ja struktuurid, käsitlemisel, pakub automaatset mälukindlat marshalingut üle keelepiiride ja omab keerukat veatöötlustõlget, mis teisendab Rust Result-tüübid sihtkeele emakeelseteks erandite mudeliteks.

@@ -48,7 +48,7 @@ Du finner Satochip inni.
 
 ![SATOCHIP](assets/notext/04.webp)
 
-For å administrere lommeboken foreslår jeg i denne veiledningen at du bruker Sparrow. Hvis du ennå ikke har programvaren, [besøk den offisielle nettsiden for å laste den ned] (https://sparrowwallet.com/download/). Du kan også sjekke ut vår veiledning om Sparrow Wallet (kommer snart).
+For å administrere lommeboken foreslår jeg i denne veiledningen at du bruker Sparrow. Hvis du ennå ikke har programvaren, [besøk den offisielle nettsiden for å laste den ned](https://sparrowwallet.com/download/). Du kan også sjekke ut vår veiledning om Sparrow Wallet (kommer snart).
 
 ![SATOCHIP](assets/notext/05.webp)
 
@@ -146,7 +146,7 @@ Du kan legge til en "*Label*" for å beskrive kilden til bitcoinsene som skal si
 
 Hvis du vil ha mer informasjon om merking, anbefaler jeg også at du tar en titt på denne andre veiledningen:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Du kan deretter bruke denne adressen til å motta bitcoins.
 

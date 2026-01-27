@@ -167,7 +167,7 @@ saved to wallet.jmdat
 ```
 
 
-w przypadku pojawienia się błędu najprawdopodobniej nieprawidłowo ustawiliśmy 4 pola RPC określone powyżej. W takim przypadku pomocne może być skorzystanie z [tego przewodnika] (https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) znajdującego się w oryginalnej dokumentacji JoinMarket.
+w przypadku pojawienia się błędu najprawdopodobniej nieprawidłowo ustawiliśmy 4 pola RPC określone powyżej. W takim przypadku pomocne może być skorzystanie z [tego przewodnika](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) znajdującego się w oryginalnej dokumentacji JoinMarket.
 
 
 

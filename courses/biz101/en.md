@@ -1,25 +1,20 @@
 ---
-name: Bitcoin for Businesses
+name: Bitcoin for Business
 goal: Learn the payment and treasury basics to onboard your company to Bitcoin
 objectives:
-  - Bitcoin as an emerging currency and a business tool
-  - Understand why and how a business can hold bitcoin in treasury or use it for payments
-  - Have a concrete idea of how to accept Bitcoin payment in practice
-  - Be prepared for managing fiscal and accounting requirements
+- Discover Bitcoin as an emerging currency and a business tool
+- Understand why and how a business can hold bitcoin in treasury or use it for payments
+- Have a concrete idea of how to accept Bitcoin payment in practice
+- Be prepared for managing fiscal and accounting requirements
 ---
-
 # Kickstart your company’s journey on the Bitcoin network
 
-Discover the practical capabilities of the Bitcoin and Lightning Network, and explore how, much like the internet, they can **transform your business operations**. From digital capital to fast, economical, and scalable payments, Bitcoin offers a vast spectrum of **use cases for businesses**.
+Discover the practical capabilities of the Bitcoin and Lightning Network, and explore how, much like the internet, they can transform your business operations. From treasury to fast, economical, and scalable payments, Bitcoin offers a vast spectrum of use cases for businesses.
 
-Throughout this guide, you will learn how to understand Bitcoin as a global, universal, and internet-native monetary network. With its unique fundamental characteristics, **Bitcoin offers significant improvements over traditional currency networks**. You'll discover why and how to leverage Bitcoin for classic financial use cases such as capital storage and payment systems. Additionally, this guide will cover acquiring and holding Bitcoin, including the associated accounting and fiscal requirements, as well as implementing simple or large-scale Bitcoin payment solutions.
+Throughout this course, you will learn how to understand Bitcoin as a global, universal, and internet-native monetary network. With its unique fundamental characteristics, Bitcoin offers significant improvements over traditional currency. You'll discover why and how to leverage Bitcoin for classic financial use cases such as capital storage and payment systems. Additionally, this course will cover acquiring and holding Bitcoin, including the associated accounting and fiscal requirements, as well as implementing simple or large-scale Bitcoin payment solutions.
 
-Whether you're a **small business or a large corporation**, integrating Bitcoin into your daily operations can make your company more **resilient, productive, and competitive**. Every internet-based company will become a Bitcoin-oriented company, and this course ensures you are prepared. The initial sections recap the fundamentals of Bitcoin’s operation, so even if you’re a beginner, you’ll gain the foundational knowledge needed to proceed. Learning the basics of Satoshi's invention is always a good idea, whether before or after diving into BIZ101.
-
+Whether you're a small business or a large corporation, integrating Bitcoin into your daily operations can make your company more resilient, productive, and competitive. Every internet-based company will become a Bitcoin-oriented company, and this course ensures you are prepared.
 +++
-
-
-
 # Introduction
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
@@ -39,7 +34,7 @@ Whether you represent a small enterprise or a large corporation, this course aim
 
 Ready to dive into the world of Bitcoin for businesses? Let's go!
 
-**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.network/resources/glossary) for definitions.
+**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.academy/resources/glossary) for definitions.
 
 # Currency, payment systems, and Bitcoin
 
@@ -205,7 +200,7 @@ Together, they make of Bitcoin a **bearer asset** and a digital currency **witho
 
 ![BIZ101](assets/en/003.webp)
 
-Bitcoin has a fixed monetary policy, with a **cap of 21 million bitcoins**, of which ~19.8 million have already been distributed. This makes it **deflationary**, with its value increasing over time as users store savings and productivity gains in it.
+Bitcoin has a fixed monetary policy, with a **maximum of 21 million bitcoins**, of which ~19.8 (2024) million have already been mined. This makes it **deflationary**, with its value increasing over time as users store savings and productivity gains in it.
 
 Its technical features surpass those of gold and the dollar combined, making it the hardest financial asset ever created. Bitcoin is both a store of value and a medium of exchange, a currency in the making. Imagine transferring value from one company’s treasury to another swiftly, without intermediaries, at minimal cost, without fraud, 24/7, and without any third party involved.
 
@@ -217,7 +212,7 @@ Bitcoin is disruptive because it encourages us to learn concepts in mathematics,
 
 Bitcoin challenges us to reconsider the nature of money itself. Could you explain what money truly is? A salaried worker or entrepreneur might spend 50,000 to 100,000 hours of their life earning money, yet how many **dedicate even 100 hours to understanding it better** and preserving it? Bitcoin encourages us to question the fundamental reasons behind our need for money and our temporal perspective. Is money for immediate luxury or long-term resilience? If we had an appreciating asset allowing us to delay purchases, what choices would we make? What conversations would we wish to have with ourselves 20 or 30 years from now?
 
-**BITCOIN IDENTITY CARD**
+**BITCOIN IDENTITY CARD (in 2024)**
 - **Age:** 15 years (January 3, 2009)
 - **Daily exchange value:** $10 billion (> CAC40)
 - **Market capitalization:** $1.8 trillion (> Meta, Visa, Silver ; < Apple, Google, Gold)
@@ -239,7 +234,7 @@ Bitcoin challenges us to reconsider the nature of money itself. Could you explai
 
 For more information on Bitcoin, its history, how it works, and its use, I also suggest following this other comprehensive course:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Introduction to the Lightning Network
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -290,7 +285,7 @@ The Lightning Network is ideal for Bitcoin payments in physical or online stores
 - **Finality:** Once a payment is made on Lightning, it is final. There is no possibility of chargebacks by third parties or disputes related to fraud.
 - **Fees:** Transaction fees on the Lightning Network are minimal and paid by the user, not the merchant. Merchants only incur costs if they later need to transfer their Bitcoin to another network or service.
 
-**LIGHTNING IDENTITY CARD**
+**LIGHTNING IDENTITY CARD (in 2024)**
 
 - **Invention:** 2015
 - **Launch:** 2016
@@ -312,7 +307,7 @@ The Lightning Network is ideal for Bitcoin payments in physical or online stores
 
 For more information on the technical workings of the Lightning Network, I also suggest following this other comprehensive course:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 # Bitcoin in treasury
@@ -431,11 +426,11 @@ These thinkers shaped the idea that state intervention distorts markets and that
 
 For more information on this topic:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Holding bitcoin in treasury
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -577,18 +572,18 @@ Since Bitcoin functions as a medium of exchange, it’s possible to envision a c
 - **Mining Bitcoin:**
 This involves earning rewards from operating mining machines. For non-specialized businesses, this remains relatively marginal. You can participate through intermediaries that will sell or rent you the computer, network, and maintenance. If you own the machines, you can account for them as depreciable assets. On a large scale, you’ll need to carefully calculate return on investment because the market is highly competitive and requires a good anticipation of costs, particularly electricity.
 
-To learn more about mining methods, you can [consult the "mining" section in our tutorials](https://planb.network/tutorials/mining).
+To learn more about mining methods, you can [consult the "mining" section in our tutorials](https://planb.academy/tutorials/mining).
 
 - **Buying Bitcoin:**
 This is by far the most common method, typically conducted through peer-to-peer exchanges or specialized trading platforms. But when acquiring Bitcoin as a corporate treasury asset, companies must comply with robust regulatory standards and Know-Your-Customer (KYC) procedures. When they buy it on specialized trading platforms, businesses are typically required to provide detailed company information, including identification documents, financial statements, and proof of address, to satisfy KYC and anti-money laundering (AML) requirements.
 
 To learn how to open a business account and use it to buy, sell, and transfer bitcoins, you can check out these two tutorials specifically designed for businesses, covering the Kraken and Bitfinex platforms in their corporate versions:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-To learn more about methods for acquiring bitcoins via an exchange or peer-to-peer, you can [consult the "exchange" section in our tutorials](https://planb.network/tutorials/exchange).
+To learn more about methods for acquiring bitcoins via an exchange or peer-to-peer, you can [consult the "exchange" section in our tutorials](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/en/012.webp)
 
@@ -818,22 +813,22 @@ For detailed tutorials on the recommended wallets and basic setup, please consul
 
 **Self-custodial LN wallets/nodes:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 
 **Custodial LN wallets:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 
 ## The Essential
@@ -865,17 +860,17 @@ Although the Essential profile does not require highly sophisticated accounting 
 
 The most suitable hybrid solution for your profile is likely Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 
 Another easy-to-implement solution, but with the drawback of being 100% custodial, is Open Node:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 
 If you are ready to get your hands dirty and want full control over the process, the BTCPay Server software is an excellent option. However, the major drawback of BTCPay Server is that its setup and management are time-consuming and require a certain level of technical expertise, but you can follow our guides:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 Finally, as a complement for physical points of sale, you could consider setting up [a Bitcoinize PoS](https://bitcoinize.com/).
@@ -914,7 +909,7 @@ When it comes to real-world examples, consider a mid-sized e-commerce store spec
 
 To delve deeper into implementation specifics and to explore hands-on configurations of BTCPay Server, refer to the following course:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 ## The Enterprise
@@ -1147,7 +1142,7 @@ However, a simple `.csv` file containing the transaction history is often suffic
 
 For those who self-custody their Bitcoin, managing UTXOs (*Unspent Transaction Outputs*) is an important step. Proper UTXO labelling helps trace the origin of each BTC fragment, differentiate transactions related to professional activity from those for personal expenses, and facilitate traceability for legal or tax purposes. Most good Bitcoin wallet software allows you to import your wallet using your backup file (or your xpub, depending on your setup) and tag UTXOs based on their origin or destination. To assist you, here is a complete tutorial dedicated to this practice:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Ultimately, whether you are a small merchant or a more established business, it is possible to **settle an invoice in Bitcoin**. The key is to document the transaction properly. If you pay from a self-custody wallet, it is ideal to generate a transaction note including the invoice number and payment purpose in your labels. If you prefer to settle the invoice via an exchange, you will also have the option to export a receipt or transaction history to include in your accounting records. This transparency will simplify the tracking and reporting of all your BTC operations.
 

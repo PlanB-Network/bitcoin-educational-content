@@ -1,0 +1,8 @@
+question: Koja je primarna prednost Rust enuma koji mogu nositi podatke unutar svake varijante?
+answer: Sprečava nepodudaranja između pokazatelja tipa i pridruženih podataka tako što ih povezuje zajedno.
+wrong_answers:
+  - Omogućava enumeracijama da automatski implementiraju sve standardne osobine bez eksplicitne deklaracije
+  - Omogućava da se enumeracije koriste kao generički parametri u bilo kojoj funkciji ili metodi
+  - Čini da enumeracije troše manje memorije od tradicionalnih struktura sa sličnim podacima
+explanation: |
+  Rust nabrajani tipovi mogu direktno prikačiti podatke za svaku varijantu, što eliminiše uobičajene programske greške održavanja odvojenih promenljivih za indikatore tipa i njihove povezane podatke. Ovaj dizajn osigurava da podaci uvek odgovaraju varijanti, sprečavajući nedoslednosti koje bi mogle dovesti do grešaka u izvođenju. Za razliku od drugih jezika gde biste mogli imati odvojeni nabrajani tip za tip i promenljive za podatke, Rust sve spaja zajedno, čineći nemogućim da tip i podaci postanu neusaglašeni.

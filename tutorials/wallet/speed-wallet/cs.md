@@ -49,7 +49,7 @@ V tomto návodu vás seznámíme s každým z těchto aspektů, abychom vám pr�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Začínáme se Speed Wallet
 
@@ -63,7 +63,7 @@ Speed Wallet je k dispozici jako mobilní aplikace na platformách Android (Goog
 
 
 
-Odkazy na platformy pro stahování najdete na oficiálních stránkách [Speed Wallet] (https://speed.app).
+Odkazy na platformy pro stahování najdete na oficiálních stránkách [Speed Wallet](https://speed.app).
 
 
 
@@ -79,7 +79,7 @@ Rychlost Wallet vyžaduje vytvoření uživatelského účtu. Můžete si ho vyt
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Po vytvoření účtu doporučujeme nastavit systém dvojího ověřování nebo
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Za tímto účelem přejděte do nastavení aplikace a aktivujte duální ověřování a biometrické ověřování.
 
@@ -205,9 +205,9 @@ Možnosti **Koupit** a **Vyměnit** vám umožňují vyměnit bitcoiny Exchange 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Níže naleznete náš návod, jak začít používat službu Bitrefill.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Získávání odměn
 
@@ -327,7 +327,7 @@ V možnosti **Nastavení** na stránce **Wallet** můžete v části **Mini apli
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Rychlost Wallet není určena pouze pro mobilní zařízení!
 
@@ -401,4 +401,4 @@ Dostali jste se na konec našeho výukového programu Speed Wallet. Pokud pro v�
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

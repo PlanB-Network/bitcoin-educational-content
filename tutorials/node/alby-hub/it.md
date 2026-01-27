@@ -54,7 +54,7 @@ Per l'installazione locale sul PC, [scaricare e installare il software in base a
 
 Il primo passo è creare un account Alby. Sebbene non sia indispensabile per utilizzare Alby Hub, consente di sfruttare appieno le opzioni disponibili, compresa la possibilità di ottenere un indirizzo Lightning.
 
-Andate su [il sito ufficiale di Alby] (https://getalby.com/) e cliccate sul pulsante "*Crea account*".
+Andate su [il sito ufficiale di Alby](https://getalby.com/) e cliccate sul pulsante "*Crea account*".
 
 ![ALBY HUB](assets/fr/04.webp)
 
@@ -368,4 +368,4 @@ Ecco fatto, ora sapete come usare Lightning con il vostro nodo utilizzando lo st
 
 Per comprendere nel dettaglio tutti i meccanismi di Lightning che abbiamo manipolato in questo tutorial, vi consiglio vivamente di scoprire la nostra formazione gratuita sull'argomento:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

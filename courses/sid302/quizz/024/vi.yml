@@ -1,0 +1,8 @@
+question: Trong Nền tảng Quản lý Tài sản (AMP) của Liquid, cơ chế kỹ thuật chính nào ngăn chặn các hành động tuân thủ chỉ dựa trên một điểm lỗi duy nhất trong khi vẫn duy trì sự kiểm soát của cơ quan quản lý đối với các tài sản được mã hóa?
+answer: Ủy quyền đa chữ ký yêu cầu nhiều bên phê duyệt các hành động tuân thủ như đóng băng tiền hoặc phát hành lại token.
+wrong_answers:
+  - Token quản trị Smart contract cho phép cộng đồng bỏ phiếu về tất cả các quyết định tuân thủ và thực thi quy định.
+  - Tài khoản ký quỹ có thời hạn tự động thực hiện các hành động tuân thủ sau khi hết thời gian chờ định trước.
+  - Cơ chế đồng thuận bằng chứng cổ phần mật mã, trong đó các trình xác thực phải đạt được sự đồng thuận đa số trước khi thực hiện bất kỳ hành động tuân thủ nào.
+explanation: |
+  AMP sử dụng cơ chế kiểm soát đa chữ ký để đảm bảo các hành động tuân thủ yêu cầu sự ủy quyền từ nhiều bên, ngăn chặn bất kỳ nhân viên nào hành động đơn phương. Điều này tạo ra một hệ thống kiểm tra và cân bằng cho các hoạt động nhạy cảm trong khi vẫn duy trì sự giám sát theo quy định cần thiết đối với tài sản của tổ chức. Các câu trả lời sai mô tả các cơ chế hoặc không tồn tại trong AMP hoặc không phù hợp với việc tuân thủ quy định tài chính.

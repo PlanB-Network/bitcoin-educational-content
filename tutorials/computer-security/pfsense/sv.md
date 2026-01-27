@@ -69,7 +69,7 @@ Den senaste stabila versionen av pfSense, vid tidpunkten för att skriva denna h
 
 
 
-- [Ladda ner pfSense] (https://www.pfsense.org/download/)
+- [Ladda ner pfSense](https://www.pfsense.org/download/)
 
 
 

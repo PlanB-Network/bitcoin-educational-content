@@ -3,7 +3,7 @@ answer: Bitcoin-qt en bitcoind
 wrong_answers:
   - bitcoin-cli en Bitcoin-gui
   - Bitcoin-Miner en Bitcoin-Wallet
-  - Bitcoin-kern en Bitcoin-node
+  - Bitcoin-core en Bitcoin-node
 explanation: |
-  Sinds versie 0.5 bevat Bitcoin core een grafische Interface (Bitcoin-qt) en een opdrachtregel Interface (bitcoind).
+  Sinds versie 0.5 bevat Bitcoin core een grafische interface (Bitcoin-qt) en een command line interface (bitcoind).
 reviewed: true

@@ -1,9 +1,9 @@
 question: ¿Qué sucede si Alice no obtiene la firma de Bob para la transacción de retiro?
-answer: Ella arriesga perder el acceso a sus fondos depositados en la dirección multisignatura
+answer: Ella arriesga perder el acceso a sus fondos depositados en la dirección multifirma
 wrong_answers:
   - Ya no puede comunicarse con Bob en la Lightning Network
   - El canal se abre con capacidad limitada
   - Bob recibe automáticamente los fondos en el canal
 explanation: |
   Sin la firma de Bob en la transacción de retiro, Alice no puede asegurar la recuperación de sus fondos en caso de un problema, lo que representa un riesgo de pérdida.
-reviewed: false
+reviewed: true

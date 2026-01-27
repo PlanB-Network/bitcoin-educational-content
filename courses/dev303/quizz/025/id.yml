@@ -1,0 +1,8 @@
+question: Kata kunci apa yang digunakan untuk mendefinisikan blok implementasi yang berisi metode dan fungsi terkait untuk struktur dalam Rust?
+answer: impl
+wrong_answers:
+  - metode
+  - struct
+  - fn
+explanation: |
+  Kata kunci `impl` secara khusus digunakan untuk membuat blok implementasi di mana Anda mendefinisikan metode dan fungsi terkait untuk struktur. Sementara `struct` mendefinisikan struktur itu sendiri, `fn` mendefinisikan fungsi-fungsi individual, dan `method` sama sekali bukan kata kunci Rust, hanya `impl` yang membuat blok yang berisi perilaku yang terkait dengan sebuah tipe. Blok implementasi yang menggunakan `impl` memungkinkan Anda untuk menambahkan fungsionalitas pada struktur Anda, menjadikannya lebih dari sekedar penampung data.

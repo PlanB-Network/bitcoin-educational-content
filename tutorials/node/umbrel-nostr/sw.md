@@ -19,7 +19,7 @@ Hakikisha umesakinisha Umbrel kwa kufuata mwongozo wetu wa usakinishaji:
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Utangulizi wa Nostr
 
@@ -137,7 +137,7 @@ Kwenye ukurasa huu, bandika URL ya relay yako ya Umbrel ambayo ulinakili hapo aw
 
 
 
-**Muunganisho:** noStrudel hukupa chaguzi kadhaa za unganisho. Kwa upande wetu, tutachagua "Ufunguo wa Kibinafsi" na ubandike katika ufunguo wako wa faragha wa Nostr uliotengenezwa hapo awali. Ikiwa bado huna ufunguo, unaweza kusakinisha kiendelezi cha [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) ili kuunda na/au kuhifadhi vitufe vyako vya Nostr na hivyo kuwasiliana kwa usalama zaidi na programu mbalimbali za Nostr.
+**Muunganisho:** noStrudel hukupa chaguzi kadhaa za unganisho. Kwa upande wetu, tutachagua "Ufunguo wa Kibinafsi" na ubandike katika ufunguo wako wa faragha wa Nostr uliotengenezwa hapo awali. Ikiwa bado huna ufunguo, unaweza kusakinisha kiendelezi cha [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) ili kuunda na/au kuhifadhi vitufe vyako vya Nostr na hivyo kuwasiliana kwa usalama zaidi na programu mbalimbali za Nostr.
 
 
 
@@ -306,7 +306,7 @@ Ikiwa unataka kujua jinsi ya kusanidi nodi yako ya Umeme kwenye Umbrel, ninapend
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Usanidi wa hali ya juu na usalama
 

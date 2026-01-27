@@ -1,22 +1,19 @@
 ---
 name: Bitcoin ettevõtetele
 goal: Õppige makse- ja riigikassa põhitõdesid, et võtta oma ettevõte bitcoini kasutusele
-objectives: 
-
-  - Bitcoin kui arenev valuuta ja ärivahend
-  - Mõista, miks ja kuidas ettevõte saab bitcoini hoida riigikassas või kasutada seda maksete tegemiseks
-  - Kas teil on konkreetne idee, kuidas bitcoini makseid praktikas vastu võtta?
-  - Olge valmis eelarve- ja raamatupidamisnõuete haldamiseks
-
+objectives:
+- Avastage Bitcoin kui tekkiv valuuta ja ärivahend
+- Mõistke, miks ja kuidas saab ettevõte hoida bitcoini kassas või kasutada seda maksete tegemiseks
+- Omage konkreetset ettekujutust, kuidas praktikas Bitcoini makseid vastu võtta
+- Olge valmis haldama maksu- ja raamatupidamisnõudeid
 ---
-# Alusta oma ettevõtte teekonda bitcoini võrgus
+# Alusta oma ettevõtte teekonda Bitcoin võrgustikus
 
-Avastage Bitcoini ja Lightning Networki praktilised võimalused ning uurige, kuidas need võivad sarnaselt internetiga **muutada teie äritegevust**. Alates digitaalsest kapitalist kuni kiirete, ökonoomsete ja skaleeritavate makseteni, pakub Bitcoin ettevõtjatele **kasutamisvõimalusi**.
+Avaста Bitcoini ja Lightning Network'i praktilised võimalused ning uuri, kuidas need võivad, sarnaselt internetiga, muuta teie ärioperatsioone. Alates kassast kuni kiire, ökonoomse ja skaleeritava makseteni pakub Bitcoin ettevõtetele laia valikut kasutusjuhtumeid.
 
-Selle juhendi kaudu saate teada, kuidas mõista Bitcoini kui globaalset, universaalset ja internetipõhist rahavõrku. Tänu oma ainulaadsetele põhiomadustele pakub **Bitcoin märkimisväärseid täiustusi võrreldes traditsiooniliste valuutavõrkudega**. Saate teada, miks ja kuidas kasutada Bitcoini klassikaliste finantskasutuse juhtumite, näiteks kapitali säilitamise ja maksesüsteemide puhul. Lisaks käsitletakse selles juhendis Bitcoini omandamist ja hoidmist, sealhulgas sellega seotud raamatupidamis- ja maksunõudeid, ning lihtsate või suuremahuliste Bitcoini makselahenduste rakendamist.
+Selle kursuse jooksul õpid mõistma Bitcoini kui globaalset, universaalset ja internetipõhist rahavõrgustikku. Oma ainulaadsete põhiomaduste poolest pakub Bitcoin märkimisväärseid parandusi võrreldes traditsiooniliste valuutadega. Avastada, miks ja kuidas kasutada Bitcoini klassikaliste finantsjuhtumite jaoks, nagu kapitali säilitamine ja maksesüsteemid. Lisaks käsitleb see kursus Bitcoini omandamist ja hoidmist, sealhulgas seotud raamatupidamis- ja fiskaalsenõudeid, samuti lihtsate või suure mahuga Bitcoin maksete lahenduste rakendamist.
 
-Olenemata sellest, kas olete **väikeettevõte või suurkorporatsioon**, võib Bitcoini integreerimine teie igapäevatöösse muuta teie ettevõtte **vastupidavamaks, tootlikumaks ja konkurentsivõimelisemaks**. Iga internetipõhine ettevõte muutub Bitcoinile orienteeritud ettevõtteks ja see kursus tagab, et olete selleks valmis. Esimesed lõigud kordavad Bitcoini toimimise põhialuseid, nii et isegi kui olete algaja, saate edasiminekuks vajalikud põhiteadmised. Satoshi leiutise põhitõdede õppimine on alati hea mõte, kas enne või pärast BIZ101-i sukeldumist.
-
+Olenemata sellest, kas olete väike ettevõte või suur korporatsioon, võib Bitcoini integreerimine teie igapäevastesse operatsioonidesse muuta teie ettevõtte vastupidavamaks, produktiivsemaks ja konkurentsivõimelisemaks. Iga internetipõhine ettevõte muutub Bitcoin-orienteeritud ettevõtteks ja see kursus tagab, et olete valmis.
 +++
 # Sissejuhatus
 
@@ -35,7 +32,7 @@ Olenemata sellest, kas esindate väikeettevõtet või suurt korporatsiooni, on s
 
 Olete valmis sukelduma ettevõtete jaoks mõeldud Bitcoini maailma? Lähme!
 
-**Märkus**: Kui kursusel satute kokku tundmatute terminitega, palun vaadake [sõnastikust](https://planb.network/resources/glossary) definitsioonid.
+**Märkus**: Kui kursusel satute kokku tundmatute terminitega, palun vaadake [sõnastikust](https://planb.academy/resources/glossary) definitsioonid.
 
 # Valuuta, maksesüsteemid ja Bitcoin
 
@@ -202,7 +199,7 @@ Bitcoin on **peer-to-peer digitaalne valuutavahetussüsteem** (elektrooniline su
 
 ![BIZ101](assets/et/003.webp)
 
-Bitcoinil on fikseeritud rahapoliitika, mille **ülemmäär on 21 miljonit bitcoinit**, millest ~19,8 miljonit on juba jaotatud. See muudab selle **deflatsiooniliseks**, mille väärtus kasvab aja jooksul, kuna kasutajad hoiustavad sinna säästusid ja tootlikkuse kasvu.
+Bitcoinil on fikseeritud rahapoliitika, **maksimaalselt 21 miljonit bitcoini**, millest ~19,8 (2024) miljonit on juba kaevandatud. See muudab selle **deflatsiooniliseks**, kusjuures selle väärtus ajas kasvab, kuna kasutajad hoiustavad selles sääste ja tootlikkuse kasvu.
 
 Selle tehnilised omadused ületavad kulla ja dollari omadusi kokku, mis teeb sellest kõige raskema finantsvara, mis on kunagi loodud. Bitcoin on nii väärtuse säilitaja kui ka vahetusvahend, valmiv valuuta. Kujutage ette väärtuse ülekandmist ühe ettevõtte kassast teise kiiresti, ilma vahendajateta, minimaalsete kuludega, ilma pettusteta, 24/7 ja ilma kolmanda osapoole osaluseta.
 
@@ -214,7 +211,7 @@ Bitcoin on häiriv, sest see julgustab meid õppima matemaatika, krüptograafia,
 
 Bitcoin kutsub meid üles mõtlema uuesti raha enda olemuse üle. Kas te võiksite selgitada, mis on raha tegelikult? Palgatöötaja või ettevõtja võib kulutada 50 000 kuni 100 000 tundi oma elust raha teenimiseks, kuid kui paljud ** pühendavad isegi 100 tundi selle paremale mõistmisele** ja säilitamisele? Bitcoin julgustab meid kahtlema meie rahavajaduse ja ajalise perspektiivi põhilistes põhjustes. Kas raha on koheseks luksuseks või pikaajaliseks vastupidavuseks? Kui meil oleks väärtustatav vara, mis võimaldaks meil ostusid edasi lükata, milliseid valikuid me teeksime? Milliseid vestlusi me sooviksime pidada 20 või 30 aasta pärast?
 
-**BITCOINI ISIKUTUNNISTUS**
+**BITCOINI IDENTIFITSEERIMISKAART (2024. aastal)**
 
 
 - **Vanus:** 15 aastat (3. jaanuar 2009)
@@ -240,7 +237,7 @@ Bitcoin kutsub meid üles mõtlema uuesti raha enda olemuse üle. Kas te võiksi
 
 Lisateabe saamiseks Bitcoini, selle ajaloo, toimimise ja kasutamise kohta soovitan jälgida ka seda teist põhjalikku kursust:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Lightning Network'i tutvustus
 
@@ -299,7 +296,7 @@ Lightning Network on ideaalne Bitcoini maksete tegemiseks füüsilistes või vee
 - **Lõplikkus:** Kui makse on Lightningile tehtud, on see lõplik. Kolmandate osapoolte poolt tehtavate tagasimaksete või pettusega seotud vaidluste võimalus puudub.
 - **Tasud:** Lightning Networki tehingutasud on minimaalsed ja neid maksab kasutaja, mitte kaupmees. Kaupmeestele tekivad tasud ainult siis, kui nad peavad hiljem oma Bitcoini teise võrku või teenusesse üle kandma.
 
-**VALGUSTUSKAART**
+**LIGHTNINGU IDENTIFITSEERIMISKAART (2024. aastal)**
 
 
 - **Leiutis:** 2015
@@ -322,7 +319,7 @@ Lightning Network on ideaalne Bitcoini maksete tegemiseks füüsilistes või vee
 
 Lisateabe saamiseks Lightning Networki tehnilise toimimise kohta soovitan jälgida ka seda teist põhjalikku kursust:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 # Bitcoin riigikassas
 
@@ -442,11 +439,11 @@ Need mõtlejad kujundasid ideed, et riigi sekkumine moonutab turgu ja et majandu
 
 Lisateave selle teema kohta:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Bitcoini hoidmine riigikassas
 
@@ -598,7 +595,7 @@ Kuna Bitcoin toimib vahetusvahendina, on võimalik ette kujutada ringmajandust. 
 
 See hõlmab tasu teenimist kaevandusmasinate käitamisest. Mittespetsialiseerunud ettevõtete puhul jääb see suhteliselt marginaalseks. Võite osaleda vahendajate kaudu, kes müüvad või rendivad teile arvutust, võrku ja hooldust. Kui masinad kuuluvad teile, saate neid amortiseeritavate varadena arvestada. Suures mahus peate hoolikalt arvutama investeeringu tasuvust, sest turg on väga konkurentsitihe ja nõuab kulude, eelkõige elektrienergia, head ettenägemist.
 
-Et rohkem teada saada kaevandamismeetodite kohta, võite [tutvuda meie õpetuste jaotisega "kaevandamine"](https://planb.network/tutorials/mining).
+Et rohkem teada saada kaevandamismeetodite kohta, võite [tutvuda meie õpetuste jaotisega "kaevandamine"](https://planb.academy/tutorials/mining).
 
 
 - **Bitcoini ostmine:**
@@ -607,11 +604,11 @@ See on kaugelt kõige levinum meetod, mida tehakse kas vastastikuste börside ka
 
 Et õppida, kuidas avada ärikonto ja kasutada seda bitcoinide ostmiseks, müümiseks ja ülekandmiseks, saate vaadata neid kahte spetsiaalselt ettevõtetele mõeldud õpetust, mis hõlmavad Krakeni ja Bitfinexi platvormide äriversioone:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Lisateavet bitcoinide omandamise meetodite kohta vahetuse või peer-to-peer kaudu saate [tutvuda meie õpetuste jaotisega "vahetus"](https://planb.network/tutorials/exchange).
+Lisateavet bitcoinide omandamise meetodite kohta vahetuse või peer-to-peer kaudu saate [tutvuda meie õpetuste jaotisega "vahetus"](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/et/012.webp)
 
@@ -866,21 +863,21 @@ Soovitatavate rahakottide ja põhiliste seadistuste üksikasjalikud õpetused le
 
 **Iseseisvad LN rahakotid/sõlmed:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **Kinnisvara LN rahakotid:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## Oluline
 
@@ -912,15 +909,15 @@ Kuigi Essential-profiil ei nõua väga keerukaid raamatupidamissüsteeme, on sii
 
 Teie profiilile kõige sobivam hübriidlahendus on tõenäoliselt Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Teine kergesti rakendatav lahendus, kuid selle puuduseks on see, et see on 100% eestkostetav, on Open Node:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Kui olete valmis oma käed määrima ja soovite protsessi täielikku kontrolli, on BTCPay Server tarkvara suurepärane valik. BTCPay Serveri peamine puudus on siiski see, et selle seadistamine ja haldamine on aeganõudev ja nõuab teatud tehnilisi teadmisi, kuid te võite järgida meie juhiseid:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Lõpuks, füüsiliste müügipunktide täienduseks võiksite kaaluda [Bitcoinize PoS](https://bitcoinize.com/) loomist.
 
@@ -958,7 +955,7 @@ Kui tegemist on reaalsete näidetega, siis võtke näiteks keskmise suurusega e-
 
 Kui soovite süveneda rakendamise üksikasjadesse ja uurida BTC Pay Serveri praktilisi konfiguratsioone, vaadake järgmist kursust:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 ## Ettevõte
 
@@ -1209,7 +1206,7 @@ Enamiku väikeettevõtete jaoks piisab siiski sageli lihtsast tehingulugu sisald
 
 Nende jaoks, kes hoiavad oma Bitcoini ise, on UTXOde (*Unspent Transaction Outputs*) haldamine oluline samm. Õige UTXO märgistamine aitab jälgida iga BTC-fragmendi päritolu, eristada kutsetegevusega seotud tehinguid isiklikeks kuludeks tehtud tehingutest ning hõlbustada jälgitavust õiguslikel või maksustamise eesmärkidel. Enamik headest Bitcoini rahakoti tarkvaradest võimaldab teil importida oma rahakoti, kasutades oma varundust (või xpubi, sõltuvalt teie seadistusest), ja märgistada UTXO-d nende päritolu või sihtkoha alusel. Teie abistamiseks on siin täielik õpetus, mis on pühendatud sellele praktikale:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettevõte, on võimalik **arveid tasuda Bitcoinis**. Oluline on tehingu nõuetekohane dokumenteerimine. Kui maksate isehaldatavast rahakotist, on ideaalne luua tehing, kus on märgitud arve number ja makse eesmärk oma etikettides. Kui eelistate arve arveldada vahetuse kaudu, on teil ka võimalus eksportida kviitung või tehingu ajalugu, et lisada see oma raamatupidamisdokumentidesse. Selline läbipaistvus lihtsustab kõigi teie BTC-operatsioonide jälgimist ja aruandlust.
 

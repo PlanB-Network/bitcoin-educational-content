@@ -36,7 +36,7 @@ Jade Plus je kompatibilní s většinou softwaru pro správu portfolia. Zde je p
 
 V tomto návodu nastavíme pokročilou konfiguraci zařízení Jade Plus s desktopovým softwarem Sparrow Wallet v režimu QR kódů. Tato konfigurace je ideální pro středně pokročilé nebo zkušené uživatele. Pokud hledáte jednodušší přístup pro začátečníky, doporučuji podívat se na tento návod, kde používáme Jade Plus se zelenou peněženkou přes připojení Bluetooth:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## Bezpečnostní model Jade Plus
 
@@ -111,7 +111,7 @@ Můžete jej napsat na karton dodávaný v krabici, nebo pro větší bezpečnos
 
 Pro více informací o správném způsobu ukládání a správy mnemotechnických frází vřele doporučuji sledovat tento další návod, zejména pokud jste začátečníci:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 samozřejmě nesmíte tato slova nikdy sdílet na internetu, jako to dělám já v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a na konci tutoriálu bude smazáno.
 
@@ -269,7 +269,7 @@ Přístupová fráze BIP39 je volitelné heslo, které si můžete libovolně zv
 
 Před konfigurací této možnosti v systému Jade Plus důrazně doporučujeme přečíst si tento článek, abyste plně porozuměli teoretickému fungování přístupové fráze a vyhnuli se chybám, které by mohly vést ke ztrátě vašich bitcoinů :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Když je zařízení Jade stále zamčené (přístupovou frázi lze zadat pouze tehdy, když zařízení není odemčené), přejděte do nabídky "*Options*".
 
@@ -314,7 +314,7 @@ Pokud je vaše přístupová fráze platná, potvrďte ji.
 
 Upozorňujeme, že u přístupových hesel BIP39 záleží na velikosti písmen a překlepů. Pokud zadáte heslovou frázi mírně odlišnou od původně nakonfigurované, Jade neohlásí chybu, ale odvodí jinou sadu kryptografických klíčů, které nebudou těmi z vašeho původního portfolia.
 
-Proto je důležité, abyste si při konfiguraci poznamenali otisk hlavního klíče, který najdete v pravém dolním rohu obrazovky. Například s mou přístupovou frází `PBN` je otisk hlavního klíče `3AD1AE65`.
+Proto je důležité, abyste si při konfiguraci poznamenali otisk hlavního klíče, který najdete v pravém dolním rohu obrazovky. Například s mou přístupovou frází `Plan ₿ Academy` je otisk hlavního klíče `3AD1AE65`.
 
 ![Image](assets/fr/49.webp)
 
@@ -322,7 +322,7 @@ Při každém odemknutí zařízení Jade pomocí přístupové fráze zkontrolu
 
 Než obdržíte své první bitcoiny do peněženky, **důrazně doporučuji provést test obnovy prázdné peněženky**. Zaznamenejte si některé referenční informace, jako je vaše xpub nebo první přijímací adresa, a poté peněženku na Jade Plus vymažte, dokud je ještě prázdná (`Možnosti -> Zařízení -> Obnovení továrního nastavení`). Poté zkuste peněženku obnovit pomocí papírových záloh mnemotechnické fráze a případné přístupové fráze. Zkontrolujte, zda se informace o souboru cookie vygenerované po obnovení shodují s těmi, které jste si původně zapsali. Pokud ano, můžete si být jisti, že vaše papírové zálohy jsou spolehlivé. Chcete-li se dozvědět více o tom, jak provést zkušební obnovu, podívejte se na tento další návod:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Konfigurace peněženky v aplikaci Sparrow Wallet
 
@@ -334,7 +334,7 @@ Začněte stažením a instalací aplikace Sparrow Wallet [z oficiálních strá
 
 Před instalací nezapomeňte zkontrolovat pravost a neporušenost softwaru. Pokud nevíte, jak to udělat, přečtěte si tento návod:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Po otevření aplikace Sparrow Wallet klikněte na kartu "*File*" a poté na "*New Wallet*".
 
@@ -452,4 +452,4 @@ Gratulujeme, nyní víte, jak nastavit a používat zařízení Jade Plus v rež
 
 Chcete-li jít dále, doporučuji tento další návod na Jade Plus, kde jej konfigurujeme přes Bluetooth pomocí mobilní aplikace Green:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0

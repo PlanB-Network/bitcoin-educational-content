@@ -32,7 +32,7 @@ Katika mafunzo haya, ambayo yanalenga wanaoanza na watumiaji wa kati, tutagundua
 Iwapo wewe ni mtumiaji wa hali ya juu na unataka kuchunguza vipengele ngumu zaidi, ninapendekeza uangalie mafunzo haya mengine ambapo tunasanidi Pasipoti na Sparrow Wallet :
 
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Kuondoa pasipoti
 
@@ -246,7 +246,7 @@ Ili kufanya hivyo, tumia kadi ya MicroSD iliyojumuishwa kwenye sanduku la Pasipo
 Kabla ya kuiweka kwenye kifaa chako, tunakushauri sana uangalie uhalisi na uadilifu wa firmware iliyopakuliwa. Ikiwa unahitaji msaada kwa hili, soma mafunzo haya:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Na maombi ya Mjumbe
 
@@ -371,7 +371,7 @@ Bofya kwenye kitufe cha uthibitishaji ili kuona maneno yako ya Mnemonic.
 Kwa maelezo zaidi kuhusu njia sahihi ya kuhifadhi na kudhibiti maneno yako ya Mnemonic, ninapendekeza sana kufuata mafunzo haya mengine, hasa ikiwa wewe ni mwanzilishi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 bila shaka, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama ninavyofanya katika mafunzo haya. Sampuli hii ya Wallet itatumika kwenye Testnet pekee na itafutwa mwishoni mwa mafunzo.
 
@@ -674,4 +674,4 @@ Hongera, sasa unajua jinsi ya kusanidi na kutumia Pasipoti na programu ya Mjumbe
 Kwa habari zaidi, angalia mafunzo yetu juu ya programu ya Liana:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

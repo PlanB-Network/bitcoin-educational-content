@@ -195,4 +195,4 @@ Anda kini siap menggunakan Ubuntu sehari-hari: mengamankan sistem, menjelajah in
 
 Untuk meningkatkan keamanan kehidupan digital Anda selangkah lebih maju, kami merekomendasikan untuk melihat layanan pesan terenkripsi kami, yang sangat sesuai untuk melindungi privasi Anda dan melengkapi instalasi Ubuntu Anda:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

@@ -1,0 +1,8 @@
+question: Cơ chế đồng thuận chính được Liquid Network sử dụng là gì?
+answer: Đồng thuận liên bang
+wrong_answers:
+  - Proof-of-Work
+  - Bằng chứng cổ phần
+  - Bằng chứng cổ phần được ủy quyền
+explanation: |
+  Liquid Network hoạt động trên mô hình Đồng thuận Liên kết (Federated Consensus), về cơ bản khác với hệ thống Proof-of-Work của Bitcoin. Trong mô hình này, một nhóm mười lăm người được chọn đóng vai trò là người ký khối, tạo ra các khối theo phương thức luân phiên có tính xác định. Proof-of-Work là cơ chế đồng thuận của Bitcoin liên quan đến mining, trong khi Proof-of-Stake và Delegated Proof-of-Stake là các cơ chế đồng thuận được sử dụng bởi các mạng blockchain khác nhưng không được Liquid sử dụng.

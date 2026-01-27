@@ -6,4 +6,4 @@ wrong_answers:
   - Raíces cúbicas
 explanation: |
   En criptografía, los campos finitos de orden 2^m a menudo utilizan polinomios irreducibles para asegurar que el campo esté bien definido y que todas las operaciones sean posibles.
-reviewed: false
+reviewed: true

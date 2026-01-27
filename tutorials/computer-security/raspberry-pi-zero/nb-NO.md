@@ -6,7 +6,7 @@ description: Hvordan bygge en minimal, luftgapet og rimelig datamaskin ved hjelp
 
 
 
-Hvis du har vært på sidene til Plan ₿ Network en stund, har du allerede lært at en av de mest anbefalte sikkerhetsinnstillingene, nesten et must, ** er forvaltning av midler ved offline lagring av dine private nøkler**.
+Hvis du har vært på sidene til Plan ₿ Academy en stund, har du allerede lært at en av de mest anbefalte sikkerhetsinnstillingene, nesten et must, ** er forvaltning av midler ved offline lagring av dine private nøkler**.
 
 
 
@@ -14,7 +14,7 @@ Hvis du ikke har oppdaget det ennå, vil du i denne veiledningen finne lenker ti
 
 
 
-For å administrere private nøkler offline, trengs derfor en enhet som er permanent frakoblet nettverket, enten det er en [maskinvarelommebok](https://planb.network/resources/glossary/hardware-wallet) eller en airgap-datamaskin, dedikert til denne spesifikke funksjonen.
+For å administrere private nøkler offline, trengs derfor en enhet som er permanent frakoblet nettverket, enten det er en [maskinvarelommebok](https://planb.academy/resources/glossary/hardware-wallet) eller en airgap-datamaskin, dedikert til denne spesifikke funksjonen.
 
 
 
@@ -70,7 +70,7 @@ en del av denne guiden vil vise deg hvordan og hvor du gjør det. Men hvis du vi
 
 
 
-Da jeg bestemte meg for å gå videre, fant jeg [dette settet] (https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) fullt av tilbehør for å utnytte PI Zeros fulle potensial. Settet inneholder faktisk en USB A -> micro USB power Supply, en liten USB-hub, en mini-HDMI -> HDMI-adapter, en kjøleribbe i kobber og et ytterkabinett i aluminium. Settet inneholder også skruene og unbrakonøkkelen som trengs for å montere PI Zero i det nye kabinettet.
+Da jeg bestemte meg for å gå videre, fant jeg [dette settet](https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) fullt av tilbehør for å utnytte PI Zeros fulle potensial. Settet inneholder faktisk en USB A -> micro USB power Supply, en liten USB-hub, en mini-HDMI -> HDMI-adapter, en kjøleribbe i kobber og et ytterkabinett i aluminium. Settet inneholder også skruene og unbrakonøkkelen som trengs for å montere PI Zero i det nye kabinettet.
 
 
 
@@ -500,7 +500,7 @@ Blant lommebøkene som jeg er kjent med, er Electrum den eneste som tilbyr en 32
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Konklusjoner
 

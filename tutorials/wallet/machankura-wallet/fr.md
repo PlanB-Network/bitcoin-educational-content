@@ -29,7 +29,7 @@ La technologie USSD (*Unstructured supplementary Service Data*) qui signifie ‘
 
 Dans un processus de communication USSD, imaginez que vous tapez un code spécial comme `*123#` sur votre téléphone. En exécutant ce code USSD, vous envoyez une requête spécifique à votre réseau GSM afin d'accéder au service relié à ce code. 
 
- Vous pouvez donc utiliser l'USSD pour effectuer des actions comme la consultation de votre forfait internet, le solde de crédit de communication, etc.
+Vous pouvez donc utiliser l'USSD pour effectuer des actions comme la consultation de votre forfait internet, le solde de crédit de communication, etc.
 
 C’est via ce même système de communication que s’est développé sur le continent le mobile banking et les transferts d’argent mobile comme M-PESA, MTN Mobile Money, etc. 
 Comme nous l’avions dit précédemment, développé particulièrement pour l'Afrique, ce service fonctionne sur tous les téléphones sans aucune configuration technique complexe ni connexion Internet requise.
@@ -70,7 +70,7 @@ Pour votre première connexion :
 - Appuyez sur la touche d’appel pour lancer.
 
 Le système vous demandera de créer un code PIN à 5 chiffres 
--  Choisissez un code PIN sécurisé (5 chiffres).
+- Choisissez un code PIN sécurisé (5 chiffres).
 - Confirmez votre code PIN.
 - Votre portefeuille Bitcoin est créé instantanément.
 
@@ -172,7 +172,7 @@ Vous pouvez retrouver la [vidéo démo d'envoi](https://www.linkedin.com/posts/a
 
 Machankura n’est pas qu’un simple portefeuille. Vous pouvez échanger vos satoshis contre des biens et services (par exemple cartes-cadeaux Bitrefill ou Lightning Watts) directement depuis l’application.
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Vous avez également la fonction « **Clan** » qui permet de gérer un système coopératif de multisignatures : les membres du clan doivent approuver chaque dépense, et vous pouvez répartir automatiquement les fonds entre ces derniers.
 
@@ -186,7 +186,7 @@ La seconde, qui n'est qu'une suite logique de la première, est celle d'être un
 
 ### Créer son portefeuille
 
-Pour commencer, vous devez écrire un message au bot WhatsApp de Machankura (un simple ”Salut” suffit largement). Son numéro WhatsApp c'est le [+27 73 762 5720](https://wa.me/+27737625720).
+Pour commencer, vous devez écrire un message au bot WhatsApp de Machankura (un simple ”Salut” suffit largement). Son numéro WhatsApp est le [+27 73 762 5720](https://wa.me/+27737625720).
 
 Il vous demandera de choisir la langue dans laquelle vous voudriez discuter.
 
@@ -219,11 +219,11 @@ Machankura vous permet d'envoyer vos bitcoins via différentes options :
 - facture LN, une facture Lightning standard ;
 - adresse on-chain, par l'intermédiaire du service Boltz.
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura permet une interopérabilité entre les différents portefeuilles Lightning. Dans cette démonstration, nous envoyons des bitcoins depuis notre portefeuille Machankura WhatsApp vers un portefeuille Wallet of Satoshi.
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Pour envoyer, veuillez saisir le chiffre 1, correspondant à l'option "ENVOYER BTC". Par la suite, choisissez l'option d'envoi "Adresse Lightning", puis indiquer l'adresse du destinataire des bitcoins. Enfin, sélectionnez la mesure de valeur "sats", indiquez le nombre de satoshis à envoyer et confirmez l'envoi.
 
@@ -287,9 +287,9 @@ De plus, Machankura offre la possibilité à toute personne souhaitant vous envo
 
 ![wallet](assets/fr/21.webp)
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### Vérification du solde
 

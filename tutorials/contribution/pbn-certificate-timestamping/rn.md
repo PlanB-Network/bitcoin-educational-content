@@ -1,6 +1,6 @@
 ---
-name: Timestamp y'impapuro z'umutsindo za Plan ₿ Network
-description: Tahura ingene Plan ₿ Network itanga ibimenyamenya bishobora kugenzurwa ku vyemezo vyawe n'amadiplome yawe
+name: Timestamp y'impapuro z'umutsindo za Plan ₿ Academy
+description: Tahura ingene Plan ₿ Academy itanga ibimenyamenya bishobora kugenzurwa ku vyemezo vyawe n'amadiplome yawe
 ---
 
 ![cover](assets/cover.webp)
@@ -9,13 +9,13 @@ description: Tahura ingene Plan ₿ Network itanga ibimenyamenya bishobora kugen
 Nimba uriko urasoma ibi, hari amahirwe menshi y’uko waronse canke icemeza ko wararonse icemezo c’ikibazo ca ₿ -CERT canke icemeza ko warangije amashure yisumbuye muri rimwe mu mashure wize kuri planb.network, rero urakoze cane kubera ivyo washitseko!
 
 
-Muri iyi nyigisho, tuzobona ingene Plan ₿ Network itanga ibimenyamenya bishobora kugenzurwa ku cete cawe c’ikibazo ca ₿ -CERT canke Diplome iyo ari yo yose yerekeye Uguheza Amashure. Hanyuma, mu gice ca kabiri tuzodondora ingene twosuzuma ukuri kw’ivyo bimenyamenya.
+Muri iyi nyigisho, tuzobona ingene Plan ₿ Academy itanga ibimenyamenya bishobora kugenzurwa ku cete cawe c’ikibazo ca ₿ -CERT canke Diplome iyo ari yo yose yerekeye Uguheza Amashure. Hanyuma, mu gice ca kabiri tuzodondora ingene twosuzuma ukuri kw’ivyo bimenyamenya.
 
 
-# Uburyo bw'ikimenyamenya ca Plan ₿ Network
+## Uburyo bw'ikimenyamenya ca Plan ₿ Academy
 
 
-Ku Plan ₿ Network, dushira umukono ku vyemezo n’amadiplome mu buryo bw’ubuhinga bwa none, tukabishirako ikidodo c’igihe dukoresheje Timechain (ni ukuvuga Bitcoin Blockchain), biciye ku buryo bwo gutanga ibimenyamenya bushingiye ku bikorwa bibiri vy’ubuhinga bwa none:
+Ku Plan ₿ Academy, dushira umukono ku vyemezo n’amadiplome mu buryo bw’ubuhinga bwa none, tukabishirako ikidodo c’igihe dukoresheje Timechain (ni ukuvuga Bitcoin Blockchain), biciye ku buryo bwo gutanga ibimenyamenya bushingiye ku bikorwa bibiri vy’ubuhinga bwa none:
 
 
 1. Umukono wa GPG kuri dosiye y'inyandiko ihuriza hamwe ivyo washitseko
@@ -31,13 +31,13 @@ Twemera ko ubwo buryo bworoshe bwo gutanga ibimenyamenya buduha ubushobozi bwo g
 ![image](./assets/proof-mechanism.webp)
 
 
-Kubera ubwo buryo bwo gutanga ibimenyamenya, ukugerageza kwose kwo guhindura mbere n’agace gatoyi cane k’icete cawe canke icete cawe kizovamwo SHA-256 Hash itandukanye rwose n’iyo dosiye yashizweko umukono, bigaca bigaragaza ubwo nyene ko hariho uguhindura, kuko umukono n’umukono wa Timestamp bitazoba bigifise akamaro. Vyongeye, iyo umuntu agerageje kwihenda mu buryo bubi ivyemezo canke impapuro z’umutsindo mw’izina rya Plan ₿ Network, gusuzuma neza umukono bizokwerekana ubuhendanyi.
+Kubera ubwo buryo bwo gutanga ibimenyamenya, ukugerageza kwose kwo guhindura mbere n’agace gatoyi cane k’icete cawe canke icete cawe kizovamwo SHA-256 Hash itandukanye rwose n’iyo dosiye yashizweko umukono, bigaca bigaragaza ubwo nyene ko hariho uguhindura, kuko umukono n’umukono wa Timestamp bitazoba bigifise akamaro. Vyongeye, iyo umuntu agerageje kwihenda mu buryo bubi ivyemezo canke impapuro z’umutsindo mw’izina rya Plan ₿ Academy, gusuzuma neza umukono bizokwerekana ubuhendanyi.
 
 
-## None umukono wa GPG ukora gute?
+### None umukono wa GPG ukora gute?
 
 
-Umukono wa GPG ukoreshwa hakoreshejwe porogarama yuguruye yitwa GNU Privacy Guard. Iyi porogarama ituma abayikoresha bashobora gukora mu buryo bworoshe imfunguruzo z’ibanga, gushirako umukono no kugenzura imikono, no gupfuka no gufungura amadosiye. Kubera intumbero z'iyi nyigisho, birahambaye kumenya ko Plan ₿ Network ikoresha GPG kugira ngo ireme imfunguruzo zayo z'ibanga/za bose no gushirako umukono ku vyemezo vyose vya ₿-CERT n'Impapuro z'Ivyigwa vy'Ukurangiza Amashure.
+Umukono wa GPG ukoreshwa hakoreshejwe porogarama yuguruye yitwa GNU Privacy Guard. Iyi porogarama ituma abayikoresha bashobora gukora mu buryo bworoshe imfunguruzo z’ibanga, gushirako umukono no kugenzura imikono, no gupfuka no gufungura amadosiye. Kubera intumbero z'iyi nyigisho, birahambaye kumenya ko Plan ₿ Academy ikoresha GPG kugira ngo ireme imfunguruzo zayo z'ibanga/za bose no gushirako umukono ku vyemezo vyose vya ₿-CERT n'Impapuro z'Ivyigwa vy'Ukurangiza Amashure.
 
 
 Ku rundi ruhande, iyo umuntu ashaka kugenzura ukuri kw’idosiye yashizweko umukono, arashobora gukoresha GPG kugira ngo yinjize urufunguzo rwa bose rw’uwayitanga maze akarugenzura.
@@ -46,7 +46,7 @@ Ku rundi ruhande, iyo umuntu ashaka kugenzura ukuri kw’idosiye yashizweko umuk
 Ku bashaka kumenya vyinshi ku bijanye n'iyi porogaramu nziza cane, ushobora kuraba ["Igitabo c'ubuzima bwite ca GNU"](https://www.gnupg.org/gph/ru/manual/x135.html)
 
 
-## None gushiramwo ikidodo c’igihe bikora gute?
+### None gushiramwo ikidodo c’igihe bikora gute?
 
 
 Umuntu wese arashobora gukoresha OpenTimestamps kugira ngo Timestamp dosiye maze aronke ikimenyamenya c’uko iriho. Mu yandi majambo, ntitanga ikimenyamenya c’igihe iyo dosiye yaremewe, ahubwo itanga ikimenyamenya c’uko iyo dosiye yariho ata nyuma y’igihe kinaka.
@@ -56,10 +56,10 @@ OpenTimestamps itanga iyi serivisi ku buntu ikoresheje uburyo bwiza cane bwo kub
 Igihe iyo nzira yinjiye mu gice, umuntu wese afise dosiye y'intango na dosiye `.ots` ifatanye na yo arashobora kugenzura ukuri kw'ikidodo c'igihe. Mu gice ca kabiri c’inyigisho, tuzobona ingene wogenzura Icemezo cawe ca Bitcoin canke Diplome iyo ari yo yose y’Ivyigwa biciye ku nzira y’ivyigwa no biciye ku gishushanyo ca Interface ku rubuga rwa OpenTimestamps.
 
 
-# Uko wogenzura icemezo ca Plan ₿ Network ₿-CERT canke Diplome
+## Uko wogenzura icemezo ca Plan ₿ Academy ₿-CERT canke Diplome
 
 
-## Intambwe ya 1. Gukuraho Icemeza canke Diplome yawe
+### Intambwe ya 1. Gukuraho Icemeza canke Diplome yawe
 
 
 Injira mu rubuga rwawe bwite/rw'abanyeshure kuri planb.network.
@@ -89,13 +89,13 @@ Kura ibirimwo ukanda iburyo kuri dosiye `.zip` ugahitamwo "Kura". Uzosanga amado
 - Icemezo ca PDF (nk'akarorero icemezo.pdf)
 
 
-## Intambwe ya 2: Ushobora gute kugenzura Umukono wa Dosiye y’Ivyanditswe?
+### Intambwe ya 2: Ushobora gute kugenzura Umukono wa Dosiye y’Ivyanditswe?
 
 
 Mbere, genda muri dosiye wakuyemwo amadosiye maze ufungure terminal (kanda iburyo kw'idirisha rya dosiye hanyuma ukande kuri "Open in Teminal"). Hanyuma, ukurikize amabwirizwa ari aha hepfo.
 
 
-1. Injira urufunguzo rwa PGP rwa bose rwa Plan ₿ Network n'itegeko rikurikira:
+1. Injira urufunguzo rwa PGP rwa bose rwa Plan ₿ Academy n'itegeko rikurikira:
 
 
 ```bash
@@ -107,7 +107,7 @@ Ushobora kubona ubutumwa nk'ubu bukurikira nimba warashoboye kwinjiza urufunguzo
 
 
 ```
-gpg: key 8F12D0C63B1A606E: public key "PlanB Network (used for PBN platform) <admin@planb.network>" imported
+gpg: key 8F12D0C63B1A606E: public key "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" imported
 gpg: Total number processed: 1
 gpg:               imported: 1
 ```
@@ -128,7 +128,7 @@ Iri tegeko rikwiye kukwereka ido n'ido ry'umukono, harimwo:
 
 
 
-- Ni nde yashizeko umukono (Plan ₿ Network)
+- Ni nde yashizeko umukono (Plan ₿ Academy)
 - Igihe ryashirwako umukono .
 - Nimba umukono ufise akamaro canke atari wo
 
@@ -140,17 +140,17 @@ Aka ni akarorero k'ivyavuyemwo:
 gpg: Signature made lun 11 nov 2024, 00:39:04 CET
 gpg:                using RSA key 5720CD577E7894C98DBD580E8F12D0C63B1A606E
 gpg:                issuer "admin@planb.network"
-gpg: Good signature from "PlanB Network (used for PBN platform) <admin@planb.network>" [unknown]
+gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" [unknown]
 ```
 
 
 Niwabona ubutumwa nk'ubwa "BAD signature", bisigura ko dosiye yahinduwe.
 
 
-## Intambwe ya 3: Gusuzuma Timestamp yuguruye
+### Intambwe ya 3: Gusuzuma Timestamp yuguruye
 
 
-### Gusuzuma biciye ku gishushanyo Interface
+#### Gusuzuma biciye ku gishushanyo Interface
 
 
 1. Sura urubuga rw’Ibimenyetso vy’Igihe: https://ibimenyetso vy’Igihe.org/
@@ -170,7 +170,7 @@ Niwabona ubutumwa nk'ubu bukurikira, Timestamp irafise akamaro:
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
 
-### Uburyo bwa CLI
+#### Uburyo bwa CLI
 
 
 ICIBUKIRO: ubu buryo **buzosaba urudodo rwa Bitcoin rwo mu karere ruriko rurakora**
@@ -204,15 +204,15 @@ Iri tegeko rizo:
 - Wemeze ko Timestamp ari ukuri
 
 
-### Ivyavuyemwo
+#### Ivyavuyemwo
 
 
 Igenzura rishobora kuroranirwa iyo **vyompi** ubutumwa bukurikira bugaragajwe:
 
 
-1. Umukono wa GPG uvugwa ko ari **"Umukono mwiza uva kuri Plan ₿ Network"**
+1. Umukono wa GPG uvugwa ko ari **"Umukono mwiza uva kuri Plan ₿ Academy"**
 
 2. Igenzura rya OpenTimestamps ryerekana igice ca Bitcoin Timestamp kandi ritanga raporo **"Kuroranirwa! Igice ca Bitcoin [uburebure bw'igice] cemeza ko amakuru yariho kuva kuri [Timestamp]"**
 
 
-Ubu ko uzi ingene Plan ₿ Network itanga ibimenyamenya bishobora kugenzurwa ku cete ca ₿-CERT cose n’Impapuro z’umutsindo, urashobora kugenzura bitagoranye ubutungane bwavyo.
+Ubu ko uzi ingene Plan ₿ Academy itanga ibimenyamenya bishobora kugenzurwa ku cete ca ₿-CERT cose n’Impapuro z’umutsindo, urashobora kugenzura bitagoranye ubutungane bwavyo.

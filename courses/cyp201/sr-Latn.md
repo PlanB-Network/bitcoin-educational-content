@@ -1,13 +1,11 @@
 ---
-name: Unutrašnje funkcionisanje Bitkojn novčanika
+name: Arhitektura Bitcoin novčanika
 goal: Uronite u kriptografske principe koji pokreću Bitkojn novčanike.
-objectives: 
-
-  - Definisanje teorijskih pojmova neophodnih za razumevanje kriptografskih algoritama korišćenih u Bitkojnu
-  - Potpuno razumevanje konstrukcije determinističkog i hijerarhijskog novčanika.
-  - Znati kako identifikovati i smanjiti rizike povezane sa upravljanjem novčanikom.
-  - Razumevanje principa heš funkcija, kriptografskih ključeva i digitalnih potpisa.
-
+objectives:
+- Definisanje teorijskih pojmova neophodnih za razumevanje kriptografskih algoritama korišćenih u Bitkojnu
+- Potpuno razumevanje konstrukcije determinističkog i hijerarhijskog novčanika.
+- Znati kako identifikovati i smanjiti rizike povezane sa upravljanjem novčanikom.
+- Razumevanje principa heš funkcija, kriptografskih ključeva i digitalnih potpisa.
 ---
 
 # Putovanje u središte Bitkojn novčanika
@@ -38,6 +36,8 @@ Uz jasnu pedagogiju, preko 60 objašnjavajućih dijagrama i konkretne primere, C
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 
 Dobrodošli na kurs CYP201, gde ćemo detaljno istražiti funkcionisanje HD Bitkojn novčanika. Ovaj kurs je dizajniran za svakoga ko želi da razume tehničke osnove korišćenja Bitkojna, bilo da su povremeni korisnici, prosvetljeni entuzijasti ili budući stručnjaci.
 
@@ -47,7 +47,7 @@ Cilj ove obuke je da vam pruži ključeve za savladavanje alata koje svakodnevno
 
 Pre nego što se upustimo u detalje strukture i funkcionisana Bitkojn novčanika, počećemo sa nekoliko poglavlja o kriptografskim primitivama koje treba poznavati za ono što sledi.
 
-Počećemo sa kriptografskim heš funkcijama, koje su fundamentalne kako za novčanike, tako i za sam Bitkojn protokol. Otkrićete njihove glavne karakteristike, specifične funkcije korišćene u Bitkojnu, a u tehnički detaljnijem poglavlju, naučićete detalje o funkcionisanju kraljice heš funkcija: SHA256.
+Počećemo sa kriptografskim heš funkcijama, koje su fundamentalne kako za novčanike, tako i za sam Bitkojn protokol. Otkrićete njihove glavne karakteristike, specifične funkcije korišćene u Bitkojnu, a u tehnički detaljnijem poglavlju, naučićete detalje o funkcionisanju kraljice heš funkcija: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
@@ -65,7 +65,7 @@ Kada dobro razumemo ove kriptografske elemente, konačno ćemo preći na srž ob
 ![CYP201](assets/en/003.webp)
 
 
-Obuka će se nastaviti proučavanjem BIP39 passphrase (sigurnosna fraza, fraza za pristup), seed (ne treba ga mešati sa bezbednosnom frazom), master lanca koda i master ključa. Detaljno ćemo videti šta su ovi elementi, njihove odgovarajuće uloge i kako se izračunavaju.
+Obuka će se nastaviti proučavanjem [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase (sigurnosna fraza, fraza za pristup), seed (ne treba ga mešati sa bezbednosnom frazom), master lanca koda i master ključa. Detaljno ćemo videti šta su ovi elementi, njihove odgovarajuće uloge i kako se izračunavaju.
 
 
 ![CYP201](assets/en/004.webp)
@@ -118,6 +118,8 @@ Ova tabela vam nudi prevod glavnih engleskih termina koji se koriste, kako bi va
 
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 
 Prvi tip kriptografskih algoritama korišćenih u Bitkojnu uključuje heš funkcije. One igraju ključnu ulogu na različitim nivoima protokola, ali i unutar Bitkojn novčanika. Hajde da zajedno otkrijemo šta je heš funkcija i za šta se koristi u Bitkojnu.
@@ -281,6 +283,8 @@ Sada znate osnove o heš funkcijama za ono što sledi. U sledećem poglavlju pre
 
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
 
 
 Prethodno smo videli da heš funkcije poseduju važne karakteristike koje opravdavaju njihovu upotrebu u Bitcoin-u. Hajde sada da ispitamo unutrašnje mehanizme ovih heš funkcija koje im daju ova svojstva, i da bismo to uradili, predlažem da rastavimo operaciju fukcije SHA256.
@@ -785,6 +789,8 @@ Sada kada smo detaljno pogledali kako funkcionišu heš funkcije, posebno SHA256
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 
 Na aplikacionom nivou Bitcoin-a, pored heš funkcija, koriste se kriptografski algoritmi derivacije koji služe da se iz početnih podataka naprave nove, kriptografski bezbedne vrednosti. Iako se ovi algoritmi oslanjaju na heš funkcije, služe različitim svrhama, posebno u smislu autentifikacije i generisanja ključeva. Ovi algoritmi zadržavaju neke od karakteristika heš funkcija, kao što su ireverzibilnost, otpornost na manipulacije i otpornost na kolizije.
 
@@ -918,6 +924,8 @@ U ovom poglavlju smo istražili funkcije HMAC-SHA512 i PBKDF2, koje koriste heš
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
+
 
 Druga kriptografska metoda korišćena u Bitcoin-u uključuje algoritme digitalnog potpisa. Hajde da istražimo šta to podrazumeva i kako funkcioniše.
 
@@ -941,7 +949,7 @@ Korisnik koji želi da izvrši Bitcoin transakciju mora stoga kreirati digitalni
 Kao rezultat toga, korisnik koji poseduje bitkoine zaključane javnim ključem mora pronaći način da bezbedno čuva ono što omogućava otključavanje njihovih sredstava: privatni ključ. Bitcoin novčanik je upravo uređaj koji će vam omogućiti da lako čuvate sve svoje ključeve bez da im drugi ljudi imaju pristup. Stoga je više nalik na privezak za ključeve nego na novčanik.
 
 
-Matematička veza između javnog ključa i privatnog ključa, kao i mogućnost izvršavanja potpisa kako bi se dokazalo posedovanje privatnog ključa bez njegovog otkrivanja, omogućeni su algoritmom digitalnog potpisa. U Bitcoin protokolu koriste se dva algoritma digitalnog potpisa: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) i **Schnorr signature scheme**. ECDSA je protokol digitalnog potpisa korišćen u Bitcoin-u od samog početka. Schnorr je noviji u Bitcoin-u, jer je uveden u novembru 2021. sa ažuriranjem Taproot-a.
+Matematička veza između javnog ključa i privatnog ključa, kao i mogućnost izvršavanja potpisa kako bi se dokazalo posedovanje privatnog ključa bez njegovog otkrivanja, omogućeni su algoritmom digitalnog potpisa. U Bitcoin protokolu koriste se dva algoritma digitalnog potpisa: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) i **Schnorr signature scheme**. ECDSA je protokol digitalnog potpisa korišćen u Bitcoin-u od samog početka. Schnorr je noviji u Bitcoin-u, jer je uveden u novembru 2021. sa ažuriranjem Taproot-a.
 
 Ova dva algoritma su prilično slična u svojim mehanizmima. Obe su zasnovane na kriptografiji eliptičkih krivih. Glavna razlika između ovih protokola leži u strukturi potpisa i nekim specifičnim matematičkim svojstvima. Stoga ćemo proučiti funkcionisanje ovih algoritama, počevši od najstarijeg: ECDSA.
 
@@ -1047,15 +1055,17 @@ Koristimo konačno polje celih brojeva modulo $p$ kako bismo osigurali tačnost 
 Matematika eliptičkih krivih nad konačnim poljima je analogna onoj nad poljem realnih brojeva, s prilagodbom da se sve operacije izvode modulo $p$. Da bismo pojednostavili objašnjenja, u narednim poglavljima ćemo nastaviti ilustrovati pojmove koristeći krivu definisanu nad realnim brojevima, imajući na umu da je u praksi kriva definisana nad konačnim poljem.
 
 
-Ako želite da saznate više o matematičkim osnovama moderne kriptografije, preporučujem da pogledate i ovaj drugi kurs na Plan ₿ Network:
+Ako želite da saznate više o matematičkim osnovama moderne kriptografije, preporučujem da pogledate i ovaj drugi kurs na Plan ₿ Academy:
 
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Izračunavanje javnog ključa iz privatnog ključa
 
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
 Kao što je ranije viđeno, algoritmi digitalnog potpisa u Bitcoin-u zasnivaju se na paru privatnih i javnih ključeva koji su matematički povezani. Hajde da zajedno istražimo šta je ta matematička veza i kako se oni generišu.
 
@@ -1241,6 +1251,8 @@ Naravno, u ovom pojednostavljenom primeru sa $k = 4$, bilo bi moguće pronaći $
 
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 
 Sada kada znate kako da izvedete javni ključ iz privatnog ključa, već možete primati bitkojne koristeći ovaj par ključeva kao uslov za trošenje. Ali kako ih potrošiti? Da biste potrošili bitkoine, potrebno je da otključate _scriptPubKey_ priložen uz vaš UTXO kako biste dokazali da ste zaista njegov legitimni vlasnik. Da biste to uradili, morate proizvesti potpis $s$ koji odgovara javnom ključu $K$ prisutnom u _scriptPubKey_ koristeći privatni ključ $k$ koji je prvobitno korišćen za izračunavanje $K$. Digitalni potpis je tako neoboriv dokaz da posedujete privatni ključ povezan sa javnim ključem koji tvrdite da imate.
@@ -1550,6 +1562,8 @@ Pa, mi stvarno ne znamo zašto Satoshi nije izabrao to, ali verovatna hipoteza j
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 
 Kao što smo videli u prethodnim poglavljima, digitalni potpisi se često koriste za otključavanje skripte ulaza (input skripta). U procesu potpisivanja, neophodno je uključiti potpisane podatke u izračunavanje, označene u našim primerima kao poruka $m$. Ovi podaci, kada su jednom potpisani, ne mogu biti izmenjeni bez poništavanja potpisa. Zaista, bilo da se radi o ECDSA ili Schnorr, verifikator potpisa mora uključiti u svoje izračunavanje istu poruku $m$. Ako se razlikuje od poruke $m$ koju je inicijalno koristio potpisnik, rezultat će biti netačan i potpis će biti proglašen nevažećim. Tada se kaže da potpis pokriva određene podatke i na neki način ih štiti od neovlašćenih izmena.
 
@@ -1641,7 +1655,7 @@ Ako se ovaj sighash indikator integriše u Bitcoin, to će omogućiti upotrebu t
 Da biste produbili svoje znanje o Lightning Network, nakon kursa CYP201, toplo preporučujem kurs LNP201 od Fanisa Michalakisa, koji detaljno pokriva ovu temu:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 U narednom delu predlažem da otkrijemo kako funkcioniše bezbednosna fraza koja je osnova vašeg Bitcoin novčanika.
 
@@ -1656,6 +1670,8 @@ U narednom delu predlažem da otkrijemo kako funkcioniše bezbednosna fraza koja
 
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
+
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
 
 
 Sada kada smo istražili funkcionisanje heš funkcija i digitalnih potpisa, možemo proučiti kako funkcionišu Bitcoin novčanici. Cilj će biti da opišemo kako je novčanik u Bitcoin-u konstruisan, kako se dekomponuje i za šta se koriste različiti delovi informacija koji ga čine. Ovo razumevanje mehanizama novčanika omogućiće vam da poboljšate korišćenje Bitcoin-a u smislu sigurnosti i privatnosti.
@@ -1690,10 +1706,10 @@ Ako neko želi da koristi više privatnih ključeva, bilo je potrebno napraviti 
 Ovo ograničenje proizlazi iz Bitcoin modela privatnosti. Ponovnim korišćenjem iste adrese, spoljnim posmatračima se olakšava praćenje Bitcoin transakcija. Zato se ponovna upotreba prijemne adrese snažno obeshrabruje. Međutim, da bismo imali više adresa i javno odvojili naše transakcije, neophodno je upravljati sa više privatnih ključeva. U slučaju JBOK novčanika, to podrazumeva kreiranje onoliko rezervnih kopija koliko ima novih parova ključeva, zadatak koji može brzo postati složen i težak za održavanje korisnicima.
 
 
-Da biste saznali više o modelu privatnosti Bitcoin-a i otkrili metode za zaštitu vaše privatnosti, takođe preporučujem da pratite moj BTC204 kurs na Plan ₿ Network:
+Da biste saznali više o modelu privatnosti Bitcoin-a i otkrili metode za zaštitu vaše privatnosti, takođe preporučujem da pratite moj BTC204 kurs na Plan ₿ Academy:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Novčanici
 
@@ -1723,6 +1739,8 @@ U narednim poglavljima istražićemo unutrašnje funkcionisanje HD novčanika, u
 
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
+
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
 Moderni HD novčanici oslanjaju se na jedan početni deo informacija nazvan "entropija" kako bi deterministički generisali čitav skup ključeva u novčaniku. Ova entropija je pseudo-slučajni broj koji delimično određuje sigurnost novčanika.
 
@@ -1763,6 +1781,8 @@ U sledećem poglavlju, videćemo kako prelazimo sa nasumičnog broja na bezbedno
 
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
 Bezbednosna fraza, takođe nazvana "seed fraza", "fraza za oporavak", "tajna fraza" ili "fraza od 24 reči", je sekvenca koja se obično sastoji od 12 ili 24 reči, a generiše se iz entropije. Koristi se za determinističko izvođenje svih ključeva HD novčanika. To znači da je iz ove fraze moguće deterministički generisati i ponovo kreirati sve privatne i javne ključeve Bitcoin novčanika, i samim tim pristupiti sredstvima koja su njome zaštićena. Svrha bezbednosne fraze je da omogući siguran i jednostavan način za pravljenje rezervne kopije i povraćaj pristupa bitkoinima. Uvedena je 2013. godine sa standardom BIP39.
 
@@ -1834,7 +1854,7 @@ Na primer, za entropiju od 256 bita, rezultat $\text{ENT} \Vert \text{CS}$ je 26
 ### Pretvaranje binarnog niza u bezbednosnu frazu
 
 
-Bit sekvenca $\text{ENT} \Vert \text{CS}$ se zatim deli na segmente od 11 bita. Svaki segment od 11 bita, kada se konvertuje u decimalni oblik, odgovara broju između 0 i 2047, koji označava poziciju reči [u listi od 2048 reči standardizovanih od strane BIP39](https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bit sekvenca $\text{ENT} \Vert \text{CS}$ se zatim deli na segmente od 11 bita. Svaki segment od 11 bita, kada se konvertuje u decimalni oblik, odgovara broju između 0 i 2047, koji označava poziciju reči [u listi od 2048 reči standardizovanih od strane BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)
@@ -1899,7 +1919,7 @@ Fraza od 12 reči, koja takođe nudi 128 bita sigurnosti, trenutno je dovoljna d
 Da biste išli dalje i konkretno naučili kako ručno generisati testnu bezbednosnu frazu, savetujem vam da otkrijete ovaj vodič:
 
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Pre nego što nastavim sa izvođenjem novčanika iz ove bezbednosne fraze, u sledećem poglavlju ću vas upoznati sa BIP39 passphrase, jer igra ulogu u procesu izvođenja i nalazi se na istom nivou kao i bezbednosna fraza.
 
@@ -1908,6 +1928,8 @@ Pre nego što nastavim sa izvođenjem novčanika iz ove bezbednosne fraze, u sle
 
 
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
+
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
 
 Kao što smo upravo videli, HD novčanici se generišu iz bezbednosne fraze koja obično sadrži 12 ili 24 reči. Ova fraza je veoma važna jer omogućava obnavljanje svih ključeva novčanika u slučaju da se fizički uređaj (kao što je hardverski novčanik, na primer) izgubi. Međutim, ona predstavlja jedinstvenu tačku otkaza, jer ako je kompromitovana, napadač bi mogao da ukrade sve bitkoine. Tu na scenu stupa BIP39 passphrase.
@@ -1964,6 +1986,8 @@ U sledećem odeljku, otkrićemo kako se ova dva osnovna elementa vašeg novčani
 
 
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 
 Kada se generišu bezbednosna fraza i opcioni passphrase, može početi proces derivacije Bitcoin HD novčanika. Bezbednsona fraza se prvo konvertuje u seed koji čini osnovu svih ključeva novčanika.
@@ -2072,6 +2096,8 @@ Pre nego što nastavimo sa izvođenjem HD novčanika sa sledećim elementima, ž
 ## Prošireni ključevi
 
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 
 Prošireni ključ je jednostavno konkatenacija ključa (bilo privatnog ili javnog) i njegovog pridruženog lanca koda. Ovaj lanac koda je ključan za izvođenje podključeva jer, bez njega, nije moguće izvesti podključeve iz roditeljskog ključa, ali ćemo ovaj proces preciznije istražiti u sledećem poglavlju. Ovi prošireni ključevi tako omogućavaju agregaciju svih potrebnih informacija za izvođenje podključeva, čime se pojednostavljuje upravljanje računima unutar HD novčanika.
@@ -2238,6 +2264,8 @@ U ovom poglavlju smo otkrili da postoje dve različite vrste dečijih (pod) klju
 ## Izvođenje podparova ključeva
 
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 
 Izvođenje parova ključeva za decu u Bitcoin HD novčanicima oslanja se na hijerarhijsku strukturu koja omogućava generisanje velikog broja ključeva, dok organizuje ove parove u različite grupe kroz grane. Svaki podpar izveden iz roditeljskog (nad)para može se koristiti ili direktno u *scriptPubKey* za zaključavanje bitkoina, ili kao početna tačka za generisanje više podključeva, i tako dalje, kako bi se stvorilo stablo ključeva.
@@ -2497,6 +2525,8 @@ Do sada ste naučili kako da kreirate osnovne elemente HD novčanika: bezbednosn
 
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 
 Hijerarhijska struktura HD novčanika u Bitcoin-u omogućava organizaciju parova ključeva na različite načine. Ideja je da se iz glavnog privatnog ključa i glavnog lanca koda izvedu različiti nivoi dubine. Svaki dodati nivo odgovara derivaciji para ključeva deteta iz para ključeva roditelja.
 
@@ -2630,6 +2660,8 @@ U sledećem poglavlju, otkrićemo šta su "*output script descriptors*", nedavno
 
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
 
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 Često vam se govori da je sama bezbednosna fraza dovoljna za povratak pristupa novčaniku. U stvarnosti, stvari su malo složenije. U prethodnom poglavlju smo pogledali strukturu derivacije HD novčanika, i možda ste primetili da je ovaj proces prilično složen. Derivacioni putevi govore softveru koji pravac da prati kako bi izveo korisničke ključeve. Međutim, prilikom oporavka Bitcoin novčanika, ako neko ne zna ove puteve, sama bezbednosna fraza nije dovoljna. Ona omogućava dobijanje glavnog ključa i glavnog lanca koda, ali je onda potrebno znati indekse korišćene za dostizanje podređenih ključeva.
 
 
@@ -2695,6 +2727,8 @@ Sada znate sve o radu HD novčanika u Bitcoin-u i procesu derivacije parova klju
 
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
+
 
 Primajuće adrese su delovi informacija ugrađeni u *scriptPubKey* kako bi zaključali novo kreirane UTXO-e. Jednostavno rečeno, adresa služi za primanje bitkoina. Hajde da istražimo njihovo funkcionisanje u vezi sa onim što smo proučavali u prethodnim poglavljima.
 
@@ -2714,20 +2748,22 @@ Kada korisnik primi bitkoine, pošiljalac kreira UTXO i zaključava ga pomoću *
 Upravo u *scriptPubKey* se nalaze adrese primaoca. Međutim, njihova upotreba varira u zavisnosti od usvojenog standarda skripte. Ovde je tabela sažetka informacija sadržanih u *scriptPubKey* prema korišćenom standardu, kao i informacija koje se očekuju u *scriptSig* da bi se otključao *scriptPubKey*.
 
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Arbitrary data     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Izvor: Bitcoin Core PR review club, 7. jul 2021 - Gloria Zhao*
 
+
+| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| ---------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Arbitrarni podaci | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Izvor: Bitcoin Core PR review club od 7. jula 2021 – Gloria Zhao_
 
 Opkodovi korišćeni u skripti su dizajnirani da manipulišu informacijama i, ako je potrebno, da ih uporede ili testiraju. Uzmimo primer P2PKH skripte, koja je sledeća:
 
@@ -2879,6 +2915,8 @@ Sada kada smo pokrili teoriju, pređimo na praksu! U sledećem poglavlju, predla
 ## Izvođenje adresa
 
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 
 Hajde da zajedno istražimo kako da generišete adresu za primanje iz para ključeva lociranih, na primer, na dubini 5 HD novčanika. Ova adresa se zatim može koristiti u novčanik softveru za zaključavanje UTXO-a.

@@ -1,0 +1,9 @@
+question: Mikä on "paljastamisen" ja "julkaisemisen" keskeinen ero Bitcoin:n tietoturva-aukkojen käsittelyn yhteydessä?
+answer: Julkistaminen tarkoittaa, että asiasta ilmoitetaan myyjälle yksityisesti, kun taas julkaiseminen tarkoittaa, että haavoittuvuus saatetaan julkisesti mahdollisten hyökkääjien tietoon
+wrong_answers:
+  - Julkistaminen koskee kriittisiä haavoittuvuuksia, kun taas julkaiseminen koskee muita kuin kriittisiä haavoittuvuuksia, joita on vaikeampi hyödyntää
+  - Julkistaminen tarkoittaa Bitcoin Core -kehittäjille ilmoittamista, kun taas julkaiseminen tarkoittaa altcoin- ja muille toteutustiimeille ilmoittamista
+  - Julkistaminen edellyttää välitöntä toimintaa ja korjauksia, kun taas julkaiseminen mahdollistaa asteittaiset korjaukset normaalin kehitysprosessin kautta
+explanation: |
+  Gregory Maxwell korosti tätä ratkaisevaa eroa postituslistalla käydyssä keskustelussa. Julkistamisella tarkoitetaan vastuullista toimintaa, jossa ohjelmistojen ylläpitäjille (myyjille) ilmoitetaan yksityisesti haavoittuvuudesta, jotta he voivat työskennellä korjauksen parissa. Julkaiseminen tarkoittaa kuitenkin haavoittuvuustietojen saattamista julkisesti saataville, jolloin mahdollisille hyökkääjille kerrotaan tehokkaasti haavoittuvuuden hyväksikäytöstä. Tämä ero on tärkeä, sillä vaikka julkistaminen auttaa suojaamaan järjestelmää, ennenaikainen julkaiseminen voi aiheuttaa haittaa, koska se antaa pahansuoville toimijoille mahdollisuuden hyödyntää haavoittuvuutta ennen kuin riittävät suojauskeinot on otettu käyttöön.
+reviewed: false

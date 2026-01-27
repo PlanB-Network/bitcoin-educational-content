@@ -17,7 +17,7 @@ Dojo is an open-source program designed to act as a backend server for certain p
 ![Image](assets/fr/01.webp)
 
 
-In practical terms, Dojo acts as a gateway between your wallet and the Bitcoin network. Without Dojo, a lightweight mobile wallet would have to query third-party servers to obtain the status of your UTXOs and your history, or to broadcast your transactions. This implies dependency and leakage of sensitive data to a third-party server (addresses used, amounts, payment frequency, etc.). With Dojo, you host this server yourself, directly connected to your own Bitcoin node. In this way, all your portfolio requests pass through an infrastructure that you control, without intermediaries, reinforcing your confidentiality and sovereignty.
+In practical terms, Dojo acts as a gateway between your wallet and the Bitcoin network. Without Dojo, a lightweight mobile wallet would have to query third-party servers to obtain the status of your UTXOs and your history, or to broadcast your transactions. This implies dependency and leakage of sensitive data to a third-party server (addresses used, amounts, payment frequency, etc.). With Dojo, you host this server yourself, directly connected to your own Bitcoin node. In this way, all your wallet requests pass through an infrastructure that you control, without intermediaries, reinforcing your confidentiality and sovereignty.
 
 
 ## Requirements for setting up a Dojo
@@ -49,7 +49,7 @@ Each option has its advantages and disadvantages:
 For more information on choosing your equipment, I recommend you take this course:
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Recommended equipment
 
@@ -147,7 +147,7 @@ Then follow the classic Ubuntu installation process:
 For more details on the Ubuntu installation process, please see our dedicated tutorial :
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. system update
 
@@ -333,7 +333,7 @@ sudo passwd dojo
 The system will then ask you to enter your chosen password, then confirm it a second time.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Authorize user to use Docker
 
@@ -482,7 +482,7 @@ rm -r samourai-dojo-1.27.0 && rm samourai-dojo-1.27.0.zip && rm samourai-dojo-1.
 ## 5. Dojo configuration
 
 
-Dojo is a backend server that brings together several services to interact with your portfolio and manage your Bitcoin node. Its configuration can be complex, but the project offers a simplified method that automatically installs and configures the following components:
+Dojo is a backend server that brings together several services to interact with your wallet and manage your Bitcoin node. Its configuration can be complex, but the project offers a simplified method that automatically installs and configures the following components:
 
 
 - Dojo (main API)
@@ -833,7 +833,7 @@ In practice, this operation generally takes between **2 and 7 days**. During thi
 To deepen your knowledge of IBD and, more generally, of the operation and role of your Bitcoin node, I recommend you take a look at this course:
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Synchronization monitoring

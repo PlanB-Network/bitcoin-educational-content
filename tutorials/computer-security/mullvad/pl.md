@@ -30,7 +30,7 @@ Mullvad VPN to szwedzka usługa, która wyróżnia się swoim Commitment dla pry
 W przypadku płatności niekoniecznie wymagane jest podanie danych karty kredytowej, ponieważ Mullvad akceptuje płatności Bitcoin (onchain tylko na ich oficjalnej stronie, ale istnieje nieoficjalna metoda płatności za pośrednictwem Lightning). Akceptują również płatności gotówkowe za pośrednictwem poczty.
 
 
-Mullvad VPN wyróżnia się również przejrzystością i bezpieczeństwem. Ich oprogramowanie jest typu open-source i regularnie przechodzą niezależne audyty bezpieczeństwa w celu oceny swoich aplikacji i infrastruktury, których wyniki są [publikowane na ich stronie internetowej] (https://mullvad.net/fr/blog/tag/audits). Firma stojąca za Mullvad ma siedzibę w Szwecji, kraju znanym z surowych przepisów dotyczących prywatności. Korzysta wyłącznie z serwerów hostowanych samodzielnie, eliminując w ten sposób ryzyko związane z korzystaniem z usług chmurowych stron trzecich, takich jak hiperskalery AWS, Google Cloud lub Microsoft Azure.
+Mullvad VPN wyróżnia się również przejrzystością i bezpieczeństwem. Ich oprogramowanie jest typu open-source i regularnie przechodzą niezależne audyty bezpieczeństwa w celu oceny swoich aplikacji i infrastruktury, których wyniki są [publikowane na ich stronie internetowej](https://mullvad.net/fr/blog/tag/audits). Firma stojąca za Mullvad ma siedzibę w Szwecji, kraju znanym z surowych przepisów dotyczących prywatności. Korzysta wyłącznie z serwerów hostowanych samodzielnie, eliminując w ten sposób ryzyko związane z korzystaniem z usług chmurowych stron trzecich, takich jak hiperskalery AWS, Google Cloud lub Microsoft Azure.
 
 
 Pod względem funkcji Mullvad oferuje wszystko, czego można oczekiwać od dobrego klienta VPN, w tym wyłącznik awaryjny, który chroni ruch w przypadku rozłączenia VPN, opcję wyłączenia VPN dla określonych aplikacji oraz możliwość kierowania ruchu przez wiele serwerów VPN.
@@ -82,7 +82,7 @@ Przejdźmy teraz do aktywacji Mullvad na urządzeniach.
 ## Jak zapłacić i aktywować Mullvad VPN?
 
 
-Wejdź na [oficjalną stronę Mullvad] (https://mullvad.net/) i kliknij przycisk "*Get Started*".
+Wejdź na [oficjalną stronę Mullvad](https://mullvad.net/) i kliknij przycisk "*Get Started*".
 
 ![MULLVAD VPN](assets/notext/09.webp)
 
@@ -151,4 +151,4 @@ Aby uzyskać przegląd swojego konta Mullvad i zarządzać różnymi podłączon
 I to wszystko, jesteś teraz przygotowany, aby w pełni cieszyć się Mullvad VPN. Jeśli chcesz odkryć innego dostawcę VPN podobnego do Mullvad, zarówno pod względem funkcji, jak i cen, polecam również zapoznanie się z naszym samouczkiem na temat IVPN:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

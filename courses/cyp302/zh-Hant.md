@@ -1,22 +1,17 @@
 ---
-name: 形式密碼學簡介
+name: 現代密碼學基礎
 goal: 深入介紹密碼學的科學與實務。
-objectives: 
-
-  - 探索 Beale 密碼和現代密碼方法，了解密碼學的基本和歷史概念。
-  - 深入研究數理、群組和欄位，掌握密碼學的關鍵數學概念。
-  - 研究 RC4 串流密碼和 128 位元金鑰的 AES，學習對稱加密演算法。
-  - 研究 RSA 密碼系統、金鑰分發和 Hash 功能，探索非對稱密碼學。
-
+objectives:
+- 探索 Beale 密碼和現代密碼方法，了解密碼學的基本和歷史概念。
+- 深入研究數理、群組和欄位，掌握密碼學的關鍵數學概念。
+- 研究 RC4 串流密碼和 128 位元金鑰的 AES，學習對稱加密演算法。
+- 研究 RSA 密碼系統、金鑰分發和 Hash 功能，探索非對稱密碼學。
 ---
-# 深入了解密碼學
+# 深入探討現代密碼學
 
-在密碼學教學中很難找到許多能提供良好中間位置的教材。
+在本課程中，我們將以清晰易懂的方式介紹現代密碼學的基礎知識，無需深厚的數學背景。在各個章節中，您將學習核心概念，如對稱加密和公鑰加密、雜湊函數、數位簽章、金鑰交換以及實際應用的協定。在學習過程中，我們將把這些概念與實際應用連結起來，例如安全訊息傳遞、TLS、密碼儲存和身份驗證。
 
-一方面，有一些冗長、正式的論文，只有那些在數學、邏輯或其他正式學科有深厚背景的人才能閱讀。另一方面，也有一些非常高層次的介紹，對於任何至少有點好奇心的人來說，真的隱藏了太多的細節。
-
-這本密碼學入門旨在捕捉中間點。雖然對於密碼學的新手來說，本書應該是比較具挑戰性和詳盡的，但卻不是典型基礎論文的兔子洞。
-
+本教材專為各個程度的學習者設計，在直覺理解與技術深度之間取得平衡，以滿足您的求知慾。期待一段專注而引人入勝的學習旅程。課程結束時，您將理解現代密碼學如何運作、為何運作，以及如何負責任地使用它。
 +++
 # 簡介
 
@@ -120,7 +115,7 @@ Morriss 在生命的末期，於 1862 年將盒子交給一位朋友。這位朋
 
 *圖 1：Beale 密碼 No.2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 例如，第二個密碼文的第一個數字是 115。獨立宣言》的第 115 個單詞是 "instituted「，所以明文的第一個字母是 」i"。密碼文本並沒有直接表示字距和大小寫。但在解密前幾個單詞後，您可以邏輯地推斷出，明文的第一個單詞就是簡單的 "I"。(明文開頭是 「我在貝德福德郡存款」）。
 
@@ -283,7 +278,7 @@ $$
 
 *圖 1：隨機變量 X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 圖 1 中的寬條顯然並不表示隨機變數 $X$ 是連續的。相反地，製作寬條是為了在視覺上更吸引人（僅直線向上提供較不直觀的視覺效果）。
 
@@ -321,7 +316,7 @@ $$
 
 *圖 2：隨機變量 Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 最後一個例子是隨機變數 Z，它的結果集為 {1,3,7,11,12}，其概率分布如下：
 
@@ -349,7 +344,7 @@ $$
 
 *圖 3：隨機變量 Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### 條件概率
 
@@ -474,16 +469,16 @@ $$
 
 移位密碼中的 modulo 運算子可確保字母環繞，因此所有密碼文字的字母都是定義的。為了說明這一點，請考慮在單詞「DOG」上應用移位密碼。
 
-假設您均勻地選擇了一個值為 17 的鍵。字母「O」等於 15。如果不使用模運算，將這個明文數字與密碼匙相加，就會得到 32 的密碼文數字。然而，由於英文字母只有 26 個字母，因此無法將這個密碼文數字轉換成密碼文字母。模運算可確保密碼數實際上是 6 (結果為 $32 \mod 26$)，相當於密文字母 "G"。
+假設你以均勻方式選取了一個數值為 $17$ 的金鑰。字母「O」等於 $14$。若沒有取模運算，將此明文數字與金鑰相加會得到密文數字 $31$。然而，該數字無法轉換成密文字母，因為英文字母只有 $26$ 個。取模運算確保密文數字實際上是 $5$（$31 \mod 26$ 的結果），其對應的密文字母為「F」。
 
 鍵值為 17 的「DOG」一詞的整個加密過程如下：
 
 
-- 訊息 = DOG = D,O,G = 3,15,6
+**訊息 = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 每個人都能直覺地了解移位密碼的運作原理，也可能會自己使用。然而，對於提升您的密碼學知識而言，重要的是要開始更適應形式化，因為方案會變得更困難。因此，為什麼要將移位密碼的步驟形式化。
 
@@ -1009,11 +1004,11 @@ Bob 首先使用私人密碼匙 $K$ 加密訊息 $M$。然後，他將密碼訊�
 
 *圖 1：跨空間保密*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 *圖 2：跨時間的保密性*
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## 舉例說明：移位密碼
 
@@ -1115,7 +1110,7 @@ Kerckhoffs 原則是現代密碼學的核心，原因有四。[2] 首先，針�
 
 *圖 3：XOR 串流密碼*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 請注意，加密方案通常是使用相同核心演算法的加密範本，而不是確切的規格。推而廣之，流密碼通常是一個加密範本，您可以使用不同長度的金鑰。儘管金鑰長度會影響方案的一些小細節，但不會影響其基本形式。
 
@@ -1199,7 +1194,7 @@ Kerckhoffs 原則是現代密碼學的核心，原因有四。[2] 首先，針�
 
 *圖 4：區塊密碼*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 區塊密碼本身並非加密方案。但區塊密碼可與各種 ** 運算模式** 搭配使用，以產生不同的加密方案。操作模式只是在區塊密碼之外增加一些額外的操作。
 
@@ -1207,7 +1202,7 @@ Kerckhoffs 原則是現代密碼學的核心，原因有四。[2] 首先，針�
 
 *圖 5：具有 ECB 模式的封鎖密碼*。
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 使用區塊密碼進行電子密碼簿加密的過程如下。看看您是否能將明文訊息分割成 128 位元的區塊。如果不能，請在訊息中加入**疊加**，使結果能被 128 位元的區塊大小平均分割。這就是您用於加密過程的資料。
 
@@ -1223,7 +1218,7 @@ Kerckhoffs 原則是現代密碼學的核心，原因有四。[2] 首先，針�
 
 *圖 6：採用 CBC 模式的封鎖密碼*。
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 假設區塊大小也是 128 位元。因此，一開始您又需要確保原始明文訊息收到必要的填充。
 
@@ -1239,7 +1234,7 @@ Kerckhoffs 原則是現代密碼學的核心，原因有四。[2] 首先，針�
 
 *圖 7：具有 OFB 模式的封鎖密碼*。
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 在 OFB 模式下，您也可以選擇初始化向量。但在這裡，對於第一個區塊，初始化向量會與您的金鑰一起直接插入區塊密碼。然後將產生的 128 位元視為密鑰流。此密碼流與明文進行 XOR，產生該區塊的密碼文。對於後續的區塊，您會使用前一個區塊的密碼匙流作為區塊密碼的輸入，並重複上述步驟。
 
@@ -1285,7 +1280,7 @@ AES 區塊密碼將在 *第五章* 詳細說明。
 
 *圖 8：對稱加密方案概覽*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## 訊息驗證碼
 
@@ -1309,7 +1304,7 @@ Bob 和 Alice 可以使用 MAC 來對抗特定訊息的篡改。暫時假設他�
 
 *圖 9：對稱加密方案概覽*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 由於**存在的不可偽造性**，攻擊者無法以任何方式改變訊息 $M$，也無法以有效的標籤建立自己的訊息。即使攻擊者觀察到 Bob 和 Alice 之間使用相同私人密碼匙的許多訊息的標籤，情況也是如此。攻擊者最多只可以阻止 Alice 接收訊息 $M$（這是加密技術無法 Address 的問題）。
 
@@ -1341,7 +1336,7 @@ Alice 現在先檢查密文 $C$ 和金鑰 $K_T$ 的標籤是否有效。如果�
 
 *圖 10：認證加密方案*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 如何建立 MAC？雖然 MAC 可以透過多種方法建立，但建立 MAC 的常見有效方法是透過 ** 加密 Hash 函式**。
 
@@ -1353,7 +1348,7 @@ Alice 現在先檢查密文 $C$ 和金鑰 $K_T$ 的標籤是否有效。如果�
 
 *圖 11：HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **註釋：**
 
@@ -1391,7 +1386,7 @@ Alice 現在先檢查密文 $C$ 和金鑰 $K_T$ 的標籤是否有效。如果�
 
 *圖 12：安全通訊會話*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 和 AES
 
@@ -1543,7 +1538,7 @@ NIST 競賽委員會採用了 Rijndael 密碼的限制版本，即要求 128 位
 
 *圖 1：128 位元金鑰的 AES-ECB*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 在 Rijndael 加密方案中，每個 128 位元的文字區塊會經過十個回合。這就需要為每一輪 ($K_1$ 到 $K_{10}$)提供獨立的一輪密鑰。這些金鑰是使用**金鑰擴充演算法**，從原始的 128 位元金鑰 $K_0$ 產生。因此，對於每個要加密的文字區塊，我們會使用原始金鑰 $K_0$ 以及十個獨立的回合金鑰。請注意，每個需要加密的 128 位元明文區塊都會使用這 11 個相同的金鑰。
 
@@ -1841,7 +1836,7 @@ Alice 首先建立一對金鑰，包括一個公開金鑰 ($K_P$) 和一個私�
 
 *圖 1：非對稱加密*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 任何監聽 Bob 和 Alice 通訊的對手都可以觀察到 $C$。她也知道 $K_P$ 和加密算法 $E(\cdot)$。然而，重要的是，這些資訊並不允許攻擊者解密密碼文$C$。解密特別需要 $K_S$，而攻擊者並不擁有。
 
@@ -1865,7 +1860,7 @@ Alice 將訊息、公開金鑰及數位簽章插入**驗證演算法**。此演�
 
 *圖 2：非對稱驗證*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 就像非對稱加密一樣，我們看到數位簽章和訊息驗證碼之間有趣的對比。對後者而言，驗證演算法只能由知道安全通訊的其中一方使用。這是因為它需要私人密碼匙。然而，在非對稱設定中，任何人都可以驗證 Bob 所做的數位簽章 $S$。
 

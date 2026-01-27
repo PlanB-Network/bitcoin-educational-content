@@ -6,4 +6,4 @@ wrong_answers:
   - Zamenjuje fizičke kablove sigurnim komunikacijama.
 explanation: |
   U otvorenom komunikacionom okruženju, gde kanali mogu biti nadgledani, kriptografija obezbeđuje sigurnost štiteći razmenjene podatke, čak i u prisustvu potencijalnih napada.
-reviewed: false
+reviewed: true

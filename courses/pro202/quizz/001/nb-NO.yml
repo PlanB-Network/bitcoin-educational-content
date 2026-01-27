@@ -1,0 +1,8 @@
+question: Hva er et endelig felt F(p) i Bitcoins kryptografiske system?
+answer: Et aritmetisk system definert av et primtall p, som inneholder elementene 0 til og med p-1
+wrong_answers:
+  - Et uendelig sett med tall som brukes til å generere Bitcoin-adresser og -nøkler
+  - Et matematisk felt som inneholder alle reelle tall mellom 0 og p-1 inkludert
+  - En kryptografisk hash-funksjon som produserer utdata med nøyaktig p bits lengde
+explanation: |
+  Et endelig felt F(p) er et aritmetisk system bygget rundt et primtall p som inneholder nøyaktig p elementer: heltallene fra 0 til p-1. Det "endelige" aspektet er avgjørende - det er ikke uendelig, og det handler ikke om reelle tall eller hashfunksjoner. Primtallsfelt sikrer at hvert element som ikke er null, har en multiplikativ invers, og alle aritmetiske operasjoner (addisjon, subtraksjon, multiplikasjon) går rundt modulo p, slik at resultatene holdes innenfor feltet. Denne avgrensede, forutsigbare strukturen er avgjørende for Bitcoins kryptografiske sikkerhet.

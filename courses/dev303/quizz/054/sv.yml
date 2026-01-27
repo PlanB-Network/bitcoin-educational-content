@@ -1,0 +1,8 @@
+question: I vilket scenario skulle RefCell vara mest lämpligt att använda för att lösa en kompilationstidslånbegränsning?
+answer: När du implementerar ett mock-objekt som behöver spåra interna tillståndsändringar genom ett oföränderligt egenskaps-gränssnitt
+wrong_answers:
+  - När du behöver dela data mellan flera trådar och kräver atomär referensräkning
+  - När du vill undvika overhead vid körning genom att flytta all borrow-kontroll till kompileringstiden
+  - När du skapar cirkulära referenser mellan datastrukturer som behöver automatisk minnesrensning
+explanation: |
+  RefCell är utformad för interiöra mutabilitetsscenarier där du behöver mutera data genom en oföränderlig referens, särskilt när kompilatorns statiska analys är för konservativ. Mock-objekt som implementerar egenskaper med oföränderliga metoder men behöver spåra internt tillstånd representerar ett perfekt användningsfall. De andra alternativen är felaktiga: RefCell är inte trådsäkert, det flyttar kontrollen till körtid (inte kompileringstid) och det löser inte problem med cirkulära referenser - det kan faktiskt bidra till dem när det kombineras med RC.

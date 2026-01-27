@@ -6,7 +6,7 @@ description: Miten lähetän uutta sisältöä Plan ₿ Networkiin?
 
 Plan ₿ Networkin tehtävänä on tarjota johtavia Bitcoinia koskevia koulutusresursseja mahdollisimman monella kielellä. Kaikki sivustolla julkaistu sisältö on avoimen lähdekoodin ja GitHubissa isännöityä, mikä antaa kaikille mahdollisuuden osallistua alustan rikastuttamiseen. Osallistuminen voi tapahtua monessa muodossa: olemassa olevien tekstien korjaaminen ja oikolukeminen, kääntäminen muille kielille, tietojen päivittäminen tai jopa uusien opetusohjelmien luominen, joita ei vielä ole saatavilla sivustollamme.
 
-Tässä ohjeessa tarkastelemme, miten uutta sisältöä, kuten opetusohjelma tai kurssi, lisätään Plan ₿ Network -alustalle.
+Tässä ohjeessa tarkastelemme, miten uutta sisältöä, kuten opetusohjelma tai kurssi, lisätään Plan ₿ Academy -alustalle.
 
 ## Mitä eroa on opetusohjelmalla ja kurssilla?
 
@@ -14,13 +14,13 @@ Alustamme kaksi pääosiota ovat kurssit ja opetusohjelmat. Kurssit tarjoavat te
 
 Kurssit ovat luonnollisesti pidempiä ja jäsennellympiä kuin opetusohjelmat. Niissä tulisi tutkia tiettyä Bitcoiniin tai sen ekosysteemiin liittyvää aihetta syvällisesti, tarkasti ja yksityiskohtaisesti.
 
-[Discover Plan ₿ Verkkokurssit](https://planb.network/courses)
+[Discover Plan ₿ Verkkokurssit](https://planb.academy/courses)
 
 ![TUTO](assets/fr/37.webp)
 
 Oppaat ovat yleensä lyhyempiä. Ne on tarkoitettu vaiheittaisiksi oppaiksi, joissa kerrotaan, miten tietty Bitcoiniin liittyvä tehtävä suoritetaan, ja tukena on kuvia.
 
-[Tutustu suunnitelmaan ₿ Verkko-oppaat](https://planb.network/tutorials)
+[Tutustu suunnitelmaan ₿ Verkko-oppaat](https://planb.academy/tutorials)
 
 ![TUTO](assets/fr/38.webp)
 
@@ -66,7 +66,7 @@ Voit joko suunnitella opetusohjelman tyhjästä tai ottaa aiemmin verkkosivustol
 
 Valitsitpa minkä tahansa, muistathan, että kaikki Plan ₿ Networkissa julkaistu sisältö on lisensoitu vapaalla [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) -lisenssillä. Tämä lisenssi antaa kenelle tahansa luvan kopioida ja mahdollisesti muokata sisältöäsi sillä ainoalla ehdolla, että alkuperäinen lähde mainitaan asianmukaisesti.
 
-## 2 - Ota yhteyttä Plan ₿ Network -ryhmään
+## 2 - Ota yhteyttä Plan ₿ Academy -ryhmään
 
 Kun olet valinnut opetusohjelmasi teeman, seuraava vaihe on ilmoittaa meille aikomuksestasi lisätä sisältö alustalle. Helpoin tapa, jos sinulla on Telegram-tili, on [liittyä ryhmäämme](https://t.me/PlanBNetwork_ContentBuilder).
 
@@ -83,16 +83,16 @@ paolo@planb.network
 Jos haluat osallistua Plan ₿ -verkostoon, sinulla on 3 vaihtoehtoa riippuen siitä, kuinka paljon kokemusta sinulla on GitHubista:
 
 
-- **Kokeneet käyttäjät**: Jatka tavanomaisia menetelmiäsi ja tutustu alla olevaan lyhyeen ohjeeseen, jossa esitetään yhteenveto Plan ₿ Network repository -tiedostorakenteesta, erityisvaatimuksista ja työmenetelmästä:
+- **Kokeneet käyttäjät**: Jatka tavanomaisia menetelmiäsi ja tutustu alla olevaan lyhyeen ohjeeseen, jossa esitetään yhteenveto Plan ₿ Academy repository -tiedostorakenteesta, erityisvaatimuksista ja työmenetelmästä:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 - **Keskitason (GitHub Desktop)**: Jos Gitin käyttö ei ole sinulle tuttua, ensimmäinen vaihtoehto on luoda helposti oma paikallinen ympäristö, jossa voit osallistua Plan ₿ -verkkoon. Tätä lähestymistapaa suositellaan merkittäville panoksille, kuten kokonaisen opetusohjelman kirjoittamiselle. Voit tehdä tämän noudattamalla alla olevaa vaiheittaista ohjetta:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - **Aloittelijoille (verkkokäyttöliittymä)**: Voit myös käyttää GitHubin web-käyttöliittymää suoraan, jolloin sinun ei tarvitse luoda täydellistä paikallista ympäristöä. Tätä menetelmää voidaan harkita pienille panoksille. Suuremmissa panostuksissa, kuten kokonaan uuden opetusohjelman lisäämisessä, tämä vaihtoehto voi kuitenkin osoittautua monimutkaisemmaksi kuin paikallisen ympäristön luominen. Selitän tässä ohjeessa, miten tämä tehdään:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
-Valitse yksi näistä kolmesta vaihtoehdosta tietämyksesi tason mukaan ja aloita sitten ensimmäisen Plan ₿ Network -oppaan kirjoittaminen!
+Valitse yksi näistä kolmesta vaihtoehdosta tietämyksesi tason mukaan ja aloita sitten ensimmäisen Plan ₿ Academy -oppaan kirjoittaminen!

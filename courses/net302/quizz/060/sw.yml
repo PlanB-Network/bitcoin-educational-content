@@ -6,4 +6,4 @@ wrong_answers:
   - "fd00::1"
 explanation: |
   "::1/128" Address ni kitanzi cha Address, kinachotumika kwa majaribio ya ndani ya mashine.
-reviewed: false
+reviewed: true

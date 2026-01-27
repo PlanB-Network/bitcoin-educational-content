@@ -19,7 +19,7 @@ Hãy đảm bảo bạn đã cài đặt Umbrel bằng cách làm theo hướng 
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Giới thiệu về Nostr
 
@@ -137,7 +137,7 @@ Trên trang này, dán URL của rơle Umbrel mà bạn đã sao chép trước 
 
 
 
-**Kết nối:** noStrudel cung cấp cho bạn một số tùy chọn kết nối. Trong trường hợp của chúng tôi, chúng tôi sẽ chọn "Private Key" và dán vào khóa riêng Nostr đã tạo trước đó của bạn. Nếu bạn chưa có khóa, bạn có thể cài đặt tiện ích mở rộng [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) để tạo và/hoặc lưu khóa Nostr của bạn và do đó giao tiếp an toàn hơn với các ứng dụng Nostr khác nhau.
+**Kết nối:** noStrudel cung cấp cho bạn một số tùy chọn kết nối. Trong trường hợp của chúng tôi, chúng tôi sẽ chọn "Private Key" và dán vào khóa riêng Nostr đã tạo trước đó của bạn. Nếu bạn chưa có khóa, bạn có thể cài đặt tiện ích mở rộng [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) để tạo và/hoặc lưu khóa Nostr của bạn và do đó giao tiếp an toàn hơn với các ứng dụng Nostr khác nhau.
 
 
 
@@ -306,7 +306,7 @@ Nếu bạn muốn biết cách thiết lập nút Lightning của riêng mình 
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Cấu hình và bảo mật nâng cao
 

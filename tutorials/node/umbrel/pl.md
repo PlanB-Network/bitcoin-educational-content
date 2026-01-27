@@ -220,7 +220,7 @@ Do tej instalacji potrzebne będą :
 
 
 
-- Odwiedź [oficjalną stronę internetową] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- Odwiedź [oficjalną stronę internetową](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - Pobierz najnowszą wersję UmbrelOS dla Raspberry Pi 5
 
 
@@ -708,7 +708,7 @@ Połączenie Tor jest niezbędne, jeśli chcesz uzyskać dostęp do węzła poza
 Aby uzyskać więcej informacji na temat oprogramowania Sparrow Wallet, przygotowaliśmy obszerny samouczek:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Wnioski
 
 

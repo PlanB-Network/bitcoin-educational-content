@@ -62,7 +62,7 @@ Dopo aver completato l'impostazione iniziale, si accede alla schermata iniziale,
 Per impostazione predefinita, all'avvio dell'applicazione è abilitata la zecca Minibits. Tuttavia, uno dei punti di forza di ecash è la possibilità di utilizzare più zecche per aumentare la decentralizzazione e la sicurezza. Per aggiungere un'altra zecca, andare su `Impostazioni`, quindi selezionare `Gestione zecche` e infine toccare `Aggiungi zecca`.
 
 
-[Bitcoinmints.com] (Bitcoinmints.com) fornisce un elenco completo delle zecche disponibili con le valutazioni degli utenti per aiutarvi a scegliere opzioni affidabili. L'utilizzo di più zecche riduce il rischio. Se una zecca ha problemi, i vostri fondi sulle altre zecche rimangono accessibili.
+[Bitcoinmints.com](Bitcoinmints.com) fornisce un elenco completo delle zecche disponibili con le valutazioni degli utenti per aiutarvi a scegliere opzioni affidabili. L'utilizzo di più zecche riduce il rischio. Se una zecca ha problemi, i vostri fondi sulle altre zecche rimangono accessibili.
 
 
 ![image](assets/en/04.webp)
@@ -73,7 +73,7 @@ Per impostazione predefinita, all'avvio dell'applicazione è abilitata la zecca 
 
 Il backup è probabilmente la fase più critica dell'intero processo di configurazione. Per accedere alle opzioni di backup, andare su `Impostazioni`-> `Backup` Qui si trovano due opzioni essenziali:
 
-1. la `sua frase seed`, che contiene `12 parole`, consente di recuperare il saldo di ecash in caso di perdita del dispositivo. Questa frase seed è la chiave principale per tutti gli ecash di tutte le zecche aggiunte. Scrivetela su un supporto fisico (carta o metallo) e conservatela in modo sicuro in più luoghi. Non conservate mai la frase seed in formato digitale, dove potrebbe essere compromessa. Visitate questo [tutorial](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) per conoscere le migliori pratiche per la salvaguardia del vostro Wallet.
+1. la `sua frase seed`, che contiene `12 parole`, consente di recuperare il saldo di ecash in caso di perdita del dispositivo. Questa frase seed è la chiave principale per tutti gli ecash di tutte le zecche aggiunte. Scrivetela su un supporto fisico (carta o metallo) e conservatela in modo sicuro in più luoghi. Non conservate mai la frase seed in formato digitale, dove potrebbe essere compromessa. Visitate questo [tutorial](https://planb.academy/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) per conoscere le migliori pratiche per la salvaguardia del vostro Wallet.
 
 2. `Wallet backup` che contiene una lunga stringa di backup.
 

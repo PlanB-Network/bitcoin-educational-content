@@ -1,0 +1,8 @@
+question: Quando um Bitcoin wallet procura blocos para pagamentos recebidos, porque é que o descarregamento de blocos inteiros é preferível ao pedido de transacções individuais aos pares da rede?
+answer: O descarregamento de blocos inteiros proporciona uma melhor proteção da privacidade ao não revelar quais as transacções ou endereços específicos que o wallet está interessado em monitorizar
+wrong_answers:
+  - O descarregamento de blocos inteiros é computacionalmente mais eficiente porque requer menos operações de hash criptográfico para verificar a autenticidade da transação
+  - O descarregamento de blocos inteiros garante uma sincronização mais rápida, uma vez que os pares podem enviar dados de blocos comprimidos em vez de respostas a transacções individuais
+  - O descarregamento de blocos inteiros proporciona uma melhor segurança porque permite ao wallet verificar o proof-of-work completo para cada transação
+explanation: |
+  A privacidade é a principal vantagem da recuperação baseada em blocos. Quando um wallet solicita transacções específicas, deixa escapar fortes sinais sobre a atividade do utilizador e revela quais os endereços que pertencem a esse wallet. O download de blocos inteiros oculta os interesses reais do wallet entre todas as transacções do bloco. As respostas erradas centram-se na eficiência, velocidade ou benefícios de segurança que não são a motivação principal - os pedidos de transacções individuais poderiam teoricamente ser tão seguros ou eficientes, mas comprometem fundamentalmente a privacidade ao revelar os padrões de monitorização do wallet aos pares da rede.

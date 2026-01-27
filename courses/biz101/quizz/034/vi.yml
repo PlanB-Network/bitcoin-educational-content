@@ -1,9 +1,9 @@
-question: What trend is noted among participants operating nodes on the Lightning Network?
-answer: Professional node operators are increasingly providing liquidity, while individual users focus on “edge” nodes, shifting the network’s composition.
+question: Xu hướng nào được ghi nhận ở những người tham gia vận hành các nút trên Lightning Network?
+answer: Các nhà điều hành nút chuyên nghiệp ngày càng cung cấp tính thanh khoản, trong khi người dùng cá nhân tập trung vào các nút "biên", thay đổi thành phần của mạng.
 wrong_answers:
-  - Individual hobbyists have replaced all professional operators entirely.
-  - Large banks now centrally operate all Lightning nodes.
-  - The network has shut down personal nodes to allow only large corporations.
+  - Những người chơi cá nhân đã thay thế hoàn toàn những người chơi chuyên nghiệp.
+  - Các ngân hàng lớn hiện đang vận hành tập trung tất cả các nút Lightning.
+  - Mạng đã đóng các nút cá nhân để chỉ cho phép các tập đoàn lớn tham gia.
 explanation: |
-  There’s a move toward more liquidity and stability provided by professional entities, while everyday users rely on simplified or hosted solutions, making the network more robust and accessible.
-reviewed: false
+  Có xu hướng chuyển sang tính thanh khoản và ổn định hơn do các tổ chức chuyên nghiệp cung cấp, trong khi người dùng thông thường dựa vào các giải pháp đơn giản hóa hoặc lưu trữ, giúp mạng lưới mạnh mẽ và dễ tiếp cận hơn.
+reviewed: true

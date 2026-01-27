@@ -1,13 +1,11 @@
 ---
-name: Protokol RGB od teorie k praxi
+name: Programování RGB
 goal: Získat dovednosti potřebné k pochopení a používání RGB
-objectives: 
-
-  - Porozumět základním pojmům protokolu RGB
-  - Zvládnutí principů ověřování na straně klienta a závazků Bitcoinu
-  - Naučte se vytvářet, spravovat a přenášet smlouvy RGB
-  - Jak ovládat uzel Lightning kompatibilní s RGB
-
+objectives:
+- Porozumět základním pojmům protokolu RGB
+- Zvládnutí principů ověřování na straně klienta a závazků Bitcoinu
+- Naučte se vytvářet, spravovat a přenášet smlouvy RGB
+- Jak ovládat uzel Lightning kompatibilní s RGB
 ---
 # Zjištění protokolu RGB
 
@@ -45,7 +43,7 @@ Závěrečná část je vedena dalšími přednášejícími, kteří představ�
 ---
 Tento školící kurz původně vznikl na základě dvoutýdenního výcvikového tábora pro pokročilé vývojáře ve Viareggiu v Toskánsku, který pořádala společnost [Fulgur'Ventures](https://fulgur.ventures/). První týden, zaměřený na Rust a SDK, najdete v tomto jiném kurzu:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 V tomto kurzu se zaměříme na druhý týden bootcampu, který je zaměřen na RGB.
 
@@ -346,11 +344,11 @@ Jednorázové těsnění pracuje ve třech hlavních fázích:
 Tento proces lze shrnout následovně:
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -1821,7 +1819,7 @@ Lightning Network je decentralizovaná síť platebních kanálů (nebo _státn�
 
 Další informace o tom, jak Lightning funguje, najdete v tomto dalším kurzu:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -3030,8 +3028,8 @@ Zde je příklad souboru YAML, který je třeba vytvořit:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3075,7 +3073,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Další příkaz pak zobrazí globální stavy (jméno, ticker, nabídka...) a seznam vlastněných stavů, tj. alokací (například 1 milion tokenů `PBN` definovaných v UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Další příkaz pak zobrazí globální stavy (jméno, ticker, nabídka...) a seznam vlastněných stavů, tj. alokací (například 1 milion tokenů `Plan ₿ Academy` definovaných v UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3169,7 +3167,7 @@ Bobovi ji lze předat jakýmkoli kanálem (text, QR kód atd.).
 Převod z této faktury :
 
 
-- Bob (který má žetony ve své skrýši) má peněženku Bitcoin. Potřebuje připravit bitcoinovou transakci (ve formě PSBT, např. `tx.psbt`), která utratí UTXO, v nichž se nacházejí požadované RGB tokeny, plus jedno UTXO pro měnu (směnu) ;
+- Bob (který drží tokeny ve svém stash) má bitcoinovou peněženku. Musí připravit bitcoinovou transakci (ve formě PSBT, např. `tx.psbt`), která utrácí UTXO, kde se nacházejí potřebné RGB tokeny, plus jeden UTXO na drobné (change);
 - Bob provede následující příkaz:
 
 ```bash
@@ -3258,7 +3256,7 @@ Síť Lightning Network ve skutečnosti umožňuje směrování plateb více kan
 
 Fungování systému RGB v síti Lightning je proto třeba posuzovat souběžně s fungováním samotné sítě Lightning. Pokud byste se chtěli tomuto tématu věnovat hlouběji, vřele doporučuji podívat se na toto další komplexní školení:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Kódová mapa RGB
 
@@ -3755,7 +3753,7 @@ Pořadí můžete samozřejmě upravit. Pro potvrzení transakce těžíme :
 ./regtest.sh mine 1
 ```
 
-Nyní můžeme vytvořit aktivum RGB. Příkaz bude záviset na typu aktiva, které chcete vytvořit, a jeho parametrech. Zde vytvářím token NIA (*Non Inflatable Asset*) s názvem "PBN" se zásobou 1000 jednotek. Příkaz `přesnost` umožňuje definovat dělitelnost jednotek.
+Nyní můžeme vytvořit aktivum RGB. Příkaz bude záviset na typu aktiva, které chcete vytvořit, a jeho parametrech. Zde vytvářím token NIA (*Non Inflatable Asset*) s názvem "Plan ₿ Academy" se zásobou 1000 jednotek. Příkaz `přesnost` umožňuje definovat dělitelnost jednotek.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3763,8 +3761,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3800,7 +3798,7 @@ Příkaz vrátí veřejný klíč mého uzlu č. 2 :
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Dále otevřeme kanál zadáním příslušného aktiva (`PBN`). Příkaz `/openchannel` umožňuje definovat velikost kanálu v satoshi a rozhodnout se pro zařazení aktiva RGB. Záleží na tom, co chcete vytvořit, ale v mém případě je příkaz :
+Dále otevřeme kanál zadáním příslušného aktiva (`Plan ₿ Academy`). Příkaz `/openchannel` umožňuje definovat velikost kanálu v satoshi a rozhodnout se pro zařazení aktiva RGB. Záleží na tom, co chcete vytvořit, ale v mém případě je příkaz :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3839,7 +3837,7 @@ K potvrzení transakce je vytěženo 6 bloků:
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Kanál Lightning je nyní otevřen a obsahuje také 500 tokenů `PBN` na straně uzlu č. 1. Pokud chce uzel č. 2 obdržet tokeny `PBN`, musí vygenerovat fakturu. Zde je návod, jak to udělat:
+Kanál Lightning je nyní otevřen a obsahuje také 500 tokenů `Plan ₿ Academy` na straně uzlu č. 1. Pokud chce uzel č. 2 obdržet tokeny `Plan ₿ Academy`, musí vygenerovat fakturu. Zde je návod, jak to udělat:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3868,7 +3866,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-Tuto fakturu nyní zaplatíme z prvního uzlu, který má potřebnou hotovost s tokenem `PBN`:
+Tuto fakturu nyní zaplatíme z prvního uzlu, který má potřebnou hotovost s tokenem `Plan ₿ Academy`:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

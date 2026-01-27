@@ -13,7 +13,7 @@ Nunchuk est apparu fin 2020 avec une philosophie claire : faire de la multi-sign
 
 
 
-Après plus de 4 ans de développement et d’utilisation, il est prêt à être testé à grande échelle. Si vous êtes débutant et que vous ne connaissez pas Nunchuk, ce guide vous aidera à faire vos premiers pas et à découvrir ce logiciel, dont vous pourrez ensuite approfondir les fonctions avancées après avoir surmonté la première impression. Le tutoriel lui-même s’adresse aux utilisateurs intermédiaires disposant des compétences nécessaires pour suivre toutes les étapes, mais il peut aussi être une source d’inspiration pour quiconque souhaite développer ses connaissances. Nous commencerons avec la version mobile, et cette précision est nécessaire puisque Nunchuk dispose également d’un logiciel pour ordinateurs.
+Après plus de 4 ans de développement et d’utilisation, il est prêt à être testé à grande échelle. Si vous êtes débutant et que vous ne connaissez pas Nunchuk, ce guide vous aidera à faire vos premiers pas et à découvrir ce logiciel, dont vous pourrez ensuite approfondir les fonctions avancées après avoir surmonté la première impression. Le tutoriel lui-même s’adresse aux utilisateurs intermédiaires disposant des compétences nécessaires pour suivre toutes les étapes, mais il peut aussi être une source d’inspiration pour quiconque souhaitant développer ses connaissances. Nous commencerons avec la version mobile, et cette précision est nécessaire puisque Nunchuk dispose également d’un logiciel pour ordinateurs.
 
 
 
@@ -24,7 +24,7 @@ La première étape consiste évidemment à choisir où télécharger l’applic
 
 
 
-📌 Pour ce tutoriel, j’ai choisi de vous montrer comment télécharger le portefeuille logiciel depuis le dépôt Github et comment vérifier la publication avant de l’installer sur votre téléphone. **La procédure suivante ne peut être réalisée que depuis un ordinateur**, je vous recommande donc d’effectuer toutes ces étapes sur votre poste fixe ou portable et – après toutes les vérifications – de transférer le fichier `.apk` sur votre téléphone.
+📌 Pour ce tutoriel, j’ai choisi de vous montrer comment télécharger le portefeuille logiciel depuis le dépôt Github et comment vérifier la publication avant de l’installer sur votre téléphone. **La procédure suivante ne peut être réalisée que depuis un ordinateur**, je vous recommande donc d’effectuer toutes ces étapes sur votre poste fixe ou portable et, après toutes les vérifications, de transférer le fichier `.apk` sur votre téléphone.
 
 
 
@@ -92,13 +92,13 @@ Dans la fenêtre qui s’ouvre, vous trouverez des champs à « remplir » : cli
 
 
 
-**N.B. La capture d’écran provient d’un PC sous Windows, mais la même pratique peut être appliquée sur tout système d’exploitation, à condition d’avoir installé – et vérifié – le portefeuille Sparrow.**
+**N.B. La capture d’écran provient d’un PC sous Windows, mais la même pratique peut être appliquée sur tout système d’exploitation, à condition d’avoir installé, et vérifié, le portefeuille Sparrow.**
 
 
 
 Vous trouverez le guide de Sparrow wallet pour télécharger ce portefeuille logiciel :  
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
@@ -126,7 +126,7 @@ Avant de lancer Nunchuk sur votre téléphone, ouvrez Orbot et ajoutez la nouvel
 
 
 
-Lancez maintenant Nunchuk. En raison des caractéristiques du projet – qui ne sont pas l’objet de ce tutoriel –, Nunchuk, une fois ouvert, vous invitera à vous connecter via une adresse e-mail ou un profil Google. Tant que vous n’avez pas prévu de profiter des offres avancées de Nunchuk Inc., **évitez de vous connecter** et continuez en choisissant l’option _Continue as guest_.
+Lancez maintenant Nunchuk. En raison des caractéristiques du projet, qui ne sont pas l’objet de ce tutoriel, Nunchuk, une fois ouvert, vous invitera à vous connecter via une adresse e-mail ou un profil Google. Tant que vous n’avez pas prévu de profiter des offres avancées de Nunchuk Inc., **évitez de vous connecter** et continuez en choisissant l’option _Continue as guest_.
 
 
 
@@ -279,7 +279,7 @@ Nommez votre clé et appuyez sur _Continue_.
 
 
 
-À la fin de ces étapes, il vous sera demandé si vous souhaitez ajouter une [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) à votre phrase mnémonique. Si vous n’avez pas la pleine maîtrise de l’usage d’une passphrase, de son mode de sauvegarde ou de son fonctionnement, je vous recommande de choisir _I don't need a passphrase_.
+À la fin de ces étapes, il vous sera demandé si vous souhaitez ajouter une [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) à votre phrase mnémonique. Si vous n’avez pas la pleine maîtrise de l’usage d’une passphrase, de son mode de sauvegarde ou de son fonctionnement, je vous recommande de choisir _I don't need a passphrase_.
 
 
 
@@ -393,7 +393,7 @@ Vous êtes dans _Home_, où le portefeuille nouvellement créé s’affiche avec
 
 
 - L’icône de loupe, en haut à droite, permet d’effectuer une recherche de transaction ;  
-- `View Wallet config` donne accès au menu de configuration, où vous pouvez modifier le nom du portefeuille et activer des options avancées, en haut à droite (dont il n’existe pas de captures d’écran). Ici, vous pouvez exporter la configuration du portefeuille, les étiquettes, remplacer des clés, modifier le [gap limit](https://planb.network/en/resources/glossary/gap-limit), et plus encore.  
+- `View Wallet config` donne accès au menu de configuration, où vous pouvez modifier le nom du portefeuille et activer des options avancées, en haut à droite (dont il n’existe pas de captures d’écran). Ici, vous pouvez exporter la configuration du portefeuille, les étiquettes, remplacer des clés, modifier le [gap limit](https://planb.academy/en/resources/glossary/gap-limit), et plus encore.  
 
 
 
@@ -674,7 +674,7 @@ ou encore affichez tous vos portefeuilles dans le _Home_ de l’application.
 ## À garder à l’esprit pour continuer de façon autonome
 
 
-De la même manière qu’il existe un ordre pour la création — d’abord générer les clés, puis créer le portefeuille —, il faut respecter l’ordre inverse lors de la suppression de ces éléments dans l’application.
+De la même manière qu’il existe un ordre pour la création, d’abord générer les clés, puis créer le portefeuille, il faut respecter l’ordre inverse lors de la suppression de ces éléments dans l’application.
 
 
 

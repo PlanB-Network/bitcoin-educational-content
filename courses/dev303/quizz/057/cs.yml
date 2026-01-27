@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel vykřičníku (!), který následuje za názvem makra v systému Rust?
+answer: Slouží jako vizuální indikátor toho, že dochází ke generování kódu v době kompilace, nikoli k volání funkcí za běhu
+wrong_answers:
+  - Označuje, že makro zpanikaří, pokud mu budou během provádění zadány neplatné vstupní parametry
+  - Označuje makro jako nebezpečné a vyžaduje výslovné potvrzení potenciálních problémů s bezpečností paměti
+  - Určuje, že makro vrací typ Result, který musí být zpracován s kontrolou chyb
+explanation: |
+  Vykřičník v syntaxi maker Rust je záměrná volba, která vizuálně odlišuje makra od funkcí. Když vidíte `println!()` nebo `vec![]`, znak `!` okamžitě signalizuje, že dojde k rozšíření kódu v době kompilace, nikoli k volání funkce za běhu. Toto rozlišení je zásadní, protože makra fungují zásadně jinak než funkce - během kompilace se pomocí porovnávání vzorů a expanze kódu generate. Špatné odpovědi to zaměňují s chováním za běhu, jako je panikování, nebezpečné operace nebo zpracování chyb, ale vykřičník výslovně označuje povahu metaprogramování maker v době kompilace.

@@ -6,4 +6,4 @@ wrong_answers:
   - Die öffentlichen Schlüssel verschlüsseln
 explanation: |
   Ein erweiterter Schlüssel kombiniert einen Schlüssel (entweder privat oder öffentlich) mit einem zugehörigen Kettenkode, d.h., den beiden Elementen, die notwendig sind, um Kinderschlüssel abzuleiten.
-reviewed: false
+reviewed: true

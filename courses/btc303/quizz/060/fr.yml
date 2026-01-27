@@ -1,0 +1,9 @@
+question: Selon la définition de l'open source, quelle est la principale exigence en matière de redevances lors de la redistribution d'un logiciel open source dans le cadre d'une distribution globale de logiciels ?
+answer: La licence n'exige pas de redevance ou d'autres droits pour cette vente
+wrong_answers:
+  - Un coût de reproduction raisonnable doit être facturé pour couvrir les frais de développement
+  - Les redevances sont autorisées mais ne doivent pas dépasser 5 % du prix de distribution
+  - Des frais administratifs peuvent être exigés, mais uniquement pour les redistributions commerciales
+explanation: |
+  La définition de l'open source stipule explicitement dans la rubrique "Free Redistribution" que "The license shall not require a royalty or other fee for such sale" (la licence ne doit pas exiger de redevance ou d'autres frais pour une telle vente) Cela signifie que les logiciels libres doivent pouvoir être redistribués librement, sans frais ni redevances obligatoires. Les autres options suggèrent à tort que divers types de frais sont autorisés, ce qui violerait le principe fondamental de libre redistribution qui définit les logiciels libres.
+reviewed: false

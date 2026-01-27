@@ -104,7 +104,7 @@ Para descargarlo, visita [el sitio web oficial de Manjaro](https://manjaro.org/)
 
 
 
-Luego ve al sitio web del programa [Rufus] (https://rufus.ie/fr/) y descárgalo. Ejecuta el programa, conecta tu llave USB, selecciona la imagen ISO de Manjaro y empieza a flashear. Espera a que termine el proceso antes de retirar la llave. A continuación, puedes reiniciar el ordenador.
+Luego ve al sitio web del programa [Rufus](https://rufus.ie/fr/) y descárgalo. Ejecuta el programa, conecta tu llave USB, selecciona la imagen ISO de Manjaro y empieza a flashear. Espera a que termine el proceso antes de retirar la llave. A continuación, puedes reiniciar el ordenador.
 
 
 
@@ -322,7 +322,7 @@ Electrum te permite **recibir y enviar bitcoins** con facilidad, a la vez que te
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## Proteja su sistema Manjaro
 
@@ -395,4 +395,4 @@ Manjaro combina **estabilidad, velocidad y seguridad**, sin dejar de ser **compl
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

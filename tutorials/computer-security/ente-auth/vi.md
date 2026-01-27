@@ -350,7 +350,7 @@ Ente Auth cung cấp một số tính năng thực tế:
 
 
 
-**Biểu tượng tự động**: Mỗi mục nhập có thể được minh họa bằng logo của dịch vụ, nhờ tích hợp gói biểu tượng [Biểu tượng đơn giản] (https://simpleicons.org/).
+**Biểu tượng tự động**: Mỗi mục nhập có thể được minh họa bằng logo của dịch vụ, nhờ tích hợp gói biểu tượng [Biểu tượng đơn giản](https://simpleicons.org/).
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: デビフィ
+name: Debifi
 description: Bitcoinが保証する非親告罪ローンを利用しよう。
 ---
 
@@ -20,15 +20,15 @@ Bitcoinプロトコルの台頭は新たな金融時代の幕開けとなった�
 
 
 
-その結果、**Debifi**は、銀行に代わる現代的なプラットフォームとなった。その目的は明確で、伝統的な金融システムの利点とBitcoinが提供する自由を組み合わせることで、クレジットを可能な限りシンプルで透明なものにすることである。Debifiという名前は、このビジョンを反映している： ***分散型Bitcoinファイナンス***」は、分散型金融とBitcoinイノベーションの出会いを示す縮約名である。
+その結果、**Debifi**は、銀行に代わる現代的なプラットフォームとなった。その目的は明確で、伝統的な金融システムの利点とBitcoinが提供する自由を組み合わせることで、クレジットを可能な限りシンプルで透明なものにすることである。Debifiという名前は、このビジョンを反映している： ***分散型Bitcoin金融***、分散型金融とBitcoinイノベーションの出会いを示す縮約名である。
 
 
 
-Debifiは非保管型Bitcoin担保融資プラットフォームであり、ユーザーは秘密鍵を管理することができます。これにより、ユーザーはロックされたビットコインを担保としてExchangeの流動性を解除することができます。従来の銀行融資とは異なり、Debifiはマルチシグネチャーのエスクローシステム（4つのうち3つ）を使用し、担保の抵当権を認めないため、より高い安全性と透明性が保証されます。
+Debifiは、非保管型Bitcoin担保融資プラットフォームである。Debifiは、ユーザーがロックされたビットコインを担保として、流動性のロックを解除することを可能にします。従来の銀行融資とは異なり、Debifiはマルチシグネチャーのエスクローシステム（4つのうち3つ）を使用し、担保の再担保を受け付けないため、より高い安全性と透明性が保証されます。
 
 
 
-これは実際には、Debifiも個々の貸し手も、3者（あなた、貸し手、信頼できる第三者）の合意なしにあなたのBTCを使うことができないことを意味します。これにより、Debifiで借りた場合、ローンが全額返済されるまで、BitcoinのうちOwnershipを保持することになり、システムの安全性が高まります。
+これは実際には、Debifiも個々の貸し手も、3者（あなた、貸し手、信頼できる第三者）の合意なしにあなたのBTCを使うことができないことを意味します。Debifiで借りた場合、ローンが全額返済されるまでBitcoinの所有権はあなたにあります。
 
 
 
@@ -36,22 +36,21 @@ Debifiは非保管型Bitcoin担保融資プラットフォームであり、ユ�
 
 
 
-Debifiでは、担保ローン、Blockchainセキュリティ（マルチシグネチャ、2FA）、選択可能なステーブルコイン/リキッド、機密性、完全なBitcoinコントロールが可能です。Debifiは、競争力のある金利とBTC担保ローンへのグローバルなアクセスを提供しながら、「あなたのお金」（あなたの鍵、あなたのコイン）を保持します。
+Debifiでは、on-chainを担保にしたBitcoin担保ローンをご利用いただけます。マルチシグネチャウォレット、2FA、Bitcoin の完全管理により、資金は安全に保管されます。様々なステーブルコインまたはフィアットオプションで、競争力のある金利とグローバルな流動性でお借入いただけます。
 
 
 
 ここで、デビファイ・ローンと従来の銀行ローンの簡単な比較をしてみよう：
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 デビフィでの借り方をステップ・バイ・ステップで紹介する前に、知っておいた方がいいと思う点がいくつかある。
 
@@ -70,25 +69,25 @@ Debifiでは、担保ローン、Blockchainセキュリティ（マルチシグ�
 
 
 
-- 担保**とは、融資を担保するために預ける資産のこと。デビフィの場合、担保はBitcoin（BTC）で、借り手はMultisig 3/4エスクローに預ける。
+- 担保**とは、融資を担保するために預ける資産のこと。デビフィの場合、担保はBitcoin（BTC）で、借り手がMultisig 3/4エスクローに預ける。
 
 
 
 
 
-- Multisigエスクロー(3/4)**システムは、借り手のビットコインがマルチシグネチャーのAddressに置かれる安全な預託メカニズムです。具体的には、4者（借り手、貸し手、デビファイ、独立した第三者）がそれぞれ鍵を持つ。資金を移動させるには、4つのうち少なくとも3つの署名が必要です。
+- Multisigエスクロー(3/4)**システムは、借り手のビットコインがマルチシグネチャアドレスに置かれる安全な預託メカニズムである。具体的には、4つの当事者（借り手、貸し手、デビファイ、独立した第三者）がそれぞれ鍵を保持する。資金を移動するには、4つのうち少なくとも3つの署名が必要です。
 
 
 
 
 
-- ステーブルコイン**とは、価値が安定した資産（米ドルなど）に固定されている暗号通貨のことで、Bitcoinのボラティリティを回避することができる。例えば、1USDCは不換紙幣に裏打ちされているため、常に～1ドルの価値がある。
+- ステーブルコイン**とは、価値が安定資産（米ドルなど）にペッグされている暗号通貨のことで、Bitcoinのボラティリティを回避することができる。例えば、1USDCは不換紙幣に裏打ちされているため、常に～1ドルの価値がある。
 
 
 
 
 
-- ローンのLTV（Loan to Value）**比率は、Bitcoinの担保としてどれだけの現金を借りられるかを決定する。LTV比率＝ローン金額÷担保金額×100。例えば、LTVが50％ということは、ローンの価値がBitcoinの預託価値の50％に等しいことを意味します。
+- ローンのLTV（Loan-to-Value）***比率は、Bitcoinの担保として借りられる現金の額を決定します。LTV 比率 = ローン額 / 担保額 * 100.例えば、LTV が 50％ということは、ローンの価値が預託された Bitcoin の価値の 50％に等しいことを意味します。
 
 
 
@@ -118,23 +117,17 @@ Debifiを始めるには、いくつかの前提条件が必要です。
 
 
 
-- Bitcoin Wallet: あなたがBTCを保有する場所（理想的には非保管、例えばHardware Walletや信頼できるモバイルWallet）。このWalletからBitcoinの担保をDebifiに送り、資金を受け取ります。
+- Bitcoin wallet: あなたがBTCを保有する場所（理想的には非保管、例えばHardware Walletや信頼できるモバイルwallet）。このwalletからBitcoinの担保をDebifiに送り、担保を返してもらいます。
 
 
 
-
-
-- ステーブルコインまたはフィアットDebifiは、ステーブルコインと一部の不換紙幣で貸付を行っています。主な安定コインは USDT と USDC です。
-
-
-
-Aqua、Bitcoin、Liquid Walletを使用し、様々なネットワークでのUSDT安定コイン管理にも対応しています。またはCOLDCARD（Mk4またはQ）、現在Debifiがサポートする唯一のハードウェアです。
+Aqua、BitcoinとLiquid walletを使用し、様々なネットワークでUSDT安定コイン管理もサポートします。または COLDCARD (Mk4 または Q)、現在 Debifi がサポートする唯一のハードウェアです。
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 
 
@@ -148,17 +141,17 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- 二要素認証アプリケーション：Debifiは、重要なアクションの度にAuthenticatorコードを要求します。セキュリティのLayerが追加されます。このチュートリアルでは Google Authenticator を使用します。また、他の認証機能を使用することもできます。
+- 二要素認証アプリケーション：Debifi は、重要なアクション毎に Authenticator コードを要求します。これはセキュリティの追加レイヤーです。このチュートリアルでは、Google Authenticator を使用します。また、他の認証機能を使用することもできます。
 
 
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 
 
-- Debifiウェブサイトとモバイルアプリケーション：Debifiはウェブサイトとモバイルアプリケーションの両方があり、この2つは連動して動作します。モバイルアプリはWalletとなり、秘密鍵を保管し、契約の締結を管理する。さらに、契約をコミットするにはウェブサイトを使用する必要がある（大きなInterfaceでローン契約の概要とその詳細を確認できる）。
+- Debifiウェブサイトとモバイルアプリケーション：Debifiはウェブサイトとモバイルアプリケーションの2つがあり、両者は連動して動作します。モバイルアプリはwalletとなり、秘密鍵を保管し、契約の締結を管理する。また、契約をコミットするにはウェブサイトを使用する必要があります（大きなInterfaceでローン契約の概要とその詳細を確認できます）。
 
 
 
@@ -200,7 +193,7 @@ https://planb.network/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-その後、**ログインまたはアカウント作成**をクリックし、電子メールAddressでアカウントを作成します。
+その後、**ログインまたはアカウント作成**をクリックし、Eメールアドレスでアカウントを作成してください。
 
 
 
@@ -268,7 +261,7 @@ Eメールで認証コードが届きます。このコードをコピーして�
 
 
 
-- セキュリティを高めるために、passphraseを追加することもできる。
+- さらにセキュリティを高めるために、passphraseを追加することもできる。
 
 
 
@@ -276,7 +269,7 @@ Eメールで認証コードが届きます。このコードをコピーして�
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ご登録いただいたスマートフォン以外は、口座開設ができませんのでご注意ください（セキュリティ対策）。
 
@@ -354,13 +347,13 @@ Debifiが現在提供している不換紙幣は、プラットフォーム上�
 #### ローン・トゥ・バリュー・レシオ（LTV）
 
 
-Bitcoinローンのトランシェ数は通常3つである：
+Bitcoinローンのトランシェは通常3つである：
 
 
 
 
 
-- コンサバティブ（LTV20％～40％）は、低リスクのローンに相当し、Bitcoinの価格変動に対する安全性を最大限に高めるのに理想的である；
+- 低リスクのローンに相当する保守的（LTV30％～40％）は、Bitcoinの価格変動に対する安全性を最大限に高めるのに理想的である；
 
 
 
@@ -372,7 +365,7 @@ Bitcoinローンのトランシェ数は通常3つである：
 
 
 
-- アグレッシブ（LTV70％～85％）：流動性は高いが、市場低迷時の清算リスクが非常に高い。このトランシェを選択する際には、Bitcoin の市況を積極的に監視する必要がある。
+- アグレッシブ（LTV70％）：流動性は高いが、市場低迷時には清算リスクが非常に高くなる。このトランシェを選択する際には、Bitcoinの市況を積極的にモニターすることが必須である。
 
 
 
@@ -388,7 +381,7 @@ Bitcoinローンのトランシェ数は通常3つである：
 
 
 
-ローンの返済スケジュールは、利用者のニーズに合わせて柔軟に設定されることが多い。担保要件が満たされる限り、支払いはいつでも可能である。ローンの支払いは通常、ローン期間中の利息で、満期時に元本が支払われる。
+返済スケジュールは柔軟で、借り手のニーズに合わせて設計されている。担保要件を満たせば、追加手数料なしでいつでも全額または一部を返済できる。ローン期間中、利息は通常定期的に支払われ、元金は満期時に決済される。
 
 
 
@@ -396,7 +389,16 @@ Bitcoinローンのトランシェ数は通常3つである：
 
 
 
-Bitcoinの価格は不安定であるため、責任あるローンには特定のマージンコール方針が契約に含まれている。この方針により、借り手は追加の担保を提供するか、ローンの一部を返済するよう通知される。
+Bitcoinのボラティリティを考慮し、ローンには明確に定義されたマージンコールポリシーが含まれている。マージンコールは、担保価値の下落によりLTVが上昇した場合に発生する。デビフィは電子メールとアプリを通じて借り手に通知し、担保の追加やローンの一部返済を可能にする。
+
+
+75% LTV - 最初の警告
+
+80% LTV - セカンド・アラート
+
+85% LTV - 最終警告
+
+90% LTV - 担保は清算される。
 
 
 
@@ -433,11 +435,11 @@ Bitcoinの価格は不安定であるため、責任あるローンには特定�
 6.必要な正確な金額を入力しなければならない（この金額は帯域内でなければならない、2参照）；
 
 
-7.資金を受け取るために使用するイーサリアムUSDC Addressを入力する必要があります。
+7.資金を受け取るために使用するイーサリアムUSDCアドレスを入力する必要があります。
 
 
 
-オファーにご満足いただき、必要な情報をご入力いただけましたら、「Contract request」をクリックしてください。
+オファーにご満足いただき、必要な情報をご入力いただけましたら、「Contract リクエスト」をクリックしてください。
 
 
 
@@ -453,7 +455,7 @@ Bitcoinの価格は不安定であるため、責任あるローンには特定�
 
 
 
-公開鍵を提供する**」を押し、公開鍵の提供元を選択する。貸主も公開鍵をSupplyする必要がある。
+公開鍵を提供する**」を押し、公開鍵の提供元を選択します。貸主も公開鍵を提供する必要があります。
 
 
 
@@ -473,7 +475,7 @@ Bitcoinの価格は不安定であるため、責任あるローンには特定�
 
 
 
-次のステップはContractに署名することです。モバイル・アプリケーションで、'' **Sign Contract** '' を押します。
+次のステップは契約書にサインすることです。モバイルアプリケーションで、'' **Sign Contract** '' を押します。
 
 
 
@@ -485,7 +487,7 @@ Bitcoinの価格は不安定であるため、責任あるローンには特定�
 
 
 
-Contractへの署名が終わると、デビフィは自動的にあなたのContractに対してユニークなマルチ署名Bitcoin Address (エスクロー3-Sur-4)を作成します。ビットコインがエスクローにある限り、他の場所で使用することはできません。
+契約が完了すると、デビフィは自動的にあなたの契約用にユニークなマルチシグネチャBitcoinアドレス（エスクロー3-sur-4）を作成します。あなたのビットコインがエスクローにある限り、他の場所で使用することはできません。
 
 
 
@@ -493,7 +495,7 @@ Contractへの署名が終わると、デビフィは自動的にあなたのCon
 
 
 
-最後のステップは、マルチシグネチャーのエスクローシステムにBitcoinの担保を預けることです。Debifiは、エスクローのAddress（B）と、（担保＋手数料）として送信されるBTCの数量（A）を表示します。
+最後のステップは、マルチ署名エスクローシステムにBitcoin担保を預けることです。Debifiは、エスクローアドレス（B）と、（担保＋手数料）として送られるBTCの数量（A）を表示します。
 
 
 
@@ -509,7 +511,7 @@ Contractへの署名が終わると、デビフィは自動的にあなたのCon
 
 
 
-あなたの入金が確認され次第、貸金業者はあなたが指定した受取Addressに融資額を支払い、取引が確定し、必要な資金を利用できるようになります。
+あなたの入金が確認され次第、貸金業者はあなたが指定した受取住所に融資額を支払い、取引が完了し、必要な資金を利用できるようになります。
 
 
 
@@ -517,7 +519,7 @@ Contractへの署名が終わると、デビフィは自動的にあなたのCon
 
 
 
-実際には、Contract が作成されると、融資手数料は借り手がマルチシグネチャーエスクロー Address でエスクローした担保から自動的に差し引かれる。
+実際には、契約書が作成されると、融資手数料は借り手がマルチシグネチャーのエスクローアドレスに預けた担保から自動的に差し引かれる。
 
 
 
@@ -529,7 +531,7 @@ Contractへの署名が終わると、デビフィは自動的にあなたのCon
 
 
 
-適用される貸出手数料は、Contractの期間に応じて1.5～2％である。プラットフォームはBitcoinのみ手数料を徴収する。
+適用される貸出手数料は、契約期間に応じて1.5～2％である。手数料はBitcoinのみ。
 
 
 
@@ -537,25 +539,23 @@ Contractへの署名が終わると、デビフィは自動的にあなたのCon
 
 
 
-ローンが開始されると、デビファイではContractをリアルタイムでモニターすることができます。Interfaceでは、：
-
-
+ローンがアクティブになると、Debifiはリアルタイムで契約を追跡することができます。インターフェイスでは
 
 
 
 - 借入額と残存期間。
-- 現在のLTV（Loan-to-Value）比率：BTCの価格が下落するとLTVが上昇する（担保の価値が下がるため）。警告しきい値（一般的に90％）が設定されている。LTVがこの閾値を超えると、強制清算のリスクがあります。その場合、Debifiは24時間の猶予を与えます。
-
-
-
-借り手には値下げが通知される。この情報は、Contract のサマリー・ページにも掲載される。ローンの元の融資比率に戻すには、借り手は：
+- 現在のLTV（Loan-to-Value）比率は、BTCの価格が下がり、担保の価値が下がると上昇する。
 
 
 
 
+担保価値が減少すると借り手に通知され、この情報は契約概要ページにも表示される。元の融資比率に戻すには、借り手は以下のいずれかを行う必要があります：
 
-- または追加保証金を預ける；
+
+
+- 追加担保を預ける；
 - 債務の全部または一部を返済する。
+
 
 
 
@@ -577,21 +577,21 @@ Contractへの署名が終わると、デビフィは自動的にあなたのCon
 
 
 
-- Contractにアクセスし、**Make a repayment**をクリックします。返済総額（元金＋利息）を入力します。
+- 契約書にアクセスし、**Make a repayment**をクリックします。返済総額（元金＋利息）を入力します。
 
 
 
 
 
-- あなたの Wallet から送金先の Address に stablecoin を送金し、送金先の Address から送金先の Address に stablecoin を送金します。これにより、デビフィのチェックが容易になります。
+- あなたのwalletから指定された貸し手のアドレスにstablecoinを送金し、返済取引の**ID**を専用タブにコピーしてプラットフォーム上で返済を確認します。これにより、デビフィのチェックが容易になります。
 
 
 
-レンダー（およびあなた）によって支払いが確認されると、デビフィはあなたに**払い戻し**を要求します。Bitcoinの担保は解除され、エスクローからご自身のポートフォリオに戻すことができます。  すべてのビットコインを回収することをお忘れなく。
+デビフィは、貸主（およびあなた）により支払いが確認されると、**払い戻し**を要求します。Bitcoinの担保は解除され、エスクローから自分のwalletに戻すことができます。  ビットコインの回収をお忘れなく。
 
 
 
-ビットコインを受け取り次第、ローンContractが**Contract completed**に変わります。
+ビットコインを受け取り次第、ローン契約は**Contract完了**に変更されます。
 
 
 
@@ -604,7 +604,7 @@ Contractへの署名が終わると、デビフィは自動的にあなたのCon
 
 
 
-プロジェクトの資金調達、不動産の取得、ビットコインの購入など、目的や動機が何であれ。 - Bitcoinを裏付けとするローンを利用する前に、細心の注意を払ってください。 - Bitcoinを裏付けとするローンを利用する前に、極めて慎重であるべきです。Bitcoinは不安定な資産であるため、時間をかけて慎重に検討してください。 **Bitcoinの価格が急落した場合、あなたのビットコインは強制的に清算される可能性があります。
+プロジェクトの資金調達、不動産の取得、ビットコインの購入など、目的や動機が何であれ、Bitcoinを裏付けとするローンを利用する前には十分な注意が必要です。Bitcoinは不安定な資産であるため、時間をかけて慎重に判断してください。 **Bitcoinの価格が急落した場合、あなたのビットコインは強制的に清算される可能性があります。
 
 
 
@@ -612,7 +612,7 @@ Contractへの署名が終わると、デビフィは自動的にあなたのCon
 
 
 
-鍵を管理する。BTCは安全なWallet（理想的にはハードウェアまたは評判の良いWallet）に保管してください。あなたの人生の重要な日付に関連するPINコードを設定せず、あなたの回復フレーズを決して共有しないでください。Debifiでは、アプリケーションでgenerateの秘密鍵を使用します。
+鍵を管理する。BTCは安全なwallet（理想的にはハードウェアまたは評判の良いwallet）に保管してください。あなたの人生の重要な日付に関連するPINコードを設定せず、あなたの回復フレーズを決して共有しないでください。Debifiでは、アプリケーション内でgenerateに秘密鍵を設定します。
 
 
 
@@ -620,11 +620,11 @@ Contractへの署名が終わると、デビフィは自動的にあなたのCon
 
 
 
-デビフィ公式サイトのみを使用し、デビフィニュースの最新情報を入手し、不明なリンクやフィッシングリンクを避けてください。  アプリをアップデートし、PINコードでスマートフォンを保護し、互換性のあるHardware Walletを選択します。
+デビファイ公式サイトのみを使用してデビファイニュースの最新情報を入手し、不明なリンクやフィッシングリンクを避けてください。  アプリをアップデートし、PINコードでスマートフォンを保護し、互換性のあるHardware Walletを選択します。
 
 
 
-また、あなたが貸し手であれば、このチュートリアルビデオでDebifiプラットフォームの使用方法をご案内します。あなたのオファーに興味のある借り手の選択から、公開鍵の提供、契約書の署名、ステーブルコインの送金など。
+また、あなたが貸し手であれば、このチュートリアルビデオでDebifiプラットフォームの使用方法をご案内します。あなたのオファーに興味のある借り手の選択から、公開鍵の提供、契約書への署名、ステーブルコインの送金など。
 
 
 
@@ -640,4 +640,4 @@ Bitcoin、ステーブルコイン、そして主権への貢献について詳�
 
 
 
-https://planb.network/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46
+https://planb.academy/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46

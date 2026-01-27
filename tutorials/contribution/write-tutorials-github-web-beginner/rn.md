@@ -1,6 +1,6 @@
 ---
 name: Intambwe - Inyigisho z'urubuga rwa GitHub (intango)
-description: Inyobora yuzuye ku nyigisho za Plan ₿ Network n'urubuga rwa GitHub
+description: Inyobora yuzuye ku nyigisho za Plan ₿ Academy n'urubuga rwa GitHub
 ---
 ![cover](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Inyobora yuzuye ku nyigisho za Plan ₿ Network n'urubuga rwa GitHu
 Imbere yo gukurikira iyi nyigisho yo kwongerako inyigisho nshasha, ukeneye kuba wararangije intambwe nkeyi z’intango. Niba utarabikora, ndagusavye banza urabe iyi nyigisho y’intango, hanyuma ugaruke hano:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Usanzwe ufise:
 
@@ -16,11 +16,11 @@ Usanzwe ufise:
 
 
 - Hitamwo insiguro y’inyigisho yawe;
-- Yashikirije ikigo ca Plan ₿ Network biciye kuri [umugwi wa Telegaramu](https://t.me/Umuhinguzi w'Ibirimwo) canke paolo@planb.network ;
+- Yashikirije ikigo ca Plan ₿ Academy biciye kuri [umugwi wa Telegaramu](https://t.me/Umuhinguzi w'Ibirimwo) canke paolo@planb.network ;
 - Hitamwo ibikoresho vyawe vy’intererano.
 
 
-Muri iyi nyigisho, turaza kuraba ingene wokwongerako inyigisho yawe kuri Plan ₿ Network ukoresheje urubuga rwa GitHub. Niba umaze kumenya neza Git, iyi nyigisho idondora cane ishobora kuba idakenewe kuri wewe. Ahubwo, ndagusavye urabe imwe muri izi zindi nyigisho 2, aho ndadondora ido n’ido amabwirizwa yo gukurikiza n’intambwe zo guhindura ibintu bivuye ku vyo mu karere:
+Muri iyi nyigisho, turaza kuraba ingene wokwongerako inyigisho yawe kuri Plan ₿ Academy ukoresheje urubuga rwa GitHub. Niba umaze kumenya neza Git, iyi nyigisho idondora cane ishobora kuba idakenewe kuri wewe. Ahubwo, ndagusavye urabe imwe muri izi zindi nyigisho 2, aho ndadondora ido n’ido amabwirizwa yo gukurikiza n’intambwe zo guhindura ibintu bivuye ku vyo mu karere:
 
 
 
@@ -28,13 +28,13 @@ Muri iyi nyigisho, turaza kuraba ingene wokwongerako inyigisho yawe kuri Plan �
 - Abakoresha bazi utuntu n'utundi**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
 - Hagati (Ibiro vya GitHub)**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Ibisabwa
 
@@ -45,27 +45,27 @@ Ibisabwa mbere yo gutangura inyigisho:
 
 
 - Ufise [konti ya GitHub](https/github.com/kwiyandikisha);
-- Kugira Fork y’[ububiko bw’inkomoko ya Plan ₿ Network](https://github.com/Ikiganiro-Bitcoin-Ibirimwo-ivy’inyigisho);
-- Ugire [urutonde rw’umwigisha kuri Plan ₿ Network](https://planb.network/abaporofeseri) (iyo gusa utanga inyigisho yuzuye).
+- Kugira Fork y’[ububiko bw’inkomoko ya Plan ₿ Academy](https://github.com/Ikiganiro-Bitcoin-Ibirimwo-ivy’inyigisho);
+- Ugire [urutonde rw’umwigisha kuri Plan ₿ Academy](https://planb.academy/abaporofeseri) (iyo gusa utanga inyigisho yuzuye).
 
 
 Niba ukeneye gufashwa kuronka ivyo bisabwa, izindi nyigisho zanje zizogufasha:
 
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Ivyo vyose bimaze gushika kandi ufise Fork yawe y’ububiko bwa Plan ₿ Network, urashobora gutangura kwongerako inyigisho.
+Ivyo vyose bimaze gushika kandi ufise Fork yawe y’ububiko bwa Plan ₿ Academy, urashobora gutangura kwongerako inyigisho.
 
 
 ## 1 - Rema ishami rishasha
 
 
-Ugurure umucukumbuzi wawe maze ugende kuri paji yawe ya Fork iri mu bubiko bwa Plan ₿ Network. Iyi ni Fork mwashinze kuri GitHub. URL ya Fork yawe igomba gusa n'iyi: `https://github.com/[izina-ryawe-ry'ukoresha]/Ibirimwo-vy'inyigisho vya Bitcoin`:
+Ugurure umucukumbuzi wawe maze ugende kuri paji yawe ya Fork iri mu bubiko bwa Plan ₿ Academy. Iyi ni Fork mwashinze kuri GitHub. URL ya Fork yawe igomba gusa n'iyi: `https://github.com/[izina-ryawe-ry'ukoresha]/Ibirimwo-vy'inyigisho vya Bitcoin`:
 
 
 ![GITHUB](assets/fr/01.webp)
@@ -104,7 +104,7 @@ Ishami muri Git rigereranya verisiyo y'umugambi isa n'iyo, iguha uburenganzira b
 Ubu ishami rikora ryaremewe, ni igihe co gushiramwo inyigisho yawe nshasha.
 
 
-Mu madosiye y'ishami ryawe, uzokenera kurondera ububiko bubereye bwo gushiramwo inyigisho yawe. Uko amadosiye atunganijwe vyerekana ibice bitandukanye vyo ku rubuga rwa Plan ₿ Network. Mu karorero kacu, kuko turiko twongerako inyigisho kuri Green Wallet, genda ku nzira ikurikira: `Bitcoin-ibirimwo-inyigisho\inyigisho\Wallet` ihuye n'igice ca `Wallet` c'urubuga:
+Mu madosiye y'ishami ryawe, uzokenera kurondera ububiko bubereye bwo gushiramwo inyigisho yawe. Uko amadosiye atunganijwe vyerekana ibice bitandukanye vyo ku rubuga rwa Plan ₿ Academy. Mu karorero kacu, kuko turiko twongerako inyigisho kuri Green Wallet, genda ku nzira ikurikira: `Bitcoin-ibirimwo-inyigisho\inyigisho\Wallet` ihuye n'igice ca `Wallet` c'urubuga:
 
 
 ![GITHUB](assets/fr/05.webp)
@@ -197,15 +197,15 @@ Akira ahantu hakenewe:
 
 
 
-- project_id**: UUID y’ishirahamwe canke ishirahamwe riri inyuma y’igikoresho kigaragazwa mu nyigisho [bivuye ku rutonde rw’imigambi](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy’inyigisho/igiti/iterambere/ibikoresho/imigambi). Nk'akarorero, nimba uriko urahingura inyigisho yerekeye porogaramu ya Green Wallet, ushobora kubona iyi `project_id` muri dosiye ikurikira: `Bitcoin-ibirimwo-ivy'inyigisho/ibikoresho/imigambi/umurongo/umugambi.yml`. Aya makuru yongerwa kuri dosiye ya YAML y’inyigisho yawe kubera ko Plan ₿ Network ibungabunga urutonde rw’amashirahamwe yose n’imiryango yose ikora kuri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` y'ikigo gihuye n'inyigisho yawe, urema ihuriro hagati y'izo Elements zibiri;
+- project_id**: UUID y’ishirahamwe canke ishirahamwe riri inyuma y’igikoresho kigaragazwa mu nyigisho [bivuye ku rutonde rw’imigambi](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy’inyigisho/igiti/iterambere/ibikoresho/imigambi). Nk'akarorero, nimba uriko urahingura inyigisho yerekeye porogaramu ya Green Wallet, ushobora kubona iyi `project_id` muri dosiye ikurikira: `Bitcoin-ibirimwo-ivy'inyigisho/ibikoresho/imigambi/umurongo/umugambi.yml`. Aya makuru yongerwa kuri dosiye ya YAML y’inyigisho yawe kubera ko Plan ₿ Academy ibungabunga urutonde rw’amashirahamwe yose n’imiryango yose ikora kuri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` y'ikigo gihuye n'inyigisho yawe, urema ihuriro hagati y'izo Elements zibiri;
 
 
 
-- tags**: amajambo 2 canke 3 y’ingenzi ajanye n’ibirimwo mu nyigisho, yatowe gusa [ku rutonde rw’amajambo ya Plan ₿ Network]
+- tags**: amajambo 2 canke 3 y’ingenzi ajanye n’ibirimwo mu nyigisho, yatowe gusa [ku rutonde rw’amajambo ya Plan ₿ Academy]
 
 
 
-- category**: Urutonde ruto rujanye n’ibirimwo mu nyigisho, hakurikijwe imiterere y’urubuga rwa Plan ₿ Network (nk’akarorero, ku bikoresho: `ibikoresho`, `ibikoresho`, `bikoresho`, `ibikoresho`);
+- category**: Urutonde ruto rujanye n’ibirimwo mu nyigisho, hakurikijwe imiterere y’urubuga rwa Plan ₿ Academy (nk’akarorero, ku bikoresho: `ibikoresho`, `ibikoresho`, `bikoresho`, `ibikoresho`);
 
 
 
@@ -236,7 +236,7 @@ Akira ahantu hakenewe:
 Kubindi bisobanuro ku bijanye n'ikarata yawe y'umwigisha, urashobora kuraba inyigisho ihuye:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -474,7 +474,7 @@ Ikimenyetso c’ugutangara kiri mu ntango cerekana ishusho. Ivyanditswe bisubiri
 ![GITHUB](assets/fr/35.webp)
 
 
-Niba wipfuza kwikorera ibishushanyo, urabe ko ukurikiza amabwirizwa y’ibishushanyo ya Plan ₿ Network kugira ngo ubone ko ibishushanyo bihuye:
+Niba wipfuza kwikorera ibishushanyo, urabe ko ukurikiza amabwirizwa y’ibishushanyo ya Plan ₿ Academy kugira ngo ubone ko ibishushanyo bihuye:
 
 
 
@@ -486,7 +486,7 @@ Niba wipfuza kwikorera ibishushanyo, urabe ko ukurikiza amabwirizwa y’ibishush
  - Umweru: #FFFFFF
 
 
-**Ni ngombwa ko amashusho yose yinjijwe mu nyigisho zawe atagira uburenganzira bw'umuhinguzi canke yubaha uruhusha rwa dosiye y'inkomoko**. Ku bw’ivyo, ibishushanyo vyose vyasohowe kuri Plan ₿ Network biraboneka biciye ku ruhusha rwa CC-BY-SA, mu buryo bumwe n’ubw’ico canditswe.
+**Ni ngombwa ko amashusho yose yinjijwe mu nyigisho zawe atagira uburenganzira bw'umuhinguzi canke yubaha uruhusha rwa dosiye y'inkomoko**. Ku bw’ivyo, ibishushanyo vyose vyasohowe kuri Plan ₿ Academy biraboneka biciye ku ruhusha rwa CC-BY-SA, mu buryo bumwe n’ubw’ico canditswe.
 
 
 **-> Impanuro:** Igihe usangira amadosiye mu ruhame, nk'amashusho, birahambaye gukuraho amakuru atari ngombwa. Ivyo bishobora kubamwo amakuru y’agaciro, nk’amakuru y’aho umuntu ari, amatariki yaremeweko n’amakuru y’umwanditsi. Kugira ngo ukinge ubuzima bwite bwawe, ni vyiza ko ukuraho aya metadata. Kugira ngo worohereza iyo nzira, ushobora gukoresha ibikoresho vyihariye nka [Exif Cleaner](https://exifcleaner.com/), bigufasha gusukura amakuru y’inyandiko ukoresheje uburyo bworoshe bwo gukurura no gutera.
@@ -504,7 +504,7 @@ Kugira ngo ukomeze n'Igisabwa co Gukuraho, umaze kubika ivyo wahinduye vyose, fy
 ![GITHUB](assets/fr/36.webp)
 
 
-Igisabwa co gukura ni igisabwa gikorwa co gushiramwo amahinduka ava mw’ishami ryawe mw’ishami ry’ingenzi ry’ububiko bwa Plan ₿ Network, ivyo bikaba bituma umuntu ashobora gusubiramwo no kuganira ku mahinduka imbere y’uko ahurizwa hamwe.
+Igisabwa co gukura ni igisabwa gikorwa co gushiramwo amahinduka ava mw’ishami ryawe mw’ishami ry’ingenzi ry’ububiko bwa Plan ₿ Academy, ivyo bikaba bituma umuntu ashobora gusubiramwo no kuganira ku mahinduka imbere y’uko ahurizwa hamwe.
 
 
 Imbere y’uko ubandanya, nusuzume neza aha hepfo y’igitabu Interface ko ayo mahinduka ari yo wari witeze:
@@ -513,7 +513,7 @@ Imbere y’uko ubandanya, nusuzume neza aha hepfo y’igitabu Interface ko ayo m
 ![GITHUB](assets/fr/37.webp)
 
 
-Raba neza, hejuru ya Interface, ko ishami ryawe rikora ryifatanijwe n'ishami rya `dev` ry'ububiko bwa Plan ₿ Network (ari ryo shami nyamukuru).
+Raba neza, hejuru ya Interface, ko ishami ryawe rikora ryifatanijwe n'ishami rya `dev` ry'ububiko bwa Plan ₿ Academy (ari ryo shami nyamukuru).
 
 
 Injira umutwe uvuga muri make amahinduka wipfuza gufatanya n'ububiko bw'inkomoko. Yongerako igitekerezo gitoyi kidondora ayo mahinduka (niba ufise inomero y'ikibazo ijanye n'uguhingura inyigisho yawe, wibuke kwandika `Ifunga #{inomero y'ikibazo}` nk'igitekerezo), hanyuma ukande kuri buto ya Green "*Create pull request*" kugira ngo wemeze igisabwa co gufatanya:
@@ -522,7 +522,7 @@ Injira umutwe uvuga muri make amahinduka wipfuza gufatanya n'ububiko bw'inkomoko
 ![GITHUB](assets/fr/38.webp)
 
 
-PR yawe izoca iboneka mu gice ca "*Pull Request*" c'ububiko nyamukuru bwa Plan ₿ Network. Ico ubwirizwa gukora ubu ni ukurindira gushika umuyobozi akumenyesheje ko intererano yawe yashizwe hamwe, canke ngo asabe ibindi bihindurwa.
+PR yawe izoca iboneka mu gice ca "*Pull Request*" c'ububiko nyamukuru bwa Plan ₿ Academy. Ico ubwirizwa gukora ubu ni ukurindira gushika umuyobozi akumenyesheje ko intererano yawe yashizwe hamwe, canke ngo asabe ibindi bihindurwa.
 
 
 ![GITHUB](assets/fr/39.webp)
@@ -540,7 +540,7 @@ Niba wipfuza guhindura intererano yawe umaze gutanga PR yawe, intambwe zo gukuri
 
 
 - Nimba PR yawe ikiri yuguruye kandi itarahurizwa hamwe, nukore ivyo guhindura ku ishami ry’akazi rimwe. Impinduka z’ukwiyemeza zizokwongerwa kuri PR yawe ikiri yuguruye;
-- Mu gihe PR yawe yoba yamaze guhurizwa hamwe n’ishami ry’ingenzi, uzokenera gusubira gukora iyo nzira kuva mu ntango mu guhingura ishami rishasha, hanyuma ugatanga PR nshasha. Raba neza ko Fork yawe ihuye n'ububiko bw'inkomoko bwa Plan ₿ Network ku ishami rya `dev` imbere yo gukomeza.
+- Mu gihe PR yawe yoba yamaze guhurizwa hamwe n’ishami ry’ingenzi, uzokenera gusubira gukora iyo nzira kuva mu ntango mu guhingura ishami rishasha, hanyuma ugatanga PR nshasha. Raba neza ko Fork yawe ihuye n'ububiko bw'inkomoko bwa Plan ₿ Academy ku ishami rya `dev` imbere yo gukomeza.
 
 
 Niba ufise ingorane z’ubuhinga zo gutanga inyigisho yawe, ntukekeranye gusaba imfashanyo kuri [umugwi wacu wihariye wo gutanga intererano](https://t.me/PlanBNetwork_ContentBuilder). Murakoze cane!

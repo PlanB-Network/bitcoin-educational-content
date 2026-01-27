@@ -1,9 +1,9 @@
-question: Ni ubuhe bwoko bwa protocole bukwiye gukoreshwa kugira ngo umuntu ashobore gupfuka ibisabwa vya DNS ku rugero rw’urubuga rw’aho hantu?
+question: Ni irihe tegeko rikwiye gukoreshwa kugira ngo umuntu ashobore kunyegeza ibisabwa vya DNS ku rugero rw’umuhora wo mu karere?
 answer: DoH
 wrong_answers:
   - FTP
   - SMBv1
   - UPnP
 explanation: |
-  DoH (DNS kuri HTTPS) na DoT (DNS kuri TLS) zishiramwo amakuru y’ibisabwa vya DNS, bikabuza ko umuntu afatwa.
-reviewed: false
+  DoH (DNS kuri HTTPS) na DoT (DNS kuri TLS) zinyegeza ibisabwa vya DNS, bikabuza ko umuntu ashobora kubifata nka ISP canke Leta.
+reviewed: true

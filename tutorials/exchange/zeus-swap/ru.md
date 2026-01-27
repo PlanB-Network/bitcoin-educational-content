@@ -1,5 +1,5 @@
 ---
-name: Обмен Зевса
+name: Zeus Swap
 description: Служба Exchange без опеки между биткоинами On-Chain и Lightning Network
 ---
 
@@ -51,7 +51,7 @@ Zeus Swap использует технологию атомарного сво�
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Бизнес-модель
 
@@ -149,7 +149,7 @@ Zeus Swap автоматически регулирует время истеч�
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Веб-конфигурация
 
@@ -390,12 +390,13 @@ Zeus Swap преобразует проверенную технологию Bol
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| Сервис | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Минимальная сумма |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + комиссии майнинга | 0.5% + комиссии майнинга | 25 000 sats |
+| **Boltz** | 0.2% + комиссии майнинга | 0.5% + комиссии майнинга | 50 000 sats |
+| **Phoenix** | Только комиссии майнинга | 0.4% фикс | 10 000 sats |
+| **Breez** | 0.25% + сетевые комиссии | 0.5% + комиссии майнинга | 50 000 sats |
 
 Zeus Swap предлагает баланс между простотой использования и техническим контролем: более доступный, чем Boltz, более гибкий, чем Phoenix/Breez, со строгим подходом, не предусматривающим лишения свободы.
 

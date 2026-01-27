@@ -8,7 +8,7 @@ PlanB missiooniks on pakkuda tipptasemel haridusressursse Bitcoin'i kohta võima
 
 **Kas soovite lisada PlanB võrgustiku saidile Bitcoin'iga seotud raamatu ja suurendada oma töö nähtavust, kuid ei tea, kuidas? See õpetus on teile!**
 ![raamat](assets/01.webp)
-- Esiteks peate omama GitHub'i kontot. Kui te ei tea, kuidas kontot luua, oleme koostanud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
+- Esiteks peate omama GitHub'i kontot. Kui te ei tea, kuidas kontot luua, oleme koostanud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Minge [PlanB-le pühendatud GitHub'i andmerepositooriumisse](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) jaotisesse `resources/books/`:
 ![raamat](assets/02.webp)
 - Klõpsake paremal üleval nupul `Add file`, seejärel `Create new file`:
@@ -63,7 +63,7 @@ tags:
 - Klõpsa rohelisel nupul `Esita muudatused`: ![raamat](assets/12.webp)
 - Seejärel jõuad lehele, mis kokkuvõtlikult kuvab kõik sinu muudatused: ![raamat](assets/13.webp)
 - Klõpsa üleval paremal oma GitHubi profiilipildil, seejärel vali `Sinu Repositooriumid`: ![raamat](assets/14.webp)
-- Vali oma PlanB Network repositoriooni fork: ![raamat](assets/15.webp)
+- Vali oma Plan ₿ Academy repositoriooni fork: ![raamat](assets/15.webp)
 - Akna ülaosas peaksid nägema teadet oma uue haru kohta. See on tõenäoliselt nimetatud `patch-1`. Klõpsa sellel: ![raamat](assets/16.webp)
 - Nüüd oled oma tööharul: ![raamat](assets/17.webp)
 - Mine tagasi kausta `resources/books/` ja vali kaust oma raamatuga, mille just eelmises kohustuses lõid: ![raamat](assets/18.webp)
@@ -74,7 +74,7 @@ tags:
 - Jäta kohustuse pealkiri vaikimisi ja veendu, et ruut `Esita otse patch-1 harusse` on märgitud, seejärel klõpsa `Esita muudatused`: ![raamat](assets/23.webp)
 - Mine tagasi `assets` kausta: ![raamat](assets/24.webp)
 - Klõpsa nupul `Lisa fail`, seejärel `Laadi üles failid`: ![raamat](assets/25.webp)
-- Avaneb uus leht. Lohista ja kukuta oma raamatu kaanepilt alasse. See pilt kuvatakse PlanB Network saidil: ![raamat](assets/26.webp)
+- Avaneb uus leht. Lohista ja kukuta oma raamatu kaanepilt alasse. See pilt kuvatakse Plan ₿ Academy saidil: ![raamat](assets/26.webp)
 - Ole ettevaatlik, pilt peab olema raamatu formaadis, et see sobiks meie veebisaidile kõige paremini, näiteks: ![raamat](assets/27.webp)
 - Kui pilt on üles laaditud, veendu, et ruut `Esita otse patch-1 harusse` on märgitud, seejärel klõpsa `Esita muudatused`: ![raamat](assets/28.webp)- Pane tähele, et sinu pilt peab olema nimetatud `cover_en`, kui kaas on inglise keeles ja peab olema `.webp` formaadis. Seega peaks täielik failinimi olema `cover_en.webp`, `cover_fr.webp`, `cover_it.webp` jne. Kui soovid kasutada iga keele jaoks erinevat kaanepilti, näiteks raamatu tõlke puhul, võid need paigutada samasse kohta `assets` kaustas: ![raamat](assets/29.webp)
 - Mine tagasi oma `assets` kausta ja klõpsa vahendajafailil `.gitkeep`: ![raamat](assets/30.webp)
@@ -133,7 +133,7 @@ contributors:
 ![book](assets/43.webp)
 - Klõpsake nupul `Create pull request`:
 ![book](assets/44.webp)
-Palju õnne! Teie PR on edukalt loodud. Administraator vaatab selle nüüd üle ja kui kõik on korras, ühendab selle PlanB Network'i peamisse repositooriumisse. Teie raamat peaks veebisaidil ilmuma mõne päeva pärast.
+Palju õnne! Teie PR on edukalt loodud. Administraator vaatab selle nüüd üle ja kui kõik on korras, ühendab selle Plan ₿ Academy'i peamisse repositooriumisse. Teie raamat peaks veebisaidil ilmuma mõne päeva pärast.
 
-Jälgige kindlasti oma PR-i edenemist. Administraator võib jätta kommentaari, paludes lisateavet. Niikaua kui teie PR pole kinnitatud, saate seda vaadata PlanB Network'i GitHubi repositooriumi `Pull requests` vahekaardil.
+Jälgige kindlasti oma PR-i edenemist. Administraator võib jätta kommentaari, paludes lisateavet. Niikaua kui teie PR pole kinnitatud, saate seda vaadata Plan ₿ Academy'i GitHubi repositooriumi `Pull requests` vahekaardil.
 ![book](assets/45.webp) Suur tänu teie väärtusliku panuse eest! :)

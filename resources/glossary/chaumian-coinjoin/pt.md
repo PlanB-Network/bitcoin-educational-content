@@ -10,7 +10,7 @@ Para tal, os utilizadores enviam ao coordenador o seu input e um endereço de re
 
 Este método garante que o coordenador não pode comprometer o anonimato dos participantes nem roubar as bitcoins durante todo o processo de coinjoin.
 
-É difícil determinar com certeza quem foi o primeiro a introduzir a ideia de coinjoin no Bitcoin e quem teve a ideia de usar as assinaturas cegas de David Chaum neste contexto. Pensa-se frequentemente que Gregory Maxwell foi o primeiro a discutir o assunto em [uma mensagem no BitcoinTalk em 2013] (https://bitcointalk.org/index.php?topic=279249.0):
+É difícil determinar com certeza quem foi o primeiro a introduzir a ideia de coinjoin no Bitcoin e quem teve a ideia de usar as assinaturas cegas de David Chaum neste contexto. Pensa-se frequentemente que Gregory Maxwell foi o primeiro a discutir o assunto em [uma mensagem no BitcoinTalk em 2013](https://bitcointalk.org/index.php?topic=279249.0):
 
 > *"Utilizando assinaturas cegas Chaum: Os utilizadores ligam-se e fornecem entradas (e mudam de endereço), bem como uma versão criptograficamente oculta do endereço para o qual pretendem enviar as suas moedas privadas; o servidor assina os tokens e devolve-os. Os utilizadores voltam a ligar-se anonimamente, desmascaram os seus endereços de saída e devolvem-nos ao servidor. O servidor pode ver que todas as saídas foram assinadas por ele e que, por conseguinte, todas as saídas provêm de participantes válidos. Mais tarde, as pessoas voltam a ligar-se e a assinar. "*
 Maxwell, G. (2013, 22 de agosto). *CoinJoin: Privacidade Bitcoin para o mundo real*. Fórum BitcoinTalk. https://bitcointalk.org/index.php?topic=279249.0

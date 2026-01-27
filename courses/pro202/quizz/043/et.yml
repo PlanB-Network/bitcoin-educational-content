@@ -1,0 +1,8 @@
+question: Kui Bitcoin plokkide häkke tõlgendatakse sihtvõrdluseks väikese täisarvuna, siis miks on kehtivate plokkide heksadetsimaalses esituses tavaliselt palju tagumisi nulle?
+answer: Kuna little-endian tõlgendus tähendab, et kõige parempoolsemates baitides kuusnumbrilised baitid vastavad täisarvu väärtuse kõige olulisematele bittidele
+wrong_answers:
+  - Kuna SHA-256 algoritm toodab loomulikult tagumisi nulle, kui sisend sisaldab korduvate mustritega tehinguandmeid
+  - Kuna kaevurid täidavad ploki päise tahtlikult nulliga, et muuta hash-arvutus ASIC riistvara jaoks tõhusamaks
+  - Kuna nonce-välja suurendatakse nullist ülespoole, põhjustades generate mustrite tagantjärele nullidega hash-funktsiooni
+explanation: |
+  Väike-endiaani tõlgenduses loetakse baite vastupidises järjekorras, nii et kõige parempoolsemast baidist saab täisarvu kõige tähtsam osa. Selleks, et hash oleks allpool eesmärki (väike arv), peavad selle kõige olulisemad bitid olema nullid, mis ilmnevad heksakoodis nullidena. See on puhtalt endiannessi teisendamise kujutamise artefakt, mitte SHA-256 või mining riistvara omadus.

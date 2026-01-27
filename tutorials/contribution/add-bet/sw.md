@@ -1,6 +1,6 @@
 ---
 name: Kuongeza Zana za Kielimu
-description: Jinsi ya kuongeza nyenzo mpya za kielimu kwenye PlanB Network?
+description: Jinsi ya kuongeza nyenzo mpya za kielimu kwenye Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
@@ -8,13 +8,13 @@ description: Jinsi ya kuongeza nyenzo mpya za kielimu kwenye PlanB Network?
 Dhamira ya PlanB ni kutoa nyenzo kuu za elimu kwenye Bitcoin, kwa lugha nyingi iwezekanavyo. Maudhui yote yaliyochapishwa kwenye tovuti ni chanzo-wazi na yamepangishwa kwenye GitHub, ambayo inaruhusu mtu yeyote kushiriki katika kuimarisha jukwaa.
 
 
-Zaidi ya mafunzo na mafunzo, PlanB Network pia inatoa maktaba makubwa ya maudhui mbalimbali ya elimu kwenye Bitcoin, yanayofikiwa na kila mtu, [katika sehemu ya "BET" (_Bitcoin Educational Toolkit_)](https://planb.network/resources/bet). Hifadhidata hii inajumuisha mabango ya elimu, meme, mabango ya ucheshi ya propaganda, michoro ya kiufundi, nembo na zana zingine za watumiaji. Lengo la mpango huu ni kusaidia watu binafsi na jumuiya zinazofundisha Bitcoin duniani kote kwa kuwapa nyenzo muhimu za kuona.
+Zaidi ya mafunzo na mafunzo, Plan ₿ Academy pia inatoa maktaba makubwa ya maudhui mbalimbali ya elimu kwenye Bitcoin, yanayofikiwa na kila mtu, [katika sehemu ya "BET" (_Bitcoin Educational Toolkit_)](https://planb.academy/resources/bet). Hifadhidata hii inajumuisha mabango ya elimu, meme, mabango ya ucheshi ya propaganda, michoro ya kiufundi, nembo na zana zingine za watumiaji. Lengo la mpango huu ni kusaidia watu binafsi na jumuiya zinazofundisha Bitcoin duniani kote kwa kuwapa nyenzo muhimu za kuona.
 
 
 Je, unataka kushiriki katika kuimarisha hifadhidata hii, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!
 
 
-*Ni muhimu kwamba maudhui yote yaliyounganishwa kwenye tovuti hayana haki au yaheshimu leseni ya faili chanzo. Pia, taswira zote zilizochapishwa kwenye PlanB Network zinapatikana chini ya [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) leseni.*
+*Ni muhimu kwamba maudhui yote yaliyounganishwa kwenye tovuti hayana haki au yaheshimu leseni ya faili chanzo. Pia, taswira zote zilizochapishwa kwenye Plan ₿ Academy zinapatikana chini ya [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) leseni.*
 
 ![event](assets/01.webp)
 
@@ -22,7 +22,7 @@ Je, unataka kushiriki katika kuimarisha hifadhidata hii, lakini hujui jinsi gani
 - Kwanza, unahitaji kuwa na akaunti kwenye GitHub. Ikiwa hujui jinsi ya kufungua akaunti, tumekuandalia mafunzo ya kina.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -36,7 +36,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- Ikiwa hujawahi kuchangia yaliyomo kwenye PlanB Network hapo awali, utahitaji kuunda Fork yako ya hazina asili. Kuunda hazina inamaanisha kuunda nakala ya hazina hiyo kwenye akaunti yako ya GitHub, ambayo hukuruhusu kufanya kazi kwenye mradi bila kuathiri hazina asili. Bonyeza kitufe cha `Fork hazina hii`:
+- Ikiwa hujawahi kuchangia yaliyomo kwenye Plan ₿ Academy hapo awali, utahitaji kuunda Fork yako ya hazina asili. Kuunda hazina inamaanisha kuunda nakala ya hazina hiyo kwenye akaunti yako ya GitHub, ambayo hukuruhusu kufanya kazi kwenye mradi bila kuathiri hazina asili. Bonyeza kitufe cha `Fork hazina hii`:
 
 ![event](assets/04.webp)
 
@@ -79,10 +79,10 @@ Hapa kuna maelezo ya kujaza kwa kila sehemu:
 
 
 
-- **`mjenzi`**: Onyesha kitambulisho cha shirika lako kwenye PlanB Network. Ikiwa bado hauna kitambulisho cha "mjenzi" cha kampuni yako, unaweza kuunda kwa kufuata mafunzo haya.
+- **`mjenzi`**: Onyesha kitambulisho cha shirika lako kwenye Plan ₿ Academy. Ikiwa bado hauna kitambulisho cha "mjenzi" cha kampuni yako, unaweza kuunda kwa kufuata mafunzo haya.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 Ikiwa hauna, unaweza kutumia jina lako, jina lako bandia, au jina la kampuni yako bila kuunda wasifu wa mjenzi.
 
@@ -118,7 +118,7 @@ Kwa mfano, faili yako ya YAML inaweza kuonekana kama hii:
 
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -135,7 +135,7 @@ view:
 ![event](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![event](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![event](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It is probably called `patch-1`. Click on it:
 ![event](assets/16.webp)
@@ -152,7 +152,7 @@ view:
 - Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/23.webp)
 - Return to the `assets` folder: ![event](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`: ![event](assets/25.webp)
-- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the PlanB Network site: ![event](assets/26.webp)
+- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the Plan ₿ Academy site: ![event](assets/26.webp)
 - It can be a preview, a logo, or an icon: ![event](assets/27.webp)
 - Once the image is uploaded, make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/28.webp)
 - Be careful, your image must be named `logo` and must be in `.webp` format. The full file name should therefore be: `logo.webp`: ![event](assets/29.webp)

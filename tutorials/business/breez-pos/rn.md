@@ -1,114 +1,150 @@
 ---
 name: Breez - POS
-
-description: Inyobora yo gutangura kwemera Bitcoin ukoresheje Breez POS
+description: Breez ituma vyoroha gutoragura amafaranga y’ibice vy’amahera y’ubucuruzi bwawe.
 ---
 
 ![cover](assets/cover.webp)
 
-_Iki canditswe kiva ku rubuga rw'inyandiko rwa Breez: https://doc.breez.ubuhinga/Uko-wotangura-gukoresha-POS-ya Breez.html_
 
 
-## POS y’umuyaga ni iki?
+Kuva mu gihe c'ikiza ca COVID-19, ukwishyura mu buryo bwa digitale ata gukorana navyo vyarakwiragiye cane, no mu maduka mato cane. Muri ico kiringo, ubucuruzi bwinshi bwabonye ubushobozi bwo gukoresha amahera y’ibice vy’umubiri (bitcoin cash solutions), bikabafasha kwakira amahera ava kw’isi yose. Ariko rero, ivyo bisubizo rimwe na rimwe biragoye gukoresha canke ntibibereye ku bucuruzi buto buto. Muri iyi nyigisho, tuzoba turiko turaraba ikibanza co kwishura ca Breez, umuti ugaragara kubera uko woroshe gukoresha, mu gihe uguha ububasha bwose ku bijanye n’uburongozi bw’amahera yawe ya bitcoins.
 
 
-**Breez** ni porogaramu y’umuravyo ikora vyose, idakoreshwa n’abantu. Reka ivyo tubice:
 
+## Shiraho Breez POS
 
 
-- Lightning** ni urubuga rwo kwishura rwa Bitcoin rugabanya igihe co gukoresha kuva ku minota gushika ku milisegonda n’amahera yo gukoresha kuva ku madolari menshi gushika ku masenti makeyi canke hasi. Umuravyo uhindura Bitcoin kuva mu nzahabu ya digitale ikaja mu mafaranga ya digitale mu gihe uzigama inyungu zose zituma Bitcoin iba nini.
-- Non-custodial** bisigura ko Breez itafata amahera y’abakoresha. Amaporogarama menshi ya Lightning arafata amahera y’abakoresha bayo. Mu vy’ukuri ni amabanki ya Bitcoin. Kubera app idafise ububiko nka Breez, abayikoresha bose ni amabanki yabo.
-- Full-service** bisigura ko Breez yitwararika hafi ibikorwa vyose vy’ubuhinga ubwayo kandi mu nyuma. Ibintu nk'uguhingura umurongo, amafaranga yinjira, n'inzira biguma munsi y'igipfukisho. (Ariko Breez nayo ni open source, rero abashaka gukora igenzura ry’ubuhinga barahawe ikaze!)
 
+Breez POS ni igikorwa co kwibungabunga gitangwa na Breez wallet. Ubuhinga bw’iyi serivisi ni ugutuma abacuruzi bashobora gutora amahera biciye kuri Bitcoin mu gihe baguma ku rubuga rworoshe, rusa cane n’amasakoshi atandukanye ya Lightning. Breez POS iboneka ku [Iduka rya Google Play](Android) no kuri [Iduka ry’Iporogarama](Iduka ry’Iporogarama ry’Iporogarama)
 
-**Breez POS** ni insiguro ngufi y'uburyo bwacu bwo kugurisha. Mu yandi majambo, Breez ikora nk'igikoresho co gufata amafaranga y'ubuhinga bwa none ku bucuruzi n'abadandaza bashaka kwemera kwishura Lightning (ukwongerako uburyo bwayo "busanzwe", ari bwo bumeze nk'uburyo bwa digitale bw'urukoba Wallet ku Bitcoin, n'umukinyi wa podcast w'uruvyaro rukurikira). None rero reka turabe ingene woshiraho Breez nk’igikoresho co gushiramwo amahera y’umuravyo ku bucuruzi bwawe.
 
 
-## Ni gute wotangura gukoresha Breez?
+![download](assets/fr/01.webp)
 
 
-1. Intambwe ya mbere ni ugukuraho app. Iraboneka kuri Android na iOS (shiramwo TestFlight hanyuma ukande kuri iyo nzira iri ku gikoresho cawe).
 
-2. Breez ishobora kwisubiza inyuma ubwayo kuri Google Drive, iCloud, canke kuri server iyo ari yo yose ya WebDav.
+![setup](assets/fr/12.webp)
 
-**Iciyumviro:** igikoresho cose gikoresha urudodo rwaco rw'umuravyo. Ushobora gukoresha uburyo bwa POS ku bikoresho vyinshi uko ushaka, ariko amafaranga azoguma atandukanye.
 
-3. Iyo app ifunguye, ukande ku kimenyetso kiri hejuru ibubamfu kugira uronke uburyo bwa Point of Sale.
 
+⚠️ Ni vyiza kumenya ko izo porogarama zikiriko zirategurwa kandi ko hariho amakosa amwe amwe mu gukoresha ibikorwa. Turahimiriza gukoresha mu buryo bubereye.
 
-## Gutegura POS
 
 
-Kugira ngo ushireho POS, fyonda ku kimenyetso kiri hejuru ibubamfu, hanyuma ukande ahantu h’ugurisha > Ivyagezwe vya POS.
+Iyi porogaramu, Breez iraguha ububasha bwose ku miterere y’urubuga n’imiterere y’amahera, mu gihe ikwemeza ubusegaba bwawe mu gucunga amafaranga yawe y’ibiceri.
 
 
-### Ijambobanga ry'umuyobozi
 
+Ushobora gutohoza uburyo butandukanye bwa Breez wallet ukurikije inyigisho yacu iri musi. Iyi ntambwe izogufasha gutahura neza ibidukikije vy’aho ugurisha no kwemera uburyo bwiza bwo gukingira neza amafaranga y’ibiceri ajanye na seed yawe.
 
-Mu mirongo ya POS, urafise uburenganzira bwo gukora ijambobanga ry’umuyobozi. Ijambobanga ry’umuyobozi rituma bidashoboka ko umuntu yohereza amahera asohoka akoresheje porogarama ya Breez ata wemerewe. Abakozi bo kugurisha bazoshobora gusa kwakira amahera bakoresheje iyo mashini. Iyumvire ko nimba uriko urakoresha iyi nzira, ushobora kandi gushaka kubuza gushika ku bubiko bwa Breez, rero gukoresha konti ya WebDav yo hanze (nk'akarorero Nextcloud) ni vyiza kuri iyi nkuru y'ikoreshwa.
 
 
-### Urutonde rw'ibintu
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Urutonde rw’ibintu ni urutonde rw’ibintu bigurishwa n’ibiciro vyavyo. Hari uburyo bubiri bwo kwongera ibintu kuri list:
 
+## Gukoresha Breez POS
 
 
-- Kugira ngo winjize ibintu kimwe kimwe, fyonda ku Ibintu biri hafi y'isonga ry'ivyo POS ibona, hanyuma ukande ku kimenyetso "+" kiri hasi iburyo. Aha ushobora kwinjiza izina ry’ubwoko bumwe bw’ikintu, igiciro (kigaragazwa mu mafaranga angana n’ivyo uhisemwo), na SKU (ikimenyetso kidasanzwe c’imbere c’ubwo bwoko bw’ikintu; ni ubusabe).
-- Kugira ngo winjize ibintu vyinshi icarimwe, fyonda ku kimenyetso c’igiharuro kiri hejuru ibubamfu, hanyuma ukande ku Point of Sale > Preferences > Settings ya POS, hanyuma ukande ku tudodo dutatu turi iburyo bw’Items List, hanyuma ukande kuri Import from CSV. Ivyo bizokuronsa uburenganzira bwo kwinjiza dosiye ya CSV wateguye imbere y’igihe irimwo amazina y’ibintu vyawe, ibiciro, na SKUs.
 
+Muri iyi nyigisho, tuzokwibanda ku gice ca "*Point-of-Sale*" kugira ngo tugufashe gutahura ingene wogishiramwo nk'uburyo bwo kwishura mu bucuruzi bwawe.
 
-### Iyerekanwa rya Fiat
 
 
-Breez yohereza gusa kandi ikakira Bitcoin, kandi ku bikorwa vyinshi bikoreshwa kuri Lightning, bikunda kuba ari ivy’amahera make, ayo mahera akenshi yerekanwa muri Satoshis, a.k.a. Sats (1 BTC = 100.000.000 Sats). Ariko rero, abacuruzi benshi barabona ko ari vyiza kuba bashoboye kubona (no kubwira abakiriya) agaciro k’ivyo baguze vyerekanywe mu mafaranga y’aho hantu.
+Ico kibanza co kugurisha ni igice kigize ibikorwa vya Breez kandi cizigira cane cane Lightning Network kugira ngo gikuremwo amahera.
 
 
-Mu mbonerahamwe nyamukuru ya POS, amafaranga ariko aragaragazwa ubu araboneka ku ruhande rw’iburyo (imbere ni SAT). Hariho kandi urutonde rw’ayandi mafaranga ashobora kugaragazwa. Kugira ngo wongere canke ukureho amafaranga muri uru rutonde ruza, fyonda ku Kibanza co kugurisha > Ivyo ukunda > Amafaranga ya Fiat. Hanyuma ushiremwo gusa amafaranga wipfuza ko aba muri menyu yawe igenda ihinduka, hanyuma ukureho ayo wipfuza gukuraho.
 
+Mu "*Point of Sale*", ufise interface itaziguye yo gutora amahera. Igizwe n’ibice bibiri:
 
-Ivyiyumviro vyerekanywe biva kuri yadio, isoko ryubahwa ry’amakuru y’igiciro ca Exchange, kandi birahindurwa mu gihe nyaco. Ariko wibuke: agaciro k'amahera kose kariko karagaragazwa ubu, ukwishyura ubwakwo kuri muri Bitcoin.
 
 
-### Gusaba itegeko
+### Gukuraho amahera ataco akora
 
 
-Kugira ngo ukore urutonde, wongereko ibintu biri ku rutonde rw’ibintu canke winjize gusa umubare mu gicapo. Hanyuma ukande kuri Charge iri hejuru y’ivyo POS ibona. Uzoca ubona kode ya QR umukiriya ashobora gucapura akoresheje porogarama yiwe yitwa Lightning, iyo ushobora gusangira n’abandi uhereye ku yindi porogarama iri ku gikoresho cawe, canke iyo ushobora kuyikopa ukayishira aho bikenewe.
 
+Igice ca mbere ni klavye y’ugukura amahera. Iyi interface irafasha mu gukusanya amahera yose iyo uzi ivyo umukiriya wawe aguze vyose, canke iyo udakeneye urutonde rw’ibicuruzwa rudahinduka mu bucuruzi bwawe (nk’akarorero, ibikorwa vy’ukwikorera).
 
-Iyo umuntu akoresheje scanner iyo code canke akafyonda kuri Invoice yasangiye/yashizweko, azobona Invoice muri app yiwe ya Lightning kandi azogira uburenganzira bwo kuyihemba no gutorera umuti iyo nzira ubwo nyene.
 
 
-Uhejeje kubona Ukwishyura kwemejwe! animation muri Breez app ku gikoresho c’umucuruzi, urashobora gufyonda ku kimenyetso c’icapa kugira ngo generate ikimenyetso c’uko umukiriya yaronse. Kugira ngo ukoreshe icapa ry’inyandiko muri Android, gerageza gukoresha uyu mushoferi. Zirikana ko ushobora kandi gucapura amafaranga y'imbere biciye ku rubuga rw'amafaranga.
+![keyboard](assets/fr/02.webp)
 
 
-### Raporo y'ugurisha
 
+Kugira ngo ukoreshe Breez POS ku ncuro ya mbere, uzokenera gutora amahera arenga 2.500 satoshis (nk’amayero 3 ku giciro c’ubu). Iryo shirahamwe, ryishyurwa gusa ku gihe ca mbere utanga amahera, rigereranya igiciro co guhingura umurongo wo kwishura kugira ngo ushobore kuvugana n’izindi node za Lightning Network no kohereza no kwakira ama satoshis.
 
-Kugira ngo ubone raporo y’ivyo ugurisha ku musi, ku ndwi no/canke ku kwezi (kubera intumbero z’ivy’ubuhinga canke ibindi), fyonda ku kimenyetso kiri hejuru ibubamfu, hanyuma ukande ku Bicuruzwa. Fyonda ku kimenyetso ca Raporo kugira ngo ugaragaze raporo be n’ikimenyetso c’Ikirangamisi kugira ngo uhindure urutonde rw’amatariki wahisemwo.
 
 
-### Kwohereza hanze amafaranga
+![channel_fee](assets/fr/03.webp)
 
 
-Kugira ngo ubone urutonde rw’amahera yaronse muri Breez, fyonda ku kimenyetso kiri hejuru ibubamfu, hanyuma ukande ku Transactions. Fyonda ku tudodo dutatu turi hejuru iburyo, hanyuma kuri Export kugira ngo wohereze hanze urutonde rw’amahera yinjira mu buryo bwa CSV. Kugira ngo ushire urutonde ku kiringo kinaka, fyonda ku kimenyetso c'ikirangamisi kugira ngo ushireho urutonde rw'amatariki.
+### Urutonde rw'ibicuruzwa
 
 
-### Gucapura ivyemezo
 
+Igice ca kabiri ni urutonde rw’ibintu. Iyi interface ni nziza cane iyo ufise urutonde rw’ibicuruzwa rufise ibiciro vyategekanijwe imbere y’igihe. Aha urashobora gutegura imbere y’igihe ibintu vyawe hanyuma ukabikoresha ku mafagitire ya generate kugira ngo ushobore gukurikirana neza amafaranga yawe.
 
-Kugira ngo ucape ikimenyetso c’uko ugurisha, fyonda ku kimenyetso co gucapura kiri hejuru iburyo bw’ikiganiro co kwemeza ko wishuye. Canke rero, ukande ku kimenyetso kiri hejuru ibubamfu, hanyuma ukande kuri Transactions. Rondera aho ugurisha kugira ngo ucape, ufungure, hanyuma ukande ku kimenyetso co gucapura kiri hejuru iburyo.
 
 
-**Iciyumviro:** koresha uyu mushoferi kugira ucape ku gicapo c'ubushuhe c'iminota 58/80 c'uburebure bwa Bluetooth/USB.
+![items](assets/fr/04.webp)
 
 
-## Ndashaka kumenya vyinshi
 
+Ushobora guhindura ikintu cose uhereye kuri iyi interface ukanda kuri buto ya "**Plus**" hanyuma ugasobanura izina, igiciro n'ikimenyetso c'iki kintu.
 
 
-- Ushaka kumenya vyinshi ku vyerekeye Umuravyo n’Umuyaga, raba [urubuga] rwacu(https://breez.technology/blog).
-- Ku bindi vyiyumviro vy’ubuhinga vyerekeye ingene woshobora gukoresha neza porogarama no gukora ibikorwa rusangi, raba [inyandiko] zacu(https://breez.technology/inyandiko).
-- Niwaba wacitse intege ntubone inyishu mu bitabu vyacu vyose vy’imfashanyo, urashobora kudusanga kuri [Telegram](https://t.me/breez_labs) canke ukadurungikira [email](mailto:support@breez.technology).
-- Niba ushaka kubona amasanamu y’iyerekanwa ry’uburyo bwa Breez POS mu bikorwa yakozwe n’abakunzi bacu n’abakoresha bacu, [aha](https://www.youtube.com/raba?v=xxxx) ni imwe ndende cane, kandi [hano](https://www.youtube.com/raba?v=xxxx) ni imwe ndende, ido n’ido
+
+![add_items](assets/fr/05.webp)
+
+
+
+Ushobora rero kuyishiramwo no gusobanura umubare wayo kugira ngo ushire hamwe amahera ajanye.
+
+
+
+Iyo urutonde rwawe ari runini cane, birashobora kugorana kwongerako ibintu vyawe kimwe kimwe. Ku bw'ivyo, mu gice ca **Ivyo Ukunda > Ivyagezwe vy'Ikibanza co Kugurisha**, mu rutonde rwa "Ibintu", urashobora kwinjiza no gusohora urutonde rw'ibintu vyawe mu madosiye ya CSV.
+
+
+
+![import](assets/fr/07.webp)
+
+
+
+Muri iki gice nyene, urashobora gusobanura igihe c'uburenganzira bw'amafagitire yawe ya Lightning. Kuva ubu, ku mafagitire yawe yose, abakiriya bawe barafise amasegonda `N` yo kwishura, iyo bitabaye uzobwirizwa gusubiramwo invoice nshasha ya Lightning.
+
+
+
+![invoice_time](assets/fr/08.webp)
+
+
+
+Nk’umuyobozi, urashobora gukomeza umutekano w’ama bitcoins yawe mu kwongerako ijambobanga rizokenerwa ku mahera yose asohoka avuye kuri wallet yawe. Ivyo birafasha cane cane iyo atari wewe wenyene ucungera isoko ryawe.
+
+
+
+![manager](assets/fr/09.webp)
+
+
+
+Mu **Transactions**, uzosanga urutonde rw'amahera yose washize hamwe. Ushobora kandi kuyungurura ibisubizo mu kiringo kinaka ukanda kuri buto **Ikirangamisi**.
+
+
+
+![transactions](assets/fr/10.webp)
+
+
+
+Ushobora kandi kubona incamake y’ivyo ugurisha ku musi ku musi n’amahera yose yaronkejwe ukanda kuri buto **Inyandiko**.
+
+
+
+![summary](assets/fr/11.webp)
+
+
+
+Ubu ufise ugutahura gushitse kw’aho ugurisha gutangwa n’ikoreshwa rya Breez ryo gushiramwo Bitcoin mu bucuruzi bwawe ata nkomanzi. Niwaba wasanze iyi nyigisho ari ngirakamaro, turagusavye inyigisho yacu kuri be-BOP, urubuga rw’ubudandaji rwo kuri internet rugufasha gufata amahera mu ma bitcoins maze ugatuma ubucuruzi bwawe bugira amahera.
+
+
+
+https://planb.academy/tutorials/business/point-of-sale/be-bop-d8c40a3b-9090-48e7-9ba7-235d0c17e5fa

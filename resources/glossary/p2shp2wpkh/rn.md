@@ -1,5 +1,5 @@
 ---
-term: P2SH-P2WPKH.
+term: P2SH-P2WPKH
 ---
 
 P2SH-P2WPKH bisobanura *Ishura Inyandiko Hash - Ishura Icabona Urufunguzo rwa bose Hash*. Ni urugero rw'inyandiko rusanzwe rukoreshwa mu gushinga ivyangombwa vyo gukoresha kuri UTXO, izwi kandi nka "Nested SegWit".

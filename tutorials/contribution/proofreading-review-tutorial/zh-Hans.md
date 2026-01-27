@@ -1,19 +1,19 @@
 ---
 name: 校对或审阅内容
-description: 如何参与审查 Plan ₿ Network 上的教育内容？
+description: 如何参与审查 Plan ₿ Academy 上的教育内容？
 ---
 ![github](assets/cover.webp)
 
 ## 综述
 
-如果您想参与审核和更正 Plan ₿ Network 的内容，请加入[我们的 Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder)，专门用于投稿。简单介绍一下自己，然后说明您要审核的内容和语言。在工作分支上进行修改，完成审核后提交 PR。
+如果您想参与审核和更正 Plan ₿ Academy 的内容，请加入[我们的 Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder)，专门用于投稿。简单介绍一下自己，然后说明您要审核的内容和语言。在工作分支上进行修改，完成审核后提交 PR。
 
 如果你不明白上面的部分，别担心，本教程就是为你准备的！
 
 ---
 ## 什么是 Plan ₿ 网络？
 
-Plan ₿ Network 是一个通过大量课程和教程让每个人了解比特币的平台。目前，我们的所有内容都是开源的，托管在 GitHub 存储库中，并开放供审查和内容创建。
+Plan ₿ Academy 是一个通过大量课程和教程让每个人了解比特币的平台。目前，我们的所有内容都是开源的，托管在 GitHub 存储库中，并开放供审查和内容创建。
 
 Plan ₿网络旨在成为比特币网络空间的公共广场，连接和鼓励世界各地的比特币社区。
 
@@ -33,20 +33,20 @@ Plan ₿网络从根本上说是多语言的，因为我们的目标是让全世
 
 不过，如果你对 Git 和 GitHub 不熟悉，想了解更多信息，可以查看我们关于这些工具的介绍文章：
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1.创建账户
 
 
 - 在 [GitHub](https://github.com/) 上创建账户，开始贡献。如果您需要创建 GitHub 账户的指导，我们也有详细的教程：
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - 您还需要一个信息应用程序 [Telegram](https://telegram.org/) 的账户。
 
 ## 2.加入 Telegram 群组
 
 
-- 加入 Telegram 上的 [PBN Content Builder 小组](https://t.me/PlanBNetwork_ContentBuilder)。
+- 加入 Telegram 上的 [Plan ₿ Academy Content Builder 小组](https://t.me/PlanBNetwork_ContentBuilder)。
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -82,7 +82,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![REVIEW](assets/fr/06.webp)
 
-注意。建议在代码窗口中查看，并在另一个窗口中显示原始内容。例如，您可以在 Plan ₿ Network 网站或 GitHub 预览中的浏览器标签页上查看文本。使用 `ctrl + F` 查找错误，并在代码视图中进行修改。
+注意。建议在代码窗口中查看，并在另一个窗口中显示原始内容。例如，您可以在 Plan ₿ Academy 网站或 GitHub 预览中的浏览器标签页上查看文本。使用 `ctrl + F` 查找错误，并在代码视图中进行修改。
 
 ## 4.承诺更改
 
@@ -113,7 +113,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 - 如果您尚未完成审核，希望稍后继续工作，只需退出即可。
 - 只要您提交了更改，这些更改就会保存在您的 GitHub 分支中。
-- 要继续工作，请通过您的 GitHub 配置文件访问 Plan ₿ Network 内容仓库的 fork。
+- 要继续工作，请通过您的 GitHub 配置文件访问 Plan ₿ Academy 内容仓库的 fork。
 
 ![REVIEW](assets/fr/14.webp)
 
@@ -138,17 +138,17 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ## 6. 校对内容时需遵循的规则
 
-要了解在 Plan ₿ Network 上进行校对时需要遵循的语言或格式规则的指南，请参阅本节中的“contribution-proofreading-guidelines”教程！
+要了解在 Plan ₿ Academy 上进行校对时需要遵循的语言或格式规则的指南，请参阅本节中的“contribution-proofreading-guidelines”教程！
 
 ## 7. 等待审核
 
 
-- 恭喜，您的 PR 已提交！您可以在[Plan ₿ Network 的 GitHub 代码库](https://github.com/PlanB-Network/bitcoin-educational-content/pulls)的 "Pull requests "选项卡中跟踪进度：
+- 恭喜，您的 PR 已提交！您可以在[Plan ₿ Academy 的 GitHub 代码库](https://github.com/PlanB-Network/bitcoin-educational-content/pulls)的 "Pull requests "选项卡中跟踪进度：
 
 ![REVIEW](assets/fr/12.webp)
 
 
-- 非常感谢您的贡献！批准后，Plan ₿ Network 团队成员将与您联系，发送您的奖励。 \**付款完全通过闪电网络进行\**。
+- 非常感谢您的贡献！批准后，Plan ₿ Academy 团队成员将与您联系，发送您的奖励。 \**付款完全通过闪电网络进行\**。
 - 如果你想重新开始，请返回第 2 步，并在 Telegram 群组中发送一条新消息，以继续贡献其他内容。在创建新的工作分支之前，确保同步你的分叉。为此，请访问你的分叉主页，选择名为 "dev "的主分支（参见\**A\**），然后点击 "同步分叉 "按钮（参见\**B\**）。如果您的分叉有更新，"更新分支 "按钮就会出现。只需点击该按钮即可执行更新。
 
 ![REVIEW](assets/fr/16.webp)

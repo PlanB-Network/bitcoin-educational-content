@@ -1,0 +1,8 @@
+question: Mitu funktsionaalset allkirja on vaja ploki kinnitamiseks Liquid Network-s?
+answer: Vähemalt 11 ametnikku 15st peab alla kirjutama
+wrong_answers:
+  - Vähemalt 8 ametnikku 15st peab alla kirjutama
+  - Vähemalt 10 ametnikku 15st peab alla kirjutama
+  - Vähemalt 12 ametnikku 15st peab alla kirjutama
+explanation: |
+  Liquid Network nõuab ploki kinnitamiseks vähemalt 11 allkirja 15 funktsionäärilt, mis tähendab, et kaks kolmandikku pluss üks künnis. See konkreetne nõue tagab kindla konsensuse, vältides samas, et mõni väike rühm ei saaks võrku kontrollida. Teised võimalused on valed: 8 allkirja oleks turvalisuse tagamiseks liiga vähe, 10 ei vastaks kahe kolmandiku künnisele ja 12 oleks normaalse tegevuse jaoks tarbetult piirav.

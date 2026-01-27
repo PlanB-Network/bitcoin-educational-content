@@ -77,7 +77,7 @@ Za ovaj vodič, biće vam potrebne 2 softverske aplikacije: Ledger Live za inici
 
 Za ova dva softverska programa, toplo preporučujem da proverite i njihovu autentičnost (pomoću GnuPG) i njihov integritet (preko Hash) pre nego što ih instalirate na svoj računar. Ako niste sigurni kako to da uradite, možete pratiti ovaj drugi vodič:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Kako inicijalizovati Ledger Nano?
 
@@ -228,7 +228,7 @@ passphrase ne treba mešati sa PIN kodom. On igra ulogu u derivaciji vaših krip
 passphrase je veoma moćan alat za poboljšanje sigurnosti vaših bitkoina. Međutim, veoma je važno razumeti kako funkcioniše pre nego što ga implementirate, kako biste izbegli gubitak pristupa vašem Wallet. Zato vam savetujem da se konsultujete sa ovim drugim posvećenim vodičem ako želite da postavite passphrase na vaš Ledger:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Meni "*PIN lock*" omogućava vam da konfigurišete i aktivirate automatsko zaključavanje vašeg Ledger nakon određenog perioda neaktivnosti.
 
@@ -371,7 +371,7 @@ Pre nego što primite svoje prve bitkoine u vaš Wallet, **snažno vam savetujem
 Da biste saznali više o tome kako izvesti test oporavka, savetujem vam da pogledate ovaj drugi vodič:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Kako primiti bitkoine sa Ledger Nano?
 
@@ -416,7 +416,7 @@ Možete dodati "*Label*" da opišete izvor bitkoina koji će biti osiguran ovim 
 Za više informacija o označavanju, takođe vam savetujem da pogledate ovaj drugi vodič:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Zatim možete koristiti ovaj Address za primanje bitkoina.
 
@@ -518,4 +518,4 @@ Ako ste smatrali da je ovaj vodič bio od pomoći, bio bih zahvalan ako biste mo
 Takođe vam preporučujem da pogledate ovaj kompletan vodič za Ledger Flex:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

@@ -1,0 +1,8 @@
+question: Ni iyihe nsiguro ikoreshwa mu gusobanura amaparametere mu gufunga Rust?
+answer: Inyuguti z'umuyoboro (|) kugira ngo ufunge ibigenderwako
+wrong_answers:
+  - Ubifunga () gukingira amaparametere
+  - Amabarabara y'inzira [] kugira ngo ufunge ibigenderwako
+  - Ivyuma bigoramye {} kugira ngo ufunge ibigenderwako
+explanation: |
+  Rust closures zikoresha inyuguti z'imiyoboro (|) kugira ngo zisobanure amaparametere, ivyo bikaba bitandukanya n'ibikorwa bisanzwe bikoresha uturongo. Nk'akarorero, ugufunga ata mirongo kwandikwa nka ||, mu gihe ugufunga kufise imirongo bisa na |x, y|. Iyi nsiguro yihariye ituma amajambo y'ugufunga amenyekana bitagoranye kandi akayatandukanya n'insobanuro z'ibikorwa. Ivyuma bikoreshwa mu bikorwa bisanzwe, mu gihe ibimenyetso vy’inzira n’ivy’inzira bikoreshwa mu yindi ntumbero mu nsiguro y’inyuguti ya Rust.

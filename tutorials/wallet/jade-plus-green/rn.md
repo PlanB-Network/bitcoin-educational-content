@@ -37,7 +37,7 @@ Jade Plus ihuye n’ibindi bikoresho vyinshi vyo gucunga Wallet. Aha niho hari i
 Muri iyi nyigisho, tuzoshiraho no gukoresha Jade Plus n’iporogarama ya Blockstream Green Wallet biciye ku nzira ya Bluetooth. Iyi setup ni nziza ku batangura. Niba uriko urarondera uburyo buteye imbere, ndagusavye urabe iyi nyigisho aho dukoresha Jade Plus na Sparrow wallet mu buryo bwa QR codes:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Igishushanyo c'umutekano wa Jade Plus
 
@@ -142,7 +142,7 @@ Ushobora kuvyandika ku karto zitangwa mu gasandugu, canke kugira ngo wongere uyi
 Kugira ngo umenye vyinshi ku buryo bwiza bwo kubika no gucunga ijambo ryawe rya Mnemonic, ndagusavye cane gukurikira iyi yindi nyigisho, cane cane nimba uri umutanguzi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Biragaragara ko udashobora kwigera usangira aya majambo kuri internet, nk’uko ndabigira muri iyi nyigisho. Iyi sample Wallet izokoreshwa gusa kuri Testnet kandi izokurwaho ku mpera y'inyigisho**
 
@@ -165,12 +165,12 @@ Umaze kubika ijambo ryawe, Jade Plus iragusaba ko uryemeza. Hitamwo ijambo ryiza
 Muri iyi nyigisho, tuzokoresha porogaramu ya Green Wallet kugira ngo ducunge Wallet yakiriwe kuri Jade Plus. Ubwo buryo burabereye canecane abatangura. Niba wifuza gucunga Bitcoin Wallet yawe mu buryo burambuye, urashobora kandi gukoresha Sparrow wallet, iyo tuzoyivuga mu nyigisho itandukanye:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Kugira ngo ubone amabwirizwa yerekeye gushiramwo no gushinga porogarama ya Blockstream Green, raba igice ca mbere c’iyi yindi nyigisho:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Igihe umaze gushika kuri porogarama ya Blockstream Green, ukande kuri buto ya "*Gutegura Wallet nshasha*".
 
@@ -286,7 +286,7 @@ Hitamwo "*Standard*" niba wipfuza gukora Wallet y'ikimenyetso kimwe.
 Ushaka kumenya vyinshi ku mahitamwo ya "*2FA*", ushobora gukurikira iyi yindi nyigisho:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Konti yawe yararemwe.
 
@@ -324,7 +324,7 @@ Jade yawe irafungurwa biciye ku "secure element" ya Blockstream (raba igice ca m
 Imbere y’uko uronka ama bitcoins yawe ya mbere muri Wallet yawe, **Ndaguhanura cane gukora ikigeragezo co gusubirana ubusa**. Ushire ahabona amakuru amwamwe y’ishingiro, nka xpub yawe canke ubanza kwakira Address, hanyuma usibe Wallet yawe kuri app ya Green no kuri Jade Plus igihe ikiri ubusa (`Amahitamwo -> Igikoresho -> Gusubiramwo uruganda`). Hanyuma ugerageze gusubizaho Wallet yawe ukoresheje impapuro zawe z’inyuma z’ijambo Mnemonic. Suzuma ko amakuru y’ibifungurwa vyasohowe inyuma yo gusubizaho ahuye n’ayo wanditse mu ntango. Nivyashika, urashobora kwizigira yuko amakete yawe y’impapuro ari ay’ukwizigirwa. Kugira ngo umenye vyinshi ku buryo bwo gukora ikigeragezo co gukira, usabwe kuraba iyi yindi nyigisho :
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Kwakira ama bitcoins
 
@@ -422,4 +422,4 @@ Urakoze cane, ubu urazi gushinga no gukoresha Jade Plus n’iporogarama ya telef
 Kugira ngo ibintu bigende intambwe imbere, ndabahimiriza iyi nyigisho ku Jade Plus, aho tuyitunganya dukoresheje porogarama ya Sparrow wallet mu buryo bwa QR. Uzomenya kandi ingene ukoresha amasetingi ateye imbere yo muri Hardware Wallet yawe:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

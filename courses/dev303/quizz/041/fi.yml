@@ -1,0 +1,8 @@
+question: Mitkä ovat kolme tapaa, joilla sulkimet voivat kaapata muuttujia ympäristöstään Rust:ssa?
+answer: Muuttumattomalla viittauksella, muuttuvalla viittauksella tai ottamalla omistusoikeus
+wrong_answers:
+  - Kopioimalla arvoja, lainaamalla viitteitä tai dereferoimalla osoittimia
+  - Pino-, kasa- tai staattisen tallennustilan avulla
+  - Yhteiskäyttöoikeudella, yksinoikeudella tai samanaikaisella käyttöoikeudella
+explanation: |
+  Rust:n sulkeutumat kaappaavat ympäristömuuttujia täsmälleen kolmella tavalla: muuttumattomalla viittauksella (kun niiden on vain luettava), muuttuvalla viittauksella (kun niiden on muutettava) tai ottamalla omistusoikeuden (kun niiden on siirrettävä arvo, usein säikeen turvallisuuden vuoksi). Kääntäjä valitsee automaattisesti rajoittavimman menetelmän, joka tyydyttää sulkeutumisen tarpeet, noudattaen vähimmän etuoikeuden periaatetta.

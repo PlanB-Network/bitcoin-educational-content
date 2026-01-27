@@ -54,7 +54,7 @@ Electrumをダウンロードするには、このチュートリアルの最初
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ダウンロード後、インストールする前に必ずリリースを確認し、ヘルプの「ダミーWalletで始める」にあるように、「1サーバー」の設定に進んでください。
 

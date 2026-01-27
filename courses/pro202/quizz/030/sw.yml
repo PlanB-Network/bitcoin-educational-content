@@ -1,0 +1,8 @@
+question: Kusudi kuu la mchakato wa ujenzi wa sighash katika uthibitishaji wa muamala wa Bitcoin ni lipi?
+answer: Kuunda ujumbe halisi uliosainiwa awali na ufunguo wa faragha kwa ajili ya uthibitisho wa sahihi
+wrong_answers:
+  - Kwa generate kitambulisho cha kipekee cha muamala unaozuia mashambulizi ya double-spending
+  - Kubana data ya muamala katika umbizo dogo kwa ajili ya uwasilishaji bora wa mtandao
+  - Kusimba maudhui ya muamala ili mpokeaji pekee ndiye aweze kusimba na kutumia sarafu
+explanation: |
+  Muundo wa sighash huunda ujumbe sahihi uliosainiwa na ufunguo wa faragha, na kuwezesha OP_CHECKSIG kuthibitisha uhalisi wa sahihi. Mchakato huu unahusisha kuondoa ScriptSigs, kubadilisha ScriptSig ya ingizo la sasa na ScriptPubKey yake inayolingana, na kuongeza aina ya hash kabla ya kuhamisha mara mbili. Chaguzi zingine si sahihi: Vitambulisho vya miamala hutumika kama vitambulisho, mgandamizo hushughulikiwa kando, na miamala ya Bitcoin haijasimbwa kwa njia fiche lakini inaonekana hadharani kwenye blockchain.

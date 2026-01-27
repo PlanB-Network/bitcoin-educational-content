@@ -1,0 +1,8 @@
+question: Hva må en node verifisere under Bitcoin-transaksjonsvalidering for å sikre at hver inndata er autorisert til å bruke den refererte utdataen?
+answer: ScriptSig må kunne låse opp den tilsvarende ScriptPubKey når den kjøres sammen
+wrong_answers:
+  - "Den digitale signaturen til inndataene må stemme nøyaktig overens med den innebygde offentlige nøkkelen til utdataene"
+  - Transaksjonens hash må være lik merkle-roten som er lagret i det refererte blokkhodet
+  - Det inngående beløpet må være større enn eller lik det utgående beløpet som brukes
+explanation: |
+  Bitcoins skriptsystem krever at hver inngangs ScriptSig (opplåsingsskript) må utføres med den refererte utgangens ScriptPubKey (låsingsskript) for å gi et sant resultat på stakken. Denne skriptkjøringsmodellen gir mulighet for fleksible utgiftsbetingelser utover enkel signaturmatching. De andre alternativene beskriver feil valideringskrav - signaturer trenger ikke å samsvare nøyaktig med innebygde nøkler, transaksjonshashes sammenlignes ikke med merkle-røtter under validering av inndata, og individuelle inndata trenger ikke å overstige utdataene sine (bare totale inndata må overstige totale utdata).

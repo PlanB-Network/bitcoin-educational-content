@@ -1,11 +1,10 @@
 ---
-name: NOSTR
-
-description: Entdecke und beginne NOSTR zu verwenden
+name: Nostr
+description: Entdecke und beginne Nostr zu verwenden
 ---
 
 
-![Ein neuer Herausforderer ist angekommen](assets/1.webp)
+![Ein neuer Herausforderer ist angekommen](assets/cover.webp)
 
 *Am Ende dieses Leitfadens werden Sie verstehen, was Nostr ist, ein Konto erstellt haben und es nutzen können.*
 

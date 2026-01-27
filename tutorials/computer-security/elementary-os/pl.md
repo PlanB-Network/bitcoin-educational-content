@@ -11,7 +11,7 @@ Elementary OS to system operacyjny oparty na Ubuntu, zaprojektowany tak, aby byÅ
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Dlaczego warto wybraÄ‡ Elementary OS
 
@@ -380,4 +380,4 @@ Elementary OS jest teraz uruchomiony na Twoim komputerze. Jego filozofia prostot
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

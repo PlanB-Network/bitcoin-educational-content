@@ -616,7 +616,7 @@ curl -X POST http://localhost:9740/lnurlauth \
 
 
 
-LNbits võib vastavalt oma [ametlikule dokumentatsioonile] (https://docs.lnbits.org/guide/wallets.html) kasutada rahastamisallikana Phoenixd:
+LNbits võib vastavalt oma [ametlikule dokumentatsioonile](https://docs.lnbits.org/guide/wallets.html) kasutada rahastamisallikana Phoenixd:
 
 
 

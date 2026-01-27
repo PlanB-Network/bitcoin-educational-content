@@ -348,7 +348,7 @@ Etapas de configuração:
 
 
 
-**Nota:** É necessário ter uma conta comercial PayPal para generate estes identificadores. Pode obtê-los através do portal [developer] (https://developer.paypal.com)
+**Nota:** É necessário ter uma conta comercial PayPal para generate estes identificadores. Pode obtê-los através do portal [developer](https://developer.paypal.com)
 
 
 
@@ -1644,7 +1644,7 @@ Os ficheiros de tradução estão em JSON. Pode:
 Ligação aos ficheiros originais:
 
 
-[https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations] (https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
+[https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
 
 
 

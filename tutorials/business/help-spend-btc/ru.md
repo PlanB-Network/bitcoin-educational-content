@@ -13,7 +13,7 @@ description: Краткое руководство по стимулирован
 Вы наконец-то решили использовать Bitcoin в своем бизнесе, и все готово: Lightning Network Wallet настроен для приема платежей, ваши сотрудники знают, как использовать версию Wallet только для чтения, чтобы принимать платежи от вашего имени, точка продаж (PoS) настроена на товары магазина и обновляется ежемесячно, и вы уже знаете, как управлять учетом Bitcoin от клиентов. Если вы не знаете, как это сделать, посмотрите этот учебник:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## В чем проблема
 
@@ -129,7 +129,7 @@ https://planb.network/tutorials/business/others/accounting-payments-cb4da704-885
 В любом случае всегда полезно убедиться, что ваш бизнес, если у него есть физический адрес, представлен и актуален на [BTC Map](https://btcmap.org/map). Большинство пользователей биткоина знакомы с этим инструментом, и почти все, кто тратил биткоин в физических магазинах, хотя бы раз проверяли, какие места его принимают. Если вы хотите узнать, как добавить свой магазин в BTC Map, или хотите получить больше информации, посмотрите этот учебник:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Управление бухгалтерским учетом
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 Если вы задаетесь вопросом, как управлять учетом только что заработанных биткоинов, независимо от того, применили вы одну из политик скидок или нет, это руководство для вас:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Заключение
 

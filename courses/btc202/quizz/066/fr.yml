@@ -6,4 +6,4 @@ wrong_answers:
   - Mot de passe long et activation de SSH
 explanation: |
   La combinaison d’un mot de passe fort et du 2FA protège efficacement l’accès à l’interface Umbrel.
-reviewed: false
+reviewed: true 

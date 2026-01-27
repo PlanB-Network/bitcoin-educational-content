@@ -1,0 +1,9 @@
+question: 在 Segwit 升級過程中，Shaolinfry 提出使用者啟動 Soft Fork (UASF) 機制的主要原因是什麼？
+answer: 儘管使用者大力支持 Segwit，但礦工並沒有發出支持 Segwit 的訊號，造成僵局
+wrong_answers:
+  - 現有的軟性 fork 機制速度太慢，需要更快的啟動時間線
+  - Hard 叉被認為風險太大，為了安全起見，需要一種新的軟性 fork 方法
+  - Bitcoin Core 開發人員要求提供替代方案，以減少他們在升級中的責任
+explanation: |
+  根據章節，當 Segwit 啟動碼在 2016 年 10 月發佈時，Bitcoin 使用者之間有壓倒性的支持，但礦工沒有發出支持升級的訊號，這使得啟動停滯不前，看不到解決方案。這就需要一個不依賴礦工發訊號的替代機制，讓 Shaolinfry 提出 UASF 作為解決方案，利用經濟大多數執行來取代哈希權數啟動。
+reviewed: false

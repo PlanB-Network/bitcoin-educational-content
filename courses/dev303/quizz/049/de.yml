@@ -1,0 +1,8 @@
+question: Welches grundsätzliche Problem löst RC, das Box im Besitzsystem von Rust nicht lösen kann?
+answer: RC ermöglicht Mehrfachbesitz derselben Daten durch Referenzzählung
+wrong_answers:
+  - RC bietet eine schnellere Speicherzuweisung und -freigabe als Box
+  - RC ermöglicht automatische Speicherverwaltung ohne Laufzeit-Overhead
+  - RC ermöglicht Kompilierbarkeitsprüfungen, die Box nicht durchführen kann
+explanation: |
+  RC (Reference Counter) geht speziell auf die Beschränkung des Single-Ownership-Modells von Box ein, indem es mehreren Teilen des Codes erlaubt, gleichzeitig dieselben Daten zu besitzen. Box folgt den traditionellen Eigentumsregeln, wonach nur eine Entität gleichzeitig Eigentümer von Daten sein kann, was es unmöglich macht, Szenarien wie gemeinsam genutzte Datenstrukturen zu erstellen, bei denen mehrere Listen auf denselben Teil des Schwanzes verweisen. RC unterhält einen internen Zähler, der Verweise verfolgt, der sich erhöht, wenn er geklont wird, und sich verringert, wenn er gelöscht wird, und der nur dann Speicher freigibt, wenn der Zähler Null erreicht. Dies ermöglicht flexible Muster der gemeinsamen Datennutzung bei gleichzeitiger Aufrechterhaltung der Speichersicherheit, was sich grundlegend vom Ansatz des exklusiven Eigentums von Box unterscheidet.

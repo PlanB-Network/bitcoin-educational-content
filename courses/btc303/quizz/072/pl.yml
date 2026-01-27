@@ -1,0 +1,9 @@
+question: Zgodnie z analizą Gregory'ego Maxwella, co tworzy podstawowy kompromis, który zmusza użytkowników do korzystania z zaufanych usług w dyskusjach na temat skalowania Bitcoin?
+answer: Zarówno nadmiernie wysokie zużycie zasobów, wyceniające walidatory, jak i zbyt kosztowny dostęp do przestrzeni blokowej w celu rozstrzygania sporów
+wrong_answers:
+  - Konflikt między zwiększeniem przepustowości transakcji a utrzymaniem odpowiedniej rentowności mining w pulach o różnej wielkości
+  - Napięcie między wdrażaniem oddzielnych aktualizacji świadków a zachowaniem wstecznej kompatybilności ze starszym oprogramowaniem wallet
+  - Rywalizacja między rozwiązaniami warstwy drugiej i skalowaniem on-chain o ograniczone zasoby rozwojowe i wsparcie społeczności
+explanation: |
+  Maxwell zidentyfikował dwustronny problem, w którym Bitcoin traci swoje zalety w obu kierunkach: jeśli wykorzystanie zasobów jest zbyt wysokie w stosunku do dostępnej technologii, walidacja staje się zbyt kosztowna i wycenia użytkowników, którzy następnie muszą polegać na zaufanych stronach trzecich zamiast na niezależnej walidacji. I odwrotnie, jeśli pojemność jest zbyt niska, a metody transakcji są nieefektywne, dostęp do blockchaina w celu rozstrzygania sporów staje się zbyt kosztowny, co ponownie popycha użytkowników w kierunku zaufanych usług. Tworzy to delikatną równowagę, w której muszą poruszać się rozwiązania skalujące.
+reviewed: false

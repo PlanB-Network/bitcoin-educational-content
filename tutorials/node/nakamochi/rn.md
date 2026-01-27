@@ -81,7 +81,7 @@ _Kugira ngo ubone umutekano wongereweko, shiraho kode ya PIN_
 ## Ivyerekeye Lightning Network
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network ihindura cane ibikorwa vya Bitcoin mu kubigira vyihuta, bihendutse kandi bikora neza. Ni vyiza ku gukoresha buri musi, bishoboza kwishura hafi y’aho nyene n’amahera make, vyiza ku bikorwa bitobito nk’ugugura ikawa canke gukorana n’ibintu bitobito bigurwa kenshi.
 

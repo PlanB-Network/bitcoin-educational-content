@@ -1,8 +1,0 @@
-question: Lightning Network의 주요 목적은 무엇인가요?
-answer: 소액 결제를 용이하게 합니다.
-wrong_answers:
-  - Bitcoin의 가치를 높이려면.
-  - Bitcoin 프로토콜을 대체하려면.
-  - 새 암호화폐를 만들려면
-explanation: >-
-reviewed: true

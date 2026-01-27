@@ -1,0 +1,8 @@
+question: Prema Hajekovoj teoriji disperzovanog znanja, zašto centralno planirane ekonomije ne uspevaju da efikasno raspodele resurse u poređenju sa sistemima slobodnog tržišta?
+answer: Centralni planeri ne mogu pristupiti fragmentiranim, lokalizovanim znanjima koja pojedinci poseduju o svojim specifičnim potrebama, preferencijama i okolnostima, što optimalnu alokaciju resursa čini nemogućom.
+wrong_answers:
+  - Centralni planeri nemaju dovoljno računske snage i naprednih algoritama za obradu svih ekonomskih podataka potrebnih za optimalne odluke o raspodeli resursa.
+  - Centralni planeri su inherentno korumpirani i sebični, stavljajući sopstvenu dobrobit ispred potreba društva prilikom donošenja ekonomskih odluka.
+  - Centralni planeri se previše fokusiraju na dugoročne strateške ciljeve, dok zanemaruju trenutne potrebe za potrošnjom i preferencije pojedinačnih građana.
+explanation: |
+  Ključni uvid Hayeka je da znanje postoji samo kao 'fragmenti raspršenog, nepotpunog i često kontradiktornog znanja koje poseduju svi različiti pojedinci.' Tržišni cenovni sistem služi kao mehanizam otkrivanja koji mobilizuje ovo raspršeno znanje kroz dobrovoljne razmene. Centralni planeri, bez obzira na njihove namere ili sposobnosti, ne mogu pristupiti subjektivnim, lokalizovanim informacijama koje pojedinci imaju o troškovima, koristima i preferencijama. Ovo stvara fundamentalni 'problem znanja' koji čini centralno planiranje inherentno neefikasnim u poređenju sa spontanim tržišnim koordinacijama.

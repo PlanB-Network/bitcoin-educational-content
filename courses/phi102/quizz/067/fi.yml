@@ -1,0 +1,8 @@
+question: Mikä on tekstin mukaan turvallisuuden ja taloudellisen edistyksen välinen paradoksi?
+answer: Turvallisuus on sekä kehityksen edellytys että sen seuraus
+wrong_answers:
+  - Turvallisuus tulee aina taloudellisen kehityksen jälkeen
+  - Taloudellinen kehitys poistaa luonnollisesti turvatoimien tarpeen
+  - Turvallisuus ja taloudellinen kehitys ovat täysin riippumattomia toisistaan
+explanation: |
+  Luvussa selitetään, että turvallisuus ja taloudellinen edistys muodostavat paradoksaalisen suhteen: turvallisuutta tarvitaan, ennen kuin kehitystä voi tapahtua (ilman sitä ei voi innovoida tai investoida pitkällä aikavälillä), mutta tarvitaan myös tuotannosta saatavaa taloudellista ylijäämää, jotta voidaan rahoittaa turvallisuutta tarjoavia instituutioita. Tämä luo vaikeasti käynnistettävän kierteen, mutta kun se on kerran alkanut, se vahvistuu itsestään. Muut vastaukset ovat vääriä, koska ne viittaavat yksinkertaiseen yksisuuntaiseen suhteeseen tai itsenäisyyteen eivätkä tähän monimutkaiseen keskinäisriippuvuuteen.

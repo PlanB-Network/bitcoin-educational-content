@@ -11,7 +11,7 @@ Elementary OS ist ein auf Ubuntu basierendes Betriebssystem, das für viele allt
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Warum Elementary OS wählen?
 
@@ -70,7 +70,7 @@ Bevor Sie mit der Installation beginnen, vergewissern Sie sich bitte, dass Sie �
 
 
 
-Besuchen Sie die offizielle Website des Betriebssystems [elementar] (https://elementary.io/) und wählen Sie einen Betrag zur Unterstützung des Projekts. Dieser Schritt ist freiwillig.
+Besuchen Sie die offizielle Website des Betriebssystems [elementar](https://elementary.io/) und wählen Sie einen Betrag zur Unterstützung des Projekts. Dieser Schritt ist freiwillig.
 
 
 Wenn Sie das ISO-Abbild kostenlos herunterladen möchten, geben Sie in das Feld **"Andere "** eine 0 ein und beginnen Sie mit dem Herunterladen des ISO-Abbilds des Systems.
@@ -89,7 +89,7 @@ Sobald Sie das ISO-Image heruntergeladen haben, müssen Sie es auf einem USB-Sti
 
 
 
-Laden Sie eine Software wie [Balena Etcher] (https://etcher.balena.io/) oder ein ähnliches Programm herunter und starten Sie die Software.
+Laden Sie eine Software wie [Balena Etcher](https://etcher.balena.io/) oder ein ähnliches Programm herunter und starten Sie die Software.
 
 
 Wählen Sie das zuvor heruntergeladene **Elementary OS** ISO-Image aus und legen Sie Ihren USB-Stick als Ziel fest.
@@ -380,4 +380,4 @@ Elementary OS ist jetzt auf Ihrem Computer installiert und läuft. Seine Philoso
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

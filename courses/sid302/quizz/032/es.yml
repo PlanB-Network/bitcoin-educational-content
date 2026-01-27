@@ -1,0 +1,8 @@
+question: ¿Qué ocurre cuando falla o se agota el tiempo de espera de un intercambio submarino inverso en la arquitectura del SDK de Breez?
+answer: El SDK crea y emite automáticamente una transacción de reembolso para devolver fondos a la wallet del usuario
+wrong_answers:
+  - El proveedor del swap inicia manualmente un proceso de recuperación que requiere la intervención del usuario en un plazo de 24 horas
+  - Los fondos permanecen bloqueados permanentemente hasta que se restablece la conexión Lightning Network
+  - El usuario debe ponerse en contacto con el servicio de asistencia de Boltz para activar manualmente una transacción de salida de federated peg
+explanation: |
+  El SDK de Breez implementa la gestión automática de devoluciones como mecanismo de seguridad crítico. Cuando los swaps fallan o expiran, el SDK supervisa todos los estados del swap y gestiona automáticamente el proceso de recuperación sin intervención del usuario. Esto elimina la complejidad de los contratos con límite de tiempo y garantiza que los fondos nunca se pierdan de forma permanente. Las otras opciones son incorrectas porque requieren intervención manual, suponen la pérdida permanente de fondos o implican procesos que no existen en el sistema automatizado.

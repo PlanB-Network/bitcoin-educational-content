@@ -14,7 +14,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá Aurora Store, một giải 
 
 
 
-# Bắt đầu với Aurora Store
+## Bắt đầu với Aurora Store
 
 
 
@@ -44,13 +44,13 @@ Bạn cũng có thể tải xuống Aurora Store từ các cửa hàng ứng d�
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Tuy nhiên, chúng tôi khuyên bạn nên tải tệp APK trực tiếp từ trang web chính thức để đảm bảo tính xác thực và toàn vẹn của Aurora Store.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Tệp APK (Android Package Kit) là định dạng gói được hệ điều hành Android sử dụng để phân phối và cài đặt ứng dụng. Tệp này tương đương với tệp **.exe** trên Windows hoặc tệp **.dmg** trên macOS.
 
@@ -88,7 +88,7 @@ Từ Aurora Store, bạn có thể truy cập danh mục ứng dụng có sẵn 
 
 
 
-## Đặc trưng
+### Đặc trưng
 
 
 
@@ -155,4 +155,4 @@ Không chỉ là một kho ứng dụng, Aurora Store còn là một giải phá
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

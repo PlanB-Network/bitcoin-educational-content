@@ -11,7 +11,7 @@ Lightning Network je Layer protokolu Bitcoin, který byl primárně vyvinut na p
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Stejně jako v hlavním řetězci je i zde nezbytné umožnit uživatelům znát informace a stav sítě, aby se usnadnilo propojení mezi uzly a minimalizoval problém s likviditou, který v síti obecně vzniká. Na Lightning Network skutečně doporučujeme mikroplatby v relativně menších částkách než u transakcí na hlavním řetězci Bitcoin.
 
@@ -34,7 +34,7 @@ Stejně jako [Mempool Space](https://Mempool.space), který poskytuje užitečn�
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 V tomto návodu vás provedeme touto platformou, která je základním zdrojem informací pro uživatele Lightning Network, pro ty, kteří chtějí připojit svůj uzel a rozšířit tak síť atd.
 
@@ -57,7 +57,7 @@ Jedním z cílů platformy Amboss je umožnit různým uzlům v síti propojit s
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Na domovské stránce najdete také uzly rozdělené podle :
 
@@ -147,7 +147,7 @@ V části **Kanály** se zobrazí seznam otevřených kanálů a připojení uzl
 
 - Příchozí poměr**: V závislosti na zvoleném kanálu vám uzel naúčtuje poplatek za každý milion přijatých Satoshi.
 - Poměr (parts per million)** : který představuje počet Satoshi na milion jednotek, které vám uzel naúčtuje, když se rozhodnete provést platbu prostřednictvím některého z jeho kanálů. Řekněme, že se rozhodnete provést platbu ve výši `10_000 Sats` prostřednictvím kanálu, jehož poměr ppm je `500 Sats`, budete muset uzlu zaplatit `10_000 * 500 / 1_000_000` satošů, což odpovídá `5 Sats`.
-- Maximální hodnota [HTLC](https://planb.network/resources/glossary/HTLC)** : Maximální částka, kterou tento uzel umožňuje tranzit jedním z těchto kanálů.
+- Maximální hodnota [HTLC](https://planb.academy/resources/glossary/htlc)** : Maximální částka, kterou tento uzel umožňuje tranzit jedním z těchto kanálů.
 
 
 
@@ -304,4 +304,4 @@ Nyní jste se seznámili s kompletními funkcemi a analytickými nástroji platf
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

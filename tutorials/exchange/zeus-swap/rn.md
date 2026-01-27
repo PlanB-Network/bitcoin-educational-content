@@ -1,5 +1,5 @@
 ---
-name: Zewu yahinduye
+name: Zeus Swap
 description: Ibikorwa bitagira ububiko bwa Exchange hagati ya On-Chain na Lightning Network bitcoins
 ---
 
@@ -51,7 +51,7 @@ Kugira ngo umenye vyinshi ku buryo Lightning Network ikora, raba inyigisho yacu 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Ubuhinga bwo gukora ubucuruzi
 
@@ -149,7 +149,7 @@ Raba inyigisho yacu ya Zeus kugira ngo umenye vyinshi ku bijanye n'iyi Wallet yu
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Imiterere y'urubuga
 
@@ -390,12 +390,13 @@ Ubu buryo bworoshe cane burabereye cane abatangura, ariko buragabanya ugutahura 
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| Serivisi | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Amafaranga make | 
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + amahera y'ugucukura | 0.5% + amahera y'ugucukura | 25 000 sats |
+| **Boltz** | 0.2% + amahera y'ugucukura | 0.5% + amahera y'ugucukura | 50 000 sats |
+| **Phoenix** | Amahera y'ugucukura gusa | 0.4% ntizihinduka | 10 000 sats |
+| **Breez** | 0.25% + amahera y'umuhora | 0.5% + amahera y'ugucukura | 50 000 sats |
 
 Zeus Swap itanga uburinganire hagati y’ukworohereza gukoresha n’ugucungera mu buryo bw’ubuhinga: irashikira kurusha Boltz, irahinduka kurusha Phoenix/Breez, n’uburyo bukomeye bwo kudacungera.
 
@@ -443,5 +444,5 @@ Iterambere ry’imbere rya Zeus Swap, rishigikiwe n’umugwi wa Zeus LSP ufise u
 
 
 - [Zewu yo kuri Twitter (@zeusln)]
-- [Itelegaramu ya Zewu] (ZewuLN)
+- [Itelegaramu ya Zewu](ZewuLN)
 - [GitHub Zewu]

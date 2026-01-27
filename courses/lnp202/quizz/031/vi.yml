@@ -1,0 +1,9 @@
+question: Mã định danh nút (Node ID) của một nút Lightning thể hiện điều gì?
+answer: khóa công khai và địa chỉ của nút
+wrong_answers:
+  - Nút seed và địa chỉ
+  - Bí danh nút và khóa công khai
+  - Tên bí danh nút Hash và seed
+explanation: |
+  Mã định danh nút (Node ID) kết hợp khóa công khai của nút với địa chỉ mạng và cổng của nó.
+reviewed: false

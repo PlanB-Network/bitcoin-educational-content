@@ -1,0 +1,8 @@
+question: Jaký je hlavní přínos funkcí funkčního programování Rust, které zachovávají nulové náklady na abstrakce?
+answer: Vytvářejí efektivní strojový kód srovnatelný s tradičními přístupy založenými na smyčkách bez ztráty výkonu
+wrong_answers:
+  - Automaticky zpracovávají alokaci a dealokalizaci paměti, aby se zcela zabránilo režii běhu
+  - Eliminují potřebu kontroly typu při kompilaci a zároveň zachovávají bezpečnostní záruky
+  - Poskytují funkci sběru odpadu, která probíhá bez dopadu na rychlost provádění programu
+explanation: |
+  Nulové náklady na abstrakce ve funkcích funkcionálního programování v Rust znamenají, že používání uzávěrů a iterátorů neobětuje výkonnost na úkor expresivity. Překladač Rust optimalizuje tyto vysokoúrovňové konstrukce tak, aby vytvářely strojový kód, který je stejně výkonný jako ručně psané tradiční smyčky. To umožňuje vývojářům psát výraznější a čitelnější kód, aniž by museli platit daň za výkonnost za běhu, což je hlavní princip filozofie návrhu Rust.

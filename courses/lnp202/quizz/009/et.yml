@@ -1,0 +1,9 @@
+question: Millised on hoiuteenuse osutaja volitused kasutajate maksete üle?
+answer: Tsensuuri võim
+wrong_answers:
+  - Mining võimsus
+  - Konsensuse jõud
+  - Halving võimsus
+explanation: |
+  Operaator, kes kontrollib rahalisi vahendeid ja kanaleid, saab makseid blokeerida, edasi lükata või filtreerida.
+reviewed: false

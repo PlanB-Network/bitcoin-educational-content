@@ -87,7 +87,7 @@ Phoenix 作為真正的 Lightning 節點嵌入您的手機，自動與 ACINQ 的
 如需更多關於儲存和管理 Mnemonic 詞組的正確方法的資訊，我強烈建議您參考這篇教學，尤其是對於初學者而言：
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 按一下 Interface 頂端顯示的訊息「*儲存您的 Wallet...*」。
 
@@ -260,9 +260,9 @@ Phoenix 會產生一個 Lightning Invoice。您可以掃描它，或是將它寄
 若要更進一步，請參考 Alby Hub 的教學，這是另一個創新且易於使用的解決方案，可讓您啟動自己的 Lightning 節點：
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-若要瞭解更多關於 Lightning Network 的技術操作，您可以在 Plan ₿ Network 上找到 Fanis Michalakis 優秀的免費訓練：
+若要瞭解更多關於 Lightning Network 的技術操作，您可以在 Plan ₿ Academy 上找到 Fanis Michalakis 優秀的免費訓練：
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

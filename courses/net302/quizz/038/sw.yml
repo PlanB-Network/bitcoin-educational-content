@@ -6,4 +6,4 @@ wrong_answers:
   - /24
 explanation: |
   IANA inagawanya nafasi ya IPv4 katika vizuizi vya ukubwa /8, kila moja ikiwa na anwani 2^24.
-reviewed: false
+reviewed: true

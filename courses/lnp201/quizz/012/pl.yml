@@ -6,4 +6,4 @@ wrong_answers:
   - Po utworzeniu adresu wielopodpisowego 2/2
 explanation: |
   Kanał uznaje się za otwarty, gdy transakcja depozytu zostanie uwzględniona w bloku Bitcoina i osiągnie określoną liczbę potwierdzeń.
-reviewed: false
+reviewed: true

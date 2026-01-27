@@ -38,6 +38,8 @@ Tento kurz je navržen tak, abyste měli plnou kontrolu nad způsobem učení a 
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 Vítejte v BTC102! Pokud jste již absolvovali BTC101, prozkoumali jste klíčové teoretické koncepty, které stojí za tím, proč je Bitcoin tak revoluční technologií. Nyní je čas, abyste tyto znalosti využili v praxi. Tento kurz je navržen tak, aby vám pomohl krok za krokem sestavit váš osobní plán Bitcoin.
 
@@ -45,7 +47,7 @@ Vítejte v BTC102! Pokud jste již absolvovali BTC101, prozkoumali jste klíčov
 V následujících kapitolách vás provedeme praktickými kroky, jak **získat své první bitcoiny**, **správně je zabezpečit** a s jistotou učinit první kroky v tomto rychle rostoucím ekosystému.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Přestože společnost Bitcoin existuje již více než 16 let, je toto odvětví stále mladé, dynamické a hluboce zakořeněné ve svobodě. Jeho základní protokol je plně decentralizovaný a odolný vůči kontrole jakoukoli centrální autoritou, což umožňuje přirozený a organický růst ekosystému.
 
@@ -99,7 +101,7 @@ Na konci tohoto kurzu získáte všechny praktické nástroje, které potřebuje
 Jste připraveni vydat se na cestu do světa Bitcoin? Jdeme na to!
 
 
-**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.network/resources/glossary) pro definice.
+**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.academy/resources/glossary) pro definice.
 
 # Předpoklady pro pochopení Bitcoin
 
@@ -111,6 +113,8 @@ Jste připraveni vydat se na cestu do světa Bitcoin? Jdeme na to!
 
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
+
+:::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
 
 Ekosystém Bitcoin a jeho okolní prostředí jsou stále relativně mladé a v závislosti na zemi volně regulované. Tato volnost sice otevírá obrovské možnosti, ale zároveň vytváří živnou půdu pro finanční podvody, šmejdy a různé formy manipulace. Proto je první kapitola tak zásadní: pochopení běžných nástrah vám pomůže se jim vyhnout. Vaše finanční bezpečnost je prioritou, protože špatná zkušenost nemá dopad jen na vás, ale na celou komunitu Bitcoin.
@@ -137,9 +141,9 @@ Než budeme pokračovat, je důležité jasně rozlišit dva zásadně odlišné
 Pokud chcete lépe pochopit, odkud Bitcoin pochází a čím se skutečně liší od ostatních projektů, doporučuji podívat se na tento bezplatný navazující kurz o historii Bitcoin:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Jak víte, platforma Plan ₿ Network je určena výhradně pro Bitcoin. Pochopení rozdílu s ostatními kryptoměnami vám však pomůže vyhnout se nástrahám spojeným se zbytečnými a někdy i podvodnými projekty.
+Jak víte, platforma Plan ₿ Academy je určena výhradně pro Bitcoin. Pochopení rozdílu s ostatními kryptoměnami vám však pomůže vyhnout se nástrahám spojeným se zbytečnými a někdy i podvodnými projekty.
 
 
 ![image](assets/cs/006.webp)
@@ -350,6 +354,8 @@ Ochrana před podvodníky je prvním důležitým krokem k ochraně vašeho maje
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
+:::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
+
 
 
 Jakmile se začnete zabývat Bitcoin, rychle si uvědomíte, že základní kybernetická bezpečnost není volitelná - je nezbytná. Podvody a podvody jsou jen špičkou ledovce. Náhodná ztráta dat, malware a kompromitovaná hesla mohou být stejně ničivé, zejména pokud spravujete vlastní klíče.
@@ -358,10 +364,10 @@ Jakmile se začnete zabývat Bitcoin, rychle si uvědomíte, že základní kybe
 Tato kapitola vás seznámí s několika jednoduchými praktickými kroky, jak zvýšit svou digitální hygienu a chránit se v tomto prostoru.
 
 
-Pokud chcete jít hlouběji, kurz SEC101 společnosti Plan ₿ Network nabízí komplexní rozbor strategií kybernetické bezpečnosti speciálně navržený pro uživatele Bitcoin.
+Pokud chcete jít hlouběji, kurz SEC101 společnosti Plan ₿ Academy nabízí komplexní rozbor strategií kybernetické bezpečnosti speciálně navržený pro uživatele Bitcoin.
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Proč je kybernetická bezpečnost důležitá
 
@@ -389,7 +395,7 @@ Kromě aktualizací systému a antivirové ochrany si dávejte velký pozor na s
 Dalším chytrým zvykem je ověřit pravost a integritu jakéhokoli softwaru před jeho instalací do počítače. Pokud si nejste jisti, jak to udělat, nebojte se, máme pro vás speciální návod, který vás tímto procesem provede:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Nakonec pravidelně zálohujte důležitá data. Externí disk Hard nebo SSD je spolehlivou volbou pro uchovávání duplikátů vašich souborů pro případ náhlého selhání, hacknutí nebo náhodného smazání. Později si poděkujete.
 
@@ -397,7 +403,7 @@ Nakonec pravidelně zálohujte důležitá data. Externí disk Hard nebo SSD je 
 Pokud dáváte přednost cloudovým řešením, zvažte použití zabezpečené služby, jako je Proton Drive. Jen se ujistěte, že jakákoli zvolená možnost respektuje vaše soukromí a nabízí silné šifrování.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Obecně doporučovanou strategií zálohování je pravidlo 3-2-1. Jeho cílem je chránit data před náhodnou ztrátou, kybernetickými útoky nebo dokonce přírodními katastrofami.
 
@@ -438,12 +444,12 @@ Díky správci hesel už nikdy nebudete muset klikat na "Zapomenuté heslo" nebo
 Existuje mnoho správců hesel, ale v závislosti na vašich potřebách vám mohu doporučit dvě solidní možnosti. Pokud hledáte něco snadno použitelného, co se bez problémů synchronizuje s více zařízeními, je vynikající volbou Bitwarden:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Pokud chcete mít vše raději lokálně ve svém zařízení, KeePass je skvělá volba:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ### 2FA: dvojitá ochrana
 
@@ -457,7 +463,7 @@ V Bitcoin jste svou vlastní bankou. To znamená, že jste také svým vlastním
 2FA přidává druhý stupeň ochrany Layer tím, že vyžaduje časově omezený jednorázový kód (obvykle 6 číslic) vygenerovaný aplikací, jako je Google Authenticator nebo Authy. Takže i když se někomu podaří získat vaše heslo, bez fyzického přístupu k telefonu se k vašemu účtu nedostane.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ![image](assets/cs/017.webp)
 
@@ -471,7 +477,7 @@ Když povolíte 2FA, nezapomeňte uložit klíč pro obnovení aplikace na bezpe
 Pro ty, kteří chtějí zabezpečení posunout ještě o krok dál, poskytují fyzické klíče, jako je YubiKey, ještě vyšší úroveň ochrany.
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Ochrana vašeho soukromí
 
@@ -492,12 +498,12 @@ Klíčem k úspěchu je výběr důvěryhodného poskytovatele VPN, který:
 ![image](assets/cs/019.webp)
 
 
-Na webu Plan ₿ Network máme k dispozici několik návodů, které vás snadno provedou nastavením sítě VPN. Doporučuji zejména IVPN nebo Mullvad:
+Na webu Plan ₿ Academy máme k dispozici několik návodů, které vás snadno provedou nastavením sítě VPN. Doporučuji zejména IVPN nebo Mullvad:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 K základním krokům na ochranu soukromí na internetu patří také:
 
@@ -506,21 +512,21 @@ K základním krokům na ochranu soukromí na internetu patří také:
 - Používání prohlížečů zaměřených na ochranu soukromí, jako je Firefox, Brave nebo Tor (pro zvýšení anonymity);
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
 - Použití **zabezpečené poštovní schránky**, jako je například ProtonMail;
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 
 
 - **Šifrování** souborů pomocí nástrojů, jako je Bitlocker (pro Windows) nebo VeraCrypt (dostupný pro více platforem).
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Postupný vývoj
 
@@ -537,7 +543,7 @@ Když se ponoříte hlouběji do světa Bitcoin, zjistíte, že s rostoucí hodn
 Stručně řečeno: nepodceňujte kybernetickou bezpečnost, věnujte čas nastavení základů a nezapomeňte, že klíčová je důslednost. Bez dobré digitální hygieny vám ani ty nejlepší nástroje příliš nepomohou.
 
 
-Nezapomeňte se také podívat na [naše výukové programy o počítačové bezpečnosti](https://planb.network/tutorials/computer-security) na Plan ₿ Network.
+Nezapomeňte se také podívat na [naše výukové programy o počítačové bezpečnosti](https://planb.academy/tutorials/computer-security) na Plan ₿ Academy.
 
 
 ![image](assets/cs/020.webp)
@@ -550,6 +556,8 @@ V příští kapitole se s vámi podělím o několik dalších tipů, které v�
 
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
+
+:::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
 
 
@@ -640,7 +648,7 @@ Nejdůležitější je nedělat investiční rozhodnutí na základě emocí neb
 
 Pokud si stále nejste jisti, **začněte s učením.**
 
-Strávit pár hodin zkoumáním Bitcoin, podívat se na bezplatné zdroje na Plan ₿ Network, přečíst si pár knih, přihodit pět eur, jen abyste si to vyzkoušeli, a podívat se na kvalitní obsah online. Zůstaňte zvědaví. Čím pohodlněji se do toho dostanete, tím snazší bude přehodnotit vaši strategii, upravit přístup a s jistotou se posunout vpřed.
+Strávit pár hodin zkoumáním Bitcoin, podívat se na bezplatné zdroje na Plan ₿ Academy, přečíst si pár knih, přihodit pět eur, jen abyste si to vyzkoušeli, a podívat se na kvalitní obsah online. Zůstaňte zvědaví. Čím pohodlněji se do toho dostanete, tím snazší bude přehodnotit vaši strategii, upravit přístup a s jistotou se posunout vpřed.
 
 
 ### Porozumění volatilitě BTC
@@ -686,7 +694,7 @@ Abyste se tomuto riziku vyhnuli, důrazně doporučujeme nastavit si **vlastní 
 Pokud jste připraveni převzít Ownership svého Bitcoin a chcete se hlouběji ponořit do osvědčených postupů pro zabezpečení fáze obnovení, vřele doporučuji přečíst si tento článek:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Důvěrnost a diskrétnost
 
@@ -710,7 +718,7 @@ Je také rozumné **rozdělit své online aktivity**. Například:
 Pokud jste připraveni proniknout hlouběji do tématu ochrany osobních údajů Bitcoin, doporučujeme pokračovat v našem kurzu ochrany osobních údajů pro 2. ročník, kde se naučíte pokročilejší techniky pro zabezpečení své identity a aktivit:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Daňové dopady
 
@@ -820,6 +828,8 @@ Budete-li se řídit těmito zásadami, budete moci přistupovat k investování
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
+:::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
+
 
 Hlavním cílem tohoto kurzu je provést vás získáním a zajištěním vašich prvních bitcoinů. Než se však ponoříte do praktických kroků(jak nakupovat BTC, které peněženky používat a tak dále), je důležité udělat krok zpět a pochopit, co Bitcoin vlastně je. Pochopení hlubší podstaty Bitcoin vám pomůže pochopit, proč se k této technologii obracejí miliony lidí a proč je zásadní pochopit základy, než vložíte své úspory do tak nového a volatilního aktiva.
 
@@ -885,7 +895,7 @@ Mnozí si to vykládají jako cíl Bitcoin: nabídnout způsob, jak převádět 
 Abyste si prohloubili své znalosti o původu Bitcoin, nabízíme vám bezplatný, komplexní a dobře zdokumentovaný školicí kurz na toto téma:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 ### Decentralizovaná síť pro přenos hodnoty
 
@@ -997,7 +1007,7 @@ Ačkoli je tento přístup technicky náročnější, nabízí nejnáročnějš�
 #### Odolný způsob přeshraniční platby
 
 
-Díky své decentralizované povaze funguje Bitcoin nepřetržitě, bez ohledu na hranice nebo časová pásma. V regionech, kde chybí tradiční bankovní infrastruktura, se Bitcoin často používá jako rychlé a levné řešení pro zasílání nebo přijímání finančních prostředků bez závislosti na drahých zprostředkovatelích. Poplatky za transakce se sice mohou lišit v závislosti na přetížení sítě, ale obecně jsou mnohem nižší než poplatky účtované bankami za mezinárodní převody. Řešení Layer-2, jako je Lightning Network, navíc umožňují ještě rychlejší a levnější transakce Bitcoin.
+Díky své decentralizované povaze funguje Bitcoin nepřetržitě, bez ohledu na hranice nebo časová pásma. V regionech, kde chybí tradiční bankovní infrastruktura, se Bitcoin často používá jako rychlé a levné řešení pro zasílání nebo přijímání finančních prostředků bez závislosti na drahých zprostředkovatelích. Poplatky za transakce se sice mohou lišit v závislosti na přetížení sítě, ale obecně jsou mnohem nižší než poplatky účtované bankami za mezinárodní převody. Řešení Layer-2, jako je [Lightning Network](https://planb.academy/resources/glossary/lightning-network), navíc umožňují ještě rychlejší a levnější transakce Bitcoin.
 
 
 #### Úložiště hodnoty
@@ -1027,10 +1037,10 @@ Nicméně i po více než deseti letech existence Bitcoin stále vyvolává deba
 ![image](assets/cs/040.webp)
 
 
-Pokud si chcete rozšířit své znalosti, můžete se zúčastnit kurzu BTC101 o Plan ₿ Network, který nabízí podrobnější seznámení s technickými a ekonomickými základy Bitcoin.
+Pokud si chcete rozšířit své znalosti, můžete se zúčastnit kurzu BTC101 o Plan ₿ Academy, který nabízí podrobnější seznámení s technickými a ekonomickými základy Bitcoin.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Po tomto úvodu do Bitcoin (který možná trval o něco déle než 5 minut!) jste nyní lépe připraveni uvažovat o nákupu a zabezpečení bitcoinů. V následujících kapitolách kurzu se ponoříme hlouběji do významu Bitcoin, fungování jeho odvětví a vývoje jeho jednotlivých vrstev. Dále v nadcházející části probereme, jak si nastavit svůj vlastní osobní plán.
 
@@ -1038,6 +1048,8 @@ Po tomto úvodu do Bitcoin (který možná trval o něco déle než 5 minut!) js
 
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
+
+:::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
 
 
 
@@ -1255,6 +1267,8 @@ Nyní, když jsme prozkoumali hluboký význam vynálezu Satoshi Nakamoto, nás 
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
+:::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
+
 
 
 Od svého uvedení na trh v roce 2009 pseudonymním tvůrcem Satoshi Nakamoto podnítil Bitcoin vznik zcela nového odvětví, jehož hodnota se nyní pohybuje v řádu stovek miliard dolarů. Navzdory své relativně krátké historii zaznamenal tento ekosystém explozivní růst a v posledním desetiletí se vyvíjel exponenciálním tempem. Každý den se v tomto rychle se rozvíjejícím odvětví objevují noví hráči (od institucionálních investorů přes agilní startupy až po technologické giganty), kteří do něj vkládají značný kapitál a prostředky.
@@ -1450,15 +1464,15 @@ Tyto platformy umožňují uživatelům nakupovat a prodávat bitcoiny přímo m
 **Upozornění:** Pro každou fyzickou transakci si vyberte veřejné a bezpečné místo, abyste se vyhnuli případným podvodům.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - Pouze platformy **Bitcoin Exchange**
@@ -1467,13 +1481,13 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 Tyto platformy jsou uživatelsky přívětivé a nabízejí jednoduché a transparentní služby. Jsou určeny pouze pro Bitcoin. Často zavádějí řešení pro nákup bitcoinů prostřednictvím průměrování dolarových nákladů (DCA) a nabízejí automatické výběry na osobní Wallet. Jsou vhodné zejména pro začátečníky, kteří chtějí hromadit bitcoiny progresivním a bezpečným způsobem. Příklady: Bitcoiny, které se nacházejí na území České republiky, jsou v současnosti nejrozšířenější na světě: Relai, Bull Bitcoin, StackinSat, Bitstack...
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - **Platformy Exchange pro všeobecné použití nebo pro obchodování**
@@ -1482,13 +1496,13 @@ https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-42
 Tyto platformy nabízejí pokročilé funkce nad rámec pouhého nákupu Bitcoin, včetně pákového efektu a derivátů. Důrazně však nedoporučujeme obchodovat. Místo toho doporučujeme zakoupit Bitcoin a přesunout jej na vlastní Wallet. Obchodování je vysoce riziková činnost a obecně není vhodná pro ty, kteří se zaměřují na dlouhodobou akumulaci. Zůstat mimo hru obchodování je často rozumnější cesta.
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 **Platformy Exchange nejsou bezpečné peněženky**. Ponecháním bitcoinů na Exchange se vystavujete značnému riziku. Ke ztrátě vašich prostředků může vést několik scénářů:
 
@@ -1524,7 +1538,7 @@ Odvětví Bitcoin Wallet je rozděleno do několika kategorií, z nichž každá
 
 
 
-- **Hardware Wallet Výrobci**: Tyto společnosti vyvíjejí fyzická zařízení určená pro bezpečné ukládání klíčů. Některé jsou open-source, jiné nabízejí proprietární řešení s různými funkcemi a úrovní zabezpečení. Mezi nejvýznamnější jména patří Ledger, Trezor, Coinkite, Foundation a Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Výrobci**: Tyto společnosti vyvíjejí fyzická zařízení určená pro bezpečné ukládání klíčů. Některé jsou open-source, jiné nabízejí proprietární řešení s různými funkcemi a úrovní zabezpečení. Mezi nejvýznamnější jména patří Ledger, Trezor, Coinkite, Foundation a Shiftcrypto.
 - **Software Wallet Vývojáři**: Jedná se o různé společnosti i nezávislé vývojáře, kteří vytvářejí mobilní a desktopové aplikace. Jejich nabídky se liší v uživatelském prostředí, zabezpečení a funkcích. Mezi příklady patří Sparrow, Wizard Sardine, Galoy, Synonym a Blockstream.
 - Peněženky DIY (*Do It Yourself*): Tato řešení s otevřeným zdrojovým kódem jsou určena pro pokročilé uživatele, kteří chtějí mít plnou kontrolu a minimálně se spoléhat na třetí strany. Sestavení vlastní peněženky Wallet snižuje závislost na důvěře a může zvýšit vaši bezpečnost. Mezi významné možnosti DIY patří Seedsigner a Specter DIY.
 
@@ -1553,7 +1567,7 @@ Ekosystém Mining se skládá z několika hlavních hráčů:
 Mining je svět sám o sobě, který má mnoho vrstev, jež je třeba prozkoumat; do hry vstupují technické problémy, ekonomické pobídky a energetické aspekty. Zájemci, kteří chtějí tuto oblast prozkoumat hlouběji a skutečně pochopit, jak funguje, se v našem kurzu MIN201 dozvědí vše, co potřebují.
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 #### Vývoj v ekosystému Bitcoin
 
@@ -1589,12 +1603,14 @@ I kdyby správce schválil kontroverzní změnu, neměla by vliv na síť, pokud
 Za zmínku také stojí, že **Bitcoin Core není jediným klientem**. Alternativy, jako je Bitcoin Knots, také implementují protokol Bitcoin, což uživatelům poskytuje větší výběr a posiluje decentralizaci systému:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 ## Vrstevnatá architektura Bitcoin
 
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
+
+:::video id=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
 
 
 Bitcoin je otevřený systém, který je od počátku navržen jako minimalistický, robustní a bezpečný. Aby bylo možné přidávat funkce, aniž by se měnily jeho základy, evoluce se zpravidla provádí přidáváním **protokolových vrstev** a doplňkových aplikací, které obohacují ekosystém, aniž by byla ohrožena decentralizace a odolnost hlavního systému. Tato flexibilita umožnila mnoha společnostem a nezávislým vývojářům vybudovat kolem Bitcoin infrastrukturu a přidávat inovace přizpůsobené různým případům použití.
@@ -1625,7 +1641,7 @@ Lightning Network, který v roce 2016 vytvořili Thaddeus Dryja a Joseph Poon, j
 Pokud máte zájem dozvědět se více o tom, jak Lightning funguje, nabízíme vynikající kurz pro druhý ročník, který se tomuto tématu věnuje:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 - **Vedlejší řetězce**:
@@ -1643,7 +1659,7 @@ Koncept sidechains představili v roce 2014 Adam Back, Matt Corallo, Luke Dashjr
 Pokud byste se chtěli tématu Liquid věnovat podrobněji, nabízíme pokročilý kurz pro třetí ročník:
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 - **RGB**:
@@ -1661,7 +1677,7 @@ Klíčovou vlastností RGB je ochrana proti Double-spending, které se dosahuje 
 Pro prohloubení vašich znalostí o RGB nabízíme školení pro čtvrtý ročník (upozorňujeme, že se jedná o vysoce odborný kurz):
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB je jen jedním z mnoha protokolů postavených na Bitcoin. Některé z nich jsou rozšířenější než jiné, ale stále vznikají nové. Společným znakem je myšlenka optimalizace každého protokolu Layer pro konkrétní úlohu při zachování integrity a neměnnosti základního protokolu Bitcoin.
 
@@ -1684,19 +1700,19 @@ V současné době je k dispozici spousta nástrojů pro obchodníky, kteří ch
 Pokud dáváte přednost řešení, které vám nevadí, a chcete přijímat fiat měnu přímo na svůj bankovní účet, služby custodialu, jako je OpenNode, nabízejí zjednodušené služby:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Pro obchodníky, kteří jsou technicky zdatnější a chtějí mít proces plně pod kontrolou, je BTCPay Server fantastickou open-source volbou. Hlavní nevýhodou je, že jeho nastavení a údržba vyžadují čas a určité technické znalosti:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Někde uprostřed mezi nimi najdete Swiss Bitcoin Pay, uživatelsky přívětivé a zároveň výkonné řešení, které je v dobré rovnováze mezi snadným používáním, funkčností a zabezpečením. Funguje dobře jak pro malé prodejce, tak pro větší podniky:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-Přijetí Bitcoin může podniku přinést několik praktických a finančních výhod. Stejně jako hotovost umožňuje Bitcoin přímé platby mezi zákazníkem a obchodníkem (není potřeba tradiční banka). Platby provedené prostřednictvím Lightning Network jsou okamžité a konečné, což snižuje riziko zpětných plateb. A pokud obchodníci drží vlastní Bitcoin (self-custody), získávají větší finanční autonomii.
+Přijetí Bitcoin může podniku přinést několik praktických a finančních výhod. Stejně jako hotovost umožňuje Bitcoin přímé platby mezi zákazníkem a obchodníkem (není potřeba tradiční banka). Platby provedené prostřednictvím Lightning Network jsou okamžité a konečné, což snižuje riziko zpětných plateb. A pokud obchodníci drží vlastní Bitcoin ([self-custody](https://planb.academy/resources/glossary/selfcustody)), získávají větší finanční autonomii.
 
 
 Může také pomoci snížit náklady, protože odpadají bankovní poplatky a potřeba tradičních platebních terminálů; často stačí chytrý telefon nebo notebook. I v případě zapojení zpracovatelů plateb jsou poplatky obvykle nižší než poplatky účtované bankami.
@@ -1714,7 +1730,7 @@ Přijetí Bitcoin může být navíc chytrým marketingovým tahem. Ukazuje, že
 Pokud chcete prozkoumat, jak lze systém Bitcoin integrovat do vašeho podnikání (ať už jako platební metodu, pokladní aktivum nebo obojí), nabízíme vám kurz pro začátečníky, který je tomu přizpůsoben:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Bitcoin se prosazuje jako médium Exchange a stále více se prosazuje v mnoha průmyslových odvětvích. Díky Lightning Network se platby zrychlily a zlevnily, což dále zvyšuje atraktivitu Bitcoin pro obchodníky.
 
@@ -1758,6 +1774,8 @@ Další část kurzu je praktická a pomůže vám definovat váš profil bitcoi
 
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
+
+:::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 
 Nyní, když jste se seznámili s teoretickými základy programu Bitcoin, je čas přejít k praktické stránce. Tato část vám pomůže pochopit, jak získat své první bitcoiny, jak je bezpečně uložit a jak přizpůsobit svůj přístup na základě vaší osobní situace. Cílem je pomoci vám určit, jaký typ uživatele jste, abyste mohli přijmout strategii, která odpovídá vašim potřebám a omezením.
@@ -2035,7 +2053,7 @@ Pokud se na vašem účtu Hot Wallet nahromadí příliš mnoho bitcoinů, můž
 Bezpečnost nakonec závisí především na tom, jak nástroje používáte. Nástroj Hardware Wallet vám nebude k ničemu, pokud ztratíte, odhalíte nebo kompromitujete frázi Mnemonic. Vaší nejlepší ochranou před ztrátou bitcoinů je opatrnost a disciplína. Pro více informací o této problematice vřele doporučuji přečíst si tento článek:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Metody akvizice a objemy transakcí
 
@@ -2094,7 +2112,7 @@ Nákup Bitcoin bez zveřejnění vaší identity je možností pro ty, kteří u
 - **Platformy P2P**: Platformy, jako jsou Bisq, RoboSats a Peach, umožňují výměnu mezi soukromými osobami bez nutnosti ověřování totožnosti a k zabezpečení transakcí používají systémy úschovy. Tyto platformy stále nesou riziko krádeže, pokud druhá strana nespolupracuje, ale riziko je minimalizováno službami úschovy.
 - **Bitcoin Bankomaty (ATM)**: Některé bankomaty (kiosky) umožňují nákup Bitcoin v hotovosti, avšak poplatky bývají vysoké a některé vyžadují ověření totožnosti při větších transakcích.
 - **Platformy Exchange bez KYC**: Některé platformy, zejména ve Švýcarsku, umožňují nákup malých množství Bitcoin bez nutnosti ověření totožnosti.
-- **Mining**: Jednotlivci mohou těžit Bitcoin. Starší nebo menší stroje jsou přístupné, což poskytuje netradiční způsob, jak získat Bitcoin bez KYC. Připojením k Mining pool můžete získávat pravidelné výplaty i se základním vybavením. Další informace najdete [v našich návodech k těžbě Mining](https://planb.network/tutorials/mining).
+- **Mining**: Jednotlivci mohou těžit Bitcoin. Starší nebo menší stroje jsou přístupné, což poskytuje netradiční způsob, jak získat Bitcoin bez KYC. Připojením k Mining pool můžete získávat pravidelné výplaty i se základním vybavením. Další informace najdete [v našich návodech k těžbě Mining](https://planb.academy/tutorials/mining).
 - **Platby / mzda v bitcoinech**: Pokud provozujete firmu, můžete jako platbu přijímat Bitcoin. Pokud jste zaměstnaní, můžete v závislosti na jurisdikci požádat o výplatu v Bitcoin. Tyto metody vám umožní získat Bitcoin bez nutnosti KYC.
 
 
@@ -2219,6 +2237,8 @@ V dalších kapitolách se budeme podrobně zabývat každým z těchto profilů
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
+:::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
+
 
 V komunitě Bitcoin označuje termín "hodler" někoho, kdo uplatňuje dlouhodobý investiční přístup. Toto slovo vzniklo před lety ze slavného překlepu "hold" na fóru Bitcoin Talk a od té doby se stalo symbolem Commitment: držet se svého Bitcoin bez ohledu na cokoli a nestresovat se krátkodobými výkyvy na trhu.
 
@@ -2258,22 +2278,22 @@ Nejdříve k zabezpečení. Hardware Wallet je nutností. Ukládá vaše soukrom
 Zde je několik návodů na peněženky, které jsou skvělé pro hodlery:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Po nastavení systému Wallet si nezapomeňte zálohovat 12- nebo 24slovnou frázi pro obnovení na trvanlivé fyzické médium. Chcete-li se dozvědět více o tom, jaké médium pro frázi zvolit, postupujte podle tohoto návodu:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Pro větší jistotu můžete přidat další vrstvy ochrany, jako jsou:
 
@@ -2281,13 +2301,13 @@ Pro větší jistotu můžete přidat další vrstvy ochrany, jako jsou:
 - Vícepodpisový model Wallet s časovým zámkem:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 
 - A BIP39 passphrase:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/cs/076.webp)
 
@@ -2301,13 +2321,13 @@ Hodlery nikdy nenechávají své mince na burzách. Platformy mohou být napaden
 Vzhledem k tomu, že investoři mají tendenci investovat větší částky, potřebují burzy se silnou likviditou. Zde je několik burz, které tomu odpovídají:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
 ![image](assets/cs/077.webp)
 
@@ -2352,7 +2372,7 @@ Několik osvědčených postupů:
 Chcete-li sledovat své majetky, aniž byste ohrozili své soukromé klíče, zvažte použití zařízení Watch-only wallet. Umožňuje sledovat zůstatky a transakce pouze pomocí vašich veřejných klíčů.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Hodlerova strategie je jednoduchá, ale účinná: koupit, zajistit a zapomenout. Skutečná výzva není technická, ale psychologická. Nejtěžší je odolat nutkání prodávat příliš brzy nebo panikařit při poklesu cen. Pokud však zůstanete disciplinovaní a budete myslet dlouhodobě, hodling se ukázal jako spolehlivý způsob, jak uchovat hodnotu a dlouhodobě budovat bohatství.
 
@@ -2388,6 +2408,8 @@ V příští kapitole se budeme zabývat podobným, ale aktivnějším profilem:
 
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
+
+:::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
 
 
 V ekosystému Bitcoin je stacker někdo, kdo dlouhodobě a důsledně hromadí satoshi (neboli "Sats"), nejmenší jednotku Bitcoin. Namísto investování velké částky najednou stohovač pravidelně nakupuje malá množství Bitcoin bez ohledu na podmínky na trhu.
@@ -2434,38 +2456,38 @@ Zakladač potřebuje nastavení Wallet, které vyváží snadné používání a
 - **Hot Wallet**: Ideální pro začátečníky, mobilní nebo stolní peněženky umožňují snadno přijímat Sats a provádět platby. Nejlépe se však hodí pro malé částky. Peněženky On-Chain jsou pro střádání výhodnější než peněženky Lightning kvůli lepší správě UTXO. Doporučené softwarové peněženky: Green Wallet, Blue Wallet, Sparrow Wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
+https://planb.academy/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 - **Hardware Wallet**: S rostoucím majetkem Bitcoin je pro minimalizaci rizika krádeže nezbytné zabezpečit své finanční prostředky pomocí Cold Wallet. Seriózní střadatel pravidelně přesouvá finanční prostředky ze svého Hot Wallet na Hardware Wallet. Příklady: Bitbox02, Trezor, Ledger, Coldcard, Jade...
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Nejefektivnějším přístupem je použití obou: Hot Wallet pro každodenní ukládání a Hardware Wallet pro dlouhodobé skladování Cold. Používání Hot Wallet je snadné a pohodlné. Umožňuje vám rychle převzít bitcoiny, místo abyste je nechali na platformě, kde by mohly být vystaveny riziku. V porovnání se zařízením Hardware Wallet však zařízení Hot Wallet nabízí mnohem menší zabezpečení. Stopař proto musí pravidelně převádět své prostředky na Cold Wallet, aby si zajistil dlouhodobé úspory a nedržel příliš mnoho prostředků na Hot Wallet. Při převodu do úložiště Cold zakladač pravidelně konsoliduje UTXO; slučuje malé vstupy, aby optimalizoval budoucí transakční poplatky.
 
@@ -2493,37 +2515,37 @@ Dále máte dvě možnosti nastavení DCA: automatizovat jej nebo spravovat ruč
 Příklady platforem DCA:
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 Hlavní burzy podporující DCA:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 Uživatelé stohů mohou také chtít zvýšit své soukromí, i když to není jejich hlavní cíl. V takovém případě by měli zvážit použití metody získání P2P mimo regulované platformy. Na rozdíl od automatizovaných nákupů DCA tyto metody vyžadují, abyste svou nákupní strategii řídili ručně, takže disciplína je klíčem k tomu, abyste zůstali na správné cestě.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 #### 3. Výběr a zabezpečení bitcoinů
 
@@ -2553,7 +2575,7 @@ Klíčové návyky:
 Chcete-li snadno sledovat zůstatky, aniž byste ohrozili zabezpečení, nastavte systém Watch-only wallet pro sledování zůstatků pomocí veřejného klíče.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Vyhodnocení profilu zakladače
 
@@ -2582,6 +2604,8 @@ Dále: prozkoumáme radikálně odlišný profil bitcoinera - aktivního uživat
 
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
+
+:::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
 
 
 Stát se aktivním uživatelem Bitcoin znamená překročit rámec dlouhodobých investičních strategií. Na rozdíl od hodlera nebo střadatele, kteří především spoří, aniž by utráceli, aktivní uživatel přistupuje ke Bitcoin jako ke skutečnému prostředku **Exchange**. Používá jej k placení za zboží a služby a aktivně se podílí na protihospodářství.
@@ -2642,53 +2666,53 @@ Aktivní uživatelé by měli používat dva různé typy peněženek, aby vyvá
 - A Cold Wallet (Hardware Wallet) pro zajištění dlouhodobých úspor.
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 
 - Jedna nebo více mobilních peněženek Hot pro každodenní transakce. Aktivní uživatel bude mít obvykle jak On-Chain Hot Wallet, tak Lightning Wallet.
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
+https://planb.academy/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 Oddělení finančních prostředků tímto způsobem pomáhá snížit riziko v případě, že dojde ke zneužití účtu Wallet používaného pro každodenní platby.
 
@@ -2699,22 +2723,22 @@ Oddělení finančních prostředků tímto způsobem pomáhá snížit riziko v
 Aktivní uživatelé se často snaží snížit svou závislost na důvěryhodných třetích stranách v závislosti na své osobní situaci. Jedním z nejefektivnějších způsobů, jak toho dosáhnout, je provozování vlastního uzlu Bitcoin. To jim umožňuje využívat síť nezávisle a zároveň zvyšuje soukromí jejich transakcí.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 Pro ty, kteří pravidelně používají Lightning Network, může být správa vlastního uzlu LND, LDK nebo Core-Lightning chytrým krokem. Dává jim plnou kontrolu nad otevíráním a zavíráním kanálů, zvyšuje jejich vlastní suverenitu a může dokonce pomoci snížit transakční poplatky; zejména ve srovnání s automatizovanými řešeními, jako je Phoenix, nebo ještě hůře, správcovskými peněženkami Lightning.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 #### 3. Pravidelné pořízení Bitcoin
 
@@ -2732,45 +2756,45 @@ Existuje několik způsobů, jak si Bitcoin pořídit, v závislosti na úrovni 
 - Tradiční nákup přes regulované platformy, jako je **Bitfinex** nebo **Bull Bitcoin** (ideální pro doplnění Cold Wallet);
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - **Získání bez KYC** prostřednictvím peer-to-peer služeb, jako jsou Peach, Robosaty nebo bankomaty Bitcoin, které vám umožní přidat se ke svému Wallet bez zveřejnění osobních údajů.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - **Vydělávání v Bitcoin**, Být aktivním uživatelem není jen o utrácení BTC, ale také o jejich vydělávání. Pokud provozujete podnik, zvažte možnost přijímat Bitcoin jako platbu. Jste-li zaměstnanec, zjistěte, zda váš zaměstnavatel nenabízí možnost dostávat celý plat nebo jeho část v BTC.
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 ![image](assets/cs/089.webp)
 
@@ -2790,7 +2814,7 @@ Pro usnadnění utrácení za Bitcoin je k dispozici spousta nástrojů, napří
 Jelikož se stále nacházíme v přechodné fázi, kdy ne všichni obchodníci denně přijímají BTC, existuje několik jednoduchých, ale účinných řešení. Praktickým řešením je například nákup dárkových karet za Bitcoin. Tuto službu nabízí řada poskytovatelů, například Bitrefill, Coinsbee nebo The Bitcoin Company.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 #### 5. Technologické povědomí a flexibilita
 
@@ -2830,6 +2854,8 @@ V příští kapitole prozkoumáme poslední a možná nejzajímavější profil
 
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
+
+:::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
 
 
 Pro paranoidní uživatele Bitcoinu není soukromí volitelné, ale nezbytné. Ve světě, kde je sledován téměř každý finanční pohyb, považují ochranu své identity a historie transakcí za neodmyslitelnou součást používání Bitcoin. Obvykle si velmi dobře uvědomují rizika spojená s odhalením osobních údajů(zejména při používání burz, které jsou v souladu s KYC a vyžadují ověření totožnosti).
@@ -2879,21 +2905,21 @@ Paranoidní uživatel nikdy nemíchá finanční prostředky podle původu nebo 
 - **A Cold Wallet (vzduchem uzavřené a/nebo DIY)** Dlouhodobé podíly jsou uloženy ve vysoce zabezpečených, vzduchem uzavřených nebo DIY peněženkách. Obvykle se jedná o zařízení s otevřeným zdrojovým kódem nebo o zařízení s ověřitelným kódem, jako jsou Jade, Coldcard, SeedSigner, Portal nebo Passport... Kdykoli je to možné, získají tato zařízení anonymně; buď platbou v hotovosti nebo pomocí Bitcoin v kamenném obchodě, nebo objednávkou online s možností diskrétní dopravy a platby BTC. Ve Francii je například jedním z takových obchodů [Bitcoin Bazar](https://bitcoinbazar.fr/). Podobné poskytovatele můžete vyhledat i ve svém regionu.
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
 - **Hot Wallet pro každodenní transakce** - Pro pravidelné výdaje volí paranoidní uživatelé peněženky zaměřené na ochranu soukromí, jako jsou Ashigaru, Wasabi Wallet nebo Sparrow Wallet. Tyto peněženky podporují pokročilé funkce, jako jsou: mini-CoinJoin výdajové transakce, payjoins, potenciálně CoinJoin nástroje, kontrola mincí, UTXO tagování nebo možnost připojení přes vlastní uzel Bitcoin.
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
 ![image](assets/cs/093.webp)
 
@@ -2903,23 +2929,23 @@ https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-80
 - Nezbytné je spuštění vlastního uzlu **Bitcoin**. Zajišťuje plnou kontrolu nad vysíláním transakcí a zabraňuje závislosti na infrastruktuře třetích stran. Chrání také soukromí, zabraňuje cenzuře a umožňuje jim nezávisle ověřovat pravidla protokolu Bitcoin. Ať už v systému Linux, Windows, macOS nebo prostřednictvím plug-and-play sestav, jako je RaspiBlitz, myNode nebo Start9, paranoidní uživatel považuje svůj uzel za neoddiskutovatelný pilíř suverenity.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 
 - Aby mohli provádět transakce přes **Lightning Network** při zachování stejné úrovně kontroly a diskrétnosti, provozují také vlastní uzel Lightning. To jim umožňuje spravovat kanály přímo a utrácet způsobem, který minimalizuje dohled nebo závislost na správcovských službách.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 ![image](assets/cs/094.webp)
 
@@ -2927,19 +2953,19 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 Zabezpečení tím nekončí. Pro zálohování frází seed používá paranoidní uživatel kovové zálohy v kombinaci se zapečetěnými obálkami s ochranou proti manipulaci. Pravidelně ověřuje, že zálohy zůstávají neporušené, a testuje postupy obnovy Wallet, aby byl připraven na jakoukoli nepředvídatelnou událost.
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Pokud jde o zabezpečení úspor, mohou zavést sofistikovanější nastavení, jako jsou peněženky s více podpisy (s časovými zámky nebo bez nich).
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Tyto konfigurace snižují rizika. Přidání BIP39 passphrase k frázi seed přidává další ochranu Layer a zajišťuje, že přístup k jejich prostředkům nemůže být ohrožen jediným zjištěním.
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Paranoidní uživatelé bitcoinů budou mít samozřejmě promyšlený plán dědictví svých bitcoinů. Tomuto důležitému tématu se budeme podrobně věnovat v další části kurzu.
 
@@ -2951,50 +2977,50 @@ V širším smyslu tento typ uživatelů uplatňuje pokročilý přístup k výp
 - **Operační systémy** v telefonu i v počítači;
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 - **Nástroje pro ověřování**;
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 
 - **Komunikační nástroje**;
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 - **Nástroje pro správu dat**.
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 Pokud se chcete dozvědět více o bezpečnosti IT, nabízíme kompletní kurz pro první ročník věnovaný tomuto tématu:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 #### 2. Anonymní nákup bitcoinů
 
@@ -3006,21 +3032,21 @@ Základní zásadou paranoidního investora je pořídit si Bitcoin, aniž by je
 - P2P nákup platforem, jako jsou **Bisq, Robosat, LNP2PBot, Peach, HODL HODL** atd. ;
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - **Osobní výměna peněz**, například na místních setkáních Bitcoin;
 
 
-https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
+https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 
 - Bankomaty **Bitcoin**;
@@ -3028,11 +3054,11 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 - Mining bitcoinů.
 
 
-https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
+https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
+https://planb.academy/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
-https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
+https://planb.academy/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
 Centralizovaným výměnám se zcela vyhýbáme kvůli rizikům, která představují; jak pro soukromí, tak pro možnou cenzuru nebo zabavení.
 
@@ -3060,7 +3086,7 @@ Jsou také obeznámeni se základy sledování Blockchain a vědí, jak společn
 Pro ty, kteří chtějí hlouběji proniknout do problematiky ochrany soukromí a odolnosti proti sledování On-Chain, nabízíme pokročilé školení pro druhé ročníky na téma Bitcoin Ochrana soukromí:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 4. Zůstávají ostražití a aktualizují svou strategii
 
@@ -3122,6 +3148,8 @@ V další části kurzu probereme zásadní téma, které se často opomíjí: j
 
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
+
+:::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
 
 Zajištění přenosu vašich bitcoinů je často opomíjenou, ale zásadní povinností. Finanční suverenita, kterou Bitcoin nabízí, s sebou nese také nutnost pečlivé správy majetku. Bez toho by se mohlo stát, že vaši dědicové nebudou mít přístup k vašim vydělaným prostředkům Hard. V této kapitole se budeme zabývat základy plánování pozůstalosti, které se vztahují na Bitcoin.
@@ -3430,7 +3458,7 @@ V případě potřeby se poraďte s právníkem nebo notářem, abyste svůj pl�
 **Gratulujeme!** Dokončili jste důležitý krok k zajištění svého majetku Bitcoin. Nyní můžete svůj plán dědictví zdokonalovat jeho pravidelným přezkoumáváním a zkoumáním pokročilejších řešení, jako je snižování nastavení Multisig s časovými zámky:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Odkaz: [*Plánování dědictví kryptoaktiv, jednoduchý průvodce pro vlastníky* - Pamela Morgan, 2018.](https://www.amazon.com/gp/product/1947910116/)
 
@@ -3444,6 +3472,8 @@ Zvláštní poděkování patří [Pamele Morgan](https://x.com/pamelawjd) za je
 
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
+
+:::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
 
 Pokud jste se dostali až sem, patříte k osvícené menšině! Tak daleko se s Bitcoin dostane jen velmi málo lidí a vy můžete být hrdí na to, jak daleko jste došli. Možná jste sledovali všechny výukové programy nabízené v tomto školení: Založili jste si svůj první fond Hardware Wallet, zajistili jste si frázi pro obnovu, vytvořili jste plán průměrování nákladů v dolarech (DCA), získali jste fond Bitcoin s KYC i bez něj, dokonce jste si naplánovali dědictví po fondu Bitcoin. Každý krok, který jste udělali, je skokem ke skutečné finanční suverenitě.
@@ -3514,39 +3544,39 @@ Vaše cesta zde nekončí. Svět Bitcoin se neustále vyvíjí a vždy je co obj
 - Chcete-li zvýšit úroveň svého digitálního zabezpečení, začněte naším úvodním kurzem zabezpečení:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 - Pokud vás zajímá ekonomická a filozofická stránka Bitcoin, podívejte se na tyto podrobné kurzy:
 
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 
 - Majitelé firem, kteří mají zájem o začlenění Bitcoin do své firemní strategie, by si neměli nechat ujít::
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 - Chcete-li se dozvědět fascinující příběh o vzniku Bitcoin a prvních letech systému, vřele doporučuji tento kurz:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 - A konečně, pokud vás zajímají technické aspekty systému Bitcoin a jeho ekosystému, prozkoumejte tato školení:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 3. Přispějte do ekosystému Bitcoin
 
@@ -3560,7 +3590,7 @@ Bitcoin je víc než jen finanční nástroj, je to hnutí. V závislosti na va�
 - **Připojte se k místní komunitě**: Účastněte se akcí, setkání a fór, abyste se seznámili s dalšími bitcoinery a Exchange názory na nejnovější vývoj.
 
 
-Pokud chcete pomoci vzdělávat ostatní, Plan ₿ Network stále hledá přispěvatele! Veškerý náš vzdělávací obsah je otevřený a umístěný na serveru GitHub. Uvítáme přispěvatele, kteří nám pomohou s korekturami a překlady obsahu do různých jazyků; v Exchange pro několik Sats! Ať už nyní, nebo později na své cestě Bitcoin, jste zváni, abyste se připojili k [naší skupině Telegram pro přispěvatele](https://t.me/PlanBNetwork_ContentBuilder) Plan ₿ Network.
+Pokud chcete pomoci vzdělávat ostatní, Plan ₿ Academy stále hledá přispěvatele! Veškerý náš vzdělávací obsah je otevřený a umístěný na serveru GitHub. Uvítáme přispěvatele, kteří nám pomohou s korekturami a překlady obsahu do různých jazyků; v Exchange pro několik Sats! Ať už nyní, nebo později na své cestě Bitcoin, jste zváni, abyste se připojili k [naší skupině Telegram pro přispěvatele](https://t.me/PlanBNetwork_ContentBuilder) Plan ₿ Academy.
 
 
 ### Závěrečná slova
@@ -3569,7 +3599,7 @@ Pokud chcete pomoci vzdělávat ostatní, Plan ₿ Network stále hledá přisp�
 Moc vám děkujeme za absolvování kurzu BTC102.
 
 
-Jmenuji se Rogzy, jsem zakladatel Découvre Bitcoin a spoluzakladatel Plan ₿ Network;platformy, kterou umožnili naši noví neuvěřitelní partneři, Tether a Fulgur Ventures, a naše společné poslání vzdělávat co nejvíce lidí o Bitcoin.
+Jmenuji se Rogzy, jsem zakladatel Découvre Bitcoin a spoluzakladatel Plan ₿ Academy;platformy, kterou umožnili naši noví neuvěřitelní partneři, Tether a Fulgur Ventures, a naše společné poslání vzdělávat co nejvíce lidí o Bitcoin.
 
 
 Vaše zpětná vazba je nesmírně cenná. Neváhejte zanechat na platformě komentáře a sdělit nám, co si myslíte o této aktualizované verzi kurzu. Vaše podněty nám pomáhají neustále zlepšovat kvalitu našeho obsahu.
@@ -3581,7 +3611,7 @@ Nyní jste připraveni složit závěrečnou zkoušku; test o 40 otázkách, kte
 Hodně štěstí!
 
 
-Doufám, že se brzy uvidíme v dalším kurzu Plan ₿ Network; ať už v mém nebo v kurzu jiného úžasného učitele z komunity. A kdo ví, možná se dokonce setkáme osobně na konferenci, akci nebo setkání Bitcoin.
+Doufám, že se brzy uvidíme v dalším kurzu Plan ₿ Academy; ať už v mém nebo v kurzu jiného úžasného učitele z komunity. A kdo ví, možná se dokonce setkáme osobně na konferenci, akci nebo setkání Bitcoin.
 
 
 Ještě jednou vám blahopřeji k tomu, jak daleko jste došli. A nezapomeňte, že můj hlavní cíl zůstává stále stejný:

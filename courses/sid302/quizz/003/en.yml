@@ -1,0 +1,8 @@
+question: What is the main consensus mechanism used by the Liquid Network?
+answer: Federated Consensus
+wrong_answers:
+  - Proof-of-Work
+  - Proof-of-Stake
+  - Delegated Proof-of-Stake
+explanation: |
+  The Liquid Network operates on a Federated Consensus model, which is fundamentally different from Bitcoin's Proof-of-Work system. In this model, a selected group of fifteen functionaries act as block signers who produce blocks in a deterministic round-robin fashion. Proof-of-Work is Bitcoin's consensus mechanism involving mining, while Proof-of-Stake and Delegated Proof-of-Stake are consensus mechanisms used by other blockchain networks but not by Liquid.

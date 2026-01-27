@@ -64,7 +64,7 @@ Lisateabe saamiseks varustuse valiku kohta soovitan teil läbida see kursus:
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Soovitatav varustus
 
@@ -192,7 +192,7 @@ Täpsemat teavet Ubuntu installimise protsessi kohta leiate meie spetsiaalsest j
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. süsteemi uuendamine
 
@@ -428,7 +428,7 @@ Seejärel palub süsteem teil sisestada valitud salasõna ja seejärel kinnitada
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Lubage kasutajal kasutada Dockerit
 
@@ -1068,7 +1068,7 @@ Et süvendada oma teadmisi IBD ja üldisemalt Bitcoin sõlme toimimise ja rolli 
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Sünkroniseerimise jälgimine

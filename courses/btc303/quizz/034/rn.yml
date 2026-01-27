@@ -1,0 +1,9 @@
+question: Ni imvo nyamukuru iyihe ituma umubare nyawo w’ama Bitcoin ugendagenda uzoba uri hasi cane y’umubare w’ama BTC agera ku miriyoni 21?
+answer: Imfunguruzo z’ibanga zatakaye, ubusuma bwa wallet, n’ibiceri vyoherejwe ku ma aderesi atari yo bikuraho burundu bitcoins mu gukoreshwa
+wrong_answers:
+  - Mining guhindura ingorane bigabanya ubwo nyene umubare wose w'ibintu kugira ngo bigumeko ubukene mu gihe c'igihe
+  - Amafaranga y’ugucuruza araturirwa mu gihe co gukora, buhoro buhoro bikagabanya ivy’ugutanga bitcoin biriho .
+  - "Itegeko rya Bitcoin rifunga ubwaryo ibiceri bitagenda mu kiringo kirekire kugira ngo ntihagire inflation"
+explanation: |
+  N’aho umubare w’ikirenga w’ivyiyumviro ari 20 999 999.9769 BTC, umubare w’ivy’ukuri bishobora gukoreshwa ni muto cane kubera amakosa y’abantu n’ivyatakaye. Imfungurakodesha z’ibanga zazimiye zituma ama-bitcoin adashobora gushikwako burundu, ama-porotefe aribwa canke akibagirwa, kandi rimwe na rimwe ama-coin arungikwa ku ma-aderesi atari yo. Ivyo bintu bituma habaho kugabanuka kudahinduka kw’itangwa, bikungukira abafise ibisigaye, nk’uko Satoshi yabivuze: ama-coin yazimiye yongera agaciro k’ama-coin y’abandi.
+reviewed: false

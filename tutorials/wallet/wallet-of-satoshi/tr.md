@@ -4,6 +4,12 @@ description: Başlamak için en basit velayet Wallet
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Dikkat: 2026 yılının başından itibaren, bu eğitimde sunulduğu üzere custodial moddaki Wallet of Satoshi artık Avrupa Birliği içinde erişilebilir değildir. Bu bölgede ikamet ediyorsanız ve bu aracı kullanmaya devam etmek istiyorsanız, AB dışında bulunan bir VPN kullanmanız gerekecektir. Diğer bir seçenek ise Wallet of Satoshi’yi self-custodial modda kullanmaktır. Özel bir eğitim yakında Plan ₿ Academy’de yayımlanacaktır.*
+
+---
+
 _Bu eğitim_ [Bitcoin Kampüs](https://linktr.ee/bitcoincampus_) tarafından yazılmıştır
 
 
@@ -12,7 +18,7 @@ _Bu eğitim_ [Bitcoin Kampüs](https://linktr.ee/bitcoincampus_) tarafından yaz
 
 Satoshi'nin Wallet'i bir Lightning Network Wallet'dir, gözetim altındadır ve kullanımı çok basittir.
 
-BTC105 - Finding Now] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) kursunun amaçları doğrultusunda, Redeem Lightning Network kuponları için kullanılır.
+BTC105 - Finding Now] (https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) kursunun amaçları doğrultusunda, Redeem Lightning Network kuponları için kullanılır.
 
 
 **Her zaman hatırlayın**: anahtarlariniz deği̇l, bozuk paralariniz deği̇l

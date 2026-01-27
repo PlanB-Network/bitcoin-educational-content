@@ -1,14 +1,11 @@
 ---
-name: 이론에서 실무까지, RGB 프로토콜
+name: RGB 프로그래밍
 goal: RGB을 이해하고 사용하는 데 필요한 기술을 습득하세요
-objectives: 
-
-  - RGB 프로토콜의 기본 개념 이해하기
-  - Client-side Validation 및 Bitcoin 약속의 원칙 마스터하기
-  - RGB 계약 생성, 관리 및 이전 방법 알아보기
-  - RGB 호환 라이트닝 노드 작동 방법
-
-
+objectives:
+- RGB 프로토콜의 기본 개념 이해하기
+- Client-side Validation 및 Bitcoin 약속의 원칙 마스터하기
+- RGB 계약 생성, 관리 및 이전 방법 알아보기
+- RGB 호환 라이트닝 노드 작동 방법
 ---
 # RGB 프로토콜 알아보기
 
@@ -63,7 +60,7 @@ Bitcoin Blockchain의 합의 규칙과 운영을 기반으로 계약과 자산�
 이 교육 과정은 원래 [풀구르벤처스](https://fulgur.ventures/)가 토스카나 비아레조에서 주최한 2주간의 고급 개발 부트캠프에서 시작되었습니다. Rust과 SDK에 초점을 맞춘 첫 주는 이 다른 강좌에서 확인할 수 있습니다:
 
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 이 과정에서는 부트캠프의 두 번째 주에 집중하여 RGB를 집중적으로 다룹니다.
 
@@ -2594,7 +2591,7 @@ Lightning Network은 2/2 다중 서명 지갑으로 구성된 Bitcoin의 결제 
 라이트닝 작동 방식에 대한 자세한 내용은 이 다른 강좌를 수강하는 것을 추천합니다:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -4239,8 +4236,8 @@ interface: RGB20Fixed
 
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -4297,7 +4294,7 @@ rgb contracts
 ![RGB-Bitcoin](assets/en/087.webp)
 
 
-그런 다음 다음 명령은 글로벌 상태(이름, 티커, Supply...)와 소유 상태 목록, 즉 할당을 표시합니다(예: UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`에 정의된 1백만 `PBN`토큰).
+그런 다음 다음 명령은 글로벌 상태(이름, 티커, Supply...)와 소유 상태 목록, 즉 할당을 표시합니다(예: UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`에 정의된 1백만 `Plan ₿ Academy`토큰).
 
 
 ```bash
@@ -4428,7 +4425,7 @@ rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-..
 
 
 
-- Bob(Stash에 토큰을 보유한 사람)은 Bitcoin Wallet를 가지고 있습니다. 그는 필요한 RGB 토큰이 있는 UTXO를 사용하는 Bitcoin 트랜잭션(예: `tx.PSBT`)과 통화(Exchange)를 위한 UTXO 트랜잭션(예: PSBT 형태)을 준비해야 합니다;
+- Bob(자신의 stash에 토큰을 보유하고 있음)은 비트코인 지갑을 가지고 있다. 그는 필요한 RGB 토큰이 있는 UTXO를 소비하고, 추가로 잔돈용 UTXO 하나를 포함하는 비트코인 거래(PSBT 형식, 예: `tx.psbt`)를 준비해야 한다;
 - Bob는 다음 명령을 실행합니다:
 
 
@@ -4556,7 +4553,7 @@ Commitment Transaction는 Bob가 서명했고, Alice이 배포할 준비가 되�
 따라서 Lightning에서 RGB의 작동은 Lightning Network 자체의 작동과 병행하여 고려해야 합니다. 이 주제에 대해 더 자세히 알아보고 싶다면 다른 종합 교육 과정을 살펴볼 것을 적극 권장합니다:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB 코드 맵
 
@@ -5270,7 +5267,7 @@ http://localhost:3001/createutxos
 ```
 
 
-이제 RGB 에셋을 만들 수 있습니다. 명령은 생성하려는 에셋의 유형과 매개변수에 따라 달라집니다. 여기서는 Supply가 1000 단위인 "PBN"이라는 이름의 NIA(*비팽창형 에셋*) token을 생성하겠습니다. '정밀도'를 사용하면 단위의 분할 가능성을 정의할 수 있습니다.
+이제 RGB 에셋을 만들 수 있습니다. 명령은 생성하려는 에셋의 유형과 매개변수에 따라 달라집니다. 여기서는 Supply가 1000 단위인 "Plan ₿ Academy"이라는 이름의 NIA(*비팽창형 에셋*) token을 생성하겠습니다. '정밀도'를 사용하면 단위의 분할 가능성을 정의할 수 있습니다.
 
 
 ```bash
@@ -5279,8 +5276,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -5328,7 +5325,7 @@ curl -X 'GET' \
 ![RGB-Bitcoin](assets/en/110.webp)
 
 
-다음으로 관련 에셋(`PBN`)을 지정하여 채널을 열겠습니다. Openchannel` 명령을 사용하면 채널의 크기를 사토시 단위로 정의하고 RGB 에셋을 포함하도록 선택할 수 있습니다. 생성하려는 자산에 따라 다르지만, 제 경우에는 다음과 같이 명령합니다:
+다음으로 관련 에셋(`Plan ₿ Academy`)을 지정하여 채널을 열겠습니다. Openchannel` 명령을 사용하면 채널의 크기를 사토시 단위로 정의하고 RGB 에셋을 포함하도록 선택할 수 있습니다. 생성하려는 자산에 따라 다르지만, 제 경우에는 다음과 같이 명령합니다:
 
 
 ```bash
@@ -5376,7 +5373,7 @@ http://localhost:3001/openchannel
 ![RGB-Bitcoin](assets/en/112.webp)
 
 
-이제 라이트닝 채널이 열렸으며 노드 n°1 측에 500개의 `PBN` 토큰이 있습니다. 노드 n°2가 `PBN` 토큰을 받으려면 generate과 Invoice을 생성해야 합니다. 방법은 다음과 같습니다:
+이제 라이트닝 채널이 열렸으며 노드 n°1 측에 500개의 `Plan ₿ Academy` 토큰이 있습니다. 노드 n°2가 `Plan ₿ Academy` 토큰을 받으려면 generate과 Invoice을 생성해야 합니다. 방법은 다음과 같습니다:
 
 
 ```bash
@@ -5413,7 +5410,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RGB-Bitcoin](assets/en/113.webp)
 
 
-이제 필요한 현금을 보유하고 있는 첫 번째 노드에서 이 Invoice을 `PBN` token로 지불합니다:
+이제 필요한 현금을 보유하고 있는 첫 번째 노드에서 이 Invoice을 `Plan ₿ Academy` token로 지불합니다:
 
 
 ```bash

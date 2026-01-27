@@ -1,13 +1,11 @@
 ---
-name: Bitcoin 皮夾的內部運作
+name: 比特幣錢包架構
 goal: 深入瞭解為 Bitcoin 電子錢包提供動力的加密原理。
-objectives: 
-
-  - 定義理解 Bitcoin 中使用的密碼演算法所需的理論概念。
-  - 充分理解確定性和層次性 Wallet 的構建。
-  - 知道如何識別和降低與管理 Wallet 相關的風險。
-  - 瞭解 Hash 函數、加密金鑰和數位簽章的原理。
-
+objectives:
+- 定義理解 Bitcoin 中使用的密碼演算法所需的理論概念。
+- 充分理解確定性和層次性 Wallet 的構建。
+- 知道如何識別和降低與管理 Wallet 相關的風險。
+- 瞭解 Hash 函數、加密金鑰和數位簽章的原理。
 ---
 # Bitcoin 皮夾的核心之旅
 
@@ -28,13 +26,15 @@ CYP201 透過清晰的教學法、超過 60 個解釋圖和具體範例，讓您
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 歡迎來到 CYP201 課程，我們將在此深入探討 HD Bitcoin 錢包的運作原理。本課程專為想要瞭解 Bitcoin 使用技術基礎的任何人而設計，無論他們是隨便的使用者、有悟性的愛好者，或是未來的專家。
 
 本訓練的目標是提供您掌握日常使用工具的訣竅。HD Bitcoin 錢包是您使用者體驗的核心，有時以複雜的概念為基礎，我們將嘗試讓您了解這些概念。我們將與您一起解開它們的神秘面紗！
 
 在深入探討 Bitcoin 錢包的構造和運作細節之前，我們先從幾個章節開始介紹接下來要知道的加密原語。
 
-我們將從加密的 Hash 函數開始，這些函數對於錢包和 Bitcoin 協定本身都很重要。您將發現它們的主要特性、Bitcoin 中使用的特定函數，並在更技術性的一章中，詳細瞭解 Hash 函數女王的運作：SHA256.
+我們將從加密的 Hash 函數開始，這些函數對於錢包和 Bitcoin 協定本身都很重要。您將發現它們的主要特性、Bitcoin 中使用的特定函數，並在更技術性的一章中，詳細瞭解 Hash 函數女王的運作：[SHA256](https://planb.academy/resources/glossary/sha256).
 
 ![CYP201](assets/en/001.webp)
 
@@ -46,7 +46,7 @@ CYP201 透過清晰的教學法、超過 60 個解釋圖和具體範例，讓您
 
 ![CYP201](assets/en/003.webp)
 
-訓練會繼續研究 BIP39 passphrase、seed（不要與 Mnemonic 語句混淆）、主鏈代碼和主鑰匙。我們將詳細瞭解這些 Elements 的內容、各自的作用以及計算方式。
+訓練會繼續研究 [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase、seed（不要與 Mnemonic 語句混淆）、主鏈代碼和主鑰匙。我們將詳細瞭解這些 Elements 的內容、各自的作用以及計算方式。
 
 ![CYP201](assets/en/004.webp)
 
@@ -91,6 +91,8 @@ CYP201 透過清晰的教學法、超過 60 個解釋圖和具體範例，讓您
 ## Hash 功能簡介
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 Bitcoin 上使用的第一類加密算法包含 Hash 功能。它們在協定的不同層級以及 Bitcoin 電子錢包中都扮演著重要的角色。讓我們一起了解什麼是 Hash 函數，以及它在 Bitcoin 中的用途。
 
@@ -207,6 +209,8 @@ $$
 ## SHA256 的內部運作
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
 
 我們之前已經看到雜湊函數擁有重要的特性，這些特性證明它們可以用在 Bitcoin 上。現在讓我們檢視這些散列函數賦予這些特性的內部機制，為了達到這個目的，我建議剖析 SHA256 的運作。
 
@@ -609,6 +613,8 @@ $$
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 在 Bitcoin 應用層級中，除了 Hash 函式之外，還會使用加密推導演算法來保護來自初始輸入的 generate 資料。雖然這些演算法依賴 Hash 函式，但它們有不同的目的，尤其是在認證和金鑰產生方面。這些演算法保留了 Hash 函數的某些特性，例如不可逆性、抗竄改性和抗碰撞性。
 
 在 Bitcoin 錢包上，主要使用 2 種衍生演算法：
@@ -702,6 +708,8 @@ $$
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
+
 Bitcoin 中使用的第二種加密方法涉及數位簽章演算法。讓我們來探討一下這包括什麼以及如何運作。
 
 ### 比特幣、UTXOs 和消費條件
@@ -718,7 +726,7 @@ Bitcoin 與 P2PK 腳本的初始操作包括使用公開金鑰來鎖定資金，
 
 因此，擁有以公開金鑰鎖定的比特幣的使用者，必須想辦法安全地儲存可以解鎖其資金的東西：私人金鑰。Bitcoin Wallet 正是一個可以讓您輕鬆保存所有鑰匙而不被其他人取得的裝置。因此，與 Wallet 相比，它更像是鑰匙鏈。
 
-數位簽章演算法可讓公開金鑰與私人金鑰之間的數學連結，以及在不洩露私人金鑰的情況下執行簽章以證明擁有私人金鑰的能力成為可能。在 Bitcoin 通訊協定中，使用了兩種簽章演算法： **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) 和 **Schnorr 簽署方案**。ECDSA 是 Bitcoin 從一開始就使用的數位簽章通訊協定。Schnorr 在 Bitcoin 中較為近期，因為它是在 2021 年 11 月 Taproot 更新時引入的。
+數位簽章演算法可讓公開金鑰與私人金鑰之間的數學連結，以及在不洩露私人金鑰的情況下執行簽章以證明擁有私人金鑰的能力成為可能。在 Bitcoin 通訊協定中，使用了兩種簽章演算法： **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) 和 **Schnorr 簽署方案**。ECDSA 是 Bitcoin 從一開始就使用的數位簽章通訊協定。Schnorr 在 Bitcoin 中較為近期，因為它是在 2021 年 11 月 Taproot 更新時引入的。
 
 這兩種演算法的機制相當類似。它們都是以橢圓曲線加密法為基礎。這兩種通訊協定的主要差異在於簽章的結構和一些特定的數學特性。因此，我們將從最古老的 ECDSA 開始，研究這些演算法的運作。
 
@@ -786,12 +794,14 @@ $$
 
 有限域上的橢圓曲線的數學與實數域上的橢圓曲線類似，只是所有的運算都是以 $p$ 為模。為了簡化說明，我們將在接下來的章節繼續使用定義在實數上的曲線來說明概念，但請記住，實際上，曲線是定義在有限域上的。
 
-如果您想了解更多有關現代密碼學的數學基礎，我也建議您參考 Plan ₿ Network 的另一門課程：
+如果您想了解更多有關現代密碼學的數學基礎，我也建議您參考 Plan ₿ Academy 的另一門課程：
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 ## 從私密金鑰計算公開金鑰
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
 如前所述，Bitcoin 上的數位簽章演算法是基於一對在數學上有關聯的私密金鑰和公開金鑰。讓我們一起探討這個數學上的連結是什麼，以及它們是如何產生的。
 
@@ -911,6 +921,8 @@ $$
 ## 使用私密金鑰簽署
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 現在您已經知道如何從私密金鑰推導出公開金鑰，您已經可以使用這對金鑰作為花費條件來接收 bitcoins。但是如何使用它們呢？要使用比特幣，您需要解鎖附在 UTXO 上的 _scriptPubKey_ 以證明您確實是它的合法擁有者。要做到這一點，您必須使用最初用於計算 $K$ 的私人密碼匙 $k$ 製作與 _scriptPubKey_ 中的公開密碼匙 $K$ 相匹配的簽章 $s$。因此，數位簽章是不可推翻的證明，證明您擁有與您所聲稱的公開金鑰相關的私人金鑰。
 
@@ -1139,6 +1151,8 @@ $$
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 正如我們在前幾章所見，數位簽章通常用於解鎖輸入的腳本。在簽章過程中，必須將已簽章的資料包含在計算中，在我們的範例中指定為訊息 $m$。此資料一經簽署，若不使簽署失效，則無法修改。事實上，不論是 ECDSA 或 Schnorr，簽章驗證者都必須在計算中包含相同的訊息 $m$。如果它與簽章者最初使用的訊息 $m$ 不同，結果將是不正確的，簽章將被視為無效。因此可以說，簽名涵蓋了某些資料，並在某種程度上保護資料免受未經授權的修改。
 
 ### 什麼是 sighash 旗幟？
@@ -1203,7 +1217,7 @@ $$
 
 若要加深對 Lightning Network 的認識，在 CYP201 課程之後，我強烈推薦由 Fanis Michalakis 主講的 LNP201 課程，其中詳細介紹了這個主題：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 在下一部分中，我建議探索您的 Bitcoin Wallet 底部的 Mnemonic 詞組是如何運作的。
 
 # Mnemonic 詞組
@@ -1213,6 +1227,8 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ## Bitcoin 錢包的演變
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
+
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
 
 既然我們已經探索了 Hash 功能和數位簽章的運作，我們就可以研究 Bitcoin 錢包的運作方式。我們的目標將是想像 Bitcoin 上的 Wallet 是如何構成、如何分解，以及構成 Wallet 的不同資訊是用來做什麼的。對 Wallet 機制的了解將可讓您在安全性和隱私權方面改善 Bitcoin 的使用。
 
@@ -1236,9 +1252,9 @@ Bitcoin 上使用的第一批錢包是 JBOK (_Just a Bunch Of Keys_) 錢包，�
 
 這個限制源自 Bitcoin 的隱私模型。重複使用相同的 Address，會讓外部觀察者更容易追蹤我所有的 Bitcoin 交易。這就是強烈不鼓勵重複使用接收 Address 的原因。然而，要擁有多個地址並公開分隔我們的交易，就必須管理多個私密金鑰。在 JBOK 錢包的情況下，這意味著有多少新的金鑰對就需要建立多少個備份，對使用者來說，這項任務很快就會變得複雜且難以維護。
 
-若要進一步瞭解 Bitcoin 的隱私權模式，並發掘保護您隱私權的方法，我也建議您追蹤我在 Plan ₿ Network 的 BTC204 課程：
+若要進一步瞭解 Bitcoin 的隱私權模式，並發掘保護您隱私權的方法，我也建議您追蹤我在 Plan ₿ Academy 的 BTC204 課程：
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### HD 錢包（_層級式決定性_)
 
 為了 Address JBOK 錢包的限制，後來採用了新的 Wallet 結構。2012 年，Pieter Wuille 以 BIP32 為基礎進行了改進，引入了分層式確定性錢包。HD Wallet 的原理是從單一資訊來源（稱為 seed）以確定性和分層的方式衍生出所有私密金鑰。此 seed 在 Wallet 建立時隨機產生，並構成唯一的備份，允許重新產生 Wallet 的所有私密金鑰。因此，使用者可以 generate 非常多的私密金鑰，以避免 Address 重複使用並保護他們的隱私，同時只需要透過 seed 為他們的 Wallet 做單一備份。
@@ -1258,6 +1274,8 @@ Mnemonic 短語大大簡化了用戶的備份工作。如果託管 Wallet 的裝
 ## 熵和隨機數
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
+
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
 現代的 HD 錢包（確定式和分層式）依賴一個稱為「熵」的單一初始資訊來確定 generate 的整套 Wallet 金鑰。這個熵是一個偽隨機數，其混亂程度部分決定了 Wallet 的安全性。
 
@@ -1286,6 +1304,8 @@ HD Wallet 使用的初始熵一般為 128 位元或 256 位元，其中：
 ## Mnemonic 語句
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
 Mnemonic 詞組也稱為 「seed 詞組」、「恢復詞組」、「秘密詞組 」或 「24 字詞組」，是通常由 12 或 24 個字組成的序列，由熵產生。它用來確定性地推導出 HD Wallet 的所有金鑰。這表示從這個詞組可以確定地 generate 並重新產生 Bitcoin Wallet 的所有私人和公開金鑰，進而存取以其保護的資金。Mnemonic 短語的目的是提供一種既安全又易用的比特幣備份和復原方式。它在 2013 年與 BIP39 一起被引入標準。
 
@@ -1340,7 +1360,7 @@ $$
 
 ### 將二進位序列轉換成 Mnemonic 樂句
 
-位元序列 $\text{ENT}\Vert \text{CS}$ 會被分成 11 位元的區段。每個 11 位元段轉換為十進位後，對應一個介於 0 與 2047 之間的數字，指定一個字的位置 [在 BIP39 標準化的 2048 個字清單中](https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)。
+位元序列 $\text{ENT}\Vert \text{CS}$ 會被分成 11 位元的區段。每個 11 位元段轉換為十進位後，對應一個介於 0 與 2047 之間的數字，指定一個字的位置 [在 BIP39 標準化的 2048 個字清單中](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)。
 
 ![CYP201](assets/en/042.webp)
 
@@ -1382,12 +1402,14 @@ $$
 
 若要進一步具體學習如何手動 generate 測試 Mnemonic 詞組，我建議您參考本教學：
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 在繼續從這個 Mnemonic 詞組推導出 Wallet 之前，我會在下一章向您介紹 BIP39 passphrase，因為它在推導過程中扮演了一個角色，而且它與 Mnemonic 詞組處於同一層級。
 
 ## passphrase
 
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
+
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
 正如我們剛才所看到的，HD 錢包是由 Mnemonic 詞組產生的，通常由 12 或 24 個單詞組成。這個詞組非常重要，因為它可以在 Wallet 的實體裝置（例如 Hardware Wallet）遺失時恢復其所有金鑰。不過，它也構成了單點失敗，因為如果它被攻擊，攻擊者就可能竊取所有的 bitcoins。這就是 BIP39 passphrase 發揮作用的地方。
 
@@ -1426,6 +1448,8 @@ passphrase 是任意的，可以是使用者選擇的任何字元組合。因此
 ## 建立 seed 和主密碼
 
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 一旦產生 Mnemonic 詞組和選用的 passphrase，就可以開始衍生 Bitcoin HD Wallet 的程序。Mnemonic 詞組會先轉換成 seed，構成 Wallet 所有鍵的基礎。
 
@@ -1503,6 +1527,8 @@ $$
 ## 延伸鑰匙
 
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 擴展金鑰是一個金鑰 (無論是私人或公開) 和其相關鏈碼的簡單串接。這個鏈碼對於子金鑰的衍生是非常重要的，因為如果沒有它，就不可能從父金鑰衍生出子金鑰，但我們會在下一章更精確地發現這個過程。因此，這些擴充金鑰允許彙集所有必要的資訊來衍生子金鑰，從而簡化 HD Wallet 內的帳戶管理。
 
@@ -1654,6 +1680,8 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 ## 子金鑰對的衍生
 
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 在 Bitcoin HD 錢包中，子密鑰對的衍生依賴於一種分層結構，它允許生成大量的密鑰，同時通過分支將這些密鑰對組織成不同的群組。從父鑰匙對衍生出來的每個子鑰匙對都可以直接用於 *scriptPubKey* 鎖定比特幣，或者作為 generate 更多子鑰匙的起點，以此類推，創建一棵鑰匙樹。
 
@@ -1838,6 +1866,8 @@ $$
 
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 Bitcoin 上 HD 錢包的分層結構允許以各種方式組織金鑰對。其構思是從主私人密碼匙和主鏈碼衍生出多層深度。每個新增的層級對應於從父鑰匙對衍生出子鑰匙對。
 
 隨著時間的推移，不同的 BIP 引進了這些衍生路徑的標準，目的是統一它們在不同軟體中的使用。因此，在本章中，我們將根據這些標準，瞭解 HD 錢包中各級衍生的含義。
@@ -1942,6 +1972,8 @@ $$
 
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
 
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 您通常會被告知單憑 Mnemonic 詞組就足以恢復 Wallet 的存取權限。實際上，事情比較複雜。在前一章中，我們研究了 HD Wallet 的衍生結構，您可能已經注意到這個過程相當複雜。萃取路徑會告訴軟體要沿著哪個方向萃取使用者的金鑰。然而，在復原 Bitcoin Wallet 時，如果不知道這些路徑，光靠 Mnemonic 的詞組是不夠的。它允許取得主密鑰和主鏈碼，但接下來必須知道用來取得子密鑰的索引。
 
 理論上，不僅需要保存我們 Wallet 的 Mnemonic 詞組，還需要保存我們使用的帳戶路徑。實際上，只要遵循標準，通常可以在沒有這些資訊的情況下重新取得子金鑰的存取權。只要逐一測試每個標準，一般都可以重新取得比特幣的存取權。但是，這並不能保證，而且對初學者來說尤其複雜。而且，隨著腳本類型的多樣化和更複雜配置的出現，這些資訊可能會變得難以推斷，從而使這些資料變成隱私資訊，難以用暴力手段恢復。這就是為什麼最近推出了一項創新，並開始整合到您最喜歡的 Wallet 軟體中：*輸出腳本描述符*。
@@ -1992,6 +2024,8 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
+
 接收地址是嵌入在 *scriptPubKey* 中的資訊，用來鎖定新建立的 UTXO。簡單來說，Address 是用來接收比特幣的。讓我們結合前面幾章的內容來探討它們的運作。
 
 ### Bitcoin 位址在腳本中的作用
@@ -2004,29 +2038,31 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 
 接收位址正是在 *scriptPubKey* 中找到的。然而，它們的使用依所採用的腳本標準而有所不同。以下是 *scriptPubKey* 中包含的資訊摘要表，依據所使用的標準，以及 *scriptSig* 中預期用來解鎖 *scriptPubKey* 的資訊。
 
-| Standard | *scriptPubKey* | *scriptSig* | *Redeem script* | *witness* | *scriptPubKey* | *scriptSig* | *Redeem script* | *witness*
 
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
 
-| P2PK | `<pubkey> OP_CHECKSIG` | `<signature>` | | | | | | | | | P2PK
 
-P2PKH | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>` | | | | | |
 
-| P2SH | `OP_HASH160 <scriptHash> OP_EQUAL` | `<data pushes> <Redeem script>` | 任意數據 | | P2SH
 
-| P2WPKH | `0 <pubKeyHash>` | | | `<signature> <public key>` |
 
-| P2WSH | `0 <witnessScriptHash>` | | | `<data pushes> <witness script>` |
 
-| P2SH-P2WPKH | `OP_HASH160 <redeemScriptHash> OP_EQUAL` | `<Redeem script>` | `0 <pubKeyHash>` | `<signature> <public key>` | P2SH-P2WPKH
 
-| P2SH-P2WSH | `OP_HASH160 <redeemScriptHash> OP_EQUAL` | `<Redeem script>` | `0 <scriptHash>` | `<data pushes> <witness script>` |
 
-| P2TR (金鑰路徑) | `1 <公開金鑰>` | | `<簽章>` |
 
-| P2TR (腳本路徑) | `1 <公開金鑰> ` | | `<資料推送> <指令碼> <控制區塊> ` |
 
-*來源：Bitcoin 核心公關審查俱樂部，2021 年 7 月 7 日 - Gloria Zhao*
+
+| 標準             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| ------------------------ | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | 任意資料 | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_來源：2021年7月7日 Bitcoin Core PR 審查俱樂部 – Gloria Zhao_
 
 腳本中使用的操作碼是用來操作資訊的，必要時還可對資訊進行比較或測試。讓我們以 P2PKH 腳本為例，其內容如下：
 
@@ -2134,6 +2170,8 @@ P2TR 對應版本 1 的 SegWit 輸出，這表示 P2TR 輸入的簽章會儲存�
 ## Address 衍生
 
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 讓我們一起探討如何從位於 HD Wallet 深度 5 的一對鑰匙 generate 接收 Address。然後，這個 Address 就可以用 Wallet 軟體來鎖定 UTXO。
 

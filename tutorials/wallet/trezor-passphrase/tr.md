@@ -18,7 +18,7 @@ Bu eğitime başlamadan önce, passphrase konseptine, nasıl çalıştığına v
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Trezor'da passphrase, yapılandırma sırasında BIP39 standardını seçtiyseniz klasik şekilde işlenir (*Çoklu paylaşım Yedeklemeye* ihtiyacınız yoksa bunu öneririm). Trezor'un özelliği, passphrase'yi doğrudan Hardware Wallet üzerinden ya da Trezor Suite yazılımını kullanarak bilgisayarınızın klavyesi üzerinden girebilmenizdir. Bu ikinci seçenek, bilgisayarın Hardware Wallet'den çok daha büyük bir saldırı yüzeyine sahip olması nedeniyle önemli ölçüde daha az güvenlidir. Bununla birlikte, karmaşık bir passphrase'yi yazmak geleneksel bir klavyede Hardware Wallet'den daha hızlı olabilir ve bu da güçlü parolaların kullanılmasını teşvik edebilir. Bu nedenle, yazılması gerekse bile bir passphrase kullanmak, hiç kullanmamaktan her zaman daha iyidir. Bununla birlikte, bunun ima ettiği artan sayısal saldırı riskinin farkında olmak önemlidir.
 
@@ -36,15 +36,15 @@ Trezor Suite'te, passphrase talebini yönetmenin iki farklı yolu vardır. "*Cih
 
 
 
-Bu eğitime başlamadan önce, lütfen Trezor'unuzu başlattığınızdan ve Mnemonic cümlenizi oluşturduğunuzdan emin olun. Eğer yapmadıysanız ve Trezor'unuz yeniyse, Plan ₿ Network'de bulunan modele özel öğreticiyi izleyin. Bu adımı tamamladıktan sonra, bu eğitime geri dönebilirsiniz.
+Bu eğitime başlamadan önce, lütfen Trezor'unuzu başlattığınızdan ve Mnemonic cümlenizi oluşturduğunuzdan emin olun. Eğer yapmadıysanız ve Trezor'unuz yeniyse, Plan ₿ Academy'de bulunan modele özel öğreticiyi izleyin. Bu adımı tamamladıktan sonra, bu eğitime geri dönebilirsiniz.
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 
 ## Safe 3 veya Safe 5'e bir passphrase ekleme
@@ -79,7 +79,7 @@ passphrase seçimine ilişkin daha spesifik öneriler için sizi bir kez daha bu
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 passphrase'ünüzü bilgisayar klavyeniz aracılığıyla girmek istiyorsanız, verilen alana girin ve ardından "*passphrase Wallet*'e Eriş" seçeneğine tıklayın.
 
@@ -177,7 +177,7 @@ passphrase'ınızı seçme konusunda daha spesifik öneriler için sizi bir kez 
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Sağlanan alana passphrase'inizi girin, ardından "*passphrase Wallet*'ye Eriş" düğmesine tıklayın.
 
@@ -215,6 +215,6 @@ Tebrikler, artık Trezor donanım cüzdanlarında passphrase BIP39'u kullanmaya 
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 Bu öğreticiyi faydalı bulduysanız, aşağıya bir Green başparmağı bırakırsanız minnettar olurum. Bu makaleyi sosyal ağlarınızda paylaşmaktan çekinmeyin. Çok teşekkür ederim!

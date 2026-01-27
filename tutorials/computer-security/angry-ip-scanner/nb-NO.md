@@ -26,7 +26,7 @@ Hvordan skanner du raskt og enkelt et Windows-nettverk etter tilkoblede maskiner
 
 
 
-Dette verktøyet kan brukes av privatpersoner til å **skanne det lokale nettverket**, men også av IT-profesjonelle til samme formål. Et bevis på at **dette verktøyet er veldig praktisk**, er at det allerede har blitt brukt av **noen nettkriminelle grupper** til å skanne bedriftsnettverk (på samme måte som Nmap). Et godt eksempel er [ransomware-gruppen RansomHub] (https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Det er fortsatt et godt stykke programvare, men som med andre nettverks- og sikkerhetsorienterte verktøy kan det misbrukes.
+Dette verktøyet kan brukes av privatpersoner til å **skanne det lokale nettverket**, men også av IT-profesjonelle til samme formål. Et bevis på at **dette verktøyet er veldig praktisk**, er at det allerede har blitt brukt av **noen nettkriminelle grupper** til å skanne bedriftsnettverk (på samme måte som Nmap). Et godt eksempel er [ransomware-gruppen RansomHub](https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Det er fortsatt et godt stykke programvare, men som med andre nettverks- og sikkerhetsorienterte verktøy kan det misbrukes.
 
 
 
@@ -42,7 +42,7 @@ Hvis du vil gå videre, kan du se veiledningen om Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Komme i gang med Angry IP Scanner
 
@@ -58,7 +58,7 @@ Du kan laste ned den nyeste versjonen av Angry IP Scanner fra programmets offisi
 
 
 
-- [Angry IP Scanner GitHub] (https://github.com/angryip/ipscan/releases/latest)
+- [Angry IP Scanner GitHub](https://github.com/angryip/ipscan/releases/latest)
 
 
 
@@ -181,4 +181,4 @@ Hvis du ønsker å bruke **Nmap** med en grafisk Interface, kan du bruke **Zenma
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

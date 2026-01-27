@@ -31,7 +31,7 @@ RGB leping on üles ehitatud nagu evolutsiooniline riigimasin. See algab Genesis
 
 Kui soovite rohkem teada saada, kuidas RGB-protokoll töötab, soovitan teil läbida selle põhjaliku koolituskursuse:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## RGB-ühilduv Lightning-sõlme paigaldus
 
@@ -219,7 +219,7 @@ Loomulikult saate järjekorda kohandada. Tehingu kinnitamiseks kaevandame :
 ./regtest.sh mine 1
 ```
 
-Nüüd saame luua RGB vara. Käsk sõltub sellest, millist tüüpi vara soovite luua ja millised on selle parameetrid. Siinkohal loome NIA (*Non Inflatable Asset*) tokeni nimega "PBN", mille varu on 1000 ühikut. `precision` võimaldab teil määrata ühikute jagatavuse.
+Nüüd saame luua RGB vara. Käsk sõltub sellest, millist tüüpi vara soovite luua ja millised on selle parameetrid. Siinkohal loome NIA (*Non Inflatable Asset*) tokeni nimega "Plan ₿ Academy", mille varu on 1000 ühikut. `precision` võimaldab teil määrata ühikute jagatavuse.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -227,8 +227,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -264,7 +264,7 @@ Käsk tagastab minu sõlme nr 2 avaliku võtme:
 
 ![RLN](assets/fr/13.webp)
 
-Järgmisena avame kanali, määrates vastava vara (`PBN`). Käsk `/openchannel` võimaldab määrata kanali suuruse satoshis ja valida, kas lisada RGB-vara. See sõltub sellest, mida soovite luua, kuid minu puhul on käsk :
+Järgmisena avame kanali, määrates vastava vara (`Plan ₿ Academy`). Käsk `/openchannel` võimaldab määrata kanali suuruse satoshis ja valida, kas lisada RGB-vara. See sõltub sellest, mida soovite luua, kuid minu puhul on käsk :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -303,7 +303,7 @@ Tehingu kinnitamiseks kaevandatakse 6 plokki:
 
 ![RLN](assets/fr/15.webp)
 
-Lightning-kanal on nüüd avatud ja sisaldab ka 500 "PBN"-märki sõlme nr 1 poolel. Kui sõlm nr 2 soovib saada PBN-märke, peab ta looma arve. Seda saab teha järgmiselt:
+Lightning-kanal on nüüd avatud ja sisaldab ka 500 "Plan ₿ Academy"-märki sõlme nr 1 poolel. Kui sõlm nr 2 soovib saada Plan ₿ Academy-märke, peab ta looma arve. Seda saab teha järgmiselt:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -332,7 +332,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RLN](assets/fr/16.webp)
 
-Nüüd maksame selle arve esimesest sõlmest, kus on vajalik raha "PBN" sümboliga:
+Nüüd maksame selle arve esimesest sõlmest, kus on vajalik raha "Plan ₿ Academy" sümboliga:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -372,4 +372,4 @@ Kui leidsid selle õpetuse kasulikuks, oleksin väga tänulik, kui paneksid alla
 
 Soovitan ka seda teist õpetust, kus ma selgitan, kuidas kasutada LNP/BP ühingu poolt välja töötatud RGB CLI tööriista RGB lepingu loomiseks:
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

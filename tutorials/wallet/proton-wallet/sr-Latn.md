@@ -20,7 +20,7 @@ Posebna karakteristika ovog Wallet je mogućnost slanja bitcoina koristeći emai
 Da biste koristili Proton Wallet, potreban vam je Proton nalog. Možete ga besplatno kreirati prateći prve korake ovog vodiča posvećenog kreiranju Proton poštanskog sandučeta (samo deo "*Kreiranje Proton naloga*"). Kada vaš nalog bude podešen, možete nastaviti sa ostatkom ovog vodiča.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Poveži se na Proton Wallet
 
@@ -100,7 +100,7 @@ Možete to napisati na parčetu papira, ili za dodatnu sigurnost, preporučujem 
 Za više informacija o pravilnom načinu čuvanja i upravljanja vašom Mnemonic frazom, toplo preporučujem da pratite ovaj drugi vodič, posebno ako ste početnik:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 _Naravno, nikada ne bi trebalo da slikate ove reči, za razliku od onoga što radim u ovom vodiču._
 
@@ -141,7 +141,7 @@ Ovo je mesto gde možete dodati BIP39 passphrase na novi Wallet.
 Da biste produbili svoje znanje o passphrase, preporučujem ovaj vodič:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Primite bitkoine
 
@@ -239,4 +239,4 @@ Imaćete pristup vašem Bitcoin Wallet, sa istim funkcijama kao na web klijentu.
 Da biste nastavili dalje, preporučujem ovaj vodič o Jade Plus, najnovijem Hardware Wallet kompanije Blockstream:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

@@ -51,7 +51,7 @@ Untuk detail lebih lanjut mengenai cara kerja Lightning Network, bacalah kursus 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Model bisnis
 
@@ -149,7 +149,7 @@ Lihat tutorial Zeus kami untuk mempelajari lebih lanjut tentang Wallet yang leng
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Konfigurasi web
 
@@ -390,12 +390,13 @@ Pendekatan yang sangat sederhana ini sangat cocok untuk pemula, tetapi membatasi
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| Layanan | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Jumlah minimum |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + biaya penambangan | 0.5% + biaya penambangan | 25.000 sats |
+| **Boltz** | 0.2% + biaya penambangan | 0.5% + biaya penambangan | 50.000 sats |
+| **Phoenix** | Hanya biaya penambangan | 0.4% tetap | 10.000 sats |
+| **Breez** | 0.25% + biaya jaringan | 0.5% + biaya penambangan | 50.000 sats |
 
 Zeus Swap menawarkan keseimbangan antara kemudahan penggunaan dan kontrol teknis: lebih mudah diakses daripada Boltz, lebih fleksibel daripada Phoenix/Breez, dengan pendekatan non-kustodian yang ketat.
 

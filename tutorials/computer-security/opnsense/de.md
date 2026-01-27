@@ -139,7 +139,7 @@ Sie können auch **eine rack-montierbare OPNsense-Appliance** über unseren Onli
 
 
 
-Sie müssen die für den Betrieb von OPNsense erforderlichen Hardware-Ressourcen berücksichtigen. Dies wird auf [dieser Dokumentationsseite] (https://docs.opnsense.org/manual/hardware.html) ausführlich beschrieben.
+Sie müssen die für den Betrieb von OPNsense erforderlichen Hardware-Ressourcen berücksichtigen. Dies wird auf [dieser Dokumentationsseite](https://docs.opnsense.org/manual/hardware.html) ausführlich beschrieben.
 
 
 

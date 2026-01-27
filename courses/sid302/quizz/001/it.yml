@@ -1,0 +1,8 @@
+question: Quante firme funzionali sono necessarie per convalidare un blocco nel Liquid Network?
+answer: Almeno 11 funzionari su 15 devono firmare
+wrong_answers:
+  - Almeno 8 funzionari su 15 devono firmare
+  - Almeno 10 funzionari su 15 devono firmare
+  - Almeno 12 funzionari su 15 devono firmare
+explanation: |
+  Il Liquid Network richiede le firme di almeno 11 dei 15 funzionari per convalidare un blocco, il che rappresenta una soglia di due terzi più uno. Questo requisito specifico garantisce un consenso solido e impedisce a un piccolo gruppo di controllare la rete. Le altre opzioni non sono corrette: 8 firme sarebbero troppo poche per la sicurezza, 10 non soddisferebbero la soglia dei due terzi e 12 sarebbero inutilmente restrittive per le normali operazioni.

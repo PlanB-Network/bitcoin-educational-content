@@ -1,12 +1,12 @@
 ---
 name: Contribution - Tutorials
-description: How do I submit new content to Plan ₿ Network?
+description: How do I submit new content to Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
-Plan ₿ Network's mission is to make leading educational resources on Bitcoin available in as many languages as possible. All content published on the site is open-source and hosted on GitHub, giving anyone the opportunity to participate in enriching the platform. Contributions can take many forms: correction and proofreading of existing texts, translation into other languages, updating of information or even creation of new tutorials not yet available on our site.
+Plan ₿ Academy's mission is to make leading educational resources on Bitcoin available in as many languages as possible. All content published on the site is open-source and hosted on GitHub, giving anyone the opportunity to participate in enriching the platform. Contributions can take many forms: correction and proofreading of existing texts, translation into other languages, updating of information or even creation of new tutorials not yet available on our site.
 
-In this tutorial, we'll look at how to add new content, such as a tutorial or course, to the Plan ₿ Network platform.
+In this tutorial, we'll look at how to add new content, such as a tutorial or course, to the Plan ₿ Academy platform.
 
 ## What's the difference between a tutorial and a course?
 
@@ -14,13 +14,13 @@ The two main sections of our platform are courses and tutorials. Courses provide
 
 Courses are naturally longer and more structured than tutorials. They should explore a specific topic related to Bitcoin or its ecosystem in depth, precision and detail.
 
-[Discover Plan ₿ Network courses](https://planb.network/courses)
+[Discover Plan ₿ Academy courses](https://planb.academy/courses)
 
 ![TUTO](assets/fr/37.webp)
 
 Tutorials are generally shorter. They are intended as step-by-step guides on how to perform a specific Bitcoin-related task, with images as support.
 
-[Discover Plan ₿ Network tutorials](https://planb.network/tutorials)
+[Discover Plan ₿ Academy tutorials](https://planb.academy/tutorials)
 
 ![TUTO](assets/fr/38.webp)
 
@@ -34,7 +34,7 @@ In your message, please introduce yourself briefly and describe your course idea
 
 ## How do I submit a new tutorial?
 
-To add a new tutorial to Plan ₿ Network, you can do so directly on GitHub by submitting a Pull Request. In the tutorial below and the accompanying tutorials, I take you step-by-step through this process and inform you of the guidelines to follow to ensure your tutorial's compatibility with the platform, while maintaining a clear contribution history.
+To add a new tutorial to Plan ₿ Academy, you can do so directly on GitHub by submitting a Pull Request. In the tutorial below and the accompanying tutorials, I take you step-by-step through this process and inform you of the guidelines to follow to ensure your tutorial's compatibility with the platform, while maintaining a clear contribution history.
 
 ## 1 - Choose a theme for your tutorial
 
@@ -48,7 +48,7 @@ We are primarily looking for tutorials on tools related to Bitcoin or its ecosys
 - Exchange ;
 - Confidentiality.
 
-Beyond these topics specifically related to Bitcoin, Plan ₿ Network is also looking for contributions on topics that emphasize individual sovereignty, such as:
+Beyond these topics specifically related to Bitcoin, Plan ₿ Academy is also looking for contributions on topics that emphasize individual sovereignty, such as:
 
 
 - Open source tools ;
@@ -62,11 +62,11 @@ Beyond these topics specifically related to Bitcoin, Plan ₿ Network is also lo
 
 For example, we currently have tutorials on Tails, Nostr and GrapheneOS. These tools are not directly related to Bitcoin, but they are systems that could be of interest to us as part of a move towards sovereignty in the digital world. These contents can be integrated into a sub-category of the "Others" section.
 
-You can either design a tutorial from scratch, or take a tutorial previously published on your website (provided you own the copyright) and share it on Plan ₿ Network too, adding a link to the original article.
+You can either design a tutorial from scratch, or take a tutorial previously published on your website (provided you own the copyright) and share it on Plan ₿ Academy too, adding a link to the original article.
 
-Whichever you choose, please bear in mind that all content published on Plan ₿ Network is licensed under a free [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) license. This license authorizes anyone to copy and, potentially, modify your content, on the sole condition that the original source is duly credited.
+Whichever you choose, please bear in mind that all content published on Plan ₿ Academy is licensed under a free [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) license. This license authorizes anyone to copy and, potentially, modify your content, on the sole condition that the original source is duly credited.
 
-## 2 - Contact the Plan ₿ Network team
+## 2 - Contact the Plan ₿ Academy team
 
 Once you've chosen the theme for your tutorial, the next step is to inform us of your intention to add this content to the platform. The easiest way, if you have a Telegram account, is to [join our group](https://t.me/PlanBNetwork_ContentBuilder).
 
@@ -80,19 +80,19 @@ paolo@planb.network
 
 ## 3 - Choosing the right tools to contribute
 
-To contribute to Plan ₿ Network, you have 3 options depending on your level of experience with GitHub:
+To contribute to Plan ₿ Academy, you have 3 options depending on your level of experience with GitHub:
 
 
-- **Experienced users**: Continue with your usual methods and simply consult the short tutorial below which summarizes the Plan ₿ Network repository file structure, specific requirements and working method:
+- **Experienced users**: Continue with your usual methods and simply consult the short tutorial below which summarizes the Plan ₿ Academy repository file structure, specific requirements and working method:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- **Intermediate (GitHub Desktop)**: If you're not familiar with using Git, the first option is to easily set up your own local environment to contribute to Plan ₿ Network. This approach is recommended for significant contributions, such as writing a full tutorial. To do this, follow the step-by-step tutorial below:
+- **Intermediate (GitHub Desktop)**: If you're not familiar with using Git, the first option is to easily set up your own local environment to contribute to Plan ₿ Academy. This approach is recommended for significant contributions, such as writing a full tutorial. To do this, follow the step-by-step tutorial below:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - **Beginners (web interface)**: You can also opt to use GitHub's web interface directly, without having to set up a complete local environment. This method can be considered for minor contributions. However, for major contributions, such as adding a complete new tutorial, this option may prove more complex than setting up a local environment. I'll explain how to do this in this tutorial:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
-Choose one of these three options according to your level of knowledge, then get started writing your first Plan ₿ Network tutorial!
+Choose one of these three options according to your level of knowledge, then get started writing your first Plan ₿ Academy tutorial!

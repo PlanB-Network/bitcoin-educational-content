@@ -1,21 +1,18 @@
 ---
-name: Einführung in die Österreichische Schule der Nationalökonomie
-goal: Entdecke die Österreichische Schule der Nationalökonomie. Studiere ihre Ansichten über Gesellschaft und makro-/mikroökonomische Realitäten.
+name: Grundlagen der Österreichischen Schule der Nationalökonomie
+goal: Entdecken Sie die Österreichische Schule der Nationalökonomie als alternativen Rahmen zur Analyse von Märkten und individueller Entscheidungsfindung
 objectives:
-  - Eine Alternative zum Keynesianismus
-  - Die Bedeutung von Hartwährung
-  - Warum und wie werden unsere Wirtschaftszyklen erschaffen?
-  - Warum sind die Zentralbanker verrückt geworden?
+- Die Funktionen von Geld, Kredit und Zentralbanksystemen analysieren
+- Die subjektive Werttheorie und Zeitpräferenz auf Marktverhalten anwenden
+- Die Österreichische Konjunkturtheorie und ihre Ursachen verstehen
+- Die Österreichische Methodologie mit mainstream-ökonomischen Ansätzen vergleichen
 ---
+# Reise zur Österreichischen Ökonomie
 
-# Eine Reise in die Wirtschaftswissenschaften
+Haben Sie sich jemals gefragt, warum manche Ökonomen anders über Märkte, Freiheit und menschliches Verhalten denken? Die Österreichische Ökonomie bietet eine erfrischende Perspektive, die Sie in den Mittelpunkt des ökonomischen Denkens stellt. Anstelle von komplizierter Mathematik und abstrakten Modellen konzentriert sich dieser Ansatz auf Logik, menschliche Entscheidungen und darauf, wie echte Menschen in ihrem täglichen Leben Entscheidungen treffen. Es ist Ökonomie durch die Linse von Freiheit, Rationalität und persönlichem Handeln.
 
-Willkommen zu Théo Mogenet Kurs! Als leidenschaftlicher Kenner der Wirtschaftswissenschaften, Geschichte, Literatur, Politikwissenschaften und Technologie hat er sich dazu entschlossen, sein Wissen über die österreichische Wirtschaftswissenschaft mit Ihnen zu teilen. Diese weniger bekannte Richtung in der Wirtschaftswissenschaft basiert auf menschlicher Rationalität und dem Verhalten freier Akteure. Weniger mathematisch intensiv, handelt es sich vor allem um Logik und soziale Studien.
-
-Diese Denkschule hat bereits mehrere Jahrhunderte hinter sich und eine ganze Reihe von Autoren, Gedanken und Ökonomen stehen dahinter. Große Namen der Wirtschaftswissenschaften wie Hayek, Rothbard, Mises, Bastiat oder Menger haben diese Bewegung lange verteidigt. Im Gegensatz zum allgegenwärtigen Keynesianismus unserer Zeit stellt die österreichische Schule das Individuum wieder in den Mittelpunkt der Gleichung mit einem liberaleren, kapitalistischeren und sogar anarchistischen Ansatz.
-
+Diese Denkschule prägt seit Jahrhunderten Debatten, dank einflussreicher Denker wie Hayek, Mises und Bastiat. Während die keynesianische Mainstream-Ökonomie heute die politischen Diskussionen dominiert, stellt die österreichische Tradition andere Fragen: Was passiert, wenn wir individuelle Freiheit priorisieren? Wie funktionieren freie Märkte tatsächlich, wenn Menschen frei wählen können? Wenn Sie neugierig auf alternative Denkweisen über Märkte, Gesellschaft und Freiheit sind, ist dies Ihre Chance, Ideen zu erkunden, die Sie in Standardlehrbüchern nicht finden werden.
 +++
-
 # Einführung
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
@@ -505,9 +502,8 @@ Die Folgen einer solchen Fehlallokation umfassen Finanz- und Wirtschaftskrisen, 
 
 Heutzutage taucht die Debatte über die wirtschaftliche Berechnung hauptsächlich in Diskussionen über Energie auf, wo durch eine grüne Agenda verursachte Fehlinvestitionen zunehmend offensichtlich werden. Sie entsteht auch in Diskussionen über Geldmärkte, wobei österreichische Ökonomen darauf hinweisen, dass die 2008er Krise, die von Mainstream-Ökonomen nicht vorhergesagt wurde, ein klassischer Boom- und Bust-Zyklus war, der durch Überinvestitionen auf dem Immobilienmarkt aufgrund langanhaltender Niedrigzinsphasen gekennzeichnet war. Darüber hinaus propagieren Neo-Marxisten und andere sozialistische Fraktionen die Vorstellung, dass das Aufkommen von KI das Problem der wirtschaftlichen Berechnung lösen könnte. Diese Perspektive beruht jedoch auf einem fehlerhaften Verständnis des Problems; das Problem der wirtschaftlichen Berechnung ist keine Frage der Rechenleistung, sondern eine Frage der Generierung und Verteilung von Informationen im Zusammenhang mit Produktion und Ressourcenallokation. Diese Informationen können nur lokal von Agenten mit spezialisiertem Wissen und einem persönlichen Interesse am Ergebnis generiert werden. KI kann diesen bottom-up Prozess nicht ersetzen und kann daher den zentralen Planern nicht dabei helfen, das Problem der Ressourcenallokation anzugehen. Leider erwarten wir aufgrund eines Jahrhunderts des Missverständnisses eine Zunahme von Behauptungen, dass KI eine neue Ära des wirtschaftlichen Wohlstands einläuten wird, angeführt von aufgeklärten zentralen Planern, die mit Hilfe von KI die Fehler freier Märkte korrigieren können.
 
-Für eine konkrete Anwendung des Problems der wirtschaftlichen Berechnung auf eine zeitgenössische Situation können Sie sich auf diesen Artikel beziehen, der sich mit dem Problem der Ressourcenallokation im modernen China befasst.
+Für eine konkrete Anwendung des Problems der Wirtschaftsrechnung auf eine zeitgenössische Situation können Sie sich auf diesen Artikel zur Ressourcenallokation im modernen China beziehen: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, von Théo Mogenet.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Fazit
 

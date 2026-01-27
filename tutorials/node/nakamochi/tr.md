@@ -81,7 +81,7 @@ _Ek güvenlik için bir PIN kodu ayarlayın_
 ## Lightning Network Hakkında
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network, Bitcoin işlemlerini daha hızlı, daha ucuz ve daha verimli hale getirerek devrim yaratır. Günlük kullanım için mükemmeldir, minimum ücretlerle neredeyse anında ödeme yapılmasını sağlar, kahve satın almak veya sık sık yapılan küçük alışverişler gibi mikro işlemler için idealdir.
 

@@ -1,0 +1,8 @@
+question: Was würde mit dem Gesamtangebot von Bitcoin passieren, wenn die Bergleute konsequent nur 90 % der zulässigen Blocksubvention für alle Blöcke in Anspruch nehmen würden?
+answer: Das Gesamtangebot würde dauerhaft unter 21 Millionen BTC sinken, da nicht in Anspruch genommene Subventionen für immer verloren wären
+wrong_answers:
+  - Die verbleibenden 10 % würden in einem Reservepool angesammelt, den künftige Bergleute in Zeiten niedriger Gebühren in Anspruch nehmen können
+  - Der Mechanismus zur Anpassung des Schwierigkeitsgrads würde einen Ausgleich schaffen, indem er die künftigen Blockprämien erhöht, um die Obergrenze von 21 Millionen zu erhalten
+  - Die nicht in Anspruch genommenen Subventionen würden in den folgenden Blöcken anteilig auf die Empfänger von Transaktionsgebühren umverteilt
+explanation: |
+  Das Bitcoin-Protokoll erlaubt es Minern, weniger als die maximal erlaubte Subvention zu beanspruchen, aber jeder nicht beanspruchte Betrag ist dauerhaft verloren - es gibt keinen Mechanismus, um ihn später umzuverteilen oder zurückzugewinnen. Die Subventionsformel und der Halbierungsplan bestimmen das theoretische Maximum von ~21 Millionen BTC, aber das tatsächliche Angebot hängt davon ab, ob die Bergleute ihren vollen Anspruch geltend machen. Anders als bei der Schwierigkeitsanpassung, die auf mining-Bedingungen reagiert, gibt es keinen Ausgleichsmechanismus für nicht eingeforderte Belohnungen, wodurch das Gesamtangebot potenziell deflationär wird, wenn die Miner ständig zu wenig einfordern.

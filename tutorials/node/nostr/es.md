@@ -1,11 +1,10 @@
 ---
-name: NOSTR
-
-description: Descubre y comienza a usar NOSTR
+name: Nostr
+description: Descubre y comienza a usar Nostr
 ---
 
 
-![Un nuevo retador ha llegado](assets/1.webp)
+![Un nuevo retador ha llegado](assets/cover.webp)
 
 *Al final de esta guía, comprenderás qué es Nostr, habrás creado una cuenta y podrás usarla.*
 

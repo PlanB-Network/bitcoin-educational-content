@@ -1,0 +1,8 @@
+question: Wat is de belangrijkste reden dat scriptpuzzels die alleen vertrouwen op openbare gegevens zonder handtekeningcontroles kwetsbaar zijn in Bitcoin?
+answer: Miners kunnen de oplossing uit de mempool kopiëren en de uitbetaling naar zichzelf doorsturen
+wrong_answers:
+  - De scriptuitvoering wordt niet-deterministisch op verschillende netwerkknooppunten
+  - De validatietijd van de transactie neemt kwadratisch toe met de complexiteit van de puzzel
+  - Het stapelgebaseerde executiemodel kan complexe wiskundige bewerkingen niet veilig afhandelen
+explanation: |
+  Scriptpuzzels die alleen vertrouwen op openbare gegevens (zoals wiskundeproblemen of hash pre-pagina's) zonder handtekeningcontroles zijn kwetsbaar voor miner front-running. Zodra een geldige oplossing in de mempool verschijnt, kan elke miner deze observeren, de oplossing kopiëren en hun eigen transactie creëren om de uitbetaling naar hun adres om te leiden. Dit is de reden waarom echte Bitcoin contracten bijna altijd handtekeningcontroles bevatten - handtekeningen binden de oplossing aan een specifieke partij en voorkomen dat anderen de uitbetaling stelen.

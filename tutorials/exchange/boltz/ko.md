@@ -54,7 +54,7 @@ description: 제어권을 유지하면서 다른 Bitcoin 레이어 간을 전환
 
 
 
-아토믹 Exchange은 스마트 컨트랙트 [HTLC](https://planb.network/resources/glossary/htlc)(*해시된 타임락 Contract*)와 함께 작동합니다. 이 유형의 Contract에서는 양방향 채널에 금액이 "잠기고" 시간 제한이 도입되어 특정 시간 내에 거래가 완료되지 않으면 잔액이 입금자에게 반환됩니다. 이것이 바로 볼츠 플랫폼에서 사용하는 메커니즘입니다.
+아토믹 Exchange은 스마트 컨트랙트 [HTLC](https://planb.academy/resources/glossary/htlc)(*해시된 타임락 Contract*)와 함께 작동합니다. 이 유형의 Contract에서는 양방향 채널에 금액이 "잠기고" 시간 제한이 도입되어 특정 시간 내에 거래가 완료되지 않으면 잔액이 입금자에게 반환됩니다. 이것이 바로 볼츠 플랫폼에서 사용하는 메커니즘입니다.
 
 
 
@@ -116,9 +116,9 @@ description: 제어권을 유지하면서 다른 Bitcoin 레이어 간을 전환
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -152,9 +152,9 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 결제가 완료되고 확인되면 해당 금액이 자동으로 Lightning Wallet로 전송됩니다.
 
@@ -188,6 +188,6 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 이제 Exchange 에코시스템의 여러 계층 간에 상호 운용성을 지원하는 고유한 Bitcoin 플랫폼인 Boltz에 대해 잘 알고 계실 것입니다.

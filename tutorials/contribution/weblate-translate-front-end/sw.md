@@ -5,7 +5,7 @@ description: Unawezaje kushiriki katika tafsiri ya Elements tuli kwenye planb.ne
 ![cover](assets/cover.webp)
 
 
-Dhamira ya Plan ₿ Network ni kutoa nyenzo za elimu za daraja la kwanza kwenye Bitcoin na kuzitafsiri katika lugha nyingi iwezekanavyo. Mengi ya maudhui yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, kuruhusu mtu yeyote kushiriki katika kuimarisha jukwaa. Michango inaweza kuchukua aina mbalimbali: kusasisha na kusahihisha maudhui yaliyopo, kusasisha maelezo, au kuunda mafunzo mapya ya kuongeza kwenye jukwaa.
+Dhamira ya Plan ₿ Academy ni kutoa nyenzo za elimu za daraja la kwanza kwenye Bitcoin na kuzitafsiri katika lugha nyingi iwezekanavyo. Mengi ya maudhui yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, kuruhusu mtu yeyote kushiriki katika kuimarisha jukwaa. Michango inaweza kuchukua aina mbalimbali: kusasisha na kusahihisha maudhui yaliyopo, kusasisha maelezo, au kuunda mafunzo mapya ya kuongeza kwenye jukwaa.
 
 
 Katika somo hili, tutakuonyesha jinsi ya kuchangia kwa urahisi katika tafsiri ya tuli ya Elements kwenye tovuti yetu. Data kwenye jukwaa imegawanywa katika makundi mawili makuu:
@@ -18,12 +18,12 @@ Katika somo hili, tutakuonyesha jinsi ya kuchangia kwa urahisi katika tafsiri ya
 Ili kutafsiri maudhui ya elimu, tunatumia [akili bandia](https://github.com/Asi0Flammeus/LLM-Translator). Kisha, ili kurekebisha makosa ya baadaye katika faili hizi, tunawaalika wasahihishaji kuchangia. Ikiwa ungependa kusahihisha baadhi ya maudhui, soma mafunzo yafuatayo:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 Kwa upande mwingine, ikiwa ungependa kutafsiri Elements tuli ya tovuti (bila kujumuisha maudhui ya elimu), uko mahali pazuri! Ili kutafsiri vyema mandhari ya mbele, tunatumia zana ya Wavuti, ambayo ni rahisi sana kutumia na kuwezesha mbinu ya kutafsiri.
 
 
-Iwapo ungependa kuongeza lugha mpya kabisa kwenye Plan ₿ Network, hakikisha kuwa umewasiliana na timu ya Plan ₿ Network kupitia [kundi letu la Telegram](https://t.me/PlanBNetwork_ContentBuilder). Ikiwa huna telegramu, unaweza kutuma barua pepe kwa mari@planb.network. Hakikisha umeandika wasilisho dogo kuhusu wewe ni nani na lugha unazozungumza.
+Iwapo ungependa kuongeza lugha mpya kabisa kwenye Plan ₿ Academy, hakikisha kuwa umewasiliana na timu ya Plan ₿ Academy kupitia [kundi letu la Telegram](https://t.me/PlanBNetwork_ContentBuilder). Ikiwa huna telegramu, unaweza kutuma barua pepe kwa mari@planb.network. Hakikisha umeandika wasilisho dogo kuhusu wewe ni nani na lugha unazozungumza.
 
 Washiriki wa timu yetu watakupa maagizo mahususi na watafungua "maswala" yanayohusiana kwenye Github ili kuratibu kazi yako.
 
@@ -31,7 +31,7 @@ Washiriki wa timu yetu watakupa maagizo mahususi na watafungua "maswala" yanayoh
 Kabla ya kufuata mafunzo haya mahususi ili kuongeza lugha mpya kwenye Wavuti.
 
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 Ukiwa tayari kuanza kutafsiri, rudi kwenye somo hili na upitie mambo yafuatayo.
 
@@ -40,7 +40,7 @@ Ukiwa tayari kuanza kutafsiri, rudi kwenye somo hili na upitie mambo yafuatayo.
 
 
 
-- Nenda kwa [Tovuti iliyopangishwa yenyewe ya Plan ₿ Network](https://weblate.planb.network/):
+- Nenda kwa [Tovuti iliyopangishwa yenyewe ya Plan ₿ Academy](https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 
@@ -70,7 +70,7 @@ Ukiwa tayari kuanza kutafsiri, rudi kwenye somo hili na upitie mambo yafuatayo.
 ![weblate](assets/06.webp)
 
 
-- Sasa unaweza kurudi kwenye dashibodi ya Plan ₿ Network:
+- Sasa unaweza kurudi kwenye dashibodi ya Plan ₿ Academy:
 
 ![weblate](assets/07.webp)
 
@@ -159,7 +159,7 @@ Ukiwa tayari kuanza kutafsiri, rudi kwenye somo hili na upitie mambo yafuatayo.
 
 
 - Unapopata maneno yameingizwa ndani ya mabano yaliyopinda "{", huhitaji kuyatafsiri. Kwa mfano, katika "Akaunti yako imeundwa, {{userName}}!", utatafsiri sentensi nzima, lakini udumishe "jina la mtumiaji" kwa Kiingereza.
-- Unapopata "Plan ₿ Network" katika mfuatano, hakikisha HAKUNA kutafsiri neno "mtandao" (zingatia Plan ₿ Network kama chapa ya biashara). Kando na hilo, kila wakati tumia ₿ ya Bitcoin!
+- Unapopata "Plan ₿ Academy" katika mfuatano, hakikisha HAKUNA kutafsiri neno "mtandao" (zingatia Plan ₿ Academy kama chapa ya biashara). Kando na hilo, kila wakati tumia ₿ ya Bitcoin!
 - Ukipata neno "mtandao" peke yake, unaweza kulitafsiri, badala yake.
 - Usitafsiri "B-CERT", kwani ni neno lingine lililowekwa.
 - Ukipata mifuatano inayoisha na nafasi, unaweza kuiacha.
@@ -174,4 +174,4 @@ Ukiwa tayari kuanza kutafsiri, rudi kwenye somo hili na upitie mambo yafuatayo.
 ![weblate](assets/23.webp)
 
 
-Asante mapema kwa mchango wako katika tafsiri ya Plan ₿ Network! Iwapo una maswali au maoni yoyote maalum kwa ajili yetu, jisikie huru kuwasiliana nasi kupitia [Telegram group](https://t.me/PlanBNetwork_ContentBuilder).
+Asante mapema kwa mchango wako katika tafsiri ya Plan ₿ Academy! Iwapo una maswali au maoni yoyote maalum kwa ajili yetu, jisikie huru kuwasiliana nasi kupitia [Telegram group](https://t.me/PlanBNetwork_ContentBuilder).

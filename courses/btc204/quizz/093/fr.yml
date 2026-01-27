@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   La Tx0 vise à préparer et à égaliser les UTXOs pour le coinjoin, en les divisant en unités correspondant au montant de la pool sélectionnée, afin d'assurer l'homogénéité du mixage.
 
-reviewed: false
+reviewed: true 

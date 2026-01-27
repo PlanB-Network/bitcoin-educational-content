@@ -21,7 +21,7 @@ Tunnet luultavasti sanonnan "Not your keys, not your coins", joka kannustaa säi
 
 
 
-BTC 202 on helppokäyttöinen kurssi, joka on suunniteltu opettamaan sinulle, miten kehräät oman Bitcoin-solmusi, vaikka et olisikaan tekninen asiantuntija. Aloitamme määrittelemällä, mikä Bitcoin-solmu on, mihin sitä käytetään ja miksi on ehdottoman tärkeää kehrätä sellainen itse. Sen jälkeen opastan sinua askel askeleelta laitteiston valinnassa, tarvittavan ohjelmiston asentamisessa, Wallet-solmun kytkemisessä ja ensimmäisten mahdollisten optimointien tekemisessä, jotta voit viedä sitä pidemmälle.
+BTC 202 on helposti saavutettava koulutus, joka on suunniteltu opettamaan sinulle, kuinka voit ajaa omaa Bitcoin-solmua, vaikka et olisikaan tekninen asiantuntija. Aloitamme määrittelemällä, mikä on Bitcoin-solmu, mihin sitä käytetään ja miksi on ehdottoman tärkeää ajaa omaa solmua. Sen jälkeen opastan sinua askel askeleelta laitteiston valinnassa, tarvittavan ohjelmiston asentamisessa, lompakko-ohjelmiston yhdistämisessä ja ensimmäisissä mahdollisissa optimoinneissa edetäksesi pidemmälle.
 
 
 
@@ -118,7 +118,7 @@ Tämän jälkeen käymme läpi osan aiemmin kurssilla käsitellystä teoriasta, 
 
 
 
-Kuten kaikilla Plan ₿ Network-kursseilla, loppuosassa on loppukoe, jossa testataan tietämystäsi Bitcoin-solmuista.
+Kuten kaikilla Plan ₿ Academy-kursseilla, loppuosassa on loppukoe, jossa testataan tietämystäsi Bitcoin-solmuista.
 
 
 
@@ -328,7 +328,7 @@ Miner tarvitsee Bitcoin-solmun ollakseen yhteydessä verkkoon.
 
 
 
-Miner:n rooli on myös toisinaan erotettu kopterin roolista. Hakkuri on kone, jonka tehtävänä on Hash mallilohkojen, jotka poolipalvelin toimittaa, hakeminen etsimällä hasheja, jotka täyttävät osuuksille määritellyn vaikeustavoitteen, ei Bitcoin:n. Loput Mining-prosessista, johon kuuluu varsinainen lohkojen rakentaminen, transaktioiden valinta tai Bitcoin:n oman vaikeusasteen mukainen Proof-of-Work-haku sekä jakelu, suoritetaan suoraan poolien toimesta.
+Miner:n rooli on myös toisinaan erotettu grind roolista. Grind on kone, jonka tehtävänä on Hash mallilohkojen, jotka poolipalvelin toimittaa, hakeminen etsimällä hasheja, jotka täyttävät osuuksille määritellyn vaikeustavoitteen, ei Bitcoin:n. Loput Mining-prosessista, johon kuuluu varsinainen lohkojen rakentaminen, transaktioiden valinta tai Bitcoin:n oman vaikeusasteen mukainen Proof-of-Work-haku sekä jakelu, suoritetaan suoraan poolien toimesta.
 
 
 
@@ -410,7 +410,7 @@ Toisin sanoen noin yhdeksässä kymmenestä julkisesta solmusta käytetään Bit
 
 
 
-Bitcoin core on kirjoitettu C++-kielellä. Se on myös avoimen lähdekoodin hanke, jota ylläpitää kehittäjäyhteisö, joka toimii vapaaehtoisesti tai saa palkkaa eri tahoilta (usein ekosysteemiin kuuluvilta yrityksiltä, jotka ovat kiinnostuneita Coren kehittämisestä). [Koodi on GitHubissa](https://github.com/Bitcoin/Bitcoin), ja kehitys noudattaa tiukkaa:
+Bitcoin Core on C++-kielellä kirjoitettu ohjelmisto. Se on myös avoimen lähdekoodin projekti, jota ylläpitää yhteisö kehittäjiä — vapaaehtoisia tai eri tahojen palkkaamia (usein ekosysteemin yrityksiä, jotka ovat kiinnostuneita siitä, että Core-kehitys etenee suotuisasti). [Koodi on isännöity GitHubissa](https://github.com/bitcoin/bitcoin), ja kehitys noudattaa tiukkaa mallia:
 
 
 
@@ -448,7 +448,7 @@ Voimme myös mainita:
 
 - Libbitcoin**: Amir Taakin kehittämä ja Eric Voskuilin ylläpitämä modulaarinen C++-kirjasto;
 - Bcoin**: JavaScript-toteutus, jota ei enää ylläpidetä aktiivisesti;
-- BTCD/btcsuit**e: toteutus Go-kielellä.
+- **BTCD/btcsuite** : toteutus Go-kielellä.
 
 
 
@@ -481,7 +481,7 @@ Kuten keskustelemme myöhemmin tällä kurssilla, solmut (eli kauppiaat) antavat
 
 
 
-## Miksi vääntää omaa solmua?
+## Miksi ajaa omaa solmua?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Yleisesti uskotaan, että Bitcoin-solmun käyttäminen on puhtaasti epäitsekäs
 
 
 
-Kuten edellisissä luvuissa todettiin, solmun kehräämisestä ei ole suoraa taloudellista hyötyä. Sen vuoksi voisi ajatella, että siihen ei ole mitään henkilökohtaista etua. Oman solmun pyörittäminen tuo kuitenkin monia yksilöllisiä etuja. Voidakseni vakuuttaa sinut tästä, esittelen tässä luvussa kaikki syyt, sekä tekniset että strategiset, miksi sinun pitäisi asentaa ja käyttää omaa Bitcoin-solmua.
+Kuten olemme aiemmissa luvuissa korostaneet, solmun ajaminen ei tuota suoraa taloudellista hyötyä. Voisi siis ajatella, ettei sen tekemisessä ole henkilökohtaista hyötyä. Kuitenkin oman solmun käyttäminen tuo monia yksilöllisiä etuja. Vakuuttaakseni sinut tästä esittelen tässä luvussa kaikki tekniset ja strategiset syyt, jotka tulisi kannustaa sinua asentamaan ja käyttämään omaa Bitcoin-solmuasi.
 
 
 
@@ -516,7 +516,7 @@ Käyttämällä omaa solmua lähetät transaktiosi suoraan verkkoon, jolloin vä
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Ei-sensuroitavat liiketoimet
 
@@ -576,7 +576,7 @@ Full node:n asentaminen ei ole mikään yksinkertainen toimenpide. Siihen kuuluu
 
 
 
-Tämän tiedon hankkiminen vahvistaa luottamusta työkaluun ja voi vähentää virheriskiä tai huijauksille altistumista. Oman solmun kehrääminen on myös yksi oppimisen muoto.
+Tämän tiedon hankkiminen vahvistaa luottamustasi työkaluun ja voi vähentää virheiden tai huijausten riskiä. Oman solmun ajaminen tarkoittaa myös oppimista.
 
 
 
@@ -692,7 +692,7 @@ Ratkaisevaa ei siis ole solmujen määrä vaan niiden tukeman taloudellisen toim
 
 
 
-> Ei sinun solmusi, ei sinun sääntösi.
+> Ei sinun solmusi, ei sinun sääntöjäsi.
 
 
 ## Bitcoin-solmujen eri tyypit
@@ -706,7 +706,7 @@ Bitcoin-solmu on siis kone, jossa on Bitcoin-protokollan toteutus. Tämän solmu
 
 
 
-### Täydellinen solmu
+### Täysi solmu
 
 
 
@@ -730,7 +730,7 @@ Tarpeidesi mukaan voit lisätä Full node:ään indeksoijan. Bitcoin core tarjoa
 
 
 
-### pruned-solmu
+### Karsittu solmu
 
 
 
@@ -754,7 +754,7 @@ Lyhyesti sanottuna Wallet-seuranta toimii ongelmitta pruned-solmussa, jos luot u
 
 
 
-### Valosolmu / SPV
+### Kevyt solmu / SPV
 
 
 
@@ -849,7 +849,7 @@ Tämä on kaikkein suvereenein ja joustavin lähestymistapa: tiedät tarkalleen,
 
 
 
-#### Bitcoin core (erittäin suuri enemmistöasiakas)
+#### Bitcoin Core (ylivoimaisesti hallitseva asiakasohjelma)
 
 
 
@@ -865,11 +865,11 @@ Tämä on kaikkein suvereenein ja joustavin lähestymistapa: tiedät tarkalleen,
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (tärkein vaihtoehtoinen asiakas)
+#### Bitcoin Knots (pääasiallinen vaihtoehtoinen asiakasohjelma)
 
 
 
@@ -886,7 +886,7 @@ On kaksi mahdollista syytä valita Knots Coreen nähden:
 - Politiikka**: Jotkut haluavat käyttää vaihtoehtoisia asiakkaita, kuten Knotsia, muista kuin teknisistä syistä, erityisesti tukeakseen vaihtoehtoa Core-ohjelmalle ja vähentääkseen siten sen monopolia. Jos Core joskus vaarantuisi, olisi hyödyllistä, että olisi paitsi vankkoja, hyvin ylläpidettyjä vaihtoehtoisia asiakkaita, myös tietoa siitä, miten niitä käytetään tehokkaasti. Toiset käyttävät Knotsia protestitarkoituksessa, koska he ovat menettäneet luottamuksensa Coren kehittäjiin tai eivät hyväksy suurinta osaa asiakkaan hallinnosta.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Suosittelen henkilökohtaisesti valitsemaan Core-version, lähinnä siksi, että voit hyötyä tietoturvakorjauksista nopeammin. Jotkin Knotsissa havaitut haavoittuvuudet korjataan nimittäin viiveellä. Yleisemmin Core-kehitysprosessi on vakaasti jäsennelty ja sitä tukee suuri määrä tekijöitä, kun taas Knotsia ylläpitää yksi henkilö ja sen yhteisö on paljon pienempi. Toisaalta relesäännöt menettävät nykyään usein hyödyllisyytensä, varsinkin kun niitä soveltaa vain pieni osa verkosta (kuten perkolaatioteoriassa).
 
@@ -942,7 +942,7 @@ En käsittele tässä yksityiskohtaisemmin, miten se toimii ja mitkä ovat sen e
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -968,7 +968,7 @@ Lyhyesti sanottuna, jos tarvitset vain olennaiset sovellukset Bitcoin:lle, etkä
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
@@ -986,7 +986,7 @@ Käytännössä MyNode kokoaa yhteen kaikki Full node:n käyttämiseen tarvittav
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ Jos omistat Raspberry Pi:n, tämä on erinomainen vaihtoehto, sillä Umbrelin ka
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ Hankkeessa tarjottiin aiemmin valmiiksi konfiguroitua konetta nimeltä Tanto, mu
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1437,7 +1437,7 @@ Umbrel tarjoaa kaksi erilaista lähestymistapaa:
 
 
 
-- [**Umbrel Home**] (https://umbrel.com/umbrel-home): Tämä on käyttövalmis minipalvelin, joka on erityisesti suunniteltu ja optimoitu umbrelOS:lle. Kompakti, hiljainen, Ethernet-yhteydellä varustettu, varustettu NVMe SSD-levyllä (jopa 4TB valinnaisesti), 16GB RAM-muistilla ja neliydinsuorittimella. Tilaat sen, kytket sen ja menet osoitteeseen `umbrel.local`. Saat toimivan Umbrelin käyttöön muutamassa minuutissa. Tämä on plug-and-play-vaihtoehto.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): Tämä on käyttövalmis minipalvelin, joka on erityisesti suunniteltu ja optimoitu umbrelOS:lle. Kompakti, hiljainen, Ethernet-yhteydellä varustettu, varustettu NVMe SSD-levyllä (jopa 4TB valinnaisesti), 16GB RAM-muistilla ja neliydinsuorittimella. Tilaat sen, kytket sen ja menet osoitteeseen `umbrel.local`. Saat toimivan Umbrelin käyttöön muutamassa minuutissa. Tämä on plug-and-play-vaihtoehto.
 
 
 
@@ -1565,7 +1565,7 @@ Jos olet valinnut Raspberry Pi 5:n (vaihtoehtoa en suosittele, kuten edellisess�
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Kuten edellisessä osiossa mainittiin, päätin suorittaa tämän opetusohjelman pienellä kunnostetulla tietokoneella, jonka löysin edullisesti: *Lenovo ThinkCentre M900 Tiny*, joka on varustettu Intel Core i7 -suorittimella ja 16 Gt RAM-muistilla. Tämä on erittäin mukava kokoonpano Umbrelin käyttämiseen, erityisesti Bitcoin-solmulle. Valitsin kuitenkin tämän kokoonpanon, koska haluan asentaa Lightning-solmun ja muita vaativampia sovelluksia myöhemmin. Olen myös lisännyt ThinkCentreeni 2 Tt:n SSD-levyn säilyttääkseni täyden Blockchain:n ja saadakseni silti mukavan marginaalin. Tällä kokoonpanolla kokonaiskustannukset ovat 270 euroa kaikkine kuluineen.
 
@@ -1822,7 +1822,7 @@ Umbrelin IP Address:n tunnistamiseen on useita menetelmiä, yksinkertaisimmista 
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Valitse vahva salasana ja varmista, että sinulla on vähintään yksi varmuusko
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Kun olet syöttänyt salasanasi, napsauta "*Luo*"-painiketta.
 
@@ -1944,7 +1944,7 @@ Ensinnäkin suosittelen vahvasti kaksitekijätodennuksen (2FA) käyttöönottoa.
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Voit tehdä tämän napsauttamalla vastaavaa ruutua asetuksissa.
 
@@ -2435,7 +2435,7 @@ Kuten aiemmin mainittiin, etsintäohjelma voi sijaita verkossa verkkosivustolla 
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Lisäksi Internet-palveluntarjoajasi (ISP) saattaa tietää, että katselet tiettyä tapahtumaa Block explorer-sivuston kautta. Tämä herättää myös luottamuskysymyksen: sinun on luotettava siihen, että verkkopalvelu antaa sinulle oikeat tiedot liiketoimistasi, mutta et voi itse tarkistaa niiden todenperäisyyttä.
 
@@ -2472,7 +2472,7 @@ Jos haluat lisätietoja Mempool.Space explorerin käytöstä, suosittelen tätä
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Salama-solmu
 
@@ -2492,15 +2492,15 @@ Umbrel tarjoaa useita sovelluksia, joiden avulla saat Lightning-solmun käyttö�
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Sen jälkeen voit hallita solmua Interface:n pääsivustolta tai, jos haluat vielä enemmän toimintoja ja lisäasetuksia, asentaa *Ride The Lightning*- tai *ThunderHub*-ohjelman. Näiden työkalujen avulla saat solmusi käyttöön paljon kattavamman Interface:n verkkopohjaisen hallintajärjestelmän.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2514,9 +2514,11 @@ Lopuksi suosittelen *Lightning Network+*-sovellusta, jonka avulla voit löytää
 
 
 
-Umbrelin ansiosta henkilökohtaisen Lightning-solmun hallinta on yksinkertaistunut huomattavasti, mutta se on silti suhteellisen monimutkaista. Tästä syystä tarkastelemme aihetta tarkemmin tulevalla kurssilla, joka on omistettu kokonaan tälle käyttötarkoitukselle.
+Umbrelin ansiosta henkilökohtaisen Lightning-solmun hallinta on yksinkertaistunut, mutta se on silti suhteellisen monimutkaista. Tästä syystä suosittelen osallistumaan LNP 202 -kurssille, joka on looginen jatko BTC 202 -kurssille ja jossa opastan teitä vaihe vaiheelta Lightning-solmunne käyttöönotossa ja hallinnassa Umbrelissa.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 
@@ -2564,7 +2566,7 @@ Jos haluat asentaa ja määrittää Tailscalen Umbreliin, katso tämän ohjeen o
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2590,7 +2592,7 @@ Nostr-asiakkaat ***noStrudel*** tai ***Snort*** ovat myös saatavilla Umbrelissa
 
 
 
-Lisäksi Umbrelissa on ***Nostr Wallet Connect*** -sovellus, joka mahdollistaa natiivit Lightning-maksut Nostrissa. Konkreettisesti sanottuna voit yhdistää tulevan Lightning-solmun Nostr-asiakkaisiisi lähettääksesi mikromaksuja, joita kutsutaan nimellä "*zaps*", palkita sisältöä tai olla vuorovaikutuksessa rahanarvoisella tavalla ilman, että sinun tarvitsee mennä kolmannen osapuolen palvelun kautta. Nämä maksut lähetetään suoraan henkilökohtaisesta solmusta kanaviesi kautta.
+Lopuksi Umbrelissa on sovellus ***Nostr Wallet Connect***, joka mahdollistaa alkuperäiset Lightning-maksut Nostrissa. Käytännössä voit yhdistää tulevan Lightning-solmusi Nostr-asiakkaisiisi lähettääksesi mikromaksuja, joita kutsutaan nimellä "*zaps*", palkitaksesi sisältöä tai ollaksesi vuorovaikutuksessa rahallisesti ilman kolmannen osapuolen palvelua. Nämä maksut lähtevät suoraan henkilökohtaisesta solmustasi kanaviesi kautta.
 
 
 
@@ -2598,7 +2600,7 @@ Jos haluat tietää, miten kaikkia näitä sovelluksia käytetään, suosittelen
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### BTCPay-palvelin
 
@@ -2626,7 +2628,7 @@ Jos omistat yrityksen ja haluat hyväksyä Bitcoin-maksuja suoraan Umbrel-solmun
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2636,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2644,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Edistyneet käsitteet ja parhaat käytännöt
@@ -2652,7 +2654,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Sateenvarjosolmun ylläpito
+## Oman Umbrel-solmun ylläpito
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2751,7 +2753,7 @@ Jos haluat syventää tietämystäsi tietoturvasta yleensä, suosittelen sinua t
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Diagnoosi ja itseapu
 
@@ -2929,7 +2931,7 @@ Jos solmusi kuuntelee avointa porttia (oletusarvoisesti 8333), se hyväksyy saap
 
 
 
-## Bitcoin-solmun anatomia
+## Bitcoin-solmusi anatomia
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,7 +2943,7 @@ Kun solmu on suorittanut alkusynkronoinnin, se tallentaa paikallisesti useita to
 
 
 
-- gW-402 **lohkot** tallennettuna levylle,
+- levylle tallennetut lohkoketjun **lohkot**,
 - avain-arvotietokannassa ylläpidetty **UTXO-sarja**,
 - ja **Mempool** tallennetaan RAM-muistiin ja sarjoitetaan määräajoin.
 
@@ -3077,9 +3079,9 @@ UTXO-sarjan kasvu johtuu myös Bitcoin:n yksinkertaisten maksutapahtumien rakent
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Koska osa siitä on pidettävä RAM-muistissa, jotta tapahtumat voidaan tarkistaa kohtuullisessa ajassa, UTXO-sarja voi vähitellen tehdä Full node:n käytöstä liian kallista. Tämän ongelman ratkaisemiseksi on jo olemassa muutamia ehdotuksia, erityisesti [Utreexo](https://planb.network/resources/glossary/utreexo).
+Koska osa siitä on pidettävä RAM-muistissa, jotta tapahtumat voidaan tarkistaa kohtuullisessa ajassa, UTXO-sarja voi vähitellen tehdä Full node:n käytöstä liian kallista. Tämän ongelman ratkaisemiseksi on jo olemassa muutamia ehdotuksia, erityisesti [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3093,7 +3095,7 @@ Mempool on paikallinen joukko kelvollisia tapahtumia, jotka on vastaanotettu mut
 
 
 - gW-614:lle parametrin `maxmempool` kautta varattu koko: solmuun, jolla on suurempi Mempool, mahtuu enemmän tapahtumia kuin solmuun, jolla on pienempi Mempool (ellei jälkimmäinen tyhjene);
-- gW-433-säännöt: Nämä ovat osajoukko solmun välityssääntöjä, ja niissä määritellään ominaisuudet, jotka vahvistamattoman tapahtuman on täytettävä, jotta se voidaan hyväksyä Mempool:ssä;
+- mempoolin säännöt: ne muodostavat solmun välityssääntöjen osajoukon ja määrittelevät ominaisuudet, jotka vahvistamattoman tapahtuman on täytettävä tullakseen hyväksytyksi mempooliin;
 - transaktioiden perkolaatio: eri tekijöistä johtuen tietty transaktio on saattanut levitä yhteen verkon osaan, mutta ei ole vielä saavuttanut toista osaa.
 
 
@@ -3135,10 +3137,10 @@ Useat muut tiedostot, jotka ovat samalla tasolla kuin `blocks/`, `chainstate/` j
 - Kun solmu kytketään pois päältä, `anchors.dat` tallentaa lähtevien vertaisverkkojen osoitteet, jotta voit yrittää ottaa niihin yhteyttä nopeasti uudelleen, kun käynnistät järjestelmän seuraavan kerran.
 - `banlist.json` sisältää operaattorin tai solmun päättämiä paikallisia kieltoja (toistuva virheellinen käyttäytyminen), joilla estetään solmua muodostamasta uudelleen yhteyksiä tai hyväksymästä yhteyksiä kyseisiltä vertaisverkoilta.
 - maksuestimaattorit.dat tallentaa havaittujen vahvistusten aikahorisonttitilastot, joita maksuestimaattori käyttää ehdottaessaan maksuja, jotka ovat yhdenmukaisia tapahtuman luomisen yhteydessä valittujen viivetavoitteiden kanssa.
-- gW-446.conf` sisältää solmun konfigurointiparametrit. Täällä voit säätää välityssääntöjä. Kerron tästä lisää seuraavassa luvussa.
+- `bitcoin.conf` sisältää solmusi määritysparametrit. Juuri tässä tiedostossa voidaan säätää välityssääntöjä. Kerron siitä tarkemmin seuraavassa luvussa;
 - `settings.json` sisältää lisäparametreja tiedostoon `Bitcoin.conf`.
 - `debug.log` on diagnostinen tekstiloki, jota voidaan käyttää solmun toiminnan ymmärtämiseen vian sattuessa.
-- gW-448.pid` tallentaa prosessin tunnisteen ajon aikana, jolloin muut sovellukset tai skriptit voivat helposti tunnistaa bitcoind:n (*Bitcoin daemon*) ja olla sen kanssa vuorovaikutuksessa tarvittaessa. Se luodaan solmun käynnistyksen yhteydessä ja poistetaan sen sammutuksen yhteydessä.
+- `bitcoind.pid` tallentaa prosessin tunnisteen suorituksen aikana, mikä mahdollistaa muiden sovellusten tai skriptien helposti tunnistaa Bitcoindin (*Bitcoin Daemon*) ja olla vuorovaikutuksessa sen kanssa tarvittaessa. Se luodaan solmun käynnistyessä ja poistetaan sen pysähtyessä;
 - `ip_asn.map` on IP → ASN-kartoitustaulukko (itsenäinen järjestelmä), jota käytetään bucketingiin ja vertaisverkon hajauttamiseen (`-asmap`-vaihtoehto).
 - `onion_v3_private_key` tallentaa Tor v3 -palvelun yksityisen avaimen, kun `-listenonion`-vaihtoehto on käytössä, jotta onion Address pysyy vakaana uudelleenkäynnistysten välillä.
 - `i2p_private_key` tallentaa I2P:n yksityisen avaimen, kun käytetään `-i2psam=`, jotta voidaan muodostaa lähteviä ja mahdollisesti saapuvia yhteyksiä I2P:llä.
@@ -3154,9 +3156,9 @@ Kuten näimme tämän BTC 202 -kurssin ensimmäisissä osissa, Bitcoin core on s
 
 
 
-- `wallets/` on oletushakemisto, jossa on yksi tai useampi;
+- `wallets/` on oletushakemisto, joka sisältää yhden tai useamman lompakon;
 - `wallets/<nimi>/Wallet.dat` on Wallet:n SQLite-tietokanta (avaimet, kuvaajat, tapahtumien metatiedot jne.);
-- wallets/<name>/Wallet.dat-journal` on SQLiten rollback-loki.
+- `wallets/<name>/wallet.dat-journal` on SQLite-rollback-loki.
 
 
 
@@ -3335,10 +3337,10 @@ Verkkotasolla meillä on myös:
 
 
 - `addnode`: lisää ystävällisen vertaissolmun, johon voi ottaa yhteyttä tavanomaisen löytämisen lisäksi (voidaan määrittää useita kertoja).
-- connect`: rajoittaa yhteydet tiukasti tarjottuun Address:een (voidaan määrittää useita kertoja). Core ei muodosta yhteyttä mihinkään muuhun solmuun.
+- `connect`: rajoittaa yhteydet tiukasti annettuun osoitteeseen (voidaan määrittää useita kertoja). Core ei yhdistä mihinkään muuhun solmuun;
 - `seednode`: käytetään vain book-Address:n täyttämiseen, kun yhteys solmuun muodostetaan ja yhteys katkaistaan.
 - `maxconnections`: Määrittää saapuvien + lähtevien yhteyksien globaalin enimmäismäärän. Oletusarvoisesti tämä parametri on 125, mikä tarkoittaa, että solmusi ei koskaan hyväksy yli 125 yhteyttä.
-- maxuploadtarget`: rajoittaa latauksia kaistanleveyden rajoittamiseksi 24 tunnin liukuvan ikkunan aikana. Tämä yläraja ei uhraa olennaisen tärkeän viimeaikaisen Elements:n etenemistä.
+- `maxuploadtarget` : rajoittaa latausta kaistanleveyden rajoittamiseksi 24 tunnin liukuvassa ikkunassa. Tämä rajoitus ei estä välttämättömien uusien elementtien leviämistä;
 - `onlynet`: rajoittaa lähtevät yhteydet vain valittuihin verkkoihin (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Jos esimerkiksi haluat, että solmusi muodostaa yhteyden Bitcoin-verkkoon vain Torin kautta, voit ottaa parametrin `onlynet=onion` käyttöön ja poistaa saapuvat yhteydet käytöstä (tai sallia yhteydet vain Torin kautta).
 - `dnsseed`: sallii tai estää _DNS-siemeniä_ pyytämästä vertaisverkkoja, kun paikallinen Address-varasto on vähissä (oletus: `1`, ellei `-connect` tai `-maxconnections=0`).
 - `forcednsseed`: pakottaa pyytämään _DNS-siemeniä_ käynnistyksen yhteydessä, vaikka sinulla olisi jo osoitteita varastossa (oletus: `0`).
@@ -3362,7 +3364,7 @@ Jotta Tor olisi täysin käytössä, sinun on pakotettava Bitcoin core käyttäm
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3420,7 @@ Tässä ovat perusparametrit, joita voit muuttaa Bitcoin.conf-tiedostossasi Memp
 
 
 
-- blocksonly=1`: Estää vertaisilta vastaanotettujen vahvistamattomien transaktioiden hyväksymisen ja uudelleenlähettämisen (ellei erityisoikeuksia ole myönnetty). Solmu lataa ja mainostaa nyt vain lohkoja. Paikallisesti luodut transaktiot voidaan edelleen lähettää (käyttääksesi solmua Wallet-ohjelmiston kanssa). Tämä vähentää huomattavasti kaistanleveys- ja RAM-vaatimuksia, vaikkakin sillä hinnalla, että välittäjän hyöty vähenee ja Mempool:n käyttö on täysin tuntematonta.
+- `blocksonly=1` : Poistaa käytöstä vertaisilta vastaanotettujen vahvistamattomien tapahtumien hyväksymisen ja välittämisen (paitsi erityisluvalla). Solmu lataa ja ilmoittaa vain lohkoja. Paikallisesti luodut tapahtumat voidaan silti lähettää (käyttääksesi solmua lompakko-ohjelmistosi kanssa). Tämä vähentää huomattavasti kaistanleveyden ja RAM-muistin tarvetta, mutta pienentää edelleenlähetyksen hyödyllisyyttä ja poistaa kokonaan mempoolin tuntemuksen.
 
 
 
@@ -3448,7 +3450,7 @@ Tässä ovat Mempool:n ja välityskäytännön lisäasetukset. Jos olet aloittel
 
 
 
-- datacarrier=1`: Sallii muiden kuin rahoitustietoja sisältävien tapahtumien välittämisen ja (jos Mining solmun kautta) sisällyttämisen OP_RETURN-lähtöön (oletus: `1`). Tämän parametrin poistaminen käytöstä pienentää hieman muiden kuin rahoitustietojen roskapostin pinta-alaa, mutta vähentää yhteensopivuutta tiettyjen käyttötarkoitusten kanssa. Kaikissa tapauksissa sinun on hyväksyttävä louhittu `OP_RETURN`.
+- `datacarrier=1` : Sallii välityksen ja (jos louhinta tapahtuu solmun kautta) ei-taloudellisia tietoja sisältävien tapahtumien sisällyttämisen `OP_RETURN`-ulostulon kautta (oletus: `1`). Tämän parametrin poistaminen käytöstä vähentää hieman ei-taloudellisten tietojen roskapostin pinta-alaa, mutta heikentää yhteensopivuutta tiettyjen käyttötapojen kanssa. Kaikissa tapauksissa sinun on hyväksyttävä louhitut `OP_RETURN`.
 
 
 
@@ -3490,13 +3492,13 @@ Tässä ovat Mempool:n ja välityskäytännön lisäasetukset. Jos olet aloittel
 
 
 
-- peerbloomfilters=1`: Suodatettujen lohkojen/transaktioiden tarjoamiseksi ohuille asiakkaille (oletus: `0`). Varoitus: tämä lisää resurssien kuormitusta.
+- `peerbloomfilters=1` : Ottaa käyttöön Bloom-suodattimien (BIP37) tuen suodatettujen lohkojen/tapahtumien tarjoamiseksi kevyille asiakkaille (oletus: `0`). Huomio, tämä lisää resurssiesi kuormitusta.
 
 
 
 
 
-- peerblockfilters=1`: Tarjoaa BIP157 (*Neutrino*) kompaktisuodattimet vertaisverkoille (oletus: `0`).
+- `peerblockfilters=1` : Palvelee tiivistettyjä BIP157 (*Neutrino*) suodattimia vertaisille (oletus: `0`).
 
 
 
@@ -3520,7 +3522,7 @@ Voit myös säätää tapaa, jolla lompakoitasi hallitaan Bitcoin.conf-tiedostos
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Määrittää Wallet:n tuottamien osoitteiden muodon vastaanottoa varten.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Määrittää lompakon vastaanottoa varten luomien osoitteiden muodon.
 
 
 
@@ -3568,7 +3570,7 @@ Voit myös säätää tapaa, jolla lompakoitasi hallitaan Bitcoin.conf-tiedostos
 
 
 
-- fallbackfee=<amt>`: Fallback rate (BTC/kvB), jota käytetään, jos estimaattorilta loppuu data (oletus: `0.00`). Asettamalla sen arvoksi 0 se poistaa fallbackin kokonaan käytöstä.
+- `fallbackfee=<amt>` : Varamaksu (BTC/kvB), jota käytetään, jos arvioijalta puuttuu tietoja (oletus: `0.00`). Asettaminen arvoon 0 poistaa varatoiminnon kokonaan käytöstä.
 
 
 
@@ -3660,7 +3662,7 @@ Määritystiedoston avulla voit myös säätää koneeseesi liittyviä parametre
 
 
 
-- txindex=1`: Rakentaa ja ylläpitää vahvistettujen tapahtumien globaalia indeksiä. Välttämätön tietyissä kyselyissä (`getrawtransaction`, ei-Wallet) ja etsintätarkoituksissa, mutta kasvattaa merkittävästi levytilaa. Ei yhteensopiva pruned-tilan kanssa.
+- `txindex=1` : Luo ja ylläpitää vahvistettujen tapahtumien maailmanlaajuista indeksiä. Välttämätön tietyille kyselyille (`getrawtransaction` lompakon ulkopuolella) ja tutkimustarkoituksiin, mutta lisää merkittävästi levyn käyttöä. Ei yhteensopiva karsitun tilan kanssa.
 
 
 
@@ -3894,15 +3896,17 @@ Voit nyt siirtyä kurssin viimeiseen osaan, jossa voit arvioida BTC 202:n ja teh
 
 
 
-Sinulla on nyt useita vaihtoehtoja. Seuraava looginen askel on perustaa oma Lightning-solmusi, jolloin voit olla täysin riippumaton off-chain-tapahtumissasi. Tämä on aiheena tulevassa kurssissa, joka julkaistaan syksyllä 2025 Plan ₿ Network:sta.
+Useita polkuja on nyt avoinna edessäsi. Seuraava looginen askel on oman Lightning-solmun perustaminen, jotta olisit täysin itsenäinen off-chain-transaktioissasi. Juuri tästä aiheesta käsittelee toinen kurssi Plan ₿ Academyssa:
 
 
 
-Sillä välin kutsun sinut tutustumaan BTC 204 -koulutukseen, jonka avulla voit ymmärtää ja hallita yksityisyyden suojan periaatteet Bitcoin:n käytössäsi:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Kutsun teid myös tutustumaan koulutukseen BTC 204, jonka avulla voitte ymmärtää ja hallita yksityisyyden suojan periaatteita Bitcoinin käytössänne:
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Viimeinen osa

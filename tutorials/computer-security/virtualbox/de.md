@@ -43,7 +43,7 @@ Meine Konfiguration: **ein Windows 11-Arbeitsplatz, auf dem ich VirtualBox insta
 
 
 
-Um VirtualBox für die Installation auf einem Windows-Rechner herunterzuladen, gibt es nur einen guten Address: die [offizielle VirtualBox-Website] (https://www.virtualbox.org/wiki/Downloads) im Abschnitt "**Downloads**". Klicken Sie einfach auf "Windows-Hosts", um den Download dieser ausführbaren Datei zu starten, die etwas über 100 MB groß ist.
+Um VirtualBox für die Installation auf einem Windows-Rechner herunterzuladen, gibt es nur einen guten Address: die [offizielle VirtualBox-Website](https://www.virtualbox.org/wiki/Downloads) im Abschnitt "**Downloads**". Klicken Sie einfach auf "Windows-Hosts", um den Download dieser ausführbaren Datei zu starten, die etwas über 100 MB groß ist.
 
 
 

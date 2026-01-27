@@ -1,0 +1,8 @@
+question: Mục đích chính của dấu chấm than (!) theo sau tên macro trong Rust là gì?
+answer: Nó đóng vai trò như một chỉ báo trực quan cho thấy quá trình tạo mã đang diễn ra trong thời gian biên dịch chứ không phải là một lời gọi hàm trong thời gian chạy.
+wrong_answers:
+  - Điều này cho thấy macro sẽ gặp lỗi nghiêm trọng nếu nhận được các tham số đầu vào không hợp lệ trong quá trình thực thi.
+  - Nó đánh dấu macro là không an toàn và yêu cầu xác nhận rõ ràng về các vấn đề tiềm ẩn liên quan đến an toàn bộ nhớ.
+  - Nó chỉ rõ rằng macro trả về một kiểu dữ liệu Result và kiểu dữ liệu này phải được xử lý bằng cơ chế kiểm tra lỗi.
+explanation: |
+  Dấu chấm than trong cú pháp macro của Rust là một lựa chọn thiết kế có chủ ý nhằm phân biệt trực quan giữa macro và hàm. Khi bạn thấy `println!()` hoặc `vec![]`, dấu `!` ngay lập tức báo hiệu rằng quá trình mở rộng mã sẽ diễn ra trong quá trình biên dịch, chứ không phải là một lời gọi hàm trong thời gian chạy. Sự phân biệt này rất quan trọng vì macro hoạt động khác biệt về cơ bản so với hàm - chúng thực thi mã trong quá trình biên dịch thông qua việc khớp mẫu và mở rộng. Các câu trả lời sai nhầm lẫn điều này với các hành vi trong thời gian chạy như gây lỗi, các thao tác không an toàn hoặc xử lý lỗi, nhưng dấu chấm than đặc biệt chỉ ra bản chất lập trình siêu cấp trong thời gian biên dịch của macro.

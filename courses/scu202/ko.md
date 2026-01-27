@@ -156,7 +156,7 @@ IT 보안을 완전히 제어하고 개인의 주권을 강화하며 온라인 �
 
 
 
-*참고: 과정 중에 생소한 용어가 나오면 [용어집](https://planb.network/resources/glossary)을 참조하여 정의를 확인하세요*
+*참고: 과정 중에 생소한 용어가 나오면 [용어집](https://planb.academy/resources/glossary)을 참조하여 정의를 확인하세요*
 
 
 
@@ -179,7 +179,7 @@ SCU101 과정은 IT 초급 및 중급 사용자를 위한 디지털 위생 입�
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### 안전한 온라인 브라우징
 
@@ -976,7 +976,7 @@ Slackware는 오늘날에도 여전히 유지 관리되고 있으며, 가장 오
 아치 리눅스는 무엇보다도 설치 및 유지 관리의 복잡성을 감수하면서 자신의 환경을 완벽하게 제어하려는 고급 사용자를 대상으로 합니다. 이러한 기술적 요구 사항으로 인해 사용의 대중화를 목표로 하는 여러 파생 배포판이 등장했습니다.
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 가장 잘 알려진 Manjaro는 Arch의 기술 기반을 유지하면서 간소화된 설치, 사전 구성된 데스크톱 환경, 업데이트 안정화를 위해 약간 지연된 릴리스 주기를 제공합니다.
 
@@ -1064,7 +1064,7 @@ Canonical에서 개발하여 2004년에 출시된 Ubuntu는 세계에서 가장 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1076,7 +1076,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint는 단순성, 멀티미디어 코덱의 기본 제공, 잘 설계된 업데이트 도구가 돋보입니다. 반면에 우분투의 인프라에 크게 의존하기 때문에 우분투의 기술적 선택(특히 커널 및 리포지토리 수준)에 따라 달라질 수 있습니다. Mint는 기술에 익숙하지 않은 사용자나 많은 학습이 필요하지 않고 바로 사용할 수 있는 시스템을 원하는 사용자에게 특히 적합합니다.
 
@@ -1112,7 +1112,7 @@ Mint는 단순성, 멀티미디어 코덱의 기본 제공, 잘 설계된 업데
 2011년에 출시된 초등 OS는 무엇보다도 Interface의 디자인과 일관성에 중점을 둔 우분투 기반 배포판입니다. MacOS에서 영감을 받은 판테온 데스크톱 환경은 미니멀하고 우아하며 유동적입니다. 하지만 다른 배포판보다 사용자 지정 기능이 떨어지고 일부 고급 사용자는 Interface의 선택 사항과 의도적으로 잠겨 있는 구조로 인해 제한을 느낄 수 있습니다. 미학적으로 민감한 사용자에게 적합하며, 일상적으로 사용할 수 있는 단순하고 일관된 시스템을 찾는 사용자에게 적합합니다.
 
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 ![Image](assets/fr/023.webp)
@@ -1154,7 +1154,7 @@ Fedora는 최신 기술(Wayland, PipeWire, Flatpak...)을 지향하는 Red Hat �
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
 - 오픈소스**(텀블위드 또는 도약)**:
@@ -1182,7 +1182,7 @@ https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
 - **Manjaro**:
@@ -1211,7 +1211,7 @@ Arch Linux는 Interface나 불필요한 소프트웨어 없이 제공되는 미�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### 전문 유통
 
@@ -1252,7 +1252,7 @@ Tails는 개인 정보 보호에 중점을 둔 데비안 기반 라이브 배포
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **주:** 라이브 배포는 Hard 디스크에 설치하지 않고 USB 스틱이나 CD에서 바로 사용할 수 있는 Linux 운영 체제입니다.
 
@@ -1305,7 +1305,7 @@ PureOS는 퓨리즘에서 개발한 데비안 파생 배포판으로, 완전 무
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 
 - **라즈베리 파이 OS**:
@@ -1333,7 +1333,7 @@ Whonix는 2-VM 아키텍처(게이트웨이 + 워크스테이션)에서 Debian�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 이 파노라마는 현재 Linux 배포판 생태계에 대한 개요를 제공하여 기술 프로필과 목표에 가장 적합한 배포판을 선택할 수 있도록 해줍니다.
 
@@ -1953,7 +1953,7 @@ Linux를 검색하는 동안 특정 소프트웨어 애플리케이션(예: 비�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 설치가 완료되면 메시지가 표시되면 USB 키를 제거한 다음 재부팅합니다. 이제 우분투가 설치되어 컴퓨터에서 사용할 준비가 되었습니다.
 
@@ -2992,7 +2992,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Office 제품군
 
 
@@ -3129,13 +3129,13 @@ sudo snap install code --classic
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 마지막으로 이 장을 마무리하며 매일 따라야 할 몇 가지 모범 사례를 소개합니다:
 
@@ -3227,9 +3227,9 @@ sudo apt update && sudo apt upgrade
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 마지막으로, 특히 공유 또는 모바일 환경에서 컴퓨터를 사용하는 경우 3~6개월마다 정기적으로 비밀번호를 변경하세요.
 
@@ -3329,13 +3329,13 @@ UEFI 보안은 종종 간과되지만 지능형 공격으로부터 컴퓨터를 
 - 설치 중에 이 옵션을 선택하지 않으면 Linux 배포판은 디스크를 자동으로 암호화하지 않습니다. LUKS를 사용하여 디스크를 암호화할 수 있습니다
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 어떤 경우든 암호 해독 비밀번호는 시스템 비밀번호와 구별되는 강력한 비밀번호여야 하며 안전한 비밀번호 관리자에 저장해야 합니다. 민감한 데이터가 포함된 외장 디스크나 USB 키를 사용하는 경우에는 VeraCrypt와 같은 도구를 사용하여 개별적으로 암호화하는 것도 고려하세요.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### 최소 권한의 원칙
 
@@ -3432,7 +3432,7 @@ Linux에서는 각 세션에 대한 액세스 권한을 추가로 제한하는 �
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 IT 보안 측면에서 가상 머신의 가장 큰 장점 중 하나는 구획화 기능입니다. 가상 머신은 명시적으로 이러한 교환을 구성하지 않는 한 파일, 프로세스 또는 네트워크 액세스를 호스트 시스템과 공유하지 않습니다. 따라서 가상 머신이 멀웨어에 감염되거나 내부에서 민감한 소프트웨어를 테스트하는 경우 격리 매개변수(공유 디렉터리 없음, 가상 머신으로 전달되는 USB 장치 없음...)를 준수하는 경우 메인 시스템은 그대로 유지되므로 그 영향은 해당 가상 머신에만 국한됩니다.
 
@@ -3968,7 +3968,7 @@ MacOS에서는 *런치패드* 또는 *파인더*의 두 가지 주요 방법이 
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### MacOS에서
 
@@ -4080,7 +4080,7 @@ macOS는 특히 애플리케이션 서명 정책과 비교적 폐쇄적인 아�
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 소프트웨어 무결성 및 신뢰성 확인
 
@@ -4484,7 +4484,7 @@ Alice는 노트북에 파일 버전을 보관하고 매일 사용합니다. 최�
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 따라서 Alice은 3-2-1 규칙을 준수하여 파일 사본 3개(컴퓨터, USB 키, 클라우드)를 최소 2개의 다른 미디어(내부 디스크, USB 키, 원격 서버)에 저장하고, 최소 1개의 오프사이트 사본(클라우드 서버)을 보유하고 있습니다.
 
@@ -4571,7 +4571,7 @@ NAS가 있는 경우, *Syncthing* 또는 *Rclone*과 같은 도구를 사용하�
 Linux에서 표준 솔루션은 LUKS(*Linux Unified Key Setup*)입니다. LUKS는 대부분의 배포판에 통합된 암호화된 볼륨 관리 시스템입니다. 시스템을 처음 설치하면 일반적으로 전체 컴퓨터 디스크를 암호화하라는 메시지가 표시됩니다. 물론 이 옵션을 활성화하는 것이 좋습니다. 암호화를 활성화하면 OS가 로드되기 전이라도 부팅할 때마다 시스템에서 비밀번호를 묻습니다. 이렇게 하면 디스크에 대한 물리적 액세스가 보안을 우회할 수 없습니다.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 외부 디스크나 USB 스틱을 암호화하려면 명령줄이나 그래픽 Interface을 통해서도 할 수 있습니다. 디스크를 포맷해야 하므로 먼저 백업하지 않으면 기존의 모든 데이터가 손실됩니다.
 
@@ -4847,7 +4847,7 @@ Windows에서는 기본 솔루션으로 디스크를 암호화할 수 있습니�
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4905,14 +4905,14 @@ FileVault가 활성화되면 비밀번호 분실 시 복구 방법을 선택해�
 훌륭한 대안은 크립토메이터입니다. 이 오픈 소스 소프트웨어를 사용하면 보관된 모든 파일이 자동으로 암호화되는 특수 디렉터리인 금고를 만들 수 있습니다. 이 금고는 제공업체가 암호화되지 않은 데이터에 액세스할 필요 없이 Dropbox, Google Drive 또는 Nextcloud와 같은 클라우드 서비스와 동기화할 수 있습니다. 이 애플리케이션은 Android와 iOS를 포함한 모든 운영 체제에서 사용할 수 있으며, 특별한 기술력이 필요하지 않습니다.
 
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 ![Image](assets/fr/256.webp)
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 마지막으로, 디스크처럼 마운트할 수 있는 암호화된 아카이브 역할을 하는 파일을 생성하는 컨테이너 모드에서 VeraCrypt를 사용할 수도 있습니다.
 
@@ -4988,18 +4988,18 @@ sudo apt install libimage-exiftool-perl
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Name.jpg`를 파일의 실제 이름으로 바꿉니다. 또한 이 이미지가 포함된 디렉토리에 있는지 확인하세요. 예를 들어 `/Downloads` 디렉터리에 Satoshi 나카모토 동상 사진이 있는 경우 다음 명령을 실행하여 메타데이터를 표시할 수 있습니다:
+Name.webp`를 파일의 실제 이름으로 바꿉니다. 또한 이 이미지가 포함된 디렉토리에 있는지 확인하세요. 예를 들어 `/Downloads` 디렉터리에 Satoshi 나카모토 동상 사진이 있는 경우 다음 명령을 실행하여 메타데이터를 표시할 수 있습니다:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -5036,7 +5036,7 @@ exiftool Satoshi-Nakamoto-Lugano.jpeg
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5058,7 +5058,7 @@ exiftool -all= name.jpg
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5082,12 +5082,12 @@ exiftool -all= -overwrite_original name.jpg
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-현재 디렉토리에 있는 모든 JPEG 파일의 메타데이터를 삭제합니다. 필요에 맞게 확장자를 조정할 수 있습니다(`*.png`, `*.pdf`...).
+현재 디렉토리에 있는 모든 JPEG 파일의 메타데이터를 삭제합니다. 필요에 맞게 확장자를 조정할 수 있습니다(`*.webp`, `*.pdf`...).
 
 
 
@@ -5625,9 +5625,9 @@ Blink는 Google이 Chrome(및 Chromium)에 탑재하기 위해 시작한 WebKit�
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Brave
 
@@ -5787,7 +5787,7 @@ Firefox는 특정 성능 영역에서 Blink 기반 브라우저보다 약간 뒤
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### 토르 브라우저
 
 
@@ -5796,7 +5796,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 단점은 성능이 크게 저하되고(높은 지연 시간) 특정 웹사이트와의 호환성이 제한된다는 점입니다. 토르 브라우저는 민감한 활동(저널리즘, 활동주의 등)에는 이상적이지만, 일상적인 사용에는 적합하지 않습니다.
 
@@ -5812,12 +5812,12 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 [멀바드 브라우저](https://mullvad.net/en/browser)는 토르 재단과 멀바드 VPN이 협력한 결과물입니다. 이 브라우저는 파이어폭스 ESR에서 파생된 토르 브라우저를 기반으로 합니다. 뮬바드 브라우저는 사용자 개인 정보 보호를 극대화하도록 설계되었습니다. 기본적으로 핑거프린팅, 트래커 및 타사 스크립트에 대한 고급 보호 기능이 포함되어 있습니다.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 토르 브라우저에서 제공하는 대부분의 보안 및 개인 정보 보호 기능을 제공하지만, 한 가지 차이점이 있다면 토르 네트워크를 통해 트래픽을 리디렉션하지 않는다는 점입니다. IP Address 유출을 피하기 위해 VPN(이상적으로는 Mullvad VPN)과 함께 사용할 수 있습니다.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 초보자든 고급 사용자든 개인 정보 보호가 걱정된다면 Mullvad 브라우저는 훌륭한 솔루션입니다.
 
@@ -5843,7 +5843,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Zen 브라우저
 
@@ -5869,7 +5869,7 @@ Zen은 Mozilla 계정을 통한 동기화뿐만 아니라 Firefox 확장 기능�
 자유롭고 혁신적이며 깔끔하고 개인 정보를 존중하는 Gecko 브라우징 환경을 찾고 있다면 Zen Browser가 흥미로운 대안이 될 수 있습니다.
 
 
-https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit 기반 브라우저
 
@@ -5915,7 +5915,7 @@ Orion은 몇 가지 기술적 측면에서 Safari와 다릅니다:
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### 렌더링 엔진이 없는 브라우저
 
 
@@ -6095,9 +6095,9 @@ sudo apt update && sudo apt upgrade firefox
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 비밀번호 관리자를 사용하면 여러 개의 비밀번호를 외울 필요가 없어 일상 생활이 간편해지고, 주요 인증 취약점인 사용자 자신을 최소화하는 등 여러 가지 장점이 있습니다.
 
@@ -6107,13 +6107,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### VPN 사용
 
@@ -6147,11 +6147,11 @@ VPN을 사용하면 여러 가지 이점이 있습니다. 제3자가 데이터�
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 유명 VPN은 피해야 합니다. 공격적인 마케팅에도 불구하고, 이들은 중앙 집중식 상업 서비스이며, 보호 수준이 낮은 관할권에 기반을 둔 경우가 많고 실제 기술 운영에 대해 투명하게 공개하지 않는 경우가 많습니다.
 
@@ -6686,7 +6686,7 @@ GrapheneOS에는 독점 구성 요소가 통합되어 있지 않습니다. Googl
 그래핀은 최신 Google Pixel(Pixel 6, 7, 8, 9)과만 호환됩니다.
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6902,11 +6902,11 @@ Android에서 '.apk' 파일을 통해 애플리케이션을 설치하는 경우 
 자신을 보호하려면 이러한 공용 네트워크 사용을 피하거나 디바이스와 원격 서버 사이에 암호화된 터널을 생성하는 VPN을 사용하세요. 이 터널은 데이터를 캡슐화하여 가로채거나 수정하기가 매우 어렵습니다.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 가정용 Wi-Fi 네트워크에 대해서는 SCU 202 과정의 마지막 부분에서 설명하겠습니다.
 
@@ -6981,7 +6981,7 @@ Android의 스눕스니치와 같은 일부 애플리케이션은 네트워크�
 이를 위해서는 외부 디스크나 암호화된 USB 키(예: Veracrypt)와 같은 암호화된 로컬 솔루션을 사용해야 합니다. 그렇지 않은 경우, *Syncthing* 또는 *Nextcloud*와 같은 자체 호스팅 클라우드 솔루션을 사용하면 액세스 및 기밀성을 완전히 제어하면서 개인 서버에 데이터를 백업할 수 있습니다. 이러한 솔루션은 상용 클라우드 서비스(Google Drive, iCloud...)와 달리 제3자에게 정보가 노출되는 것을 상당히 제한합니다.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### 원격 삭제
 
@@ -7079,7 +7079,7 @@ Signal은 처음부터 최대한의 기밀성과 보안을 제공하도록 설�
 간단히 말해 Signal은 매우 훌륭한 메시징 솔루션이지만, 안타깝게도 전화번호를 통한 연결이 필요합니다.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7102,7 +7102,7 @@ Meta(구 Facebook)가 소유한 WhatsApp 역시 종단 간 암호화를 위해 *
 따라서, 텔레그램은 기술적으로 명시적으로 보호되지 않는 대부분의 대화의 내용에 접근할 수 있습니다. 텔레그램이 정부 당국에 대해 확고한 입장을 취하고 있다고 하더라도, 일상적으로 실용성이 훨씬 떨어지는 "비밀 교환"을 명시적으로 사용하지 않는 한, 텔레그램은 기밀 또는 민감한 교환을 위한 최적의 솔루션이 아닙니다.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7125,7 +7125,7 @@ Threema의 또 다른 중요한 측면은 비즈니스 모델입니다. 이 애�
 이 메시징 솔루션은 훌륭하다고 생각하지만 서버의 소스 코드가 독점적으로 유지된다는 것이 가장 큰 단점입니다.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpleX 채팅
 
@@ -7148,7 +7148,7 @@ https://planb.network/tutorials/computer-security/communication/threema-24382d25
 보안과 기밀성 측면에서 심플엑스는 메타데이터를 최소한으로 제한하고 중앙 디렉토리나 고유 식별자에 대한 의존성을 제거하여 대부분의 기존 메시징 시스템보다 한발 더 나아갔습니다. 그러나 이 아키텍처는 사용자 편의성 측면에서 직관적이지 않은 인체공학, 약간의 초기 학습 곡선, 릴레이 서버의 가용성에 대한 의존성 등 여러 가지 타협점을 강요합니다.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### 세션
 
@@ -7165,7 +7165,7 @@ https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1
 세션 클라이언트와 서버는 오픈 소스입니다. 이 소프트웨어는 Android, iOS, Windows, macOS, Linux에서 사용할 수 있으며, Bitcoin 지갑에 사용되는 것과 유사한 Mnemonic 문구를 통해 장치 간에 동기화하는 옵션이 있습니다. 이 문구를 통해 사용자는 자신의 데이터를 독점적으로 제어할 수 있지만, 백업과 관련해서는 상당한 책임을 져야 합니다.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
@@ -7185,7 +7185,7 @@ Keet는 모든 통신을 엔드투엔드로 암호화합니다. 전화번호, �
 Keet은 Android, iOS, Windows, macOS 및 Linux에서 사용할 수 있으며, Mnemonic 문구를 사용하여 장치 간에 동기화할 수 있습니다.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -7222,7 +7222,7 @@ Olvid는 두 가지 버전을 제공합니다:
 Olvid는 Android, iOS, Windows, macOS 및 Linux와 호환됩니다. 인체공학적으로 설계되어 간단하고 접근성이 뛰어납니다. 또한 이 애플리케이션은 키와 연락처를 위한 암호화된 백업 시스템을 갖추고 있어 새 장치에서 계정을 복원할 수 있습니다.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### 피해야 할 메시징 애플리케이션
 
@@ -7319,7 +7319,7 @@ K-9 Mail은 오픈소스 안드로이드 메일 클라이언트로, 최근 모�
 ![Image](assets/fr/157.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 - [투타](https://tuta.com/)
 
@@ -7562,7 +7562,7 @@ Bitwarden은 가장 포괄적인 오픈 소스 비밀번호 관리자 중 하나
 Bitwarden의 서버를 사용하거나 원하는 경우 자체 호스팅하여 완벽하게 제어할 수 있습니다. Interface 모바일은 깔끔하고 유동적이며 Android 또는 iOS 시스템과 원활하게 통합됩니다.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7577,7 +7577,7 @@ KeePass는 암호화된 로컬 파일을 기반으로 하는 기록 비밀번호
 Apple 생태계에 잘 통합된 애플리케이션으로, KeePass 형식과 호환되며 오픈 소스로 제공되는 iOS용 [KeePassium](https://keepassium.com/)도 있습니다. KeePass 클라이언트를 위한 또 다른 iOS 대안으로는 Strongbox가 있지만, 이 소프트웨어는 몇 년 동안 오픈 소스로 제공되지 않았습니다.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [프로톤 패스](https://proton.me/pass)
@@ -7608,7 +7608,7 @@ VPN(*가상 사설망*)을 사용하면 인터넷 트래픽을 암호화하고 �
 Mullvad는 개인 정보 보호 측면에서 최고의 VPN 중 하나입니다. 이메일이나 비밀번호가 필요하지 않습니다: 계정은 간단한 난수에 연결됩니다. 비트코인이나 현금으로 결제할 수 있습니다. 모바일 클라이언트는 오픈 소스이며 사용하기 쉽고 강력합니다. Mullvad는 로그를 보관하지 않고 사용자를 추적하지 않으며 정기적으로 독립적인 보안 감사를 게시합니다.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7617,7 +7617,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN은 개인 정보 보호에 중점을 둔 또 다른 훌륭한 대안입니다. 간단하고 효율적인 모바일 Interface를 제공하며 로그 수집이 없고 익명 등록이 가능합니다. 비트코인으로도 결제할 수 있습니다. 이 앱은 방화벽을 통합하여 VPN이 아닌 모든 트래픽을 차단하기 때문에 스마트폰에서 매우 유용할 수 있습니다. 클라이언트는 오픈 소스입니다.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN](https://protonvpn.com/)
@@ -7655,7 +7655,7 @@ Aegis는 포괄적인 오픈 소스 애플리케이션입니다. 2FA 데이터�
 Ente Auth는 엔드투엔드 암호화 백업을 지원하는 최신 오픈 소스 멀티 플랫폼 솔루션입니다. 모바일, 데스크톱, 웹에서 2FA 코드를 안전하게 동기화할 수 있습니다. 클라우드 백업이나 계정 생성 없이 오프라인에서도 사용할 수 있습니다.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth는 다양한 추가 기능을 제공합니다: 태그별 정리, 각 서비스에 대한 사용자 지정 아이콘, 메모, 즐겨찾기, 통합 검색, 안전한 팀 코드 공유 등이 있습니다.
 
 
@@ -7669,13 +7669,13 @@ Ente Auth는 다양한 추가 기능을 제공합니다: 태그별 정리, 각 �
 Authy는 여러 디바이스에서 2FA 동기화를 제공하므로 편리할 수 있지만, 애플리케이션이 오픈 소스가 아니며 등록을 위해 전화번호가 필요합니다. 하지만 초보자에게는 특히 클라우드 백업 기능 덕분에 구글 오센티케이터보다 더 완벽합니다.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 비밀번호 관리자, 2단계 인증 및 VPN에 대해 자세히 알아보고 싶으시다면 SCU-101 강좌의 전용 챕터를 읽어보시는 것을 추천합니다:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### 날씨
 
@@ -8365,9 +8365,9 @@ Wi-Fi 6, Wi-Fi 6E 또는 Wi-Fi 7 호환 라우터를 사용하면 속도가 향�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 이러한 시스템은 방화벽 규칙, 발신 및 수신 연결, 네트워크 세분화(VLAN) 및 DNS 관리를 보다 세밀하게 제어할 수 있지만 고급 사용자를 대상으로 합니다.
 
@@ -8404,9 +8404,9 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 이 비밀번호는 길어야 하고(40자), 복잡해야 하며(숫자, 소문자, 대문자 및 기호), 고유해야 하고(다른 곳에서 재사용할 수 없음), 무작위로 만들어야 합니다. 비밀번호 관리자를 사용하여 이러한 자격 증명을 안전하게 저장하는 것이 좋습니다.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 경고: 라우터의 관리 비밀번호(구성에 대한 액세스를 보호)와 Wi-Fi 비밀번호(무선 네트워크에 연결할 수 있음)를 혼동하지 마세요. 이 두 가지는 서로 다른 Elements이며 둘 다 변경해야 합니다.
 
@@ -8444,7 +8444,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 일부 라우터에서는 인터넷을 통해 외부에서 관리 Interface에 연결할 수 있습니다. 이 기능은 라우터의 공격 표면을 부당하게 증가시킵니다. 원격 관리가 특별히 필요한 경우가 아니라면 이 기능을 완전히 비활성화하세요. 이 경우에도 항상 VPN을 사용하세요.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - **오래되거나 안전하지 않은 프로토콜**:
@@ -8564,7 +8564,7 @@ DNS(*도메인 이름 시스템*)는 사람이 이해할 수 있는 웹 주소(�
 ![Image](assets/fr/198.webp)
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 
 - 운영 체제 수준에서: 일부 OS는 기본적으로 암호화된 DNS 지원(DoT 또는 DoH)을 통합하여 시스템의 네트워크 스택을 통과하는 모든 DNS 요청을 보호합니다. 하지만 전체 컴퓨터나 전화기를 보호하지는 않습니다: 애플리케이션이 다른 DNS 확인자 또는 프로토콜을 사용하도록 구성된 경우 이 설정을 우회할 수 있습니다.
 
@@ -8580,7 +8580,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 한 단계 더 나아가기 위해 Pi-hole 또는 AdGuard Home과 같은 로컬 DNS 필터링 솔루션을 설정할 수도 있습니다.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 이러한 도구는 네트워크 내부의 작은 DNS 서버처럼 작동하여 광고, 브라우저 추적기, 피싱 또는 악성 사이트를 호스팅하는 것으로 알려진 도메인으로의 요청을 차단합니다. 또한 이러한 도구를 사용하면 자신만의 차단 목록을 만들거나 연결된 디바이스에 따라 필터링을 사용자 지정할 수 있습니다.
 
@@ -8608,12 +8608,12 @@ https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5
 - OpenVPN: 오래되었지만 매우 성숙하고 설정이 가능합니다
 
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 다음은 WireGuard를 사용하는 구성하기 쉬운 VPN 솔루션인 Tailscale에 대한 전체 튜토리얼입니다:
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 호환되는 라우터, 소형 컴퓨터(예: 라즈베리 파이) 또는 집에 있는 전용 서버에서 직접 이 VPN을 호스팅할 수 있습니다. 모든 장치에 직접 클라이언트로 설치할 수도 있습니다.
 
@@ -8621,9 +8621,9 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 하지만 VPN은 원격 액세스만 위한 것이 아닙니다. 집 밖(공용 Wi-Fi, 호텔, 대학교 등)에 있을 때에도 디바이스에서 클래식 VPN 클라이언트를 사용하여 모든 발신 트래픽을 암호화할 수 있습니다. 이 경우 기기는 타사 VPN 서버(상용 또는 자체 호스팅)에 연결한 다음 인터넷 연결을 중계합니다. 이렇게 하면 ISP로부터 실제 IP Address을 숨기고, 로컬 스파이로부터 데이터를 보호하며, 특정 형태의 검열을 피할 수 있습니다.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 마지막으로, 라우터에 직접 VPN을 설정할 수도 있으므로 각 장치에 VPN 클라이언트를 설치할 필요 없이 집에 있는 모든 장치를 보호할 수 있습니다.
 
@@ -8637,12 +8637,12 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 첫 번째 단계는 보안 로그를 중앙 집중화하는 것입니다. 네트워크에 연결된 모든 장치는 연결, 오류 또는 의심스러운 활동에 대한 정보가 포함된 로그를 생성합니다. 이러한 로그를 개별적으로 참조하기보다는 그룹화, 정렬, 분석이 가능한 서버로 전송하는 것이 좋습니다. Graylog 또는 Elastic Stack(ELK)과 같은 솔루션을 사용하면 이러한 로그를 그래픽 Interface로 집계하여 특정 이벤트를 검색하고, 경보를 생성하거나, 네트워크 활동을 시각화할 수 있습니다.
 
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 다음으로, Nmap 등을 사용하여 로컬 네트워크에 대한 정기적인 활성 스캔을 수행합니다. 이렇게 하면 네트워크에 있는 모든 디바이스와 해당 디바이스가 연 포트에 대한 개요를 확인할 수 있습니다. 알 수 없는 디바이스나 비정상적인 서비스를 발견하면 공격의 징후일 수 있습니다.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 더 나아가 IDS(*침입 탐지 시스템*) 또는 IPS(*침입 방지 시스템*)를 설치할 수도 있습니다. Suricata 또는 Snort와 같은 이러한 도구는 네트워크 흐름을 실시간으로 모니터링하고 알려진 공격(포트 스캔, 인젝션, 의심스러운 연결 등)의 시그니처를 탐지합니다. IDS는 경고를 보내고 IPS는 특정 동작을 자동으로 차단할 수 있습니다.
 
@@ -8650,7 +8650,7 @@ https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6d
 마지막으로, 대역폭 소비 모니터링은 비정상적인 활동을 나타내는 좋은 지표이기도 합니다. 디바이스가 뚜렷한 이유 없이 갑자기 많은 데이터를 소비하는 경우 무단 다운로드, 데이터 유출 또는 디바이스가 손상된 것일 수 있습니다. Ntopng 또는 vnStat와 같은 도구를 사용하면 디바이스별 수신 및 발신 흐름을 볼 수 있습니다.
 
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### 백업 및 복원력
 

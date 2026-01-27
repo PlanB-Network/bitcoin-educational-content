@@ -1,0 +1,8 @@
+question: Kun P2SH-syötteen allekirjoituksia luodaan tapahtuman rakentamisen aikana, mitä komentosarjaa on käytettävä sighash-laskentaprosessissa?
+answer: ScriptPubKey-avaimen sijasta on käytettävä lunastuskäsikirjoitusta
+wrong_answers:
+  - Alkuperäistä scriptPubKey-avainta, joka sisältää hashin, on käytettävä suoraan
+  - Sekä scriptPubKey- että redeem-skriptin yhdistelmää on käytettävä
+  - Sen sijaan on käytettävä lukituksen avaustiedot sisältävää ScriptSig-signaalia
+explanation: |
+  P2SH-allekirjoituksen luomisessa sighash-prosessi edellyttää, että scriptPubKey-avaimen sijasta käytetään redeem-skriptiä. Tämä on ratkaisevan tärkeää, koska scriptPubKey sisältää vain lunastusskriptin hash-tiedon, ei varsinaisia käyttöehtoja. Redeem-skripti sisältää todellisen logiikan (kuten multisig-vaatimukset), joka määrittää, miten tuotos voidaan käyttää, joten allekirjoitukset on luotava tätä taustalla olevaa skriptiä vastaan, jotta ne olisivat päteviä. ScriptPubKey-avaimen käyttäminen suoraan ei onnistuisi, koska se sisältää vain hash-vertailun, ei varsinaisia käyttöehtoja, jotka on täytettävä.

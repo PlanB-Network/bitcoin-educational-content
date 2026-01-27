@@ -1,0 +1,9 @@
+question: Ni suluhisho gani linalotoa uhuru zaidi kwa watumiaji wa Lightning?
+answer: Nodi ya Umeme ya Kawaida
+wrong_answers:
+  - Wallet yenye ubadilishaji wa atomiki
+  - Nodi ya LN iliyo ndani ya ubao
+  - Umeme wa Kuhifadhi wallet
+explanation: |
+  Nodi ya kawaida hutoa udhibiti kamili wa njia, ukwasi na sera za ada. Ndiyo pekee inayokuruhusu kuwa huru kikweli.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Ưu điểm kinh doanh chính mà thời gian thanh toán 2 phút của Liquid mang lại so với các hệ thống tài chính truyền thống là gì?
+answer: Giảm thiểu rủi ro đối tác bằng cách cho phép thanh toán nguyên tử, trong đó việc giao hàng và thanh toán diễn ra đồng thời.
+wrong_answers:
+  - Loại bỏ sự cần thiết phải tuân thủ quy định và các yêu cầu KYC trong giao dịch tài sản.
+  - Cho phép mở rộng quy mô không giới hạn cho giao dịch tần suất cao mà không mất phí giao dịch.
+  - Cho phép tự động xác định giá thông qua các thuật toán tạo lập thị trường tích hợp sẵn.
+explanation: |
+  Thời gian thanh toán 2 phút của Liquid cho phép thanh toán nguyên tử, điều này rất quan trọng để giảm rủi ro đối tác vì cả hai bên đều nhận được những gì họ được hưởng cùng một lúc, loại bỏ khoảng thời gian mà một bên có thể vỡ nợ. Thanh toán T+2 truyền thống tạo ra một khoảng thời gian mà rủi ro đối tác tồn tại. Các lựa chọn khác không chính xác: Liquid vẫn yêu cầu tuân thủ thông qua AMP, có phí giao dịch và giới hạn mở rộng, và không cung cấp khả năng tạo lập thị trường tự động.

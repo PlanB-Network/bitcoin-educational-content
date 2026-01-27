@@ -1,0 +1,8 @@
+question: Ni tofauti gani ya msingi ya usanifu wa blockchain inayofanya Liquid ifae zaidi kwa shughuli muhimu za kifedha ikilinganishwa na majukwaa ya tokeni yanayotegemea Ethereum?
+answer: Liquid hutumia modeli ya UTXO ya Bitcoin ambayo hutoa matokeo ya miamala ya uhakika, huku modeli ya akaunti ya Ethereum ikiweza kusababisha miamala iliyoshindwa ambayo bado hutumia ada za gesi.
+wrong_answers:
+  - Liquid inafanya kazi kwa utaratibu wa makubaliano ya uthibitisho wa hisa huku Ethereum ikitegemea proof-of-work mining inayotumia nishati nyingi kwa ajili ya uthibitishaji wa miamala.
+  - "Muundo wa mnyororo wa kando wa Liquid unaoshirikishwa huruhusu upitishaji usio na kikomo wa miamala huku Ethereum ikiwa na vikwazo vya ukubwa wa vitalu vya mnyororo mmoja"
+  - Liquid hutekeleza utendakazi asilia wa mkataba mahiri kupitia uandishi wa hati wa Elements huku Ethereum ikihitaji mazingira ya nje ya utekelezaji wa mashine pepe
+explanation: |
+  Asili ya uamuzi wa mfumo wa UTXO ni muhimu kwa taasisi za fedha kwa sababu miamala hufanikiwa kabisa au hushindwa bila gharama yoyote, na kutoa matokeo yanayoweza kutabirika. Mfumo wa akaunti ya Ethereum unaweza kusababisha miamala iliyoshindwa ambayo bado hutumia ada za gesi, na kusababisha kutokuwa na uhakika wa uendeshaji na gharama za ziada ambazo hazikubaliki kwa shughuli muhimu za kifedha ambapo uaminifu na utabiri wa gharama ni muhimu sana.

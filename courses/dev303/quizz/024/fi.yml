@@ -1,0 +1,8 @@
+question: Millä syntaksilla Rust:ssa käytetään tuplurakenteen ensimmäistä kenttää?
+answer: Pistemerkintä indeksillä 0 (esim. instance.0)
+wrong_answers:
+  - Hakasulkeet indeksillä 0 (esim. instance[0])
+  - Nuolimerkintä indeksillä 0 (esim. instanssi->0)
+  - Kaksoispiste kaksoispiste indeksillä 0 (esim. instance::0)
+explanation: |
+  Rust:n monikkorakenteissa käytetään pistemerkintää, jota seuraa kenttäindeksi, jotta voidaan käyttää nimettömiä kenttiä. Ensimmäistä kenttää käytetään .0:lla, toista kenttää .1:llä ja niin edelleen. Tämä eroaa taulukoista tai vektoreista, joissa käytetään hakasulkeita, ja toisin kuin C++:ssa, jossa osoittajiin käytetään nuolimerkintää. Kaksoispisteen syntaksi on varattu liitännäisfunktioita ja nimiväliä varten, ei kenttien käyttöä varten.

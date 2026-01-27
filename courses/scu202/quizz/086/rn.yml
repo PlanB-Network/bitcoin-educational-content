@@ -1,9 +1,9 @@
-question: Ni iyihe porogaramu y’ubuhinduzi bufunguye ikorana n’amamoteri atandukanye kandi ntikwegeranya ivyanditswe vyawe vyahinduwe?
-answer: Guhindura wewe
+question: Ni iyihe porogarame y’uguhindura indimi y’isoko yugururuye ikorana n’amamoteri atandukanye kandi ntikorakoranye ivyanditswe vyawe vyahinduwe?
+answer: TranslateYou
 wrong_answers:
   - Google Translate
-  - IvyimbitseL
-  - Umuhinduzi wa Microsoft
+  - DeepL
+  - Microsoft Translator
 explanation: |
-  TranslateYou ikora nka Interface ku moteri nyinshi, ata gukurikirana canke gukusanya amakuru y’umuntu ku giti ciwe, bitandukanye n’ibikorwa vy’abanyagihugu.
-reviewed: false
+  Ikora nka interface ya moteri zitandukanye z'uguhindura indimi, ata gukurikiranwa canke gukorakoranya amakuru y’umuntu ku giti ciwe, bitandukanye na serivisi zindi zifise ba nyenezo.
+reviewed: true

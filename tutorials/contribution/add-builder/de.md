@@ -10,7 +10,7 @@ Möchten Sie einen neuen Bitcoin "Entwickler" zur PlanB Netzwerkseite hinzufüge
 ![Entwickler](assets/01.webp)
 - Zuerst benötigen Sie ein GitHub-Konto. Wenn Sie nicht wissen, wie Sie ein Konto erstellen, haben wir ein detailliertes Tutorial erstellt, um Sie anzuleiten.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) im Abschnitt `resources/project/`:
@@ -110,7 +110,7 @@ category: bildung
 ![project](assets/13.webp)
 - Klicken Sie oben rechts auf Ihr GitHub-Profilbild und dann auf `Your Repositories`:
 ![project](assets/14.webp)
-- Wählen Sie Ihren Fork des PlanB Network-Repositorys aus:
+- Wählen Sie Ihren Fork des Plan ₿ Academy-Repositorys aus:
 ![project](assets/15.webp)
 - Sie sollten eine Benachrichtigung am oberen Rand des Fensters mit Ihrem neuen Branch sehen. Er heißt wahrscheinlich `patch-1`. Klicken Sie darauf:
 ![project](assets/16.webp)
@@ -131,7 +131,7 @@ category: bildung
 ![project](assets/24.webp)
 - Klicken Sie auf den `Add file`-Button und dann auf `Upload files`:
 ![project](assets/25.webp)
-- Eine neue Seite wird geöffnet. Ziehen Sie ein Bild Ihres Unternehmens oder Ihrer Software in den Bereich. Dieses Bild wird auf der PlanB Network-Seite angezeigt:
+- Eine neue Seite wird geöffnet. Ziehen Sie ein Bild Ihres Unternehmens oder Ihrer Software in den Bereich. Dieses Bild wird auf der Plan ₿ Academy-Seite angezeigt:
 ![project](assets/26.webp)
 - Es kann das Logo oder ein Icon sein:
 ![project](assets/27.webp)

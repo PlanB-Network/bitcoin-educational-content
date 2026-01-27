@@ -1,0 +1,8 @@
+question: ¿Cuál es el propósito principal del campo de número de secuencia en las entradas de transacciones Bitcoin?
+answer: Para activar la función de reloj programador y de sustitución por tarifa (RBF)
+wrong_answers:
+  - Para especificar el orden en que los mineros deben procesar las entradas
+  - Para evitar double-spending mediante la creación de un identificador único para cada entrada
+  - Indicar el nivel de prioridad de la transacción para el cálculo de la tasa
+explanation: |
+  El campo de número de secuencia en las entradas de transacciones de Bitcoin sirve para dos propósitos principales: implementar timelocks (que retrasan el momento en que una transacción puede ser confirmada) y habilitar la funcionalidad Replace-by-Fee (RBF) (que permite a los usuarios aumentar las tasas en transacciones no confirmadas). Las otras opciones son incorrectas porque: las entradas no necesitan ser procesadas en ningún orden específico por los mineros, la prevención double-spending es manejada por el modelo UTXO y el consenso blockchain en lugar de números de secuencia, y la prioridad de la transacción está determinada por las tasas de tasas en lugar de números de secuencia.

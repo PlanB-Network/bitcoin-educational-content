@@ -111,7 +111,7 @@ En **utvidet offentlig nøkkel** (xpub, ypub, zpub osv.) er et stykke data avled
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 1.5. Hot Wallet påminnelse
 
@@ -145,7 +145,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Blockstream App** er en mobilapplikasjon (iOS, Android) og skrivebordsapplikasjon for å administrere Bitcoin-porteføljer og eiendeler på Liquid Network. Den ble kjøpt opp av [Blockstream] (https://blockstream.com/) i 2016, og het tidligere *Green Address* og deretter *Blockstream Green*.
+- **Blockstream App** er en mobilapplikasjon (iOS, Android) og skrivebordsapplikasjon for å administrere Bitcoin-porteføljer og eiendeler på Liquid Network. Den ble kjøpt opp av [Blockstream](https://blockstream.com/) i 2016, og het tidligere *Green Address* og deretter *Blockstream Green*.
 - **Viktige funksjoner**:
 - Onchain-transaksjoner på **Blockchain Bitcoin**.
     - Transaksjoner på **Liquid**-nettverket (Sidechain for raske, konfidensielle utvekslinger).
@@ -170,10 +170,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - For **Android**:
-    - Last ned [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) fra Google Play Store.
-    - Alternativ: Installer via APK-filen som er tilgjengelig på [Blockstreams offisielle GitHub] (https://github.com/Blockstream/green_android).
+    - Last ned [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) fra Google Play Store.
+    - Alternativ: Installer via APK-filen som er tilgjengelig på [Blockstreams offisielle GitHub](https://github.com/Blockstream/green_android).
 - For **iOS**:
-    - Last ned [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) fra App Store.
+    - Last ned [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) fra App Store.
 - **Merk**: Sørg for å laste ned fra offisielle kilder for å unngå falske applikasjoner.
 
 
@@ -404,7 +404,7 @@ Men siden Watch-only wallet ikke har de private nøklene, kan du ikke sende peng
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 
 
@@ -412,7 +412,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 
 
@@ -420,7 +420,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 ### A2. Utvidede offentlige nøkler
@@ -430,12 +430,12 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 - Ordliste :
- - [Utvidede offentlige nøkler] (https://planb.network/fr/resources/glossary/extended-key)
- - [xpub](https://planb.network/fr/resources/glossary/xpub)
- - [ypub](https://planb.network/fr/resources/glossary/ypub)
- - [zpub](https://planb.network/fr/resources/glossary/zpub)
+ - [Utvidede offentlige nøkler](https://planb.academy/fr/resources/glossary/extended-key)
+ - [xpub](https://planb.academy/fr/resources/glossary/xpub)
+ - [ypub](https://planb.academy/fr/resources/glossary/ypub)
+ - [zpub](https://planb.academy/fr/resources/glossary/zpub)
 - Kurs :
- - [Les clés publiques étendues](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
+ - [Les clés publiques étendues](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
 
 
@@ -455,9 +455,9 @@ Følg disse anbefalingene for å bruke **Blockstream App** sikkert og effektivt.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
@@ -532,32 +532,32 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
- - Læring og veiledning:** ** **[Plan ₿ Network](https://planb.network/)** :
+ - Læring og veiledning:** ** **[Plan ₿ Academy](https://planb.academy/)** :
   - Sikre gjenopprettingsfrasen din
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
 - **Liquid Network** :
-- [Ordliste](https://planb.network/fr/resources/glossary/liquid-network)
+- [Ordliste](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 
 - **Lightning Network**:
-- [Ordliste](https://planb.network/fr/resources/glossary/lightning-network)
+- [Ordliste](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

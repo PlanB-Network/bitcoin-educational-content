@@ -1,0 +1,8 @@
+question: När ska frågeteckenoperatorn (?) föredras framför metoderna unwrap() eller expect() i Rust:s felhantering?
+answer: När du behöver sprida fel uppåt i anropsstapeln för att den anropande funktionen ska kunna hantera
+wrong_answers:
+  - När du vill tillhandahålla anpassade felmeddelanden för felsökning av misslyckade operationer
+  - När du är säker på att operationen kommer att lyckas och vill undvika felhantering
+  - När du behöver konvertera fel till ett standardvärde och fortsätta programkörningen
+explanation: |
+  Frågeteckenoperatorn (?) är utformad för felpropagering - den extraherar framgångsvärden men returnerar omedelbart fel från den aktuella funktionen, så att anroparen kan hantera dem. Till skillnad från unwrap()/expect() som får panik vid fel, eller unwrap_or() som ger standardvärden, bibehåller operatorn ? felkontexten och överför ansvaret till kod på högre nivå som kan fatta lämpliga hanteringsbeslut.

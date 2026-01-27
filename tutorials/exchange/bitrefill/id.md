@@ -6,7 +6,7 @@ description: Bagaimana cara membeli barang dan jasa dengan BTC menggunakan Bitre
 
 Meskipun Bitcoin pada dasarnya dianggap sebagai sarana penyimpanan hari ini, ia tetap menjadi mata uang yang kegunaannya terletak pada kemampuannya untuk beredar dari tangan ke tangan. Jika pedagang di sekitar Anda menerima Bitcoin sebagai metode pembayaran, Anda memiliki opsi untuk menghabiskannya langsung kepada mereka. Sayangnya, praktik ini belum luas, dan sebagian besar pedagang belum menerima BTC secara asli.
 
-Solusi terbaik tetap untuk "orange pill" pedagang lokal agar mereka menerima Bitcoin, dengan menjelaskan keuntungan dari sistem ini. Anda dapat menggunakan tutorial yang tersedia di bagian ["*merchants*"](https://planb.network/tutorials/merchant) dari situs kami sebagai dukungan. Strategi ini bisa efektif dengan pedagang independen kecil, tetapi terbukti lebih kompleks untuk rantai nasional besar, karena kontak di lokasi umumnya bukanlah orang yang membuat keputusan mengenai metode pembayaran.
+Solusi terbaik tetap untuk "orange pill" pedagang lokal agar mereka menerima Bitcoin, dengan menjelaskan keuntungan dari sistem ini. Anda dapat menggunakan tutorial yang tersedia di bagian ["*merchants*"](https://planb.academy/tutorials/merchant) dari situs kami sebagai dukungan. Strategi ini bisa efektif dengan pedagang independen kecil, tetapi terbukti lebih kompleks untuk rantai nasional besar, karena kontak di lokasi umumnya bukanlah orang yang membuat keputusan mengenai metode pembayaran.
 
 Sambil menunggu adopsi yang lebih massif oleh rantai ini, Anda dapat menghabiskan bitcoin Anda menggunakan metode pembayaran perantara: kartu hadiah. Dan inilah yang ditawarkan Bitrefill untuk Anda.
 
@@ -28,9 +28,9 @@ Masukkan alamat email. Jika Anda ingin menjaga akun Anda tetap anonim, pastikan 
 ![BITREFILL](assets/notext/05.webp)
 Jika Anda ingin belajar bagaimana cara mudah membuat kotak surat email yang aman dan bagaimana mengelola kata sandi Anda, saya merekomendasikan untuk berkonsultasi dengan 2 tutorial lain ini:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Kemudian, klik pada tombol "*Create account*".
 ![BITREFILL](assets/notext/06.webp)
@@ -49,7 +49,7 @@ Di bagian "*Two factor authentication*", klik pada tombol "*Enable*" dan ikuti p
 ![BITREFILL](assets/notext/13.webp)
 Untuk mempelajari lebih lanjut tentang cara menggunakan autentikasi dua faktor untuk mengamankan akun online Anda, saya merekomendasikan untuk menemukan tutorial lain ini:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Bagaimana cara membeli kartu hadiah dengan BTC di Bitrefill?
 
@@ -88,4 +88,4 @@ Dan itulah, sekarang Anda tahu bagaimana menghabiskan bitcoin Anda tanpa KYC di 
 
 Jika Anda ingin berkontribusi pada popularisasi Bitcoin dan mendorong pedagang independen untuk mengadopsi metode pembayaran ini, saya merekomendasikan untuk berkonsultasi dengan tutorial lengkap kami tentang Swiss Bitcoin Pay. Ini adalah solusi all-in-one untuk prosesor pembayaran BTC, mudah dipasang dan dikelola sehari-hari:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

@@ -250,7 +250,7 @@ IVPN एक वर्चुअल प्राइवेट नेटवर्क
 
 तो लीजिए, अब आप IVPN का पूरा आनंद लेने के लिए तैयार हैं। अगर आप अपने ऑनलाइन खातों की सुरक्षा को और बढ़ाना चाहते हैं, तो मैं आपको हमारे KeePass ट्यूटोरियल को देखने के लिए आमंत्रित करता हूँ। यह एक मुफ्त और ओपन-सोर्स समाधान है।
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 अगर आप IVPN की तरह फीचर्स और कीमतों में समान किसी और VPN प्रदाता को खोजने में रुचि रखते हैं, तो मैं आपको हमारे Mullvad पर ट्यूटोरियल को देखने की सलाह देता हूँ।
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

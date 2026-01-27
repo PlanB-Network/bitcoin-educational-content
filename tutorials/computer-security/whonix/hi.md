@@ -86,7 +86,7 @@ Whonix को चलाने के लिए आपको VirtualBox, Qubes �
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Whonix आयात करना
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### इलेक्ट्रम Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix सिर्फ़ एक ऑपरेटिंग सिस्टम से कहीं बढ़कर है: यह एक वास्तविक **सुरक्षित वातावरण** है जिसे आपकी गुमनामी, आपकी निजता और आपकी संवेदनशील गतिविधियों की सुरक्षा के लिए डिज़ाइन किया गया है। इसकी Tor-आधारित वास्तुकला, गेटवे और वर्कस्टेशन के बीच बुद्धिमान विभाजन, और Tor Browser, KeePassXC और Electrum जैसे पहले से इंस्टॉल किए गए टूल की बदौलत, यह उन सभी के लिए एक टर्नकी समाधान प्रदान करता है जो **गुमनाम रूप से ब्राउज़ करना**, **सुरक्षित रूप से काम करना** या **गोपनीय डेटा को संभालना** चाहते हैं।
 
@@ -244,4 +244,4 @@ Whonix सिर्फ़ एक ऑपरेटिंग सिस्टम स
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

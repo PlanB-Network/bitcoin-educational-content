@@ -194,7 +194,7 @@ Ensinnäkin voit tutustua ProtonMail-oppaaseemme saadaksesi lisätietoja:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 Kirjaudu sisään ProtonMail-tilillesi ja siirry suojausasetuksiin. Etsi "Two-factor authentication" -vaihtoehto ja aktivoi se.
 
@@ -495,7 +495,7 @@ Käytä mieluiten useampaa kuin yhtä toista tekijää kriittisillä tileilläsi
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Pidä myös painetut hätäkoodit käsillä.
 
@@ -545,7 +545,7 @@ Löydät Authy-oppaamme alta:
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Proton Authenticator on yksi kattavimmista ja turvallisimmista saatavilla olevista ratkaisuista: avoin lähdekoodi, usean laitteen salattu synkronointi, ei kaupallista seurantaa.
 

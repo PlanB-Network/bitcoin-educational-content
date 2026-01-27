@@ -27,7 +27,7 @@ description: Продвинутый учебник по установке и н
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Убедитесь, что ваш узел Bitcoin обновлен и работает должным образом, поскольку Lightning Network полагается на него для всех транзакций off-chain.
 
@@ -57,7 +57,7 @@ Lightning Network - это второй протокол Layer, предназн
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 В этом курсе вы получите основательную подготовку по фундаментальным концепциям Lightning Network, а затем перейдете к практике работы с узлом LND.
 
@@ -613,7 +613,7 @@ LND свяжется с каждым партнером ваших старых 
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Другие лучшие практики
 
 

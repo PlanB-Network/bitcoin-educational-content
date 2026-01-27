@@ -1,0 +1,8 @@
+question: U Lightning Send podmorskoj zameni, koji specifični kriptografski element omogućava provajderu zamene da preuzme zaključana Liquid sredstva nakon plaćanja Lightning fakture?
+answer: Preimage plaćanja iz Lightning plaćanja služi kao kriptografski ključ za otključavanje escrow-ovanih Liquid sredstava.
+wrong_answers:
+  - Potpis ugovora sa vremenskim zaključavanjem heša generisan tokom početne Liquid transakcije zaključavanja omogućava pristup
+  - Metapodaci WebSocket veze sadrže ključ za otključavanje koji autorizuje oslobađanje sredstava prema provajderu.
+  - "Privatni ključ provajdera zamene automatski otključava sredstva kada se primi potvrda o Lightning uplati"
+explanation: |
+  Preimage plaćanja je kriptografski dokaz koji potvrđuje da je Lightning plaćanje uspešno izvršeno. U podmorskim zamenama, ovaj preimage deluje kao ključ za otključavanje escrow-ovanih Liquid sredstava, osiguravajući atomarnost - provajder zamene može da zahteva Liquid sredstva samo ako je zaista platio Lightning fakturu. Druge opcije opisuju ili generičke kriptografske elemente koji ne pružaju specifičan dokaz o plaćanju, ili netačne mehanizme koji bi ugrozili poverenje u atomarnu zamenu.

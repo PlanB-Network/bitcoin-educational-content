@@ -1,0 +1,9 @@
+question: Qual è il motivo principale per cui Bitcoin utilizza indirizzi derivati da chiavi pubbliche come pseudonimi invece di nomi utente descrittivi?
+answer: Per consentire la creazione sicura di indirizzi offline senza richiedere la registrazione alla blockchain
+wrong_answers:
+  - Per rendere le transazioni completamente anonime e non rintracciabili sulla blockchain
+  - Per ridurre la potenza di calcolo necessaria per la verifica delle transazioni
+  - Consentire il riutilizzo illimitato dello stesso pseudonimo in più transazioni
+explanation: |
+  Bitcoin utilizza gli indirizzi derivati dalle chiavi pubbliche come pseudonimi perché questo sistema consente agli utenti di creare in modo sicuro nuovi indirizzi offline senza doverli prima registrare sulla blockchain. L'uso di nomi utente descrittivi richiederebbe l'annuncio del collegamento tra il nome utente e la chiave pubblica sulla blockchain, il che comporterebbe costi, ingrossamento della blockchain e riduzione della sicurezza. Inoltre, i nomi utente incoraggerebbero il riutilizzo (riducendo la privacy) e creerebbero rischi di impersonificazione. Il sistema basato sugli indirizzi elimina questi problemi, pur mantenendo la sicurezza crittografica necessaria al corretto funzionamento del Bitcoin.
+reviewed: false

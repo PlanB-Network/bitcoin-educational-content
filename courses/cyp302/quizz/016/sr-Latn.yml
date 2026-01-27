@@ -6,4 +6,4 @@ wrong_answers:
   - Samo dve vrednosti mogu se pojaviti sa jednakim verovatnoćama
 explanation: |
   Uniformna promenljiva je slučajna promenljiva kod koje sve moguće vrednosti imaju jednaku verovatnoću pojavljivanja.
-reviewed: false
+reviewed: true

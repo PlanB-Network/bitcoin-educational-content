@@ -43,7 +43,7 @@ Sınırlamalarına rağmen, Tapsigner düşük fiyatı nedeniyle ilgi çekici ol
 ## Tapsigner nasıl satın alınır?
 
 
-Tapsigner [resmi Coinkite web sitesinden] (https://store.coinkite.com/store/category/tapsigner) satın alınabilir. Fiziksel bir mağazadan satın almak için sitede [sertifikalı satıcıların listesini] (https://coinkite.com/resellers) de bulabilirsiniz.
+Tapsigner [resmi Coinkite web sitesinden](https://store.coinkite.com/store/category/tapsigner) satın alınabilir. Fiziksel bir mağazadan satın almak için sitede [sertifikalı satıcıların listesini](https://coinkite.com/resellers) de bulabilirsiniz.
 
 
 Ayrıca NFC iletişimiyle uyumlu bir telefona veya NFC kartlarını standart frekans olan 13,56 MHz'de okumak için bir USB cihazına ihtiyacınız olacaktır.

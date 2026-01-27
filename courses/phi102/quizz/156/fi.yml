@@ -1,0 +1,8 @@
+question: Mikä on liberaalin talousteorian mukaan poliittisten viranomaisten harjoittaman rahapoliittisen manipuloinnin ensisijainen seuraus kaupallisessa kaupankäynnissä?
+answer: Se aiheuttaa hintavakautta ja epävarmuutta, koska rahapoliittinen signaali muuttuu epäluotettavaksi, kun viranomaiset voivat mielivaltaisesti muuttaa valuutan sisältöä
+wrong_answers:
+  - Se vahvistaa kansallista itsemääräämisoikeutta luomalla selkeän alueellisen valvonnan taloudellisiin liiketoimiin valtion rajojen sisällä
+  - Se parantaa taloudellista tehokkuutta mahdollistamalla valuuttakurssien keskitetyn koordinoinnin ja standardoidut hinnoittelumekanismit eri markkinoilla
+  - Se vähentää transaktiokustannuksia, koska ei tarvita useita kilpailevia valuuttoja ja kaupalliset laskelmat yksinkertaistuvat
+explanation: |
+  Luvussa selitetään, että rahapoliittinen manipulointi aiheuttaa inflaatiota ja horjuttaa hintojen vakautta, koska rahapoliittinen signaali muuttuu epävarmaksi, kun viranomaiset voivat mielivaltaisesti muuttaa valuutan sisältöä. Nicolas Oresmen keskiaikainen analyysi osoitti, miten valuutan heikentäminen häiritsee kaupallista vaihtoa. Väärät vastaukset heijastavat yleisiä perusteluja valtion harjoittamalle rahanvalvonnalle, mutta liberaalissa kritiikissä korostetaan, että tällainen manipulointi palvelee pikemminkin poliittista rahoitusta kuin taloudellista tehokkuutta, minkä vuoksi remburssien kaltaiset vapaaehtoiset vaihtomekanismit ovat suositeltavampia kuin määrätyt valuutat.

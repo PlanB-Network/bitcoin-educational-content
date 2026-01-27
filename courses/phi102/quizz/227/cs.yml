@@ -1,0 +1,8 @@
+question: Proč text tvrdí, že represivní systém je při zavádění svobody práce lepší než systém preventivní?
+answer: Represivní systém postihuje skutečné zneužívání a skutečné porušování práv druhých, místo aby předem omezoval činnost všech
+wrong_answers:
+  - Represivní systém vytváří silnější odstrašující účinky prostřednictvím přísnějších trestů, které zabraňují potenciálnímu porušení předpisů dříve, než k němu dojde
+  - Represivní systém umožňuje lepší koordinaci mezi různými profesními odvětvími prostřednictvím centralizovaných mechanismů dohledu a kontroly
+  - Represivní systém přináší více daňových příjmů pro veřejné služby tím, že ukládá pokuty a sankce těm, kteří porušují předpisy
+explanation: |
+  V textu se výslovně uvádí, že uznání svobody práce znamená uznat nadřazenost represivního systému, který postihuje skutečné zneužívání a účinné porušování práv druhých, nad preventivním systémem, který a priori brání činnosti každého. Preventivní systém zavádí poručnictví nad všemi lidmi v profesi pod záminkou, že by se někteří jedinci mohli dopustit zneužití, zatímco represivní systém zasahuje pouze tehdy, když dojde ke skutečnému poškození. Tento přístup respektuje svobodu jednotlivce tím, že neomezuje každého na základě hypotetického budoucího porušení, ale řeší pouze konkrétní pochybení, když k němu skutečně dojde.

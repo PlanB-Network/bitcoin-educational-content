@@ -1,0 +1,8 @@
+question: Pertimbangan keamanan apa yang harus Anda perhatikan saat menginstal Rust menggunakan Rustup?
+answer: Instalasi melibatkan pengunduhan dan eksekusi skrip, meskipun menggunakan HTTPS dan berasal dari sumber tepercaya resmi
+wrong_answers:
+  - Instalasi memerlukan hak administrator yang menciptakan potensi kerentanan sistem
+  - Rantai alat yang stabil berisi fitur-fitur eksperimental yang mungkin memiliki kelemahan keamanan yang belum ditemukan
+  - Proses instalasi secara otomatis mengaktifkan semua target kompilasi termasuk arsitektur yang berpotensi tidak aman
+explanation: |
+  Ketika menginstal Rustup, Anda mengunduh dan menjalankan skrip dari situs web resmi Rust. Situs ini menggunakan HTTPS untuk keamanan lapisan transport, dan paket-paketnya berasal dari sumber tepercaya seperti crates.io. Meskipun cara ini aman untuk sebagian besar kasus penggunaan, beberapa organisasi dengan kebijakan keamanan yang ketat mungkin lebih memilih manajer paket distribusi mereka, yang menambahkan infrastruktur penandatanganan distribusi sendiri. Opsi lainnya tidak benar: Rustup dipasang di direktori rumah pengguna tanpa memerlukan hak akses admin, toolchain stabil secara khusus mengecualikan fitur eksperimental, dan target kompilasi ditambahkan secara terpisah dan tidak menimbulkan risiko keamanan yang melekat.

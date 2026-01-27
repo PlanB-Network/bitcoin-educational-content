@@ -1,5 +1,5 @@
 ---
-name: Construir com Elementos e Rede Líquida
+name: Construir com Elements e Liquid Network
 goal: Aprender a utilizar e a desenvolver com a plataforma blockchain de código aberto Elements e as suas principais funcionalidades
 objectives: 
 

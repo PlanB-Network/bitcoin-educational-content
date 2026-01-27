@@ -329,19 +329,19 @@ Zelfs als je back-up goed is opgeslagen, moet deze **regelmatig** worden gecontr
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### A.2 De passphrase BIP39 begrijpen
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ### A.3 Hoe Bitcoin portfolio's werken
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### A.4 Classificatie van de Ninja SAFU-methode
@@ -360,7 +360,7 @@ Volgens Jameson Lopp:
 
 
 
-- Vergelijkingstabel [volledig] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Vergelijkingstabel [volledig](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 
@@ -391,7 +391,7 @@ Volgens Jameson Lopp:
 - **Tapapparaat** (geleider)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Afdichtapparaat
- - [Verzegeld zakje] (https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
+ - [Verzegeld zakje](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Afdichtstrips](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
 - **Complete** kit
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)

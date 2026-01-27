@@ -1,0 +1,8 @@
+question: What fundamental architectural limitation of the Lightning Development Kit (LDK) creates the most severe operational risk for mobile wallet users during network fee spikes?
+answer: Absence of anchor outputs preventing channel force closures when preset fees become insufficient for transaction confirmation
+wrong_answers:
+  - Lack of LNURL support requiring manual invoice generation and payment processing for all Lightning transactions
+  - Missing network graph synchronization causing payment routing failures when mobile applications restart after extended periods
+  - Insufficient channel reserve management leading to fund lockups when users attempt to spend their complete displayed balance
+explanation: |
+  The absence of anchor outputs in LDK creates a critical vulnerability where channels cannot be force-closed during fee spikes because the preset fees become insufficient for blockchain confirmation. This is particularly dangerous for mobile wallets where users may abandon the application without cooperative closure, potentially stranding funds indefinitely. While LNURL absence affects user experience and routing issues impact reliability, neither creates the existential risk to fund recovery that anchor output limitations present during high-fee environments.

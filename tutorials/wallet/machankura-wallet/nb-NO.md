@@ -101,7 +101,7 @@ Machankura tar imidlertid tak i dette problemet ved å utvide funksjonaliteten v
 
 
 
-For å bli informert om nye land der tjenesten vil være tilgjengelig, vennligst besøk deres [nettsted] (https://8333.mobi) regelmessig.
+For å bli informert om nye land der tjenesten vil være tilgjengelig, vennligst besøk deres [nettsted](https://8333.mobi) regelmessig.
 
 
 
@@ -301,7 +301,7 @@ En melding sendes automatisk til det forhåndsregistrerte nummeret, og brukeren 
 
 
 
-Du kan se [video sending demo] (https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) av bitcoins av PIO TARAS (Lead Machankura Afrique Francophone) via Machankura på en grunnleggende telefon.
+Du kan se [video sending demo](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) av bitcoins av PIO TARAS (Lead Machankura Afrique Francophone) via Machankura på en grunnleggende telefon.
 
 
 
@@ -344,7 +344,7 @@ Machankura er ikke bare en Wallet. Du kan Exchange satoshiene dine for varer og 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Du har også funksjonen "**Klan**", som gjør det mulig å administrere et kooperativt system med flere signaturer: klanmedlemmene må godkjenne hver utgift, og du kan automatisk fordele midlene mellom dem.
 
@@ -370,7 +370,7 @@ Den andre, som er en logisk forlengelse av den første, er å være en inkludere
 
 
 
-For å komme i gang må du skrive en melding til Machankuras WhatsApp-bot (et enkelt "Hei" er mer enn nok). WhatsApp-nummeret hans er [+27 73 762 5720] (https://wa.me/+27737625720).
+For å komme i gang må du skrive en melding til Machankuras WhatsApp-bot (et enkelt "Hei" er mer enn nok). WhatsApp-nummeret hans er [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 
@@ -439,13 +439,13 @@ Machankura lar deg sende bitcoins via forskjellige alternativer:
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura muliggjør interoperabilitet mellom ulike Lightning-lommebøker. I denne demonstrasjonen sender vi bitcoins fra vår Machankura WhatsApp Wallet til en Wallet av Satoshi Wallet.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 For å sende, vennligst skriv inn tallet 1, som tilsvarer alternativet "SEND BTC". Deretter velger du sendealternativet "Lightning Address", og skriver deretter inn Address som bitcoins skal sendes til. Til slutt velger du verdimålet "Sats", angir antall satoshis som skal sendes og bekrefter forsendelsen.
 
@@ -577,9 +577,9 @@ Machankura gjør det dessuten mulig for alle som ønsker å sende deg bitcoins �
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### Saldosjekk
 

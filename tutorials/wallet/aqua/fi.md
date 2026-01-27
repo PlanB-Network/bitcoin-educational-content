@@ -74,7 +74,7 @@ Samassa asetusvalikossa voit myös vaihtaa sovelluksen kielen ja käytettävän 
 
 Ennen kuin saat ensimmäiset bitcoinit lompakkoosi, **neuvon sinua tekemään tyhjän palautustestin**. Merkitse muistiin joitakin viitetietoja, kuten xpub- tai ensimmäinen vastaanottava osoitteesi, ja poista lompakkosi Aqua-sovelluksessa, kun se on vielä tyhjä. Yritä sitten palauttaa lompakkosi Aqua-sovelluksessa käyttämällä paperisia varmuuskopioita. Tarkista, että palautuksen jälkeen luodut evästetiedot vastaavat alun perin muistiin kirjoittamiasi tietoja. Jos ne täsmäävät, voit olla varma, että paperiset varmuuskopiot ovat luotettavia. Jos haluat lisätietoja testipalautuksen suorittamisesta, tutustu tähän toiseen opetusohjelmaan:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Se ei näy näytölläni, koska käytän emulaattoria, mutta asetuksista löytyy myös vaihtoehto lukita sovellus biometrisellä todennuksella. Suosittelen vahvasti tämän turvallisuusominaisuuden käyttöönottoa, sillä ilman sitä kuka tahansa, jolla on pääsy avattuun puhelimeesi, voisi varastaa bitcoinisi. Voit käyttää Face ID:tä iOS:llä tai sormenjälkeä Androidilla. Jos nämä menetelmät epäonnistuvat todennuksessa, voit silti käyttää sovellusta puhelimesi PIN-koodilla.
 
@@ -190,5 +190,5 @@ Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit v
 
 Suosittelen myös tutustumaan tähän toiseen kattavaan oppaaseen Blockstream Green -mobiilisovelluksesta, joka on toinen mielenkiintoinen ratkaisu Liquid-lompakon perustamiseen:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 

@@ -322,11 +322,11 @@ Le migliori pratiche:
 - Alternative/complementi:
   - Tor Browser: anonimato in rete tramite Tor; più lento. Consulta la nostra guida completa all'installazione e alla configurazione:
     
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
   - Browser Mullvad: "Tor senza Tor", da abbinare alla VPN; footprint standardizzato. Scopri come installarlo nel nostro tutorial dedicato:
     
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 - Combinazioni consigliate: Firefox (livello 2) + VPN per l'uso quotidiano; Tor/Mullvad per le attività sensibili; profili separati per la compartimentazione.
 
@@ -342,11 +342,15 @@ Seguendo questa guida passo passo, hai trasformato Firefox in un vero e proprio 
 
 ## Risorse
 
-### Plan ₿ Network
+
+
+### Plan ₿ Academy
 
 - SCU 202 - Migliorare la sicurezza digitale personale: Per saperne di più sui concetti di sicurezza digitale trattati in questo tutorial
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+
+
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Documentazione di Mozilla
 

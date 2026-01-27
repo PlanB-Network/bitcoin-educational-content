@@ -1,0 +1,8 @@
+question: What specific parameters must be defined when using the litcli tool to generate a connection string for Lightning Terminal?
+answer: Network (mainnet/testnet), Label (human-readable alias), and Type (permission scope)
+wrong_answers:
+  - IP address, port number, and encryption protocol for the node connection
+  - Username, password, and security certificate for authentication credentials
+  - Channel capacity, routing fees, and node uptime for performance metrics
+explanation: |
+  The litcli tool requires three specific parameters when generating connection strings: Network (specifying mainnet or testnet), Label (providing a human-readable alias like 'Routing-Node-East'), and Type (defining permission scope, typically 'admin'). The wrong answers represent different aspects of node management - networking configuration, traditional authentication methods, and operational metrics - but these are not the parameters used by litcli for connection string generation. Understanding these required parameters is crucial for operators setting up multi-node connections properly.

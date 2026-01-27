@@ -1,0 +1,9 @@
+question: กลไกใดใน RGB ที่อนุญาตให้การเปลี่ยนแปลงหลายรายการถูกรวมเข้าด้วยกันในธุรกรรม Bitcoin เดียว?
+answer: Transition Bundle
+wrong_answers:
+  - Seal Aggregation
+  - มัลติ-Commitment ต้นไม้
+  - การรวมศูนย์อำนาจของรัฐ
+explanation: |
+  Transition Bundle คือชุดของการเปลี่ยนสถานะ RGB (ที่เป็นของสัญญาเดียวกัน) ซึ่งทั้งหมดมีส่วนร่วมในธุรกรรมพยาน Bitcoin เดียวกัน
+reviewed: false

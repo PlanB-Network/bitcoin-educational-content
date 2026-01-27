@@ -90,4 +90,4 @@ Félicitations, vous êtes maintenant au point sur l'utilisation de votre Ledger
 
 Je vous conseille également de découvrir cet autre tutoriel dans lequel nous abordons une autre solution pour l'authentification U2F et FIDO2 :
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

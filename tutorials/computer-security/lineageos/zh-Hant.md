@@ -150,7 +150,7 @@ LineageOS 支援來自 20 多家製造商的數百種裝置：Samsung、Xiaomi�
 
 
 - Android Flash 工具**：使用 Google 官方工具 [flash.android.com](https://flash.android.com)，可從網頁瀏覽器 (需使用 Chrome/Edge) 輕鬆將 Pixel 裝置還原為 Android 原廠版本
-- 替代**：從 [developers.google.com/android/images] (https://developers.google.com/android/images) 手動製作工廠影像。
+- 替代**：從 [developers.google.com/android/images](https://developers.google.com/android/images) 手動製作工廠影像。
 
 
 
@@ -738,4 +738,4 @@ LineageOS 提供一個成熟的選擇，讓您重新掌控 Android 智慧型手�
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

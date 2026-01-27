@@ -110,7 +110,7 @@ Nastavite sa plaćanjem, zatim unesite svoj Lightning Address da biste validiral
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Izvršenje transakcije na Flash-u će vam u proseku trajati od 5 do 10 minuta da primite svoje bitkoine na vaš Lightning Wallet.
 
@@ -202,4 +202,4 @@ Ako ste smatrali da vam je ovaj vodič pomogao da se upoznate sa Flash-om, molim
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

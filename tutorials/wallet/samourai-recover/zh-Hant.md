@@ -48,12 +48,12 @@ _衷心感謝 [@Louferlou](https://twitter.com/Louferlou)，他協助多位使�
 
 Twitter 上的評論強調，「石牆 」交易提供的隱私現在可能會減少。石牆交易的附加價值在於，就結構而言，它與石牆 x2 交易無法區分。當分析師遇到這種特定模式時，他們無法判斷這是單一使用者的標準石牆交易，還是涉及兩個使用者的石牆 x2 交易。然而，正如我們將在以下段落中看到的，由於無法使用 Soroban，進行石牆 x2 交易變得更加複雜。因此，有些人認為，分析師現在可能會假設任何具有這種結構的交易都是正常的石牆交易。我個人並不同意這種假設。雖然石牆 x2 交易的頻率可能較低（我認為在這次事件之前就已經是了），但事實上，它們仍有可能發生，這可能會使基於它們不是石牆交易的假設而進行的整個分析失效。
 
-**[-> 進一步瞭解石牆交易](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> 進一步瞭解石牆交易](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 
 關於 Ricochet，我無法證實這項服務是否仍在運作中，這是由於我在 Testnet 上並沒有自己的 Dojo，而且我寧願不冒險花 `100 000 Sats` 去購買可能會被官方控制的 Wallet。如果您最近有機會測試此工具，我邀請您與我聯絡，以便我們更新這篇文章。
 
 
-如果您需要使用 Ricochet，請注意您可以隨時使用任何 Wallet 軟體手動執行此操作。若要學習如何手動正確執行各種跳轉，我建議您參考這篇其他文章：[**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
+如果您需要使用 Ricochet，請注意您可以隨時使用任何 Wallet 軟體手動執行此操作。若要學習如何手動正確執行各種跳轉，我建議您參考這篇其他文章：[**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
 
 
 JoinBot 工具已不再運作，因為它完全依賴 Samourai 管理的 Wallet 的參與。
@@ -75,10 +75,10 @@ JoinBot 工具已不再運作，因為它完全依賴 Samourai 管理的 Wallet 
 - 如果您與合作者距離較遠，您可以透過應用程式的外部通訊管道 Exchange PSBT。不過，請務必小心，因為這些 PSBT 所包含的資料在隱私方面相當敏感。我建議使用加密訊息服務，以確保 Exchange 的機密性。
 
 
-**[-> 瞭解更多關於石牆 x2 交易.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> 瞭解更多關於石牆 x2 交易.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
 
-**[-> 進一步瞭解 Stowaway 交易。](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> 進一步瞭解 Stowaway 交易。](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 
 至於 Whirlpool，協定似乎不再運作，即使是擁有自己 Dojo 的使用者也是如此。這幾天我一直在監控我的 RoninDojo，並嘗試進行一些基本操作，但自伺服器關閉後，Whirlpool CLI 就無法連線了。
@@ -240,7 +240,7 @@ Sparrow Wallet 繼續正常運作，除了 Samourai 工具不再可用。目前�
 - Postmix: `m/84'/0'/2147483646'`
 
 
-現在您可以在 Sparrow 上存取您的比特幣了。如果您在使用 Sparrow Wallet 時需要幫助，也可以查看 [我們的專用教學](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
+現在您可以在 Sparrow 上存取您的比特幣了。如果您在使用 Sparrow Wallet 時需要幫助，也可以查看 [我們的專用教學](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
 
 
 我也建議您在 Samourai 上手動匯入與您的 UTXO 相關的標籤。這可讓您隨後在 Sparrow 上執行有效的硬幣控制。
@@ -329,7 +329,7 @@ Sparrow 接著會推導出您 Wallet 的金鑰，並搜尋相對應的交易。
 - Postmix: `m/84'/0'/2147483646'`
 
 
-現在您可以在 Sparrow 上存取您的比特幣了。如果您在使用 Sparrow Wallet 時需要幫助，也可以參考 [我們的專用教學](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
+現在您可以在 Sparrow 上存取您的比特幣了。如果您在使用 Sparrow Wallet 時需要幫助，也可以參考 [我們的專用教學](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)。
 
 
 我也建議您在 Samourai 上手動匯入與您的 UTXO 相關的標籤。這可讓您隨後在 Sparrow 上執行有效的硬幣控制。

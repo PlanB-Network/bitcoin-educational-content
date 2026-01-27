@@ -33,7 +33,7 @@ Ici on s'intéressera au transfert de seed phrases, de notes, de mots de passe, 
 #### Préparer l'appareil qui recevra les secrets
 
 Dans le menu **"Advanced / Tools**" de votre ColdCardQ, sélectionnez **"Key Teleport (start)"**.
-Sur l'écran suivant, un mot de passe composé de 8 chiffres vous est proposé ici "20420219". il vous faudra communiquer ce mot de passe à l'émetteur. Utilisez par exemple un sms pour transmettre ce mot de passe, ou votre messagerie sécurisée favorite, ou encore un appel vocal.
+Sur l'écran suivant, un mot de passe composé de 8 chiffres vous est proposé ici "20420219", il vous faudra communiquer ce mot de passe à l'émetteur. Utilisez par exemple un sms pour transmettre ce mot de passe, ou votre messagerie sécurisée favorite, ou encore un appel vocal.
 
 Ensuite cliquez sur le bouton **"Enter**" de votre ColdCardQ pour passer à l'étape suivante.
 
@@ -51,7 +51,7 @@ Un QR code est généré à l'écran. Vous devrez, là encore, communiquer ce QR
 
 *Nous sommes en fait là en train d'initier un transfert de secrets via la méthode Diffie-Hellman, abordée dans le cours BTC204 que je vous mets en dessous.*
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Nous avons pour le moment:*
 - *généré une paire de clés éphémères (publique/privée respectivement Ka et ka avec Ka=G.ka, G étant le point générateur de ECDH), ainsi qu'un mot de passe à 8 chiffres*.
@@ -77,7 +77,7 @@ Il vous est maintenant demandé de choisir la nature des secrets à transmettre 
 
 ![CCQ-key-teleport](assets/fr/04.webp)
 
-Ici notre secret sera un message court en choisissant **"Quick Text Message"**. Tapez au clavier votre message (pour nous "PlanB Network rocks") puis pressez **"ENTER"**.
+Ici notre secret sera un message court en choisissant **"Quick Text Message"**. Tapez au clavier votre message (pour nous "Plan ₿ Academy rocks") puis pressez **"ENTER"**.
 L'appareil génère ensuite un nouveau mot de passe aléatoire appelé **"Teleport Password"** , dans l'exemple "NE XG BT SK".
 
 ![CCQ-key-teleport](assets/fr/05.webp)
@@ -100,7 +100,7 @@ Appuyez sur le bouton **"QR"** pour scanner le QR code présenté par l'appareil
 
 
 
-Les données sont ensuite déchiffrées et intelligibles pour l'appareil receveur. Le message reçu est bien "PlanB Network rocks". C'est terminé.
+Les données sont ensuite déchiffrées et intelligibles pour l'appareil receveur. Le message reçu est bien "Plan ₿ Academy rocks". C'est terminé.
 
 ![CCQ-key-teleport](assets/fr/08.webp)
 
@@ -112,7 +112,7 @@ Les données sont ensuite déchiffrées et intelligibles pour l'appareil receveu
 
 ### 2- Pour transférer des PSBT pour Multisig (avancé)
 
-Cela présuppose que votre wallet multisig a déjà été créé au préalable et que votre appareil ColdCardQ a déjà été pré-réglé pour être en mesure  de réaliser des transactions multi signatures. Si ce n'est pas le cas des explications sont disponibles [ici](https://coldcard.com/docs/multisig/) sur le site de Coinkite (en anglais).
+Cela présuppose que votre wallet multisig a déjà été créé au préalable et que votre appareil ColdCardQ a déjà été pré-réglé pour être en mesure de réaliser des transactions multi signatures. Si ce n'est pas le cas des explications sont disponibles [ici](https://coldcard.com/docs/multisig/) sur le site de Coinkite (en anglais).
 
 Petit rappel sur ce qu'est un wallet multi signatures (multisig).
 
@@ -145,7 +145,7 @@ On voit bien que 2 signatures ont déjà été appliquées. Il ne manque plus qu
 
 ![CCQ-key-teleport](assets/fr/11.webp)
 
-Et un nouveau "TELEPORT PASSWORD" est créé, suivi là encore d'un QR code encodant la PSBT signée par 1 et 2  puis chiffrée par ce nouveau "TELEPORT PASSWORD" (GW YQ K3 LL).
+Et un nouveau "TELEPORT PASSWORD" est créé, suivi là encore d'un QR code encodant la PSBT signée par 1 et 2 puis chiffrée par ce nouveau "TELEPORT PASSWORD" (GW YQ K3 LL).
 
 ![CCQ-key-teleport](assets/fr/12.webp)
 
@@ -154,7 +154,7 @@ Et un nouveau "TELEPORT PASSWORD" est créé, suivi là encore d'un QR code enco
 On répète la même étape que précédemment.
 Le signataire 3 scanne le QR code présenté par le signataire 2 en visio. Puis entre le "TELEPORT PASSWORD" transmis par le canal de communication secondaire.
 
-Le signataire 3 signe la transaction et cette fois puisque 3 signatures sur 4 ont été appliquées , la transaction nous est indiquée comme finalisée, et est prête à être diffusée par différents médiums (SD Card, NFC, QR etc...).
+Le signataire 3 signe la transaction et cette fois puisque 3 signatures sur 4 ont été appliquées, la transaction nous est indiquée comme finalisée, et est prête à être diffusée par différents médiums (SD Card, NFC, QR etc...).
 
 ![CCQ-key-teleport](assets/fr/13.webp)
 

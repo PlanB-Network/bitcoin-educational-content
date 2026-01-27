@@ -1,23 +1,23 @@
 ---
-name: Legg til et arrangement på PlanB Network
-description: Hvordan foreslår jeg å legge til en ny hendelse på PlanB Network?
+name: Legg til et arrangement på Plan ₿ Academy
+description: Hvordan foreslår jeg å legge til en ny hendelse på Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
 PlanBs oppdrag er å tilby førsteklasses utdanningsressurser om Bitcoin på så mange språk som mulig. Alt innhold som publiseres på nettstedet er åpen kildekode og hostet på GitHub, noe som gir alle muligheten til å bidra til berikelsen av plattformen.
 
-Ønsker du å legge til en Bitcoin-konferanse på PlanB Network-siden og øke synligheten for ditt arrangement, men vet ikke hvordan? Denne veiledningen er for deg!
+Ønsker du å legge til en Bitcoin-konferanse på Plan ₿ Academy-siden og øke synligheten for ditt arrangement, men vet ikke hvordan? Denne veiledningen er for deg!
 ![event](assets/01.webp)
 - Først må du ha en konto på GitHub. Hvis du ikke vet hvordan du oppretter en konto, har vi laget en detaljert veiledning for å veilede deg.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/conference) i `resources/conference/`-delen:
 ![event](assets/02.webp)
 - Klikk øverst til høyre på `Add file`-knappen, deretter på `Create new file`:
 ![event](assets/03.webp)
-- Hvis du aldri har bidratt til innholdet på PlanB Network før, må du opprette din egen fork av det originale repositoriet. Å forke et repositorium betyr å lage en kopi av det repositoriet på din egen GitHub-konto, noe som lar deg jobbe på prosjektet uten å påvirke det originale repositoriet. Klikk på `Fork this repository`-knappen:
+- Hvis du aldri har bidratt til innholdet på Plan ₿ Academy før, må du opprette din egen fork av det originale repositoriet. Å forke et repositorium betyr å lage en kopi av det repositoriet på din egen GitHub-konto, noe som lar deg jobbe på prosjektet uten å påvirke det originale repositoriet. Klikk på `Fork this repository`-knappen:
 ![event](assets/04.webp)
 - Du vil da komme til GitHub-redigeringssiden:
 ![event](assets/05.webp)
@@ -85,7 +85,7 @@ tags:
 ![event](assets/09.webp)
 Hvis du ennå ikke har en "*project*" identifikator for din organisasjon, kan du legge den til ved å følge denne andre opplæringen.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Når du har fullført endringene i denne filen, lagre dem ved å klikke på `Commit changes...` knappen:
 ![event](assets/10.webp)
@@ -97,7 +97,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![event](assets/13.webp)
 - Klikk på GitHub-profilbildet ditt øverst til høyre, deretter på `Your Repositories`:
 ![event](assets/14.webp)
-- Velg din fork av PlanB Network-repositoriet:
+- Velg din fork av Plan ₿ Academy-repositoriet:
 ![event](assets/15.webp)
 - Du bør se en notifikasjon øverst i vinduet med din nye branch. Den heter sannsynligvis `patch-1`. Klikk på den:
 ![event](assets/16.webp)
@@ -118,7 +118,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 - Gå tilbake til `assets` mappen:
 ![event](assets/24.webp)
 - Klikk på `Add file` knappen, deretter på `Upload files`: ![event](assets/25.webp)
-- En ny side vil åpne seg. Dra og slipp et bilde som representerer din konferanse og som vil bli vist på PlanB Network-siden:
+- En ny side vil åpne seg. Dra og slipp et bilde som representerer din konferanse og som vil bli vist på Plan ₿ Academy-siden:
 ![event](assets/26.webp)
 - Det kan være en logo, et miniatyrbilde, eller til og med en plakat:
 ![event](assets/27.webp)
@@ -141,8 +141,8 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![event](assets/36.webp)
 - Klikk på `Opprett pull forespørsel`-knappen:
 ![event](assets/37.webp)
-Gratulerer! Din PR har blitt vellykket opprettet. En administrator vil nå sjekke den og, hvis alt er i orden, slå den sammen med hovedrepositoriet til PlanB Network. Du bør se ditt arrangement dukke opp på nettsiden noen dager senere.
+Gratulerer! Din PR har blitt vellykket opprettet. En administrator vil nå sjekke den og, hvis alt er i orden, slå den sammen med hovedrepositoriet til Plan ₿ Academy. Du bør se ditt arrangement dukke opp på nettsiden noen dager senere.
 
-Sørg for å følge med på fremgangen til din PR. En administrator kan legge igjen en kommentar som ber om ytterligere informasjon. Så lenge din PR ikke er validert, kan du konsultere den i `Pull requests`-fanen på PlanB Network GitHub-repositoriet:
+Sørg for å følge med på fremgangen til din PR. En administrator kan legge igjen en kommentar som ber om ytterligere informasjon. Så lenge din PR ikke er validert, kan du konsultere den i `Pull requests`-fanen på Plan ₿ Academy GitHub-repositoriet:
 ![event](assets/38.webp)
 Tusen takk for ditt verdifulle bidrag! :)

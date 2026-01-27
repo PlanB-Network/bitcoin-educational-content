@@ -1,0 +1,9 @@
+question: Was ist der Hauptgrund dafür, dass das tatsächlich im Umlauf befindliche Angebot an Bitcoin deutlich unter dem theoretischen Maximum von etwa 21 Millionen BTC liegen wird?
+answer: Verlorene private Schlüssel, wallet-Diebstahl und an falsche Adressen gesendete Münzen ziehen Bitcoins dauerhaft aus dem Verkehr
+wrong_answers:
+  - Mining-Schwierigkeitsanpassungen reduzieren automatisch das Gesamtangebot, um die Knappheit über die Zeit aufrechtzuerhalten
+  - Transaktionsgebühren werden während der Verarbeitung verbrannt, wodurch der verfügbare Bitcoin-Vorrat allmählich abnimmt
+  - Das Bitcoin-Protokoll sperrt automatisch Münzen, die über einen längeren Zeitraum nicht bewegt wurden, um eine Inflation zu verhindern
+explanation: |
+  Wenn das theoretische Maximum bei 20 999 999.9769 BTC liegt, ist das tatsächlich nutzbare Angebot aufgrund menschlicher Fehler und Verluste deutlich geringer. Verlorene private Schlüssel machen Bitcoins dauerhaft unzugänglich, Wallets werden gestohlen oder vergessen, und Coins werden mitunter an ungültige Adressen gesendet. Diese Faktoren führen zu einer dauerhaften Verringerung des Angebots, wovon die verbleibenden Inhaber profitieren, wie Satoshi bemerkte: Verlorene Coins erhöhen den Wert der Coins der anderen.
+reviewed: false

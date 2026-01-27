@@ -1,0 +1,8 @@
+question: Qual è il vantaggio principale dell'utilizzo del formato SEC compresso rispetto al formato SEC non compresso per le chiavi pubbliche Bitcoin?
+answer: Riduce le dimensioni di memorizzazione da 65 byte a 33 byte, mantenendo la stessa sicurezza crittografica
+wrong_answers:
+  - Fornisce una sicurezza crittografica più forte grazie all'utilizzo di livelli di crittografia aggiuntivi
+  - Consente di velocizzare le operazioni di moltiplicazione dei punti durante i processi di verifica della firma
+  - Consente di derivare più chiavi pubbliche da un unico formato compresso
+explanation: |
+  Il formato SEC compresso riduce le dimensioni della chiave pubblica da 65 byte (non compressa) a 33 byte, memorizzando solo la coordinata x e un bit di parità (prefisso 0x02 o 0x03) invece di entrambe le coordinate complete. La coordinata y può essere ricostruita matematicamente dalla coordinata x e dalle informazioni di parità, poiché le curve ellittiche hanno al massimo due valori di y per ogni data x. Questa compressione consente un notevole risparmio di memoria senza alcuna perdita di sicurezza, motivo per cui Bitcoin ora preferisce le chiavi compresse per l'efficienza.

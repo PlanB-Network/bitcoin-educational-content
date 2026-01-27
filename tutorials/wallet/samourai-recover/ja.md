@@ -30,10 +30,10 @@ Samourai Walletがすでにスマートフォンにインストールされて�
 個々の支出ツールに関しては、もちろん自分自身のDojoを持っている場合、全てが正常に機能します。通常のStonewallトランザクション（Stonewall x2ではない）は問題なく動作します。
 
 Twitterのコメントでは、Stonewallトランザクションによって提供されるプライバシーが現在減少している可能性が指摘されています。Stonewallトランザクションの付加価値は、構造の面でStonewall x2トランザクションと区別がつかないという事実にあります。アナリストがこの特定のパターンに遭遇した場合、それが単一ユーザーの標準的なStonewallなのか、2人のユーザーを巻き込むStonewall x2なのかを判断することはできません。しかし、以下の段落で見るように、Sorobanの利用不可のためにStonewall x2トランザクションを行うことがより複雑になったため、アナリストは今や任意のトランザクションが通常のStonewallであると仮定するかもしれません。個人的には、この仮定には同意しません。Stonewall x2トランザクションが以前に比べて頻度が低くなるかもしれませんが（そして私はそれがこの事件の前にもすでにそうだったと思います）、それらがまだ可能であるという事実は、それらがないという仮定に基づいた全ての分析を無効にすることができます。
-**[-> Stonewallトランザクションについてもっと学ぶ。](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Stonewallトランザクションについてもっと学ぶ。](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Ricochetに関しては、Testnet上でDojoを所有していないため、サービスがまだ稼働しているかを確認することができず、権限を持つ可能性のあるウォレットに向けて`100 000 sats`をリスクにさらすことは避けたいと思います。最近このツールをテストする機会があった場合は、この記事を更新できるように私に連絡してください。
 
-Ricochetを使用する必要がある場合は、任意のウォレットソフトウェアでこの操作を手動で実行することができます。様々なホップを適切に手動で実行する方法を学ぶには、この他の記事を参照することをお勧めします：[**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)。
+Ricochetを使用する必要がある場合は、任意のウォレットソフトウェアでこの操作を手動で実行することができます。様々なホップを適切に手動で実行する方法を学ぶには、この他の記事を参照することをお勧めします：[**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589)。
 
 JoinBotツールは、Samouraiが管理するウォレットの参加に完全に依存していたため、もはや稼働していません。
 
@@ -44,9 +44,9 @@ JoinBotツールは、Samouraiが管理するウォレットの参加に完全�
 いくつかのテストの後、Sorobanはもはや機能していないことが明らかになりました。これらの共同トランザクションを実行するためには、データの交換は手動で行わなければなりません。この交換を行うための2つのオプションは以下の通りです：
 - もし協力者と物理的に近い場合は、QRコードを順番にスキャンすることができます。
 あなたがコラボレーターから遠く離れている場合、PSBTをアプリケーション外の通信チャネルを通じて交換することができます。しかし、これらのPSBTに含まれるデータはプライバシーの面で敏感なので注意してください。交換の機密性を保証するために、暗号化されたメッセージングサービスの使用をお勧めします。
-**[-> Stonewall x2トランザクションについてもっと学ぶ。](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Stonewall x2トランザクションについてもっと学ぶ。](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> Stowawayトランザクションについてもっと学ぶ。](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Stowawayトランザクションについてもっと学ぶ。](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Whirlpoolに関しては、プロトコルはもはや機能していないようです。自分のDojoを持っているユーザーであってもです。この数日間、私は自分のRoninDojoを監視し、いくつかの基本的な操作を試みましたが、Whirlpool CLIはサーバーのシャットダウン以来接続できなくなっています。
 
@@ -146,7 +146,7 @@ Sparrow以外のソフトウェア、例えばElectrumを使用してSamouraiウ
 - Premix：`m/84'/0'/2147483645'`
 - Postmix：`m/84'/0'/2147483646'`
 
-これで、Sparrow上であなたのビットコインにアクセスできるようになりました。Sparrow Walletの使用方法について助けが必要な場合は、[専用のチュートリアル](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)もチェックしてみてください。
+これで、Sparrow上であなたのビットコインにアクセスできるようになりました。Sparrow Walletの使用方法について助けが必要な場合は、[専用のチュートリアル](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)もチェックしてみてください。
 
 また、SamouraiであなたのUTXOに関連付けられたラベルを手動でインポートすることをお勧めします。これにより、その後のSparrowで効果的なコインコントロールを実行できます。
 
@@ -202,7 +202,7 @@ SamouraiウォレットをElectrumなどの別のソフトウェアで復旧す�
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-これで、Sparrow上でビットコインにアクセスできるようになりました。Sparrow Walletの使用方法について助けが必要な場合は、[専用のチュートリアル](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)も参照してください。
+これで、Sparrow上でビットコインにアクセスできるようになりました。Sparrow Walletの使用方法について助けが必要な場合は、[専用のチュートリアル](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)も参照してください。
 
 また、SamouraiでUTXOsに関連付けたラベルを手動でインポートすることをお勧めします。これにより、その後のSparrowで効果的なコインコントロールを実行できます。
 

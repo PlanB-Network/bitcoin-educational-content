@@ -1,0 +1,9 @@
+question: ใครเป็นผู้ค้นพบวิธีการใช้ที่อยู่ซ้ำ?
+answer: Satoshi นากาโมโตะ
+wrong_answers:
+  - วิตาลิก บูเตริน
+  - Hal Finney
+  - กาวิน แอนเดรเซน
+explanation: |
+  บุคคลแรกที่พูดคุยเกี่ยวกับแนวคิดนี้คือ Satoshi Nakamoto ในส่วนที่ 10 ของ Bitcoin White Paper.
+reviewed: true

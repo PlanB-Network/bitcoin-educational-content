@@ -1,0 +1,9 @@
+question: ข้อกำหนดฮาร์ดแวร์หลักสำหรับโปรไฟล์ Starter ในการรับชำระเงิน Bitcoin คืออะไร?
+answer: สมาร์ทโฟน
+wrong_answers:
+  - Bitcoin คนขุดแร่ ASIC
+  - ฮาร์ดแวร์ wallet
+  - เซิร์ฟเวอร์ที่โฮสต์ด้วยตนเอง
+explanation: |
+  โปรไฟล์ Starter ต้องการเพียงสมาร์ทโฟนหรือแท็บเล็ตที่มี Lightning wallet ทำให้เป็นโซลูชันที่น้ำหนักเบา
+reviewed: true

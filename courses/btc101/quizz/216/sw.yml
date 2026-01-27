@@ -1,11 +1,9 @@
-question: Blockchain trilemma ni nini?
-answer: Itifaki kulingana na Blockchain inaweza kukidhi vigezo viwili pekee kati ya ugatuaji, usalama na upanuzi.
+question: Ni hatari gani nodi ya Lightning hukabiliwa nayo inapochapisha hali ya zamani ya kituo?
+answer: Adhabu
 wrong_answers:
-  - Itifaki kulingana na Blockchain inaweza kukidhi moja tu kati ya vigezo vya ugatuaji, usalama na upanuzi.
-  - Itifaki kulingana na Blockchain inaweza kukidhi vigezo vyote vya ugatuaji, usalama na upanuzi.
-  - Itifaki kulingana na Blockchain haiwezi kukidhi vigezo vyovyote vya ugatuaji, usalama na upanuzi.
+  - Onyo
+  - Ada za ziada za uchimbaji
+  - Kugandishwa kwa muda
 explanation: |
-  Trilemma ya Blockchain inarejelea changamoto ambayo a
-  itifaki kulingana na Blockchain inaweza kukidhi vigezo viwili tu kati ya
-  ugatuaji, usalama na upanuzi.
-reviewed: true
+  Itifaki inaweka adhabu ya kuzuia inayomruhusu upande mwingine kurejesha fedha zote.
+reviewed: false

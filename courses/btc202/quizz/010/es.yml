@@ -1,8 +1,8 @@
-question: ¿Cuál es la diferencia económica entre un nodo y un Miner?
-answer: El Miner recibe recompensas, el nodo no tiene ganancia directa
+question: ¿Cuál es la diferencia económica entre un nodo y un minero?
+answer: El Minero recibe recompensas, el nodo no tiene ganancia directa
 wrong_answers:
-  - El nodo recibe una tasa, Miner recibe una subvención en bloque
-  - El nodo recibe recompensas, el Miner no tiene ganancia directa
+  - El nodo recibe una tasa, el minero recibe una subvención en bloque
+  - El nodo recibe recompensas, el minero no tiene ganancia directa
   - Ambos reciben los mismos premios
 explanation: |
   Los mineros reciben recompensas (subvenciones y tasas), mientras que un nodo no aporta ningún beneficio económico directo a su usuario.

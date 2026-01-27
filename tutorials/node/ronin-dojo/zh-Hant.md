@@ -14,7 +14,7 @@ description: 安裝和使用您的 RoninDojo Bitcoin 節點。
 
 本教學專門用於安裝 RoninDojo v1。要利用最新的改進和功能，我強烈建議您參考我們的教程，專門用於在您的 Raspberry Pi 上直接安裝 RoninDojo v2：___________________________________________________。
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

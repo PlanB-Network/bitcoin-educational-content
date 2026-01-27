@@ -1,0 +1,8 @@
+question: Vad är det primära syftet med väntetiden på 102 bekräftelser under peg-in-processen från Bitcoin till Liquid?
+answer: För att skydda mot Bitcoin-blockkedjeomorganisationer före myntning av L-BTC
+wrong_answers:
+  - Att ge federationen tillräckligt med tid för att verifiera användarens identitet och efterlevnad
+  - För att säkerställa att Liquid-nätverket har tillräcklig kapacitet för att behandla den inkommande transaktionen
+  - För att ge tid för 11 av 15 multisignaturer från federationens medlemmar
+explanation: |
+  Väntetiden på 102 bekräftelser (cirka 17 timmar) är särskilt utformad för att skydda mot omorganiseringar av Bitcoin-blockkedjan. Eftersom Bitcoin fungerar på probabilistisk finalitet finns det alltid en liten chans att block kan omorganiseras, vilket potentiellt kan ogiltigförklara transaktioner. Genom att vänta på 102 bekräftelser säkerställer systemet att Bitcoin-transaktionen som skickar pengar till federationsadressen är djupt begravd och extremt osannolikt att den kan återställas. Detta förhindrar scenariot där L-BTC präglas på Liquid men den underliggande Bitcoin-transaktionen blir reverserad på grund av en omorganisation. De andra alternativen är felaktiga eftersom: identitetsverifiering inte är en del av den automatiserade peg-in-processen, nätverkskapacitet inte är en begränsande faktor som kräver sådana förseningar, och 11-av-15 multisig-auktorisationen används för peg-outs, inte peg-ins.

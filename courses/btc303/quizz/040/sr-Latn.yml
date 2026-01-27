@@ -1,0 +1,12 @@
+question: Prema diskusiji u poglavlju o kompatibilnosti Bitcoina, kakvu vrstu kompatibilnosti pruža soft fork?
+answer: Pruža i kompatibilnost unazad i unapred, čineći ga potpuno kompatibilnim
+wrong_answers:
+  - Samo kompatibilnost unazad, omogućavajući novom softveru da obrađuje stare podatke
+  - Samo kompatibilnost unapred, omogućavajući starom softveru da obrađuje nove podatke
+  - Ni kompatibilnost unazad ni napred, zahtevajući potpuna sistemska ažuriranja
+explanation: |
+  Poglavlje jasno navodi da se 'Promena pravila Bitcoin konsenzusa smatra soft fork-om ako je potpuno kompatibilna.' Definiše potpuno kompatibilno kao i
+  unapred i unazad kompatibilno. Unapred kompatibilnost znači da stari softver može obraditi podatke iz novijih verzija ignorišući delove koje ne razume, 
+  dok unazad kompatibilnost znači da novi softver može obraditi stare podatke. Ova dvostruka kompatibilnost je ono što čini soft forkove preferiranim mehanizmom 
+  nadogradnje za Bitcoin, jer ne narušavaju postojeće sisteme dok omogućavaju novu funkcionalnost.
+reviewed: true

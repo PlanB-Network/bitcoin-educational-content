@@ -1,0 +1,9 @@
+question: К чему должен подключаться узел Lightning?
+answer: Узел Bitcoin
+wrong_answers:
+  - Шахтер
+  - Исследователь блоков
+  - Объединенный сервер
+explanation: |
+  Узел Lightning зависит от узла Bitcoin для доступа к информации из основного блокчейна.
+reviewed: false

@@ -1,13 +1,11 @@
 ---
-name: Giao thức RGB, từ lý thuyết đến thực hành
+name: Lập trình RGB
 goal: Có được các kỹ năng cần thiết để hiểu và sử dụng RGB
-objectives: 
-
-  - Hiểu các khái niệm cơ bản của giao thức RGB
-  - Nắm vững các nguyên tắc xác thực phía khách hàng và cam kết Bitcoin
-  - Tìm hiểu cách tạo, quản lý và chuyển giao hợp đồng RGB
-  - Cách vận hành nút Lightning tương thích RGB
-
+objectives:
+- Hiểu các khái niệm cơ bản của giao thức RGB
+- Nắm vững các nguyên tắc xác thực phía khách hàng và cam kết Bitcoin
+- Tìm hiểu cách tạo, quản lý và chuyển giao hợp đồng RGB
+- Cách vận hành nút Lightning tương thích RGB
 ---
 # Khám phá giao thức RGB
 
@@ -45,7 +43,7 @@ Phần cuối cùng do các diễn giả khác trình bày về các ứng dụn
 ---
 Khóa đào tạo này ban đầu phát triển từ trại huấn luyện phát triển nâng cao kéo dài hai tuần tại Viareggio, Tuscany, do [Fulgur'Ventures](https://fulgur.ventures/) tổ chức. Tuần đầu tiên, tập trung vào Rust và SDK, có thể được tìm thấy trong khóa học khác này:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 Trong khóa học này, chúng ta sẽ tập trung vào tuần thứ hai của trại huấn luyện, tập trung vào RGB.
 
 **Tuần 1 - LNP402:**
@@ -345,11 +343,11 @@ Con dấu dùng một lần hoạt động theo ba giai đoạn chính:
 Quá trình này có thể được tóm tắt như sau:
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -1818,7 +1816,7 @@ Lightning Network là mạng lưới phi tập trung các kênh thanh toán (ho�
 
 Để biết thêm thông tin về cách thức hoạt động của Lightning, tôi khuyên bạn nên tham gia khóa học khác này:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 #### Cam kết đa giao thức - MPC
 
 Multi Protocol Commitment (MPC) đề cập đến cấu trúc cây Merkle được sử dụng trong RGB để bao gồm, trong một giao dịch Bitcoin duy nhất, một số **Transition Bundle** từ các hợp đồng khác nhau. Ý tưởng là nhóm lại với nhau một số cam kết (có khả năng tương ứng với các hợp đồng khác nhau hoặc các tài sản khác nhau) trong một điểm neo duy nhất để tối ưu hóa việc chiếm dụng không gian khối.
@@ -3026,8 +3024,8 @@ Sau đây là ví dụ về tệp YAML cần tạo:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3071,7 +3069,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Sau đó, lệnh tiếp theo sẽ hiển thị các trạng thái toàn cầu (tên, mã chứng khoán, nguồn cung...) và danh sách các Trạng thái sở hữu, tức là các phân bổ (ví dụ: 1 triệu mã thông báo `PBN` được xác định trong UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Sau đó, lệnh tiếp theo sẽ hiển thị các trạng thái toàn cầu (tên, mã chứng khoán, nguồn cung...) và danh sách các Trạng thái sở hữu, tức là các phân bổ (ví dụ: 1 triệu mã thông báo `Plan ₿ Academy` được xác định trong UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3165,7 +3163,7 @@ Nó có thể được truyền tới Bob qua bất kỳ kênh nào (văn bản,
 Để chuyển từ hóa đơn này:
 
 
-- Bob (người giữ token trong kho của mình) có một ví Bitcoin. Anh ta cần chuẩn bị một giao dịch Bitcoin (dưới dạng PSBT, ví dụ: `tx.psbt`) để chi tiêu UTXO tại nơi có token RGB cần thiết, cộng với một UTXO để đổi tiền (trao đổi);
+- Bob (người giữ các token trong stash của mình) có một ví Bitcoin. Anh ta phải chuẩn bị một giao dịch Bitcoin (dưới dạng PSBT, ví dụ `tx.psbt`) chi tiêu các UTXO nơi các token RGB cần thiết đang nằm, cùng với một UTXO cho tiền thối lại (change);
 - Bob thực hiện lệnh sau:
 
 ```bash
@@ -3254,7 +3252,7 @@ Trên thực tế, Lightning Network cho phép thanh toán được định tuy�
 
 Do đó, hoạt động của RGB trên Lightning phải được xem xét song song với hoạt động của chính Lightning Network. Nếu bạn muốn tìm hiểu sâu hơn về chủ đề này, tôi thực sự khuyên bạn nên xem khóa đào tạo toàn diện khác này:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ### Bản đồ mã RGB
 
 Cuối cùng, trước khi chuyển sang phần tiếp theo, tôi muốn cung cấp cho bạn tổng quan về mã được sử dụng trong RGB. Giao thức này dựa trên một tập hợp các thư viện Rust và thông số kỹ thuật nguồn mở. Sau đây là tổng quan về các kho lưu trữ và thùng chính:
@@ -3750,7 +3748,7 @@ Tất nhiên, bạn có thể điều chỉnh thứ tự. Để xác nhận giao
 ./regtest.sh mine 1
 ```
 
-Bây giờ chúng ta có thể tạo một tài sản RGB. Lệnh sẽ phụ thuộc vào loại tài sản bạn muốn tạo và các tham số của nó. Ở đây tôi đang tạo một mã thông báo NIA (*Tài sản không thể bơm phồng*) có tên là "PBN" với nguồn cung là 1000 đơn vị. `precision` cho phép bạn xác định khả năng chia hết của các đơn vị.
+Bây giờ chúng ta có thể tạo một tài sản RGB. Lệnh sẽ phụ thuộc vào loại tài sản bạn muốn tạo và các tham số của nó. Ở đây tôi đang tạo một mã thông báo NIA (*Tài sản không thể bơm phồng*) có tên là "Plan ₿ Academy" với nguồn cung là 1000 đơn vị. `precision` cho phép bạn xác định khả năng chia hết của các đơn vị.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3758,8 +3756,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3795,7 +3793,7 @@ Lệnh trả về khóa công khai của nút số 2 của tôi:
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Tiếp theo, chúng ta sẽ mở kênh bằng cách chỉ định tài sản có liên quan (`PBN`). Lệnh `/openchannel` cho phép bạn xác định kích thước của kênh theo satoshi và chọn bao gồm tài sản RGB. Tùy thuộc vào những gì bạn muốn tạo, nhưng trong trường hợp của tôi, lệnh là:
+Tiếp theo, chúng ta sẽ mở kênh bằng cách chỉ định tài sản có liên quan (`Plan ₿ Academy`). Lệnh `/openchannel` cho phép bạn xác định kích thước của kênh theo satoshi và chọn bao gồm tài sản RGB. Tùy thuộc vào những gì bạn muốn tạo, nhưng trong trường hợp của tôi, lệnh là:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3834,7 +3832,7 @@ Tìm hiểu thêm tại đây:
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Kênh Lightning hiện đã mở và cũng chứa 500 token `PBN` ở phía nút n°1. Nếu nút n°2 muốn nhận token `PBN`, nó phải tạo hóa đơn. Sau đây là cách thực hiện:
+Kênh Lightning hiện đã mở và cũng chứa 500 token `Plan ₿ Academy` ở phía nút n°1. Nếu nút n°2 muốn nhận token `Plan ₿ Academy`, nó phải tạo hóa đơn. Sau đây là cách thực hiện:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3863,7 +3861,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-Bây giờ chúng ta sẽ thanh toán hóa đơn này từ nút đầu tiên, nơi lưu trữ số tiền mặt cần thiết bằng mã thông báo `PBN`:
+Bây giờ chúng ta sẽ thanh toán hóa đơn này từ nút đầu tiên, nơi lưu trữ số tiền mặt cần thiết bằng mã thông báo `Plan ₿ Academy`:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

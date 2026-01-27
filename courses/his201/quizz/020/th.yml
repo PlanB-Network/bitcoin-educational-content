@@ -1,0 +1,9 @@
+question: แรงบันดาลใจหลักของ Satoshi Nakamoto ในระหว่างการออกแบบเบื้องต้นของ Bitcoin คืออะไร?
+answer: eCash (David Chaum)
+wrong_answers:
+  - b-money (Wei Dai)
+  - บิทโกลด์ (Nick Szabo)
+  - RPOW (Hal Finney)
+explanation: |
+  แม้จะมีความคล้ายคลึงกันอย่างมาก แต่แรงบันดาลใจหลักของ Satoshi ไม่ใช่โมเดลของ b-money, bit gold, และ RPOW เพราะเขาไม่ทราบถึงสิ่งเหล่านี้ก่อนเดือนสิงหาคม 2008
+reviewed: true

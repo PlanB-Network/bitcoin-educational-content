@@ -1,0 +1,9 @@
+question: Hva er det som skiller bokens definisjon av Bitcoin-skalering fra de vanligste alternative definisjonene som brukes i Bitcoin-sammenheng?
+answer: Det krever eksplisitt at sensurresistens opprettholdes som en begrensning, samtidig som brukskapasiteten økes
+wrong_answers:
+  - Den fokuserer utelukkende på å øke gjennomstrømningen av blokkjedetransaksjoner i stedet for effektivitetsforbedringer
+  - Den prioriterer utvikling av lagdelt arkitektur fremfor endringer i den grunnleggende blokkjedeprotokollen
+  - Den legger vekt på å redusere beregningskravene for noder i stedet for å utvide nettverkskapasiteten
+explanation: |
+  I boken defineres skalering som "å øke Bitcoins brukskapasitet uten at det går på bekostning av sensurmotstanden", noe som eksplisitt inkluderer sensurmotstandsbegrensningen. Dette skiller den fra andre definisjoner som utelukkende fokuserer på økt transaksjonskapasitet, effektivitetsforbedringer eller lagdelte systemer uten å ta hensyn til bevaringen av Bitcoins grunnleggende egenskaper. Kravet om sensurresistens sikrer at skaleringsløsninger ikke undergraver Bitcoins kjerneverdi i form av å være et tillitsløst, desentralisert system som ikke kan kontrolleres av én enkelt enhet.
+reviewed: false

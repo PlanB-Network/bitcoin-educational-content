@@ -6,4 +6,4 @@ wrong_answers:
   - Pretvaranje poruke u binarni oblik
 explanation: |
   Kod za autentifikaciju poruke (MAC) koristi se kako bi se osiguralo da poruka nije izmenjena i da zaista dolazi od pretpostavljenog pošiljaoca.
-reviewed: false
+reviewed: true

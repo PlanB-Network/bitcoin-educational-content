@@ -8,7 +8,7 @@ description: Ni gute nogira iciyumviro co kwongerako ikintu gishasha ku rubuga r
 Intumbero ya PlanB ni ugutanga ibikoresho vy’inyigisho vyo ku rwego rwo hejuru ku Bitcoin mu ndimi nyinshi zishoboka. Ibintu vyose bisohoka kuri uru rubuga ni ivy’inkomoko yuguruye kandi bishirwa kuri GitHub, bikaba biha umuntu wese akaryo ko gutanga umusanzu mu gutunganya urubuga.
 
 
-Niba ushaka kwongerako inama ya Bitcoin ku rubuga rwa PlanB Network no kwongera ukugaragara kw’umusi mukuru wawe, ariko ntuzi ingene? Iyi nyigisho ni iyawe!
+Niba ushaka kwongerako inama ya Bitcoin ku rubuga rwa Plan ₿ Academy no kwongera ukugaragara kw’umusi mukuru wawe, ariko ntuzi ingene? Iyi nyigisho ni iyawe!
 
 ![event](assets/01.webp)
 
@@ -16,7 +16,7 @@ Niba ushaka kwongerako inama ya Bitcoin ku rubuga rwa PlanB Network no kwongera 
 - Ubwa mbere, ukeneye kugira konti kuri GitHub. Niba utazi uko wokora konti, twakoze inyigisho ido n’ido kugira ngo ikuyobore.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- Niba utigeze utanga umusanzu ku birimwo PlanB Network mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Guca ububiko bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, bikagufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
+- Niba utigeze utanga umusanzu ku birimwo Plan ₿ Academy mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Guca ububiko bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, bikagufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
 
 ![event](assets/04.webp)
 
@@ -118,7 +118,7 @@ tags:
 Niba utararonka ikimenyetso ca "*project*" c'ishirahamwe ryawe, urashobora kugishiramwo ukurikije iyi yindi nyigisho.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -199,7 +199,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 - Fyonda kuri buto ya `Kwongerako dosiye`, hanyuma kuri `Shirako dosiye`: ![ivyabaye](itunga/25.webp)
-- Paje nshasha izofunguka. Kurura ushire ishusho iserukira inama yawe kandi izogaragara ku rubuga rwa PlanB Network:
+- Paje nshasha izofunguka. Kurura ushire ishusho iserukira inama yawe kandi izogaragara ku rubuga rwa Plan ₿ Academy:
 
 ![event](assets/26.webp)
 
@@ -258,7 +258,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![event](assets/37.webp)
 
-Urakoze cane! PR yawe yararemwe neza. Ubu umuyobozi azobisuzuma, nimba vyose biri ku rutonde, abishire mu bubiko nyamukuru bwa PlanB Network. Ushobora kubona umusi mukuru wawe uboneka ku rubuga haciye imisi mikeyi.
+Urakoze cane! PR yawe yararemwe neza. Ubu umuyobozi azobisuzuma, nimba vyose biri ku rutonde, abishire mu bubiko nyamukuru bwa Plan ₿ Academy. Ushobora kubona umusi mukuru wawe uboneka ku rubuga haciye imisi mikeyi.
 
 
 Raba neza ko ukurikirana ingene PR yawe itera imbere. Umuyobozi ashobora gusiga amajambo asaba ibindi bisobanuro. Igihe cose PR yawe itaremejwe, ushobora kuyibona mu `Ibisabwa vyo gukura` ku bubiko bwa GitHub bw'urubuga rwa PlanB:

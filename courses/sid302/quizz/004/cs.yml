@@ -1,0 +1,8 @@
+question: Jaká kryptografická funkce umožňuje společnosti Liquid skrýt částky transakcí a typy aktiv před veřejností?
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - Hardwarové bezpečnostní moduly (HSM)
+  - Protokol dynamické federace (Dynafed)
+  - Autorizační klíče Peg-out (PAK)
+explanation: |
+  Confidential Transactions (CT) je kryptografická funkce, která umožňuje Liquid skrýt typy aktiv a částky transakcí před veřejnou účetní knihou a zároveň umožňuje síti ověřit platnost transakcí. To zajišťuje obchodní soukromí, které je pro instituce zásadní. Hardwarové bezpečnostní moduly jsou fyzická zařízení, která zabezpečují soukromé klíče, protokol Dynafed řídí změny federace a PAK řídí proces peg-out - nic z toho neskrývá detaily transakcí před veřejností.

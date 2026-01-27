@@ -1,0 +1,8 @@
+question: Welk parametertype moet een Rust methode gebruiken als het de instantie van de structuur moet wijzigen terwijl de aanroeper eigenaar blijft?
+answer: "&mut zelf"
+wrong_answers:
+  - "&zelf"
+  - zelf
+  - mut zelf
+explanation: |
+  Methoden die een instantie van een structuur moeten wijzigen terwijl de aanroeper eigenaar blijft, moeten `&mut self` als eerste parameter gebruiken. Dit creëert een muteerbare verwijzing naar de instantie, waardoor de methode de velden van de structuur kan wijzigen zonder het eigendom weg te nemen van de aanroeper. Het gebruik van `&self` zou alleen het lezen van de instantie toestaan, `self` zou de instantie volledig consumeren en `mut self` is geen geldige Rust syntaxis voor methode parameters.

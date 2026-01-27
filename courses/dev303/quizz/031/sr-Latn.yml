@@ -1,0 +1,8 @@
+question: Kakva greška bi trebala izazvati paniku u Rust programima?
+answer: Neotklonjive greške koje ukazuju na greške u logici programiranja ili nesigurna stanja
+wrong_answers:
+  - Neuspesi mrežne veze ili greške vremenskog prekoračenja sa eksternih servisa
+  - Nevažeći unos korisnika ili nedostajuće konfiguracione datoteke
+  - Greške "Fajl nije pronađen" ili izuzeci "Dozvola odbijena"
+explanation: |
+  Panika bi trebalo rezervisati za nepopravljive greške koje predstavljaju greške u programiranju ili situacije kada je program ušao u nesigurno stanje, kao što su kršenja granica niza ili problemi sa bezbednošću memorije. Pogrešni odgovori svi opisuju popravljive greške - mrežni kvarovi, problemi sa korisničkim unosom i problemi sa datotečnim sistemom su očekivani uslovi koje programi treba da rešavaju na odgovarajući način koristeći Result tipove umesto da se ruše. Ove popravljive greške omogućavaju programima da nastave sa radom implementiranjem odgovarajućih strategija za rukovanje greškama.

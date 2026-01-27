@@ -3,7 +3,7 @@ name: My Node
 description: Gushiraho Bitcoin yawe Node yanje
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 [Igikoresho canje](https://mynodebtc.com/) ni uburyo bworoshe, bukomeye bwo gukoresha igikoresho ca Bitcoin n’ica Lightning! Turahuza porogarama nziza cane zifunguye na Interface yacu, uburongozi, n’ugushigikira kugira ngo ushobore gukoresha Bitcoin na Lightning mu buryo bworoshe, mu mwiherero, kandi ata nkomanzi.

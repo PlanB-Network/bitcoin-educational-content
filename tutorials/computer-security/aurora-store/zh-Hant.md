@@ -14,7 +14,7 @@ description: 下載 Android 應用程式的 Play Store 免費替代方案
 
 
 
-# 開始使用 Aurora 商店
+## 開始使用 Aurora 商店
 
 
 
@@ -44,13 +44,13 @@ Aurora Store 是 Android 平台上最受歡迎的 Google Play 商店替代應用
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 不過，我們建議直接從官方網站下載 APK 檔案，以確保 Aurora Store 的真實性和完整性。
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 APK (Android Package Kit) 檔案是 Android 作業系統用來散佈和安裝應用程式的套件格式。它等同於 Windows 上的 **.exe** 檔案或 macOS 上的 **.dmg** 檔案。
 
@@ -88,7 +88,7 @@ APK (Android Package Kit) 檔案是 Android 作業系統用來散佈和安裝應
 
 
 
-## 特點
+### 特點
 
 
 
@@ -155,4 +155,4 @@ Aurora Store 不僅是一個應用程式商店，更是一個開放原始碼解�
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -8,7 +8,7 @@ description: Ni gute twokwongerako ibikoresho bishasha vy’inyigisho ku rubuga 
 Intumbero ya PlanB ni ugutanga ibikoresho vy’inyigisho bihambaye ku bijanye na Bitcoin, mu ndimi nyinshi zishoboka. Ibintu vyose bisohoka kuri uru rubuga ni open-source kandi bishirwa kuri GitHub, ivyo bikaba bituma umuntu wese agira uruhara mu gutunganya urubuga.
 
 
-Uretse inyigisho n’amahugurwa, PlanB Network iratanga kandi ububiko bunini bw’ibintu vy’inyigisho bitandukanye kuri Bitcoin, bishobora gushikirwa na bose, [mu gice ca "BET" (_Ibikoresho vy’inyigisho vya Bitcoin_)](https://planb.network/resources/bet). Iryo koraniro ry’amakuru ririho amafoto y’inyigisho, ama meme, amafoto y’ivy’iterabwoba, ibishushanyo vy’ubuhinga, ibimenyetso, n’ibindi bikoresho vy’abakoresha. Intumbero y’iyi nzira ni ugushigikira abantu ku giti cabo n’imiryango yigisha Bitcoin kw’isi yose mu kubaronsa ibikoresho bikenewe vyo kubona.
+Uretse inyigisho n’amahugurwa, Plan ₿ Academy iratanga kandi ububiko bunini bw’ibintu vy’inyigisho bitandukanye kuri Bitcoin, bishobora gushikirwa na bose, [mu gice ca "BET" (_Ibikoresho vy’inyigisho vya Bitcoin_)](https://planb.academy/resources/bet). Iryo koraniro ry’amakuru ririho amafoto y’inyigisho, ama meme, amafoto y’ivy’iterabwoba, ibishushanyo vy’ubuhinga, ibimenyetso, n’ibindi bikoresho vy’abakoresha. Intumbero y’iyi nzira ni ugushigikira abantu ku giti cabo n’imiryango yigisha Bitcoin kw’isi yose mu kubaronsa ibikoresho bikenewe vyo kubona.
 
 
 Woba ushaka kugira uruhara mu gutunganya uru rubuga, ariko ntuzi ingene wobikora? Iyi nyigisho ni iyawe!
@@ -22,7 +22,7 @@ Woba ushaka kugira uruhara mu gutunganya uru rubuga, ariko ntuzi ingene wobikora
 - Ubwa mbere, ukeneye kugira konti kuri GitHub. Niba utazi uko wokora konti, twakoze inyigisho ido n’ido kugira ngo ikuyobore.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -36,7 +36,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- Niba utigeze utanga umusanzu ku birimwo PlanB Network mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Forking a repository bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, ivyo bikaba bigufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
+- Niba utigeze utanga umusanzu ku birimwo Plan ₿ Academy mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Forking a repository bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, ivyo bikaba bigufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
 
 ![event](assets/04.webp)
 
@@ -82,7 +82,7 @@ Akira ibisobanuro vyo kwuzuza kuri buri kibanza:
 - `umugambi`**: Erekana ikimenyetso c'ishirahamwe ryawe ku rubuga rwa PlanB. Niba utaragira ikimenyetso c'"umugambi" w'ishirahamwe ryawe, urashobora kugikora ukurikije iyi nyigisho.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 Nimba udafise, urashobora gusa gukoresha izina ryawe, izina ryawe ry’uruyeri canke izina ry’ishirahamwe ryawe utakoze urutonde rw’umugambi.
 
@@ -118,7 +118,7 @@ Akarorero, dosiye yawe ya YAML yoshobora gusa n'iyi:
 
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -135,7 +135,7 @@ view:
 ![event](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![event](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![event](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It is probably called `patch-1`. Click on it:
 ![event](assets/16.webp)
@@ -152,7 +152,7 @@ view:
 - Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/23.webp)
 - Return to the `assets` folder: ![event](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`: ![event](assets/25.webp)
-- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the PlanB Network site: ![event](assets/26.webp)
+- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the Plan ₿ Academy site: ![event](assets/26.webp)
 - It can be a preview, a logo, or an icon: ![event](assets/27.webp)
 - Once the image is uploaded, make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/28.webp)
 - Be careful, your image must be named `logo` and must be in `.webp` format. The full file name should therefore be: `logo.webp`: ![event](assets/29.webp)

@@ -22,7 +22,7 @@ Mu yandi majambo, ni vyiza kubika amadosiye yawe ahantu 3 hatandukanye, ukoreshe
 Kugira ngo ushobore gushitsa iyo nzira y’ububiko bwa 3-2-1 mu buryo bworoshe, urashobora guhitamwo umuti wo kubika kuri interineti, mu guhuza amadosiye yo muri mudasobwa yawe n’ayo ari mu gicu cawe. Muri izo nzira zo gucungera amakuru ku rubuga, biragaragara ko hariho izo mu masosiyete manini manini y’ubuhinga bwa none uzi: Google Drive, Microsoft OneDrive, canke Apple iCloud. Ariko rero, ivyo si vyo bisubizo vyiza vyo kurinda ubuzima bwite bwawe. Mu nyigisho iheruka, narakumenyesheje ubundi buryo bushobora gupfuka inyandiko zawe kugira ngo ushobore kugira ubuzima bwite: Proton Drive.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Mu kwemera iyo nzira yo gucungera amakuru yawe mu karere no mu gicu, uramaze kwungukira ku bwoko bubiri butandukanye bw’ibimenyeshamakuru vy’amakuru yawe, kimwe muri vyo kikaba kiri hanze y’aho uri. Kugira ngo urangize ingamba za 3-2-1, ukeneye gusa kwongerako kopi y’inyongera. Ico ndaguhanura ni ugutuma gusa amakuru yawe ariho mu karere kawe no mu gicu cawe aja hanze, nk’inkoni ya USB canke umuduga wa Hard wo hanze. Muri ubwo buryo, naho ama server y’umuti wawe wo kubika amakuru kuri Internet yoba yasambutse, mudasobwa yawe igasenyuka icarimwe, uracari n’iyo kopi ya gatatu ku buryo bwo hanze kugira ngo ntutakaze amakuru yawe.
 
@@ -151,7 +151,7 @@ Ndaguhanura kandi ngo ubike ijambobanga ryawe mu gikoresho co gucungera ijamboba
 Kubindi bisobanuro ku bijanye no gucunga amajambo banga, ndaguhanura ngo ubone iyi nyigisho yuzuye:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Injira ijambobanga ryawe mu bibanza 2 vyategekanijwe, hanyuma ukande kuri "*Ibikurikira*". ![VeraCrypt](itunga/inyandiko/25.urubuga)
 

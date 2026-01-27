@@ -1,0 +1,9 @@
+question: Mikä oli se ongelmallinen lähestymistapa, jota Satoshi käytti toteuttaessaan kovaa fork:ta, jota Bitcoin:n kehittäjät eivät koskaan käyttäisi nykyään?
+answer: Murtautuvan muutoksen piilottaminen sitoumukseen, jonka kuvaus oli harhaanjohtava ja joka ei antanut mitään viitteitä konsensussäännön muutoksista
+wrong_answers:
+  - Kovan fork:n toteuttaminen ilman julkista ilmoitusta tai viestintää Bitcoin-yhteisölle etukäteen
+  - Useiden kovien haarojen yhdistäminen yhdeksi julkaisuksi ilman asianmukaista testausta tai yhteisön arviointiprosesseja
+  - Kovan fork:n aktivoiminen välittömästi ilman, että käyttäjille annetaan riittävästi aikaa päivittää solmun ohjelmisto
+explanation: |
+  Eric Lombrozon analyysin mukaan Satoshi:n ongelmallinen lähestymistapa oli konsensusta rikkovan muutoksen naamioiminen toimitukseen harhaanjohtavalla kuvauksella, jossa mainittiin vain "reverted makefile.unix wx-config version 0.3.6" ilman mitään mainintaa rikkovista muutoksista. Tätä käytäntöä, jossa kriittiset konsensuksen muutokset piilotettiin harmittoman näköisiin kommitointeihin, ei voida hyväksyä nykypäivän standardien mukaan, sillä avoimuus ja selkeä viestintä konsensuksen mukaisista muutoksista ovat Bitcoin-kehityksen perusperiaatteita.
+reviewed: false

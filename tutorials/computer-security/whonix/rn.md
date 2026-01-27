@@ -86,7 +86,7 @@ Umaze gukuraho iyo dosiye, uyishiremwo nk’uko wobigira ku yindi porogarama yos
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Kuzana Whonix
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Umuyagankuba Bitcoin Wallet.
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix ni ikintu kirenze ubuhinga bwo gukoresha gusa: ni **ikibanza c’ukuri gitekanye** gigenewe kurinda ubutamenyekana bwawe, ubuzima bwite bwawe n’ibikorwa vyawe vy’agaciro. Kubera ubuhinga bwayo bushingiye kuri Tor, ugucapura kw’ubwenge hagati ya Gateway na Workstation, n’ibikoresho vyashizweho mbere nka Tor Browser, KeePassXC na Electrum, itanga umuti w’urufunguzo ku muntu wese yipfuza **gusoma ata wuzi**, **gukora mu mutekano** canke **gufata con.fi
 
@@ -244,4 +244,4 @@ Kugira ngo ukomeze umutekano wawe kuri sisitemu yawe ya Unix, raba inyigisho yac
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

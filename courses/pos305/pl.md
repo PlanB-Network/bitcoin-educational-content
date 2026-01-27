@@ -1,31 +1,18 @@
 ---
-name: Bitcoin i serwer płatności BTC
-goal: Zainstaluj serwer BTC Pay dla swojej firmy
-objectives: 
-
-  - Zrozumieć, czym jest btcpayserver.
-  - Samodzielny hosting i konfiguracja serwera BTC Pay Server.
-  - Wykorzystaj btcpayserver w swojej codziennej działalności.
-
+name: Opanowanie BTC Pay Server
+goal: Skonfiguruj instancję BTC Pay Server dla lokalnej firmy
+objectives:
+- Zrozumieć podstawy roli BTCPay Server w przetwarzaniu płatności
+- Opanować wewnętrzne działanie procesu konfiguracji BTCPay Server
+- Wdrożyć BTCPay Server w środowiskach chmurowych i opartych na węzłach
+- Zostać operatorem BTC Pay Server
 ---
+# Podróż do suwerenności finansowej
 
-# Bitcoin i serwer BTCPay
+Zaufanie jest kruche, szczególnie jeśli chodzi o pieniądze. Ten kurs wprowadzający poprowadzi Cię przez BTCPay Server, potężne narzędzie, które pozwala akceptować płatności Bitcoin bez polegania na stronach trzecich. Nauczysz się podstaw bycia operatorem BTCPay Server
 
-
-Jest to kurs wprowadzający na temat operatora serwera BTCPay napisany przez Alekosa i Basa, który został dostosowany w formacie kursu Plan ₿ przez melontwist i asi0.
-
-
-NIEDOKOŃCZONA HISTORIA
-
-
-"To kłamstwa, moje zaufanie do ciebie zostało złamane, uczynię cię przestarzałym".
-
-
-Wyprodukowany przez BTCPay Server Foundation
-
-
+Stworzony przez Alekosa i Basa, a zaadaptowany przez melontwist i asi0, ten kurs ujawnia, jak osoby prywatne i firmy budują alternatywy dla tradycyjnych systemów płatności. Niezależnie od tego, czy jesteś ciekawy Bitcoina, czy gotowy do prowadzenia infrastruktury płatniczej dla firm, odkryjesz praktyczne umiejętności, które kwestionują status quo. Gotowy, aby odkryć, jak naprawdę wygląda niezależność finansowa?
 +++
-
 # Wprowadzenie
 
 
@@ -291,7 +278,7 @@ Wiele opcji w BTCPay Server istnieje w takiej czy innej formie w innym oprogramo
 Gdy zostaniesz powitany w środowisku demonstracyjnym, zostaniesz poproszony o "Zaloguj się" lub "Utwórz konto" Administratorzy serwera mogą wyłączyć funkcję tworzenia nowych kont ze względów bezpieczeństwa. Logo BTCPay Server i kolory przycisków mogą być zmieniane, ponieważ BTCPay Server jest oprogramowaniem Open Source. Zewnętrzny host może oznaczyć oprogramowanie białą etykietą i zmienić cały wygląd.
 
 
-![image](assets/en/0.webp)
+![image](assets/en/001.webp)
 
 
 ### Okno Utwórz konto
@@ -306,7 +293,7 @@ Hasło musi mieć co najmniej 8 znaków, w tym litery, cyfry i znaki. Po jednokr
 Po prawidłowym wypełnieniu pól adresu e-mail i hasła kliknij przycisk "Utwórz konto". Spowoduje to zapisanie adresu e-mail i hasła na instancji serwera BTCPay instruktora.
 
 
-![image](assets/en/1.webp)
+![image](assets/en/002.webp)
 
 
 **Uwaga!**
@@ -321,7 +308,7 @@ Jeśli śledzisz ten kurs samodzielnie, utworzenie tego konta byłoby czymś, co
 Administrator instancji serwera BTCPay może również tworzyć konta dla serwera BTCPay. Administrator instancji serwera BTCPay może kliknąć "Ustawienia serwera" (1), kliknąć zakładkę "Użytkownicy" (2) i kliknąć przycisk "+ Dodaj użytkownika" (3) w prawym górnym rogu zakładki Użytkownicy. W celu (4.3) dowiesz się więcej o kontroli administratora nad kontami.
 
 
-![image](assets/en/2.webp)
+![image](assets/en/003.webp)
 
 
 Jako administrator musisz podać adres e-mail użytkownika Address i ustawić standardowe hasło. Administrator powinien poinformować użytkownika o konieczności zmiany hasła przed rozpoczęciem korzystania z konta ze względów bezpieczeństwa. Jeśli administrator NIE ustawi hasła, a SMTP zostało ustawione na serwerze, użytkownik otrzyma wiadomość e-mail z linkiem zapraszającym do utworzenia konta i samodzielnego ustawienia hasła.
@@ -383,7 +370,7 @@ Po utworzeniu konta właściciel sklepu może nim zarządzać w lewym dolnym rog
 - Zarządzaj kontem.
 
 
-![image](assets/en/3.webp)
+![image](assets/en/004.webp)
 
 
 ### Tryb ciemny i jasny
@@ -413,7 +400,7 @@ Opcjonalnie zaktualizuj swoje konto za pomocą innego adresu e-mail Address. Aby
 Użytkownik może zdecydować się na usunięcie całego swojego konta. Można to zrobić, klikając przycisk Usuń na karcie Konto.
 
 
-![image](assets/en/4.webp)
+![image](assets/en/005.webp)
 
 
 **Uwaga!**
@@ -428,7 +415,7 @@ Po zmianie adresu e-mail nazwa użytkownika konta nie ulegnie zmianie. Poprzedni
 Uczeń może chcieć zmienić swoje hasło. Może to zrobić, przechodząc do zakładki Hasło. Tutaj musi wpisać swoje stare hasło i może je zmienić na nowe.
 
 
-![image](assets/en/5.webp)
+![image](assets/en/006.webp)
 
 
 ### Uwierzytelnianie dwuskładnikowe (2fa)
@@ -462,7 +449,7 @@ W zależności od systemu operacyjnego telefonu komórkowego (Android lub iOS), 
 3. Aplikacja Authenticator dostarczy Ci unikalny kod. Wprowadź unikalny kod na serwerze BTCPay, aby zweryfikować konfigurację, i kliknij przycisk weryfikacji, aby zakończyć proces.
 
 
-![image](assets/en/6.webp)
+![image](assets/en/007.webp)
 
 
 ### Podsumowanie umiejętności
@@ -497,7 +484,7 @@ Opisz, w jaki sposób 2FA oparte na aplikacji pomaga zabezpieczyć Twoje konto
 Gdy nowy użytkownik loguje się do BTCPay Server, środowisko jest puste i wymaga pierwszego sklepu. Kreator wprowadzenia BTCPay Server daje użytkownikowi opcję "Utwórz swój sklep" (1). Sklep może być postrzegany jako dom dla potrzeb Bitcoin. Nowy węzeł BTCPay Server rozpocznie się od synchronizacji Bitcoin Blockchain (2). W zależności od infrastruktury, na której działa serwer BTCPay, może to potrwać od kilku godzin do kilku dni. Aktualna wersja instancji jest wyświetlana w prawym dolnym rogu interfejsu użytkownika serwera BTCPay. Jest to przydatne podczas rozwiązywania problemów.
 
 
-![image](assets/en/7.webp)
+![image](assets/en/008.webp)
 
 
 ### Utwórz kreatora sklepu
@@ -509,7 +496,7 @@ Postępowanie zgodnie z tym kursem rozpocznie się od nieco innego ekranu niż n
 Użytkownik może zdecydować o usunięciu całego swojego konta. Można to zrobić, klikając przycisk Usuń na karcie Konto.
 
 
-![image](assets/en/8.webp)
+![image](assets/en/009.webp)
 
 
 **Uwaga!**
@@ -524,7 +511,7 @@ Konta BTCPay Server mogą tworzyć nieograniczoną liczbę sklepów. Każdy skle
 Zacznij od kliknięcia "Utwórz swój sklep".
 
 
-![image](assets/en/9.webp)
+![image](assets/en/010.webp)
 
 
 Spowoduje to utworzenie pierwszego ekranu głównego i pulpitu nawigacyjnego do korzystania z serwera BTCPay.
@@ -533,31 +520,31 @@ Spowoduje to utworzenie pierwszego ekranu głównego i pulpitu nawigacyjnego do 
 (1) Po kliknięciu przycisku "Utwórz sklep" serwer BTCPay będzie wymagał podania nazwy sklepu; może to być dowolna przydatna nazwa.
 
 
-![image](assets/en/10.webp)
+![image](assets/en/011.webp)
 
 
 (2) Następnie należy ustawić domyślną walutę sklepu, albo walutę fiducjarną, albo denominowaną w standardzie Bitcoin / Sats. Dla środowiska demonstracyjnego ustawimy ją na USD.
 
 
-![image](assets/en/11.webp)
+![image](assets/en/012.webp)
 
 
 (3) Jako ostatni parametr w konfiguracji sklepu, serwer BTCPay wymaga ustawienia "Preferowanego źródła ceny" w celu porównania ceny Bitcoin z bieżącą ceną fiat, aby sklep wyświetlał prawidłowy kurs Exchange między Bitcoin a walutą fiat ustawioną w sklepie. W przykładzie demonstracyjnym pozostaniemy przy wartości domyślnej i ustawimy ją na Kraken Exchange. Serwer BTCPay używa interfejsu API Kraken do sprawdzania kursów Exchange.
 
 
-![image](assets/en/12.webp)
+![image](assets/en/013.webp)
 
 
 (4) Po ustawieniu tych parametrów sklepu kliknij przycisk Utwórz, a serwer BTCPay utworzy pulpit nawigacyjny pierwszego sklepu, w którym kreator będzie kontynuował.
 
 
-![image](assets/en/13.webp)
+![image](assets/en/014.webp)
 
 
 Gratulacje, utworzyłeś swój pierwszy sklep i to kończy to ćwiczenie.
 
 
-![image](assets/en/14.webp)
+![image](assets/en/015.webp)
 
 
 ### Podsumowanie umiejętności
@@ -592,7 +579,7 @@ Portfele Bitcoin po utworzeniu tworzą tak zwany "seed". W ostatnim celu utworzy
 Generowanie seed odbywa się zgodnie ze standardem branżowym znanym jako "Hierarchical Deterministic" (HD).
 
 
-![image](assets/en/15.webp)
+![image](assets/en/016.webp)
 
 
 ### Adresy
@@ -807,7 +794,7 @@ Replace-by-fee (RBF) to funkcja protokołu Bitcoin, która umożliwia zastąpien
 Naciśnij przycisk "Ustawienia zaawansowane", aby wyświetlić opcje RBF;
 
 
-![image](assets/en/16.webp)
+![image](assets/en/017.webp)
 
 
 
@@ -837,10 +824,10 @@ Kliknięcie przycisku odbioru na serwerze BTCPay powoduje wygenerowanie nieużyw
 Serwer BTCPay zawsze poprosi o generate następnego dostępnego Address, aby uniknąć ponownego użycia Address. Po kliknięciu "generate następny dostępny BTC Address", serwer BTCPay wygeneruje nowy Address i QR. Umożliwia również bezpośrednie ustawienie etykiety na Address w celu lepszego zarządzania adresami.
 
 
-![image](assets/en/17.webp)
+![image](assets/en/018.webp)
 
 
-![image](assets/en/18.webp)
+![image](assets/en/019.webp)
 
 
 #### Ponowne skanowanie
@@ -875,13 +862,13 @@ BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
 Ustawienia Wallet w BTCPay Server dają jasny i szybki przegląd ogólnych ustawień Wallet. Wszystkie te ustawienia są wstępnie wypełnione, jeśli Wallet został utworzony za pomocą BTCPay Server.
 
 
-![image](assets/en/19.webp)
+![image](assets/en/020.webp)
 
 
 Ustawienia Wallet w BTCPay Server zapewniają przejrzysty i szybki przegląd ogólnych ustawień Wallet. Wszystkie te ustawienia są wstępnie wypełnione, jeśli Wallet został utworzony za pomocą BTCPay Server. Ustawienia Wallet BTCPay Server zaczynają się od statusu Wallet. Czy jest to Wallet typu Watch-only czy Hot? W zależności od typu Wallet działania mogą się różnić od ponownego skanowania Wallet pod kątem brakujących transakcji, przycinania starych transakcji z historii, rejestrowania Wallet dla linków płatności lub zastępowania i usuwania bieżącego Wallet dołączonego do sklepu. W ustawieniach Wallet serwera BTCPay administratorzy mogą ustawić etykietę dla Wallet w celu lepszego zarządzania Wallet. Tutaj administrator będzie mógł również zobaczyć schemat derywacji, klucz konta (xpub), odcisk palca i ścieżkę klucza. Płatności w ustawieniach Wallet mają tylko 2 główne ustawienia. Płatność jest nieważna, jeśli transakcja nie zostanie potwierdzona w (ustawionych minutach) po wygaśnięciu Invoice. Uznaj Invoice za potwierdzony, gdy transakcja płatnicza ma X potwierdzeń. Administratorzy mogą również ustawić przełącznik, aby wyświetlać zalecane opłaty przy płatnościach lub ustawić cel ręcznego potwierdzenia w liczbie bloków.
 
 
-![image](assets/en/20.webp)
+![image](assets/en/021.webp)
 
 
 **Uwaga!**
@@ -911,13 +898,13 @@ Drugą opcją oferowaną przez BTCPay Server przy generowaniu nowego Wallet jest
 W ostatniej części utworzono nowy "Store". Kreator instalacji będzie kontynuował, prosząc o "Skonfigurowanie Wallet" lub "Skonfigurowanie węzła Lightning". W tym przykładzie zostanie wykonany proces kreatora "Set up a Wallet" (1).
 
 
-![image](assets/en/21.webp)
+![image](assets/en/022.webp)
 
 
 Po kliknięciu "Skonfiguruj Wallet" kreator będzie kontynuował, pytając, jak chcesz kontynuować; BTCPay Server oferuje teraz opcję podłączenia istniejącego Bitcoin Wallet do nowego sklepu. Jeśli nie masz Wallet, BTCPay Server zaproponuje utworzenie nowego. W tym przykładzie wykonamy kroki "tworzenia nowego Wallet" (2). Postępuj zgodnie z instrukcjami, aby dowiedzieć się, jak "Podłączyć istniejący Wallet" (1).
 
 
-![image](assets/en/22.webp)
+![image](assets/en/023.webp)
 
 
 **Uwaga!**
@@ -929,16 +916,16 @@ Jeśli bierzesz udział w tym kursie w sali lekcyjnej, bieżący przykład i see
 (1) Przejdź do kreatora "Nowy Wallet", klikając przycisk "Utwórz nowy Wallet".
 
 
-![image](assets/en/23.webp)
+![image](assets/en/024.webp)
 
 
 (2) Po kliknięciu przycisku "Utwórz nowy Wallet" w następnym oknie kreatora dostępne będą opcje "Hot Wallet" i "Watch-only wallet" Jeśli podążasz za instruktorem, twoje środowisko jest współdzielonym środowiskiem demonstracyjnym i możesz utworzyć tylko Watch-only wallet. Zwróć uwagę na różnicę między poniższymi rysunkami. Będąc w środowisku demonstracyjnym, podążając za instruktorem, utwórz "Watch-only wallet" i kontynuuj pracę z kreatorem "New Wallet".
 
 
-![image](assets/en/24.webp)
+![image](assets/en/025.webp)
 
 
-![image](assets/en/25.webp)
+![image](assets/en/026.webp)
 
 
 (3) Kontynuując nowy kreator Wallet, znajdujemy się teraz w sekcji Utwórz BTC Watch-only wallet. Tutaj możemy ustawić Wallet "Typ Address" Serwer BTCPay pozwala wybrać preferowany typ Address; w chwili pisania tego kursu nadal zaleca się używanie adresów bech32. Więcej szczegółów na temat adresów znajduje się w pierwszym rozdziale tej części.
@@ -962,31 +949,31 @@ Jeśli bierzesz udział w tym kursie w sali lekcyjnej, bieżący przykład i see
 Wybierz SegWit (zalecane) jako preferowany typ Wallet Address.
 
 
-![image](assets/en/26.webp)
+![image](assets/en/027.webp)
 
 
 (4) Podczas ustawiania parametru dla Wallet, serwer BTCPay umożliwia użytkownikom ustawienie opcjonalnego passphrase poprzez BIP39, należy potwierdzić hasło.
 
 
-![image](assets/en/27.webp)
+![image](assets/en/028.webp)
 
 
 (5) Po ustawieniu typu Address Wallet i ewentualnie ustawieniu niektórych opcji zaawansowanych, kliknij Utwórz, a serwer BTCPay utworzy generate nowego Wallet. Należy pamiętać, że jest to ostatni krok przed wygenerowaniem frazy seed. Upewnij się, że robisz to tylko w środowisku, w którym nie można ukraść frazy seed, patrząc na ekran.
 
 
-![image](assets/en/28.webp)
+![image](assets/en/029.webp)
 
 
 (6) Na następnym ekranie kreatora serwer BTCPay wyświetla frazę odzyskiwania seed dla nowo wygenerowanego Wallet; są to klucze do odzyskiwania Wallet i podpisywania transakcji. BTCPay Server generuje frazę seed składającą się z 12 słów. Słowa te zostaną usunięte z serwera po tym ekranie konfiguracji. Ten Wallet jest w szczególności Watch-only wallet. Zaleca się, aby nie przechowywać tej frazy seed w formie cyfrowej lub fotograficznej. Użytkownicy mogą przejść dalej w kreatorze tylko wtedy, gdy aktywnie potwierdzą, że zapisali swoją frazę seed.
 
 
-![image](assets/en/29.webp)
+![image](assets/en/030.webp)
 
 
 (7) Po kliknięciu przycisku Gotowe i zabezpieczeniu nowo wygenerowanej frazy Bitcoin seed, serwer BTCPay zaktualizuje Twój sklep o załączony nowy Wallet i będzie gotowy do przyjmowania płatności. W Interface użytkownika, w lewym menu nawigacyjnym, zauważ, że Bitcoin jest teraz podświetlony i aktywowany pod Wallet.
 
 
-![image](assets/en/30.webp)
+![image](assets/en/031.webp)
 
 
 ### Przykład: Zapisywanie frazy seed
@@ -1090,7 +1077,7 @@ Serwer BTCPay wymaga informacji o połączeniu; wcześniej wykonane rozwiązanie
 - LNDhub za pośrednictwem interfejsu API REST
 
 
-![image](assets/en/31.webp)
+![image](assets/en/032.webp)
 
 
 Kliknij "testuj połączenie", aby upewnić się, że poprawnie wprowadziłeś szczegóły połączenia. Po potwierdzeniu, że połączenie jest prawidłowe, kliknij zapisz, a serwer BTCPay pokaże, że sklep został zaktualizowany o węzeł Lightning.
@@ -1146,7 +1133,7 @@ W opcji Lightning Wallet na lewym pasku menu administratorzy serwerów znajdą �
 Administratorzy serwerów mogą kliknąć informacje o węźle wewnętrznym i sprawdzić status serwera (Online / Offline) oraz ciąg połączenia dla Clearnet lub Tor.
 
 
-![image](assets/en/32.webp)
+![image](assets/en/033.webp)
 
 
 #### Zmiana połączenia
@@ -1157,7 +1144,7 @@ Jeśli właściciel sklepu zdecyduje się użyć zmienionego w Ustawieniach Ligh
 Obok sklepu z informacjami o węźle publicznym właściciele mogą znaleźć tę opcję. Spowoduje to przywrócenie początkowej konfiguracji połączenia zewnętrznego węzła Lightning, wypełnienie nowych informacji o węźle Lightning, kliknięcie przycisku Zapisz i zaktualizowanie sklepu o nowe informacje o węźle.
 
 
-![image](assets/en/33.webp)
+![image](assets/en/034.webp)
 
 
 #### Usługi
@@ -1172,7 +1159,7 @@ Jeśli administrator serwera zdecyduje się zainstalować wiele usług dla imple
 Po dodaniu węzła Lightning do sklepu w poprzednim kroku, w ustawieniach Lightning Wallet, właściciele sklepów mogą nadal dezaktywować go dla swojego sklepu za pomocą przełącznika u góry ustawień Lightning.
 
 
-![image](assets/en/34.webp)
+![image](assets/en/035.webp)
 
 
 #### Opcje płatności Lightning
@@ -1248,7 +1235,7 @@ Całe zarządzanie węzłami Lightning odbywa się standardowo za pomocą RTL (z
 Łącząc się z opiekunem, takim jak Alby, właściciele sklepów powinni najpierw utworzyć konto, odwiedzając stronę: https://getalby.com/
 
 
-![image](assets/en/35.webp)
+![image](assets/en/036.webp)
 
 
 Po utworzeniu konta Alby przejdź do swojego sklepu BTCPay Server.
@@ -1257,25 +1244,25 @@ Po utworzeniu konta Alby przejdź do swojego sklepu BTCPay Server.
 Krok 1: Kliknij "Skonfiguruj węzeł Lightning" na pulpicie nawigacyjnym lub "Lightning" pod portfelami.
 
 
-![image](assets/en/36.webp)
+![image](assets/en/037.webp)
 
 
 Krok 2: Wprowadź poświadczenia połączenia Wallet dostarczone przez Alby. Na pulpicie nawigacyjnym Alby kliknij Wallet. Tutaj znajdziesz "Poświadczenia połączenia Wallet". Skopiuj te dane uwierzytelniające. Wklej dane uwierzytelniające z Alby do pola konfiguracji połączenia na serwerze BTCPay.
 
 
-![image](assets/en/37.webp)
+![image](assets/en/038.webp)
 
 
 Krok 3: Po podaniu serwerowi BTCPay szczegółów połączenia, kliknij przycisk "Testuj połączenie", aby upewnić się, że połączenie działa poprawnie. Zwróć uwagę na komunikat "Połączenie z węzłem Lightning powiodło się" u góry ekranu. Potwierdza to, że wszystko działa prawidłowo.
 
 
-![image](assets/en/38.webp)
+![image](assets/en/039.webp)
 
 
 Krok 4: Kliknij przycisk Zapisz, a Twój sklep zostanie połączony z węzłem Lightning przez Alby.
 
 
-![image](assets/en/39.webp)
+![image](assets/en/040.webp)
 
 
 **Uwaga!**
@@ -1340,7 +1327,7 @@ W widoku głównym pulpitu nawigacyjnego serwera BTCPay dostępnych jest kilka s
 Kafelek Saldo Wallet zapewnia szybki przegląd środków i wydajności Wallet. Można go wyświetlić w walucie BTC lub Fiat na wykresie tygodniowym, miesięcznym lub rocznym.
 
 
-![image](assets/en/40.webp)
+![image](assets/en/041.webp)
 
 
 ### Aktywność transakcyjna
@@ -1349,7 +1336,7 @@ Kafelek Saldo Wallet zapewnia szybki przegląd środków i wydajności Wallet. M
 Obok kafelka Saldo Wallet, BTCPay Server pokazuje szybki przegląd oczekujących wypłat, kwotę transakcji w ciągu ostatnich 7 dni oraz czy Twój sklep wydał jakiekolwiek zwroty. Kliknięcie przycisku Zarządzaj powoduje przejście do zarządzania oczekującymi wypłatami (dowiedz się więcej o wypłatach w rozdziale BTCPay Server - Płatności).
 
 
-![image](assets/en/41.webp)
+![image](assets/en/042.webp)
 
 
 ### Lightning Balance
@@ -1361,7 +1348,7 @@ Jest to widoczne tylko wtedy, gdy aktywowana jest funkcja Lightning.
 Gdy administrator zezwolił na dostęp do Lightning Network, pulpit nawigacyjny serwera BTCPay ma teraz nowy kafelek z informacjami o węźle Lightning. Ile BTC znajduje się w kanałach, jak jest to zbilansowane lokalnie lub zdalnie (płynność przychodząca lub wychodząca), czy kanały są zamykane lub otwierane oraz ile Bitcoin znajduje się w On-Chain na węźle Lightning.
 
 
-![image](assets/en/42.webp)
+![image](assets/en/043.webp)
 
 
 ### Usługi Lightning
@@ -1373,7 +1360,7 @@ Jest to widoczne tylko wtedy, gdy błyskawica jest aktywna.
 Oprócz salda Lightning na pulpicie nawigacyjnym BTCPay Server, administratorzy zobaczą również kafelek Usług Lightning. Tutaj administratorzy mogą znaleźć szybkie przyciski narzędzi, których używają do zarządzania węzłem Lightning; na przykład Ride the Lightning jest jednym ze standardowych narzędzi BTCPay Server do zarządzania węzłem Lightning.
 
 
-![image](assets/en/43.webp)
+![image](assets/en/044.webp)
 
 
 ### Ostatnie transakcje
@@ -1382,7 +1369,7 @@ Oprócz salda Lightning na pulpicie nawigacyjnym BTCPay Server, administratorzy 
 Kafelek ostatnich transakcji pokaże najnowsze transakcje Twojego sklepu. Za pomocą jednego kliknięcia administrator instancji serwera BTCPay może teraz zobaczyć ostatnią transakcję i sprawdzić, czy należy zwrócić na nią uwagę.
 
 
-![image](assets/en/44.webp)
+![image](assets/en/045.webp)
 
 
 ### Ostatnie faktury
@@ -1391,7 +1378,7 @@ Kafelek ostatnich transakcji pokaże najnowsze transakcje Twojego sklepu. Za pom
 Kafelek ostatnich faktur pokazuje 6 ostatnich faktur wygenerowanych przez serwer BTCPay, w tym status i kwotę Invoice. Kafelek zawiera również przycisk "Wyświetl wszystko", aby łatwo uzyskać dostęp do pełnego przeglądu Invoice.
 
 
-![image](assets/en/45.webp)
+![image](assets/en/046.webp)
 
 
 ### Punkt sprzedaży i fundusze społecznościowe
@@ -1400,13 +1387,13 @@ Kafelek ostatnich faktur pokazuje 6 ostatnich faktur wygenerowanych przez serwer
 Ponieważ BTCPay Server dostarcza zestaw standardowych wtyczek lub aplikacji, Point Of Sale i Crowdfund to dwie główne wtyczki BTCPay Server. Z każdym sklepem i Wallet, użytkownik BTCPay Server może generate tyle punktów sprzedaży lub funduszy crowdfundingowych, ile uzna za stosowne. Każdy z nich utworzy nowy kafelek pulpitu nawigacyjnego pokazujący wydajność wtyczek.
 
 
-![image](assets/en/46.webp)
+![image](assets/en/047.webp)
 
 
 Zwróć uwagę na niewielką różnicę między kafelkiem punktu sprzedaży a kafelkiem crowdfundingu. Administrator widzi najczęściej sprzedawane przedmioty w kafelku punktu sprzedaży. W kafelku Crowdfund staje się to Top Perks. Oba kafelki mają szybkie przyciski do zarządzania odpowiednią aplikacją i przeglądania ostatnich faktur utworzonych przez najlepsze przedmioty lub najlepsze profity.
 
 
-![image](assets/en/47.webp)
+![image](assets/en/048.webp)
 
 
 **Uwaga!**
@@ -1547,7 +1534,7 @@ Domyślne metody płatności. BTCPay Server w standardowej konfiguracji posiada 
 Możemy ustawić parametry dla naszego sklepu, w którym klient będzie wchodził w interakcję z Lightning tylko wtedy, gdy cena jest mniejsza niż kwota X i odwrotnie dla transakcji On-Chain, gdy X jest większe niż Y, zawsze prezentuj opcję płatności On-Chain.
 
 
-![image](assets/en/48.webp)
+![image](assets/en/049.webp)
 
 
 #### Kasa
@@ -1556,7 +1543,7 @@ Możemy ustawić parametry dla naszego sklepu, w którym klient będzie wchodzi�
 Od wersji 1.7 BTCPay Server został wprowadzony nowy Checkout Interface, Checkout V2, jak to się nazywa. Ponieważ wersja 1.9 została ustandaryzowana, administratorzy i właściciele sklepów mogą nadal ustawić kasę na poprzednią wersję. Używając przełącznika "Użyj klasycznej kasy", właściciel sklepu może przywrócić poprzednią wersję kasy. BTCPay Server ma również wybrany zestaw ustawień wstępnych dla handlu online lub w sklepie.
 
 
-![image](assets/en/49.webp)
+![image](assets/en/050.webp)
 
 
 Gdy klient wchodzi w interakcję ze sklepem i generuje Invoice, istnieje czas wygaśnięcia Invoice. Domyślnie serwer BTCPay ustawia ten czas na 5 minut, ale administrator może ustawić go na dowolną wartość. Stronę kasy można dodatkowo dostosować, sprawdzając następujące parametry:
@@ -1571,25 +1558,25 @@ Gdy klient wchodzi w interakcję ze sklepem i generuje Invoice, istnieje czas wy
 - Automatyczne wykrywanie języka przy kasie
 
 
-![image](assets/en/50.webp)
+![image](assets/en/051.webp)
 
 
 Gdy automatyczne wykrywanie języka nie jest ustawione, serwer BTCPay domyślnie wyświetla język angielski. Właściciel sklepu może zmienić ten domyślny język na preferowany.
 
 
-![image](assets/en/51.webp)
+![image](assets/en/052.webp)
 
 
 Właściciele sklepów mogą ustawić niestandardowy tytuł HTML, który będzie wyświetlany na stronie kasy.
 
 
-![image](assets/en/52.webp)
+![image](assets/en/053.webp)
 
 
 Aby upewnić się, że klient zna swoją metodę płatności, właściciel sklepu może wyraźnie ustawić swoją kasę tak, aby zawsze wymagała od użytkowników wybrania preferowanej metody płatności. Po opłaceniu Invoice serwer BTCPay umożliwia klientowi powrót do sklepu internetowego. Właściciele sklepów mogą ustawić to przekierowanie po automatycznym dokonaniu płatności przez klienta.
 
 
-![image](assets/en/53.webp)
+![image](assets/en/054.webp)
 
 
 #### Odbiór publiczny
@@ -1598,7 +1585,7 @@ Aby upewnić się, że klient zna swoją metodę płatności, właściciel sklep
 W ustawieniach paragonów publicznych właściciel sklepu może ustawić strony paragonów jako publiczne i wyświetlać listę płatności na stronie paragonu oraz kod QR paragonu, aby klient mógł łatwo uzyskać do niego dostęp cyfrowy.
 
 
-![image](assets/en/54.webp)
+![image](assets/en/055.webp)
 
 
 ### Tokeny dostępu
@@ -1607,7 +1594,7 @@ W ustawieniach paragonów publicznych właściciel sklepu może ustawić strony 
 Tokeny dostępu są używane do parowania z niektórymi integracjami e-commerce lub niestandardowymi integracjami.
 
 
-![image](assets/en/55.webp)
+![image](assets/en/056.webp)
 
 
 ### Użytkownicy
@@ -1616,7 +1603,7 @@ Tokeny dostępu są używane do parowania z niektórymi integracjami e-commerce 
 Użytkownicy sklepu to miejsce, w którym właściciel sklepu może zarządzać swoimi pracownikami, ich kontami i dostępem do sklepu. Po tym, jak pracownicy utworzą swoje konta, właściciel sklepu może dodać określonych użytkowników do sklepu jako gości lub właścicieli. Aby dokładniej zdefiniować rolę pracownika, zapoznaj się z następną sekcją "Ustawienia sklepu BTCPay Server - Role"
 
 
-![image](assets/en/56.webp)
+![image](assets/en/057.webp)
 
 
 ### Role
@@ -1628,13 +1615,13 @@ Właściciel sklepu może nie uznać standardowych ról użytkownika za wystarcz
 (1) Aby utworzyć nową rolę, kliknij przycisk "+ Dodaj rolę".
 
 
-![image](assets/en/57.webp)
+![image](assets/en/058.webp)
 
 
 (2) Wprowadź nazwę roli, na przykład "Kasjer".
 
 
-![image](assets/en/58.webp)
+![image](assets/en/059.webp)
 
 
 (3) Skonfiguruj indywidualne uprawnienia dla roli.
@@ -1668,7 +1655,7 @@ Właściciel sklepu może nie uznać standardowych ról użytkownika za wystarcz
 Po utworzeniu roli nazwa jest stała i nie można jej zmienić w trybie edycji.
 
 
-![image](assets/en/59.webp)
+![image](assets/en/060.webp)
 
 
 ### Webhooks
@@ -1677,13 +1664,13 @@ Po utworzeniu roli nazwa jest stała i nie można jej zmienić w trybie edycji.
 W BTCPay Server utworzenie nowego "Webhooka" jest dość łatwe. W ustawieniach sklepu BTCPay Server - zakładka Webhooks, właściciel sklepu może łatwo utworzyć nowy webhook, klikając przycisk "+ Utwórz Webhook". Webhooki umożliwiają serwerowi BTCPay wysyłanie zdarzeń HTTP związanych ze sklepem do innych serwerów lub integracji e-commerce.
 
 
-![image](assets/en/60.webp)
+![image](assets/en/061.webp)
 
 
 Jesteś teraz w widoku tworzenia elementu Webhook. Upewnij się, że znasz adres URL ładunku i wklej go na serwerze BTCPay. Po wklejeniu adresu URL ładunku, pod spodem wyświetlany jest sekret webhooka. Skopiuj sekret webhooka i podaj go w punkcie końcowym. Gdy wszystko zostanie ustawione, możesz przełączyć w BTCPay Server na Automatyczne ponowne dostarczanie. Spróbujemy ponownie dostarczyć każdą nieudaną dostawę po 10 sekundach, 1 minucie i do 6 razy po 10 minutach. Możesz przełączać się między każdym zdarzeniem lub określić zdarzenia dla swoich potrzeb. Pamiętaj, aby włączyć webhook i kliknąć Dodaj webhook, aby go zapisać.
 
 
-![image](assets/en/61.webp)
+![image](assets/en/062.webp)
 
 
 Webhooki nie są kompatybilne z API Bitpay. Istnieją dwa oddzielne IPN (w terminologii BitPay: "Natychmiastowe powiadomienia o płatnościach") na serwerze BTCPay.
@@ -1706,15 +1693,15 @@ Procesory wypłat współpracują z koncepcją wypłat na serwerze BTCPay. Agreg
 Właściciel sklepu może kliknąć i skonfigurować oba procesory wypłat oddzielnie. Właściciel sklepu może chcieć uruchamiać procesor On-Chain tylko raz na X godzin, podczas gdy off-chain może być uruchamiany co kilka minut. Dla On-Chain można również ustawić cel, dla którego blok powinien zostać uwzględniony. Domyślnie jest to 1 (lub następny dostępny blok). Zauważ, że ustawienie procesora wypłat off-chain ma tylko timer interwału i nie ma celu bloku. Wypłaty Lightning Network są natychmiastowe.
 
 
-![image](assets/en/62.webp)
+![image](assets/en/063.webp)
 
-![image](assets/en/63.webp)
+![image](assets/en/064.webp)
 
 
 Właściciele sklepów mogą skonfigurować procesor On-Chain tylko wtedy, gdy mają Hot-Wallet podłączony do swojego sklepu.
 
 
-![image](assets/en/64.webp)
+![image](assets/en/065.webp)
 
 
 Po skonfigurowaniu procesora wypłat można go szybko usunąć lub zmodyfikować, wracając do zakładki Procesor wypłat w ustawieniach BTCPay Server Store.
@@ -1732,7 +1719,7 @@ Procesor wypłat On-Chain - Procesor wypłat onchain może działać tylko w skl
 BTCPay Server może używać wiadomości e-mail do powiadomień lub, po prawidłowym ustawieniu, do odzyskiwania kont utworzonych na instancji, ponieważ standardowo BTCPay Server nie wysyła wiadomości e-mail, gdy na przykład hasło zostanie utracone.
 
 
-![image](assets/en/65.webp)
+![image](assets/en/066.webp)
 
 
 Zanim właściciel sklepu będzie mógł ustawić reguły poczty e-mail, aby uruchamiały się w przypadku określonych zdarzeń w jego sklepie, musimy skonfigurować podstawowe ustawienia poczty e-mail. Serwer BTCPay potrzebuje tych ustawień do wysyłania wiadomości e-mail dotyczących zdarzeń opartych na sklepie lub resetowania hasła.
@@ -1752,7 +1739,7 @@ Serwer BTCPay ułatwił wypełnienie tych informacji za pomocą opcji "Quick Fil
 Korzystając z opcji szybkiego wypełniania, BTCPay Server wstępnie wypełni pola dla serwera SMTP i portu; teraz właściciel sklepu musi jedynie wypełnić swoje dane uwierzytelniające w e-mailu Address, loginie (który zwykle jest równy adresowi e-mail Address) i haśle. Zaawansowaną opcją oferowaną przez BTCPay Server w ustawieniach poczty e-mail jest wyłączenie kontroli bezpieczeństwa certyfikatu TLS; domyślnie jest to Włączone.
 
 
-![image](assets/en/66.webp)
+![image](assets/en/067.webp)
 
 
 Dzięki regułom poczty e-mail właściciel sklepu może ustawić określone zdarzenia, aby wyzwalać wiadomości e-mail na określone adresy e-mail.
@@ -1771,7 +1758,7 @@ Dzięki regułom poczty e-mail właściciel sklepu może ustawić określone zda
 Jeśli klient podał adres e-mail Address, te wyzwalacze mogą również wysłać informacje do klienta. Właściciele sklepów mogą wstępnie wypełnić wiersz tematu, aby wyjaśnić, dlaczego ten e-mail został wysłany i jaki wyzwalacz go spowodował.
 
 
-![image](assets/en/67.webp)
+![image](assets/en/068.webp)
 
 
 ### Formularze
@@ -1783,13 +1770,13 @@ Ponieważ BTCPay Server nie gromadzi żadnych danych, właściciel sklepu może 
 Podczas tworzenia nowego formularza serwer BTCPay otwiera nowe okno z prośbą o podanie podstawowych informacji o tym, czego ma dotyczyć nowy formularz. Na początku właściciel sklepu musi nadać jasną nazwę swojemu nowemu formularzowi, nazwa ta NIE MOŻE zostać zmieniona po jej ustawieniu.
 
 
-![image](assets/en/68.webp)
+![image](assets/en/069.webp)
 
 
 Po tym, jak właściciel sklepu nada formularzowi nazwę, możesz również przełączyć przełącznik "Zezwalaj na formularz do użytku publicznego" na ON, a stanie się on Green. Dzięki temu formularz będzie używany w każdym miejscu kontaktu z klientem. Na przykład, jeśli właściciel sklepu utworzy 1 oddzielny formularz Invoice nie za pośrednictwem swojego punktu sprzedaży, może nadal chcieć zebrać informacje od klienta; przełączenie na ON pozwala na zebranie tych informacji.
 
 
-![image](assets/en/69.webp)
+![image](assets/en/070.webp)
 
 
 Każdy formularz zaczyna się od co najmniej 1 nowego pola formularza. Właściciel sklepu może wybrać typ pola;
@@ -1812,7 +1799,7 @@ Każdy formularz zaczyna się od co najmniej 1 nowego pola formularza. Właścic
 Każdy typ ma swoje parametry do wypełnienia. Właściciel sklepu może ustawić je według własnych upodobań. Poniżej pierwszego utworzonego pola właściciele sklepów mogą dodawać nowe pola do tego jednego formularza.
 
 
-![image](assets/en/70.webp)
+![image](assets/en/071.webp)
 
 
 #### Zaawansowane formularze niestandardowe
@@ -1908,7 +1895,7 @@ Jak wspomniano w poprzedniej części, administratorzy serwera mogą zapraszać 
 BTCPay Server zna dwa rodzaje ról niestandardowych, role niestandardowe specyficzne dla sklepu i role niestandardowe dla całego serwera w ustawieniach BTCPay Server. Oba mają podobny zestaw uprawnień; jeśli jednak zostaną ustawione za pomocą zakładki Ustawienia serwera BTCpay - Role, zastosowana rola będzie obejmowała cały serwer i będzie miała zastosowanie do wielu sklepów. Zwróć uwagę na znacznik "obejmujący cały serwer" dla ról niestandardowych w ustawieniach serwera.
 
 
-![image](assets/en/71.webp)
+![image](assets/en/072.webp)
 
 
 ### Role niestandardowe dla całego serwera
@@ -1954,7 +1941,7 @@ Po utworzeniu roli nazwa jest stała i nie można jej zmienić w trybie edycji.
 Ustawienia poczty e-mail dla całego serwera wyglądają podobnie do ustawień poczty e-mail dla poszczególnych sklepów. Jednak ta konfiguracja obsługuje nie tylko wyzwalacze dla sklepów lub dzienników administratora. Ta konfiguracja poczty e-mail udostępnia również odzyskiwanie hasła na serwerze BTCPay podczas logowania. Działa to podobnie do ustawień specyficznych dla sklepu; administratorzy mogą szybko wypełnić swoje parametry e-mail i wprowadzić swoje dane uwierzytelniające e-mail, a serwer może teraz wysyłać wiadomości e-mail.
 
 
-![image](assets/en/72.webp)
+![image](assets/en/073.webp)
 
 
 ### Zasady
@@ -1963,7 +1950,7 @@ Ustawienia poczty e-mail dla całego serwera wyglądają podobnie do ustawień p
 Administratorzy zasad BTCPay Server mogą ustawić niektóre ustawienia w tematach takich jak Ustawienia istniejących użytkowników, Ustawienia nowych użytkowników, Ustawienia powiadomień i Ustawienia konserwacji. Są one przeznaczone do rejestrowania nowych użytkowników jako administratorów lub zwykłych użytkowników, a nawet ukrywania serwera BTCPay przed wyszukiwarkami poprzez dodanie do nagłówka serwera.
 
 
-![image](assets/en/73.webp)
+![image](assets/en/074.webp)
 
 
 #### Ustawienia istniejącego użytkownika
@@ -1981,7 +1968,7 @@ Dostępne tutaj opcje są niezależne od ról niestandardowych. Te dodatkowe upr
   - Podobnie jak w poprzednim temacie dotyczącym tworzenia portfeli Hot, ta polityka umożliwia importowanie Hot Wallet, z tymi samymi zagrożeniami wymienionymi w sekcji dotyczącej tworzenia portfeli Hot.
 
 
-![image](assets/en/74.webp)
+![image](assets/en/075.webp)
 
 
 #### Ustawienia nowego użytkownika
@@ -2000,13 +1987,13 @@ Możemy skonfigurować kilka ważnych ustawień do zarządzania nowymi użytkown
 Domyślnie serwer BTCPay ma włączoną opcję Wyłącz rejestrację nowych użytkowników i wyłączony dostęp osób niebędących administratorami do punktu końcowego API tworzenia użytkowników. Wynika to z aspektu bezpieczeństwa, w którym żadna przypadkowa osoba, która mogła znaleźć login BTCPay twojego serwera, nie może rozpocząć tworzenia kont.
 
 
-![image](assets/en/75.webp)
+![image](assets/en/076.webp)
 
 
 #### Ustawienia powiadomień
 
 
-![image](assets/en/76.webp)
+![image](assets/en/077.webp)
 
 
 #### Ustawienia konserwacji
@@ -2021,7 +2008,7 @@ BTCPay Server jest projektem Open Source, który działa na GitHub. Za każdym r
 - Włącz funkcje eksperymentalne.
 
 
-![image](assets/en/77.webp)
+![image](assets/en/078.webp)
 
 
 #### Wtyczki
@@ -2030,7 +2017,7 @@ BTCPay Server jest projektem Open Source, który działa na GitHub. Za każdym r
 BTCPay Server może dodawać wtyczki i rozszerzać swój zestaw funkcji. Wtyczki są domyślnie ładowane z repozytorium BTCPay Server plugin-builder. Administrator może jednak zdecydować się na wyświetlanie wtyczek w stanie przedpremierowym, a jeśli twórca wtyczki na to zezwoli, administrator serwera może teraz zainstalować wersje beta wtyczek.
 
 
-![image](assets/en/78.webp)
+![image](assets/en/079.webp)
 
 
 ##### Ustawienia personalizacji
@@ -2044,7 +2031,7 @@ Standardowe wdrożenie serwera BTCPay będzie dostępne za pośrednictwem domeny
   - Wyświetla listę możliwych aplikacji do wyświetlenia w domenie głównej.
 
 
-![image](assets/en/79.webp)
+![image](assets/en/080.webp)
 
 
 
@@ -2052,7 +2039,7 @@ Standardowe wdrożenie serwera BTCPay będzie dostępne za pośrednictwem domeny
   - Po kliknięciu, aby skonfigurować określoną domenę dla określonych aplikacji, administrator może ustawić dowolną liczbę domen wskazanych na określone aplikacje.
 
 
-![image](assets/en/80.webp)
+![image](assets/en/081.webp)
 
 
 #### Odkrywcy bloków
@@ -2061,7 +2048,7 @@ Standardowe wdrożenie serwera BTCPay będzie dostępne za pośrednictwem domeny
 BTCPay Server standardowo zawiera Mempool.space jako Block explorer dla transakcji. Gdy serwer BTCPay wygeneruje nowy Invoice i istnieje powiązana z nim transakcja, właściciel sklepu może kliknąć, aby otworzyć transakcję; serwer BTCPay standardowo wskaże Mempool.space jako Block explorer; administrator serwera może to zmienić zgodnie z własnymi preferencjami.
 
 
-![image](assets/en/81.webp)
+![image](assets/en/082.webp)
 
 
 ### Usługi
@@ -2073,7 +2060,7 @@ Ustawienia serwera BTCPay: Zakładka Usługi zawiera przegląd komponentów uży
 Administrator serwera BTCPay może kliknąć przycisk "Zobacz informacje" za każdą usługą, aby ją otworzyć i skonfigurować określone ustawienia.
 
 
-![image](assets/en/82.webp)
+![image](assets/en/083.webp)
 
 
 #### LND (gRPC)
@@ -2098,7 +2085,7 @@ Administratorzy serwerów mogą wyświetlić więcej szczegółów;
 #### LND (REST)
 
 
-BTCPay udostępnia usługę REST LND do użytku zewnętrznego; informacje o połączeniu można znaleźć tutaj; kompatybilne portfele są wymienione tutaj. Wśród kompatybilnych portfeli są Joule, Alby i ZeusLN. Serwer BTCPay udostępnia kod QR do połączenia, zeskanowania i zastosowania w kompatybilnym Wallet.
+BTCPay udostępnia usługę REST LND do użytku zewnętrznego; informacje o połączeniu można znaleźć [tutaj](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); kompatybilne portfele są wymienione [tutaj](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Wśród kompatybilnych portfeli są Joule, Alby i ZeusLN. Serwer BTCPay udostępnia kod QR do połączenia, zeskanowania i zastosowania w kompatybilnym Wallet.
 
 
 
@@ -2160,7 +2147,7 @@ Serwer BTCPay jest standardowo wyposażony w dwa motywy: Jasny i Ciemny. Można 
 Administratorzy mogą rozszerzyć motyw Light/Dark, dodając własne niestandardowe CSS lub ustawiając swój niestandardowy motyw jako w pełni niestandardowy.
 
 
-![image](assets/en/83.webp)
+![image](assets/en/084.webp)
 
 
 #### Branding serwera
@@ -2169,7 +2156,7 @@ Administratorzy mogą rozszerzyć motyw Light/Dark, dodając własne niestandard
 Administratorzy serwera mogą zmienić branding BTCPay Server, ustawiając branding swojej firmy dla całego serwera. Ponieważ BTCPay Server jest oprogramowaniem FOSS, administratorzy serwerów mogą nadawać oprogramowaniu białe etykiety i zmieniać jego wygląd, aby dostosować go do swojej działalności.
 
 
-![image](assets/en/84.webp)
+![image](assets/en/085.webp)
 
 
 ### Konserwacja
@@ -2181,7 +2168,7 @@ Jako administrator serwera, użytkownicy oczekują, że będziesz dbał o serwer
 BTCPay Server jest projektem Open Source i jest często aktualizowany. Każda nowa wersja jest ogłaszana przez powiadomienia BTCPay Server lub na oficjalnych kanałach, przez które komunikuje się BTCPay Server.
 
 
-![image](assets/en/85.webp)
+![image](assets/en/086.webp)
 
 
 #### Nazwa domeny
@@ -2190,7 +2177,7 @@ BTCPay Server jest projektem Open Source i jest często aktualizowany. Każda no
 Po skonfigurowaniu serwera BTCPay administrator może chcieć zmienić swoją pierwotną domenę. W zakładce Maintenance administrator może zmienić domenę. Po kliknięciu potwierdzenia i skonfigurowaniu odpowiednich rekordów DNS w domenie, BTCPay Server aktualizuje się i uruchamia ponownie, aby powrócić do nowej domeny.
 
 
-![image](assets/en/86.webp)
+![image](assets/en/087.webp)
 
 
 #### Restart
@@ -2199,7 +2186,7 @@ Po skonfigurowaniu serwera BTCPay administrator może chcieć zmienić swoją pi
 Uruchom ponownie serwer BTCPay i powiązane usługi.
 
 
-![image](assets/en/87.webp)
+![image](assets/en/088.webp)
 
 
 #### Czystość
@@ -2208,7 +2195,7 @@ Uruchom ponownie serwer BTCPay i powiązane usługi.
 Serwer BTCPay działa z komponentami Docker; po aktualizacjach mogą pozostać resztki obrazów Docker, pliki tymczasowe itp. Administratorzy serwera mogą je wyczyścić i odzyskać miejsce w swoim środowisku, uruchamiając skrypt Clean.
 
 
-![image](assets/en/88.webp)
+![image](assets/en/089.webp)
 
 
 #### Aktualizacja
@@ -2217,7 +2204,7 @@ Serwer BTCPay działa z komponentami Docker; po aktualizacjach mogą pozostać r
 Prawdopodobnie najważniejsza opcja w zakładce Konserwacja. BTCPay Server jest tworzony przez społeczność, dlatego jego cykle aktualizacji są częstsze niż w przypadku większości oprogramowania. Gdy BTCPay Server ma nową wersję, administratorzy zostaną powiadomieni w swoim centrum powiadomień. Klikając przycisk aktualizacji, BTCPay Server sprawdzi GitHub pod kątem najnowszej wersji, zaktualizuje serwer i uruchomi się ponownie. Przed aktualizacją administratorzy serwerów powinni zawsze zapoznać się z informacjami o wydaniu dystrybuowanymi za pośrednictwem oficjalnych kanałów BTCPay Server.
 
 
-![image](assets/en/89.webp)
+![image](assets/en/090.webp)
 
 
 ### Dzienniki
@@ -2411,10 +2398,10 @@ Serwer BTCPay ma lokalny system plików i przesyła zasoby sklepu (produktu), lo
 Gdy administrator serwera znajduje się w zakładce File Storage, możliwe jest bezpośrednie przesłanie plików na serwer lub zmiana dostawcy magazynu plików na lokalny system plików lub Azure Blob Storage.
 
 
-![image](assets/en/90.webp)
+![image](assets/en/091.webp)
 
 
-![image](assets/en/91.webp)
+![image](assets/en/092.webp)
 
 
 ### Podsumowanie umiejętności
@@ -2471,7 +2458,7 @@ Rdzeniem BTCPay Server jest możliwość działania jako system zarządzania Bit
 O ile nie używasz wbudowanego [Wallet](https://docs.btcpayserver.org/Wallet/) do ręcznego odbierania płatności, wszystkie płatności w sklepie będą wyświetlane na stronie Faktury. Strona ta kumulatywnie sortuje płatności według daty i jest centralnym elementem zarządzania Invoice i rozwiązywania problemów z płatnościami.
 
 
-![image](assets/en/92.webp)
+![image](assets/en/093.webp)
 
 
 ### Ogólne
@@ -2589,7 +2576,7 @@ Właściciele sklepów mogą drukować żądania płatności (lub eksportować d
 - Wygląd - Kolor i styl za pomocą motywów CSS
 
 
-![image](assets/en/93.webp)
+![image](assets/en/094.webp)
 
 
 #### Utwórz żądanie płatności
@@ -2598,7 +2585,7 @@ Właściciele sklepów mogą drukować żądania płatności (lub eksportować d
 W menu po lewej stronie przejdź do sekcji Wniosek o płatność i kliknij przycisk "Utwórz wniosek o płatność".
 
 
-![image](assets/en/94.webp)
+![image](assets/en/095.webp)
 
 
 Podaj nazwę żądania, kwotę, wyświetlany nominał, powiązany sklep, czas wygaśnięcia i opis (opcjonalnie)
@@ -2613,7 +2600,7 @@ Kliknij Zapisz i wyświetl, aby przejrzeć wniosek o płatność.
 BTCPay tworzy adres URL dla żądania płatności. Udostępnij ten adres URL, aby wyświetlić żądanie płatności. Potrzebujesz wielu takich samych żądań? Możesz powielać żądania płatności za pomocą opcji Klonuj w menu głównym.
 
 
-![image](assets/en/95.webp)
+![image](assets/en/096.webp)
 
 
 **UWAGA**
@@ -2628,7 +2615,7 @@ BTCPay tworzy adres URL dla żądania płatności. Udostępnij ten adres URL, ab
 Odbiorca płatności i wnioskujący mogą wyświetlić status wniosku o płatność po wysłaniu płatności. Status zostanie wyświetlony jako Rozliczone, jeśli płatność została otrzymana w całości. Jeśli dokonano tylko częściowych płatności, kwota do zapłaty będzie wskazywać należne saldo.
 
 
-![image](assets/en/96.webp)
+![image](assets/en/097.webp)
 
 
 #### Dostosowywanie żądań płatności
@@ -2637,7 +2624,7 @@ Odbiorca płatności i wnioskujący mogą wyświetlić status wniosku o płatno�
 Treść opisu można edytować za pomocą edytora tekstu żądania płatności. Obie opcje są dostępne, jeśli chcesz użyć dodatkowych motywów kolorystycznych lub niestandardowych stylów CSS.
 
 
-Użytkownicy nietechniczni mogą użyć motywu [bootstrap] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Dalsze dostosowanie można wykonać, dostarczając dodatkowy kod CSS, jak pokazano poniżej.
+Użytkownicy nietechniczni mogą użyć motywu [bootstrap](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Dalsze dostosowanie można wykonać, dostarczając dodatkowy kod CSS, jak pokazano poniżej.
 
 
 ```css
@@ -2686,7 +2673,7 @@ A co, jeśli zamiast naciskać na płatność, nadawca pozwoli odbiorcy na pobra
 ### Wypłaty
 
 
-Funkcja wypłat jest powiązana z [Pull Payments] (https://docs.btcpayserver.org/PullPayments/). Ta funkcja umożliwia tworzenie wypłat w BTCPay. Ta funkcja umożliwia przetwarzanie płatności typu pull (zwroty, wypłaty wynagrodzeń lub wypłaty).
+Funkcja wypłat jest powiązana z [Pull Payments](https://docs.btcpayserver.org/PullPayments/). Ta funkcja umożliwia tworzenie wypłat w BTCPay. Ta funkcja umożliwia przetwarzanie płatności typu pull (zwroty, wypłaty wynagrodzeń lub wypłaty).
 
 
 #### Przykład 1: Zwrot
@@ -2716,7 +2703,7 @@ Klient zostanie teraz zaktualizowany na stronie zgłaszania roszczeń. Może on 
 #### Przykład 2: Wynagrodzenie
 
 
-Przejdźmy teraz do wypłaty wynagrodzenia, ponieważ jest ona sterowana z poziomu sklepu, a nie na żądanie klienta. Podstawa jest taka sama; wykorzystuje płatności Pull. Ale zamiast tworzyć zwrot, dokonamy [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+Przejdźmy teraz do wypłaty wynagrodzenia, ponieważ jest ona sterowana z poziomu sklepu, a nie na żądanie klienta. Podstawa jest taka sama; wykorzystuje płatności Pull. Ale zamiast tworzyć zwrot, dokonamy [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Przejdź do zakładki Pull Payments na swoim serwerze BTCPay. W prawym górnym rogu kliknij przycisk Utwórz płatność Pull.
@@ -2760,7 +2747,7 @@ Następnie nadawca może udostępnić płatność za pomocą linku odbiorcy, umo
 Po utworzeniu wypłaty będzie ona wliczana do limitu płatności pull w bieżącym okresie. Następnie nadawca zatwierdzi wypłatę, ustawiając stawkę, po której wypłata zostanie wysłana, i dokona płatności.
 
 
-Dla nadawców zapewniamy łatwy w użyciu sposób zbiorczej płatności kilku wypłat z [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/).
+Dla nadawców zapewniamy łatwy w użyciu sposób zbiorczej płatności kilku wypłat z [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
 
 
 #### Greenfield API
@@ -2826,7 +2813,7 @@ BTCPay Server umożliwia właścicielom sklepów szybkie tworzenie punktów sprz
 Gdy właściciel sklepu kliknie "Punkt sprzedaży" na lewym pasku menu, serwer BTCPay poprosi o podanie nazwy; nazwa ta będzie widoczna na lewym pasku menu. Kliknij Utwórz, aby utworzyć PoS.
 
 
-![image](assets/en/97.webp)
+![image](assets/en/098.webp)
 
 
 #### Aktualizacja nowo utworzonego punktu sprzedaży
@@ -2847,7 +2834,7 @@ Nazwa nadana tutaj punktowi sprzedaży będzie widoczna w menu głównym serwera
 Publiczność zobaczy publiczny tytuł lub nazwę podczas odwiedzania Twojego sklepu. Serwer BTCPay standardowo nazywa Twój sklep "Sklep z herbatą" Zastąp to nazwą swojego sklepu.
 
 
-![image](assets/en/98.webp)
+![image](assets/en/099.webp)
 
 
 #### Wybierz styl punktu sprzedaży
@@ -2867,31 +2854,31 @@ Serwer BTCPay może wyświetlać swój punkt sprzedaży na wiele sposobów.
   - Jeśli nie zawsze możesz wyświetlić swoją listę produktów cyfrowo, potrzebujesz rozwiązania "offline" dla produktów; BTCPay Server ma wyświetlacz do drukowania, który działa jako sklep offline.
 
 
-![image](assets/en/99.webp)
+![image](assets/en/100.webp)
 
 
 #### Styl punktu sprzedaży - lista produktów
 
 
-![image](assets/en/100.webp)
+![image](assets/en/101.webp)
 
 
 #### Styl punktu sprzedaży - lista produktów + koszyk
 
 
-![image](assets/en/101.webp)
+![image](assets/en/102.webp)
 
 
 #### Styl punktu sprzedaży - tylko klawiatura
 
 
-![image](assets/en/102.webp)
+![image](assets/en/103.webp)
 
 
 #### Styl punktu sprzedaży - wyświetlacz drukowany
 
 
-![image](assets/en/103.webp)
+![image](assets/en/104.webp)
 
 
 #### Waluta
@@ -2906,7 +2893,7 @@ Właściciel sklepu może ustawić inną walutę dla swojego punktu sprzedaży n
 Opowiedz światu o swoim sklepie; co sprzedajesz i za ile? Wszystko, co wyjaśnia Twój sklep, znajduje się tutaj.
 
 
-![image](assets/en/104.webp)
+![image](assets/en/105.webp)
 
 
 #### Produkty
@@ -2935,7 +2922,7 @@ Gdy właściciel sklepu wypełni wszystkie nowe pola produktów, kliknij przycis
 Właściciele sklepów mogą również używać "Raw Editor" do konfigurowania swoich produktów. Surowy edytor wymaga podstawowej znajomości struktur JSON.
 
 
-![image](assets/en/105.webp)
+![image](assets/en/106.webp)
 
 
 #### Kasa
@@ -2986,7 +2973,7 @@ Obok wtyczki Point of Sale, BTCPay Server posiada opcję tworzenia crowdfundingu
 Kliknij wtyczkę Crowdfund w menu głównym po lewej stronie serwera BTCPay, poniżej sekcji Wtyczki. BTCPay Server poprosi teraz o nazwę Crowdfund; nazwa ta będzie również wyświetlana na lewym pasku menu.
 
 
-![image](assets/en/106.webp)
+![image](assets/en/107.webp)
 
 
 #### Aktualizacja nowo utworzonego punktu sprzedaży
@@ -3013,7 +3000,7 @@ Tytuł jest przyznawany Crowdfund dla publiczności.
 Nadaj crowdfundingowi jedno zdanie, aby rozpoznać, o co chodzi w zbiórce pieniędzy.
 
 
-![image](assets/en/107.webp)
+![image](assets/en/108.webp)
 
 
 #### Adres URL wyróżnionego obrazu
@@ -3034,7 +3021,7 @@ Ten przełącznik sprawia, że Twój Crowdfund staje się publiczny, a tym samym
 Opowiedz światu o swoim crowdfundingu, na co zbierasz? Wszystko, co wyjaśnia Twój crowdfunding, znajduje się tutaj.
 
 
-![image](assets/en/108.webp)
+![image](assets/en/109.webp)
 
 
 #### Cel crowdfundingu
@@ -3043,7 +3030,7 @@ Opowiedz światu o swoim crowdfundingu, na co zbierasz? Wszystko, co wyjaśnia T
 Określ cel docelowy, jaki fundraiser powinien zarobić na projekcie i w jakiej walucie powinien być wyrażony. Upewnij się, że jeśli Twoje cele są określone między datami, uwzględnij te daty docelowe i końcowe w sekcji Cele w crowdfundingu.
 
 
-![image](assets/en/109.webp)
+![image](assets/en/110.webp)
 
 
 #### Korzyści
@@ -3069,7 +3056,7 @@ Tworzenie nowego profitu składa się z następujących pól ;
 Gdy właściciel sklepu wypełni wszystkie pola nowego do utworzenia profitu, kliknij zapisz, a zauważysz, że sekcja Perks w crowdfunds jest teraz wypełniona.
 
 
-![image](assets/en/110.webp)
+![image](assets/en/111.webp)
 
 
 ### Serwer BTCPay - punkt sprzedaży
@@ -3327,13 +3314,13 @@ https://docs.btcpayserver.org.
 Najpierw przejdź do strony LunaNode.com, gdzie utworzymy nowe konto. Kliknij Zarejestruj się w prawym górnym rogu lub skorzystaj z kreatora Rozpocznij na stronie głównej.
 
 
-![image](assets/en/111.webp)
+![image](assets/en/112.webp)
 
 
 Po utworzeniu nowego konta LunaNode wysyła e-mail weryfikacyjny. Po zweryfikowaniu konta, w porównaniu do Voltage, natychmiast pojawi się możliwość doładowania salda konta. Saldo to jest potrzebne do opłacenia przestrzeni serwerowej i kosztów hostingu.
 
 
-![image](assets/en/112.webp)
+![image](assets/en/113.webp)
 
 
 #### Dodaj środki do swojego konta LunaNode
@@ -3357,7 +3344,7 @@ Na pulpicie nawigacyjnym LunaNode kliknij API w prawym górnym rogu. Otworzy si�
 Po utworzeniu poświadczeń API otrzymasz długi ciąg liter i znaków. Jest to klucz API.
 
 
-![image](assets/en/113.webp)
+![image](assets/en/114.webp)
 
 
 #### Jak wdrożyć nowy serwer?
@@ -3372,7 +3359,7 @@ Tutaj zostaniesz poproszony o podanie klucza API i identyfikatora API. Ma to na 
 Wróć do strony z Launcherem, wypełnij pola kluczem API i ID, a następnie kliknij Kontynuuj.
 
 
-![image](assets/en/114.webp)
+![image](assets/en/115.webp)
 
 
 W następnym kroku możesz podać nazwę domeny. Jeśli posiadasz już domenę i chcesz jej użyć dla BTCPay Server, upewnij się, że dodałeś również rekord DNS (zwany rekordem `A`) w swojej domenie. Jeśli nie posiadasz domeny, użyj domeny dostarczonej przez LunaNode (możesz to zmienić później w ustawieniach serwera BTCPay) i kliknij Kontynuuj.
@@ -3393,7 +3380,7 @@ Ten przewodnik ma na celu skonfigurowanie środowiska Mainnet (Bitcoin w świeci
 Wybierz swoją implementację Lightning. LunaNode oferuje dwie różne implementacje, LND i Core Lightning. W tym przewodniku zajmiemy się LND. Istnieją niewielkie, ale prawdziwe różnice w obu implementacjach; aby uzyskać więcej informacji na ten temat, zalecamy przeczytanie obszernej dokumentacji; https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
 
 
-![image](assets/en/115.webp)
+![image](assets/en/116.webp)
 
 
 LunaNode oferuje wiele planów maszyn wirtualnych (VM). Różnią się one zakresem cenowym i specyfikacją serwera. Na potrzeby tego przewodnika wystarczy plan m2; jeśli jednak zaznaczyłeś więcej niż tylko Bitcoin jako walutę, rozważ użycie co najmniej m4.
@@ -3408,7 +3395,7 @@ Po wypełnieniu formularza należy kliknąć Launch VM, a Lunanode rozpocznie tw
 Po zakończeniu procesu tworzenia kliknij link do swojego serwera BTCPay; tutaj zostaniesz poproszony o utworzenie konta administratora.
 
 
-![image](assets/en/116.webp)
+![image](assets/en/117.webp)
 
 
 ### Podsumowanie umiejętności
@@ -3451,19 +3438,19 @@ https://docs.btcpayserver.org.
 Najpierw przejdź do strony Voltage.cloud i zarejestruj nowe konto. Podczas tworzenia konta możesz zapisać się na 7-dniowy bezpłatny okres próbny. Kliknij przycisk "Zarejestruj się" w prawym górnym rogu lub skorzystaj z opcji "Wypróbuj 7-dniowy bezpłatny okres próbny" na stronie głównej.
 
 
-![image](assets/en/117.webp)
+![image](assets/en/118.webp)
 
 
 Po utworzeniu konta należy kliknąć przycisk `NODES` na pulpicie nawigacyjnym. Po wybraniu opcji Węzły i utworzeniu nowego węzła, zostaną nam przedstawione możliwe oferty Voltage. Ponieważ w tym przewodniku omówimy również LightningNetwork, w Voltage musimy najpierw wybrać naszą implementację Lightning, zanim utworzymy serwer BTCPay. Kliknij na LightningNode.
 
 
-![image](assets/en/118.webp)
+![image](assets/en/119.webp)
 
 
 W tym miejscu należy wybrać rodzaj węzła Lightning. Voltage ma wiele opcji konfiguracji oświetlenia. Inaczej jest w przypadku wdrażania, na przykład, LunaNode. Na potrzeby tego przewodnika wystarczy węzeł Lite. Przeczytaj więcej o różnicach w Voltage.cloud.
 
 
-![image](assets/en/119.webp)
+![image](assets/en/120.webp)
 
 
 Nadaj węzłowi nazwę, ustaw hasło i zabezpiecz je. Jeśli hasło zostanie utracone, utracisz dostęp do kopii zapasowych, a Voltage nie będzie w stanie go odzyskać. Utwórz węzeł, a Voltage pokaże Ci postęp. Voltage utworzyło węzeł Lightning. Możemy teraz utworzyć instancję serwera BTCPay i uzyskać bezpośredni dostęp do Lightning Network.
@@ -3475,7 +3462,7 @@ Kliknij Węzły w lewym górnym rogu pulpitu nawigacyjnego. Tutaj możesz skonfi
 Voltage pokazuje geolokalizację serwera BTCPay, hosty napięcia w regionie US West. Tutaj zobaczysz również koszt hostingu serwera. Kliknij Utwórz i nadaj nazwę swojemu serwerowi BTCPay. Włącz Lightning, a Voltage wyświetli węzeł Lightning utworzony w poprzednim kroku. Kliknij Utwórz, a Voltage utworzy instancję serwera BTCPay.
 
 
-![image](assets/en/120.webp)
+![image](assets/en/121.webp)
 
 
 Po kliknięciu przycisku Utwórz, Voltage wyświetli domyślną nazwę użytkownika i hasło. Są one podobne do wcześniej ustawionego hasła w Voltage. Kliknij przycisk Zaloguj się do konta, aby przekierować Cię na serwer BTCPay.
@@ -3516,7 +3503,7 @@ Po zakończeniu tych kroków możesz akceptować płatności błyskawiczne w swo
 https://umbrel.com/
 
 
-![image](assets/en/121.webp)
+![image](assets/en/122.webp)
 
 
 ### Serwer BTCPay - wdrożenie Umbrel
@@ -3525,13 +3512,13 @@ https://umbrel.com/
 Po pełnej synchronizacji węzła Umbrel z Bitcoin Blockchain, przejdź do Umbrel App Store i wyszukaj BTCPay Server w sekcji Aplikacje.
 
 
-![image](assets/en/122.webp)
+![image](assets/en/123.webp)
 
 
 Kliknij BTCPay Server, aby zobaczyć szczegóły aplikacji. Gdy szczegóły są otwarte dla BTCPay Server, w prawym dolnym rogu wyświetlane są wymagania dotyczące prawidłowego działania aplikacji. Pokazuje, że wymaga Bitcoin i węzła Lightning. Jeśli nie zainstalowałeś węzła Lightning na swoim Umbrel, kliknij Zainstaluj. Proces ten może potrwać kilka minut.
 
 
-![image](assets/en/123.webp)
+![image](assets/en/124.webp)
 
 
 Po zainstalowaniu Lightning Node:
@@ -3544,7 +3531,7 @@ Po zainstalowaniu Lightning Node:
 3. Zapisz je.
 
 
-![image](assets/en/124.webp)
+![image](assets/en/125.webp)
 
 
 Umbrel poprosi o weryfikację właśnie zapisanych słów. Po skonfigurowaniu węzła Lightning wróć do Umbrel App Store i znajdź BTCPay Server. Kliknij przycisk instalacji, a Umbrel pokaże, czy wymagane komponenty są zainstalowane i czy BTCPay Server wymaga dostępu do tych komponentów. Po instalacji kliknij Otwórz w prawym górnym rogu szczegółów aplikacji lub otwórz BTCPay Server za pośrednictwem pulpitu nawigacyjnego Umbrels.
@@ -3553,7 +3540,7 @@ Umbrel poprosi o weryfikację właśnie zapisanych słów. Po skonfigurowaniu w�
 Umbrel poprosi o weryfikację właśnie zapisanych słów.
 
 
-![image](assets/en/125.webp)
+![image](assets/en/126.webp)
 
 
 **Uwaga!**
@@ -3565,13 +3552,13 @@ Upewnij się, że przechowujesz je w odpowiednim miejscu, tak jak wcześniej nau
 Po skonfigurowaniu węzła Lightning wróć do Umbrel App Store i znajdź BTCPay Server. Kliknij przycisk instalacji, a Umbrel pokaże, czy wymagane komponenty są zainstalowane i czy BTCPay Server wymaga dostępu do tych komponentów.
 
 
-![image](assets/en/126.webp)
+![image](assets/en/127.webp)
 
 
 Po instalacji kliknij Otwórz w prawym górnym rogu szczegółów aplikacji lub otwórz serwer BTCPay za pośrednictwem pulpitu nawigacyjnego Umbrels.
 
 
-![image](assets/en/127.webp)
+![image](assets/en/128.webp)
 
 
 ### Podsumowanie umiejętności

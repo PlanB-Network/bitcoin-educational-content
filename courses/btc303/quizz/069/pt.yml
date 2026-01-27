@@ -1,0 +1,9 @@
+question: De acordo com a definição do livro, qual é o cenário que representa o escalonamento legítimo do Bitcoin, preservando a resistência à censura?
+answer: Implementação de algoritmos de verificação de assinaturas mais eficientes em termos de espaço, que reduzam o tamanho das entradas das transacções
+wrong_answers:
+  - Incentivar os utilizadores a migrarem as transacções para as bolsas centralizadas para reduzir o volume de on-chain
+  - Implementação da filtragem automática de transacções para dar prioridade a certos tipos de atividade económica
+  - Criar nós de validação aprovados pelo governo que possam processar transacções de forma mais eficiente
+explanation: |
+  O livro define o escalonamento do Bitcoin como "aumentar a capacidade de utilização do Bitcoin sem comprometer a sua resistência à censura" A verificação de assinaturas com eficiência espacial encaixa-se diretamente nesta definição, fazendo com que as transacções utilizem menos bytes, mantendo a descentralização. Todas as respostas erradas comprometem a resistência à censura: as trocas centralizadas introduzem terceiros de confiança, a filtragem de transacções cria mecanismos de censura e os nós aprovados pelo governo centralizam a autoridade de validação. O verdadeiro escalonamento preserva as principais propriedades do Bitcoin enquanto melhora a eficiência.
+reviewed: false

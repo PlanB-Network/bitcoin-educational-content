@@ -1,9 +1,9 @@
-question: Ni gute ukuva ku bice vy’amahera gushika ku mahera y’impapuro vyatumye uruja n’uruza rw’amahera rutera imbere?
-answer: Yatumye amahera ashobora gutwarwa n’abantu no gukoreshwa mu buryo bubereye, ivyo bikaba vyatumye habaho ubudandaji bwo ku rundi ruhande be n’uburyo bwo gukoresha amahera bugoranye.
+question: Ni gute ukuva ku bice vy’amahera(monnaie fidiciaire) gushika ku mahera y’impapuro vyatumye uruja n’uruza rw’amahera rutera imbere?
+answer: Yatumye amahera yoroha gutwara no gukoreshwa mu buryo bubereye, bigatuma vyorohereza urudandazwa rubera kure na kure hamwe nubuhinga bwubutunzi bugoye, bushobora kubaho.
 wrong_answers:
-  - Yarakuyeho ivy’uko hakenewe umutungo uwo ari wo wose canke icizigiro.
-  - Ubwo nyene ryarahagarika ugutera imbere kw’ibiciro, ubutunzi burahagarara neza.
-  - Vyatuma intwaro zishobora kwirinda gucunga amahera Supply yose uko ingana.
+  - Ntihagikenewe ivy’uko hakenerwa umutungo ugaragara nki nzahabu canke kugenda kubitsa muma banki canke ahandi ahariho hose.
+  - Yarahagaritse ubwo nyene uguta agaciro kamahera, bituma ubutunzi buhagarara neza butajegajega.
+  - Vyatuma intwaro zishobora kwirinda gucunga amahera azunguruka yose uko ingana.
 explanation: |
-  Amahera y’impapuro yari yoroshe kandi yoroshe gukora no gutwara kuruta ibiceri vy’ivyuma vy’agaciro. Ukwo gutwara ibintu no guhuza ibintu bimwe bimwe vyatumye ibikorwa vyo gucuruza vyoroha kandi vyatumye ubutunzi butera imbere birenze uturere two mu karere.
-reviewed: false
+  Amahera y’impapuro yari yoroshe  gukora no gutwara kuruta ibiceri vy’ivyuma vy’agaciro bakoresha kera. Ukwo gutwara amafaranga vyoroshe no guhuza ibintu bimwe bimwe vyatumye ibikorwa vyo gucuruza vyoroha kandi vyatumye ubutunzi butera imbere bukarenga nakarere bukoreramwo.
+reviewed: true

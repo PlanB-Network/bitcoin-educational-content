@@ -6,4 +6,4 @@ wrong_answers:
   - Es begrenzt die Größe der generierten mnemonischen Phrasen
 explanation: |
   Das manuelle Generieren von Entropie kann Verzerrungen oder Fehler einführen, wodurch die Schlüssel anfälliger für Angriffe werden.
-reviewed: false
+reviewed: true

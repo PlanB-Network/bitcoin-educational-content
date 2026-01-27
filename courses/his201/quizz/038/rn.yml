@@ -1,9 +1,9 @@
-question: Ni irihe izina ry’ikoreshwa rya mbere ry’ububiko ryemerera gukoresha Bitcoin mu buryo bworoshe kuri telefone ngendanwa ryakozwe muri Ndamukiza 2010?
-answer: Bitcoin yanje
+question: Ni irihe izina ry’ikoreshwa kuri porogarama yambere ryemerera gukoresha Bitcoin mu buryo bworoshe kuri telefone ngendanwa ryakozwe muri Ndamukiza 2010?
+answer: MyBitcoin
 wrong_answers:
-  - Bitcoin Wallet.
+  - Bitcoin Wallet
   - BTC 2 PSC
-  - Ubuzima bwite Shark
+  - Privacy Shark
 explanation: |
   Yashizwe imbere n'umuntu yitwa Komodo ku wa 30 Ndamukiza 2010.
 reviewed: true

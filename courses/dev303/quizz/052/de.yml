@@ -1,0 +1,8 @@
+question: Was ist der Hauptunterschied zwischen der Behandlung von Entleihverstößen bei regulären Rust-Referenzen und RefCell?
+answer: Reguläre Verweise führen zu Kompilierfehlern, während RefCell zur Laufzeit Panik auslöst
+wrong_answers:
+  - Reguläre Referenzen führen zu Laufzeit-Panik, während RefCell Kompilierfehler verursacht
+  - Reguläre Verweise erlauben mehrere veränderbare Ausleihen, während RefCell einen einzigen veränderbaren Zugriff erzwingt
+  - Reguläre Referenzen erfordern explizite Lebenszeit-Anmerkungen, während RefCell automatische Bereinigungen verwendet
+explanation: |
+  RefCell verlagert die Durchsetzung der Ausleihregeln von Rust von der Kompilierzeit zur Laufzeit. Während der Compiler reguläre Referenzen statisch analysiert und Verletzungen der Ausleihregeln verhindert, bevor das Programm ausgeführt wird, führt RefCell dieselben Sicherheitsprüfungen während der Programmausführung durch. Dadurch kann RefCell die konservativen Beschränkungen des Compilers in Fällen umgehen, in denen der Programmierer weiß, dass der Code sicher ist, Verstöße aber zu Laufzeit-Panik statt zu Kompilierungsfehlern führen.

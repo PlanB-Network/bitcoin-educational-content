@@ -1,0 +1,8 @@
+question: U procesu verifikacije potpisa ECDSA, matematički odnos koji mora biti ispunjen da bi potpis bio smatran važećim je da se tačka na eliptičnoj krivoj, dobijena množenjem javnog ključa sa hash vrednošću poruke, mora poklapati sa tačkom dobijenom množenjem generisane tačke sa vrednošću potpisa.
+answer: X-koordinata UG + VP mora biti jednaka R, gde je U = Z/S i V = R/S
+wrong_answers:
+  - y-koordinata UG + VP mora biti jednaka S, gde je U = R/Z i V = S/Z
+  - x-koordinata KG + ZP mora biti jednaka S, gde je K nonce, a Z je hash
+  - Zbir R + S mora biti jednak x-koordinati javne tačke ključa P
+explanation: |
+  ECDSA verifikacija funkcioniše rekonstrukcijom originalne tačke KG kroz jednačinu UG + VP, gde je U = Z/S (heš podeljen sa S) i V = R/S. Ako x-koordinata ove rekonstruisane tačke odgovara R iz potpisa, verifikacija je uspešna. Ovaj matematički odnos omogućava verifikaciju bez poznavanja privatnog ključa ili nonce K, jer algebra indirektno rekonstruiše KG kroz javni ključ i komponente potpisa.

@@ -22,7 +22,7 @@ Moins complet que Nmap, **Angry IP** Scanner reste intéressant pour effectuer u
 
 Si vous souhaitez aller plus loin, retrouvez le tutoriel sur Nmap :
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Prise en main d'Angry IP Scanner
 
@@ -91,4 +91,4 @@ Si vous souhaitez utiliser **Nmap** avec une interface graphique, vous pouvez ut
 
 ![Image](assets/fr/015.webp)
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

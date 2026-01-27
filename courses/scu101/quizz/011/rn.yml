@@ -1,12 +1,10 @@
-question: Ni igiki gifise intumbero y’itegeko rya HTTPS?
-answer: Ishiramwo amakuru ku mbuga ngurukanabumenyi kugira ngo Exchange itekanye hagati y’uwukoresha n’urubuga.
+question: Ni intumbero iyihe itegeko rya HTTPS rifise?
+answer: Ri nyegreza amakuru ku mbuga kugira ngo amakuru ahanahanwa hagati y’uwukoresha urubuga n’urubuga abe arinzwe.
 wrong_answers:
-  - Ituma abakoresha bashobora guca ku ruhande rw’aho bari igihe bariha biciye ku ikarita y’ideni canke y’inguzanyo.
-  - Ituma abakoresha bashobora guhagarika amatangazo yo kuri Internet bimwe bimwe.
-  - Ituma abakoresha bashobora gukoresha internet batakoresheje amakuru y’ibanga.
+  - Ituma abarikoresha bashobora kurenga kubibujijwe mukarere mugihe bariha bakoresheje ikarata ya debit canke ya credit.
+  - Ituma abarikoresha bashobora guhagarika amwe amwe mumatangazo yo kuri Internet.
+  - Ituma abarikoresha bashobora gukoresha internet badakoresheje amakuru y’ibanga binjirirako.
 explanation: |
-  Amasezerano ya HTTPS apfuka amakuru ku mbuga ngurukanabumenyi,
-  kumenya neza ko amakuru ahindurwa hagati y'uwukoresha n'uwukoresha
-  urubuga ruratekanye. Ivyo bifasha gukingira abandi bantu .
-  gufata amakuru.
+  Itegeko rya HTTPS rinyegeza amakuru ku mbuga,
+  kugirango amakuru ahanahanwa hagati y'uwukoresha urubuga n'urubuga abe arinzwe. Ivyo bifasha gukingira abandi bantu bagerageza kwitambika amakuru ahanahanwa.
 reviewed: true

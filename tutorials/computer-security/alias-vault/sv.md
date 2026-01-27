@@ -185,7 +185,7 @@ Innan du använder det här e-postmeddelandet för en inloggningstjänst kan du 
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 För att ta bort ett alias som du har skapat som ett test behöver du bara logga in på `Home`, sedan `Credentials` och klicka på den identitet som du vill ta bort. Kommandot _Delete_ visas i det övre högra hörnet så att du kan fortsätta.
 
@@ -227,7 +227,7 @@ Den enda försiktighetsåtgärden är att kontrollera att Alias Vault är aktivt
 
 
 
-Som alla appar med självrespekt av det här slaget har Alias Vault en version för mobila enheter, i både Android- och iOS-miljöer. För Android kan du ladda ner appen från [F-Droid] (https://f-droid.org/packages/net.aliasvault.app/).
+Som alla appar med självrespekt av det här slaget har Alias Vault en version för mobila enheter, i både Android- och iOS-miljöer. För Android kan du ladda ner appen från [F-Droid](https://f-droid.org/packages/net.aliasvault.app/).
 
 
 
@@ -287,7 +287,7 @@ Möjligheten är unik: **Sluta vara beroende av externa tjänsteleverantörer el
 
 
 
-Det är dags att vända sig till [dokumentation] (https://docs.aliasvault.net/installation/), för att ta reda på hur man går vidare till självhosting Alias Vault.
+Det är dags att vända sig till [dokumentation](https://docs.aliasvault.net/installation/), för att ta reda på hur man går vidare till självhosting Alias Vault.
 
 
 
@@ -433,7 +433,7 @@ Eftersom Alias Vault är i _Beta_-stadiet kan du ha svårt att komma åt det om 
 
 
 
-För en fullständig förståelse av arkitekturen och säkerheten i Alias Vault rekommenderar jag starkt att du läser [denna sida] (https://docs.aliasvault.net/architecture/), som innehåller detaljer om den kryptografi som ligger till grund för dess funktion.
+För en fullständig förståelse av arkitekturen och säkerheten i Alias Vault rekommenderar jag starkt att du läser [denna sida](https://docs.aliasvault.net/architecture/), som innehåller detaljer om den kryptografi som ligger till grund för dess funktion.
 
 
 

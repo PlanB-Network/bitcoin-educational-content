@@ -1,0 +1,8 @@
+question: Hva er den primære forskjellen mellom gjenopprettelige og uopprettelige feil i Rusts feilhåndteringssystem?
+answer: Gjenopprettelige feil kan håndteres på en elegant måte, slik at programmet kan fortsette, mens uopprettelige feil avslutter programmet
+wrong_answers:
+  - Gjenopprettelige feil bruker makroen panic! mens uopprettelige feil bruker Result enum for riktig feilhåndtering
+  - Gjenopprettelige feil oppstår ved kompileringstidspunktet, mens uopprettelige feil bare oppstår under kjøring av programmet
+  - Feil som kan gjenopprettes, krever at stakken spoles tilbake, mens feil som ikke kan gjenopprettes, kan ignoreres av den kalende koden
+explanation: |
+  Rust kategoriserer feil basert på hvorvidt programmer med rimelighet kan gjenopprette dem. Gjenopprettelige feil representerer forventede feiltilstander som manglende filer eller nettverksproblemer som programmer kan håndtere på en elegant måte ved hjelp av Result-typer, slik at kjøringen kan fortsette med passende feilhåndtering. Feil som ikke kan gjenopprettes, indikerer grunnleggende problemer som brudd på minnesikkerheten eller logikkfeil der programmet ikke kan fortsette på en trygg måte, og utløser panikk som avslutter kjøringen for å forhindre ytterligere korrupsjon.

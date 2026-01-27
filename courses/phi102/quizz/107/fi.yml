@@ -1,0 +1,8 @@
+question: Mikä perusperiaate selittää sen, miksi yksilöiden väliset vapaaehtoiset sopimukset ja vaihdot ovat luonnollisia vapaassa markkinataloudessa?
+answer: Molemmat osapuolet hyötyvät vaihdosta, joten kyseessä on positiivisen summan peli, jossa kumpikin osallistuja saa arvoa
+wrong_answers:
+  - Yksi osapuoli hyötyy aina enemmän kuin toinen, mikä luo kilpailuetua tulevissa neuvotteluissa
+  - Valtion säännöksillä varmistetaan hyötyjen oikeudenmukainen jakautuminen sopimuspuolten kesken
+  - Sosiaalinen paine ja kulttuuriset normit pakottavat yksilöt osallistumaan molempia osapuolia hyödyttäviin liiketoimiin
+explanation: |
+  Tekstissä korostetaan, että vapaaehtoinen vaihto on pohjimmiltaan positiivisen summan peli, jossa molemmat osapuolet hyötyvät. Kuten Abbé de Saint-Pierren analyysissä selitetään, ihmiset osallistuvat sopimuksiin ja vaihtoon vain silloin, kun he näkevät siitä olevan heille henkilökohtaista hyötyä - muuten he yksinkertaisesti päättäisivät olla osallistumatta. Tämä molemminpuolisen hyödyn periaate selittää, miksi vapaaehtoinen kaupankäynti tapahtuu luonnollisesti ilman ulkoista pakkoa, sillä kukin osallistuja arvostaa saamaansa enemmän kuin luopumaansa, mikä luo aitoa vaurautta molemmille osapuolille.

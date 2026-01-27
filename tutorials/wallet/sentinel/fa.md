@@ -84,7 +84,7 @@ _این آموزش صرفاً برای اهداف آموزشی و اطلاعات
 دوجو، که توسط تیم سامورایی توسعه یافته است، یک نسخه کامل نود Bitcoin است که می‌تواند به صورت مستقل نصب شود یا با یک کلیک به راه‌حل‌های نود-در-جعبه مانند [Umbrel](https://umbrel.com/) و [RoninDojo](https://ronindojo.io/) اضافه شود.
 
 
-[**-> کشف کنید که چگونه RoninDojo v2 را بر روی Raspberry Pi نصب کنید.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> کشف کنید که چگونه RoninDojo v2 را بر روی Raspberry Pi نصب کنید.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
 اگر دوجوی خود را دارید، می‌توانید در این مرحله آن را متصل کنید. با انجام این کار، از بالاترین سطح حریم خصوصی هنگام بررسی اطلاعات تراکنش شبکه Bitcoin بهره‌مند خواهید شد.

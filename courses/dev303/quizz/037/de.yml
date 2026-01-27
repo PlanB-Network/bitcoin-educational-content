@@ -1,0 +1,8 @@
+question: Welches ist das Hauptmerkmal, das Verschlüsse in Rust leistungsfähig macht?
+answer: Ihre Fähigkeit, Variablen aus ihrer Umgebung zu erfassen
+wrong_answers:
+  - Ihre Fähigkeit, schneller als normale Funktionen zu arbeiten
+  - Ihre Fähigkeit, die Speicherzuweisung automatisch zu handhaben
+  - Ihre Fähigkeit, Code in parallelen Threads auszuführen
+explanation: |
+  Die grundlegende Eigenschaft, die Closures so leistungsfähig macht, ist ihre Fähigkeit, ihre Umgebung "abzuschließen", d.h. sie können auf Variablen zugreifen und diese verwenden, die in dem Bereich existieren, in dem die Closure definiert ist. Dank dieser Fähigkeit können Closures den Zustand und den Kontext ihrer Erstellungsumgebung beibehalten, was sie viel flexibler macht als normale Funktionen. Obwohl Closures auf Leistung optimiert und in Threading-Kontexten verwendet werden können, sind dies sekundäre Vorteile - ihre Hauptstärke liegt in der Erfassung von Umgebungsvariablen.

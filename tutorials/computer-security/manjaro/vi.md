@@ -104,7 +104,7 @@ Phiên bản **Cinnamon** là một lựa chọn tuyệt vời nếu bạn mới
 
 
 
-Sau đó, hãy truy cập trang web phần mềm [Rufus] (https://rufus.ie/fr/) và tải xuống. Chạy chương trình, cắm USB vào máy tính, chọn file ISO Manjaro và bắt đầu flash. Đợi quá trình hoàn tất trước khi gỡ bỏ key. Sau đó, bạn có thể khởi động lại máy tính.
+Sau đó, hãy truy cập trang web phần mềm [Rufus](https://rufus.ie/fr/) và tải xuống. Chạy chương trình, cắm USB vào máy tính, chọn file ISO Manjaro và bắt đầu flash. Đợi quá trình hoàn tất trước khi gỡ bỏ key. Sau đó, bạn có thể khởi động lại máy tính.
 
 
 
@@ -322,7 +322,7 @@ Electrum cho phép bạn **nhận và gửi bitcoin** dễ dàng, đồng thời
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## Bảo mật hệ thống Manjaro của bạn
 
@@ -395,4 +395,4 @@ Manjaro kết hợp **tính ổn định, tốc độ và bảo mật**, đồng
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

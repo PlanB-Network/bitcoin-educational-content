@@ -1,0 +1,8 @@
+question: Result 型と Option 型を扱う際の unwrap_or() メソッドと unwrap_or_default() メソッドの主な違いは何ですか？
+answer: 一方、unwrap_or_default() は型のデフォルト実装を使用する。
+wrong_answers:
+  - unwrap_or()はエラー時にパニックを起こすが、 unwrap_or_default()はNoneを返す。
+  - unwrap_or()はResult型でのみ動作し、一方 unwrap_or_default()は値抽出のためにOption型でのみ動作します。
+  - 一方、unwrap_or_default()は、すべてのエラーをデフォルトの文字列メッセージに変換する。
+explanation: |
+  unwrap_or() メソッドは、Result がエラーを含むか Option が None を含む場合に、特定のフォールバック値を提供することを可能にします。対照的に、 unwrap_or_default() は、型の Default 特性実装を自動的に使用します。どちらのメソッドも Result 型と Option 型の両方で動作し、どちらもパニックを起こしたりエラーを伝搬したりしません。

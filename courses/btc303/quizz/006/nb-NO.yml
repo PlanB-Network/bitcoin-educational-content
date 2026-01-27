@@ -1,0 +1,9 @@
+question: Hva er den største sårbarheten som førte til at de første forsøkene på digital valuta mislyktes før Bitcoin?
+answer: De var avhengige av sentrale servere som kunne sensureres eller stenges ned
+wrong_answers:
+  - De brukte utilstrekkelige kryptografiske algoritmer for transaksjonssikkerhet
+  - De manglet tilstrekkelig datakraft til å behandle transaksjoner effektivt
+  - De klarte ikke å implementere ordentlige mekanismer for brukerautentisering
+explanation: |
+  De første digitale valutaene mislyktes fordi de var avhengige av sentrale servere for transaksjonsbehandling og validering. Som forklart i kapittelet ble denne sentraliseringen deres "akilleshæl" fordi myndigheter eller andre motstandere enkelt kunne sensurere, kontrollere eller stenge ned disse sentrale feilkildene. Selv forsøk på å bruke flere servere i en føderasjon gjorde systemet sårbart, siden hver enkelt server kunne "svikte, eller bli satt til å svikte, én etter én" Bitcoin løste dette ved å eliminere behovet for en sentral autoritet gjennom sitt desentraliserte proof-of-work-system.
+reviewed: false

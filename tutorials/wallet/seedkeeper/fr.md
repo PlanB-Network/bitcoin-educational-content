@@ -21,7 +21,7 @@ Une fonctionnalité particulièrement intéressante est la possibilité de dupli
 
 Le Seedkeeper est également très intéressant lorsqu’il est associé à un hardware wallet stateless comme le SeedSigner ou le Specter DIY. Dans ce cas, il n’est pas nécessaire d’utiliser le client de Satochip sur ordinateur ou mobile. Le Seedkeeper conserve la seed dans son élément sécurisé et peut être utilisé directement avec le périphérique de signature, ce qui évite d’avoir recours à un QR code papier. Je ne développerai pas ce cas d’usage particulier dans ce tutoriel, puisqu’il fait l’objet d’un autre tutoriel dédié :
 
-https://planb.network/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
 ## 1. Quel cas d'usage pour le Seedkeeper ?
 
@@ -41,7 +41,7 @@ Cependant, certains inconvénients méritent d’être soulignés par rapport à
 
 - **Le prix :** bien que modeste (environ 25 €), il reste supérieur à celui d’une feuille de papier.
 
-- **La dépendance à un appareil informatique généraliste :** la saisie et la gestion de la seed nécessitent un ordinateur ou un smartphone, ce qui implique que votre phrase mnémonique transite par une machine avec une surface d’attaque bien plus large qu’un hardware wallet. Cela peut représenter un risque en cas de compromission du poste. C’est pourquoi je déconseille l’usage du Seedkeeper pour stocker la seed d’un hardware wallet (sauf dans un usage stateless sans ordinateur, comme avec le SeedSigner). Le rôle du hardware wallet est précisément de conserver la seed dans un environnement minimaliste et hautement sécurisé. En saisissant manuellement votre seed sur votre ordinateur habituel, elle n’est plus confinée au hardware wallet : elle se retrouve également sur une machine généraliste, exposée à de multiples vecteurs d’attaque. Il vaut donc mieux utiliser le Seedkeeper pour un portefeuille chaud plutôt que pour un portefeuille froid (sauf SeedSigner / stateless hardware wallet).
+- **La dépendance à un appareil informatique généraliste :** la saisie et la gestion de la seed nécessitent un ordinateur ou un smartphone, ce qui implique que votre phrase mnémonique transite par une machine avec une surface d’attaque bien plus large qu’un hardware wallet. Cela peut représenter un risque en cas de compromission de l'appareil. C’est pourquoi je déconseille l’usage du Seedkeeper pour stocker la seed d’un hardware wallet (sauf dans un usage stateless sans ordinateur, comme avec le SeedSigner). Le rôle du hardware wallet est précisément de conserver la seed dans un environnement minimaliste et hautement sécurisé. En saisissant manuellement votre seed sur votre ordinateur habituel, elle n’est plus confinée au hardware wallet : elle se retrouve également sur une machine généraliste, exposée à de multiples vecteurs d’attaque. Il vaut donc mieux utiliser le Seedkeeper pour un portefeuille chaud plutôt que pour un portefeuille froid (sauf SeedSigner / stateless hardware wallet).
 
 - **Le risque de perte lié au PIN :** l’inaccessibilité directe de la seed, contrairement à une sauvegarde papier, constitue effectivement une protection face aux vols physiques. Mais comme toujours, la sécurité repose sur un équilibre entre risque de vol et risque de perte. Si votre sauvegarde nécessite un PIN, la perte de ce code rendra impossible la récupération de votre phrase mnémonique, et donc l’accès à vos bitcoins.
 
@@ -193,11 +193,11 @@ Vous pouvez scanner votre Seedkeeper n°2 pour vérifier que les secrets ont bie
 
 Voilà ! Vous savez désormais comment utiliser le Seedkeeper pour sauvegarder la phrase mnémonique d’un portefeuille Bitcoin. Dans un prochain tutoriel, nous verrons comment utiliser le Seedkeeper pour stocker vos mots de passe. Je vous invite également à découvrir son usage combiné avec le SeedSigner :
 
-https://planb.network/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
-https://planb.network/tutorials/wallet/backup/seedkeeper-password-64ffaf68-53aa-43c3-bc7a-c1dc2a17fee3
+https://planb.academy/tutorials/computer-security/authentication/seedkeeper-password-64ffaf68-53aa-43c3-bc7a-c1dc2a17fee3
 
 Dans ce tutoriel, nous avons mentionné à plusieurs reprises les ***Descriptors*** de votre portefeuille Bitcoin. Vous ne savez pas de quoi il s’agit ? Dans ce cas, je vous recommande de suivre notre formation gratuite CYP 201, qui détaille en profondeur tous les mécanismes de fonctionnement des portefeuilles HD !
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 

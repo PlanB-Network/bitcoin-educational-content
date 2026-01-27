@@ -1,0 +1,9 @@
+question: Prema osnovnoj kritici Satoshi Nakamota, koji je glavni problem konvencionalnih fiat valutnih sistema?
+answer: Oni zahtevaju prekomerno poverenje u centralizovane institucije koje su istorijski narušavale to poverenje kroz devalvaciju valute.
+wrong_answers:
+  - Nedostaje im dovoljno tehnološke infrastrukture za efikasno i sigurno upravljanje modernim digitalnim transakcijama.
+  - Oni stvaraju previše volatilnosti u deviznim kursevima, što čini međunarodnu trgovinu nepredvidivom i skupom.
+  - Oni generate prekomerne naknade za transakcije koje čine mikrouplate ekonomski neodrživim za svakodnevne korisnike.
+explanation: |
+  Satoshi Nakamoto je eksplicitno naveo da je 'osnovni problem sa konvencionalnom valutom sav taj poverenje koje je potrebno da bi funkcionisala' i da je 'istorija fiat valuta puna kršenja tog poverenja.' 
+  Njegova kritika je bila usmerena na fundamentalnu zavisnost od centralnih banaka da ne obezvrede valutu, što one više puta nisu uspele da održe. Druge opcije, iako potencijalno validne zabrinutosti o tradicionalnim sistemima, propuštaju Nakamotovu suštinsku filozofsku primedbu na monetarne sisteme zasnovane na poverenju i njegovu motivaciju za stvaranje alternativnog sistema bez poverenja.

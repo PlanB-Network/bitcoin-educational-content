@@ -1,0 +1,8 @@
+question: Ni sahihi ngapi za utendaji zinahitajika ili kuthibitisha kizuizi katika Liquid Network?
+answer: Angalau maafisa 11 kati ya 15 lazima wasaini
+wrong_answers:
+  - Angalau maafisa 8 kati ya 15 lazima wasaini
+  - Angalau maafisa 10 kati ya 15 lazima wasaini
+  - Angalau maafisa 12 kati ya 15 lazima wasaini
+explanation: |
+  Liquid Network inahitaji sahihi kutoka kwa angalau watendaji 11 kati ya 15 ili kuthibitisha kizuizi, ambacho kinawakilisha theluthi mbili pamoja na kizingiti kimoja. Sharti hili mahususi linahakikisha makubaliano thabiti huku likizuia kundi lolote dogo kudhibiti mtandao. Chaguzi zingine si sahihi: sahihi 8 zitakuwa chache sana kwa usalama, 10 hazingefikia kizingiti cha theluthi mbili, na 12 zingekuwa na vikwazo visivyo vya lazima kwa shughuli za kawaida.

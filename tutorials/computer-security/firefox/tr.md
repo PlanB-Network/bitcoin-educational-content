@@ -63,7 +63,7 @@ Ancak Firefox'u seçmek yalnızca ilk adımdır. Varsayılan olarak, Firefox bil
 
 
 
-**Resmi indirme:** [firefox.com/browsers/desktop] (https://www.firefox.com/en-US/browsers/desktop/) adresine gidin. Bu sayfada, özel kurulum talimatlarını içeren uygun indirme sayfasına erişmek için işletim sisteminizi (Windows, macOS, Linux) seçin.
+**Resmi indirme:** [firefox.com/browsers/desktop](https://www.firefox.com/en-US/browsers/desktop/) adresine gidin. Bu sayfada, özel kurulum talimatlarını içeren uygun indirme sayfasına erişmek için işletim sisteminizi (Windows, macOS, Linux) seçin.
 
 
 
@@ -563,7 +563,7 @@ En iyi uygulamalar
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
@@ -571,7 +571,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 
 
@@ -599,7 +599,7 @@ Bu adım adım kılavuzu takip ederek Firefox'u dijital gözetime karşı gerçe
 
 
 
-### Plan ₿ Network
+### Plan ₿ Academy
 
 
 
@@ -608,7 +608,7 @@ Bu adım adım kılavuzu takip ederek Firefox'u dijital gözetime karşı gerçe
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Mozilla belgeleri
 
@@ -616,7 +616,7 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [Gelişmiş Takip Koruması](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Gelişmiş izleme koruması için resmi kılavuz
-- [Durum Bölümleme] (https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Durum bölümleme hakkında teknik dokümantasyon
+- [Durum Bölümleme](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Durum bölümleme hakkında teknik dokümantasyon
 - [MDN Web Güvenliği](https://developer.mozilla.org/docs/Web/Security): Web güvenliği hakkında eksiksiz referans
 
 

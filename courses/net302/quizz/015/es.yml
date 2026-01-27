@@ -6,4 +6,4 @@ wrong_answers:
   - 255 bytes
 explanation: |
   El tamaño máximo de un datagrama IP es de 65.536 bytes determinados por el límite del campo de longitud total de la cabecera IP.
-reviewed: false
+reviewed: true

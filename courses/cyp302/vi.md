@@ -1,21 +1,17 @@
 ---
-name: Giới thiệu về mật mã học chính thức
+name: Cơ sở của mật mã học hiện đại
 goal: Giới thiệu sâu sắc về khoa học và thực hành mật mã.
-objectives: 
-  - Khám phá mật mã Beale và các phương pháp mật mã hiện đại để hiểu các khái niệm cơ bản và lịch sử về mật mã.
-  - Đi sâu vào lý thuyết số, nhóm và các lĩnh vực để nắm vững các khái niệm toán học quan trọng làm nền tảng cho mật mã học.
-  - Nghiên cứu mã hóa luồng RC4 và AES với khóa 128 bit để tìm hiểu về các thuật toán mã hóa đối xứng.
-  - Nghiên cứu hệ thống mật mã RSA, phân phối khóa và hàm băm để khám phá mật mã bất đối xứng.
-
+objectives:
+- Khám phá mật mã Beale và các phương pháp mật mã hiện đại để hiểu các khái niệm cơ bản và lịch sử về mật mã.
+- Đi sâu vào lý thuyết số, nhóm và các lĩnh vực để nắm vững các khái niệm toán học quan trọng làm nền tảng cho mật mã học.
+- Nghiên cứu mã hóa luồng RC4 và AES với khóa 128 bit để tìm hiểu về các thuật toán mã hóa đối xứng.
+- Nghiên cứu hệ thống mật mã RSA, phân phối khóa và hàm băm để khám phá mật mã bất đối xứng.
 ---
-# Đi sâu vào mật mã
+# Tìm hiểu sâu về Mật mã học Hiện đại
 
-Thật khó để tìm được nhiều tài liệu cung cấp giải pháp trung gian tốt cho giáo dục mật mã.
+Trong khóa học này, chúng ta sẽ đề cập đến những điều cần thiết của mật mã học hiện đại theo cách rõ ràng, dễ tiếp cận, không yêu cầu nền tảng toán học vững chắc. Qua các chương, bạn sẽ học các ý tưởng cốt lõi như mã hóa đối xứng và khóa công khai, hàm băm, chữ ký số, trao đổi khóa và các giao thức thực tế. Trên đường đi, chúng ta sẽ kết nối các điểm với các ứng dụng thực tế như nhắn tin bảo mật, TLS, lưu trữ mật khẩu và xác thực.
 
-Một mặt, có những chuyên luận dài dòng, chính thức, thực sự chỉ có thể tiếp cận được với những người có nền tảng vững chắc về toán học, logic hoặc một số ngành học chính thức khác. Mặt khác, có những phần giới thiệu ở trình độ rất cao thực sự ẩn chứa quá nhiều chi tiết đối với bất kỳ ai ít nhất là tò mò một chút.
-
-Phần giới thiệu về mật mã này tìm cách nắm bắt được điểm trung gian. Mặc dù nó có thể khá khó khăn và chi tiết đối với bất kỳ ai mới làm quen với mật mã, nhưng nó không phải là hang thỏ của một chuyên luận cơ bản thông thường.
-
+Tài liệu được thiết kế cho người học ở mọi cấp độ và cân bằng trực giác với độ sâu kỹ thuật vừa đủ để thỏa mãn sự tò mò. Hãy mong đợi một hành trình tập trung, hấp dẫn. Đến cuối khóa học, bạn sẽ hiểu cách thức và lý do tại sao mật mã học hiện đại hoạt động và cách sử dụng nó một cách có trách nhiệm.
 +++
 # Giới thiệu
 
@@ -122,7 +118,7 @@ Bạn có thể thấy bản mã hóa thứ hai trong *Hình 2* bên dưới. [2
 
 *Hình 1: Mã số Beale số 2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 Ví dụ, số đầu tiên của bản mã hóa thứ hai là 115. Từ thứ 115 của Tuyên ngôn Độc lập là “institued”, do đó chữ cái đầu tiên của bản rõ là “i”. Bản mã hóa không trực tiếp chỉ ra khoảng cách giữa các từ và chữ hoa. Nhưng sau khi giải mã một vài từ đầu tiên, bạn có thể suy ra một cách hợp lý rằng từ đầu tiên của bản rõ chỉ đơn giản là “I”. (Bản rõ bắt đầu bằng cụm từ “Tôi đã gửi ở hạt Bedford.”)
 
@@ -285,7 +281,7 @@ Các giá trị có thể có và các xác suất liên quan cho một biến n
 
 *Hình 1: Biến ngẫu nhiên X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 Các thanh rộng trong *Hình 1* rõ ràng không có ý ám chỉ rằng biến ngẫu nhiên $X$ thực sự liên tục. Thay vào đó, các thanh được làm rộng để hấp dẫn hơn về mặt thị giác (chỉ một đường thẳng đứng cung cấp hình ảnh trực quan ít trực quan hơn).
 
@@ -325,7 +321,7 @@ Hình ảnh đồ họa của $Y$ được cung cấp trong *Hình 2*.
 
 *Hình 2: Biến ngẫu nhiên Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 Đối với ví dụ cuối cùng, hãy xem xét biến ngẫu nhiên Z. Nó có tập kết quả {1,3,7,11,12} và phân phối xác suất sau:
 
@@ -353,7 +349,7 @@ Bạn có thể thấy nó được mô tả trong *Hình 3*. Biến ngẫu nhi�
 
 *Hình 3: Biến ngẫu nhiên Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### Xác suất có điều kiện
 
@@ -478,16 +474,16 @@ Trước tiên, hãy định nghĩa nó. Giả sử một từ điển *D* coi t
 
 Toán tử modulo trong mã hóa dịch chuyển đảm bảo rằng các chữ cái bao quanh, do đó tất cả các chữ cái trong văn bản mã hóa đều được xác định. Để minh họa, hãy xem xét ứng dụng của mã hóa dịch chuyển trên từ “DOG”.
 
-Giả sử bạn chọn một khóa có giá trị là 17. Chữ cái “O” tương đương với 15. Nếu không có phép toán modulo, việc cộng số văn bản thuần túy này với khóa sẽ tạo ra số văn bản mã hóa là 32. Tuy nhiên, số văn bản mã hóa đó không thể chuyển thành một chữ cái văn bản mã hóa, vì bảng chữ cái tiếng Anh chỉ có 26 chữ cái. Phép toán modulo đảm bảo rằng số văn bản mã hóa thực sự là 6 (kết quả của $32 \mod 26$), tương đương với chữ cái văn bản mã hóa “G”.
+Giả sử bạn chọn ngẫu nhiên một khóa có giá trị $17$. Chữ “O” tương ứng với $14$. Nếu không có phép toán modulo, việc cộng số của bản rõ với khóa sẽ tạo ra số bản mã bằng $31$. Tuy nhiên, số bản mã này không thể chuyển thành một chữ cái mã hóa, vì bảng chữ cái tiếng Anh chỉ có $26$ chữ cái. Phép modulo đảm bảo rằng số bản mã thực tế là $5$ (kết quả của $31 \mod 26$), tương ứng với chữ cái mã hóa “F”.
 
 Toàn bộ mã hóa của từ “DOG” với giá trị khóa là 17 như sau:
 
 
-- Tin nhắn = DOG = D,O,G = 3,15,6
+**Thông điệp = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Mọi người đều có thể hiểu trực quan cách thức hoạt động của mã hóa dịch chuyển và có thể tự sử dụng. Tuy nhiên, để nâng cao kiến thức về mật mã, điều quan trọng là phải bắt đầu trở nên thoải mái hơn với việc chính thức hóa, vì các lược đồ sẽ trở nên khó khăn hơn nhiều. Do đó, tại sao các bước cho mã hóa dịch chuyển được chính thức hóa.
 
@@ -1013,11 +1009,11 @@ Bob mã hóa thông điệp $M$ tại thời điểm $T_0$ bằng khóa $K$ đ�
 
 *Hình 1: Bí mật trên không gian*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 *Hình 2: Sự bí mật theo thời gian*
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## Một ví dụ: Mã dịch chuyển
 
@@ -1119,7 +1115,7 @@ Một mã hóa luồng XOR điển hình được mô tả trong *Hình 3*. Trư
 
 *Hình 3: Mã hóa luồng XOR*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 Xin lưu ý rằng một lược đồ mã hóa thường là một khuôn mẫu để mã hóa với cùng một thuật toán cốt lõi, chứ không phải là một thông số kỹ thuật chính xác. Theo nghĩa mở rộng, một mã hóa luồng thường là một khuôn mẫu để mã hóa trong đó bạn có thể sử dụng các khóa có độ dài khác nhau. Mặc dù độ dài khóa có thể ảnh hưởng đến một số chi tiết nhỏ của lược đồ, nhưng nó sẽ không ảnh hưởng đến hình thức thiết yếu của nó.
 
@@ -1203,7 +1199,7 @@ Có thể thấy mô tả về cách thức hoạt động của mã khối tron
 
 *Hình 4: Một khối mã hóa*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 Bản thân mã khối không phải là một lược đồ mã hóa. Nhưng mã khối có thể được sử dụng với nhiều **chế độ hoạt động** khác nhau để tạo ra các lược đồ mã hóa khác nhau. Một chế độ hoạt động chỉ đơn giản là thêm một số thao tác bổ sung bên ngoài mã khối.
 
@@ -1211,7 +1207,7 @@ Bản thân mã khối không phải là một lược đồ mã hóa. Nhưng m�
 
 *Hình 5: Mã khối với chế độ ECB*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 Quy trình mã hóa sổ mã điện tử bằng mã khối như sau. Xem bạn có thể chia thông điệp văn bản thuần túy của mình thành các khối 128 bit không. Nếu không, hãy thêm **đệm** vào thông điệp để kết quả có thể được chia đều cho kích thước khối 128 bit. Đây là dữ liệu của bạn được sử dụng cho quy trình mã hóa.
 
@@ -1227,7 +1223,7 @@ Thay vào đó, bất kỳ lược đồ mã hóa nào được xây dựng từ
 
 *Hình 6: Mã khối với chế độ CBC*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 Giả sử kích thước khối lại là 128 bit. Vì vậy, để bắt đầu, bạn sẽ lại cần đảm bảo rằng tin nhắn văn bản gốc của bạn nhận được phần đệm cần thiết.
 
@@ -1243,7 +1239,7 @@ Cuối cùng, chúng ta hãy chuyển sự chú ý sang **chế độ phản h�
 
 *Hình 7: Mã hóa khối với chế độ OFB*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 Với chế độ OFB, bạn cũng chọn một vectơ khởi tạo. Nhưng ở đây, đối với khối đầu tiên, vectơ khởi tạo được chèn trực tiếp vào mã khối bằng khóa của bạn. 128 bit kết quả sau đó được xử lý như một luồng khóa. Luồng khóa này được XOR với văn bản thuần túy để tạo ra văn bản mã hóa cho khối. Đối với các khối tiếp theo, bạn sử dụng luồng khóa từ khối trước đó làm đầu vào cho mã khối và lặp lại các bước.
 
@@ -1289,7 +1285,7 @@ Từ thảo luận này, bây giờ bạn sẽ hiểu *Hình 8*. Nó cung cấp 
 
 *Hình 8: Tổng quan về các chương trình mã hóa đối xứng*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## Mã xác thực tin nhắn
 
@@ -1313,7 +1309,7 @@ Quá trình này được mô tả trong *Hình 9*. Để sử dụng **MAC** (M
 
 *Hình 9: Tổng quan về các chương trình mã hóa đối xứng*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 Do **tính không thể làm giả hiện hữu**, kẻ tấn công không thể thay đổi tin nhắn $M$ theo bất kỳ cách nào hoặc tạo tin nhắn của riêng mình với một thẻ hợp lệ. Điều này đúng ngay cả khi kẻ tấn công quan sát các thẻ của nhiều tin nhắn giữa Bob và Alice sử dụng cùng một khóa riêng. Nhiều nhất, kẻ tấn công có thể chặn Alice nhận tin nhắn $M$ (một vấn đề mà mật mã không thể giải quyết).
 
@@ -1345,7 +1341,7 @@ Alice bây giờ đầu tiên kiểm tra xem thẻ có hợp lệ hay không d�
 
 *Hình 10: Một chương trình mã hóa đã xác thực*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 MAC được tạo ra như thế nào? Mặc dù MAC có thể được tạo ra thông qua nhiều phương pháp, nhưng một cách phổ biến và hiệu quả để tạo ra chúng là thông qua **hàm băm mật mã**.
 
@@ -1357,7 +1353,7 @@ Có một bảng các hàm băm có thể được sử dụng để tạo HMAC.
 
 *Hình 11: HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **Lưu ý:**
 
@@ -1395,7 +1391,7 @@ Phiên giao tiếp bắt đầu bằng việc Bob gửi một bản mã $C_{0,B}
 
 *Hình 12: Phiên giao tiếp an toàn*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 và AES
 
@@ -1532,7 +1528,7 @@ Hãy gọi khóa là $K_0$. Khi đó, cấu trúc với các tham số trên tr�
 
 *Hình 1: AES-ECB với khóa 128-bit*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Mỗi khối văn bản 128 bit trải qua mười vòng trong sơ đồ mã hóa Rijndael. Điều này đòi hỏi một khóa vòng riêng cho mỗi vòng ($K_1$ đến $K_{10}$). Chúng được tạo ra cho mỗi vòng từ khóa 128 bit gốc $K_0$ bằng cách sử dụng **thuật toán mở rộng khóa**. Do đó, đối với mỗi khối văn bản được mã hóa, chúng ta sẽ sử dụng khóa gốc $K_0$ cũng như mười khóa vòng riêng. Lưu ý rằng 11 khóa giống nhau này được sử dụng cho mỗi khối văn bản thuần túy 128 bit cần mã hóa.
 
@@ -1808,7 +1804,7 @@ Vào một thời điểm nào đó sau này, Bob muốn viết một thông đi
 
 *Hình 1: Mã hóa không đối xứng*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 Bất kỳ kẻ thù nào nghe lén cuộc giao tiếp của Bob và Alice đều có thể quan sát $C$. Cô ấy cũng biết $K_P$ và thuật toán mã hóa $E(\cdot)$. Tuy nhiên, điều quan trọng là thông tin này không cho phép kẻ tấn công giải mã khả thi văn bản mã hóa $C$. Giải mã cụ thể yêu cầu $K_S$, mà kẻ tấn công không sở hữu.
 
@@ -1832,7 +1828,7 @@ Chữ ký số, như tên gọi của nó, là tương đương kỹ thuật s�
 
 *Hình 2: Xác thực không đối xứng*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 Giống như mã hóa bất đối xứng, chúng ta thấy sự tương phản thú vị giữa chữ ký số và mã xác thực tin nhắn. Đối với mã sau, thuật toán xác minh chỉ có thể được sử dụng bởi một trong các bên biết về giao tiếp an toàn. Điều này là do nó yêu cầu khóa riêng. Tuy nhiên, trong bối cảnh bất đối xứng, bất kỳ ai cũng có thể xác minh chữ ký số $S$ do Bob tạo.
 

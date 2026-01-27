@@ -1,13 +1,11 @@
 ---
-name: Протокол RGB, от теории к практике
+name: Программирование RGB
 goal: Приобретите навыки, необходимые для понимания и использования RGB
-objectives: 
-
-  - Понять фундаментальные концепции протокола RGB
-  - Освойте принципы проверки на стороне клиента и обязательств Bitcoin
-  - Узнайте, как создавать, управлять и передавать контракты RGB
-  - Как управлять RGB-совместимым узлом Lightning
-
+objectives:
+- Понять фундаментальные концепции протокола RGB
+- Освойте принципы проверки на стороне клиента и обязательств Bitcoin
+- Узнайте, как создавать, управлять и передавать контракты RGB
+- Как управлять RGB-совместимым узлом Lightning
 ---
 # Открытие протокола RGB
 
@@ -45,7 +43,7 @@ objectives:
 ---
 Этот учебный курс первоначально вырос из двухнедельного буткемпа по продвинутой разработке в Виареджо, Тоскана, организованного [Fulgur'Ventures](https://fulgur.ventures/). Первую неделю, посвященную Rust и SDK, можно найти в этом другом курсе:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 В этом курсе мы сосредоточимся на второй неделе буткемпа, которая посвящена RGB.
 
@@ -347,11 +345,11 @@ RGB - это протокол, предназначенный для приме�
 Вкратце этот процесс можно описать следующим образом:
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -821,7 +819,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 где :
 
 
-- `mpc_tag` - это тег: `urn:ubideco:mpc:commitment#2024-01-31`, выбранный в соответствии с [RGB tagging conventions] (https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
+- `mpc_tag` - это тег: `urn:ubideco:mpc:commitment#2024-01-31`, выбранный в соответствии с [RGB tagging conventions](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
 - `depth` (1 байт) указывает глубину *MPC-дерева* ;
 - cofactor` (16 бит, в Little Endian) - параметр, используемый для повышения уникальности позиций, присвоенных каждому контракту в дереве;
 - `mpc::Root` - это корень *MPC Tree*, вычисляемый в соответствии с процессом, описанным в следующем разделе.
@@ -1824,7 +1822,7 @@ Lightning Network - это децентрализованная сеть пла�
 
 Для получения более подробной информации о том, как работает Lightning, я рекомендую вам пройти этот другой курс:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Многопротокольное обязательство - MPC
 
@@ -3033,8 +3031,8 @@ rgb schemata
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3078,7 +3076,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Затем следующая команда выводит глобальные состояния (имя, тикер, предложение...) и список Owned States, то есть распределений (например, 1 миллион токенов `PBN`, определенных в UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Затем следующая команда выводит глобальные состояния (имя, тикер, предложение...) и список Owned States, то есть распределений (например, 1 миллион токенов `Plan ₿ Academy`, определенных в UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3172,7 +3170,7 @@ rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-..
 Для переноса из этого счета :
 
 
-- У Боба (который хранит токены в своем тайнике) есть кошелек Bitcoin. Ему необходимо подготовить транзакцию Bitcoin (в форме PSBT, например `tx.psbt`), которая расходует UTXO, где находятся необходимые токены RGB, плюс один UTXO для валюты (обмена);
+- Боб (который хранит токены в своём stash) располагает биткоин-кошельком. Он должен подготовить биткоин-транзакцию (в форме PSBT, например `tx.psbt`), которая тратит UTXO, где находятся необходимые токены RGB, а также один UTXO для сдачи (change);
 - Боб выполняет следующую команду:
 
 ```bash
@@ -3261,7 +3259,7 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 Поэтому работу RGB на Lightning следует рассматривать параллельно с работой самой сети Lightning. Если вы хотите углубиться в эту тему, я настоятельно рекомендую вам взглянуть на другой обширный учебный курс:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Карта кодов RGB
 
@@ -3758,7 +3756,7 @@ http://localhost:3001/createutxos
 ./regtest.sh mine 1
 ```
 
-Теперь мы можем создать актив RGB. Команда будет зависеть от типа актива, который вы хотите создать, и его параметров. Здесь я создаю токен NIA (*Non Inflatable Asset*) под названием "PBN" с запасом в 1000 единиц. Параметр `precision` позволяет определить делимость единиц.
+Теперь мы можем создать актив RGB. Команда будет зависеть от типа актива, который вы хотите создать, и его параметров. Здесь я создаю токен NIA (*Non Inflatable Asset*) под названием "Plan ₿ Academy" с запасом в 1000 единиц. Параметр `precision` позволяет определить делимость единиц.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3766,8 +3764,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3803,7 +3801,7 @@ curl -X 'GET' \
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Далее мы откроем канал, указав соответствующий актив (`PBN`). Команда `/openchannel` позволяет задать размер канала в сатоши и выбрать включение актива RGB. Это зависит от того, что вы хотите создать, но в моем случае команда выглядит так: :
+Далее мы откроем канал, указав соответствующий актив (`Plan ₿ Academy`). Команда `/openchannel` позволяет задать размер канала в сатоши и выбрать включение актива RGB. Это зависит от того, что вы хотите создать, но в моем случае команда выглядит так: :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3842,7 +3840,7 @@ http://localhost:3001/openchannel
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Канал Lightning теперь открыт и также содержит 500 токенов `PBN` на стороне узла n°1. Если узел n°2 хочет получить токены `PBN`, он должен сгенерировать счет-фактуру. Вот как это сделать:
+Канал Lightning теперь открыт и также содержит 500 токенов `Plan ₿ Academy` на стороне узла n°1. Если узел n°2 хочет получить токены `Plan ₿ Academy`, он должен сгенерировать счет-фактуру. Вот как это сделать:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3871,7 +3869,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-Теперь мы оплатим этот счет с первого узла, на котором хранится необходимая наличность с токеном `PBN`:
+Теперь мы оплатим этот счет с первого узла, на котором хранится необходимая наличность с токеном `Plan ₿ Academy`:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

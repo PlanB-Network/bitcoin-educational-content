@@ -1,0 +1,8 @@
+question: Šta određuje iznos naknade za transakciju u Bitcoin transakciji tokom procesa izgradnje?
+answer: Razlika između ukupne vrednosti svih ulaza i ukupne vrednosti svih izlaza
+wrong_answers:
+  - Fiksni procenat ukupne vrednosti transakcije izračunat prema mrežnom protokolu
+  - Veličina transakcije u bajtovima pomnožena sa standardnom stopom koju postavljaju rudari
+  - Broj potrebnih potpisa za sve unose plus osnovna mrežna naknada
+explanation: |
+  Bitcoin transakcione naknade određuju se razlikom između ukupnih ulaza i ukupnih izlaza. Kada konstruirate transakciju, birate UTXO kao ulaze i kreirate izlaze za primaoce i kusur. Bilo koji preostali iznos postaje naknada koja podstiče rudare da uključe vašu transakciju. Naknada se ne izračunava procentualno, po fiksnim stopama ili broju potpisa - to je jednostavno ono što ostaje neraspoređeno u vrednosnom balansu transakcije.

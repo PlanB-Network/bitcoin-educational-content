@@ -1,0 +1,8 @@
+question: Koje tri komponente čine strukturu String-a u memorijskom rasporedu Rust?
+answer: Pokazivač na podatke na gomili, trenutna dužina i ukupni kapacitet
+wrong_answers:
+  - Pokazivač na podatke steka, trenutna veličina i maksimalna dužina
+  - Adresa memorije, broj karaktera i tip alokacije
+  - Referenca podataka, veličina bajta i status vlasništva
+explanation: |
+  Niz u Rust sastoji se od tačno tri komponente smeštene na steku: pokazivača na karaktere alocirane na gomili, trenutne dužine sadržaja niza i ukupnog kapaciteta alociranog bafera. Ova struktura omogućava nizovima da se efikasno šire i skupljaju dok održavaju znanje o svojim granicama. Ostale opcije su netačne jer ili referenciraju pogrešne lokacije (stek umesto gomile), koriste nepreciznu terminologiju (veličina naspram dužine, broj karaktera naspram dužine u bajtovima), ili uključuju nepostojeće komponente kao što su tip alokacije ili status vlasništva.

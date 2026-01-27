@@ -14,11 +14,11 @@ A caraterística especial desta carteira é a capacidade de enviar bitcoins util
 
 Para utilizar a Carteira Proton, precisa de uma conta Proton. Pode criar uma gratuitamente seguindo os primeiros passos deste tutorial dedicado à criação de uma caixa de correio Proton (apenas a secção "*Criar uma conta Proton*"). Assim que a sua conta estiver configurada, pode continuar com o resto deste tutorial.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Ligar à Carteira Proton
 
-Aceda ao [sítio Web da Proton Wallet] (https://proton.me/wallet) e clique no botão "*Get Proton Wallet*".
+Aceda ao [sítio Web da Proton Wallet](https://proton.me/wallet) e clique no botão "*Get Proton Wallet*".
 
 ![Image](assets/fr/01.webp)
 
@@ -68,7 +68,7 @@ Pode escrevê-lo num pedaço de papel ou, para maior segurança, recomendo que o
 
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 é claro que nunca se deve tirar uma fotografia destas palavras, ao contrário do que faço neste tutorial
 
@@ -96,7 +96,7 @@ Para criar uma nova carteira, clique no símbolo "*+*" junto a "*Carteiras*".
 
 Para aprofundar os seus conhecimentos sobre a frase-chave, recomendo este tutorial:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Receber bitcoins
 
@@ -145,8 +145,8 @@ Para além do cliente Web, a Carteira Proton também está acessível através d
 Transfira a Proton Wallet da sua loja de aplicações:
 
 
-- [Na App Store] (https://apps.apple.com/us/app/proton-wallet-secure-btc/id6479609548);
-- [Na Google Play Store] (https://play.google.com/store/apps/details?id=me.proton.wallet.android).
+- [Na App Store](https://apps.apple.com/us/app/proton-wallet-secure-btc/id6479609548);
+- [Na Google Play Store](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 ![Image](assets/fr/26.webp)
 
@@ -162,4 +162,4 @@ Parabéns, agora já sabe como configurar e utilizar a Carteira Proton. Se você
 
 Para ir mais longe, recomendo este tutorial sobre a Jade Plus, a mais recente carteira de hardware da Blockstream:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

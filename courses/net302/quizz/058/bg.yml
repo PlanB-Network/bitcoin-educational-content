@@ -1,0 +1,9 @@
+question: Кой конфигурационен файл дефинира статичен мрежов интерфейс в RHEL-подобна система?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/network/interfaces
+explanation: |
+  В RHEL, CentOS и други подобни системи всеки интерфейс има свой собствен файл ifcfg-*, разположен в /etc/sysconfig/network-scripts/.
+reviewed: false

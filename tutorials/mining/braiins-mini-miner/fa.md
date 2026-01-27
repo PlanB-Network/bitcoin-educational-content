@@ -6,7 +6,7 @@ description: ساخت Mining به‌راحتی در خانه.
 
 
 
-### مقدمه
+## مقدمه
 
 
 
@@ -18,7 +18,7 @@ description: ساخت Mining به‌راحتی در خانه.
 
 
 
-### بررسی اجمالی BMM 100
+## بررسی اجمالی BMM 100
 
 
 
@@ -46,7 +46,7 @@ description: ساخت Mining به‌راحتی در خانه.
 
 
 
-### اتصال Mini Miner
+## اتصال Mini Miner
 
 
 
@@ -54,7 +54,7 @@ description: ساخت Mining به‌راحتی در خانه.
 
 
 
-### پیکربندی
+## پیکربندی
 
 
 
@@ -74,7 +74,7 @@ description: ساخت Mining به‌راحتی در خانه.
 
 
 
-### تنظیمات عمومی
+## تنظیمات عمومی
 
 
 
@@ -110,7 +110,7 @@ description: ساخت Mining به‌راحتی در خانه.
 
 
 
-### اتصال به Mining pool
+## اتصال به Mining pool
 
 
 
@@ -134,15 +134,15 @@ description: ساخت Mining به‌راحتی در خانه.
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 گزینه دوم این است که ما را به یک Mining pool که به صورت انفرادی استخراج می‌کند، مانند Public Pool، متصل کنید. برای انجام این کار، این راهنما را دنبال کنید:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### استخر Braiins
+### استخر Braiins
 
 
 
@@ -150,7 +150,7 @@ https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 پس از انجام این کار، ما در داشبورد استخر Braiins هستیم. کاری که باید انجام دهیم این است که به استخر بگوییم می‌خواهیم با یکی از ماینرهای خود متصل شویم، بنابراین در سمت چپ صفحه تعدادی ورودی خواهید یافت. باید به بخش "workers" برویم.
 
@@ -168,7 +168,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-در اینجا پنجره‌ای با اطلاعاتی که برای اتصال Miner کوچک خود به استخر نیاز داریم، ظاهر می‌شود. تنها تغییری که می‌توانیم در اینجا انجام دهیم، انتخاب Stratum V2 است. برای اطلاع از اینکه Stratum v2 چیست، به این مدخل در [واژه‌نامه](https://planb.network/en/resources/glossary/stratum-v2) مراجعه کنید.
+در اینجا پنجره‌ای با اطلاعاتی که برای اتصال Miner کوچک خود به استخر نیاز داریم، ظاهر می‌شود. تنها تغییری که می‌توانیم در اینجا انجام دهیم، انتخاب Stratum V2 است. برای اطلاع از اینکه Stratum v2 چیست، به این مدخل در [واژه‌نامه](https://planb.academy/en/resources/glossary/stratum-v2) مراجعه کنید.
 
 
 
@@ -236,7 +236,7 @@ https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-#### استخر عمومی
+### استخر عمومی
 
 
 

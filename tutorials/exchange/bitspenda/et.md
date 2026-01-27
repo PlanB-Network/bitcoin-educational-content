@@ -35,7 +35,7 @@ BitSpenda on veebipõhine platvorm, millel saate Exchange Bitcoin ja mobiilse ra
 
 
 
-Tehingu tegemine BitSpendaga on üsna intuitiivne, nõudes vähe samme. Ametlikul BitSpenda [veebisaidil] (https://bitspenda.app) klõpsake nupule "Start" ja teid suunatakse edasi Interface Exchange.
+Tehingu tegemine BitSpendaga on üsna intuitiivne, nõudes vähe samme. Ametlikul BitSpenda [veebisaidil](https://bitspenda.app) klõpsake nupule "Start" ja teid suunatakse edasi Interface Exchange.
 
 
 
@@ -98,9 +98,9 @@ Kui teie tehing on kinnitatud, makske sellega seotud Lightning Invoice. Pangaül
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ### M-Pesa Kenyas
 
@@ -177,7 +177,7 @@ Kontrollige ja kinnitage oma Exchange number ja summa, seejärel makske oma Exch
 
 
 
-BitSpenda kaudu on [Bitcoin Dua] (https://www.bitcoindua.org/) eesmärk luua ideaalne raamistik Bitcoin kasutuselevõtuks Aafrikas. BitSpenda paistab silma peamiselt :
+BitSpenda kaudu on [Bitcoin Dua](https://www.bitcoindua.org/) eesmärk luua ideaalne raamistik Bitcoin kasutuselevõtuks Aafrikas. BitSpenda paistab silma peamiselt :
 
 
 
@@ -197,4 +197,4 @@ Aafrika kogukondades on tekkimas palju teisi algatusi ja lahendusi nagu BitSpend
 
 
 
-https://planb.network/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c
+https://planb.academy/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c

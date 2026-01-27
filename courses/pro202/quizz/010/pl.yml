@@ -1,0 +1,8 @@
+question: Jaki jest główny cel używania hash160 (SHA-256, a następnie RIPEMD-160) podczas tworzenia adresów Bitcoin z kluczy publicznych?
+answer: Aby ukryć klucz publiczny do momentu wydania i utworzyć krótsze, łatwiejsze w zarządzaniu adresy
+wrong_answers:
+  - Aby zaszyfrować klucz prywatny i zapobiec nieautoryzowanemu dostępowi do środków wallet
+  - Aby generate podpis cyfrowy wymagany do walidacji transakcji w łańcuchu bloków
+  - Aby przekonwertować punkty krzywej eliptycznej do odpowiedniego formatu dla operacji secp256k1
+explanation: |
+  Hash160 pełni wiele ważnych funkcji w tworzeniu adresów Bitcoin. Hashując klucz publiczny, ukrywa rzeczywisty klucz publiczny do momentu wydania monet, zapewniając dodatkową warstwę bezpieczeństwa. Hashowanie znacznie zmniejsza również rozmiar z 33/65 bajtów do zaledwie 20 bajtów, dzięki czemu adresy są łatwiejsze w zarządzaniu. Błędne odpowiedzi mylą to z szyfrowaniem klucza prywatnego (które nie jest wykonywane), podpisami cyfrowymi (które wykorzystują inne operacje kryptograficzne) lub formatowaniem krzywej (które ma miejsce podczas serializacji SEC, a nie tworzenia adresu).

@@ -1,11 +1,11 @@
-question: Ni uruhara uruhe ibiciro bihuye bifise mu vyiyumviro vy’Ubudandaji vy’Ubudagi?
-answer: Ibiciro bihuye birahambaye mu guhuza abakozi b’ubutunzi.
+question: Ni uruhara uruhe ibiciro bihuye(vyukuri) bifise mu vyiyumviro vy’Ubudandaji vy'abanya otirishi?
+answer: Ibiciro vyukuri ni karahara muruganda ntibacura mu guhuza abakozi b’ubutunzi.
 wrong_answers:
-  - Ibiciro bihuye n’ibindi ntaco bimaze mu vyiyumviro vy’Ubucuruzi vy’Ubudagi.
+  - Ibiciro bihuye n’ibindi ntaco bimaze mu vyiyumviro vy’Ubucuruzi vy'abanya otirirshi.
   - Ibiciro bihuye ni ngirakamaro kugira ngo umuntu amenye urugero rw’akazi.
   - Ibiciro bihuye ni ngirakamaro kugira ngo umuntu amenye urugero rw’umusaruro w’igihugu.
 explanation: |
-  Ishure ryo muri Otirishiya rishimika ku kamaro k’ibiciro bihuye n’ivyo .
-  guhuza abakozi b’ubutunzi. Ibiciro vyerekana ubukene nyabwo 
-  y’ibintu bifasha mu guhingura no kwemerera abakozi b’ubutunzi gushingira intahe ingingo zabo.
+  Ishure ryo muri Otirishi rishimika ku kamaro k’ibiciro bihuye n’ivyo .
+  guhuza abakozi b’ubutunzi. Ibiciro vyerekana ubukene nyabwo
+  ibintu bifasha mu guhingura no kwemerera abakozi b’ubutunzi gushinga intahe n'ingingo zabo.
 reviewed: true

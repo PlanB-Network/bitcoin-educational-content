@@ -21,7 +21,7 @@ objectives:
 
 
 
-BTC 202는 기술 전문가가 아니더라도 나만의 Bitcoin 매듭을 만드는 방법을 알려드리기 위해 마련된 강좌입니다. 먼저 Bitcoin 매듭이 무엇인지, 매듭의 용도는 무엇인지, 왜 직접 매듭을 만들어야 하는지 정의하는 것부터 시작하겠습니다. 그런 다음 하드웨어를 선택하고, 필요한 소프트웨어를 설치하고, Wallet를 연결하고, 더 발전시키기 위해 가능한 첫 번째 최적화를 수행하는 과정을 단계별로 안내해 드리겠습니다.
+BTC 202는 기술 전문가가 아니더라도 자신의 비트코인 노드를 운영하는 방법을 배우도록 설계된 접근하기 쉬운 교육 과정입니다. 우리는 비트코인 노드가 무엇인지, 어떤 역할을 하는지, 그리고 왜 스스로 노드를 운영하는 것이 절대적으로 중요한지 정의하는 것부터 시작합니다. 그 다음 단계별로 하드웨어 선택, 필요한 소프트웨어 설치, 지갑 소프트웨어 연결, 그리고 더 나아가기 위한 첫 번째 최적화 단계를 안내합니다.
 
 
 
@@ -118,7 +118,7 @@ Bitcoin 노드를 쉽고 독립적으로 설치, 구성, 사용하는 방법을 
 
 
 
-모든 Plan ₿ Network 과정과 마찬가지로 마지막 섹션에는 Bitcoin 노드에 대한 지식을 테스트하는 최종 시험이 있습니다.
+모든 Plan ₿ Academy 과정과 마찬가지로 마지막 섹션에는 Bitcoin 노드에 대한 지식을 테스트하는 최종 시험이 있습니다.
 
 
 
@@ -328,7 +328,7 @@ Miner이 네트워크와 상호 작용하려면 Bitcoin 노드가 필요합니�
 
 
 
-Miner의 역할은 때때로 초퍼의 역할과 구분되기도 합니다. 채굴기는 풀 서버에서 제공하는 블록을 Hash 템플릿화하여 공유에 대해 정의된 난이도 목표를 충족하는 해시를 찾는 역할을 하는 기계로, Bitcoin의 역할은 하지 않습니다. 실제 블록 구성, 트랜잭션 선택, Bitcoin의 자체 난이도에 따른 Proof-of-Work 검색, 분배 등 나머지 Mining 프로세스는 풀에서 직접 수행합니다.
+Miner의 역할은 때때로 grind의 역할과 구분되기도 합니다. grind는 풀 서버에서 제공하는 블록을 Hash 템플릿화하여 공유에 대해 정의된 난이도 목표를 충족하는 해시를 찾는 역할을 하는 기계로, Bitcoin의 역할은 하지 않습니다. 실제 블록 구성, 트랜잭션 선택, Bitcoin의 자체 난이도에 따른 Proof-of-Work 검색, 분배 등 나머지 Mining 프로세스는 풀에서 직접 수행합니다.
 
 
 
@@ -410,7 +410,7 @@ Bitcoin core는 Bitcoin 프로토콜의 참조 소프트웨어입니다. 2008~20
 
 
 
-Bitcoin core은 C++로 작성되었습니다. 또한 오픈 소스 프로젝트로서, 자원봉사로 참여하거나 다양한 단체(주로 Core 개발에 기득권을 가진 생태계 내 기업)로부터 돈을 받는 개발자 커뮤니티가 유지 관리합니다. [코드는 깃허브(https://github.com/Bitcoin/Bitcoin)에서 호스팅되며, 개발은 엄격한 절차를 따릅니다:
+Bitcoin Core는 C++로 작성된 소프트웨어입니다. 또한 자원봉사자 또는 다양한 기관(대부분 Core 개발이 원활히 진행되기를 바라는 생태계 내 기업들)에 의해 유지되는 오픈 소스 프로젝트이기도 합니다. [코드는 GitHub에 호스팅되어 있습니다](https://github.com/bitcoin/bitcoin), 개발은 엄격한 모델을 따릅니다:
 
 
 
@@ -448,7 +448,7 @@ Bitcoin core의 개발은 능력주의 논리를 따르며, 새로운 기여자�
 
 - 리비트코인**: 아미르 타키가 개발하고 에릭 보스킬이 관리하는 모듈식 C++ 라이브러리입니다;
 - Bcoin**: 자바스크립트 구현으로, 더 이상 활발하게 유지 관리되지 않습니다;
-- BTCD/btcsuit**e: Go에서 구현한 것입니다.
+- **BTCD/btcsuite** : Go로 구현된 버전입니다.
 
 
 
@@ -481,7 +481,7 @@ Bitcoin core 개발자가 Bitcoin를 직접 제어할 수 있다고 생각할 �
 
 
 
-## 왜 스스로 매듭을 꼬나요?
+## 왜 자신의 노드를 운영해야 할까요?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Bitcoin 노드를 운영하는 것은 오로지 네트워크 탈중앙화를 위
 
 
 
-실제로 이전 장에서 지적했듯이 매듭을 돌리는 데 직접적인 금전적 이득은 없습니다. 따라서 매듭을 짓는 데 개인적인 이익이 없다고 생각할 수도 있습니다. 하지만 자신만의 노드를 운영하면 개인적으로는 많은 이점이 있습니다. 이를 설득하기 위해 이 장에서는 자체 Bitcoin 노드를 설치하고 사용해야 하는 기술적, 전략적 이유를 모두 제시하고자 합니다.
+앞서 언급했듯이 노드를 운영한다고 해서 직접적인 금전적 이익이 생기는 것은 아닙니다. 따라서 이를 할 개인적인 이유가 없다고 생각할 수도 있습니다. 그러나 자신의 노드를 운영하는 것은 여러 가지 개인적 이점을 제공합니다. 이를 납득시키기 위해 이 장에서는 기술적 및 전략적 이유들을 모두 제시하며, 자신만의 비트코인 노드를 설치하고 사용하는 것이 왜 중요한지 설명하겠습니다.
 
 
 
@@ -516,7 +516,7 @@ Wallet 소프트웨어가 외부 노드에 연결되면 사용자가 제어할 �
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 검열할 수 없는 거래
 
@@ -576,7 +576,7 @@ Full node를 설치하는 것은 간단한 작업이 아닙니다. 소프트웨�
 
 
 
-이러한 지식을 습득하면 도구에 대한 자신감이 강화되고 오류나 사기에 노출될 위험을 줄일 수 있습니다. 직접 매듭을 지어보는 것도 학습의 한 형태입니다.
+이 지식을 습득하면 도구에 대한 신뢰가 강화되고 오류나 사기에 노출될 위험을 줄일 수 있습니다. 자신의 노드를 운영하는 것은 배우는 것이기도 합니다.
 
 
 
@@ -692,7 +692,7 @@ Bitcoin에서 "판매자"의 역할은 일정한 경제적 비중을 가진 모�
 
 
 
-> 매듭이 아니라 규칙입니다.
+> 당신의 노드가 아니면, 당신의 규칙도 아니다.
 
 
 ## 다양한 유형의 Bitcoin 노드
@@ -706,7 +706,7 @@ Bitcoin에서 "판매자"의 역할은 일정한 경제적 비중을 가진 모�
 
 
 
-### 완벽한 매듭
+### 전체 노드
 
 
 
@@ -730,7 +730,7 @@ Full node는 시스템의 모든 정보를 검증하고 알고 있기 때문에 
 
 
 
-### pruned 매듭
+### 가지치기된 노드
 
 
 
@@ -754,7 +754,7 @@ pruned 노드는 Genesis 블록부터 가장 많은 작업을 수행한 체인 �
 
 
 
-### 라이트 매듭 / SPV
+### 경량 노드 / SPV
 
 
 
@@ -849,7 +849,7 @@ Bitcoin를 완전히 독립적으로 사용하고 나중에 인덱서, 라이트
 
 
 
-#### Bitcoin core(초다수 고객)
+#### Bitcoin Core (절대 다수의 클라이언트)
 
 
 
@@ -865,11 +865,11 @@ Bitcoin를 완전히 독립적으로 사용하고 나중에 인덱서, 라이트
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots(주요 대체 고객)
+#### Bitcoin Knots (주요 대체 클라이언트)
 
 
 
@@ -886,7 +886,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 - 정책**: 일부 사람들은 기술적이지 않은 이유로, 특히 코어의 독점을 줄이기 위해 코어의 대안을 지원하기 위해 Knots와 같은 대체 클라이언트를 사용하는 것을 선호합니다. Core가 손상될 경우, 견고하고 잘 관리되는 대체 클라이언트가 있을 뿐만 아니라 이를 효과적으로 활용하는 방법을 아는 것도 유용할 것입니다. Core의 개발자에 대한 신뢰를 잃었거나 클라이언트 경영진의 대다수가 마음에 들지 않아서 항의의 목적으로 Knots를 사용하는 사람들도 있습니다.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 개인적으로는 보안 패치의 혜택을 더 빨리 받으려면 주로 Core를 선택하는 것이 좋습니다. 실제로 Knots에서 발견된 취약점 중 일부는 늦게 수정되기도 합니다. 일반적으로 Core의 개발 프로세스는 탄탄하게 구조화되어 있고 많은 기여자가 지원하는 반면, Knots는 한 사람이 유지 관리하고 커뮤니티가 훨씬 작습니다. 반면에 릴레이 규칙은 오늘날 특히 네트워크의 극히 일부만 적용하는 경우(퍼콜레이션 이론에 따라) 그 유용성을 잃는 경향이 있습니다.
 
@@ -942,7 +942,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9(StartOS)
 
@@ -968,7 +968,7 @@ Bitcoin 측에서 StartOS를 사용하면 Full node, 라이트닝 노드, BTCPay
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
@@ -986,7 +986,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### 라스피블리츠
 
@@ -1004,7 +1004,7 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### 로닌도장
 
@@ -1026,7 +1026,7 @@ https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1565,7 +1565,7 @@ Umbrel의 코드는 공개적으로 사용 가능하지만(Fork을 보고 수정
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 이전 섹션에서 언급했듯이, 저는 이 튜토리얼을 좋은 가격에 구입한 소형 리퍼브 PC, 즉 인텔 코어 i7 프로세서와 16GB RAM이 장착된 *Lenovo ThinkCentre M900 Tiny*에서 실행하기로 선택했습니다. 이것은 특히 Bitcoin 노드에서 엄브렐을 실행하기에 매우 편안한 구성입니다. 하지만 나중에 라이트닝 노드와 기타 더 까다로운 애플리케이션을 설치하기 위해 이 구성을 선택했습니다. 또한 Blockchain의 전체 용량을 유지하면서도 여유 공간을 확보하기 위해 ThinkCentre에 2TB SSD를 추가했습니다. 이 구성으로 총 비용은 모든 비용을 포함하여 270유로입니다.
 
@@ -1822,7 +1822,7 @@ http://192.168.1.42
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ hostname -I
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 비밀번호를 입력한 후 '*생성*' 버튼을 클릭합니다.
 
@@ -1944,7 +1944,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 이렇게 하려면 설정에서 해당 상자를 클릭합니다.
 
@@ -2168,7 +2168,7 @@ Bitcoin core에는 과거 작업의 흔적인 선택적 트랜잭션 인덱서(`
 
 
 
-반면에 Mempool.Locally 실행과 같은 고급 소프트웨어를 사용하려면 공간 Block explorer에 Address 인덱서 설치가 필수적입니다.
+반면에 mempool.space 블록 탐색기를 로컬에서 실행하는 것과 같은 고급 소프트웨어를 사용하려면 주소 인덱서 설치가 필수적입니다.
 
 
 
@@ -2435,7 +2435,7 @@ Bitcoin을 일상적으로 사용하는 데 있어 없어서는 안 될 도구�
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 또한 인터넷 서비스 제공업체(ISP)는 사용자가 Block explorer 사이트를 통해 특정 거래를 보고 있다는 사실을 알 수 있습니다. 이는 또한 신뢰의 문제를 제기합니다. 사용자는 거래에 대한 정확한 정보를 제공하는 온라인 서비스에 의존해야 하며, 그 진위를 직접 확인할 수 없습니다.
 
@@ -2472,7 +2472,7 @@ Mempool.Space 탐색기 사용에 대해 자세히 알아보려면 이 종합 �
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### 라이트닝 노드
 
@@ -2492,15 +2492,15 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 그런 다음 기본 Interface에서 노드를 관리하거나, 더 많은 기능과 고급 옵션을 원하면 *Ride The Lightning* 또는 *ThunderHub*를 설치할 수 있습니다. 이러한 도구는 노드를 위한 훨씬 더 포괄적인 웹 기반 Interface 관리 시스템을 제공합니다.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2514,9 +2514,11 @@ https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 
 
-엄브렐 덕분에 개인 라이트닝 노드 관리가 크게 간소화되었지만, 여전히 비교적 복잡합니다. 이러한 이유로 향후 이 사용법에 대한 강좌에서 이 주제에 대해 자세히 살펴보도록 하겠습니다.
+Umbrel 덕분에 개인 Lightning 노드의 관리는 간소화되었지만, 여전히 비교적 복잡합니다. 따라서 BTC 202 과정의 논리적 연속인 LNP 202 과정을 수강하시기를 권장하며, 이 과정에서 Umbrel에서 Lightning 노드를 설정하고 관리하는 방법을 단계별로 안내해 드립니다.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### 테일 스케일
 
@@ -2564,7 +2566,7 @@ https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2590,7 +2592,7 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-마지막으로, 엄브렐의 ***Nostr Wallet Connect*** 앱이 있는데, 이 앱은 노스트르에서 네이티브 라이트닝 결제를 가능하게 해줍니다. 구체적으로 설명하자면, 타사 서비스를 거치지 않고도 향후 라이트닝 노드와 노스트르 고객을 연결하여 콘텐츠 보상이나 수익 창출 방식으로 상호 작용하기 위해 "*잽*"이라는 소액 결제를 보낼 수 있습니다. 이러한 결제는 채널을 통해 개인 노드에서 직접 전송됩니다.
+마지막으로 Umbrel에는 ***Nostr Wallet Connect*** 애플리케이션이 있으며, 이를 통해 Nostr 내에서 네이티브 Lightning 결제를 수행할 수 있습니다. 구체적으로, 향후 Lightning 노드를 Nostr 클라이언트에 연결하여 "*zaps*"라고 불리는 마이크로 결제를 보내 콘텐츠를 보상하거나 수익화된 방식으로 상호작용할 수 있습니다. 이러한 결제는 제3자 서비스를 거치지 않고 귀하의 개인 노드에서 채널을 통해 직접 전송됩니다.
 
 
 
@@ -2598,7 +2600,7 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### BTCPay 서버
 
@@ -2626,7 +2628,7 @@ BTCPay 서버의 아키텍처는 Bitcoin 노드와 라이트닝의 경우 호환
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2636,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2644,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # 고급 개념 및 모범 사례
@@ -2652,7 +2654,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## 엄브렐 매듭 유지
+## Umbrel 노드 유지 관리
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2751,7 +2753,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### 진단 및 자가 진단
 
@@ -2929,7 +2931,7 @@ assumeutxo`는 또 다른 기존 매개변수이지만 `assumevalid`와 달리 �
 
 
 
-## Bitcoin 매듭의 해부학
+## 당신의 비트코인 노드의 구조
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,7 +2943,7 @@ assumeutxo`는 또 다른 기존 매개변수이지만 `assumevalid`와 달리 �
 
 
 
-- 디스크에 저장된 gW-402 **블록**,
+- 디스크에 저장된 블록체인의 **블록**,
 - 키-값 데이터베이스에 유지되는 **UTXO 세트**입니다,
 - 그리고 **Mempool**는 RAM에 저장되어 주기적으로 직렬화됩니다.
 
@@ -3077,9 +3079,9 @@ UTXO 세트의 성장은 Bitcoin의 간편결제 거래 구조에서도 기인�
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-합리적인 시간 내에 트랜잭션을 확인하기 위해 그 일부를 RAM에 보관해야 하므로, UTXO 세트는 점차 Full node의 작동 비용이 너무 높아질 수 있습니다. 이 문제를 해결하기 위한 몇 가지 제안이 이미 존재하며, 특히 [Utreexo](https://planb.network/resources/glossary/utreexo)가 대표적입니다.
+합리적인 시간 내에 트랜잭션을 확인하기 위해 그 일부를 RAM에 보관해야 하므로, UTXO 세트는 점차 Full node의 작동 비용이 너무 높아질 수 있습니다. 이 문제를 해결하기 위한 몇 가지 제안이 이미 존재하며, 특히 [Utreexo](https://planb.academy/resources/glossary/utreexo)가 대표적입니다.
 
 
 
@@ -3093,7 +3095,7 @@ Mempool은 수신되었지만 아직 확인되지 않은 유효한 트랜잭션�
 
 
 - 최대멤풀` 매개변수를 통해 Mempool에 할당된 크기: 더 큰 Mempool를 가진 노드는 더 작은 Mempool를 가진 노드보다 더 많은 트랜잭션을 보유할 수 있습니다(후자가 비어 있지 않는 한);
-- gW-433 규칙: 노드 릴레이 규칙의 하위 집합으로, 미확인 트랜잭션이 Mempool에서 수락되기 위해 충족해야 하는 특성을 정의합니다;
+- 메인풀 규칙: 이는 노드의 릴레이 규칙의 하위 집합을 구성하며, 확인되지 않은 거래가 메인풀에 수락되기 위해 충족해야 하는 특성을 정의합니다;
 - 트랜잭션 퍼콜레이션: 다양한 요인으로 인해 특정 트랜잭션이 네트워크의 한 부분으로 배포되었지만 아직 다른 부분에 도달하지 못했을 수 있습니다.
 
 
@@ -3135,10 +3137,10 @@ Mempool의 크기는 `Bitcoin.conf` 파일의 `maxmempool` 매개변수에 의�
 - 노드가 꺼지면 `anchors.dat`는 나가는 피어의 주소를 저장하여 다음에 시작할 때 빠르게 다시 연락을 시도할 수 있도록 합니다.
 - banlist.json`에는 노드가 이러한 특정 피어의 연결을 다시 연결하거나 수락하지 못하도록 운영자 또는 노드가 결정한 로컬 금지(반복되는 잘못된 동작)가 포함되어 있습니다.
 - 수수료 추정기가 트랜잭션을 생성할 때 선택한 지연 목표와 일치하는 수수료율을 제안하는 데 사용하는 관찰된 확인에 대한 시간대 통계를 `fee_estimates.dat`에 저장합니다.
-- gW-446.conf`에는 노드의 구성 매개변수가 포함되어 있습니다. 여기에서 릴레이 규칙을 조정할 수 있습니다. 다음 장에서 이에 대해 자세히 설명하겠습니다.
+- `bitcoin.conf`에는 노드의 구성 매개변수가 포함되어 있습니다. 특히 이 파일에서 릴레이 규칙을 조정할 수 있습니다. 다음 장에서 더 자세히 설명하겠습니다;
 - settings.json`에는 `Bitcoin.conf`에 대한 추가 매개변수가 포함되어 있습니다.
 - debug.log`는 버그 발생 시 노드 활동을 파악하는 데 사용할 수 있는 진단 텍스트 로그입니다.
-- gW-448.pid`는 런타임에 프로세스 식별자를 저장하여 다른 애플리케이션이나 스크립트가 bitcoind(*Bitcoin daemon*)을 쉽게 식별하고 필요한 경우 상호 작용할 수 있도록 합니다. 이 파일은 노드 시작 시 생성되고 종료 시 삭제됩니다.
+- `bitcoind.pid`는 실행 중 프로세스 ID를 기록하여 다른 애플리케이션이나 스크립트가 Bitcoind(*Bitcoin Daemon*)를 쉽게 식별하고 필요할 때 상호 작용할 수 있도록 합니다. 노드가 시작될 때 생성되고 종료 시 삭제됩니다;
 - ip_asn.map`은 버킷화 및 피어 다각화(`-asmap` 옵션)에 사용되는 IP → ASN 매핑 테이블(독립형 시스템)입니다.
 - 'onion_v3_private_key'는 재부팅 사이에 안정적인 양파 Address를 유지하기 위해, `-listenonion` 옵션이 활성화된 경우 Tor v3 서비스의 개인 키를 저장합니다.
 - i2p_private_key`는 `-i2psam=`이 사용될 때 I2P에서 발신 및 수신 연결을 할 수 있는 I2P 개인 키를 저장합니다.
@@ -3154,9 +3156,9 @@ Mempool의 크기는 `Bitcoin.conf` 파일의 `maxmempool` 매개변수에 의�
 
 
 
-- 지갑/`는 하나 이상의 지갑을 호스팅하는 기본 디렉토리입니다;
+- `wallets/`는 하나 이상의 지갑을 호스팅하는 기본 디렉터리입니다;
 - 지갑/<이름>/Wallet.dat`는 Wallet의 SQLite 데이터베이스(키, 설명자, 트랜잭션 메타데이터 등)입니다;
-- wallets/<이름>/Wallet.dat-journal`은 SQLite 롤백 로그입니다.
+- `wallets/<name>/wallet.dat-journal`는 SQLite 롤백 저널입니다.
 
 
 
@@ -3335,10 +3337,10 @@ Full node는 들어오는 연결을 수락하여 네트워크에 더 많은 가�
 
 
 - addnode`: 일반적인 검색 외에 연락할 친숙한 피어를 추가합니다(여러 번 지정 가능).
-- connect`: 제공된 Address에 대한 연결을 엄격하게 제한합니다(여러 번 지정 가능). 코어는 다른 노드에 연결하지 않습니다.
+- `connect`: 제공된 주소로의 연결만 엄격히 제한합니다(여러 번 지정할 수 있습니다). Core는 다른 노드에 연결하지 않습니다;
 - seednode`: 노드에 연결할 때 책-Address을 채울 때만 사용되며, 연결이 끊어집니다.
 - 최대 연결 수`: 수신 + 발신 연결의 글로벌 상한을 정의합니다. 기본적으로 이 매개변수는 125로 설정되어 있으므로 노드에서 125개 이상의 연결을 허용하지 않습니다.
-- maxuploadtarget`: 24시간 동안 슬라이딩 방식으로 대역폭을 제한하기 위해 업로드에 상한선을 설정합니다. 이 상한은 필수적인 최신 Elements의 전파를 희생하지 않습니다.
+- `maxuploadtarget` : 업로드를 제한하여 24시간 이동 창에서 대역폭을 제한합니다. 이 한도는 필수적인 최신 요소의 전파를 희생하지 않습니다;
 - onlynet`: 발신 연결을 선택한 네트워크(`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`)로만 제한합니다. 예를 들어, 노드가 Tor를 통해서만 Bitcoin 네트워크에 연결하려면 `onlynet=onion` 파라미터를 활성화하고 들어오는 연결을 비활성화할 수 있습니다(또는 Tor를 통한 연결만 허용할 수도 있습니다).
 - dnsseed`: 로컬 Address 풀이 부족할 때 _DNS seed_가 피어를 요청하도록 허용 또는 허용하지 않습니다(기본값: `1`, `-connect` 또는 `-maxconnections=0`이 아닌 경우).
 - forcednsseed`: 이미 주소가 있는 경우에도 시작 시 _DNS 시드_를 강제로 요청합니다(기본값: `0`).
@@ -3362,7 +3364,7 @@ Full node는 들어오는 연결을 수락하여 네트워크에 더 많은 가�
 - `torcontrol=127.0.0.1:9051`,
 - 프록시랜덤화=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3420,7 @@ DNS 확인을 피하려면 설정에 `dnsseed=0` 및 `dns=0`을 추가하면 됩
 
 
 
-- blocksonly=1`: 피어로부터 받은 미확인 트랜잭션의 수락 및 재전송을 비활성화합니다(특별한 권한이 부여되지 않은 경우). 이제 노드는 블록을 업로드하고 알리기만 합니다. 로컬에서 생성된 트랜잭션은 여전히 브로드캐스트할 수 있습니다(Wallet 소프트웨어와 함께 노드를 사용하기 위해). 이렇게 하면 대역폭과 RAM 요구 사항이 크게 줄어들지만, 릴레이의 유용성이 떨어지고 Mempool에 익숙하지 않다는 대가를 치러야 합니다.
+- `blocksonly=1` : 피어로부터 받은 미확인 거래의 수락 및 재전송을 비활성화합니다(특별 권한 제외). 노드는 블록만 다운로드하고 알립니다. 로컬에서 생성된 거래는 여전히 방송될 수 있습니다(지갑 소프트웨어와 함께 노드를 사용하기 위해). 이는 대역폭과 RAM 요구량을 크게 줄이지만, 중계 기능이 감소하고 메모리풀에 대한 인식이 완전히 사라집니다.
 
 
 
@@ -3448,7 +3450,7 @@ DNS 확인을 피하려면 설정에 `dnsseed=0` 및 `dns=0`을 추가하면 됩
 
 
 
-- 데이터 캐리어=1`: 비금융 데이터가 포함된 트랜잭션을 `OP_RETURN` 출력(기본값: `1`)을 통해 중계 및 (노드를 통한 Mining의 경우) 포함할 수 있도록 허용합니다. 이 매개변수를 비활성화하면 특정 용도와의 호환성이 저하되는 대신 비금융 데이터 스팸의 노출 면적이 약간 줄어듭니다. 모든 경우에 채굴된 `OP_RETURN`을 수락해야 합니다.
+- `datacarrier=1` : 릴레이 및 (노드를 통한 채굴 시) `OP_RETURN` 출력을 통해 비금융 데이터를 포함하는 트랜잭션의 포함을 허용합니다 (기본값: `1`). 이 매개변수를 비활성화하면 비금융 데이터 스팸의 표면이 약간 줄어들지만 일부 사용 사례와의 호환성이 낮아집니다. 모든 경우에 채굴된 `OP_RETURN`을 수락해야 합니다.
 
 
 
@@ -3490,13 +3492,13 @@ DNS 확인을 피하려면 설정에 `dnsseed=0` 및 `dns=0`을 추가하면 됩
 
 
 
-- 피어블룸필터=1`: 필터링된 블록/트랜잭션을 씬 클라이언트에 제공하기 위해 블룸 필터(BIP37)에 대한 지원을 활성화합니다(기본값: `0`). 경고: 이렇게 하면 리소스 부하가 증가합니다.
+- `peerbloomfilters=1` : 블룸 필터(BIP37) 지원을 활성화하여 경량 클라이언트에 필터링된 블록/트랜잭션을 제공합니다(기본값: `0`). 주의, 이는 리소스 부하를 증가시킵니다.
 
 
 
 
 
-- 피어블록필터=1`: 피어에게 BIP157(*Neutrino*) 컴팩트 필터를 제공합니다(기본값: `0`).
+- `peerblockfilters=1` : 피어에게 압축된 BIP157 (*Neutrino*) 필터를 제공합니다 (기본값: `0`).
 
 
 
@@ -3520,7 +3522,7 @@ DNS 확인을 피하려면 설정에 `dnsseed=0` 및 `dns=0`을 추가하면 됩
 
 
 
-- addresstype=<레거시|P2SH-SegWit|bech32|bech32m>`: Wallet에서 생성된 수신용 주소의 형식을 정의합니다.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : 지갑에서 수신을 위해 생성된 주소의 형식을 정의합니다.
 
 
 
@@ -3568,7 +3570,7 @@ DNS 확인을 피하려면 설정에 `dnsseed=0` 및 `dns=0`을 추가하면 됩
 
 
 
-- fallbackfee=<amt>`: 추정기의 데이터가 부족할 때 사용하는 폴백 비율(BTC/kvB)입니다(기본값: `0.00`). 0으로 설정하면 폴백이 완전히 비활성화됩니다.
+- `fallbackfee=<amt>` : 추정기에 데이터가 부족할 때 사용하는 백업 수수료율(BTC/kvB) (기본값: `0.00`). 0으로 설정하면 백업이 완전히 비활성화됩니다.
 
 
 
@@ -3660,7 +3662,7 @@ DNS 확인을 피하려면 설정에 `dnsseed=0` 및 `dns=0`을 추가하면 됩
 
 
 
-- txindex=1`: 확인된 트랜잭션의 글로벌 인덱스를 구축하고 유지합니다. 특정 쿼리(`getrawtransaction`가 아닌 Wallet)와 탐색 목적에 필수적이지만 디스크 공간을 크게 증가시킵니다. pruned 모드와 호환되지 않습니다.
+- `txindex=1` : 확인된 거래의 전역 인덱스를 구축하고 유지합니다. 특정 쿼리(`getrawtransaction` 지갑 외부) 및 탐색 목적에 필수적이지만 디스크 사용량을 크게 증가시킵니다. 가지치기 모드와는 호환되지 않습니다.
 
 
 
@@ -3894,15 +3896,17 @@ DNS 확인을 피하려면 설정에 `dnsseed=0` 및 `dns=0`을 추가하면 됩
 
 
 
-이제 몇 가지 옵션이 열려 있습니다. 다음 논리적 단계는 자체적인 라이트닝 노드를 설정하여 off-chain 트랜잭션에 대해 완전히 독립적으로 운영할 수 있도록 하는 것입니다. 이는 2025년 가을에 Plan ₿ Network에 게시될 예정인 강좌의 주제가 될 것입니다.
+이제 여러 가지 선택지가 여러분 앞에 놓여 있습니다. 다음으로 논리적인 단계는 오프체인 거래에서 완전한 독립성을 확보하기 위해 자신의 Lightning 노드를 구축하는 것입니다. 이것이 바로 Plan ₿ Academy의 또 다른 강의 주제입니다:
 
 
 
-그동안 Bitcoin 사용 시 개인정보 보호 원칙을 이해하고 숙달할 수 있는 BTC 204 교육에 참여해 보시기 바랍니다:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+또한 비트코인 사용에 있어 개인정보 보호의 원칙을 이해하고 숙달할 수 있도록 해주는 BTC 204 교육 과정을 살펴보시기를 권합니다:
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # 마지막 부분

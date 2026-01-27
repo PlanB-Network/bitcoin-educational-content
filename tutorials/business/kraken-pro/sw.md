@@ -14,7 +14,7 @@ Katika somo hili, tutashughulikia mchakato wa kuunda akaunti ya biashara ya Krak
 Ikiwa ungependa somo la kuunganisha Bitcoin kwenye biashara yako, ningependekeza pia ugundue kozi yetu kamili ya mafunzo ya kinadharia kuhusu mada hii:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Kuunda akaunti ya kampuni ya
 kraken-pro
@@ -115,7 +115,7 @@ Katika chaguo za 2FA, unaweza kuchagua kutumia ufunguo halisi wa usalama kama ki
 Kwa maelezo zaidi kuhusu jinsi ya kutumia aina hii ya kifaa, angalia mafunzo yetu maalum:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Chaguo jingine ni kutumia programu ya uthibitishaji kama vile  Google authenticator au Authy. Programu hizi hugenerate msimbo unaobadilika wa tarakimu 6 ambao utahitaji kuingiza kila wakati unapoingia.
 
@@ -132,7 +132,7 @@ Ili kuamilisha njia hii, changanua msimbo wa QR ukitumia programu uliyochagua kw
 Kwa maelezo zaidi kuhusu programu za uthibitishaji, unaweza pia kutazama mafunzo haya:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Chini, unaweza pia kufikia mipangilio ya kina, ikiwa ni pamoja na uwezo wa kuweka 2FA kadhaa tofauti. Kraken inatoa ujumbe wa hali ya juu wa usalama kupitia 2FA. Kipengele hiki hukuruhusu kuunda viwango tofauti vya 2FA kwa vitendo mbalimbali, kama vile kuingia, uthibitishaji wa agizo na uondoaji wa pesa. Hii inafanya uwezekano, kwa mfano, kumpa mhasibu upatikanaji wa kazi fulani bila kumruhusu kutoa fedha. Hapa kuna chaguzi:
 
@@ -320,4 +320,4 @@ Kulingana na malengo na muundo wa kampuni yako, matumizi ya Kraken yanaweza kuto
 Kwa mtazamo wa kina zaidi wa mada hii, ninapendekeza kozi hii ya kina ya mafunzo ya kuunganisha Bitcoin katika biashara, ambayo inashughulikia kwa kina kuongeza mtiririko wa pesa, kukubali malipo ya Bitcoin, na uhasibu:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

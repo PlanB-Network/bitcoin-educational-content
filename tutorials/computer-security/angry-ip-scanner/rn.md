@@ -42,7 +42,7 @@ Niba ushaka kuja kure, raba inyigisho iri kuri Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Gutangura n'Igikoresho co Gupima IP c'Ishavu
 
@@ -181,4 +181,4 @@ Niba ushaka gukoresha **Nmap** n'igishushanyo Interface, ushobora gukoresha **ik
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

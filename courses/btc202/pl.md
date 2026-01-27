@@ -21,7 +21,7 @@ Prawdopodobnie znasz powiedzenie "Nie twoje klucze, nie twoje monety", które za
 
 
 
-BTC 202 to przystępny kurs zaprojektowany, aby nauczyć Cię, jak wykonać własny węzeł Bitcoin, nawet jeśli nie jesteś ekspertem technicznym. Zaczniemy od zdefiniowania, czym jest węzeł Bitcoin, do czego służy i dlaczego absolutnie konieczne jest samodzielne wykonanie takiego węzła. Następnie poprowadzę cię krok po kroku przez wybór sprzętu, instalację niezbędnego oprogramowania, podłączenie Wallet i dokonanie pierwszych możliwych optymalizacji, aby pójść dalej.
+BTC 202 to przystępne szkolenie zaprojektowane, aby nauczyć Cię, jak uruchomić własny węzeł Bitcoin, nawet jeśli nie jesteś ekspertem technicznym. Zaczniemy od zdefiniowania, czym jest węzeł Bitcoin, do czego służy i dlaczego absolutnie niezbędne jest uruchamianie go samodzielnie. Następnie poprowadzę Cię krok po kroku przez wybór sprzętu, instalację niezbędnego oprogramowania, połączenie oprogramowania portfela i pierwsze możliwe optymalizacje, aby pójść dalej.
 
 
 
@@ -118,7 +118,7 @@ Następnie zajmiemy się przeglądem niektórych teorii omówionych wcześniej w
 
 
 
-Podobnie jak w przypadku wszystkich kursów Plan ₿ Network, w sekcji końcowej znajduje się egzamin końcowy sprawdzający wiedzę na temat węzłów Bitcoin.
+Podobnie jak w przypadku wszystkich kursów Plan ₿ Academy, w sekcji końcowej znajduje się egzamin końcowy sprawdzający wiedzę na temat węzłów Bitcoin.
 
 
 
@@ -328,7 +328,7 @@ Miner potrzebuje węzła Bitcoin do interakcji z siecią.
 
 
 
-Rola Miner jest również czasami odróżniana od roli rozdrabniacza. Rozdrabniacz to maszyna, której zadaniem jest Hash szablonów bloków dostarczanych przez serwer puli, szukając hashy, które spełniają cel trudności zdefiniowany dla udziałów, a nie Bitcoin. Pozostała część procesu Mining, która obejmuje faktyczną budowę bloku, wybór transakcji lub wyszukiwanie Proof-of-Work zgodnie z trudnością Bitcoin, a także dystrybucję, jest przeprowadzana bezpośrednio przez pule.
+Rola Miner jest również czasami odróżniana od roli grind. Grind to maszyna, której zadaniem jest Hash szablonów bloków dostarczanych przez serwer puli, szukając hashy, które spełniają cel trudności zdefiniowany dla udziałów, a nie Bitcoin. Pozostała część procesu Mining, która obejmuje faktyczną budowę bloku, wybór transakcji lub wyszukiwanie Proof-of-Work zgodnie z trudnością Bitcoin, a także dystrybucję, jest przeprowadzana bezpośrednio przez pule.
 
 
 
@@ -410,7 +410,7 @@ Innymi słowy, około 9 na 10 węzłów publicznych korzysta z Bitcoin core. Res
 
 
 
-Bitcoin core jest napisany w języku C++. Jest to również projekt open source, który jest utrzymywany przez społeczność programistów, którzy są wolontariuszami lub są opłacani przez różne podmioty (często przez firmy w ekosystemie, które mają żywotny interes w rozwoju Core). [Kod jest hostowany na GitHub](https://github.com/Bitcoin/Bitcoin), a rozwój odbywa się w rygorystyczny sposób:
+Bitcoin Core to oprogramowanie napisane w języku C++. Jest to również projekt open source, utrzymywany przez społeczność deweloperów — wolontariuszy lub opłacanych przez różne podmioty (często firmy z ekosystemu, którym zależy na pomyślnym rozwoju Core). [Kod jest hostowany na GitHubie](https://github.com/bitcoin/bitcoin), a rozwój odbywa się według rygorystycznego modelu:
 
 
 
@@ -448,7 +448,7 @@ Możemy również wspomnieć:
 
 - Libbitcoin**: modułowa biblioteka C++ opracowana przez Amira Taaki i utrzymywana przez Erica Voskuila;
 - Bcoin**: implementacja JavaScript, która nie jest już aktywnie utrzymywana;
-- BTCD/btcsuit**e: implementacja w Go.
+- **BTCD/btcsuite** : implementacja w Go.
 
 
 
@@ -481,7 +481,7 @@ Jak omówimy w dalszej części tego kursu, to węzły, zgodnie z ich wagą ekon
 
 
 
-## Po co skręcać własny węzeł?
+## Dlaczego uruchamiać własny węzeł?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Istnieje powszechne przekonanie, że obsługa węzła Bitcoin jest działaniem c
 
 
 
-Rzeczywiście, jak wskazaliśmy w poprzednich rozdziałach, nie ma bezpośrednich korzyści finansowych ze splatania węzła. Można by zatem pomyśleć, że nie ma w tym żadnego osobistego interesu. Jednak prowadzenie własnego węzła przynosi wiele indywidualnych korzyści. Aby cię o tym przekonać, przedstawię w tym rozdziale wszystkie powody, zarówno techniczne, jak i strategiczne, dla których powinieneś zainstalować i używać własnego węzła Bitcoin.
+Jak podkreślaliśmy w poprzednich rozdziałach, uruchomienie węzła nie przynosi bezpośrednich korzyści finansowych. Można więc pomyśleć, że nie ma w tym żadnego osobistego interesu. Jednak uruchomienie własnego węzła daje wiele indywidualnych korzyści. Aby cię o tym przekonać, przedstawię w tym rozdziale wszystkie powody, zarówno techniczne, jak i strategiczne, które powinny cię skłonić do zainstalowania i korzystania z własnego węzła Bitcoin.
 
 
 
@@ -516,7 +516,7 @@ Korzystając z własnego węzła, transmitujesz swoje transakcje bezpośrednio d
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Transakcje niepodlegające cenzurze
 
@@ -576,7 +576,7 @@ Instalacja Full node nie jest trywialną operacją. Obejmuje instalację oprogra
 
 
 
-Zdobycie tej wiedzy wzmacnia zaufanie do narzędzia i może zmniejszyć ryzyko błędu lub narażenia na oszustwa. Tworzenie własnego węzła jest również formą nauki.
+Zdobycie tej wiedzy wzmacnia twoje zaufanie do narzędzia i może zmniejszyć ryzyko błędów lub narażenia na oszustwa. Uruchamianie własnego węzła to także nauka.
 
 
 
@@ -706,7 +706,7 @@ Węzeł Bitcoin jest zatem maszyną z uruchomioną implementacją protokołu Bit
 
 
 
-### Kompletny węzeł
+### Pełny węzeł
 
 
 
@@ -730,7 +730,7 @@ W zależności od potrzeb można dodać indeksator do Full node. Bitcoin core of
 
 
 
-### Węzeł pruned
+### Przycięty węzeł
 
 
 
@@ -754,7 +754,7 @@ Krótko mówiąc, śledzenie Wallet działa bezproblemowo na węźle pruned, je�
 
 
 
-### Węzeł świetlny / SPV
+### Lekki węzeł / SPV
 
 
 
@@ -849,7 +849,7 @@ Jest to najbardziej suwerenne i elastyczne podejście: wiesz dokładnie, co jest
 
 
 
-#### Bitcoin core (klient ultra-większościowy)
+#### Bitcoin Core (klient zdecydowanej większości)
 
 
 
@@ -865,11 +865,11 @@ Jest to najbardziej suwerenne i elastyczne podejście: wiesz dokładnie, co jest
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (główny klient alternatywny)
+#### Bitcoin Knots (główny alternatywny klient)
 
 
 
@@ -886,7 +886,7 @@ Istnieją 2 możliwe powody, dla których warto wybrać Knots zamiast Core:
 - Polityka**: Niektórzy ludzie wolą używać alternatywnych klientów, takich jak Knots, z powodów nietechnicznych, zwłaszcza w celu wspierania alternatywy dla Core, a tym samym zmniejszenia jego monopolu. Jeśli Core zostałby kiedykolwiek skompromitowany, przydatne byłoby nie tylko posiadanie solidnych, dobrze utrzymanych alternatywnych klientów, ale także wiedza, jak skutecznie z nich korzystać. Inni używają Knots w celach protestacyjnych, ponieważ stracili zaufanie do programistów Core lub nie akceptują większości kierownictwa klienta.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Osobiście polecam wybrać Core, głównie po to, by szybciej korzystać z łatek bezpieczeństwa. Rzeczywiście, niektóre luki wykryte w Knots są poprawiane z opóźnieniem. Ogólnie rzecz biorąc, proces rozwoju Core jest solidnie zorganizowany i wspierany przez dużą liczbę współpracowników, podczas gdy Knots jest utrzymywany przez jedną osobę i ma znacznie mniejszą społeczność. Z drugiej strony, reguły przekaźnikowe mają tendencję do tracenia swojej użyteczności, zwłaszcza gdy są stosowane tylko przez niewielką część sieci (zgodnie z teorią perkolacji).
 
@@ -942,7 +942,7 @@ Nie będę się tutaj zagłębiał w szczegóły dotyczące jego działania i ko
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -968,7 +968,7 @@ Krótko mówiąc, jeśli po prostu potrzebujesz podstawowych aplikacji dla Bitco
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
@@ -986,7 +986,7 @@ W praktyce MyNode łączy w sobie wszystkie podstawowe elementy potrzebne do obs
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ Jeśli posiadasz Raspberry Pi, jest to doskonała opcja, ponieważ bardziej komp
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ Projekt oferował wcześniej wstępnie skonfigurowaną maszynę o nazwie Tanto, 
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1521,7 +1521,7 @@ Jedną z kluczowych przewag Umbrel nad konkurencją jest ogromna i bardzo aktywn
 
 
 
-Kod Umbrel jest publicznie dostępny (można go przeglądać, Fork i modyfikować), ale nie jest objęty prawdziwą licencją open-source. W rzeczywistości umbrelOS jest rozpowszechniany na licencji [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), chociaż niektóre powiązane narzędzia programistyczne są dostępne na licencji MIT.
+Kod Umbrel jest publicznie dostępny (można go przeglądać, Fork i modyfikować), ale nie jest objęty prawdziwą licencją open-source. W rzeczywistości umbrelOS jest rozpowszechniany na licencji [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), chociaż niektóre powiązane narzędzia programistyczne są dostępne na licencji MIT.
 
 
 
@@ -1565,7 +1565,7 @@ Jeśli zdecydowałeś się na Raspberry Pi 5 (opcja, której nie polecam, jak ws
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Jak wspomniałem w poprzedniej sekcji, zdecydowałem się uruchomić ten samouczek na małym odnowionym komputerze, który znalazłem w dobrej cenie: *Lenovo ThinkCentre M900 Tiny* wyposażonym w procesor Intel Core i7 i 16 GB pamięci RAM. Jest to bardzo wygodna konfiguracja do uruchomienia Umbrela, zwłaszcza dla węzła Bitcoin. Wybrałem jednak tę konfigurację, ponieważ chcę później zainstalować węzeł Lightning i inne bardziej wymagające aplikacje. Dodałem również dysk SSD o pojemności 2 TB do mojego ThinkCentre, aby zachować pełny Blockchain i nadal mieć wygodny margines. W tej konfiguracji całkowity koszt wynosi 270 euro, wliczając wszystkie wydatki.
 
@@ -1822,7 +1822,7 @@ Aby zidentyfikować Umbrel's IP Address, istnieje kilka metod, od najprostszych 
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Wybierz silne hasło i upewnij się, że przechowujesz co najmniej jedną kopię
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Po wprowadzeniu hasła kliknij przycisk "*Twórz*".
 
@@ -1944,7 +1944,7 @@ Przede wszystkim zdecydowanie zalecam włączenie uwierzytelniania dwuskładniko
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Aby to zrobić, kliknij odpowiednie pole w ustawieniach.
 
@@ -2435,7 +2435,7 @@ Jak wspomniano wcześniej, eksplorator może być hostowany online na stronie in
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Co więcej, Twój dostawca usług internetowych (ISP) może wiedzieć, że przeglądasz konkretną transakcję za pośrednictwem strony Block explorer. Wiąże się to również z kwestią zaufania: musisz polegać na usłudze online, aby zapewnić sobie dokładne informacje o swoich transakcjach, bez możliwości samodzielnego zweryfikowania ich prawdziwości.
 
@@ -2472,7 +2472,7 @@ Aby dowiedzieć się więcej na temat korzystania z eksploratora Mempool.Space, 
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Węzeł Lightning
 
@@ -2492,15 +2492,15 @@ Umbrel oferuje szereg aplikacji, które pomagają w uruchomieniu węzła Lightni
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Następnie można zarządzać węzłem z poziomu głównego Interface lub, w celu uzyskania jeszcze większej funkcjonalności i zaawansowanych opcji, zainstalować *Ride The Lightning* lub *ThunderHub*. Narzędzia te zapewniają znacznie bardziej wszechstronny internetowy system zarządzania Interface dla węzła.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2514,9 +2514,11 @@ Na koniec polecam aplikację *Lightning Network+*, która pozwala znaleźć part
 
 
 
-Dzięki Umbrel zarządzanie osobistym węzłem Lightning zostało znacznie uproszczone, ale nadal jest stosunkowo złożone. Z tego powodu przyjrzymy się bliżej temu tematowi w przyszłym kursie poświęconym w całości temu zastosowaniu.
+Dzięki Umbrel zarządzanie osobistym węzłem Lightning jest uproszczone, jednak nadal pozostaje stosunkowo złożone. Dlatego polecam Państwu udział w kursie LNP 202, który stanowi logiczną kontynuację kursu BTC 202 i w ramach którego krok po kroku przeprowadzam Państwa przez proces konfiguracji i zarządzania węzłem Lightning na Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Skala ogonowa
 
@@ -2564,7 +2566,7 @@ Aby zainstalować i skonfigurować Tailscale na Umbrel, zapoznaj się z tym samo
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2590,7 +2592,7 @@ Klienci Nostr ***noStrudel*** lub ***Snort*** są również dostępni na Umbrel.
 
 
 
-Wreszcie, istnieje aplikacja ***Nostr Wallet Connect*** na Umbrel, która umożliwia natywne płatności Lightning w Nostr. Mówiąc konkretnie, możesz połączyć swój przyszły węzeł Lightning z klientami Nostr, aby wysyłać mikropłatności, zwane "*zaps*", w celu nagradzania treści lub interakcji w sposób monetyzowany, bez konieczności korzystania z usługi strony trzeciej. Płatności te są wysyłane bezpośrednio z węzła osobistego za pośrednictwem kanałów użytkownika.
+Na koniec istnieje aplikacja ***Nostr Wallet Connect*** na Umbrel, która umożliwia dokonywanie natywnych płatności Lightning w ramach Nostr. W praktyce możesz połączyć swój przyszły węzeł Lightning z klientami Nostr, aby wysyłać mikropłatności, zwane „*zaps*”, w celu nagradzania treści lub interakcji w sposób zmonetyzowany, bez korzystania z usług stron trzecich. Płatności te wychodzą bezpośrednio z twojego osobistego węzła przez twoje kanały.
 
 
 
@@ -2598,7 +2600,7 @@ Aby dowiedzieć się, jak korzystać ze wszystkich tych aplikacji, polecam zapoz
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### Serwer BTCPay
 
@@ -2626,7 +2628,7 @@ Jeśli jesteś właścicielem firmy i chciałbyś akceptować płatności Bitcoi
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2636,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2644,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Zaawansowane koncepcje i najlepsze praktyki
@@ -2652,7 +2654,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Konserwacja węzła Umbrel
+## Utrzymanie własnego węzła Umbrel
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2751,7 +2753,7 @@ Aby pogłębić swoją ogólną wiedzę na temat bezpieczeństwa komputerowego, 
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Diagnoza i samopomoc
 
@@ -2929,7 +2931,7 @@ Jeśli węzeł nasłuchuje na otwartym porcie (domyślnie 8333), akceptuje poł�
 
 
 
-## Anatomia węzła Bitcoin
+## Anatomia twojego węzła Bitcoin
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,7 +2943,7 @@ Po zakończeniu początkowej synchronizacji węzeł przechowuje lokalnie kilka u
 
 
 
-- gW-402 **bloki** przechowywane na dysku,
+- **bloki** łańcucha bloków przechowywane na dysku,
 - **Zestaw UTXO** przechowywany w bazie danych klucz-wartość,
 - a **Mempool** jest przechowywany w pamięci RAM i okresowo serializowany.
 
@@ -3077,9 +3079,9 @@ Wzrost zestawu UTXO wynika również ze struktury prostych transakcji płatniczy
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Ponieważ jego część musi być przechowywana w pamięci RAM, aby zweryfikować transakcje w rozsądnym czasie, zestaw UTXO może stopniowo uczynić działanie Full node zbyt kosztownym. Aby rozwiązać ten problem, istnieje już kilka propozycji, w szczególności [Utreexo](https://planb.network/resources/glossary/utreexo).
+Ponieważ jego część musi być przechowywana w pamięci RAM, aby zweryfikować transakcje w rozsądnym czasie, zestaw UTXO może stopniowo uczynić działanie Full node zbyt kosztownym. Aby rozwiązać ten problem, istnieje już kilka propozycji, w szczególności [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3093,7 +3095,7 @@ Mempool to lokalny zestaw ważnych transakcji, które zostały odebrane, ale nie
 
 
 - rozmiar przydzielony do Mempool za pomocą parametru `maxmempool`: węzeł z większym Mempool będzie w stanie pomieścić więcej transakcji niż węzeł z mniejszym Mempool (chyba że ten ostatni stanie się pusty);
-- reguły gW-433: są podzbiorem reguł przekaźnika węzła i definiują cechy, które musi spełniać niepotwierdzona transakcja, aby mogła zostać zaakceptowana w Mempool;
+- zasady mempoola: stanowią podzbiór zasad przekazywania węzła i określają cechy, które musi spełniać niepotwierdzona transakcja, aby została zaakceptowana do mempoola;
 - perkolacja transakcji: z powodu różnych czynników dana transakcja mogła zostać rozesłana do jednej części sieci, ale nie dotarła jeszcze do innej.
 
 
@@ -3135,10 +3137,10 @@ Kilka innych plików na tym samym poziomie co `blocks/`, `chainstate/` i `indexe
 - Gdy węzeł jest wyłączony, `anchors.dat` zapisuje adresy wychodzących peerów, dzięki czemu można szybko spróbować skontaktować się z nimi ponownie przy następnym uruchomieniu.
 - `banlist.json` zawiera lokalne bany ustalone przez operatora lub przez węzeł (powtarzające się nieprawidłowe zachowanie), aby uniemożliwić węzłowi ponowne łączenie się lub akceptowanie połączeń od tych konkretnych peerów.
 - `fee_estimates.dat` przechowuje statystyki horyzontu czasowego obserwowanych potwierdzeń, wykorzystywane przez estymator opłat do proponowania stawek opłat zgodnych z celami opóźnień wybranymi podczas tworzenia transakcji.
-- gW-446.conf` zawiera parametry konfiguracyjne węzła. To tutaj można dostosować reguły przekaźnika. Więcej na ten temat opowiem w następnym rozdziale.
+- `bitcoin.conf` zawiera parametry konfiguracyjne twojego węzła. To właśnie w tym pliku można dostosować zasady przekazywania. Omówię to bardziej szczegółowo w następnym rozdziale;
 - `settings.json` zawiera dodatkowe parametry do `Bitcoin.conf`.
 - `debug.log` jest diagnostycznym dziennikiem tekstowym, który może być użyty do zrozumienia aktywności węzła w przypadku wystąpienia błędu.
-- gW-448.pid` przechowuje identyfikator procesu w czasie wykonywania, umożliwiając innym aplikacjom lub skryptom łatwą identyfikację bitcoind (*Bitcoin daemon*) i interakcję z nim w razie potrzeby. Jest on tworzony podczas uruchamiania węzła i usuwany podczas jego zamykania.
+- `bitcoind.pid` zapisuje identyfikator procesu podczas działania, co umożliwia innym aplikacjom lub skryptom łatwe zidentyfikowanie Bitcoind (*Bitcoin Daemon*) i interakcję z nim w razie potrzeby. Plik jest tworzony przy uruchomieniu węzła i usuwany przy jego zatrzymaniu;
 - `ip_asn.map` to tabela mapowania IP → ASN (system autonomiczny) używana do bucketingu i dywersyfikacji peerów (opcja `-asmap`).
 - `onion_v3_private_key` przechowuje klucz prywatny usługi Tor v3, gdy włączona jest opcja `-listenonion`, w celu utrzymania stabilnego onion Address pomiędzy restartami.
 - `i2p_private_key` przechowuje klucz prywatny I2P, gdy używany jest `-i2psam=`, do nawiązywania połączeń wychodzących i ewentualnie przychodzących na I2P.
@@ -3154,9 +3156,9 @@ Jak widzieliśmy w pierwszych częściach tego kursu BTC 202, Bitcoin core jest 
 
 
 
-- `wallets/` jest domyślnym katalogiem, w którym znajduje się jeden lub więcej portfeli;
+- `wallets/` to domyślny katalog, który przechowuje jeden lub więcej portfeli;
 - `wallets/<nazwa>/Wallet.dat` to baza danych SQLite Wallet (klucze, deskryptory, metadane transakcji itp.);
-- wallets/<nazwa>/Wallet.dat-journal` jest dziennikiem wycofania SQLite.
+- `wallets/<name>/wallet.dat-journal` to dziennik wycofywania SQLite.
 
 
 
@@ -3335,10 +3337,10 @@ Na poziomie sieci mamy również:
 
 
 - `addnode`: dodaje przyjaznego peera do kontaktu oprócz zwykłego wykrywania (może być określony kilka razy).
-- connect`: ściśle ogranicza połączenia do dostarczonego Address (można podać kilka razy). Core nie połączy się z żadnym innym węzłem.
+- `connect`: ściśle ogranicza połączenia do podanego adresu (można określić wielokrotnie). Core nie połączy się z żadnym innym węzłem;
 - `seednode`: jest używany tylko do wypełnienia księgi Address podczas łączenia się z węzłem, a następnie rozłącza się.
 - `maxconnections`: definiuje globalny limit połączeń przychodzących i wychodzących. Domyślnie parametr ten jest ustawiony na 125, co oznacza, że węzeł nigdy nie zaakceptuje więcej niż 125 połączeń.
-- maxuploadtarget`: ogranicza przesyłanie danych w celu ograniczenia przepustowości w 24-godzinnym oknie. Ograniczenie to nie poświęca propagacji istotnych ostatnich Elements.
+- `maxuploadtarget` : ogranicza przesyłanie w celu zmniejszenia wykorzystania przepustowości w ruchomym 24-godzinnym oknie. Ten limit nie ogranicza propagacji niezbędnych, niedawnych elementów;
 - `onlynet`: ogranicza połączenia wychodzące tylko do wybranych sieci (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Na przykład, jeśli chcesz, aby twój węzeł łączył się z siecią Bitcoin tylko przez Tor, możesz włączyć parametr `onlynet=onion` i wyłączyć połączenia przychodzące (lub zezwolić na połączenia tylko przez Tor).
 - `dnsseed`: zezwala lub nie zezwala _DNS seeds_ na żądanie peerów, gdy lokalna pula Address jest niska (domyślnie: `1`, chyba że `-connect` lub `-maxconnections=0`).
 - `forcednsseed`: wymusza żądanie _DNS seeds_ przy starcie, nawet jeśli masz już adresy w magazynie (domyślnie: `0`).
@@ -3362,7 +3364,7 @@ Aby w pełni włączyć obsługę Tora, należy zmusić Bitcoin core do korzysta
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3420,7 @@ Oto podstawowe parametry, które można modyfikować w pliku `Bitcoin.conf` doty
 
 
 
-- blocksonly=1`: Wyłącza akceptację i retransmisję niepotwierdzonych transakcji otrzymanych od peerów (chyba że przyznano specjalne uprawnienia). Węzeł teraz tylko przesyła i reklamuje bloki. Transakcje utworzone lokalnie mogą być nadal transmitowane (aby używać węzła z oprogramowaniem Wallet). To znacznie zmniejsza zapotrzebowanie na przepustowość i pamięć RAM, aczkolwiek kosztem zmniejszonej użyteczności dla przekaźnika i całkowitej nieznajomości Mempool.
+- `blocksonly=1` : Wyłącza przyjmowanie i przekazywanie niepotwierdzonych transakcji otrzymanych od peerów (z wyjątkiem specjalnych uprawnień). Węzeł pobiera i ogłasza tylko bloki. Transakcje utworzone lokalnie mogą nadal być rozgłaszane (aby używać węzła z oprogramowaniem portfela). To znacznie zmniejsza zużycie przepustowości i pamięci RAM, kosztem mniejszej użyteczności w przekazywaniu i całkowitej nieznajomości mempoolu.
 
 
 
@@ -3448,7 +3450,7 @@ Poniżej znajdują się zaawansowane ustawienia dla Mempool i polityki przekaźn
 
 
 
-- datacarrier=1`: Pozwala na przekazywanie i (jeśli Mining przez węzeł) włączanie transakcji niosących dane niefinansowe przez wyjście `OP_RETURN` (domyślnie: `1`). Wyłączenie tego parametru nieznacznie zmniejsza powierzchnię spamu danych niefinansowych, kosztem zmniejszonej kompatybilności z niektórymi zastosowaniami. We wszystkich przypadkach należy zaakceptować wydobywane `OP_RETURN`.
+- `datacarrier=1` : Zezwala na przekazywanie i (w przypadku kopania przez węzeł) uwzględnianie transakcji zawierających dane niefinansowe za pośrednictwem wyjścia `OP_RETURN` (domyślnie: `1`). Wyłączenie tego parametru nieznacznie zmniejsza powierzchnię spamu danymi niefinansowymi kosztem mniejszej kompatybilności z niektórymi zastosowaniami. We wszystkich przypadkach należy akceptować wykopane `OP_RETURN`.
 
 
 
@@ -3490,13 +3492,13 @@ Poniżej znajdują się zaawansowane ustawienia dla Mempool i polityki przekaźn
 
 
 
-- peerbloomfilters=1`: Włącz obsługę filtrów Blooma (BIP37), aby serwować przefiltrowane bloki/transakcje do cienkich klientów (domyślnie: `0`). Ostrzeżenie: zwiększa to obciążenie zasobów.
+- `peerbloomfilters=1` : Aktywuje obsługę filtrów Blooma (BIP37), aby dostarczać przefiltrowane bloki/transakcje lekkim klientom (domyślnie: `0`). Uwaga, zwiększa to obciążenie zasobów.
 
 
 
 
 
-- peerblockfilters=1`: Serwuje kompaktowe filtry BIP157 (*Neutrino*) do peerów (domyślnie: `0`).
+- `peerblockfilters=1` : Dostarcza kompaktowe filtry BIP157 (*Neutrino*) peerom (domyślnie: `0`).
 
 
 
@@ -3520,7 +3522,7 @@ Można również dostosować sposób zarządzania portfelami w pliku `Bitcoin.co
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Określa format adresów generowanych przez Wallet do odbioru.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Określa format adresów generowanych przez portfel do odbioru.
 
 
 
@@ -3568,7 +3570,7 @@ Można również dostosować sposób zarządzania portfelami w pliku `Bitcoin.co
 
 
 
-- fallbackfee=<amt>`: Stawka awaryjna (BTC/kvB) używana, gdy estymatorowi zabraknie danych (domyślnie: `0.00`). Ustawienie wartości 0 całkowicie wyłącza funkcję awaryjną.
+- `fallbackfee=<amt>` : Stawka opłaty awaryjnej (BTC/kvB) używana, gdy estymatorowi brakuje danych (domyślnie: `0.00`). Ustawienie na 0 całkowicie wyłącza tryb awaryjny.
 
 
 
@@ -3660,7 +3662,7 @@ Plik konfiguracyjny umożliwia również dostosowanie parametrów związanych z 
 
 
 
-- txindex=1`: Tworzy i utrzymuje globalny indeks potwierdzonych transakcji. Niezbędny dla niektórych zapytań (`getrawtransaction` nie-Wallet) i do celów eksploracyjnych, ale znacznie zwiększa obciążenie dysku. Niekompatybilne z trybem pruned.
+- `txindex=1` : Tworzy i utrzymuje globalny indeks potwierdzonych transakcji. Niezbędny dla niektórych zapytań (`getrawtransaction` poza portfelem) i do celów eksploracyjnych, ale znacznie zwiększa użycie dysku. Niezgodny z trybem przyciętym.
 
 
 
@@ -3894,15 +3896,17 @@ Możesz teraz przejść do ostatniej części kursu, w której będziesz mógł 
 
 
 
-Dostępnych jest teraz kilka opcji. Następnym logicznym krokiem jest skonfigurowanie własnego węzła Lightning, co pozwoli ci być w pełni niezależnym od transakcji off-chain. Będzie to przedmiotem nadchodzącego kursu, który zostanie opublikowany jesienią 2025 r. na Plan ₿ Network.
+Przed Państwem otwiera się teraz kilka ścieżek. Kolejnym logicznym krokiem jest uruchomienie własnego węzła Lightning, aby być w pełni niezależnym w zakresie transakcji off-chain. Właśnie temu poświęcony jest kolejny kurs na Plan ₿ Academy:
 
 
 
-W międzyczasie zapraszam do zapoznania się ze szkoleniem BTC 204, które pozwoli Ci zrozumieć i opanować zasady ochrony prywatności podczas korzystania z Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Zachęcam Państwa również do zapoznania się ze szkoleniem BTC 204, które pozwoli zrozumieć i opanować zasady ochrony prywatności w korzystaniu z Bitcoina:
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Część końcowa

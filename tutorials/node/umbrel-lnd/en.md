@@ -21,7 +21,7 @@ Before deploying Lightning, you need to have a fully operational Bitcoin node on
 To install Umbrel and configure your Bitcoin node, we recommend you follow our dedicated tutorial :
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Make sure your Bitcoin node is up to date and working properly, as Lightning Network relies on it for all off-chain transactions.
 
@@ -44,7 +44,7 @@ To operate, a Lightning node must be permanently connected to the network and in
 For a complete theoretical introduction to Lightning Network, we recommend that you take our dedicated course :
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 This course will give you a thorough grounding in the fundamental concepts of Lightning Network, before moving on to practice with your LND node.
 
@@ -461,7 +461,7 @@ Ideally, leave your knot online as often as possible. In case of prolonged absen
 To find out more about configuring and using watchtowers, we recommend you take a look at our dedicated tutorial :
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Other best practices
 
 

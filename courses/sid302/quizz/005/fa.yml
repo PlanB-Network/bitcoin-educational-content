@@ -1,0 +1,8 @@
+question: نام نمایش Bitcoin که درون Liquid Network استفاده می‌شود چیست؟
+answer: Liquid Bitcoin (LBTC)
+wrong_answers:
+  - رپد Bitcoin (WBTC)
+  - Sidechain Bitcoin (SBTC)
+  - فدریتد Bitcoin (FBTC)
+explanation: |
+  Liquid Bitcoin (LBTC) نام صحیح برای Bitcoin است زمانی که در زنجیره جانبی Liquid وجود دارد. هنگامی که کاربران Bitcoin خود را به Liquid متصل می‌کنند، مقدار معادل LBTC دریافت می‌کنند که می‌تواند برای تراکنش‌ها در داخل Liquid Network استفاده شود. WBTC یک Bitcoin token مبتنی بر اتریوم است، در حالی که SBTC و FBTC نمایندگی‌های واقعی Bitcoin نیستند که در هیچ شبکه اصلی استفاده شوند.

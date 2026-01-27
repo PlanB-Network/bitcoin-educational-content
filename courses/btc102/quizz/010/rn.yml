@@ -1,9 +1,9 @@
-question: Ni kuki ari vyiza ko uguma ugira ubwenge ku bijanye n’amahera yawe ya Bitcoin?
-answer: Kugira ntidukwegere amaso y’abagizi ba nabi be n’intwaro .
+question: Ni kuki ari vyiza ko uguma uhoze ntuvuge ama bitcoins yawe utunze?
+answer: Kugira ntiwikwegere abagizi ba nabi n'intwaro .
 wrong_answers:
-  - Kugira ngo umuntu yungukire ku bipimo vyiza vya Exchange mu bihugu bimwebimwe .
+  - Kugira ngo uronswe ibipimo vyiza vyo kuvunja mu bihugu bimwebimwe .
   - Kugira ngo ntibikwegere umutima w'abanyamigambi barondera infashanyo .
-  - Kugira ngo ubushobozi bwo kugurana bube bwiza
+  - Kugira ngo wongere ubushobozi bwo kugurana
 explanation: |
-  Ubukerebutsi burakingira ingorane zo gufatwa n’abahendanyi, abantu b’ishari canke abasuma.
+  Ubukerebutsi burakingira ingorane zo kugendwako n'abapfungakiwani, abantu b’ishari canke abasuma.
 reviewed: false

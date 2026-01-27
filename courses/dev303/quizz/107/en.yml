@@ -1,0 +1,8 @@
+question: What critical capability allows LDK to maintain Lightning functionality across mobile wallets with intermittent connectivity compared to traditional daemon-based Lightning nodes?
+answer: LDK's ability to synchronize with Lightning Service Providers (LSPs) when coming online while maintaining non-custodial private key control
+wrong_answers:
+  - "LDK's built-in offline payment processing system that queues transactions until network connectivity is restored"
+  - "LDK's distributed channel state backup system that automatically replicates data across multiple cloud providers"
+  - "LDK's peer-to-peer mesh networking protocol that allows direct device-to-device Lightning payments without internet"
+explanation: |
+  LDK's modular architecture enables mobile applications to implement intermittent connectivity patterns by synchronizing with LSPs upon coming online, allowing users to receive payments and manage channels even when the mobile device was offline. This differs fundamentally from traditional Lightning daemons that require continuous operation. The wrong answers describe non-existent features - LDK doesn't have built-in offline payment processing, distributed backups, or mesh networking capabilities.

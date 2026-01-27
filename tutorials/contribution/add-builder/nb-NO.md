@@ -1,23 +1,23 @@
 ---
 name: Legge til en Bygger
-description: Hvordan foreslå å legge til en ny bygger på PlanB Network?
+description: Hvordan foreslå å legge til en ny bygger på Plan ₿ Academy?
 ---
 ![project](assets/cover.webp)
 
 PlanB's oppdrag er å tilby førsteklasses utdanningsressurser om Bitcoin, på så mange språk som mulig. Alt innhold publisert på nettstedet er åpen kildekode og hostet på GitHub, noe som lar hvem som helst delta i å berike plattformen.
 
-Ønsker du å legge til en ny Bitcoin "bygger" på PlanB Network-nettstedet og gi synlighet til din bedrift eller programvare, men vet ikke hvordan? Denne veiledningen er for deg!
+Ønsker du å legge til en ny Bitcoin "bygger" på Plan ₿ Academy-nettstedet og gi synlighet til din bedrift eller programvare, men vet ikke hvordan? Denne veiledningen er for deg!
 ![project](assets/01.webp)
 - Først må du ha en GitHub-konto. Hvis du ikke vet hvordan du oppretter en konto, har vi laget en detaljert veiledning for å veilede deg.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/projects) i `resources/project/`-seksjonen:
 ![project](assets/02.webp)
 - Klikk øverst til høyre på `Add file`-knappen, deretter på `Create new file`:
 ![project](assets/03.webp)
-- Hvis du aldri har bidratt til innholdet på PlanB Network før, må du opprette din egen fork av det originale repositoriet. Å forke et repositorium betyr å lage en kopi av det repositoriet på din egen GitHub-konto, noe som lar deg jobbe på prosjektet uten å påvirke det originale repositoriet. Klikk på `Fork this repository`-knappen:
+- Hvis du aldri har bidratt til innholdet på Plan ₿ Academy før, må du opprette din egen fork av det originale repositoriet. Å forke et repositorium betyr å lage en kopi av det repositoriet på din egen GitHub-konto, noe som lar deg jobbe på prosjektet uten å påvirke det originale repositoriet. Klikk på `Fork this repository`-knappen:
 ![project](assets/04.webp)
 - Du vil da komme til GitHub-redigeringssiden:
 ![project](assets/05.webp)
@@ -110,7 +110,7 @@ category: utdanning
 ![project](assets/13.webp)
 - Klikk på GitHub-profilbildet ditt øverst til høyre, deretter på `Your Repositories`:
 ![project](assets/14.webp)
-- Velg din fork av PlanB Network-repositoriet:
+- Velg din fork av Plan ₿ Academy-repositoriet:
 ![project](assets/15.webp)
 - Du bør se en notifikasjon øverst i vinduet med din nye branch. Den heter sannsynligvis `patch-1`. Klikk på den:
 ![project](assets/16.webp)
@@ -131,7 +131,7 @@ category: utdanning
 ![project](assets/24.webp)
 - Klikk på `Add file`-knappen, deretter på `Upload files`:
 ![project](assets/25.webp)
-- En ny side vil åpne seg. Dra og slipp et bilde av din bedrift eller ditt programvare inn i området. Dette bildet vil bli vist på PlanB Network-nettstedet:
+- En ny side vil åpne seg. Dra og slipp et bilde av din bedrift eller ditt programvare inn i området. Dette bildet vil bli vist på Plan ₿ Academy-nettstedet:
 ![project](assets/26.webp)
 - Det kan være logoen eller et ikon:
 ![project](assets/27.webp)
@@ -160,7 +160,7 @@ contributors:
  - 
 ```
 
-- For `contributors`-nøkkelen, kan du legge til din bidragsyteridentifikator til PlanB Network hvis du har en. Hvis ikke, la dette feltet stå tomt.
+- For `contributors`-nøkkelen, kan du legge til din bidragsyteridentifikator til Plan ₿ Academy hvis du har en. Hvis ikke, la dette feltet stå tomt.
 - For `description`-nøkkelen, trenger du bare å legge til et kort avsnitt som beskriver ditt selskap eller din programvare. Beskrivelsen må være på samme språk som filnavnet. Du trenger ikke å oversette denne beskrivelsen til alle språkene som støttes på nettstedet, ettersom PlanB-teamene vil gjøre dette ved hjelp av deres modell. For eksempel, her er hvordan filen din kunne se ut:
 ```yaml
 description: |
@@ -184,8 +184,8 @@ contributors:
 ![project](assets/43.webp)
 - Klikk på `Opprett pull request`-knappen:
 ![project](assets/44.webp)
-Gratulerer! Din PR har blitt vellykket opprettet. En administrator vil nå gjennomgå den og, hvis alt er i orden, integrere den i hovedlageret til PlanB Network. Du bør se din byggerprofil dukke opp på nettstedet noen dager senere.
+Gratulerer! Din PR har blitt vellykket opprettet. En administrator vil nå gjennomgå den og, hvis alt er i orden, integrere den i hovedlageret til Plan ₿ Academy. Du bør se din byggerprofil dukke opp på nettstedet noen dager senere.
 
-Sørg for å følge med på fremgangen til din PR. En administrator kan legge igjen en kommentar som ber om ytterligere informasjon. Så lenge din PR ikke er validert, kan du konsultere den i `Pull requests`-fanen på PlanB Network GitHub-lageret:
+Sørg for å følge med på fremgangen til din PR. En administrator kan legge igjen en kommentar som ber om ytterligere informasjon. Så lenge din PR ikke er validert, kan du konsultere den i `Pull requests`-fanen på Plan ₿ Academy GitHub-lageret:
 ![project](assets/45.webp)
 Tusen takk for ditt verdifulle bidrag! :)

@@ -366,4 +366,4 @@ Và thế là xong, giờ bạn đã biết cách sử dụng Lightning với no
 
 Để hiểu chi tiết tất cả các cơ chế Lightning mà chúng tôi đã xử lý trong hướng dẫn này, tôi thực sự khuyên bạn nên khám phá khóa đào tạo miễn phí của chúng tôi về chủ đề này:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

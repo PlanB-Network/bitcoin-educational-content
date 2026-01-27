@@ -1,0 +1,8 @@
+question: Apa keuntungan utama menggunakan Taproot dengan MuSig2 untuk swap lintas lapisan dibandingkan dengan HTLC SegWit v0 yang lama?
+answer: Swap kooperatif muncul sebagai transaksi tanda tangan tunggal standar, memberikan privasi penuh dan penggunaan ruang blok minimal
+wrong_answers:
+  - Taproot menghilangkan kebutuhan akan kunci waktu, membuat pertukaran lebih cepat dan lebih efisien daripada HTLC lama
+  - MuSig2 memungkinkan beberapa kunci hash digunakan secara bersamaan, sehingga memungkinkan pengaturan pertukaran multi-pihak yang lebih kompleks
+  - Taproot swap dapat diselesaikan tanpa mengungkapkan rahasia kriptografi apa pun, tidak seperti HTLC lama yang selalu mengekspos gambar awal
+explanation: |
+  Taproot dengan MuSig2 merevolusi privasi HTLC melalui agregasi kunci. Dalam 'jalur bahagia' kooperatif, kedua belah pihak menggabungkan kunci mereka ke dalam satu kunci publik gabungan dan menandatangani bersama transaksi. Hal ini membuat swap tidak dapat dibedakan dari pembayaran biasa, menghabiskan ruang blok yang minimal dan tidak mengungkapkan kondisi swap. HTLC SegWit v0 yang lama membutuhkan penerbitan seluruh logika skrip on-chain, sehingga mudah diidentifikasi dan lebih mahal. Pilihan lainnya tidak tepat: kunci waktu tetap penting untuk keamanan, beberapa kunci hash bukanlah inovasi utama, dan gambar awal masih terlihat ketika mengklaim dana.

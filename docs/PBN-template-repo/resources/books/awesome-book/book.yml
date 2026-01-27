@@ -36,3 +36,8 @@ tags:
 # They are identified by their Github usernames
 contributor_names:
   - author1_github_username #insert your github username
+
+# license field, choose between CC-BY-SA-V4, MIT
+# (DEFAULT) CC-BY-SA-V4: is also quite permissive but includes a share-alike clause
+# MIT: allows for almost unrestricted use → only for imported content and docs with such license policy
+license: CC-BY-SA-V4

@@ -1,0 +1,9 @@
+question: Quelle est la principale vulnérabilité qui a fait échouer les premières tentatives de création de monnaies numériques avant le Bitcoin ?
+answer: Ils s'appuient sur des serveurs centraux qui peuvent être censurés ou fermés
+wrong_answers:
+  - Ils utilisaient des algorithmes cryptographiques inadéquats pour la sécurité des transactions
+  - Ils ne disposaient pas d'une puissance de calcul suffisante pour traiter efficacement les transactions
+  - Ils n'ont pas mis en œuvre de mécanismes d'authentification des utilisateurs appropriés
+explanation: |
+  Les premières monnaies numériques ont échoué parce qu'elles dépendaient de serveurs centraux pour le traitement et la validation des transactions. Comme expliqué dans le chapitre, cette centralisation est devenue leur "talon d'Achille", car les gouvernements ou d'autres adversaires pouvaient facilement censurer, contrôler ou fermer ces points centraux de défaillance. Même les tentatives d'utilisation de plusieurs serveurs dans une fédération laissaient le système vulnérable, car chaque serveur pouvait "tomber en panne, ou être amené à tomber en panne, un par un" Bitcoin a résolu ce problème en éliminant le besoin d'une autorité centrale grâce à son système décentralisé proof-of-work.
+reviewed: false

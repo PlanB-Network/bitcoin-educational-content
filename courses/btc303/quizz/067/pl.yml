@@ -1,0 +1,9 @@
+question: Zgodnie z definicją podaną dla skalowania Bitcoin, które podejście NIE kwalifikowałoby się jako legalne skalowanie?
+answer: Zwiększenie przepustowości transakcji poprzez wymaganie od użytkowników zaufania scentralizowanym procesorom płatności dla większości transakcji
+wrong_answers:
+  - Sprawianie, by dane wejściowe transakcji zużywały mniej bajtów dzięki bardziej wydajnym schematom kodowania
+  - Wdrażanie rozwiązań architektury warstwowej, które budują protokoły na Bitcoin
+  - Poprawa wydajności weryfikacji podpisów w celu szybszego przetwarzania bloków
+explanation: |
+  Rozdział wyraźnie definiuje skalowanie Bitcoin jako "zwiększanie możliwości Bitcoin bez narażania jego odporności na cenzurę" Prawidłowa odpowiedź narusza tę definicję, ponieważ wymaganie od użytkowników zaufania do scentralizowanych procesorów płatności bezpośrednio narusza odporność Bitcoin na cenzurę - podstawową propozycję wartości. Wszystkie błędne odpowiedzi reprezentują uzasadnione podejścia do skalowania wspomniane w rozdziale: wydajne kodowanie zmniejsza zużycie zasobów, rozwiązania warstwowe umożliwiają dodatkową pojemność przy zachowaniu właściwości warstwy bazowej, a ulepszona weryfikacja podpisów zwiększa wydajność bez kompromisów centralizacji.
+reviewed: false

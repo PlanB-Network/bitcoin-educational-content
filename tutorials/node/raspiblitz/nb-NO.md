@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Guide til å sette opp din RaspiBlitz
 ---
 
-![bilde](assets/0.webp)
+![bilde](assets/cover.webp)
 
 RaspiBlitz er en gjør-det-selv Lightning Node (LND og/eller Core Lightning) som kjører sammen med en Bitcoin-Fullnode på en RaspberryPi (1TB SSD) og en fin skjerm for enkel oppsett og overvåking.
 
@@ -12,7 +12,7 @@ RaspiBlitz er hovedsakelig rettet mot å lære hvordan du kjører din egen node 
 ![video](https://youtu.be/DTHlSPMz3ns)
 RASPIBLITZ - Hvordan kjøre en Lightning og Bitcoin Full Node av BTC session
 
-# Parmans Raspiblitz Oppsettsveiledning
+## Parmans Raspiblitz Oppsettsveiledning
 
 Raspiblitz er et utmerket system for å kjøre en Bitcoin-node og tilknyttede apper. Jeg anbefaler denne og MyNode-noden til de fleste brukere (ha to noder for redundans, ideelt sett). En stor fordel er at Raspiblitz-noden er "Free Open Source Software", i motsetning til MyNode eller Umbrel. [Hvorfor er det viktig? Vlad Costa forklarer.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Du kan også kjøre Raspiblitz med en WiFi-tilkobling i stedet for ethernet – her er en [tilleggsguide](https://armantheparman.com/headless-wifi/) for det. (Jeg har ikke funnet en måte å gjøre dette med MyNode).
 
@@ -22,7 +22,7 @@ Du kan kjøpe en ferdig node med en tilknyttet miniskjerm, eller du kan bygge de
 
 I hovedsak er prosessen veldig lik prosessen med å sette opp en [MyNode-node](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) med en Raspberry Pi 4. Raspiblitz-guiden foreslår at du kjøper en skjerm, men du trenger egentlig ikke en, og jeg vil ikke anbefale det. Du trenger heller ikke et ekstra tastatur eller en mus. Bare få tilgang til enhetens terminalmeny via en datamaskin på samme hjemmenettverk, og bruk ssh-kommandoen i terminalen. Dette er mulig med Linux/Mac (enkelt) og litt vanskeligere med Windows.
 
-## Steg 1: Kjøp utstyret.
+### Steg 1: Kjøp utstyret.
 
 Du trenger nøyaktig det samme utstyret som du trenger for å kjøre en MyNode node. Du kan prøve den ene eller den andre, den eneste forskjellen er dataene på microSD-kortet.
 
@@ -48,7 +48,7 @@ Dette er raskere, men unødvendig dyrt:
 
 ![bilde](assets/3.webp)
 
-## Steg 2: Last ned Raspiblitz-bildet
+### Steg 2: Last ned Raspiblitz-bildet
 Naviger til [Raspiblitz GitHub-nettstedet](https://github.com/rootzoll/raspiblitz), og finn lenken “download image”:
 ![bilde](assets/4.webp)
 
@@ -56,7 +56,7 @@ Sha-256-hashen til den nedlastede filen er oppgitt på nettstedet. Den vil endre
 
 ![bilde](assets/5.webp)
 
-## Steg 3: Verifiser Bilde
+### Steg 3: Verifiser Bilde
 
 Før du fortsetter, hvis du ikke kjenner din vei rundt filsystemet på kommandolinjen, er det enkelt å lære, og du burde.
 
@@ -87,7 +87,7 @@ hvor xxxxxxxxxxxxxx er navnet på filen du nettopp lastet ned. Hvis du ikke er i
 
 Datamaskinen tenker i 20 sekunder eller så. Sjekk at utdata-hashfilen stemmer overens med den som ble lastet ned fra nettsiden i forrige trinn. Hvis den er identisk, kan du fortsette.
 
-## Steg 4: Flash SD-kortet
+### Steg 4: Flash SD-kortet
 
 Du kan bruke Balena Etcher til dette. [Last det ned her](https://www.balena.io/etcher/).
 
@@ -103,7 +103,7 @@ Etcher er selvforklarende å bruke. Sett inn ditt micro SD-kort og flash Raspibl
 
 Når det er gjort, er ikke stasjonen lenger lesbar. Du kan få en feilmelding fra operativsystemet, og stasjonen bør forsvinne fra skrivebordet. Ta ut kortet.
 
-## Steg 5: Sett opp Pi-en og sett inn SD-kortet
+### Steg 5: Sett opp Pi-en og sett inn SD-kortet
 
 Delene (kabinett ikke vist):
 
@@ -123,7 +123,7 @@ Til slutt, koble til strømmen:
 
 ![bilde](assets/14.webp)
 
-## Steg 6: Finn IP-adressen til Pi-en
+### Steg 6: Finn IP-adressen til Pi-en
 
 Du trenger aldri en skjerm med Raspiblitz. Du trenger imidlertid en annen datamaskin på hjemmenettverket. Hvis din Pi ikke er koblet til med ethernet, og du vil stole på WiFi, krever det å finne IP-en noen dataferdigheter. Kan ikke hjelpe deg, beklager. Du trenger en ethernet-tilkobling. (Problemet kommer fra å trenge tilgang til en skjerm og operativsystemet for å koble til WiFi og angi et passord.)
 
@@ -133,7 +133,7 @@ Jeg tastet inn 192.168.0.1 i nettleseren (instruksjoner som fulgte med ruteren m
 
 > OPPDATERING: du kan bruke terminalen på en Mac eller Linux-maskin for å finne IP-adressen til alle Ethernet-tilkoblede enheter på hjemmenettverket ved å bruke kommandoen “arp -a”. Utdataene er ikke like pene som det ruteren vil vise, men all informasjonen du trenger er der. Hvis det ikke er åpenbart hvilken som er Pi, utfør prøving og feiling.
 
-## Steg 7: SSH inn i Pi
+### Steg 7: SSH inn i Pi
 
 Husk å sette SD-kortet inn i Pi før du slår den på. Vent noen minutter, og åpne deretter terminalen på en annen Linux/Mac.
 

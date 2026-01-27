@@ -10,7 +10,7 @@ Haluatko lisätä Bitcoin-podcastisi PlanB-verkon sivustolle ja lisätä ohjelma
 ![podcast](assets/01.webp)
 - Ensimmäiseksi tarvitset GitHub-tilin. Jos et tiedä, miten sellainen luodaan, olemme tehneet yksityiskohtaisen oppaan, joka opastaa sinua.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Mene [PlanB:n GitHub-repositorioon, joka on omistettu dataan](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) osiossa `resources/podcasts/`:
@@ -97,7 +97,7 @@ contributors:
 ![podcast](assets/13.webp)
 - Napsauta GitHub-profiilikuvakettasi oikeassa yläkulmassa ja sitten `Your Repositories`:
 ![podcast](assets/14.webp)
-- Valitse forkkaamasi PlanB Network -repositorio:
+- Valitse forkkaamasi Plan ₿ Academy -repositorio:
 ![podcast](assets/15.webp)
 - Sinun pitäisi nähdä ilmoitus ikkunan yläosassa uudesta haarastasi. Se on todennäköisesti nimeltään `patch-1`. Napsauta sitä:
 ![podcast](assets/16.webp)
@@ -118,7 +118,7 @@ contributors:
 ![podcast](assets/24.webp)
 - Napsauta `Add file` -painiketta ja sitten `Upload files`:
 ![podcast](assets/25.webp)
-- Uusi sivu avautuu. Vedä ja pudota podcast-logosi alueelle. Tämä kuva näytetään PlanB Network -sivustolla: ![podcast](assets/26.webp)
+- Uusi sivu avautuu. Vedä ja pudota podcast-logosi alueelle. Tämä kuva näytetään Plan ₿ Academy -sivustolla: ![podcast](assets/26.webp)
 - Ole varovainen, kuvan tulee olla neliön muotoinen, jotta se sopii parhaiten verkkosivustollemme:
 ![podcast](assets/27.webp)
 - Kun kuva on ladattu, varmista, että `Commit directly to the patch-1 branch` -ruutu on valittu, ja klikkaa sitten `Commit changes`:
@@ -143,6 +143,6 @@ contributors:
 ![podcast](assets/37.webp)
 Onnittelut! PR:äsi on luotu onnistuneesti. Ylläpitäjä tarkistaa sen nyt ja, jos kaikki on kunnossa, yhdistää sen PlanB Networkin päärepositoryyn. Sinun pitäisi nähdä podcastisi ilmestyvän verkkosivustolle muutaman päivän kuluttua.
 
-Muista seurata PR:äsi edistymistä. Ylläpitäjä saattaa jättää kommentin pyytäen lisätietoja. Niin kauan kuin PR:äsi ei ole vahvistettu, voit tarkastella sitä PlanB Network GitHub -repositorion `Pull requests` -välilehdessä:
+Muista seurata PR:äsi edistymistä. Ylläpitäjä saattaa jättää kommentin pyytäen lisätietoja. Niin kauan kuin PR:äsi ei ole vahvistettu, voit tarkastella sitä Plan ₿ Academy GitHub -repositorion `Pull requests` -välilehdessä:
 ![podcast](assets/38.webp)
 Kiitos arvokkaasta panoksestasi! :)

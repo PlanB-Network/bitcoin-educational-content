@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen ominaisuus, joka tekee sulkemisista tehokkaita Rust:ssa?
+answer: Niiden kyky vangita muuttujia ympäristöstään
+wrong_answers:
+  - Niiden kyky toimia nopeammin kuin tavalliset toiminnot
+  - Niiden kyky käsitellä muistin jakamista automaattisesti
+  - Niiden kyky suorittaa koodia rinnakkaisina säikeinä
+explanation: |
+  Perusominaisuus, joka tekee sulkemisista tehokkaita, on niiden kyky "sulkea" ympäristönsä, mikä tarkoittaa, että ne voivat käyttää ja käyttää muuttujia, jotka ovat olemassa siinä laajuudessa, jossa sulkeminen on määritelty. Tämän kyvykkyyden ansiosta sulkeumat voivat säilyttää tilan ja kontekstin luomisympäristöstään, mikä tekee niistä paljon joustavampia kuin tavallisista funktioista. Vaikka sulkeumia voidaan optimoida suorituskyvyn kannalta ja käyttää säikeistämisessä, nämä ovat toissijaisia hyötyjä - niiden keskeinen teho perustuu ympäristön muuttujien kaappaamiseen.

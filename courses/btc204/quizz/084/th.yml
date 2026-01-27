@@ -1,0 +1,9 @@
+question: บทบาทของ post-mix wallet ในโปรโตคอล Zerolink คืออะไร?
+answer: เพื่อเก็บ UTXOs หลังจากการผสม
+wrong_answers:
+  - เพื่อเก็บ UTXOs ก่อนการผสม
+  - เพื่อเก็บ UTXOs ที่เปลี่ยนแปลง
+  - เพื่อจัดเก็บ UTXOs การรวมบัญชี
+explanation: |
+  wallet หลังการผสมถูกสงวนไว้สำหรับเหรียญที่ผ่านการผสมแล้ว
+reviewed: true

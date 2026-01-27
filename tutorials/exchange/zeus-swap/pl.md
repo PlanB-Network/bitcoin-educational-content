@@ -51,7 +51,7 @@ Aby uzyskać więcej informacji na temat działania Lightning Network, zapoznaj 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Model biznesowy
 
@@ -149,7 +149,7 @@ Zobacz nasz samouczek Zeus, aby dowiedzieć się więcej o tym kompletnym Wallet
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Konfiguracja sieciowa
 
@@ -390,12 +390,13 @@ To bardzo uproszczone podejście doskonale nadaje się dla początkujących, ale
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| Usługa | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Kwota minimalna |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + opłaty za mining | 0.5% + opłaty za mining | 25 000 sats |
+| **Boltz** | 0.2% + opłaty za mining | 0.5% + opłaty za mining | 50 000 sats |
+| **Phoenix** | Tylko opłaty za mining | 0.4% stałe | 10 000 sats |
+| **Breez** | 0.25% + opłaty sieciowe | 0.5% + opłaty za mining | 50 000 sats |
 
 Zeus Swap oferuje równowagę między łatwością użytkowania a kontrolą techniczną: bardziej przystępny niż Boltz, bardziej elastyczny niż Phoenix/Breez, z rygorystycznym podejściem bez nadzoru.
 

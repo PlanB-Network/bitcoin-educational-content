@@ -1,0 +1,8 @@
+question: Hva er den grunnleggende mekanismen som gjør det mulig for RC å tillate flere eierskap samtidig som minnesikkerheten opprettholdes?
+answer: En intern teller som sporer referanser og frigjør minne først når telleren når null
+wrong_answers:
+  - En kompileringsanalyse som verifiserer alle referansemønstre før programmet kjøres
+  - En søppelsamler som med jevne mellomrom skanner og rydder opp i minneallokeringer som ikke kan nås
+  - Et låsebasert system som synkroniserer tilgang mellom flere eiere av samme data
+explanation: |
+  RC opprettholder en intern referanseteller som inkrementeres når den klones og reduseres når den droppes, noe som sikrer at minne bare frigjøres når det ikke er noen referanser igjen. Dette skiller seg fra kompileringstidsanalyse (som Box bruker), søppeloppsamling (som Rust ikke benytter) eller låsemekanismer (som brukes til trådsynkronisering, ikke sporing av eierskap). Den tellerbaserte tilnærmingen muliggjør trygt delt eierskap uten kjøretidsoverhead som følge av søppeloppsamling eller begrensningene ved enkelt eierskap.

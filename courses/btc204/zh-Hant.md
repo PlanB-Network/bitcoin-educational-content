@@ -38,6 +38,8 @@ objectives:
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 
 歡迎來到 BTC204 課程！
 
@@ -69,7 +71,7 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 **第 1 節：定義與關鍵概念**
 
 
-首先，我們要回顧一下支配 Bitcoin 運作的基本原則，如此一來，我們就可以冷靜地處理與機密性相關的概念。掌握一些基本概念是很有必要的，例如 UTXO、接收位址和腳本，這樣才能完全理解我們在接下來的章節中要介紹的概念。我們也將介紹 Bitcoin 的一般保密性模型，正如 Satoshi Nakamoto 所想像的一樣，這將使我們能夠掌握相關的利害關係和風險。
+首先，我們要回顧一下支配 Bitcoin 運作的基本原則，如此一來，我們就可以冷靜地處理與機密性相關的概念。掌握一些基本概念是很有必要的，例如 [UTXO](https://planb.academy/resources/glossary/utxo)、接收位址和腳本，這樣才能完全理解我們在接下來的章節中要介紹的概念。我們也將介紹 Bitcoin 的一般保密性模型，正如 Satoshi Nakamoto 所想像的一樣，這將使我們能夠掌握相關的利害關係和風險。
 
 
 ![BTC204](assets/zh-Hant/001.webp)
@@ -96,7 +98,7 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 **第 4 節：瞭解 CoinJoin 交易**
 
 
-談到 Bitcoin 上的隱私權，怎麼能不提 coinjoins 呢？在第 4 節中，您將瞭解有關這種混合方法的所有資訊。您將學習到什麼是 coinjoins、它的歷史和目標，以及 CoinJoin 存在的不同類型。最後，對於較有經驗的使用者，我們會看看什麼是 anonsets 和 entropy，以及如何計算它們。
+談到 Bitcoin 上的隱私權，怎麼能不提 [coinjoin](https://planb.academy/resources/glossary/coinjoin)s 呢？在第 4 節中，您將瞭解有關這種混合方法的所有資訊。您將學習到什麼是 coinjoins、它的歷史和目標，以及 CoinJoin 存在的不同類型。最後，對於較有經驗的使用者，我們會看看什麼是 anonsets 和 entropy，以及如何計算它們。
 
 
 ![BTC204](assets/zh-Hant/004.webp)
@@ -126,6 +128,8 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
+
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
 
 
 
@@ -197,6 +201,8 @@ UTXOs 是 Exchange 在 Bitcoin 上的工具。每次交易都會消耗作為輸�
 
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 
@@ -323,6 +329,8 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 
 ### 金錢：真實、誠信和雙重花費
@@ -428,6 +436,8 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
+
 
 
 ### 定義與操作
@@ -490,9 +500,9 @@ Blockchain 分析的目的之一是將 Bitcoin 上的各種活動集中在一起
 要反對 Blockchain 分析，還有什麼比了解其中使用的方法更好的方法呢？如果您想知道如何在 Bitcoin 上改善您的隱私，您就需要瞭解這些方法。這將讓您更能掌握 CoinJoin 或 PayJoin 等技術（我們將在課程的最後部分介紹這些技術），並減少您可能犯下的錯誤。
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 在這方面，我們可以用密碼學和密碼分析來做類比。一個好的密碼學家首先是一個好的密碼分析師。要設計出新的加密演算法，就必須知道它會面對哪些攻擊，同時也要研究之前的演算法為什麼會被破解。同樣的原則也適用於 Bitcoin 隱私權。了解 Blockchain 分析方法是防禦它們的關鍵。這就是為什麼我在本訓練課程中加入一整篇 on chain 分析的原因。
 
@@ -541,6 +551,8 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 
@@ -733,6 +745,8 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/00601af905bede31086d9b1b79e
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 
 內部啟發式 (internal heuristic) 是我們在交易本身中找出的特定特徵，不需要檢視其環境，就能讓我們做出推論。模式著重於高層次的交易整體結構，而內部啟發式則不同，它是以可擷取的資料集為基礎。這包括
@@ -808,7 +822,7 @@ Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec
 關於後者，我們可以看到輸入編號 0 和輸出編號 1 使用 P2WPKH 指令碼 (SegWit V0)，而輸出編號 0 則使用不同的 P2PKH 指令碼 (Legacy)。
 
 
-在 2010 年代早期，由於可用的指令碼種類有限，這種以指令碼版本為基礎的啟發式方法相對地沒有什麼幫助。然而，隨著時間的推移和 Bitcoin 的連續更新，腳本類型的多樣性也日益增加。因此，這個啟發式方法變得越來越重要，因為隨著腳本類型的擴大，使用者會分成較小的群組，因此增加了應用這個內部版本重複使用啟發式方法的機會。因此，僅從保密性的角度來看，建議您選擇最常見的腳本類型。例如，在我寫這些行文時，Taproot 腳本 (`bc1p`)的使用頻率比 SegWit V0 腳本 (`bc1q`)低。雖然前者在某些特定情況下具有經濟和保密優勢，但對於較傳統的單一簽章用途而言，基於保密理由，在新標準獲得更廣泛採用之前，堅持使用較舊的標準可能是合理的。
+在 2010 年代早期，由於可用的指令碼種類有限，這種以指令碼版本為基礎的啟發式方法相對地沒有什麼幫助。然而，隨著時間的推移和 Bitcoin 的連續更新，腳本類型的多樣性也日益增加。因此，這個啟發式方法變得越來越重要，因為隨著腳本類型的擴大，使用者會分成較小的群組，因此增加了應用這個內部版本重複使用啟發式方法的機會。因此，僅從保密性的角度來看，建議您選擇最常見的腳本類型。例如，在我寫這些行文時，[Taproot](https://planb.academy/resources/glossary/taproot) 腳本 (`bc1p`)的使用頻率比 SegWit V0 腳本 (`bc1q`)低。雖然前者在某些特定情況下具有經濟和保密優勢，但對於較傳統的單一簽章用途而言，基於保密理由，在新標準獲得更廣泛採用之前，堅持使用較舊的標準可能是合理的。
 
 
 ### 整數付款
@@ -892,6 +906,8 @@ Source : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 
@@ -1481,6 +1497,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 
 在研究過可能破壞 Bitcoin 機密性的技術之後，我們將在第三部分探討保護自己的最佳做法。本部分的目的不是探討改善機密性的方法 (此主題稍後會討論)，而是瞭解如何正確地與 Bitcoin 互動，以保留其自然提供的機密性，而不需訴諸其他技術。
@@ -1653,6 +1671,8 @@ Address 重複使用在 Bitcoin 上確實是一種禍害。根據 OXT.me 網站�
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 
 正如我們在字串分析一節中所發現的，有許多啟發和模式可用來推斷交易資訊。身為使用者，必須瞭解這些技術，才能更好地防範。
@@ -1803,12 +1823,14 @@ UTXO 選擇方法如 FIFO（*先入先出*）和 LIFO（*後入先出*）是最�
 如果您想瞭解如何標記您的 UTXO，我們已針對主要的 Bitcoin Wallet 軟體做了全面的教學：
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC 和關鍵識別
 
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
+
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
 
 
 
@@ -1961,6 +1983,8 @@ KYC 特指某些公司為了驗證和登記客戶身份而實施的監管程序�
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
+
 
 
 閱讀完上一章後，您可能會想知道，為了避免與 KYC 相關的風險，您該如何在無需進行身份驗證程序的情況下買入或賣出 Bitcoin。交易 Bitcoin 有幾種方式。
@@ -2038,7 +2062,7 @@ KYC 特指某些公司為了驗證和登記客戶身份而實施的監管程序�
 -> 請參閱我們的 Bisq 教學。
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 若要更簡單的選擇，您可以試試 [Peach](https://peachbitcoin.com/)，這是一個連接買家和賣家的行動應用程式，內建解決衝突的系統。過程比 Bisq 更直覺。
 
@@ -2046,7 +2070,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8e
 -> 請參閱我們的 Peach 教學。
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 另一個線上選擇是 [HodlHodl](https://hodlhodl.com/)，這是一個完善的平台，提供良好的流動性，雖然我沒有親自測試過。
 
@@ -2054,7 +2078,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 -> 請參閱我們的 HodlHodl 教學。
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 關於基於 Lightning Network 的解決方案，請嘗試 [RoboSats](https://learn.robosats.com/) 和 [LNP2PBot](https://lnp2pbot.com/)。RoboSats 可透過網站存取，使用相對簡單。LNP2PBot 則較為非典型，因為它是透過 Telegram 訊息應用程式上的 Exchange 系統運作。
 
@@ -2065,9 +2089,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 -> 請參閱我們的 LNP2PBot 教學。
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/zh-Hant/096.webp)
 
@@ -2081,7 +2105,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-
 -> 請參閱我們關於 Relai 的教學。
 
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 正如我們在前一章所看到的，這類平台可讓您免於 KYC 程序所帶來的風險，但它們的鑰匙識別風險確實較高。因此，就 Bitcoin 的保密性而言，這些平台提供的保護比有 KYC 的購買方式更好，但它們的吸引力仍比不上 P2P 交易所。
 
@@ -2116,7 +2140,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 有幾個不需要 KYC 程序的平台提供將比特幣兌換成禮品卡的可能性，這些禮品卡可以在主要零售商處使用。這些平台包括 [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) 和 [Bitrefill](https://www.bitrefill.com/)。這些平台讓比特幣的日常使用變得更加容易，讓您可以使用各種產品和服務，而無需將其轉換為法定貨幣。
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/zh-Hant/098.webp)
 
@@ -2130,13 +2154,15 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 另一種方法是在 Exchange 中進行比特幣的工作。這種獲取方法可能很有趣，但所需的識別程度因情況不同而有很大差異。
 
 
-*為了撰寫本章，我使用了* [@pivi___](https://x.com/pivi___) *所提供的 BTC205 訓練課程，內容是關於 Plan ₿ Network（目前只有法文版）。*
+*為了撰寫本章，我使用了* [@pivi___](https://x.com/pivi___) *所提供的 BTC205 訓練課程，內容是關於 Plan ₿ Academy（目前只有法文版）。*
 
 
 ## 整合、UTXO 管理和 CIOH
 
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
+
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
 
 
 
@@ -2259,6 +2285,8 @@ Blockchain 分析中最廣泛使用的啟發式之一是 CIOH（*共同輸入 Ow
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 
 讓我們來看看其他幾個優化 Bitcoin 隱私權的最佳做法。
@@ -2340,6 +2368,8 @@ Blockchain 分析中最廣泛使用的啟發式之一是 CIOH（*共同輸入 Ow
 
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 
@@ -2490,6 +2520,8 @@ Coinjoins 有時被描述為 "mixers"，一些比特幣玩家拒絕使用這個�
 
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 
@@ -2666,9 +2698,10 @@ Zerolink 採取的一項重要預防措施，是使用獨立的密碼金鑰集�
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-**2024 年，我們見證了希望在 Bitcoin 上進行硬幣接合的使用者所能使用的工具發生了重大變化。我們目前正處於轉捩點，CoinJoin 市場正經歷重大的重整。本章一定會隨著時間更新**
+
 
 
 目前，Bitcoin 上主要有 3 種不同的 CoinJoin 實作：
@@ -2680,6 +2713,10 @@ Zerolink 採取的一項重要預防措施，是使用獨立的密碼金鑰集�
 - Wabisabi；
 - JoinMarket.
 
+
+除了這三種歷史性實作之外，最近又出現了一種新的：Joinstr。我不會在本章中討論它，但您可以在這篇專門的教學中找到所有相關資訊：
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 這些實作的目的都是要透過 CoinJoin 交易來打破 UTXOs 的歷史。然而，它們的機制差異很大。因此，了解它們各自的運作方式是非常重要的，這樣您就可以選擇最適合您需求的方案。
 
@@ -2713,6 +2750,8 @@ JoinMarket 的主要缺點之一是使用上的複雜性，需要對終端機有
 
 最後，雖然 JoinMarket 的概念很有趣，特別是對那些對動態流動性市場有興趣的人來說，它的結構弱點和技術複雜性，在我看來，對於尋找 CoinJoin 實作的新手和專家來說，都不太有趣。
 
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -2781,10 +2820,16 @@ Whirlpool 實現了 ZeroLink 協定，可確保混合前和混合後的 UTXO 嚴
 現在您應該知道了，我絕對偏好使用 Whirlpool 型號在 Bitcoin 上進行共同接合。此系統因其嚴謹性而脫穎而出，並提供絕佳的保密性保證。它也是唯一能提供在數學上被視為完美的組合的系統。在我看來，這個模型代表了 Bitcoin 上合併的未來。我邀請您在下一章更深入地探討這個模式。
 
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Whirlpool 如何運作
 
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 
@@ -3065,7 +3110,7 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 與任何 Bitcoin 交易一樣，同樣重要的是不要重複使用接收的 Address。每筆新交易都必須使用新的空白 Address。
 
 
-最簡單、最安全的解決方案是將混合後的 UTXOs 放在其 **postmix** 帳戶中休息，讓它們重新混合，只在花費時才碰觸它們。Samurai 和 Sparrow 錢包具有針對所有這些連鎖分析風險的額外保護功能。這些保護措施可協助您避免犯錯。
+最簡單且最安全的做法，是將已混合的 UTXO 靜置於 **postmix** 帳戶中，讓其持續重新混合，並僅在需要花費時才動用。Samourai（現在包括 Ashigaru）與 Sparrow 錢包具備額外的防護措施，以抵禦所有與鏈上分析相關的風險。這些防護可協助您避免犯錯。
 
 
 ### 您如何管理毒性交流？
@@ -3083,31 +3128,34 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 - 將它們標示為「不可花費」：**另一種方法是停止使用，在專用帳戶中將它們標示為「不可花費」，並直接使用 HODL。這樣可以確保您不會不小心花掉它們。如果 Bitcoin 的價值上升，可能會出現更適合您的有毒 UTXOs 的新池；**
 - 捐款：**請考慮捐款給開發 Bitcoin 和相關軟體的開發人員，無論捐款多少。您也可以捐款給接受 BTC 的協會。如果管理您的有毒 UTXO 看起來太複雜，您可以直接丟掉它們，然後捐獻；**
 - 購買禮物卡：**[Bitrefill](https://www.bitrefill.com/)** 等平台允許您用 Exchange 比特幣換取可在不同商家使用的禮物卡。這可以讓您在不損失相關價值的情況下，捨棄有毒的 UTXOs；
-- 在 Monero 上整合它們：**Samourai Wallet 提供 BTC 和 XMR 之間的原子交換服務。這是管理有毒 UTXOs 的理想選擇，您可以將其整合到 Monero 上，而不會透過 CIOH 洩露您的機密性，然後再將其發送回 Bitcoin。然而，由於流動性的限制，此選項在 Mining 費用和溢價方面可能成本高昂**；
+- **透過 Monero 進行整合：** Samourai Wallet 曾提供 BTC 與 XMR 之間的原子交換服務，但自其遭逮捕後便無法再使用。此方式可在不損害您透過 CIOH 保持的隱私情況下，將受污染的 UTXO 整合至 Monero，再重新轉回至比特幣。如果未來再度出現類似服務，它可能成為值得考慮的選項。然而須注意，此方法的成本可能偏高，包括挖礦費用，以及在反向兌回比特幣時因流動性限制而產生的溢價。
 - 將它們傳送至 Lightning Network：將這些 UTXO 傳送至 Lightning Network，以享受交易費用的降低，可能是一個很有吸引力的選擇。然而，此方法可能會透露某些資訊，這取決於您如何使用 Lightning，因此應謹慎使用。
 
 
 ### 如何使用 Whirlpool？
 
 
-在 Samourai Wallet 的創始人於 2024 年 4 月 24 日被捕並其伺服器被扣押之後，Whirlpool 工具已無法使用，即使對於那些擁有自己道場的人也是如此。在此之前，它可在 Samourai Wallet 和 Sparrow Wallet 上使用。
+在2024年4月24日Samourai Wallet創辦人被逮捕且其伺服器遭查封之後，Whirlpool 工具已無法在 Samourai Wallet 和 Sparrow Wallet 上使用。
 
 
 ![BTC204](assets/zh-Hant/155.webp)
 
 
-不過，視乎試驗結果，這項工具仍有可能在未來幾週內重新啟動，或以不同的方式重新推出。無論如何，我不認為 Bitcoin CoinJoin 市場會長期沒有 Supply 的存在，因為需求是存在的。更重要的是，由於 Whirlpool 的機型在機密性方面是最先進的，因此未來一定會成為其他實作的首選機型。
 
 
-我們正密切注意此案例及相關工具的發展。請放心，我們會在有新資訊時更新本訓練課程。
 
+
+從現在起，Whirlpool 再度可在 Ashigaru 行動應用程式上使用，該應用程式是 Samourai Wallet 的一個分叉，多虧了 Ashigaru Terminal 軟體。
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Whirlpool 的運作核心保持不變，但與在 Samourai 上的使用相比仍有一些差異：在 2025 年，Ashigaru 上僅提供兩個池，金額分別為 `0.25 BTC` 與 `0.025 BTC`，其對應的進入費用為 `0.0125 BTC` 與 `0.00125 BTC`。
 
 在下一章中，我們會瞭解什麼是「anonsets」、這些指標是如何計算出來的，以及它們如何幫助我們估計 CoinJoin 循環的效率。
 
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -3115,6 +3163,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
+
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
 
 
 
@@ -3226,6 +3276,8 @@ Anonsets 是用來評估特定 UTXO 機密程度的指標。更明確地說，�
 
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 
@@ -3535,7 +3587,7 @@ $$
 現在我們已經詳細介紹了硬幣接合，在課程的最後一部分，我們將探討 Bitcoin 上的其他隱私技術。我們將探討 payjoins、特定的偽 CoinJoin 交易類型、靜態 Address 協定，以及不是在交易本身層級，而是在節點網路層級強化機密性的措施。
 
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # 瞭解其他先進保密技術的挑戰
 
@@ -3547,6 +3599,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
+
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
 
 
 
@@ -3656,8 +3710,11 @@ PayJoin 的第二個目的是誤導外部觀察者，讓他們不知道實際支
 ![BTC204](assets/zh-Hant/177.webp)
 
 
-最先進的 PayJoin 實作只有 Samourai Wallet 上的 Stowaway。不過，自從軟體創辦人被捕後，這個工具現在只剩下部分功能。Stowaway 的優點在於它是一個全面、容易使用的協定，同時支援接收和傳送 payjoins。部分簽章交易可透過掃描幾個 QR 代碼手動交換，或透過 Soroban 由 Tor 自動交換。後一種通訊方式目前已停止服務。
 
+
+最先進的 payjoin 實作無疑是由 Samourai Wallet 的開發者發明的 Stowaway。自從軟體創辦人被捕後，這個工具在 Samourai 上僅部分運作。但它已在 Ashigaru 應用程式上重新啟動。
+
+Stowaway 的優點在於，它是一個完整且非常易於使用的協議，同時支援接收與發送 payjoin。部分簽名的交易可透過掃描多個 QR 碼手動交換，或經由 Tor 以 Soroban 自動交換。
 
 ![BTC204](assets/zh-Hant/178.webp)
 
@@ -3670,12 +3727,14 @@ PayJoin 的第二個目的是誤導外部觀察者，讓他們不知道實際支
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## 付款 mini-CoinJoin
 
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 
@@ -3834,13 +3893,12 @@ StonewallX2 交易的工作原理與 Stonewall 交易完全相同，只是前者
 ### 如何使用石牆和石牆 x2 交易？
 
 
-Stonewall 和 Stonewall x2 交易在 Samourai Wallet 應用程式和 Sparrow Wallet 軟體上均可使用。
+Stonewall 交易可在 Sparrow Wallet 以及 Ashigaru 上使用，而 Stonewall x2 目前僅由 Ashigaru 支援。
 
 
 ![BTC204](assets/zh-Hant/189.webp)
 
 
-然而，就像 payjoins 一樣，在 Samourai 的創始人被捕之後，Stonewall x2 交易現在只能透過相關各方之間手動交換 PSBT 來進行。不幸的是，透過 Soroban 的自動 Exchange 已不再可用。
 
 
 也可以從任何 Bitcoin Wallet 軟體手動執行此類交易。
@@ -3849,14 +3907,18 @@ Stonewall 和 Stonewall x2 交易在 Samourai Wallet 應用程式和 Sparrow Wal
 在下一章中，我們將介紹另一種相對陌生的保密技術，但作為我們已學過的知識的補充，它非常有用。
 
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## 跳彈
 
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
+
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
 
 
 
@@ -3929,18 +3991,18 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 此方法不僅對於共同接合有效，對於任何其他可能影響零件可替代性的標記也同樣有效。
 
 
-這種跳彈方法的構想最初來自 Samourai Wallet 團隊，他們將此方法整合到應用程式中，使流程自動化。這項服務在 Samourai 並不是免費的，因為轉帳需要 100,000 Sats 的服務費，再加上 Mining 的費用。因此建議大額轉帳時使用。
+這種跳躍（ricochet）方法的概念最初來自 Samourai Wallet 的團隊，他們將其整合進應用程式中以自動化其運作。此服務在 Samourai 上是付費的，因為每次跳躍都會產生固定 100,000 聰的服務費，外加礦工費。如今在 Ashigaru 上亦然。因此，建議主要用於大額轉帳。
 
 
 ![BTC204](assets/zh-Hant/196.webp)
 
 
-Samurai 應用程式提供兩種跳彈變體：
+Ashigaru 應用程式提供兩種彈射變體（與先前在 Samourai 上的一樣）：
 
 
 
 
-- 強化回彈，或稱「交錯交割」，其優點在於可將 Samurai 服務費分散到五次連續交易中。此選項還可確保每筆交易都在不同的時間進行廣播，並記錄在不同的區塊中，盡可能模仿物主變更的行為。雖然速度較慢，但對於那些不急著趕時間的人來說，這種方法更為可取，因為它透過強化回彈對連鎖分析的抵抗力，最大化了回彈的效率；
+- 強化彈射（或稱「分階段傳送」）具有一項優點，即可將 Ashigaru 的服務費分攤到連續五筆交易中。此選項亦確保每筆交易在不同時間廣播並記錄於不同區塊，從而盡可能逼真地模擬所有權變更的行為。儘管速度較慢，但對不急於完成的使用者而言，此方法更為理想，因為它透過增強對鏈上分析的抵抗能力，使彈射的效果達到最大化；
 
 
 ![BTC204](assets/zh-Hant/197.webp)
@@ -3960,12 +4022,14 @@ Samurai 應用程式提供兩種跳彈變體：
 在下一章中，我們將探討秘密轉移 Ownership 的不同技術。這些方法與我們迄今為止所研究過的方法，無論在操作上或結果上都有很大的不同。
 
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Ownership 的秘密轉移
 
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 
@@ -4152,6 +4216,8 @@ Ownership 的秘密轉移，例如硬幣交換和原子交換，具有欺騙連�
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 
 在第四部分中，我們討論了使用完整節點來保護您的交易機密性的重要性。然而，重要的是要了解您的節點本身也可能受到攻擊，試圖擷取您的活動資訊。因此，在本章中，我們將探討您可以採取的各種措施來保護您的隱私，這些措施不是在交易本身或 Bitcoin 流量層級，而是在網路層級。
@@ -4267,6 +4333,8 @@ Tor 不僅可以加密資料，還可以隱藏通訊的來源和目的地。透�
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
+
 
 
 正如我們在第三部分所看到的，Address 重複使用會嚴重妨礙 Bitcoin 通訊協定上的使用者機密性。為了降低這些風險，強烈建議在 Wallet 收到每筆新付款時，都要 generate 產生一個空白的收款 Address。儘管現代軟體和分層確定式錢包的使用已簡化了生成新 Address 的過程，但這種做法看起來可能有違直覺。
@@ -4311,7 +4379,7 @@ BIP47 的目的是在不重複使用地址的情況下，使接收大量付款�
 因此，使用者可以完全自由地分享自己的付款代碼，無論是在社交網路或自己的網站上，都不會有任何失密的風險，這與傳統的收款人 Address 或公開金鑰不同。
 
 
-若要進行交易，雙方都需要一個具備 BIP47 實作的 Bitcoin Wallet，例如 Samurai Wallet 上的 PayNym 或 Sparrow Wallet。共同使用他們的付款代碼會在他們之間建立一個秘密通道。為了有效建立此通道，發卡機構必須在 Bitcoin Blockchain 上執行特定交易，稱為「通知交易」（稍後詳細說明）。
+要進行交易，雙方都必須擁有一個實作 BIP47 的比特幣錢包，例如 Ashigaru 上的 PayNym 或 Sparrow Wallet。共同使用他們的付款代碼會在雙方之間建立一條秘密通道。為有效建立此通道，發送方必須在比特幣區塊鏈上執行一筆特定交易，稱為「通知交易」（詳細內容我會稍後提供）。
 
 
 結合兩個使用者的付款代碼會產生共享秘密，進而產生大量獨一無二的 Bitcoin 收件地址 (正好 2^32 或約 40 億個)。如此一來，透過 BIP47 進行的付款實際上並不是寄往付款代碼本身，而是寄往由相關使用者的付款代碼所衍生出來的經典收款位址。
@@ -4342,7 +4410,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 此代碼也可編碼為 QR 代碼，讓通訊更方便，就像傳統的接收器 Address。
 
 
-至於 PayNym Bots，也就是有時在 Twitter 上看到的機器人，這些都是付款代碼的視覺呈現，由 Samourai Wallet 所製作。它們使用 Hash 函式產生，因此幾乎是唯一的。它們的形式是以 `+` 開頭的一小串字元：
+關於 PayNym Bots，即那些有時會在 X（Twitter）上看到的機器人，它們是由 Samourai Wallet 所建立的付款代碼的視覺化呈現。現在隨著 Ashigaru 的使用，它們略有不同，但原理保持一致。它們透過雜湊函式生成，因此具有近乎唯一的特性。它們通常以一串以 `+` 開頭的小字元序列形式呈現：
 
 
 ```plaintext
@@ -4362,10 +4430,10 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 
 ---
-*在本章專門介紹 BIP47 的以下幾節中，我們將詳細介紹其工作原理，並特別強調所使用的加密方法。要完全掌握這些有點技術性的解釋，必須先瞭解 HD 錢包的結構、金鑰推演程序和橢圓曲線加密學的基本原理。如果您想深入瞭解這些概念，Plan ₿ Network 上還有另一個免費的訓練課程：*。
+*在本章專門介紹 BIP47 的以下幾節中，我們將詳細介紹其工作原理，並特別強調所使用的加密方法。要完全掌握這些有點技術性的解釋，必須先瞭解 HD 錢包的結構、金鑰推演程序和橢圓曲線加密學的基本原理。如果您想深入瞭解這些概念，Plan ₿ Academy 上還有另一個免費的訓練課程：*。
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *我仍然建議您遵循這些建議，因為瞭解 BIP47 的技術運作，將使您更容易理解其他類似的提案，我們將在以下章節中討論這些提案*。
 
@@ -5438,12 +5506,14 @@ $$ K0 = k0 \cdot G $$
 *非常感謝 [Fanis Michalakis](https://x.com/FanisMichalakis)，感謝他對文章的校對和專家意見，啟發了本章的撰寫！*
 
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## 無聲付款
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 

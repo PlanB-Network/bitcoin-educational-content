@@ -51,7 +51,7 @@ Vous pouvez la noter sur un papier ou, pour plus de sécurité, la graver sur un
 
 Pour en savoir plus sur les bonnes pratiques de sauvegarde et de gestion d’une phrase mnémonique, je vous recommande vivement de consulter ce tutoriel, en particulier si vous débutez :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Une fois votre sauvegarde terminée, cliquez sur "*Done! I've properly saved my Seed Phrase*".
 
@@ -256,4 +256,4 @@ Vous savez désormais tout sur Rumble Wallet !
 
 Posséder un portefeuille en self-custody comme Rumble Wallet est une étape essentielle, mais ce n’est que le début de votre parcours de bitcoiner. Pour aller plus loin, gagner en indépendance, participer activement au réseau et renforcer votre confidentialité, vous devez aussi faire tourner votre propre nœud Bitcoin. Vous ne savez pas par où commencer ? Nous avons préparé une formation complète et gratuite qui vous guide pas à pas, du choix du matériel et du logiciel jusqu’à la maintenance de votre premier nœud Bitcoin.
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426

@@ -45,7 +45,7 @@ GrapheneOS biedt extra beveiliging voor je Android-ervaring door middel van een 
 3. **Sandbox containment** - GrapheneOS versterkt bestaande Android sandboxes, waardoor het vermogen van elke app om te communiceren met de rest van je telefoon verder wordt vergrendeld.
 
 
-Lees meer over de technische details van de GrapheneOS-functieset [hier] (https://grapheneos.org/features).
+Lees meer over de technische details van de GrapheneOS-functieset [hier](https://grapheneos.org/features).
 
 
 ### De overgang vergemakkelijken
@@ -72,7 +72,7 @@ GrapheneOS is momenteel alleen in productie voor _(nogal ironisch)_ de serie [Go
 ### Een apparaat kiezen
 
 
-Zorg er bij het kiezen van de Pixel waarop je GrapheneOS wilt installeren voor dat je aanvinkt hoe lang het apparaat standaard [beveiligingsupdates] (https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g) blijft ontvangen.
+Zorg er bij het kiezen van de Pixel waarop je GrapheneOS wilt installeren voor dat je aanvinkt hoe lang het apparaat standaard [beveiligingsupdates](https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g) blijft ontvangen.
 
 
 Op het moment van schrijven is de Pixel 6a het goedkoopste model dat beschikbaar is met goede langetermijnondersteuning, gegarandeerd tot juli 2027. Als je voor dit model kiest, werkt OEM unlocking niet met de versie van het standaard OS uit de fabriek. Je moet het updaten naar de release van juni 2022 of later via een over-the-air update. Nadat je het hebt bijgewerkt, moet je het toestel ook resetten naar de fabriek om OEM-ontgrendeling te herstellen. Alle andere modellen die carrier unlocked zijn, zullen direct uit de doos klaar zijn voor GrapheneOS.
@@ -141,7 +141,7 @@ Video met details van de eenvoudige stappen hierboven
 
 
 
-Als deze eenvoudige stappen een stap te ver lijken, kun je overwegen om een Pixel te kopen met de GrapheneOS software [voorgeïnstalleerd] (https://ronindojo.io/en/roninmobile). Wees je er wel van bewust dat je een klein beetje vertrouwen stelt in de leverancier.
+Als deze eenvoudige stappen een stap te ver lijken, kun je overwegen om een Pixel te kopen met de GrapheneOS software [voorgeïnstalleerd](https://ronindojo.io/en/roninmobile). Wees je er wel van bewust dat je een klein beetje vertrouwen stelt in de leverancier.
 
 
 ### Vooraf geïnstalleerde apps
@@ -160,7 +160,7 @@ De enige twee die je misschien niet kent zijn 'Auditor' en 'Vanadium'.
 
 
 
-- De [Auditor app] (https://play.google.com/store/apps/details?id=app.attestation.auditor) maakt gebruik van op hardware gebaseerde beveiligingsfuncties om de identiteit van een apparaat te valideren, samen met de authenticiteit en integriteit van het besturingssysteem. Het controleert of het apparaat het standaard besturingssysteem draait met de bootloader vergrendeld en of er niet met het besturingssysteem geknoeid is.
+- De [Auditor app](https://play.google.com/store/apps/details?id=app.attestation.auditor) maakt gebruik van op hardware gebaseerde beveiligingsfuncties om de identiteit van een apparaat te valideren, samen met de authenticiteit en integriteit van het besturingssysteem. Het controleert of het apparaat het standaard besturingssysteem draait met de bootloader vergrendeld en of er niet met het besturingssysteem geknoeid is.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) is een privacy- en beveiligingsbestendige variant van de webbrowser Chromium.
 
 
@@ -233,7 +233,7 @@ Naast de applicaties die te vinden zijn in de standaard repository in F-Droid, h
 F-Droid startscherm
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Aurora-winkel
 
@@ -263,7 +263,7 @@ Aurora heeft ook een aantal potentiële aanvalsvectoren, omdat de "anonieme acco
 Beginscherm Aurora Store
 
 
-https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+https://planb.academy/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### APK downloaden
 
@@ -319,9 +319,9 @@ Hier zijn twee erkende opties waarmee je de dienst kunt betalen met Bitcoin zond
 
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Berichten
 
@@ -344,15 +344,15 @@ De meeste mensen die niet geïnteresseerd zijn in privacy, gebruiken waarschijnl
 Links: Threema, rechts: Simplex
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Media
 
@@ -449,13 +449,13 @@ Links: Proton Pass,
 rechts: Bitwarden
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### Cloud Oplossingen
 
@@ -472,7 +472,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 Proton Aandrijving
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## De nadelen
 
@@ -521,7 +521,7 @@ Als je maar een of twee van die must have-apps hebt die Play Services nodig hebb
 Je kunt [hier] meer lezen over deze use case (https://discuss.grapheneos.org/d/168-ideas-for-user-profiles/2).
 
 
-Als u besluit om een apart profiel toe te voegen voor uw gebruik, kan de app [Insular] (https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) nuttig voor u zijn. Met Insular kunt u eenvoudig al uw bestaande apps klonen naar het nieuwe profiel zonder dat u de traditionele installatieroutes hoeft te volgen die eerder in deze handleiding zijn beschreven. Met Insular kun je die apps ook snel 'bevriezen' om alle achtergronddiensten van die app volledig uit te schakelen.
+Als u besluit om een apart profiel toe te voegen voor uw gebruik, kan de app [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) nuttig voor u zijn. Met Insular kunt u eenvoudig al uw bestaande apps klonen naar het nieuwe profiel zonder dat u de traditionele installatieroutes hoeft te volgen die eerder in deze handleiding zijn beschreven. Met Insular kun je die apps ook snel 'bevriezen' om alle achtergronddiensten van die app volledig uit te schakelen.
 
 
 ![image](assets/fr/24.webp)
@@ -535,7 +535,7 @@ Scherm voor gebruikersprofielbeheer
 Als je de privacy van je telefoon naar een hoger niveau wilt tillen en een mobiele dienst wilt hebben die losstaat van je echte identiteit, dan is een eSIM misschien iets voor jou. Een eSIM is een virtuele SIM die je online kunt kopen en aan je telefoon kunt toevoegen via een QR-code. Bedrijven die dergelijke diensten aanbieden die anoniem betaald kunnen worden met Bitcoin zijn onder andere [Silent.Link](https://silent.link/) en [Bitrefill](https://www.bitrefill.com/gb/en/esims/).
 
 
-eSIM's moeten niet worden gezien als een volledig wondermiddel voor telefoonprivacy. In de juiste handen kunnen ze een nuttig hulpmiddel zijn, maar doe alsjeblieft onderzoek naar de [tradeoffs] (https://grapheneos.org/faq#cellular-tracking) van het gebruik van elk type mobiele service als je van plan bent om volledig 'off grid' te gaan.
+eSIM's moeten niet worden gezien als een volledig wondermiddel voor telefoonprivacy. In de juiste handen kunnen ze een nuttig hulpmiddel zijn, maar doe alsjeblieft onderzoek naar de [tradeoffs](https://grapheneos.org/faq#cellular-tracking) van het gebruik van elk type mobiele service als je van plan bent om volledig 'off grid' te gaan.
 
 
 Sandboxed Play Services moeten worden geïnstalleerd voor eSIM provisioning in GrapheneOS.

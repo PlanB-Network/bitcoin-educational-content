@@ -1,11 +1,11 @@
 ---
-name: Cara Kerja Dompet Bitcoin
+name: Arsitektur Dompet Bitcoin
 goal: Menyelami prinsip-prinsip kriptografi yang menggerakkan dompet Bitcoin.
 objectives:
-  - Mendefinisikan konsep teoretis yang diperlukan untuk memahami algoritma kriptografi yang digunakan dalam Bitcoin.
-  - Memahami sepenuhnya pembangunan dompet yang deterministik dan hierarkis.
-  - Mengetahui cara mengidentifikasi dan mengurangi risiko yang terkait dengan pengelolaan dompet.
-  - Memahami prinsip fungsi hash, kunci kriptografi, dan tanda tangan digital.
+- Mendefinisikan konsep teoretis yang diperlukan untuk memahami algoritma kriptografi yang digunakan dalam Bitcoin.
+- Memahami sepenuhnya pembangunan dompet yang deterministik dan hierarkis.
+- Mengetahui cara mengidentifikasi dan mengurangi risiko yang terkait dengan pengelolaan dompet.
+- Memahami prinsip fungsi hash, kunci kriptografi, dan tanda tangan digital.
 ---
 
 # Perjalanan ke Jantung Dompet Bitcoin
@@ -28,12 +28,14 @@ Dengan pedagogi yang jelas, lebih dari 60 diagram penjelas, dan contoh konkret, 
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 Selamat datang di kursus CYP201, di mana kita akan menjelajahi secara mendalam cara kerja dompet HD Bitcoin. Kursus ini dirancang untuk siapa saja yang ingin memahami dasar teknis penggunaan Bitcoin, baik mereka pengguna kasual, penggemar yang terpelajar, atau calon ahli.
 
 Tujuan dari pelatihan ini adalah untuk memberi Anda kunci untuk menguasai alat yang Anda gunakan setiap hari. Dompet HD Bitcoin, yang berada di jantung pengalaman pengguna Anda, didasarkan pada konsep-konsep yang terkadang kompleks, yang akan kami coba buat dapat diakses. Bersama-sama, kita akan membongkar misterinya!
 
 Sebelum menyelami detail konstruksi dan operasi dompet Bitcoin, kita akan memulai dengan beberapa bab tentang primitif kriptografi yang perlu diketahui untuk apa yang akan diikuti.
-Kita akan memulai dengan fungsi hash kriptografi, fundamental baik untuk dompet maupun protokol Bitcoin itu sendiri. Anda akan menemukan karakteristik utama mereka, fungsi spesifik yang digunakan dalam Bitcoin, dan dalam bab yang lebih teknis, Anda akan belajar secara detail tentang cara kerja fungsi hash ratu: SHA256.
+Kita akan memulai dengan fungsi hash kriptografi, fundamental baik untuk dompet maupun protokol Bitcoin itu sendiri. Anda akan menemukan karakteristik utama mereka, fungsi spesifik yang digunakan dalam Bitcoin, dan dalam bab yang lebih teknis, Anda akan belajar secara detail tentang cara kerja fungsi hash ratu: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 Selanjutnya, kita akan membahas operasi algoritma tanda tangan digital yang Anda gunakan setiap hari untuk mengamankan UTXO Anda. Bitcoin menggunakan dua: ECDSA dan protokol Schnorr. Anda akan belajar primitif matematika apa yang mendasari algoritma ini dan bagaimana mereka memastikan keamanan transaksi.
@@ -43,7 +45,7 @@ Selanjutnya, kita akan membahas operasi algoritma tanda tangan digital yang Anda
 Setelah kita memiliki pemahaman yang baik tentang elemen-elemen kriptografi ini, kita akhirnya akan beralih ke inti dari pelatihan: dompet yang deterministik dan hierarkis! Pertama, ada bagian yang didedikasikan untuk frasa mnemonik, urutan 12 atau 24 kata ini yang memungkinkan Anda untuk membuat dan memulihkan dompet Anda. Anda akan menemukan bagaimana kata-kata ini dihasilkan dari sumber entropi dan bagaimana mereka memfasilitasi penggunaan Bitcoin.
 
 ![CYP201](assets/en/003.webp)
-Pelatihan akan dilanjutkan dengan mempelajari passphrase BIP39, seed (jangan dikacaukan dengan frasa mnemonik), master chain code, dan master key. Kita akan melihat secara detail apa itu elemen-elemen tersebut, peran masing-masing, dan bagaimana mereka dihitung.
+Pelatihan akan dilanjutkan dengan mempelajari passphrase [BIP39](https://planb.academy/resources/glossary/bip0039), seed (jangan dikacaukan dengan frasa mnemonik), master chain code, dan master key. Kita akan melihat secara detail apa itu elemen-elemen tersebut, peran masing-masing, dan bagaimana mereka dihitung.
 ![CYP201](assets/en/004.webp)
 
 Akhirnya, dari master key, kita akan menemukan bagaimana pasangan kunci kriptografi diturunkan secara deterministik dan hierarkis hingga ke alamat penerima.
@@ -87,6 +89,8 @@ Tabel ini memberikan Anda terjemahan dari istilah-istilah utama dalam bahasa Ing
 ## Pengenalan Fungsi Hash
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 Jenis algoritma kriptografi pertama yang digunakan pada Bitcoin mencakup fungsi hash. Mereka memainkan peran penting pada berbagai tingkat protokol, tetapi juga dalam dompet Bitcoin. Mari kita temukan bersama apa itu fungsi hash dan untuk apa digunakan dalam Bitcoin.
 
@@ -197,6 +201,9 @@ Anda sekarang mengetahui dasar-dasar esensial tentang fungsi hashing untuk apa y
 ## Cara Kerja SHA256
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
+
 Kita telah sebelumnya melihat bahwa fungsi hashing memiliki karakteristik penting yang membenarkan penggunaannya pada Bitcoin. Mari kita sekarang periksa mekanisme internal dari fungsi hashing ini yang memberikan mereka sifat-sifat tersebut, dan untuk melakukan ini, saya mengusulkan untuk membedah operasi dari SHA256.
 Fungsi SHA256 dan SHA512 termasuk dalam keluarga SHA2 yang sama. Mekanisme mereka berdasarkan pada konstruksi spesifik yang disebut **Merkle-Damgård construction**. RIPEMD160 juga menggunakan jenis konstruksi yang sama.
 
@@ -550,6 +557,8 @@ Sekarang setelah kita telah melihat secara detail tentang cara kerja fungsi hash
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 Di Bitcoin pada level aplikasi, selain fungsi hash, algoritma derivasi kriptografis digunakan untuk menghasilkan data aman dari input awal. Meskipun algoritma ini bergantung pada fungsi hash, mereka melayani tujuan yang berbeda, terutama dalam hal otentikasi dan generasi kunci. Algoritma ini mempertahankan beberapa karakteristik dari fungsi hash, seperti tidak dapat dibalik, resistensi terhadap perubahan, dan resistensi tabrakan.
 
 Pada dompet Bitcoin, terutama 2 algoritma derivasi digunakan:
@@ -635,6 +644,8 @@ Dalam bab ini, kita telah menjelajahi fungsi HMAC-SHA512 dan PBKDF2, yang menggu
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
+
 Metode kriptografi kedua yang digunakan dalam Bitcoin melibatkan algoritma tanda tangan digital. Mari kita jelajahi apa ini dan bagaimana cara kerjanya.
 
 ### Bitcoin, UTXO, dan Kondisi Pengeluaran
@@ -648,7 +659,7 @@ Seorang pengguna yang ingin melakukan transaksi Bitcoin harus menciptakan tanda 
 
 Sebagai hasilnya, seorang pengguna yang memiliki bitcoin yang dikunci dengan kunci publik harus menemukan cara untuk menyimpan secara aman apa yang memungkinkan membuka kunci dana mereka: kunci privat. Dompet Bitcoin adalah tepatnya sebuah perangkat yang akan memungkinkan Anda untuk dengan mudah menyimpan semua kunci Anda tanpa orang lain memiliki akses kepadanya. Oleh karena itu, ini lebih mirip sebuah gantungan kunci daripada dompet.
 
-Hubungan matematis antara kunci publik dan kunci privat, serta kemampuan untuk melakukan tanda tangan untuk membuktikan kepemilikan kunci privat tanpa mengungkapkannya, dimungkinkan oleh algoritma tanda tangan digital. Dalam protokol Bitcoin, 2 algoritma tanda tangan digunakan: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) dan **skema tanda tangan Schnorr**. ECDSA adalah protokol tanda tangan digital yang digunakan dalam Bitcoin sejak awal. Schnorr lebih baru dalam Bitcoin, karena diperkenalkan pada November 2021 dengan pembaruan Taproot.
+Hubungan matematis antara kunci publik dan kunci privat, serta kemampuan untuk melakukan tanda tangan untuk membuktikan kepemilikan kunci privat tanpa mengungkapkannya, dimungkinkan oleh algoritma tanda tangan digital. Dalam protokol Bitcoin, 2 algoritma tanda tangan digunakan: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) dan **skema tanda tangan Schnorr**. ECDSA adalah protokol tanda tangan digital yang digunakan dalam Bitcoin sejak awal. Schnorr lebih baru dalam Bitcoin, karena diperkenalkan pada November 2021 dengan pembaruan Taproot.
 Kedua algoritma ini cukup serupa dalam mekanisme mereka. Keduanya berbasis pada kriptografi kurva eliptik. Perbedaan utama antara kedua protokol ini terletak pada struktur tanda tangan dan beberapa properti matematis spesifik. Oleh karena itu, kita akan mempelajari fungsi dari algoritma-algoritma ini, dimulai dengan yang tertua: ECDSA.
 
 ### Kriptografi Kurva Eliptik
@@ -713,11 +724,14 @@ Matematika kurva eliptik di atas lapangan terbatas analog dengan yang di atas la
 
 Jika Anda ingin mempelajari lebih lanjut tentang dasar-dasar matematika kriptografi modern, saya juga merekomendasikan untuk berkonsultasi dengan kursus lain di Jaringan Plan ₿:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Menghitung Kunci Publik dari Kunci Privat
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
+
 Seperti yang telah dilihat sebelumnya, algoritma tanda tangan digital pada Bitcoin didasarkan pada pasangan kunci privat dan publik yang secara matematis terkait. Mari kita jelajahi bersama apa hubungan matematis ini dan bagaimana mereka dihasilkan.
 
 ### Kunci Privat
@@ -830,6 +844,8 @@ Tentu saja, dalam contoh sederhana ini dengan $k = 4$, akan mungkin untuk menemu
 ## Menandatangani dengan Kunci Privat
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 Sekarang setelah Anda tahu cara menurunkan kunci publik dari kunci privat, Anda sudah dapat menerima bitcoin dengan menggunakan pasangan kunci ini sebagai kondisi pengeluaran. Tapi bagaimana cara menghabiskannya? Untuk menghabiskan bitcoin, Anda perlu membuka _scriptPubKey_ yang terlampir pada UTXO Anda untuk membuktikan bahwa Anda memang pemilik sahnya. Untuk melakukan ini, Anda harus menghasilkan tanda tangan $s$ yang cocok dengan kunci publik $K$ yang ada dalam _scriptPubKey_ menggunakan kunci privat $k$ yang awalnya digunakan untuk menghitung $K$. Tanda tangan digital ini menjadi bukti tak terbantahkan bahwa Anda memiliki kunci privat yang terkait dengan kunci publik yang Anda klaim.
 
@@ -1047,6 +1063,8 @@ Nah, kita tidak benar-benar tahu mengapa Satoshi tidak memilihnya, tetapi hipote
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 Seperti yang telah kita lihat dalam bab-bab sebelumnya, tanda tangan digital sering digunakan untuk membuka skrip dari sebuah input. Dalam proses penandatanganan, perlu untuk memasukkan data yang ditandatangani dalam perhitungan, yang ditunjuk dalam contoh kita oleh pesan $m$. Data ini, setelah ditandatangani, tidak dapat dimodifikasi tanpa membuat tanda tangan menjadi tidak valid. Memang, baik untuk ECDSA maupun Schnorr, verifikator tanda tangan harus memasukkan pesan $m$ yang sama dalam perhitungan mereka. Jika berbeda dari pesan $m$ yang awalnya digunakan oleh penandatangan, hasilnya akan salah dan tanda tangan akan dianggap tidak valid. Maka dikatakan bahwa sebuah tanda tangan mencakup data tertentu dan melindunginya, dalam suatu cara, dari modifikasi yang tidak sah.
 
 ### Apa itu sighash flag?
@@ -1099,7 +1117,7 @@ Jika bendera sighash ini diintegrasikan ke dalam Bitcoin, ini akan memungkinkan 
 
 Untuk memperdalam pengetahuan Anda tentang Lightning Network, setelah kursus CYP201, saya sangat merekomendasikan kursus LNP201 oleh Fanis Michalakis, yang membahas topik ini secara detail:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Di bagian selanjutnya, saya mengusulkan untuk menemukan bagaimana frasa mnemonik di dasar dompet Bitcoin Anda bekerja.
 
@@ -1110,6 +1128,8 @@ Di bagian selanjutnya, saya mengusulkan untuk menemukan bagaimana frasa mnemonik
 ## Evolusi Dompet Bitcoin
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
+
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
 
 Sekarang setelah kita telah menjelajahi cara kerja fungsi hash dan tanda tangan digital, kita dapat mempelajari bagaimana dompet Bitcoin berfungsi. Tujuannya akan menjadi untuk membayangkan bagaimana dompet pada Bitcoin dibangun, bagaimana ia diuraikan, dan apa saja informasi yang membentuknya digunakan untuk. Pemahaman tentang mekanisme dompet ini akan memungkinkan Anda untuk meningkatkan penggunaan Bitcoin Anda dalam hal keamanan dan privasi.
 
@@ -1130,9 +1150,9 @@ Jika seseorang ingin menggunakan beberapa kunci privat, maka diperlukan untuk me
 
 Keterbatasan ini berasal dari model privasi Bitcoin. Dengan menggunakan alamat yang sama berulang kali, ini memudahkan pengamat eksternal untuk melacak semua transaksi Bitcoin saya. Itulah mengapa menggunakan kembali alamat penerima sangat tidak disarankan. Namun, untuk memiliki beberapa alamat dan memisahkan transaksi kita secara publik, diperlukan untuk mengelola beberapa kunci privat. Dalam kasus dompet JBOK, ini menyiratkan pembuatan banyak cadangan sebanyak pasangan kunci baru, tugas yang dapat dengan cepat menjadi kompleks dan sulit untuk dipertahankan bagi pengguna.
 
-Untuk mempelajari lebih lanjut tentang model privasi Bitcoin dan menemukan metode untuk melindungi privasi Anda, saya juga merekomendasikan mengikuti kursus BTC204 saya di Plan ₿ Network:
+Untuk mempelajari lebih lanjut tentang model privasi Bitcoin dan menemukan metode untuk melindungi privasi Anda, saya juga merekomendasikan mengikuti kursus BTC204 saya di Plan ₿ Academy:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Dompet HD (_Hierarchical Deterministic_)
 
@@ -1152,6 +1172,9 @@ Dalam bab-bab berikutnya, kita akan menjelajahi cara kerja internal dompet HD, t
 ## Entropi dan Nomor Acak
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
+
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
+
 Dompet HD modern (deterministik dan hierarkis) mengandalkan satu potongan informasi awal yang disebut "entropi" untuk menghasilkan seluruh set kunci dompet secara deterministik. Entropi ini adalah nomor pseudo-acak yang tingkat kekacaunya sebagian menentukan keamanan dompet.
 
 ### Definisi Entropi
@@ -1178,6 +1201,9 @@ Dalam bab selanjutnya, kita akan melihat bagaimana kita beralih dari nomor acak 
 ## Frasa Mnemonik
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
+
 Frasa mnemonik, juga disebut "frasa benih", "frasa pemulihan", "frasa rahasia", atau "frasa 24 kata", adalah urutan yang biasanya terdiri dari 12 atau 24 kata, yang dihasilkan dari entropi. Ini digunakan untuk secara deterministik menurunkan semua kunci dari dompet HD. Ini berarti dari frasa ini, dimungkinkan untuk secara deterministik menghasilkan dan merekreasi semua kunci privat dan publik dari dompet Bitcoin, dan akibatnya mengakses dana yang dilindungi dengannya. Tujuan dari frasa mnemonik adalah untuk menyediakan sarana cadangan dan pemulihan bitcoin yang aman dan mudah digunakan. Ini diperkenalkan ke dalam standar pada tahun 2013 dengan BIP39.
 Mari kita temukan bersama bagaimana cara pergi dari entropi ke frasa mnemonik.
 
@@ -1229,7 +1255,7 @@ Misalnya, untuk entropi 256-bit, hasil $\text{ENT} \Vert \text{CS}$ adalah 264 b
 
 ### Konversi Urutan Biner menjadi Frasa Mnemonik
 
-Urutan bit $\text{ENT} \Vert \text{CS}$ kemudian dibagi menjadi segmen-segmen 11 bit. Setiap segmen 11-bit, setelah dikonversi ke desimal, sesuai dengan nomor antara 0 dan 2047, yang menunjukkan posisi kata [dalam daftar 2048 kata yang distandarisasi oleh BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Urutan bit $\text{ENT} \Vert \text{CS}$ kemudian dibagi menjadi segmen-segmen 11 bit. Setiap segmen 11-bit, setelah dikonversi ke desimal, sesuai dengan nomor antara 0 dan 2047, yang menunjukkan posisi kata [dalam daftar 2048 kata yang distandarisasi oleh BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 Misalnya, untuk entropi 128-bit, checksum adalah 4 bit, sehingga total urutan berukuran 132 bit. Ini dibagi menjadi 12 segmen dari 11 bit (bit oranye menunjukkan checksum):
@@ -1269,11 +1295,13 @@ Sebagai hasilnya, memilih frasa 24 kata tidak memberikan perlindungan tambahan u
 Frasa 12 kata, yang juga menawarkan keamanan 128 bit, saat ini sudah cukup untuk melindungi bitcoin Anda dari setiap upaya pencurian. Selama algoritma tanda tangan digital tidak berubah untuk menggunakan kunci yang lebih besar atau bergantung pada masalah matematika lain selain ECDLP, frasa 24 kata tetap berlebihan. Selain itu, frasa yang lebih panjang meningkatkan risiko kehilangan saat pencadangan: pencadangan yang dua kali lebih singkat selalu lebih mudah dikelola.
 Untuk lebih lanjut dan belajar secara konkret bagaimana menghasilkan frasa mnemonik tes secara manual, saya menyarankan Anda untuk menemukan tutorial ini:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Sebelum melanjutkan dengan derivasi dompet dari frasa mnemonik ini, saya akan memperkenalkan Anda, dalam bab berikutnya, ke frasa sandi BIP39, karena ini berperan dalam proses derivasi, dan berada pada level yang sama dengan frasa mnemonik.
 ## Frasa Sandi
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
+
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
 Seperti yang baru saja kita lihat, dompet HD dihasilkan dari frasa mnemonik yang biasanya terdiri dari 12 atau 24 kata. Frasa ini sangat penting karena memungkinkan pemulihan semua kunci dompet jika perangkat fisiknya (seperti dompet perangkat keras, misalnya) hilang. Namun, ini merupakan satu titik kegagalan, karena jika dikompromikan, penyerang dapat mencuri semua bitcoin. Di sinilah frasa sandi BIP39 berperan.
 
@@ -1306,6 +1334,8 @@ Pada bagian berikut, kita akan menemukan bagaimana kedua elemen ini di dasar dom
 
 ## Pembuatan Seed dan Master Key
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 Setelah frase mnemonik dan passphrase opsional dihasilkan, proses penurunan dompet Bitcoin HD dapat dimulai. Frase mnemonik pertama kali diubah menjadi seed yang merupakan dasar dari semua kunci dompet.
 
@@ -1382,6 +1412,8 @@ Sebelum melanjutkan dengan derivasi dompet HD dengan elemen berikutnya, saya ing
 
 ## Kunci Terluas
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 Kunci terluas hanyalah penggabungan dari sebuah kunci (baik privat maupun publik) dan kode rantai yang terkait dengannya. Kode rantai ini penting untuk derivasi kunci anak karena, tanpanya, mustahil untuk menurunkan kunci anak dari kunci induk, tetapi kita akan menemukan proses ini lebih tepat di bab berikutnya. Kunci terluas ini memungkinkan penggabungan semua informasi yang diperlukan untuk menurunkan kunci anak, dengan demikian menyederhanakan manajemen akun dalam dompet HD.
 
@@ -1497,6 +1529,8 @@ Dalam bab ini, kita menemukan bahwa ada dua jenis kunci anak yang berbeda. Kita 
 
 ## Derivasi Pasangan Kunci Anak
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 Derivasi pasangan kunci anak dalam dompet HD Bitcoin bergantung pada struktur hierarkis yang memungkinkan menghasilkan sejumlah besar kunci, sambil mengorganisir pasangan ini ke dalam kelompok yang berbeda melalui cabang. Setiap pasangan anak yang diturunkan dari pasangan induk dapat digunakan langsung dalam *scriptPubKey* untuk mengunci bitcoin, atau sebagai titik awal untuk menghasilkan lebih banyak kunci anak, dan seterusnya, untuk menciptakan pohon kunci.
 
@@ -1706,6 +1740,8 @@ Untuk merangkum, sejauh ini Anda telah belajar untuk menciptakan elemen dasar da
 ## Struktur Dompet dan Jalur Turunan
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 Struktur hierarkis dari dompet HD pada Bitcoin memungkinkan untuk pengorganisasian pasangan kunci dengan berbagai cara. Ide ini adalah untuk menurunkan, dari kunci privat utama dan kode rantai utama, beberapa tingkat kedalaman. Setiap tingkat yang ditambahkan sesuai dengan turunan dari pasangan kunci anak dari pasangan kunci orang tua.
 
 Seiring waktu, BIP yang berbeda telah memperkenalkan standar untuk jalur turunan ini, dengan tujuan untuk menstandarisasi penggunaannya di berbagai perangkat lunak. Jadi, dalam bab ini, kita akan menemukan makna dari setiap tingkat turunan dalam dompet HD, sesuai dengan standar ini.
@@ -1791,6 +1827,9 @@ Dalam contoh ini:
 Pada bab selanjutnya, kita akan menemukan apa itu "*output script descriptors*", sebuah inovasi yang baru diperkenalkan dalam Bitcoin Core yang mempermudah pencadangan dompet Bitcoin.
 ## Output script descriptors
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
+
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 Seringkali kita diberitahu bahwa frasa mnemonik saja sudah cukup untuk memulihkan akses ke sebuah dompet. Namun, pada kenyataannya, hal-hal bisa menjadi lebih kompleks. Pada bab sebelumnya, kita telah melihat struktur derivasi dari dompet HD, dan Anda mungkin telah menyadari bahwa proses ini cukup kompleks. Jalur derivasi memberitahu perangkat lunak arah mana yang harus diikuti untuk menurunkan kunci pengguna. Namun, ketika memulihkan dompet Bitcoin, jika seseorang tidak mengetahui jalur-jalur ini, frasa mnemonik saja tidak cukup. Ini memungkinkan untuk mendapatkan kunci induk dan kode rantai induk, tetapi kemudian diperlukan untuk mengetahui indeks yang digunakan untuk mencapai kunci anak.
 
 Secara teoritis, akan diperlukan untuk menyimpan tidak hanya frasa mnemonik dari dompet kita, tetapi juga jalur ke akun yang kita gunakan. Dalam praktiknya, seringkali mungkin untuk mendapatkan kembali akses ke kunci anak tanpa informasi ini, asalkan standar telah diikuti. Dengan menguji setiap standar satu per satu, umumnya mungkin untuk mendapatkan kembali akses ke bitcoin. Namun, ini tidak dijamin dan ini terutama rumit bagi pemula. Juga, dengan diversifikasi jenis skrip dan munculnya konfigurasi yang lebih kompleks, informasi ini bisa menjadi sulit untuk diekstrapolasi, sehingga mengubah data ini menjadi informasi pribadi dan sulit untuk dipulihkan dengan brute force. Inilah mengapa sebuah inovasi baru-baru ini diperkenalkan dan mulai diintegrasikan ke dalam perangkat lunak dompet favorit Anda: *output script descriptors*.
@@ -1832,6 +1871,8 @@ Anda sekarang tahu segalanya tentang operasi dompet HD di Bitcoin dan proses der
 ## Alamat Penerima
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
+
 Alamat penerima adalah potongan informasi yang tertanam dalam *scriptPubKey* untuk mengunci UTXO yang baru dibuat. Sederhananya, sebuah alamat berfungsi untuk menerima bitcoin. Mari kita jelajahi operasinya sehubungan dengan apa yang telah kita pelajari dalam bab-bab sebelumnya.
 
 ### Peran Alamat Bitcoin dalam Skrip
@@ -1842,19 +1883,21 @@ Ketika seorang pengguna menerima bitcoin, pengirim membuat sebuah output UTXO da
 
 Tepatnya dalam *scriptPubKey* tempat alamat penerima ditemukan. Namun, penggunaannya bervariasi tergantung pada standar skrip yang diadopsi. Berikut adalah tabel ringkasan informasi yang terkandung dalam *scriptPubKey* menurut standar yang digunakan, serta informasi yang diharapkan dalam *scriptSig* untuk membuka *scriptPubKey*.
 
-| Standar            | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Data sembarang      |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (jalur kunci) | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (jalur skrip) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <blok kontrol>`  |
 
-*Sumber: Bitcoin Core PR review club, 7 Juli 2021 - Gloria Zhao*
+
+| Standar             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Data sewenang-wenang | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Sumber: Bitcoin Core PR review club tanggal 7 Juli 2021 – Gloria Zhao_
 
 Opcodes yang digunakan dalam skrip dirancang untuk memanipulasi informasi, dan, jika perlu, untuk membandingkan atau mengujinya. Mari kita ambil contoh skrip P2PKH, yang adalah sebagai berikut:
 
@@ -1944,6 +1987,8 @@ Sekarang setelah kita telah membahas teorinya, mari kita lanjutkan ke praktik! D
 
 ## Turunan Alamat
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 Mari kita jelajahi bersama bagaimana menghasilkan alamat penerima dari sepasang kunci yang terletak, misalnya, pada kedalaman 5 dari dompet HD. Alamat ini kemudian dapat digunakan dalam perangkat lunak dompet untuk mengunci UTXO.
 

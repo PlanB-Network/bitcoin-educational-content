@@ -48,17 +48,17 @@ Neste tutorial, aprenderemos a criar e usar uma carteira clássica com várias a
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 ## Pré-requisitos
 
 
 
-Neste tutorial, vou mostrar-lhe como criar um Multisig com o [software de gestão de portefólio Sparrow Wallet] (https://sparrowwallet.com/download/). Se ainda não instalou este software, faça-o agora. Se precisar de ajuda, também temos um tutorial detalhado sobre a configuração do Sparrow Wallet :
+Neste tutorial, vou mostrar-lhe como criar um Multisig com o [software de gestão de portefólio Sparrow Wallet](https://sparrowwallet.com/download/). Se ainda não instalou este software, faça-o agora. Se precisar de ajuda, também temos um tutorial detalhado sobre a configuração do Sparrow Wallet :
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
 Para configurar um Wallet com várias assinaturas, precisará de carteiras de hardware diferentes. Para um Multisig 2-de-3, por exemplo, pode utilizar :
 
@@ -101,11 +101,11 @@ Antes de configurar o seu Multisig Wallet, certifique-se de que cada Hardware Wa
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Como veremos mais adiante neste tutorial, é também possível integrar na configuração do Multisig um fator que não está associado a um Hardware Wallet, mas cujas chaves privadas estão armazenadas no seu PC. Este método é obviamente menos seguro do que o uso exclusivo de carteiras de hardware, mas pode ser relevante em certos casos. Por exemplo, para um Multisig 2-de-3, pode optar por duas carteiras de hardware e um Software Wallet.
 
@@ -375,7 +375,7 @@ Para além de guardar o *Descriptor*, não se esqueça de prestar especial aten�
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Antes de receber os seus primeiros bitcoins no seu Multisig, **aconselho-o vivamente a efetuar um teste de recuperação vazio**. Tome nota de algumas informações de referência, como a primeira receção do Address, depois reinicie as suas carteiras de hardware enquanto o Wallet ainda está vazio. De seguida, tente restaurar o seu Multisig Wallet nas Carteiras de Hardware utilizando as suas cópias de segurança em papel da frase Mnemonic e depois no Sparrow utilizando o *Descriptor*. Verifique se o primeiro Address gerado após o restauro corresponde àquele que escreveu originalmente. Se corresponder, pode ter a certeza de que as suas cópias de segurança em papel são fiáveis.
 
@@ -385,7 +385,7 @@ Para saber mais sobre como efetuar um teste de recuperação, sugiro que consult
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Receber bitcoins no seu Multisig
 
@@ -491,7 +491,7 @@ Introduzir o montante a enviar para o Address selecionado.
 
 
 
-Ajuste a taxa de carregamento de acordo com as condições actuais da rede. Por exemplo, consulte [Mempool.space] (https://Mempool.space/) para selecionar um nível de carga adequado.
+Ajuste a taxa de carregamento de acordo com as condições actuais da rede. Por exemplo, consulte [Mempool.space](https://Mempool.space/) para selecionar um nível de carga adequado.
 
 
 
@@ -619,4 +619,4 @@ Para ir mais longe, recomendo que consulte este tutorial sobre outro método par
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

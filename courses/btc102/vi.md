@@ -38,6 +38,8 @@ Khóa học này được thiết kế để giúp bạn kiểm soát hoàn toà
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 Chào mừng bạn đến với BTC102! Nếu bạn đã hoàn thành BTC101, bạn đã khám phá những khái niệm lý thuyết then chốt đằng sau lý do tại sao Bitcoin lại là một công nghệ mang tính cách mạng. Giờ đây, với BTC102, đã đến lúc áp dụng kiến thức đó vào thực tiễn. Khóa học này được thiết kế để giúp bạn xây dựng kế hoạch Bitcoin cá nhân theo từng bước.
 
@@ -45,7 +47,7 @@ Chào mừng bạn đến với BTC102! Nếu bạn đã hoàn thành BTC101, b�
 Trong các chương tiếp theo, chúng tôi sẽ hướng dẫn bạn các bước thực tế để **nhận được bitcoin đầu tiên**, **bảo mật** chúng đúng cách và tự tin bước những bước đầu tiên vào hệ sinh thái đang phát triển nhanh chóng này.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Mặc dù Bitcoin đã tồn tại hơn 16 năm, ngành công nghiệp này vẫn còn non trẻ, năng động và gắn liền với tự do. Giao thức nền tảng của nó hoàn toàn phi tập trung và không chịu sự kiểm soát của bất kỳ cơ quan trung ương nào, cho phép hệ sinh thái phát triển một cách tự nhiên và hữu cơ.
 
@@ -99,7 +101,7 @@ Cuối cùng, phần thứ tư, "Bảo vệ Người thừa kế và Tài sản 
 Bạn đã sẵn sàng bắt đầu hành trình khám phá thế giới Bitcoin chưa? Bắt đầu thôi!
 
 
-**Lưu ý**: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.network/resources/glossary) để biết định nghĩa.
+**Lưu ý**: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa.
 
 
 # Điều kiện tiên quyết để hiểu Bitcoin
@@ -140,9 +142,9 @@ Trước khi đi sâu hơn, điều quan trọng là phải phân biệt rõ rà
 Nếu bạn muốn hiểu rõ hơn về nguồn gốc của Bitcoin và điều gì thực sự khiến nó khác biệt so với các dự án khác, tôi khuyên bạn nên xem khóa học tiếp theo miễn phí này về lịch sử của Bitcoin sau:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Như bạn đã biết, nền tảng Plan ₿ Network chỉ dành riêng cho Bitcoin. Tuy nhiên, việc hiểu rõ sự khác biệt với các loại tiền điện tử khác sẽ giúp bạn tránh được những cạm bẫy liên quan đến các dự án vô ích và đôi khi là lừa đảo.
+Như bạn đã biết, nền tảng Plan ₿ Academy chỉ dành riêng cho Bitcoin. Tuy nhiên, việc hiểu rõ sự khác biệt với các loại tiền điện tử khác sẽ giúp bạn tránh được những cạm bẫy liên quan đến các dự án vô ích và đôi khi là lừa đảo.
 
 
 ![BTC102-Bitcoin](assets/vi/002.webp)
@@ -353,6 +355,8 @@ Bảo vệ bản thân khỏi lừa đảo là bước đầu tiên quan trọng
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
+:::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
+
 
 :::id video=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
@@ -363,10 +367,10 @@ Ngay khi bắt đầu tìm hiểu về Bitcoin, bạn sẽ nhanh chóng nhận r
 Chương này hướng dẫn bạn một số bước đơn giản và thiết thực để nâng cao khả năng vệ sinh kỹ thuật số và bảo vệ bản thân trong không gian mạng.
 
 
-Nếu bạn muốn tìm hiểu sâu hơn, khóa học SEC101 của Plan ₿ Network cung cấp thông tin chi tiết về các chiến lược an ninh mạng được thiết kế riêng cho người dùng Bitcoin.
+Nếu bạn muốn tìm hiểu sâu hơn, khóa học SEC101 của Plan ₿ Academy cung cấp thông tin chi tiết về các chiến lược an ninh mạng được thiết kế riêng cho người dùng Bitcoin.
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Tại sao an ninh mạng lại quan trọng
 
@@ -394,7 +398,7 @@ Ngoài việc cập nhật hệ thống và bảo vệ chống vi-rút, hãy h�
 Một thói quen thông minh khác là kiểm tra tính xác thực và tính toàn vẹn của bất kỳ phần mềm nào trước khi cài đặt nó trên máy tính. Nếu bạn không chắc chắn cách thực hiện, đừng lo lắng, chúng tôi có hướng dẫn chi tiết để giúp bạn thực hiện quy trình này:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Cuối cùng, hãy sao lưu thường xuyên dữ liệu quan trọng của bạn. Ổ cứng Hard hoặc SSD ngoài là một lựa chọn đáng tin cậy để lưu trữ bản sao dữ liệu phòng trường hợp máy tính bị hỏng đột ngột, bị hack hoặc vô tình xóa. Bạn sẽ phải cảm ơn chính mình sau.
 
@@ -402,7 +406,7 @@ Cuối cùng, hãy sao lưu thường xuyên dữ liệu quan trọng của bạ
 Nếu bạn thích giải pháp đám mây, hãy cân nhắc sử dụng dịch vụ bảo mật như Proton Drive. Chỉ cần đảm bảo rằng bất kỳ tùy chọn nào bạn chọn đều tôn trọng quyền riêng tư của bạn và cung cấp mã hóa mạnh mẽ.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Một chiến lược sao lưu được khuyến nghị rộng rãi là "quy tắc 3-2-1". Quy tắc này được thiết kế để bảo vệ dữ liệu của bạn khỏi mất mát do tai nạn, tấn công mạng hoặc thậm chí là thiên tai.
 
@@ -443,12 +447,12 @@ Với trình quản lý mật khẩu, bạn sẽ không bao giờ phải nhấp 
 Có rất nhiều trình quản lý mật khẩu, nhưng tôi có thể giới thiệu hai lựa chọn đáng tin cậy tùy thuộc vào nhu cầu của bạn. Nếu bạn đang tìm kiếm một trình quản lý mật khẩu dễ sử dụng và đồng bộ hóa liền mạch trên nhiều thiết bị, Bitwarden là một lựa chọn tuyệt vời:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Nếu bạn muốn lưu trữ mọi thứ cục bộ trên thiết bị của mình, KeePass là một lựa chọn tuyệt vời:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ### 2FA: bảo vệ kép
 
@@ -462,7 +466,7 @@ Trong Bitcoin, bạn là ngân hàng của chính mình. Điều đó có nghĩa
 2FA bổ sung thêm lớp bảo vệ Layer thứ hai bằng cách yêu cầu mã xác thực một lần theo thời gian (thường là 6 chữ số) được tạo bởi các ứng dụng như Google Authenticator hoặc Authy. Vì vậy, ngay cả khi ai đó lấy được mật khẩu của bạn, họ vẫn không thể truy cập tài khoản của bạn nếu không có quyền truy cập vật lý vào điện thoại.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ![BTC102-Bitcoin](assets/vi/009.webp)
 
@@ -476,7 +480,7 @@ Khi bật 2FA, hãy đảm bảo lưu khóa khôi phục cho ứng dụng ở n�
 Đối với những người muốn nâng cao mức độ bảo mật hơn nữa, các loại khóa vật lý như YubiKey cung cấp mức độ bảo vệ thậm chí còn cao hơn.
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Bảo vệ quyền riêng tư của bạn
 
@@ -497,12 +501,12 @@ Quyền riêng tư và an ninh mạng có mối liên hệ chặt chẽ: bạn c
 ![BTC102-Bitcoin](assets/vi/015.webp)
 
 
-Chúng tôi có một số hướng dẫn về Plan ₿ Network có thể hướng dẫn bạn thiết lập VPN một cách dễ dàng. Tôi đặc biệt khuyên dùng IVPN hoặc Mullvad:
+Chúng tôi có một số hướng dẫn về Plan ₿ Academy có thể hướng dẫn bạn thiết lập VPN một cách dễ dàng. Tôi đặc biệt khuyên dùng IVPN hoặc Mullvad:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Các bước thiết yếu để bảo vệ quyền riêng tư trực tuyến của bạn cũng bao gồm:
 
@@ -511,21 +515,21 @@ Các bước thiết yếu để bảo vệ quyền riêng tư trực tuyến c�
 - Sử dụng các trình duyệt chú trọng quyền riêng tư như Firefox, Brave hoặc Tor (để tăng cường tính ẩn danh);
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
 - Sử dụng **hộp thư an toàn** như ProtonMail;
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 
 
 - Mã hóa** các tệp của bạn bằng các công cụ như Bitlocker (dành cho Windows) hoặc VeraCrypt (có sẵn trên nhiều nền tảng).
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Tiến trình từng bước
 
@@ -542,7 +546,7 @@ Khi bạn tìm hiểu sâu hơn về thế giới Bitcoin, bạn sẽ nhận th�
 Tóm lại: đừng đánh giá thấp an ninh mạng, hãy dành thời gian thiết lập những điều cơ bản và nhớ rằng tính nhất quán là chìa khóa. Nếu không có hệ thống bảo mật số tốt, ngay cả những công cụ tốt nhất cũng sẽ không giúp ích được gì nhiều.
 
 
-Ngoài ra, hãy nhớ xem [hướng dẫn bảo mật máy tính của chúng tôi](https://planb.network/tutorials/computer-security) trên Plan ₿ Network.
+Ngoài ra, hãy nhớ xem [hướng dẫn bảo mật máy tính của chúng tôi](https://planb.academy/tutorials/computer-security) trên Plan ₿ Academy.
 
 
 ![BTC102-Bitcoin](assets/vi/016.webp)
@@ -647,7 +651,7 @@ Quan trọng nhất là đừng đưa ra quyết định đầu tư dựa trên 
 
 Nếu bạn vẫn chưa chắc chắn, **hãy bắt đầu bằng việc học.**
 
-Hãy dành vài giờ khám phá Bitcoin, tham khảo các tài nguyên miễn phí về Plan ₿ Network, đọc vài cuốn sách, bỏ ra năm euro để dùng thử và xem một số nội dung chất lượng trực tuyến. Hãy luôn tò mò. Bạn càng thoải mái, việc xem lại chiến lược, điều chỉnh cách tiếp cận và tiến về phía trước một cách tự tin sẽ càng dễ dàng.
+Hãy dành vài giờ khám phá Bitcoin, tham khảo các tài nguyên miễn phí về Plan ₿ Academy, đọc vài cuốn sách, bỏ ra năm euro để dùng thử và xem một số nội dung chất lượng trực tuyến. Hãy luôn tò mò. Bạn càng thoải mái, việc xem lại chiến lược, điều chỉnh cách tiếp cận và tiến về phía trước một cách tự tin sẽ càng dễ dàng.
 
 
 ### Hiểu về sự biến động của BTC
@@ -693,7 +697,7 @@ Một trong những tính năng mạnh mẽ nhất (và thường bị đánh gi
 Nếu bạn đã sẵn sàng thực hiện Ownership trong Bitcoin và muốn tìm hiểu sâu hơn về các phương pháp hay nhất để đảm bảo cụm từ khôi phục của mình, tôi thực sự khuyên bạn nên xem bài viết này:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Tính bảo mật và kín đáo
 
@@ -717,7 +721,7 @@ Cũng nên **phân chia hoạt động trực tuyến của bạn**. Ví dụ:
 Nếu bạn đã sẵn sàng tìm hiểu sâu hơn về chủ đề quyền riêng tư Bitcoin, chúng tôi khuyên bạn nên tiếp tục với Khóa học Quyền riêng tư Năm 2 của chúng tôi, nơi bạn sẽ học các kỹ thuật nâng cao hơn để giữ an toàn cho danh tính và hoạt động của mình:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Tác động về thuế
 
@@ -895,7 +899,7 @@ Nhiều người hiểu đây là mục tiêu của Bitcoin: cung cấp một ph
 Để giúp bạn hiểu sâu hơn về nguồn gốc của Bitcoin, chúng tôi cung cấp khóa đào tạo miễn phí, toàn diện và có tài liệu đầy đủ về chủ đề này:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 ### Một mạng lưới phi tập trung để chuyển giao giá trị
 
@@ -1007,7 +1011,7 @@ Mặc dù phương pháp này mang tính kỹ thuật hơn, nhưng nó cung cấ
 #### Một phương thức thanh toán xuyên biên giới linh hoạt
 
 
-Nhờ tính chất phi tập trung, Bitcoin hoạt động 24/7, không bị ảnh hưởng bởi biên giới hay múi giờ. Tại những khu vực còn thiếu cơ sở hạ tầng ngân hàng truyền thống, Bitcoin thường được sử dụng như một giải pháp nhanh chóng, chi phí thấp để gửi hoặc nhận tiền mà không cần phụ thuộc vào các trung gian đắt đỏ. Mặc dù phí giao dịch có thể thay đổi tùy theo tình trạng tắc nghẽn mạng, nhưng nhìn chung vẫn thấp hơn nhiều so với phí mà các ngân hàng áp dụng cho các giao dịch chuyển khoản quốc tế. Ngoài ra, các giải pháp Layer-2 như Lightning Network cho phép giao dịch Bitcoin nhanh hơn và rẻ hơn.
+Nhờ tính chất phi tập trung, Bitcoin hoạt động 24/7, không bị ảnh hưởng bởi biên giới hay múi giờ. Tại những khu vực còn thiếu cơ sở hạ tầng ngân hàng truyền thống, Bitcoin thường được sử dụng như một giải pháp nhanh chóng, chi phí thấp để gửi hoặc nhận tiền mà không cần phụ thuộc vào các trung gian đắt đỏ. Mặc dù phí giao dịch có thể thay đổi tùy theo tình trạng tắc nghẽn mạng, nhưng nhìn chung vẫn thấp hơn nhiều so với phí mà các ngân hàng áp dụng cho các giao dịch chuyển khoản quốc tế. Ngoài ra, các giải pháp Layer-2 như [Lightning Network](https://planb.academy/resources/glossary/lightning-network) cho phép giao dịch Bitcoin nhanh hơn và rẻ hơn.
 
 
 #### Một kho lưu trữ giá trị
@@ -1037,10 +1041,10 @@ Tuy nhiên, sau hơn một thập kỷ tồn tại, Bitcoin vẫn tiếp tục k
 ![BTC102-Bitcoin](assets/vi/028.webp)
 
 
-Nếu bạn muốn mở rộng kiến thức hơn nữa, bạn có thể tham gia khóa học BTC101 về Plan ₿ Network, khóa học này cung cấp kiến thức chuyên sâu hơn về các nguyên tắc kinh tế và kỹ thuật cơ bản của Bitcoin.
+Nếu bạn muốn mở rộng kiến thức hơn nữa, bạn có thể tham gia khóa học BTC101 về Plan ₿ Academy, khóa học này cung cấp kiến thức chuyên sâu hơn về các nguyên tắc kinh tế và kỹ thuật cơ bản của Bitcoin.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Sau phần giới thiệu về Bitcoin (có thể dài hơn 5 phút một chút!), giờ đây bạn đã được trang bị tốt hơn để cân nhắc mua và bảo mật bitcoin. Trong các chương tiếp theo của khóa học, chúng ta sẽ đi sâu hơn vào tầm quan trọng của Bitcoin, hoạt động của ngành công nghiệp này và sự phát triển của các lớp khác nhau. Tiếp theo, trong phần tiếp theo, chúng ta sẽ thảo luận về cách thiết lập kế hoạch cá nhân của riêng bạn.
 
@@ -1464,15 +1468,15 @@ Các nền tảng này cho phép người dùng mua và bán Bitcoin trực ti�
 **Thận trọng:** Đối với bất kỳ giao dịch thực tế nào, hãy chọn địa điểm công khai và an toàn để tránh các vụ lừa đảo tiềm ẩn.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - Nền tảng Exchange chỉ dành cho Bitcoin**
@@ -1481,13 +1485,13 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 Các nền tảng này áp dụng phương pháp tiếp cận thân thiện với người dùng, cung cấp dịch vụ đơn giản, minh bạch. Chúng chỉ dành cho Bitcoin. Chúng thường triển khai các giải pháp mua bitcoin thông qua phương pháp Trung bình Chi phí Đô la (DCA) và cung cấp dịch vụ rút tiền tự động vào tài khoản Wallet cá nhân. Chúng đặc biệt phù hợp với người mới bắt đầu muốn tích lũy bitcoin một cách an toàn và liên tục. Ví dụ: Relai, Bull Bitcoin, StackinSat, Bitstack...
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - Nền tảng Exchange đa năng hoặc hướng đến giao dịch**
@@ -1496,13 +1500,13 @@ https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-42
 Các nền tảng này cung cấp các tính năng nâng cao vượt xa việc chỉ mua Bitcoin, bao gồm đòn bẩy và các sản phẩm phái sinh. Tuy nhiên, chúng tôi khuyến nghị bạn không nên giao dịch. Thay vào đó, chúng tôi khuyên bạn nên mua Bitcoin và chuyển nó sang Wallet của riêng bạn. Giao dịch là một hoạt động rủi ro cao và thường không phù hợp với những người tập trung vào tích lũy dài hạn. Tránh xa trò chơi giao dịch thường là lựa chọn thông minh hơn.
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 **Nền tảng Exchange không phải là ví an toàn**. Việc lưu trữ bitcoin trên Exchange sẽ khiến bạn gặp rủi ro đáng kể. Một số trường hợp có thể dẫn đến mất tiền:
 
@@ -1538,7 +1542,7 @@ Ngành công nghiệp Bitcoin Wallet được chia thành nhiều loại, mỗi 
 
 
 
-- Các nhà sản xuất Hardware Wallet**: Các công ty này phát triển các thiết bị vật lý được thiết kế để lưu trữ khóa an toàn. Một số là mã nguồn mở, trong khi những công ty khác cung cấp các giải pháp độc quyền với nhiều tính năng và mức độ bảo mật khác nhau. Những cái tên đáng chú ý bao gồm Ledger, Trezor, Coinkite, Foundation và Shiftcrypto.
+- Các nhà sản xuất [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Các công ty này phát triển các thiết bị vật lý được thiết kế để lưu trữ khóa an toàn. Một số là mã nguồn mở, trong khi những công ty khác cung cấp các giải pháp độc quyền với nhiều tính năng và mức độ bảo mật khác nhau. Những cái tên đáng chú ý bao gồm Ledger, Trezor, Coinkite, Foundation và Shiftcrypto.
 - Software Wallet Developers**: Bao gồm các công ty và nhà phát triển độc lập chuyên tạo ứng dụng di động và máy tính để bàn. Các sản phẩm của họ đa dạng về trải nghiệm người dùng, bảo mật và tính năng. Ví dụ bao gồm Sparrow, Wizard Sardine, Galoy, Synonym và Blockstream.
 - Ví DIY (*Tự làm*): Các giải pháp mã nguồn mở này được thiết kế cho người dùng nâng cao muốn kiểm soát hoàn toàn và ít phụ thuộc vào bên thứ ba. Việc tự xây dựng Wallet giúp giảm thiểu sự phụ thuộc vào độ tin cậy và có thể tăng cường khả năng bảo mật của bạn. Các tùy chọn DIY đáng chú ý bao gồm Seedsigner và Spectre DIY.
 
@@ -1567,7 +1571,7 @@ Hệ sinh thái Mining bao gồm một số thành phần chính:
 Mining là một thế giới riêng biệt, với nhiều tầng lớp để khám phá; những thách thức kỹ thuật, các ưu đãi kinh tế và các cân nhắc về năng lượng đều được đưa vào. Đối với những ai quan tâm đến việc tìm hiểu sâu hơn về lĩnh vực này và thực sự hiểu cách thức hoạt động của nó, khóa học MIN201 của chúng tôi sẽ hướng dẫn bạn mọi kiến thức cần thiết.
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 #### Sự phát triển trong hệ sinh thái Bitcoin
 
@@ -1603,7 +1607,7 @@ Ngay cả khi người bảo trì chấp thuận một thay đổi gây tranh c�
 Cũng cần lưu ý rằng **Bitcoin core không phải là máy khách duy nhất**. Các lựa chọn thay thế như Bitcoin Knots cũng triển khai giao thức Bitcoin, mang đến cho người dùng nhiều lựa chọn hơn và củng cố tính phi tập trung của hệ thống:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 ## Kiến trúc phân lớp của Bitcoin
 
@@ -1642,7 +1646,7 @@ Giả sử bạn mua cà phê bằng Bitcoin sử dụng mã cơ sở Layer. Đ�
 Nếu bạn muốn tìm hiểu thêm về cách thức hoạt động của Lightning, chúng tôi cung cấp khóa học năm thứ hai tuyệt vời dành riêng cho chủ đề này:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 - Chuỗi bên**:
@@ -1660,7 +1664,7 @@ Khái niệm sidechain được giới thiệu vào năm 2014 bởi Adam Back, M
 Nếu bạn muốn tìm hiểu chi tiết hơn về Liquid, chúng tôi cung cấp khóa học nâng cao năm thứ ba về chủ đề này:
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 - RGB**:
@@ -1678,7 +1682,7 @@ Một tính năng quan trọng của RGB là khả năng bảo vệ chống lạ
 Để nâng cao kiến thức của bạn về RGB, chúng tôi cung cấp khóa đào tạo năm thứ tư (vui lòng lưu ý rằng khóa học này có tính kỹ thuật cao):
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB chỉ là một trong nhiều giao thức được xây dựng dựa trên Bitcoin. Mặc dù một số giao thức được áp dụng rộng rãi hơn những giao thức khác, nhưng những giao thức mới vẫn tiếp tục xuất hiện. Điểm chung là ý tưởng tối ưu hóa từng giao thức Layer cho một tác vụ cụ thể, đồng thời vẫn duy trì tính toàn vẹn và tính bất biến của giao thức cơ sở Bitcoin.
 
@@ -1701,17 +1705,17 @@ Ngày nay, có rất nhiều công cụ dành cho các thương gia muốn chấ
 Nếu bạn thích giải pháp không cần can thiệp và muốn nhận tiền pháp định trực tiếp vào tài khoản ngân hàng của mình, các dịch vụ lưu ký như OpenNode cung cấp trải nghiệm hợp lý:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Đối với các thương nhân có thiên hướng kỹ thuật hơn và muốn kiểm soát toàn bộ quy trình, BTCPay Server là một lựa chọn mã nguồn mở tuyệt vời. Nhược điểm chính là cần thời gian để thiết lập và bảo trì, cùng với một số kiến thức kỹ thuật:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Ở đâu đó giữa hai lựa chọn này, bạn sẽ tìm thấy Swiss Bitcoin Pay, một giải pháp thân thiện với người dùng nhưng mạnh mẽ, cân bằng tốt giữa tính dễ sử dụng, chức năng và bảo mật. Giải pháp này phù hợp cho cả các nhà bán lẻ nhỏ và doanh nghiệp lớn:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Việc chấp nhận Bitcoin có thể mang lại nhiều lợi ích thiết thực và tài chính cho doanh nghiệp. Giống như tiền mặt, Bitcoin cho phép thanh toán trực tiếp giữa khách hàng và nhà cung cấp (không cần thông qua ngân hàng truyền thống). Các khoản thanh toán được thực hiện thông qua Lightning Network là ngay lập tức và cuối cùng, giúp giảm thiểu rủi ro bị hoàn tiền. Và khi nhà cung cấp nắm giữ Bitcoin (tự lưu giữ), họ sẽ có được quyền tự chủ tài chính lớn hơn.
 
@@ -1731,7 +1735,7 @@ Hơn nữa, việc chấp nhận Bitcoin có thể là một bước đi tiếp 
 Nếu bạn muốn tìm hiểu cách tích hợp Bitcoin vào doanh nghiệp của mình (dù là phương thức thanh toán, tài sản kho bạc hay cả hai), chúng tôi cung cấp khóa học dành cho người mới bắt đầu phù hợp với nhu cầu đó:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Bitcoin đang dần chiếm ưu thế so với Exchange, với sự ứng dụng ngày càng rộng rãi trong nhiều ngành công nghiệp. Lightning Network đã giúp thanh toán nhanh hơn và rẻ hơn, qua đó càng làm tăng sức hấp dẫn của Bitcoin đối với các nhà bán lẻ.
 
@@ -1775,6 +1779,8 @@ Tiếp theo trong khóa học: chúng ta sẽ đi vào thực tế và giúp b�
 
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
+
+:::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 
 :::id video=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
@@ -2055,7 +2061,7 @@ Nếu Hot Wallet của bạn tích lũy quá nhiều bitcoin, bạn có thể ch
 Cuối cùng, bảo mật phần lớn phụ thuộc vào cách bạn sử dụng các công cụ. Hardware Wallet sẽ chẳng giúp ích gì nếu bạn làm mất, tiết lộ hoặc xâm phạm cụm từ Mnemonic. Thận trọng và kỷ luật là biện pháp bảo vệ tốt nhất của bạn khỏi việc mất bitcoin. Để biết thêm về vấn đề này, tôi thực sự khuyên bạn nên đọc bài viết này:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Phương pháp mua lại và khối lượng giao dịch
 
@@ -2114,7 +2120,7 @@ Việc mua Bitcoin mà không tiết lộ danh tính là một lựa chọn dàn
 - Nền tảng P2P**: Các nền tảng như Bisq, RoboSats và Peach tạo điều kiện thuận lợi cho việc trao đổi giữa các cá nhân mà không cần xác minh danh tính, sử dụng hệ thống ký quỹ để bảo mật giao dịch. Các nền tảng này vẫn tiềm ẩn rủi ro bị đánh cắp nếu bên kia không hợp tác, nhưng rủi ro này được giảm thiểu nhờ dịch vụ ký quỹ.
 - Máy rút tiền tự động (ATM) Bitcoin**: Một số máy ATM (ki-ốt) cho phép bạn mua Bitcoin bằng tiền mặt, mặc dù phí thường cao và một số máy yêu cầu xác minh ID đối với các giao dịch lớn hơn.
 - Nền tảng Exchange không cần KYC**: Một số nền tảng, đặc biệt là ở Thụy Sĩ, cho phép bạn mua số lượng nhỏ Bitcoin mà không cần xác minh ID.
-- Mining**: Cá nhân có thể đào Bitcoin. Các máy cũ hơn hoặc nhỏ hơn đều có thể tiếp cận, mang đến một cách thức phi truyền thống để sở hữu Bitcoin mà không cần KYC. Khi tham gia Mining pool, bạn có thể nhận được các khoản thanh toán thường xuyên, ngay cả khi chỉ có thiết bị cơ bản. Để biết thêm thông tin, [hãy xem hướng dẫn Mining của chúng tôi](https://planb.network/tutorials/Mining).
+- Mining**: Cá nhân có thể đào Bitcoin. Các máy cũ hơn hoặc nhỏ hơn đều có thể tiếp cận, mang đến một cách thức phi truyền thống để sở hữu Bitcoin mà không cần KYC. Khi tham gia Mining pool, bạn có thể nhận được các khoản thanh toán thường xuyên, ngay cả khi chỉ có thiết bị cơ bản. Để biết thêm thông tin, [hãy xem hướng dẫn Mining của chúng tôi](https://planb.academy/tutorials/mining).
 - Thanh toán / Lương bằng Bitcoin**: Nếu bạn đang kinh doanh, bạn có thể chấp nhận Bitcoin làm phương thức thanh toán. Nếu bạn đang làm việc, tùy thuộc vào khu vực pháp lý, bạn có thể yêu cầu được trả lương bằng Bitcoin. Các phương thức này cho phép bạn nhận Bitcoin mà không cần KYC.
 
 
@@ -2239,6 +2245,8 @@ Trong các chương tiếp theo, chúng ta sẽ tìm hiểu chi tiết từng h�
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
+:::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
+
 
 :::id video=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
 
@@ -2281,22 +2289,22 @@ Trước hết, hãy chú ý đến vấn đề bảo mật. Hardware Wallet là
 Sau đây là một số hướng dẫn về ví phù hợp với người nắm giữ:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Sau khi thiết lập Wallet, hãy đảm bảo sao lưu cụm từ khôi phục 12 hoặc 24 từ của bạn vào một phương tiện vật lý bền chắc. Để tìm hiểu thêm về phương tiện lưu trữ cụm từ của bạn, hãy làm theo hướng dẫn này:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Để an tâm hơn, bạn có thể thêm các lớp bảo vệ như:
 
@@ -2304,13 +2312,13 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 - Wallet đa chữ ký có khóa thời gian:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 
 - Một BIP39 passphrase:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![BTC102-Bitcoin](assets/vi/073.webp)
 
@@ -2324,13 +2332,13 @@ Người nắm giữ không bao giờ để tiền của họ trên các sàn gi
 Vì người nắm giữ có xu hướng đầu tư số tiền lớn hơn, họ cần những sàn giao dịch có tính thanh khoản cao. Dưới đây là một vài sàn giao dịch đáp ứng được yêu cầu này:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
 ![BTC102-Bitcoin](assets/vi/074.webp)
 
@@ -2375,7 +2383,7 @@ Một số cách thực hành tốt nhất:
 Để theo dõi tài sản của bạn mà không làm lộ khóa riêng, hãy cân nhắc sử dụng Watch-only wallet. Thiết bị này cho phép bạn theo dõi số dư và giao dịch chỉ bằng khóa công khai.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Chiến lược của người nắm giữ cổ phiếu (hodler) rất đơn giản nhưng hiệu quả: mua, bảo toàn và quên đi. Thách thức thực sự không nằm ở kỹ thuật; mà là tâm lý. Phần khó nhất là kiềm chế ham muốn bán quá sớm hoặc hoảng loạn khi giá giảm. Nhưng nếu bạn giữ kỷ luật và suy nghĩ dài hạn, nắm giữ cổ phiếu đã được chứng minh là một cách đáng tin cậy để bảo toàn giá trị và tích lũy tài sản theo thời gian.
 
@@ -2411,6 +2419,8 @@ Trong chương tiếp theo, chúng ta sẽ khám phá một cấu hình tương 
 
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
+
+:::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
 
 
 :::id video=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
@@ -2460,38 +2470,38 @@ Máy xếp chồng cần có thiết lập Wallet cân bằng giữa tính dễ 
 - Hot Wallet**: Lý tưởng cho người mới bắt đầu, ví di động hoặc máy tính để bàn cho phép bạn dễ dàng nhận Sats và thực hiện thanh toán. Tuy nhiên, chúng phù hợp nhất với số tiền nhỏ. Ví On-Chain được ưa chuộng hơn để tích trữ so với ví Lightning do khả năng quản lý UTXO tốt hơn. Ví phần mềm được đề xuất: Green Wallet, Blue Wallet, Sparrow wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
+https://planb.academy/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 - Hardware Wallet**: Khi số lượng ví Bitcoin của bạn tăng lên, việc bảo mật tiền của bạn bằng ví Cold Wallet là điều cần thiết để giảm thiểu rủi ro bị đánh cắp. Một người dùng ví chuyên nghiệp thường xuyên chuyển tiền từ ví Hot Wallet sang ví Hardware Wallet. Ví dụ: Bitbox02, Trezor, Ledger, Coldcard, Jade...
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Cách tiếp cận hiệu quả nhất là sử dụng cả hai: Hot Wallet để xếp chồng hàng ngày và Hardware Wallet để lưu trữ Cold dài hạn. Hot Wallet dễ sử dụng và tiện lợi. Nó cho phép bạn nhanh chóng sở hữu bitcoin của mình, thay vì để chúng trên nền tảng nơi chúng có thể gặp rủi ro. Tuy nhiên, so với Hardware Wallet, Hot Wallet cung cấp ít bảo mật hơn nhiều. Do đó, người xếp chồng phải thường xuyên chuyển tiền của mình sang Cold Wallet để đảm bảo khoản tiết kiệm dài hạn của mình và tránh giữ quá nhiều tiền trong Hot Wallet. Định kỳ, người xếp chồng sẽ hợp nhất các UTXO khi chuyển sang lưu trữ Cold; hợp nhất các đầu vào nhỏ để tối ưu hóa phí giao dịch trong tương lai.
 
@@ -2519,37 +2529,37 @@ Tiếp theo, bạn có hai lựa chọn để thiết lập DCA: tự động h�
 Ví dụ về nền tảng DCA:
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 Các sàn giao dịch chính thống hỗ trợ DCA:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 Người xếp chồng cũng có thể muốn tăng cường quyền riêng tư, ngay cả khi đó không phải là mục tiêu chính của họ. Trong trường hợp này, họ nên cân nhắc sử dụng phương thức mua hàng P2P, bên ngoài các nền tảng được quản lý. Không giống như giao dịch DCA tự động, các phương thức này yêu cầu bạn phải quản lý chiến lược mua hàng của mình theo cách thủ công, vì vậy tính kỷ luật là chìa khóa để duy trì đúng hướng.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 #### 3. Rút và bảo mật bitcoin
 
@@ -2579,7 +2589,7 @@ Thói quen chính:
 Để dễ dàng theo dõi mà không ảnh hưởng đến bảo mật, hãy thiết lập Watch-only wallet để theo dõi số dư bằng khóa công khai.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Đánh giá hồ sơ xếp chồng của bạn
 
@@ -2671,53 +2681,53 @@ Người dùng tích cực nên sử dụng hai loại ví khác nhau để cân
 - Cold Wallet (Hardware Wallet) để đảm bảo tiết kiệm dài hạn.
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 
 - Một hoặc nhiều ví di động Hot cho các giao dịch hàng ngày. Thông thường, một người dùng đang hoạt động sẽ có cả ví On-Chain, Hot, Wallet và ví Lightning Wallet.
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
+https://planb.academy/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 Việc tách tiền theo cách này giúp giảm thiểu rủi ro trong trường hợp Wallet được sử dụng để thanh toán hàng ngày bị xâm phạm.
 
@@ -2728,22 +2738,22 @@ Việc tách tiền theo cách này giúp giảm thiểu rủi ro trong trườn
 Người dùng chủ động thường muốn giảm sự phụ thuộc vào các bên thứ ba đáng tin cậy, tùy thuộc vào hoàn cảnh cá nhân. Một trong những cách hiệu quả nhất để đạt được điều này là vận hành nút Bitcoin của riêng họ. Điều này cho phép họ sử dụng mạng một cách độc lập, đồng thời tăng cường tính riêng tư cho các giao dịch.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 Đối với những người thường xuyên sử dụng Lightning Network, việc tự quản lý node LND, LDK hoặc Core-Lightning của riêng họ có thể là một bước đi thông minh. Điều này cho phép họ kiểm soát hoàn toàn việc đóng mở kênh, tăng cường tính tự chủ và thậm chí có thể giúp giảm phí giao dịch; đặc biệt là khi so sánh với các giải pháp tự động như Phoenix, hoặc tệ hơn là ví Lightning lưu ký.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 #### 3. Thu thập Bitcoin thông thường
 
@@ -2761,45 +2771,45 @@ Có một số cách để có được Bitcoin, tùy thuộc vào mức độ r
 - Mua theo cách truyền thống thông qua các nền tảng được quản lý** như Bitfinex hoặc Bull Bitcoin (lý tưởng để nạp thêm tiền vào Cold Wallet của bạn);
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - Thu thập thông tin không cần KYC** thông qua các dịch vụ ngang hàng như Peach, Robosats hoặc ATM Bitcoin; cho phép bạn nạp tiền vào Wallet mà không cần tiết lộ thông tin cá nhân.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - Kiếm tiền bằng Bitcoin**. Trở thành người dùng tích cực không chỉ là chi tiêu BTC; mà còn là kiếm tiền. Nếu bạn đang kinh doanh, hãy cân nhắc chấp nhận Bitcoin làm phương thức thanh toán. Nếu bạn là nhân viên, hãy xem liệu công ty có cung cấp tùy chọn nhận toàn bộ hoặc một phần lương bằng BTC hay không.
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 ![BTC102-Bitcoin](assets/vi/081.webp)
 
@@ -2819,7 +2829,7 @@ Một cách tiếp cận hợp lý hơn là phương pháp "Chi tiêu và Thay t
 Vì chúng ta vẫn đang trong giai đoạn chuyển đổi, khi không phải tất cả các đơn vị giao dịch hàng ngày đều chấp nhận BTC, nên có một số giải pháp đơn giản nhưng hiệu quả. Ví dụ: mua thẻ quà tặng bằng Bitcoin là một giải pháp thiết thực, và nhiều nhà cung cấp như Bitrefill, Coinsbee hoặc The Bitcoin Company đều cung cấp dịch vụ này.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 #### 5. Nhận thức và tính linh hoạt về công nghệ
 
@@ -2859,6 +2869,8 @@ Trong chương tiếp theo, chúng ta sẽ khám phá hồ sơ người dùng Bi
 
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
+
+:::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
 
 
 :::id video=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
@@ -2911,21 +2923,21 @@ Người dùng hoang tưởng không bao giờ trộn lẫn tiền dựa trên n
 - Cold Wallet (ví air-gapped và/hoặc tự làm)** Các khoản nắm giữ dài hạn được lưu trữ trong các ví air-gapped hoặc tự làm có độ bảo mật cao. Đây thường là các thiết bị nguồn mở hoặc có mã xác minh, chẳng hạn như Jade, Coldcard, SeedSigner, Portal hoặc Passport... Bất cứ khi nào có thể, họ sẽ mua các thiết bị này một cách ẩn danh; bằng cách trả tiền mặt hoặc sử dụng Bitcoin tại cửa hàng thực tế, hoặc bằng cách đặt hàng trực tuyến với các tùy chọn vận chuyển kín đáo và thanh toán bằng BTC. Ví dụ, tại Pháp, [Bitcoin Bazar](https://bitcoinbazar.fr/) là một trong những cửa hàng như vậy. Bạn có thể tìm kiếm các nhà cung cấp tương tự trong khu vực của mình.
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
 - Hot Wallet dành cho các giao dịch hàng ngày**. Đối với chi tiêu thường xuyên, người dùng e ngại lựa chọn các ví tập trung vào quyền riêng tư như Ashigaru, Wasabi Wallet hoặc Sparrow wallet. Các ví này hỗ trợ các tính năng nâng cao như: giao dịch chi tiêu mini-CoinJoin, payjoin, công cụ CoinJoin tiềm năng, kiểm soát Coin, gắn thẻ UTXO hoặc khả năng kết nối thông qua nút Bitcoin của riêng bạn.
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
 ![BTC102-Bitcoin](assets/vi/089.webp)
 
@@ -2935,23 +2947,23 @@ https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-80
 - Việc vận hành **nút Bitcoin** của riêng họ là điều cần thiết. Nó đảm bảo toàn quyền kiểm soát việc phát sóng giao dịch và tránh phụ thuộc vào cơ sở hạ tầng của bên thứ ba. Nó cũng bảo vệ quyền riêng tư, ngăn chặn kiểm duyệt và cho phép họ tự xác minh các quy tắc của giao thức Bitcoin. Dù trên Linux, Windows, macOS hay thông qua các thiết lập plug-and-play như RaspiBlitz, myNode hay Start9, người dùng hoang tưởng đều coi nút của họ như một trụ cột chủ quyền không thể thương lượng.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 
 - Để giao dịch qua **Lightning Network** mà vẫn duy trì mức độ kiểm soát và quyền tự quyết như cũ, họ cũng vận hành nút Lightning riêng. Điều này cho phép họ quản lý trực tiếp các kênh và chi tiêu theo cách giảm thiểu sự giám sát hoặc phụ thuộc vào các dịch vụ lưu ký.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 ![BTC102-Bitcoin](assets/vi/090.webp)
 
@@ -2959,19 +2971,19 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 Bảo mật không chỉ dừng lại ở đó. Để sao lưu các cụm từ seed, người dùng hoang tưởng sử dụng các bản sao lưu kim loại kết hợp với phong bì niêm phong chống giả mạo. Họ thường xuyên kiểm tra để đảm bảo các bản sao lưu không bị xâm phạm và kiểm tra các quy trình khôi phục Wallet để sẵn sàng cho mọi tình huống bất ngờ.
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Khi nói đến việc bảo mật tiền tiết kiệm, họ có thể triển khai các thiết lập phức tạp hơn như ví đa chữ ký (có hoặc không có khóa thời gian).
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Những cấu hình này giúp giảm thiểu rủi ro. Việc thêm BIP39 passphrase vào cụm từ seed sẽ tăng thêm một lớp bảo vệ nữa cho Layer và đảm bảo quyền truy cập vào quỹ của họ không thể bị xâm phạm chỉ bằng một phát hiện duy nhất.
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Một người dùng Bitcoin hoang tưởng tất nhiên sẽ có một kế hoạch thừa kế được cân nhắc kỹ lưỡng cho số Bitcoin của mình. Chủ đề quan trọng này sẽ được đề cập chi tiết trong phần tiếp theo của khóa học.
 
@@ -2983,50 +2995,50 @@ Nói rộng hơn, loại người dùng này áp dụng một phương pháp ti�
 - Hệ điều hành**, cả trên điện thoại và máy tính của họ;
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 - Công cụ xác thực**;
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 
 - Công cụ giao tiếp**;
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 - Công cụ quản lý dữ liệu**.
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 Nếu bạn muốn tìm hiểu thêm về chủ đề bảo mật CNTT, chúng tôi cung cấp khóa học năm nhất hoàn chỉnh dành riêng cho chủ đề này:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 #### 2. Mua bitcoin ẩn danh
 
@@ -3038,21 +3050,21 @@ Một nguyên tắc cốt lõi của các nhà đầu tư hoang tưởng là mua
 - Nền tảng mua P2P** như Bisq, Robosat, LNP2PBot, Peach, HODL HODL, v.v.;
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - Giao dịch tiền mặt trực tiếp**, ví dụ như tại các buổi gặp mặt Bitcoin tại địa phương;
 
 
-https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
+https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 
 - Máy ATM Bitcoin**;
@@ -3060,11 +3072,11 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 - Mining bitcoin**.
 
 
-https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
+https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
+https://planb.academy/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
-https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
+https://planb.academy/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
 Các sàn giao dịch tập trung hoàn toàn bị tránh do những rủi ro mà chúng gây ra; cả về quyền riêng tư lẫn khả năng bị kiểm duyệt hoặc tịch thu.
 
@@ -3092,7 +3104,7 @@ Họ cũng quen thuộc với những kiến thức cơ bản về giám sát Bl
 Đối với những người muốn tìm hiểu sâu hơn về quyền riêng tư và khả năng chống giám sát của On-Chain, chúng tôi cung cấp khóa đào tạo nâng cao năm thứ hai về các biện pháp bảo mật của Bitcoin:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 4. Luôn cảnh giác và cập nhật chiến lược của họ
 
@@ -3465,7 +3477,7 @@ Nếu cần, hãy tham khảo ý kiến luật sư hoặc công chứng viên đ
 **Xin chúc mừng!** Bạn đã hoàn thành một bước quan trọng trong việc bảo vệ tài sản Bitcoin của mình. Giờ đây, bạn có thể tinh chỉnh kế hoạch thừa kế của mình bằng cách xem xét định kỳ và khám phá các giải pháp nâng cao hơn như giảm thiểu thiết lập Multisig bằng khóa thời gian:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Tài liệu tham khảo: [*Lập kế hoạch thừa kế tài sản tiền điện tử, Hướng dẫn đơn giản dành cho chủ sở hữu* - Pamela Morgan, 2018.](https://www.amazon.com/gp/product/1947910116/)
 
@@ -3479,6 +3491,8 @@ Xin chân thành cảm ơn [Pamela Morgan](https://x.com/pamelawjd) vì công s�
 
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
+
+:::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
 
 :::id video=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
@@ -3552,39 +3566,39 @@ Hành trình của bạn không dừng lại ở đây. Bitcoin là một thế 
 - Để nâng cao khả năng bảo mật kỹ thuật số của bạn, hãy bắt đầu với khóa học bảo mật cơ bản của chúng tôi:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 - Nếu bạn quan tâm đến khía cạnh kinh tế và triết học của Bitcoin, hãy xem các khóa học chuyên sâu sau:
 
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 
 - Các chủ doanh nghiệp quan tâm đến việc tích hợp Bitcoin vào chiến lược công ty của mình không nên bỏ lỡ:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 - Để khám phá câu chuyện hấp dẫn đằng sau sự ra đời của Bitcoin và những năm đầu của hệ thống, tôi thực sự khuyên bạn nên tham gia khóa học này:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 - Cuối cùng, nếu bạn tò mò về các khía cạnh kỹ thuật của Bitcoin và hệ sinh thái của nó, hãy khám phá các khóa đào tạo sau:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 3. Đóng góp vào Hệ sinh thái Bitcoin
 
@@ -3598,7 +3612,7 @@ Bitcoin không chỉ là một công cụ tài chính; nó là một phong trào
 - Tham gia cộng đồng địa phương**: Tham gia các sự kiện, buổi gặp mặt và diễn đàn để gặp gỡ những người dùng bitcoin khác và lắng nghe quan điểm của Exchange về những phát triển mới nhất.
 
 
-Nếu bạn muốn giúp đỡ giáo dục người khác, Plan ₿ Network luôn tìm kiếm cộng tác viên! Tất cả nội dung giáo dục của chúng tôi đều là mã nguồn mở và được lưu trữ trên GitHub. Chúng tôi hoan nghênh các cộng tác viên hỗ trợ hiệu đính và dịch nội dung sang nhiều ngôn ngữ khác nhau; tham gia Exchange trong một vài ngày Sats! Dù bây giờ hay sau này trong hành trình Bitcoin của bạn, bạn đều được mời tham gia [nhóm Telegram dành cho cộng tác viên](https://t.me/PlanBNetwork_ContentBuilder) của Plan ₿ Network.
+Nếu bạn muốn giúp đỡ giáo dục người khác, Plan ₿ Academy luôn tìm kiếm cộng tác viên! Tất cả nội dung giáo dục của chúng tôi đều là mã nguồn mở và được lưu trữ trên GitHub. Chúng tôi hoan nghênh các cộng tác viên hỗ trợ hiệu đính và dịch nội dung sang nhiều ngôn ngữ khác nhau; tham gia Exchange trong một vài ngày Sats! Dù bây giờ hay sau này trong hành trình Bitcoin của bạn, bạn đều được mời tham gia [nhóm Telegram dành cho cộng tác viên](https://t.me/PlanBNetwork_ContentBuilder) của Plan ₿ Academy.
 
 
 ### Lời cuối cùng
@@ -3607,7 +3621,7 @@ Nếu bạn muốn giúp đỡ giáo dục người khác, Plan ₿ Network luô
 Cảm ơn bạn rất nhiều vì đã tham gia khóa học BTC102.
 
 
-Tôi tên là Rogzy, người sáng lập Découvre Bitcoin và đồng sáng lập Plan ₿ Network; một nền tảng được tạo nên bởi các đối tác mới đáng kinh ngạc của chúng tôi, Tether và Fulgur Ventures, và bởi sứ mệnh chung của chúng tôi là giáo dục càng nhiều người càng tốt về Bitcoin.
+Tôi tên là Rogzy, người sáng lập Découvre Bitcoin và đồng sáng lập Plan ₿ Academy; một nền tảng được tạo nên bởi các đối tác mới đáng kinh ngạc của chúng tôi, Tether và Fulgur Ventures, và bởi sứ mệnh chung của chúng tôi là giáo dục càng nhiều người càng tốt về Bitcoin.
 
 
 Phản hồi của bạn vô cùng quý giá. Hãy thoải mái để lại bình luận trên nền tảng và cho chúng tôi biết suy nghĩ của bạn về phiên bản cập nhật này của khóa học. Những đề xuất của bạn sẽ giúp chúng tôi tiếp tục cải thiện chất lượng nội dung.
@@ -3619,7 +3633,7 @@ Bây giờ bạn đã sẵn sàng để làm bài kiểm tra cuối cùng; bài 
 Chúc may mắn!
 
 
-Tôi hy vọng sớm gặp lại bạn trong một khóa học khác về Plan ₿ Network; dù là khóa học của tôi hay của một giáo viên tuyệt vời khác trong cộng đồng. Và biết đâu, chúng ta sẽ gặp nhau trực tiếp tại một hội nghị, sự kiện, hoặc buổi gặp mặt Bitcoin.
+Tôi hy vọng sớm gặp lại bạn trong một khóa học khác về Plan ₿ Academy; dù là khóa học của tôi hay của một giáo viên tuyệt vời khác trong cộng đồng. Và biết đâu, chúng ta sẽ gặp nhau trực tiếp tại một hội nghị, sự kiện, hoặc buổi gặp mặt Bitcoin.
 
 
 Một lần nữa, xin chúc mừng bạn đã đi được một chặng đường dài. Và hãy nhớ rằng; mục tiêu chính của tôi sẽ luôn như vậy:

@@ -1,5 +1,5 @@
 ---
-name: कोल्डकार्ड - सह-हस्ताक्षर
+name: COLDCARD - Co-Sign
 description: को-साइन सुविधा की खोज करें और अपने कोल्डकार्ड पर इसका उपयोग करें
 ---
 
@@ -289,9 +289,9 @@ description: को-साइन सुविधा की खोज करे�
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
+https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
 
 ### 1- Wallet Multisig 2-sur-3 को Sparrow wallet में निर्यात करें
 
@@ -464,7 +464,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4a
 
 
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 ### 1- वेब 2FA और श्वेतसूचीबद्ध पते
 
@@ -506,11 +506,11 @@ https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb
 
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 सीधे शब्दों में कहें तो, किसी भी लेन-देन पर हस्ताक्षर करने से पहले, आपको अपने NFC-सक्षम, इंटरनेट से जुड़े डिवाइस को अपने कोल्डकार्ड के पास लाना होगा। यह आपको स्वचालित रूप से coldcard.com वेब पेज पर ले जाएगा, जहाँ आपसे आपके एप्लिकेशन के लिए 6-अंकीय कोड दर्ज करने के लिए कहा जाएगा। यदि आप सही कोड दर्ज करते हैं, तो वेब पेज आपको या तो कोल्डकार्डक्यू स्कैन करने के लिए एक क्यूआर कोड दिखाएगा, या आपके डिवाइस को हस्ताक्षर करने के लिए अधिकृत करने हेतु आपके Mk4 पर दर्ज करने के लिए एक 8-अंकीय कोड दिखाएगा।
 

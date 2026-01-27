@@ -665,7 +665,7 @@ Testaa asetukset konfiguroinnin jälkeen:
 
 
 
-### Vaihtoehdot Plan ₿ Network:lle
+### Vaihtoehdot Plan ₿ Academy:lle
 
 
 Jos haluat parhaan mahdollisen suojan, tutustu muihin oppaisiin:
@@ -673,14 +673,14 @@ Jos haluat parhaan mahdollisen suojan, tutustu muihin oppaisiin:
 
 
 
-- [Firefox kovetettu](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Kehittynyt monialustakokoonpano
-- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Täydellinen verkon anonymiteetti
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Suurin sormenjälkien suojaus
+- [Firefox kovetettu](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Kehittynyt monialustakokoonpano
+- [Tor Browser](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Täydellinen verkon anonymiteetti
+- [Mullvad Browser](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Suurin sormenjälkien suojaus
 
 
 
-Jos haluat oppia lisää selainten historiasta ja toiminnasta sekä tärkeimmistä digitaalisista kohteista jokapäiväisessä elämässäsi, kutsun sinut tutustumaan uuteen ilmaiseen koulutuskurssiimme SCU 202, joka on saatavilla Plan ₿ Network-sivustolla:
+Jos haluat oppia lisää selainten historiasta ja toiminnasta sekä tärkeimmistä digitaalisista kohteista jokapäiväisessä elämässäsi, kutsun sinut tutustumaan uuteen ilmaiseen koulutuskurssiimme SCU 202, joka on saatavilla Plan ₿ Academy-sivustolla:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

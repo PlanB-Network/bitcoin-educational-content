@@ -53,7 +53,7 @@ Este tutorial paso a paso le muestra cómo escribir un mensaje en la Blockchain 
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Esto mostrará una recepción Address:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -218,7 +218,7 @@ que se compone de :
 
 
 
-Consejo: Utilice la herramienta [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) para generate el script automáticamente. Aunque esta herramienta sugiera introducir la cantidad en BTC, mantenga la unidad configurada en Electrum.
+Consejo: Utilice la herramienta [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) para generate el script automáticamente. Aunque esta herramienta sugiera introducir la cantidad en BTC, mantenga la unidad configurada en Electrum.
 
 
 

@@ -1,0 +1,9 @@
+question: Was war der Hauptkritikpunkt in der allerersten E-Mail-Antwort auf Satoshi Nakamotos Ankündigung des Bitcoin-Whitepapers auf der Kryptographie-Mailingliste?
+answer: Das vorgeschlagene System schien nicht auf die erforderliche Größe skalierbar zu sein
+wrong_answers:
+  - Die verwendeten kryptografischen Algorithmen waren für Finanzanwendungen nicht sicher genug
+  - Die Peer-to-Peer-Architektur würde das System anfällig für Netzwerkangriffe machen
+  - Der Konsensmechanismus würde zu viel Rechenenergie verbrauchen, um praktikabel zu sein
+explanation: |
+  Im allerersten Satz der ersten E-Mail-Antwort auf die Satoshi-Ankündigung des Bitcoin-Whitepapers hieß es ausdrücklich: Es scheint nicht auf die erforderliche Größe skalierbar zu sein Dies zeigt, dass bereits bei den ersten öffentlichen Diskussionen über Bitcoin Bedenken hinsichtlich der Skalierung bestanden, noch bevor das Netzwerk gestartet wurde. Die anderen Optionen waren zwar potenziell berechtigte Bedenken für ein Kryptowährungssystem, standen aber nicht im Mittelpunkt dieser ersten Antwort, die sofort die Skalierbarkeit als das Hauptproblem des Satoshi-Vorschlags identifizierte.
+reviewed: false

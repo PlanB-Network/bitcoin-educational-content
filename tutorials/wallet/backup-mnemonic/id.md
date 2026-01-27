@@ -42,15 +42,15 @@ Untuk menyimpan frasa pemulihan Anda, Anda harus menuliskannya pada media fisik,
 
 Meskipun menuliskan frasa Anda pada selembar kertas sederhana sudah merupakan praktik yang baik, namun memilih tempat penyimpanan dari logam, seperti baja tahan karat, menawarkan keamanan tambahan. Jenis tempat ini melindungi frasa mnemonik Anda dari risiko kebakaran, banjir atau keruntuhan yang dapat memengaruhi lokasi penyimpanan.
 
-Bagi mereka yang mencari opsi ekonomis untuk mencadangkan frasa mereka pada logam, [metode DIY "*SAFU Ninja*"] (https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) adalah solusi yang sangat baik. Yang perlu Anda lakukan hanyalah membeli mesin cuci logam, sekrup dan mur di toko-toko. Kemudian Anda mengukir kata-kata dari kalimat Anda pada setiap mesin cuci, pastikan untuk menomori mereka, dan memasangnya pada sekrup dengan mur. Metode berbiaya rendah ini sudah menawarkan ketahanan yang baik.
+Bagi mereka yang mencari opsi ekonomis untuk mencadangkan frasa mereka pada logam, [metode DIY "*SAFU Ninja*"](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) adalah solusi yang sangat baik. Yang perlu Anda lakukan hanyalah membeli mesin cuci logam, sekrup dan mur di toko-toko. Kemudian Anda mengukir kata-kata dari kalimat Anda pada setiap mesin cuci, pastikan untuk menomori mereka, dan memasangnya pada sekrup dengan mur. Metode berbiaya rendah ini sudah menawarkan ketahanan yang baik.
 
 ![SEED](assets/fr/01.webp)
 
 Kredit gambar: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/).
 
-Jika Anda lebih suka berinvestasi dalam perangkat cadangan logam yang lengkap, saya sarankan Anda melihat [tes ketahanan Jameson Lopp] (https://jlopp.github.io/metal-bitcoin-storage-reviews/), yang mengevaluasi sebagian besar solusi yang tersedia di pasar. Saya sarankan Anda untuk memilih braket satu bagian, seperti pelat logam untuk mengukir, mencap atau melubangi. Perangkat ini umumnya menawarkan ketahanan yang jauh lebih besar daripada sistem yang menggunakan huruf terpisah untuk dirakit.
+Jika Anda lebih suka berinvestasi dalam perangkat cadangan logam yang lengkap, saya sarankan Anda melihat [tes ketahanan Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/), yang mengevaluasi sebagian besar solusi yang tersedia di pasar. Saya sarankan Anda untuk memilih braket satu bagian, seperti pelat logam untuk mengukir, mencap atau melubangi. Perangkat ini umumnya menawarkan ketahanan yang jauh lebih besar daripada sistem yang menggunakan huruf terpisah untuk dirakit.
 
-Jika Anda memilih dompet kertas, Anda memiliki beberapa pilihan: selembar kertas kosong sederhana, dompet karton yang sering disertakan dengan dompet perangkat keras Anda, atau templat yang dapat diunduh yang dapat Anda cetak [dengan mengeklik di sini] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Jika Anda memilih dompet kertas, Anda memiliki beberapa pilihan: selembar kertas kosong sederhana, dompet karton yang sering disertakan dengan dompet perangkat keras Anda, atau templat yang dapat diunduh yang dapat Anda cetak [dengan mengeklik di sini](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 
@@ -84,11 +84,11 @@ Anda juga bisa memperkaya cadangan Anda dengan informasi tambahan yang berhubung
 
 Di sisi lain, jika Anda menggunakan kata sandi, pastikan Anda tidak menuliskannya di media yang sama dengan frasa mnemonik Anda. Tujuan frasa sandi adalah untuk melindungi dompet Anda jika terjadi pencurian. Untuk mengetahui lebih lanjut tentang cara menggunakan kata sandi, lihat tutorial pelengkap ini:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Setelah Anda menyimpan frasa mnemonik Anda di media fisik, sangat disarankan agar Anda melakukan tes pemulihan ketika dompet yang baru Anda buat masih kosong. Tes ini terdiri dari menuliskan sebuah contoh informasi, dengan sengaja menghapus dompet yang kosong, kemudian mencoba memulihkannya hanya dengan menggunakan cadangan fisik dari frasa mnemonik. Hal ini akan memungkinkan Anda untuk memeriksa apakah cadangan Anda sudah lengkap dan bebas dari kesalahan input. Hal ini juga memungkinkan Anda untuk membiasakan diri dengan proses pemulihan. Dengan cara ini, jika Anda perlu memulihkannya di kemudian hari, Anda akan lebih siap dan terhindar dari stres saat pertama kali mencoba dalam situasi yang sesungguhnya. Untuk mengetahui lebih lanjut mengenai cara melaksanakan tes ini, bacalah tutorial lainnya:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Terakhir, ada pertanyaan tentang jumlah cadangan. Pilihan ini sepenuhnya tergantung pada situasi pribadi Anda. Membatasi jumlah salinan, misalnya dengan menulis frasa mnemonik Anda hanya sekali pada sebuah media, akan mengurangi risiko pencurian, tetapi meningkatkan risiko kehilangan. Sebaliknya, membuat beberapa salinan akan mengurangi risiko kehilangan, tetapi meningkatkan risiko pencurian. Jadi, terserah Anda untuk menemukan keseimbangan yang tepat untuk kebutuhan Anda, dan menentukan jumlah salinan yang menurut Anda paling tepat.
 
@@ -116,8 +116,8 @@ Terakhir, manajemen frasa mnemonik juga menimbulkan pertanyaan tentang warisan. 
 
 Untuk melangkah lebih jauh dan memperkuat strategi keamanan Anda, saya sarankan Anda untuk mempelajari cara kerja teknis dompet Bitcoin Anda. Dengan memahami bagaimana berbagai elemen berinteraksi, serta pentingnya dan implikasinya, Anda akan dapat menyempurnakan strategi keamanan Anda dengan kesadaran penuh akan risiko yang ada. Khususnya, jika Anda memahami secara teknis apa yang dimungkinkan oleh frasa mnemonik, Anda akan bisa menyesuaikan cara Anda mencatat, menyimpan, dan mengelolanya seiring waktu.
 
-Itulah mengapa saya mengundang Anda untuk mengikuti kursus pelatihan CYP201 gratis yang ditawarkan oleh Plan ₿ Network. Kursus pelatihan ini menjelaskan secara rinci semua cara kerja dompet Bitcoin, sehingga Anda dapat menguasai aspek-aspek teknis yang penting untuk mengamankan dana Anda secara efektif:
+Itulah mengapa saya mengundang Anda untuk mengikuti kursus pelatihan CYP201 gratis yang ditawarkan oleh Plan ₿ Academy. Kursus pelatihan ini menjelaskan secara rinci semua cara kerja dompet Bitcoin, sehingga Anda dapat menguasai aspek-aspek teknis yang penting untuk mengamankan dana Anda secara efektif:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda memberikan jempol hijau di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih banyak!

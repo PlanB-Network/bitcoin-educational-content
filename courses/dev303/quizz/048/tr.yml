@@ -1,0 +1,8 @@
+question: Rust programlamasında RC ile RefCell'i birleştirmenin birincil amacı nedir?
+answer: Çalışma zamanı ödünç alma kontrolleri ile birden fazla sahibin aynı verileri paylaşmasını ve değiştirmesini sağlamak için
+wrong_answers:
+  - Daha iyi performans için ödünç alma kuralı uygulamasını çalışma zamanından derleme zamanına geri taşımak
+  - Birden fazla iş parçacığı arasında güvenli bir şekilde erişilebilen değişmez paylaşılan veriler oluşturmak için
+  - Verileri birden fazla sahip arasında paylaşırken referans döngülerini ve bellek sızıntılarını önlemek için
+explanation: |
+  RC<RefCell<T>>, paylaşılan sahiplik için referans sayımını çalışma zamanı kontrollü mutasyonlar için iç mutabilite ile birleştirir. RC, birden fazla kod parçasının aynı veriye sahip olmasına izin verirken RefCell, çalışma zamanında ödünç alma kurallarını kontrol ederek değişmez referanslar aracılığıyla mutasyona olanak tanır. Diğer seçenekler yanlıştır: bu model aslında kontrolleri çalışma zamanına taşır (derleme zamanına değil), değiştirilebilir (değiştirilemez değil) paylaşılan veriler oluşturur ve aslında referans döngülerini önlemek yerine bunlara neden olabilir.

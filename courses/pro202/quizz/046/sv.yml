@@ -1,0 +1,8 @@
+question: Vad är det matematiska förhållandet mellan Bitcoin:s svårighetsvärde och det aktuella målet som används för blockvalidering?
+answer: Svårighetsgrad är lika med lägsta möjliga mål dividerat med aktuellt mål
+wrong_answers:
+  - Svårighetsgraden är lika med det aktuella målet dividerat med det lägsta möjliga målet
+  - Svårighetsgraden är lika med det aktuella målet multiplicerat med det lägsta möjliga målet
+  - Svårighetsgraden är lika med koefficienten gånger 256 upphöjd till exponenten minus 3
+explanation: |
+  Bitcoin:s svårighetsgrad definieras specifikt som lowest_target / current_target, vilket uttrycker hur många gånger svårare mining är jämfört med den enklast möjliga svårighetsgraden. Detta omvända förhållande innebär att svårighetsgraden ökar proportionellt när målet blir mindre (vilket gör giltiga hashar svårare att hitta). Formeln säkerställer att svårighetsgraden 1 representerar de enklaste mining-förhållandena, medan högre värden indikerar proportionellt mer beräkningsarbete som krävs för att hitta giltiga block.

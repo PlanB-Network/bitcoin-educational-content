@@ -1,0 +1,9 @@
+question: Hvilke betingelser gjør en lynstraff effektiv?
+answer: Deteksjon før tidslåsens slutt
+wrong_answers:
+  - Deteksjon før tidslås begynner
+  - Oppdagelse av juks på forhånd TX
+  - Deteksjon etter endt tidslås
+explanation: |
+  Rettferdighetstransaksjonen må frigjøres før tidssperren utløper for å sanksjonere jukset. Den kan ikke frigjøres før tidssperren begynner eller TX publiseres, da dette vil bety at jukset rett og slett ikke har funnet sted.
+reviewed: false

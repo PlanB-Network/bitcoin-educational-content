@@ -563,7 +563,7 @@ Bewährte Praktiken
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
@@ -571,7 +571,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 
 
@@ -599,7 +599,7 @@ Wenn Sie diese Schritt-für-Schritt-Anleitung befolgen, haben Sie Firefox in ein
 
 
 
-### Plan ₿ Network
+### Plan ₿ Academy
 
 
 
@@ -608,7 +608,7 @@ Wenn Sie diese Schritt-für-Schritt-Anleitung befolgen, haben Sie Firefox in ein
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Mozilla-Dokumentation
 
@@ -627,7 +627,7 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [Wiki und Installationsanleitung](https://github.com/arkenfox/user.js/wiki): Vollständige Arkenfox-Projektdokumentation
-- [Hinterlegung und Freigaben] (https://github.com/arkenfox/user.js): Datei user.js herunterladen und Aktualisierungen verfolgen
+- [Hinterlegung und Freigaben](https://github.com/arkenfox/user.js): Datei user.js herunterladen und Aktualisierungen verfolgen
 
 
 
@@ -647,7 +647,7 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Cover Your Tracks (EFF)] (https://coveryourtracks.eff.org/): Digitale Fingerabdrücke und wirksamer Schutz vor Verfolgung
+- [Cover Your Tracks (EFF)](https://coveryourtracks.eff.org/): Digitale Fingerabdrücke und wirksamer Schutz vor Verfolgung
 - [DNS-Leck-Test](https://www.dnsleaktest.com/): DNS-Lecktest und DoH-Effizienz
 - [BrowserLeaks](https://browserleaks.com/): Vollständige Test-Suite (WebRTC, Canvas, Schriftarten, etc.)
 - [BadSSL](https://badssl.com/): SSL/TLS-Zertifikat-Validierungstests

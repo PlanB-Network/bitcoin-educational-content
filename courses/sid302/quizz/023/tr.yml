@@ -1,0 +1,8 @@
+question: Mayfell'in Liquid üzerindeki senet uygulaması neden şeffaf blok zinciri kayıtlarını kullanmak yerine özellikle Confidential Transactions'dan yararlanıyor?
+answer: Ticari gizlilik gereksinimleri, denetçi doğrulama yeteneklerini korurken kredi tutarlarının yalnızca borç veren ve borç alan tarafından görülebilmesini gerektirir
+wrong_answers:
+  - Meksika'da mevzuata uyum, tüm finansal işlemlerin devlet gözetiminden ve vergi makamlarından tamamen gizlenmesini zorunlu kılmaktadır
+  - Şeffaf kayıtlar, sistemin gerekli 25.000'den fazla senedi verimli bir şekilde işlemesini engelleyen ölçeklenebilirlik darboğazları yaratacaktır
+  - Kredi tutarlarının kamusal görünürlüğü, tokenleştirme sürecini katılımcılar için mali açıdan uygulanamaz hale getiren otomatik vergilendirme olaylarını tetikleyecektir
+explanation: |
+  Confidential Transactions, ticari kredilendirmede kritik bir iş sorununu çözmektedir: mevzuata uygunluğu sağlarken rekabetçi gizliliği korumak. Geleneksel finansta, işletmeler arasındaki kredi tutarları rakiplerin erişmemesi gereken gizli ticari bilgilerdir, ancak denetçilerin ve düzenleyicilerin defter bütünlüğünü doğrulaması gerekir. Liquid'ün Confidential Transactions'si, yetkili tarafların işlemleri doğrulamasına izin verirken tutarları kriptografik olarak halktan gizleyerek bu dengeyi sağlar. Yanlış cevaplar teknolojiyi yanlış tanıtmaktadır - CT işlemleri düzenleyicilerden gizlemez (gizliliğe karşı gizlilik), ölçeklenebilirlik sorunlarını çözmez (bu ayrı bir teknik sorundur) ve vergiden kaçınma mekanizmaları yaratmaz (meşru gizlilik araçları vergi yükümlülüklerini atlatmaz).

@@ -1,9 +1,9 @@
-question: 什么是 Bitcoin 节点？
-answer: 运行 Bitcoin 协议软件的计算机
+question: 比特币节点是什么？
+answer: 运行比特币协议软件的计算机
 wrong_answers:
-  - A Hardware Wallet 实施 Bitcoin 网络
-  - A Miner 为 Bitcoin 生产新区块
-  - 管理 Bitcoin 网络和交易确认的中央服务器
+  - 实施比特币网络的硬件钱包
+  - 生产新区块的比特币矿工
+  - 管理比特币网络和交易确认的中央服务器
 explanation: |
-  Bitcoin 节点是运行 Bitcoin core 等软件的计算机，它执行协议并参与 Bitcoin 网络。
+  比特币节点是运行 Bitcoin Core 等软件的计算机，它执行协议并参与比特币网络。
 reviewed: true

@@ -182,15 +182,15 @@ Se sei alla tua prima esperienza con il self-hosting, invece, potresti iniziare 
 
 Nella parte inferiore della pagina di introduzione, troverai tutte le istruzioni per la configurazione, la manutenzione e l'aggiornamento. **Una volta installato, potresti stupirti di quanta pubblicità è in grado di bloccare Pi Hole**.
 
-Per iniziare a usare Pi-Hole, puoi trovare la guida nella sezione tutorial di Plan ₿ Network: 
+Per iniziare a usare Pi-Hole, puoi trovare la guida nella sezione tutorial di Plan ₿ Academy: 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 In seguito potresti esercitarti con VPN avanzate, come Tailscale o Wireguard:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 **Docker**: alcuni dei tool che possono far crescere la tua esperienza con Bitcoin, come ad esempio un personale `Blind Oracle per Jade`, girano su **Docker**. Se non hai alcuna esperienza con questa piattaforma, puoi iniziare a usarla tramite DietPi, per guadagnare sicurezza e avanzare poi verso l'installazione "a manina". Installa:
 - Docker

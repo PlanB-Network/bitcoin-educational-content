@@ -54,7 +54,7 @@ Kugira ngo ubone Electrum, ndagusavye gukurikiza intambwe za mbere muri iyi nyig
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Inyuma yo gukuraho, wama ugenzura isohotse imbere yo kurishiramwo, hanyuma ugende ku "Server imwe", nk'uko uzobisanga mu gice c'imfashanyo, munsi ya `Start with a Dummy Wallet`.
 

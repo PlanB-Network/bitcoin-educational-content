@@ -1,0 +1,8 @@
+question: Hva er den primære forretningsfordelen som Liquids 2-minutters oppgjørstid gir i forhold til tradisjonelle finanssystemer?
+answer: Reduserer motpartsrisiko ved å muliggjøre atomoppgjør der levering og betaling skjer samtidig
+wrong_answers:
+  - Eliminerer behovet for overholdelse av regelverk og krav til kundekjennskap ved handel med aktiva
+  - Tillater ubegrenset skalerbarhet for høyfrekvent handel uten transaksjonsgebyrer
+  - Muliggjør automatisk prisoppdagelse gjennom innebygde market making-algoritmer
+explanation: |
+  Liquids 2-minutters oppgjør muliggjør atomoppgjør, noe som er avgjørende for å redusere motpartsrisikoen fordi begge parter mottar det de skylder samtidig, noe som eliminerer gapet der den ene parten kan misligholde. Tradisjonelt T+2-oppgjør skaper et vindu der motpartsrisiko eksisterer. De andre alternativene er feil: Liquid krever fortsatt samsvar gjennom AMP, har transaksjonsgebyrer og skaleringsgrenser, og gir ikke automatisk market making.

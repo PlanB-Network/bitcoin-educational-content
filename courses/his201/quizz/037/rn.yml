@@ -1,9 +1,9 @@
-question: Ni iyihe service ya Exchange yashinzwe muri Werurwe 2010 yari izwi cane imbere y’uko umusozi Gox ugaragara muri Nyakanga?
-answer: Isoko rya Bitcoin
+question: Ni iyihe service yo kuvunja yashinzwe muri Ntwarante 2010 yari izwi cane imbere y’uko Mt Gox iza muri Mukakaro?
+answer: Bitcoin Market(Isoko rya Bitcoin)
 wrong_answers:
   - BitcoinFX
-  - Guhindura Bitcoin
-  - Bitcoin yanje
+  - BitcoinExchange
+  - MyBitcoin
 explanation: |
-  Iri soko ry’abagenzi bakoresheje PayPal ryatangujwe kw’igenekerezo rya 16 Ntwarante 2010, n’umuntu yitwa dwdollar kandi ryari urubuga nyamukuru imbere y’umusozi Gox.
+  Iri soko ry’ukuvunjisha bakoresheje PayPal ryatangujwe kw’igenekerezo rya 16 Ntwarante 2010, n’umuntu yitwa dwdollar kandi ryari urubuga nyamukuru imbere ya Mt Gox.
 reviewed: true

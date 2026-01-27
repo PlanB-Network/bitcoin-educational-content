@@ -1,0 +1,9 @@
+question: Theo mô hình bảo mật được mô tả, loại hệ thống nào có thể được xây dựng trên lớp cơ sở không cần tin cậy của Bitcoin?
+answer: Cả hệ thống không cần tin cậy và hệ thống đáng tin cậy đều có thể được xây dựng dựa trên nó
+wrong_answers:
+  - Chỉ có hệ thống không cần tin cậy mới có thể được xây dựng trên đó
+  - Chỉ có những hệ thống đáng tin cậy mới có thể được xây dựng trên đó
+  - Không có hệ thống bổ sung nào có thể được xây dựng trên nó
+explanation: |
+  Lớp cơ sở không tin cậy của Bitcoin cung cấp một nền tảng cho phép linh hoạt trong việc xây dựng các loại hệ thống khác nhau trên nền tảng đó. Như Matt Corallo đã giải thích, mặc dù bạn không thể xây dựng các hệ thống không tin cậy trên các hệ thống đáng tin cậy, nhưng bạn có thể xây dựng các hệ thống đáng tin cậy (như ví lưu ký) trên các hệ thống không tin cậy. Điều này có nghĩa là nền tảng không tin cậy của Bitcoin hỗ trợ cả ứng dụng không tin cậy và dịch vụ đáng tin cậy, cho phép các nhà thiết kế hệ thống tự do lựa chọn các đánh đổi phù hợp mà không áp đặt những đánh đổi đó lên tất cả những người khác sử dụng lớp cơ sở.
+reviewed: false

@@ -1,0 +1,9 @@
+question: บิตคอยน์สามารถแบ่งได้สูงสุดกี่ตำแหน่งทศนิยม?
+answer: แปด
+wrong_answers:
+  - หก
+  - สิบสอง
+  - เจ็ด
+explanation: |
+  Bitcoin สามารถแบ่งได้ถึงทศนิยมแปดตำแหน่ง โดยหนึ่งหน่วยเรียกว่า satoshi หรือ sat
+reviewed: false

@@ -185,7 +185,7 @@ Przed użyciem tej wiadomości e-mail do usługi logowania można przetestować 
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Aby usunąć alias utworzony jako test, wystarczy zalogować się do `Home`, następnie `Credentials` i kliknąć na tożsamość, którą chcesz usunąć. Polecenie _Delete_ pojawi się w prawym górnym rogu, aby kontynuować.
 
@@ -287,7 +287,7 @@ Okazja jest wyjątkowa: **zakończyć zależność od zewnętrznych dostawców u
 
 
 
-Nadszedł czas, aby przejść do [dokumentacji] (https://docs.aliasvault.net/installation/), aby dowiedzieć się, jak przejść do samodzielnego hostowania Alias Vault.
+Nadszedł czas, aby przejść do [dokumentacji](https://docs.aliasvault.net/installation/), aby dowiedzieć się, jak przejść do samodzielnego hostowania Alias Vault.
 
 
 

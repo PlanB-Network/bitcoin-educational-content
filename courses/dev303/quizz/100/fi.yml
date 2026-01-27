@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen arkkitehtuurinen etu, jonka ansiosta LDK voi toimia WebAssembly-selainympäristöissä, joissa perinteiset Lightning-solmut eivät voi toimia?
+answer: LDK:n järjestelmäkutsuttoman suunnittelufilosofian ansiosta se voi toimia ilman suoraa pääsyä tiedostojärjestelmiin, verkkopistorasioihin tai entropialähteisiin
+wrong_answers:
+  - "LDK:n modulaarinen Rust-kirjastorakenne tarjoaa automaattisesti WebAssembly-yhteensopivuuden natiivien Rust-to-WASM-käännösominaisuuksien avulla"
+  - "LDK:n tapahtumapohjainen arkkitehtuuri poistaa pysyvien yhteyksien tarpeen ja voi toimia täysin HTTP-pyyntö-vastaus-syklien kautta."
+  - "LDK:n kevyt lohkoketjuintegraatio vähentää muistin käyttöä riittävästi WebAssemblyn tiukkojen resurssirajoitusten ja rajoitusten täyttämiseksi"
+explanation: |
+  LDK:n järjestelmäkutsuton rakenne mahdollistaa nimenomaan selainyhteensopivuuden. Perinteiset Lightning-solmut luottavat suoriin järjestelmäkutsuihin verkkoyhteyksiä, tiedostojen I/O:ta ja satunnaisuutta varten, mikä on kielletty WebAssembly-ympäristöissä turvallisuussyistä. LDK abstrahoi nämä riippuvuudet, jolloin kehittäjät voivat tarjota selainyhteensopivia toteutuksia, joissa käytetään WebSocketsia verkkoyhteyksiä varten ja selainkäyttöliittymiä pysyvyyttä ja satunnaisuutta varten, säilyttäen samalla Lightning-protokollan täydellisen yhteensopivuuden.

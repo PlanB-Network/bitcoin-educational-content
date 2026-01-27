@@ -350,7 +350,7 @@ Ente Auth biedt verschillende praktische functies:
 
 
 
-**Automatische pictogrammen**: Elk item kan worden geïllustreerd met het logo van de service, dankzij de integratie van het pictogrammenpakket [Simple Icons] (https://simpleicons.org/).
+**Automatische pictogrammen**: Elk item kan worden geïllustreerd met het logo van de service, dankzij de integratie van het pictogrammenpakket [Simple Icons](https://simpleicons.org/).
 
 
 
@@ -530,7 +530,7 @@ Deze onafhankelijke audits, uitgevoerd door erkende bedrijven, garanderen dat de
 
 
 
-Ente Auth hanteert een [voorbeeldig privacybeleid] (https://ente.io/privacy/) dat is gebaseerd op minimale gegevensverzameling. Alleen informatie die strikt noodzakelijk is voor de werking van de service wordt bewaard: uw e-mail Address voor verificatie en accountherstel.
+Ente Auth hanteert een [voorbeeldig privacybeleid](https://ente.io/privacy/) dat is gebaseerd op minimale gegevensverzameling. Alleen informatie die strikt noodzakelijk is voor de werking van de service wordt bewaard: uw e-mail Address voor verificatie en accountherstel.
 
 
 

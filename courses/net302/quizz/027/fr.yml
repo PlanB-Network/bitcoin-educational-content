@@ -6,4 +6,4 @@ wrong_answers:
   - Datagramme
 explanation: |
   Dans le modèle TCP/IP, les données échangées à la couche Application sont appelées messages (ou streams selon le contexte).
-reviewed: false
+reviewed: true 

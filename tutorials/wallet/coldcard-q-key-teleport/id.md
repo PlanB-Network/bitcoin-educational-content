@@ -32,7 +32,7 @@ Ini dapat digunakan untuk mentransfer:
 
 
 - gW-0 **frasa** (Master seed ColdCard Q atau rahasia yang disimpan dalam [seed Vault] ColdCardQ (https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **catatan dan kata sandi rahasia**: ini dapat berupa rahasia apa pun atau seluruh direktori [Catatan dan Kata Sandi Rahasia] (https://coldcard.com/docs/secure_notes/) pada ColdCardQ Anda.
+- **catatan dan kata sandi rahasia**: ini dapat berupa rahasia apa pun atau seluruh direktori [Catatan dan Kata Sandi Rahasia](https://coldcard.com/docs/secure_notes/) pada ColdCardQ Anda.
 - **cadangan seluruh ColdCardQ Anda**: ColdCardQ yang menerima cadangan ini tidak boleh memiliki seed Master agar dapat berfungsi.
 - gW-3 (**Transaksi Bitcoin yang Ditandatangani Sebagian**) sebagai bagian dari skema multi-tanda tangan.
 
@@ -95,7 +95,7 @@ Kode QR dihasilkan di layar. Sekali lagi, Anda harus mengomunikasikan kode QR in
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Saat ini kami memiliki:*
 
@@ -145,7 +145,7 @@ Anda sekarang diminta untuk memilih sifat rahasia yang akan dikirimkan antara 2 
 
 
 
-Di sini rahasia kami adalah pesan singkat dengan memilih **"Pesan Teks Cepat "**. Ketik pesan Anda (untuk kami "PlanB Network rocks") lalu tekan **"ENTER "**.
+Di sini rahasia kami adalah pesan singkat dengan memilih **"Pesan Teks Cepat "**. Ketik pesan Anda (untuk kami "Plan ₿ Academy rocks") lalu tekan **"ENTER "**.
 
 
 Perangkat kemudian menghasilkan kata sandi acak baru yang disebut **"Kata Sandi Teleportasi "**, dalam contoh "NE XG BT SK".
@@ -190,7 +190,7 @@ Tekan tombol **"QR "** untuk memindai kode QR yang disajikan oleh perangkat peng
 
 
 
-Data tersebut kemudian didekripsi dan dapat dipahami oleh perangkat penerima. Pesan yang diterima memang "PlanB Network rocks". Itu saja.
+Data tersebut kemudian didekripsi dan dapat dipahami oleh perangkat penerima. Pesan yang diterima memang "Plan ₿ Academy rocks". Itu saja.
 
 
 
@@ -214,7 +214,7 @@ Data tersebut kemudian didekripsi dan dapat dipahami oleh perangkat penerima. Pe
 
 
 
-Hal ini mengandaikan bahwa Wallet Multisig Anda telah dibuat dan perangkat ColdCardQ Anda telah diatur untuk dapat melakukan transaksi multi-tanda tangan. Jika tidak demikian, penjelasannya tersedia [di sini] (https://coldcard.com/docs/Multisig/) di situs web Coinkite.
+Hal ini mengandaikan bahwa Wallet Multisig Anda telah dibuat dan perangkat ColdCardQ Anda telah diatur untuk dapat melakukan transaksi multi-tanda tangan. Jika tidak demikian, penjelasannya tersedia [di sini](https://coldcard.com/docs/Multisig/) di situs web Coinkite.
 
 
 

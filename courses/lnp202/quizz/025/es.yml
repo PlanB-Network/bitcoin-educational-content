@@ -1,0 +1,9 @@
+question: ¿Qué condiciones hacen que una pena de Rayo sea efectiva?
+answer: Detección antes del final del bloqueo de tiempo
+wrong_answers:
+  - Detección antes de que comience el bloqueo de tiempo
+  - Detección previa de TX tramposo
+  - Detección tras el fin del bloqueo de tiempo
+explanation: |
+  La transacción de justicia debe ser liberada antes de que expire el bloqueo temporal para sancionar la trampa. No puede publicarse antes de que comience el bloqueo o de que se publique la TX, ya que esto significaría que la trampa simplemente no tuvo lugar.
+reviewed: false

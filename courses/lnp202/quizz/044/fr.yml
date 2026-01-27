@@ -1,0 +1,9 @@
+question: Quel rôle joue ThunderHub par rapport à votre nœud LND ?
+answer: Interface de gestion
+wrong_answers:
+  - Implémentation Lightning
+  - Service custodial
+  - Nœud de routage
+explanation: |
+  ThunderHub est une interface qui se connecte à LND pour gérer le nœud.
+reviewed: false

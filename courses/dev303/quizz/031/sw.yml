@@ -1,0 +1,8 @@
+question: Ni aina gani ya hitilafu inayopaswa kusababisha hofu katika programu za Rust?
+answer: Makosa yasiyoweza kurejeshwa ambayo yanaonyesha makosa ya mantiki ya programu au hali zisizo salama
+wrong_answers:
+  - Hitilafu za muunganisho wa mtandao au hitilafu za muda wa kuisha kutoka kwa huduma za nje
+  - Ingizo batili la mtumiaji au faili za usanidi zinazokosekana
+  - Faili haijapatikana na hitilafu au ruhusa iliyokataliwa vighairi
+explanation: |
+  Hofu zinapaswa kutengwa kwa ajili ya makosa yasiyoweza kurejeshwa ambayo yanawakilisha makosa ya programu au hali ambapo programu imeingia katika hali isiyo salama, kama vile ukiukaji wa mipaka ya safu au masuala ya usalama wa kumbukumbu. Majibu yasiyo sahihi yote yanaelezea makosa yanayoweza kurejeshwa - hitilafu za mtandao, matatizo ya kuingiza watumiaji, na matatizo ya mfumo wa faili ni masharti yanayotarajiwa ambayo programu zinapaswa kushughulikia kwa uzuri kwa kutumia aina za Matokeo badala ya kukatika. Makosa haya yanayoweza kurejeshwa huruhusu programu kuendelea kufanya kazi kwa kutekeleza mikakati inayofaa ya kushughulikia hitilafu.

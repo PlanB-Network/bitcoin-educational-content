@@ -5,5 +5,5 @@ wrong_answers:
   - 0.000001 BTC/kvB (0.1 sat/vB)
   - 0.00002 BTC/kvB (2 sat/vB)
 explanation: |
-  minrelaytxfee 的默认值为 0.00001 BTC/kvB，或 1 sat/vB，低于此值的交易不会中继。
+  minrelaytxfee 的默认值为 0.00001 BTC/kvB，或 1 sat/vB，低于此值的交易不会被中继。
 reviewed: true

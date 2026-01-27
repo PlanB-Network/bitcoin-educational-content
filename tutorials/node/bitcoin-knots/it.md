@@ -30,7 +30,7 @@ Andate su [il sito ufficiale di Bitcoin Knots](https://bitcoinknots.org/#downloa
 
 Prima di installare il software sul vostro computer, vi consigliamo di verificarne l'autenticità e l'integrità. Se non sapete come fare, date un'occhiata a quest'altra guida:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Una volta verificato il software, installarlo seguendo i passaggi indicati nel pannello di installazione.
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ Assegnate un nome al vostro Wallet. È inoltre possibile proteggerlo con un pass
 
 La passphrase BIP39 è una password opzionale che potete scegliere liberamente, in aggiunta alla vostra frase Mnemonic, per aumentare la sicurezza della vostra Wallet. Prima di configurare questa funzione, vi consigliamo vivamente di leggere il seguente articolo, che spiega in dettaglio il funzionamento teorico del passphrase e come evitare errori che potrebbero portare alla perdita permanente dei vostri bitcoin:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Se avete attivato l'opzione passphrase, sceglietene una robusta e salvatela con cura su uno o più supporti fisici sicuri.
 
 ![Image](assets/fr/18.webp)
@@ -285,4 +285,4 @@ Se avete trovato utile questa esercitazione, vi sarei molto grato se lasciaste u
 
 Raccomando anche quest'altro tutorial in cui spiego come impostare il proprio nodo Lightning:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

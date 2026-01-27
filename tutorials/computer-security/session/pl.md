@@ -65,7 +65,7 @@ Session jest dostępna na wszystkich platformach. Aplikację można pobrać bezp
 
 
 
-W systemie Android możliwa jest również [instalacja przez APK] (https://github.com/session-foundation/session-android/releases).
+W systemie Android możliwa jest również [instalacja przez APK](https://github.com/session-foundation/session-android/releases).
 
 
 
@@ -145,7 +145,7 @@ Fraza ta działa w podobny sposób jak frazy Mnemonic używane w portfelach Bitc
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Uwaga**: W przeciwieństwie do fraz Mnemonic używanych na portfelach Bitcoin, na Session, **musisz bezwzględnie zapisać każde słowo w całości**. Pierwsze 4 litery nie wystarczą!
 
@@ -299,4 +299,4 @@ Polecam również ten poradnik, w którym przedstawiam Threema, kolejną ciekaw�
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

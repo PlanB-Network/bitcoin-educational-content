@@ -1,0 +1,9 @@
+question: Quali informazioni riceve la watchtower per monitorare gli imbrogli?
+answer: TXID parziale della transazione di imbroglio
+wrong_answers:
+  - Chiave di canale privata
+  - Stato completo del canale
+  - TXID della transazione di imbroglio
+explanation: |
+  La watchtower riceve solo una parte del TXID della transazione truffaldina per identificare una transazione sospetta senza conoscere il canale.
+reviewed: false

@@ -72,7 +72,7 @@ Denna arkitektur är dock beroende av Tailscale Inc. för nätverkskoordinering.
 
 
 
-**För en detaljerad förklaring av Tailscales inre funktioner, inklusive kontrollplanshantering, NAT-traversering och DERP-reläer, rekommenderar vi den utmärkta artikeln [How Tailscale Works] (https://tailscale.com/blog/how-tailscale-works) på den officiella bloggen. Artikeln förklarar på djupet de tekniska begrepp som gör Tailscale så kraftfullt.**
+**För en detaljerad förklaring av Tailscales inre funktioner, inklusive kontrollplanshantering, NAT-traversering och DERP-reläer, rekommenderar vi den utmärkta artikeln [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) på den officiella bloggen. Artikeln förklarar på djupet de tekniska begrepp som gör Tailscale så kraftfullt.**
 
 
 
@@ -181,7 +181,7 @@ Detta skript lägger till det officiella Tailscale-förvaret och installerar pak
 
 
 
-- På iOS och Android: **Tailscale tillhandahåller officiella mobilapplikationer.** Installera bara *Tailscale* från [App Store] (https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) eller [Play Store] (https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
+- På iOS och Android: **Tailscale tillhandahåller officiella mobilapplikationer.** Installera bara *Tailscale* från [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) eller [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
 
 
 
@@ -293,7 +293,7 @@ Umbrel är en populär plattform för självhosting (används särskilt för Bit
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Att använda Umbrel och Tailscale tillsammans är ett särskilt intressant användningsfall, eftersom Umbrel integrerar en Tailscale-modul som är lätt att distribuera. Här är hur Tailscale integreras med Umbrel och vad det ger:
 
@@ -419,7 +419,7 @@ Läs vår kompletta guide till hur du konfigurerar Sparrow wallet med din Bitcoi
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
@@ -439,13 +439,13 @@ För att konfigurera Zeus med din Lightning-nod, se vår detaljerade handledning
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 För att ta reda på mer om Lightning Network och hur den fungerar på Umbrel, besök:
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 
@@ -635,4 +635,4 @@ Tailscale är ett viktigt verktyg för självhosting tack vare sin enkelhet och 
 
 
 
-Tailscale tillhandahåller regelbundet nytt innehåll och nya funktioner. Kolla in deras [officiella blogg] (https://tailscale.com/blog/) för de senaste nyheterna och fallstudierna.
+Tailscale tillhandahåller regelbundet nytt innehåll och nya funktioner. Kolla in deras [officiella blogg](https://tailscale.com/blog/) för de senaste nyheterna och fallstudierna.

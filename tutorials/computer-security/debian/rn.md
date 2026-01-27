@@ -77,7 +77,7 @@ Guhitamwo ishusho ya Debian bivana n'ubwubatsi bwa processeur yawe:
 
 
 
-- AMD64**: gukuraho igitabu "cy'ubuzima" ku rutonde [gukuraho] (https://debian.obspm.fr/debian-cd/12.11.0-ubuzima/amd64/iso-hybrid/).
+- AMD64**: gukuraho igitabu "cy'ubuzima" ku rutonde [gukuraho](https://debian.obspm.fr/debian-cd/12.11.0-ubuzima/amd64/iso-hybrid/).
 - ARM64**: ubone ishusho ya DVD ku rubuga rwemewe rwa Debian (Debian.obspm.fr/12.11.0/arm64/iso-dvd/).
 - Ibindi vyubatswe**: rondera ISO ihuye n'ubwubatsi bwawe [hano](https://debian.obspm.fr/debian-cd/12.11.0/).
 
@@ -426,7 +426,7 @@ sudo apt install ./name.deb
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 Sisitemu yawe ya Debian ubu yashizweho kandi yiteguye gukoreshwa mu bikorwa vyawe vya misi yose.
 
@@ -443,4 +443,4 @@ Kugira ngo umenye vyinshi ku vyerekeye Debian, no muri rusangi ku bijanye n'uguk
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

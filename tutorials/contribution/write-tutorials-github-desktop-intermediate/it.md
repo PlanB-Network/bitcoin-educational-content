@@ -1,30 +1,30 @@
 ---
 name: Come scrivere tutorial usando GitHub Desktop (intermedio)
-description: Guida completa per proporre un tutorial su Plan ₿ Network utilizzando GitHub Desktop
+description: Guida completa per proporre un tutorial su Plan ₿ Academy utilizzando GitHub Desktop
 ---
 ![cover](assets/cover.webp)
 
 Prima di seguire questo tutorial sull'aggiunta di un nuovo tutorial, è necessario aver completato alcuni passi preliminari. Se non l'hai ancora fatto, ti invito a consultare prima quest'altro tutorial introduttivo e poi a tornare qui:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 A questo punto, hai già:
 
 - Scelto il tema del tutorial;
-- Contattato il team di Plan ₿ Network tramite [il gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o paolo@planb.network;
+- Contattato il team di Plan ₿ Academy tramite [il gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o paolo@planb.network;
 - Scelto gli strumenti con i quali fornire il tuo contributo.
 
 In questa guida vedrai come aggiungere il tuo tutorial su Plan ₿ Netwrok configurando il tuo ambiente locale con GitHub Desktop. Se sei già esperto di GitHub, questo tutorial molto dettagliato potrebbe non essere necessario per te. Ti consiglio piuttosto di consultare quest'altro tutorial in cui presento solo le linee guida principali, senza una descrizione dettagliata passo-passo:
 
 - **Utenti esperti**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 Se preferisci non configurare il tuo ambiente di lavoro in locale, segui quest'altro tutorial pensato per i principianti, in cui apportiamo le modifiche direttamente tramite l'interfaccia web di GitHub:
 
 - **Principianti (interfaccia web)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Prerequisiti
 
@@ -41,19 +41,19 @@ Prerequisiti prima di iniziare il tutorial:
 
 
 - Avere un [account GitHub](https://github.com/signup);
-- Aver forkato il [repository di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content);
-- Avere [un profilo da professore su Plan ₿ Network](https://planb.network/professors) (solo se si propone un tutorial completo).
+- Aver forkato il [repository di Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content);
+- Avere [un profilo da professore su Plan ₿ Academy](https://planb.academy/professors) (solo se si propone un tutorial completo).
 
 Se hai bisogno di aiuto per ottenere i prerequisiti sopra elencati, questo tutorial ti aiuterà:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-Una volta che tutto è a posto e il tuo ambiente di lavoro è correttamente configurato con il fork di Plan ₿ Network, puoi iniziare ad aggiungere il tutorial.
+Una volta che tutto è a posto e il tuo ambiente di lavoro è correttamente configurato con il fork di Plan ₿ Academy, puoi iniziare ad aggiungere il tutorial.
 
 
 ## 1 - Creare un nuovo branch
 
-Apri il browser e vai alla pagina del tuo fork del repository Plan ₿ Network. Questo è il fork che hai creato su GitHub. L'URL del tuo fork dovrebbe essere simile a: `https://github.com/[nomeutente]/bitcoin-educational-content`:
+Apri il browser e vai alla pagina del tuo fork del repository Plan ₿ Academy. Questo è il fork che hai creato su GitHub. L'URL del tuo fork dovrebbe essere simile a: `https://github.com/[nomeutente]/bitcoin-educational-content`:
 
 ![TUTO](assets/fr/03.webp)
 
@@ -77,7 +77,7 @@ Clicca su questo branch, quindi sul pulsante "New branch":
 
 ![TUTO](assets/fr/08.webp)
 
-Assicurati che il nuovo branch sia basato sul repository sorgente, cioè `PlanB-Network/bitcoin-educational-content`.
+Assicurati che il nuovo branch sia basato sul repository sorgente, cioè `Plan ₿ Academy/bitcoin-educational-content`.
 
 Nomina il tuo branch usando un titolo esplicativo, ricorrendo ai trattini per separare ogni parola. Per esempio, diciamo che il nostro obiettivo è scrivere un tutorial sull'uso di Sparrow. In questo caso, il branch di lavoro dedicato alla scrittura di questo tutorial potrebbe essere chiamato: `tuto-sparrow-wallet-loic`. Una volta inserito un titolo appropriato, clicca su `Create branch` per confermare la creazione del branch:
 
@@ -103,7 +103,7 @@ Ora che il branch di lavoro è stato creato, è il momento di integrare il nuovo
 
 - Python 3.8 o una versione superiore.
 
-Per utilizzare lo script, naviga nella cartella in cui è memorizzato. Lo script si trova nel repository dei dati di Plan ₿ Network al percorso: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
+Per utilizzare lo script, naviga nella cartella in cui è memorizzato. Lo script si trova nel repository dei dati di Plan ₿ Academy al percorso: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
 Una volta nella cartella, installa le dipendenze:
 
@@ -117,7 +117,7 @@ Avvia quindi il software con il comando:
 python3 main.py
 ```
 
-Si aprirà un'interfaccia grafica [(GUI)](https://planb.network/resources/glossary/gui). La prima volta sarà necessario inserire tutte le informazioni necessarie, ma negli utilizzi successivi lo script ricorderà le informazioni personali, per cui non sarà necessario inserirle di nuovo.
+Si aprirà un'interfaccia grafica [(GUI)](https://planb.academy/resources/glossary/gui). La prima volta sarà necessario inserire tutte le informazioni necessarie, ma negli utilizzi successivi lo script ricorderà le informazioni personali, per cui non sarà necessario inserirle di nuovo.
 
 ![DATA-CREATOR-PY](assets/fr/37.webp)
 
@@ -144,7 +144,7 @@ Questa azione inserirà automaticamente il tuo UUID di professore nel campo corr
 
 Se non hai ancora un profilo da professore, consulta questa guida:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Clicca quindi sul pulsante "New tutorial".
 
@@ -162,13 +162,13 @@ Scegli un nome per la cartella creata appositamente per il tutorial. Il nome di 
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-Il `project_id` è l'UUID dell'azienda o dell'organizzazione che sta dietro allo strumento trattato nel tutorial, disponibile [nell'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, per un tutorial su Sparrow, è possibile trovare il suo `project_id` nel file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Questa informazione viene aggiunta al file YAML del tutorial perché Plan ₿ Network mantiene un database di aziende e organizzazioni attive in ambito Bitcoin o in progetti correlati. Aggiungendo il `project_id` associato, si collega il contenuto all'entità pertinente.
+Il `project_id` è l'UUID dell'azienda o dell'organizzazione che sta dietro allo strumento trattato nel tutorial, disponibile [nell'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, per un tutorial su Sparrow, è possibile trovare il suo `project_id` nel file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Questa informazione viene aggiunta al file YAML del tutorial perché Plan ₿ Academy mantiene un database di aziende e organizzazioni attive in ambito Bitcoin o in progetti correlati. Aggiungendo il `project_id` associato, si collega il contenuto all'entità pertinente.
 
 **Aggiornamento:** Nella nuova versione dello script, non è più necessario inserire manualmente il `project_id`. È stata aggiunta una funzione di ricerca per trovare il progetto in base al nome e recuperare automaticamente il corrispondente `project_id`. Digita l'inizio del nome del progetto nel campo "Project Name" per cercarlo, quindi selezionare la società dal menu a discesa. Il `project_id` verrà inserito automaticamente nel campo sottostante. Se necessario, è possibile digitarlo manualmente.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Per i tag, selezionare 2 o 3 parole chiave pertinenti al contenuto del tutorial, scegliendole esclusivamente dall'[elenco dei tag Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Il software offre anche una funzione di ricerca per parole chiave con un menù a tendina.
+Per i tag, selezionare 2 o 3 parole chiave pertinenti al contenuto del tutorial, scegliendole esclusivamente dall'[elenco dei tag Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Il software offre anche una funzione di ricerca per parole chiave con un menù a tendina.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -184,7 +184,7 @@ Per ulteriori informazioni su questo script Python, puoi consultare il relativo 
 
 Apri il file manager e naviga nella cartella `bitcoin-educational-content`, che rappresenta il clone locale del repository. In genere si trova sotto `Documents\GitHub\bitcoin-educational-content`.
 
-All'interno di questa cartella, è necessario individuare la sottocartella appropriata per inserire il tutorial. L'organizzazione delle cartelle riflette le diverse sezioni del sito web di Plan ₿ Network. Nel nostro esempio, poiché vogliamo aggiungere un tutorial su Sparrow, dovremo navigare verso seguente percorso: `bitcoin-educational-content\tutorials\wallet`, che corrisponde alla sezione `WALLET` del sito web:
+All'interno di questa cartella, è necessario individuare la sottocartella appropriata per inserire il tutorial. L'organizzazione delle cartelle riflette le diverse sezioni del sito web di Plan ₿ Academy. Nel nostro esempio, poiché vogliamo aggiungere un tutorial su Sparrow, dovremo navigare verso seguente percorso: `bitcoin-educational-content\tutorials\wallet`, che corrisponde alla sezione `WALLET` del sito web:
 
 ![TUTO](assets/fr/12.webp)
 
@@ -250,11 +250,11 @@ Ecco i campi obbligatori:
 
 - **id**: Un UUID (_Identificatore Unico Universale_) che identifica univocamente il tutorial. Puoi generarlo con [uno strumento online](https://www.uuidgenerator.net/version4). L'unico requisito è che questo UUID sia casuale per evitare conflitti con altri UUID presenti sulla piattaforma;
 
-- **project_id**: L'UUID dell'azienda o organizzazione dietro lo strumento presentato nel tutorial [dall'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, se stai creando un tutorial su Blockstream App, puoi trovare il `project_id` nel seguente file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Queste informazioni vengono aggiunte al file YAML del tuo tutorial perché Plan ₿ Network mantiene un database di tutte le aziende e organizzazioni che operano su Bitcoin o progetti correlati. Aggiungendo il `project_id` dell'entità associata al tuo tutorial, crei un collegamento tra i due elementi;
+- **project_id**: L'UUID dell'azienda o organizzazione dietro lo strumento presentato nel tutorial [dall'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, se stai creando un tutorial su Blockstream App, puoi trovare il `project_id` nel seguente file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Queste informazioni vengono aggiunte al file YAML del tuo tutorial perché Plan ₿ Academy mantiene un database di tutte le aziende e organizzazioni che operano su Bitcoin o progetti correlati. Aggiungendo il `project_id` dell'entità associata al tuo tutorial, crei un collegamento tra i due elementi;
 
-- **tags**: 2 o 3 parole chiave relative al contenuto del tutorial, scelte esclusivamente [dall'elenco dei tag di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 o 3 parole chiave relative al contenuto del tutorial, scelte esclusivamente [dall'elenco dei tag di Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: La sottocategoria corrispondente al contenuto del tutorial, in base alla struttura del sito Plan ₿ Network (ad esempio per i wallet: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: La sottocategoria corrispondente al contenuto del tutorial, in base alla struttura del sito Plan ₿ Academy (ad esempio per i wallet: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Il livello di difficoltà del tutorial, selezionabile tra:
     - `beginner`
@@ -275,7 +275,7 @@ Ecco i campi obbligatori:
 
 Per maggiori dettagli sull'ID insegnante, consulta il tutorial corrispondente:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -378,7 +378,7 @@ Per inserire un'immagine nel documento, utilizza il seguente comando Markdown, a
 
 Il punto esclamativo all'inizio indica che si tratta di un'immagine. Il testo alternativo, che aiuta l'accessibilità e la SEO, è posto tra le parentesi quadre. Infine, il percorso dell'immagine è indicato tra le parentesi tonde.
 
-Se desideri creare delle immagini personalizzate, assicurati che abbiano lo stesso formato grafico di Plan ₿ Network per garantire una coerenza visiva:
+Se desideri creare delle immagini personalizzate, assicurati che abbiano lo stesso formato grafico di Plan ₿ Academy per garantire una coerenza visiva:
 
 
 - Font**: Utilizza [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
@@ -387,7 +387,7 @@ Se desideri creare delle immagini personalizzate, assicurati che abbiano lo stes
  - Nero: #000000
  - Bianco: #FFFFFF
 
-**È indispensabile che tutte le immagini integrate nei tutorial siano libere da diritti o rispettino la licenza del file sorgente**. Inoltre, tutte le immagini pubblicate su Plan ₿ Network sono rese disponibili con licenza CC-BY-SA, così come avviene per i testi.
+**È indispensabile che tutte le immagini integrate nei tutorial siano libere da diritti o rispettino la licenza del file sorgente**. Inoltre, tutte le immagini pubblicate su Plan ₿ Academy sono rese disponibili con licenza CC-BY-SA, così come avviene per i testi.
 
 **-> Suggerimento:** Quando si condividono file pubblicamente, come le immagini, è importante rimuovere i metadati non necessari. Questi possono contenere informazioni sensibili, come dati sulla posizione, date di creazione o dettagli sull'autore. Per proteggere la privacy, è consigliabile eliminare questi metadati. Per semplificare questo processo, è possibile utilizzare strumenti specializzati come [Exif Cleaner](https://exifcleaner.com/), che consente di pulire i metadati di un documento con un semplice drag-and-drop.
 
@@ -417,7 +417,7 @@ Puoi controllare un'ultima volta che le modifiche siano corrette, quindi clicca 
 
 ![TUTO](assets/fr/32.webp)
 
-Una pull request è una richiesta di integrazione delle modifiche dal tuo branch al branch principale del repository di Plan ₿ Network: la PR consente la revisione e la discussione delle modifiche prima che vengano "mergiate".
+Una pull request è una richiesta di integrazione delle modifiche dal tuo branch al branch principale del repository di Plan ₿ Academy: la PR consente la revisione e la discussione delle modifiche prima che vengano "mergiate".
 
 Verrai automaticamente reindirizzato nel tuo browser su GitHub alla pagina di preparazione della tua pull request:
 
@@ -427,7 +427,7 @@ Indica un titolo che riassuma brevemente le modifiche che desideri unire al repo
 
 ![TUTO](assets/fr/34.webp)
 
-La tua PR sarà quindi visibile nella scheda "Pull Request" del repository principale di Plan ₿ Network. Non devi far altro che attendere che un amministratore ti contatti per confermare l'inclusione del tuo contributo al branch principale, o per richiedere ulteriori modifiche.
+La tua PR sarà quindi visibile nella scheda "Pull Request" del repository principale di Plan ₿ Academy. Non devi far altro che attendere che un amministratore ti contatti per confermare l'inclusione del tuo contributo al branch principale, o per richiedere ulteriori modifiche.
 
 ![TUTO](assets/fr/35.webp)
 
@@ -443,7 +443,7 @@ Se desideri apportare modifiche al tuo tutorial dopo aver già presentato la PR,
 
 
 - Se la PR è ancora aperta e non è ancora stata inclusa, apporta le modifiche localmente rimanendo sullo stesso branch. Una volta finalizzate le modifiche, usa il pulsante `Push origin` per aggiungere un nuovo commit alla PR ancora aperta;
-- Se la tua PR è già stata unita al branch principale, devi ricominciare il processo creando un nuovo branch e inviando una nuova PR. Assicurati che il repository locale sia sincronizzato con il repository di Plan ₿ Network prima di procedere.
+- Se la tua PR è già stata unita al branch principale, devi ricominciare il processo creando un nuovo branch e inviando una nuova PR. Assicurati che il repository locale sia sincronizzato con il repository di Plan ₿ Academy prima di procedere.
 
-Se incontri difficoltà tecniche nell'inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato a coloro che sostengono il progetto Plan ₿ Network](https://t.me/PlanBNetwork_ContentBuilder). Grazie!
+Se incontri difficoltà tecniche nell'inviare il tuo tutorial, non esitare a chiedere aiuto sul [nostro gruppo Telegram dedicato a coloro che sostengono il progetto Plan ₿ Academy](https://t.me/PlanBNetwork_ContentBuilder). Grazie!
 

@@ -48,7 +48,7 @@ Verrà quindi richiesto di impostare una password. È importante scegliere una p
 
 L'uso di un gestore di password è una pratica eccellente. Non solo consente di memorizzare le password in modo sicuro senza doverle memorizzare, ma può anche creare per voi password lunghe e casuali. Gli esseri umani sono infatti pessimi nel creare sequenze casuali e una password non sufficientemente casuale può essere vulnerabile agli attacchi di forza bruta. Per maggiori dettagli su questo argomento, ti consiglio di consultare il nostro tutorial completo sull'impostazione di un gestore di password:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -117,7 +117,7 @@ Quindi scansiona il codice QR utilizzando l'applicazione 2FA.
 
 Per ulteriori informazioni, consulta il nostro tutorial su come utilizzare un'applicazione 2FA.
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Nella scheda "*Lingua e ora*" è possibile modificare la lingua e il fuso orario dell'interfaccia.
 

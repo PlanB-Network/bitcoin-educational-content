@@ -11,7 +11,7 @@ Elementary OS je operační systém založený na Ubuntu, který je navržen tak
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Proč si vybrat systém Elementary OS
 
@@ -380,4 +380,4 @@ V počítači je nyní spuštěn operační systém Elementary OS. Jeho filozofi
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

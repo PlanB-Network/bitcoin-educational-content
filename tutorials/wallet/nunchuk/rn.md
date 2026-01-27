@@ -98,7 +98,7 @@ Mu idirisha rizoza, uzosangamwo ivyicaro vyo "kwuzuza": uhitemwo buto _Browse_ i
 Ushobora kuronka uburongozi bwa Sparrow wallet kugira ngo ubone iyi Software Wallet .
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Ushobora rero gukura dosiye `.apk` kuri mudasobwa yawe ukayishira kuri telefone yawe
 
@@ -276,7 +276,7 @@ Izina ry'urufunguzo rwawe hanyuma ukande _Bandanya_.
 
 
 
-Iyo izo ntambwe zirangiye, uzobazwa nimba wokwongerako [passphrase](https://planb.network/ru/ibikoresho/urutonde rw’amajambo/passphrase-bip39) ku nteruro yawe ya Mnemonic. Niba udafise ubumenyi bukwiye bw'ingene ukoresha passphrase, gutunganya uko ikora, canke ingene ikora, ndagusavye uhitemwo _Sinkeneye ijambo ry'ibanga_.
+Iyo izo ntambwe zirangiye, uzobazwa nimba wokwongerako [passphrase](https://planb.academy/ru/ibikoresho/urutonde rw’amajambo/passphrase-bip39) ku nteruro yawe ya Mnemonic. Niba udafise ubumenyi bukwiye bw'ingene ukoresha passphrase, gutunganya uko ikora, canke ingene ikora, ndagusavye uhitemwo _Sinkeneye ijambo ry'ibanga_.
 
 
 
@@ -394,7 +394,7 @@ Uri mu _Ingoro_, aho werekanwa Wallet nshasha yaremwe itanga raporo y'uburingani
 
 
 - Igishushanyo c’ibarabara kiri hejuru iburyo kiragufasha gukora ubushakashatsi bw’ugucuruza;
-- `View Wallet config` itanga uburenganzira bwo gushika ku rutonde rw'imiterere, aho ushobora guhindura izina rya Wallet no gukoresha amahitamwo ateye imbere, hejuru iburyo (ayo udashobora kuronka amafoto). Aha ushobora kwohereza hanze imiterere ya Wallet, ibimenyetso, gusubirira imfunguruzo, guhindura [umupaka w’ikinogo](https://planb.network/ru/ibikoresho/urutonde rw’amajambo/umupaka w’ikinogo) n’ibindi.
+- `View Wallet config` itanga uburenganzira bwo gushika ku rutonde rw'imiterere, aho ushobora guhindura izina rya Wallet no gukoresha amahitamwo ateye imbere, hejuru iburyo (ayo udashobora kuronka amafoto). Aha ushobora kwohereza hanze imiterere ya Wallet, ibimenyetso, gusubirira imfunguruzo, guhindura [umupaka w’ikinogo](https://planb.academy/ru/ibikoresho/urutonde rw’amajambo/umupaka w’ikinogo) n’ibindi.
 
 
 

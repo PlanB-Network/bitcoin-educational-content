@@ -6,4 +6,4 @@ wrong_answers:
   - Środki wysyłane są na ścieżce do wszystkich węzłów jednocześnie
 explanation: |
   Trasowanie warstwowe oznacza, że każdy węzeł pośredni zna tylko poprzedni i następny węzeł z zachowaniem poufności odbiorcy końcowego.
-reviewed: false
+reviewed: true

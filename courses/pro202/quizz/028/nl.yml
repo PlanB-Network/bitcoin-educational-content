@@ -1,0 +1,8 @@
+question: Wat is het fundamentele verschil tussen P2PK en P2PKH in termen van welke informatie wordt onthuld voordat munten worden uitgegeven?
+answer: P2PK onthult de volledige openbare sleutel in de ScriptPubKey voordat deze wordt uitgegeven, terwijl P2PKH alleen een hash van de openbare sleutel onthult totdat deze wordt uitgegeven
+wrong_answers:
+  - P2PK vereist meerdere handtekeningen voor validatie, terwijl P2PKH slechts één handtekening nodig heeft om de munten te ontgrendelen
+  - P2PK gebruikt een ander hashing-algoritme dan P2PKH, waardoor het veiliger is tegen aanvallen met kwantumcomputers
+  - P2PK slaat de privésleutel op in de ScriptPubKey, terwijl P2PKH alleen het resultaat van de handtekeningverificatie opslaat
+explanation: |
+  P2PK vergrendelt munten direct aan een volledige openbare sleutel die zichtbaar is in de ScriptPubKey voordat er uitgaven plaatsvinden. P2PKH verbetert de privacy door alleen een hash van 20 bytes van de openbare sleutel in de ScriptPubKey te tonen, waarbij de werkelijke openbare sleutel verborgen blijft totdat de eigenaar deze in de ScriptSig opgeeft tijdens het uitgeven. Deze verbetering van de privacy is een van de belangrijkste voordelen van P2PKH ten opzichte van het eerdere P2PK-patroon.

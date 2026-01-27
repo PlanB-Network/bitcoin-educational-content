@@ -1,0 +1,9 @@
+question: Apa rumus probabilitas matematis untuk penambang yang tidak jujur dengan tingkat hash x persen untuk berhasil mengeksekusi fee sniping dengan melakukan re-mining pada blok sebelumnya ditambah dengan blok baru?
+answer: (x/(1-x))^2
+wrong_answers:
+  - x^2/(1-x)
+  - (1-x)^2/x
+  - x / (1-x) ^ 2
+explanation: |
+  Rumus yang benar adalah (x/(1-x))^2 karena fee sniping mengharuskan penambang untuk berhasil menambang dua blok secara berurutan untuk menggantikan blok sebelumnya dan juga memperpanjang rantai. Probabilitas mining satu blok terhadap penambang yang jujur adalah x/(1-x), dan karena dua blok harus ditambang secara berurutan, maka probabilitas ini dikuadratkan. Rumus-rumus lainnya secara matematis masuk akal tetapi mewakili skenario probabilitas yang berbeda yang tidak sesuai dengan persyaratan spesifik dari fee sniping, dimana penambang yang tidak jujur harus mengalahkan jaringan yang jujur dua kali secara berurutan.
+reviewed: false

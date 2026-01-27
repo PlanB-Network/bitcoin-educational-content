@@ -1,0 +1,8 @@
+question: Enligt liberal ekonomisk teori, vilket grundläggande problem skapar underskottsutgifter i demokratiska samhällen?
+answer: Det gör att nuvarande generationer kan åtnjuta fördelar medan kostnaderna överförs till framtida generationer som inte kan delta i nuvarande demokratiska beslut
+wrong_answers:
+  - Det skapar en överdriven inflation som omedelbart minskar köpkraften för nuvarande skattebetalare och destabiliserar ekonomin
+  - Den ekonomiska makten koncentreras i alltför hög grad till rika fordringsägare som sedan kan påverka regeringens politiska beslut
+  - Det minskar regeringens effektivitet genom att skapa byråkratisk konkurrens mellan olika utgiftsdepartement om begränsade resurser
+explanation: |
+  Kapitlet förklarar att underskott bryter den naturliga kopplingen mellan njutning och ansvar genom att låta dagens medborgare dra nytta av statliga tjänster samtidigt som kostnaderna lagligen överförs till framtida generationer. Detta skapar en grundläggande demokratisk motsägelse eftersom de framtida medborgare som kommer att bära den ekonomiska bördan inte kan delta i dagens politiska beslut som skapar skulden. Detta bryter mot principen om "ingen beskattning utan representation" eftersom framtida generationer i praktiken beskattas utan att ha en röst i beslutsprocessen.

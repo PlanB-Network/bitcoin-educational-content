@@ -1,22 +1,19 @@
 ---
 name: Bitcoin dành cho doanh nghiệp
 goal: Tìm hiểu những điều cơ bản về thanh toán và quỹ dự phòng công ty để ứng dụng bitcoin trong tài chính doanh nghiệp
-objectives: 
-
-  - Bitcoin như một loại tiền tệ mới nổi và một công cụ quản lý tài chính doanh nghiệp
-  - Hiểu lý do và cách thức một doanh nghiệp có thể nắm giữ bitcoin trong quỹ dự phòng hoặc sử dụng nó để thanh toán
-  - Nắm được ý tưởng cụ thể về cách chấp nhận thanh toán trong thực tế bằng bitcoin
-  - Chuẩn bị cho việc quản lý để đảm bảo tuân thủ các yêu cầu về tài chính và kế toán
-
+objectives:
+- Khám phá Bitcoin như một loại tiền tệ mới nổi và công cụ kinh doanh
+- Hiểu tại sao và làm thế nào một doanh nghiệp có thể giữ bitcoin trong kho bạc hoặc sử dụng nó để thanh toán
+- Có ý tưởng cụ thể về cách chấp nhận thanh toán Bitcoin trong thực tế
+- Chuẩn bị sẵn sàng để quản lý các yêu cầu về thuế và kế toán
 ---
-# Khởi động hành trình vào mạng lưới bitcoin cho doanh nghiệp của bạn
+# Khởi động hành trình của công ty bạn trên mạng lưới Bitcoin
 
-Khám phá khả năng thực tế của mạng Bitcoin và Lightning, và tìm hiểu cách chúng có thể **chuyển đổi hoạt động kinh doanh của bạn** giống như internet. Bitcoin cung cấp một loạt **các ứng dụng rộng rãi cho doanh nghiệp** từ khả năng số hóa nguồn vốn đến việc mở rộng phương thức thanh toán một cách nhanh chóng với chi phí giao dịch thấp.
+Khám phá các khả năng thực tế của Bitcoin và Lightning Network, và tìm hiểu cách chúng, giống như internet, có thể chuyển đổi hoạt động kinh doanh của bạn. Từ quản lý ngân quỹ đến các khoản thanh toán nhanh chóng, tiết kiệm và có khả năng mở rộng, Bitcoin cung cấp một loạt các trường hợp sử dụng rộng lớn cho doanh nghiệp.
 
-Trong khóa hướng dẫn này, bạn sẽ hiểu Bitcoin là một mạng lưới thanh toán internet phủ rộng khắp toàn cầu. Với các đặc điểm cơ bản độc đáo, **Bitcoin có những cải tiến đáng kể so với các mạng lưới thanh toán truyền thống**. Bạn sẽ thấy lý do và học cách tận dụng Bitcoin thay thế cho các trường hợp sử dụng truyền thống trong tài chính doanh nghiệp như lưu trữ vốn và hệ thống thanh toán. Ngoài ra, khóa này sẽ đề cập đến cách thức mua và lưu giữ Bitcoin đảm bảo các yêu cầu về chuẩn mực kế toán tài chính liên quan, cũng như việc triển khai các giải pháp đơn giản và giải pháp phù hợp quy mô lớn cho việc thanh toán Bitcoin.
+Trong suốt khóa học này, bạn sẽ học cách hiểu Bitcoin như một mạng lưới tiền tệ toàn cầu, phổ quát và bản địa trên internet. Với các đặc điểm cơ bản độc đáo của mình, Bitcoin mang lại những cải tiến đáng kể so với tiền tệ truyền thống. Bạn sẽ khám phá lý do và cách tận dụng Bitcoin cho các trường hợp sử dụng tài chính cổ điển như lưu trữ vốn và hệ thống thanh toán. Ngoài ra, khóa học này sẽ đề cập đến việc mua và nắm giữ Bitcoin, bao gồm các yêu cầu kế toán và thuế liên quan, cũng như triển khai các giải pháp thanh toán Bitcoin đơn giản hoặc quy mô lớn.
 
-Cho dù bạn là **doanh nghiệp nhỏ hay tập đoàn lớn**, việc tích hợp Bitcoin vào hoạt động kinh doanh hàng ngày có thể giúp công ty của bạn **tăng năng suất, khả năng chống chịu và cạnh tranh hơn**. Mọi hoạt động thương mại trên Internet đều có thể sẽ trở thành kinh doanh định hướng theo Bitcoin và khóa học này đảm bảo bạn được trang bị các kiến thức cần thiết. Phần đầu sẽ tóm tắt lại những điều cơ bản về hoạt động của Bitcoin, vì vậy ngay cả khi bạn là người mới bắt đầu, bạn vẫn sẽ có được kiến thức nền tảng cần thiết để tiếp tục và hoàn thành khóa học. Tìm hiểu những cơ bản về phát minh của Satoshi luôn có ích, cho dù đó là trước hay sau khi học BIZ101.
-
+Dù bạn là doanh nghiệp nhỏ hay tập đoàn lớn, việc tích hợp Bitcoin vào hoạt động hàng ngày của bạn có thể làm cho công ty của bạn trở nên kiên cường hơn, năng suất hơn và cạnh tranh hơn. Mọi công ty dựa trên internet sẽ trở thành công ty định hướng Bitcoin, và khóa học này đảm bảo bạn đã sẵn sàng.
 +++
 # Giới thiệu
 
@@ -37,7 +34,7 @@ Cho dù bạn đại diện cho một doanh nghiệp nhỏ hay một tập đoà
 
 Sẵn sàng khám phá thế giới Bitcoin dành cho doanh nghiệp chưa? Bắt đầu thôi!
 
-**Lưu ý**: Nếu bạn gặp phải các thuật ngữ không quen thuộc trong khóa học, vui lòng tham khảo [bảng thuật ngữ](https://planb.network/resources/glossary) để biết định nghĩa.
+**Lưu ý**: Nếu bạn gặp phải các thuật ngữ không quen thuộc trong khóa học, vui lòng tham khảo [bảng thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa.
 
 # Tiền tệ, hệ thống thanh toán và Bitcoin
 
@@ -204,7 +201,7 @@ Cùng nhau, chúng tạo nên Bitcoin là **tài sản cơ bản** và là tiề
 
 ![BIZ101](assets/vi/003.webp)
 
-Bitcoin có chính sách tiền tệ cố định, với **mức giới hạn là 21 triệu bitcoin**, trong đó ~19,8 triệu đã được phân phối. Điều này khiến nó trở thành **giảm phát**, với giá trị tăng theo thời gian khi người dùng lưu trữ tiền tiết kiệm và hiệu năng sản suất trong đó.
+Bitcoin có chính sách tiền tệ cố định, với **tối đa 21 triệu bitcoin**, trong đó ~19,8 (2024) triệu đã được khai thác. Điều này làm cho nó có tính **giảm phát**, với giá trị tăng dần theo thời gian khi người dùng lưu trữ các khoản tiết kiệm và lợi ích năng suất trong đó.
 
 Các tính năng kỹ thuật của nó vượt trội hơn cả vàng và đô la cộng lại, khiến nó trở thành tài sản tài chính tốt nhất từng được tạo ra. Bitcoin vừa là kho lưu trữ giá trị vừa là phương tiện trao đổi, một loại tiền tệ đang được hình thành. Hãy tưởng tượng việc chuyển giá trị từ quỹ dự phòng của một công ty sang một công ty khác một cách nhanh chóng, không qua trung gian, với chi phí tối thiểu, không gian lận, 24/7 và không có bên thứ ba nào tham gia.
 
@@ -216,7 +213,7 @@ Bitcoin mang tính đột phá vì nó khuyến khích chúng ta tìm hiểu cá
 
 Bitcoin thách thức chúng ta xem xét lại bản chất của chính tiền. Bạn có thể giải thích tiền thực sự là gì không? Một công nhân hoặc doanh nhân có thể dành 50.000 đến 100.000 giờ trong cuộc đời để kiếm tiền, nhưng có bao nhiêu người **dành ra 100 giờ để hiểu rõ hơn** về tiền và bảo toàn tiền bạc? Bitcoin khuyến khích chúng ta đặt câu hỏi về những lý do cơ bản đằng sau nhu cầu về tiền bạc và quan điểm tạm thời của chúng ta. Tiền bạc là để sống xa hoa tức thời hay để chống chịu dài lâu? Nếu có một loại tài sản tăng giá trị cho phép chúng ta trì hoãn việc chi xài tức thời, chúng ta sẽ lựa chọn như thế nào? Chúng ta muốn có những cuộc trò chuyện nào với chính mình sau 20 hoặc 30 năm nữa?
 
-**THẺ NHẬN DẠNG BITCOIN**
+**THẺ CĂN CƯỚC BITCOIN (năm 2024)**
 
 
 - **Tuổi:** 15 tuổi (3 tháng 1 năm 2009)
@@ -242,7 +239,7 @@ Bitcoin thách thức chúng ta xem xét lại bản chất của chính tiền.
 
 Để biết thêm thông tin về Bitcoin, lịch sử, cách thức hoạt động và cách sử dụng, tôi cũng đề xuất bạn nên tham khảo khóa học này:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 ## Giới thiệu về mạng Lightning
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -300,7 +297,7 @@ Mạng Lightning lý tưởng cho thanh toán Bitcoin tại các cửa hàng th�
 - **Tính cuối cùng:** Khi thanh toán được thực hiện trên Lightning, thì thanh toán đó là thanh toán cuối cùng. Không khả năng bị bên thứ ba khiếu nại hoặc tranh chấp liên quan đến gian lận.
 - **Phí:** Phí giao dịch trên mạng Lightning rất nhỏ và do người dùng trả, không phải người bán. Người bán chỉ phải trả phí nếu sau này họ cần chuyển Bitcoin của mình sang mạng hoặc dịch vụ khác.
 
-**THẺ NHẬN DẠNG LIGHTNING**
+**THẺ CĂN CƯỚC LIGHTNING (năm 2024)**
 
 
 - **Phát minh:** 2015
@@ -323,7 +320,7 @@ Mạng Lightning lý tưởng cho thanh toán Bitcoin tại các cửa hàng th�
 
 Để biết thêm thông tin về hoạt động kỹ thuật của mạng Lightning, tôi cũng đề xuất bạn tham gia khóa học này:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 # Bitcoin trong quỹ dự phòng
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -442,9 +439,9 @@ Những nhà tư tưởng này đã định hình ý tưởng rằng sự can th
 
 Để biết thêm thông tin về chủ đề này:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## Giữ bitcoin trong quỹ dự phòng
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -595,7 +592,7 @@ Vì Bitcoin hoạt động như một phương tiện trao đổi, nên có th�
 
 Điều này liên quan đến việc kiếm phần thưởng từ việc vận hành máy khai thác. Đối với các doanh nghiệp không chuyên biệt, điều này vẫn tương đối nhỏ. Bạn có thể tham gia thông qua các trung gian sẽ bán hoặc cho thuê máy tính, mạng và bảo trì cho bạn. Nếu bạn sở hữu máy móc, bạn có thể tính chúng là tài sản khấu hao. Trên quy mô lớn, bạn sẽ cần phải tính toán cẩn thận lợi nhuận đầu tư vì thị trường có tính cạnh tranh cao và đòi hỏi phải dự đoán tốt các chi phí, đặc biệt là điện.
 
-Để tìm hiểu thêm về các phương pháp khai thác, bạn có thể [tham khảo phần "khai thác" trong hướng dẫn](https://planb.network/tutorials/mining).
+Để tìm hiểu thêm về các phương pháp khai thác, bạn có thể [tham khảo phần "khai thác" trong hướng dẫn](https://planb.academy/tutorials/mining).
 
 
 - **Mua Bitcoin:**
@@ -604,11 +601,11 @@ Vì Bitcoin hoạt động như một phương tiện trao đổi, nên có th�
 
 Để tìm hiểu cách mở tài khoản doanh nghiệp và sử dụng tài khoản này để mua, bán và chuyển bitcoin, bạn có thể xem hai hướng dẫn được thiết kế riêng cho doanh nghiệp, bao gồm các nền tảng Kraken và Bitfinex trong phiên bản dành cho doanh nghiệp:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Để tìm hiểu thêm về các phương pháp mua bitcoin thông qua sàn giao dịch hoặc ngang hàng, bạn có thể [tham khảo phần "sàn giao dịch" trong hướng dẫn của chúng tôi](https://planb.network/tutorials/exchange).
+Để tìm hiểu thêm về các phương pháp mua bitcoin thông qua sàn giao dịch hoặc ngang hàng, bạn có thể [tham khảo phần "sàn giao dịch" trong hướng dẫn của chúng tôi](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/vi/012.webp)
 
@@ -863,16 +860,16 @@ Bằng cách cân bằng các công cụ thân thiện với người dùng, yê
 
 **Ví/nút LN tự lưu giữ:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 **Ví LN lưu ký:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## Thiết yếu
 
@@ -904,13 +901,13 @@ Mặc dù giải pháp Thiết yếu không yêu cầu hệ thống kế toán p
 
 Giải pháp kết hợp phù hợp nhất với hồ sơ của bạn có thể là Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 Một giải pháp dễ triển khai khác, nhưng có nhược điểm là phải bảo vệ 100%, là Open Node:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 Nếu bạn đã sẵn sàng để bắt tay vào làm và muốn kiểm soát toàn bộ quy trình, phần mềm BTCPay Server là một lựa chọn tuyệt vời. Tuy nhiên, nhược điểm lớn nhất của BTCPay Server là việc thiết lập và quản lý tốn nhiều thời gian và đòi hỏi một trình độ chuyên môn kỹ thuật nhất định, nhưng bạn có thể làm theo hướng dẫn của chúng tôi:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 Cuối cùng, như một giải pháp bổ sung cho các điểm bán hàng thực tế, bạn có thể cân nhắc thiết lập [Bitcoinize PoS](https://bitcoinize.com/).
 
 ## Chuyên nghiệp
@@ -947,7 +944,7 @@ Khi nói đến các ví dụ thực tế, hãy xem xét một cửa hàng thư�
 
 Để tìm hiểu sâu hơn về chi tiết triển khai và khám phá cấu hình thực tế của BTC Pay Server, hãy tham khảo khóa học sau:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 ## Doanh nghiệp
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
@@ -1197,7 +1194,7 @@ Tuy nhiên, một dữ liệu `.csv` đơn giản chứa lịch sử giao dịch
 
 Đối với những người tự lưu giữ Bitcoin của mình, việc quản lý UTXO (*Đầu ra giao dịch chưa chi*) là một bước quan trọng. Việc gắn nhãn UTXO phù hợp giúp theo dõi nguồn gốc của từng phân đoạn BTC, phân biệt các giao dịch liên quan đến hoạt động chuyên môn với các giao dịch liên quan đến chi phí cá nhân và tạo điều kiện truy xuất nguồn gốc cho mục đích pháp lý hoặc thuế. Hầu hết các phần mềm ví Bitcoin tốt đều cho phép bạn nhập ví của mình bằng dữ liệu sao lưu (hoặc xpub, tùy thuộc vào thiết lập của bạn) và gắn thẻ UTXO dựa trên nguồn gốc hoặc đích đến của chúng. Để hỗ trợ bạn, đây là hướng dẫn đầy đủ dành riêng cho hoạt động này:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 Cuối cùng, cho dù bạn là một thương gia nhỏ hay một doanh nghiệp lớn hơn, bạn đều có thể **thanh toán hóa đơn bằng Bitcoin**. Điều quan trọng là phải ghi chép giao dịch một cách chính xác. Nếu bạn thanh toán từ ví tự lưu ký, lý tưởng nhất là tạo một giao dịch ghi rõ số hóa đơn và mục đích thanh toán trong nhãn của bạn. Nếu bạn muốn thanh toán hóa đơn thông qua một sàn giao dịch, bạn cũng sẽ có tùy chọn xuất biên lai hoặc lịch sử giao dịch để đưa vào hồ sơ kế toán của mình. Tính minh bạch này sẽ đơn giản hóa việc theo dõi và báo cáo tất cả các hoạt động BTC của bạn.
 
 ## Ví dụ thực tế về kế toán Bitcoin

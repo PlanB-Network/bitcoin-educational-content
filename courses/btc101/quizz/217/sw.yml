@@ -1,8 +1,9 @@
-question: Lightning Network inaruhusu nini?
-answer: Shughuli za papo hapo za Bitcoin za gharama nafuu.
+question: Lengo kuu la Lightning Network ni lipi?
+answer: Kuwezesha malipo ya offchain yaliyo ya haraka na yenye gharama nafuu
 wrong_answers:
-  - Shughuli za papo hapo na za gharama ya juu za Bitcoin.
-  - Shughuli za Bitcoin zilizochelewa na za gharama nafuu.
-  - Shughuli za Bitcoin zilizochelewa na za gharama ya juu.
-explanation: >-
-reviewed: true
+  - Kuongeza ukubwa wa vitalu vya blockchain ya Bitcoin
+  - Kuchukua nafasi ya blockchain ya Bitcoin hatua kwa hatua kwa mfumo wenye ufanisi zaidi
+  - Kuyafanya mashamba ya uchimbaji kuwa matajiri sana
+explanation: |
+  Lightning Network inalenga kuwezesha malipo ya bitcoin karibu ya papo hapo kwa ada ndogo, bila kulemea blockchain kuu.
+reviewed: false

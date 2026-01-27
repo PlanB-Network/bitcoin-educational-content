@@ -6,4 +6,4 @@ wrong_answers:
   - Es macht digitale Signaturen ungültig
 explanation: |
   Das Wiederverwenden einer Adresse ermöglicht es Beobachtern, verschiedene Transaktionen leicht demselben Benutzer zuzuordnen, was deren Privatsphäre beeinträchtigt.
-reviewed: false
+reviewed: true

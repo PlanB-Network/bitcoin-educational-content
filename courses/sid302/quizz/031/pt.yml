@@ -1,0 +1,8 @@
+question: Num swap submarino Lightning Send, que elemento criptográfico específico permite ao fornecedor do swap reclamar os fundos Liquid bloqueados depois de pagar a fatura Lightning?
+answer: A pré-imagem de pagamento do pagamento Lightning serve como chave criptográfica para desbloquear os fundos do Liquid sob custódia
+wrong_answers:
+  - A assinatura do contrato hash time-lock gerada durante a transação inicial de bloqueio Liquid dá acesso
+  - Os metadados da ligação WebSocket contêm a chave de desbloqueio que autoriza a libertação de fundos para o fornecedor
+  - "A chave privada do fornecedor de swap desbloqueia automaticamente os fundos assim que a confirmação de pagamento Lightning é recebida"
+explanation: |
+  A pré-imagem de pagamento é o recibo criptográfico que prova que um pagamento Lightning foi concluído com sucesso. Nos swaps submarinos, esta pré-imagem funciona como a chave de desbloqueio dos fundos Liquid depositados, garantindo a atomicidade - o fornecedor do swap só pode reclamar os fundos Liquid se tiver efetivamente pago a fatura Lightning. As outras opções descrevem elementos criptográficos genéricos que não fornecem a prova específica de pagamento necessária, ou mecanismos incorrectos que comprometeriam a natureza sem confiança do swap atómico.

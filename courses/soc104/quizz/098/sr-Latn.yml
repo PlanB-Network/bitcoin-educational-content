@@ -1,0 +1,9 @@
+question: Prema manifestu Cypherpunk Erika Hjuza, osnovni princip koji razlikuje sajferpankere od onih koji samo nadaju zaštiti privatnosti je aktivno delovanje. Sajferpankeri ne čekaju da im privatnost bude data; oni je sami stvaraju kroz razvoj i korišćenje kriptografskih tehnologija.
+answer: Cypherpunks aktivno pišu kod kako bi izgradili anonimne sisteme umesto da čekaju da institucije obezbede privatnost
+wrong_answers:
+  - Cypherpunks se fokusiraju na političko lobiranje i pravne reforme kako bi uspostavili prava na privatnost kroz demokratske procese
+  - Cypherpunks veruju u rad unutar postojećih finansijskih institucija kako bi postepeno poboljšali njihovu zaštitu privatnosti
+  - Cypherpunks daju prednost edukaciji javnosti o rizicima po privatnost pre nego razvoju tehničkih rešenja.
+explanation: |
+  Manifest jasno navodi 'Cypherpunks pišu kod' i naglašava da ne pronalaze utehu u nadama i željama, već aktivno intervenišu u događajima. 
+  Hughes je tvrdio da ljudi ne mogu očekivati da će vlade, korporacije ili druge velike organizacije garantovati privatnost, pa cypherpunks moraju sami izgraditi kriptografske sisteme. Ovaj aktivni, tehnički pristup kroz razvoj koda ih razlikuje od pasivnih pristupa kao što su lobiranje, rad unutar postojećih sistema ili samo edukacija drugih bez stvaranja konkretnih tehnoloških rešenja.

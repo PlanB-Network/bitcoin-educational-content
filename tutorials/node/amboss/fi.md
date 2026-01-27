@@ -11,7 +11,7 @@ Lightning Network on Bitcoin-protokollan Layer, joka kehitettiin ensisijaisesti 
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Aivan kuten pääketjussa, on tullut olennaisen tärkeäksi antaa käyttäjille mahdollisuus saada tietoa verkon tiedoista ja tilasta, jotta voidaan helpottaa solmujen välisiä yhteyksiä ja minimoida verkossa yleensä esiintyvä likviditeettiongelma. Lightning Network:ssä suositellaankin suhteellisen pienempien summien mikromaksuja kuin Bitcoin:n pääketjun transaktioissa.
 
@@ -34,7 +34,7 @@ Kuten [Mempool Space](https://Mempool.space), joka tarjoaa hyödyllistä tietoa 
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Tässä opetusohjelmassa tutustumme tähän alustaan, joka on tärkeä resurssi Lightning Network-käyttäjille, niille, jotka haluavat liittää solmunsa laajentaakseen verkkoa jne.
 
@@ -57,7 +57,7 @@ Yksi Amboss-alustan tavoitteista on mahdollistaa verkon eri solmukohtien yhdist�
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Kotisivulta löydät myös solmuja, jotka on luokiteltu :
 
@@ -147,7 +147,7 @@ Tämä Interface kertoo tämän solmun Address-yhteyden: se on muotoa `pubkey@ip
 
 - Saapuva suhdeluku**: Määrä, jonka solmu veloittaa sinua jokaisesta vastaanottamastaan miljoonasta Satoshi:sta valitusta kanavasta riippuen.
 - Suhdeluku (miljoonasosaa)** : joka kuvaa Satoshi:n määrää miljoonaa yksikköä kohti, jonka solmu veloittaa sinulta, kun päätät suorittaa maksun jonkin sen kanavan kautta. Oletetaan, että päätät maksaa `10_000 Sats`:n suuruisen maksun kanavan kautta, jonka ppm-suhde on `500 Sats`, sinun on maksettava solmulle `10_000 * 500 / 1_000_000` satosheja, mikä vastaa `5 Sats`.
-- [HTLC] (https://planb.network/resources/glossary/HTLC) enimmäismäärä** : Enimmäismäärä, jonka tämä solmu sallii sinun kulkea jonkin kanavan kautta.
+- [HTLC](https://planb.academy/resources/glossary/htlc) enimmäismäärä** : Enimmäismäärä, jonka tämä solmu sallii sinun kulkea jonkin kanavan kautta.
 
 
 
@@ -304,4 +304,4 @@ Olet nyt tutustunut alustan ominaisuuksiin ja analyysityökaluihin. Alla on arti
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

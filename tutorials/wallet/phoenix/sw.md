@@ -87,7 +87,7 @@ Unaweza kuiandika kwenye karatasi au, kwa usalama zaidi, kuichora kwenye chuma c
 Kwa maelezo zaidi kuhusu njia sahihi ya kuhifadhi na kudhibiti maneno yako ya Mnemonic, ninapendekeza sana kufuata mafunzo haya mengine, hasa ikiwa wewe ni mwanzilishi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Bofya kwenye ujumbe unaoonyeshwa juu ya Interface "*Hifadhi Wallet yako...*".
 
@@ -260,9 +260,9 @@ Hongera, sasa unajua jinsi ya kusanidi na kutumia Phoenix. Ikiwa umepata mafunzo
 Ili kuchukua hatua zaidi, angalia mafunzo haya kwenye Alby Hub, suluhisho lingine bunifu na rahisi kutumia la kuzindua nodi yako ya Umeme:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Na ili kujua zaidi kuhusu utendakazi wa kiufundi wa Lightning Network, unaweza kupata mafunzo bora ya bure ya Fanis Michalakis kwenye Plan ₿ Network :
+Na ili kujua zaidi kuhusu utendakazi wa kiufundi wa Lightning Network, unaweza kupata mafunzo bora ya bure ya Fanis Michalakis kwenye Plan ₿ Academy :
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

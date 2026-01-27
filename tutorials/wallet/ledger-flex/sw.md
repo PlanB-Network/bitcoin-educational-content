@@ -259,7 +259,7 @@ passphrase ni zana yenye nguvu sana ya kuimarisha usalama wa bitcoins zako. Hata
 passphrase ni zana yenye nguvu sana ya kuimarisha usalama wa bitcoins zako. Hata hivyo, ni muhimu kuelewa jinsi inavyofanya kazi kabla ya kuitekeleza, ili kuepuka kupoteza ufikiaji wa Wallet yako. Ndio sababu ninaelezea kila kitu katika mafunzo ya kujitolea:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Hatimaye, ukurasa wa mwisho wa mipangilio hukuruhusu kuweka upya Ledger yako. Endelea tu na uwekaji upya huu ikiwa una uhakika kuwa hauna funguo zozote zinazolinda bitcoins, kwani unaweza kupoteza kabisa ufikiaji wa pesa zako.
 
@@ -470,7 +470,7 @@ Unaweza kuongeza "*Lebo*" ili kuelezea chanzo cha bitcoins ambazo zitalindwa na 
 Kwa habari zaidi juu ya kuweka lebo, nakushauri pia uangalie mafunzo haya mengine:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Kisha unaweza kutumia Address kupokea bitcoins.
 

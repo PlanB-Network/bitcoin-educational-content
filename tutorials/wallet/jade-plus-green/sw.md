@@ -34,7 +34,7 @@ Jade Plus inaoana na programu nyingi za usimamizi za Wallet. Hapa kuna muhtasari
 Katika somo hili, tutasanidi na kutumia Jade Plus na programu ya simu ya Blockstream ya Green Wallet kupitia muunganisho wa Bluetooth. Mpangilio huu ni bora kwa Kompyuta. Ikiwa unatafuta mbinu ya hali ya juu zaidi, ninapendekeza uangalie mafunzo haya ambapo tunatumia Jade Plus na Sparrow Wallet katika modi ya misimbo ya QR:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Mfano wa usalama wa Jade Plus
 
@@ -139,7 +139,7 @@ Unaweza kuiandika kwenye kadibodi iliyotolewa kwenye kisanduku, au kwa usalama u
 Kwa maelezo zaidi kuhusu njia sahihi ya kuhifadhi na kudhibiti maneno yako ya Mnemonic, ninapendekeza sana kufuata mafunzo haya mengine, hasa ikiwa wewe ni mwanzilishi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Ni wazi, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama nifanyavyo katika mafunzo haya. Sampuli hii ya Wallet itatumika kwenye Testnet pekee na itafutwa mwishoni mwa mafunzo.**
 
@@ -162,12 +162,12 @@ Mara tu unapohifadhi kifungu chako cha maneno, Jade Plus inakuuliza ulithibitish
 Katika somo hili, tutatumia programu ya Green Wallet kudhibiti Wallet iliyopangishwa kwenye Jade Plus. Njia hii inafaa hasa kwa Kompyuta. Ikiwa ungependa kudhibiti Bitcoin Wallet yako kwa undani zaidi, unaweza pia kutumia Sparrow Wallet, ambayo tutashughulikia katika mafunzo tofauti:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Kwa maagizo ya kusakinisha na kusanidi programu ya Blockstream Green, tafadhali tazama sehemu ya kwanza ya mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Mara tu kwenye programu ya Blockstream Green, bofya kitufe cha "*Sanidi Wallet* mpya".
 
@@ -283,7 +283,7 @@ Chagua "*Standard*" ikiwa ungependa kuunda Wallet ya kawaida ya sig moja.
 Kwa maelezo zaidi juu ya chaguo la "*2FA*", unaweza kufuata mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Akaunti yako imeundwa.
 
@@ -321,7 +321,7 @@ Jade yako imefunguliwa kupitia "kipengee salama cha mtandaoni" cha Blockstream (
 Kabla ya kupokea bitcoins zako za kwanza kwenye Wallet yako, **Ninakushauri sana ufanye jaribio tupu la uokoaji **. Andika maelezo fulani ya marejeleo, kama vile xpub yako au kupokea Address kwanza, kisha ufute Wallet yako kwenye programu ya Green na kwenye Jade Plus wakati bado ni tupu (`Chaguo -> Kifaa -> Weka Upya Kiwandani`). Kisha jaribu kurejesha Wallet yako kwa kutumia nakala zako za karatasi za maneno ya Mnemonic. Hakikisha kuwa maelezo ya kidakuzi yaliyotolewa baada ya kurejesha yanalingana na uliyoandika awali. Ikiwa inafanya hivyo, unaweza kuwa na uhakika kwamba nakala zako za karatasi ni za kuaminika. Ili kujua zaidi kuhusu jinsi ya kufanya urejeshaji wa jaribio, tafadhali soma mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Pokea bitcoins
 
@@ -419,5 +419,5 @@ Hongera, sasa unajua jinsi ya kusanidi na kutumia Jade Plus na programu ya simu 
 Ili kuchukua hatua zaidi, ninapendekeza mafunzo haya kwenye Jade Plus, ambapo tunaisanidi na programu ya Sparrow Wallet katika hali ya QR. Pia utajifunza jinsi ya kutumia mipangilio ya kina ya Hardware Wallet yako:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 

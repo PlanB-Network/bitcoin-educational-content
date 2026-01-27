@@ -8,7 +8,7 @@ description: Ni gute wokwongerako podcast nshasha ku rubuga rwa PlanB?
 Intumbero ya PlanB ni ugutanga ibikoresho vy’inyigisho vyo ku rwego rwo hejuru ku Bitcoin mu ndimi nyinshi zishoboka. Ibintu vyose bisohoka kuri uru rubuga ni open-source kandi bishirwa kuri GitHub, bikaba vyemerera umuntu wese kugira uruhara mu gutunganya urubuga.
 
 
-Woba uriko urarondera kwongerako podcast ya Bitcoin ku rubuga rwa PlanB Network no kwongera kugaragara kw’ikiganiro cawe, ariko ntuzi ingene wobikora? Iyi nyigisho ni iyawe!
+Woba uriko urarondera kwongerako podcast ya Bitcoin ku rubuga rwa Plan ₿ Academy no kwongera kugaragara kw’ikiganiro cawe, ariko ntuzi ingene wobikora? Iyi nyigisho ni iyawe!
 
 ![podcast](assets/01.webp)
 
@@ -16,7 +16,7 @@ Woba uriko urarondera kwongerako podcast ya Bitcoin ku rubuga rwa PlanB Network 
 - Ubwa mbere, ukeneye kugira konti ya GitHub. Niba utazi uko woyikora, twakoze inyigisho ido n’ido kugira ngo ikuyobore.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![podcast](assets/03.webp)
 
 
-- Niba utigeze utanga umusanzu ku birimwo PlanB Network mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Guca ububiko bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, bikagufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
+- Niba utigeze utanga umusanzu ku birimwo Plan ₿ Academy mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Guca ububiko bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, bikagufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
 
 ![podcast](assets/04.webp)
 
@@ -210,7 +210,7 @@ contributors:
 ![podcast](assets/25.webp)
 
 
-- Paje nshasha izofunguka. Kurura ushire ikimenyetso cawe ca podcast muri ako karere. Iyi shusho izogaragara ku rubuga rwa PlanB Network:
+- Paje nshasha izofunguka. Kurura ushire ikimenyetso cawe ca podcast muri ako karere. Iyi shusho izogaragara ku rubuga rwa Plan ₿ Academy:
 
 ![podcast](assets/26.webp)
 
@@ -269,7 +269,7 @@ contributors:
 
 ![podcast](assets/37.webp)
 
-Urakoze cane! PR yawe yararemwe neza. Umuyobozi azoca ayisubiramwo, nimba vyose biri ku rutonde, ayishire mu bubiko nyamukuru bwa PlanB Network. Ushobora kubona podcast yawe iboneka ku rubuga haciye imisi mikeyi.
+Urakoze cane! PR yawe yararemwe neza. Umuyobozi azoca ayisubiramwo, nimba vyose biri ku rutonde, ayishire mu bubiko nyamukuru bwa Plan ₿ Academy. Ushobora kubona podcast yawe iboneka ku rubuga haciye imisi mikeyi.
 
 
 Ndagusavye urabe ko ukurikirana ingene PR yawe itera imbere. Umuyobozi ashobora gusiga amajambo asaba ibindi bisobanuro. Igihe cose PR yawe itaremejwe, ushobora kuyibona mu `Ibisabwa vyo gukura` ku bubiko bwa GitHub bw'urubuga rwa PlanB:

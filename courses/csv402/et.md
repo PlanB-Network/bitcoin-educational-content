@@ -1,13 +1,11 @@
 ---
-name: RGB protokoll, teooriast praktikasse
+name: RGB programmeerimine
 goal: Omandada RGB mõistmiseks ja kasutamiseks vajalikud oskused
-objectives: 
-
-  - Mõista RGB-protokolli põhimõisteid
-  - Kliendipoolse valideerimise ja Bitcoini kohustuste põhimõtete tundmaõppimine
-  - Õppige, kuidas RGB lepinguid luua, hallata ja üle kanda
-  - Kuidas kasutada RGB-ühilduvat Lightning-sõlme
-
+objectives:
+- Mõista RGB-protokolli põhimõisteid
+- Kliendipoolse valideerimise ja Bitcoini kohustuste põhimõtete tundmaõppimine
+- Õppige, kuidas RGB lepinguid luua, hallata ja üle kanda
+- Kuidas kasutada RGB-ühilduvat Lightning-sõlme
 ---
 # RGB-protokolli avastamine
 
@@ -43,9 +41,9 @@ Teises osas keskendutakse 1. osas vaadeldud teoreetiliste kontseptsioonide raken
 Viimase osa juhivad teised kõnelejad, kes tutvustavad konkreetseid RGB-põhiseid rakendusi, et tuua esile reaalseid kasutusjuhtumeid.
 
 ---
-See koolituskursus kasvas algselt välja kahenädalasest edasijõudnute arenduslaagrist Viareggios, Toscanas, mille korraldas [Fulgur'Ventures] (https://fulgur.ventures/). Esimene nädal, mis keskendus Rustile ja SDK-dele, on leitav sellest teisest kursusest:
+See koolituskursus kasvas algselt välja kahenädalasest edasijõudnute arenduslaagrist Viareggios, Toscanas, mille korraldas [Fulgur'Ventures](https://fulgur.ventures/). Esimene nädal, mis keskendus Rustile ja SDK-dele, on leitav sellest teisest kursusest:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 Sellel kursusel keskendume stardilaagri teisele nädalale, mis keskendub RGB-le.
 
@@ -347,11 +345,11 @@ Järgnev võrdlus aitab seda põhimõtet mõista:
 Protsessi võib kokku võtta järgmiselt:
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -625,7 +623,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-Viimane võimalus on kasutada **Taproot** (kasutusele võetud koos BIP341) koos *Tapret* skeemiga. *Tapret* on deterministliku kohustuse keerukam vorm, mis toob kaasa parandusi seoses jalajälje vähenemisega plokiahelas ja lepinguoperatsioonide konfidentsiaalsusega. Põhiidee seisneb selles, et kohustus on peidetud [taproot-tehingu] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` osasse.
+Viimane võimalus on kasutada **Taproot** (kasutusele võetud koos BIP341) koos *Tapret* skeemiga. *Tapret* on deterministliku kohustuse keerukam vorm, mis toob kaasa parandusi seoses jalajälje vähenemisega plokiahelas ja lepinguoperatsioonide konfidentsiaalsusega. Põhiidee seisneb selles, et kohustus on peidetud [taproot-tehingu](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` osasse.
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
@@ -662,7 +660,7 @@ Esimesel juhul alustame taproot väljundvõtmest (*Taproot Output Key*) `Q`, mis
 
 
 - "P": _Key Path Spend_ sisemine avalik võti.
-- "G": elliptilise kõvera [secp256k1] (https://en.bitcoin.it/wiki/Secp256k1) genereeriv punkt.
+- "G": elliptilise kõvera [secp256k1](https://en.bitcoin.it/wiki/Secp256k1) genereeriv punkt.
 - t = tH_TWEAK(P)` on tweak-tegur, mis arvutatakse _tagged hash_ abil (nt `SHA-256(SHA-256(TapTweak) || P)`) vastavalt [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). See tõestab, et varjatud skripti ei ole.
 
 **Tapret** kulukohustuse lisamiseks lisage **Skripti tee kulutused** koos **üheselt mõistetava skriptiga** järgmiselt:
@@ -810,7 +808,7 @@ Konkreetselt öeldes kuulub iga _üleminekupakett_ konkreetsele lepingule. Kogu 
 
 #### MPC root Hash
 
-Tegelik väärtus, mis kirjutatakse ahelas (`Opret` või `Tapret`), kannab nime `mpc::Commitment`. See arvutatakse kujul [BIP-341] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), vastavalt valemile :
+Tegelik väärtus, mis kirjutatakse ahelas (`Opret` või `Tapret`), kannab nime `mpc::Commitment`. See arvutatakse kujul [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), vastavalt valemile :
 
 ```txt
 mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofactor || mpc::Root )
@@ -1822,7 +1820,7 @@ Lightning Network on Bitcoini detsentraliseeritud maksekanalite (või _state cha
 
 Lisateabe saamiseks selle kohta, kuidas Lightning töötab, soovitan teil läbida selle teise kursuse:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Mitme protokolliga seotud kohustused - MPC
 
@@ -3031,8 +3029,8 @@ Siin on näide YAML-faili loomiseks:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3076,7 +3074,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Seejärel kuvatakse järgmise käsuga globaalsed olekud (nimi, ticker, pakkumine...) ja nimekiri Owned States, st eraldised (näiteks 1 miljon `PBN` tokenit, mis on määratletud UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Seejärel kuvatakse järgmise käsuga globaalsed olekud (nimi, ticker, pakkumine...) ja nimekiri Owned States, st eraldised (näiteks 1 miljon `Plan ₿ Academy` tokenit, mis on määratletud UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3170,7 +3168,7 @@ Seda saab edastada Bobile mis tahes kanali kaudu (tekst, QR-kood jne).
 Sellest arvest ülekandmiseks :
 
 
-- Bobil (kes hoiab žetoonid oma peidus) on Bitcoini rahakott. Ta peab ette valmistama Bitcoini tehingu (PSBT kujul, nt `tx.psbt`), mis kulutab UTXO-d, kus asuvad vajalikud RGB-märgid, pluss üks UTXO valuuta jaoks (vahetus) ;
+- Bob (kes hoiab tokeneid oma stash’is) omab Bitcoini rahakotti. Ta peab ette valmistama Bitcoini tehingu (PSBT kujul, nt `tx.psbt`), mis kulutab UTXO-d, kus asuvad vajalikud RGB tokenid, ning lisaks ühe UTXO vahetusraha jaoks (change);
 - Bob täidab järgmise käsu:
 
 ```bash
@@ -3259,7 +3257,7 @@ Tegelikkuses võimaldab Lightning Network makseid suunata mitme kanali kaudu, ka
 
 Seetõttu tuleb RGB toimimist Lightning'ile vaadelda paralleelselt Lightning-võrgu enda toimimisega. Kui soovite selles teemas sügavamalt süveneda, siis soovitan kindlasti vaadata seda teist põhjalikku koolituskursust:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB koodikaart
 
@@ -3439,7 +3437,7 @@ Alates umbes 2022. aastast on Bitfinexi RGB meeskond keskendunud tehnoloogilise 
 
 - Osalemine lähtekoodi ja protokollide spetsifikatsioonides, sealhulgas parendusettepanekute kirjutamine, vigade parandamine jne;
 - Tööriistad arendajatele, et lihtsustada RGB integreerimist oma rakendustesse;
-- Mobiilse rahakoti [Iris] (https://iriswallet.com/) kujundamine, et katsetada ja illustreerida RGB kasutamise parimaid tavasid;
+- Mobiilse rahakoti [Iris](https://iriswallet.com/) kujundamine, et katsetada ja illustreerida RGB kasutamise parimaid tavasid;
 - Kohandatud Lightning-sõlme loomine, mis on võimeline haldama RGB-vara kanalit;
 - Teiste meeskondade toetamine RGB-lahenduste loomisel, et soodustada mitmekesisust ja tugevat ökosüsteemi.
 
@@ -3756,7 +3754,7 @@ Loomulikult saate järjekorda kohandada. Tehingu kinnitamiseks kaevandame :
 ./regtest.sh mine 1
 ```
 
-Nüüd saame luua RGB vara. Käsk sõltub sellest, millist tüüpi vara soovite luua ja millised on selle parameetrid. Siinkohal loome NIA (*Non Inflatable Asset*) tokeni nimega "PBN", mille varu on 1000 ühikut. `precision` võimaldab teil määrata ühikute jagatavuse.
+Nüüd saame luua RGB vara. Käsk sõltub sellest, millist tüüpi vara soovite luua ja millised on selle parameetrid. Siinkohal loome NIA (*Non Inflatable Asset*) tokeni nimega "Plan ₿ Academy", mille varu on 1000 ühikut. `precision` võimaldab teil määrata ühikute jagatavuse.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3764,8 +3762,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3801,7 +3799,7 @@ Käsk tagastab minu sõlme nr 2 avaliku võtme:
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Järgmisena avame kanali, määrates vastava vara (`PBN`). Käsk `/openchannel` võimaldab määrata kanali suuruse satoshis ja valida, kas lisada RGB-vara. See sõltub sellest, mida soovite luua, kuid minu puhul on käsk :
+Järgmisena avame kanali, määrates vastava vara (`Plan ₿ Academy`). Käsk `/openchannel` võimaldab määrata kanali suuruse satoshis ja valida, kas lisada RGB-vara. See sõltub sellest, mida soovite luua, kuid minu puhul on käsk :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3840,7 +3838,7 @@ Tehingu kinnitamiseks kaevandatakse 6 plokki:
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Lightning-kanal on nüüd avatud ja sisaldab ka 500 "PBN"-märki sõlme nr 1 poolel. Kui sõlm nr 2 soovib saada PBN-märke, peab ta looma arve. Seda saab teha järgmiselt:
+Lightning-kanal on nüüd avatud ja sisaldab ka 500 "Plan ₿ Academy"-märki sõlme nr 1 poolel. Kui sõlm nr 2 soovib saada Plan ₿ Academy-märke, peab ta looma arve. Seda saab teha järgmiselt:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3869,7 +3867,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-Nüüd maksame selle arve esimesest sõlmest, kus on vajalik raha "PBN" sümboliga:
+Nüüd maksame selle arve esimesest sõlmest, kus on vajalik raha "Plan ₿ Academy" sümboliga:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

@@ -90,7 +90,7 @@ Korišćenje menadžera lozinki je odlična praksa. Ne samo da vam omogućava da
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -224,7 +224,7 @@ Za više informacija, pogledajte naš vodič o tome kako koristiti 2FA aplikacij
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 U kartici "*Jezik i vreme*" možete promeniti jezik i vremensku zonu Interface.
 

@@ -1,0 +1,8 @@
+question: Apa tujuan utama dari mekanisme pertukaran kunci ECDH dalam arsitektur Confidential Transactions Liquid?
+answer: Untuk memungkinkan pengirim mengenkripsi jumlah dan jenis aset menggunakan kunci publik penerima yang membutakan sambil menghasilkan bukti rentang yang dapat diverifikasi
+wrong_answers:
+  - Untuk membuat saluran komunikasi yang aman antara server AMP dan klien wallet selama proses otorisasi transaksi
+  - Untuk membuat rahasia bersama untuk pendaftaran deskriptor multisignature antara dompet dan infrastruktur server AMP
+  - Untuk tanda tangan kriptografi generate yang membuktikan kepemilikan aset tanpa mengungkapkan informasi kunci pribadi yang mendasarinya
+explanation: |
+  Pertukaran kunci ECDH (Elliptic Curve Diffie-Hellman) di Liquid's Confidential Transactions secara khusus memungkinkan transfer aset yang menjaga privasi dengan mengizinkan pengirim untuk mengenkripsi nilai output transaksi menggunakan kunci publik penerima yang membutakan. Hal ini menciptakan sebuah rahasia bersama yang hanya dapat didekripsi oleh penerima dengan blinding key pribadi mereka, dan secara bersamaan menghasilkan range proof yang memungkinkan validator jaringan untuk memverifikasi keabsahan transaksi tanpa melihat jumlah yang sebenarnya. Opsi lainnya secara tidak tepat menggambarkan ECDH sebagai fungsi keamanan komunikasi, registrasi deskriptor, atau bukti kepemilikan, yang ditangani oleh mekanisme kriptografi yang berbeda dalam ekosistem Liquid.

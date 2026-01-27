@@ -106,7 +106,7 @@ docker compose up -d --build -V
 
 \[<http://localhost:8181](http://localhost:8181)>。
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 注意：ソースファイルを変更すると、アプリは自動的にリロードされます。
 
@@ -142,7 +142,7 @@ docker exec --user=root bitcoin-learning-management-system-api-1 chmod 777 /tmp/
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10.リポジトリをカスタマイズする（オプション）**
 

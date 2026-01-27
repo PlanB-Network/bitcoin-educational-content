@@ -5,5 +5,5 @@ wrong_answers:
   - Kombinujte običan tekst sa oznakom, a zatim šifrujte.
   - Kreiraj oznaku, zatim koristi javni ključ za njeno šifrovanje.
 explanation: |
-  Da bi se osigurala bezbednost, autentifikovano šifrovanje mora prvo da šifruje poruku, a zatim generate oznaku na šifrovanom tekstu. Drugi redosledi su potencijalno ranjivi.
-reviewed: false
+  Da bi se osigurala bezbednost, autentifikovano šifrovanje mora prvo da šifruje poruku, a zatim da generiše oznaku na šifrovanom tekstu. Drugi redosledi su potencijalno ranjivi.
+reviewed: true

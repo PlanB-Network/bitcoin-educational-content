@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen etu siitä, että Rust-luokitukset pystyvät kuljettamaan tietoja kunkin muunnoksen sisällä?
+answer: Se estää tyyppi-indikaattoreiden ja niihin liittyvien tietojen yhteensopimattomuuden niputtamalla ne yhteen
+wrong_answers:
+  - Sen avulla enumit voivat automaattisesti toteuttaa kaikki vakio-ominaisuudet ilman nimenomaista ilmoitusta
+  - Sen avulla enumeja voidaan käyttää yleisinä parametreina missä tahansa funktiossa tai metodissa
+  - Se saa enumit kuluttamaan vähemmän muistia kuin perinteiset rakenteet, joilla on samankaltaista dataa
+explanation: |
+  Rust-luokitukset voivat liittää dataa suoraan kuhunkin varianttiin, mikä eliminoi yleisen ohjelmointivirheen, joka liittyy erillisten muuttujien ylläpitämiseen tyyppi-indikaattoreille ja niihin liittyville tiedoille. Tämä rakenne varmistaa, että tiedot vastaavat aina muunnosta, mikä estää epäjohdonmukaisuudet, jotka voivat johtaa ajovirheisiin. Toisin kuin muissa kielissä, joissa tyyppiä varten voi olla erillinen enum ja dataa varten omat muuttujat, Rust:ssä kaikki niputetaan yhteen, jolloin tyyppi ja data eivät voi olla keskenään yhteensopivia.

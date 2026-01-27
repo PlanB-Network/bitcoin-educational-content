@@ -6,4 +6,4 @@ wrong_answers:
   - Gewährleistung der Kompatibilität mit dem Bitcoin-Protokoll
 explanation: |
   Der Chain Code wird verwendet, um eine zusätzliche und einzigartige Entropiequelle für jeden abgeleiteten Schlüssel einzuführen.
-reviewed: false
+reviewed: true

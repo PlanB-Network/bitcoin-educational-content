@@ -1,0 +1,8 @@
+question: Šta se dešava kada deklarirate promenljivu u Rust koristeći 'let x = 5' bez dodatnih ključnih reči?
+answer: Promenljiva postaje nepromenljiva i ne može se menjati nakon dodele
+wrong_answers:
+  - Promenljiva postaje promenljiva i može se menjati u bilo kom trenutku
+  - Promenljiva je automatski optimizovana samo za release build-ove
+  - Promenljiva zahteva eksplicitnu anotaciju tipa da bi se uspešno kompajlirala
+explanation: |
+  U Rust, promenljive su po podrazumevanju nepromenljive kada se deklarišu sa 'let'. To znači da kada dodelite vrednost promenljivoj kao što je 'let x = 5', ne možete promeniti tu vrednost kasnije u programu. Ako pokušate da je modifikujete, kompajler će proizvesti grešku. Ova podrazumevana nepromenljivost je ključna bezbednosna karakteristika koja sprečava mnoge uobičajene programske greške uzrokovane neočekivanim promenama stanja. Da biste promenljivu učinili promenljivom, morate eksplicitno koristiti ključnu reč 'mut' kao 'let mut x = 5'.

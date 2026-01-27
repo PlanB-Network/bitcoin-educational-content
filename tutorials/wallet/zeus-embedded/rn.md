@@ -17,7 +17,7 @@ Ariko kandi, iyo porogaramu irafise "Igikoresho gishizwemwo".
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Nk’ukwibutsa, Lightning ni urubuga rukorana na Bitcoin, rushobora gutuma bitcoins zihindurwa ataco zikeneye gukora mu buryo butunganye ibikorwa vya On-Chain. Ico bivamwo ni ugucuruza hafi mu kanya nk’ako gukubita, ata nkenerwa yo kurindira iminota 10 kugira ngo ububiko bwemezwe. Ivyo birakenewe canecane igihe uriha umudandaza mw’isi y’umubiri. Ikindi, Lightning itanga urugero rudasanzwe rw'**ibanga** urubuga rwa Bitcoin rudafise mu buryo bw'imvukira*.
 
@@ -200,7 +200,7 @@ Kugira ngo umenye vyinshi ku buryo bwiza bwo kubika no gucunga ijambo ryawe rya 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -345,7 +345,7 @@ Zeus rero araguha uburenganzira bwo kwongerako aka gatabo ko gutanga amahera war
 
 
 
-Zirikana ko bitandukanye na Wallet nka [Phoenix]([Plan ₿ Network - Phoenix]([Plan ₿ Network - Phoenix]), ni delegaus n'inzira y'aho hantu) umuntu agira gatatu (ACINQ mu bijanye n’i Phoenix). Rero ni wewe wenyene uzi uwuzokwakira iyo nkunga. Turatakaza ubushobozi buke (ugutanga amahera bifata igihe gito kugira ngo birangire, ariko turonka vyinshi mu bijanye n’ubuzima bwite).
+Zirikana ko bitandukanye na Wallet nka [Phoenix]([Plan ₿ Academy - Phoenix]([Plan ₿ Academy - Phoenix]), ni delegaus n'inzira y'aho hantu) umuntu agira gatatu (ACINQ mu bijanye n’i Phoenix). Rero ni wewe wenyene uzi uwuzokwakira iyo nkunga. Turatakaza ubushobozi buke (ugutanga amahera bifata igihe gito kugira ngo birangire, ariko turonka vyinshi mu bijanye n’ubuzima bwite).
 
 
 
@@ -422,8 +422,8 @@ Urasangwa, ubu witeguriye gukoresha Zeus Embedded, ubuhinga bwo gutanga umuco bu
 
 
 
-Kugira ngo umenye vyinshi ku bijanye n’ubuhinga bwa Lightning Network, urashobora kuronka inyigisho nziza cane za Fanis Michalakis ku buntu za Plan ₿ Network:
+Kugira ngo umenye vyinshi ku bijanye n’ubuhinga bwa Lightning Network, urashobora kuronka inyigisho nziza cane za Fanis Michalakis ku buntu za Plan ₿ Academy:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

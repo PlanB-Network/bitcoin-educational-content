@@ -1,0 +1,8 @@
+question: Welke combinatie van Rust eigenschappen maakt het bijzonder geschikt voor het afhandelen van de onomkeerbare aard van Bitcoin transacties?
+answer: Statisch sterk typesysteem dat fouten tijdens het compileren opvangt en geheugengerelateerde kwetsbaarheden voorkomt
+wrong_answers:
+  - Dynamisch typen met runtime-controles en automatische afvalverzameling voor geheugenbeheer
+  - Zwak typesysteem met flexibele conversies en handmatig geheugenbeheer voor prestatieoptimalisatie
+  - Just-in-time compilatie met runtime optimalisatie en geïnterpreteerde foutafhandeling voor flexibiliteit
+explanation: |
+  Het statische sterke typesysteem van Rust is cruciaal voor de ontwikkeling van Bitcoin, omdat het typefouten en logische fouten opvangt voordat het programma draait, waardoor problemen worden voorkomen die van invloed kunnen zijn op gebruikersfondsen. De statische aard betekent dat fouten worden gevonden tijdens het compileren in plaats van tijdens het uitvoeren van echte transacties. Bovendien regelt het type-systeem van Rust het geheugeneigendom en voorkomt het geheugen-gerelateerde kwetsbaarheden zoals dubbelvrije fouten en "race conditions". Dit is essentieel voor Bitcoin toepassingen waar fouten onomkeerbaar zijn en er geen autoriteit is om geld op te verhalen, in tegenstelling tot traditionele financiële systemen met terugboekingsmechanismen.

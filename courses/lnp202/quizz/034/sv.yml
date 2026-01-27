@@ -1,0 +1,9 @@
+question: Vilket av dessa kriterier är viktigast för peer connectivity?
+answer: Central position i diagrammet
+wrong_answers:
+  - Namn på nod i graf
+  - Nodens färg i grafen
+  - Antal meddelanden i diagrammet
+explanation: |
+  En välplacerad nod i Lightning-grafen underlättar routing till många destinationer.
+reviewed: false

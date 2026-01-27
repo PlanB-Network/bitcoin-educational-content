@@ -6,7 +6,7 @@ description: Cómo construir una computadora mínima, aislada y de bajo costo ut
 
 
 
-Si llevas un tiempo en las páginas de Plan ₿ Network, ya habrás aprendido que una de las configuraciones de seguridad más recomendadas, casi una obligación, **es la gestión de fondos mediante el almacenamiento offline de tus claves privadas**.
+Si llevas un tiempo en las páginas de Plan ₿ Academy, ya habrás aprendido que una de las configuraciones de seguridad más recomendadas, casi una obligación, **es la gestión de fondos mediante el almacenamiento offline de tus claves privadas**.
 
 
 
@@ -14,7 +14,7 @@ Si aún no lo has descubierto, a lo largo de este tutorial encontrarás enlaces 
 
 
 
-Para gestionar las claves privadas sin conexión, se necesita un dispositivo permanentemente desconectado de la red, ya sea un [monedero de hardware](https://planb.network/resources/glossary/hardware-wallet) o un ordenador con airgap, dedicado a esta función específica.
+Para gestionar las claves privadas sin conexión, se necesita un dispositivo permanentemente desconectado de la red, ya sea un [monedero de hardware](https://planb.academy/resources/glossary/hardware-wallet) o un ordenador con airgap, dedicado a esta función específica.
 
 
 
@@ -500,7 +500,7 @@ Entre los Wallets que conozco, el único que proporciona una versión de 32 bits
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Conclusiones
 

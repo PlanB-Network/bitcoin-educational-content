@@ -6,4 +6,4 @@ wrong_answers:
   - Koristi se za proveru pariteta broja
 explanation: |
   U asimetričnoj kriptografiji, Eulerov teorem pojednostavljuje izračunavanje stepena u šemama kao što je RSA, jer pruža metodu za manipulaciju modularnim eksponencijacijama.
-reviewed: false
+reviewed: true

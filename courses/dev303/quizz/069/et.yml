@@ -1,0 +1,8 @@
+question: Milline on kinnituste esmane roll Bitcoin rakenduste arendamisel vastavalt Rust parimatele tavadele?
+answer: Et tabada vigu testimise käigus, põhjustada probleemide ilmnemisel varakult programmi ebaõnnestumist ja olla programmeerija eelduste täidetavaks dokumentatsiooniks
+wrong_answers:
+  - Käsitleda graatsiliselt selliseid ressursivigu, nagu faili ligipääsuhäired ja võrguühenduse probleemid
+  - Tõlkida madala tasemega raamatukogu vead kõrgetasemelisteks rakendusvigadeks, mida kasutajad saavad mõista ja mille alusel nad saavad tegutseda
+  - Vältida vigaseid sisestusvigu, piirates funktsiooni parameetrite vastuvõtmist ainult kehtivate vahemike piires olevate väärtuste jaoks
+explanation: |
+  Väited täidavad Bitcoin tarkvara arendamisel kolme olulist funktsiooni: nad püüavad vead testimisfaasis, tagavad, et programmid ebaõnnestuvad varakult, kui põhieeldusi rikutakse (mis lihtsustab vigade kõrvaldamist), ja toimivad käivitatava dokumentatsioonina, mis kirjeldab programmeerija ootusi programmi oleku kohta. Teised valikud kirjeldavad erinevaid veakäitlusstrateegiaid - välise ressursi tõrgetega tegelemine, veatõlge abstraktsioonikihtide vahel ja sisendi valideerimine -, mis on olulised, kuid erinevad väidete konkreetsest rollist programmi sisemiste eelduste kontrollimisel.

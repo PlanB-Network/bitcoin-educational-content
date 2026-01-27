@@ -81,7 +81,7 @@ In questa esercitazione vi mostrerò come utilizzare il Trezor Model One con [Sp
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 È inoltre necessario il software Trezor Suite per configurare il Model One, verificarne l'autenticità e installare il firmware. Utilizzeremo questo software solo per questo, e in seguito sarà necessario solo per gli aggiornamenti del firmware. Per la gestione quotidiana del Wallet, utilizzeremo esclusivamente Sparrow Wallet, in quanto è ottimizzato per il Bitcoin e facile da usare, anche per i principianti (Sparrow supporta solo il Bitcoin, non le altcoin).
 
@@ -99,7 +99,7 @@ Per entrambi i programmi, vi consiglio vivamente di verificarne l'autenticità (
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Avvio del Trezor Model One
 
@@ -209,7 +209,7 @@ Per maggiori informazioni sul modo corretto di salvare e gestire la frase Mnemon
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Per passare alle parole successive, fare clic con il tasto destro del mouse. Una volta scritte tutte le parole, fare nuovamente clic sul pulsante destro per passare alla fase successiva.
 
@@ -315,7 +315,7 @@ Una volta aperto Sparrow Wallet, assicuratevi che il software sia collegato a un
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Fare clic sulla scheda "*File*", quindi su "*Nuovo Wallet*".
 
@@ -357,7 +357,7 @@ Quando si collega il Model One a un computer con Sparrow Wallet aperto, verrà r
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 ![Image](assets/fr/26.webp)
 
@@ -407,7 +407,7 @@ Per saperne di più su come eseguire un test di ripristino, vi suggerisco di con
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Come ricevere bitcoin con il Trezor Model One?
 
@@ -565,6 +565,6 @@ Congratulazioni, ora siete al corrente dell'uso di base del Trezor Model One con
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Se questa esercitazione vi è stata utile, vi sarei grato se lasciaste un pollice Green qui sotto. Sentitevi liberi di condividere questo articolo sui vostri social network. Grazie mille!

@@ -35,9 +35,9 @@ Ushobora gukurikirana ikiganiro kuri aya mahuza:
 
 
 
-- [Spotify] (gufungura.spotify.com/igice/1UaeQxpNq9capLE3KwArbo)
-- [Google n'ibindi biganiro] (ibiganiro e/N2Y1NmRlZDAtZTc4Mi00MDJmLTk3ODktODIyYzgwODBjODYx?sa=X&ved=0CAUQkfYCahcKEwjohMaiv6n8AhUAAAAAHQAAAAQEw)
-- [Amazoni umuziki] (ibice 54 ukuboza 992-5b 03-463a-bb98-f653b72ccb63/I-Imbere-ya-Bitcoin-Isoko-ry'Igihugu-ry'Igihugu-Igihugu-Igihugu-Igikoko)
+- [Spotify](gufungura.spotify.com/igice/1UaeQxpNq9capLE3KwArbo)
+- [Google n'ibindi biganiro](ibiganiro e/N2Y1NmRlZDAtZTc4Mi00MDJmLTk3ODktODIyYzgwODBjODYx?sa=X&ved=0CAUQkfYCahcKEwjohMaiv6n8AhUAAAAAHQAAAAQEw)
+- [Amazoni umuziki](ibice 54 ukuboza 992-5b 03-463a-bb98-f653b72ccb63/I-Imbere-ya-Bitcoin-Isoko-ry'Igihugu-ry'Igihugu-Igihugu-Igihugu-Igikoko)
 - [Anchor](aha ushobora kuyumviriza uhereye ku mucukumbuzi).
 - [Antenna pod](https://antennapod.org/) ni umuyobozi w’amakuru y’ubuntu kandi yuguruye adasaba kwiyandikisha. Kugira uronke ikiganiro fungura app, wongereko n’amaboko podcast yanje mu gushiramwo [iyi nzira](https://Anchor.fm/s/bd5d5b20/podcast/rss) mu gice ca _feed rss_, hanyuma urondere ikiganiro cagenewe JoinMarket.
 

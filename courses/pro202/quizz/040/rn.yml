@@ -1,0 +1,8 @@
+question: Ni kuki abacukuzi ba ASIC bo muri iki gihe bahindura amakuru mu bijanye n’ugucuruza kwa Coinbase aho kwizigira gusa umurima wa nonce w’umutwe w’ibarabara?
+answer: Igihugu ca nonce c’amabayiti 4 gitanga umwanya udahagije wo gushakisha ASIC za none, rero abacukuzi barahindura amakuru ya Coinbase kugira ngo bahindure umuzi wa Merkle maze bareme umwanya wo gushakisha wongereweko .
+wrong_answers:
+  - Guhindura ubucuruzi bwa Coinbase bituma abacukuzi bashobora gusaba impembo nyinshi kuruta amahera y'infashanyo asanzwe yemererwa .
+  - "Ibikorwa vya Coinbase bitegerezwa guhindurwa kugira ngo bibemwo umukono w'umucukuzi w'amabuye y'agaciro kugira ngo haboneke uburenganzira bwo kwemeza amabuye"
+  - Guhindura amakuru ya Coinbase bigabanya ingorane zo gukoresha ubuhinga bwo guharura mu kwemerera abacukuzi guca ku bisabwa vya proof-of-work .
+explanation: |
+  ASICs zo muri iki gihe zishobora guheba umwanya wa nonce w’ama byte 4 (ibishoboka 2^32) vyihuta cane, bisaba umwanya wo kurondera wongereweko. Mu guhindura amakuru mu gucuruza kwa Coinbase, abacukuzi barahindura hash y’ugucuruza, ivyo bikaba bihindura umuzi wa Merkle mu mutwe w’ibarabara, bikaba bituma habaho amamiliyaridi y’inyongera y’agaciro nk’aka nonce kugira ngo bagerageze. Ubu buhinga bwitwa ‘extra-nonce,’ burakenewe cane ku bikorwa vya mining vya none aho ibikoresho vy’ubuhinga bwa none birenze kure ubushobozi bw’umurima wa nonce w’intango.

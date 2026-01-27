@@ -1,0 +1,9 @@
+question: Кой инструмент с отворен код може напълно да криптира диск под Linux?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) е стандартното решение в Linux за криптиране на целия диск по време на инсталация.
+reviewed: false

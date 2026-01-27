@@ -1,0 +1,9 @@
+question: Quel était le modèle économique de BitPay, le processeur de paiement lancé par Stephen Pair et Tony Gallippi durant l'été 2011 ?
+answer: Convertir les bitcoins des clients en dollars instantanément, moyennant des frais
+wrong_answers:
+  - Permettre aux clients d'acheter du bitcoin instantanément avec les paiements en dollar, contre une commission
+  - Prêter les bitcoins déposés par les clients et percevoir les intérêts
+  - Relayer les paiements en bitcoins sur la chaine de blocs, recevant ainsi les frais de transactions
+explanation: |
+ Le principe de BitPay était de donner aux commerçants la possibilité de convertir leurs paiements en bitcoins instantanément en dollars, afin qu'ils puissent se prémunir contre la volatilité. BitPay avançait les dollars à leurs clients contre des frais de traitement, qui étaient initialement de 1 %.
+reviewed: false

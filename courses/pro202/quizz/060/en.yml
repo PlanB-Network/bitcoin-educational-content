@@ -1,0 +1,8 @@
+question: What specific mechanism ensures that pre-SegWit nodes accept P2WPKH transactions as valid without understanding witness validation rules?
+answer: Pre-SegWit nodes interpret the OP_0 + 20-byte hash script as an 'anyone-can-spend' output that requires no signature verification
+wrong_answers:
+  - Pre-SegWit nodes automatically forward P2WPKH transactions to upgraded nodes for witness validation before accepting them
+  - Pre-SegWit nodes recognize the P2WPKH pattern and skip validation entirely, treating all witness transactions as pre-validated
+  - Pre-SegWit nodes convert the witness data back into traditional scriptSig format using backward compatibility transformation rules
+explanation: |
+  The genius of SegWit's design lies in exploiting how pre-SegWit nodes handle unknown script patterns. When these older nodes encounter a P2WPKH script (OP_0 followed by a 20-byte push), they don't recognize it as a special witness program. Instead, they evaluate it as a standard script that leaves OP_0 and the hash on the stack. Since OP_0 evaluates to false in Bitcoin's scripting system, pre-SegWit nodes interpret this as an 'anyone-can-spend' condition - meaning no signature verification is required from their perspective. This allows the transaction to be accepted into their mempool and blocks without breaking consensus, while SegWit-aware nodes perform the actual cryptographic validation using the witness data.

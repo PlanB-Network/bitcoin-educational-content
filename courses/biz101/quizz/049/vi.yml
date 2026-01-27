@@ -1,9 +1,9 @@
-question: What key advantage does paper money have over coins in traditional payment systems?
-answer: Increased portability and efficiency
+question: Tiền giấy có lợi thế chính nào so với tiền xu trong hệ thống thanh toán truyền thống?
+answer: Tăng tính di động và hiệu quả
 wrong_answers:
-  - Enhanced intrinsic value through precious metals
-  - Automatic verification of every transaction
-  - Complete elimination of counterfeit risks
+  - Giá trị nội tại được nâng cao thông qua kim loại quý
+  - Tự động xác minh mọi giao dịch
+  - Loại bỏ hoàn toàn rủi ro hàng giả
 explanation: |
-  Paper money, being lightweight and easier to transport than coins, enabled more efficient long-distance trade and reduced logistical challenges.
-reviewed: false
+  Tiền giấy nhẹ và dễ vận chuyển hơn tiền xu, giúp giao dịch đường dài hiệu quả hơn và giảm bớt những thách thức về hậu cần.
+reviewed: true

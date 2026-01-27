@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van het combineren van RC met RefCell in Rust programmeren?
+answer: Om meerdere eigenaren in staat te stellen dezelfde gegevens te delen en te muteren met runtime leencontroles
+wrong_answers:
+  - De handhaving van leenregels verplaatsen van runtime terug naar compilatietijd voor betere prestaties
+  - Gedeelde onveranderlijke gegevens maken die veilig toegankelijk zijn voor meerdere threads
+  - Om referentiecycli en geheugenlekken te voorkomen bij het delen van gegevens tussen meerdere eigenaren
+explanation: |
+  RC<RefCell<T>> combineert referentietelling voor gedeeld eigendom met interne muteerbaarheid voor runtime-gecontroleerde mutaties. RC staat toe dat meerdere delen van code eigenaar zijn van dezelfde gegevens, terwijl RefCell mutatie mogelijk maakt via onveranderlijke referenties door het controleren van leenregels tijdens runtime. De andere opties zijn onjuist: dit patroon verplaatst controles naar runtime (niet compileertijd), creëert muteerbare (niet onveranderlijke) gedeelde gegevens en kan in feite referentiecycli veroorzaken in plaats van ze te voorkomen.

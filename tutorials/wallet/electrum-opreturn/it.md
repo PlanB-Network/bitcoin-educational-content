@@ -53,7 +53,7 @@ Questa esercitazione mostra passo dopo passo come scrivere un messaggio sul Bloc
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Questo mostrerà una ricezione Address:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -218,7 +218,7 @@ che si compone di :
 
 
 
-Suggerimento: utilizzare lo strumento [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) per generate lo script automaticamente. Anche se questo strumento suggerisce di inserire l'importo in BTC, mantenere l'unità configurata in Electrum.
+Suggerimento: utilizzare lo strumento [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) per generate lo script automaticamente. Anche se questo strumento suggerisce di inserire l'importo in BTC, mantenere l'unità configurata in Electrum.
 
 
 

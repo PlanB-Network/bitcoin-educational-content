@@ -1,0 +1,9 @@
+question: Wat is volgens het Cypherpunk Manifest van Eric Hughes de primaire verantwoordelijkheid voor het beschermen van privacy in een open elektronische samenleving?
+answer: Individuen moeten actief hun eigen privacy verdedigen in plaats van te vertrouwen op overheden of bedrijven om die privacy te verschaffen
+wrong_answers:
+  - Regeringen moeten uitgebreide privacyregels opstellen om burgers te beschermen tegen bedrijfsbewaking
+  - Grote organisaties moeten vrijwillig privacybescherming implementeren als onderdeel van hun maatschappelijke verantwoordelijkheid
+  - Er moet worden onderhandeld over internationale verdragen om universele privacynormen te creëren die worden gehandhaafd door supranationale organen
+explanation: |
+  Hughes verklaarde expliciet dat "we niet kunnen verwachten dat overheden, bedrijven of andere grote anonieme organisaties ons vertrouwelijkheid garanderen" en dat het belangrijkste doel voor Cypherpunks is "om mensen hun vertrouwelijkheid te laten verdedigen, in plaats van te vertrouwen op iemand anders om die te verschaffen".
+  Dit weerspiegelt de kern van de cypherpunkfilosofie van individuele verantwoordelijkheid en wantrouwen tegenover gecentraliseerde instellingen. De beweging geloofde dat cryptografische gereedschappen individuen in staat moesten stellen zichzelf te beschermen in plaats van afhankelijk te zijn van de instellingen die zij zagen als potentiële bedreigingen voor privacy en vrijheid.

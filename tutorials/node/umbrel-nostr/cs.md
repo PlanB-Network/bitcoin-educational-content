@@ -19,7 +19,7 @@ Ujistěte se, že jste nainstalovali Umbrel podle našeho průvodce instalací:
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Úvod do Nostr
 
@@ -137,7 +137,7 @@ Na tuto stránku vložte adresu URL svého relé Umbrel, kterou jste zkopíroval
 
 
 
-**Připojení:** noStrudel nabízí několik možností připojení. V našem případě zvolíme "Private Key" a vložíme dříve vygenerovaný soukromý klíč Nostr. Pokud klíč ještě nemáte, můžete si nainstalovat rozšíření [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj), které vám umožní vytvořit a/nebo uložit klíče Nostr a tím bezpečněji komunikovat s různými aplikacemi Nostr.
+**Připojení:** noStrudel nabízí několik možností připojení. V našem případě zvolíme "Private Key" a vložíme dříve vygenerovaný soukromý klíč Nostr. Pokud klíč ještě nemáte, můžete si nainstalovat rozšíření [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj), které vám umožní vytvořit a/nebo uložit klíče Nostr a tím bezpečněji komunikovat s různými aplikacemi Nostr.
 
 
 
@@ -306,7 +306,7 @@ Pokud chcete vědět, jak nastavit vlastní uzel Lightning v Umbrelu, doporučuj
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Pokročilá konfigurace a zabezpečení
 

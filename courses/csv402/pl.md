@@ -1,14 +1,11 @@
 ---
-name: Protokół RGB, od teorii do praktyki
+name: Programowanie RGB
 goal: Zdobycie umiejętności potrzebnych do zrozumienia i korzystania z RGB
-objectives: 
-
-  - Zrozumienie podstawowych pojęć protokołu RGB
-  - Opanowanie zasad zobowiązań Client-side Validation i Bitcoin
-  - Dowiedz się, jak tworzyć, zarządzać i przenosić umowy RGB
-  - Jak obsługiwać węzeł Lightning kompatybilny z RGB
-
-
+objectives:
+- Zrozumienie podstawowych pojęć protokołu RGB
+- Opanowanie zasad zobowiązań Client-side Validation i Bitcoin
+- Dowiedz się, jak tworzyć, zarządzać i przenosić umowy RGB
+- Jak obsługiwać węzeł Lightning kompatybilny z RGB
 ---
 # Odkrywanie protokołu RGB
 
@@ -60,10 +57,10 @@ Ostatnia sekcja jest prowadzona przez innych prelegentów, którzy prezentują k
 
 
 ---
-Ten kurs szkoleniowy pierwotnie wyrósł z dwutygodniowego zaawansowanego bootcampu programistycznego w Viareggio w Toskanii, zorganizowanego przez [Fulgur'Ventures] (https://fulgur.ventures/). Pierwszy tydzień, skoncentrowany na Rust i SDK, można znaleźć w tym innym kursie:
+Ten kurs szkoleniowy pierwotnie wyrósł z dwutygodniowego zaawansowanego bootcampu programistycznego w Viareggio w Toskanii, zorganizowanego przez [Fulgur'Ventures](https://fulgur.ventures/). Pierwszy tydzień, skoncentrowany na Rust i SDK, można znaleźć w tym innym kursie:
 
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 W tym kursie skupiamy się na drugim tygodniu bootcampu, który koncentruje się na RGB.
 
@@ -96,7 +93,7 @@ Pisemna wersja tego szkolenia została opracowana przy użyciu 2 głównych zaso
 
 
 - Filmy z seminarium Maxima Orlovsky'ego, Huntera Trujilo i Frederico Tengi na Lightning Bootcamp;
-- Dokumentacja RGB, której produkcja była sponsorowana przez [Bitfinex] (https://www.bitfinex.com/).
+- Dokumentacja RGB, której produkcja była sponsorowana przez [Bitfinex](https://www.bitfinex.com/).
 
 
 Gotowy do zanurzenia się w złożonym i fascynującym świecie RGB? Do dzieła!
@@ -510,11 +507,11 @@ Proces ten można podsumować w następujący sposób:
 
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -915,13 +912,13 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 ### Tapret
 
 
-Ostatnią opcją jest użycie **Taproot** (wprowadzonego w BIP341) ze schematem *Tapret*. *Tapret* jest bardziej złożoną formą deterministycznego Commitment, która przynosi poprawę w zakresie śladu na Blockchain i poufności operacji Contract. Główną ideą jest ukrycie Commitment w części `Script Path Spend` transakcji [Taproot] (https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki).
+Ostatnią opcją jest użycie **Taproot** (wprowadzonego w BIP341) ze schematem *Tapret*. *Tapret* jest bardziej złożoną formą deterministycznego Commitment, która przynosi poprawę w zakresie śladu na Blockchain i poufności operacji Contract. Główną ideą jest ukrycie Commitment w części `Script Path Spend` transakcji [Taproot](https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
 
-Przed opisaniem, w jaki sposób Commitment jest wstawiany do transakcji Taproot, przyjrzyjmy się **dokładnej formie** Commitment, która musi **imperatywnie** odpowiadać 64-bajtowemu ciągowi [skonstruowanemu] (https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) w następujący sposób:
+Przed opisaniem, w jaki sposób Commitment jest wstawiany do transakcji Taproot, przyjrzyjmy się **dokładnej formie** Commitment, która musi **imperatywnie** odpowiadać 64-bajtowemu ciągowi [skonstruowanemu](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) w następujący sposób:
 
 
 ```txt
@@ -1215,7 +1212,7 @@ gdzie `kofaktor` jest liczbą całkowitą, która zwiększa prawdopodobieństwo 
 - Jeśli nie uda nam się ustawić wszystkich kontraktów bez kolizji, zwiększamy `d` i zaczynamy od nowa.
 
 
-Celem jest uniknięcie zbyt wysokich drzew, przy jednoczesnym utrzymaniu ryzyka kolizji na minimalnym poziomie. Należy zauważyć, że zjawisko kolizji wynika z logiki rozkładu losowego, związanej z [Paradoksem rocznicowym] (https://en.wikipedia.org/wiki/Birthday_problem).
+Celem jest uniknięcie zbyt wysokich drzew, przy jednoczesnym utrzymaniu ryzyka kolizji na minimalnym poziomie. Należy zauważyć, że zjawisko kolizji wynika z logiki rozkładu losowego, związanej z [Paradoksem rocznicowym](https://en.wikipedia.org/wiki/Birthday_problem).
 
 
 #### Zamieszkane liście
@@ -2583,7 +2580,7 @@ Lightning Network to zdecentralizowana sieć kanałów płatności (lub _kanał�
 Więcej informacji na temat działania Lightning można znaleźć w tym kursie:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -4216,8 +4213,8 @@ Oto przykład pliku YAML do utworzenia:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -4273,7 +4270,7 @@ rgb contracts
 ![RGB-Bitcoin](assets/en/087.webp)
 
 
-Następnie kolejne polecenie wyświetla globalne stany (nazwa, ticker, Supply...) oraz listę Owned States, czyli alokacji (na przykład 1 milion tokenów `PBN` zdefiniowanych w UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Następnie kolejne polecenie wyświetla globalne stany (nazwa, ticker, Supply...) oraz listę Owned States, czyli alokacji (na przykład 1 milion tokenów `Plan ₿ Academy` zdefiniowanych w UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 
 ```bash
@@ -4404,7 +4401,7 @@ Aby przenieść z tego Invoice :
 
 
 
-- Bob (który posiada tokeny w swoim Stash) ma Bitcoin Wallet. Musi przygotować transakcję Bitcoin (w formie PSBT, np. `tx.PSBT`), która wydaje UTXO, gdzie znajdują się wymagane tokeny RGB, plus jeden UTXO na walutę (Exchange);
+- Bob (który przechowuje tokeny w swoim stashu) posiada portfel Bitcoin. Musi przygotować transakcję Bitcoin (w formie PSBT, np. `tx.psbt`), która wydaje UTXO, w których znajdują się wymagane tokeny RGB, oraz dodatkowy UTXO na resztę (change);
 - Bob wykonuje następujące polecenie:
 
 
@@ -4532,7 +4529,7 @@ W rzeczywistości Lightning Network umożliwia kierowanie płatności przez wiel
 Działanie RGB na Lightning musi być zatem rozpatrywane równolegle z działaniem samego Lightning Network. Jeśli chcesz zagłębić się w ten temat, gorąco polecam zapoznanie się z tym innym kompleksowym kursem szkoleniowym:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Mapa kodów RGB
 
@@ -5246,7 +5243,7 @@ Można oczywiście dostosować zamówienie. Aby potwierdzić transakcję, wydoby
 ```
 
 
-Możemy teraz utworzyć zasób RGB. Polecenie będzie zależeć od typu zasobu, który chcesz utworzyć i jego parametrów. Tutaj tworzę token NIA (*Non Inflatable Asset*) o nazwie "PBN" z Supply wynoszącym 1000 jednostek. Parametr `precision` pozwala zdefiniować podzielność jednostek.
+Możemy teraz utworzyć zasób RGB. Polecenie będzie zależeć od typu zasobu, który chcesz utworzyć i jego parametrów. Tutaj tworzę token NIA (*Non Inflatable Asset*) o nazwie "Plan ₿ Academy" z Supply wynoszącym 1000 jednostek. Parametr `precision` pozwala zdefiniować podzielność jednostek.
 
 
 ```bash
@@ -5255,8 +5252,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -5304,7 +5301,7 @@ Polecenie zwraca klucz publiczny mojego węzła n°2:
 ![RGB-Bitcoin](assets/en/110.webp)
 
 
-Następnie otworzymy kanał, określając odpowiedni zasób (`PBN`). Polecenie `/openchannel` pozwala zdefiniować rozmiar kanału w satoshis i zdecydować się na dołączenie zasobu RGB. Zależy to od tego, co chcesz utworzyć, ale w moim przypadku polecenie to :
+Następnie otworzymy kanał, określając odpowiedni zasób (`Plan ₿ Academy`). Polecenie `/openchannel` pozwala zdefiniować rozmiar kanału w satoshis i zdecydować się na dołączenie zasobu RGB. Zależy to od tego, co chcesz utworzyć, ale w moim przypadku polecenie to :
 
 
 ```bash
@@ -5352,7 +5349,7 @@ Aby potwierdzić transakcję, wydobywanych jest 6 bloków:
 ![RGB-Bitcoin](assets/en/112.webp)
 
 
-Kanał Lightning jest teraz otwarty i zawiera również 500 tokenów `PBN` po stronie węzła n°1. Jeśli węzeł n°2 chce otrzymać tokeny `PBN`, musi wykonać generate i Invoice. Oto jak to zrobić:
+Kanał Lightning jest teraz otwarty i zawiera również 500 tokenów `Plan ₿ Academy` po stronie węzła n°1. Jeśli węzeł n°2 chce otrzymać tokeny `Plan ₿ Academy`, musi wykonać generate i Invoice. Oto jak to zrobić:
 
 
 ```bash
@@ -5389,7 +5386,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RGB-Bitcoin](assets/en/113.webp)
 
 
-Teraz zapłacimy Invoice z pierwszego węzła, który posiada niezbędną gotówkę za pomocą tokena `PBN`:
+Teraz zapłacimy Invoice z pierwszego węzła, który posiada niezbędną gotówkę za pomocą tokena `Plan ₿ Academy`:
 
 
 ```bash

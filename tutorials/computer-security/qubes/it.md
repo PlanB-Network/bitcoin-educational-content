@@ -52,7 +52,9 @@ I vantaggi di Qubes OS risiedono soprattutto nel suo modello di sicurezza unico.
 
 Qubes OS offre anche una trasparenza e un controllo totali sull'ambiente digitale. Sapete esattamente quale software ha accesso a quale risorsa, sia essa la rete, un dispositivo USB o altri componenti sensibili. Il sistema integra di default funzioni di sicurezza avanzate, come la crittografia completa del disco, e facilita l'uso di servizi di anonimizzazione come il sistema operativo Whonix.
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
+
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Piuttosto che cercare di creare un sistema impenetrabile, Qubes OS si concentra sulla resilienza: incapsula i danni in caso di compromissione, riducendo il rischio per il resto del sistema. Questo approccio pragmatico rende Qubes OS una scelta preferenziale per gli utenti con esigenze di sicurezza elevate o che desiderano mantenere il massimo controllo sulla propria vita digitale.
 
@@ -66,7 +68,9 @@ Prima di installare Qubes OS, è essenziale assicurarsi che l'hardware soddisfi 
 
 Per installare Qubes OS, scaricare l'immagine ISO ufficiale dal sito Qubes OS [sito ufficiale](https://www.qubes-os.org/downloads/). È essenziale verificare l'integrità dell'ISO utilizzando le firme GPG fornite, per assicurarsi che il file non sia stato manomesso e che il download sia sicuro.
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
+
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
@@ -171,4 +175,4 @@ In conclusione, Qubes OS non è un normale sistema operativo, ma una soluzione d
 
 Se hai bisogno di navigare sul web in modo sicuro, di proteggere informazioni sensibili o di lavorare con diversi livelli di fiducia, Qubes OS fornisce un quadro resiliente e trasparente. Adottando buone pratiche e sfruttando appieno le sue funzionalità, avrete una **fortezza digitale** adatta alle minacce moderne. Per saperne di più sulla protezione dei dati e della privacy.
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

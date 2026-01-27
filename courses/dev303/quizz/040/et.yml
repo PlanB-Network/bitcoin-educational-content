@@ -1,0 +1,8 @@
+question: Mis juhtub sulgemise tüübi tuletamisega, kui sulgemist kutsutakse üles konkreetsete tüüpidega?
+answer: Need tüübid muutuvad selle sulgemisinstantsi jaoks fikseerituks
+wrong_answers:
+  - Sulgemine võib ka edaspidi vastu võtta eri tüüpi kõnesid
+  - Kompilaator nullib tüübid järgmise funktsioonikõne jaoks
+  - Tüübid jäävad paindlikuks ja võivad muutuda sõltuvalt kontekstist
+explanation: |
+  Rust-s saavad sulgemised kasu automaatsest tüübi tuletamisest, kuid sellel paindlikkusel on omad piirid. Kui sulgemiskohti kutsutakse konkreetsete parameetrite tüüpidega, lukustab kompilaator need tüübid selle konkreetse sulgemiskoha jaoks. See tähendab, et sama sulgemist ei saa hiljem kutsuda erinevate tüüpidega - see muutub monomorfseks esimesele tüübile, millega ta kokku puutub. See erineb üldistest funktsioonidest, mida saab kutsuda erinevate tüüpidega, sest iga kutse loob eraldi instantsi. Teised valikud on valed, sest need viitavad pidevale paindlikkusele, mida ei ole olemas, kui sulgemise tüübid on kindlaks määratud.

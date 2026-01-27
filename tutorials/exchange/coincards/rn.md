@@ -42,7 +42,7 @@ Cokimwe na mwene wayo mukuru Bitrefill, n’abayihiganwa (The Bitcoin Company, C
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards itanga amahitamwo menshi, kuva ku gucuruza gushika ku vyo kurya vyihuta, ku mbuga zo gukurikirana, imikino yo kuri internet, imbuga z'ubudandaji n'ibindi...
 
@@ -67,7 +67,7 @@ Iryo ni akaryo ko kwibutsa abashaka kwishura amakarata yabo y’ingabirano muri 
 
 
 
-Ivyigwa vyatoranijwe ku bikoresho nyamukuru vy’umuravyo (Phoenix, Breez, BitKit, Zeus...) ushobora kubisanga hano: [Plan ₿ Network - Wallet]
+Ivyigwa vyatoranijwe ku bikoresho nyamukuru vy’umuravyo (Phoenix, Breez, BitKit, Zeus...) ushobora kubisanga hano: [Plan ₿ Academy - Wallet]
 
 
 
@@ -75,7 +75,7 @@ Niba wifuza kumenya vyinshi ku buryo Lightning Network ikora, hariho inyigisho y
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## None nogura gute ikarita y’ingabirano ya BTC kuri Coincards?
 
@@ -244,4 +244,4 @@ Niba wifuza gufasha gukwiragiza Bitcoin no guhimiriza umucuruzi yigenga gukoresh
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

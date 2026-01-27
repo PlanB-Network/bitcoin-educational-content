@@ -6,4 +6,4 @@ wrong_answers:
   - ss
 explanation: |
   nslookup est un outil dédié à l'interrogation DNS pour résoudre les noms de domaine en adresses IP.
-reviewed: false
+reviewed: true 

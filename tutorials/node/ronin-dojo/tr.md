@@ -14,7 +14,7 @@ _Bu eğitim yalnızca eğitim ve bilgilendirme amaçlıdır. Bu araçların suç
 
 bu eğitim RoninDojo v1'in kurulumuna adanmıştır. En son iyileştirmelerden ve özelliklerden yararlanmak için, RoninDojo v2'nin Raspberry Pi'nize doğrudan kurulumuna adanmış eğitimimize başvurmanızı şiddetle tavsiye ederim:_
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

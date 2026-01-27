@@ -1,0 +1,9 @@
+question: Ni igiki LND seed ishobora kugarura ubwayo?
+answer: Igikoresho co ku ruzitiro wallet
+wrong_answers:
+  - Gufungura imihora
+  - Igihugu c'umurongo
+  - Nta na kimwe
+explanation: |
+  seed igarura Bitcoin onchain wallet, ariko si imirongo y’umuravyo ikora.
+reviewed: false

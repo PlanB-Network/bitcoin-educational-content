@@ -38,7 +38,7 @@ Ako još uvek nemate Lightning čvor, preporučujemo da pratite naš LND Umbrel 
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Instalacija
 
@@ -360,7 +360,7 @@ ThunderHub-ova kartica **Home** je početna stranica koja se pojavljuje nakon š
 
 
 
-- **Stanja i kapaciteti:** Na vrhu stranice, ThunderHub prikazuje vaše dostupne bilanse. Ovde ćete obično videti [on-chain](https://planb.network/resources/glossary/onchain) bilans (Bitcoin on-Chain u čvoru novčanika, simbolizovan sa sidrom ⚓) i Lightning bilans (kapaciteti vaših kanala, simbolizovani sa Bolt munjom ⚡). Ovo vam daje trenutni uvid u sredstva koja imate u On-Chain-u i Lightning-u. Ako imate nekoliko naloga ili kanala, proverite da li ste na pravom (npr. Mainnet vs Testnet).
+- **Stanja i kapaciteti:** Na vrhu stranice, ThunderHub prikazuje vaše dostupne bilanse. Ovde ćete obično videti [on-chain](https://planb.academy/resources/glossary/onchain) bilans (Bitcoin on-Chain u čvoru novčanika, simbolizovan sa sidrom ⚓) i Lightning bilans (kapaciteti vaših kanala, simbolizovani sa Bolt munjom ⚡). Ovo vam daje trenutni uvid u sredstva koja imate u On-Chain-u i Lightning-u. Ako imate nekoliko naloga ili kanala, proverite da li ste na pravom (npr. Mainnet vs Testnet).
 
 
 

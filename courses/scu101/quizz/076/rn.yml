@@ -1,9 +1,9 @@
-question: Ni kuki ari vyiza gukoresha amajambo y’ibanga akomoka ku buryo butari bwo?
-answer: Kugira ngo barwanye ibitero vy’inguvu z’agahomerabunwa.
+question: Ni kuki ari vyiza gukoresha amajambo y’ibanga akomoka ku buryo bwokuvangitiranya?
+answer: kugira ngo birwanye ibitero vy’inkomezi vy’agahomerabunwa(Brute force attacks).
 wrong_answers:
   - Kugira ngo bibe vyoroshe kwibuka.
   - Kugira ngo bigabanye ukuntu bitoroshe.
   - Kugira ngo barwanye ibitero vya Sybil.
 explanation: |
-  Ugukora ataco bimaze bituma amajambo y’ibanga agora gukeka biciye mu kugerageza no gukosa, gutyo bikaba bikomeza umutekano wayo ku bitero vy’inkomezi z’agahomerabunwa.
+  Ukokuvangitiranya bituma amajambo y’ibanga agorana kugerageza kwiyumvira/gukeka, gutyo bikaba bikomeza umutekano wayo ku bitero vy’inkomezi vy’agahomerabunwa(Brute force attacks).
 reviewed: true

@@ -37,9 +37,9 @@ Fedi Wallet ni Bitcoin Wallet izana n’uburyo bushasha bwo kubika amajambo yawe
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
@@ -47,9 +47,9 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Ahubwo, Fedi Wallet itanga uburyo bwo gukorana, bugufasha kwifatanya n’umugwi w’abantu wizigira kugira ngo bacunge imfunguruzo zawe za Wallet. Ushobora kwinjira mw’ishirahamwe ry’abantu benshi ryashikirijwe na Fedi, canke winjire mu mashirahamwe yo mu karere kawe mu gucapura kode ya QR canke mu gushiramwo kode y’ubutumire ku iryo shirahamwe.
 
@@ -75,7 +75,7 @@ Raba ibindi ku vyerekeye impanuro zacu zo gusubizaho ijambo:
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Ku federasiyo yose winjiramwo, Fedi itandukanya ama bitcoins yawe mu guhingura ama wallets atandukanye.
 
@@ -191,7 +191,7 @@ Mu **Mods**, uzosangamwo ibikorwa nka :
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,4 +231,4 @@ Ubu nyene warafashe urugendo rwa Fedi Wallet, ubu uri mu kibanza co gukoresha ub
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

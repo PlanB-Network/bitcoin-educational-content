@@ -1,9 +1,9 @@
-question: Ishure ry'i Otirishiya risobanura gute iciyumviro c'"uguhitamwo umwanya"?
-answer: Guhitamwo gufungura ubu aho gufungura hanyuma
+question: Ishure ryo muri Otirishiya risobanura gute iciyumviro c' "amahitamwo yako kanya nyene"?
+answer: Guhitamwo yogukoresha uburyo bwawe muri ako kanya nyene canke hanyuma
 wrong_answers:
   - Icipfuzo co kugabanya ibiciro vy’igihe gito
   - Gutunganya neza ishoramari ry'ubu nyene
-  - Ubushobozi bwo guhuza Supply n'ivyo usaba
+  - Ubushobozi bwo guhuza offre et demande.
 explanation: |
-  Guhitamwo igihe vyerekeye uguhitamwo gukoresha ubwo nyene kuruta inyungu zisubirwamwo, ivyo bikaba bigira ico bikoze ku ngingo zijanye no kuzigama no gushiramwo amahera.  
-reviewed: false
+  Guhitamwo vyako kanya vyerekeye uguhitamwo gukoresha ubwo nyene ugereranije ninyungu canke uruhombo, ivyo bikaba bigira ico bikoze ku ngingo zijanye no kuzigama no gushiramwo amahera muri uwo mugambi.  
+reviewed: true

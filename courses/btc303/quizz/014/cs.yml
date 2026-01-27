@@ -1,0 +1,9 @@
+question: Jaký problém tradičních finančních systémů identifikuje Satoshi Nakamoto v úvodu whitepaperu Bitcoin?
+answer: Finanční instituce se nemohou vyhnout zprostředkování sporů, což znemožňuje zcela nezvratné transakce
+wrong_answers:
+  - Banky si účtují nadměrné poplatky, které činí všechny elektronické transakce pro spotřebitele nevýhodné
+  - Společnosti vydávající kreditní karty odmítají zpracovávat platby za digitální zboží a online služby
+  - Vládní nařízení brání finančním institucím v přeshraničním působení
+explanation: |
+  Satoshi konkrétně uvádí, že finanční instituce sloužící jako důvěryhodné třetí strany se nemohou vyhnout zprostředkování sporů, což zabraňuje zcela nezvratným transakcím. To vytváří inherentní slabiny modelu založeného na důvěře, zvyšuje náklady díky zprostředkování a nutí obchodníky k obezřetnosti vůči zákazníkům. Ostatní možnosti popisují různé problémy, které nejsou zmíněny v analýze tradičních platebních systémů v Satoshi.
+reviewed: false

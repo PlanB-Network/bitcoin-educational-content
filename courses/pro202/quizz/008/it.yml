@@ -1,0 +1,8 @@
+question: Qual è il fondamento matematico che rende il problema del logaritmo discreto computazionalmente non fattibile nella crittografia a curve ellittiche?
+answer: La distribuzione imprevedibile dei punti quando si genera un gruppo ciclico attraverso l'addizione ripetuta di punti
+wrong_answers:
+  - La proprietà di simmetria delle curve ellittiche che riflette i punti attraverso l'asse delle x
+  - Le operazioni aritmetiche modulari eseguite in campi finiti anziché in numeri reali
+  - Il numero primo grande utilizzato come caratteristica del campo nell'equazione della curva
+explanation: |
+  La difficoltà del problema del logaritmo discreto deriva dalla distribuzione imprevedibile e non lineare dei punti quando si genera un gruppo ciclico (G, 2G, 3G, ..., nG). Anche se i punti sono generati in sequenza, appaiono sparsi e casuali, rendendo computazionalmente impossibile determinare lo scalare s dal punto P = sG. Sebbene la simmetria, l'aritmetica modulare e i primi grandi siano proprietà importanti delle curve ellittiche, esse non creano direttamente la funzione unidirezionale che consente una crittografia sicura a chiave pubblica.

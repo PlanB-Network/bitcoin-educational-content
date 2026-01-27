@@ -111,7 +111,7 @@ Trong hướng dẫn này, chúng ta sẽ thực hiện trên phiên bản Fedor
 
 
 
-Bạn có thể tải xuống phiên bản [Fedora Workstation] (https://fedoraproject.org/fr/workstation/download) từ trang web chính thức của dự án Fedora. Sau đó, chọn phiên bản tương ứng với kiến trúc bộ xử lý của bạn (32-bit - 64-bit) và nhấp vào biểu tượng **Tải xuống**.
+Bạn có thể tải xuống phiên bản [Fedora Workstation](https://fedoraproject.org/fr/workstation/download) từ trang web chính thức của dự án Fedora. Sau đó, chọn phiên bản tương ứng với kiến trúc bộ xử lý của bạn (32-bit - 64-bit) và nhấp vào biểu tượng **Tải xuống**.
 
 
 
@@ -441,4 +441,4 @@ Giờ đây, hệ thống Fedora của bạn đã được cập nhật và sẵ
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5

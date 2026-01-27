@@ -29,7 +29,7 @@ ThunderHub integrates easily with **Umbrel**, **Voltage**, **RaspiBlitz** and **
 If you don't yet have a Lightning node, we recommend you follow our LND Umbrel tutorial:
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Installation
 

@@ -1,21 +1,18 @@
 ---
-name: Introdução à Economia Austríaca
-goal: Descobrir a escola austríaca de pensamento econômico. Estudar suas visões sobre a sociedade e as realidades macro/microeconômicas.
+name: Fundamentos da escola austríaca de economia
+goal: Descubra a economia austríaca como uma estrutura alternativa para analisar mercados e tomada de decisões individuais
 objectives:
-  - Uma alternativa ao Keynesianismo
-  - A importância da moeda forte
-  - Por que e como nossos ciclos econômicos são criados?
-  - Por que os banqueiros centrais enlouqueceram?
+- Analisar as funções do dinheiro, crédito e sistemas bancários centrais
+- Aplicar a teoria do valor subjetivo e preferência temporal ao comportamento do mercado
+- Compreender a teoria austríaca do ciclo econômico e suas causas
+- Comparar a metodologia austríaca com abordagens econômicas convencionais
 ---
+# Jornada à Economia Austríaca
 
-# Uma jornada pela economia
+Já se perguntou por que alguns economistas pensam de forma diferente sobre mercados, liberdade e comportamento humano? A economia austríaca oferece uma perspectiva refrescante que coloca você no centro do pensamento econômico. Em vez de matemática pesada e modelos abstratos, esta abordagem concentra-se na lógica, na escolha humana e em como as pessoas reais tomam decisões em suas vidas diárias. É economia através das lentes da liberdade, racionalidade e ação pessoal.
 
-Bem-vindo ao curso de Théo Mogenet! Apaixonado por economia, história, literatura, ciência política e tecnologia, ele decidiu compartilhar seu conhecimento sobre economia austríaca com você. Essa vertente, menos conhecida na economia, é baseada na racionalidade humana e no comportamento dos atores livres. Menos intensa em matemática, trata-se principalmente de lógica e estudo social.
-
-Essa escola de pensamento já tem vários séculos de história e conta com uma ampla gama de autores, ideias e economistas por trás dela. Grandes nomes da economia, como Hayek, Rothbard, Mises, Bastiat ou Menger, há muito tempo defendem esse movimento. Em contraste com o onipresente Keynesianismo de hoje, a escola austríaca coloca o indivíduo de volta ao centro da equação, com uma abordagem mais liberal, capitalista e até mesmo anarquista.
-
+Esta escola de pensamento moldou debates durante séculos, graças a pensadores influentes como Hayek, Mises e Bastiat. Enquanto a economia keynesiana dominante domina as discussões políticas de hoje, a tradição austríaca faz perguntas diferentes: O que acontece quando priorizamos a liberdade individual? Como os mercados livres realmente funcionam quando as pessoas são livres para escolher? Se você está curioso sobre formas alternativas de pensar sobre mercados, sociedade e liberdade, esta é sua chance de explorar ideias que você não encontrará em livros didáticos padrão.
 +++
-
 # Introdução
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
@@ -507,9 +504,8 @@ As consequências dessa má alocação incluem crises financeiras e econômicas,
 
 Hoje, o debate sobre o cálculo econômico ressurge principalmente em discussões sobre energia, onde os investimentos inadequados impulsionados por uma agenda verde estão se tornando cada vez mais evidentes. Também surge em discussões sobre mercados monetários, com economistas austríacos apontando que a crise de 2008, que os economistas convencionais não conseguiram prever, foi um clássico ciclo de expansão e contração caracterizado por superinvestimento no mercado imobiliário devido a períodos prolongados de baixas taxas de juros. Além disso, neo-marxistas e outras facções socialistas propagam a ideia de que o surgimento da IA poderia resolver o problema do cálculo econômico. No entanto, essa perspectiva decorre de uma compreensão equivocada do problema; o problema do cálculo econômico não é uma questão de poder computacional, mas sim uma questão de geração e distribuição de informações relacionadas à produção e alocação de recursos. Essas informações só podem ser geradas localmente por agentes com conhecimento especializado e interesse no resultado. A IA não pode substituir esse processo bottom-up e, portanto, não pode ajudar os planejadores centrais a resolver o problema de alocação de recursos. Infelizmente, devido a um século de incompreensão, antecipamos uma proliferação de afirmações de que a IA inaugurará uma nova era de prosperidade econômica liderada por planejadores centrais iluminados que, com a ajuda da IA, podem corrigir as falhas dos mercados livres.
 
-Para uma aplicação concreta do problema do cálculo econômico a uma situação contemporânea, você pode consultar este artigo que aborda o problema da alocação de recursos na China moderna.
+Para uma aplicação concreta do problema do cálculo económico a uma situação contemporânea, pode consultar este artigo que aborda a alocação de recursos na China moderna: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, de Théo Mogenet.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Conclusão
 

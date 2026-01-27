@@ -1,0 +1,9 @@
+question: Theo các chuyên gia bảo mật, lý do chính khiến lỗi hiệu suất trong Bitcoin có khả năng được sử dụng để tạo phân vùng mạng là gì?
+answer: Các lỗi hiệu suất có thể được triển khai một cách chiến lược để tách các thợ đào và sàn giao dịch cụ thể khỏi phần còn lại của mạng, cho phép các cuộc tấn công chi tiêu gấp đôi
+wrong_answers:
+  - Lỗi hiệu suất chủ yếu ảnh hưởng đến thời gian xác nhận giao dịch, khiến mạng không đáng tin cậy đối với người bán và người dùng
+  - Lỗi hiệu suất tiêu tốn quá nhiều tài nguyên tính toán, buộc các nút phải tắt và làm giảm sự phân cấp của mạng
+  - Lỗi hiệu suất tạo ra rò rỉ bộ nhớ cuối cùng làm sập các nút, dẫn đến mất ổn định mạng tạm thời và giảm tốc độ băm
+explanation: |
+  Gregory Maxwell đặc biệt cảnh báo rằng các lỗi hiệu suất, khi được triển khai một cách chuyên nghiệp, có thể được sử dụng để phân vùng mạng một cách chiến lược - ví dụ, tách "thợ đào A và sàn giao dịch B" thành một phân vùng trong khi những người khác vào một phân vùng khác, tạo điều kiện cho các cuộc tấn công chi tiêu gấp đôi. Điều này chứng minh tại sao những vấn đề tưởng chừng nhỏ nhặt lại có thể trở nên nghiêm trọng, vì chúng có thể bị lợi dụng theo những cách tinh vi mà không dễ nhận thấy ngay lập tức.
+reviewed: false

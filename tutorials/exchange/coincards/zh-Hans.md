@@ -42,7 +42,7 @@ description: 如何使用 Coincards 以 BTC 购买商品和服务？
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards 提供多种选择，从零售到快餐、流媒体平台、在线游戏、电子商务网站等等...
 
@@ -67,7 +67,7 @@ Coincards 致力于保护您的隐私。他们不仅允许您使用 Bitcoin、On
 
 
 
-有关 Lightning 主要产品组合（Phoenix、Breez、BitKit、Zeus......）的精选教程可在此处找到：[Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+有关 Lightning 主要产品组合（Phoenix、Breez、BitKit、Zeus......）的精选教程可在此处找到：[Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -75,7 +75,7 @@ Coincards 致力于保护您的隐私。他们不仅允许您使用 Bitcoin、On
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 如何在 Coincards 上购买 BTC 礼品卡？
 
@@ -244,4 +244,4 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

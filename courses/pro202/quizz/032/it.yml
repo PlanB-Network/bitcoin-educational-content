@@ -1,0 +1,8 @@
+question: Qual è la ragione principale per cui le transazioni multisig nude sono state ampiamente sostituite dal P2SH per le condizioni di spesa complesse?
+answer: Il multisig nudo espone tutte le chiavi pubbliche on-chain, rendendo le transazioni grandi, costose e difficili da codificare come indirizzi
+wrong_answers:
+  - Bare multisig richiede un numero maggiore di firme rispetto a P2SH per ottenere lo stesso livello di sicurezza per le transazioni con più parti
+  - Il multisig nudo non è in grado di gestire le transazioni a tempo o i requisiti di spesa condizionati come il P2SH
+  - Le firme nude multisig sono incompatibili con il moderno software wallet e non possono essere trasmesse ai nodi attuali
+explanation: |
+  P2SH è stato introdotto specificamente per risolvere le inefficienze del multisig nudo. Il multisig nudo richiede che tutte le chiavi pubbliche siano visibili nello scriptPubKey, creando transazioni di grandi dimensioni che costano di più in termini di commissioni e sono difficili da rappresentare come indirizzi di facile utilizzo. Il P2SH risolve questo problema nascondendo il complesso script dietro un hash di 20 byte, rivelando le condizioni di spesa effettive solo quando l'output viene speso. Questo riduce l'ingombro del on-chain, migliora la privacy e consente di creare formati di indirizzi standard mantenendo le stesse garanzie di sicurezza.

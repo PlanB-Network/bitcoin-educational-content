@@ -1,0 +1,9 @@
+question: Jaký problematický přístup použil Satoshi při implementaci tvrdého fork, který by dnes vývojáři Bitcoin nikdy nepoužili?
+answer: Skrytí zlomové změny v revizi se zavádějícím popisem, který nenaznačoval změny pravidel konsensu
+wrong_answers:
+  - Zavedení tvrdého fork bez jakéhokoli veřejného oznámení nebo předchozího sdělení komunitě Bitcoin
+  - Spojení více hard forků do jediné verze bez řádného testování nebo procesu komunitní revize
+  - Okamžitá aktivace pevného modulu fork, aniž by uživatelé měli dostatek času na aktualizaci softwaru uzlu
+explanation: |
+  Podle analýzy Erica Lombroza bylo problematickým přístupem Satoshi zamaskování změny porušující konsensus v revizi se zavádějícím popisem, který zmiňoval pouze 'reverted makefile.unix wx-config version 0.3.6' bez jakéhokoli označení porušujících změn. Tato praxe skrývání kritických konsensuálních změn v nevinně vypadajících revizích by byla považována za nepřijatelnou podle dnešních standardů, kdy transparentnost a jasná komunikace o konsensuálních změnách jsou základními principy vývoje Bitcoin.
+reviewed: false

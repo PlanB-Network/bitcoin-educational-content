@@ -892,7 +892,7 @@ No olvides comunicarte con tus equipos antes de la implantación: tienes que hac
 
 
 
-Por último, también puedes comparar **Lynis** con otras herramientas, de las que hay varias. Si quieres pasar a una gestión centralizada sin dejar de ser de código abierto, te recomiendo la herramienta [Wazuh] (https://wazuh.com/).
+Por último, también puedes comparar **Lynis** con otras herramientas, de las que hay varias. Si quieres pasar a una gestión centralizada sin dejar de ser de código abierto, te recomiendo la herramienta [Wazuh](https://wazuh.com/).
 
 
 

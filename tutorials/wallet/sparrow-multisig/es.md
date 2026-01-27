@@ -48,7 +48,7 @@ En este tutorial, aprenderemos a crear y utilizar una Wallet multifirma clásica
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 ## Requisitos previos
 
@@ -58,7 +58,7 @@ Para este tutorial, voy a mostrarle cómo hacer un Multisig con [Sparrow Wallet 
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
 Para configurar una Wallet multifirma, necesitará diferentes monederos de hardware. Para una Multisig 2-de-3, por ejemplo, podrías utilizar :
 
@@ -101,11 +101,11 @@ Antes de configurar su Multisig Wallet, asegúrese de que cada Hardware Wallet e
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Como veremos más adelante en este tutorial, también es posible integrar en la configuración de su Multisig un factor que no esté asociado a una Hardware Wallet, pero cuyas claves privadas estén almacenadas en su PC. Este método es obviamente menos seguro que el uso exclusivo de monederos hardware, pero puede ser pertinente en ciertos casos. Por ejemplo, para un Multisig 2-de-3, podría optar por dos monederos hardware y un Software Wallet.
 
@@ -375,7 +375,7 @@ Además de guardar el *Descriptor*, no olvides prestar especial atención a guar
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Antes de recibir sus primeros bitcoins en su Multisig, **le aconsejo encarecidamente que realice una prueba de recuperación en vacío**. Tome nota de alguna información de referencia, como la primera Address de recepción, a continuación, restablecer sus carteras de hardware, mientras que el Wallet está todavía vacío. A continuación, intente restaurar su Multisig Wallet en los monederos hardware utilizando sus copias de seguridad en papel de la frase Mnemonic, luego en Sparrow utilizando el *Descriptor*. Comprueba que la primera Address generada tras la restauración coincide con la que anotaste originalmente. Si es así, puede estar seguro de que sus copias de seguridad en papel son fiables.
 
@@ -385,7 +385,7 @@ Para saber más sobre cómo realizar una prueba de recuperación, te sugiero que
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Recibe bitcoins en tu Multisig
 
@@ -619,4 +619,4 @@ Para ir más allá, te recomiendo que consultes este tutorial sobre otro método
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

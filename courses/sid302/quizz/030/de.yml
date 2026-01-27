@@ -1,0 +1,8 @@
+question: Was ist der Hauptzweck des ECDH-Schlüsselaustauschmechanismus in der Liquid-Confidential Transactions-Architektur?
+answer: Es soll den Absendern ermöglicht werden, Beträge und Arten von Vermögenswerten mit dem verdeckten öffentlichen Schlüssel des Empfängers zu verschlüsseln und gleichzeitig überprüfbare Reichweitennachweise zu erstellen
+wrong_answers:
+  - Einrichtung sicherer Kommunikationskanäle zwischen AMP-Servern und wallet-Clients während der Transaktionsautorisierungsprozesse
+  - So erstellen Sie gemeinsame Geheimnisse für die Registrierung von Multisignatur-Deskriptoren zwischen Geldbörsen und der AMP-Server-Infrastruktur
+  - generate kryptografische Signaturen, die den Besitz von Vermögenswerten belegen, ohne die zugrundeliegenden privaten Schlüsselinformationen preiszugeben
+explanation: |
+  Der ECDH (Elliptic Curve Diffie-Hellman)-Schlüsselaustausch in Liquid's Confidential Transactions ermöglicht speziell die Wahrung der Privatsphäre bei der Übertragung von Vermögenswerten, indem er es den Absendern ermöglicht, die Ausgabewerte von Transaktionen mit dem verdeckten öffentlichen Schlüssel des Empfängers zu verschlüsseln. Dadurch wird ein gemeinsames Geheimnis geschaffen, das nur der Empfänger mit seinem privaten Blinding-Schlüssel entschlüsseln kann, während gleichzeitig Reichweitennachweise erzeugt werden, die es Netzwerkvalidatoren ermöglichen, die Gültigkeit von Transaktionen zu überprüfen, ohne die tatsächlichen Beträge zu sehen. Die anderen Optionen beschreiben ECDH fälschlicherweise als Funktionen der Kommunikationssicherheit, der Deskriptorregistrierung oder des Eigentumsnachweises, die von verschiedenen kryptografischen Mechanismen im Liquid-Ökosystem gehandhabt werden.

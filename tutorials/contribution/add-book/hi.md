@@ -16,7 +16,7 @@ description: प्लानबी नेटवर्क में नई पु
 - सबसे पहले, आपके पास GitHub अकाउंट होना चाहिए। अगर आपको नहीं पता कि अकाउंट कैसे बनाया जाता है, तो हमने आपको मार्गदर्शन करने के लिए एक विस्तृत ट्यूटोरियल बनाया है।
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![book](assets/03.webp)
 
 
-- यदि आपने पहले कभी PlanB Network की सामग्री में योगदान नहीं दिया है, तो आपको मूल रिपॉजिटरी का अपना Fork बनाना होगा। रिपॉजिटरी को फ़ॉर्क करने का मतलब है अपने GitHub खाते पर उस रिपॉजिटरी की एक प्रति बनाना, जिससे आप मूल रिपॉजिटरी को प्रभावित किए बिना प्रोजेक्ट पर काम कर सकें। `Fork this repository` बटन पर क्लिक करें:
+- यदि आपने पहले कभी Plan ₿ Academy की सामग्री में योगदान नहीं दिया है, तो आपको मूल रिपॉजिटरी का अपना Fork बनाना होगा। रिपॉजिटरी को फ़ॉर्क करने का मतलब है अपने GitHub खाते पर उस रिपॉजिटरी की एक प्रति बनाना, जिससे आप मूल रिपॉजिटरी को प्रभावित किए बिना प्रोजेक्ट पर काम कर सकें। `Fork this repository` बटन पर क्लिक करें:
 
 ![book](assets/04.webp)
 
@@ -178,7 +178,7 @@ tags:
 ![book](assets/25.webp)
 
 
-- एक नया पेज खुलेगा। अपनी किताब की कवर छवि को उस क्षेत्र में खींचें और छोड़ें। यह छवि PlanB Network साइट पर प्रदर्शित होगी:
+- एक नया पेज खुलेगा। अपनी किताब की कवर छवि को उस क्षेत्र में खींचें और छोड़ें। यह छवि Plan ₿ Academy साइट पर प्रदर्शित होगी:
 
 ![book](assets/26.webp)
 

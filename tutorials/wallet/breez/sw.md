@@ -40,7 +40,7 @@ Hatua ya kwanza unapotengeneza Wallet ya Bitcoin/Lightning ni kuhifadhi funguo z
 
 Fuata maagizo ili kuthibitisha hifadhi yako na unganisha akaunti yako ya hifadhi ya mbali na pochi ya Breez.
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **MUHIMU**: Ili kuongeza usalama wa Wallet yako ya Breez, unaweza kuweka Nambari ya PIN na kuisanidi ili kuthibitisha kuwa upatikanaji wa Wallet hii umeidhinishwa.
 

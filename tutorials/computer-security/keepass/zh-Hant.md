@@ -24,7 +24,7 @@ description: 如何設定本機密碼管理器？
 
 在本教程中，我們將學習如何設置和使用本機密碼管理器來增強您的在線安全性。在此，我會向您介紹 KeePass。但是，如果您是初學者，而且希望擁有一個能夠在多個裝置上同步的線上密碼管理器，我建議您參考我們關於 Bitwarden 的教學：
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 

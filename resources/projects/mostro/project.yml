@@ -1,0 +1,26 @@
+id: 777c7290-06d7-47db-8f2a-481b8cd42355
+name: Mostro
+
+links:
+  website: https://mostro.network/
+  twitter: https://x.com/MostroP2P
+
+category: exchange
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - privacy
+  - lightning
+  - finance
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-10-15
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

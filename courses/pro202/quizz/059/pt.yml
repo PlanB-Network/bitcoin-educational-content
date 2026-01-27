@@ -1,0 +1,8 @@
+question: No contexto dos filtros de bloco compactos (BIP158) para clientes de luz que preservam a privacidade, qual é o compromisso crítico que os torna eficazes para a privacidade wallet?
+answer: Podem produzir falsos positivos mas nunca falsos negativos, permitindo aos clientes descarregar blocos potencialmente irrelevantes sem revelar endereços específicos
+wrong_answers:
+  - Podem produzir falsos negativos mas nunca falsos positivos, garantindo que os clientes apenas descarregam blocos que contêm as suas transacções
+  - Eliminam tanto os falsos positivos como os falsos negativos, utilizando uma filtragem determinística baseada em endereços wallet
+  - "Produzem falsos positivos e falsos negativos em proporções iguais para ofuscar os padrões reais de transação do cliente"
+explanation: |
+  Os filtros de blocos compactos são concebidos com um modelo de erro assimétrico: podem indicar que um bloco contém transacções relevantes quando não as contém (falsos positivos), mas nunca deixarão escapar um bloco que contenha efetivamente transacções relevantes (sem falsos negativos). Esta conceção é crucial porque os falsos negativos significariam a perda de pagamentos reais, enquanto os falsos positivos apenas resultam no descarregamento de blocos desnecessários. A taxa de falsos positivos proporciona privacidade ao obrigar os clientes a descarregar alguns blocos irrelevantes, tornando impossível aos observadores determinar quais os blocos que contêm efetivamente as transacções do cliente.

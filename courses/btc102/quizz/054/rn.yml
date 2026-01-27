@@ -1,8 +1,8 @@
 question: Ni iyihe ntumbero nyamukuru y’uwukoresha akora cane?
-answer: Gukoresha Bitcoin nk'uburyo bwo kwishura ku musi
+answer: Gukoresha Bitcoin nk'uburyo bwo kuriha ku musi
 wrong_answers:
-  - Gushiramwo amahera muri Bitcoin mu kiringo kirekire
-  - Kugira ngo buhoro buhoro urunde satoshis .
+  - Gushiramwo amahera muri Bitcoin mu kiringo kirekire 
+  - Kuronka buhoro buhoro urunde satoshis .
   - Kugira ngo ushire amakenga ku isoko .
 explanation: |
   Uwukoresha cane yinjiza Bitcoin mu buzima bwiwe bwa misi yose kugira ngo akore amafaranga no gushigikira kwemerwa kwayo.

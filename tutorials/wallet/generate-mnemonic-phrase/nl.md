@@ -102,7 +102,7 @@ Elk van deze pakketjes vertegenwoordigt een binair getal dat vervolgens wordt om
 ![mnemonic](assets/notext/5.webp)
 
 
-Tenslotte vertelt het getal in decimaal ons de positie van het corresponderende woord in [de lijst van 2048 BIP39 woorden] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). We hoeven alleen nog maar deze woorden te selecteren om de herstelzin voor onze Wallet samen te stellen.
+Tenslotte vertelt het getal in decimaal ons de positie van het corresponderende woord in [de lijst van 2048 BIP39 woorden](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). We hoeven alleen nog maar deze woorden te selecteren om de herstelzin voor onze Wallet samen te stellen.
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -137,18 +137,18 @@ Zoals je in mijn voorbeeld kunt zien, bestaat het twaalfde woord momenteel uit s
 ## Stap 2: De controlesom berekenen
 
 
-Deze stap is het meest kritisch bij het handmatig genereren van een Mnemonic zin, omdat hiervoor een computer nodig is. Zoals eerder vermeld, komt de controlesom overeen met het begin van de SHA256 Hash die gegenereerd is uit de entropie. Hoewel het theoretisch mogelijk is om een SHA256 met de hand te berekenen voor een invoer van 128 of 256 bits, zou deze taak een hele week in beslag kunnen nemen. Bovendien zou elke fout in handmatige berekeningen pas aan het einde van het proces worden geïdentificeerd, waardoor je gedwongen wordt om vanaf het begin opnieuw te beginnen. Daarom is het ondenkbaar om deze stap uit te voeren met alleen een vel papier en een pen. Een computer is bijna verplicht. Als je toch wilt leren hoe je een SHA256 met de hand doet, leggen we uit hoe je dat doet in [de CRYPTO301 cursus](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
+Deze stap is het meest kritisch bij het handmatig genereren van een Mnemonic zin, omdat hiervoor een computer nodig is. Zoals eerder vermeld, komt de controlesom overeen met het begin van de SHA256 Hash die gegenereerd is uit de entropie. Hoewel het theoretisch mogelijk is om een SHA256 met de hand te berekenen voor een invoer van 128 of 256 bits, zou deze taak een hele week in beslag kunnen nemen. Bovendien zou elke fout in handmatige berekeningen pas aan het einde van het proces worden geïdentificeerd, waardoor je gedwongen wordt om vanaf het begin opnieuw te beginnen. Daarom is het ondenkbaar om deze stap uit te voeren met alleen een vel papier en een pen. Een computer is bijna verplicht. Als je toch wilt leren hoe je een SHA256 met de hand doet, leggen we uit hoe je dat doet in [de CRYPTO301 cursus](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f).
 
 
 Om deze reden raad ik het maken van een handmatige zin voor een echte Wallet sterk af. Naar mijn mening vergroot het gebruik van een computer in dit stadium, zelfs met alle noodzakelijke voorzorgsmaatregelen, onredelijk het aanvalsoppervlak van de Wallet.
 
 Om de checksum te berekenen en toch zo min mogelijk sporen achter te laten, gebruiken we een amnesische Linux distributie vanaf een verwisselbare schijf genaamd **Tails**. Dit besturingssysteem start op vanaf een USB-stick en werkt volledig op het RAM van de computer, zonder interactie met de Hard schijf. In theorie laat het dus geen sporen achter op de computer nadat deze is uitgeschakeld. Houd er rekening mee dat Tails alleen compatibel is met processoren van het type x86_64 en niet met processoren van het type ARM.
 
-Om te beginnen [download het Tails-image van de officiële website] (https://tails.net/install/index.fr.html) vanaf je gewone computer. Controleer de authenticiteit van je download door de handtekening van de ontwikkelaar of de verificatietool van de site te gebruiken.
+Om te beginnen [download het Tails-image van de officiële website](https://tails.net/install/index.fr.html) vanaf je gewone computer. Controleer de authenticiteit van je download door de handtekening van de ontwikkelaar of de verificatietool van de site te gebruiken.
 
 ![mnemonic](assets/notext/10.webp)
 
-Formatteer eerst je USB-stick en installeer vervolgens Tails met een tool zoals [Balena Etcher] (https://etcher.balena.io/).
+Formatteer eerst je USB-stick en installeer vervolgens Tails met een tool zoals [Balena Etcher](https://etcher.balena.io/).
 
 ![mnemonic](assets/notext/11.webp)
 

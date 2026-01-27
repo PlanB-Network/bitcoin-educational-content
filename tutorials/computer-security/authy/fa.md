@@ -91,7 +91,7 @@ Authy چندین مزیت نسبت به سایر راه‌حل‌های شرکت
 برای تنظیم یک کد احراز هویت 2FA از طریق برنامه‌ای مانند Authy در یک حساب کاربری، حساب باید از این ویژگی پشتیبانی کند. امروزه، اکثر خدمات آنلاین این گزینه 2FA را ارائه می‌دهند، اما همیشه اینطور نیست. بیایید مثال حساب Proton mail را که در یک آموزش دیگر ارائه دادم، بررسی کنیم:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![AUTHY 2FA](assets/notext/13.webp)
 

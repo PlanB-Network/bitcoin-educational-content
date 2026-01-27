@@ -56,7 +56,6 @@ Vermijden:
 - Chromebooks - vaak is de opslagcapaciteit te laag
 - Elke computer met een eMMC-schijf; als deze een SSD-schijf heeft, is dat perfect
 - Macs - ze zijn duur en de hardware werkt in mijn ervaring niet goed samen met Linux-besturingssystemen
-- Alles wat gereviseerd of 2e hands is (echter geen absolute deal-breaker)
 
 
 Zoek in plaats daarvan naar een Windows 11 laptop (momenteel is Windows 11 de nieuwste versie. We raken die software wel kwijt, maak je geen zorgen). Ik heb op amazon.com gezocht naar "Windows 11 Laptop" en vond dit goede voorbeeld:

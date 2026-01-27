@@ -1,0 +1,8 @@
+question: Jaki jest główny cel procesu konstrukcji sighash w walidacji transakcji Bitcoin?
+answer: Aby utworzyć dokładną wiadomość, która została pierwotnie podpisana kluczem prywatnym w celu weryfikacji podpisu
+wrong_answers:
+  - Do generate unikalny identyfikator transakcji, który zapobiega atakom double-spending
+  - Kompresja danych transakcji do mniejszego formatu w celu wydajnej transmisji sieciowej
+  - Aby zaszyfrować zawartość transakcji, tak aby tylko odbiorca mógł odszyfrować i wydać monety
+explanation: |
+  Konstrukcja sighash tworzy dokładną wiadomość, która została podpisana kluczem prywatnym, umożliwiając OP_CHECKSIG weryfikację autentyczności podpisu. Proces ten obejmuje opróżnianie ScriptSigs, zastępowanie ScriptSig bieżącego wejścia odpowiadającym mu ScriptPubKey i dołączanie typu hash przed podwójnym haszowaniem. Pozostałe opcje są nieprawidłowe: identyfikatory transakcji służą jako identyfikatory, kompresja jest obsługiwana osobno, a transakcje Bitcoin nie są szyfrowane, ale publicznie widoczne w łańcuchu bloków.

@@ -1,0 +1,8 @@
+question: According to Bastiat's analysis, what is the logical problem with Proudhon's statement 'property is theft'?
+answer: If property is theft, then theft becomes property, creating a logical contradiction
+wrong_answers:
+  - Property cannot exist without government regulation and legal frameworks
+  - Theft is morally wrong while property is morally right in all circumstances
+  - Property requires physical possession while theft involves temporary acquisition
+explanation: |
+  Bastiat demonstrated the internal logical contradiction in Proudhon's famous phrase by showing that if we accept property equals theft, then by logical extension theft must equal property. This creates an impossible circular reasoning where something legitimate is simultaneously illegitimate. Bastiat argued instead that property naturally derives from work, self-ownership, and human faculties, making it a fundamental and logical concept rather than a form of theft.

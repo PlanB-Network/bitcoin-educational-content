@@ -1,0 +1,8 @@
+question: Ni msingi gani wa hisabati unaofanya tatizo la logarithm lisilowezekana kwa hesabu lisiwezekane katika uandishi wa maandishi wa mviringo?
+answer: Usambazaji usiotabirika wa pointi wakati wa kutengeneza kundi la mzunguko kupitia kuongezwa kwa pointi mara kwa mara
+wrong_answers:
+  - Sifa ya ulinganifu wa mikunjo ya duaradufu inayoakisi nukta kwenye mhimili wa x
+  - Shughuli za hesabu za moduli zinazofanywa katika sehemu zenye kikomo badala ya nambari halisi
+  - Nambari kuu kubwa inayotumika kama sifa ya sehemu katika mlinganyo wa mkunjo
+explanation: |
+  Ugumu wa tatizo la logariti tofauti hutokana na usambazaji usiotabirika na usio wa mstari wa nukta wakati wa kutengeneza kundi la mzunguko (G, 2G, 3G, ..., nG). Ingawa nukta huzalishwa mfululizo, zinaonekana kutawanyika na bila mpangilio, na kuifanya iwezekane kubaini skali kutoka nukta P = sG. Ingawa ulinganifu, hesabu ya moduli, na primes kubwa ni sifa muhimu za mikunjo ya duaradufu, haziumbi moja kwa moja kitendakazi cha njia moja kinachowezesha usimbaji fiche wa ufunguo wa umma salama.

@@ -1,0 +1,8 @@
+question: Quale intuizione fondamentale sull'adozione di Lightning ha portato Breez a passare dalla costruzione di una singola applicazione mobile allo sviluppo di un'architettura SDK?
+answer: L'ecosistema delle app mobili non facilita la comunicazione tra le applicazioni, impedendo alle app specializzate di sfruttare l'infrastruttura Lightning condivisa
+wrong_answers:
+  - I dispositivi mobili non dispongono di una potenza di calcolo sufficiente per gestire in modo affidabile i nodi Lightning e richiedono un'infrastruttura basata su cloud per un funzionamento corretto
+  - La conformità normativa richiede che le funzionalità Lightning siano centralizzate negli SDK piuttosto che distribuite nelle singole applicazioni mobili
+  - La ricerca sulla user experience ha dimostrato che i consumatori preferiscono che i pagamenti Lightning siano gestiti da servizi di terze parti piuttosto che da singole app
+explanation: |
+  La risposta corretta identifica il limite architettonico chiave scoperto con l'app originale Breez: gli ecosistemi mobili non consentono una facile comunicazione tra le app, costringendo gli sviluppatori a integrare tutte le funzionalità di Lightning in singole app piuttosto che creare applicazioni specializzate che condividono l'infrastruttura Lightning. Questa intuizione ha portato all'approccio SDK che consente a più applicazioni di connettersi allo stesso nodo Lightning. Le risposte sbagliate si concentrano su limitazioni tecniche, questioni normative o preferenze degli utenti, ma non sono queste le intuizioni architettoniche fondamentali che hanno guidato il passaggio strategico a un modello SDK.

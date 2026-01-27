@@ -1,0 +1,9 @@
+question: Mida peab Gregory Maxwell Bitcoin jaoks suuremaks ohuks kui 51% rünnakuid?
+answer: Inimesed ei mõista või ei kaitse Bitcoin detsentraliseerimise omadusi
+wrong_answers:
+  - Kaevurid koondavad liiga palju arvutusvõimsust ühte kohta
+  - Bitcoin mining tegevust takistavad valitsuse määrused
+  - "Tehnilised haavatavused Bitcoin krüptograafilistes algoritmides"
+explanation: |
+  Peatükis viidatud Gregory Maxwelli Redditi postituse kohaselt on 51% rünnakute olemasolu teoreetiline mure, kuid palju suurem oht on see, et Bitcoin kasutajad ei mõista, ei hooli ega kaitse detsentraliseerimise omadusi, mis teevad Bitcoin väärtuslikuks tsentraliseeritud alternatiivide suhtes. Seda seetõttu, et detsentraliseerimine on see, mis tagab Bitcoin tsensuurikindluse - selle peamise eristuse traditsioonilistest rahasüsteemidest. Kui inimesed ei kaitse neid omadusi aktiivselt, võib Bitcoin järk-järgult tsentraliseeruda, kuni tsensuur muutub võimalikuks, hävitades suurema osa selle väärtuspakkumisest. Kuigi teised võimalused on potentsiaalsed probleemid, ei ole need need, mida Maxwell konkreetselt nimetas Bitcoin pikaajalise edu suurema ohuna.
+reviewed: false

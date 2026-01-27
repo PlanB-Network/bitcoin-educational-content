@@ -1,0 +1,8 @@
+question: Jaký skript musí být použit při generování podpisů pro vstup P2SH během konstrukce transakce v procesu výpočtu sighash?
+answer: Skript redeem musí být použit místo klíče scriptPubKey
+wrong_answers:
+  - Původní skriptPubKey obsahující hash musí být použit přímo
+  - Musí být použita kombinace skriptPubKey a skript redeem
+  - Místo toho je třeba použít ScriptSig obsahující údaje pro odemknutí
+explanation: |
+  Při generování podpisu P2SH vyžaduje proces sighash použití skriptu redeem namísto klíče scriptPubKey. To je zásadní, protože skriptPubKey obsahuje pouze hash skriptu redeem, nikoliv skutečné podmínky výdajů. Skript redeem obsahuje skutečnou logiku (například požadavky na multisig), která určuje, jak lze výstup utratit, takže podpisy musí být generovány proti tomuto základnímu skriptu, aby byly platné. Přímé použití klíče scriptPubKey by selhalo, protože obsahuje pouze porovnání hash, nikoli skutečné podmínky pro čerpání, které musí být splněny.

@@ -1,5 +1,5 @@
 ---
-name: 道场
+name: Dojo
 description: 实现隐私和自主的开源 Bitcoin 节点
 ---
 
@@ -64,7 +64,7 @@ Dojo 是一个开放源代码程序，旨在为某些以 Bitcoin core 节点为�
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### 推荐设备
 
@@ -192,7 +192,7 @@ https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. 系统更新
 
@@ -428,7 +428,7 @@ sudo passwd dojo
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3.授权用户使用 Docker
 
@@ -1068,7 +1068,7 @@ Ctrl + C
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7.同步监控

@@ -328,4 +328,4 @@ Teraz jesteś gotowy do codziennego korzystania z Ubuntu: zabezpiecz swój syste
 Aby zwiększyć bezpieczeństwo swojego cyfrowego życia, zalecamy zapoznanie się z naszą usługą szyfrowanych wiadomości, która doskonale nadaje się do ochrony prywatności i uzupełnia instalację Ubuntu:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

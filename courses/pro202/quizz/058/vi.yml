@@ -1,0 +1,8 @@
+question: Khi Bitcoin wallet quét các khối để tìm các khoản thanh toán đến, tại sao việc tải xuống toàn bộ khối lại được ưu tiên hơn so với việc yêu cầu các giao dịch riêng lẻ từ các thiết bị ngang hàng trong mạng?
+answer: Việc tải xuống toàn bộ các khối dữ liệu giúp bảo vệ quyền riêng tư tốt hơn bằng cách không tiết lộ giao dịch hoặc địa chỉ cụ thể nào mà wallet quan tâm giám sát.
+wrong_answers:
+  - Việc tải xuống toàn bộ khối dữ liệu hiệu quả hơn về mặt tính toán vì nó yêu cầu ít thao tác băm mật mã hơn để xác minh tính xác thực của giao dịch.
+  - Việc tải xuống toàn bộ khối dữ liệu đảm bảo đồng bộ hóa nhanh hơn vì các máy ngang hàng có thể gửi dữ liệu khối đã nén thay vì các phản hồi giao dịch riêng lẻ.
+  - Việc tải xuống toàn bộ khối dữ liệu mang lại tính bảo mật tốt hơn vì nó cho phép wallet xác minh toàn bộ proof-of-work cho mỗi giao dịch.
+explanation: |
+  Bảo mật là lợi thế then chốt của việc truy xuất dựa trên khối. Khi một wallet yêu cầu các giao dịch cụ thể, nó sẽ rò rỉ các tín hiệu mạnh về hoạt động của người dùng và tiết lộ địa chỉ nào thuộc về wallet đó. Việc tải xuống toàn bộ khối che giấu lợi ích thực sự của wallet trong số tất cả các giao dịch khối. Các câu trả lời sai tập trung vào hiệu quả, tốc độ hoặc lợi ích bảo mật mà không phải là động lực chính - về mặt lý thuyết, các yêu cầu giao dịch riêng lẻ có thể an toàn hoặc hiệu quả như nhau, nhưng chúng về cơ bản làm tổn hại đến quyền riêng tư bằng cách tiết lộ các mẫu giám sát của wallet cho các thiết bị khác trong mạng.

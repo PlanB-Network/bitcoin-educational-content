@@ -1,9 +1,9 @@
-question: Ni igiki abakoresha bategerezwa kwibika kugira ngo vy’ukuri babe abafise ama bitcoins yabo?
+question: Ni igiki abakoresha bitcoin bategerezwa kwibika kugira ngo vy’ukuri babe abafise ama bitcoins yabo?
 answer: Imfunguruzo z'ibanga
 wrong_answers:
   - Ukwakira aderesi
-  - Amajambobanga y'urubuga rwa Exchange
-  - Blockchain amabuye
+  - Amajambobanga y'urubuga rwo guhanahana 
+  - inkuta za Blockchain
 explanation: |
-  Utafashe imfunguruzo zawe z’ibanga, ntuba vy’ukuri ufise ama bitcoins yawe.
+  Udafise imfunguruzo zawe z’ibanga, ntuba vy’ukuri ufise ama bitcoins yawe.
 reviewed: false

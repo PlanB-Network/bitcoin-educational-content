@@ -7,7 +7,7 @@ description: Jinsi ya kutumia kivinjari cha faragha cha LibreWolf
 
 
 
-Kila kubofya, kila utafutaji, kila tovuti inayotembelewa: kivinjari chako cha wavuti kimekuwa tapeli wa hali ya juu anayelisha mfumo wa kimataifa wa ufuatiliaji wa kibiashara. Google Chrome, inayotumiwa na zaidi ya watu bilioni 3, hugeuza kuvinjari kwako kila siku kuwa data ya faida kwa watangazaji wakuu. Hata Firefox, licha ya sifa yake kama kivinjari cha "maadili", huwasha mifumo ya telemetry kwa chaguo-msingi ambayo husambaza tabia zako za kuvinjari kwa Mozilla.
+Kila kubofya, kila utafutaji, kila tovuti inayotembelewa: kivinjari chako cha wavuti kimekuwa tapeli wa hali ya juu anayelisha mfumo wa kimataifa wa ufuatiliaji wa kibiashara. Google Chrome, inayotumiwa na zaidi ya watu bilioni 3, hugeuza kuvinjari kwako kila siku kuwa data ya faida kwa watangazaji wakuu. Hata Firefox, licha ya sifa yake kama kivinjari cha “maadili”, huwasha mifumo ya telemetry kwa chaguo-msingi ambayo husambaza tabia zako za kuvinjari kwa Mozilla.
 
 
 
@@ -101,7 +101,7 @@ Tangu mwanzo, LibreWolf inatoa anuwai ya vipengele vinavyozingatia faragha:
 
 
 
-**LibreWolf huwasha mipangilio madhubuti ya usalama kwa chaguomsingi. Ulinzi wa Ufuatiliaji Ulioboreshwa wa Firefox unasukumwa hadi kwenye Kiwango Kali ili kuzuia maelfu ya vifuatiliaji, vidakuzi vya watu wengine na maudhui hasidi. Pia huwasha utengaji wa tovuti na vidakuzi (*Jumla ya Ulinzi wa Vidakuzi*) kwa kugawanya data kwa kila kikoa, na huwekea vikwazo WebRTC (kuweka kikomo *wateja wa ICE* na kuelekeza kupitia seva mbadala wakati proksi iko) ili kupunguza hatari ya kuvuja kwa IP Address.**
+**LibreWolf huwasha mipangilio madhubuti ya usalama kwa chaguomsingi. Ulinzi wa Ufuatiliaji Ulioboreshwa wa Firefox unasukumwa hadi kwenye Kiwango Kali ili kuzuia maelfu ya vifuatiliaji, vidakuzi vya watu wengine na maudhui hasidi. Pia huwasha utengaji wa tovuti na vidakuzi (*Jumla ya Ulinzi wa Vidakuzi*) kwa kugawanya data kwa kila kikoa, na huwekea vikwazo WebRTC (kuweka kikomo *wateja wa ICE* na kuelekeza kupitia server mbadala wakati proksi iko) ili kupunguza hatari ya kuvuja kwa IP Address.**
 
 
 
@@ -171,7 +171,7 @@ Tangu mwanzo, LibreWolf inatoa anuwai ya vipengele vinavyozingatia faragha:
 
 
 
-- Hakuna mtandao uliojengewa ndani usiojulikana: Tofauti na Kivinjari cha Tor, LibreWolf haipitishi trafiki kupitia Tor au VPN peke yake. Iwapo unahitaji kutokujulikana kwa mtandao, utahitaji kusanidi proksi/VPN wewe mwenyewe.
+- Hakuna mtandao wa usiojulikana uliyojengwa ndani: Tofauti na kivinjari cha Tor, LibreWolf haipitishi trafiki kupitia Tor au VPN peke yake. Ikiwa unahitaji kutokujulikana mtandaoni, utahitaji kusanidi proksi au VPN wewe mwenyewe.
 
 
 
@@ -183,7 +183,7 @@ Tangu mwanzo, LibreWolf inatoa anuwai ya vipengele vinavyozingatia faragha:
 
 
 
-- **Hakuna toleo la rununu au ulandanishi wa wingu:** LibreWolf inapatikana kwenye eneo-kazi pekee (Windows, Linux, macOS). Hakuna programu ya rununu, na kwa hivyo hakuna maingiliano ya akaunti au alamisho kupitia wingu.
+- **Hakuna toleo la rununu au ulandanishi wa cloud:** LibreWolf inapatikana kwenye eneo-kazi pekee (Windows, Linux, macOS). Hakuna programu ya rununu, na kwa hivyo hakuna maingiliano ya akaunti au alamisho kupitia cloud.
 
 
 
@@ -224,7 +224,7 @@ Ufungaji hutofautiana kulingana na OS yako:
 ### Kwenye Linux
 
 
-LibreWolf inatoa hujenga kwa usambazaji wengi. Kwenye Debian/Ubuntu na derivatives, hazina rasmi ya APT inapatikana. Vinginevyo, LibreWolf imechapishwa katika Flatpak kwenye Flathub:
+LibreWolf inatolewa kupitia usambazaji mbalimbali. Kwenye Debian/Ubuntu na derivatives, hazina rasmi ya APT inapatikana. Vinginevyo, LibreWolf inaweza kupakuliwa kupitia Flatpak kwenye Flathub:
 
 
 ```
@@ -285,7 +285,7 @@ LibreWolf tayari imesanidiwa vyema kwa ajili ya faragha. Katika Menyu → Chaguz
 - Wafuatiliaji wa tovuti
 - Vidakuzi vya mtu wa tatu
 - Maudhui ya kufuatilia yanayojulikana
-- Uchimbaji madini
+- mining
 - Vigunduzi vya alama za vidole vya dijiti
 
 
@@ -382,7 +382,7 @@ LibreWolf hukuruhusu kudhibiti ruhusa unazotoa kwa tovuti (Mahali, Kamera, Maikr
 
 
 
-4. **Tumia seva mbadala ya VPN au Tor kwa kuongeza:** LibreWolf haikufanye usijulikane kwa ISP wako. Kwa kutokujulikana kwa mtandao, unaweza kutumia LibreWolf nyuma ya VPN inayoaminika.
+4. **Tumia server mbadala ya VPN au Tor kwa kuongeza:** LibreWolf haikufanye usijulikane kwa ISP wako. Kwa kutokujulikana kwa mtandao, unaweza kutumia LibreWolf nyuma ya VPN inayoaminika.
 
 
 

@@ -20,8 +20,8 @@ description: How do I configure a Watch-only wallet on Blockstream App?
 
 
 
-- **Beginners**: Users wishing to monitor a Bitcoin portfolio (often associated with a Hardware Wallet) via an intuitive mobile application.
-- **Intermediate users**: People looking to manage read-only portfolios while using privacy options such as Tor or SPV.
+- **Beginners**: Users wishing to monitor a Bitcoin wallet (often associated with a Hardware Wallet) via an intuitive mobile application.
+- **Intermediate users**: People looking to manage read-only wallets while using privacy options such as Tor or SPV.
 - **Hardware wallet owners**: To check their balances and generate addresses without connecting their device.
 - **Businesses and shops**:
  - Track your transactions for accounting purposes without exposing your private keys.
@@ -43,7 +43,7 @@ A **Watch-Only** wallet allows you to monitor the transactions and balance of a 
 
 
 
-- **Security**: Ideal for monitoring a portfolio secured by a **Hardware Wallet** without exposing private keys on a connected device.
+- **Security**: Ideal for monitoring a wallet secured by a **Hardware Wallet** without exposing private keys on a connected device.
 - **Convenience**: Allows you to check the balance and generate new recipient addresses without connecting the Hardware Wallet.
 - **Confidentiality**: Compatible with options such as **Tor** or **SPV** to limit dependency on third-party servers.
 - **Use cases**: Tracking funds on the move, generating addresses to receive payments, or verifying transactions without risking private keys.
@@ -67,14 +67,14 @@ An **extended public key** (xpub, ypub, zpub, etc.) is a piece of data derived f
 
 
 - Extended public key types
-- **xpub**: Used for Legacy portfolios (addresses starting with "1", BIP-44) and Taproot portfolios (addresses starting with "bc1p", BIP-86).
+- **xpub**: Used for Legacy wallets (addresses starting with "1", BIP-44) and Taproot wallets (addresses starting with "bc1p", BIP-86).
 - **ypub**: Designed for compatible SegWit wallets (addresses starting with "3", BIP-49).
-- **zpub**: Associated with native SegWit portfolios (addresses starting with "bc1q", BIP-84).
+- **zpub**: Associated with native SegWit wallets (addresses starting with "bc1q", BIP-84).
 - Others (tpub, upub, vpub, etc.): Used for alternative networks (such as Testnet) or specific standards. For example, **tpub** is for the Testnet network.
 
 
 
-- **Distinction**: The choice between xpub, ypub, or zpub depends on the address type (legacy, SegWit, Taproot or nested SegWit) and the BIP standard used by the wallet. Check the format required by your source portfolio to ensure compatibility with Blockstream App.
+- **Distinction**: The choice between xpub, ypub, or zpub depends on the address type (legacy, SegWit, Taproot or nested SegWit) and the BIP standard used by the wallet. Check the format required by your source wallet to ensure compatibility with Blockstream App.
 
 
 
@@ -84,7 +84,7 @@ An **extended public key** (xpub, ypub, zpub, etc.) is a piece of data derived f
 **Recommendation**: Protect your extended public key as sensitive information.
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 1.5. Hot wallet reminder
 
@@ -109,11 +109,11 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Blockstream App** is a mobile (iOS, Android) and desktop application for managing Bitcoin portfolios and assets on the Liquid network. Acquired by [Blockstream](https://blockstream.com/) in 2016, it was previously named *Green Address* and then *Blockstream Green*.
+- **Blockstream App** is a mobile (iOS, Android) and desktop application for managing Bitcoin wallets and assets on the Liquid network. Acquired by [Blockstream](https://blockstream.com/) in 2016, it was previously named *Green Address* and then *Blockstream Green*.
 - **Key features**:
 - **Onchain** transactions on Blockchain Bitcoin.
     - Transactions on the **Liquid** network (Sidechain for fast, confidential exchanges).
-- **Watch-only** portfolios for monitoring funds without access to keys.
+- **Watch-only** wallets for monitoring funds without access to keys.
     - Privacy options: connection via **Tor**, connection to a **personal node** via Electrum, or **SPV** verification to reduce dependency on third-party nodes.
     - Functions **Replace-by-fee (RBF)** to speed up unconfirmed transactions.
 - **Compatibility**: Integrates hardware wallets such as **Blockstream Jade**.
@@ -141,14 +141,14 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Home screen**: When first opened, the application displays a screen without a configured wallet. Created or imported portfolios will appear here later.
+- **Home screen**: When first opened, the application displays a screen without a configured wallet. Created or imported wallets will appear here later.
 
 
 ![image](assets/fr/02.webp)
 
 
 
-- **Customize settings**: Click on "Application settings", adjust the options below, click on "Save", restart the application and create your portfolio.
+- **Customize settings**: Click on "Application settings", adjust the options below, click on "Save", restart the application and create your wallet.
 
 
 ![image](assets/fr/03.webp)
@@ -194,7 +194,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-## 4. Creating a Bitcoin "Watch-only" portfolio
+## 4. Creating a Bitcoin "Watch-only" wallet
 
 
 ### 4.1. Recover extended public key
@@ -219,8 +219,8 @@ To set up a Watch-Only wallet, you must first obtain the extended public key (xp
 
 
 
-- **Caution**: Set up your portfolio in a private environment, without cameras or observers.
-- From the home screen, click on "Set up a new portfolio" and then on "Get Started" :
+- **Caution**: Set up your wallet in a private environment, without cameras or observers.
+- From the home screen, click on "Set up a new wallet" and then on "Get Started" :
 
 
 ![image](assets/fr/04.webp)
@@ -236,7 +236,7 @@ To set up a Watch-Only wallet, you must first obtain the extended public key (xp
 
 
 - (1) **"Setup Mobile Wallet"** : Create a new Hot Wallet. See the "Blockstream App - Onchain" tutorial in the appendix.
-- (2) **"Restore from Backup "**: Import an existing portfolio using a mnemonic phrase (12 or 24 words). Caution: Do not import the phrase from a Cold Wallet, as it will be exposed on a connected device, invalidating its security.
+- (2) **"Restore from Backup "**: Import an existing wallet using a mnemonic phrase (12 or 24 words). Caution: Do not import the phrase from a Cold Wallet, as it will be exposed on a connected device, invalidating its security.
 - (3) **"Watch-Only "**: the option we're interested in for this tutorial.
 
 
@@ -303,19 +303,19 @@ However, as the Watch-Only wallet does not hold the private keys, you cannot sen
 - Using the Onchain network :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 
 - Using the Liquid network :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 
 - Desktop version :
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 ### A2. Extended public keys
@@ -323,12 +323,12 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 - Glossary :
- - [Extended public keys](https://planb.network/fr/resources/glossary/extended-key)
- - [xpub](https://planb.network/fr/resources/glossary/xpub)
- - [ypub](https://planb.network/fr/resources/glossary/ypub)
- - [zpub](https://planb.network/fr/resources/glossary/zpub)
+ - [Extended public keys](https://planb.academy/fr/resources/glossary/extended-key)
+ - [xpub](https://planb.academy/fr/resources/glossary/xpub)
+ - [ypub](https://planb.academy/fr/resources/glossary/ypub)
+ - [zpub](https://planb.academy/fr/resources/glossary/zpub)
 - Course :
- - [Les clés publiques étendues](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
+ - [Les clés publiques étendues](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
 
 
@@ -343,9 +343,9 @@ To use **Blockstream App** securely and efficiently, follow these recommendation
  - Tutorial: Saving your mnemonic phrase
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
@@ -402,27 +402,27 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Learning and tutorials:** **[Plan ₿ Network](https://planb.network/)**
+- **Learning and tutorials:** **[Plan ₿ Academy](https://planb.academy/)**
   - Securing your recovery phrase
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 - **Liquid Network** :
-- [Glossary](https://planb.network/fr/resources/glossary/liquid-network)
+- [Glossary](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 - **Lightning Network**:
-- [Glossary](https://planb.network/fr/resources/glossary/lightning-network)
+- [Glossary](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

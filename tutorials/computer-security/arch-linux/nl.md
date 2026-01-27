@@ -72,7 +72,7 @@ Om een bootable USB flash drive te maken, kun je een tool zoals **Balena Etcher*
 
 
 
-- Download Balena Etcher van de [officiële website] (https://etcher.balena.io).
+- Download Balena Etcher van de [officiële website](https://etcher.balena.io).
 - Start de software en selecteer de Arch Linux ISO image.
 - Kies je USB-sleutel als doelapparaat.
 - Klik op **Flash** om te beginnen met het maken van de opstartbare sleutel.
@@ -778,6 +778,6 @@ Als je het leuk vond om met Arch Linux aan de slag te gaan, vind je onze tutoria
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

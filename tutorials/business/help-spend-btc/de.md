@@ -13,7 +13,7 @@ description: Ein kurzer Leitfaden, um Kunden zu motivieren, ihre Bitcoins in Ihr
 Sie haben sich endlich entschlossen, Bitcoin in Ihrem Unternehmen zu akzeptieren, und alles ist bereit: Der Lightning Network Wallet ist für den Empfang von Zahlungen eingerichtet, Ihre Mitarbeiter wissen, wie sie die schreibgeschützte Version des Wallet verwenden können, um Zahlungen in Ihrem Namen zu empfangen, der Point of Sale (PoS) wurde mit Ladenprodukten konfiguriert und monatlich aktualisiert, und Sie wissen bereits, wie Sie die Bitcoin-Abrechnung von Kunden verwalten. Wenn Sie nicht wissen, wie das geht, sehen Sie sich dieses Tutorial an:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Was ist das Problem?
 
@@ -129,7 +129,7 @@ Die Art und Weise der Umsetzung bleibt dem Händler überlassen, aber hier sind 
 In jedem Fall ist es immer eine gute Praxis sicherzustellen, dass Ihr Geschäft, sofern es einen physischen Standort hat, auf [BTC Map](https://btcmap.org/map) präsent und aktuell ist. Die meisten Bitcoin-Nutzer sind mit diesem Tool vertraut, und fast alle, die Bitcoin in physischen Geschäften ausgegeben haben, haben zumindest einmal überprüft, welche Orte sie akzeptieren. Wenn Sie lernen möchten, wie Sie Ihr Geschäft zu BTC Map hinzufügen oder mehr Informationen erhalten möchten, sehen Sie sich dieses Tutorial an:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Verwaltung der Buchhaltung
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 Wenn Sie sich fragen, wie Sie die Abrechnung der soeben verdienten Bitcoins verwalten können, unabhängig davon, ob Sie eine der Rabattregelungen angewendet haben oder nicht, ist dies das richtige Tutorial für Sie:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Schlussfolgerung
 

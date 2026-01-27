@@ -225,4 +225,4 @@ Ahora ya estás listo para usar Ubuntu a diario: Protege tu sistema, navega, rea
 
 Para llevar la seguridad de tu vida digital un paso más allá, te recomendamos que eches un vistazo a nuestro servicio de mensajería cifrada, que se adapta perfectamente a la protección de tu privacidad y complementa tu instalación de Ubuntu:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

@@ -13,7 +13,7 @@ description: ग्राहकों को कम मूल्यवान म
 आपने आखिरकार अपने व्यवसाय में Bitcoin को स्वीकार करने का फैसला कर लिया है, और सब कुछ तैयार है: Lightning Network Wallet भुगतान प्राप्त करने के लिए तैयार है, आपके कर्मचारी जानते हैं कि आपकी ओर से भुगतान प्राप्त करने के लिए Wallet के केवल-पठन संस्करण का उपयोग कैसे किया जाता है, पॉइंट ऑफ़ सेल (PoS) को स्टोर उत्पादों के साथ कॉन्फ़िगर किया गया है और मासिक रूप से अपडेट किया जाता है, और आप पहले से ही जानते हैं कि ग्राहकों से Bitcoin लेखा कैसे प्रबंधित किया जाता है। अगर आपको यह नहीं पता कि यह कैसे करना है, तो यह ट्यूटोरियल देखें:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## समस्या क्या है
 
@@ -129,7 +129,7 @@ https://planb.network/tutorials/business/others/accounting-payments-cb4da704-885
 किसी भी स्थिति में, यह हमेशा एक अच्छी प्रथा है कि यह सुनिश्चित किया जाए कि आपका व्यवसाय, यदि उसका कोई भौतिक स्थान है, तो वह [BTC Map](https://btcmap.org/map) पर मौजूद और अद्यतन हो। अधिकांश बिटकॉइन उपयोगकर्ता इस उपकरण से परिचित हैं, और लगभग सभी जिन्होंने भौतिक दुकानों में बिटकॉइन खर्च किया है, उन्होंने कम से कम एक बार जांच की है कि कौन से स्थान इसे स्वीकार करते हैं। यदि आप सीखना चाहते हैं कि अपनी दुकान को BTC Map में कैसे जोड़ें या अधिक जानकारी चाहते हैं, तो यह ट्यूटोरियल देखें:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## लेखांकन प्रबंधन
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 यदि आप सोच रहे हैं कि अर्जित बिटकॉइन का लेखा-जोखा कैसे प्रबंधित करें, चाहे आपने छूट नीतियों में से एक को लागू किया हो या नहीं, तो यह ट्यूटोरियल आपके लिए है:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## निष्कर्ष
 

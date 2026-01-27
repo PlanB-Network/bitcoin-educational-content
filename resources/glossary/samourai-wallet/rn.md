@@ -1,5 +1,5 @@
 ---
-term: SAMOURAI Wallet.
+term: SAMOURAI Wallet
 ---
 
 Bitcoin Porogarama ya Wallet y’ibikoresho vy’amatelefone ngendanwa vy’i Android yibanze ku buzima bwite. Itanga ibintu biteye imbere nk’ibice vy’amahera vya Whirlpool, ivyuma vy’amabuye, ivyuma vy’amabuyeX2, ivyuma vy’amabuye, n’ivyuma vy’amabuye (PayJoin). Samourai kandi ishira mu ngiro uburinzi bwinshi kugira ngo ifashe abakoresha kurinda ubuzima bwite bwabo ku bijanye n’ugusesangura uruhererekane.

@@ -1,6 +1,6 @@
 ---
-name: Plan ₿ Network Platformunu Yerel Olarak Çalıştırma Kılavuzu
-description: Plan ₿ Network'de içerik katkımı veya eğitim içeriğinin düzeltilmesini/incelenmesini test etmek için Plan ₿ Network'i yerel bir ortamda nasıl çalıştırabilirsiniz?
+name: Plan ₿ Academy Platformunu Yerel Olarak Çalıştırma Kılavuzu
+description: Plan ₿ Academy'de içerik katkımı veya eğitim içeriğinin düzeltilmesini/incelenmesini test etmek için Plan ₿ Academy'i yerel bir ortamda nasıl çalıştırabilirsiniz?
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Plan ₿ Network'de içerik katkımı veya eğitim içeriğinin dü
 ## Özet olarak
 
 
-Bu eğitim, Docker, sahte anahtarlar ve özel depo yapılandırmaları kullanarak yerel makinenizde Plan ₿ Network'den Bitcoin Öğrenme Yönetim Sistemini kurmak için adım adım talimatlar sağlar.
+Bu eğitim, Docker, sahte anahtarlar ve özel depo yapılandırmaları kullanarak yerel makinenizde Plan ₿ Academy'den Bitcoin Öğrenme Yönetim Sistemini kurmak için adım adım talimatlar sağlar.
 
 
 Yukarıdaki kısmı anlamadıysanız endişelenmeyin - bu eğitim sizin için!
@@ -94,7 +94,7 @@ uygun bir nodejs sürümü yüklediğinizden `emin olun`. 2024-12 itibariyle v22
 
 
 
-Nodejs yüklemek için talimatları [burada] (https://nodejs.org/en/download/package-manager) bulabilirsiniz; örneğin `nvm` yükleme yöntemini kullanmayı seçebilirsiniz.
+Nodejs yüklemek için talimatları [burada](https://nodejs.org/en/download/package-manager) bulabilirsiniz; örneğin `nvm` yükleme yöntemini kullanmayı seçebilirsiniz.
 
 
 ---
@@ -147,7 +147,7 @@ Konteynerler çalıştıktan sonra, ön uca şu adresten erişin:
 \[<http://localhost:8181](http://localhost:8181)>
 
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 
 Not: Herhangi bir kaynak dosyayı değiştirirseniz uygulama otomatik olarak yeniden yüklenecektir.
@@ -196,7 +196,7 @@ curl -X POST http://localhost:3000/api/github/sync
 ```
 
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 
 

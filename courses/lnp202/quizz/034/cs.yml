@@ -1,0 +1,9 @@
+question: Které z těchto kritérií je pro vzájemné propojení nejdůležitější?
+answer: Střední poloha v grafu
+wrong_answers:
+  - Název uzlu v grafu
+  - Barva uzlu v grafu
+  - Počet zpráv v grafu
+explanation: |
+  Dobře umístěný uzel v grafu Lightning usnadňuje směrování do mnoha cílů.
+reviewed: false

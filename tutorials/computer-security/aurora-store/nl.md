@@ -14,7 +14,7 @@ In deze tutorial ontdekken we Aurora Store, een eenvoudig, open-source en veilig
 
 
 
-# Aan de slag met Aurora Store
+## Aan de slag met Aurora Store
 
 
 
@@ -32,7 +32,7 @@ Aurora Store is om de volgende redenen een van de populairste alternatieve app s
 
 
 
-Je kunt Aurora Store downloaden van de [officiële site] (https://auroraoss.com/aurora-store) door te klikken op de knop "Release" in de buildtypes. Selecteer de optie Vanilla als je een ander merk telefoon dan Huawei gebruikt. Recente Huawei-telefoonmodellen hebben hun eigen versie van Aurora Store vanwege hun beperkingen voor Google-services als gevolg van Amerikaanse sancties.
+Je kunt Aurora Store downloaden van de [officiële site](https://auroraoss.com/aurora-store) door te klikken op de knop "Release" in de buildtypes. Selecteer de optie Vanilla als je een ander merk telefoon dan Huawei gebruikt. Recente Huawei-telefoonmodellen hebben hun eigen versie van Aurora Store vanwege hun beperkingen voor Google-services als gevolg van Amerikaanse sancties.
 
 
 
@@ -44,13 +44,13 @@ Je kunt Aurora Store ook downloaden vanuit andere applicatiewinkels zoals F-Droi
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 We raden echter aan om het APK-bestand rechtstreeks van de officiële website te downloaden om de authenticiteit en integriteit van Aurora Store te garanderen.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Een APK-bestand (Android Package Kit) is het pakketformaat dat door het Android-besturingssysteem wordt gebruikt om applicaties te distribueren en te installeren. Het is het equivalent van **.exe** bestanden op Windows of **.dmg** bestanden op macOS.
 
@@ -88,7 +88,7 @@ Via de Aurora Store heb je toegang tot de catalogus met applicaties die beschikb
 
 
 
-## Kenmerken
+### Kenmerken
 
 
 
@@ -155,4 +155,4 @@ Aurora Store is meer dan alleen een applicatiewinkel, het is een open source opl
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

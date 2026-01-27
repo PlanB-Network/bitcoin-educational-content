@@ -104,7 +104,7 @@ description: قابل‌دسترس‌تر کردن قدرت آرچ لینوکس
 
 
 
-سپس به وب‌سایت نرم‌افزار [Rufus] (https://rufus.ie/fr/) بروید و آن را دانلود کنید. برنامه را اجرا کنید، کلید USB خود را وصل کنید، تصویر ISO مانجارو را انتخاب کنید و شروع به فلش کردن کنید. قبل از خارج کردن کلید، منتظر بمانید تا فرآیند به پایان برسد. سپس می‌توانید کامپیوتر خود را مجدداً راه‌اندازی کنید.
+سپس به وب‌سایت نرم‌افزار [Rufus](https://rufus.ie/fr/) بروید و آن را دانلود کنید. برنامه را اجرا کنید، کلید USB خود را وصل کنید، تصویر ISO مانجارو را انتخاب کنید و شروع به فلش کردن کنید. قبل از خارج کردن کلید، منتظر بمانید تا فرآیند به پایان برسد. سپس می‌توانید کامپیوتر خود را مجدداً راه‌اندازی کنید.
 
 
 
@@ -322,7 +322,7 @@ sudo pacman -S electrum  # Install Electrum
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## ایمن‌سازی سیستم Manjaro خود
 
@@ -395,4 +395,4 @@ sudo EDITOR=nano visudo
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

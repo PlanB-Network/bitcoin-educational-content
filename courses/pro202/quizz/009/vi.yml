@@ -1,0 +1,8 @@
+question: Phương trình đường cong elip cụ thể nào được Bitcoin's secp256k1 sử dụng?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + 3
+  - y² = x³ + 5
+  - y² = x³ + 1
+explanation: |
+  Bitcoin sử dụng đường cong secp256k1 được định nghĩa bởi phương trình y² = x³ + 7 trên một trường hữu hạn. Phương trình cụ thể này được chọn vì nó bảo toàn tính đối xứng và hành vi phi tuyến tính cần thiết cho bảo mật mật mã. Hệ số 7 là một phần của đặc tả secp256k1 tiêu chuẩn và phân biệt nó với các đường cong elliptic khác có thể sử dụng các hằng số khác như 1, 3 hoặc 5.

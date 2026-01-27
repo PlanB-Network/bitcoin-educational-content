@@ -26,7 +26,7 @@ Mine [ametlikule Sparrow Wallet allalaadimislehele](https://sparrowwallet.com/do
 
 Oluline on kontrollida tarkvara terviklikkust ja autentsust enne selle paigaldamist. Kui te ei tea, kuidas seda teha, leiate täieliku õpetuse siit :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Kui Sparrow on paigaldatud, võite jätta esialgsed selgitavad ekraanid vahele ja minna otse ühenduse haldamise ekraanile.
 
@@ -69,9 +69,9 @@ Pange tähele, et kui te kasutate kärbitud Bitcoin tuumasõlme, ei saa te taast
 
 Bitcoin Core-sõlme konfigureerimiseks saate sõltuvalt teie operatsioonisüsteemist tutvuda ühega järgmistest juhendmaterjalidest:
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 Mine Sparrow's vahekaardile "*Bitcoin Core*".
 
@@ -220,7 +220,7 @@ Võite selle graveerida paberile või täiendava turvalisuse tagamiseks graveeri
 
 Lisateabe saamiseks selle kohta, kuidas oma Mnemonic fraasi õigesti salvestada ja hallata, soovitan tungivalt jälgida seda teist õpetust, eriti kui olete algaja:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -228,7 +228,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Võite valida ka passphrase BIP39 lisamise, klõpsates kastil "*Kasutage passphrase*". Hoiatus: passphrase kasutamine võib olla väga kasulik, kuid kui te ei mõista, kuidas see töötab, võib see olla väga riskantne. Seepärast soovitan tungivalt lugeda seda lühikest teoreetilist artiklit sel teemal:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Kui olete salvestanud oma Mnemonic ja kõik passphrase füüsilisele andmekandjale, klõpsake "*Kinnitage varukoopia*".
 
@@ -264,7 +264,7 @@ Hardware Wallet ühendamiseks Sparrow'ga on kaks peamist võimalust:
 
 Sparrow toetab kõiki neid kommunikatsioonimeetodeid ja ühildub enamiku turul olevate riistvaraliste rahakottidega.
 
-Selles õpetuses kasutan ma Ledger Nano S-i koos kaabliga, kuid protseduur on sarnane Air-Gap režiimis. Hardware Wallet jaoks spetsiifilised üksikasjad leiate Plan ₿ Network-le pühendatud õpetusest.
+Selles õpetuses kasutan ma Ledger Nano S-i koos kaabliga, kuid protseduur on sarnane Air-Gap režiimis. Hardware Wallet jaoks spetsiifilised üksikasjad leiate Plan ₿ Academy-le pühendatud õpetusest.
 
 Enne alustamist veenduge, et Wallet on juba konfigureeritud Hardware Wallet-s. Kui kasutate juhtmega ühendust, ühendage see kaabli kaudu arvutiga.
 
@@ -326,7 +326,7 @@ Kui kasutate Hardware Wallet, on väga oluline enne seadme kasutamist kontrollid
 
 ![Image](assets/fr/44.webp)
 
-Hardware Wallet Air-Gap kasutajate puhul on Address verifitseerimine sõltuvalt seadme mudelist erinev. Täpseid juhiseid leiate spetsiaalsest Plan ₿ Network juhendmaterjalist.
+Hardware Wallet Air-Gap kasutajate puhul on Address verifitseerimine sõltuvalt seadme mudelist erinev. Täpseid juhiseid leiate spetsiaalsest Plan ₿ Academy juhendmaterjalist.
 
 Kui maksja on tehingu edastanud, näete seda vahekaardil "*Tehingud*". Te saate sellel klõpsata, et saada lisateavet, näiteks txid.
 
@@ -380,7 +380,7 @@ See viib teid lehele, kus on üksikasjalikult kirjeldatud teie tehingu Elements.
 
 Oluline on säilitada vaikimisi Sighash. Et mõista, miks, vaadake seda koolituskursust, kus ma selgitan teile kõike, mida te peate Sighashist teadma:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Järgmisel ekraanil varieeruvad valikud sõltuvalt kasutatava Wallet tüübist:
 
@@ -460,4 +460,4 @@ Kui leidsite selle õpetuse kasulikuks, oleksin väga tänulik, kui jätaksite a
 
 Soovitan ka seda teist õpetust, kus ma selgitan, kuidas konfigureerida Hardware Wallet COLDCARD Q koos Sparrow Wallet-ga:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

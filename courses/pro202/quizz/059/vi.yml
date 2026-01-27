@@ -1,0 +1,8 @@
+question: Trong bối cảnh các bộ lọc khối nhỏ gọn (BIP158) dành cho các máy khách nhẹ bảo vệ quyền riêng tư, đâu là sự đánh đổi quan trọng khiến chúng hiệu quả trong việc bảo vệ quyền riêng tư wallet?
+answer: Chúng có thể tạo ra kết quả dương tính giả nhưng không bao giờ tạo ra kết quả âm tính giả, cho phép khách hàng tải xuống các khối dữ liệu có khả năng không liên quan mà không tiết lộ địa chỉ cụ thể.
+wrong_answers:
+  - Chúng có thể tạo ra kết quả âm tính giả nhưng không bao giờ tạo ra kết quả dương tính giả, đảm bảo khách hàng chỉ tải xuống các khối chứa giao dịch của họ.
+  - Họ loại bỏ cả kết quả dương tính giả và âm tính giả bằng cách sử dụng bộ lọc xác định dựa trên địa chỉ wallet.
+  - "Chúng tạo ra cả kết quả dương tính giả và âm tính giả với tỷ lệ ngang nhau nhằm che giấu mô hình giao dịch thực tế của khách hàng."
+explanation: |
+  Các bộ lọc khối nhỏ gọn được thiết kế với mô hình lỗi bất đối xứng: chúng có thể cho biết một khối chứa các giao dịch liên quan ngay cả khi thực tế không phải vậy (sai dương tính), nhưng chúng sẽ không bao giờ bỏ sót một khối thực sự chứa các giao dịch liên quan (không có sai âm tính). Thiết kế này rất quan trọng vì sai âm tính có nghĩa là bỏ sót các khoản thanh toán thực tế, trong khi sai dương tính chỉ dẫn đến việc tải xuống các khối không cần thiết. Tỷ lệ sai dương tính cung cấp tính bảo mật bằng cách buộc các máy khách phải tải xuống một số khối không liên quan, khiến người quan sát không thể xác định được khối nào thực sự chứa các giao dịch của máy khách.

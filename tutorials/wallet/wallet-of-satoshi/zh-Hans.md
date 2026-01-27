@@ -4,6 +4,12 @@ description: 最简单的托管 Wallet 开始使用
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*注意：自2026年初起，本教程中介绍的托管模式 Wallet of Satoshi 已无法在欧盟境内使用。如果您居住在该地区并希望继续使用该工具，则需要使用位于欧盟以外的 VPN。另一种选择是以自托管模式使用 Wallet of Satoshi。专门的教程将很快在 Plan ₿ Academy 上发布。*
+
+---
+
 _本教程由_ [Bitcoin 校园](https://linktr.ee/bitcoincampus_) 编写
 
 
@@ -12,7 +18,7 @@ _本教程由_ [Bitcoin 校园](https://linktr.ee/bitcoincampus_) 编写
 
 Satoshi 的 Wallet 是 Lightning Network 的 Wallet，具有监护功能，使用非常简单。
 
-就课程[BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)而言，它用于 Redeem Lightning Network 凭证。
+就课程[BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)而言，它用于 Redeem Lightning Network 凭证。
 
 
 **永远记住**：不是你的钥匙，也不是你的硬币_

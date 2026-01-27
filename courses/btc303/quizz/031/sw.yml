@@ -1,0 +1,9 @@
+question: Ni mabadiliko gani ya kimsingi yanayotokea katika muundo wa gharama ya usalama wa Bitcoin wakati ruzuku ya block inakaribia sifuri?
+answer: Gharama za usalama hubadilika kutoka kulipwa na wamiliki kupitia mfumuko wa bei wa pesa hadi kulipwa na watumiaji kupitia ada za miamala.
+wrong_answers:
+  - Gharama za usalama hubadilika kutoka kulipwa na wachimbaji kupitia uwekezaji wa vifaa hadi kulipwa na nodi kupitia matumizi ya umeme
+  - Gharama za usalama hubadilika kutoka kulipwa na ubadilishaji kupitia ada za biashara hadi kulipwa na watoa huduma wa wallet kupitia ada za huduma
+  - Gharama za usalama hubadilika kutoka kulipwa na wasanidi programu kupitia matengenezo ya misimbo hadi kulipwa na watumiaji kupitia ushiriki wa mtandao
+explanation: |
+  Sura hiyo inaeleza wazi kwamba leo, wamiliki hulipa usalama wa Bitcoin kupitia mfumuko wa bei wa fedha (sarafu mpya zinaundwa kupitia ruzuku ya block), lakini katika siku zijazo wakati ruzuku ya kuzuia inakaribia sifuri, watumiaji watalipa usalama kupitia ada za ununuzi. Hii inawakilisha mabadiliko ya kimsingi ya kiuchumi kwa nani atabeba gharama ya kudumisha usalama wa mtandao, kutoka kwa mtindo ambapo uundaji wa sarafu mpya hufadhili mining hadi moja ambapo ada za miamala lazima zitoe motisha ya kutosha kwa wachimbaji kupata mtandao.
+reviewed: false

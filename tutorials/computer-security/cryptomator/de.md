@@ -42,7 +42,7 @@ Cryptomator ist eine Alternative zu anderen Anwendungen, insbesondere zu dem in 
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Die Cryptomator-Anwendung ist verfügbar für **Windows** (exe / msi), **Linux**, **macOS,** aber auch **Android** und **iOS**. Übrigens sind alle Anwendungen kostenlos, außer der Android-Anwendung, für die Sie bezahlen müssen (14,99 Euro).
 
@@ -60,7 +60,7 @@ Auf Ihrem Rechner erstellt **Cryptomator einen Ordner, in dem es einen Tresor** 
 
 
 
-Um loszulegen, müssen Sie **Cryptomator** **herunterladen** und **installieren**. Sobald der Download abgeschlossen ist, genügen ein paar Klicks, um die Installation abzuschließen. Wie [Rclone] (https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), verlässt sich Cryptomator auf WinFsp, um **ein virtuelles Laufwerk auf Ihrem Windows-Rechner** einzurichten.
+Um loszulegen, müssen Sie **Cryptomator** **herunterladen** und **installieren**. Sobald der Download abgeschlossen ist, genügen ein paar Klicks, um die Installation abzuschließen. Wie [Rclone](https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), verlässt sich Cryptomator auf WinFsp, um **ein virtuelles Laufwerk auf Ihrem Windows-Rechner** einzurichten.
 
 
 

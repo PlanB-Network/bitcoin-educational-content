@@ -6,4 +6,4 @@ wrong_answers:
   - Message
 explanation: |
   La couche Internet manipule des datagrammes, encapsulant les segments issus de la couche Transport.
-reviewed: false
+reviewed: true 

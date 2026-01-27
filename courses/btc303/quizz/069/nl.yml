@@ -1,0 +1,9 @@
+question: Welk scenario vertegenwoordigt volgens de definitie in het boek een legitieme Bitcoin schaalvergroting met behoud van censuurbestendigheid?
+answer: Ruimte-efficiëntere handtekeningverificatiealgoritmen implementeren die de invoer van transacties verkleinen
+wrong_answers:
+  - Gebruikers aanmoedigen om transacties te migreren naar gecentraliseerde beurzen om het on-chain volume te verminderen
+  - Automatische transactiefilters implementeren om prioriteit te geven aan bepaalde soorten economische activiteit
+  - Door de overheid goedgekeurde validatieknooppunten creëren die transacties efficiënter kunnen verwerken
+explanation: |
+  Het boek definieert Bitcoin schalen als 'het verhogen van de gebruikscapaciteit van Bitcoin zonder de censuurbestendigheid in gevaar te brengen' Ruimte-efficiënte handtekeningverificatie past direct bij deze definitie door transacties minder bytes te laten gebruiken terwijl de decentralisatie behouden blijft. De verkeerde antwoorden compromitteren allemaal de censuurbestendigheid: gecentraliseerde uitwisselingen introduceren vertrouwde derde partijen, het filteren van transacties creëert censuurmechanismen en door de overheid goedgekeurde knooppunten centraliseren de validatieautoriteit. Echt schalen behoudt de kerneigenschappen van Bitcoin terwijl het de efficiëntie verbetert.
+reviewed: false

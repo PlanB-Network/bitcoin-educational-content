@@ -1,0 +1,8 @@
+question: V čem spočívá hlavní bezpečnostní riziko, které zásadně odlišuje P2SH od standardních transakcí Bitcoin z hlediska zpětného získávání prostředků?
+answer: Ztráta skriptu pro vykoupení trvale zablokuje prostředky, i když máte soukromé klíče
+wrong_answers:
+  - Pokud je skript pro vykoupení příliš jednoduchý, lze 20bajtový hash překonat
+  - Adresy P2SH po určité výšce bloku vyprší, takže prostředky nelze získat zpět
+  - Dvoufázový ověřovací proces může náhodně selhat a způsobit trvalou ztrátu prostředků
+explanation: |
+  P2SH zavádí jedinečný bezpečnostní požadavek: k utrácení finančních prostředků jsou nutné jak soukromé klíče, tak skript pro vyplacení. Na rozdíl od standardních transakcí, kde jsou potřeba pouze soukromé klíče, vyžaduje P2SH, aby byl při utrácení poskytnut skutečný skript pro vykoupení. Pokud dojde ke ztrátě skriptu pro vykoupení, prostředky se stanou trvale nedostupnými bez ohledu na správné soukromé klíče, protože podmínky čerpání nelze obnovit ani ověřit.

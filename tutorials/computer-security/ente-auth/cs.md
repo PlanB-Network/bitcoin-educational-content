@@ -350,7 +350,7 @@ Ente Auth nabízí několik praktických funkcí:
 
 
 
-**Automatické ikony**: Díky integraci balíčku ikon [Simple Icons] (https://simpleicons.org/) může být každá položka ilustrována logem služby.
+**Automatické ikony**: Díky integraci balíčku ikon [Simple Icons](https://simpleicons.org/) může být každá položka ilustrována logem služby.
 
 
 

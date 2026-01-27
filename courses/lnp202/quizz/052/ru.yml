@@ -1,0 +1,9 @@
+question: Какое конкретное ограничение для Android упоминается в связи с использованием Tailscale?
+answer: Одна VPN за раз
+wrong_answers:
+  - Bluetooth обязателен для VPN
+  - DNS-over-HTTPS несовместим
+  - Требуется root для телефона
+explanation: |
+  Android не позволяет использовать две VPN одновременно, поэтому перед использованием Tailscale необходимо отключить все остальные активные VPN.
+reviewed: false

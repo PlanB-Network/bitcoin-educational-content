@@ -1,0 +1,9 @@
+question: Milline aluspõhimõte lubab arendajatel luua Bitcoin peal selliseid süsteeme nagu Lightning Network, CoinJoin ja OpenTimestamps ilma heakskiitu taotlemata?
+answer: Lubadusteta arendus võimaldab igaühel luua protokolle ja rakendusi Bitcoin-le, ilma et selleks oleks vaja ühegi keskse asutuse luba
+wrong_answers:
+  - Avatud lähtekoodiga litsentsimine nõuab, et kõik tuletatud tööd oleksid automaatselt heaks kiidetud ja integreeritud Bitcoin Core põhirepositooriumi
+  - MIT-litsents kohustab kõiki Bitcoin-põhiseid projekte saama enne kasutuselevõttu Bitcoin Core arendusmeeskonnalt selgesõnalise loa
+  - Konsensusreeglid valideerivad ja lubavad automaatselt iga uue Bitcoin peal ehitatud protokolli plokiahela verifitseerimise protsessi kaudu
+explanation: |
+  Lubadeta arendus on õige vastus, sest see on aluspõhimõte, mis võimaldab kõigil ehitada Bitcoin-le ilma luba küsimata. Valed vastused on valed, sest: avatud lähtekoodiga litsentsimine ei nõua automaatset heakskiitu ega integreerimist Bitcoin Core'i; MIT litsents annab tegelikult laialdased load ilma arendajatelt heakskiitu nõudmata; ja konsensusreeglid kinnitavad tehinguid ja plokke, mitte Bitcoin peal ehitatud kõrgema taseme protokollid.
+reviewed: false

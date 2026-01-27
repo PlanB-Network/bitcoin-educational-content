@@ -1,0 +1,9 @@
+question: Коя команда може да се използва за запитване към DNS сървър, за да се получи IP адресът на даден домейн?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup е инструмент за DNS заявки за преобразуване на имена на домейни в IP адреси.
+reviewed: false

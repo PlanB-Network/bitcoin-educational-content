@@ -1,9 +1,9 @@
-question: Ni ubuhe buryo bwo gukoresha buganzwa n’isoko rya PC ry’ubu?
-answer: Amadirisha
+question: Ni sisiteme iyihe iganza canke y’ihariye isoko rya PC uyu musi?
+answer: Windows
 wrong_answers:
-  - MacOS
+  - macOS
   - GNU/Linux
-  - OS ya Chrome
+  - Chrome  OS
 explanation: |
-  Windows ifise umugabane w’isoko 71% kuri mudasobwa z’abantu, bivuye ku gushiramwo kwayo mbere n’ubuhinga bwayo bwinshi.
-reviewed: false
+  Windows ifise umugabane w’isoko ungana na 71% ku nyabwonko z’abantu, bivuye ku buryo kenshi usanga ugura inyabwonko isanzwe irimwo be n’ubwinshi bwa porogarame zayikorewe.
+reviewed: true

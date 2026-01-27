@@ -1,0 +1,9 @@
+question: อันไหนคือ Bitcoin sidechains?
+answer: Liquid และ Rootstock
+wrong_answers:
+  - Polygon และ Arbitrum
+  - จูปิเตอร์และแฟนทอม
+  - Bitcoin Cash and Bitcoin Satoshi Vision
+explanation: |
+  Liquid และ RSK เป็นไซด์เชนที่มีการเชื่อมต่อแบบ 2-way peg กับ Bitcoin ตัวเลือกอื่นๆ ไม่ใช่ไซด์เชน หรือไม่มีการเชื่อมต่อแบบ 2WP กับบล็อกเชน Bitcoin
+reviewed: false

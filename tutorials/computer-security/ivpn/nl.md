@@ -65,9 +65,9 @@ En voor het Pro-plan:
 
 ## Hoe installeer ik IVPN op een computer?
 
-Download [de nieuwste versie van de software] (https://www.ivpn.net/en/apps-windows/) voor uw besturingssysteem en ga dan verder met de installatie door de stappen in de installatiewizard te volgen. iVPN](assets/notext/02.webp)
+Download [de nieuwste versie van de software](https://www.ivpn.net/en/apps-windows/) voor uw besturingssysteem en ga dan verder met de installatie door de stappen in de installatiewizard te volgen. iVPN](assets/notext/02.webp)
 
-Linux-gebruikers moeten de specifieke instructies voor hun distributie raadplegen die beschikbaar zijn op [deze pagina] (https://www.ivpn.net/en/apps-linux/).
+Linux-gebruikers moeten de specifieke instructies voor hun distributie raadplegen die beschikbaar zijn op [deze pagina](https://www.ivpn.net/en/apps-linux/).
 
 ![IVPN](assets/notext/03.webp)
 
@@ -200,9 +200,9 @@ Selecteer in het menu "*AntiTracker*" het blokkeerprofiel voor je anti-tracker. 
 En daar heb je het, je bent nu uitgerust om ten volle te genieten van IVPN. Als je ook de beveiliging van je online accounts wilt verbeteren door een lokale wachtwoordmanager te gebruiken, nodig ik je uit om onze tutorial over KeePass te bekijken, een gratis en open-source oplossing:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Als je geïnteresseerd bent in het ontdekken van een andere VPN-provider die vergelijkbaar is met IVPN, zowel wat betreft functies als prijs, raad ik je ook aan om onze tutorial over Mullvad te bekijken:
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

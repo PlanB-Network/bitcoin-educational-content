@@ -13,9 +13,9 @@ Pokud jste nerozuměli části výše, nezoufejte - tento návod je určen práv
 ---
 ## Co je to síť Plan ₿?
 
-Plan ₿ Network je platforma, na které se o Bitcoinu dozvíte prostřednictvím mnoha kurzů a výukových programů pro každého. V současné době je veškerý náš obsah open-source, umístěný v úložišti GitHub, a je otevřený příspěvkům pro recenze a tvorbu obsahu.
+Plan ₿ Academy je platforma, na které se o Bitcoinu dozvíte prostřednictvím mnoha kurzů a výukových programů pro každého. V současné době je veškerý náš obsah open-source, umístěný v úložišti GitHub, a je otevřený příspěvkům pro recenze a tvorbu obsahu.
 
-Cílem sítě Plan ₿ Network je stát se veřejným náměstím bitcoinového kyberprostoru, které spojuje a podporuje bitcoinové komunity po celém světě.
+Cílem sítě Plan ₿ Academy je stát se veřejným náměstím bitcoinového kyberprostoru, které spojuje a podporuje bitcoinové komunity po celém světě.
 
 ## Proč přispívat?
 
@@ -33,20 +33,20 @@ K recenzování obsahu nemusíte být odborníkem na GitHub. I když je vždy le
 
 Pokud však Git a GitHub neznáte a chcete se dozvědět více, můžete se podívat na náš úvodní článek o těchto nástrojích:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Vytvoření účtu
 
 - Vytvořte si účet na [GitHub](https://github.com/) a začněte přispívat. Pokud chcete získat návod k vytvoření účtu GitHub, máme pro vás také podrobný návod:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Budete také potřebovat účet v aplikaci pro zasílání zpráv [Telegram](https://telegram.org/).
 
 ## 2. Připojte se ke skupině Telegram
 
 
-- Připojte se ke [skupině PBN Content Builder](https://t.me/PlanBNetwork_ContentBuilder) na Telegramu.
+- Připojte se ke [skupině Plan ₿ Academy Content Builder](https://t.me/PlanBNetwork_ContentBuilder) na Telegramu.
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -142,12 +142,12 @@ Chcete-li se dozvědět více o pokynech, které je třeba dodržovat při korek
 
 ## 7. Počkejte na recenzi
 
-- Gratulujeme, vaše PR bylo odesláno! Jeho průběh můžete sledovat v záložce "Pull requests" v úložišti [Plan ₿ Network's GitHub](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+- Gratulujeme, vaše PR bylo odesláno! Jeho průběh můžete sledovat v záložce "Pull requests" v úložišti [Plan ₿ Academy's GitHub](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 
 
-- Děkujeme vám za váš příspěvek! Po schválení vás bude kontaktovat člen týmu Plan ₿ Network a zašle vám odměnu. \**Platby probíhají výhradně prostřednictvím sítě Lightning Network\**.
+- Děkujeme vám za váš příspěvek! Po schválení vás bude kontaktovat člen týmu Plan ₿ Academy a zašle vám odměnu. \**Platby probíhají výhradně prostřednictvím sítě Lightning Network\**.
 - Pokud chcete začít znovu, vraťte se ke kroku 2 a pošlete novou zprávu do skupiny Telegram, abyste mohli pokračovat v přispívání k dalšímu obsahu. Před vytvořením nové pracovní větve nezapomeňte synchronizovat svůj fork. To provedete tak, že přejdete na domovskou stránku své vidlice, vyberete hlavní větev s názvem `dev` (viz \**A\**) a kliknete na tlačítko "Sync fork" (viz \**B\**). Pokud jsou pro vaši fork k dispozici aktualizace, zobrazí se tlačítko "Aktualizovat větev". Kliknutím na něj jednoduše proveďte aktualizaci.
 
 ![REVIEW](assets/fr/16.webp)

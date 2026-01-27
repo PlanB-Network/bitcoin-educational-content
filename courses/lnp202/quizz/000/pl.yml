@@ -1,0 +1,9 @@
+question: Jaka jest przepustowość kanału Lightning?
+answer: Całkowita zablokowana kwota
+wrong_answers:
+  - Całkowita dostępna płynność w jednym kierunku
+  - Maksymalne opłaty
+  - Maksymalna liczba możliwych płatności
+explanation: |
+  Pojemność odpowiada całkowitej sumie sats zablokowanych na wyjściu multisig kanału.
+reviewed: false

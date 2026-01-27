@@ -1,9 +1,9 @@
-question: Which open-source software is adapted to a Professional Bitcoin payment system?
-answer: BTC Pay Server
+question: Phần mềm nguồn mở nào phù hợp với hệ thống thanh toán Professional Bitcoin?
+answer: Máy chủ thanh toán BTC
 wrong_answers:
   - Swiss Bitcoin Pay
-  - Open Node
+  - Nút mở
   - Bitcoinize PoS
 explanation: |
-  BTC Pay Server is highlighted in the course as the core open-source solution for Professional setups due to its extensive integration options and control.
-reviewed: false
+  Trong khóa học, BTC Pay Server được nhấn mạnh là giải pháp mã nguồn mở cốt lõi dành cho các thiết lập chuyên nghiệp nhờ các tùy chọn tích hợp và khả năng kiểm soát mở rộng.
+reviewed: true

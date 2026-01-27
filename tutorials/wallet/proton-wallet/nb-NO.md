@@ -14,11 +14,11 @@ Det spesielle med denne lommeboken er muligheten til å sende bitcoins ved hjelp
 
 For å bruke Proton Wallet trenger du en Proton-konto. Du kan opprette en gratis ved å følge de første trinnene i denne opplæringen dedikert til å opprette en Proton-postkasse (bare delen "*Opprette en Proton-konto*"). Når kontoen din er satt opp, kan du fortsette med resten av denne veiledningen.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Koble til Proton Wallet
 
-Gå til [nettstedet til Proton Wallet] (https://proton.me/wallet) og klikk på "*Get Proton Wallet*"-knappen.
+Gå til [nettstedet til Proton Wallet](https://proton.me/wallet) og klikk på "*Get Proton Wallet*"-knappen.
 
 ![Image](assets/fr/01.webp)
 
@@ -68,7 +68,7 @@ Du kan skrive det på et stykke papir, eller for ekstra sikkerhet anbefaler jeg 
 
 Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer minnefrasen din, anbefaler jeg at du følger denne andre veiledningen, spesielt hvis du er nybegynner:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 du bør selvfølgelig aldri ta bilde av disse ordene, i motsetning til hva jeg gjør i denne veiledningen
 
@@ -96,7 +96,7 @@ Her kan du legge til en BIP39-passordfrase i en ny lommebok.
 
 Hvis du vil fordype deg i passordfrasen, anbefaler jeg denne veiledningen:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Motta bitcoins
 
@@ -145,8 +145,8 @@ I tillegg til nettklienten er Proton Wallet også tilgjengelig via en mobilappli
 Last ned Proton Wallet fra applikasjonsbutikken din:
 
 
-- [På App Store] (https://apps.apple.com/us/app/proton-wallet-secure-btc/id6479609548);
-- [I Google Play Store] (https://play.google.com/store/apps/details?id=me.proton.wallet.android).
+- [På App Store](https://apps.apple.com/us/app/proton-wallet-secure-btc/id6479609548);
+- [I Google Play Store](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 ![Image](assets/fr/26.webp)
 
@@ -162,4 +162,4 @@ Gratulerer, du vet nå hvordan du konfigurerer og bruker Proton Wallet. Hvis du 
 
 For å gå videre, anbefaler jeg denne veiledningen om Jade Plus, Blockstreams nyeste maskinvarelommebok:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

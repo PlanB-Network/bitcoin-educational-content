@@ -1,0 +1,9 @@
+question: Wat betekent full node decentralisatie in Bitcoin?
+answer: Validatie van blokken wordt uitgevoerd aan de rand van het netwerk door gebruikers, niet door vertrouwde autoriteiten
+wrong_answers:
+  - Transactieverwerking wordt verdeeld over meerdere mining pools in plaats van één enkele entiteit
+  - De Bitcoin protocolregels worden bepaald door een gedistribueerde groep kernontwikkelaars
+  - Prive-sleutels worden opgeslagen op meerdere apparaten in plaats van één wallet
+explanation: |
+  Full node decentralisatie betekent dat de validatie van blokken (de gegevens die miners produceren) gebeurt aan de rand van het netwerk door individuele gebruikers die hun eigen nodes beheren, in plaats van te vertrouwen op een paar vertrouwde autoriteiten om transacties te verifiëren. Dit is te onderscheiden van miner decentralisatie, dat zich bezighoudt met het ordenen en verwerken van transacties. De andere opties verwarren full node decentralisatie met mining distributie, bestuursstructuren, of beveiligingspraktijken, maar geen van deze opties omvat het kernconcept van gedistribueerde blokvalidatie door netwerkdeelnemers.
+reviewed: false

@@ -32,6 +32,8 @@ Ovaj kurs je, naravno, usredsređen na lik Satoshi Nakamota, čije ćete reči i
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 Dobrodošli na kurs HIS201!
 
 Ovaj kurs ima za cilj da vam ispriča priču o stvaranju Bitcoin na način na koji nikada ranije niste čitali. Često se zanemaruje, uprkos tome što je ispunjen fascinantnim detaljima. Pokušaćemo da ga opišemo u svoj njegovoj složenosti, od njegovog začetka od strane Satoshi Nakamota do njegovog ranog nestanka i predaje zajednici.
@@ -40,7 +42,7 @@ Ovaj kurs ima za cilj da vam ispriča priču o stvaranju Bitcoin na način na ko
 **Kratak Pregled**
 
 
-Bitcoin je dizajnirao pojedinac (ili grupa) koristeći pseudonim Satoshi Nakamoto. Dana 31. oktobra 2008, podelio je beli papir koji opisuje njegov model putem opskurne email liste na Internetu. Dana 8. januara 2008, implementirao je svoj koncept objavljivanjem izvornog koda softvera i pokretanjem mreže lansiranjem prvih blokova lanca Mining. Želeći da privuče kritičan broj korisnika, promovisao je svoje stvaranje kroz različite komunikacione kanale.
+Bitcoin je osmislio pojedinac (ili grupa) koji je koristio pseudonim Satoši Nakamoto. Dana 31. oktobra 2008. godine, on je podelio beli dokument koji opisuje njegov model putem jedne slabo poznate imejl liste na Internetu. Dana 8. januara 2009. godine, primenio je svoj koncept u praksi objavljivanjem izvornog koda softvera i pokretanjem mreže kroz rudarenje prvih blokova lanca. U želji da privuče kritičan broj korisnika, promovisao je svoju tvorevinu putem različitih komunikacionih kanala.
 
 
 Nakon teškog početka, bootstrapovanje sistema konačno se dogodilo u oktobru 2009. godine, kada je jedinica obračuna – takođe nazvana Bitcoin – dobila cenu. Prve trgovačke usluge počele su da se pojavljuju početkom 2010. godine, počevši sa Exchange uslugama koje su povezivale sa dolarom. Takođe, otprilike u to vreme, Mining sa grafičkom karticom, efikasniji, je inicijalno implementiran, a prvi Exchange za fizičku robu, konkretno picu, se dogodio, prateći inicijativu Laszla Hanyecza.
@@ -62,7 +64,6 @@ Pored ove priče, Bitcoin takođe ima preistoriju. Zaista, to nije objekat koji 
 U dizajniranju Bitcoin, Satoshi Nakamoto je bio veoma inspirisan eCash modelom, konceptom koji je predložio kriptograf David Chaum 1982. godine i implementirao kroz svoju kompaniju DigiCash 90-ih godina. Ovaj model, koji se oslanjao na proces slepog potpisa, omogućavao je korisnicima da vrše razmene na relativno poverljiv način. Međutim, bio je zasnovan na centralizovanoj mreži banaka koje su intervenisale kako bi sprečile dvostruko trošenje. Stoga, kada je DigiCash bankrotirao, sistem se urušio. Bitcoin je ispravio ovaj problem eliminisanjem potrebe za pouzdanim trećim licem.
 
 
-Bitcoin se pojavio u posebnom kontekstu: zatvaranje privatnih valutnih sistema od strane američke savezne vlade, kao što su digitalna zlatna valuta e-gold 2008. godine i sistem Liberty Reserve 2013. godine. Oslanjajući se na model koji je raspodelio rizik među svojim učesnicima, slično sistemima za deljenje među korisnicima kao što je BitTorrent, Satoshi Nakamoto je stvorio robustan model digitalne valute koji bi mogao izdržati direktne napade države.
 
 
 Kreiranje Bitcoin bilo je takođe u kontekstu zatvaranja privatnih valutnih sistema od strane države, kao što su e-gold i Liberty Reserve. Ono je predstavljalo robustan model digitalne valute koji je mogao da se odupre direktnim napadima federalne vlade SAD. Distribucijom rizika među svojim učesnicima, slično sistemima za deljenje kao što je BitTorrent, osiguralo je sopstveni opstanak.
@@ -74,7 +75,7 @@ Konačno, projekat Bitcoin je naslednik etosa pokreta Cypherpunk, pokreta pobunj
 **Plan kursa**
 
 
-Ovaj kurs je podeljen na četiri dela, koji se fokusiraju na poreklo Bitcoin (3 poglavlja), njegovo sporo pojavljivanje (3 poglavlja), njegov početni uspon (3 poglavlja) i formiranje njegove zajednice (4 poglavlja). Ukupno, uključuje 12 poglavlja koja su sledeća (naveden je i odgovarajući period):
+Ovaj kurs je podeljen u četiri dela, koji se redom bave poreklom Bitcoina (3 poglavlja), njegovim sporim nastankom (3 poglavlja), njegovim početnim usponom (3 poglavlja) i formiranjem njegove zajednice (4 poglavlja). Ukupno sadrži 13 poglavlja, koja su sledeća (uz naznačavanje odgovarajućeg perioda):
 
 
 
@@ -124,6 +125,8 @@ Spremni da istražimo neverovatnu sagu o stvaranju Bitcoin? Onda zaronimo zajedn
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
 
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 
 Pre nego što se upustimo u stvarnu priču o stvaranju Bitcoin od strane Satoshi Nakamota, prikladno je diskutovati o onome što je prethodilo. Address ćemo temu u tri faze: prvo, predstavićemo koncept Chaumian digitalnog novca koji se obično naziva *eCash*; zatim ćemo govoriti o privatnim valutama zasnovanim na centralizovanim sistemima kao što je e-gold; na kraju, opisaćemo tehničke modele koji su zamišljeni pre implementacije robusnog distribuiranog sistema koji je Bitcoin.
 
@@ -151,23 +154,23 @@ Da bi se rešio ovaj problem, razvijena je *asimetrična* kriptografija, poznata
 Ovaj tip kriptografije omogućava implementaciju kako enkripcijskih algoritama, tako i procesa potpisivanja. Asimetrična enkripcija uključuje korišćenje javnog ključa kao ključa za enkripciju i privatnog ključa kao ključa za dekripciju. Korisnik generiše par ključeva, zadržava privatni ključ, i deli javni ključ sa svojim korespondentima kako bi oni mogli da šalju poruke. Ovaj tip enkripcije je analogan poštanskom sandučetu koje primalac koristi za primanje pisama i čiji ključ poseduje samo on.
 
 
-![Asymmetric encryption](assets/en/001.webp)
+![Asymmetric encryption](assets/sr-Latn/001.webp)
 
 
 Digitalni potpisi, s druge strane, oslanjaju se na korišćenje privatnog ključa kao ključa za potpisivanje i javnog ključa kao ključa za verifikaciju. Korisnik generiše par ključeva, potpisuje poruku privatnim ključem i šalje je svojim korespondentima, koji mogu da provere njenu autentičnost koristeći javni ključ. Tako nikada ne moraju da znaju privatni ključ.
 
 
-![Digital signature](assets/en/002.webp)
+![Digital signature](assets/sr-Latn/002.webp)
 
 
-Asimetrična kriptografija je nezavisno otkrivena od strane nekoliko istraživača tokom 1970-ih. Međutim, prvi koji su predstavili ono što su otkrili bili su Whitfield Diffie i Martin Hellman, dva kriptografa sa Univerziteta Stanford. U novembru 1976. godine, objavili su rad pod nazivom "[New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf)" u časopisu *IEEE Transactions on Information Theory*, koji je opisao ključni algoritam Exchange (namenjen za prenos tajnih ključeva za simetričnu enkripciju) kao i proces digitalnog potpisa. U uvodu ovog rada, napisali su:
+Asimetrična kriptografija otkrivena je nezavisno od strane nekoliko istraživačkih grupa tokom sedamdesetih godina. Ipak, prvi koji su predstavili svoja otkrića bili su Vitfild Difi i Martin Helman, dvojica kriptografa sa Univerziteta Stanford. U novembru 1976. godine objavili su članak pod naslovom „ [New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf) “ u časopisu *IEEE Transactions on Information Theory*, u kojem su opisali algoritam za razmenu ključeva (namenjen prenosu tajnih ključeva za simetrično šifrovanje), kao i postupak digitalnog potpisa. U uvodu tog članka napisali su:
 
 > "Danas stojimo na ivici revolucije u kriptografiji. Razvoj jeftinog digitalnog hardvera oslobodio je kriptografiju od dizajnerskih ograničenja mehaničkog računanja i smanjio troškove visokokvalitetnih kriptografskih uređaja do nivoa gde se mogu koristiti u komercijalnim aplikacijama kao što su udaljeni bankomati i računarski terminali. Zauzvrat, takve aplikacije stvaraju potrebu za novim tipovima kriptografskih sistema koji minimiziraju potrebu za sigurnim kanalima distribucije ključeva i Supply ekvivalent pisanog potpisa. Istovremeno, teorijski razvoj u teoriji informacija i računarskim naukama obećava pružanje dokazivo sigurnih kriptosistema, pretvarajući ovu drevnu umetnost u nauku."
 
 Evo fotografije iz 1977. godine, koju je snimio Chuck Painter za Stanford News Service, gde možete videti Whitfielda Diffieja (desno) i Martina Hellmana (u centru). Osoba s leve strane je kriptograf Ralph Merkle, koji je bio na pragu istog otkrića.
 
 
-![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/003.webp)
+![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/sr-Latn/003.webp)
 
 
 Članak Diffieja i Hellmana otvorio je put za mnoštvo inovacija. Jedna od njih je bila [RSA kriptosistem](https://people.csail.mit.edu/rivest/Rsapaper.pdf), koji su 1977. godine dizajnirali kriptografi Ronald Rivest, Adi Shamir i Leonard Adleman (koji su mu dali svoja imena) i koji je MIT patentirao 1983. Ovaj sistem omogućava i šifrovanje i potpisivanje poruka, zahvaljujući zameni uloga ključeva. RSA je prvi put javno predstavljen u [članku Martina Gardnera](https://simson.net/ref/1977/Gardner_RSA.pdf) objavljenom u časopisu *Scientific American* u avgustu 1977, koji je nosio naslov "Matematičke igre: Nova vrsta šifre koju bi bilo potrebno milionima godina da se razbije."
@@ -178,7 +181,7 @@ Otkrivanje asimetrične kriptografije takođe je motivisalo stvaranje jednousmer
 
 Osnovni kriptografski Elements od Bitcoin potiču iz ovog istraživanja. Šema potpisa ECDSA, koja omogućava autorizaciju trošenja tradicionalne transakcije, kreirana je 1992. godine za NIST. Funkcija SHA-256 Hash, korišćena na više mesta u protokolu, objavljena je 2001. godine kao deo SHA-2 algoritamskog paketa koji je NSA učinila javnim. Za više informacija o ovoj temi, možete se obratiti kursu CYP201 koji predstavlja Loïc Morel.
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
@@ -188,7 +191,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 Ova revolucija u oblasti kriptografije inspirisala je i mladog Davida Chauma, kompjuterskog naučnika sa Zapadne obale i tada doktorskog studenta na Univerzitetu u Berkliju. Brzo je postao strastven u vezi sa zaštitom privatnosti. Zaista je bio veoma zabrinut za budućnost slobode i poverljivosti u društvu koje je postajalo sve više kompjuterizovano.
 
 
-![David Chaum in the 90s](assets/en/004.webp)
+![David Chaum in the 90s](assets/sr-Latn/004.webp)
 
 David Chaum devedesetih (izvor: [Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
@@ -217,7 +220,7 @@ U svojoj tehničkoj operaciji, eCash model se zasniva na procesu slepog potpisa,
 Evo ilustracije različitih koraka uključenih u kreiranje i zamenu Chaumian beleške (iz *L'Élégance de Bitcoin*):
 
 
-![Creation and replacement of a Chaumian note](assets/en/005.webp)
+![Creation and replacement of a Chaumian note](assets/sr-Latn/005.webp)
 
 
 Radnje (svaka odgovara matematičkoj operaciji ili prenosu informacija) su sledeće:
@@ -256,7 +259,7 @@ Sve ovo implicira da nijedna banka u sistemu ne može povezati uplatu sa Alisini
 Godine 1990, David Chaum je osnovao svoju kompaniju, DigiCash B.V., kako bi realizovao svoju ideju o elektronskom novcu. Ova kompanija je bila smeštena u Amsterdamu, u Holandiji, i posedovala je patente za njegov izum. U to vreme, Internet je još uvek bio u povoju (Web je bio u fazi razvoja) i e-trgovina nije postojala; stoga je eCash model predstavljao izvanrednu priliku.
 
 
-![DigiCash Logo](assets/en/006.webp)
+![DigiCash Logo](assets/sr-Latn/006.webp)
 
 
 Međutim, nije kompanija Davida Chauma prva testirala model: bili su to cypherpunks koji su ga implementirali bez obzira na patente i koji nisu tražili dozvolu za to. Tako je protokol nazvan Magic Money [predložen](https://cypherpunks.venona.com/date/1994/02/msg00247.html) na cypherpunks mailing listi 4. februara 1994. godine, od strane anonimnog programera pod imenom Pr0duct Cypher. Ovaj protokol je omogućavao kreiranje sopstvene valute putem rada email servera koji je služio kao eCash kovnica. Cypherpunks su se zabavljali s tim, stvarajući razne jedinice obračuna kao što su Tacky Tokens, GhostMarks, DigiFrancs i NexusBucks. Međutim, korisnost ovih tokena bila je minimalna, a razmene su bile veoma retke.
@@ -264,7 +267,7 @@ Međutim, nije kompanija Davida Chauma prva testirala model: bili su to cypherpu
 Na strani DigiCash-a, nakon nekoliko godina razvoja, prototip je [predstavljen](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) u maju 1994. na prvoj međunarodnoj konferenciji o Svetskoj mreži u CERN-u u Ženevi. Kompanija je zatim sprovela probu koja je počela 19. oktobra te godine, sa izdavanjem jedinica nazvanih "CyberBucks" koje nisu bile podržane nijednom drugom valutom. Razni trgovci su prihvatali CyberBucks kao deo ovog eksperimenta. Cypherpunks su takođe prihvatili to, koristeći ga za obavljanje stvarnih razmena. Tako su CyberBucks stekli vrednost na tržištu. Međutim, ta vrednost je pala kada je eCash uveden u tradicionalni bankarski sistem.
 
 
-![Photo (blurry) of the DigiCash team in 1995](assets/en/007.webp)
+![Photo (blurry) of the DigiCash team in 1995](assets/sr-Latn/007.webp)
 
 Fotografija (zamagljena) tima DigiCash iz 1995: David Chaum je krajnje levo (izvor: [Chaum.com](https://chaum.com/ecash/))
 
@@ -272,7 +275,7 @@ Fotografija (zamagljena) tima DigiCash iz 1995: David Chaum je krajnje levo (izv
 Uvođenje eCash-a u bankarski sistem počelo je u oktobru 1995. godine sa početkom partnerstva DigiCash-a sa Mark Twain Bank, malom bankom u Misuriju. Za razliku od slučaja CyberBucks čija je Exchange stopa bila promenljiva, obračunska jedinica bila je podržana američkim dolarom. Između 1996. i 1998. godine, šest banaka je sledilo Mark Twain Bank: Merita Bank u Finskoj, Deutsche Bank u Nemačkoj, Advance Bank u Australiji, Bank Austria u Austriji, Den norske Bank u Norveškoj i Credit Suisse u Švajcarskoj. Tada je štampa obećavala svetlu budućnost za ovaj sistem.
 
 
-Ipak, stvari nisu išle po planu. Zbog svoje tvrdoglave i sumnjičave prirode, David Chaum je želeo da zadrži kontrolu nad svojom kompanijom i odbio je partnerstva sa velikim finansijskim igračima kao što su ING i ABN AMRO, Visa, Netscape i Microsoft. Napustio je svoju poziciju 1997. godine, a iste godine kompanija je preselila svoje sedište u Kaliforniju. Tokom 1998. godine, partnerske banke su objavile da napuštaju eCash. DigiCash je na kraju bankrotirao u novembru 1998. godine, čime je okončana ova implementacija Chaumove elektronske gotovine.
+Ipak, nije sve išlo po planu. Zbog svoje tvrdoglave i sumnjičave prirode, David Chaum je želeo da zadrži kontrolu nad svojom kompanijom i odbio je partnerstva sa velikim igračima kao što su ING, ABN AMRO, Visa, Netscape i Microsoft. Napustio je svoju poziciju 1997. godine i iste godine kompanija je preselila svoje sedište u Kaliforniju. Tokom 1998. godine, partnerske banke su objavile da napuštaju eCash. DigiCash je na kraju bankrotirao u novembru 1998. godine, čime je okončana ova implementacija Čaumovog elektronskog novca.
 
 
 ### Nasleđe modela Dejvida Čauma
@@ -288,7 +291,7 @@ Drugi alternativni centralizovani sistemi takođe su se pojavili paralelno, kao 
 Zatim, eCash je inspirisao cypherpunks koji su razvili svoje modele kao što su b-money, bit gold i RPOW. Dodali su Proof of Work i druge Elements, koji su kasnije pronađeni u Bitcoin. Proučićemo ove koncepte u Poglavlju 3.
 
 
-Konačno, model Davida Chauma značajno je uticao na Satoshi Nakamota kada je razvijao svoj koncept valute. Ovo je evidentno iz više referenci u [white paper-u](assets/pdf/Bitcoin-20090324.pdf) (naslov, opis problema u odeljku 2, naziv PDF-a [poslatog](https://gwern.net/doc/Bitcoin/2008-nakamoto) Wei Dai-u u avgustu 2008), kao i njegovih privatnih i javnih intervencija. U tom smislu, eCash je glavni prethodnik Bitcoin, čak i ako nije jedini.
+Konačno, model Davida Chauma značajno je uticao na Satoshi Nakamota kada je razvijao svoj koncept valute. Ovo je evidentno iz više referenci u [white paper-u](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) (naslov, opis problema u odeljku 2, naziv PDF-a [poslatog](https://gwern.net/doc/Bitcoin/2008-nakamoto) Wei Dai-u u avgustu 2008), kao i njegovih privatnih i javnih intervencija. U tom smislu, eCash je glavni prethodnik Bitcoin, čak i ako nije jedini.
 
 
 Sa Bitcoin, Satoshi Nakamoto je stvorio robusnu i poverljivu digitalnu valutu, pravi elektronski novac. Time je ostvario [predviđanje](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s) Miltona Friedmana, dobitnika Nobelove nagrade za ekonomiju i osnivača Čikaške škole, koji je rekao u intervjuu za National Taxpayers Union Foundation 1999:
@@ -299,6 +302,8 @@ Sa Bitcoin, Satoshi Nakamoto je stvorio robusnu i poverljivu digitalnu valutu, p
 ## Privatne digitalne valute
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
+
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
 
 
 U prethodnom poglavlju, istražili smo prvi oblik elektronskog novca koji je proizašao iz pojave Interneta i moderne kriptografije: eCash model Davida Chauma. Ovaj model je značajno uticao na Satoshi Nakamoto i bio je ključna prekretnica na putu koji je vodio ka Bitcoin. Međutim, priča o poreklu kriptovaluta ne završava se sa eCash-om; ona takođe uključuje eksperimente sa privatnim valutama koje su funkcionisale na Internetu, razvijene od kasnih 1990-ih.
@@ -329,7 +334,7 @@ Situacija je postala još restriktivnija nakon toga. Centralna banka, nazvana Fe
 Sa ukidanjem zabrane posedovanja zlata i razvojem Interneta počevši od 1970-ih, ideja o uvođenju privatnih valuta ponovo se pojavila. To je bio slučaj sa Bernardom von NotHausom, koji je 1998. godine pokrenuo Liberty Dollar, valutu zasnovanu na zlatu i srebru koja se mogla naći u obliku srebrnih novčića i predstavničkih novčanica. Sistem je upravljala neprofitna organizacija pod nazivom NORFED (akronim za National Organization for the Repeal of the Federal Reserve and Internal Revenue Code). Počevši od 2003. godine, Liberty Dollar je bio dostupan i u digitalnom obliku, putem sistema računa sličnog e-goldu (pogledajte sledeći odeljak). Sistem je doživeo određeni nivo uspeha. Pored cirkulišućih novčića, NORFED-ovi trezori su sadržali oko 8 miliona dolara u plemenitim metalima kako bi se osigurala konvertibilnost valute, uključujući 6 miliona za podršku digitalnoj jedinici.
 
 
-![2003 Silver Liberty Dollar](assets/en/008.webp)
+![2003 Silver Liberty Dollar](assets/sr-Latn/008.webp)
 
 Liberty Dollar (10 dolara) u srebru iz 2003 (izvor: [Numista](https://en.numista.com/catalogue/exonumia242820.html))
 
@@ -347,7 +352,7 @@ Princip je bio da se svaka jedinica e-golda može konvertovati u pravo zlato. Zl
 E-gold sistem je iskoristio prednosti novonastalog Web-a, a posebno vrlo nedavnog Netscape pretraživača. Svaki klijent je mogao pristupiti svom nalogu sa vebsajta, umesto da koristi namenski softver. Za to vreme, platforma je bila veoma visokih performansi, koristeći sistem bruto poravnanja u realnom vremenu inspirisan međubankarskim transferom. Ovako je slanje e-golda izgledalo 2005. godine (slika iz [tutorijala](https://www.geocities.ws/rizuan_mahrol/setpbystep.html) tog vremena):
 
 
-![Sending on e-gold in 2005](assets/en/009.webp)
+![Sending on e-gold in 2005](assets/sr-Latn/009.webp)
 
 
 E-gold sistem je postigao veliki uspeh: na svom vrhuncu 2006. godine, [garantovao](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) je 3,6 tona zlata, vrednog više od 80 miliona dolara, [procesirao](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) 75.000 transakcija dnevno, sa godišnjim obimom od 3 milijarde dolara, i upravljao sa više od 2,7 miliona naloga.
@@ -364,7 +369,7 @@ Drugi sistemi su kreirani prateći isti model. Možemo pomenuti GoldMoney, koji 
 Još jedan primer centralizovanog sistema privatne valute je Liberty Reserve, koji je omogućavao svojim korisnicima da drže i prenose elektronske valute vezane za američki dolar, evro ili zlato. Ovaj sistem su kreirali Arthur Budovsky, Amerikanac ukrajinskog porekla, i Vladimir Kats, ruski imigrant iz Sankt Peterburga. Godine 2006, Arthur Budovsky se iselio u Kostariku, koja se tada smatrala poreskim rajem, gde je registrovao svoju kompaniju, Liberty Reserve S.A.
 
 
-![Liberty Reserve logo in 2009](assets/en/010.webp)
+![Liberty Reserve logo in 2009](assets/sr-Latn/010.webp)
 
 Liberty Reserve logo in 2009 (source: [Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
 
@@ -394,7 +399,7 @@ Originalna vizija PayPala bila je revolucionarna, u skladu sa libertarijanskom v
 
 > "Naravno, ono što nazivamo 'pogodnim' za američke korisnike biće revolucionarno za zemlje u razvoju. Mnoge od ovih vlada igraju se sa svojim valutama. Koriste inflaciju i ponekad masovne devalvacije valuta, kao što smo videli u Rusiji i nekoliko zemalja jugoistočne Azije prošle godine, da bi oduzeli bogatstvo svojim građanima. Većina običnih ljudi tamo nikada nema priliku da otvori offshore račun ili da dođe do više od nekoliko novčanica stabilne valute poput američkih dolara. Na kraju, PayPal će moći da promeni ovo. U budućnosti, kada našu uslugu učinimo dostupnom van SAD i kako penetracija interneta nastavi da se širi na sve ekonomske slojeve ljudi, PayPal će građanima širom sveta dati direktniju kontrolu nad njihovim valutama nego ikada pre. Biće gotovo nemoguće za korumpirane vlade da kradu bogatstvo od svojih ljudi kroz svoje stare metode jer ako pokušaju, ljudi će preći na dolare, funte ili jene, u suštini odbacujući bezvrednu lokalnu valutu za nešto sigurnije."
 
-![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/011.webp)
+![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/sr-Latn/011.webp)
 
 Peter Thiel 20. oktobra 1999. tokom svog govora u Ouklendu, Kalifornija za Independent Institute (izvor: [Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 
@@ -416,6 +421,8 @@ Upravo zbog ove krhkosti centralizovanih sistema, zagovornici slobode – uklju�
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
+
 
 Bitcoin predstavlja decentralizovani model digitalne valute. Na taj način izbegava potrebu za pouzdanim trećim licem, koje bi predstavljalo jedinstvenu tačku kvara u sistemu. Kao što pokazuju primeri eCash-a, digitalnih zlatnih valuta i Liberty Reserve-a, centralizacija sistema koji namerava da bude alternativa postojećem sistemu neizbežno vodi ka njegovom zatvaranju, na ovaj ili onaj način.
 
@@ -431,7 +438,7 @@ U ovom poglavlju ćemo proučiti pojavu različitih osnovnih tehničkih Elements
 Sa pojavom računara 1950-ih, pojavila se mogućnost njihovog međusobnog povezivanja. Tako su formirane prve računarske mreže, što je dovelo do razvoja Interneta, "mreže mreža," 1970-ih. Pitanje infrastrukture ovih mreža neizbežno se postavilo. Zato je poljsko-američki naučnik iz oblasti računara Paul Baran, u svom osnovnom članku iz 1964. godine (opisujući preklapanje paketa), naveo tri tipa mreža: centralizovanu mrežu, koja se oslanja na jedan čvor; distribuiranu mrežu, gde je svaka tačka čvor; decentralizovanu (ne-distribuiranu) mrežu, koja se oslanja na distribuiranu mrežu sa više čvorova.
 
 
-![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/012.webp)
+![Centralized, decentralized, and distributed networks according to Paul Baran](assets/sr-Latn/012.webp)
 
 
 Iz ovih razmatranja mogu se izvesti dva čista modela: model klijent-server, gde centralni server odgovara na zahteve klijenata, i model peer-to-peer, gde svaki čvor ima istu ulogu u sistemu. Ovaj poslednji model bio je posebno koristan za deljenje fajlova 2000-ih, sa stvaranjem BitTorrent-a i drugih sličnih protokola. Tor mreža je decentralizovana, nije čisto peer-to-peer.
@@ -442,13 +449,13 @@ Problem koji se javlja u distribuiranim arhitekturama je pitanje distribuiranog 
 Problem je predstavljen u obliku metafore koja uključuje generale vojske Vizantijskog carstva, koji opsedaju neprijateljski grad sa svojim trupama s namerom da napadnu i mogu komunicirati samo putem glasnika. Cilj je pronaći strategiju (tj. algoritam) koja može upravljati prisustvom izdajnika i osigurati da se svi lojalni generali slože oko plana bitke kako bi napad bio uspešan. Evo ilustracije (izvor: *L'Élégance de Bitcoin*):
 
 
-![The Byzantine Generals Problem](assets/en/013.webp)
+![The Byzantine Generals Problem](assets/sr-Latn/013.webp)
 
 
 Rešavanje ovog problema je važno za distribuirane sisteme koji bi upravljali jedinicom obračuna. Takvi sistemi zaista zahtevaju da se učesnici slože oko Ownership obračunskih jedinica, odnosno oko toga ko šta poseduje.
 
 
-Pre Bitcoin, problem je bio apsolutno rešen takozvanim "klasičnim" algoritmima koji su zahtevali da čvorovi budu unapred poznati i da dva od njih budu poštena. Najpoznatiji među njima je verovatno konsenzus algoritam [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) (akronim za Practical Byzantine Fault Tolerance), koji su razvili Miguel Castro i Barbara Liskov 1999. godine i omogućio je određenom broju učesnika da se slože upravljajući hiljadama zahteva u sekundi sa latencijom manjom od jedne milisekunde.
+Pre Bitcoina, problem je rešavan na apsolutan način pomoću takozvanih „klasičnih“ algoritama koji su zahtevali da čvorovi budu unapred poznati i da dve trećine njih budu poštene. Najpoznatiji od njih je verovatno konsenzus algoritam [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) (skraćenica za *Practical Byzantine Fault Tolerance*), koji su razvili Miguel Castro i Barbara Liskov 1999. godine i koji je omogućavao određenom broju učesnika da se slože, obrađujući hiljade zahteva u sekundi sa latencijom manjom od jedne milisekunde.
 
 
 Sa Bitcoin konsenzus algoritmom, Satoshi Nakamoto je rešio to na probabilistički način, omogućavajući uklanjanje određenih ograničenja žrtvovanjem stroge finalnosti transakcija. Dana 13. novembra 2008. godine, on je [napisao](https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html) da je "Proof-of-Work lanac rešenje za problem Vizantijskih generala."
@@ -464,14 +471,14 @@ Međutim, vremensko označavanje je posebno korisno u digitalnom svetu, gde su f
 Godine 1991, Stuart Haber i Scott Stornetta, dva istraživača koja su radila za Bell Communications Research Inc. (obično nazivan "Bellcore"), R&D konzorcijum smešten u Nju Džersiju, predložili su poverljivu i sigurnu tehniku vremenskog žigosanja. U [njihovom radu](http://www.staroceans.org/e-book/Haber_Stornetta.pdf), pod nazivom "How to time-stamp a digital document", opisali su kako bi sertifikovana usluga vremenskog žigosanja mogla koristiti jednosmernu funkciju (kao što je MD4 Hash funkcija) i algoritam potpisa da poveća poverljivost dokumenata klijenata i pouzdanost sertifikacije. Konkretno, ideja je bila da se informacije povežu uključivanjem prethodnog Timestamp u primenu jednosmerne funkcije.
 
 
-![Example of certified timestamping](assets/en/014.webp)
+![Example of certified timestamping](assets/sr-Latn/014.webp)
 
 Primer sertifikovanog vremenskog žigosanja (izvor: [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
 
 Haber i Stornetta su implementirali svoju ideju objavljivanjem kriptografskih otisaka prstiju (rezultata heširanja korisnih podataka) u oglasima New York Times-a počevši od 1992. godine. Zatim su osnovali sopstvenu kompaniju 1994. godine, Surety Technologies, sa ciljem da se u potpunosti posvete ovoj aktivnosti. Tako su [poznati](https://www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain) po kreiranju prvog Timestamp lanca, pri čemu je prethodni otisak prsta uzet u obzir u izračunavanju novog otiska prsta koji će biti objavljen u novinama, što je nagovestilo Bitcoin Blockchain.
 
-Tri rada autora Habera i Stornette citirana su od strane Satoshi Nakamota u [Bitcoin white paper-u](assets/pdf/Bitcoin-20090324.pdf): prethodno pomenuti rad iz 1991. godine, [rad](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) iz 1993. godine koji je unapredio protokole predložene u ranijem radu, posebno kroz upotrebu Merkle stabala, i [rad](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) iz 1997. godine koji je predstavio način univerzalnog imenovanja fajlova korišćenjem jednousmernih funkcija. Takođe je citiran i [rad](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) koji opisuje novi sistem vremenskog žigosanja napisan 1999. godine od strane Henrija Masiasa, Ksavijera Seret-Avile i Žan-Žaka Kiskatera, trojice ljudi koji rade za istraživačku grupu za kriptografiju na Katoličkom univerzitetu u Luvanu, u Belgiji.
+Tri rada autora Habera i Stornette citirana su od strane Satoshi Nakamota u [Bitcoin white paper-u](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf): prethodno pomenuti rad iz 1991. godine, [rad](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf) iz 1993. godine koji je unapredio protokole predložene u ranijem radu, posebno kroz upotrebu Merkle stabala, i [rad](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf) iz 1997. godine koji je predstavio način univerzalnog imenovanja fajlova korišćenjem jednousmernih funkcija. Takođe je citiran i [rad](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf) koji opisuje novi sistem vremenskog žigosanja napisan 1999. godine od strane Henrija Masiasa, Ksavijera Seret-Avile i Žan-Žaka Kiskatera, trojice ljudi koji rade za istraživačku grupu za kriptografiju na Katoličkom univerzitetu u Luvanu, u Belgiji.
 
 ### Proof of Work i Hashcash
 
@@ -484,7 +491,7 @@ Koncept Proof of Work prvi put su opisali 1992. godine računarski naučnici Sin
 Sa popularizacijom Interneta tokom 1990-ih, problem neželjene e-pošte postao je sve hitniji, uključujući i na mejling listi sajferpankova. Zbog toga je koncept Dworka i Naora [implementirao](https://cypherpunks.venona.com/date/1997/03/msg00774.html) mladi Britanac Cypherpunk Adam Back 1997. godine sa Hashcash-om, algoritmom koji proizvodi jednostavne dokaze rada koristeći Hash funkciju. Konkretno, to uključuje pronalaženje delimične kolizije razmatrane Hash funkcije, odnosno dobijanje dve poruke koje imaju otisak koji počinje istim podacima (napomena: od verzije 1.0 objavljene 2002. godine, to uključuje otkrivanje delimične kolizije za nulti otisak, odnosno pronalaženje pre-image čiji otisak počinje sa određenim brojem binarnih nula). Pošto je Hash funkcija jednosmerna, takvo postignuće može se realizovati samo testiranjem različitih mogućnosti jednu po jednu, što zahteva potrošnju energije.
 
 
-![Adam Back in 2001](assets/en/015.webp)
+![Adam Back in 2001](assets/sr-Latn/015.webp)
 
 Adam Back 2001. godine (izvor: [arhiva lične stranice Adama Backa](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
@@ -514,19 +521,19 @@ Iako prilično genijalan, koncept b-money koji je predstavio Wei Dai nije bio po
 Nakon objavljivanja na listi, b-money je privukao pažnju cypherpunks-a, a posebno [Adama Backa](https://cypherpunks.venona.com/date/1998/12/msg00203.html). Međutim, Wei Dai nikada nije implementirao svoj model, ne samo zato što je bio disfunkcionalan, već i zbog [razočaranja](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) kriptografa prema kripto-anarhiji. Ipak, b-money je na kraju citiran u Bitcoin white paper-u, čineći ga jednim od njegovih prethodnika.
 
 
-![Citation of b-money in the Bitcoin white paper](assets/en/016.webp)
+![Citation of b-money in the Bitcoin white paper](assets/sr-Latn/016.webp)
 
 
 ### bit gold: digitalno zlato pre Bitcoin
 
 
-Drugi model koji je proizašao iz ideja cypherpunks-a bila je ideja bit gold-a koju je zamislio Nick Szabo 1998. godine. Bio je američki kompjuterski naučnik mađarskog porekla, koji je posebno radio kao konsultant za DigiCash šest meseci. Kao Cypherpunk, poznat je po tome što je formalizovao pojam Smart contract 1995. godine.
+Drugi model koji je proistekao iz ideja sajferpanka bio je koncept bit golda (bit zlata) koji je Nick Szabo zamislio 1998. godine. Potonji je bio američki informatičar mađarskog porekla, koji je, između ostalog, radio kao konsultant za DigiCash šest meseci. Kao Sajferpank, poznat je po tome što je formalizovao pojam *smart contract* (pametnog ugovora) 1995. godine.
 
 
 Godine 1994, Nick Szabo je kreirao privatnu mejling listu pod nazivom libtech-l, koja je imala za cilj, kao što njen naziv sugeriše, da bude domaćin diskusijama o oslobađajućim tehnikama, omogućavajući zaštitu individualnih sloboda od napada vlasti. Sajferpankovi poput Wei Daija i Hal Finneyja imali su pristup, kao i ekonomisti Larry White i George Selgin, zagovornici Hajekovske konkurencije valuta i slobodnog bankarstva.
 
 
-![Nick Szabo in 1997](assets/en/017.webp)
+![Nick Szabo in 1997](assets/sr-Latn/017.webp)
 
 Nick Szabo 1997. (izvor: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
@@ -542,7 +549,7 @@ Centralni element protokola bio je da se kreiranje novca vršilo putem Proof of 
 Sličnost između bit golda i Bitcoin je upečatljiva. Tri sastavna dela Elements sistema (proizvodnja radnih dokaza, njihovo vremensko označavanje i upravljanje registrom vlasništva), koja su bila odvojena u bit goldu, nalaze se u Bitcoin kao jedinstven koncept: Blockchain. Zbog toga su mnogi videli to kao nacrt Bitcoin i spekulisali da bi Nick Szabo mogao biti Satoshi.
 
 
-Međutim, vizije dvojice muškaraca su se razilazile. U bit gold-u, način na koji su digitalni zlatni komadi bili proizvedeni značio je da nisu bili fungibilni, što znači da nisu mogli biti mešani jedni s drugima: morali su biti evaluirani na spoljašnjem tržištu sistema da bi se koristili kao osnova za stvarnu homogenu jedinicu obračuna. Model bit gold-a je stoga bio zamišljen kao sistem poravnanja za upravljanje retkom rezervnom valutom, na čijem vrhu bi bila izgrađena ekonomija slobodnog bankarstva, po mogućstvu koristeći Chaumian model. Tako je u aprilu 2008. godine, u [komentaru](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269) na svom blogu, Nick Szabo i dalje tražio pomoć za implementaciju svog koncepta. Međutim, ova implementacija nikada nije realizovana.
+Međutim, vizije dvojice muškaraca su se razilazile. U bit gold-u, način na koji su se proizvodili komadi digitalnog zlata značio je da nisu bili zamenljivi (fungibilni), to jest, nisu se mogli mešati jedni sa drugima: stoga su morali biti vrednovani na tržištu izvan sistema da bi služili kao osnova za pravu homogenu obračunsku jedinicu. Model bit golda je tako zamišljen kao sistem poravnanja koji omogućava upravljanje retkom rezervnom valutom, iznad koje bi se izgradila slobodna bankarska ekonomija, ako je moguće koristeći Čaumov model. Stoga je, u aprilu 2008. godine, u [komentaru](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269) na svom blogu, Nick Szabo i dalje tražio pomoć za implementaciju svog koncepta. Međutim, ova implementacija se nikada nije dogodila.
 
 
 ### RPOW: Ponovno upotrebljivi dokazi o radu
@@ -559,7 +566,7 @@ Ponovno upotrebljivi Proof of Work tokeni su bili upravljani od strane servera, 
 Evo ilustracije [dizajnirane](https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) od strane Hal Finneyja:
 
 
-![Exchange in RPOW](assets/en/018.webp)
+![Exchange in RPOW](assets/sr-Latn/018.webp)
 
 
 Hal Finney ne samo da je dizajnirao model već ga je i lično implementirao. Dana 15. avgusta 2004. godine, on je [najavio](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) lansiranje RPOW sistema na cypherpunks mailing listi, pored dokumentovanja njegovog rada na posvećenom sajtu (rpow.net). Zatim ga je [predstavio](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) na konferenciji CodeCon 2005 održanoj u San Francisku, gde je diskutovao o potencijalnim upotrebama za Proof-of-Work tokene, naime: transfer vrednosti, regulacija spama, trgovina u video igrama, online kockanje poput pokera, i sprečavanje leechinga na protokolima za deljenje fajlova kao što je BitTorrent.
@@ -581,7 +588,7 @@ Tako je, stvarna upotreba RPOW-a bila je anegdotalna, ali Hal Finney zaslužuje 
 Još jedan manje poznat prethodnik modela Bitcoin, ali ipak značajan ovde, je distribuirani kreditni protokol Ripple, koji je dizajnirao kanadski developer Ryan Fugger 2004. godine. Mladi Kanađanin je bio inspirisan konceptom [lokalnog Exchange trgovačkog sistema](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS), nečim što je iskusio u Vankuveru pre nego što je dizajnirao svoj protokol. Objavio je Ripple [white paper](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf) 14. aprila 2004. godine, a zatim ga implementirao kroz dokaz koncepta nazvan RipplePay, koji je radio na centralnom serveru i omogućavao korisnicima da se povežu samo putem emaila Address.
 
 
-![Ryan Fugger circa 2010](assets/en/019.webp)
+![Ryan Fugger circa 2010](assets/sr-Latn/019.webp)
 
 Ryan Fugger oko 2010. (izvor: [Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
@@ -624,6 +631,8 @@ Bitcoin tako predstavlja kulminaciju potrage za sajber valutom, valutom koja pos
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 
 Nakon što smo saznali odakle potiče Bitcoin, sada ćemo se fokusirati na samu njegovu istoriju. Ovo je bila tema brojnih članaka, podcasta i video zapisa tokom godina, toliko da je gotovo postala neka vrsta osnivačkog mita. Kao što smo videli, Bitcoin je neodvojiv od konteksta u kojem je stvoren; isto važi i za događaje koji su se odigrali tokom njegovih ranih godina, a koji su oblikovali ono što je danas, sa svim svojim kvalitetima i manama.
 
@@ -655,7 +664,7 @@ Bilo je to u avgustu 2008. kada je Satoshi odlučio da se pripremi za lansiranje
 Dana 20. avgusta, tvorac Bitcoin [kontaktirao](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) je Adama Beka slanjem emaila u kojem je tražio savet o tome kako da citira njegov rad o Hashcash-u u beloj knjizi. To je Hard da se ovo ne vidi kao izgovor da se osigura da izumitelj Hashcash-a postane svestan njegovog novog sistema.
 
 
-![Adam Back in 2012](assets/en/020.webp)
+![Adam Back in 2012](assets/sr-Latn/020.webp)
 
 Adam Back u 2012 (izvor: [Lična stranica Adama Backa](http://www.cypherspace.org/adam/))
 
@@ -677,7 +686,7 @@ Sa svoje strane, Satoshi završava pripreme za objavljivanje svog izuma. Dana 3.
 ### Objavljivanje bele knjige
 
 
-Dana 31. oktobra 2008. godine, Satoshi Nakamoto objavljuje [prvu verziju belog papira](assets/pdf/Bitcoin-20081003.pdf) na mejling listi posvećenoj kriptografiji, jednostavno nazvanoj "Cryptography mailing list." Ovu listu vodi programer Perry Metzger od 1996. godine, njeno [stvaranje](https://cypherpunks.venona.com/date/1996/12/msg00102.html), i hostovana je na njegovom ličnom sajtu, Metdowd.com, od [2003.](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) godine. Ona je naslednik cypherpunks liste, s razlikom da je podložna strogoj moderaciji. U 2008. godini, nekoliko bivših cypherpunks članova je još uvek učestvovalo, kao što su John Gilmore, Hal Finney i Len Sassaman.
+Dana 31. oktobra 2008. godine, Satoshi Nakamoto objavljuje [prvu verziju belog papira](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf) na mejling listi posvećenoj kriptografiji, jednostavno nazvanoj "Cryptography mailing list." Ovu listu vodi programer Perry Metzger od 1996. godine, njeno [stvaranje](https://cypherpunks.venona.com/date/1996/12/msg00102.html), i hostovana je na njegovom ličnom sajtu, Metdowd.com, od [2003.](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) godine. Ona je naslednik cypherpunks liste, s razlikom da je podložna strogoj moderaciji. U 2008. godini, nekoliko bivših cypherpunks članova je još uvek učestvovalo, kao što su John Gilmore, Hal Finney i Len Sassaman.
 
 
 U svojoj prvoj [email](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) poruci upućenoj listi, Satoshi jednostavno piše:
@@ -699,7 +708,7 @@ Takođe navodi glavne osobine njegovog modela:
 U svom emailu, on uključuje link ka beloj knjizi, već postavljenoj na Bitcoin.org, koja je kratak dokument od 9 stranica, predstavljen kao naučni članak, opisujući tehnički rad Bitcoin. Ovaj dokument se fokusira na problem online plaćanja.
 
 
-![Title and summary of the first version of the white paper (October 2008)](assets/en/021.webp)
+![Title and summary of the first version of the white paper (October 2008)](assets/sr-Latn/021.webp)
 
 
 Nakon ove objave, Satoshi dobija nekoliko odgovora, ali većina njih je skeptična. Posebno je kritikovan zbog tri stvari:
@@ -716,7 +725,7 @@ Nakon ove objave, Satoshi dobija nekoliko odgovora, ali većina njih je skeptič
 Iako je skepticizam preovlađujući stav na listi, nije ga delio svako ko je pretplaćen na mejling listu. Konkretno, jedna osoba se ističe među ostalima svojim entuzijazmom: Hal Finney, koji ima optimističan pogled na budućnost i koji nikada nije odustao od ideje elektronskog novca, uprkos neuspesima 90-ih. On je [izjavio](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) o ovom pitanju nekoliko godina kasnije da "kriptografski veterani [...] imaju tendenciju da postanu cinični", ali da je on "bio idealističniji" jer je "uvek voleo kriptografiju, njenu misteriju i paradoks." (*original: "I've noticed that cryptographic graybeards (I was in my mid 50's) tend to get cynical. I was more idealistic; I have always loved crypto, the mystery and the paradox of it."*) Tako je, 7. novembra, napisao u [mejlu](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) listi da "Bitcoin izgleda kao veoma obećavajuća ideja" i upoređuje model Satoshi sa bit goldom Nicka Szaboa. (*original: "Bitcoin seems to be a very promising idea."*)
 
 
-![Hal Finney in 2007](assets/en/022.webp)
+![Hal Finney in 2007](assets/sr-Latn/022.webp)
 
 Hal Finney u 2007
 
@@ -729,7 +738,7 @@ Bitcoin koristi distribuirani konsenzus algoritam koji omogućava svim čvorovim
 
 Ovaj mehanizam konsenzusa omogućava nametanje svih vrsta pravila i podsticaja (koristeći poslednju frazu iz belog papira) unutar sistema. Pošto Bitcoin predstavlja distribuiranu uslugu vremenskog pečatiranja, moguće je da ova pravila interaguju sa protokom vremena. Otuda algoritam za prilagođavanje težine koji stupa na snagu kako bi regulisao proizvodnju novih blokova i bitkoina povezanih sa njima: ako je broj blokova proizvedenih tokom određenog perioda prevelik, tada se težina proizvodnje povećava; u suprotnom slučaju, smanjuje se. Bitcoin se tako razlikuje od RPOW, gde su sami dokazi o radu formirali jedinice obračuna.
 
-Zahvaljujući ovoj prilagodbi težine, Bitcoin može stoga imati monetarnu politiku, što znači da se količina novih jedinica izdatih od strane protokola može unapred odrediti. U početku je planirano da monetarno izdavanje bude konstantno, kako bi se podstaklo proizvodne čvorove da doprinesu svojom računarskom snagom mreži, i nema transakcijskih naknada. Kao što Satoshi Nakamoto piše u odeljku "Incentive" [bele knjige](assets/pdf/Bitcoin-20081003.pdf):
+Zahvaljujući ovoj prilagodbi težine, Bitcoin može stoga imati monetarnu politiku, što znači da se količina novih jedinica izdatih od strane protokola može unapred odrediti. U početku je planirano da monetarno izdavanje bude konstantno, kako bi se podstaklo proizvodne čvorove da doprinesu svojom računarskom snagom mreži, i nema transakcijskih naknada. Kao što Satoshi Nakamoto piše u odeljku "Incentive" [bele knjige](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf):
 
 > "Stalno dodavanje konstantne količine novih kovanica je analogno rudarima zlata koji troše resurse da bi dodali zlato u opticaj."
 
@@ -789,7 +798,7 @@ Iz ovih razmena između Satoshi i Hal Finney-a proizašla je verzija 0.1.3, [obj
 Ali Hal Finney nije jedina osoba koja u to vreme isprobava Bitcoin. To je slučaj i sa Dustinom D. Trammellom, američkim istraživačem računarske bezbednosti koji je tada bio zainteresovan za digitalne valute (posebno za elektronsku verziju Liberty Dolara) i koji otkriva Bitcoin putem mejling liste. Dana 11. januara, on pokreće softver na jednoj od svojih radnih mašina (ali ne rudari svoj prvi [blok](https://Mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e) sve do 13. zbog tehničkog problema). Tokom noći između 11. i 12. januara, on stupa u kontakt sa Satoshi, sa kojim [komunicira](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) intenzivno tokom narednih dana. Dana 15. januara, Dustin Trammell [prima](https://Mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) takođe 25 bitkoina od njega.
 
 
-![Dustin Trammell](assets/en/023.webp)
+![Dustin Trammell](assets/sr-Latn/023.webp)
 
 Dustin Trammell (izvor: [Dustin Trammell's blog archive](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
 
@@ -812,6 +821,8 @@ Međutim, ovaj rad nije bio dovoljan, i bila je potrebna istrajnost od strane Sa
 ## Prezentacija svetu
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 
 Nakon što smo ispitali kako je Bitcoin dizajniran i lansiran od strane Satoshi Nakamoto, fokusirajmo se na to kako je javno predstavljen. Nakon lansiranja početkom 2009. godine, mreža je bila operativna, ali je bilo malo generišućih čvorova (Satoshi je iskopao veliku većinu blokova) i aktivnost je bila praktično nepostojeća (32 stvarne transakcije su se dogodile tokom januara). Projekat je imao samo osnovni veb-sajt i SourceForge stranicu za preuzimanje softvera. Štaviše, komunikacija o Bitcoin bila je ograničena na Metzdowd Cryptography mejling listu, koju je pratilo, u najboljem slučaju, nekoliko stotina ljudi strastvenih prema kriptografiji.
@@ -844,7 +855,7 @@ Ovo je naslov iz britanskih novina *The Times* tog dana, koji ukazuje da je kanc
 - S druge strane, to simbolično ukazuje na ono protiv čega se Bitcoin bori, pozivajući se na monetarni i finansijski kontekst tog vremena.
 
 
-![The Times: Chancellor on brink of second bailout for banks](assets/en/024.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/sr-Latn/024.webp)
 
 
 U to vreme, svet je zaista osećao pun uticaj finansijske krize koja je počela 2007. godine pucanjem mehura subprime kredita u Sjedinjenim Državama. Vlade su spasile finansijske institucije kako bi sprečile dalja bankrotstva nakon pada investicione banke Lehman Brothers 15. septembra 2008. godine, a centralne banke su se upustile u kvantitativno popuštanje ubrizgavanjem likvidnosti na finansijska tržišta. Ova upotreba javnog novca stvorena za tu priliku imala je efekat uznemiravanja brojnih građana koji su shvatili da je bankarski sistem zapravo sistem privatnih profita i socijalizovanih gubitaka.
@@ -874,7 +885,7 @@ Ovo nas dovodi do drugog elementa koji je predstavio Satoshi na dan lansiranja m
 Nekoliko dana kasnije, Hal Finney je [reagovao](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) pozitivno na ovu monetarnu politiku na mejling listi, uzbuđen činjenicom da "sistem može biti konfigurisan da dozvoli generisanje samo određenog maksimalnog broja jedinica." U svom mejlu, procenio je da ako Bitcoin postane "dominantan sistem plaćanja koji se koristi širom sveta," svaka jedinica bi tada imala "vrednost od oko 10 miliona dolara." Zaključio je pisanjem da "mogućnost generisanja jedinica danas sa nekoliko centi vremena računanja" može biti "veoma dobra opklada." Čak i ako je procena diskutabilna (jer se zasniva na proceni vrednosti Bitcoin koja bi bila ekvivalentna ukupnom globalnom bogatstvu), rezonovanje je ispravno.
 
 
-Dana 16. januara, Satoshi je ponovo razmotrio ovu ideju "dugoročne investicije" u e-poruci koju je podelio sa mailing listom, gde je opisao potencijalne slučajeve upotrebe. On je [izjavio](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) tada da "možda ima smisla nabaviti nešto u slučaju da postane popularno. Ako dovoljno ljudi razmišlja na isti način, to postaje samoispunjavajuće proročanstvo." On je [ponovio](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) ovu tvrdnju mesec dana kasnije, objašnjavajući da je ograničena količina jedinica verovatno da stvori "pozitivnu povratnu spregu" u smislu da "što više korisnika ima, to više raste vrednost, što bi moglo privući više korisnika koji žele da profitiraju od rastuće vrednosti." Dakle, spekulativni element je prisutan od samog početka, sa ciljem pokretanja sistema.
+Satoshi 16. januara ponavlja ovu ideju o „dugoročnoj investiciji“ u imejlu poslatom mejling listi, gde opisuje potencijalne slučajeve upotrebe Bitcoina. On tada [izjavljuje](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) da bi „moglo biti mudro nabaviti malo u slučaju da se primi“ i da će „ako dovoljno ljudi misli isto, to postati samoispunjavajuće proročanstvo“. On je [ponovio](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) ovu tvrdnju mesec dana kasnije, objašnjavajući da je ograničena količina jedinica verovatno stvoriti „pozitivnu povratnu petlju“ u smislu da „što je više korisnika, to više raste vrednost, što bi moglo privući više korisnika željnih da profitiraju od rastuće vrednosti“. Zbog ove činjenice, spekulativni element je prisutan od samog početka, sa ciljem pokretanja sistema.
 
 
 ### Regulacija, Zombi Mreže i Ekologija
@@ -894,7 +905,7 @@ Dalje, u istom emailu, Jonathan Thornburg raspravlja o temi mreža zombi računa
 Konačno, poslednji komentar dolazi od Džona Gilmora, jednog od osnivača cypherpunks pokreta i čuvara prve mejling liste pokreta od 1992. do 1997. U mejlu poslatom 25. januara, on ističe navodne ekološke posledice Bitcoin i [piše](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) da je "poslednja stvar koja nam treba da implementiramo sistem dizajniran da troši sve dostupne cikluse, trošeći električnu energiju i generišući ugljen-dioksid, širom Interneta, kako bismo proizveli male količine bitbux-a za slanje mejlova ili spama." Satoshi mu [odgovara](https://mmalmi.github.io/Satoshi/#email-3) privatno da bi "bilo ironično morati birati između ekonomske slobode i očuvanja životne sredine." Dodaje da je "Proof of Work jedino rešenje [koje je] pronašao da bi peer-to-peer elektronski keš sistem funkcionisao" i da, čak i ako bi trošio mnogo energije, "i dalje bi trošio manje nego radno i resursno intenzivna konvencionalna bankarska aktivnost koju bi zamenio."
 
 
-![John Gilmore in 2007](assets/en/025.webp)
+![John Gilmore in 2007](assets/sr-Latn/025.webp)
 
 John Gilmore 2007. godine (izvor: [Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
 
@@ -921,7 +932,7 @@ Dana 11. februara, Satoshi je objavio [uvodnu poruku](https://p2pfoundation.ning
 
 Na svom [profilu](https://p2pfoundation.ning.com/profile/SatoshiNakamoto), tvrdi da je Japanac, ali to nije sve. Ažuriranje Interface iz 2011. otkrilo je njegovu starost: 35 godina, što znači da je imao 32 ili 33 godine 2009. godine. Zatim, 2014. godine, [otkriveno](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/) je da je naveo određeni datum rođenja: 5. april 1975. Ovaj datum, naizgled bezazlen, verovatno je složena referenca na zabranu za američke građane da poseduju zlato između 1933. i 1975. godine u Sjedinjenim Državama. Dan 5. aprila odnosi se na dan kada je ova zabrana uspostavljena [Izvršnom naredbom 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates) koju je potpisao predsednik Frenklin Delano Ruzvelt 5. aprila 1933. godine, a godina 1975. odgovara njenom ukidanju donošenjem [Javnog zakona 93-373](https://www.govtrack.us/congress/bills/93/s2665/text). Ovaj detalj je veoma važan jer je ova zabrana okončala klasični zlatni standard (gde se moglo dobiti zlato u Exchange za reprezentativni račun), omogućila devalvaciju dolara (kroz Zakon o zlatnim rezervama 1934. godine) i olakšala uspostavljanje režima monetarnog kursa Exchange koji poznajemo nakon Niksonovog šoka 1971. godine.
 
-![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/026.webp)
+![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/sr-Latn/026.webp)
 
 
 Satoshi Nakamotova profilna stranica na P2P Foundation forumu 17. marta 2011. (izvor: [forum capture](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
@@ -945,13 +956,13 @@ Sve ovo pokazuje da tvorac Bitcoin nastoji da se prilagodi svojoj publici i čin
 
 ### Mike Hearn i 21 milion
 
-Komunikaciona strategija Satoshi postepeno donosi rezultate. U aprilu 2009. godine, drugi ljudi su počeli da se interesuju za njegov izum. Među njima je i Mike Hearn, britanski programer koji radi za Google u Švajcarskoj, a svoje slobodno vreme posvećuje softveru otvorenog koda. On se tada zainteresovao za digitalne sisteme plaćanja, posebno za Ripple, projekat Ryana Fuggera. Upravo na Ripple Google Grupi čuo je za Bitcoin preko [diskusionog niza](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) koji je u martu kreirao Charles N. Wyble, mladi američki informatičar i preduzetnik.
+Satoshijeva komunikaciona strategija postepeno daje plodove. U aprilu 2009. godine, drugi ljudi počinju da se interesuju za njegov izum. To je slučaj sa Mikeom Hearnom, 24-godišnjim britanskim developerom koji radi za Google iz Švajcarske, a svoje slobodno vreme posvećuje slobodnom softveru. Ovaj drugi se tada interesovao za digitalne sisteme plaćanja, a posebno za Ripple, projekat Ryana Fuggera. I upravo na Google Group Ripple čuje za Bitcoin putem [diskusionog niza](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) koji je u martu kreirao Charles N. Wyble, mladi američki informatičar i preduzetnik.
 
 
 Dana 12. aprila, Mike Hearn je poslao [email](https://plan99.net/~mike/Satoshi-emails/thread1.html) Satoshi u kojem je postavio niz pitanja o Bitcoin. Primetio je da "je retko susresti se sa istinski revolucionarnim idejama" i nije propustio da pomene Ripple.
 
 
-![Mike Hearn](assets/en/027.webp)
+![Mike Hearn](assets/sr-Latn/027.webp)
 
 
 Mike Hearn i Satoshi Nakamoto su razgovarali o različitim aspektima Bitcoin kao što su skaliranje, mikroplaćanja, kako softver funkcioniše i odsustvo povraćaja sredstava. Konkretno, Mike Hearn je pitao Satoshi zašto je izabrao količinu od "24 miliona" (*sic*) za ukupan broj bitkoina i da li se oni mogu podeliti. Satoshi je zatim dao sledeće objašnjenje:
@@ -973,7 +984,7 @@ Komunikacija Satoshi privukla je pažnju mladog finskog studenta računarstva po
 
 > "Sistem je anoniman, i nijedna vlada ne bi mogla oporezovati ili sprečiti transakcije. Ne postoji centralna banka koja može obezvrediti valutu neograničenim stvaranjem novog novca. Široko prihvatanje takvog sistema izgleda kao nešto što bi moglo imati razarajući efekat na sposobnost države da se hrani od svojih građana."
 
-![Martti Malmi in 2013](assets/en/028.webp)
+![Martti Malmi in 2013](assets/sr-Latn/028.webp)
 
 Martti Malmi u 2013 (izvor: [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
@@ -1024,7 +1035,7 @@ Nakon nekoliko diskusija o tehničkom rešenju koje treba usvojiti, Martti Malmi
 Prvi korisnici počinju da se registruju početkom narednog meseca. Dana 9. decembra pojavljuje se [prva poruka](https://bitcointalk.org/index.php?topic=12.msg40#msg40) koju je postavio neko drugi osim Satoshi, što zaista pokreće diskusije. Kao ilustraciju, evo [screenshot-a](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/) foruma od 29. maja 2010:
 
 
-![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/029.webp)
+![Screenshot of the Bitcoin forum from May 29, 2010](assets/sr-Latn/029.webp)
 
 
 Pokretanje novog foruma bila je prilika za objavljivanje [verzije 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) softvera, na kojoj su Satoshi Nakamoto i Martti Malmi radili mesecima, što je urađeno 16. decembra. Ova verzija uključuje poboljšanja kao što su minimizacija na traku zadataka, automatsko pokretanje pri lansiranju ili multithreading za Mining proizvodnju. Softver je takođe prilagođen za Linux, zahvaljujući Malmijevom doprinosu i testovima koje je sproveo novopridošli NewLibertyStandard (čiji će slučaj biti obrađen u sledećem poglavlju).
@@ -1047,6 +1058,8 @@ U jesen 2009. činilo se da je Bitcoin spreman za rast. I upravo u to vreme se z
 ## Bootstrapping kriptovalute
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
+
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
 
 
 U prethodnim poglavljima, posmatrali smo kako je Satoshi Nakamoto implementirao svoju ideju i kako je komunicirao o tome da bi predstavio Bitcoin svetu. Međutim, nije sve zavisilo od njega: bilo je takođe neophodno da ljudi dodele vrednost jedinici obračuna. Pošto je ovo omogućilo nagrađivanje rudara kroz naknade za transakcije i nagrađivanje trgovaca kroz prirodnu deflaciju, takvo vrednovanje bilo je ključno za bezbednost sistema.
@@ -1100,7 +1113,7 @@ Poslednja dva razloga su mnogo značajnija jer motivišu ljude da kontinuirano r
 Krajem septembra 2009. godine, osoba koja koristi pseudonim NewLibertyStandard (koji ćemo skratiti kao NLS) otkriva Bitcoin. On isprobava softver i pokreće Mining. Prvi blok koji proizvodi je [blok 23,940](https://Mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50). On je korisnik Linuxa i stoga koristi "emulator" Wine za pokretanje softvera. Zainteresovan je za političku slobodu i plemenite metale, što se vidi po njegovom [avataru](https://bitcointalk.org/index.php?action=profile;u=26) na forumu koji prikazuje Američkog orla na kojem je ispisana reč "liberty". On stoga vidi Bitcoin kao ekvivalent zlatu u digitalnom svetu: na svojoj [ličnoj stranici](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/), predstavlja kreaciju Satoshi Nakamota kao "ekonomsku revoluciju" i kao "zlatni standard digitalne valute."
 
 
-![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/030.webp)
+![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/sr-Latn/030.webp)
 
 
 U oktobru 2009. godine, uspostavljena je prva usluga valute Exchange, koja je omogućavala ljudima da konvertuju svoje dolare u bitkoine i svoje bitkoine nazad u dolare. Kreator se registrovao na forumu posvećenom Bitcoin na SourceForge-u i tamo najavio otvaranje svoje usluge. Da bi procenio kurs Exchange, zasnovao ga je na trošku energije potrebnom za dobijanje jedinice, uzimajući u obzir cenu električne energije na svojoj lokaciji i učestalost svoje lične proizvodnje. Na svojoj stranici je [napisao](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
@@ -1111,7 +1124,7 @@ U oktobru 2009. godine, uspostavljena je prva usluga valute Exchange, koja je om
 Evo indikativnih Exchange stopa NLS usluge, takođe objavljenih na ličnoj stranici NLS-a:
 
 
-![Indicative exchange rates of the NLS service](assets/en/031.webp)
+![Indicative exchange rates of the NLS service](assets/sr-Latn/031.webp)
 
 
 Transakcije se obavljaju putem e-pošte na newlibertystandard@gmail.com. Prenosi dolara se vrše isključivo preko PayPal-a, a naknade se naplaćuju za operaciju.
@@ -1144,7 +1157,7 @@ Napori koordinacije se prvenstveno sprovode na forumu. Dana 27. januara, holands
 Dana 5. februara, NLS je [predložio](https://bitcointalk.org/index.php?topic=41.msg238#msg238) da Bitcoin, poput valuta kojima se trguje na stranom tržištu Exchange, usvoji oznaku BTC i simbol tajlandskog bahta (฿). Do tada nije postojala ustaljena praksa: na primer, Satoshi i Martti su koristili slova `bc` za opisivanje jedinica u svojoj [prepisci](https://mmalmi.github.io/Satoshi/#email-119). Upotreba simbola BTC brzo je postala standardizovana. Dana 24. februara, simbol valute (veliko slovo B precrtano sa dve vertikalne linije) je [dizajnirao](https://bitcointalk.org/index.php?topic=64.msg504#msg504) Satoshi, koji je potom kreirao prvi pravi logo za Bitcoin.
 
 
-![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/032.webp)
+![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/sr-Latn/032.webp)
 
 
 Postepeno su ljudi počeli da prihvataju Bitcoin. To je bio slučaj sa korisnikom SmokeTooMuch u decembru 2009, koji je tek stigao i [prijavio postojanje](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65) usluge prodaje paysafecard poklon kartica pod nazivom BTC 2 PSC. Usluga je kasnije [pozitivno pomenuta](https://mmalmi.github.io/Satoshi/#email-141) od strane Satoshi 4. februara 2010. To je bio slučaj i sa NLS koji je 9. februara [otvorio](https://bitcointalk.org/index.php?topic=30.msg305#msg305) svoju online prodavnicu, Liberty Swap Variety Shop, gde je nudio markice i nalepnice na prodaju.
@@ -1159,7 +1172,7 @@ Exchange sa dolarom se takođe razvio, i u roku od dva meseca, ne manje od tri p
 - Bitcoin Market (bitcoinmarket.com), peer-to-peer tržište koje koristi PayPal i koje je [pokrenuo](https://bitcointalk.org/index.php?topic=20.msg726#msg726) neko po imenu dwdollar 16. marta, i koje će doživeti značajan uspeh pre pojave Mt. Gox u julu.
 
 
-![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/033.webp)
+![Later capture of the Bitcoin Market interface, August 26, 2011](assets/sr-Latn/033.webp)
 
 [Capture](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) tržišta Bitcoin Market Interface kasnije (avgust 2011)
 
@@ -1173,7 +1186,7 @@ Ostale usluge koje prihvataju Bitcoin pojavljuju se kao što su usluga voice ove
 Prva posvećena Bitcoin usluga čuvanja takođe se pojavljuje: to je MyBitcoin, veb aplikacija koja omogućava lako i mirno korišćenje kriptovaluta, posebno na mobilnim uređajima. Zahvaljujući ovoj usluzi, korisnici zaista ne moraju da preuzimaju kompletne podatke lanca da bi slali i primali transakcije, niti da sami čuvaju svoje bitkoine čuvanjem svojih privatnih ključeva.
 
 
-![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/034.webp)
+![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/sr-Latn/034.webp)
 
 
 U to vreme, lagani novčanici (poznati kao "SPV") nisu postojali, tako da je Satoshi Nakamoto sam smatrao prihvatljivim korišćenje ovog tipa softvera, iako je ova upotreba bila protivna principu disintermedijacije u srcu Bitcoin. Dana 18. maja 2010. godine, on je [napisao](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) na forumu:
@@ -1220,6 +1233,8 @@ Međutim, ovo pitanje nikada nije mučilo Satoshi, koji je video pokretanje nove
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 
 U prethodnom delu, istražili smo kako je Bitcoin nastao, kako je predstavljen javnosti i kako je ekonomski pokrenut. U proleće 2010. godine, dok je trgovina bitcoinima tek počinjala da cveta, cilj Satoshi Nakamota i nekolicine ljudi koji su ga podržavali bio je da održe plamen živim. Srećom, drugi pojedinci su se pridružili naporu, posebno Miner Laszlo Hanyecz i programer Gavin Andresen, koji su se istakli svojim delovanjem.
 
@@ -1236,7 +1251,7 @@ Sve veća potražnja za Bitcoin bila je praćena postepenim povećanjem aktivnos
 Satoshi Nakamoto je bio veoma zabrinut zbog ovog povećanja težine i održavao je [istoriju](https://bitcointalk.org/index.php?topic=43.msg249#msg249) na forumu počevši od februara 2010. Evo kako je to izgledalo:
 
 
-![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/035.webp)
+![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/sr-Latn/035.webp)
 
 
 Uprkos ovom entuzijazmu oko povećanja računarske snage na mreži, Satoshi je ipak želeo da uspori specijalizaciju Mining kako bi favorizovao distribuciju jedinica. Do tada su rudari koristili svoje centralne procesorske jedinice (CPU) za ekstrakciju novih bitkoina. Međutim, ovi procesori su se pokazali kao neefikasni za obavljanje repetitivnih operacija, u poređenju sa grafičkim procesorskim jedinicama (GPU) koje su mnogo pogodnije za ovu vrstu repetitivnih proračuna. Shodno tome, svi su tada znali da je ova evolucija neizbežna, uključujući i samog Satoshi. Dana 19. decembra 2009. godine, on je [izjavio](https://bitcointalk.org/index.php?topic=12.msg54#msg54) sledeće:
@@ -1247,7 +1262,7 @@ Uprkos ovom entuzijazmu oko povećanja računarske snage na mreži, Satoshi je i
 Međutim, nekoliko meseci kasnije, Pandorina kutija je otvorena. Problematičar je Laszlo Hanyecz, 28-godišnji američki programer mađarskog porekla, koji živi na Floridi. On je otkrio Bitcoin u aprilu 2010. godine. Devetog, on je [nabavio](https://Mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3.300 bitkoina od NLS za oko 20 dolara, a zatim je testirao sistem obavljajući nekoliko transfera. Osamnaestog, pokušao je da optereti mrežu umnožavanjem transakcija sa svog [javnog Address](https://Mempool.space/Address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), ali je mreža izdržala.
 
 
-![Laszlo Hanyecz with his son in May 2018](assets/en/036.webp)
+![Laszlo Hanyecz with his son in May 2018](assets/sr-Latn/036.webp)
 
 Laszlo Hanyecz sa sinom u maju 2018. (izvor: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
@@ -1270,7 +1285,7 @@ Ovaj porast u Mining takođe je imao značajnu posledicu: Satoshi je prestao da 
 Aktivnost Satoshi-ovog Mining ima poseban obrazac, što omogućava identifikaciju blokova koje je verovatno pronašao, uz nekoliko lažno pozitivnih rezultata. Ovaj Mining obrazac je istakao programer Sergio Lerner 2013. godine i nazvan je Patoshi obrazac.
 
 
-![Patoshi Pattern between blocks 0 and 50,000](assets/en/037.webp)
+![Patoshi Pattern between blocks 0 and 50,000](assets/sr-Latn/037.webp)
 
 
 Patoshi obrazac između blokova 0 i 50.000 kako je primećeno na vebsajtu [satoshiblocks.info](http://satoshiblocks.info/): svaka tačka odgovara bloku, plave linije su formirane od Satoshi blokova, ostale linije predstavljaju izlaz drugih rudara.
@@ -1282,13 +1297,13 @@ Prema studiji Whale Alert objavljenoj 2020. godine, Satoshi je iskopao oko 22.50
 Sa povećanjem računarske snage u jesen 2009. godine, udeo računarske snage Satoshi u odnosu na ukupnu snagu mreže postepeno se smanjivao. Išao je sa 75% u martu 2009. na 60% u septembru, zatim na 15% u decembru, i dostigao 0% u maju. Ispod je grafikon koji je napravio [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html) 2014. godine:
 
 
-![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/038.webp)
+![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/sr-Latn/038.webp)
 
 
 Štaviše, pad dominacije Satoshi u Mining nije samo pasivan: on sam usporava svoju proizvodnju tokom istog perioda. Naime, Satoshi-ov deklarisani cilj je da svi učestvuju: on ne rudari radi finansijske dobiti, već da osigura rad mreže dok podsticaji ne stupe na snagu. Tako on smanjuje svoju Hash stopu (broj proračuna izvršenih svake sekunde) tri puta tokom ovog Mining perioda: prvi put sa 4.5 na 2.5 MH/s u junu 2009, drugi put sa 2.5 na 1 MH/s u oktobru, i treći put sa 1 na 0 MH/s u maju 2010. Evo grafikona evolucije njegove Hash stope tokom ovog perioda ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
 
 
-![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/039.webp)
+![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/sr-Latn/039.webp)
 
 
 Satoshi-ov Mining je stoga izrazito altruističan, kako [Jameson Lopp ističe](https://blog.lopp.net/was-Satoshi-a-greedy-Miner/). Kada zaustavi Mining 3. maja 2010. (njegov poslednji blok je [blok 54,316](https://Mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)), to predstavlja još jedno dostignuće u sporom razvoju Bitcoin: preuzimanje potvrde transakcija od strane ekonomskih aktera.
@@ -1305,7 +1320,7 @@ Maj 2010. takođe je obeležen temeljnim događajem: prva kupovina fizičke robe
 Ova ponuda je prihvaćena nakon četiri dana. Bio je to mladi Kalifornijanac po imenu Jeremy Sturdivant koji je prihvatio Exchange na IRC servisu za instant poruke.
 
 
-![Jeremy Sturdivant in May 2018](assets/en/040.webp)
+![Jeremy Sturdivant in May 2018](assets/sr-Latn/040.webp)
 
 Jeremy Sturdivant u maju 2018. (izvor: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
@@ -1313,7 +1328,7 @@ Jeremy Sturdivant u maju 2018. (izvor: [The Telegraph](https://www.telegraph.co.
 Dana 22. maja, naručio je dve pice iz Papa John's koje su isporučene Laszlu u Džeksonvilu, Florida. On je [primio](https://Mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10.000 bitkoina u Exchange, vrednih oko 44 dolara po Bitcoin tržišnoj ceni. Evo fotografije ovih dvaju pica, [podeljene](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/) od strane samog Laszla:
 
 
-![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/041.webp)
+![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/sr-Latn/041.webp)
 
 
 Ovo zaključuje prvu kupovinu fizičke robe bitcoinima, čak i ako je ova kupovina indirektna. Laszlu čestita [Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196) koji piše da je "napravljen veliki korak." NLS takođe dodaje [pozitivan komentar](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197) na ovu temu.
@@ -1336,7 +1351,7 @@ Ipak, povećanje kupovne moći kriptovalute nije umanjilo simboliku ovog događa
 Ovaj period je takođe video dolazak ključne figure u istoriji Bitcoin: Gavina Andresena, 44-godišnjeg developera rođenog u Australiji koji je [stekao](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) američko državljanstvo 2004. godine i u to vreme živeo u Amherstu, Masačusets. Vraćajući se sa putovanja u Australiju i privremeno nezaposlen, otkrio je Bitcoin krajem maja kroz [članak](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) Nila Mekalistera objavljen na InfoWorld-u. Ovaj članak je predstavio projekat Satoshi Nakamota kao "inovaciju otvorenog koda."
 
 
-![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/042.webp)
+![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/sr-Latn/042.webp)
 
 Gavin Andresen u Townsvilleu, Queensland, Australija (izvor: [CIO arhiva](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/))
 
@@ -1369,6 +1384,8 @@ Međutim, do kraja juna, aktivnost je ostala prilično skromna na mreži. Bilo j
 ## Veliko Slashdotovanje
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
+
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
 
 
 Početkom leta 2010. godine, uprkos nekim ohrabrujućim početnim razvojnim događajima, Bitcoin je bio zasnovan na klimavim temeljima. Softver je imao malo programera osim Satoshi Nakamota. Majneri su bili amateri na svojim ličnim računarima. Postojalo je oko dvadeset usluga povezanih sa Bitcoin, a stvarne berze su bile podjednako retke. Međutim, stvari su se drastično promenile tokom druge polovine godine.
@@ -1429,7 +1446,7 @@ Dana 11. jula 2010. godine, revidirana verzija Bitcoin prezentacije koju je napi
 
 > "Kako vam se čini ova disruptivna tehnologija? Bitcoin je digitalna valuta zasnovana na peer-to-peer mreži, bez centralne banke i bez transakcijskih naknada. Koristeći koncept Proof-of-Work, čvorovi troše CPU cikluse tražeći pakete novčića, emitujući svoja otkrića mreži. Analiza potrošnje energije ukazuje da je tržišna vrednost Bitcoina već iznad vrednosti energije potrebne za generate njih, što ukazuje na zdravu potražnju. Zajednica se nada da će valuta ostati van domašaja bilo koje vlade."
 
-![Slashdot Logo in 2010](assets/en/043.webp)
+![Slashdot Logo in 2010](assets/sr-Latn/043.webp)
 
 
 Publikacija je primećena, i skoro 500 komentara je postavljeno u nekoliko dana. Za Bitcoin, ovaj uspeh je doveo do masovnog priliva posetilaca na sajt i forum. Upotreba Blockchain je naglo porasla: broj transakcija obavljenih na mreži povećao se sa 42 10. jula na 1.641 12., dostigavši 5.554 14., što je apsolutni rekord. Sistem je izdržao uprkos povećanom opterećenju. Dana 14., developer Gavin Andresen [napisao](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745) na forumu:
@@ -1449,7 +1466,7 @@ Još jedan efekat priliva ljudi sa Slashdot-a je povećanje računske snage rasp
 Među onima koji su otkrili Bitcoin zahvaljujući Slashdot-u bio je i Jed McCaleb, 35-godišnji američki preduzetnik i programer poznat po suosnivanju i razvoju softvera za deljenje fajlova putem peer-to-peer mreže eDonkey2000 tokom 2000-ih. Shvativši koliko je teško nabaviti Bitcoin u Exchange za dolare, odlučio je "iz hira" da stvori efikasnu pijacu. Da bi to uradio, preusmerio je jedan od svojih starih projekata razvijenih 2007. godine: Magic The Gathering Online Exchange (MTGOX), veb-sajt koji je omogućavao kupovinu i prodaju karata za onlajn igru *Magic: The Gathering Online*. Ponovo je iskoristio naziv domena ovog projekta (mtgox.com), koji je postao ime nove platforme: Mt. Gox, izgovara se "Mount Gox".
 
 
-![Jed McCaleb in 2013](assets/en/044.webp)
+![Jed McCaleb in 2013](assets/sr-Latn/044.webp)
 
 Jed McCaleb u 2013. (izvor: Ariel Zambelich za [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
@@ -1457,7 +1474,7 @@ Jed McCaleb u 2013. (izvor: Ariel Zambelich za [Wired](https://web.archive.org/w
 Jednu nedelju kasnije, 18. jula, Jed McCaleb je lansirao svoju Exchange platformu i [objavio](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) to na forumu. Zahvaljujući svom stručnom znanju, osigurao je da platforma funkcioniše kao automatizovana pijaca, slično modernim online berzama. [Prema njegovim rečima](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891), izdvajala se od Bitcoin Market jer je bila "uvek online, automatizovana," "sajt je bio brži i imao je posvećen hosting," i "Interface je bio korisnički prijatniji." Kao rezultat toga, Mt. Gox je brzo postao primarni način za sticanje Bitcoin, uspostavljajući se kao merilo za dolarske kotacije.
 
 
-![Interface of the Mt. Gox platform in February 2011](assets/en/045.webp)
+![Interface of the Mt. Gox platform in February 2011](assets/sr-Latn/045.webp)
 
 Interface platforme Mt. Gox u februaru 2011. (izvor: [Mt. Gox arhiva](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
@@ -1477,6 +1494,8 @@ U mesecima koji su usledili, tehnička, ekonomska i Mining poboljšanja nastavil
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
 
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
+
 
 Kao što je pomenuto u poslednjem poglavlju, priliv korisnika sa Slashdot-a 11. jula 2010. godine izazvao je ogroman talas interesovanja za projekat Satoshi Nakamoto. Korišćenje mreže je eksplodiralo; stopa Exchange se povećala deseterostruko, kao i računska snaga posvećena sistemu. Tako je Bitcoin doživeo neviđeni rast tokom leta.
 
@@ -1495,7 +1514,7 @@ Međutim, kreator Bitcoin ne radi sam na kodu. Može računati na Gavina Andrese
 Konačno, možemo pomenuti Džefa Garzika (koristeći pseudonim jgarzik na forumu), koji je američki programer, saradnik u svetu slobodnog softvera, posebno za Red Hat distribuciju, i libertarijanac, sledbenik austrijske škole ekonomije. Otkrio je Bitcoin kroz članak objavljen na Slashdot-u i gotovo odmah se uključio u Bitcoin.
 
 
-![Jeff Garzik in 2013](assets/en/046.webp)
+![Jeff Garzik in 2013](assets/sr-Latn/046.webp)
 
 Jeff Garzik u 2013. (izvor: [Benson Samuel](https://bensonsamuel.com/Bitcoin-3/talking-Bitcoin-with-jeff-garzik/))
 
@@ -1503,7 +1522,7 @@ Jeff Garzik u 2013. (izvor: [Benson Samuel](https://bensonsamuel.com/Bitcoin-3/t
 Prvi cilj Satoshi je da učini softver i protokol sigurnijim, kako bi se izborio sa nedavnim povećanjem upotrebe. Zajedno sa Gavinom Andresenom, razmatraju razne napade koji bi mogli da se dogode (uključujući napade uskraćivanjem usluge) i trude se da isprave otkrivene ranjivosti. Tako se 17. jula dodaje sistem kontrolnih tačaka ([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)), sprečavajući da se lanac prepiše pre određenog datuma, a pojam rada se integriše 25. jula ([v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)) kako bi se usavršio mehanizam za odabir ispravnog lanca od strane čvorova.
 
 
-Gavin i Satoshi su takođe ispravili nekoliko grešaka. Glavna među njima je "1 RETURN greška," ranjivost u skript sistemu koja je omogućavala trošenje bitcoina sa bilo kog Address koristeći specifičan skript. Ovu ranjivost je prijavio ArtForz 28. jula, koji je, umesto da iskoristi grešku i obogati se diskretno, odlučio da podeli svoje otkriće sa Satoshi i Gavinom. Satoshi je brzo uključio ispravku u softver ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)) i preporučio svim korisnicima da nadograde. Tako je Bitcoin bio spašen od potencijalno katastrofalne situacije. Ova ranjivost je kasnije zabeležena u MITRE pod identifikatorom [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141).
+Gavin i Satoshi takođe ispravljaju nekoliko grešaka. Glavna od njih je „*1 RETURN bug*“ (greška 1 POVRATAK), ranjivost u sistemu skriptovanja koja omogućava trošenje bitcoina sa bilo koje adrese zahvaljujući specifičnom skriptu. Ovu ranjivost prijavio je ArtForz 28. jula, koji je umesto da iskoristi grešku i diskretno se obogati, odlučio da podeli svoje otkriće sa Satoshijem i Gavinom. Satoshi je požurio da uključi ispravku u softver ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)) i preporučio je svim korisnicima da izvrše nadogradnju. Bitcoin je tako izbegao najgore. Ova ranjivost će kasnije biti registrovana kod MITRE Corporation pod identifikatorom [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141).
 
 
 Drugi cilj je bio poboljšanje performansi sistema kroz modifikacije protokola ili optimizaciju rada softvera. U ovu kategoriju spada dodavanje `OP_NOP` operacionih kodova u interni skript sistem, diskretno izvedeno od strane Satoshi 29. jula (v0.3.6), sa jedinim [komentarom](https://sourceforge.net/p/Bitcoin/code/119/) koji glasi "expansion." Ovi operacioni kodovi su tihi instrukcije koje nemaju efekat ako su prisutne u skriptu, ali ne poništavaju transakciju. Shodno tome, može se modifikovati ponašanje ovih instrukcija bez pravljenja skripti nekompatibilnim sa starijom verzijom protokola, zbog čega je Satoshi ostavio komentar. Ovi operacioni kodovi bi posebno omogućili ono što bi se nazvalo "Soft forkovi" u 2015. i 2016. godini, transformišući instrukcije `OP_NOP2` i `OP_NOP3` u `OP_CHECKLOCKTIMEVERIFY` i `OP_CHECKSEQUENCEVERIFY` (odnosno).
@@ -1557,7 +1576,7 @@ Iako Satoshi nije spomenuo postojanje ograničenja veličine bloka, nekoliko lju
 Konačno, prisustvo ovog parametra utiče na Jeffa Garzika koji [izjavljuje](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) da je "mnogo više zabrinut za skalabilnost nego za gašenje vlade" i koji [pita](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) kako je moguće "prodati Bitcoin ozbiljnim investitorima, sa ugrađenim ograničenjima kao što je limit od 463 transakcije po minuti." Shodno tome, 3. oktobra, on predlaže zakrpu na forumu kako bi povećao limit veličine bloka na 7.168 MB u cilju "usaglašavanja sa prosečnom stopom transakcija PayPal-a." Theymos odgovara rekavši da "primena ove zakrpe će vas učiniti nekompatibilnim sa drugim Bitcoin klijentima." Ovu poruku podržava Satoshi Nakamoto koji [preporučuje](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) da se zakrpa ne koristi i izjavljuje: "Možemo postepeno uvesti promenu kasnije ako se približimo potrebi za njom." Potonji [pojašnjava](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) svoje misli sledećeg dana pružajući smernice o tome kako napraviti takvu promenu protokola.
 
 
-![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/047.webp)
+![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/sr-Latn/047.webp)
 
 
 Ova diskusija označava početak debate o skalabilnosti, koja će na kraju dovesti do pravog građanskog rata između 2015. i 2017. godine, poznatog kao rat oko veličine bloka.
@@ -1597,6 +1616,8 @@ U mesecima koji su usledili, tehnička, ekonomska i Mining poboljšanja nastavil
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 
 U prethodnom delu, proučavali smo efekat koji je objavljivanje Bitcoin prezentacije na Slashdot-u (slashdotting) imalo i kako su početne tehničke poteškoće bile rešene od strane Satoshi i njegovih pomoćnika. Do kraja leta, projekat je prebrodio oluju i bio spreman da primi sve veći broj ljudi. Jesen 2010. godine je tako označila period uspeha za Bitcoin.
 
@@ -1609,7 +1630,7 @@ Ovaj period je bio posebno zlatna era za Mining, koji je doživeo značajna pobo
 Nakon što je Bitcoin bio objavljen na Slashdot-u u julu 2010. godine, visoka finansijska nagrada doneta povećanjem cene i mogućnost budućeg rasta podstakli su pojedince da se posvete intenzivnijem generisanju bitkoina. Zato je [Hash stopa](https://bitinfocharts.com/comparison/Bitcoin-Hashrate.html#alltime) mreže, koja je bila 0.22 GH/s 11. jula, porasla na 2.78 GH/s 17. jula, zatim na 5.79 GH/s 15. avgusta, da bi konačno dostigla 9.94 GH/s 19. septembra i na kraju 12.58 GH/s 29. septembra.
 
 
-![Total network hash rate from July 11 to October 5, 2010](assets/en/048.webp)
+![Total network hash rate from July 11 to October 5, 2010](assets/sr-Latn/048.webp)
 
 Ukupna mrežna stopa Hash od 11. jula do 5. oktobra 2010. (izvor: [CoinWarz](https://www.coinwarz.com/Mining/Bitcoin/Hashrate-chart))
 
@@ -1619,7 +1640,7 @@ Najveći Miner ovog perioda bio je nemački programer koji je koristio ime ArtFo
 Počeo je da generiše bitkoine 19. jula. Dana 25. jula, u temi koja je ispitivala korisnike o njihovim Bitcoin zalihama, ArtForz je [izjavio](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) da je generisao 1.700 bitkoina za 6 dana, što odgovara 4% Hash stope, ili 80 MH/s. Postepeno je izgradio veliku Mining farmu, koja će biti poznata kao "ArtFarm." U avgustu, njegova farma je [uključivala](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-Bitcoin-Mining/) 6 ATI Radeon HD 5770 kartica, što mu je omogućilo da poveća sa 76 MH/s 9. avgusta na oko 450 MH/s 13. avgusta.
 
 
-![ArtForz's mining production between August and October 2010](assets/en/049.webp)
+![ArtForz's mining production between August and October 2010](assets/sr-Latn/049.webp)
 
 Proizvodnja ArtForz-ovog Mining između avgusta i oktobra 2010. (izvor: Blackburn i dr., "[Saradnja među anonimnom grupom zaštitila Bitcoin tokom neuspeha decentralizacije](https://arxiv.org/pdf/2206.02871)")
 
@@ -1640,7 +1661,7 @@ Dana 2. septembra, Miner puddinpop je [podelio](https://bitcointalk.org/index.ph
 
 6. septembra, nakon sugestije člana foruma, on je [izjavio](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107) da bi "možda bio spreman da učini kod otvorenim" ako dobije "značajnu donaciju." 15. septembra, Jeff Garzik je dao [ponudu](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921) u tom smislu, predlažući da da puddinpopu 10,000 bitkoina, što je tada bilo oko $600. Puddinpop je prihvatio: transakcija se [odigrala](https://Mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea) 18. septembra, a algoritam je [objavljen](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135) pod slobodnom licencom od strane puddinpopa ubrzo nakon toga.
 
-Drugi algoritmi su objavljeni otprilike u isto vreme. Dana 9. septembra, član foruma pod imenom nelisky [podelio](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) je svoj Mining algoritam koristeći CUDA. Dana 1. oktobra, neko po imenu m0mchil, koji se pridružio forumu u februaru, [objavio](https://web.archive.org/web/20101206143359/http://www.Bitcoin.org/smf/index.php?topic=1334.0) je svoj algoritam (POCLBM) opisujući ga kao "OpenCL Miner za mase."
+Drugi algoritmi se istovremeno objavljuju. 9. septembra, član foruma koji se zove nelisky [deli](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) svoj sopstveni algoritam za rudarenje koristeći CUDA. 1. oktobra, izvesni Momchil Georgiev, koji je na forum stigao u februaru i koristi pseudonim m0mchil, [objavljuje](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0) svoj algoritam (POCLBM) nazivajući ga „OpenCL rudar za mase“.
 
 
 Ovo poboljšanje omogućilo je tehnički najvještijim pojedincima da generate mnogo bitkoina. Osim ArtForza, Nils Schneider (tcatm) je postao jedan od glavnih rudara ovog perioda. Dana 3. oktobra 2010. godine, on je [tvrdio](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111) da ima brzinu heširanja od 983 MH/s koju proizvode 3 grafička procesora. Ovaj broj je imao efekat [zapanjujući](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112) samog Satoshi.
@@ -1652,7 +1673,7 @@ Ovo poboljšanje omogućilo je tehnički najvještijim pojedincima da generate m
 Masivno povećanje stope Hash zbog specijalizacije Mining rezultiralo je time da je postalo teško generate bitkoine sa centralnim procesorom, što je postalo sve manje pristupačno. Zaista, mogućnost generisanja bitkoina postala je više zavisna od varijanse, pri čemu neki pojedinci nikada nisu uspeli da proizvedu blok. Rešenje ovog problema je kooperativni Mining.
 
 
-1. oktobra, m0mchil je [objavio](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) modifikaciju API-ja koja omogućava klijentskim čvorovima da preuzmu kandidatski blok putem nove funkcije nazvane `getwork` i da vrate Proof of Work ako se pronađe rešenje. Napisao je da ova ispravka "otvara put za eksterne Bitcoin rudare" i "omogućava postavljanje više rudara za jednog klijenta."
+1. oktobra, Momchil [objavljuje](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) modifikaciju API-ja koja omogućava klijentskim čvorovima da preuzmu blok kandidat putem nove funkcije pod nazivom `getwork` i vrate dokaz rada ako se pronađe rešenje. On piše da ova ispravka „otvara put spoljnim rudarima bitcoina“ i „omogućava montiranje više rudara za jednog klijenta“.
 
 Istog dana, ideja o "pooled Mining" je [pomenuta](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838) po prvi put od strane člana foruma u temi pod nazivom "Kako svrgnuti GPU oligarhe". Dana 13. oktobra, puddinpop je [predložio](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906) model ovog tipa. Računarska snaga Miner se meri koristeći meta-Hash, što je otisak bafera koji uključuje prvi bajt svakog bloka Hash. Server tada može periodično proveravati da li klijent vrši proračun kako je definisano. Ovaj model je složen i [ne dozvoljava greške](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015).
 
@@ -1666,24 +1687,24 @@ Dana 23. novembra, modifikovana verzija funkcije `getwork` je dodata u [kod](htt
 Dana 27. novembra, mladi češki programer po imenu Marek Palatinus, koristeći pseudonim slush, [objavio](https://web.archive.org/web/20101206144824/http://www.Bitcoin.org/smf/index.php?topic=1976.0) opis "kooperativnog Mining" na forumu, model koji koristi `getwork` i logiku Jeff Garzika. Ovaj model se zasniva na delimičnim dokazima rada koje proizvode rudari (plaćanje po deonici). Sledećeg dana, Satoshi Nakamoto [odobrio](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) koncept.
 
 
-![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/050.webp)
+![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/sr-Latn/050.webp)
 
 Marek Palatinus (slush) na Z-DAY konferenciji u Pragu 11. maja 2013.
 
 
-Dva modela procene su implementirana u decembru. Prvo, koncept puddinpop je primenjen 1. decembra od strane korisnika doublec koji je [pozvao](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) ljude da se povežu na njegov Mining server sa zajedničkim resursima. Grupa koja je formirana je [proizvela](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) svoj prvi blok (95,420) 4. decembra. Nakon što je proizveden dodatni blok nekoliko dana kasnije, doublec-ov server je [zatvoren](https://bluishcoder.co.nz/Bitcoin-pool/) 15. decembra. Usluga je trajno zatvorena 17. decembra, zbog pojave mnogo efikasnije kooperative: Bitcoin.cz Mining.
+Oba modela procene su implementirana u decembru. Prvo, koncept puddinpop-a primenjuje se 1. decembra od strane korisnika doublec koji [poziva](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) ljude da se povežu na njegov server za grupno rudarenje. Ovako formirano grupisanje [proizvodi](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) svoj prvi blok (95 420) 4. decembra. Nakon što je proizveo dodatni blok nekoliko dana kasnije, doublec-ov server je [zaustavljen](https://bluishcoder.co.nz/bitcoin-pool/) 15. decembra. Usluga trajno zatvara svoja vrata 17. zbog pojave mnogo efikasnije zadruge: BitcoinCZ Mining.
 
 
-Nakon istraživanja foruma, Marek Palatinus je odlučio da implementira svoj Mining kooperativni model i značajno je sproveo probe na testnoj mreži. Takođe je osigurao da server bude dostupan i za CPU rudare (koji koriste softver Jeffa Garzika) i za GPU rudare (koji koriste klijente od m0mchil i puddinpop).
+Nakon anketiranja foruma, Marek Palatinus odlučuje da implementira svoj model rudarske zadruge i naročito sprovodi testove na test mreži. On takođe obezbeđuje da server bude dostupan i za CPU rudare (koji koriste softver Jeffa Garzika) i za GPU rudare (koji koriste klijente Momchila i puddinpop-a).
 
 
 Tokom noći sa 15. na 16. decembar, zadruga je konačno [pokrenuta](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520) od strane Mareka Palatinusa na glavnoj mreži. Prvi blok je [pronađen](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834) ujutru 16. decembra. Nakon toga, proizvedeni su mnogi drugi blokovi. Grupa Mining je imala uspeha od samog početka: za nekoliko dana, njena Hash stopa dostigla je 4 GH/s, što je 3,5% ukupne snage mreže.
 
 
-Zadruga bi postala merilo u Bitcoin Mining. Tokom godina nosila je [nekoliko](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) imena: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, i konačno Slush Pool, u referenci na njenog tvorca. Postala je Braiins Pool u septembru 2022.
+Zadruga će postati referenca u pogledu rudarenja Bitcoina. Tokom godina [nosiće](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) nekoliko imena: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining, i na kraju Slush Pool, u odnosu na svog tvorca. U septembru 2022. postaće Braiins Pool.
 
 
-![Logo of Slush's cooperative in September 2011](assets/en/051.webp)
+![Logo of Slush's cooperative in September 2011](assets/sr-Latn/051.webp)
 
 Logo zadruge Slush u septembru 2011. (izvor: [arhiva](https://web.archive.org/web/20110923151034/http://Mining.Bitcoin.cz:80/) sajta)
 
@@ -1699,6 +1720,8 @@ Međutim, jesen nije bila uspešna samo za Mining. Takođe je bila uspeh za zaje
 ## Cvetanje ekosistema
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 
 U prethodnom poglavlju, istražili smo kako se Mining razvijao tokom druge polovine 2010. godine. Do jeseni, ovaj napredak je bio dobro uspostavljen. Međutim, Mining nije bio jedini aspekt Bitcoin koji je postigao uspeh: njegov ekosistem takođe.
@@ -1724,7 +1747,7 @@ Bilo je sa francuskom zajednicom da su se stvari promenile, posebno kroz akcije 
 Nekoliko dana kasnije, 30., objavio je [saopštenje za štampu](https://linuxfr.org/news/connaissez-vous-les-bitcoins) na francuskom na LinuxFr.org (DLFP). Ovo saopštenje, pod nazivom "Da li znate za bitkoine?", verovatno je prvo predstavljanje Bitcoin napisano na jeziku Molijera. Članak je dosegao veliki broj ljudi, generišući skoro 350 komentara. Evo prvog pasusa kako se [pojavio](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) u to vreme:
 
 
-![Do you know about bitcoins?](assets/en/052.webp)
+![Do you know about bitcoins?](assets/sr-Latn/052.webp)
 
 
 > **Članci: Da li poznajete bitkoine?** Bitcoin je elektronska valuta koju je 2009. godine osmislio izvesni Satoshi Nakamoto. Ova valuta se razlikuje od drugih elektronskih valuta po svom potpuno decentralizovanom peer-to-peer karakteru i domišljatoj upotrebi osnovnih kriptografskih koncepata. Zasnovana je na softveru napisanom u C++ i objavljenom pod slobodnom MIT licencom.
@@ -1732,7 +1755,7 @@ Nekoliko dana kasnije, 30., objavio je [saopštenje za štampu](https://linuxfr.
 Posebno, ova depeša ima efekat privlačenja pažnje određenog Plouma, pravim imenom Lionel Dricot, 29-godišnjeg belgijskog blogera i zagovornika slobodnog softvera. Dana 25. oktobra, on je [objavio](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) članak na svom blogu, pod naslovom "Geek Currency, Monkey Money?", u kojem se zalaže za decentralizaciju i podržava princip Bitcoin. Mnogi korisnici interneta koji govore francuski čuli su za Bitcoin na ovaj način, uključujući [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), programera koji će kasnije stvoriti Bitcoin Cash 2017. godine.
 
 
-![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/053.webp)
+![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/sr-Latn/053.webp)
 
 Lionel Dricot (Ploum) 2012. godine, tada kandidat pod zastavom Piratske stranke za belgijske opštinske i pokrajinske izbore (izvor: [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
@@ -1745,13 +1768,13 @@ Istog dana, Ploum je otvorio [diskusionu temu](https://bitcointalk.org/index.php
 Pored razvoja jezičkih zajednica, postoji određena inovacija u metodama korišćenim za komunikaciju o Bitcoin. Četvrtog oktobra, 38-godišnji Australijanac koristeći pseudonim noagendamarket [pokrenuo](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) je inicijativu pod nazivom BitcoinMedia. Ideja je promovisati Bitcoin kreiranjem različitih sadržaja i reklamiranjem istih na mestima koja verovatno privlače publiku. Iako ova inicijativa nije postigla očekivani uspeh, ima zaslugu u tome što je dovela do proizvodnje prvih video zapisa koji govore o Bitcoin. Prvi video kanala, [objavljen](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) petog oktobra, je Google Search Story, kreiran korišćenjem Youtube alata (pogledajte snimak ekrana ispod). Ostali video zapisi će biti generisani pomoću Xtranormal, jednostavnog alata za kreiranje video sekvenci iz skupa unapred dizajniranih likova i postavki.
 
 
-![First video on Bitcoin (Google Search Story)](assets/en/054.webp)
+![First video on Bitcoin (Google Search Story)](assets/sr-Latn/054.webp)
 
 
 Blog postovi o Bitcoin se šire tokom ovog perioda. Ovo je posebno slučaj sa Jonom Matonisom, koji vodi blog *The Monetary Future* gde diskutuje o temama vezanim za digitalne valute, slobodno bankarstvo i kriptografiju. On je otkrio Bitcoin u martu i [razmenio](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-Satoshi/#entry514) sa Satoshi, nakon čega je počeo da piše na tu temu. U oktobru, objavljuje [treći članak](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html) gde govori o povećanju cene i detaljno opisuje novitete ekosistema.
 
 
-![Profile picture of Jon Matonis in 2011](assets/en/055.webp)
+![Profile picture of Jon Matonis in 2011](assets/sr-Latn/055.webp)
 
 Profilna slika Jona Matonisa iz 2011. (izvor: [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
@@ -1759,7 +1782,7 @@ Profilna slika Jona Matonisa iz 2011. (izvor: [Forbes](https://www.forbes.com/si
 Takođe, u ovo vreme se predlaže novi logo Bitcoin. Prvog novembra, član foruma pod pseudonimom bitboy [objavio](https://bitcointalk.org/index.php?topic=1631.0) je grafiku Elements kako bi istakao kriptovalutu. Jedan od tih Elements je narandžasti logo sa precrtanim B koji je blago nagnut:
 
 
-![Bitcoin logo designed by bitboy, November 2010](assets/en/056.webp)
+![Bitcoin logo designed by bitboy, November 2010](assets/sr-Latn/056.webp)
 
 
 ### Rastuća ekonomija
@@ -1769,7 +1792,7 @@ Ovaj period je takođe obeležen izuzetnim rastom ekosistema na ekonomskom nivou
 Svi ovi Elements dovode do drastičnog povećanja cene. Dok se stabilizuje oko 6¢ od avgusta, počinje da raste početkom oktobra. Ide na 10¢, da bi dostigla 20¢ krajem meseca. Dana 6. novembra čak prelazi 50¢, što ne propušta da [uzbudi](https://bitcointalk.org/index.php?topic=1681.0) članove foruma.
 
 
-![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/057.webp)
+![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/sr-Latn/057.webp)
 
 Cena BTC između 18. jula i 18. oktobra 2010. na Mt. Gox (izvor: [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html))
 
@@ -1791,10 +1814,10 @@ Jedan poslednji element koji ukazuje na uspeh Bitcoin je činjenica da su neki �
 ### Elektronska Granična Fondacija prihvata Bitcoin
 
 
-Značajan događaj krajem 2010. godine bilo je prihvatanje Bitcoin od strane Electronic Frontier Foundation, međunarodne organizacije za zaštitu sloboda na Internetu, koju su 1900. godine osnovali Mitch Kapor, John Gilmore i John Perry Barlow. Ovo je bilo posebno važno za rane korisnike Bitcoin, koji su u srcu bili cypherpunks. Oni su bili željni da ona prihvati Bitcoin.
+Značajan događaj krajem 2010. godine je prihvatanje bitcoina od strane *Electronic Frontier Foundation*, međunarodne organizacije za zaštitu sloboda na internetu, koju su 1990. godine suosnovali Mitch Kapor, John Gilmore i John Perry Barlow. Ova organizacija je draga srcu prvim pristalicama Bitcoina, cypherpunksima u duši. Stoga im je stalo do toga da ona prihvati bitcoin.
 
 
-![Logo of the Electronic Frontier Foundation](assets/en/058.webp)
+![Logo of the Electronic Frontier Foundation](assets/sr-Latn/058.webp)
 
 
 To je bio član foruma po imenu Kiba koji je preuzeo inicijativu 13. avgusta 2010. godine, [predloživši](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) da se kontaktira EFF i predloži da prihvate donaciju, [prikupljenu](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) od zajednice. U tu svrhu, otvorio je [nalog](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) na MyBitcoin gde je prikupio sredstva i želeo da prenese pristup EFF-u. Sastavio je email (ispravljen od strane zajednice) koji je poslao krajem avgusta.
@@ -1845,6 +1868,8 @@ Tokom jeseni 2010. godine, ekosistem oko Bitcoin značajno se razvio. Komunikaci
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
 
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
+
 
 Videli smo kako je Bitcoin poleteo nakon objavljivanja teksta na Slashdot-u u julu 2010. U jesen, sa raznim napretcima u softveru, Mining, i ekonomiji, činilo se da je projekat konačno na pravom putu. Zato se ovaj period poklopio sa postepenim povlačenjem Satoshi Nakamoto-a.
 
@@ -1868,7 +1893,7 @@ Međutim, izvorni kod Bitcoin ostaje besplatan, tako da svako može da ga kopira
 
 > "Satoshi je izneo magične brojeve niotkuda, i mi kolektivno podržavamo taj pravac. [...] Trenutak kada Satoshi uradi nešto ludo što nije podržano od strane zajednice, je trenutak kada se protokol/baza koda zaista razdvaja."
 
-Dakle, uloga Satoshi kao lidera ne sprečava da se kritike dešavaju. Zbog toga tenzije postepeno izbijaju u zajednici počevši od jula. Na primer, prigovori se javljaju tokom [implementacije](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745) sistema upozorenja u avgustu ili [modifikacije](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) m0mchil-ove `getwork` funkcije u novembru. Frustracija zbog ovakvog diktatorskog donošenja odluka ponekad se izražava [mnogo otvorenije](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-24.html#l-384) na IRC-u.
+Dakle, Satoshijeva liderska uloga ne sprečava pojavu kritike. Zbog toga se tenzije postepeno pojavljuju u zajednici počevši od jula. Na primer, protesti se javljaju povodom [implementacije](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745) sistema upozorenja u avgustu ili [modifikacije](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) Momchileve funkcije `getwork` u novembru. Frustracija zbog ovog diktatorskog donošenja odluka ponekad je [mnogo otvorenije](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384) izražena na IRC-u.
 
 
 Gavin, koji je blizak sa Satoshi ali takođe razgovara sa drugim programerima, jasno vidi problem koji ova situacija predstavlja. Dana 27. septembra 2010. godine, na IRC-u, Gavin [izjavljuje](https://buildingbitcoin.org/Bitcoin-dev/log-2010-09-27.html#l-522) da bi voleo "da može da ubedi \[Satoshi\] da pređe na model razvoja koji je više kolaborativan." (*original: "I just wish I could convince him to switch to a more collaborative development model."*) U oktobru, Gavin [dobija](https://sourceforge.net/p/Bitcoin/code/165/) pristup za pisanje u repozitorijumu na SourceForge-u, što poboljšava stvari. A u decembru, problem se rešava sam od sebe sa iznenadnim povlačenjem Satoshi nakon eksplozije afere WikiLeaks.
@@ -1879,16 +1904,16 @@ Gavin, koji je blizak sa Satoshi ali takođe razgovara sa drugim programerima, j
 Okidački događaj za odlazak Satoshi je afera WikiLeaks. WikiLeaks je nevladina organizacija koju je osnovao Cypherpunk Julian Assange 2006. godine, s ciljem da pruži glas uzbunjivačima i curenju informacija, dok štiti njihove izvore. Tokom 2010. godine, poverljiva dokumenta koja je otkrila ova NVO prenose veliki mediji i izazivaju uzburkanost u javnom mnjenju. Ona se posebno odnose na prekomerne akcije američke vojske, kao što su civilne žrtve i počinjeni akti mučenja, u Avganistanu (Afghan War Diary) i Iraku (Iraq War Logs).
 
 
-![WikiLeaks logo in November 2010](assets/en/059.webp)
+![WikiLeaks logo in November 2010](assets/sr-Latn/059.webp)
 
 
-Finansiranje WikiLeaksa se prvenstveno zasniva na javnim donacijama, tako da organizacija zavisi od procesora plaćanja za primanje uplata putem interneta. Međutim, nakon ovih otkrića, pritisak je stavljen na ove posrednike koji strahuju od reakcije regulatora. Zbog toga kompanija za online plaćanja Moneybookers [zamrzava](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) račun NVO-a 14. oktobra.
+Finansiranje WikiLeaks-a se u suštini oslanja na javne donacije, tako da organizacija zavisi od procesora plaćanja za prijem onlajn uplata. Međutim, nakon ovih otkrića, vrši se pritisak na ove treće strane koje strahuju od reakcije regulatora. Zbog toga kompanija za onlajn plaćanje Moneybookers [zamrzava](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) račun nevladine organizacije 14. oktobra.
 
 
 Ova situacija otvara kraljevski put za korišćenje Bitcoin, koji ne zavisi od bilo koje pouzdane treće strane i mnogo bi bolje odolevao finansijskoj cenzuri. Hipoteza je otvorena na forumu u novembru od strane Amira Taakija, 22-godišnjeg Britanca iranskog porekla koji koristi pseudonim genjix.
 
 
-![Amir Taaki in December 2012 in Bratislava](assets/en/060.webp)
+![Amir Taaki in December 2012 in Bratislava](assets/sr-Latn/060.webp)
 
 Amir Taaki u decembru 2012. u Bratislavi (izvor: [Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/))
 
@@ -2014,6 +2039,8 @@ Ovaj misteriozni aspekt koji okružuje tvorca Bitcoin dobro je sažeo Hal Finney
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
+
 
 Nakon odlaska Satoshi Nakamota, postalo je neophodno nastaviti bez njega. Srećom, Bitcoin je bio otvoren projekat, kojem je svako mogao doprineti, tako da nestanak njegovog osnivača nije bio fatalan za njega. Kao što je developer Jeff Garzik napisao u julu 2010. (u vezi sa mogućnošću odsustva osnivača):
 
@@ -2059,25 +2086,25 @@ Ali prvenstveno je upravljanje sajtom ono što Martti treba da delegira. Krajem 
 Njegov izgled se takođe promenio. U decembru 2010. godine, vebsajt je i dalje izgledao kao što je bio tokom ere Satoshi. Evo [snimka](https://web.archive.org/web/20101110005546/http://www.Bitcoin.org/) od 5. decembra:
 
 
-![Snapshot of Bitcoin.org from December 5, 2010](assets/en/061.webp)
+![Snapshot of Bitcoin.org from December 5, 2010](assets/sr-Latn/061.webp)
 
 
 Tako je, dašak boje je [dodat](https://web.archive.org/web/20110216125441/http://www.Bitcoin.org/) početkom 2011:
 
 
-![Snapshot of Bitcoin.org from February 16, 2011](assets/en/062.webp)
+![Snapshot of Bitcoin.org from February 16, 2011](assets/sr-Latn/062.webp)
 
 
 U aprilu, nakon redizajna [organizovanog](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) od strane zajednice, izgled sajta se promenio. Ovako je [izgledao](https://web.archive.org/web/20110411071904/http://www.Bitcoin.org/) tada:
 
 
-![Snapshot of Bitcoin.org from April 11, 2011](assets/en/063.webp)
+![Snapshot of Bitcoin.org from April 11, 2011](assets/sr-Latn/063.webp)
 
 
 Konačno, u septembru 2011, novu promenu je [napravio](https://buildingbitcoin.org/Bitcoin-dev/log-2011-08-31.html#l-691) Nils Schneider. Novi GitHub repozitorijum je [kreiran](https://github.com/Bitcoin/Bitcoin.org) za tu priliku. Ovaj dizajn će trajati duže: neće biti promenjen do 2013. godine. Evo ga (napomena da je Bitcoin-softver tada opisan kao "projekat otvorenog koda vođen zajednicom"):
 
 
-![Snapshot of Bitcoin.org from September 23, 2011](assets/en/064.webp)
+![Snapshot of Bitcoin.org from September 23, 2011](assets/sr-Latn/064.webp)
 
 
 Što se tiče vikija, on je u početku bio zasnovan na DokuWiki, besplatnom sistemu integrisanom u vebsajt. Međutim, u decembru 2010. godine, Mark Karpelès, francuski programer koji živi u Japanu i koristi pseudonim MagicalTux na forumu, kreirao je novi viki na Address Bitcoin.it. Ovaj viki je zasnovan na MediaWiki sistemu, koji smatra elegantnijim i lakšim za korišćenje. Početna ideja nije da se zameni postojeća dokumentacija, već, kako Mark [izražava](https://buildingbitcoin.org/Bitcoin-dev/log-2010-12-16.html#l-2848) na IRC-u, da se razvije "manje formalan, više zajednički orijentisan viki."
@@ -2086,7 +2113,7 @@ Konačno, u septembru 2011, novu promenu je [napravio](https://buildingbitcoin.o
 Ova nova viki stranica privlači [Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873) i [Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535), pa brzo razmatraju da je učine glavnom vikijem. Evo [snimka](https://web.archive.org/web/20110521044430/https://en.Bitcoin.it/wiki/Main_Page) napravljenog 21. maja:
 
 
-![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/en/065.webp)
+![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/sr-Latn/065.webp)
 
 
 Nekoliko dana nakon lansiranja, link pod nazivom "wiki" na početnoj stranici Bitcoin.org [ukazuje](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) na Bitcoin.it. Sadržaj se postepeno prenosi sa DokuWiki verzije. Dana 31. januara, Martti [navodi](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) na forumu da je ovo nova wiki.
@@ -2114,7 +2141,7 @@ Februar takođe označava [prvu snimljenu prezentaciju](https://www.youtube.com/
 Iako su se prvi događaji odigrali u Sjedinjenim Državama, francuska zajednica nije ostala po strani. Dana 25. maja, povodom posete Gavina Andresena Parizu, organizovan je ručak u četvrti La Défense, kojem su prisustvovale istaknute ličnosti kao što su Lucien Grondin, David François i Jon Matonis (koji je takođe bio u poseti).
 
 
-![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/en/066.webp)
+![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/sr-Latn/066.webp)
 
 Sastanak u La Défense u Parizu sa Gavinom Andresenom, u ružičastoj košulji (izvor: [forum arhiva](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
 
@@ -2122,7 +2149,7 @@ Sastanak u La Défense u Parizu sa Gavinom Andresenom, u ružičastoj košulji (
 Mesec dana kasnije, 15. juna, održana je prva javna prezentacija Bitcoin na francuskom [jeziku](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831), ponovo u Parizu. Prezentaciju je vodio Renaud Lifchitz (nono2357), mladi stručnjak za sajber bezbednost koji je otkrio Bitcoin godinu dana ranije. [Prezentovani sadržaj](https://prezi.com/tikwkjt9ouey/Bitcoin-une-monnaie-electronique-pour-tous/) bio je veoma visokog kvaliteta, a odziv publike bio je toliko dobar da je prostorija bila prepuna.
 
 
-![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/en/067.webp)
+![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/sr-Latn/067.webp)
 
 Bitcoin prezentacija od strane Renaud Lifchitz 15. juna 2011. (izvor: [forum arhiva](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
@@ -2153,7 +2180,7 @@ Prvo su se video snimci na tu temu počeli širiti na Youtube-u. Dana 22. marta,
 U aprilu, temu digitalne valute pokrili su glavni mejnstrim mediji kao što su [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-Bitcoin-could-challenge-governments/), i [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). U maju, pokret je dobio na zamahu, a Bitcoin je bio spomenut gotovo svuda, posebno u [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/Bitcoin-P2P-currency), na [Slate](https://slate.com/business/2011/05/Bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), na [Gizmodo](https://gizmodo.com/what-is-Bitcoin-5803124), i na [TechCrunch](https://techcrunch.com/2011/05/20/Bitcoin-ven-and-the-end-of-currency/).
 
 
-![Gavin Andresen in Forbes in April 2011](assets/en/068.webp)
+![Gavin Andresen in Forbes in April 2011](assets/sr-Latn/068.webp)
 
 Gavin Andresen u Forbesu u aprilu 2011 (izvor: [Forbes arhiva](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
@@ -2170,7 +2197,7 @@ Pojedinačni blogeri su takođe zainteresovani. To je slučaj sa Rickom Falkving
 Popularizacija Bitcoin znači da njegova cena značajno raste. Dok je pala na 20 centi u decembru 2010, dostigla je paritet sa dolarom 9. februara 2011. U to vreme, Hal Finney [je izjavio](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) da članovi zajednice imaju "zaista sreće što su na početku moguće eksplozivnog novog fenomena." Imao je dobar instinkt, jer ono što se dešava sledeće je munjevito brzo.
 
 
-![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/069.webp)
+![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/sr-Latn/069.webp)
 
 Fotografija koju je objavio jimbobway na forumu na dan pariteta sa dolarom (izvor: [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
@@ -2178,7 +2205,7 @@ Fotografija koju je objavio jimbobway na forumu na dan pariteta sa dolarom (izvo
 Zaista, medijska pomama proleća rezultira postepenim stvaranjem neviđenog spekulativnog fenomena. Nakon što je stagnirala oko $1 nekoliko meseci, cena raste i dostiže $3 krajem aprila. U maju, ona je na $8. Konačno, 8. juna, cena Bitcoin dostiže istorijski maksimum od $32 na Mt. Gox! Ovo povećanje odgovara 160-strukom povećanju u 6 meseci.
 
 
-![Average price of BTC between January 1 and June 30, 2011](assets/en/070.webp)
+![Average price of BTC between January 1 and June 30, 2011](assets/sr-Latn/070.webp)
 
 Prosečna cena BTC između 1. januara i 30. juna 2011. (izvor: [Bitbo.io](https://calendar.bitbo.io/price/))
 

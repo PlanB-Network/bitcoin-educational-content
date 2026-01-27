@@ -1,0 +1,9 @@
+question: Jakie są dwa główne sposoby wycieku prywatnych informacji finansowych podczas korzystania z Bitcoin?
+answer: On-chain poprzez analizę blockchain i off-chain poprzez przechwyconą komunikację
+wrong_answers:
+  - Poprzez błędy w oprogramowaniu wallet i naruszenia danych puli mining
+  - Poprzez włamania na giełdę i rządowe programy nadzoru
+  - Poprzez posty w mediach społecznościowych i publiczne ogłoszenia o transakcjach
+explanation: |
+  Zgodnie z treścią rozdziału, prywatne dane mogą wyciekać na dwa podstawowe sposoby: on-chain i off-chain. Wycieki on-chain występują poprzez analizę publicznego łańcucha bloków, gdzie wzorce transakcji, ponowne wykorzystanie adresów i klastrowanie mogą ujawniać informacje finansowe. Wycieki poza łańcuchem mają miejsce, gdy złośliwi aktorzy przechwytują komunikację internetową lub w inny sposób niezwiązany z łańcuchem bloków. Podczas gdy błędne odpowiedzi wspominają o rzeczywistych obawach związanych z bezpieczeństwem w ekosystemie Bitcoin, nie reprezentują one podstawowej kategoryzacji tego, w jaki sposób dochodzi do wycieków prywatności, jak opisano w materiale.
+reviewed: false

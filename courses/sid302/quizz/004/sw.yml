@@ -1,0 +1,8 @@
+question: Ni kipengele gani cha usimbaji data kinachoruhusu Liquid kuficha kiasi cha miamala na aina za mali kutoka kwa umma?
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - Moduli za Usalama wa Vifaa (HSMs)
+  - Itifaki ya Shirikisho la Nguvu (Dynafed)
+  - Funguo za Uidhinishaji wa Peg-out (PAKs)
+explanation: |
+  Confidential Transactions (CT) ni kipengele cha kriptografia kinachowezesha Liquid kuficha aina za mali na kiasi cha miamala kutoka kwa leja ya umma huku bado ikiruhusu mtandao kuthibitisha uhalali wa miamala. Hii hutoa faragha ya kibiashara muhimu kwa taasisi. Moduli za Usalama wa Vifaa ni vifaa halisi vinavyolinda funguo za kibinafsi, itifaki ya Dynafed inasimamia mabadiliko ya shirikisho, na PAK hudhibiti mchakato wa kuondoa data - hakuna hata moja kati ya haya inayoficha maelezo ya miamala kutoka kwa umma.

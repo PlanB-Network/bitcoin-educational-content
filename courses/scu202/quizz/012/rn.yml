@@ -1,9 +1,9 @@
-question: Ni irihe shirahamwe ryashinzwe mu 1998 kugira ngo ritere imbere ijambo open source?
-answer: Igikorwa c'inkomoko yuguruye (OSI)
+question: Ni ikihe kigo cashinzwe mu 1998 kugira ngo giteze imbere ijambo open source?
+answer: Open Source Initiative (OSI)
 wrong_answers:
-  - Ishirahamwe rya porogaramu z'ubuntu (FSF)
-  - Umugambi wa Debian
-  - Ishirahamwe rya Mozilla
+  - Free Software Foundation (FSF)
+  - Debian Project
+  - Mozilla Foundation
 explanation: |
-  OSI yaremewe gushimika ku bijanye n’ubuhinga, ubuhinga bwo gufungura kode, nk’uko bitandukanye n’ubuhinga bwa porogarama y’ubuntu.
-reviewed: false
+  OSI yaremewe gushimika ku bijanye, n’ubuhinga bwo kwugururira kode bose, nk’uko bitandukanye n’ubuhinga bwa porogarame z’ubuntu.
+reviewed: true

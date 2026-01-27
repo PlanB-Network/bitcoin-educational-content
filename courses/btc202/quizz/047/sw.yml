@@ -5,5 +5,5 @@ wrong_answers:
   - Kwa kutumia PIN code
   - Zima miunganisho yote
 explanation: |
-  2FA inaongeza ulinzi wa ziada na inapendekezwa sana, haswa wakati wa kutumia nodi ya Umeme au upangishaji nyeti wa kibinafsi.
+  2FA inaongeza ulinzi wa ziada na inapendekezwa sana, haswa wakati wa kutumia nodi ya Lightning au upangishaji nyeti wa kibinafsi.
 reviewed: true

@@ -1,13 +1,11 @@
 ---
-name: Protokol RGB, dari teori ke praktik
+name: Pemrograman RGB
 goal: Memperoleh keterampilan yang diperlukan untuk memahami dan menggunakan RGB
-objectives: 
-
-  - Memahami konsep dasar protokol RGB
-  - Menguasai prinsip-prinsip validasi sisi klien dan komitmen Bitcoin
-  - Pelajari cara membuat, mengelola, dan mentransfer kontrak RGB
-  - Cara mengoperasikan simpul Lightning yang kompatibel dengan RGB
-
+objectives:
+- Memahami konsep dasar protokol RGB
+- Menguasai prinsip-prinsip validasi sisi klien dan komitmen Bitcoin
+- Pelajari cara membuat, mengelola, dan mentransfer kontrak RGB
+- Cara mengoperasikan simpul Lightning yang kompatibel dengan RGB
 ---
 # Menemukan protokol RGB
 
@@ -45,7 +43,7 @@ Bagian terakhir dipandu oleh pembicara lain yang menyajikan aplikasi berbasis RG
 ---
 Kursus pelatihan ini awalnya berkembang dari bootcamp pengembangan lanjutan selama dua minggu di Viareggio, Tuscany, yang diselenggarakan oleh [Fulgur'Ventures](https://fulgur.ventures/). Minggu pertama, yang berfokus pada Rust dan SDK, dapat ditemukan di kursus lainnya:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 Dalam kursus ini, kita akan fokus pada minggu kedua bootcamp, yang berfokus pada RGB.
 
@@ -347,11 +345,11 @@ Segel sekali pakai bekerja dalam tiga tahap utama:
 Prosesnya dapat diringkas sebagai berikut:
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -625,11 +623,11 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-Opsi terakhir adalah penggunaan **Taproot** (diperkenalkan dengan BIP341) dengan skema *Tapret*. *Tapret* adalah bentuk komitmen deterministik yang lebih kompleks, yang membawa peningkatan dalam hal jejak pada blockchain dan kerahasiaan untuk operasi kontrak. Ide utamanya adalah untuk menyembunyikan komitmen di bagian `Script Path Spend` dari [transaksi taproot] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
+Opsi terakhir adalah penggunaan **Taproot** (diperkenalkan dengan BIP341) dengan skema *Tapret*. *Tapret* adalah bentuk komitmen deterministik yang lebih kompleks, yang membawa peningkatan dalam hal jejak pada blockchain dan kerahasiaan untuk operasi kontrak. Ide utamanya adalah untuk menyembunyikan komitmen di bagian `Script Path Spend` dari [transaksi taproot](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
-Sebelum menjelaskan bagaimana komitmen dimasukkan ke dalam transaksi taproot, mari kita lihat **bentuk yang tepat** dari komitmen, yang harus **secara imperatif** sesuai dengan string 64-byte [constructed] (https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) sebagai berikut:
+Sebelum menjelaskan bagaimana komitmen dimasukkan ke dalam transaksi taproot, mari kita lihat **bentuk yang tepat** dari komitmen, yang harus **secara imperatif** sesuai dengan string 64-byte [constructed](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) sebagai berikut:
 
 ```txt
 64-byte_Tapret_Commitment =
@@ -662,8 +660,8 @@ Dalam kasus pertama ini, kita mulai dari kunci keluaran taproot (*Kunci Keluaran
 
 
 - `P`: kunci publik internal untuk _Key Path Spend_.
-- `G`: titik pembangkit kurva elips [secp256k1] (https://en.bitcoin.it/wiki/Secp256k1).
-- t = tH_TWEAK(P)` adalah faktor tweak, yang dihitung melalui hash yang ditandai (misalnya `SHA-256(SHA-256(TapTweak) || P)`), sesuai dengan [BIP86] (https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Ini membuktikan bahwa tidak ada skrip yang tersembunyi.
+- `G`: titik pembangkit kurva elips [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
+- t = tH_TWEAK(P)` adalah faktor tweak, yang dihitung melalui hash yang ditandai (misalnya `SHA-256(SHA-256(TapTweak) || P)`), sesuai dengan [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Ini membuktikan bahwa tidak ada skrip yang tersembunyi.
 
 Untuk menyertakan komitmen **Tapret**, tambahkan **Skrip Jalur Pengeluaran** dengan **skrip unik**, sebagai berikut:
 
@@ -811,7 +809,7 @@ Secara konkret, setiap _bundel transisi_ adalah milik kontrak tertentu. Semua in
 
 #### Hash Akar MPC
 
-Nilai yang sebenarnya ditulis secara on-chain (dalam `Opret` atau `Tapret`) disebut `mpc::Commitment`. Ini dihitung dalam bentuk [BIP-341] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), menurut rumus :
+Nilai yang sebenarnya ditulis secara on-chain (dalam `Opret` atau `Tapret`) disebut `mpc::Commitment`. Ini dihitung dalam bentuk [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), menurut rumus :
 
 ```txt
 mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofactor || mpc::Root )
@@ -848,7 +846,7 @@ di mana `cofactor` adalah bilangan bulat yang meningkatkan probabilitas untuk me
 - Kami mencoba `cofactor` yang berbeda (hingga `w/2`, atau maksimum 500 untuk alasan performa);
 - Jika kita gagal memposisikan semua kontrak tanpa tabrakan, kita menambah `d` dan memulai lagi.
 
-Tujuannya adalah untuk menghindari pohon yang terlalu tinggi, sekaligus menjaga risiko tabrakan seminimal mungkin. Perlu diketahui bahwa fenomena tabrakan mengikuti logika distribusi acak, yang terkait dengan [Paradoks Hari Jadi] (https://en.wikipedia.org/wiki/Birthday_problem).
+Tujuannya adalah untuk menghindari pohon yang terlalu tinggi, sekaligus menjaga risiko tabrakan seminimal mungkin. Perlu diketahui bahwa fenomena tabrakan mengikuti logika distribusi acak, yang terkait dengan [Paradoks Hari Jadi](https://en.wikipedia.org/wiki/Birthday_problem).
 
 #### Daun yang dihuni
 
@@ -1815,7 +1813,7 @@ Implementasi Antarmuka adalah serangkaian deklarasi yang menghubungkan **Interfa
 
 #### Faktur
 
-Faktur berbentuk URL yang dikodekan dalam [base58] (https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), yang menyematkan data yang diperlukan untuk pembuatan **Transisi Status** (oleh pembayar). Dengan kata lain, faktur ini memungkinkan rekanan (*pembayar*) untuk membuat transisi yang sesuai untuk mentransfer aset atau memperbarui status kontrak.
+Faktur berbentuk URL yang dikodekan dalam [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), yang menyematkan data yang diperlukan untuk pembuatan **Transisi Status** (oleh pembayar). Dengan kata lain, faktur ini memungkinkan rekanan (*pembayar*) untuk membuat transisi yang sesuai untuk mentransfer aset atau memperbarui status kontrak.
 
 #### Jaringan Petir
 
@@ -1823,7 +1821,7 @@ Lightning Network adalah sebuah jaringan terdesentralisasi dari saluran pembayar
 
 Untuk informasi lebih lanjut mengenai cara kerja Lightning, saya sarankan Anda mengikuti kursus lainnya:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Komitmen Multi Protokol - MPC
 
@@ -1897,7 +1895,7 @@ State Transition adalah operasi yang mengubah status kontrak RGB ke status baru.
 
 #### Akar tunggang
 
-Mengacu pada format transaksi Segwit v1 Bitcoin, yang diperkenalkan oleh [BIP341] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) dan [BIP342] (https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot meningkatkan kerahasiaan dan fleksibilitas skrip, khususnya dengan membuat transaksi menjadi lebih ringkas dan lebih sulit untuk dibedakan satu sama lain.
+Mengacu pada format transaksi Segwit v1 Bitcoin, yang diperkenalkan oleh [BIP341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) dan [BIP342](https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot meningkatkan kerahasiaan dan fleksibilitas skrip, khususnya dengan membuat transaksi menjadi lebih ringkas dan lebih sulit untuk dibedakan satu sama lain.
 
 #### Terminal Konsinyasi - Titik Akhir Konsinyasi
 
@@ -2315,7 +2313,7 @@ Tentu saja, tergantung pada tanggal Anda membaca kursus ini, antarmuka-antarmuka
 
 #### Contoh antarmuka
 
-Potongan kode Rust ini menunjukkan Antarmuka [RGB20] (https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (aset yang dapat dipertukarkan). Kode ini diambil dari file `rgb20.rs` dalam pustaka RGB standar. Mari kita lihat untuk memahami struktur Antarmuka dan bagaimana ia menyediakan jembatan antara, di satu sisi, logika bisnis (didefinisikan dalam Skema) dan, di sisi lain, fungsi yang terpapar ke dompet dan pengguna.
+Potongan kode Rust ini menunjukkan Antarmuka [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (aset yang dapat dipertukarkan). Kode ini diambil dari file `rgb20.rs` dalam pustaka RGB standar. Mari kita lihat untuk memahami struktur Antarmuka dan bagaimana ia menyediakan jembatan antara, di satu sisi, logika bisnis (didefinisikan dalam Skema) dan, di sisi lain, fungsi yang terpapar ke dompet dan pengguna.
 
 ```rust
 // ...
@@ -3032,8 +3030,8 @@ Berikut ini adalah contoh file YAML yang akan dibuat:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3077,7 +3075,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Kemudian, perintah selanjutnya menampilkan status global (nama, ticker, pasokan...) dan daftar Status Milik, yaitu alokasi (misalnya, 1 juta token `PBN` yang didefinisikan dalam UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Kemudian, perintah selanjutnya menampilkan status global (nama, ticker, pasokan...) dan daftar Status Milik, yaitu alokasi (misalnya, 1 juta token `Plan ₿ Academy` yang didefinisikan dalam UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3171,7 +3169,7 @@ Ini dapat dikirimkan ke Bob melalui saluran apa pun (teks, kode QR, dll.).
 Untuk mentransfer dari faktur ini :
 
 
-- Bob (yang menyimpan token dalam simpanannya) memiliki dompet Bitcoin. Dia perlu menyiapkan transaksi Bitcoin (dalam bentuk PSBT, misalnya `tx.psbt`) yang membelanjakan UTXO di mana token RGB yang diperlukan berada, ditambah satu UTXO untuk mata uang (penukaran);
+- Bob (yang menyimpan token di stash miliknya) memiliki sebuah wallet Bitcoin. Ia harus menyiapkan sebuah transaksi Bitcoin (dalam bentuk PSBT, misalnya `tx.psbt`) yang membelanjakan UTXO tempat token RGB yang diperlukan berada, ditambah satu UTXO untuk kembalian (change);
 - Bob menjalankan perintah berikut:
 
 ```bash
@@ -3260,7 +3258,7 @@ Pada kenyataannya, Lightning Network memungkinkan pembayaran untuk dirutekan mel
 
 Oleh karena itu, pengoperasian RGB pada Lightning harus dipertimbangkan secara paralel dengan pengoperasian Lightning Network itu sendiri. Jika Anda ingin mempelajari subjek ini lebih dalam, saya sangat menyarankan Anda untuk melihat kursus pelatihan komprehensif lainnya:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Peta kode RGB
 
@@ -3393,7 +3391,7 @@ Dengan **RGB20**, kita mendefinisikan token yang dapat dipertukarkan pada Bitcoi
 
 ### Solusi Bitmask: dompet untuk RGB
 
-Untuk mengeksploitasi kemampuan RGB dalam praktiknya, proyek **DIBA** telah mendesain sebuah dompet yang disebut [Bitmask] (https://bitmask.app/). Idenya adalah untuk menyediakan alat berbasis Taproot yang tidak dikurung, yang dapat diakses sebagai aplikasi web atau ekstensi peramban. Bitmask mengelola aset RGB20 dan RGB21, dan mengintegrasikan berbagai mekanisme keamanan:
+Untuk mengeksploitasi kemampuan RGB dalam praktiknya, proyek **DIBA** telah mendesain sebuah dompet yang disebut [Bitmask](https://bitmask.app/). Idenya adalah untuk menyediakan alat berbasis Taproot yang tidak dikurung, yang dapat diakses sebagai aplikasi web atau ekstensi peramban. Bitmask mengelola aset RGB20 dan RGB21, dan mengintegrasikan berbagai mekanisme keamanan:
 
 
 - Kode inti ditulis dalam Rust, kemudian dikompilasi dalam WebAssembly untuk dijalankan dalam lingkungan JavaScript (React);
@@ -3757,7 +3755,7 @@ Anda tentu saja dapat menyesuaikan pesanan. Untuk mengonfirmasi transaksi, kami 
 ./regtest.sh mine 1
 ```
 
-Sekarang kita dapat membuat aset RGB. Perintahnya akan bergantung pada jenis aset yang ingin Anda buat dan parameternya. Di sini saya membuat token NIA (*Non Inflatable Asset*) bernama "PBN" dengan persediaan 1000 unit. `Presision` memungkinkan Anda untuk menentukan pembagian unit.
+Sekarang kita dapat membuat aset RGB. Perintahnya akan bergantung pada jenis aset yang ingin Anda buat dan parameternya. Di sini saya membuat token NIA (*Non Inflatable Asset*) bernama "Plan ₿ Academy" dengan persediaan 1000 unit. `Presision` memungkinkan Anda untuk menentukan pembagian unit.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3765,8 +3763,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3802,7 +3800,7 @@ Perintah ini mengembalikan kunci publik dari simpul saya n°2:
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Selanjutnya, kita akan membuka channel dengan menentukan aset yang relevan (`PBN`). Perintah `/openchannel` memungkinkan Anda menentukan ukuran saluran di satoshi dan memilih untuk menyertakan aset RGB. Tergantung pada apa yang ingin Anda buat, tetapi dalam kasus saya, perintahnya adalah :
+Selanjutnya, kita akan membuka channel dengan menentukan aset yang relevan (`Plan ₿ Academy`). Perintah `/openchannel` memungkinkan Anda menentukan ukuran saluran di satoshi dan memilih untuk menyertakan aset RGB. Tergantung pada apa yang ingin Anda buat, tetapi dalam kasus saya, perintahnya adalah :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3841,7 +3839,7 @@ Untuk mengonfirmasi transaksi, 6 blok ditambang:
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Saluran Lightning sekarang terbuka dan juga berisi 500 token `PBN` di sisi node n°1. Jika node n°2 ingin menerima token `PBN`, ia harus membuat faktur. Berikut cara melakukannya:
+Saluran Lightning sekarang terbuka dan juga berisi 500 token `Plan ₿ Academy` di sisi node n°1. Jika node n°2 ingin menerima token `Plan ₿ Academy`, ia harus membuat faktur. Berikut cara melakukannya:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3870,7 +3868,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-Sekarang kita akan membayar faktur ini dari node pertama, yang menyimpan uang tunai yang diperlukan dengan token `PBN`:
+Sekarang kita akan membayar faktur ini dari node pertama, yang menyimpan uang tunai yang diperlukan dengan token `Plan ₿ Academy`:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

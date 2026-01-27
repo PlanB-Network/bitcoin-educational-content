@@ -6,4 +6,4 @@ wrong_answers:
   - FPGA
 explanation: |
   Le minage de Bitcoin est aujourd’hui réalisé avec des ASICs. Ce sont des puces spécialisées pour l’algorithme SHA-256.
-reviewed: false
+reviewed: true 

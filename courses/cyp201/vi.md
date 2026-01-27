@@ -1,11 +1,11 @@
 ---
-name: Bí Mật Đằng Sau Ví Bitcoin
+name: Kiến trúc ví Bitcoin
 goal: Khám phá nguyên tắc mã hóa đằng sau ví Bitcoin.
 objectives:
-  - Định nghĩa các khái niệm lý thuyết cần thiết để hiểu các thuật toán mã hóa được sử dụng trong Bitcoin.
-  - Hiểu rõ cấu trúc của một ví xác định và phân cấp.
-  - Biết cách nhận diện và giảm thiểu rủi ro liên quan đến quản lý ví.
-  - Hiểu nguyên tắc của hàm băm, khóa mã hóa, và chữ ký số.
+- Định nghĩa các khái niệm lý thuyết cần thiết để hiểu các thuật toán mã hóa được sử dụng trong Bitcoin.
+- Hiểu rõ cấu trúc của một ví xác định và phân cấp.
+- Biết cách nhận diện và giảm thiểu rủi ro liên quan đến quản lý ví.
+- Hiểu nguyên tắc của hàm băm, khóa mã hóa, và chữ ký số.
 ---
 
 # Hành Trình Vào Trái Tim Của Ví Bitcoin
@@ -28,12 +28,14 @@ Với phương pháp giảng dạy rõ ràng, hơn 60 sơ đồ giải thích, v
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 Chào mừng bạn đến với khóa học CYP201, nơi chúng ta sẽ khám phá sâu về cách thức hoạt động của ví Bitcoin HD. Khóa học này được thiết kế cho bất kỳ ai muốn hiểu cơ bản kỹ thuật của việc sử dụng Bitcoin, dù họ là người dùng thông thường, người hâm mộ có hiểu biết, hay chuyên gia tương lai.
 
 Mục tiêu của khóa học này là cung cấp cho bạn chìa khóa để nắm vững các công cụ bạn hàng ngày sử dụng. Ví Bitcoin HD, nằm ở trung tâm trải nghiệm người dùng của bạn, dựa trên một số khái niệm phức tạp, mà chúng tôi sẽ cố gắng làm cho dễ tiếp cận. Cùng nhau, chúng ta sẽ làm sáng tỏ chúng!
 
 Trước khi đi sâu vào chi tiết cấu trúc và hoạt động của ví Bitcoin, chúng ta sẽ bắt đầu với một số chương về các nguyên tắc mã hóa cần biết cho phần sau.
-Chúng ta sẽ bắt đầu với hàm băm mã hóa, cơ bản cho cả ví và chính giao thức Bitcoin. Bạn sẽ khám phá các đặc điểm chính, các hàm cụ thể được sử dụng trong Bitcoin, và trong một chương kỹ thuật hơn, bạn sẽ học chi tiết về cách thức hoạt động của hàm băm hàng đầu: SHA256.
+Chúng ta sẽ bắt đầu với hàm băm mã hóa, cơ bản cho cả ví và chính giao thức Bitcoin. Bạn sẽ khám phá các đặc điểm chính, các hàm cụ thể được sử dụng trong Bitcoin, và trong một chương kỹ thuật hơn, bạn sẽ học chi tiết về cách thức hoạt động của hàm băm hàng đầu: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 Tiếp theo, chúng ta sẽ thảo luận về cách thức hoạt động của các thuật toán chữ ký số mà bạn sử dụng hàng ngày để bảo vệ UTXOs của mình. Bitcoin sử dụng hai loại: ECDSA và giao thức Schnorr. Bạn sẽ học về các nguyên tắc toán học đằng sau các thuật toán này và cách chúng đảm bảo an toàn cho giao dịch.
@@ -43,7 +45,7 @@ Tiếp theo, chúng ta sẽ thảo luận về cách thức hoạt động của
 Một khi chúng ta đã hiểu rõ về những yếu tố này của mã hóa, chúng ta cuối cùng sẽ chuyển sang trọng tâm của khóa học: ví xác định và phân cấp! Đầu tiên, có một phần dành riêng cho cụm từ ghi nhớ, những chuỗi từ 12 hoặc 24 từ giúp bạn tạo và khôi phục ví của mình. Bạn sẽ khám phá cách những từ này được tạo ra từ một nguồn entropy và làm thế nào chúng giúp việc sử dụng Bitcoin trở nên dễ dàng.
 
 ![CYP201](assets/en/003.webp)
-Khóa học sẽ tiếp tục với việc nghiên cứu về cụm từ BIP39, hạt giống (không nên nhầm lẫn với cụm từ ghi nhớ), mã chuỗi chủ, và khóa chủ. Chúng ta sẽ xem chi tiết những yếu tố này là gì, vai trò tương ứng của chúng, và cách chúng được tính toán.
+Khóa học sẽ tiếp tục với việc nghiên cứu về cụm từ [BIP39](https://planb.academy/resources/glossary/bip0039), hạt giống (không nên nhầm lẫn với cụm từ ghi nhớ), mã chuỗi chủ, và khóa chủ. Chúng ta sẽ xem chi tiết những yếu tố này là gì, vai trò tương ứng của chúng, và cách chúng được tính toán.
 
 ![CYP201](assets/en/004.webp)
 
@@ -88,6 +90,8 @@ Bảng này cung cấp cho bạn bản dịch các thuật ngữ tiếng Anh ch�
 ## Giới thiệu về Hàm Băm
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 Loại thuật toán mật mã đầu tiên được sử dụng trên Bitcoin bao gồm các hàm băm. Chúng đóng một vai trò thiết yếu ở các cấp độ khác nhau của giao thức, nhưng cũng trong ví Bitcoin. Hãy cùng khám phá xem hàm băm là gì và nó được sử dụng như thế nào trong Bitcoin.
 
@@ -197,6 +201,9 @@ Bây giờ bạn đã biết những kiến thức cơ bản thiết yếu về 
 ## Cơ Chế Hoạt Động Bên Trong của SHA256
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
+
 Chúng ta đã biết rằng các hàm băm có những đặc tính quan trọng giúp chúng được sử dụng trong Bitcoin. Bây giờ, chúng ta sẽ xem xét cơ chế bên trong của các hàm băm này, làm cho chúng có những đặc tính đó, và để làm điều này, tôi đề xuất phân tích hoạt động của SHA256.
 
 Các hàm SHA256 và SHA512 thuộc về cùng một gia đình SHA2. Cơ chế của chúng dựa trên một cấu trúc đặc biệt được gọi là **Merkle-Damgård construction**. RIPEMD160 cũng sử dụng loại cấu trúc tương tự.
@@ -556,6 +563,8 @@ Bây giờ chúng ta đã xem xét chi tiết về cách hoạt động của c�
 ## Các thuật toán được sử dụng để dẫn xuất
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 Trong Bitcoin ở cấp độ ứng dụng, ngoài các hàm băm, các thuật toán dẫn xuất mật mã cũng được sử dụng để tạo ra dữ liệu an toàn từ các đầu vào ban đầu. Mặc dù các thuật toán này dựa trên hàm băm, chúng phục vụ các mục đích khác nhau, đặc biệt là về xác thực và tạo khóa. Các thuật toán này giữ lại một số đặc điểm của hàm băm, như không thể đảo ngược, kháng thay đổi, và kháng va chạm.
 
 Trên ví Bitcoin, chủ yếu có 2 thuật toán dẫn xuất được sử dụng:
@@ -643,6 +652,8 @@ Trong chương này, chúng ta đã khám phá các hàm HMAC-SHA512 và PBKDF2,
 ## Chữ Ký Số và Đường Cong Elliptic
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
+
 Phương pháp mật mã thứ hai được sử dụng trong Bitcoin liên quan đến các thuật toán chữ ký số. Hãy khám phá điều này bao gồm những gì và cách hoạt động của nó.
 
 ### Bitcoin, UTXOs và Điều Kiện Chi Tiêu
@@ -656,7 +667,7 @@ Người dùng muốn thực hiện giao dịch Bitcoin do đó cần tạo mộ
 
 Kết quả là, người dùng sở hữu bitcoin được khóa bằng khóa công khai phải tìm cách lưu trữ an toàn cái cho phép mở khóa quỹ của họ: khóa riêng. Một ví Bitcoin chính xác là một thiết bị sẽ cho phép bạn dễ dàng giữ tất cả các khóa của mình mà không cho người khác truy cập vào chúng. Do đó, nó giống như một móc khóa hơn là một ví.
 
-Mối liên kết toán học giữa khóa công khai và khóa riêng, cũng như khả năng thực hiện chữ ký để chứng minh sở hữu khóa riêng mà không tiết lộ nó, được thực hiện bởi thuật toán chữ ký số. Trong giao thức Bitcoin, 2 thuật toán chữ ký được sử dụng: **ECDSA** (*Elliptic Curve Digital Signature Algorithm*) và **Schnorr signature scheme**. ECDSA là giao thức chữ ký số được sử dụng trong Bitcoin từ những ngày đầu. Schnorr là mới hơn trong Bitcoin, khi nó được giới thiệu vào tháng 11 năm 2021 với bản cập nhật Taproot.
+Mối liên kết toán học giữa khóa công khai và khóa riêng, cũng như khả năng thực hiện chữ ký để chứng minh sở hữu khóa riêng mà không tiết lộ nó, được thực hiện bởi thuật toán chữ ký số. Trong giao thức Bitcoin, 2 thuật toán chữ ký được sử dụng: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (*[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm*) và **Schnorr signature scheme**. ECDSA là giao thức chữ ký số được sử dụng trong Bitcoin từ những ngày đầu. Schnorr là mới hơn trong Bitcoin, khi nó được giới thiệu vào tháng 11 năm 2021 với bản cập nhật Taproot.
 Hai thuật toán này khá giống nhau về cơ chế của chúng. Cả hai đều dựa trên mật mã học đường cong elliptic. Sự khác biệt lớn giữa hai giao thức này nằm ở cấu trúc của chữ ký và một số tính chất toán học cụ thể. Chúng ta sẽ do đó nghiên cứu cách hoạt động của các thuật toán này, bắt đầu với cái cũ nhất: ECDSA.
 ### Mật mã học đường cong Elliptic
 
@@ -730,12 +741,15 @@ Chúng ta sử dụng trường hữu hạn của các số nguyên modulo $p$ �
 
 Toán học của đường cong elliptic trên trường hữu hạn tương đương với trường số thực, với sự điều chỉnh là tất cả các phép toán được thực hiện modulo $p$. Để giải thích đơn giản, chúng tôi sẽ tiếp tục trong các chương sau đây minh họa các khái niệm sử dụng một đường cong được định nghĩa trên số thực, trong khi nhớ rằng, trên thực tế, đường cong được định nghĩa trên một trường hữu hạn.
 
-Nếu bạn muốn tìm hiểu thêm về nền tảng toán học của mật mã học hiện đại, tôi cũng khuyên bạn tham khảo khóa học khác trên Plan ₿ Network:
+Nếu bạn muốn tìm hiểu thêm về nền tảng toán học của mật mã học hiện đại, tôi cũng khuyên bạn tham khảo khóa học khác trên Plan ₿ Academy:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Tính Khóa Công Khai từ Khóa Riêng
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
+
 Như đã thấy trước đây, các thuật toán chữ ký số trên Bitcoin dựa trên một cặp khóa riêng và khóa công khai có liên kết toán học với nhau. Hãy cùng khám phá liên kết toán học này là gì và chúng được tạo ra như thế nào.
 
 ### Khóa Riêng
@@ -861,6 +875,8 @@ Tất nhiên, trong ví dụ đơn giản này với $k = 4$, sẽ có thể tì
 ## Ký bằng Khóa Riêng
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 Bây giờ bạn đã biết cách suy ra khóa công khai từ khóa riêng, bạn đã có thể nhận bitcoin bằng cách sử dụng cặp khóa này như một điều kiện chi tiêu. Nhưng làm thế nào để chi tiêu chúng? Để chi tiêu bitcoin, bạn sẽ cần phải mở khóa _scriptPubKey_ gắn với UTXO của mình để chứng minh rằng bạn thực sự là chủ sở hữu hợp pháp của nó. Để làm điều này, bạn phải tạo ra một chữ ký $s$ phù hợp với khóa công khai $K$ hiện diện trong _scriptPubKey_ sử dụng khóa riêng $k$ đã được sử dụng ban đầu để tính toán $K$. Chữ ký số do đó là bằng chứng không thể chối cãi rằng bạn đang sở hữu khóa riêng liên kết với khóa công khai bạn tuyên bố.
 
@@ -1078,6 +1094,8 @@ Thực sự, chúng ta không biết tại sao Satoshi không chọn nó, nhưng
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 Như chúng ta đã thấy trong các chương trước, chữ ký số thường được sử dụng để mở khóa script của một đầu vào. Trong quá trình ký, cần phải bao gồm dữ liệu đã ký vào tính toán, được chỉ định trong các ví dụ của chúng tôi bằng thông điệp $m$. Dữ liệu này, một khi đã được ký, không thể được chỉnh sửa mà không làm cho chữ ký trở nên không hợp lệ. Thực sự, cho dù là ECDSA hay Schnorr, người xác minh chữ ký phải bao gồm trong tính toán của họ cùng một thông điệp $m$. Nếu nó khác với thông điệp $m$ ban đầu được sử dụng bởi người ký, kết quả sẽ không chính xác và chữ ký sẽ được coi là không hợp lệ. Khi đó, người ta nói rằng một chữ ký bao phủ một số dữ liệu nhất định và bảo vệ nó, theo một cách nào đó, khỏi sự chỉnh sửa không được phép.
 
 ### Cờ sighash là gì?
@@ -1131,7 +1149,7 @@ Nếu cờ sighash này được tích hợp vào Bitcoin, nó sẽ cho phép s�
 
 Để mở rộng kiến thức về Mạng Lưới Lightning, sau khóa học CYP201, tôi rất khuyên bạn nên tham gia khóa học LNP201 của Fanis Michalakis, nơi đề cập đến chủ đề này một cách chi tiết:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Trong phần tiếp theo, tôi đề xuất khám phá cách hoạt động của cụm từ ghi nhớ tạo nên ví Bitcoin của bạn.
 
@@ -1142,6 +1160,8 @@ Trong phần tiếp theo, tôi đề xuất khám phá cách hoạt động củ
 ## Sự phát triển của ví Bitcoin
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
+
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
 
 Sau khi đã khám phá cách hoạt động của hàm băm và chữ ký số, chúng ta có thể nghiên cứu cách ví Bitcoin hoạt động. Mục tiêu sẽ là tưởng tượng cách một ví trên Bitcoin được xây dựng, cách nó được phân rã, và những thông tin khác nhau tạo nên nó được sử dụng như thế nào. Hiểu biết về cơ chế ví sẽ giúp bạn cải thiện việc sử dụng Bitcoin về mặt an ninh và riêng tư.
 
@@ -1162,9 +1182,9 @@ Nếu muốn sử dụng nhiều khóa riêng, sau đó cần phải tạo nhi�
 
 Ràng buộc này xuất phát từ mô hình bảo mật của Bitcoin. Bằng cách tái sử dụng cùng một địa chỉ, nó làm cho việc truy vết tất cả giao dịch Bitcoin của tôi trở nên dễ dàng hơn cho các quan sát viên bên ngoài. Đó là lý do tại sao việc tái sử dụng một địa chỉ nhận được khuyến cáo mạnh mẽ là không nên. Tuy nhiên, để có nhiều địa chỉ và tách biệt công khai các giao dịch của chúng ta, cần phải quản lý nhiều khóa riêng. Trong trường hợp của ví JBOK, điều này đòi hỏi việc tạo ra nhiều bản sao lưu như có nhiều cặp khóa mới, một nhiệm vụ có thể nhanh chóng trở nên phức tạp và khó duy trì cho người dùng.
 
-Để tìm hiểu thêm về mô hình bảo mật của Bitcoin và khám phá các phương pháp để bảo vệ sự riêng tư của bạn, tôi cũng khuyến nghị theo dõi khóa học BTC204 của tôi trên Plan ₿ Network:
+Để tìm hiểu thêm về mô hình bảo mật của Bitcoin và khám phá các phương pháp để bảo vệ sự riêng tư của bạn, tôi cũng khuyến nghị theo dõi khóa học BTC204 của tôi trên Plan ₿ Academy:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Ví HD (_Hierarchical Deterministic_)
 
@@ -1184,7 +1204,10 @@ Trong các chương tiếp theo, chúng ta sẽ khám phá cơ chế hoạt đ�
 ## Entropy và Số Ngẫu Nhiên
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
-Ví HD hiện đại (xác định và phân cấp) dựa vào một mảnh thông tin ban đầu gọi là "entropy" để tạo ra toàn bộ bộ khóa ví một cách xác định. Entropy này là một số ngẫu nhiên giả có mức độ hỗn loạn phần nào xác định mức độ an toàn của ví.
+
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
+
+Ví HD hiện đại (xác định và phân cấp) dựa vào một mảnh thông tin ban đầu gọi là "[entropy](https://planb.academy/resources/glossary/entropy)" để tạo ra toàn bộ bộ khóa ví một cách xác định. Entropy này là một số ngẫu nhiên giả có mức độ hỗn loạn phần nào xác định mức độ an toàn của ví.
 
 ### Định Nghĩa của Entropy
 
@@ -1210,6 +1233,9 @@ Trong chương tiếp theo, chúng ta sẽ xem làm thế nào chúng ta đi t�
 ## Cụm Từ Ghi Nhớ
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
+
 Cụm từ ghi nhớ, còn được gọi là "cụm từ khôi phục", "cụm từ bí mật", hoặc "cụm từ 24 từ", là một chuỗi thường gồm 12 hoặc 24 từ, được tạo ra từ entropy. Nó được sử dụng để suy ra một cách xác định tất cả các khóa của một ví HD. Điều này có nghĩa là từ cụm từ này, có thể tạo ra và tái tạo tất cả các khóa riêng tư và khóa công khai của ví Bitcoin một cách xác định, và do đó truy cập vào các quỹ được bảo vệ bằng nó. Mục đích của cụm từ ghi nhớ là cung cấp một phương tiện sao lưu và khôi phục bitcoin một cách an toàn và dễ sử dụng. Nó được giới thiệu vào các tiêu chuẩn vào năm 2013 với BIP39.
 Hãy cùng khám phá cách chuyển từ entropy sang cụm từ ghi nhớ.
 
@@ -1261,7 +1287,7 @@ Ví dụ, đối với một entropy 256-bit, kết quả $\text{ENT} \Vert \tex
 
 ### Chuyển Đổi Chuỗi Nhị Phân thành Cụm Từ Ghi Nhớ
 
-Chuỗi bit $\text{ENT} \Vert \text{CS}$ sau đó được chia thành các phân đoạn 11 bit. Mỗi phân đoạn 11 bit, một khi được chuyển đổi sang thập phân, tương ứng với một số từ 0 đến 2047, chỉ vị trí của một từ [trong danh sách 2048 từ được chuẩn hóa bởi BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Chuỗi bit $\text{ENT} \Vert \text{CS}$ sau đó được chia thành các phân đoạn 11 bit. Mỗi phân đoạn 11 bit, một khi được chuyển đổi sang thập phân, tương ứng với một số từ 0 đến 2047, chỉ vị trí của một từ [trong danh sách 2048 từ được chuẩn hóa bởi BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 Ví dụ, đối với một entropy 128-bit, checksum là 4 bit, và do đó, chuỗi tổng cộng là 132 bit. Nó được chia thành 12 phân đoạn 11 bit (các bit màu cam chỉ checksum):
@@ -1302,11 +1328,13 @@ Kết quả là, việc chọn một cụm từ 24 từ không cung cấp thêm 
 Một cụm từ gồm 12 từ, cũng cung cấp 128 bit bảo mật, vì vậy hiện tại là đủ để bảo vệ bitcoin của bạn khỏi bất kỳ nỗ lực trộm cắp nào. Miễn là thuật toán chữ ký số không thay đổi để sử dụng khóa lớn hơn hoặc dựa vào một vấn đề toán học khác ngoài ECDLP, một cụm từ 24 từ vẫn là thừa. Hơn nữa, một cụm từ dài hơn tăng nguy cơ mất mát trong quá trình sao lưu: một bản sao lưu ngắn gấp đôi luôn dễ quản lý hơn.
 Để tìm hiểu thêm và biết cách tạo một cụm từ ghi nhớ thử nghiệm một cách thủ công, tôi khuyên bạn nên khám phá hướng dẫn này:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Trước khi tiếp tục với việc phát sinh ví từ cụm từ ghi nhớ này, tôi sẽ giới thiệu cho bạn, trong chương tiếp theo, về cụm từ BIP39, vì nó đóng vai trò trong quá trình phát sinh, và nó ở cùng một cấp độ với cụm từ ghi nhớ.
 ## Cụm từ bí mật
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
+
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
 Như chúng ta vừa thấy, ví HD được tạo ra từ một cụm từ ghi nhớ thường gồm 12 hoặc 24 từ. Cụm từ này rất quan trọng vì nó cho phép khôi phục tất cả các khóa của một ví trong trường hợp thiết bị vật lý của nó (như một ví cứng, chẳng hạn) bị mất. Tuy nhiên, nó tạo thành một điểm thất bại duy nhất, bởi vì nếu nó bị xâm phạm, kẻ tấn công có thể ăn cắp tất cả bitcoin. Đây là nơi cụm từ bí mật BIP39 đóng vai trò.
 
@@ -1339,6 +1367,8 @@ Trong phần tiếp theo, chúng ta sẽ khám phá cách hai yếu tố này t�
 
 ## Tạo Hạt Giống và Khóa Chính
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 Một khi cụm từ ghi nhớ và cụm từ bí mật tùy chọn được tạo ra, quá trình suy ra một ví HD Bitcoin có thể bắt đầu. Cụm từ ghi nhớ đầu tiên được chuyển đổi thành hạt giống, là cơ sở cho tất cả các khóa của ví.
 
@@ -1416,6 +1446,8 @@ Trước khi tiếp tục với việc phái sinh ví HD với các thành phầ
 
 ## Khóa Mở Rộng
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 Một khóa mở rộng đơn giản là sự kết hợp của một khóa (dù là riêng tư hay công khai) và mã chuỗi liên kết với nó. Mã chuỗi này rất quan trọng cho việc phái sinh khóa con vì, không có nó, việc phái sinh khóa con từ một khóa cha là không thể, nhưng chúng ta sẽ khám phá quy trình này một cách chính xác hơn trong chương tiếp theo. Những khóa mở rộng do đó cho phép tổng hợp tất cả thông tin cần thiết để phái sinh khóa con, qua đó đơn giản hóa quản lý tài khoản trong một ví HD.
 
@@ -1531,6 +1563,8 @@ Trong chương này, chúng ta đã khám phá ra rằng có hai loại khóa co
 
 ## Tạo ra Cặp Khóa Con
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 Việc tạo ra cặp khóa con trong ví HD Bitcoin dựa trên một cấu trúc phân cấp cho phép tạo ra một số lượng lớn khóa, trong khi tổ chức những cặp này vào các nhóm khác nhau thông qua các nhánh. Mỗi cặp con được tạo ra từ một cặp cha mẹ có thể được sử dụng trực tiếp trong *scriptPubKey* để khóa bitcoin, hoặc làm điểm bắt đầu để tạo ra nhiều khóa con hơn, và cứ thế, tạo ra một cây khóa.
 
@@ -1740,6 +1774,8 @@ $$
 ## Cấu Trúc Ví và Đường Dẫn Phái Sinh
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 Cấu trúc phân cấp của ví HD trên Bitcoin cho phép tổ chức các cặp khóa theo nhiều cách khác nhau. Ý tưởng là phái sinh, từ khóa riêng chính và mã chuỗi chính, nhiều cấp độ sâu khác nhau. Mỗi cấp độ được thêm vào tương ứng với việc phái sinh một cặp khóa con từ một cặp khóa cha.
 
 Theo thời gian, các BIP khác nhau đã giới thiệu các tiêu chuẩn cho các đường dẫn phái sinh này, nhằm mục đích chuẩn hóa việc sử dụng chúng trên các phần mềm khác nhau. Vì vậy, trong chương này, chúng ta sẽ khám phá ý nghĩa của từng cấp độ phái sinh trong ví HD, theo các tiêu chuẩn này.
@@ -1825,6 +1861,9 @@ Trong ví dụ này:
 Trong chương tiếp theo, chúng ta sẽ khám phá xem "*output script descriptors*" là gì, một sự đổi mới gần đây được giới thiệu trong Bitcoin Core giúp đơn giản hóa việc sao lưu ví Bitcoin.
 ## Output script descriptors
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
+
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 Người ta thường nói rằng chỉ cần cụm từ ghi nhớ là đủ để khôi phục quyền truy cập vào ví. Trên thực tế, mọi thứ phức tạp hơn một chút. Trong chương trước, chúng ta đã xem xét cấu trúc phái sinh của ví HD, và bạn có thể đã nhận thấy quy trình này khá phức tạp. Đường dẫn phái sinh chỉ cho phần mềm biết hướng nào để phái sinh các khóa của người dùng. Tuy nhiên, khi khôi phục ví Bitcoin, nếu không biết những đường dẫn này, chỉ có cụm từ ghi nhớ thôi là không đủ. Nó cho phép lấy khóa chính và mã chuỗi chính, nhưng sau đó cần phải biết các chỉ số được sử dụng để đạt đến các khóa con.
 
 Lý thuyết, sẽ cần phải lưu không chỉ cụm từ ghi nhớ của ví mà còn cả các đường dẫn đến các tài khoản mà chúng ta sử dụng. Trên thực tế, thường có thể lấy lại quyền truy cập vào các khóa con mà không cần thông tin này, miễn là đã tuân theo các tiêu chuẩn. Bằng cách kiểm tra từng tiêu chuẩn một, thường là có thể lấy lại quyền truy cập vào các bitcoin. Tuy nhiên, điều này không được đảm bảo và đặc biệt phức tạp đối với người mới bắt đầu. Ngoài ra, với sự đa dạng hóa của các loại script và sự xuất hiện của các cấu hình phức tạp hơn, thông tin này có thể trở nên khó khăn để suy luận, do đó biến dữ liệu này thành thông tin riêng tư và khó khôi phục bằng cách sử dụng lực lượng cưỡng bức. Đó là lý do tại sao một sự đổi mới gần đây đã được giới thiệu và bắt đầu được tích hợp vào phần mềm ví yêu thích của bạn: các *output script descriptors*.
@@ -1866,6 +1905,8 @@ Bây giờ bạn đã biết mọi thứ về hoạt động của ví HD trên 
 ## Địa Chỉ Nhận
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
+
 Địa chỉ nhận là các thông tin được nhúng trong *scriptPubKey* để khóa UTXOs mới được tạo. Nói một cách đơn giản, một địa chỉ phục vụ để nhận bitcoin. Hãy khám phá hoạt động của chúng liên quan đến những gì chúng ta đã nghiên cứu trong các chương trước.
 
 ### Vai Trò của Địa Chỉ Bitcoin trong Kịch Bản
@@ -1876,19 +1917,21 @@ Khi một người dùng nhận được bitcoin, người gửi tạo ra một 
 
 Chính xác thì trong *scriptPubKey* là nơi tìm thấy các địa chỉ nhận. Tuy nhiên, việc sử dụng của chúng thay đổi tùy thuộc vào tiêu chuẩn script được áp dụng. Dưới đây là bảng tóm tắt thông tin chứa trong *scriptPubKey* theo tiêu chuẩn được sử dụng, cũng như thông tin được mong đợi trong *scriptSig* để mở khóa *scriptPubKey*.
 
-| Tiêu Chuẩn         | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Dữ liệu tùy ý       |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Nguồn: Bitcoin Core PR review club, Ngày 7 tháng 7 năm 2021 - Gloria Zhao*
+
+| Tiêu chuẩn             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| ------------------------ | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Dữ liệu tùy ý | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Nguồn: Câu lạc bộ đánh giá Bitcoin Core PR ngày 7 tháng 7 năm 2021 – Gloria Zhao_
 
 Các opcode được sử dụng trong một script được thiết kế để thao tác thông tin, và nếu cần, để so sánh hoặc kiểm tra nó. Hãy lấy ví dụ về một script P2PKH, được viết như sau:
 
@@ -1979,6 +2022,8 @@ Bây giờ chúng ta đã nắm được lý thuyết, hãy chuyển sang thực
 
 ## Phát Sinh Địa Chỉ
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 Hãy cùng nhau khám phá cách tạo ra một địa chỉ nhận từ một cặp khóa nằm, ví dụ, ở độ sâu 5 của một ví HD. Địa chỉ này sau đó có thể được sử dụng trong phần mềm ví để khóa một UTXO.
 

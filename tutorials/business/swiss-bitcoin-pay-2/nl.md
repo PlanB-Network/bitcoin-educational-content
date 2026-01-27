@@ -11,12 +11,12 @@ Tegenwoordig bestaan er talloze oplossingen voor winkeliers die Bitcoin als beta
 Voor degenen die liever geen moeite doen en geld in fiatvaluta rechtstreeks op hun bankrekening ontvangen, zijn er custodial oplossingen zoals Open Node:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Voor handelaren die hun handen uit de mouwen willen steken en het proces volledig willen controleren, is BTCPay Server software een uitstekende optie. Het grote nadeel van BTCPay Server is echter dat de installatie en het beheer tijd kosten en enige technische expertise vereisen:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Van al deze oplossingen lijkt Swiss Bitcoin Pay een zeer interessant compromis tussen gebruiksgemak, functies en beveiliging. Deze oplossing is geschikt voor zowel zeer kleine bedrijven als grotere structuren. In deze tutorial ontdek je hoe je Swiss Bitcoin Pay eenvoudig kunt gebruiken om Bitcoin te accepteren in je bedrijf.
 
@@ -224,4 +224,4 @@ Klik rechtsboven op de knop "*Dashboard*", voer dan je e-mail Address en je wach
 
 Tenslotte heb je in het tabblad "*Instellingen*" de mogelijkheid om de informatie die je tijdens de registratie hebt verstrekt te wijzigen, waaronder de opnamemethoden en de verdeling tussen Bitcoin en fiat. zWITS Bitcoin BETALEN](assets/notext/50.webp)
 
-Gefeliciteerd! U hebt nu een betalingsverwerkingssysteem opgezet om Bitcoin in uw bedrijf te accepteren. Als u ook BTCPay Server wilt verkennen, een meer geavanceerde en complexe oplossing, raad ik u aan onze volledige training te volgen die specifiek aan deze software is gewijd: [BTC305](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).
+Gefeliciteerd! U hebt nu een betalingsverwerkingssysteem opgezet om Bitcoin in uw bedrijf te accepteren. Als u ook BTCPay Server wilt verkennen, een meer geavanceerde en complexe oplossing, raad ik u aan onze volledige training te volgen die specifiek aan deze software is gewijd: [BTC305](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).

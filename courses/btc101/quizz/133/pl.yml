@@ -1,9 +1,9 @@
-question: Jaki jest obecny rozmiar Bitcoin Blockchain?
-answer: Około 500 GB.
+question: Jaki jest obecny rozmiar łańcucha bloków Bitcoina?
+answer: Około 660GB
 wrong_answers:
-  - Około 100 GB.
-  - Około 1 TB.
-  - Około 2 TB.
+  - Około 110GB
+  - Około 1TB
+  - Około 2TB
 explanation: |
-  Bitcoin Blockchain ma rozmiar około 500 GB od 2023 roku.
+  Łańcuch bloków Bitcoina od 2025 r. ma rozmiar około 660GB.
 reviewed: true

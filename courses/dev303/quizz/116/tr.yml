@@ -1,0 +1,8 @@
+question: Breez SDK'nın birden fazla uygulamanın aynı seed ifadesini kullanarak aynı Lightning düğümüne bağlanmasına olanak tanıyan birlikte çalışabilirlik özelliğinin birincil avantajı nedir?
+answer: Kullanıcılar, birden fazla Lightning düğümünü yönetmenin karmaşıklığından kaçınırken, farklı özel uygulamalarda tek bir Lightning bakiyesini koruyabilir
+wrong_answers:
+  - Uygulamalar özel anahtarları doğrudan birbirleri arasında paylaşabilir ve kullanıcı müdahalesi olmadan uygulamalar arası sorunsuz işlem imzalamaya olanak sağlar
+  - Birden fazla uygulama, ağ için artırılmış yönlendirme kapasitesine sahip daha büyük Lightning kanalları oluşturmak için likiditelerini bir araya getirebilir
+  - Geliştiriciler, kendi düğüm yönetimlerini uygulamadan paylaşılan Lightning altyapısına erişerek geliştirme maliyetlerini ve karmaşıklığı azaltabilir
+explanation: |
+  SDK'nın birlikte çalışabilirliği, kullanıcıların ayrı bakiyeleri veya düğümleri yönetmeden aynı Lightning düğümüne ve fonlara birden fazla özel uygulamadan (genel bir wallet ve bir podcasting uygulaması gibi) erişmesine olanak tanır. Yanlış cevaplar mimariyi yanlış tanıtmaktadır: özel anahtarlar asla kullanıcının cihazından çıkmaz ve uygulamalar arasında paylaşılmaz, likidite havuzu sistemin çalışma şekli değildir ve geliştiriciler basitleştirilmiş altyapıdan faydalanırken, açıklanan birincil avantaj uygulamalar arasında birleştirilmiş kullanıcı deneyimidir.

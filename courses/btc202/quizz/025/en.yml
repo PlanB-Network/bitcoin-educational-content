@@ -1,4 +1,4 @@
-question: When is a pruned knot a problem for a wallet?
+question: When is a pruned node a problem for a wallet?
 answer: When restoring an old wallet
 wrong_answers:
   - When creating a new reception address

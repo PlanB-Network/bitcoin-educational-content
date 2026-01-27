@@ -1,0 +1,8 @@
+question: Khi tạo chữ ký cho đầu vào P2SH trong quá trình xây dựng giao dịch, cần sử dụng tập lệnh nào trong quá trình tính toán sighash?
+answer: Phải sử dụng tập lệnh đổi thưởng thay cho tập lệnh công khai (scriptPubKey).
+wrong_answers:
+  - Khóa công khai scriptPubKey gốc chứa mã băm phải được sử dụng trực tiếp.
+  - Phải sử dụng kết hợp cả scriptPubKey và script đổi mã.
+  - Thay vào đó, phải sử dụng ScriptSig chứa dữ liệu mở khóa.
+explanation: |
+  Trong quá trình tạo chữ ký P2SH, quy trình sighash yêu cầu sử dụng tập lệnh đổi thưởng thay cho scriptPubKey. Điều này rất quan trọng vì scriptPubKey chỉ chứa mã băm của tập lệnh đổi thưởng, chứ không phải các điều kiện chi tiêu thực tế. Tập lệnh đổi thưởng chứa logic thực sự (như các yêu cầu đa chữ ký) xác định cách thức chi tiêu đầu ra, vì vậy chữ ký phải được tạo dựa trên tập lệnh cơ bản này để hợp lệ. Sử dụng trực tiếp scriptPubKey sẽ thất bại vì nó chỉ chứa phép so sánh mã băm, chứ không phải các điều kiện chi tiêu thực tế cần được đáp ứng.

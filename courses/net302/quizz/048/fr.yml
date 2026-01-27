@@ -6,4 +6,4 @@ wrong_answers:
   - Couche réseau
 explanation: |
   L’adresse MAC opère à la couche 2 du modèle OSI, dite "couche liaison de données", où elle sert à l’adressage matériel des trames.
-reviewed: false
+reviewed: true 

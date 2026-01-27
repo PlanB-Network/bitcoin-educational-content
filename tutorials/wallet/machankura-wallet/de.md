@@ -101,7 +101,7 @@ Machankura geht dieses Problem jedoch an, indem es seine Funktionalität über s
 
 
 
-Um über neue Länder, in denen der Dienst verfügbar sein wird, informiert zu werden, besuchen Sie bitte regelmäßig die [Website] (https://8333.mobi).
+Um über neue Länder, in denen der Dienst verfügbar sein wird, informiert zu werden, besuchen Sie bitte regelmäßig die [Website](https://8333.mobi).
 
 
 
@@ -301,7 +301,7 @@ Eine Nachricht wird automatisch an die vorregistrierte Nummer gesendet, und der 
 
 
 
-Sie können die [Video-Sende-Demo] (https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) von Bitcoins von PIO TARAS (Lead Machankura Afrique Francophone) über Machankura auf einem einfachen Telefon ansehen.
+Sie können die [Video-Sende-Demo](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) von Bitcoins von PIO TARAS (Lead Machankura Afrique Francophone) über Machankura auf einem einfachen Telefon ansehen.
 
 
 
@@ -344,7 +344,7 @@ Machankura ist nicht nur ein Wallet. Sie können Exchange Ihre Satoshis für War
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Darüber hinaus steht Ihnen die Funktion **Clan**" zur Verfügung, mit der Sie ein kooperatives System mit mehreren Unterschriften verwalten können: Die Clan-Mitglieder müssen jede Ausgabe genehmigen, und Sie können die Mittel automatisch unter ihnen aufteilen.
 
@@ -370,7 +370,7 @@ Die zweite, die eine logische Erweiterung der ersten ist, soll eine integrative 
 
 
 
-Um loszulegen, müssen Sie eine Nachricht an Machankuras WhatsApp-Bot schreiben (ein einfaches "Hallo" ist mehr als genug). Seine WhatsApp-Nummer lautet [+27 73 762 5720] (https://wa.me/+27737625720).
+Um loszulegen, müssen Sie eine Nachricht an Machankuras WhatsApp-Bot schreiben (ein einfaches "Hallo" ist mehr als genug). Seine WhatsApp-Nummer lautet [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 
@@ -439,13 +439,13 @@ Machankura ermöglicht es Ihnen, Ihre Bitcoins über verschiedene Optionen zu ve
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura ermöglicht die Interoperabilität zwischen verschiedenen Lightning-Wallets. In dieser Demonstration senden wir Bitcoins von unserer Machankura WhatsApp Wallet an eine Wallet von Satoshi Wallet.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Um zu senden, geben Sie bitte die Zahl 1 ein, die der Option "BTC SENDEN" entspricht. Als nächstes wählen Sie die Sendeoption "Lightning Address" und geben dann den Address ein, an den die Bitcoins gesendet werden sollen. Schließlich wählen Sie die Wertmaßnahme "Sats", geben die Anzahl der zu versendenden Satoshis an und bestätigen den Versand.
 
@@ -577,9 +577,9 @@ Darüber hinaus ermöglicht Machankura es jedem, der Ihnen Bitcoins schicken mö
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### Saldo-Kontrolle
 

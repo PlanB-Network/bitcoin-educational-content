@@ -1,9 +1,9 @@
 question: ブロック内のトランザクションを要約するデータ構造は？
-answer: Merkle Tree
+answer: マークルツリー 
 wrong_answers:
-  - Hash UTXO テーブル
+  - ハッシュUTXOテーブル
   - peers.datファイル
   - assumeutxoレジスタ
 explanation: |
-  ブロック内のトランザクションはMerkle Treeにコミットされ、そのルートはブロックの完全性を保証するためにブロックヘッダに含まれる。
+  ブロック内のトランザクションはマークルツリーにコミットされ、そのルートはブロックの完全性を保証するためにブロックヘッダに含まれる。
 reviewed: true

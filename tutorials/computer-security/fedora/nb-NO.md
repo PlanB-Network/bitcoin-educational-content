@@ -126,7 +126,7 @@ Du kan laste ned [Fedora Workstation]-utgaven (https://fedoraproject.org/fr/work
 
 
 
-For å installere Fedora må du lage en oppstartbar USB-nøkkel ved hjelp av programvare som [Balena Etcher] (https://etcher.balena.io/).
+For å installere Fedora må du lage en oppstartbar USB-nøkkel ved hjelp av programvare som [Balena Etcher](https://etcher.balena.io/).
 
 
 
@@ -441,4 +441,4 @@ Nå er Fedora-systemet ditt oppdatert og klart til bruk for alle dine daglige op
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5

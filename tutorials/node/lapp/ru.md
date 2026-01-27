@@ -21,7 +21,7 @@ NodeJs можно скачать с его официального сайта
 - Express для нашего веб-сервера
 - Шаблоны Pug + bootstrap для нашего фронтенда
 
-https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Операционная система
 

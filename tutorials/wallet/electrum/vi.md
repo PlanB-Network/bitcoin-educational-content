@@ -299,7 +299,7 @@ Tiếp theo, chúng ta muốn kết nối ví bù nhìn của mình với một 
 2. Kết nối với node của một công ty đáng tin cậy
 3. Kết nối với một node ngẫu nhiên (không được khuyến nghị).
 
-Nhân tiện, đây là hướng dẫn để chạy node của riêng bạn, và đây là những lý do tại sao bạn nên làm điều đó. (tất cả hướng dẫn trong phần Node hoặc trong các khóa học miễn phí của chúng tôi tại đây: https://planb.network/en/tutorials/node)
+Nhân tiện, đây là hướng dẫn để chạy node của riêng bạn, và đây là những lý do tại sao bạn nên làm điều đó. (tất cả hướng dẫn trong phần Node hoặc trong các khóa học miễn phí của chúng tôi tại đây: https://planb.academy/en/tutorials/node)
 
 ### Kết nối với node của bạn bè qua Tor (Hướng dẫn sẽ sớm có.)
 

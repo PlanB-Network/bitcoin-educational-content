@@ -1,0 +1,9 @@
+question: Waar installeer ik ThunderHub op Umbrel?
+answer: App Store
+wrong_answers:
+  - SSH-console
+  - Systeeminstellingen
+  - Interface Bitcoin Kern
+explanation: |
+  ThunderHub wordt geïnstalleerd als een applicatie via de Umbrel App Store.
+reviewed: false

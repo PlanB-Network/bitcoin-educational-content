@@ -1,0 +1,9 @@
+question: کدام یک از این پلتفرم‌ها به شما اجازه می‌دهد تا نقدینگی ورودی را خریداری کنید؟
+answer: ماگما
+wrong_answers:
+  - Bitcoin Core
+  - 1ML
+  - Boltz
+explanation: |
+  ماگما خرید نقدینگی ورودی را از طریق یک بازار خودکار آسان می‌کند.
+reviewed: false

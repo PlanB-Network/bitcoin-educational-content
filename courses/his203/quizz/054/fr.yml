@@ -1,0 +1,9 @@
+question: Quel standard de paiement a été enregistré auprès de l'IANA en septembre 2012 par l'architecte logiciel Dave Thaler ?
+answer: Le schéma d'URI du BIP 21
+wrong_answers:
+  - Les portefeuilles déterministes hiérarchiques du BIP 32
+  - Le protocole de paiement du BIP 70
+  - Les codes de paiement réutilisables du BIP 47
+explanation: |
+ Ce standard permettait de formaliser les requêtes de paiement, qui se présentaient sous la forme d'une chaine de caractères ou d'un code QR. Après plusieurs propositions, un schéma d'URI final a été décrit en janvier 2012 au sein du BIP 21 par Matt Corallo. Il a été enregistré auprès de l'IANA par Dave Thaler en septembre.
+reviewed: false

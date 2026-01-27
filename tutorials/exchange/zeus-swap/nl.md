@@ -1,5 +1,5 @@
 ---
-name: Zeus Wissel
+name: Zeus Swap
 description: Niet-custodiale Exchange dienst tussen On-Chain en Lightning Network bitcoins
 ---
 
@@ -51,7 +51,7 @@ Voor meer informatie over hoe de Lightning Network werkt, kun je onze speciale c
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Bedrijfsmodel
 
@@ -149,7 +149,7 @@ Bekijk onze Zeus-handleiding voor meer informatie over deze complete Wallet :
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Webconfiguratie
 
@@ -390,12 +390,13 @@ Deze ultra-gesimplificeerde aanpak is perfect geschikt voor beginners, maar bepe
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Minimumbedrag |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + miningkosten | 0.5% + miningkosten | 25.000 sats |
+| **Boltz** | 0.2% + miningkosten | 0.5% + miningkosten | 50.000 sats |
+| **Phoenix** | Alleen miningkosten | 0.4% vast | 10.000 sats |
+| **Breez** | 0.25% + netwerkkosten | 0.5% + miningkosten | 50.000 sats |
 
 Zeus Swap biedt een balans tussen gebruiksgemak en technische controle: toegankelijker dan Boltz, flexibeler dan Phoenix/Breez, met een strikte non-custodial aanpak.
 

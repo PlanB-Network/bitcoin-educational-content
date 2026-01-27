@@ -17,7 +17,7 @@ Ma l'applicazione presenta anche un "nodo incorporato".
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Come promemoria, Lightning è una rete che opera in parallelo con Bitcoin, consentendo di scambiare bitcoin senza dover effettuare sistematicamente transazioni On-Chain. Il risultato è una transazione quasi istantanea, senza dover attendere 10 minuti per la convalida del blocco. Il risultato è una transazione quasi istantanea, senza dover attendere 10 minuti per la convalida di un blocco. Questo è particolarmente utile quando si paga un commerciante nel mondo fisico. Inoltre, Lightning offre un notevole livello di **confidenzialità** che la rete Bitcoin non possiede in modo nativo*.
 
@@ -200,7 +200,7 @@ Per ulteriori informazioni sul modo corretto di salvare e gestire la frase Mnemo
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -345,7 +345,7 @@ Zeus consente poi di aggiungere una nota per denominare il pagamento o di visual
 
 
 
-Si noti che, a differenza di un Wallet come [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), con Zeus il percorso viene calcolato localmente e non delegato a terzi (ACINQ nel caso di Phoenix). Quindi siete gli unici a conoscere il destinatario del pagamento. Perdiamo un po' di efficienza (i pagamenti richiedono un po' più di tempo per essere completati, ma guadagniamo molto in termini di privacy).
+Si noti che, a differenza di un Wallet come [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), con Zeus il percorso viene calcolato localmente e non delegato a terzi (ACINQ nel caso di Phoenix). Quindi siete gli unici a conoscere il destinatario del pagamento. Perdiamo un po' di efficienza (i pagamenti richiedono un po' più di tempo per essere completati, ma guadagniamo molto in termini di privacy).
 
 
 
@@ -422,8 +422,8 @@ Congratulazioni, ora siete pronti a utilizzare Zeus Embedded, il sistema di illu
 
 
 
-Per saperne di più sul funzionamento tecnico del Lightning Network, potete trovare l'eccellente formazione gratuita sul Plan ₿ Network di Fanis Michalakis:
+Per saperne di più sul funzionamento tecnico del Lightning Network, potete trovare l'eccellente formazione gratuita sul Plan ₿ Academy di Fanis Michalakis:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

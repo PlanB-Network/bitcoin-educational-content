@@ -11,7 +11,7 @@ Der Schutz persönlicher Daten hat im digitalen Zeitalter für jeden Internetnut
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Erste Schritte mit PureOS
 
@@ -64,11 +64,11 @@ Für die Installation und Konfiguration von PureOS auf Ihrem Computer benötigen
 
 
 
-Rufen Sie die [offizielle PureOS-Website] (https://pureos.net/) auf und laden Sie das ISO-Image des Betriebssystems entsprechend der Architektur Ihres Computers herunter.
+Rufen Sie die [offizielle PureOS-Website](https://pureos.net/) auf und laden Sie das ISO-Image des Betriebssystems entsprechend der Architektur Ihres Computers herunter.
 
 
 
-Um die PureOS-Installation zu starten, müssen Sie einen bootfähigen USB-Stick mit einer Flash-Software wie [Balena Etcher] (https://www.balena.io/etcher) erstellen.
+Um die PureOS-Installation zu starten, müssen Sie einen bootfähigen USB-Stick mit einer Flash-Software wie [Balena Etcher](https://www.balena.io/etcher) erstellen.
 
 
 
@@ -353,4 +353,4 @@ Entdecken Sie unseren Kurs zur Stärkung Ihrer Sicherheit und zum Schutz Ihrer d
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

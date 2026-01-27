@@ -344,7 +344,7 @@ Machankura si indege ya Wallet gusa. Ushobora Exchange satoshis zawe ku bicuruzw
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Ufise kandi igikorwa ca "**Clan**", kigufasha gucunga uburyo bwo gukorana n'imikono myinshi: abagize umuryango bategerezwa kwemeza amafaranga yose akoreshwa, kandi ushobora guca utanga amafaranga hagati yabo.
 
@@ -439,13 +439,13 @@ Machankura iraguha uburenganzira bwo kohereza ama bitcoins yawe biciye mu buryo 
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura ishoboza gukorana hagati y’ibikoresho bitandukanye vy’umuravyo. Muri iki kigereranyo, twohereza amafaranga y’ibiceri bivuye kuri WhatsApp yacu ya Machankura Wallet ku Wallet ya Satoshi Wallet.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Kugira ngo wohereze, usabwe kwinjiza umubare 1, uhuye n'uburyo bwa "SEND BTC". Inyuma y'aho, uhitemwo uburyo bwo kohereza "Lightning Address", hanyuma winjize Address aho ama bitcoins azorungikwa. Ubwa nyuma, uhitemwo ingero y'agaciro ka "Sats", werekane igitigiri c'amasatoshi azorungikwa maze wemeze ko ivyoherejwe.
 
@@ -577,9 +577,9 @@ Ikindi, Machankura iratuma umuntu wese yipfuza kukurungikira bitcoins abikora ak
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### Gusuzuma uburinganire
 

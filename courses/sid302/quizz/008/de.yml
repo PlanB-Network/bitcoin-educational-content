@@ -1,0 +1,8 @@
+question: Ein Entwickler möchte die Ausgabe von Vermögenswerten auf Elements testen, ohne externe Abhängigkeiten oder das Warten auf Blockbestätigungen - welche Konfiguration sollte er verwenden?
+answer: Legen Sie chain=elementsregtest fest, um eine lokale Testumgebung mit sofortiger Blockerzeugung zu schaffen
+wrong_answers:
+  - Legen Sie chain=liquidv1 fest, um eine Verbindung mit dem Liquid-Hauptnetz für sofortige Tests herzustellen
+  - Verwenden Sie den Befehl issueasset RPC mit dem Flag --testmode für isolierte Entwicklung
+  - "Konfigurieren Sie chain=bitcoin-regtest, um auf Elements-Funktionen in der Testumgebung von Bitcoin zuzugreifen"
+explanation: |
+  Mit der Konfiguration elementsregtest wird eine lokale Umgebung für Regressionstests geschaffen, in der Entwickler mit Befehlen wie generateblock sofort generate-Blöcke erzeugen können, um die Ausgabe von Vermögenswerten und andere Funktionen zu testen, ohne auf Netzwerkbestätigungen zu warten oder von externen Knoten abhängig zu sein. Die Einstellung chain=liquidv1 stellt eine Verbindung zum Liquid-Produktionsnetzwerk her, das 1-Minuten-Blockzeiten und externe Abhängigkeiten aufweist. Der issueasset-Befehl verfügt nicht über ein --testmode-Flag, und bitcoin-regtest ist für Bitcoin Core, nicht für Elements-Funktionen.

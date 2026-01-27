@@ -1,0 +1,9 @@
+question: Satoshi'ın sert fork'i yanlışlıkla gelecekteki yumuşak fork yükseltmelerini mümkün kılan hangi özel teknik özelliği yarattı?
+answer: OP_NOP1 ile OP_NOP10 arasındaki Komut Dosyası operatörleri işlem kodları
+wrong_answers:
+  - Madenci sinyali için BIP65 ve BIP113 aktivasyon mekanizmaları
+  - Mutabakat değişiklikleri için ileri ve geri uyumluluk çerçevesi
+  - Kullanıcı tarafından etkinleştirilen yumuşak fork (UASF) bayrak günü aktivasyon sistemi
+explanation: |
+  Eric Lombrozo'nun analizine göre, Satoshi'in sert fork'sı (makefile değişiklikleriyle ilgili bir taahhütte kötü bir şekilde iletilmiş ve gizlenmiştir) OP_NOP1 ila OP_NOP10 işlem kodlarını yanlışlıkla yaratmıştır. Bu 'işlem yok' kodları, çalıştırıldıklarında hiçbir şey yapmayacak şekilde tasarlanmıştı, ancak daha sonra yumuşak çatallar yoluyla yeni işlevler için yeniden kullanılabilecek yer tutucular sağladılar. OP_NOP2'nin OP_CHECKLOCKTIMEVERIFY (BIP65) ve OP_NOP3'ün OP_CHECKSEQUENCEVERIFY (BIP112) haline gelmesiyle bu öngörü kanıtlanmıştır. Diğer seçenekler yanlıştır çünkü BIP65 ve BIP113 bu opcode'ları oluşturmak yerine kullanan yükseltmelerdi, uyumluluk çerçevesi teknik bir özellikten ziyade kavramsal bir yaklaşımdır ve UASF Segwit tartışmaları sırasında çok daha sonra önerilmiştir.
+reviewed: false

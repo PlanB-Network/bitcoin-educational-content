@@ -1,0 +1,9 @@
+question: Mitkä ovat kaksi tärkeintä hajauttamisen näkökohtaa Bitcoin:ssa?
+answer: Miner hajauttaminen ja full node hajauttaminen
+wrong_answers:
+  - Tapahtumien hajauttaminen ja wallet:n hajauttaminen
+  - Verkon hajauttaminen ja protokollan hajauttaminen
+  - Käyttäjien hajauttaminen ja kehittäjien hajauttaminen
+explanation: |
+  Bitcoin:n hajauttamisessa on kaksi keskeistä osatekijää: kaivostoiminnan hajauttaminen ja full node:n hajauttaminen. Miner:n hajauttaminen tarkoittaa, että transaktioiden käsittelyä ja tilaamista ei valvo mikään yksittäinen taho, vaan dynaaminen kaivostyöläisten kollektiivi, johon voi liittyä tai josta voi poistua vapaasti. Full node-hajautuksella tarkoitetaan sitä, että lohkojen validoinnin suorittavat verkon reunalla käyttäjät itse eivätkä luotetut viranomaiset. Nämä kaksi näkökohtaa toimivat yhdessä sensuurinvastaisuuden saavuttamiseksi - louhijat estävät keskitetyn transaktioiden tilaamisen, kun taas täydet solmut varmistavat lohkoketjun luotettavan validoinnin.
+reviewed: false

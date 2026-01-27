@@ -1,0 +1,8 @@
+question: Koji je najznačajniji rizik pri korišćenju RC<RefCell<T>> za deljeno promenljivo stanje, i koji mehanizam pomaže da se to spreči?
+answer: Referentni ciklusi koji uzrokuju curenje memorije, sprečeni korišćenjem slabih referenci
+wrong_answers:
+  - Trke podataka između niti, sprečene korišćenjem Mutex umesto RefCell
+  - Panike u vreme izvođenja zbog kršenja pozajmljivanja, sprečene proverom u vreme kompilacije
+  - Prelivanje steka zbog duboke rekurzije, sprečeno ograničavanjem dubine referenci
+explanation: |
+  Kada koristite RC<RefCell<T>>, primarna opasnost je stvaranje referentnih ciklusa gde strukture podataka referenciraju same sebe direktno ili kroz lance. Ovi ciklusi sprečavaju da broj referenci dostigne nulu, uzrokujući curenje memorije jer se čini da podaci uvek imaju aktivne reference. Slabe reference rešavaju ovo tako što ne doprinose broju referenci koji se koristi za upravljanje memorijom, prekidajući cikluse dok očuvavaju veze. Ostale opcije su netačne: RC<RefCell<T>> nije bezbedan za niti, tako da trke podataka nisu glavna briga, RefCell specifično pomera provere na vreme izvršavanja umesto da ih sprečava u vreme kompajliranja, i prelivanje steka nije povezano sa mehanizmom brojanja referenci.

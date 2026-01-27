@@ -1,0 +1,8 @@
+question: Millise põhimõttelise väljakutse lahendamiseks platvormideüleses arenduses töötab UniFFI koos Rust raamatukogudega?
+answer: Vajadus luua käsitsi kohandatud sidumiskood iga sihtkeele jaoks, kui Rust madala taseme FFI-d eksponeeritakse
+wrong_answers:
+  - Rust suutmatus kompileerida mitmetes operatsioonisüsteemides töötavateks algupärasteks binaarkoodideks
+  - Mäluturvalisuse garantiide puudumine Rust koodi koostoimimisel prügikogumiskeeltega
+  - "Rust omandimudeli tõlkimisel viitelugudega keelte jaoks tekkiv jõudluskoormus"
+explanation: |
+  UniFFI lahendab konkreetselt iga sihtkeele jaoks sidumiskoodi käsitsi kirjutamise probleemi. Kui Rust kompileerib binaarseks väljundiks, toodab ta Foreign Function Interface (FFI), mis on madala tasemega ja mida on keeruline kasutada otse kõrgema taseme keeltest. Traditsiooniliselt pidid arendajad kirjutama iga sihtkeele (Python, Swift, Kotlin jne) jaoks kohandatud sidumiskoodi, mis tekitas olulisi takistusi kasutuselevõtule. UniFFI kõrvaldab selle üleliigsuse, genereerides need sidumised automaatselt oma UDL-spetsifikatsioonisüsteemi kaudu.

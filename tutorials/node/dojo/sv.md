@@ -7,7 +7,7 @@ description: En Bitcoin-nod med öppen källkod för integritet och autonomi
 
 
 
-*Denna handledning är baserad på [den officiella Ashigaru-dokumentationen] (https://ashigaru.rs/docs/), som jag har tagit över och utökat. Jag har skrivit om alla avsnitt för att förbättra tydligheten, lagt till ytterligare detaljerade förklaringar samt illustrationer för nybörjare, för att göra installationen och användningen lättare att förstå.*
+*Denna handledning är baserad på [den officiella Ashigaru-dokumentationen](https://ashigaru.rs/docs/), som jag har tagit över och utökat. Jag har skrivit om alla avsnitt för att förbättra tydligheten, lagt till ytterligare detaljerade förklaringar samt illustrationer för nybörjare, för att göra installationen och användningen lättare att förstå.*
 
 
 
@@ -64,7 +64,7 @@ För mer information om hur du väljer din utrustning rekommenderar jag att du g
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Rekommenderad utrustning
 
@@ -140,7 +140,7 @@ Från en dator som redan fungerar (din vanliga maskin), ladda ner Ubuntu LTS ISO
 
 
 
-Sätt i ett USB-minne på minst 8 GB i den här datorn och skapa sedan ett startbart minne med hjälp av en programvara som [Balena Etcher] (https://etcher.balena.io/). Välj den Ubuntu ISO-bild som du just har laddat ner, välj USB-nyckeln som målenhet och starta sedan skapandeprocessen (ha tålamod, det kan ta flera minuter).
+Sätt i ett USB-minne på minst 8 GB i den här datorn och skapa sedan ett startbart minne med hjälp av en programvara som [Balena Etcher](https://etcher.balena.io/). Välj den Ubuntu ISO-bild som du just har laddat ner, välj USB-nyckeln som målenhet och starta sedan skapandeprocessen (ha tålamod, det kan ta flera minuter).
 
 
 
@@ -192,7 +192,7 @@ För mer information om installationsprocessen för Ubuntu, se vår dedikerade h
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. Uppdatering av systemet
 
@@ -428,7 +428,7 @@ Systemet ber dig sedan att ange det lösenord du har valt och sedan bekräfta de
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Auktorisera användaren att använda Docker
 
@@ -1068,7 +1068,7 @@ För att fördjupa dina kunskaper om IBD och, mer allmänt, om hur din Bitcoin-n
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Övervakning av synkronisering
@@ -1103,7 +1103,7 @@ Dojo Maintenance Tool är ett säkert, webbaserat Interface som gör att du kan 
 
 
 
-För att komma åt den måste du känna till webbadressen till din DMT och ansluta till den [via Tor-webbläsaren] (https://www.torproject.org/download/). För att göra detta öppnar du en terminal och går till katalogen `/my-dojo`:
+För att komma åt den måste du känna till webbadressen till din DMT och ansluta till den [via Tor-webbläsaren](https://www.torproject.org/download/). För att göra detta öppnar du en terminal och går till katalogen `/my-dojo`:
 
 
 
@@ -1386,7 +1386,7 @@ Du är nu ansluten till din Dojo.
 
 
 
-Dojo installerar automatiskt en Block explorer, [BTC-RPC Explorer] (https://github.com/janoside/btc-RPC-explorer), som bygger direkt på data från din egen Bitcoin-nod. Med en explorer kan du få tillgång till råinformation från Blockchain och din Mempool via en lättförståelig Interface-webb. Du kan t.ex. enkelt kontrollera statusen för en pågående transaktion, se saldot för en Address eller undersöka sammansättningen av ett block.
+Dojo installerar automatiskt en Block explorer, [BTC-RPC Explorer](https://github.com/janoside/btc-RPC-explorer), som bygger direkt på data från din egen Bitcoin-nod. Med en explorer kan du få tillgång till råinformation från Blockchain och din Mempool via en lättförståelig Interface-webb. Du kan t.ex. enkelt kontrollera statusen för en pågående transaktion, se saldot för en Address eller undersöka sammansättningen av ett block.
 
 
 
@@ -1422,7 +1422,7 @@ Om du redan är ansluten till din DMT kan du också hitta denna Address i menyn 
 
 
 
-För att komma åt din webbläsare från vilken maskin som helst i vilket nätverk som helst (även på distans), öppna [Tor Browser] (https://www.torproject.org/download/) och ange den URL som du just har hämtat.
+För att komma åt din webbläsare från vilken maskin som helst i vilket nätverk som helst (även på distans), öppna [Tor Browser](https://www.torproject.org/download/) och ange den URL som du just har hämtat.
 
 
 
@@ -1567,7 +1567,7 @@ cd ~/
 
 
 
-Ladda ner den senaste versionen av Dojo från GitHub via Tor. I det här exemplet är det version `1.28.0` (som ännu inte finns i skrivande stund: detta är bara för att ge ett exempel). Kom ihåg att ersätta filen och länken [med den version du vill installera] (https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases):
+Ladda ner den senaste versionen av Dojo från GitHub via Tor. I det här exemplet är det version `1.28.0` (som ännu inte finns i skrivande stund: detta är bara för att ge ett exempel). Kom ihåg att ersätta filen och länken [med den version du vill installera](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases):
 
 
 

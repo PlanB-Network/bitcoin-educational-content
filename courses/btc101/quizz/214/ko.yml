@@ -1,11 +1,9 @@
-question: Lightning Network이란 무엇인가요?
-answer: Bitcoin 프로토콜을 사용하여 초고속 거래를 가능하게 하는 결제 네트워크입니다.
+question: 다음 중 Lightning에서 온체인에 기록되는 작업은 무엇입니까?
+answer: 채널 개설
 wrong_answers:
-  - 새로운 유형의 암호화폐.
-  - 향후 Blockchain를 대체할 새로운 Bitcoin 기술입니다.
-  - Mining Bitcoin의 방법.
+  - 중간 결제
+  - 상태 업데이트
+  - 다중 홉 라우팅
 explanation: |
-  Lightning Network는 빠른 거래를 가능하게 하는
-  Bitcoin 프로토콜을 사용하여 빠른 거래를 가능하게 합니다. 이는
-  별도의 암호화폐가 아니며, Mining Bitcoin을 위한 방법도 아닙니다.
-reviewed: true
+  Lightning 채널의 개설과 종료만이 블록체인에 게시되는 비트코인 거래에 해당합니다.
+reviewed: false

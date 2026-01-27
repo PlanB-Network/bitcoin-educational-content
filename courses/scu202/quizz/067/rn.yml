@@ -1,9 +1,9 @@
-question: Ni iyihe ntumbero nyamukuru ya VPN iyo uriko urakoresha urubuga rwa Wi-Fi rwa bose?
-answer: Gushiramwo uruja n'uruza hagati y'igikoresho na serveri ya VPN
+question: Ni iyihe ntumbero nyamukuru ya VPN iyo uriko urakoresha umuhora wa Wi-Fi ya bose?
+answer: Kunyegeza uruja n’uruza hagati y’igikoresho na seriveri ya VPN
 wrong_answers:
-  - Gutuma uruja n'uruza rwawe rwa interineti rutamenyekana
-  - Ubwo nyene ushiremwo ivyavuguruwe
-  - generate amajambobanga akomeye
+  - Gutuma inzira yawe ya Interineti itamenyekana
+  - Habeho gushirwa kugihe ubwo nyene
+  - Kurema amajambo y’ibanga akomeye
 explanation: |
-  VPN ipfuka amakuru yose y’urubuga, igakingira amakuru yawe ngo ntafatwe ku rubuga rudatekanye nka Wi-Fi ya bose.
-reviewed: false
+  VPN inyegeza uruja n’uruza rwose rw’umuhora, igakingira amakuru yawe ngo ntafatwe ku muhora utarinzwe nka Wi-Fi ya rusange.
+reviewed: true

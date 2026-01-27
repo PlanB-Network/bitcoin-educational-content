@@ -1,0 +1,8 @@
+question: Hva er den viktigste fordelen med å bruke derive-makroer som #[derive(Debug)] sammenlignet med manuell implementering av egenskaper for egendefinerte typer?
+answer: De gir automatisk generate komplette implementasjoner av egenskaper ved kompilering, noe som reduserer boilerplate-kode
+wrong_answers:
+  - De gir bedre kjøretidsytelse ved å optimalisere metodeanrop for egenskaper under kjøring
+  - De gjør det mulig å implementere egenskaper flere ganger for samme type med ulik atferd
+  - De muliggjør dynamisk implementering av egenskaper som kan endres under kjøring basert på programtilstanden
+explanation: |
+  Derive-makroer genererer automatisk generate-egenskapsimplementeringer under kompilering, slik at du ikke trenger å skrive repeterende boilerplate-kode manuelt. Når du bruker #[derive(Debug)], genererer kompilatoren all nødvendig formateringslogikk for den egenskapen. De gale svarene er feil fordi: derive-makroer forbedrer ikke kjøretidsytelsen (de generate den samme koden du ville skrevet manuelt), egenskaper kan bare implementeres én gang per type uavhengig av hvordan de implementeres, og derive-makroer generate statisk kode på kompileringstidspunktet i stedet for å muliggjøre kjøretidsmodifikasjoner.

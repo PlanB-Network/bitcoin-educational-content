@@ -1,16 +1,313 @@
 ---
 name: Bitcoin Keeper
-description: Bitcoin Keeper App - a mobile application that allows you to create both hot wallets and cold storage vaults for long term savings
+description: Bitcoin mobile wallet for security and multi-sig
 ---
 
 ![cover](assets/cover.webp)
 
-## Introduction
 
-In this video tutorial you'll go through how to set up and use Bitcoin Keeper App - a mobile application that allows you to create both hot wallets and cold storage vaults for long term savings. Keeper boasts extensive support for hardware wallets including items from Coinkite like the Coldcard and Tapsigner.
+The secure management of bitcoins represents a major challenge for any holder conscious of the stakes involved in financial sovereignty. Between the simplicity of a mobile wallet and the robustness of a multi-sig solution, the technical gap can seem daunting for many users. Bitcoin Keeper is positioned precisely at this intersection, offering a progressive approach to security that accompanies users as they evolve.
 
-![video](https://youtu.be/st9Oe4Dxxl4)
 
-To download Keeper see [here](bitcoinkeeper.app)
+Bitcoin Keeper is an open source mobile application, exclusively dedicated to Bitcoin, developed by the BitHyve team. Its ambition is to make advanced portfolio management accessible, especially multisignature configurations, while maintaining an intuitive interface for beginners. The application adopts the slogan "Secure today, Plan for tomorrow", reflecting its philosophy of long-term support.
 
-**Note:** This tutorial is just an English-only draft, we still require someone to write an extensive guide on this subject. If you are that one, please reach out to us on our [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) or on [GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)
+
+Unlike generalist wallets that manage multiple cryptocurrencies, Bitcoin Keeper maintains a strict focus on Bitcoin. This bitcoin-only approach reduces the potential attack surface and greatly simplifies the user experience. The application also stands out for its native integration of the most widespread hardware wallets and its advanced UTXO management features.
+
+
+## What is Bitcoin Keeper?
+
+
+### Philosophy and objectives
+
+
+Bitcoin Keeper was designed to meet the specific needs of bitcoiners wishing to retain full control of their private keys. The project fully embraces the fundamental principles of Bitcoin: open and auditable source code, respect for privacy, and user sovereignty. No registration or personal information is required to use the application, and it can even run offline for signing operations.
+
+
+The central objective is to offer a flexible, future-proof tool for storing BTC over several years, and even several generations, thanks to inheritance functionalities. The application enables users to start simply with a mobile wallet, and then gradually evolve towards more secure multi-signature solutions.
+
+
+### Application architecture
+
+
+Bitcoin Keeper organizes fund management around two distinct concepts. The **Hot Wallet** is a simple single-key wallet, stored on the phone, designed for day-to-day spending and modest amounts. Vaults** are multi-signature (Multi-Key) safes requiring several keys to authorize an expenditure, designed for long-term secure storage.
+
+
+### Main features
+
+
+Bitcoin Keeper supports almost all hardware wallets on the market: Coldcard, Trezor, Ledger, Keystone, BitBox02, Jade, Seedsigner, Passport, and Coinkite's Tapsigner. Integration takes place via different methods depending on the device: QR code scanning, NFC connection, or file import.
+
+
+The application also offers advanced UTXO management with transaction labeling, coin control to manually select inputs when sending, and PSBT format support for partially signed transactions.
+
+
+## Installation and initial configuration
+
+
+Bitcoin Keeper is available free on Android via the Google Play Store and on iOS via the App Store. The publisher listed is BitHyve. Before installing, make sure your device is malware-free, up to date, and not rooted or jailbroken.
+
+
+On first launch, the application asks you to create a security PIN code. This code protects access to your wallet and encrypts sensitive data locally. Choose a strong code and memorize it. You can then activate biometric authentication (fingerprint or Face ID) for faster unlocking.
+
+
+![Installation et configuration du PIN](assets/fr/01.webp)
+
+
+The application then presents several introductory screens explaining its three pillars: wallet creation to send and receive bitcoins, key management with hardware wallet compatibility, and legacy planning to pass on bitcoins. Press "Get Started", then choose "Start New" to create a new configuration.
+
+
+![Écrans d'introduction](assets/fr/02.webp)
+
+
+## Discovering the interface
+
+
+Bitcoin Keeper's interface is organized around four main tabs accessible from the bottom navigation bar:
+
+
+![Les quatre onglets de l'application](assets/fr/03.webp)
+
+
+The **Wallets** tab displays your wallets and their balances. This is where you access your wallets to send and receive bitcoins. The tags "Hot Wallet" and "Single-Key" or "Multi-Key" allow you to quickly identify the type of each wallet.
+
+
+The **Keys** tab centralizes the management of your signature keys. Here you'll find the Mobile Key generated by the application, as well as all keys imported from hardware wallets. This is also where you add new signature devices.
+
+
+The **Concierge** tab offers support services: submit questions to the support team and connect with Bitcoin advisors for personalized assistance.
+
+
+The **More** (More Options) tab gives access to settings such as personal server connection, key backup, inheritance documents, display preferences and wallet management.
+
+
+## Connection to your own server
+
+
+To reinforce your confidentiality, Bitcoin Keeper lets you connect the application to your own Electrum server, rather than using the default public servers.
+
+
+![Configuration du serveur Electrum](assets/fr/04.webp)
+
+
+From the More tab, scroll down to find the server settings. Press "Add Server" to configure a new connection. You can choose between "Public Server" (pre-configured public servers) and "Private Electrum" (your own server).
+
+
+For a private server, enter the URL (e.g. umbrel.local for a Umbrel node) and port number (usually 50001). Activate SSL if your server supports it. You can also scan a configuration QR code. Once you've entered the parameters, press "Connect to Server".
+
+
+If you don't yet have your own Bitcoin knot, take a look at our tutorial on Umbrel, a simple and affordable way to spin your own knot:
+
+
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+
+## Receive bitcoins
+
+
+From the Wallets tab, select the wallet from which you wish to receive funds by pressing it. The wallet screen displays the balance and three action buttons: Send Bitcoin, Receive Bitcoin, and View All Coins.
+
+
+![Réception de bitcoins](assets/fr/05.webp)
+
+
+Press "Receive Bitcoin". Bitcoin Keeper generates a new reception address in Bech32 format (starting with bc1...), together with its QR code. You can add a label to this address to identify the source of the funds. Share the address with the sender by displaying the QR code or copying the text address.
+
+
+The application automatically generates a new address for each reception, preserving your privacy. Use "Get New Address" to obtain a blank address if necessary.
+
+
+## UTXO management
+
+
+Bitcoin Keeper offers complete visibility of the UTXO (Unspent Transaction Outputs) making up your balance. From a wallet screen, press "View All Coins" to access the corner manager.
+
+
+![Gestion des UTXO](assets/fr/06.webp)
+
+
+The "Manage Coins" screen lists each UTXO individually with its amount and label. This view allows you to trace the origin of your coins and organize them. You can select specific UTXOs via "Select to Send" to send with coin control, thus avoiding mixing coins from different origins.
+
+
+## Send bitcoins
+
+
+To send, select the source portfolio and press "Send Bitcoin". Enter the destination address (pasted or scanned via QR code) and optionally add a label to identify the recipient.
+
+
+![Envoi de bitcoins](assets/fr/07.webp)
+
+
+The next screen allows you to enter the amount to be sent. The interface displays your available balance and the fiat currency conversion. Select charge priority: Low (economy, ~60 minutes), Medium, or High (priority). Estimated charges in sats/vbyte are displayed in real time. Press "Send" to continue.
+
+
+![Confirmation et envoi](assets/fr/08.webp)
+
+
+A summary screen displays all the details: wallet source, destination address, transaction priority, network charges, amount sent and total. Please check this information carefully, as Bitcoin transactions are irreversible. Press "Confirm & Send" to send the transaction.
+
+
+A "Send Successful" confirmation appears with the complete summary. The transaction is visible in the "Recent Transactions" history with its label.
+
+
+## Save your keys
+
+
+Backing up your Recovery Key is a critical step. From the More tab, go to the "Backup and Recovery" section and click on "Recovery Key".
+
+
+![Sauvegarde de la Recovery Key](assets/fr/09.webp)
+
+
+The screen displays the status of your backups. To verify your backup, the application asks you to confirm a specific word in your phrase (e.g. the 7th word). This verification ensures that you have correctly written down your recovery phrase.
+
+
+From "Recovery Key Settings", you can view your complete phrase via "View Recovery Key" and see the Signer Fingerprint of your key. Keep your 12-word phrase on paper, in a safe place, away from moisture and fire. Never store it on a connected device.
+
+
+## Add an external key (wallet hardware)
+
+
+One of Bitcoin Keeper's major assets is the integration of hardware wallets. From the Keys tab, press "Add key" to add a new signature device.
+
+
+![Ajout d'une clé hardware](assets/fr/10.webp)
+
+
+Select "Add key from a hardware" to connect a hardware wallet. The application supports a wide range of devices: BitBox02, Coldcard, Blockstream Jade, Keystone, Krux, Ledger, Foundation Passport, TwentyTwo Portal, Seedsigner, and Specter Solutions.
+
+
+### Tapsigner configuration
+
+
+The Tapsigner is an NFC card from Coinkite particularly suited to mobile use. If you want to learn more, we have a dedicated tutorial :
+
+
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
+To add the Tapsigner, select it from the list of hardware wallets.
+
+
+![Configuration du Tapsigner](assets/fr/11.webp)
+
+
+First enter the 6-32 digit PIN code printed on the back of your card (default on new cards), or your PIN if already configured. Press "Proceed", then bring your Tapsigner close to the back of your phone when "Ready to scan" is displayed. NFC communication automatically imports the public key. You can then add a description (e.g. "Métro Card") to identify this key.
+
+
+## Create a multisig portfolio
+
+
+Once you've set up your keys, you can create a multi-signature wallet combining several devices. From the Wallets tab, click on "Add Wallet".
+
+
+![Création d'un nouveau wallet](assets/fr/12.webp)
+
+
+You have three options: "Create Wallet" for a new portfolio, "Import Wallet" to restore an existing wallet, or "Collaborative Wallet" for a shared vault. Select "Create Wallet" then "Bitcoin Wallet".
+
+
+![Sélection du type de wallet](assets/fr/13.webp)
+
+
+The next screen offers different configurations: "Single-key", "2 of 3 multi-key", or "3 of 5 multi-key". For a customized multi-sig, press "Select custom setup". For example, choose "1 of 2": a single signature is required from two possible keys.
+
+
+Then select the keys that will make up your Vault. In our example, we combine the "Mobile Key" (phone software key) with the "TAPSIGNER" (Metro Card). This configuration offers redundancy: if one of the keys becomes inaccessible, you can always spend your funds with the other.
+
+
+![Finalisation du wallet multisig](assets/fr/14.webp)
+
+
+Name your wallet (e.g. "Test PlanB"), add an optional description, and check the selected keys. Press "Create Your Wallet". A "Wallet Created Successfully" confirmation message appears, reminding you to save the wallet recovery file.
+
+
+Your new multisig wallet now appears in the Wallets tab with the tag "Multi-key" and the indication "1 of 2".
+
+
+### Save configuration file
+
+
+**Unlike a simple wallet, where the recovery phrase is enough to restore access, a wallet multisig also requires the configuration file that describes the structure of the safe (which keys participate, how many signatures required). Without this file, even with all the recovery phrases, you won't be able to rebuild your wallet.
+
+
+![Export du fichier de configuration](assets/fr/15.webp)
+
+
+To export this file, select your wallet multisig in the Wallets tab, then press the Settings icon (gear) in the top right-hand corner. In "Wallet Settings", click on "Wallet configuration file". Several export options are available:
+
+
+
+- Export PDF**: generates a PDF document containing all wallet information
+- Show QR**: displays a scannable QR code for importing the configuration to another device
+- Airdrop / File Export**: exports the file via your phone's sharing options
+- NFC**: share via NFC with a compatible device
+
+
+Keep this configuration file separate from your recovery phrases, ideally on an encrypted or printed medium. If you lose your phone, this file combined with the recovery phrases for each participating key will enable you to rebuild your wallet multisig on Bitcoin Keeper or any other compatible software.
+
+
+## Best practices
+
+
+### Fund organization
+
+
+Structure your bitcoins according to their use: a hot wallet Single-Key for current expenses with limited amounts, and one or more Vaults Multi-Key for long-term savings. Systematic UTXO tagging will help you keep track of where your funds come from, which is particularly useful for managing confidentiality and avoiding mixing coins of different origins.
+
+
+Keep your phone secure: activate the biometric lock, perform system updates regularly, and remain vigilant about installed applications. And keep Bitcoin Keeper up to date with security patches.
+
+
+### Backup security
+
+
+Keep at least two copies of each recovery phrase on paper, stored in geographically separate locations. For large sums, consider engraved, disaster-resistant metal. Never store these phrases on a device connected to the Internet, and never photograph them.
+
+
+For multi-sig Vaults, also save the configuration file (Wallet Recovery File), which contains the participating public keys and the vault structure. This file, combined with the key recovery phrases, enables wallet to be rebuilt on any compatible software such as Sparrow or Specter.
+
+
+## Advantages and limitations
+
+
+### Highlights
+
+
+
+- Bitcoin-only application reduces complexity and risk
+- Native integration of multisig Vaults with step-by-step guidance
+- Extended hardware wallet support (Tapsigner, Coldcard, Ledger, Jade, etc.)
+- Advanced management of UTXO and coin control
+- Can be connected to a personal Electrum server
+- Open, auditable source code
+
+
+### Constraints to consider
+
+
+
+- Interface mainly in English
+- Some premium features (Cloud Backup, Assisted Server) require an upgrade
+- Multisig configuration requires initial training
+
+
+## Conclusion
+
+
+Bitcoin Keeper stands out as a scalable solution for managing your bitcoins. Its progressive approach, from the simple hot wallet to multi-signature Vaults, means that security can be upgraded as needs change. The ability to easily integrate hardware wallets like Tapsigner paves the way for robust configurations without excessive complexity.
+
+
+The bitcoin-only orientation, open source code and respect for privacy make it a choice aligned with the core values of the Bitcoin ecosystem.
+
+
+This tutorial covers the essential features of Bitcoin Keeper in its free version. The application also offers premium features (Cloud Backup, Assisted Server Backup, Canary Wallets) which will be the subject of a dedicated tutorial. In a forthcoming guide, we'll also be exploring the Inheritance Planning feature, which enables you to prepare the transmission of your bitcoins to your loved ones, thanks to the Enhanced Vaults and accompanying documents integrated into the application.
+
+
+## Resources
+
+
+
+- Official website: [bitcoinkeeper.app](https://bitcoinkeeper.app)
+- Help Center: [help.bitcoinkeeper.app](https://help.bitcoinkeeper.app)
+- Source code: [github.com/bithyve/bitcoin-keeper](https://github.com/bithyve/bitcoin-keeper)
+- Telegram : [t.me/BitcoinKeeper](https://t.me/BitcoinKeeper)
+- Twitter/X: [@bitcoinkeeper_](https://x.com/bitcoinkeeper_)

@@ -6,25 +6,26 @@ description: Buka percakapan tanpa perantara pada protokol Tox yang terdesentral
 
 Enkripsi end-to-end adalah layanan yang ditawarkan oleh banyak aplikasi perpesanan seperti WhatsApp dan Telegram. Enkripsi di sini berarti bahwa sebelum pesan dikirim oleh pengirim, pesan tersebut diamankan oleh kunci kriptografi yang hanya dimiliki oleh penerima. Hari ini kita akan menemukan aplikasi perpesanan yang sepenuhnya terdesentralisasi, dengan enkripsi end-to-end, yang didasarkan pada prinsip yang mirip dengan Blockchain, untuk menawarkan komunikasi yang aman dan terenkripsi secara end-to-end tanpa perantara: Tox Chat.
 
-| Aplikasi       | E2EE 1:1       | E2EE Grup   | Pendaftaran Anonim | Lisensi client open-source | Lisensi server open-source | Server Terdesentralisasi | Tahun Dibuat |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (opsional) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (opsional) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federasi)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federasi)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(tanpa direktori)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| **Tox**              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+
+| Aplikasi             | E2EE 1:1       | E2EE grup    | Pendaftaran anonim  | Lisensi klien open-source | Lisensi server open-source | Server terdesentralisasi | Tahun pembuatan |
+| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | ---------------------- | ---------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                      | 2009             |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                      | 2011             |
+| Facebook Messenger   | ✅              | 🟡 (opsional) | ❌                   | ❌                          | ❌                           | ❌                      | 2011             |
+| Telegram             | 🟡 (opsional) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                      | 2013             |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                      | 2011             |
+| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                      | 2014             |
+| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                      | 2012             |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (terfederasi)       | 2016             |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (melalui email)     | 2017             |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (terfederasi)       | 2014             |
+| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                      | 2020             |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                      | 2021             |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(tanpa direktori)     | 2019             |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                      | 2022             |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                      | 2005             |
+| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                      | 2018             |
+| **Tox**              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                      | 2013             |
 
 *E2EE = Enkripsi end-to-end*
 
@@ -148,4 +149,4 @@ Bayangkan Anda menulis kepada pengguna kami `EBC5604D9386E594CCC32943A03F96A9668
 
 Jika Anda menikmati penemuan Tox dan dapat memahami bagaimana kegunaannya untuk memperkuat privasi Anda, silakan berikan "suka" pada tutorial ini. Kami juga merekomendasikan tutorial kami tentang Simple Login, sebuah aplikasi yang memungkinkan Anda menerima dan mengirim email secara anonim.
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

@@ -1,0 +1,9 @@
+question: ใครเป็นผู้คิดค้นแนวคิดการตรวจสอบการชำระเงินแบบง่าย (SPV)?
+answer: Satoshi นากาโมโตะ
+wrong_answers:
+  - Hal Finney
+  - อดัม แบ็ค
+  - ปีเตอร์ วีลล์
+explanation: |
+  SPV ถูกนำเสนอในส่วนที่ 8 ของเอกสารไวท์เปเปอร์ Satoshi ของ Nakamoto
+reviewed: true

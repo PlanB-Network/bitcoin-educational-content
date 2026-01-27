@@ -25,7 +25,7 @@ Collega il Ledger al computer e sbloccalo.
 
 ![Image](assets/fr/01.webp)
 
-Per installare l'applicazione, apri il software [Ledger Live] (https://www.Ledger.com/Ledger-live), quindi vai alla scheda "*My Ledger*". Trova l'applicazione "*Chiave di sicurezza*" e installala sul dispositivo.
+Per installare l'applicazione, apri il software [Ledger Live](https://www.ledger.com/Ledger-live), quindi vai alla scheda "*My Ledger*". Trova l'applicazione "*Chiave di sicurezza*" e installala sul dispositivo.
 
 ![Image](assets/fr/02.webp)
 
@@ -93,4 +93,4 @@ Congratulazioni, ora sei in grado di utilizzare il tuo Ledger per l'MFA! Se hai 
 
 Ti consiglio anche quest'altro tutorial, in cui esaminiamo un'altra soluzione per l'autenticazione U2F e FIDO2:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

@@ -1,0 +1,9 @@
+question: มีการกล่าวถึงทางเลือกใดสำหรับธุรกิจที่ต้องการสภาพแวดล้อมการค้าปลีกออนไลน์แบบครบวงจร?
+answer: บี-บ็อพ
+wrong_answers:
+  - Phoenix
+  - Open Node
+  - Swiss Bitcoin Pay
+explanation: |
+  Be-BOP เป็นตัวเลือกสำหรับผู้ที่ต้องการร้านค้าออนไลน์แบบบูรณาการที่รองรับการชำระเงิน Bitcoin
+reviewed: true

@@ -1,0 +1,8 @@
+question: Ni katika hali gani RefCell ingetumika ipasavyo zaidi kutatua kizuizi cha kukopa kwa muda wa kukusanya?
+answer: Wakati wa kutekeleza kitu cha majaribio kinachohitaji kufuatilia mabadiliko ya hali ya ndani kupitia kiolesura cha sifa kisichobadilika
+wrong_answers:
+  - Unapohitaji kushiriki data kati ya nyuzi nyingi na kuhitaji hesabu ya marejeleo ya atomiki
+  - Unapotaka kuepuka gharama ya ziada ya muda wa utekelezaji kwa kuhamisha ukaguzi wote wa mkopo hadi wakati wa kukusanya
+  - Wakati wa kuunda marejeleo ya mviringo kati ya miundo ya data inayohitaji usafishaji wa kumbukumbu kiotomatiki
+explanation: |
+  RefCell imeundwa kwa ajili ya hali za mabadiliko ya ndani ambapo unahitaji kubadilisha data kupitia marejeleo yasiyobadilika, haswa wakati uchanganuzi tuli wa mkusanyaji ni wa kihafidhina sana. Vitu vya kejeli vinavyotekeleza sifa zenye mbinu zisizobadilika lakini vinahitaji kufuatilia hali ya ndani vinawakilisha hali kamili ya matumizi. Chaguzi zingine si sahihi: RefCell si salama kwa nyuzi, huhamisha ukaguzi hadi wakati wa utekelezaji (sio wakati wa kukusanya), na haisuluhishi matatizo ya marejeleo ya mviringo - inaweza kuchangia hayo inapojumuishwa na RC.

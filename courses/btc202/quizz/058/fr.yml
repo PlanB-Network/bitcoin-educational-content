@@ -6,4 +6,4 @@ wrong_answers:
   - L’impossibilité d’utiliser RPC
 explanation: |
   Les connexions Tor sont sécurisées, mais plus lentes que les alternatives comme le VPN.
-reviewed: false
+reviewed: true 

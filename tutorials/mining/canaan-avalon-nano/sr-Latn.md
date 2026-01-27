@@ -23,7 +23,7 @@ Ovi uređaji se reklamiraju ili kao pomoćni grejač u slučaju **Avalon Nano 3S
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Imajte na umu da razlika u ceni u odnosu na tradicionalne grejače ekvivalentne snage u velikoj većini slučajeva ne omogućava ostvarivanje finansijskog profita. Satoši generisani aktivnošću Mining nikada neće nadoknaditi ovu razliku u ceni, osim ako nemate pristup besplatnoj (višak) ili veoma jeftinoj električnoj energiji.
 
@@ -207,9 +207,9 @@ Za više detalja o tome kako se povezati na Mining pool, pogledajte ove tutorija
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Da sumiramo, mi treba da
 
@@ -358,4 +358,4 @@ Da biste saznali više, pogledajte naš vodič o superiornoj verziji Avalona: Mi
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

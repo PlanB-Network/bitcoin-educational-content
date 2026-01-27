@@ -1,21 +1,18 @@
 ---
-name: Introduction to Austrian Economics
-goal: Discover the Austrian school of economic thought. Study their views on society and macro/micro-economic realities.
+name: Austrian School of Economics Fundamentals
+goal: Discover Austrian economics as an alternative framework for analyzing markets and individual decision-making
 objectives:
-  - An alternative to Keynesianism
-  - The importance of hard currency
-  - Why and how are our economic cycles created?
-  - Why have central bankers gone mad?
+- Analyze the functions of money, credit, and central banking systems
+- Apply subjective value theory and time preference to market behavior
+- Understand the Austrian business cycle theory and its causes
+- Compare Austrian methodology with mainstream economic approaches
 ---
+# Journey to the Austrian Economics
 
-# A Journey into Economics
+Ever wondered why some economists think differently about markets, freedom, and human behavior? Austrian economics offers a refreshing perspective that puts you at the heart of economic thinking. Instead of heavy math and abstract models, this approach focuses on logic, human choice, and how real people make decisions in their daily lives. It's economics through the lens of freedom, rationality, and personal action.
 
-Welcome to Théo Mogenet's course! Passionate about economics, history, literature, political science, and technology, he has decided to share his knowledge of Austrian economics with you. This branch, less known in economics, is based on human rationality and free actor behavior. Less intense in mathematics, it is a question of logic and social study above all.
-
-This school of thought has already had several centuries behind it and has a whole panorama of authors, thoughts, and economists behind it. Great names in economics such as Hayek, Rothbard, Mises, Bastiat, or Menger have long defended this movement. In contrast to the omnipresent Keynesianism of our day, the Austrian school puts the individual back at the center of the equation with a more liberal, capitalist, and even anarchist approach.
-
+This school of thought has shaped debates for centuries, thanks to influential thinkers like Hayek, Mises, and Bastiat. While mainstream Keynesian economics dominates today's policy discussions, the Austrian tradition asks different questions: What happens when we prioritize individual liberty? How do free markets actually work when people are free to choose? If you're curious about alternative ways of thinking about markets, society, and freedom, this is your chance to explore ideas you won't find in standard textbooks.
 +++
-
 # Introduction
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
@@ -529,9 +526,8 @@ The consequences of such misallocation include financial and economic crises, re
 
 Today, the economic calculation debate resurfaces primarily in discussions about energy, where malinvestments driven by a green agenda are becoming increasingly evident. It also arises in discussions about money markets, with Austrian economists pointing out that the 2008 crisis, which mainstream economists failed to predict, was a classic boom and bust cycle characterized by overinvestment in the housing market due to prolonged periods of low interest rates. Furthermore, neo-Marxists and other socialist factions propagate the notion that the emergence of AI could resolve the economic calculation problem. However, this perspective stems from a flawed understanding of the issue; the economic calculation problem is not a matter of computing power but rather a matter of generating and distributing information related to production and resource allocation. This information can only be generated locally by agents with specialized knowledge and a vested interest in the outcome. AI cannot replace this bottom-up process and, therefore, cannot help central planners address the resource allocation problem. Unfortunately, due to a century of misunderstanding, we anticipate a proliferation of claims that AI will usher in a new era of economic prosperity led by enlightened central planners who, with the aid of AI, can correct the failures of free markets.
 
-For a concrete application of the economic calculation problem to a contemporary situation, you can refer to this article tackling the problem of resource allocation in modern China.
+For a concrete application of the problem of economic calculation to a contemporary situation, you may refer to this article addressing the allocation of resources in modern China: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, by Théo Mogenet.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Conclusion

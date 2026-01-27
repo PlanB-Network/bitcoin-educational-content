@@ -1,0 +1,9 @@
+question: เบราว์เซอร์ใดที่แนะนำ JavaScript ในปี 1995?
+answer: เน็ตสเคป เนวิเกเตอร์
+wrong_answers:
+  - อินเทอร์เน็ตเอ็กซ์พลอเรอร์
+  - Firefox
+  - ซาฟารี
+explanation: |
+  Netscape Navigator รวมภาษา JavaScript ซึ่งพัฒนาโดย Brendan Eich ในปี 1995 เพื่อให้สามารถโต้ตอบแบบไดนามิกบนหน้าเว็บได้
+reviewed: false

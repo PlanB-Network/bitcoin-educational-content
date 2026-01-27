@@ -1,0 +1,8 @@
+question: Qual é a relação matemática entre o valor de dificuldade do Bitcoin e o objetivo atual utilizado para a validação do bloco?
+answer: A dificuldade é igual ao objetivo mais baixo possível dividido pelo objetivo atual
+wrong_answers:
+  - A dificuldade é igual ao objetivo atual dividido pelo objetivo mais baixo possível
+  - A dificuldade é igual ao objetivo atual multiplicado pelo objetivo mais baixo possível
+  - A dificuldade é igual ao coeficiente vezes 256 elevado ao expoente menos 3
+explanation: |
+  A dificuldade do Bitcoin é especificamente definida como lowest_target / current_target, que expressa quantas vezes o mining é mais difícil em comparação com a dificuldade mais fácil possível. Esta relação inversa significa que à medida que o alvo fica mais pequeno (tornando os hashes válidos mais difíceis de encontrar), a dificuldade aumenta proporcionalmente. A fórmula garante que a dificuldade de 1 representa as condições mais fáceis do mining, enquanto valores mais altos indicam proporcionalmente mais trabalho computacional necessário para encontrar blocos válidos.

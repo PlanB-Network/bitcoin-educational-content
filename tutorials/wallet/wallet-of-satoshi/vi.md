@@ -4,6 +4,12 @@ description: Wallet bảo vệ đơn giản nhất để bắt đầu
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Lưu ý: kể từ đầu năm 2026, Wallet of Satoshi ở chế độ custodial (như được trình bày trong hướng dẫn này) không còn khả dụng trong Liên minh Châu Âu. Nếu bạn cư trú tại khu vực này và muốn tiếp tục sử dụng công cụ này, bạn sẽ cần sử dụng một VPN được đặt bên ngoài EU. Một lựa chọn khác là sử dụng Wallet of Satoshi ở chế độ self-custodial. Một hướng dẫn chuyên biệt sẽ sớm được công bố trên Plan ₿ Academy.*
+
+---
+
 _Bài hướng dẫn này được viết bởi_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
@@ -12,7 +18,7 @@ _Bài hướng dẫn này được viết bởi_ [Bitcoin Campus](https://linktr
 
 Wallet của Satoshi là Lightning Network Wallet, có tính bảo vệ và rất dễ sử dụng.
 
-Đối với mục đích của khóa học [BTC105 - Tìm kiếm ngay bây giờ](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), nó được sử dụng để cấp chứng từ Redeem Lightning Network.
+Đối với mục đích của khóa học [BTC105 - Tìm kiếm ngay bây giờ](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), nó được sử dụng để cấp chứng từ Redeem Lightning Network.
 
 
 **Luôn nhớ**: _không phải chìa khóa, không phải tiền xu của bạn_

@@ -139,7 +139,7 @@ Można również zakupić **urządzenie OPNsense do montażu w szafie rack** za 
 
 
 
-Należy wziąć pod uwagę zasoby sprzętowe wymagane do uruchomienia OPNsense. Jest to szczegółowo opisane na [tej stronie dokumentacji] (https://docs.opnsense.org/manual/hardware.html).
+Należy wziąć pod uwagę zasoby sprzętowe wymagane do uruchomienia OPNsense. Jest to szczegółowo opisane na [tej stronie dokumentacji](https://docs.opnsense.org/manual/hardware.html).
 
 
 

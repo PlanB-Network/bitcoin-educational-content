@@ -1,27 +1,27 @@
 ---
 name: Richtlijnen voor proeflezen
-description: Wat zijn de belangrijke factoren om in gedachten te houden bij het proeflezen op Plan ₿ Network?
+description: Wat zijn de belangrijke factoren om in gedachten te houden bij het proeflezen op Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Welkom bij deze handleiding over de **richtlijnen die gevolgd moeten worden bij het proeflezen van inhoud op Plan ₿ Network**. We zijn blij dat u onze missie deelt om Bitcoin cursussen en lesmateriaal in zoveel mogelijk talen te vertalen, zodat mensen zich bewust worden van hoe het werkt en hoe het gebruikt kan worden in hun dagelijks leven.
+Welkom bij deze handleiding over de **richtlijnen die gevolgd moeten worden bij het proeflezen van inhoud op Plan ₿ Academy**. We zijn blij dat u onze missie deelt om Bitcoin cursussen en lesmateriaal in zoveel mogelijk talen te vertalen, zodat mensen zich bewust worden van hoe het werkt en hoe het gebruikt kan worden in hun dagelijks leven.
 
 
-Ten eerste, bijdragen aan Plan ₿ Network [openbare repository](https://github.com/PlanB-Network/Bitcoin-educational-content) geeft je de kans om handleidingen te schrijven, de bestaande inhoud te proeflezen, of zelfs de toevoeging van een nieuwe taal aan het platform voor te stellen. Om meer te weten te komen, moet je eerst lid worden van onze [Telegram Groep](https://t.me/PlanBNetwork_ContentBuilder) en een korte presentatie schrijven over jezelf en de talen die je spreekt.
+Ten eerste, bijdragen aan Plan ₿ Academy [openbare repository](https://github.com/PlanB-Network/Bitcoin-educational-content) geeft je de kans om handleidingen te schrijven, de bestaande inhoud te proeflezen, of zelfs de toevoeging van een nieuwe taal aan het platform voor te stellen. Om meer te weten te komen, moet je eerst lid worden van onze [Telegram Groep](https://t.me/PlanBNetwork_ContentBuilder) en een korte presentatie schrijven over jezelf en de talen die je spreekt.
 
 
-Deze handleiding is bedoeld voor bijdragers die inhoud willen proeflezen. De meesten van hen weten niet veel over [Github](https://planb.network/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) of de [Markdown taal](https://www.markdownguide.org/basic-syntax/) die we gebruiken in de repository. Het is dus belangrijk om wat inzichten te delen over de belangrijkste aspecten die deze taak omvatten.
+Deze handleiding is bedoeld voor bijdragers die inhoud willen proeflezen. De meesten van hen weten niet veel over [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) of de [Markdown taal](https://www.markdownguide.org/basic-syntax/) die we gebruiken in de repository. Het is dus belangrijk om wat inzichten te delen over de belangrijkste aspecten die deze taak omvatten.
 
 
 Hieronder heb ik de meest voorkomende problemen verzameld die proeflezers tegenkomen. Voel je vrij om er meer te suggereren, omdat het anderen kan helpen zich te verbeteren.
 
 
-Voordat je in de details hieronder duikt, is het eerste wat je moet doen deze tutorial lezen over de praktische acties die je moet volgen op Github, door Plan ₿ Network repository te forken, wijzigingen te committen en PR's te verzenden:
+Voordat je in de details hieronder duikt, is het eerste wat je moet doen deze tutorial lezen over de praktische acties die je moet volgen op Github, door Plan ₿ Academy repository te forken, wijzigingen te committen en PR's te verzenden:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
 ## Wat is proeflezen?
@@ -38,13 +38,13 @@ Onthoud altijd dat vertalen/proeflezen ONDERWIJS is!
 
 In feite is het ons gezamenlijke doel om zoveel mogelijk mensen te onderwijzen over Bitcoin, dus is het van fundamenteel belang dat het materiaal dat ze lezen vlot en duidelijk is.
 
-In die zin zijn alle medewerkers op Plan ₿ Network docenten!
+In die zin zijn alle medewerkers op Plan ₿ Academy docenten!
 
 
-## De eerste stappen voor proeflezen op Plan ₿ Network
+## De eerste stappen voor proeflezen op Plan ₿ Academy
 
 
-Voordat je aan een nieuwe proefleestaak begint, meld je je aan in de [Telegram groep] (https://t.me/PlanBNetwork_ContentBuilder) of informeer je je Plan ₿ Network coördinator, die een speciale [issue] zal openen (https://github.com/orgs/PlanB-Network/projects/3). Wanneer je de link van de issue ontvangt, **vermeld dan dat je begint** met het proeflezen van die inhoud.
+Voordat je aan een nieuwe proefleestaak begint, meld je je aan in de [Telegram groep](https://t.me/PlanBNetwork_ContentBuilder) of informeer je je Plan ₿ Academy coördinator, die een speciale [issue] zal openen (https://github.com/orgs/PlanB-Network/projects/3). Wanneer je de link van de issue ontvangt, **vermeld dan dat je begint** met het proeflezen van die inhoud.
 
 
 Dit systeem helpt de coördinator om de voortgang binnen de repository bij te houden, en het maakt het mogelijk om de inhoud te "claimen" door de proeflezer, waardoor dubbel werk door iemand anders voorkomen wordt.
@@ -60,7 +60,7 @@ Allereerst, **Denk er ALTIJD aan om je repo te SYNCEN op de "dev" branch**. Op d
 
 
 
-Na het succesvol synchroniseren, kun je direct naar de gewenste inhoud gaan en committen op een nieuwe branch, zoals te zien is in deze [tutorial] (https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Anders kun je een nieuwe branch openen om aan te werken, door op "Branches" te klikken, zoals hieronder te zien is.
+Na het succesvol synchroniseren, kun je direct naar de gewenste inhoud gaan en committen op een nieuwe branch, zoals te zien is in deze [tutorial](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Anders kun je een nieuwe branch openen om aan te werken, door op "Branches" te klikken, zoals hieronder te zien is.
 
 
 
@@ -115,11 +115,11 @@ In dit tweede geval, **doe altijd wat onderzoek om te zien of iemand anders in j
 
 
 
-- Een andere goede oplossing is om het EN oorspronkelijke woord/zin te behouden en **een hyperlink** te maken die verwijst naar de [woordenlijst](https://planb.network/en/resources/glossary) op planb.network. Om dit te doen, moet je het woord/de zin tussen vierkante haakjes plaatsen en de link tussen ronde haakjes, zoals je kunt zien in het onderstaande voorbeeld:
+- Een andere goede oplossing is om het EN oorspronkelijke woord/zin te behouden en **een hyperlink** te maken die verwijst naar de [woordenlijst](https://planb.academy/en/resources/glossary) op planb.network. Om dit te doen, moet je het woord/de zin tussen vierkante haakjes plaatsen en de link tussen ronde haakjes, zoals je kunt zien in het onderstaande voorbeeld:
 
 
 ```
-[UTXO](https://planb.network/resources/glossary/utxo)
+[UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
 
@@ -131,14 +131,14 @@ In het uiteindelijke resultaat (afbeelding hieronder) zie je niet de hele link, 
 
 
 
-Houd er rekening mee dat de verklarende woordenlijstlink die je van de website haalt de taalcode na het woord "network" bevat (voorbeeld: ``https://planb.network/en/resources/glossary/utxo``-> hier kun je de taalcode "en" lezen). Verwijder in dit geval **de taalcode uit de link**, zoals je in het vak hierboven ziet. Op deze manier zal het systeem de lezer automatisch naar de taal van zijn keuze leiden.
+Houd er rekening mee dat de verklarende woordenlijstlink die je van de website haalt de taalcode na het woord "network" bevat (voorbeeld: ``https://planb.academy/en/resources/glossary/utxo``-> hier kun je de taalcode "en" lezen). Verwijder in dit geval **de taalcode uit de link**, zoals je in het vak hierboven ziet. Op deze manier zal het systeem de lezer automatisch naar de taal van zijn keuze leiden.
 
 
 De inhoud van het archief staat vol met hyperlinks zoals deze hierboven. Nu je weet wat ze betekenen, **zorg ervoor dat je geen enkele link** verwijdert die door de oorspronkelijke auteur is ingevoegd.
 
 
 
-- Iets anders met betrekking tot woordweergave is het volgende. Als je "Plan ₿ Network" in de tekst tegenkomt, **laat het dan in deze oorspronkelijke vorm staan**. Vertaal het woord "plan" of het woord "netwerk" niet. Gebruik ook NIET het lidwoord "De" als je Plan ₿ Network introduceert: **beschouw het als een merk**.
+- Iets anders met betrekking tot woordweergave is het volgende. Als je "Plan ₿ Academy" in de tekst tegenkomt, **laat het dan in deze oorspronkelijke vorm staan**. Vertaal het woord "plan" of het woord "netwerk" niet. Gebruik ook NIET het lidwoord "De" als je Plan ₿ Academy introduceert: **beschouw het als een merk**.
 
 
 
@@ -196,7 +196,33 @@ Houd in ditzelfde eerste gedeelte de opmaak zoals die is. Voeg niets toe aan het
 
 ![REVIEW](assets/en/8.webp)
 
+## Hoe om te gaan met cursusafbeeldingen
 
+Onze website bevat nu vertaalde afbeeldingen voor bijna elke cursus!
+
+Controleer bij het proeflezen altijd of alle afbeeldingen aanwezig zijn en correct worden weergegeven. In de `codeweergave`, als je dit soort regel vindt `![IMAGE](assets/en/001.webp)`, betekent dit dat daar een afbeelding wordt weergegeven.
+
+Zorg ervoor dat je altijd een nieuwe regel toevoegt tussen de afbeeldingscode en de tekst. Een voorbeeld hieronder:
+
+```
+VERKEERDE CONFIGURATIE:
+- om te beginnen met vertalen, klik op de knop `Translate`: ![language](assets/08.webp)
+Om op te slaan, klik op `save`!
+  
+JUISTE CONFIGURATIE:
+
+- om te beginnen met vertalen, klik op de knop `Translate`: 
+
+![language](assets/08.webp)
+
+Om op te slaan, klik op `save`!
+```
+
+Vergeet ook niet om de inhoud van elke afbeelding te lezen. Als je problemen opmerkt met de vertaling van de tekst in afbeeldingen, informeer dan je coördinator en je krijgt de kans om ze ook te proeflezen!
+
+Je kunt de afbeelding visualiseren in de `Preview` sectie van Github (of op onze website, geopend in een ander tabblad). Kom dan terug naar de `code` sectie ernaast voor het proeflezen.
+
+![REVIEW](assets/en/9.webp)
 
 ## Formaat aanbevelingen
 
@@ -209,7 +235,7 @@ Hieronder vind je een paar voorbeelden van opmaakproblemen waar je op moet lette
 
 
 
-![REVIEW](assets/en/9.webp)
+![REVIEW](assets/en/10.webp)
 
 
 
@@ -217,7 +243,7 @@ Controleer dus altijd de originele Engelse tekst om te zien of een vetgedrukte t
 
 
 
-![REVIEW](assets/en/10.webp)
+![REVIEW](assets/en/11.webp)
 
 
 
@@ -232,7 +258,7 @@ Controleer het originele taalbestand (vaak EN of FR) om te zien waar deze symbol
 
 
 
-![REVIEW](assets/en/11.webp)
+![REVIEW](assets/en/12.webp)
 
 ## Quiz proeflezen
 
@@ -246,17 +272,43 @@ Nogmaals, zorg ervoor dat je in een specieke branch werkt en informeer altijd de
 Een belangrijk ding om in gedachten te houden bij het proeflezen van dit type _yml_ bestand is het vermijden van dubbele punten ``:`` in de tekst. In feite wordt de dubbele punt **alleen** gebruikt om key-value paren zoals "wrong_answers" te scheiden van de rest. Je kunt een voorbeeld zien in de afbeelding hieronder:
 
 
-![REVIEW](assets/en/12.webp)
+![REVIEW](assets/en/13.webp)
 
 
 Nadat je de vraag hebt gecontroleerd, moet je ervoor zorgen dat je de status "reviewed" verandert van "false" in "true", zoals in de afbeelding hieronder. Zorg ervoor dat je deze statuswoorden in het Engels houdt, ongeacht de taal waarin je werkt!
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/14.webp)
 
 
 Als de statusregel "reviewed: true" ontbreekt, zorg er dan voor dat je **die toevoegt aan het einde van de test**.
+
+## Tutorial proeflezen
+
+Als je besluit om tutorials te proeflezen, zal de coördinator een speciale issue openen voor **de hele tutorialsectie**. Wanneer je je taak voltooit, kun je je voortgang documenteren door in de issue te reageren met een lijst van de gecontroleerde tutorials: op deze manier creëer je een duidelijk volgsysteem voor toekomstige referentie, wat belangrijk is omdat er elke maand nieuwe inhoud wordt toegevoegd. Je kunt een voorbeeld van deze benadering [hier](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190) zien.
+
+![REVIEW](assets/en/15.webp)
+
+Omdat er maandelijks nieuwe tutorials worden toegevoegd, kan je branch verouderd raken tijdens het proeflezen. Sommige proeflezers hebben dit probleem aangepakt door de exacte branch te synchroniseren waaraan ze werken: **doe dit alsjeblieft NOOIT! Als je dit doet, loop je het risico alle voortgang te verliezen die je tot dat moment hebt gemaakt!**
+
+In plaats daarvan moet je eerst het proeflezen van de tutorials in je huidige fork voltooien. Vervolgens **synchroniseer je `dev`**, en maak je een nieuwe branch waar je je richt op het proeflezen van de nieuw toegevoegde tutorials (alleen degene die ontbreken in je vorige branch).
+
+In tutorials is er een kans dat **afbeeldingen niet vertaald zijn**. Omdat de meeste tutorials **oorspronkelijk in het Frans of Engels zijn geschreven**, zul je waarschijnlijk afbeeldingen vinden die commando's of instructies in hun oorspronkelijke taal bevatten. Laten we een voorbeeld nemen uit de tutorial over Sparrow in het Nederlands, door zowel de tekst als de gerelateerde afbeelding te tonen.
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+![REVIEW](assets/en/16.webp)
+
+Zoals je kunt zien, wijst de afbeelding duidelijk naar `Public Server`, in het Engels, terwijl de tekst de uitdrukking `_Publieke server_` noemt. In dit geval is er een coherentieprobleem, omdat de lezer tegenstrijdige informatie vindt bij het vergelijken van de afbeelding met de tekst.
+
+Om dit probleem op te lossen, kun je het commando invoegen zoals het in de afbeelding verschijnt (Engels of Frans), gevolgd door de vertaling in je taal tussen haakjes, zoals hieronder weergegeven:
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
 
 
 ## Woordenlijst proeflezen
@@ -273,7 +325,7 @@ Als de titel in het Engels is, kun je de zin aanpassen aan jouw taal: "In Swahil
 Zorg er bovendien voor dat je titels in HOOFDLETTERS schrijft.
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/17.webp)
 
 
 ## De titel en beschrijving van uw PR
@@ -304,7 +356,7 @@ Op deze manier worden de PR en het issue met elkaar verbonden en kan iedereen di
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/18.webp)
 
 
 
@@ -318,16 +370,16 @@ Dubbelcheck altijd alle hyperlinks in de tekst om er zeker van te zijn dat ze co
 
 
 
-![REVIEW](assets/en/16.webp)
+![REVIEW](assets/en/19.webp)
 
 
 
 
-- Als de auteur een link invoegt die verwijst naar een Plan ₿ Network cursus of handleiding (**niet** tussen haakjes), dan zal de website automatisch een "kaart" aanmaken met de bijbehorende thumbnail. Zorg er daarom altijd voor dat je **een nieuwe regel toevoegt tussen de tekst en de link**, anders kun je de volgende foutmelding op de website zien.
+- Als de auteur een link invoegt die verwijst naar een Plan ₿ Academy cursus of handleiding (**niet** tussen haakjes), dan zal de website automatisch een "kaart" aanmaken met de bijbehorende thumbnail. Zorg er daarom altijd voor dat je **een nieuwe regel toevoegt tussen de tekst en de link**, anders kun je de volgende foutmelding op de website zien.
 
 
 
-![REVIEW](assets/en/17.webp)
+![REVIEW](assets/en/20.webp)
 
 
 Hetzelfde gebeurt met "afbeeldingscodes" zoals deze ``[IMAGE](asset/fr/001.webp)``: zorg ervoor dat je altijd een nieuwe regel toevoegt tussen de afbeeldingscode en de tekst. Een voorbeeld hieronder:
@@ -351,14 +403,10 @@ To save, click on `save`!
 
 ## Conclusie
 
+Samengevat, bewust zijn van de veelgemaakte fouten van proeflezers kan je echt helpen om je vaardigheden bij het controleren van inhoud te verbeteren. Het is gemakkelijk om dingen zoals context of consistentie over het hoofd te zien, en het opsporen van deze fouten kan een groot verschil maken.
 
-Kortom, je bewust zijn van de veelgemaakte fouten van proeflezers kan je echt helpen om je vaardigheden bij het controleren van inhoud te verbeteren. Het is makkelijk om dingen als context of consistentie over het hoofd te zien, en het ontdekken van deze fouten kan een groot verschil maken.
+Houd altijd in gedachten dat een beginner deze cursussen en tutorials kan lezen, dus het is onze verantwoordelijkheid om ervoor te zorgen dat ze het volledig begrijpen. **Als proeflezer ben je een opvoeder!**
 
+Nu ben je klaar om te beginnen met het proeflezen van cursussen, tutorials, quizzen en glossariumwoorden. Blijf op de hoogte om ook te beginnen met het controleren van videotranscripten!
 
-Houd altijd in gedachten dat een beginner deze cursussen en handleidingen kan lezen, dus het is onze verantwoordelijkheid om ervoor te zorgen dat ze het volledig begrijpen. Als proeflezer ben je een docent!
-
-
-Nu ben je klaar om te beginnen met het proeflezen van cursussen, handleidingen, quizzen en woordenlijsten. Blijf op de hoogte om ook afbeeldingen en videotranscripties te controleren ;)
-
-
-Bedankt voor het lezen van deze handleiding en veel plezier met proeflezen!
+Bedankt voor het lezen van deze tutorial, en geniet van je proefleestraject!

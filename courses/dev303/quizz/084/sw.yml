@@ -1,0 +1,8 @@
+question: Je, ni faida gani kuu ya usanifu ya mbinu ya UniFFI yenye tabaka wakati wa kuunganisha maktaba za Rust na lugha lengwa kama Swift au Kotlin?
+answer: Safu ya kuunganisha hushughulikia utafsiri wa aina na usimamizi wa kumbukumbu huku ikiwasilisha kiolesura asilia kabisa kwa lugha lengwa
+wrong_answers:
+  - Faili ya UDL hukusanya kiotomatiki msimbo wa Rust katika msimbo wa byte ambao unaweza kuendeshwa kiasili kwenye mifumo ya simu bila tafsiri.
+  - Msimbo wa maktaba wa Rust huandikwa upya kiotomatiki katika sintaksia ya lugha lengwa ili kuondoa miito yoyote ya kiolesura cha kazi za kigeni.
+  - Programu za lugha lengwa hufikia moja kwa moja miundo ya kumbukumbu ya Rust kupitia viashiria vilivyoshirikiwa ili kuepuka kurundikana kwa data kwenye akaunti
+explanation: |
+  Usanifu wa UniFFI huunda utengano ambapo msimbo wa kuunganisha unaozalishwa hufanya kazi kama safu ya tafsiri kati ya lugha lengwa na Rust. Safu hii hushughulikia upangaji/utenganishaji tata wa aina za data, hudhibiti kumbukumbu kwa usalama katika mipaka ya lugha, na hutoa utunzaji wa makosa kufuatia mikusanyiko ya lugha lengwa. Chaguzi zingine si sahihi kwa sababu UniFFI haijumuishi kwa msimbo wa byte (huzalisha vifungo), haiandiki tena msimbo wa Rust katika lugha zingine (inadumisha utekelezaji wa awali wa Rust), na haitumii ufikiaji wa kumbukumbu iliyoshirikiwa (huunganisha data kwa usalama katika mipaka).

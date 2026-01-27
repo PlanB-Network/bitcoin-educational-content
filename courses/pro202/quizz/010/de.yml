@@ -1,0 +1,8 @@
+question: Was ist der Hauptzweck der Verwendung von hash160 (SHA-256 und dann RIPEMD-160) bei der Erstellung von Bitcoin-Adressen aus öffentlichen Schlüsseln?
+answer: Verbergen des öffentlichen Schlüssels, bis eine Ausgabe erfolgt, und Erstellen kürzerer, besser handhabbarer Adressen
+wrong_answers:
+  - Zur Verschlüsselung des privaten Schlüssels und zum Schutz vor unbefugtem Zugriff auf wallet-Gelder
+  - generate die für die Transaktionsvalidierung in der Blockchain erforderliche digitale Signatur
+  - So konvertieren Sie die Punkte der elliptischen Kurve in das richtige Format für secp256k1-Operationen
+explanation: |
+  Hash160 erfüllt mehrere wichtige Funktionen bei der Erstellung von Bitcoin-Adressen. Durch das Hashing des öffentlichen Schlüssels bleibt der tatsächliche öffentliche Schlüssel verborgen, bis die Münzen ausgegeben werden, was eine zusätzliche Sicherheitsebene darstellt. Durch das Hashing wird auch die Größe von 33/65 Byte auf nur 20 Byte reduziert, was die Adressen handlicher macht. Die falschen Antworten verwechseln dies mit der Verschlüsselung von privaten Schlüsseln (die nicht durchgeführt wird), digitalen Signaturen (die andere kryptografische Operationen verwenden) oder der Kurvenformatierung (die während der SEC-Serialisierung und nicht bei der Adresserstellung erfolgt).

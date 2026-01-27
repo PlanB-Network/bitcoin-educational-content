@@ -8,7 +8,7 @@ description: Täydellinen opas LNP2PBot ja P2P Bitcoin kaupankäynnin
 
 KYC-vapaat P2P-pörssit ovat olennaisen tärkeitä käyttäjien luottamuksellisuuden ja taloudellisen riippumattomuuden säilyttämiseksi. Ne mahdollistavat suorat transaktiot yksityishenkilöiden välillä ilman henkilöllisyyden todentamista, mikä on ratkaisevan tärkeää yksityisyyttä arvostaville. Jos haluat syvällisemmän käsityksen teoreettisista käsitteistä, tutustu BTC204-kurssiin:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Bitcoinien ostaminen ja myyminen vertaisverkossa (P2P) on yksi yksityisimmistä tavoista hankkia tai luovuttaa bitcoineja. LNP2PBot on avoimen lähdekoodin Telegram-botti, joka helpottaa P2P-vaihtoja Lightning-verkossa ja mahdollistaa nopeat, edulliset ja KYC-vapaat transaktiot.
 
@@ -52,7 +52,7 @@ Aloita asentamalla yhteensopiva Lightning-lompakko. Tässä ovat yksityiskohtais
 
 Alla on linkki tämän lompakon ohjeeseen:
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 - [Phoenix](https://phoenix.acinq.co) :
   - Yksinkertainen ja luotettava
@@ -63,7 +63,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 Alla on linkki tämän lompakon ohjeeseen:
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 - [Blixt](https://blixtwallet.github.io) :
   - Teknisempi, mutta erittäin täydellinen
@@ -74,7 +74,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 Alla on linkki tämän lompakon ohjeeseen:
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Tärkeitä huomautuksia muista salkuista**
 

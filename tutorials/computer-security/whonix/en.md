@@ -66,7 +66,7 @@ To run Whonix, you'll need a **hypervisor** like VirtualBox, Qubes or KVM.
 Once you've downloaded the file, install it as you would any other software. Accept the default options unless you have specific requirements. Are you lost? Check out our guide to using VirtualBox.
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Importing Whonix
 
 
@@ -170,7 +170,7 @@ sudo apt full-upgrade
 **Tor Browser** is Whonix's default web browser. It relies on the **Tor** network, which redirects your traffic through several relays around the world, making it virtually impossible to identify your real IP address.
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
@@ -178,7 +178,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 **Electrum** is a light and fast Bitcoin wallet, preinstalled on Whonix to let you manage **cryptocurrency transactions** anonymously. It doesn't download the whole Blockchain but uses remote servers to obtain the necessary information, making it much lighter than a full Wallet.
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix is more than just an operating system: it's a genuine **secure environment** designed to protect your anonymity, your privacy and your sensitive activities. Thanks to its Tor-based architecture, intelligent partitioning between Gateway and Workstation, and pre-installed tools such as Tor Browser, KeePassXC and Electrum, it offers a turnkey solution for anyone wishing to **browse anonymously**, **work securely** or **handle confidential data**.
 
@@ -186,4 +186,4 @@ Whonix is more than just an operating system: it's a genuine **secure environmen
 To strengthen your security on your Unix system, take a look at our tutorial on auditing your machine: check for security holes in your operating system and make sure your data isn't compromised.
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

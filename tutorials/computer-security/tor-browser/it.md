@@ -195,4 +195,4 @@ Infine, nella scheda "_Connection_", troverai tutte le impostazioni relative all
 
 Ed ecco fatto, ora sei pronto per navigare su Internet in modo più sicuro e privato! Se la privacy online è un argomento che ti interessa, ti consiglio anche di scoprire questo altro tutorial su Mullvad VPN:
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

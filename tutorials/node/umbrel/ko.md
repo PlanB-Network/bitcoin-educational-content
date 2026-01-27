@@ -710,7 +710,7 @@ Sparrow는 세 가지 연결 모드를 제공합니다:
 Sparrow wallet 소프트웨어에 대한 자세한 내용은 종합 튜토리얼 을 참조하세요:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## 결론
 
 

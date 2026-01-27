@@ -1,9 +1,9 @@
-question: Koja grupa primarno koristi kriptografiju?
-answer: Grupe definisane na celim brojevima ili Elements opisane celim brojevima
+question: Koja grupa se primarno koristi u kriptografiji?
+answer: Grupe definisane na celim brojevima ili elementima opisanih celim brojevima
 wrong_answers:
-  - Grupe kompleksnih brojeva ili Elements opisane kompleksnim brojevima
-  - Grupe geometrijskih transformacija ili Elements opisane geometrijskim transformacijama
-  - Grupe racionalnih brojeva ili Elements opisane racionalnim brojevima
+  - Grupe kompleksnih brojeva ili elemenata opisanih kompleksnim brojevima
+  - Grupe geometrijskih transformacija ili elemenata opisanih geometrijskim transformacijama
+  - Grupe racionalnih brojeva ili elemenata opisanih racionalnim brojevima
 explanation: |
-  Kriptografija koristi grupe zasnovane na celim brojevima, ili Elements opisane celim brojevima kao što su tačke na eliptičnoj krivi, za operacije šifrovanja i potpisivanja.
-reviewed: false
+  Kriptografija koristi grupe zasnovane na celim brojevima, ili elementima opisanih celim brojevima kao što su tačke na eliptičnoj krivi, za operacije šifrovanja i potpisivanja.
+reviewed: true

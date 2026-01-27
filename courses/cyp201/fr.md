@@ -1,11 +1,11 @@
 ---
-name: Les rouages des portefeuilles Bitcoin
+name: Architecture du portefeuille Bitcoin
 goal: Plongez dans les principes cryptographiques qui font fonctionner les portefeuilles Bitcoin.
 objectives:
-  - Définir les notions théoriques nécessaires à la compréhension des algorithmes cryptographiques utilisés sur Bitcoin.
-  - Comprendre en intégralité la construction d'un portefeuille déterministe et hiérachique.
-  - Savoir identifier et réduire les risques liés à la gestion d’un portefeuille.
-  - Comprendre les principes des fonctions de hachage, des clés cryptographiques et des signatures numériques.
+- Définir les notions théoriques nécessaires à la compréhension des algorithmes cryptographiques utilisés sur Bitcoin.
+- Comprendre en intégralité la construction d'un portefeuille déterministe et hiérachique.
+- Savoir identifier et réduire les risques liés à la gestion d’un portefeuille.
+- Comprendre les principes des fonctions de hachage, des clés cryptographiques et des signatures numériques.
 ---
 
 # Un voyage au cœur des portefeuilles Bitcoin
@@ -28,7 +28,7 @@ Grâce à une pédagogie claire, plus de 60 schémas explicatifs et des exemples
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=bVaZ0dO-PG0)
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
 
 Bienvenue dans la formation CYP201, dans laquelle nous allons explorer en profondeur le fonctionnement des portefeuilles Bitcoin HD. Ce cours s’adresse à tous ceux qui souhaitent comprendre les bases techniques de l'utilisation de Bitcoin, qu’ils soient simples utilisateurs, amateurs éclairés ou futurs experts.
 
@@ -36,7 +36,7 @@ L’objectif de cette formation est de vous donner les clés pour maîtriser les
 
 Avant d’entrer dans le détail de la construction et du fonctionnement des portefeuilles Bitcoin, nous commencerons avec quelques chapitres sur les primitives cryptographiques à connaître pour la suite.
 
-Nous commencerons par les fonctions de hachage cryptographique, fondamentales pour les portefeuilles comme pour le protocole Bitcoin lui-même. Vous découvrirez leurs principales caractéristiques, les fonctions spécifiques utilisées dans Bitcoin, et dans un chapitre plus technique, vous découvrirez en détail les rouages de la reine des fonctions de hachage : SHA256.
+Nous commencerons par les fonctions de hachage cryptographique, fondamentales pour les portefeuilles comme pour le protocole Bitcoin lui-même. Vous découvrirez leurs principales caractéristiques, les fonctions spécifiques utilisées dans Bitcoin, et dans un chapitre plus technique, vous découvrirez en détail les rouages de la reine des fonctions de hachage : [SHA256](https://planb.academy/resources/glossary/sha256).
 
 ![CYP201](assets/en/001.webp)
 
@@ -48,7 +48,7 @@ Une fois que nous aurons bien compris ces quelques éléments de cryptographie, 
 
 ![CYP201](assets/en/003.webp)
 
-La formation continuera avec l’étude de la passphrase BIP39, de la graine (à ne pas confondre avec la phrase mnémonique), du code chaîne maître et de la clé maîtresse. Nous verrons en détail ce que sont ces éléments, leurs rôles respectifs et la manière dont ils sont calculés.
+La formation continuera avec l’étude de la passphrase [BIP39](https://planb.academy/resources/glossary/bip0039), de la graine (à ne pas confondre avec la phrase mnémonique), du code chaîne maître et de la clé maîtresse. Nous verrons en détail ce que sont ces éléments, leurs rôles respectifs et la manière dont ils sont calculés.
 
 ![CYP201](assets/en/004.webp)
 
@@ -92,6 +92,8 @@ Cette formation vous permettra d’utiliser vos logiciels de portefeuille en tou
 ## Introduction aux fonctions de hachage
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 Le premier type d'algorithmes cryptographiques utilisé par Bitcoin regroupe les fonctions de hachage. Elles jouent un rôle essentiel à différents niveaux du protocole et également au sein des portefeuilles Bitcoin. Découvrons ensemble ce qu'est une fonction de hachage et à quoi ça sert sur Bitcoin.
 
@@ -208,7 +210,7 @@ Vous connaissez maintenant les bases indispensables sur les fonctions de hachage
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=MKM_dlbCCxs)
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
 
 Nous avons vu précédemment que les fonctions de hachage possèdent des caractéristiques importantes qui justifient leur utilisation sur Bitcoin. Examinons maintenant les mécanismes internes de ces fonctions de hachage qui leur confèrent ces propriétés, et pour ce faire, je vous propose de décortiquer le fonctionnement de SHA256.
 
@@ -577,7 +579,7 @@ Maintenant que nous avons vu en détail le fonctionnement des fonctions de hacha
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=3AgRhS8WOFE)
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
 
 Sur Bitcoin au niveau applicatif, en complément des fonctions de hachage, on utilise des algorithmes de dérivation cryptographiques permettant de générer des données sécurisées à partir d'entrées initiales. Bien que ces algorithmes reposent sur des fonctions de hachage, ils répondent à des objectifs différents, notamment en termes d'authentification et de génération de clés. Ces algorithmes conservent en partie les caractéristiques des fonctions de hachage, telles que l'irréversibilité, la résistance à la falsification et la résistance aux collisions.
 
@@ -668,7 +670,7 @@ Dans ce chapitre, nous avons exploré les fonctions HMAC-SHA512 et PBKDF2, qui u
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=RijcUQ-fIXk)
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
 
 La deuxième méthode cryptographique utilisée dans Bitcoin concerne les algorithmes de signatures numériques. Examinons ensemble en quoi cela consiste et comment cela fonctionne.
 
@@ -686,7 +688,7 @@ L'utilisateur qui souhaite faire une transaction Bitcoin doit donc établir une 
 
 En conséquence, un utilisateur qui possède des bitcoins verrouillés avec une clé publique doit trouver un moyen de stocker de manière sécurisée ce qui permet de débloquer ses fonds : la clé privée. Un portefeuille Bitcoin est justement un dispositif qui va vous permettre de conserver facilement toutes vos clés sans que d'autres personnes y aient accès. Cela ressemble donc plus à un porte-clés qu'à un portefeuille.
 
-Le lien mathématique entre une clé publique et une clé privée, ainsi que la possibilité de réaliser une signature pour prouver la possession d'une clé privée sans la dévoiler, sont rendus possibles par un algorithme de signature numérique. Dans le protocole Bitcoin, on utilise 2 algorithmes de signature : **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) et le **schéma de signature de Schnorr**. ECDSA est le protocole de signature numérique utilisé dans Bitcoin depuis ses débuts. Schnorr est plus récent dans Bitcoin, puisqu'il a été introduit en novembre 2021 avec la mise à jour Taproot.
+Le lien mathématique entre une clé publique et une clé privée, ainsi que la possibilité de réaliser une signature pour prouver la possession d'une clé privée sans la dévoiler, sont rendus possibles par un algorithme de signature numérique. Dans le protocole Bitcoin, on utilise 2 algorithmes de signature : **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) et le **schéma de signature de Schnorr**. ECDSA est le protocole de signature numérique utilisé dans Bitcoin depuis ses débuts. Schnorr est plus récent dans Bitcoin, puisqu'il a été introduit en novembre 2021 avec la mise à jour Taproot.
 
 Ces deux algorithmes sont assez similaires dans leurs mécanismes. Ils sont tous deux basés sur la cryptographie sur les courbes elliptiques. La différence majeure entre ces deux protocoles réside dans la structure de la signature et certaines propriétés mathématiques spécifiques. Nous allons donc étudier le fonctionnement de ces algorithmes en commençant par le plus ancien : ECDSA.
 
@@ -754,15 +756,15 @@ Nous utilisons un corps fini d'entiers modulo $p$ afin d'assurer la précision d
 
 Les mathématiques des courbes elliptiques sur les corps finis sont analogues à celles sur le corps des réels, avec l'adaptation que toutes les opérations sont effectuées modulo $p$. Pour simplifier les explications, nous continuerons dans les prochains chapitres à illustrer les concepts en utilisant une courbe définie sur les nombres réels, tout en gardant à l'esprit que, dans la pratique, la courbe est définie sur un corps fini.
 
-Si vous souhaitez en savoir plus sur les bases mathématiques de la cryptographie moderne, je vous conseille par la suite de consulter également cette autre formation sur Plan ₿ Network :
+Si vous souhaitez en savoir plus sur les bases mathématiques de la cryptographie moderne, je vous conseille par la suite de consulter également cette autre formation sur Plan ₿ Academy :
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Calculer la clé publique à partir de la clé privée
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=V0Omd3dWGQo)
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
 Comme vu précédemment, les algorithmes de signature numérique sur Bitcoin sont basés sur un couple clé privée / clé publique qui sont liées mathématiquement. Découvrons ensemble quel est ce lien mathématique et comment elles sont générées.
 
@@ -881,7 +883,7 @@ Bien sûr, dans cet exemple simplifié avec $k = 4$, il serait possible de trouv
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=BGQA48ucXDQ)
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 Maintenant que vous savez dériver une clé publique à partir d’une clé privée, vous pouvez déjà recevoir des bitcoins en utilisant cette paire de clés comme condition de dépense. Mais comment les dépenser ? Pour dépenser des bitcoins, il va falloir déverrouiller le _scriptPubKey_ apposé sur votre UTXO pour prouver que vous en êtes bien le propriétaire légitime. Pour ce faire, il faut produire une signature $s$ qui correspond à la clé publique $K$ présente dans le _scriptPubKey_ à l'aide de la clé privée $k$ qui a servi initialement à calculer $K$. La signature numérique est ainsi une preuve irréfutable que vous êtes bien en possession de la clé privée associée à la clé publique que vous revendiquez.
 
@@ -1109,7 +1111,7 @@ Et bien, on ne sait pas vraiment pourquoi Satoshi ne l'a pas choisi, mais une hy
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=zcWcAXg7j34)
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
 
 Comme nous l'avons vu dans les chapitres précédents, les signatures numériques sont souvent utilisées pour déverrouiller le script d'un input. Dans le processus de signature, il est nécessaire d’inclure la donnée signée dans le calcul, désignée dans nos exemples par le message $m$. Cette donnée, une fois signée, ne peut plus être modifiée sans rendre la signature invalide. En effet, que ce soit pour ECDSA ou pour Schnorr, le vérificateur de la signature doit inclure dans son calcul le même message $m$. Si celui-ci diffère du message $m$ utilisé initialement par le signataire, le résultat sera incorrect et la signature sera jugée invalide. On dit alors qu'une signature couvre une certaine donnée et la protège en quelque sorte contre les modifications non autorisées.
 
@@ -1169,7 +1171,7 @@ Si ce sighash flag est intégré à Bitcoin, il permettra l'utilisation de coven
 
 Pour approfondir vos connaissances sur le Lightning Network, après la formation CYP201, je vous recommande vivement la formation LNP201 de Fanis Michalakis, qui aborde le sujet en détail :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Dans la prochaine partie, je vous propose de découvrir comment fonctionne la phrase mnémonique à la base de votre portefeuille Bitcoin.
 
@@ -1181,7 +1183,7 @@ Dans la prochaine partie, je vous propose de découvrir comment fonctionne la ph
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=ny0jQiGUsHA)
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
 
 
 Maintenant que nous avons découvert les rouages des fonctions de hachages et des signatures numériques, nous allons pouvoir étudier le fonctionnement des portefeuilles Bitcoin. L’objectif va être de pouvoir imaginer comment se construit un portefeuille sur Bitcoin, comment il se décompose et à quoi servent les différentes informations qui le constituent. Cette compréhension des mécanismes du portefeuille vous permettra par la suite d'améliorer votre utilisation de Bitcoin en termes de sécurisation et de confidentialité.
@@ -1206,9 +1208,9 @@ Si l’on souhaitait utiliser plusieurs clés privées, il fallait alors effectu
 
 Cette contrainte découle du modèle de confidentialité de Bitcoin. En réutilisant une même adresse, on facilite le travail des observateurs externes qui peuvent alors retracer l’ensemble des transactions Bitcoin associées à cette adresse. C’est pourquoi la réutilisation d’une adresse de réception est fortement déconseillée. Or, pour disposer de plusieurs adresses et séparer publiquement nos transactions, il est nécessaire de gérer de multiples clés privées. Dans le cas des portefeuilles JBOK, nous rappelons que cela implique de créer autant de sauvegardes qu'il y a de nouvelles paires de clés, une tâche qui peut rapidement devenir complexe et difficile à maintenir pour les utilisateurs.
 
-Pour en savoir plus sur le modèle de confidentialité de Bitcoin et découvrir les méthodes pour protéger votre vie privée, je vous recommande également de suivre ma formation BTC204 sur Plan ₿ Network :
+Pour en savoir plus sur le modèle de confidentialité de Bitcoin et découvrir les méthodes pour protéger votre vie privée, je vous recommande également de suivre ma formation BTC204 sur Plan ₿ Academy :
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Les portefeuilles HD (_Hierarchical Deterministic_)
 
@@ -1230,7 +1232,7 @@ Dans les prochains chapitres, nous explorerons le fonctionnement interne des por
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=qJsKVqLT7Zw)
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
 Les portefeuilles HD modernes (déterministes et hiérarchiques) reposent sur une unique information initiale appelée "entropie" pour générer de manière déterministe l’ensemble des clés du portefeuille. Cette entropie est un nombre pseudo-aléatoire dont le niveau de chaos détermine en partie la sécurité du portefeuille.
 
@@ -1259,7 +1261,7 @@ Dans le prochain chapitre, nous allons voir comment est-ce que l'on passe d'un n
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=fHMglHKxw9g)
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
 La phrase mnémonique, aussi appelée "seed phrase", "phrase de récupération", "phrase secrète", ou "phrase de 24 mots", est une séquence composée habituellement de 12 ou de 24 mots, qui est générée à partir de l'entropie. Elle est utilisée pour dériver de façon déterministe l'intégralité des clés d'un portefeuille HD. Cela signifie qu’à partir de cette phrase, il est possible de générer et de recréer déterministiquement l'ensemble des clés privées et publiques du portefeuille Bitcoin, et par conséquent d'accéder aux fonds qui sont protégés avec. La raison d'être de la phrase mnémonique est de fournir un moyen de sauvegarde et de récupération des bitcoins qui est à la fois sécurisé et facile à utiliser. Elle a été introduite dans les standards en 2013 avec le BIP39.
 
@@ -1313,7 +1315,7 @@ Par exemple, pour une entropie de 256 bits, le résultat $\text{ENT} \Vert \text
 
 ### Conversion de la séquence binaire en une phrase mnémonique
 
-La séquence de bits $\text{ENT} \Vert \text{CS}$ est ensuite découpée en segments de 11 bits. Chaque segment de 11 bits, une fois converti en décimal, correspond à un nombre compris entre 0 et 2047, qui désigne la position d’un mot [dans une liste de 2048 mots standardisée par le BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+La séquence de bits $\text{ENT} \Vert \text{CS}$ est ensuite découpée en segments de 11 bits. Chaque segment de 11 bits, une fois converti en décimal, correspond à un nombre compris entre 0 et 2047, qui désigne la position d’un mot [dans une liste de 2048 mots standardisée par le BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 
@@ -1355,7 +1357,7 @@ Une phrase de 12 mots, qui offre également 128 bits de sécurité, est donc act
 
 Pour aller plus loin et découvrir concrètement comment générer manuellement une phrase mnémonique de test, je vous conseille de découvrir ce tutoriel :
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Avant de poursuivre la dérivation du portefeuille à partir de cette phrase mnémonique, je vais vous présenter, dans le chapitre suivant, la passphrase BIP39, car celle-ci joue un rôle dans la dérivation, et elle se situe au même niveau que la phrase mnémonique.
 
@@ -1363,7 +1365,7 @@ Avant de poursuivre la dérivation du portefeuille à partir de cette phrase mn�
 
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=Mfi7KlnwvlM)
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
 Comme nous venons de le voir, les portefeuilles HD sont générés à partir d’une phrase mnémonique constituée généralement de 12 ou de 24 mots. Cette phrase est très importante, car elle permet de restaurer l'ensemble des clés d'un portefeuille en cas de perte de son support (comme un hardware wallet par exemple). Cependant, elle constitue un point de défaillance unique, car si elle est compromise, un attaquant pourrait voler l'intégralité des bitcoins. C'est ici qu'intervient la passphrase BIP39.
 
@@ -1403,7 +1405,7 @@ Dans la section suivante, nous découvrirons comment ces deux éléments à la b
 
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=MvSIylwUOZY)
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 Une fois la phrase mnémonique et l'optionnelle passphrase générées, le processus de dérivation d’un portefeuille HD Bitcoin peut commencer. La phrase mnémonique est d'abord convertie en une graine qui constitue la base de toutes les clés du portefeuille.
 
@@ -1479,7 +1481,7 @@ Avant de poursuivre la dérivation du portefeuille HD avec les éléments suivan
 
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=FyH9OeK2WbU)
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 Une clé étendue est simplement la concaténation d’une clé (qu’elle soit privée ou publique) et de son code de chaîne associé. Ce code de chaîne est indispensable pour la dérivation des clés enfants car, sans lui, il est impossible de dériver les clés enfants d’une clé parent, mais nous découvrirons plus précisément ce processus dans le chapitre suivant. Ces clés étendues permettent ainsi d’agréger toutes les informations nécessaires pour dériver des clés enfants, et donc de simplifier la gestion des comptes au sein d'un portefeuille HD.
 
@@ -1606,7 +1608,7 @@ Dans ce chapitre, nous avons découvert qu’il existe deux types de clés enfan
 
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=s8JnvvdRBC4)
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 La dérivation des paires de clés enfants dans les portefeuilles HD Bitcoin repose sur une structure hiérarchique permettant de générer un grand nombre de clés, tout en organisant ces paires en différents groupes via des branches. Chaque paire enfant dérivée depuis une paire parent peut être utilisée soit directement dans un _scriptPubKey_ pour verrouiller des bitcoins, soit comme point de départ pour générer d’autres clés enfants, et ainsi de suite, afin de créer une arborescence de clés.
 
@@ -1788,7 +1790,7 @@ Si je résume, vous avez appris jusqu’à présent à créer les éléments de 
 
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=W-CUswFgVNE)
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
 
 La structure hiérarchique des portefeuilles HD sur Bitcoin permet d'organiser les paires de clés de diverses façons. L'idée est de dériver, depuis la clé privée maîtresse et le code de chaîne maître, plusieurs niveaux de profondeur. Chaque niveau ajouté correspond à la dérivation d’une paire de clés enfants à partir d’une paire de clés parent.
 
@@ -1884,7 +1886,7 @@ Dans le prochain chapitre, nous allons découvrir ce que sont les "_output scrip
 
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=chlCi5CMVEM)
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
 
 On vous dit souvent que la phrase mnémonique seule suffit pour récupérer l’accès à un portefeuille. En réalité, les choses sont un peu plus complexes. Dans le chapitre précédent, nous avons vu la structure de dérivation du portefeuille HD, et vous avez peut-être constaté que ce processus est assez complexe. Les chemins de dérivation indiquent à un logiciel la direction à suivre pour dériver les clés de l’utilisateur. Cependant, lors de la récupération d’un portefeuille Bitcoin, si l’on ne connaît pas ces chemins, la phrase mnémonique seule ne suffit pas. Elle permet d’obtenir la clé maîtresse et le code de chaîne maître, mais il est ensuite nécessaire de connaître les index utilisés pour atteindre les clés enfant.
 
@@ -1934,7 +1936,7 @@ Vous savez désormais tout sur le fonctionnement des portefeuilles HD sur Bitcoi
 
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=lNz2waCzkJE)
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
 
 Les adresses de réception sont des informations intégrées dans les _scriptPubKey_ pour verrouiller des UTXOs nouvellement créés. En termes simples, une adresse sert à recevoir des bitcoins. Explorons leur fonctionnement en lien avec ce que nous avons étudié dans les chapitres précédents.
 
@@ -1948,17 +1950,17 @@ Lorsqu’un utilisateur reçoit des bitcoins, l’expéditeur crée un UTXO en o
 
 C’est précisément dans le _scriptPubKey_ que se trouvent les adresses de réception. Leur utilisation varie cependant en fonction du standard de script adopté. Voici un tableau récapitulatif des informations contenues dans le _scriptPubKey_ selon le standard utilisé, ainsi que des informations attendues dans le _scriptSig_ pour déverrouiller le _scriptPubKey_.
 
-| Standard           | _scriptPubKey_                                              | _scriptSig_                     | _redeem script_     | _witness_                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Données arbitraires |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
+| Standard             | _scriptPubKey_                                              | _scriptSig_                       | _redeem script_     | _witness_                                    |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG                                      | <*signature*>                     |                     |                                              |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*>      |                     |                                              |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL                          | <*data pushes*> <*redeem script*> | Données arbitraires |                                              |
+| P2WPKH               | 0 <*pubKeyHash*>                                            |                                   |                     | <*signature*> <*public key*>                 |
+| P2WSH                | 0 <*witnessScriptHash*>                                     |                                   |                     | <*data pushes*> <*witness script*>           |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL                    | <*redeem script*>                 | 0 <*pubKeyHash*>    | <*signature*> <*public key*>                 |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL                    | <*redeem script*>                 | 0 <*scriptHash*>    | <*data pushes*> <*witness script*>           |
+| P2TR (*key path*)    | 1 <*public key*>                                            |                                   |                     | <*signature*>                                |
+| P2TR (*script path*) | 1 <*public key*>                                            |                                   |                     | <*data pushes*> <*script*> <*control block*> |
 
 _Source : Bitcoin Core PR review club du 7 juillet 2021 - Gloria Zhao_
 
@@ -2061,7 +2063,7 @@ Maintenant que nous avons vu la théorie, passons à la pratique ! Je vous propo
 
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
 
-![lecture](https://www.youtube.com/watch?v=HnBsluUonno)
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 Découvrons ensemble comment générer une adresse de réception à partir d’une paire de clés située, par exemple, en profondeur 5 d’un portefeuille HD. Cette adresse pourra ensuite être utilisée dans un logiciel de portefeuille pour verrouiller un UTXO.
 

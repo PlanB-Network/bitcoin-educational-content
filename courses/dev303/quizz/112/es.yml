@@ -1,0 +1,8 @@
+question: ¿Qué idea fundamental sobre la adopción de Lightning llevó a Breez a pasar de crear una única aplicación móvil a desarrollar una arquitectura SDK?
+answer: El ecosistema de aplicaciones móviles no facilita la comunicación entre aplicaciones, lo que impide que las aplicaciones especializadas aprovechen la infraestructura compartida de Lightning
+wrong_answers:
+  - Los dispositivos móviles carecen de potencia de cálculo suficiente para ejecutar nodos de rayos de forma fiable, por lo que necesitan una infraestructura basada en la nube para funcionar correctamente
+  - El cumplimiento de la normativa exige que la funcionalidad Lightning esté centralizada en SDKs en lugar de distribuida en aplicaciones móviles individuales
+  - Los estudios sobre la experiencia de los usuarios muestran que los consumidores prefieren que los pagos relámpago sean gestionados por servicios de terceros en lugar de aplicaciones individuales
+explanation: |
+  La respuesta correcta identifica la limitación arquitectónica clave descubierta a través de la aplicación Breez original: los ecosistemas móviles no permiten una fácil comunicación entre aplicaciones, lo que obliga a los desarrolladores a crear todas las funciones de Lightning en aplicaciones individuales en lugar de crear aplicaciones especializadas que compartan la infraestructura de Lightning. Esta idea dio lugar al SDK, que permite que varias aplicaciones se conecten al mismo nodo Lightning. Las respuestas erróneas se centran en las limitaciones técnicas, los problemas normativos o las preferencias de los usuarios, pero estas no fueron las ideas arquitectónicas fundamentales que impulsaron el cambio estratégico a un modelo SDK.

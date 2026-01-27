@@ -6,4 +6,4 @@ wrong_answers:
   - Faktura jest opłacana poprzez transakcję on-chain w sieci Bitcoin.
 explanation: |
   Gdy Bob wysyła Alicji fakturę, ta tworzy i podpisuje nową transakcję zobowiązującą, aby dostosować dystrybucję środków, tym samym przesyłając 30 000 satów w kanale.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Che cosa significa quando Bitcoin viene descritto come un sistema pseudonimo piuttosto che un sistema anonimo?
+answer: Gli utenti possono essere rintracciati grazie ai loro pseudonimi, ma la loro vera identità non viene rivelata direttamente
+wrong_answers:
+  - Gli utenti non possono essere rintracciati e le loro transazioni sono completamente nascoste
+  - Gli utenti devono registrare il proprio nome reale, ma possono utilizzare indirizzi falsi per le transazioni
+  - Gli utenti sono completamente anonimi e non c'è modo di collegare le transazioni tra loro
+explanation: |
+  La natura pseudonima di Bitcoin significa che mentre gli utenti operano sotto pseudonimi (indirizzi derivati da chiavi pubbliche), le loro transazioni possono comunque essere tracciate e collegate tra questi pseudonimi sulla blockchain. Ciò differisce dal vero anonimato, in cui le transazioni non lascerebbero alcuna connessione tracciabile. Nel Bitcoin è possibile seguire il flusso di fondi tra gli indirizzi, ma l'identità del mondo reale che si cela dietro questi indirizzi non viene rivelata direttamente, a meno che qualcuno non la riveli volontariamente o commetta errori che facciano trapelare le sue informazioni private.
+reviewed: false

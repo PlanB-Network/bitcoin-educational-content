@@ -1,11 +1,10 @@
-question: Jak nazywa się wydarzenie, w którym nagroda za Mining zostaje zmniejszona o połowę?
+question: Jak nazywa się moment, w którym nagroda za wydobycie zostaje zmniejszona o połowę?
 answer: Halving
 wrong_answers:
   - Podwojenie
   - Ćwiartowanie
   - Potrojenie
 explanation: |
-  Zdarzenie, w którym nagroda za Mining jest zmniejszona o połowę, nazywane jest
-  Halving. To zdarzenie nadaje krzywej emisji monetarnej kształt schodkowy
-  kształt przypominający schody.
+  Moment, w którym nagroda za wydobycie jest zmniejszona o połowę, nazywany jest
+  halving. To zdarzenie nadaje krzywej emisji monetarnej kształt przypominający schody.
 reviewed: true

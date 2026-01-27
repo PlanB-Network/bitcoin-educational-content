@@ -26,7 +26,7 @@ Hur skannar man snabbt och enkelt ett Windows-nätverk efter anslutna maskiner? 
 
 
 
-Det här verktyget kan användas av privatpersoner för att **skanna sitt lokala nätverk**, men också av IT-proffs för samma ändamål. Ett bevis på att **det här verktyget är mycket praktiskt** är att det redan har använts av **vissa cyberkriminella grupper** för att skanna företagsnätverk (på samma sätt som Nmap). Ett bra exempel är [ransomware-gruppen RansomHub] (https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Det är fortfarande en bra programvara, men som med andra nätverks- och säkerhetsorienterade verktyg kan dess användning missbrukas.
+Det här verktyget kan användas av privatpersoner för att **skanna sitt lokala nätverk**, men också av IT-proffs för samma ändamål. Ett bevis på att **det här verktyget är mycket praktiskt** är att det redan har använts av **vissa cyberkriminella grupper** för att skanna företagsnätverk (på samma sätt som Nmap). Ett bra exempel är [ransomware-gruppen RansomHub](https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Det är fortfarande en bra programvara, men som med andra nätverks- och säkerhetsorienterade verktyg kan dess användning missbrukas.
 
 
 
@@ -42,7 +42,7 @@ Om du vill gå vidare kan du läsa handledningen om Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Komma igång med Angry IP Scanner
 
@@ -181,4 +181,4 @@ Om du vill använda **Nmap** med en grafisk Interface kan du använda **Zenmap-a
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

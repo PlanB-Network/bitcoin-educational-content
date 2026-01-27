@@ -19,7 +19,7 @@ Se till att du har installerat Umbrel genom att följa vår installationsguide:
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Introduktion till Nostr
 
@@ -137,7 +137,7 @@ På den här sidan klistrar du in webbadressen till ditt Umbrel-relä som du kop
 
 
 
-**Anslutning:** noStrudel erbjuder dig flera anslutningsalternativ. I vårt fall väljer vi "Private Key" och klistrar in din tidigare genererade Nostr privata nyckel. Om du ännu inte har någon nyckel kan du installera tillägget [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) för att skapa och/eller spara dina Nostr-nycklar och på så sätt kommunicera säkrare med de olika Nostr-applikationerna.
+**Anslutning:** noStrudel erbjuder dig flera anslutningsalternativ. I vårt fall väljer vi "Private Key" och klistrar in din tidigare genererade Nostr privata nyckel. Om du ännu inte har någon nyckel kan du installera tillägget [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) för att skapa och/eller spara dina Nostr-nycklar och på så sätt kommunicera säkrare med de olika Nostr-applikationerna.
 
 
 
@@ -306,7 +306,7 @@ Om du vill veta hur du sätter upp din egen Lightning-nod på Umbrel rekommender
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Avancerad konfiguration och säkerhet
 

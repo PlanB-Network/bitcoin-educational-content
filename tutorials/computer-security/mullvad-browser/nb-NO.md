@@ -304,7 +304,7 @@ Disse tre utvidelsene fungerer sammen for å skape et sammenhengende økosystem 
 
 
 
-Mullvad Browser er gratis tilgjengelig for Windows, macOS og Linux. For å installere den, gå til [det offisielle Mullvad-nettstedet] (https://mullvad.net/browser).
+Mullvad Browser er gratis tilgjengelig for Windows, macOS og Linux. For å installere den, gå til [det offisielle Mullvad-nettstedet](https://mullvad.net/browser).
 
 
 
@@ -546,9 +546,9 @@ Selv om den har visse begrensninger (ingen mobilversjon, ikke-vedvarende økter)
 
 
 - [Offisielt nettsted for Mullvad Browser](https://mullvad.net/fr/browser)
-- [Nedlastingsside for Mullvad Browser] (https://mullvad.net/en/download/browser)
-- [Detaljerte tekniske spesifikasjoner] (https://mullvad.net/en/browser/Hard-facts)
-- [Mullvad nettleserutvidelse] (https://mullvad.net/en/help/mullvad-browser-extension)
+- [Nedlastingsside for Mullvad Browser](https://mullvad.net/en/download/browser)
+- [Detaljerte tekniske spesifikasjoner](https://mullvad.net/en/browser/Hard-facts)
+- [Mullvad nettleserutvidelse](https://mullvad.net/en/help/mullvad-browser-extension)
 
 
 
@@ -557,10 +557,10 @@ Selv om den har visse begrensninger (ingen mobilversjon, ikke-vedvarende økter)
 
 
 
-- [Hvorfor personvern er viktig] (https://mullvad.net/en/why-privacy-matters/how-mass-surveillance-companies-collect-your-data)
-- [Tor uten Tor: Mullvad Browser-konseptet] (https://mullvad.net/en/browser/tor-without-tor)
-- [Hvordan velge en personvernvennlig nettleser] (https://mullvad.net/en/browser/things-to-look-for-when-choosing-a-browser)
-- [Forstå fingeravtrykk fra nettlesere] (https://mullvad.net/en/browser/browser-fingerprinting)
+- [Hvorfor personvern er viktig](https://mullvad.net/en/why-privacy-matters/how-mass-surveillance-companies-collect-your-data)
+- [Tor uten Tor: Mullvad Browser-konseptet](https://mullvad.net/en/browser/tor-without-tor)
+- [Hvordan velge en personvernvennlig nettleser](https://mullvad.net/en/browser/things-to-look-for-when-choosing-a-browser)
+- [Forstå fingeravtrykk fra nettlesere](https://mullvad.net/en/browser/browser-fingerprinting)
 
 
 
@@ -569,8 +569,8 @@ Selv om den har visse begrensninger (ingen mobilversjon, ikke-vedvarende økter)
 
 
 
-- [Mullvad Browser Help Center] (https://mullvad.net/en/help/tag/mullvad-browser)
-- [Første skritt mot personvern på nettet] (https://mullvad.net/en/help/first-steps-towards-online-privacy)
+- [Mullvad Browser Help Center](https://mullvad.net/en/help/tag/mullvad-browser)
+- [Første skritt mot personvern på nettet](https://mullvad.net/en/help/first-steps-towards-online-privacy)
 
 
 
@@ -580,4 +580,4 @@ Selv om den har visse begrensninger (ingen mobilversjon, ikke-vedvarende økter)
 
 
 - [Mullvad Browser Guide - Privacy Guides](https://www.privacyguides.org/en/desktop-browsers/)
-- [Fellesskapsdiskusjoner] (https://discuss.privacyguides.net/t/about-changing-settings-in-mullvad-browser/18330)
+- [Fellesskapsdiskusjoner](https://discuss.privacyguides.net/t/about-changing-settings-in-mullvad-browser/18330)

@@ -38,6 +38,8 @@ Dołącz do nas, aby zmienić sposób korzystania z Bitcoin i stać się świado
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 
 Witamy w kursie BTC204!
 
@@ -69,7 +71,7 @@ Celem tego szkolenia nie jest zapewnienie całkowitej anonimowości podczas korz
 **Sekcja 1: Definicje i kluczowe pojęcia**
 
 
-Na początek dokonamy przeglądu podstawowych zasad rządzących działaniem Bitcoin, abyśmy mogli następnie spokojnie zająć się pojęciami związanymi z poufnością. Konieczne jest opanowanie kilku podstawowych pojęć, takich jak UTXO, odbieranie adresów i skryptów, zanim będzie można w pełni zrozumieć koncepcje, które omówimy w kolejnych sekcjach. Przedstawimy również ogólny model poufności Bitcoin, zgodnie z wyobrażeniami Satoshi Nakamoto, co pozwoli nam zrozumieć związane z nim stawki i ryzyko.
+Na początek dokonamy przeglądu podstawowych zasad rządzących działaniem Bitcoin, abyśmy mogli następnie spokojnie zająć się pojęciami związanymi z poufnością. Konieczne jest opanowanie kilku podstawowych pojęć, takich jak [UTXO](https://planb.academy/resources/glossary/utxo), odbieranie adresów i skryptów, zanim będzie można w pełni zrozumieć koncepcje, które omówimy w kolejnych sekcjach. Przedstawimy również ogólny model poufności Bitcoin, zgodnie z wyobrażeniami Satoshi Nakamoto, co pozwoli nam zrozumieć związane z nim stawki i ryzyko.
 
 
 ![BTC204](assets/pl/001.webp)
@@ -96,7 +98,7 @@ W trzeciej części naszego szkolenia przechodzimy do sedna: praktyki! Celem jes
 **Sekcja 4: Zrozumienie transakcji CoinJoin**
 
 
-Jak możemy mówić o prywatności w Bitcoin nie wspominając o coinjoinach? W sekcji 4 dowiesz się wszystkiego, co musisz wiedzieć o tej metodzie mieszania. Dowiesz się, czym są coinjoiny, poznasz ich historię i cele, a także różne rodzaje CoinJoin, które istnieją. Wreszcie, dla bardziej doświadczonych użytkowników, przyjrzymy się, czym są anonsety i entropia oraz jak je obliczyć.
+Jak możemy mówić o prywatności w Bitcoin nie wspominając o [coinjoin](https://planb.academy/resources/glossary/coinjoin)ach? W sekcji 4 dowiesz się wszystkiego, co musisz wiedzieć o tej metodzie mieszania. Dowiesz się, czym są coinjoiny, poznasz ich historię i cele, a także różne rodzaje CoinJoin, które istnieją. Wreszcie, dla bardziej doświadczonych użytkowników, przyjrzymy się, czym są anonsety i entropia oraz jak je obliczyć.
 
 
 ![BTC204](assets/pl/004.webp)
@@ -126,6 +128,8 @@ Gotowy do poznania zawiłości prywatności w Bitcoin? Do dzieła!
 
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
+
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
 
 
 
@@ -197,6 +201,8 @@ Całkowite saldo portfela wynosiłoby `17 BTC`.
 
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 
@@ -323,6 +329,8 @@ Po drugie, jak wspomniano w poprzednich sekcjach, monety Bitcoin są zasadniczo 
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 
 ### Pieniądze: autentyczność, uczciwość i podwójne wydatki
@@ -428,6 +436,8 @@ Ale ponieważ transakcje Bitcoin są upubliczniane, nadal możliwe jest ustaleni
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
+
 
 
 ### Definicja i działanie
@@ -490,9 +500,9 @@ Musimy więc również być w stanie poradzić sobie z analizą Blockchain w nas
 Czy jest lepszy sposób na przeciwdziałanie analizie Blockchain niż poznanie metod w niej stosowanych? Jeśli chcesz wiedzieć, jak poprawić swoją prywatność na Bitcoin, musisz zrozumieć te metody. Pozwoli ci to lepiej zrozumieć techniki takie jak CoinJoin lub PayJoin (techniki, którym przyjrzymy się w końcowych częściach kursu) i zmniejszy liczbę błędów, które możesz popełnić.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 W tym przypadku możemy wyciągnąć analogię z kryptografią i kryptoanalizą. Dobry kryptograf jest przede wszystkim dobrym kryptoanalitykiem. Aby opracować nowy algorytm szyfrowania, trzeba wiedzieć, z jakimi atakami będzie musiał się zmierzyć, a także zbadać, dlaczego poprzednie algorytmy zostały złamane. Ta sama zasada dotyczy prywatności Bitcoin. Zrozumienie metod analizy Blockchain jest kluczem do ochrony przed nimi. Właśnie dlatego w tym szkoleniu zawarłem całą sekcję poświęconą analizie on chain.
 
@@ -541,6 +551,8 @@ Zobaczymy, czym one są w kolejnych rozdziałach, ale już teraz warto zauważy�
 
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 
@@ -733,6 +745,8 @@ Dzięki tym wzorcom transakcji możemy już zinterpretować pewną ilość infor
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 
 Wewnętrzna heurystyka to specyficzna cecha, którą identyfikujemy w samej transakcji, bez konieczności badania jej otoczenia, i która umożliwia nam dokonywanie dedukcji. W przeciwieństwie do wzorców, które koncentrują się na ogólnej strukturze transakcji na wysokim poziomie, heurystyka wewnętrzna opiera się na zestawie danych, które można wyodrębnić. Obejmuje to:
@@ -808,7 +822,7 @@ Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec
 Na tym ostatnim widzimy, że wejście nr 0 i wyjście nr 1 wykorzystują skrypty P2WPKH (SegWit V0), podczas gdy wyjście nr 0 wykorzystuje inny skrypt P2PKH (Legacy).
 
 
-Na początku 2010 roku ta heurystyka oparta na wersjonowaniu skryptów była stosunkowo mało przydatna ze względu na ograniczoną liczbę dostępnych typów skryptów. Jednak wraz z upływem czasu i kolejnymi aktualizacjami Bitcoin wprowadzono coraz większą różnorodność typów skryptów. Ta heurystyka staje się zatem coraz bardziej istotna, ponieważ przy szerszym zakresie typów skryptów użytkownicy dzielą się na mniejsze grupy, zwiększając w ten sposób szanse na zastosowanie tej wewnętrznej heurystyki ponownego użycia wersjonowania. Z tego powodu, wyłącznie z perspektywy poufności, zaleca się wybranie najpopularniejszego typu skryptu. Na przykład, w chwili gdy piszę te słowa, skrypty Taproot (`bc1p`) są rzadziej używane niż skrypty SegWit V0 (`bc1q`). Chociaż te pierwsze oferują korzyści ekonomiczne i poufność w pewnych określonych kontekstach, w przypadku bardziej tradycyjnych zastosowań z pojedynczym podpisem może być sensowne trzymanie się starszego standardu ze względu na poufność, dopóki nowy standard nie zostanie szerzej przyjęty.
+Na początku 2010 roku ta heurystyka oparta na wersjonowaniu skryptów była stosunkowo mało przydatna ze względu na ograniczoną liczbę dostępnych typów skryptów. Jednak wraz z upływem czasu i kolejnymi aktualizacjami Bitcoin wprowadzono coraz większą różnorodność typów skryptów. Ta heurystyka staje się zatem coraz bardziej istotna, ponieważ przy szerszym zakresie typów skryptów użytkownicy dzielą się na mniejsze grupy, zwiększając w ten sposób szanse na zastosowanie tej wewnętrznej heurystyki ponownego użycia wersjonowania. Z tego powodu, wyłącznie z perspektywy poufności, zaleca się wybranie najpopularniejszego typu skryptu. Na przykład, w chwili gdy piszę te słowa, skrypty [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) są rzadziej używane niż skrypty SegWit V0 (`bc1q`). Chociaż te pierwsze oferują korzyści ekonomiczne i poufność w pewnych określonych kontekstach, w przypadku bardziej tradycyjnych zastosowań z pojedynczym podpisem może być sensowne trzymanie się starszego standardu ze względu na poufność, dopóki nowy standard nie zostanie szerzej przyjęty.
 
 
 ### Płatności w zaokrągleniu
@@ -892,6 +906,8 @@ Source : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 
@@ -1481,6 +1497,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 
 Po zapoznaniu się z technikami, które mogą złamać poufność Bitcoin, w tej trzeciej części przyjrzymy się teraz najlepszym praktykom, które należy zastosować, aby się chronić. Celem tej części nie jest zbadanie metod poprawy poufności, który to temat zostanie omówiony później, ale raczej zrozumienie, jak prawidłowo współdziałać z Bitcoin, aby zachować poufność, którą naturalnie oferuje, bez uciekania się do dodatkowych technik.
@@ -1653,6 +1671,8 @@ Jeśli potrzebujesz statycznego identyfikatora do otrzymywania płatności, taki
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 
 Jak odkryliśmy w sekcji dotyczącej analizy ciągów znaków, istnieje wiele heurystyk i wzorców, które można wykorzystać do wydedukowania informacji o transakcji. Jako użytkownik ważne jest, aby być świadomym tych technik, aby lepiej się przed nimi chronić.
@@ -1803,12 +1823,14 @@ Wszystkie te automatyczne metody selekcji UTXO mogą być skuteczne w zmniejszan
 Jeśli chcesz dowiedzieć się, jak oznaczyć swoje UTXO, przygotowaliśmy obszerny samouczek na temat głównego oprogramowania Bitcoin Wallet:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC i identyfikacja kluczy
 
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
+
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
 
 
 
@@ -1961,6 +1983,8 @@ Podsumowując, gdy bitcoiny są wymieniane na inne aktywa, czy to zakup w waluci
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
+
 
 
 Po przeczytaniu poprzedniego rozdziału możesz zastanawiać się, w jaki sposób możesz kupić lub sprzedać Bitcoin bez konieczności przechodzenia procedury weryfikacji tożsamości, aby uniknąć ryzyka związanego z KYC. Istnieje kilka sposobów handlu Bitcoin.
@@ -1981,7 +2005,7 @@ Niemniej jednak istnieje ryzyko dla bezpieczeństwa osobistego. Główne niebezp
 ![BTC204](assets/pl/089.webp)
 
 
-Aby ograniczyć to ryzyko, radziłbym preferować transakcje gotówkowe z zaufanymi osobami, takimi jak członkowie rodziny lub bliscy przyjaciele. Alternatywnie, możesz również rozważyć handel na [lokalnych spotkaniach Bitcoin] (https://btcmap.org/communities/map), po kilkukrotnym uczestnictwie. Pozwoli ci to lepiej poznać innych uczestników i nie będziesz sam podczas fizycznej wymiany. Ważne jest jednak, aby zdawać sobie sprawę, że wymiana gotówkowa P2P z natury wiąże się z ryzykiem dla osobistego bezpieczeństwa, które nie istnieje przy zakupie za pośrednictwem regulowanej platformy i konta bankowego.
+Aby ograniczyć to ryzyko, radziłbym preferować transakcje gotówkowe z zaufanymi osobami, takimi jak członkowie rodziny lub bliscy przyjaciele. Alternatywnie, możesz również rozważyć handel na [lokalnych spotkaniach Bitcoin](https://btcmap.org/communities/map), po kilkukrotnym uczestnictwie. Pozwoli ci to lepiej poznać innych uczestników i nie będziesz sam podczas fizycznej wymiany. Ważne jest jednak, aby zdawać sobie sprawę, że wymiana gotówkowa P2P z natury wiąże się z ryzykiem dla osobistego bezpieczeństwa, które nie istnieje przy zakupie za pośrednictwem regulowanej platformy i konta bankowego.
 
 
 Co więcej, w zależności od miejsca zamieszkania, transport i przechowywanie dużych sum pieniędzy może być ryzykowne, niezależnie od tego, czy jest to Bitcoin, czy gotówka.
@@ -2038,7 +2062,7 @@ Jeśli chodzi o rozwiązania, osobiście zawsze korzystałem z [Bisq](https://bi
 -> Zobacz nasz samouczek Bisq.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Prostszą opcją jest wypróbowanie [Peach](https://peachbitcoin.com/), aplikacji mobilnej, która łączy kupujących i sprzedających z wbudowanym systemem rozwiązywania konfliktów. Proces ten jest bardziej intuicyjny niż w przypadku Bisq.
 
@@ -2046,7 +2070,7 @@ Prostszą opcją jest wypróbowanie [Peach](https://peachbitcoin.com/), aplikacj
 -> Zobacz nasz samouczek Peach.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 Inną opcją online jest [HodlHodl](https://hodlhodl.com/), platforma o ugruntowanej pozycji, która oferuje dobrą płynność, choć osobiście jej nie testowałem.
 
@@ -2054,7 +2078,7 @@ Inną opcją online jest [HodlHodl](https://hodlhodl.com/), platforma o ugruntow
 -> Zobacz nasz samouczek HodlHodl.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Jeśli chodzi o rozwiązania oparte na Lightning Network, wypróbuj [RoboSats](https://learn.robosats.com/) i [LNP2PBot](https://lnp2pbot.com/). RoboSats jest dostępny za pośrednictwem strony internetowej i jest stosunkowo prosty w użyciu. LNP2PBot jest bardziej nietypowy, ponieważ działa za pośrednictwem systemu Exchange w aplikacji do przesyłania wiadomości Telegram.
 
@@ -2065,9 +2089,9 @@ Jeśli chodzi o rozwiązania oparte na Lightning Network, wypróbuj [RoboSats](h
 -> Zobacz nasz samouczek LNP2PBot.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/pl/096.webp)
 
@@ -2081,7 +2105,7 @@ W zależności od kraju, w którym mieszkasz, możesz mieć dostęp do regulowan
 -> Zobacz nasz samouczek dotyczący Relai.
 
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 Jak widzieliśmy w poprzednim rozdziale, ten rodzaj platformy pozwala uniknąć ryzyka związanego z procedurami KYC, ale wiąże się z wyższym poziomem ryzyka w zakresie identyfikacji kluczy. Pod względem poufności Bitcoin platformy te oferują lepszą ochronę niż metody zakupu z KYC, ale pozostają mniej atrakcyjne niż giełdy P2P.
 
@@ -2116,7 +2140,7 @@ Najlepszym sposobem na wydanie BTC jest oczywiście użycie Bitcoin lub Lightnin
 Kilka platform, które nie wymagają procedur KYC, oferuje możliwość wymiany bitcoinów na karty podarunkowe, które można wykorzystać u głównych sprzedawców detalicznych. Należą do nich [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) i [Bitrefill](https://www.bitrefill.com/). Platformy te znacznie ułatwiają codzienne korzystanie z bitcoinów, dając dostęp do szerokiej gamy produktów i usług bez konieczności przeliczania ich na walutę fiducjarną.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/pl/098.webp)
 
@@ -2130,13 +2154,15 @@ Inne sposoby pozyskiwania bitcoinów przy jednoczesnej ochronie prywatności obe
 Inną metodą jest praca w Exchange za bitcoiny. Ta metoda pozyskiwania może być interesująca, ale stopień wymaganej identyfikacji różni się znacznie w zależności od okoliczności.
 
 
-*Aby napisać ten rozdział, skorzystałem z kursu szkoleniowego BTC205 prowadzonego przez [@pivi___](https://x.com/pivi___) na Plan ₿ Network (na razie dostępnego tylko w języku francuskim)*
+*Aby napisać ten rozdział, skorzystałem z kursu szkoleniowego BTC205 prowadzonego przez [@pivi___](https://x.com/pivi___) na Plan ₿ Academy (na razie dostępnego tylko w języku francuskim)*
 
 
 ## Konsolidacja, zarządzanie UTXO i CIOH
 
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
+
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
 
 
 
@@ -2259,6 +2285,8 @@ W każdym razie nie należy zapominać, że każda konsolidacja nieuchronnie wi�
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 
 Przyjrzyjmy się kilku innym najlepszym praktykom optymalizacji prywatności w Bitcoin.
@@ -2340,6 +2368,8 @@ Oprócz wszystkich tych dobrych praktyk, które należy stosować na co dzień, 
 
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 
@@ -2491,6 +2521,8 @@ Dzisiejsi użytkownicy preferują zatem CoinJoin, ponieważ pozwala im on zachow
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
 
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
+
 
 
 Prywatność zapewniana przez CoinJoin zależy od wielkości grupy, w której ukryty jest nasz utwór. Oznacza to znalezienie jak największej liczby uczestników. Całkowicie możliwe jest stworzenie CoinJoin ręcznie, z użytkownikami, których sami znaleźliśmy, ale jest to skomplikowany proces i nie wygra żadnych dużych anonsów.
@@ -2631,7 +2663,7 @@ W tym samym wątku możemy znaleźć [wiadomość od hashcoina w odpowiedzi do D
 ### Zerolink
 
 
-Zerolink to kompleksowy protokół miksowania, który zawiera Chaumian coinjoins i różne strategie ochrony anonimowości użytkowników przed kilkoma formami analizy łańcucha, w szczególności poprzez minimalizowanie błędów związanych z zarządzaniem portfelem. Protokół ten [został wprowadzony przez nopara73 i TDevD w 2017 r.] (https://github.com/nopara73/ZeroLink/blob/master/README.md).
+Zerolink to kompleksowy protokół miksowania, który zawiera Chaumian coinjoins i różne strategie ochrony anonimowości użytkowników przed kilkoma formami analizy łańcucha, w szczególności poprzez minimalizowanie błędów związanych z zarządzaniem portfelem. Protokół ten [został wprowadzony przez nopara73 i TDevD w 2017 r.](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 
 ![BTC204](assets/pl/132.webp)
@@ -2666,9 +2698,10 @@ Obecnie Whirlpool jest jedyną implementacją CoinJoin, która rygorystycznie st
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*W 2024 roku jesteśmy świadkami poważnych zmian w narzędziach dostępnych dla użytkowników chcących tworzyć coinjoiny na Bitcoin. Obecnie znajdujemy się w punkcie zwrotnym, a rynek CoinJoin przechodzi poważną restrukturyzację. Ten rozdział z pewnością będzie z czasem aktualizowany.*
+
 
 
 Na chwilę obecną istnieją głównie 3 różne implementacje CoinJoin na Bitcoin:
@@ -2680,6 +2713,10 @@ Na chwilę obecną istnieją głównie 3 różne implementacje CoinJoin na Bitco
 - Wabisabi;
 - JoinMarket.
 
+
+Oprócz tych trzech historycznych implementacji niedawno pojawiła się nowa: Joinstr. Nie omówię jej w tym rozdziale, ale wszystkie związane z nią informacje znajdziecie w tym dedykowanym samouczku:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 Każda z tych implementacji ma na celu przerwanie historii UTXO poprzez transakcje CoinJoin. Jednak ich mechanizmy znacznie się różnią. Dlatego ważne jest, aby zrozumieć, jak działa każda z nich, aby móc wybrać opcję najlepiej dostosowaną do swoich potrzeb.
 
@@ -2713,6 +2750,8 @@ Pomimo innowacyjnego modelu łączenia P2P dla coinjoinerów, JoinMarket ma pewn
 
 Wreszcie, chociaż koncepcja JoinMarket jest interesująca, szczególnie dla osób zainteresowanych dynamicznym rynkiem płynności, jej słabości strukturalne i złożoność techniczna sprawiają, że moim zdaniem jest ona mniej interesująca zarówno dla nowicjuszy, jak i ekspertów poszukujących implementacji CoinJoin.
 
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -2781,10 +2820,16 @@ Jeszcze bardziej niepokojąca jest zasada filtrowania, która radykalnie kontras
 Jak już pewnie zdążyłeś się zorientować, zdecydowanie preferuję model Whirlpool dla coinjoinów na Bitcoin. System ten wyróżnia się rygorystycznością i oferuje doskonałe gwarancje poufności. Jest również jedynym, który oferuje mieszankę uważaną za idealną w kontekście matematycznym. Moim zdaniem model ten reprezentuje przyszłość coinjoinów na Bitcoin. Zapraszam do bardziej szczegółowego zapoznania się z tym modelem w następnym rozdziale.
 
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Jak działa Whirlpool
 
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 
@@ -3065,7 +3110,7 @@ Nie zaleca się również przenoszenia postmix UTXO do Wallet przy użyciu skryp
 Podobnie jak w przypadku każdej transakcji Bitcoin, ważne jest, aby nie używać ponownie otrzymanego Address. Każda nowa transakcja musi zostać odebrana na nowym, pustym Address.
 
 
-Najprostszym i najbezpieczniejszym rozwiązaniem jest pozostawienie mieszanych UTXO w spoczynku na koncie **postmix**, pozwalając im na remiksowanie i dotykanie ich tylko w celu wydania. Portfele Samurai i Sparrow oferują dodatkowe zabezpieczenia przed wszystkimi tymi zagrożeniami związanymi z analizą łańcucha. Zabezpieczenia te pomagają uniknąć błędów.
+Najprostszym i najbezpieczniejszym rozwiązaniem jest pozostawienie wymieszanych UTXO w spoczynku na koncie **postmix**, pozwalając im dalej się miksować i dotykając ich jedynie podczas wydawania. Portfele Samourai (a teraz także Ashigaru) oraz Sparrow oferują dodatkowe zabezpieczenia przed wszystkimi tymi zagrożeniami związanymi z analizą łańcucha. Zabezpieczenia te pomagają unikać błędów.
 
 
 ### Jak zarządzać toksycznymi wymianami?
@@ -3083,31 +3128,34 @@ Oto kilka strategii korzystania z nich:
 - Oznacz je jako **"niewydawalne"**: Innym podejściem jest zaprzestanie ich używania, oznaczenie ich jako "niewydawalnych" na dedykowanym koncie i po prostu HODL. Gwarantuje to, że nie zostaną one przypadkowo wydane. Jeśli wartość Bitcoin wzrośnie, mogą pojawić się nowe pule bardziej odpowiednie dla toksycznych UTXO;
 - **Przekazywanie darowizn:** Rozważ przekazanie darowizny, choćby skromnej, deweloperom pracującym nad Bitcoin i powiązanym oprogramowaniem. Możesz również przekazać darowiznę stowarzyszeniom, które akceptują BTC. Jeśli zarządzanie toksycznymi UTXO wydaje się zbyt skomplikowane, możesz po prostu się ich pozbyć i przekazać darowiznę;
 - **Kupowanie kart podarunkowych:** Platformy takie jak [Bitrefill](https://www.bitrefill.com/) pozwalają na Exchange bitcoinów na karty podarunkowe, które można wykorzystać u różnych sprzedawców. Może to być sposób na rozstanie się z toksycznymi UTXO bez utraty związanej z nimi wartości;
-- **Skonsoliduj je na Monero:** Samourai Wallet oferuje usługę atomic swap pomiędzy BTC i XMR. Jest to idealne rozwiązanie do zarządzania toksycznymi UTXO poprzez konsolidację ich na Monero, bez narażania poufności za pośrednictwem CIOH, przed wysłaniem ich z powrotem do Bitcoin. Opcja ta może być jednak kosztowna pod względem opłat Mining i premii ze względu na ograniczenia płynności;
+- **Konsolidacja przez Monero:** Samourai Wallet oferował kiedyś usługę atomowych swapów między BTC a XMR, jednak od czasu ich aresztowania jest ona niedostępna. Podejście to umożliwiało obsługę toksycznych UTXO poprzez ich konsolidację na Monero bez naruszania prywatności za pośrednictwem CIOH, a następnie odesłanie z powrotem na Bitcoin. Jeśli pojawi się podobna usługa, może stanowić interesującą opcję. Należy jednak pamiętać, że metoda ta może być kosztowna – zarówno ze względu na opłaty za wydobycie, jak i na premię wynikającą z ograniczeń płynności przy odwrotnej konwersji na bitcoiny.
 - Wyślij je do Lightning Network: Przeniesienie tych UTXO do Lightning Network w celu skorzystania z obniżonych opłat transakcyjnych może być atrakcyjną opcją. Jednak ta metoda może ujawnić pewne informacje w zależności od sposobu korzystania z Lightning, dlatego należy jej używać ostrożnie.
 
 
 ### Jak używać Whirlpool?
 
 
-Po aresztowaniu założycieli Samourai Wallet i przejęciu ich serwerów 24 kwietnia 2024 r. narzędzie Whirlpool przestało działać, nawet dla osób posiadających własne Dojo. Wcześniej było ono dostępne na Samourai Wallet i Sparrow Wallet.
+Po aresztowaniu założycieli Samourai Wallet i zajęciu ich serwerów 24 kwietnia 2024 roku narzędzie Whirlpool nie jest już dostępne w Samourai Wallet i Sparrow Wallet.
 
 
 ![BTC204](assets/pl/155.webp)
 
 
-Nadal jednak możliwe jest, że narzędzie to zostanie reaktywowane w nadchodzących tygodniach, w zależności od wyniku testów, lub ponownie uruchomione w inny sposób. W każdym razie nie sądzę, aby rynek Bitcoin CoinJoin długo pozostawał bez Supply, ponieważ istnieje na niego popyt. Co więcej, ponieważ model Whirlpool jest najbardziej zaawansowany pod względem poufności, z pewnością będzie on wybierany przez inne implementacje w przyszłości.
 
 
-Uważnie obserwujemy tę sprawę i rozwój związanych z nią narzędzi. Zapewniamy, że będziemy aktualizować ten kurs szkoleniowy w miarę pojawiania się nowych informacji.
 
+
+Od teraz Whirlpool jest ponownie dostępny w aplikacji mobilnej Ashigaru, fork’u Samourai Wallet, dzięki oprogramowaniu Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Rdzeń działania Whirlpool pozostaje niezmieniony, jednak istnieją pewne różnice w porównaniu z jego użyciem na Samourai: w 2025 roku na Ashigaru dostępne są tylko dwa poole o wartości `0.25 BTC` i `0.025 BTC`, z odpowiednimi opłatami wejściowymi w wysokości `0.0125 BTC` i `0.00125 BTC`.
 
 W następnym rozdziale dowiemy się, czym są "anonsety", jak obliczane są te wskaźniki i jak mogą one pomóc nam oszacować wydajność cykli CoinJoin.
 
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -3115,6 +3163,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
+
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
 
 
 
@@ -3226,6 +3276,8 @@ Jak widzieliśmy w tym rozdziale, anonsety można obliczyć tylko wtedy, gdy ist
 
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 
@@ -3535,7 +3587,7 @@ Niestety, po aresztowaniu założycieli Samourai narzędzia te przestały dział
 Teraz, gdy szczegółowo omówiliśmy coinjoiny, przyjrzymy się innym technikom prywatności dostępnym w Bitcoin w ostatniej części naszego kursu. Przyjrzymy się payjoinom, określonym typom transakcji pseudo-CoinJoin, statycznym protokołom Address, a także środkom wzmacniającym poufność nie na poziomie samych transakcji, ale na poziomie sieci węzłów.
 
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Zrozumienie wyzwań związanych z innymi zaawansowanymi technikami poufności
 
@@ -3547,6 +3599,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
+
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
 
 
 
@@ -3657,8 +3711,11 @@ Znane programy obsługujące PayJoin obejmują Sparrow Wallet, Wasabi Wallet, Mu
 ![BTC204](assets/pl/177.webp)
 
 
-Najbardziej zaawansowaną implementacją PayJoin był tylko Stowaway na Samourai Wallet. Jednak od czasu aresztowania twórców oprogramowania, narzędzie to jest obecnie tylko częściowo funkcjonalne. Zaletą Stowaway jest to, że jest to wszechstronny, łatwy w użyciu protokół, który obsługuje zarówno odbieranie, jak i wysyłanie payjoinów. Częściowo podpisane transakcje można wymieniać ręcznie, skanując kilka kodów QR, lub automatycznie przez Tor za pośrednictwem Soroban. Ta ostatnia opcja komunikacji jest obecnie niedostępna.
 
+
+Najbardziej zaawansowaną implementacją payjoin są bez wątpienia Stowaway, stworzone przez deweloperów Samourai Wallet. Od aresztowania twórców oprogramowania narzędzie to działa na Samourai jedynie częściowo. Zostało jednak ponownie uruchomione w aplikacji Ashigaru.
+
+Zaletą Stowaway jest to, że jest to kompletny i bardzo prosty w użyciu protokół, który obsługuje zarówno odbieranie, jak i wysyłanie payjoinów. Częściowo podpisane transakcje można wymieniać ręcznie poprzez skanowanie kilku kodów QR lub automatycznie przez Tor za pośrednictwem Soroban.
 
 ![BTC204](assets/pl/178.webp)
 
@@ -3671,12 +3728,14 @@ Jednym z rozwiązań byłoby wykorzystanie struktur transakcji, które wprowadza
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Płatność mini-CoinJoin
 
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 
@@ -3835,13 +3894,12 @@ Logika powinna być następująca, gdy chcesz użyć narzędzia poufności dla w
 ### Jak korzystać z transakcji Stonewall i Stonewall x2?
 
 
-Transakcje Stonewall i Stonewall x2 są dostępne zarówno w aplikacji Samourai Wallet, jak i oprogramowaniu Sparrow Wallet.
+Transakcje Stonewall są dostępne w Sparrow Wallet oraz w Ashigaru, podczas gdy Stonewall x2 są obecnie obsługiwane wyłącznie przez Ashigaru.
 
 
 ![BTC204](assets/pl/189.webp)
 
 
-Jednak, podobnie jak w przypadku payjoinów, po aresztowaniu założycieli Samourai, transakcje Stonewall x2 działają teraz tylko poprzez ręczną wymianę PSBT między zainteresowanymi stronami. Niestety, automatyczne Exchange za pośrednictwem Soroban nie jest już dostępne.
 
 
 Możliwe jest również przeprowadzenie tego typu transakcji ręcznie z dowolnego oprogramowania Bitcoin Wallet.
@@ -3850,14 +3908,18 @@ Możliwe jest również przeprowadzenie tego typu transakcji ręcznie z dowolneg
 W następnym rozdziale przyjrzymy się innej technice poufności, która jest stosunkowo mało znana, ale jest bardzo przydatna jako uzupełnienie tego, co już zbadaliśmy.
 
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Rykoszety
 
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
+
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
 
 
 
@@ -3930,18 +3992,18 @@ Najczęstszy przypadek użycia rykoszetu występuje, gdy konieczne jest ukrycie 
 Metoda ta jest skuteczna nie tylko w przypadku coinjoinów, ale także w przypadku wszelkich innych oznaczeń, które mogłyby zagrozić zamienności części.
 
 
-Pomysł na tę metodę rykoszetu pierwotnie wyszedł od zespołów Samourai Wallet, które zintegrowały ją ze swoją aplikacją, aby zautomatyzować proces. Usługa nie jest darmowa na Samourai, ponieważ rykoszet wiąże się z opłatą za usługę w wysokości 100 000 Sats plus koszty Mining. Korzystanie z niej jest zatem zalecane w przypadku przelewów na znaczne kwoty.
+Pomysł na tę metodę rykoszetu pochodzi pierwotnie od zespołów Samourai Wallet, które zintegrowały ją ze swoją aplikacją, aby zautomatyzować jej działanie. Usługa była płatna w Samourai, ponieważ każdy rykoszet wiązał się z kosztem stałym 100 000 sats tytułem opłaty serwisowej, do których dochodziły opłaty za wydobycie. Tak samo jest dziś w Ashigaru. Z tego względu jej użycie zaleca się raczej przy transferach dużych kwot.
 
 
 ![BTC204](assets/pl/196.webp)
 
 
-Aplikacja Samurai oferuje dwa warianty rykoszetów:
+Aplikacja Ashigaru oferuje dwa warianty ricochetu (te same, które mieliśmy wcześniej w Samourai):
 
 
 
 
-- Wzmocniony rykoszet lub "dostawa rozłożona w czasie", która oferuje korzyść w postaci rozłożenia opłaty za usługę Samurai na pięć kolejnych transakcji. Opcja ta zapewnia również, że każda transakcja jest nadawana w osobnym czasie i rejestrowana w innym bloku, naśladując jak najdokładniej zachowanie zmiany właściciela. Metoda ta, choć wolniejsza, jest preferowana dla tych, którzy się nie spieszą, ponieważ maksymalizuje wydajność rykoszetu poprzez wzmocnienie jego odporności na analizę łańcucha;
+- Wzmocniony ricochet, czyli „dostarczanie etapowe”, oferuje zaletę rozłożenia opłat za usługę Ashigaru na pięć kolejnych transakcji. Opcja ta zapewnia również, że każda transakcja zostanie nadana w innym momencie i zapisana w innym bloku, co pozwala jak najwierniej imitować zachowanie związane ze zmianą właściciela. Choć jest wolniejsza, metoda ta jest korzystniejsza dla osób, którym się nie spieszy, ponieważ maksymalizuje skuteczność ricochetu, wzmacniając jego odporność na analizę łańcucha;
 
 
 ![BTC204](assets/pl/197.webp)
@@ -3961,12 +4023,14 @@ Rykoszetowanie oznacza po prostu wysyłanie bitcoinów do samego siebie. Ręczne
 W następnym rozdziale przyjrzymy się różnym technikom tajnych transferów Ownership. Metody te różnią się radykalnie od tych, które zbadaliśmy do tej pory, zarówno pod względem działania, jak i wyników.
 
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Tajne transfery Ownership
 
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 
@@ -4153,6 +4217,8 @@ Do tej pory badaliśmy głównie metody poufności na poziomie samych transakcji
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 
 W części 4 omówiliśmy znaczenie korzystania z kompletnego węzła w celu ochrony poufności transakcji. Ważne jest jednak, aby zrozumieć, że sam węzeł może być przedmiotem ataków mających na celu wyodrębnienie informacji o twoich działaniach. Dlatego w tym rozdziale przyjrzymy się różnym środkom, które można podjąć w celu ochrony prywatności, nie na poziomie samych transakcji lub przepływów Bitcoin, ale na poziomie sieci.
@@ -4269,6 +4335,8 @@ Po zapoznaniu się z różnymi metodami zachowania poufności na poziomie sieci,
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
+
 
 
 Jak widzieliśmy w części 3, ponowne użycie Address stanowi poważną przeszkodę dla poufności użytkownika w protokole Bitcoin. Aby zminimalizować to ryzyko, zdecydowanie zaleca się, aby generate otrzymywał pusty Address dla każdej nowej płatności otrzymanej w Wallet. Chociaż generowanie nowego Address jest obecnie uproszczone dzięki zastosowaniu nowoczesnego oprogramowania i hierarchicznych deterministycznych portfeli, praktyka ta może wydawać się sprzeczna z intuicją.
@@ -4313,7 +4381,7 @@ Celem BIP47 jest umożliwienie otrzymywania dużej liczby płatności bez ponown
 Użytkownik może zatem udostępniać swój kod płatności w całkowicie swobodny sposób, czy to w sieciach społecznościowych, czy na swojej stronie internetowej, bez ryzyka utraty poufności, w przeciwieństwie do konwencjonalnego odbiorcy Address lub klucza publicznego.
 
 
-Aby przeprowadzić transakcję, obie strony potrzebują Bitcoin Wallet z implementacją BIP47, taką jak PayNym na Samurai Wallet lub Sparrow Wallet. Wspólne korzystanie z kodów płatności tworzy między nimi tajny kanał. Aby skutecznie ustanowić ten kanał, emitent musi przeprowadzić określoną transakcję na Bitcoin Blockchain, znaną jako "transakcja powiadomienia" (więcej na ten temat później).
+Aby przeprowadzić transakcję, obie strony muszą posiadać portfel Bitcoin z implementacją BIP47, taki jak PayNym na Ashigaru lub Sparrow Wallet. Wspólne użycie ich kodów płatności tworzy między nimi tajny kanał. Aby skutecznie ustanowić ten kanał, nadawca musi wykonać określoną transakcję w łańcuchu bloków Bitcoina, znaną jako „transakcja powiadomienia” (szczegóły podam później).
 
 
 Połączenie kodów płatności dwóch użytkowników generuje wspólne sekrety, które z kolei tworzą dużą liczbę unikalnych adresów odbiorczych Bitcoin (dokładnie 2^32, czyli około 4 miliardy). W ten sposób płatności dokonywane za pośrednictwem BIP47 nie są w rzeczywistości adresowane do samego kodu płatności, ale raczej do klasycznych adresów odbioru pochodzących z kodów płatności zaangażowanych użytkowników.
@@ -4344,7 +4412,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 Kod ten można również zakodować jako kod QR, aby ułatwić komunikację, podobnie jak konwencjonalny odbiór Address.
 
 
-Jeśli chodzi o PayNym Bots, czyli roboty widoczne czasem na Twitterze, są to wizualne reprezentacje kodu płatności, stworzone przez Samourai Wallet. Są one generowane przy użyciu funkcji Hash, co zapewnia im niemal niepowtarzalność. Mają postać małego ciągu znaków zaczynającego się od `+`:
+Jeśli chodzi o boty PayNym, czyli te roboty, które czasem można zobaczyć na X (Twitterze), są to wizualne reprezentacje kodu płatności stworzone przez Samourai Wallet. Obecnie, wraz z Ashigaru, wyglądają nieco inaczej, lecz zasada pozostaje ta sama. Generowane są za pomocą funkcji skrótu, co nadaje im niemal pełną unikalność. Występują jako niewielki ciąg znaków rozpoczynający się od `+` :
 
 
 ```plaintext
@@ -4364,10 +4432,10 @@ Chociaż roboty te nie mają określonej funkcjonalności technicznej w ramach B
 
 
 ---
-*W kolejnych sekcjach tego rozdziału poświęconego BIP47 przyjrzymy się szczegółowo jego działaniu, ze szczególnym naciskiem na stosowane metody kryptograficzne. Aby w pełni zrozumieć te nieco techniczne wyjaśnienia, konieczne jest najpierw zrozumienie struktury portfeli HD, procedur wyprowadzania kluczy i podstaw kryptografii krzywych eliptycznych. Jeśli chcesz zagłębić się w te koncepcje, inny bezpłatny kurs szkoleniowy jest dostępny na Plan ₿ Network :*
+*W kolejnych sekcjach tego rozdziału poświęconego BIP47 przyjrzymy się szczegółowo jego działaniu, ze szczególnym naciskiem na stosowane metody kryptograficzne. Aby w pełni zrozumieć te nieco techniczne wyjaśnienia, konieczne jest najpierw zrozumienie struktury portfeli HD, procedur wyprowadzania kluczy i podstaw kryptografii krzywych eliptycznych. Jeśli chcesz zagłębić się w te koncepcje, inny bezpłatny kurs szkoleniowy jest dostępny na Plan ₿ Academy :*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *Mimo wszystko radzę się do nich stosować, ponieważ zrozumienie technicznego działania BIP47 znacznie ułatwi zrozumienie innych, podobnych propozycji, które omówimy w kolejnych rozdziałach*
 
@@ -5440,12 +5508,14 @@ Bob może następnie zwrócić Alice pieniądze w ten sam sposób, w jaki ona wy
 *Wielkie podziękowania dla [Fanisa Michalakisa](https://x.com/FanisMichalakis) za korektę i fachowe porady dotyczące artykułu, który zainspirował napisanie tego rozdziału!*
 
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Ciche płatności
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 

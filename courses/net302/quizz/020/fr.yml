@@ -6,4 +6,4 @@ wrong_answers:
   - TCP gère la fragmentation IP, UDP la compression
 explanation: |
   TCP nécessite d’établir une connexion avec suivi des échanges, tandis qu’UDP envoie les paquets sans établir ni contrôler de session préalable.
-reviewed: false
+reviewed: true 

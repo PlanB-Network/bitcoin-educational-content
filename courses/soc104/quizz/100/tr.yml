@@ -1,0 +1,9 @@
+question: Eric Hughes'un Cypherpunk Manifestosu'na göre, açık bir elektronik toplumda mahremiyeti savunmak için birincil sorumluluk nedir?
+answer: Bireyler, mahremiyetlerini sağlamak için hükümetlere veya şirketlere güvenmek yerine kendi mahremiyetlerini aktif olarak savunmalıdır
+wrong_answers:
+  - Hükümetler, vatandaşları kurumsal gözetimden korumak için kapsamlı gizlilik düzenlemeleri oluşturmalıdır
+  - Şirketler gönüllü gizlilik standartlarını uygulamalı ve veri toplama uygulamalarını kendi kendilerine düzenlemelidir
+  - Uluslararası kuruluşlar, tüm uluslarda gizlilik korumalarını zorunlu kılan bağlayıcı anlaşmalar oluşturmalıdır
+explanation: |
+  Eric Hughes Cypherpunk Manifestosu'nda açıkça şunu belirtmiştir: 'Hükümetlerin, şirketlerin ya da diğer büyük anonim kuruluşların bize gizlilik garantisi vermesini bekleyemeyiz...' Cypherpunks için ana hedefim, gizliliği sağlamak için başkasına güvenmek yerine insanların kendi gizliliklerini savunmalarını sağlamaktır
+  Bu felsefe, gizliliğin korunması için dış kurumlara bağımlılığı reddederek kriptografik araçlar yoluyla bireysel sorumluluğu ve kendine güveni vurgulamaktadır, bu nedenle cypherpunks merkezi olmayan kriptografik sistemler geliştirmiştir.

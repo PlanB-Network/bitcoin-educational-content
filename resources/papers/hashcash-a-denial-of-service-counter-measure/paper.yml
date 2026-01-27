@@ -1,0 +1,19 @@
+title: "Hashcash - A Denial of Service Counter-Measure"
+original_language: en
+authors:
+  - Adam Back
+abstract: |
+  Hashcash was originally proposed as a mechanism to throttle systematic abuse of un-metered internet resources
+  such as email, and anonymous remailers in May 1997. Five years on, this paper captures in one place the various
+  applications, improvements suggested and related subsequent publications, and describes initial experience from
+  experiments using hashcash. The hashcash CPU cost-function computes a token which can be used as a proof-of-work. Interactive and non-
+  interactive variants of cost-functions can be constructed which can be used in situations where the server can issue
+  a challenge (connection oriented interactive protocol), and where it can not (where the communication is store–and–
+  forward, or packet oriented) respectively.
+publication_date: 2002-08-01
+paper_type: whitepaper
+source: /
+topics:
+  - Proof-of-Work Systems
+pdf_url: http://www.hashcash.org/papers/hashcash.pdf
+id: 71b08092-a905-431a-b982-d70d55496115

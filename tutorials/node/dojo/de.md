@@ -7,7 +7,7 @@ description: Ein quelloffener Bitcoin-Knoten für Privatsphäre und Autonomie
 
 
 
-*Dieses Tutorial basiert auf [der offiziellen Ashigaru-Dokumentation] (https://ashigaru.rs/docs/), die ich übernommen und erweitert habe. Ich habe alle Abschnitte umgeschrieben, um die Übersichtlichkeit zu verbessern, und weitere detaillierte Erklärungen sowie Illustrationen für Anfänger hinzugefügt, um die Installation und Verwendung leichter verständlich zu machen.*
+*Dieses Tutorial basiert auf [der offiziellen Ashigaru-Dokumentation](https://ashigaru.rs/docs/), die ich übernommen und erweitert habe. Ich habe alle Abschnitte umgeschrieben, um die Übersichtlichkeit zu verbessern, und weitere detaillierte Erklärungen sowie Illustrationen für Anfänger hinzugefügt, um die Installation und Verwendung leichter verständlich zu machen.*
 
 
 
@@ -64,7 +64,7 @@ Für weitere Informationen zur Auswahl Ihrer Ausrüstung empfehle ich Ihnen dies
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Empfohlene Ausrüstung
 
@@ -132,7 +132,7 @@ Nachdem Sie die gewählte Hardware vorbereitet haben, ist es an der Zeit, ein Be
 
 
 
-Laden Sie von einem bereits funktionierenden Computer (Ihrem üblichen Rechner) das Ubuntu LTS-ISO-Image [von der offiziellen Website] (https://ubuntu.com/download/desktop) herunter (zum Zeitpunkt der Erstellung dieses Dokuments `24.04`, aber nehmen Sie das neueste, falls ein anderes verfügbar ist).
+Laden Sie von einem bereits funktionierenden Computer (Ihrem üblichen Rechner) das Ubuntu LTS-ISO-Image [von der offiziellen Website](https://ubuntu.com/download/desktop) herunter (zum Zeitpunkt der Erstellung dieses Dokuments `24.04`, aber nehmen Sie das neueste, falls ein anderes verfügbar ist).
 
 
 
@@ -140,7 +140,7 @@ Laden Sie von einem bereits funktionierenden Computer (Ihrem üblichen Rechner) 
 
 
 
-Stecken Sie einen USB-Stick von mindestens 8 GB in diesen Computer und erstellen Sie dann einen bootfähigen Stick mit einer Software wie [Balena Etcher] (https://etcher.balena.io/). Wählen Sie das soeben heruntergeladene Ubuntu-ISO-Image aus, wählen Sie den USB-Stick als Zielgerät und starten Sie dann den Erstellungsprozess (haben Sie etwas Geduld, es kann einige Minuten dauern).
+Stecken Sie einen USB-Stick von mindestens 8 GB in diesen Computer und erstellen Sie dann einen bootfähigen Stick mit einer Software wie [Balena Etcher](https://etcher.balena.io/). Wählen Sie das soeben heruntergeladene Ubuntu-ISO-Image aus, wählen Sie den USB-Stick als Zielgerät und starten Sie dann den Erstellungsprozess (haben Sie etwas Geduld, es kann einige Minuten dauern).
 
 
 
@@ -192,7 +192,7 @@ Weitere Details zum Ubuntu-Installationsprozess finden Sie in unserem speziellen
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. System-Update
 
@@ -428,7 +428,7 @@ Das System fordert Sie dann auf, das von Ihnen gewählte Passwort einzugeben und
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Benutzer für die Verwendung von Docker autorisieren
 
@@ -1068,7 +1068,7 @@ Um Ihr Wissen über IBD und ganz allgemein über die Funktionsweise und die Roll
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Überwachung der Synchronisation
@@ -1386,7 +1386,7 @@ Sie sind jetzt mit Ihrem Dojo verbunden.
 
 
 
-Dojo installiert automatisch einen Block explorer, [BTC-RPC Explorer] (https://github.com/janoside/btc-RPC-explorer), der direkt auf die Daten Ihres eigenen Bitcoin Knotens zugreift. Ein Explorer ermöglicht Ihnen den Zugriff auf Rohdaten von Blockchain und Ihrem Mempool über ein leicht verständliches Interface-Web. So können Sie z. B. den Status einer ausstehenden Transaktion überprüfen, den Saldo eines Address einsehen oder die Zusammensetzung eines Blocks mit Leichtigkeit untersuchen.
+Dojo installiert automatisch einen Block explorer, [BTC-RPC Explorer](https://github.com/janoside/btc-RPC-explorer), der direkt auf die Daten Ihres eigenen Bitcoin Knotens zugreift. Ein Explorer ermöglicht Ihnen den Zugriff auf Rohdaten von Blockchain und Ihrem Mempool über ein leicht verständliches Interface-Web. So können Sie z. B. den Status einer ausstehenden Transaktion überprüfen, den Saldo eines Address einsehen oder die Zusammensetzung eines Blocks mit Leichtigkeit untersuchen.
 
 
 
@@ -1422,7 +1422,7 @@ Wenn Sie bereits mit Ihrem DMT verbunden sind, können Sie diesen Address auch i
 
 
 
-Um von einem beliebigen Rechner in einem beliebigen Netzwerk (auch aus der Ferne) auf deinen Browser zuzugreifen, öffne [Tor Browser] (https://www.torproject.org/download/) und gib die URL ein, die du gerade abgerufen hast.
+Um von einem beliebigen Rechner in einem beliebigen Netzwerk (auch aus der Ferne) auf deinen Browser zuzugreifen, öffne [Tor Browser](https://www.torproject.org/download/) und gib die URL ein, die du gerade abgerufen hast.
 
 
 

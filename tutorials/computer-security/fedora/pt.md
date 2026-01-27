@@ -111,7 +111,7 @@ A instalação da estação de trabalho Fedora requer a seguinte configuração 
 
 
 
-Pode descarregar a edição [Fedora Workstation] (https://fedoraproject.org/fr/workstation/download) a partir do site oficial do projeto Fedora. Em seguida, selecione a versão correspondente à arquitetura do seu processador (32-bit - 64-bit) e clique no ícone **Download**.
+Pode descarregar a edição [Fedora Workstation](https://fedoraproject.org/fr/workstation/download) a partir do site oficial do projeto Fedora. Em seguida, selecione a versão correspondente à arquitetura do seu processador (32-bit - 64-bit) e clique no ícone **Download**.
 
 
 
@@ -126,7 +126,7 @@ Pode descarregar a edição [Fedora Workstation] (https://fedoraproject.org/fr/w
 
 
 
-Para instalar o Fedora, é necessário criar uma chave USB de arranque utilizando software como o [Balena Etcher] (https://etcher.balena.io/).
+Para instalar o Fedora, é necessário criar uma chave USB de arranque utilizando software como o [Balena Etcher](https://etcher.balena.io/).
 
 
 
@@ -441,4 +441,4 @@ Agora o seu sistema Fedora está atualizado e pronto a ser utilizado para todas 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5

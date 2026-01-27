@@ -63,7 +63,7 @@ Men att välja Firefox är bara det första steget. Som standard kräver även F
 
 
 
-**Officiell nedladdning:** Gå till [firefox.com/browsers/desktop] (https://www.firefox.com/en-US/browsers/desktop/). På den här sidan väljer du operativsystem (Windows, macOS, Linux) för att komma till rätt nedladdningssida med specifika installationsinstruktioner.
+**Officiell nedladdning:** Gå till [firefox.com/browsers/desktop](https://www.firefox.com/en-US/browsers/desktop/). På den här sidan väljer du operativsystem (Windows, macOS, Linux) för att komma till rätt nedladdningssida med specifika installationsinstruktioner.
 
 
 
@@ -563,7 +563,7 @@ Bästa praxis
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
@@ -571,7 +571,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 
 
@@ -599,7 +599,7 @@ Genom att följa denna steg-för-steg-guide har du förvandlat Firefox till ett 
 
 
 
-### Plan ₿ Network
+### Plan ₿ Academy
 
 
 
@@ -608,14 +608,14 @@ Genom att följa denna steg-för-steg-guide har du förvandlat Firefox till ett 
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Mozilla-dokumentation
 
 
 
 
-- [Förbättrat spårningsskydd] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Officiell guide till förbättrat spårningsskydd
+- [Förbättrat spårningsskydd](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Officiell guide till förbättrat spårningsskydd
 - [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Teknisk dokumentation om state partitioning
 - [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Komplett referens om webbsäkerhet
 
@@ -647,9 +647,9 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Täck dina spår (EFF)] (https://coveryourtracks.eff.org/): Digitala fingeravtryck och antispårningseffektivitet
-- [Test av DNS-läckage] (https://www.dnsleaktest.com/): DNS-läckagetest och DoH-effektivitet
-- [BrowserLeaks] (https://browserleaks.com/): Komplett testsvit (WebRTC, Canvas, Fonts, etc.)
-- [BadSSL] (https://badssl.com/): Tester för validering av SSL/TLS-certifikat
-- [CreepJS] (https://abrahamjuliot.github.io/creepjs/): Avancerad analys av 50+ fingeravtrycksvektorer
+- [Täck dina spår (EFF)](https://coveryourtracks.eff.org/): Digitala fingeravtryck och antispårningseffektivitet
+- [Test av DNS-läckage](https://www.dnsleaktest.com/): DNS-läckagetest och DoH-effektivitet
+- [BrowserLeaks](https://browserleaks.com/): Komplett testsvit (WebRTC, Canvas, Fonts, etc.)
+- [BadSSL](https://badssl.com/): Tester för validering av SSL/TLS-certifikat
+- [CreepJS](https://abrahamjuliot.github.io/creepjs/): Avancerad analys av 50+ fingeravtrycksvektorer
 - [Cloudflare DNS-test](https://1.1.1.1/help): Kontrollerar att Cloudflare DoH fungerar korrekt

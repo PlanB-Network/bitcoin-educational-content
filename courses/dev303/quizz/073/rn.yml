@@ -1,0 +1,8 @@
+question: Ni ryari umukoresha w'ikimenyetso c'ikibazo (?) akwiye gukundwa kuruta uburyo bwo gufungura () canke expect () mu gutorera umuti amakosa ya Rust?
+answer: Igihe ukeneye gukwiragiza amakosa hejuru y'ikirundo c'amahamagara kugira ngo igikorwa co guhamagara gikore
+wrong_answers:
+  - Igihe ushaka gutanga ubutumwa bw'ikosa bwo gukosora ibikorwa vyananiwe
+  - Iyo uzi neza ko igikorwa kizororanirwa kandi ushaka kwirinda gukora amakosa
+  - Igihe ukeneye guhindura amakosa mu gaciro mburabuzi maze ugakomeza gukora porogaramu
+explanation: |
+  Igikoresho c'ikimenyetso c'ikibazo (?) gikoreshwa mu gukwiragiza amakosa - gikuraho agaciro k'uguterimbere ariko kigaca kigarura amakosa mu gikorwa kiriho ubu, kigatuma abahamagara bashobora kuyakora. Udakunze unwrap()/expect() itera ubwoba ku makosa, canke unwrap_canke() itanga ivya kera, ? umukoresha abungabunga ikibanza c'ikosa kandi atanga inshingano kuri kode yo ku rwego rwo hejuru ishobora gufata ingingo zibereye zo gufata.

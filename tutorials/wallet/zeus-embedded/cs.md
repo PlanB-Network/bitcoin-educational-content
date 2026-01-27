@@ -17,7 +17,7 @@ Aplikace však obsahuje také "vložený uzel".
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Připomeňme, že Lightning je síť, která funguje paralelně s Bitcoin a umožňuje výměnu bitcoinů bez nutnosti systematicky provádět transakce On-Chain. Výsledkem jsou téměř okamžité transakce bez nutnosti čekat 10 minut na ověření bloku. To je užitečné zejména při placení u obchodníků ve fyzickém světě. Lightning navíc poskytuje pozoruhodnou úroveň **důvěrnosti**, kterou síť Bitcoin nativně nedisponuje*.
 
@@ -200,7 +200,7 @@ Pro více informací o správném způsobu ukládání a správy fráze Mnemonic
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -345,7 +345,7 @@ Zeus vám pak umožní přidat bankovku, která bude platbu denominovat, nebo zo
 
 
 
-Všimněte si, že na rozdíl od modelu Wallet, jako je [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), se u modelu Zeus trasa vypočítává lokálně a není delegována na třetí stranu (v případě modelu Phoenix na ACINQ). Příjemce platby tedy znáte pouze vy. Ztrácíme trochu efektivity (dokončení platby trvá o něco déle, ale získáváme hodně z hlediska soukromí).
+Všimněte si, že na rozdíl od modelu Wallet, jako je [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), se u modelu Zeus trasa vypočítává lokálně a není delegována na třetí stranu (v případě modelu Phoenix na ACINQ). Příjemce platby tedy znáte pouze vy. Ztrácíme trochu efektivity (dokončení platby trvá o něco déle, ale získáváme hodně z hlediska soukromí).
 
 
 
@@ -422,8 +422,8 @@ Gratulujeme, nyní jste připraveni používat Zeus Embedded, mobilní osvětlov
 
 
 
-Chcete-li se dozvědět více o technické obsluze Lightning Network, najdete vynikající bezplatné školení Plan ₿ Network od Fanise Michalakise:
+Chcete-li se dozvědět více o technické obsluze Lightning Network, najdete vynikající bezplatné školení Plan ₿ Academy od Fanise Michalakise:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -1,0 +1,8 @@
+question: Serbest piyasa ekonomi teorisine göre, girişimciler henüz var olmayan bir yeniliğe yönelik tüketici talebini zamanından önce tahmin ederse ne olur?
+answer: Kârın yokluğu doğal olarak onları devam etmekten caydırır ve başkalarının onları örnek almasını engeller
+wrong_answers:
+  - Devlet müdahalesi, sübvansiyonlar yoluyla çabalarını sosyal açıdan daha faydalı projelere yönlendirir
+  - Tüketici tercihleri en sonunda ilk tahminleriyle uyumlu hale gelene kadar yatırım yapmaya devam ederler
+  - Piyasa düzenlemeleri, ekonomik israfı önlemek için onları projelerinden vazgeçmeye zorluyor
+explanation: |
+  Serbest piyasa sisteminde karlar, gerçek tüketici talebini gösteren önemli sinyaller olarak işlev görür. Girişimciler piyasa zamanlamasını yanlış değerlendirdiklerinde ve var olmayan bir talebi öngördüklerinde, generate karında başarısız olurlar, bu da doğal olarak bu yönde daha fazla yatırım yapılmasını engeller. Bu kendi kendini düzelten mekanizma, kaynakların prematüre inovasyonlarla israf edilmesini önler. Diğer seçenekler yanlış bir şekilde dış müdahaleyi veya piyasa sinyallerine rağmen ısrarlı yatırımı önermektedir ki bu da bölümün kâr sinyallerinin rasyonel ekonomik karar alma sürecine nasıl rehberlik ettiğine dair vurgusuyla çelişmektedir.

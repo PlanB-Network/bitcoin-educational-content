@@ -26,7 +26,7 @@ Green ist eine besonders einfach zu bedienende Anwendung, was sie auch für Anf�
 
 Blockstream Green unterstützt auch das Liquid-Netzwerk, eine von Blockstream entwickelte Bitcoin-Sidechain für schnelle, vertrauliche Transaktionen außerhalb der Hauptblockchain. In diesem Tutorial konzentrieren wir uns ausschließlich auf Bitcoin, aber ich habe auch ein weiteres Tutorial erstellt, um zu lernen, wie man Liquid auf Green verwendet:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2-Multisig-Option (2FA)
 
@@ -46,17 +46,17 @@ Ein weiterer Nachteil dieser Sicherheitsmethode ist, dass Sie Skriptvorlagen von
 
 Wenn Sie es vorziehen, die 2FA-Option nicht zu nutzen und einfach eine "*singlesig*"-Brieftasche auf Green einrichten möchten, lade ich Sie ein, dieses andere Tutorial zu lesen:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Installieren und Konfigurieren der Blockstream Green Software
 
 Der erste Schritt besteht natürlich darin, die Green-Anwendung herunterzuladen. Gehen Sie zu Ihrem Anwendungsspeicher:
 
-- [Für Android] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet);
-- [Für Apple] (https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590).
+- [Für Android](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet);
+- [Für Apple](https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590).
 ![GREEN 2FA MULTISIG](assets/fr/03.webp)
 
-Android-Benutzer können die Anwendung auch über die .apk-Datei [verfügbar auf Blockstreams GitHub] (https://github.com/Blockstream/green_android/releases) installieren.
+Android-Benutzer können die Anwendung auch über die .apk-Datei [verfügbar auf Blockstreams GitHub](https://github.com/Blockstream/green_android/releases) installieren.
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
@@ -154,7 +154,7 @@ Klicken Sie auf die grüne Schaltfläche "*Erhöhen Sie die Sicherheit Ihres Kon
 
 Sie können dann die Authentifizierungsmethode für den Zugriff auf den zweiten Schlüssel Ihrer 2/2-Multisig auswählen. In diesem Tutorial werden wir eine Authentifizierungsanwendung verwenden. Wenn Sie mit dieser Art von Anwendung nicht vertraut sind, empfehle ich Ihnen, unser Tutorial über Authy zu lesen:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Wählen Sie "*Authentifizierungsanwendung*".
 
@@ -270,4 +270,4 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unt
 
 Ich empfehle Ihnen auch dieses andere umfassende Tutorial über die mobile Anwendung Blockstream Green, um eine Liquid-Wallet einzurichten:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

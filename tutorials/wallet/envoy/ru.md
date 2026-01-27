@@ -22,7 +22,7 @@ Passport "*Batch 2*", представленный в этом руководс�
 
 Если вы опытный пользователь и хотите изучить более сложные функции, рекомендую вам ознакомиться с другим уроком, в котором мы настраиваем Passport с помощью Sparrow Wallet:
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Распаковка паспорта
 
@@ -63,12 +63,12 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 
 - В [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
-- В [App Store] (https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
+- В [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
 - На [F-Cold](https://foundation.xyz/fdroid/).
 
 ![Image](assets/fr/50.webp)
 
-Вы также можете скачать APK-файл напрямую [из репозитория Foundation на GitHub] (https://github.com/Foundation-Devices/envoy/releases).
+Вы также можете скачать APK-файл напрямую [из репозитория Foundation на GitHub](https://github.com/Foundation-Devices/envoy/releases).
 
 ![Image](assets/fr/51.webp)
 
@@ -164,13 +164,13 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 ### Без приложения Envoy
 
-Для этого воспользуйтесь картой MicroSD, входящей в комплект поставки Passport (или другой картой), и вставьте ее в компьютер. Загрузите последнюю версию прошивки с [сайта документации Foundation] (https://docs.foundation.xyz/firmware-updates/passport/) или [их репозитория GitHub] (https://github.com/Foundation-Devices/passport2/releases).
+Для этого воспользуйтесь картой MicroSD, входящей в комплект поставки Passport (или другой картой), и вставьте ее в компьютер. Загрузите последнюю версию прошивки с [сайта документации Foundation](https://docs.foundation.xyz/firmware-updates/passport/) или [их репозитория GitHub](https://github.com/Foundation-Devices/passport2/releases).
 
 ![Image](assets/fr/21.webp)
 
 Прежде чем устанавливать ее на свое устройство, мы настоятельно рекомендуем вам проверить подлинность и целостность загруженной прошивки. Если вам нужна помощь в этом, обратитесь к этому руководству:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### С помощью приложения Envoy
 
@@ -254,7 +254,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 Для получения более подробной информации о том, как правильно сохранять и управлять мнемоническими фразами, я настоятельно рекомендую ознакомиться с другими уроками, особенно если вы новичок:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 конечно, вы никогда не должны делиться этими словами в Интернете, как это делаю я в этом учебнике. Этот образец портфолио будет использоваться только на Testnet и будет удален по окончании урока.
 
@@ -457,4 +457,4 @@ Envoy отображает PSBT (*Partially Signed Bitcoin Transaction*). При
 
 Более подробную информацию вы найдете в нашем руководстве по программе Liana:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

@@ -1,0 +1,8 @@
+question: Hva er den viktigste arkitektoniske fordelen med UniFFIs lagdelte tilnærming når Rust-biblioteker skal integreres med målspråk som Swift eller Kotlin?
+answer: Bindingslaget håndterer typeoversettelse og minnehåndtering, samtidig som det presenterer et helt opprinnelig grensesnitt til målspråket
+wrong_answers:
+  - UDL-filen kompilerer automatisk Rust-kode til bytekode som kan kjøres på mobile plattformer uten oversettelse
+  - Rust-bibliotekskoden skrives automatisk om til målspråkets syntaks for å eliminere alle anrop til fremmede funksjonsgrensesnitt
+  - Målspråkapplikasjonene har direkte tilgang tRust-minnestrukturer via delte pekere for å unngå overhead for datahåndtering
+explanation: |
+  UniFFIs arkitektur skaper et skille der den genererte bindingskoden fungerer som et oversettelseslag mellom målspråket og Rust. Dette laget håndterer kompleks marshaling/unmarshaling av datatyper, håndterer minne på en sikker måte på tvers av språkgrenser og sørger for feilhåndtering i henhold til målspråkets konvensjoner. De andre alternativene er feil fordi UniFFI ikke kompilerer til bytecode (den genererer bindinger), ikke omskriver Rust-kode til andre språk (den opprettholder den opprinnelige Rust-implementeringen) og ikke bruker delt minnetilgang (den marshaler data trygt på tvers av språkgrenser).

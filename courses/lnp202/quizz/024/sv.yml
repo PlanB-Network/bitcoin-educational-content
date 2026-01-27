@@ -1,0 +1,9 @@
+question: Varför är det mer komplicerat att säkerhetskopiera en Lightning-nod än en Bitcoin onchain wallet?
+answer: Kanalernas tillstånd är under utveckling
+wrong_answers:
+  - Kanalens likviditet beror på mempool
+  - Spela in Lightning-nätverkets skvaller
+  - Spärrnycklar upphör att gälla över tid
+explanation: |
+  Blixtkanaler ändrar tillstånd vid varje betalning, vilket gör en enkel fast eller periodisk backup farlig.
+reviewed: false

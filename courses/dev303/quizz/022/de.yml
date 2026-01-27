@@ -1,0 +1,8 @@
+question: Was ist der Hauptzweck des Enum-Typs Option<T> von Rust?
+answer: Sichere Darstellung von Werten, die vorhanden oder nicht vorhanden sein können, um Nullzeigerfehler zu vermeiden
+wrong_answers:
+  - Speichern mehrerer unterschiedlicher Datentypen in einer einzigen Variablen ohne Typenprüfung
+  - So erstellen Sie optionale Parameter in Funktionsdefinitionen, die bei Aufrufen übersprungen werden können
+  - Bereitstellung einer Möglichkeit, mehrere mögliche Fehlertypen aus einer einzigen Funktion zurückzugeben
+explanation: |
+  Das Option<T> enum dient als Rust's Lösung für Nullzeigerprobleme, indem es die explizite Behandlung von fehlenden Werten erzwingt. Es hat zwei Varianten: Some(T) für vorhandene Werte und None für fehlende Werte. Der Compiler verlangt von Ihnen zu prüfen, welche Variante Sie haben, bevor Sie den Wert verwenden, um Laufzeitfehler zu vermeiden. Die falschen Antworten verwirren Option mit anderen Konzepten: Unions/Varianten (erstens), Standardparameter (zweitens) und Ergebnistypen für die Fehlerbehandlung (drittens).

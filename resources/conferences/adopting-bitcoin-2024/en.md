@@ -5,7 +5,7 @@ description: El Salvador is the first country to adopt Bitcoin, making it the gr
 
 # Day 1
 
-## Adopting Bitcoin 2024 | Day 1 Livestream
+## Day 1 Livestream
 
 ![video](https://youtu.be/1pTbHaULeUo)
 
@@ -13,7 +13,7 @@ Day 1 Livestream of the Adopting Bitcoin 2024 Conference
 
 # Day 2
 
-## Adopting Bitcoin 2024 | Day 2 Livestream
+## Day 2 Livestream
 
 ![video](https://youtu.be/Ps3BU0edwqE)
 

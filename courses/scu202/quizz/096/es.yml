@@ -6,4 +6,4 @@ wrong_answers:
   - UPnP
 explanation: |
   DoH (DNS sobre HTTPS) y DoT (DNS sobre TLS) cifran las peticiones DNS, impidiendo que sean interceptadas.
-reviewed: false
+reviewed: true

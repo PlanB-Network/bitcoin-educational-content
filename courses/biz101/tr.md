@@ -1,31 +1,20 @@
 ---
 name: İşletmeler için Bitcoin
 goal: Şirketinizi Bitcoin'e dahil etmek için ödeme ve hazine temellerini öğrenin
-objectives: 
-
-  - Gelişmekte olan bir para birimi ve bir iş aracı olarak Bitcoin
-  - Bir işletmenin Bitcoin'ü neden ve nasıl hazinede tutabileceğini veya ödemeler için kullanabileceğini anlamak
-  - Uygulamada Bitcoin ödemesinin nasıl kabul edileceğine dair somut bir fikre sahip olun
-  - Mali ve muhasebe gereksinimlerini yönetmek için hazırlıklı olun
-
+objectives:
+- Bitcoin'i gelişmekte olan bir para birimi ve iş aracı olarak keşfedin
+- Bir işletmenin neden ve nasıl hazinede bitcoin tutabileceğini veya ödemeler için kullanabileceğini anlayın
+- Pratikte Bitcoin ödemesini nasıl kabul edeceğiniz konusunda somut bir fikre sahip olun
+- Mali ve muhasebe gerekliliklerini yönetmeye hazır olun
 ---
+# Şirketinizin Bitcoin ağındaki yolculuğunu başlatın
 
-# Şirketinizin Bitcoin ağındaki yolculuğuna başlayın
+Bitcoin ve Lightning Network'ün pratik yeteneklerini keşfedin ve tıpkı internet gibi, iş operasyonlarınızı nasıl dönüştürebileceklerini araştırın. Hazine yönetiminden hızlı, ekonomik ve ölçeklenebilir ödemelere kadar Bitcoin, işletmeler için geniş bir kullanım senaryosu yelpazesi sunar.
 
+Bu kurs boyunca, Bitcoin'i küresel, evrensel ve internet-tabanlı bir parasal ağ olarak nasıl anlayacağınızı öğreneceksiniz. Benzersiz temel özellikleriyle Bitcoin, geleneksel para birimine göre önemli iyileştirmeler sunar. Sermaye depolama ve ödeme sistemleri gibi klasik finansal kullanım senaryoları için Bitcoin'den neden ve nasıl yararlanacağınızı keşfedeceksiniz. Ek olarak, bu kurs Bitcoin edinme ve tutmayı, ilgili muhasebe ve mali gereklilikleri ve basit veya büyük ölçekli Bitcoin ödeme çözümlerinin uygulanmasını kapsayacaktır.
 
-Bitcoin ve Lightning Network'nın pratik yeteneklerini keşfedin ve tıpkı internet gibi, iş operasyonlarınızı nasıl **dönüştürebileceklerini** keşfedin. Dijital sermayeden hızlı, ekonomik ve ölçeklenebilir ödemelere kadar Bitcoin, işletmeler için geniş bir **kullanım alanı** sunuyor.
-
-
-Bu kılavuz boyunca, Bitcoin'i küresel, evrensel ve internete özgü bir para ağı olarak nasıl anlayacağınızı öğreneceksiniz. Benzersiz temel özellikleriyle **Bitcoin, geleneksel para birimi ağlarına göre önemli iyileştirmeler sağlar**. Sermaye depolama ve ödeme sistemleri gibi klasik finansal kullanım durumları için Bitcoin'den neden ve nasıl yararlanacağınızı keşfedeceksiniz. Ayrıca bu kılavuz, ilgili muhasebe ve mali gereklilikler de dahil olmak üzere Bitcoin'in edinilmesi ve elde tutulmasının yanı sıra basit veya büyük ölçekli Bitcoin ödeme çözümlerinin uygulanmasını da kapsayacaktır.
-
-
-İster **küçük bir işletme ister büyük bir şirket** olun, Bitcoin'u günlük operasyonlarınıza entegre etmek şirketinizi daha **dirençli, üretken ve rekabetçi** hale getirebilir. Her internet tabanlı şirket Bitcoin odaklı bir şirket haline gelecektir ve bu eğitim sizin hazırlıklı olmanızı sağlar. İlk bölümler Bitcoin'un işleyişinin temellerini özetler, böylece yeni başlayan biri olsanız bile ilerlemek için gereken temel bilgileri edinirsiniz. Satoshi'un icadının temellerini öğrenmek, BIZ101'e dalmadan önce veya sonra her zaman iyi bir fikirdir.
-
-
+İster küçük bir işletme ister büyük bir şirket olun, Bitcoin'i günlük operasyonlarınıza entegre etmek şirketinizi daha dayanıklı, üretken ve rekabetçi hale getirebilir. İnternet tabanlı her şirket Bitcoin odaklı bir şirket haline gelecek ve bu kurs hazırlıklı olmanızı sağlar.
 +++
-
-
-
 # Giriş
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
@@ -52,7 +41,7 @@ Kurs, geleneksel para birimleri ve ödeme mekanizmalarının ayrıntılı bir in
 İşletmeler için Bitcoin dünyasına dalmaya hazır mısınız? Hadi başlayalım!
 
 
-**Not**: Kurs sırasında tanıdık olmayan terimlerle karşılaşırsanız, tanımlar için lütfen [sözlüğe](https://planb.network/resources/glossary) başvurun.
+**Not**: Kurs sırasında tanıdık olmayan terimlerle karşılaşırsanız, tanımlar için lütfen [sözlüğe](https://planb.academy/resources/glossary) başvurun.
 
 # Para birimi, ödeme sistemleri ve Bitcoin
 
@@ -301,7 +290,7 @@ Bunlar birlikte Bitcoin'u bir **taşıyıcı varlık** ve **ihraççısı olmaya
 ![BIZ101](assets/tr/003.webp)
 
 
-Bitcoin'nin sabit bir para politikası vardır ve 21 milyon bitcoin'lik bir **kapağı** vardır ve bunun ~19,8 milyonu halihazırda dağıtılmıştır. Bu da onu **deflasyonist** hale getirmekte, kullanıcılar tasarruflarını ve üretkenlik kazançlarını içinde sakladıkça değeri zamanla artmaktadır.
+Bitcoin, halihazırda ~19,8 (2024) milyonu çıkarılmış olan, **maksimum 21 milyon bitcoin** ile sabit bir para politikasına sahiptir. Bu durum onu **deflasyonist** kılar ve kullanıcılar tasarruflarını ve verimlilik artışlarını onda sakladıkça değeri zamanla artar.
 
 
 Teknik özellikleri altın ve doların toplamını aşarak onu şimdiye kadar yaratılmış en zor finansal varlık haline getirmektedir. Bitcoin hem bir değer saklama aracı hem de Exchange'in bir aracıdır, yapım aşamasında bir para birimidir. Bir şirketin hazinesinden diğerine hızlı bir şekilde, aracılar olmadan, minimum maliyetle, sahtekarlık olmadan, 7/24 ve herhangi bir üçüncü taraf dahil olmadan değer aktardığınızı hayal edin.
@@ -319,7 +308,7 @@ Bitcoin yıkıcıdır çünkü bizi matematik, kriptografi, ekonomi ve tarih ala
 Bitcoin bizi paranın doğasını yeniden gözden geçirmeye davet ediyor. Paranın gerçekte ne olduğunu açıklayabilir misiniz? Maaşlı bir işçi veya girişimci hayatının 50.000 ila 100.000 saatini para kazanmak için harcayabilir, ancak kaç kişi **100 saatini bile parayı daha iyi anlamak** ve korumak için ayırır? Bitcoin bizi para ihtiyacımızın ardındaki temel nedenleri ve zamansal bakış açımızı sorgulamaya teşvik ediyor. Para anlık lüks için mi yoksa uzun vadeli dayanıklılık için mi? Satın alımları ertelememize olanak tanıyan değer kazanan bir varlığımız olsaydı, hangi seçimleri yapardık? Bundan 20 ya da 30 yıl sonra kendimizle ne tür konuşmalar yapmak isterdik?
 
 
-**Bitcoin KİMLİK KARTI**
+**BITCOIN KİMLİK KARTI (2024 yılında)**
 
 
 - **Yaş:** 15 yıl (3 Ocak 2009)
@@ -348,7 +337,7 @@ Bitcoin bizi paranın doğasını yeniden gözden geçirmeye davet ediyor. Paran
 Bitcoin, tarihçesi, nasıl çalıştığı ve kullanımı hakkında daha fazla bilgi için bu diğer kapsamlı kursu da takip etmenizi öneririm:
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Lightning Network'e Giriş
 
@@ -425,7 +414,7 @@ Lightning Network, hızı ve ödeme kesinliği nedeniyle fiziksel veya çevrimi�
 - **Ücretler:** Lightning Network üzerindeki işlem ücretleri minimum düzeydedir ve satıcı tarafından değil kullanıcı tarafından ödenir. Satıcılar yalnızca Bitcoin'lerini daha sonra başka bir ağa veya hizmete aktarmaları gerektiğinde ücrete tabi olurlar.
 
 
-**YILDIRIM KIMLIK KARTI**
+**LIGHTNING KİMLİK KARTI (2024 yılında)**
 
 
 
@@ -451,7 +440,7 @@ Lightning Network, hızı ve ödeme kesinliği nedeniyle fiziksel veya çevrimi�
 Lightning Network'in teknik işleyişi hakkında daha fazla bilgi için bu diğer kapsamlı kursu da takip etmenizi öneririm:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 # Hazine'de Bitcoin
@@ -641,11 +630,11 @@ Bu düşünürler, devlet müdahalesinin piyasaları bozduğu ve ekonomik özgü
 Bu konu hakkında daha fazla bilgi için:
 
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Bitcoin'ün hazinede tutulması
 
@@ -851,7 +840,7 @@ Bitcoin, Exchange'ün bir aracı olarak işlev gördüğünden, döngüsel bir e
 Bu, Mining makinelerinin çalıştırılmasından ödül kazanmayı içerir. Uzmanlaşmamış işletmeler için bu nispeten marjinal kalmaktadır. Size bilgisayar, ağ ve bakım satacak ya da kiralayacak aracılar vasıtasıyla katılabilirsiniz. Makinelere sahipseniz, bunları amortismana tabi varlıklar olarak muhasebeleştirebilirsiniz. Büyük ölçekte, yatırım getirisini dikkatli bir şekilde hesaplamanız gerekecektir çünkü pazar oldukça rekabetçidir ve başta elektrik olmak üzere maliyetlerin iyi tahmin edilmesini gerektirir.
 
 
-Mining yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Mining" bölümüne bakabilirsiniz] (https://planb.network/tutorials/mining).
+Mining yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Mining" bölümüne bakabilirsiniz](https://planb.academy/tutorials/mining).
 
 
 
@@ -863,11 +852,11 @@ Bu, eşler arası borsalar aracılığıyla ya da daha tipik olarak özel ticare
 Bir işletme hesabının nasıl açılacağını ve bitcoin satın almak, satmak ve transfer etmek için nasıl kullanılacağını öğrenmek için, Kraken ve Bitfinex platformlarını kurumsal sürümlerinde kapsayan, işletmeler için özel olarak tasarlanmış bu iki eğiticiye göz atabilirsiniz:
 
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Exchange veya eşler arası bitcoin edinme yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Exchange" bölümüne bakabilirsiniz] (https://planb.network/tutorials/exchange).
+Exchange veya eşler arası bitcoin edinme yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Exchange" bölümüne bakabilirsiniz](https://planb.academy/tutorials/exchange).
 
 
 ![BIZ101](assets/tr/012.webp)
@@ -1196,23 +1185,23 @@ Kullanıcı dostu araçları, minimum donanım gereksinimlerini ve basit kayıt 
 **Kendi kendine emanet LN cüzdanları/düğümleri:**
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 
 **Gözetimli LN cüzdanlar:**
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 
 ## Temel
@@ -1259,22 +1248,22 @@ Essential profili son derece sofistike muhasebe sistemleri gerektirmese de, yine
 Profiliniz için en uygun hibrit çözüm muhtemelen Swiss Bitcoin Pay'dir:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 
 Uygulaması kolay, ancak %100 gözetim altında olma dezavantajına sahip bir başka çözüm de Open Node'dur:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 
 Ellerinizi kirletmeye hazırsanız ve süreç üzerinde tam kontrol istiyorsanız, BTCPay Server yazılımı mükemmel bir seçenektir. Bununla birlikte, BTCPay Server'ın en büyük dezavantajı, kurulumunun ve yönetiminin zaman alıcı olması ve belirli bir düzeyde teknik uzmanlık gerektirmesidir, ancak kılavuzlarımızı takip edebilirsiniz:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
-Son olarak, fiziksel satış noktaları için bir tamamlayıcı olarak, [Bitcoinize PoS] (https://bitcoinize.com/) kurmayı düşünebilirsiniz.
+Son olarak, fiziksel satış noktaları için bir tamamlayıcı olarak, [Bitcoinize PoS](https://bitcoinize.com/) kurmayı düşünebilirsiniz.
 
 
 
@@ -1328,7 +1317,7 @@ Gerçek dünya örnekleri söz konusu olduğunda, teknoloji aksesuarları konusu
 Uygulama özelliklerini daha derinlemesine incelemek ve BTCPay Server'ın uygulamalı konfigürasyonlarını keşfetmek için aşağıdaki kursa başvurun:
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 ## Kurumsal
@@ -1685,7 +1674,7 @@ Ancak, işlem geçmişini içeren basit bir `.csv` dosyası çoğu küçük işl
 Bitcoin'larını kendileri saklayanlar için UTXO'ları (*Harcanan İşlem Çıktıları*) yönetmek önemli bir adımdır. Uygun UTXO etiketlemesi, her bir BTC parçasının kaynağının izlenmesine, profesyonel faaliyetlerle ilgili işlemlerin kişisel harcamalara yönelik olanlardan ayırt edilmesine ve yasal veya vergi amaçlı izlenebilirliğin kolaylaştırılmasına yardımcı olur. Çoğu iyi Bitcoin Wallet yazılımı, yedekleme dosyanızı (veya kurulumunuza bağlı olarak xpub'ınızı) kullanarak Wallet'ınızı içe aktarmanıza ve UTXO'ları kaynaklarına veya hedeflerine göre etiketlemenize olanak tanır. Size yardımcı olmak için, burada bu uygulamaya adanmış eksiksiz bir eğitim bulunmaktadır:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Son olarak, ister küçük bir tüccar ister daha köklü bir işletme olun, **Invoice'i Bitcoin'te kapatmak** mümkündür. Önemli olan işlemi uygun şekilde belgelemektir. Kendi kendine saklama Wallet'dan ödeme yapıyorsanız, etiketlerinizde generate numarasını ve ödemenin amacını belirten bir Invoice işlemi yapmak idealdir. Invoice'i bir Exchange aracılığıyla ödemeyi tercih ederseniz, muhasebe kayıtlarınıza dahil etmek için bir makbuz veya işlem geçmişini dışa aktarma seçeneğiniz de olacaktır. Bu şeffaflık, tüm BTC işlemlerinizin takibini ve raporlanmasını kolaylaştıracaktır.
 

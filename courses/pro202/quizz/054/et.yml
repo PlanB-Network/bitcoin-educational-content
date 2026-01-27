@@ -1,0 +1,8 @@
+question: Milline konkreetne tingimus peab Bitcoin võrgu P2P käepigistamise protsessis olema täidetud, enne kui kaks sõlme saavad hakata aktiivselt edastama varusid ja tehinguandmeid?
+answer: Mõlemad sõlmed peavad omavahel vahetama versiooni- ja verack-teateid
+wrong_answers:
+  - Ühendussõlm peab saama DNS seed kinnituse tuumarendajatelt
+  - "Mõlemad sõlmed peavad kontrollima teineteise ploki kõrgust ja ahela tipu hashi"
+  - "Vastuvõttev sõlm peab kinnitama ühendava sõlme vastassertifikaadi"
+explanation: |
+  Bitcoin P2P käivitus nõuab kahesuunalist andmevahetust, kus ühendav sõlm saadab versioonisõnumi, vastuvõtja vastab verack ja oma versioonisõnumiga ning algne saatja vastab oma verackiga. Alles pärast seda täielikku nelja sõnumi vahetust (version→verack+version→verack) saavad sõlmed alustada aktiivset suhtlust. DNS-seemneid kasutatakse ainult esialgseks partnerite leidmiseks, mitte käepigistamiseks. Bitcoin ei kasuta sertifikaate ja ahela valideerimine toimub pärast ühenduse loomist.

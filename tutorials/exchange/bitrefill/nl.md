@@ -8,7 +8,7 @@ description: Hoe koop je goederen en diensten met BTC via Bitrefill?
 Hoewel Bitcoin tegenwoordig vooral wordt beschouwd als een spaarmiddel, blijft het een valuta waarvan het nut ligt in de mogelijkheid om van hand tot hand te circuleren. Als winkeliers in jouw omgeving Bitcoin accepteren als betaalmiddel, heb je de mogelijkheid om het direct bij hen uit te geven. Helaas is deze praktijk nog niet wijdverspreid, en de meeste handelaren accepteren nog geen BTC.
 
 
-De beste oplossing blijft om lokale handelaars een "oranje pil" te geven zodat ze Bitcoin accepteren, door de voordelen van dit systeem uit te leggen. Ter ondersteuning kun je de tutorials gebruiken die beschikbaar zijn in de ["*merchants*"](https://planb.network/tutorials/merchant) sectie van onze site. Deze strategie kan effectief zijn bij kleine onafhankelijke winkeliers, maar het blijkt ingewikkelder voor grote nationale ketens, omdat de contactpersonen ter plaatse meestal niet degenen zijn die beslissingen nemen over betaalmethoden.
+De beste oplossing blijft om lokale handelaars een "oranje pil" te geven zodat ze Bitcoin accepteren, door de voordelen van dit systeem uit te leggen. Ter ondersteuning kun je de tutorials gebruiken die beschikbaar zijn in de ["*merchants*"](https://planb.academy/tutorials/merchant) sectie van onze site. Deze strategie kan effectief zijn bij kleine onafhankelijke winkeliers, maar het blijkt ingewikkelder voor grote nationale ketens, omdat de contactpersonen ter plaatse meestal niet degenen zijn die beslissingen nemen over betaalmethoden.
 
 
 In afwachting van meer massale adoptie door deze ketens, kunt u uw bitcoins uitgeven via een tussenliggende betaalmethode: cadeaubonnen. En dit is precies wat Bitrefill aanbiedt.
@@ -46,9 +46,9 @@ Voer een e-mail Address in. Als je je account anoniem wilt houden, zorg er dan v
 Als je wilt leren hoe je eenvoudig een veilige e-mailbox maakt en hoe je je wachtwoorden beheert, raad ik je aan deze 2 andere tutorials te raadplegen:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Klik vervolgens op de knop "*Account aanmaken*".
 
@@ -85,7 +85,7 @@ Klik in het gedeelte "*Twee-factor authenticatie*" op de knop "*Enable*" en volg
 Om meer te leren over hoe je twee-factor authenticatie kunt gebruiken om je online accounts te beveiligen, raad ik je aan deze andere tutorial te lezen:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Hoe koop ik een cadeaubon in BTC op Bitrefill?
 
@@ -158,4 +158,4 @@ En daar heb je het, je weet nu hoe je je bitcoins kunt uitgeven zonder KYC bij g
 Als je wilt bijdragen aan de popularisering van Bitcoin en een onafhankelijke handelaar wilt aanmoedigen om deze betaalmethode te gaan gebruiken, raad ik je aan om onze complete handleiding over Swiss Bitcoin Pay te raadplegen. Het is een alles-in-één oplossing voor BTC betalingsverwerkers, eenvoudig te installeren en dagelijks te beheren:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

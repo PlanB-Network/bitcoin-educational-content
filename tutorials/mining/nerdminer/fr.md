@@ -25,23 +25,23 @@ Vous pouvez également acheter un kit NerdMiner déjà pré-assemblé chez plusi
 - [DécouvreBitcoin](https://shop.decouvrebitcoin.com/products/nerd-miner?_pos=1&_psq=nerd&_ss=e&_v=1.0)
 - [BitMaker](https://bitronics.store/shop/)
 
-Dans un premier temps, nous allons voir comment flasher le logiciel sur le ESP-32 S3, puis nous verrons comment le rebooter pour changer de réseau wifi. Ces étapes sont faites pour des utilisateurs Windows, si vous utilisez un OS linux veuillez effecturer les [étapes préliminaires](#etapes-preliminaires-pour-utilisateurs-linux) pour permettre la reconnaissance du ESP-32 S3 par votre systmème.
+Dans un premier temps, nous allons voir comment flasher le logiciel sur le ESP-32 S3, puis nous verrons comment le redémarrer pour changer de réseau wifi. Ces étapes sont destinées pour des utilisateurs Windows, si vous utilisez un système d'exploitation Linux, veuillez effecturer les [étapes préliminaires](#etapes-preliminaires-pour-utilisateurs-linux) pour permettre la reconnaissance du ESP-32 S3 par votre systmème.
 
-# Installation du logiciel NerdMiner_v2
+## Installation du logiciel NerdMiner_v2
 
 L'installation du logiciel est grandemment simplifier grâce à l'utilisation du webflasher.
 
-## Étape 1 : Préparation du webflasher
+### Étape 1 : Préparation du webflasher
 
 Tout d'abord, il faut vous rendre sur le [flasher NM2 en ligne](https://bitmaker-hub.github.io/diyflasher/).
 
-Puis sélectionnez le firmware correspondant à votre ESP-32. La plupart du temps c'est celui par défaut : le T-Display S3. Puis cliquer sur "Flash".
+Sélectionnez ensuite le firmware correspondant à votre ESP-32. La plupart du temps c'est celui par défaut : le T-Display S3. Cliquez maintenant sur "Flash".
 
-> ⚠️ Il est important que vous utilisiez le navigateur Chrome - celui-ci autorisant par défaut, l'utilisation de flasher et l'accès à vos port USB.
+> ⚠️ Il est important que vous utilisiez le navigateur Chrome car il permet, par défaut, l'utilisation de flasher et l'accès à vos port USB.
 
 ![](assets/webflasher.webp)
 
-## Étape 2: Branchement du ESP-32
+### Étape 2: Branchement du ESP-32
 
 Une fois le webflasher lancer une fenêtre pop-up s'ouvre présentant les différents ports USB reconnu par le naviguateur.
 Vous pouvez alors brancher votre ESP-32, et un nouveau port s'affichera (ici en l'occurence, c'est le port ttyACM0). Il vous faut alors le sélectionner et cliquez sur "connect".
@@ -52,7 +52,7 @@ Le logiciel va alors se télécharger sur votre ESP32, en une poignet de seconde
 
 ![](assets/NM2-sucessfully-installed.webp)
 
-## Étape 3: Configuration du NerdMiner
+### Étape 3: Configuration du NerdMiner
 
 La configuration de votre NerdMiner va être effectuer via un smartphone ou un ordinateur.
 Activez le WiFi et connectez vous au réseau local NerdMinerAP. Si vous utilisez un smartphone, le portail de configuration s'ouvrira automatiquement, sinon tapez dans un naviguateur l'adresse 192.168.4.1.
@@ -61,7 +61,7 @@ Puis sélectionnez "Configure WiFi".
 Vous allez pouvoir maintenant paramétrer votre Nerdminer.
 Tout d'abord commencez par vous connectez à votre réseau WiFi, en sélectionnant votre nom de réseau et en y ajoutant le mot de passe associé.
 
-Ensuite vous pouvez choisir la pool de minage à laquelle vous souhaitez participer. En effet, il est commun dans l'industrie du minage de bitcoin de mutualiser la puissance de calcul pour augmenter ses chances de trouver un bloc en échange de partager la récompense au prorata du hashrate fourni.
+Ensuite vous pouvez choisir la pool de minage à laquelle vous souhaitez participer. En effet, il est courant dans l'industrie du minage de bitcoin de mettre en commun la puissance de calcul pour augmenter ses chances de trouver un bloc en échange d'un partage de la récompense proportionnel à la puissance de hashrate fournie par chaque participant.
 Pour les NerdMiner, vous pouvez choisir de vous connectez à l'une de ces pools :
 
 | Pool URL          | Port  | URL                        | Status                                        |
@@ -79,7 +79,7 @@ Vous pouvez à présent cliquer sur "save".
 
 Félicitation vous faites à présent partie du réseau de minage Bitcoin !
 
-## Manipulation du NerdMiner
+### Manipulation du NerdMiner
 
 Le logiciel NerdMinerv2 comprends 3 écrans différents, que vous pouvez accèser en cliquant sur le bouton du haut, à droite de votre écran :
 
@@ -89,11 +89,11 @@ Le logiciel NerdMinerv2 comprends 3 écrans différents, que vous pouvez accèse
 
 ![](assets/NM2-screens.webp)
 
-Si vous souhaitez rebooter votre NerdMiner, pour changez de réseau WiFi par exemple, il faut appuyez pendant 5 secondes le bouton du haut.
+Si vous souhaitez redémarrer votre NerdMiner, pour changez de réseau WiFi par exemple, il faut appuyez pendant 5 secondes le bouton du haut.
 
-Si vous appuyer une fois sur le bouton en bas, cela éteint votre NerdMiner. Cliquer deux fois permet d'inverser l'orientation de l'écran.
+Appuyer une fois sur le bouton du bas éteindra votre NerdMiner. Cliquer deux fois permet d'inverser l'orientation de l'écran.
 
-### Étapes préliminaires pour utilisateurs linux
+#### Étapes préliminaires pour utilisateurs linux
 
 Voici les étapes pour que Chrome puisse détecter votre port sérial sur un linux.
 
@@ -104,23 +104,23 @@ Voici les étapes pour que Chrome puisse détecter votre port sérial sur un lin
 - Entrez la commande suivante pour lister tous les ports :
   - ` dmesg | grep tty`
   - ou `ls /dev/tty*`
-- Pour être certain du port vous pouvez procéder par élimination en recommençant la commande sans que l'ESP-32 soit branché
+- Pour être certain du port vous pouvez procéder par élimination en relançant la commande sans que l'ESP-32 soit branché
 
 2. Changer la permission du port associé :
 
-- Par défaut, l'accès aux ports série peut nécessiter des permissions root, on va donc les rendre disponibles en ajoutant votre utilisateur au groupe `dialout`
+- Par défaut, l'accès aux ports série peut nécessiter des droits d'administrateur, nous les rendrons donc disponibles en ajoutant votre utilisateur au groupe `dialout`
   - `sudo usermod -a -G dialout YOUR_USERNAME`, remplacer `YOUR_USERNAME` par votre nom d'utilisateur.
-  - puis déconnectez-vous puis reconnectez-vous sous cet utilisateur, ou redémarrez le système pour vous assurer que les modifications de groupe prennent effet.
+  - Ensuite déconnectez-vous puis reconnectez-vous sous cet utilisateur, ou redémarrez le système pour vous assurer que les modifications de groupe prennent effet.
 
 Maintenant que vous ESP-32 est reconnu par votre système vous pouvez retourner à la [première étape](#etape-1-preparation-du-webflasher) pour l'installation du logiciel.
 
-## Conclusion
+### Conclusion
 
 Et voilà ! Votre NerdMiner_v2 est maintenant configuré et prêt à être utilisé.
 
 Bon minage et que la chance vous sourisse !
 
-### Estimation de la probabilité de gagner
+#### Estimation de la probabilité de gagner
 
 Amusons-nous à estimer la probabilité de gagner une récompense de bloc. Cette estimation sera approximative et vise uniquement à obtenir l'ordre de grandeur de la probabilité.
 Les pools auxquels un NerdMiner peut se connecter sont uniquement des "pools de minage en solo", ce qui signifie que le pool ne mutualise pas la puissance de calcul de tous les mineurs connectés, mais agit simplement en tant que coordinateur.
@@ -128,7 +128,7 @@ Supposons maintenant que notre NerdMiner ait une puissance de calcul d'environ 4
 
 Sachant que la puissance de calcul totale est d'environ 450 EH/s (soit 4,5 x 10^20 hash par seconde), nous pouvons considérer que la probabilité de trouver le prochain bloc est de 1 sur 100 millions de milliards, ce qui est très très très peu probable. Ainsi, en plus d'être un outil éducatif et un objet de curiosité, un NerdMiner peut servir de billet de loterie dans le minage de bitcoins à un coût électrique marginal de 0,5 W - bien que, comme nous venons de le voir, la probabilité de gagner soit ridiculement faible. Pourquoi ne pas tenter votre chance ?
 
-### Informations supplémentaires
+#### Informations supplémentaires
 
 Voici quelques liens si vous souhaitez en savoir plus sur le sujet :
 

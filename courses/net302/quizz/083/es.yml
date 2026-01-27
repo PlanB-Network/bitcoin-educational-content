@@ -5,5 +5,5 @@ wrong_answers:
   - VÁLIDO
   - STALE
 explanation: |
-  El estado REACHABLE significa que el mapeo IP/MAC es conocido y funcional en la caché de vecindad.
-reviewed: false
+  El estado REACHABLE (ALCANZABLE) significa que el mapeo IP/MAC es conocido y funcional en la caché de vecindad.
+reviewed: true

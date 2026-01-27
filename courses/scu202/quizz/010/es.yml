@@ -6,4 +6,4 @@ wrong_answers:
   - daemon
 explanation: |
   Tux es la mascota oficial del núcleo Linux desde 1996, creada por Larry Ewing.
-reviewed: false
+reviewed: true

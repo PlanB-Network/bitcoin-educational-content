@@ -1,11 +1,11 @@
 ---
-name: El Funcionamiento Interno de las Carteras de Bitcoin
+name: Arquitectura de la billetera Bitcoin
 goal: Sumergirse en los principios criptográficos que impulsan las carteras de Bitcoin.
 objectives:
-  - Definir las nociones teóricas necesarias para entender los algoritmos criptográficos usados en Bitcoin.
-  - Comprender completamente la construcción de una cartera determinista y jerárquica.
-  - Saber cómo identificar y reducir los riesgos asociados con la gestión de una cartera.
-  - Entender los principios de las funciones hash, las claves criptográficas y las firmas digitales.
+- Definir las nociones teóricas necesarias para entender los algoritmos criptográficos usados en Bitcoin.
+- Comprender completamente la construcción de una cartera determinista y jerárquica.
+- Saber cómo identificar y reducir los riesgos asociados con la gestión de una cartera.
+- Entender los principios de las funciones hash, las claves criptográficas y las firmas digitales.
 ---
 
 # Un Viaje al Corazón de las Carteras de Bitcoin
@@ -28,12 +28,14 @@ Con una pedagogía clara, más de 60 diagramas explicativos y ejemplos concretos
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 Bienvenido al curso CYP201, donde exploraremos en profundidad el funcionamiento de las carteras de Bitcoin HD (del inglès deterministic and hierarchical). Este curso está diseñado para cualquier persona que quiera entender los fundamentos técnicos del uso de Bitcoin, ya sean usuarios casuales, entusiastas que han visto la luz o futuros expertos.
 
 El objetivo de esta formación es darte las claves para dominar las herramientas que usas a diario. Las carteras de Bitcoin HD, que están en el corazón de tu experiencia de usuario, se basan en conceptos a veces complejos, los cuales intentaremos hacer accesibles. ¡Eliminemos esos mitos!
 
 Antes de sumergirnos en los detalles de la construcción y operación de las carteras de Bitcoin, comenzaremos con algunos capítulos sobre los fundamentos de la criptografía que hay que conocer para lo que sigue.
-Comenzaremos con las funciones hash criptográficas, fundamentales tanto para las carteras como para el propio protocolo de Bitcoin. Descubrirás sus principales características, las funciones específicas usadas en Bitcoin y, en un capítulo más técnico, aprenderás en detalle sobre el funcionamiento de la reina de las funciones hash: SHA256.
+Comenzaremos con las funciones hash criptográficas, fundamentales tanto para las carteras como para el propio protocolo de Bitcoin. Descubrirás sus principales características, las funciones específicas usadas en Bitcoin y, en un capítulo más técnico, aprenderás en detalle sobre el funcionamiento de la reina de las funciones hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 A continuación, discutiremos el funcionamiento de los algoritmos de firma digital que usas todos los días para asegurar tus UTXOs. Bitcoin utiliza dos: ECDSA y el protocolo Schnorr. Aprenderás qué fundamentos matemátioas subyacen a estos algoritmos y cómo aseguran las transacciones.
@@ -43,7 +45,7 @@ A continuación, discutiremos el funcionamiento de los algoritmos de firma digit
 Una vez que tengamos una buena comprensión de estos elementos de criptografía, finalmente pasaremos al corazón de la formación: ¡las carteras deterministas y jerárquicas! Primero, hay una sección dedicada a las frases mnemotécnicas, estas secuencias de 12 o 24 palabras que te permiten crear y restaurar tus carteras. Descubrirás cómo se generan estas palabras a partir de una fuente de entropía y cómo facilitan el uso de Bitcoin.
 
 ![CYP201](assets/en/003.webp)
-La formación continuará con el estudio de la passphrase BIP39, la semilla (no confundir con la frase mnemotécnica), el código de cadena maestro y la llave maestra. Veremos en detalle qué son estos elementos, sus respectivos roles y cómo se calculan.
+La formación continuará con el estudio de la passphrase [BIP39](https://planb.academy/resources/glossary/bip0039), la semilla (no confundir con la frase mnemotécnica), el código de cadena maestro y la llave maestra. Veremos en detalle qué son estos elementos, sus respectivos roles y cómo se calculan.
 ![CYP201](assets/en/004.webp)
 
 Finalmente, a partir de la llave maestra, descubriremos cómo se derivan los pares de claves criptográficas de manera determinista y jerárquica hasta las direcciones de recepción.
@@ -87,6 +89,8 @@ Esta tabla le ofrece una traducción de los principales términos en inglés uti
 ## Introducción a las Funciones Hash
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 El primer tipo de algoritmos criptográficos utilizados en Bitcoin abarca las funciones hash. Juegan un papel esencial en diferentes niveles del protocolo, pero también dentro de las billeteras de Bitcoin. Descubramos juntos qué es una función hash y para qué se utiliza en Bitcoin.
 
@@ -197,6 +201,9 @@ Ahora conoces los conceptos básicos esenciales sobre las funciones hash para lo
 ## El Funcionamiento Interno de SHA256
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
+
 Hemos visto anteriormente que las funciones de hashing poseen características importantes que justifican su uso en Bitcoin. Ahora examinemos los mecanismos internos de estas funciones de hashing que les otorgan estas propiedades, y para hacer esto, propongo diseccionar el funcionamiento de SHA256.
 
 Las funciones SHA256 y SHA512 pertenecen a la misma familia SHA2. Su mecanismo se basa en una construcción específica llamada **construcción de Merkle-Damgård**. RIPEMD160 también utiliza este mismo tipo de construcción.
@@ -572,6 +579,8 @@ Ahora que hemos examinado en detalle el funcionamiento de las funciones hash, pa
 ## Los algoritmos utilizados para la derivación
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 En Bitcoin a nivel de aplicación, además de las funciones hash, se utilizan algoritmos de derivación criptográfica para generar datos seguros a partir de entradas iniciales. Aunque estos algoritmos dependen de las funciones hash, sirven para diferentes propósitos, especialmente en términos de autenticación y generación de claves. Estos algoritmos retienen algunas de las características de las funciones hash, como la irreversibilidad, resistencia a la manipulación y resistencia a colisiones.
 
 En las billeteras de Bitcoin, principalmente se utilizan 2 algoritmos de derivación:
@@ -660,6 +669,8 @@ En este capítulo, hemos explorado las funciones HMAC-SHA512 y PBKDF2, que utili
 ## Firmas Digitales y Curvas Elípticas
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
+
 El segundo método criptográfico utilizado en Bitcoin involucra algoritmos de firma digital. Veamos de qué se trata y cómo funciona.
 
 ### Bitcoins, UTXOs y Condiciones de Gasto
@@ -675,7 +686,7 @@ Un usuario que desee realizar una transacción de Bitcoin debe, por lo tanto, cr
 
 Como resultado, un usuario que posee bitcoins asegurados con una clave pública debe encontrar una manera de almacenar de forma segura lo que permite desbloquear sus fondos: la clave privada. Una cartera de Bitcoin es precisamente un dispositivo que te permitirá mantener todas tus claves sin que otras personas tengan acceso a ellas. Por lo tanto, es más como un llavero que como una cartera.
 
-El vínculo matemático entre una clave pública y una clave privada, así como la capacidad de realizar una firma para probar la posesión de una clave privada sin revelarla, son posibles gracias a un algoritmo de firma digital. En el protocolo de Bitcoin, se utilizan 2 algoritmos de firma: **ECDSA** (*Elliptic Curve Digital Signature Algorithm*) y el **esquema de firma Schnorr**. ECDSA es el protocolo de firma digital utilizado en Bitcoin desde sus inicios. Schnorr es más reciente en Bitcoin, ya que fue introducido en noviembre de 2021 con la actualización de Taproot.
+El vínculo matemático entre una clave pública y una clave privada, así como la capacidad de realizar una firma para probar la posesión de una clave privada sin revelarla, son posibles gracias a un algoritmo de firma digital. En el protocolo de Bitcoin, se utilizan 2 algoritmos de firma: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (*[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm*) y el **esquema de firma Schnorr**. ECDSA es el protocolo de firma digital utilizado en Bitcoin desde sus inicios. Schnorr es más reciente en Bitcoin, ya que fue introducido en noviembre de 2021 con la actualización de Taproot.
 
 Estos dos algoritmos son bastante similares en sus mecanismos. Ambos se basan en la criptografía de curva elíptica. La principal diferencia entre estos dos protocolos radica en la estructura de la firma y algunas propiedades matemáticas específicas. Por lo tanto, estudiaremos el funcionamiento de estos algoritmos, comenzando con el más antiguo: ECDSA.
 ### Criptografía de Curva Elíptica
@@ -749,12 +760,15 @@ Usamos un campo finito de enteros módulo $p$ para asegurar la precisión de las
 
 La matemática de las curvas elípticas sobre campos finitos es análoga a la de los campos de números reales, con la adaptación de que todas las operaciones se realizan módulo $p$. Para simplificar las explicaciones, continuaremos en los siguientes capítulos ilustrando conceptos usando una curva definida sobre números reales, mientras mantenemos en mente que, en la práctica, la curva está definida sobre un campo finito.
 
-Si deseas aprender más sobre los fundamentos matemáticos de la criptografía moderna, también recomiendo consultar este otro curso en Plan ₿ Network:
+Si deseas aprender más sobre los fundamentos matemáticos de la criptografía moderna, también recomiendo consultar este otro curso en Plan ₿ Academy:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Calculando la Clave Pública a partir de la Clave Privada
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
+
 Como se vio anteriormente, los algoritmos de firma digital en Bitcoin se basan en un par de claves privadas y públicas que están matemáticamente vinculadas. Vamos a explorar juntos cuál es este vínculo matemático y cómo se generan.
 
 ### La Clave Privada
@@ -884,6 +898,8 @@ Por supuesto, en este ejemplo simplificado con $k = 4$, sería posible encontrar
 ## Firmando con la Clave Privada
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 Ahora que sabes cómo derivar una clave pública a partir de una clave privada, ya puedes recibir bitcoins utilizando este par de claves como condición de gasto. Pero, ¿cómo gastarlos? Para gastar bitcoins, necesitarás desbloquear el _scriptPubKey_ adjunto a tu UTXO para probar que eres de hecho su legítimo propietario. Para hacer esto, debes producir una firma $s$ que coincida con la clave pública $K$ presente en el _scriptPubKey_ utilizando la clave privada $k$ que se utilizó inicialmente para calcular $K$. La firma digital es así una prueba irrefutable de que estás en posesión de la clave privada asociada con la clave pública que reclamas.
 
@@ -1101,6 +1117,8 @@ Bueno, realmente no sabemos por qué Satoshi no lo eligió, pero una hipótesis 
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 Como hemos visto en capítulos anteriores, las firmas digitales se utilizan a menudo para desbloquear el script de una entrada. En el proceso de firma, es necesario incluir los datos firmados en el cálculo, designados en nuestros ejemplos por el mensaje $m$. Estos datos, una vez firmados, no pueden ser modificados sin invalidar la firma. De hecho, ya sea para ECDSA o Schnorr, el verificador de la firma debe incluir en su cálculo el mismo mensaje $m$. Si difiere del mensaje $m$ inicialmente utilizado por el firmante, el resultado será incorrecto y la firma se considerará inválida. Entonces se dice que una firma cubre ciertos datos y los protege, de cierta manera, contra modificaciones no autorizadas.
 
 ### ¿Qué es un sighash flash?
@@ -1156,7 +1174,7 @@ Si esta bandera de sighash se integra en Bitcoin, permitirá el uso de covenants
 
 Para profundizar tu conocimiento sobre la Red Lightning, después del curso CYP201, te recomiendo altamente el curso LNP201 por Fanis Michalakis, que cubre el tema en detalle:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 En la siguiente parte, propongo descubrir el funcionamiento de la frase mnemónica en tu billetera Bitcoin.
 
@@ -1167,6 +1185,8 @@ En la siguiente parte, propongo descubrir el funcionamiento de la frase mnemóni
 ## Evolución de las billeteras Bitcoin
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
+
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
 
 Ahora que hemos explorado el funcionamiento de las funciones hash y las firmas digitales, podemos estudiar cómo funcionan las billeteras Bitcoin. El objetivo será imaginar cómo se construye una billetera en Bitcoin, cómo se descompone y cuáles son las diferentes piezas de información que la constituyen y para qué se utilizan. Este entendimiento de los mecanismos de la billetera te permitirá mejorar tu uso de Bitcoin en términos de seguridad y privacidad.
 
@@ -1188,9 +1208,9 @@ Si se deseaba utilizar múltiples claves privadas, entonces era necesario hacer 
 
 Esta restricción proviene del modelo de privacidad de Bitcoin. Al reutilizar la misma dirección, facilita a los observadores externos rastrear todas mis transacciones de Bitcoin. Es por eso que se desaconseja fuertemente reutilizar una dirección de recepción. Sin embargo, para tener múltiples direcciones y separar públicamente nuestras transacciones, es necesario gestionar múltiples claves privadas. En el caso de las billeteras JBOK, esto implica crear tantas copias de seguridad como nuevos pares de claves, una tarea que rápidamente puede volverse compleja y difícil de mantener para los usuarios.
 
-Para aprender más sobre el modelo de privacidad de Bitcoin y descubrir métodos para proteger tu privacidad, también recomiendo seguir mi curso BTC204 en Plan ₿ Network:
+Para aprender más sobre el modelo de privacidad de Bitcoin y descubrir métodos para proteger tu privacidad, también recomiendo seguir mi curso BTC204 en Plan ₿ Academy:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Wallets (_Hierarchical Deterministic_)
 
@@ -1210,6 +1230,9 @@ En los próximos capítulos, exploraremos el funcionamiento interno de las carte
 ## Entropía y Número Aleatorio
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
+
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
+
 Las carteras HD modernas (deterministas y jerárquicas) dependen de una única pieza inicial de información llamada "entropía" para generar de manera determinista el conjunto completo de claves de la cartera. Esta entropía es un número pseudoaleatorio cuyo nivel de caos determina en parte la seguridad de la cartera.
 
 ### Definición de Entropía
@@ -1236,6 +1259,8 @@ En el próximo capítulo, veremos cómo pasamos de un número aleatorio a una fr
 ## La Frase Mnemotécnica
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
 La frase mnemotécnica, también llamada "frase semilla", "frase de recuperación", "frase secreta" o "frase de 24 palabras", es una secuencia compuesta usualmente de 12 o 24 palabras, que se genera a partir de la entropía. Se utiliza para derivar de manera determinista todas las claves de una cartera HD (Hierarchical Deterministic Wallet). Esto significa que a partir de esta frase, es posible generar y recrear de manera determinista todas las claves privadas y públicas de la cartera de Bitcoin, y consecuentemente acceder a los fondos que están protegidos con ella. El propósito de la frase mnemotécnica es proporcionar un medio de respaldo y recuperación de bitcoins que sea seguro y fácil de usar. Fue introducida en los estándares en 2013 con el BIP39.
 Descubramos juntos cómo pasar de la entropía a la frase mnemotécnica.
@@ -1286,7 +1311,7 @@ $$
 
 ### Conversión de la Secuencia Binaria en una Frase Mnemotécnica
 
-La secuencia de bits $\text{ENT} \Vert \text{CS}$ se divide entonces en segmentos de 11 bits. Cada segmento de 11 bits, una vez convertido a decimal, corresponde a un número entre 0 y 2047, que designa la posición de una palabra [en una lista de 2048 palabras estandarizadas por el BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+La secuencia de bits $\text{ENT} \Vert \text{CS}$ se divide entonces en segmentos de 11 bits. Cada segmento de 11 bits, una vez convertido a decimal, corresponde a un número entre 0 y 2047, que designa la posición de una palabra [en una lista de 2048 palabras estandarizadas por el BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 
@@ -1329,12 +1354,14 @@ Una frase de 12 palabras, que además ofrece 128 bits de seguridad, es por lo ta
 
 Para ir más allá y aprender concretamente cómo generar manualmente una frase mnemotécnica de prueba, te aconsejo descubrir este tutorial:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Antes de continuar con la derivación de la billetera a partir de esta frase mnemotécnica, te presentaré, en el siguiente capítulo, la passphrase BIP39, ya que juega un papel en el proceso de derivación, y está al mismo nivel que la frase mnemotécnica.
 
 ## La passphrase
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
+
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
 Como acabamos de ver, las billeteras HD se generan a partir de una frase mnemotécnica que típicamente consiste en 12 o 24 palabras. Esta frase es muy importante porque permite la restauración de todas las claves de una billetera en caso de que su dispositivo físico (como una billetera de hardware, por ejemplo) se pierda. Sin embargo, constituye un único punto de fallo, porque si se ve comprometida, un atacante podría robar todos los bitcoins. Aquí es donde entra en juego la passphrase BIP39.
 
@@ -1371,6 +1398,8 @@ En la siguiente sección, descubriremos cómo estos dos elementos en la base de 
 
 ## Creación de la Semilla y la Clave Maestra
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 Una vez generada la frase mnemotécnica y la frase de contraseña opcional, puede comenzar el proceso de derivación de una cartera HD de Bitcoin. La frase mnemotécnica se convierte primero en una semilla que constituye la base de todas las claves de la cartera.
 
@@ -1443,6 +1472,8 @@ Antes de continuar con la derivación de la cartera HD con los siguientes elemen
 
 ## Llaves Extendidas
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 Una llave extendida es simplemente la concatenación de una llave (ya sea privada o pública) y su código de cadena asociado. Este código de cadena es esencial para la derivación de llaves hijo porque, sin él, es imposible derivar llaves hijo de una llave padre, pero descubriremos este proceso más precisamente en el próximo capítulo. Estas llaves extendidas permiten así agregar toda la información necesaria para derivar llaves hijo, simplificando así la gestión de cuentas dentro de una cartera HD.
 
@@ -1559,6 +1590,8 @@ En este capítulo, descubrimos que existen dos tipos diferentes de claves hijas.
 ## Derivación de Pares de Claves Hijas
 
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 La derivación de pares de claves hijas en las carteras HD de Bitcoin se basa en una estructura jerárquica que permite generar un gran número de claves, mientras organiza estos pares en diferentes grupos a través de ramas. Cada par hijo derivado de un par padre puede usarse directamente en un _scriptPubKey_ para bloquear bitcoins, o como punto de partida para generar más claves hijas, y así sucesivamente, para crear un árbol de claves.
 
@@ -1751,6 +1784,8 @@ Para resumir, hasta ahora has aprendido a crear los elementos básicos de la bil
 
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 La estructura jerárquica de las billeteras HD en Bitcoin permite la organización de pares de claves de varias maneras. La idea es derivar, desde la clave privada maestra y el código de cadena maestro, varios niveles de profundidad. Cada nivel agregado corresponde a la derivación de un par de claves hija de un par de claves padre.
 
 Con el tiempo, diferentes BIPs han introducido estándares para estos caminos de derivación, con el objetivo de estandarizar su uso en diferentes software. Así que, en este capítulo, descubriremos el significado de cada nivel de derivación en las billeteras HD, de acuerdo con estos estándares.
@@ -1851,6 +1886,9 @@ En el próximo capítulo, descubriremos qué son los "_output script descriptors
 ## Descriptores de script de salida
 
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
+
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 A menudo se dice que la frase mnemotécnica por sí sola es suficiente para recuperar el acceso a una cartera. En realidad, las cosas son un poco más complejas. En el capítulo anterior, examinamos la estructura de derivación de la cartera HD, y podrías haber notado que este proceso es bastante complejo. Los caminos de derivación le dicen al software qué dirección seguir para derivar las claves del usuario. Sin embargo, al recuperar una cartera de Bitcoin, si uno no conoce estos caminos, la frase mnemotécnica por sí sola no es suficiente. Permite obtener la clave maestra y el código de cadena maestro, pero luego es necesario conocer los índices utilizados para alcanzar las claves secundarias.
 
 Teóricamente, sería necesario guardar no solo la frase mnemotécnica de nuestra cartera, sino también los caminos hacia las cuentas que usamos. En la práctica, a menudo es posible recuperar el acceso a las claves secundarias sin esta información, siempre que se hayan seguido los estándares. Probando cada estándar uno por uno, generalmente es posible recuperar el acceso a los bitcoins. Sin embargo, esto no está garantizado y es especialmente complicado para los principiantes. Además, con la diversificación de los tipos de script y la aparición de configuraciones más complejas, esta información podría volverse difícil de extrapolar, convirtiendo así estos datos en información privada y difícil de recuperar por fuerza bruta. Es por esto que recientemente se ha introducido una innovación y está comenzando a integrarse en tu wallet favorito: los _output script descriptors_.
@@ -1898,6 +1936,8 @@ Ahora sabes todo sobre el funcionamiento de la cartera HD en Bitcoin y el proces
 
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
+
 Las direcciones de recepción son piezas de información incrustadas en _scriptPubKey_ para bloquear los UTXOs recién creados. En pocas palabras, una dirección sirve para recibir bitcoins. Vamos a explorar su funcionamiento en conexión con lo que hemos estudiado en los capítulos anteriores.
 
 ### El Papel de las Direcciones de Bitcoin en los Scripts
@@ -1910,19 +1950,21 @@ Cuando un usuario recibe bitcoins, el emisor crea un output UTXO y la bloquea co
 
 Es precisamente en el _scriptPubKey_ donde se encuentran las direcciones de recepción. Sin embargo, su uso varía dependiendo del estándar de script adoptado. Aquí hay una tabla resumen de la información contenida en el _scriptPubKey_ según el estándar utilizado, así como la información esperada en el _scriptSig_ para desbloquear el _scriptPubKey_.
 
-| Estándar              | _scriptPubKey_                                              | _scriptSig_                                | _script de redención_ | _testigo_                                         |
-| --------------------- | ----------------------------------------------------------- | ------------------------------------------ | --------------------- | ------------------------------------------------- |
-| P2PK                  | `<pubkey> OP_CHECKSIG`                                      | `<firma>`                                  |                       |                                                   |
-| P2PKH                 | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<firma> <clave pública>`                  |                       |                                                   |
-| P2SH                  | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<empujes de datos> <script de redención>` | Datos arbitrarios     |                                                   |
-| P2WPKH                | `0 <pubKeyHash>`                                            |                                            |                       | `<firma> <clave pública>`                         |
-| P2WSH                 | `0 <witnessScriptHash>`                                     |                                            |                       | `<empujes de datos> <script de testigo>`          |
-| P2SH-P2WPKH           | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<script de redención>`                    | `0 <pubKeyHash>`      | `<firma> <clave pública>`                         |
-| P2SH-P2WSH            | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<script de redención>`                    | `0 <scriptHash>`      | `<empujes de datos> <script de testigo>`          |
-| P2TR (ruta de clave)  | `1 <clave pública>`                                         |                                            |                       | `<firma>`                                         |
-| P2TR (ruta de script) | `1 <clave pública>`                                         |                                            |                       | `<empujes de datos> <script> <bloque de control>` |
 
-_Fuente: Bitcoin Core PR review club, 7 de julio de 2021 - Gloria Zhao_
+
+| Estándar             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Datos arbitrarios | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Fuente: Bitcoin Core PR review club del 7 de julio de 2021 – Gloria Zhao_
 
 Los opcodes utilizados en un script están diseñados para manipular información y, si es necesario, para compararla o probarla. Tomemos el ejemplo de un script P2PKH, que es como sigue:
 
@@ -2018,6 +2060,8 @@ Ahora que hemos cubierto la teoría, ¡pasemos a la práctica! En el siguiente c
 ## Derivación de Direcciones
 
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 Exploremos juntos cómo generar una dirección de recepción a partir de un par de claves ubicadas, por ejemplo, en la profundidad 5 de una cartera HD. Esta dirección puede entonces utilizarse en un software de cartera para bloquear un UTXO.
 

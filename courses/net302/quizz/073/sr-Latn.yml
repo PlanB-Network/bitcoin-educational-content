@@ -5,5 +5,5 @@ wrong_answers:
   - /32
   - /23
 explanation: |
-  Od 2006. godine, svaki RIR obično dobija /12 blok IPv6, obezbeđujući veoma veliku rezervu za regionalnu alokaciju.
-reviewed: false
+  Od 2006. godine, svaki RIR obično dobija /12 blok IPv6 adresa, obezbeđujući veoma veliku rezervu za regionalnu alokaciju.
+reviewed: true

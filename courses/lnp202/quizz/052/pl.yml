@@ -1,0 +1,9 @@
+question: Jakie konkretne ograniczenie na Androida jest wspomniane w odniesieniu do korzystania z Tailscale?
+answer: Jedna sieć VPN na raz
+wrong_answers:
+  - Bluetooth obowiązkowy dla VPN
+  - Niekompatybilność DNS-over-HTTPS
+  - Wymaga rootowania telefonu
+explanation: |
+  Android nie pozwala na jednoczesne korzystanie z dwóch sieci VPN, więc przed użyciem Tailscale należy wyłączyć inne aktywne sieci VPN.
+reviewed: false

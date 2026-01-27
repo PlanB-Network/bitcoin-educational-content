@@ -1,0 +1,9 @@
+question: Quelle condition rend une pénalité Lightning effective ?
+answer: Détection avant la fin du timelock
+wrong_answers:
+  - Détection avant le début du timelock
+  - Détection avant la diffusion de la TX de triche
+  - Détection après la fin du timelock
+explanation: |
+  La transaction de justice doit être diffusée avant l’expiration du timelock pour sanctionner la triche. Elle ne peut pas l'être avant le début du timelock ou de la publication de la TX, car cela voudrait dire que la triche n'a tout simplement pas eu lieu.
+reviewed: false

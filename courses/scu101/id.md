@@ -30,6 +30,8 @@ Tim kontributor:
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **Tujuan: Tingkatkan keterampilan untuk menjaga keamanan Anda!**
 
 Selamat datang semuanya di program edukasi yang didedikasikan untuk keamanan digital ini. Pelatihan ini dirancang agar mudah diakses oleh siapa saja, jadi tidak diperlukan pengetahuan ilmu komputer sebelumnya. Tujuan utama kami adalah membekali Anda dengan pengetahuan dan keterampilan yang diperlukan untuk menjelajahi dunia digital dengan lebih aman dan terlindungi.
@@ -40,7 +42,7 @@ Pelatihan ini adalah hasil kolaborasi dari tiga profesor kami:
 
 - Renaud Lifchitz, ahli keamanan siber
 - Théo Pantamis, PhD dalam matematika terapan
-- Rogzy, Co-founder dari Plan ₿ Network.
+- Rogzy, Co-founder dari Plan ₿ Academy.
 
 Kewaspadaan digital Anda sangat penting di dunia yang semakin digital. Meskipun ada peningkatan konstan dalam peretasan dan pengawasan massal, belum terlambat untuk mengambil langkah pertama dan melindungi diri Anda. 
 Dalam pelatihan ini, kami tidak mencoba menjadikan Anda seorang ahli, anonim sepenuhnya, atau kebal terhadap ancaman digital, karena ini mustahil. Sebaliknya, kami menawarkan beberapa solusi sederhana dan mudah diakses untuk semua orang untuk mulai mengubah kebiasaan online Anda dan mendapatkan kembali kendali atas privasi digital Anda. 
@@ -53,7 +55,7 @@ Jika Anda mencari keterampilan yang lebih lanjut tentang topik ini kami sediakan
 
 Kita akan memulai dengan membahas mengapa memilih *web browser* itu penting dan bagaimana pilihan itu memengaruhi keamanan Anda. Selanjutnya, kita akan menyelami lebih dalam tentang *browser*, terutama mengenai pengelolaan cookie. Anda juga akan belajar cara menjelajah dengan lebih aman dan anonim menggunakan alat seperti TOR. Setelah itu, kita akan fokus pada penggunaan VPN untuk meningkatkan perlindungan data Anda. Terakhir, kita akan memberikan rekomendasi untuk menggunakan koneksi WiFi dengan aman.
 
-![](assets/en/1.webp)
+![image](assets/id/001.webp)
 
 **Bagian 2: Praktik Terbaik Penggunaan Komputer**
 
@@ -62,7 +64,7 @@ Kita akan memulai dengan membahas mengapa memilih *web browser* itu penting dan 
 
 Dalam bagian ini, kita akan membahas tiga area utama keamanan komputer. Pertama, kita akan menjelajahi berbagai sistem operasi, termasuk Mac, Windows, dan Linux, menyoroti karakteristik dan keunggulan spesifik masing-masing. Selanjutnya, kita akan mendalami metode untuk secara efektif melindungi diri dari upaya peretasan dan meningkatkan keamanan perangkat Anda. Terakhir, kita akan menekankan pentingnya melindungi dan mencadangkan data Anda secara berkala untuk mencegah kehilangan atau serangan *ransomware*.
 
-![](assets/en/2.webp)
+![image](assets/id/002.webp)
 
 **Bagian 3: Penerapan Langkah-langkah solusi**
 
@@ -74,7 +76,7 @@ Pada bagian ketiga ini, kita akan fokus pada langkah praktis untuk solusi nyata 
 
 Pertama, kita akan melihat bagaimana melindungi kotak masuk email Anda, yang sangat penting untuk komunikasi dan sering menjadi target peretas. Kemudian, kami akan memperkenalkan Anda pada pengelola kata sandi: solusi praktis untuk mencegah lupa atau tertukar kata sandi sambil tetap menjaganya aman. Terakhir, kita akan membahas tindakan keamanan tambahan, yaitu otentikasi dua faktor, yang menambahkan lapisan perlindungan ekstra pada akun Anda. Semuanya akan dijelaskan dengan jelas dan mudah dipahami.
 
-![](assets/en/3.webp)
+![image](assets/id/003.webp)
 
 Siap untuk memperkuat keamanan digital Anda dan mengambil kembali kendali atas data Anda? Ayo mulai!
 
@@ -86,6 +88,8 @@ Siap untuk memperkuat keamanan digital Anda dan mengambil kembali kendali atas d
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 Saat Anda menjelajahi internet, penting untuk menghindari beberapa kesalahan umum untuk menjaga keamanan online Anda. Berikut adalah beberapa tips untuk menghindarinya:
 
 ### Berhati-hatilah dengan pengunduhan perangkat lunak:
@@ -93,14 +97,14 @@ Saat Anda menjelajahi internet, penting untuk menghindari beberapa kesalahan umu
 Disarankan untuk mengunduh perangkat lunak dari situs resminya dan bukan dari situs umum.
 Contoh: Gunakan www.signal.org/download dan hindari pengunduhan melalui www.logicieltelechargement.fr/signal.
 
-![](assets/notext/4.webp)
+![image](assets/id/004.webp)
 
 Sangat disarankan juga untuk memprioritaskan perangkat lunak sumber terbuka (open-source). Kenapa? Karena perangkat lunak ini seringkali lebih aman dan bebas dari perangkat lunak berbahaya (malicious software).
 
 Perangkat lunak "*open-source*" itu adalah jenis perangkat lunak yang kode programnya tersedia dan bisa diakses oleh siapa saja secara publik. Ini memungkinkan, orang-orang lain untuk memverifikasi bahwa tidak ada akses tersembunyi yang bertujuan mencuri data Anda.
 
 > Bonus: Mayoritas perangkat lunak *open-source* seringkali bersifat gratis! Kode pada pembelajaran di universitas ini juga  100% *open source*, jadi Anda juga dapat memeriksa kode kami di GitHub kami.
-> ![](assets/notext/5.webp)
+> ![image](assets/id/005.webp)
 
 ### Pengelolaan *Cookie*: Kesalahan dan solusi praktis terbaik
 
@@ -113,7 +117,7 @@ Perangkat lunak "*open-source*" itu adalah jenis perangkat lunak yang kode progr
 Ada dua kategori besar peramban (browser): yang berbasis Chrome dan yang berbasis Firefox. 
 Meskipun kedua kategori ini menawarkan tingkat keamanan yang serupa, disarankan untuk menghindari penggunaan peramban (browser) Google Chrome karena kemampuannya dalam melacak aktivitas pengguna. Alternatif yang lebih ringan dari Chrome, seperti Chromium atau Brave, mungkin lebih disukai. Brave khususnya sangat direkomendasikan karena memiliki pemblokir iklan bawaan. Dalam beberapa kasus, mungkin diperlukan untuk menggunakan lebih dari satu peramban (browser) untuk mengakses situs web tertentu.
 
-![](assets/notext/6.webp)
+![image](assets/id/006.webp)
 
 ### Penjelajahan Pribadi, TOR, dan alternatif lainnya untuk penjelajahan yang lebih aman dan anonim
 
@@ -123,13 +127,15 @@ Alternatif yang lebih canggih adalah jaringan TOR (*The Onion Router*), yang men
 
 TOR bersifat legal dan digunakan oleh jurnalis, aktivis kebebasan, dan orang lain yang ingin lolos dari sensor di negara-negara otoriter. Namun, penting untuk memahami bahwa TOR tidak mengamankan situs yang dikunjungi atau komputer itu sendiri. Selain itu, penggunaan TOR dapat memperlambat koneksi internet karena data harus melewati komputer milik tiga orang lain sebelum mencapai tujuannya. Juga penting untuk dicatat bahwa TOR bukan solusi sempurna untuk menjamin anonimitas 100% dan tidak seharusnya digunakan untuk aktivitas ilegal.
 
-![](assets/notext/7.webp)
+![image](assets/id/007.webp)
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN dan koneksi internet
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### VPN (*Virtual Private Network*)
 
@@ -137,7 +143,7 @@ Melindungi koneksi internet Anda adalah aspek penting dalam keamanan online, dan
 
 VPN adalah alat yang mengenkripsi data yang dikirimkan melalui internet, menjadikan koneksi lebih aman. Dalam konteks profesional, VPN memungkinkan karyawan untuk mengakses jaringan internal perusahaan dengan aman dari lokasi jarak jauh. Data yang dipertukarkan dienkripsi, membuatnya jauh lebih sulit untuk dilihat atau dicuri oleh pihak ketiga. Selain mengamankan akses ke jaringan internal, menggunakan VPN dapat memungkinkan pengguna untuk mengarahkan koneksi internet mereka melalui jaringan internal perusahaan, memberikan kesan bahwa koneksi mereka berasal dari perusahaan. Ini bisa sangat berguna untuk mengakses layanan online yang dibatasi secara geografis.
 
-![](assets/en/8.webp)
+![image](assets/id/008.webp)
 
 ### Jenis-jenis VPN
 
@@ -147,13 +153,13 @@ Ada dua jenis utama VPN: VPN perusahaan (enterprise VPN) dan VPN konsumen, seper
 
 Namun, menggunakan VPN konsumen tidak menjamin anonimitas sepenuhnya. Banyak penyedia VPN menyimpan informasi tentang penggunanya, yang bisa membahayakan anonimitas mereka. Meskipun VPN bisa berguna untuk meningkatkan keamanan online, mereka bukan solusi universal. Mereka efektif untuk penggunaan spesifik, seperti mengakses layanan yang dibatasi secara geografis atau meningkatkan keamanan saat bepergian, tetapi tidak menjamin keamanan total. Saat memilih VPN, sangat penting untuk memprioritaskan keandalan dan keahlian teknis daripada popularitas. Penyedia VPN yang paling sedikit mengumpulkan informasi pribadi umumnya adalah yang paling aman. Layanan seperti iVPN dan Mullvad tidak mengumpulkan informasi pribadi dan bahkan memungkinkan pembayaran dengan Bitcoin untuk privasi yang lebih tinggi.
 
-![](assets/notext/9.webp)
+![image](assets/id/009.webp)
 
 Terakhir, VPN juga bisa dipakai untuk memblokir iklan online, memberikan pengalaman menjelajah yang lebih nyaman dan aman. Namun, penting untuk melakukan riset mendalam agar menemukan VPN yang paling sesuai dengan kebutuhan Anda. Menggunakan VPN sangat dianjurkan untuk meningkatkan keamanan, bahkan saat menjelajah internet di rumah. Ini membantu memastikan tingkat perlindungan yang lebih tinggi untuk data yang dipertukarkan secara online. Terakhir, selalu cek URL dan ikon gembok kecil di bilah alamat untuk memastikan Anda berada di situs yang benar dan aman.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & jaringan Wi-Fi publik
 
@@ -163,7 +169,7 @@ Di Uni Eropa, perlindungan data diatur oleh Peraturan Perlindungan Data Umum (GD
 
 Untuk menghindari penipuan online, sangat penting untuk memverifikasi identitas situs yang Anda jelajahi, terutama dengan memeriksa ekstensi dan nama domain. Selain itu, waspadai penipu yang menggunakan huruf serupa dalam URL untuk menipu pengguna.
 
-![](assets/en/10.webp)
+![image](assets/id/010.webp)
 
 Singkatnya, penggunaan VPN dapat sangat meningkatkan keamanan online baik untuk bisnis maupun pengguna individu. Selain itu, mempraktikkan kebiasaan menjelajah yang baik juga berkontribusi pada keamanan digital yang lebih baik. Di segmen berikutnya dari kursus ini, kita akan membahas keamanan komputer, termasuk pembaruan perangkat lunak, penggunaan antivirus, dan manajemen kata sandi.
 
@@ -175,6 +181,8 @@ Singkatnya, penggunaan VPN dapat sangat meningkatkan keamanan online baik untuk 
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
+
 Keamanan komputer kita adalah hal utama yang harus diperhatikan di dunia digital saat ini. Saat ini, kami akan membahas tiga poin penting:
 
 - Memilih komputer
@@ -185,13 +193,13 @@ Keamanan komputer kita adalah hal utama yang harus diperhatikan di dunia digital
 
 Terkait pemilihan komputer, tidak ada perbedaan keamanan yang signifikan antara komputer lama dan baru. Namun, perbedaan keamanan memang ada pada sistem operasi, termasuk Windows, Linux, dan Mac.
 
-![](assets/notext/11.webp)
+![image](assets/id/011.webp)
 
 Mengenai Windows, disarankan untuk tidak menggunakan akun administrator setiap hari. Sebaiknya, buat dua akun terpisah: satu untuk keperluan administrasi dan satu lagi untuk penggunaan sehari-hari. Windows seringkali lebih rentan terhadap *malware* karena jumlah penggunanya yang besar dan kemudahan beralih dari pengguna standar ke administrator. Sebaliknya, ancaman jauh lebih jarang terjadi pada Linux dan Mac.
 
 Pilihan sistem operasi harus didasarkan pada kebutuhan dan preferensi Anda. Sistem Linux telah berkembang pesat dalam beberapa tahun terakhir, menjadi semakin ramah pengguna. Ubuntu adalah alternatif yang menarik bagi pemula, dengan antarmuka grafis yang mudah digunakan. Anda bisa saja mempartisi komputer untuk mencoba Linux sambil tetap mempertahankan Windows, namun proses ini bisa cukup rumit. Seringkali, lebih disukai untuk memiliki komputer khusus, mesin virtual (virtual machine), atau USB *flash drive* untuk menguji penggunaan Linux atau Ubuntu.
 
-![](assets/notext/12.webp)
+![image](assets/id/012.webp)
 
 ### Pembaruan Perangkat Lunak
 
@@ -212,7 +220,7 @@ Pemilihan dan penerapan antivirus itu penting. Windows Defender, antivirus bawaa
 
 Memang, Anda harus berhati-hati saat mengunduh perangkat lunak antivirus dari internet, karena bisa jadi perangkat lunak itu berbahaya atau sudah kedaluwarsa. Bagi yang ingin menggunakan pada antivirus berbayar, disarankan untuk memilih antivirus yang secara cerdas menganalisis ancaman tak dikenal dan yang baru muncul, seperti Kaspersky. Pembaruan antivirus sangat penting untuk melindungi dari ancaman yang terus berkembang.
 
-![](assets/notext/13.webp)
+![image](assets/id/013.webp)
 
 > Catatan: Linux dan Mac, berkat sistem pemisahan hak pengguna mereka, seringkali tidak memerlukan antivirus.
 
@@ -225,6 +233,8 @@ Sebagai kesimpulan, sangat penting untuk memilih sistem operasi yang sesuai deng
 ## Peretasan & Pengelolaan Pencadangan: Melindungi Data Anda
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
+
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
 ### Bagaimana peretas menyerang?
 
@@ -247,7 +257,7 @@ Aturan penting di sini adalah memeriksa dengan cermat nama lengkap pengirim sert
 
 *Ransomware* adalah jenis perangkat lunak jahat (malicious software) yang mengenkripsi data pengguna dan meminta tebusan untuk membukanya kembali. Jenis serangan ini semakin umum dan bisa sangat merepotkan, baik bagi perusahaan maupun individu. Untuk melindungi diri, sangat penting untuk membuat cadangan (backup) file-file yang paling penting! Ini tidak akan menghentikan *ransomware*, tapi akan memungkinkan Anda untuk mengabaikannya (dan tidak perlu membayar tebusan).
 
-![](assets/notext/14.webp)
+![image](assets/id/014.webp)
 
 Cadangkan data penting Anda secara teratur ke perangkat penyimpanan eksternal atau layanan penyimpanan online yang aman. Dengan begitu, jika terjadi serangan siber atau kegagalan perangkat keras, Anda bisa memulihkan data tanpa kehilangan informasi penting.
 
@@ -264,9 +274,9 @@ Tidak, umumnya tidak disarankan untuk membayar peretas dalam kasus *ransomware* 
 
 Jika Anda mendeteksi virus di komputer Anda, segera putuskan koneksinya dari internet, lakukan pemindaian antivirus penuh, dan hapus file-file yang terinfeksi. Setelah itu, perbarui perangkat lunak dan sistem operasi Anda, serta ubah kata sandi Anda untuk mencegah pembobolan lebih lanjut.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Penerapan solusi.
 
@@ -275,6 +285,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## Mengelola akun email
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 ### Membuat akun email baru!
 
@@ -288,7 +300,7 @@ Meskipun kita semua sudah memiliki akun email, penting untuk mempertimbangkan me
 
 Pengelolaan alamat email yang tepat sangat penting untuk menjaga keamanan akses online kita. Penting untuk memilih penyedia layanan email yang aman dan menghormati privasi. Sebagai contoh, ProtonMail adalah layanan email yang aman dan menghargai privasi.
 
-![](assets/notext/15.webp)
+![image](assets/id/015.webp)
 
 Saat memilih penyedia email dan membuat kata sandi, sangat penting untuk tidak pernah menggunakan kata sandi yang sama untuk layanan online yang berbeda. Disarankan untuk secara rutin membuat alamat email baru dan menggunakannya untuk berbagai keperluan. Sebaiknya gunakan layanan email yang aman untuk akun-akun penting Anda. Perlu dicatat juga bahwa beberapa layanan membatasi panjang kata sandi, jadi penting untuk mengetahui batasan ini. Tersedia juga layanan untuk membuat alamat email sementara, yang bisa digunakan untuk akun dengan durasi terbatas.
 
@@ -298,16 +310,18 @@ Sebagai informasi, penyedia email lama seperti La Poste, Arobase, Wig, dan Hotma
 
 Anda sebaiknya menggunakan situs web "Have I Been Pwned" (https://haveibeenpwned.com/) untuk memeriksa apakah alamat email Anda telah dibobol dan untuk menerima notifikasi tentang kebocoran data di masa mendatang. Peretas dapat memanfaatkan database yang diretas untuk mengirim email phishing atau menggunakan kembali kata sandi yang telah dibobol.
 
-![](assets/notext/16.webp)
+![image](assets/id/016.webp)
 
 Secara umum, mulai menggunakan alamat email baru yang lebih aman bukanlah praktik yang buruk, bahkan perlu jika Anda ingin memulai kembali dengan dasar yang lebih baik.
 Bonus Bitcoin: Sangat disarankan untuk membuat alamat email spesifik untuk aktivitas Bitcoin atau kripto Anda, seperti untuk membuat akun di bursa (exchange), untuk benar-benar memisahkan area aktivitas ini dalam kehidupan kita.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Pengelola Kata Sandi (*Password Manager*)
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### Apa itu pengelola kata sandi?
 
@@ -320,7 +334,7 @@ Dengan pengelola kata sandi, Anda tidak perlu lagi khawatir lupa kata sandi atau
 - LastPass: Salah satu pengelola kata sandi paling populer. LastPass adalah layanan pihak ketiga, yang berarti kata sandi Anda disimpan di server mereka. LastPass menawarkan versi gratis dan berbayar, dengan antarmuka yang ramah pengguna.
 - Dashlane: Sama seperti LastPass, Dashlane juga merupakan layanan pihak ketiga. Dashlane punya antarmuka yang yang mudah digunakan dan fitur tambahan seperti pelacakan informasi kartu kredit dan catatan aman (secure notes).
 
-  ![](assets/notext/17.webp)
+  ![image](assets/id/017.webp)
 
 ### *Self-hosting* untuk kontrol yang lebih baik:
 
@@ -329,7 +343,7 @@ Dengan pengelola kata sandi, Anda tidak perlu lagi khawatir lupa kata sandi atau
 - KeePass: Ini adalah solusi *open-source* yang utamanya ditujukan untuk *self-hosting*. Data Anda disimpan secara lokal secara default, tetapi Anda bisa menyinkronkan database kata sandi menggunakan berbagai metode jika Anda mau. KeePass diakui luas karena keamanan dan fleksibilitasnya, meskipun mungkin sedikit kurang nyaman bagi pengguna pemula.
   
 
-![](assets/notext/18.webp)
+![image](assets/id/018.webp)
 
 
 Untuk solusi yang dihosting sendiri seperti KeePass, Anda dapat menyinkronkan basis data Anda di beberapa perangkat tanpa menggunakan layanan terpusat pihak ketiga. Alat seperti **Syncthing** memungkinkan sinkronisasi terenkripsi dan terdesentralisasi langsung antar perangkat Anda. Pendekatan ini menjaga data Anda tetap di bawah kendali Anda sambil memastikan ketersediaannya di semua perangkat Anda.
@@ -351,13 +365,15 @@ Untuk membuat kata sandi yang kuat, disarankan untuk menggunakan banyak karakter
 
 Kata sandi yang dihasilkan secara acak menawarkan tingkat keamanan yang lebih tinggi, meskipun mungkin lebih sulit diingat. Pengelola kata sandi (password manager) dapat membantu membuat kata sandi acak yang lebih aman. Dengan menggunakan pengelola kata sandi, Anda tidak perlu menghafal semua kata sandi Anda. Penting untuk secara bertahap mengganti kata sandi lama Anda dengan yang dihasilkan oleh pengelola, karena kata sandi tersebut lebih kuat dan lebih aman. Pastikan kata sandi utama (master password) dari pengelola kata sandi Anda juga kuat dan aman.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Autentikasi Dua Faktor (2FA)
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### Mengapa menerapkan 2FA
 
@@ -369,7 +385,7 @@ Verifikasi ini dapat dilakukan melalui:
 - Kode yang dihasilkan oleh aplikasi seperti Google Authenticator atau Authy.
 - Kunci keamanan fisik yang dapat Anda masukkan ke dalam komputer Anda.
   
-  ![](assets/notext/19.webp)
+  ![image](assets/id/019.webp)
   
 Dengan 2FA, bahkan jika peretas berhasil mendapatkan kata sandi Anda, mereka tetap tidak akan bisa mengakses akun Anda tanpa faktor verifikasi kedua ini. Inilah yang membuat 2FA sangat penting untuk melindungi akun online Anda dari akses tidak sah.
 
@@ -403,9 +419,9 @@ Terus belajar dan secara bertahap menerapkan praktik yang baik!
 
 Aturan penting : Keamanan siber terus berkembang, dan beradaptasilah seiring dengan bertambahnya jam terbang Anda.
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Sesi Praktik
 
@@ -421,7 +437,7 @@ Melindungi akun email Anda merupakan langkah penting dalam mengamankan aktivitas
 
 Baik Anda pengguna pemula maupun berpengalaman, praktik-praktik terbaik yang disajikan di sini akan membantu Anda memperkuat keamanan email Anda seraya memanfaatkan fitur-fitur canggih ProtonMail.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Mengamankan dengan 2FA
 
@@ -429,11 +445,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 Autentikasi dua faktor (2FA) merupakan langkah yang sangat penting untuk menjaga keamanan akun online Anda. Dalam tutorial ini, Anda akan mempelajari cara mengatur dan menggunakan aplikasi 2FA Authy, yang berfungsi menghasilkan kode dinamis 6 digit untuk melindungi akun Anda. Authy sangat mudah digunakan dan dapat disinkronkan di berbagai perangkat Anda. Mari temukan bagaimana cara menginstal dan mengonfigurasi Authy, sehingga Anda dapat meningkatkan keamanan akun online Anda saat ini :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Pilihan lainnya adalah menggunakan kunci keamanan fisik. Tutorial tambahan ini akan menunjukkan kepada Anda cara mengatur dan menggunakan kunci keamanan sebagai faktor autentikasi kedua :
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Membuat manajer kata sandi
 
@@ -443,11 +459,11 @@ Pengelolaan kata sandi merupakan tantangan di era digital ini. Kita semua memili
 
 Dalam tutorial ini, Anda bisa mempelajari cara mengatur Bitwarden, sebuah pengelola kata sandi sumber terbuka (open-source), dan cara menyinkronkan kredensial Anda di seluruh perangkat guna menyederhanakan penggunaan sehari-hari Anda:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Bagi pengguna yang lebih mahir, Saya juga menawarkan tutorial tentang perangkat lunak sumber terbuka gratis (open-source) lainnya untuk mengelola kata sandi Anda secara lokal:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Mengamankan Akun Anda
 
@@ -455,9 +471,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Dalam kedua tutorial ini, saya juga membimbing Anda dalam mengamankan akun daring Anda dan menjelaskan bagaimana secara bertahap mengadopsi praktik yang lebih aman untuk pengelolaan kata sandi Anda sehari-hari.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Menggunakan browser berbeda & VPN
 
@@ -467,13 +483,13 @@ Melindungi privasi daring Anda juga merupakan poin penting untuk menjamin keaman
 
 Saya menyarankan untuk mempelajari dua solusi VPN tepercaya yang menerima pembayaran Bitcoin, yaitu IVPN dan Mullvad. Tutorial-tutorial ini akan memandu Anda tentang cara menginstal, mengonfigurasi, dan menggunakan Mullvad atau IVPN di semua perangkat Anda.
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Pelajari juga cara menggunakan Tor Browser, sebuah *browser* yang dirancang khusus untuk melindungi privasi online Anda.
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## Pengaturan Cadangan
 
@@ -481,11 +497,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 Melindungi file Anda juga merupakan poin penting. Tutorial ini akan menunjukkan kepada Anda cara menerapkan strategi cadangan (backup) yang efektif menggunakan Proton Drive. Pelajari bagaimana memanfaatkan solusi cloud yang aman ini untuk mengaplikasikan metode 3-2-1: tiga salinan data Anda pada dua media berbeda, dengan satu salinan disimpan di lokasi terpisah (offsite). Hal ini memastikan aksesibilitas dan keamanan file-file penting Anda :
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Untuk mengamankan file-file yang tersimpan pada media penyimpanan *removable* seperti *flash drive USB* atau *hard drive* eksternal, saya juga akan menunjukkan kepada Anda cara melakukan enkripsi dan dekripsi media-media tersebut dengan mudah menggunakan VeraCrypt :
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Belajarlah Lebih Jauh
 
@@ -494,6 +510,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## Bagaimana Cara Bekerja di Industri Keamanan Siber
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 ### Keamanan Siber: Bidang yang Berkembang dengan Peluang Tanpa Batas
 
@@ -527,11 +545,13 @@ Evolusi ancaman yang konstan menuntut pemantauan berita dan forum spesialis seca
 
 Dengan menguasai keterampilan dan alat-alat ini, Anda akan siap sepenuhnya untuk berhasil menjelajahi dunia keamanan siber.
 
-![](assets/notext/20.webp)
+![image](assets/id/020.webp)
 
 ## Wawancara dengan Renaud
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### Manajemen Kata Sandi yang Efisien dan Penguatan Autentikasi: Pendekatan Akademis
 
@@ -541,7 +561,7 @@ Secara umum, tidak disarankan untuk menggunakan ekstensi *browser* untuk pengisi
 
 Pengelola kata sandi umumnya mendorong penggunaan faktor autentikasi tambahan, seperti autentikasi dua faktor (2FA). Untuk keamanan optimal, disarankan untuk menyimpan OTP (One-Time Passwords) di perangkat seluler Anda. AndOTP menyediakan solusi *open-source* untuk menghasilkan dan menyimpan kode OTP di perangkat seluler Anda. Meskipun Google Authenticator memungkinkan ekspor *seed code* autentikasi, kepercayaan terhadap cadangan di akun Google tetap terbatas. Oleh karena itu, aplikasi OTI dan AndOTP direkomendasikan untuk pengelolaan OTP yang mandiri.
 
-![](assets/notext/21.webp)
+![image](assets/id/021.webp)
 
 Isu warisan digital dan duka digital menyoroti pentingnya memiliki prosedur untuk mewariskan kata sandi setelah seseorang meninggal dunia. Pengelola kata sandi (password manager) memfasilitasi transisi ini dengan menyimpan semua rahasia digital di satu tempat dengan aman. Pengelola kata sandi juga memungkinkan Anda mengidentifikasi semua akun yang masih aktif dan mengelola penutupan atau pengalihannya. Disarankan untuk menuliskan kata sandi utama (master password) pada kertas, tetapi harus disimpan di lokasi yang tersembunyi dan aman. Jika *hard drive* dienkripsi dan komputer terkunci, kata sandi tersebut tidak akan dapat diakses, bahkan jika terjadi pencurian.
 

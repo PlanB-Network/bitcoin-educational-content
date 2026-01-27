@@ -6,4 +6,4 @@ wrong_answers:
   - Elle les divise temporairement pour vérification.
 explanation: |
   Les UTXOs en outputs de la transaction sont créés grâce à la consommation des UTXOs en inputs. C'est en quelque sorte la destination de l'argent.
-reviewed: false
+reviewed: true 

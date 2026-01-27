@@ -40,7 +40,7 @@ Watch-only wordt meestal gebruikt in combinatie met een Hardware Wallet. Dit maa
 ## Welke Watch-only wallet moet ik gebruiken?
 
 
-Op dit moment is de meest uitgebreide watch-only toepassing [Sentinel] (https://sentinel.watch/), ontwikkeld door de teams van Samourai Wallet. Het bevat alle essentiële functies voor een goede Watch-only wallet. Het bevat alle essentiële functies voor een goede Watch-only wallet:
+Op dit moment is de meest uitgebreide watch-only toepassing [Sentinel](https://sentinel.watch/), ontwikkeld door de teams van Samourai Wallet. Het bevat alle essentiële functies voor een goede Watch-only wallet. Het bevat alle essentiële functies voor een goede Watch-only wallet:
 
 
 
@@ -67,7 +67,7 @@ Voor iOS-gebruikers die op zoek zijn naar een alternatief voor Sentinel, zijn [G
 ### Installatie en installatie
 
 
-Begin met het installeren van de Sentinel applicatie. Dit kun je doen in de Google Play Store of met de [APK die je kunt downloaden op de officiële website] (https://sentinel.watch/download/).
+Begin met het installeren van de Sentinel applicatie. Dit kun je doen in de Google Play Store of met de [APK die je kunt downloaden op de officiële website](https://sentinel.watch/download/).
 
 
 ![watch-only](assets/notext/3.webp)
@@ -84,7 +84,7 @@ Wanneer je de applicatie voor het eerst opent, krijg je de keuze tussen:
 Dojo, ontwikkeld door het Samourai-team, is een volledige Bitcoin nodeversie die standalone kan worden geïnstalleerd of met één klik kan worden toegevoegd aan node-in-box-oplossingen zoals [Umbrel](https://umbrel.com/) en [RoninDojo](https://ronindojo.io/).
 
 
-[**-> Ontdek hoe je RoninDojo v2 installeert op een Raspberry Pi.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> Ontdek hoe je RoninDojo v2 installeert op een Raspberry Pi.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
 Als je een eigen Dojo hebt, kun je die in dit stadium aansluiten. Door dit te doen, profiteer je van het hoogste niveau van privacy bij het controleren van de transactiegegevens van je Bitcoin netwerk.

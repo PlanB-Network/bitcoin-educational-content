@@ -1,0 +1,8 @@
+question: What is the primary difference between recoverable and unrecoverable errors in Rust's error handling system?
+answer: Recoverable errors can be handled gracefully allowing programs to continue, while unrecoverable errors terminate the program
+wrong_answers:
+  - Recoverable errors use panic! macro while unrecoverable errors use Result enum for proper error management
+  - Recoverable errors occur at compile time while unrecoverable errors only happen during program runtime execution
+  - Recoverable errors require unwinding the stack while unrecoverable errors can be ignored by the calling code
+explanation: |
+  Rust categorizes errors based on whether programs can reasonably recover from them. Recoverable errors represent expected failure conditions like missing files or network issues that programs can handle gracefully using Result types, allowing execution to continue with appropriate error handling. Unrecoverable errors indicate fundamental problems like memory safety violations or logic errors where the program cannot safely continue, triggering panics that terminate execution to prevent further corruption.

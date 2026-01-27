@@ -1,7 +1,7 @@
 
 ⚠️ ***These guidelines are no longer up to date. You can find the latest guidelines in this tutorial on the platform:***
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
 ___
@@ -11,7 +11,7 @@ ___
 
 ### 1. Configure your local environment
 
-- You must have your own fork of the [Plan B Network repository on GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
+- You must have your own fork of the [Plan ₿ Academy repository on GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Sync the main branch (`dev`) of your fork with the source repository.
 - Update your local clone.
 
@@ -152,7 +152,7 @@ proofreading:
 
 For more detailed information on the process of proposing a new tutorial, you can also refer to this detailed guide, and more broadly, to all the tutorials in the "contribution" section:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 ## Content creation standards
 
@@ -175,7 +175,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 - **Compliance with the graphic charter**:
     - Use the [Rubik font](https://fonts.google.com/specimen/Rubik) for visuals.
-    - Follow Plan B Network's color codes:
+    - Follow Plan ₿ Academy's color codes:
         - Orange: `#FF5C00`
         - Black: `#000000`
         - White: `#FFFFFF`

@@ -1,0 +1,8 @@
+question: Wanneer Bitcoin blok-hashes geïnterpreteerd worden als little-endian gehele getallen voor doelvergelijking, waarom hebben geldige blokken dan meestal veel achterliggende nullen in hun hexadecimale representatie?
+answer: Omdat little-endian interpretatie betekent dat de meest rechtse bytes in hex overeenkomen met de meest significante bits van de integer waarde
+wrong_answers:
+  - Omdat het SHA-256-algoritme van nature nullen achterlaat als de invoer transactiegegevens bevat met herhaalde patronen
+  - Omdat miners de block header opzettelijk opvullen met nul bytes om de hashberekening efficiënter te maken voor ASIC hardware
+  - Omdat het nonce-veld van nul naar boven wordt verhoogd, waardoor de hashfunctie generate patronen met nullen achteraan krijgt
+explanation: |
+  Bij little-endian interpretatie worden bytes in omgekeerde volgorde gelezen, dus de meest rechtse bytes in hexadecimaal worden het meest significante deel van het gehele getal. Om een hash onder het doel (een klein getal) te krijgen, moeten de meest significante bits nul zijn, die verschijnen als achterliggende nullen in de hexadecimale weergave. Dit is puur een representatieartefact van de endianness conversie, geen eigenschap van SHA-256 of mining hardware.

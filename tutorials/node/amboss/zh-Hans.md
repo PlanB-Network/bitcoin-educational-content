@@ -1,5 +1,5 @@
 ---
-name: 安博斯
+name: Amboss
 description: 探索和分析 Lightning Network
 ---
 
@@ -11,7 +11,7 @@ Lightning Network是Bitcoin协议的Layer，其主要开发目的是通过提高
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 就像在主链上一样，让用户了解网络的信息和状态，以促进节点之间的连接，并最大限度地减少网络中普遍存在的流动性问题，已变得至关重要。事实上，与 Bitcoin 主链上的交易相比，我们建议在 Lightning Network 上进行金额相对较小的小额支付。
 
@@ -34,7 +34,7 @@ https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 在本教程中，我们将带您参观这个平台，它是 Lightning Network 用户、想要连接自己的节点以扩展网络的用户等必不可少的资源。
 
@@ -57,7 +57,7 @@ Amboss平台的目的之一是让网络中的各个节点能够相互连接和�
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 在主页上，您还可以找到根据 .NET Framework 3.0 和 .NET Framework 4.0 分类的节点：
 
@@ -147,7 +147,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 - 接收比率**：节点每收到一百万 Satoshi 将向您收取的费用，具体取决于所选的频道。
 - 比率（百万分率）**：表示当您决定通过节点的某个通道付款时，节点将向您收取的每百万单位的 Satoshi 数量。假设您决定通过一个 ppm 比率为 `500 Sats` 的通道支付 `10_000 Sats`，那么您需要向节点支付 `10_000 * 500 / 1_000_000` 个卫星，相当于 `5 Sats`。
-- HTLC](https://planb.network/resources/glossary/HTLC) 最大值** ：该节点允许您通过其中一个通道转运的最大数量。
+- HTLC](https://planb.academy/resources/glossary/htlc) 最大值** ：该节点允许您通过其中一个通道转运的最大数量。
 
 
 
@@ -304,4 +304,4 @@ Amboss 提供多种工具，帮助您优化搜索和操作。
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

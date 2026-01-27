@@ -23,7 +23,7 @@ Disse enhetene markedsføres enten som en tilleggsvarmer, som **Avalon Nano 3S (
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Vær oppmerksom på at prisforskjellen i forhold til tradisjonelle ovner med tilsvarende effekt i de aller fleste tilfeller ikke gir deg mulighet til å tjene penger. Satoshiene som genereres av Minings aktivitet vil aldri kompensere for denne prisforskjellen, med mindre du har tilgang til gratis (overskudd) eller svært billig strøm.
 
@@ -207,9 +207,9 @@ Hvis du vil ha mer informasjon om hvordan du kobler til en Mining pool, kan du s
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 For å oppsummere trenger vi
 
@@ -358,4 +358,4 @@ Hvis du vil vite mer, kan du ta en titt på veiledningen vår om den overlegne v
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

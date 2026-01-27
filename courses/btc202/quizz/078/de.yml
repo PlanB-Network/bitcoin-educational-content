@@ -1,9 +1,9 @@
 question: Welchen Zweck erfüllen die Dateien revNNNNN.dat, die neben blkNNNN.dat gespeichert sind?
-answer: Wiederherstellung des UTXO-Satzes bei der Reorganisation
+answer: Wiederherstellung des UTXO-Sets bei Reorganisation
 wrong_answers:
-  - Wiederherstellung von UTXO, das während einer Hard Fork eingestellt wurde
-  - Wiederherstellung von Mempool während Hard Fork
-  - Wiederherstellung von Mempool während einer Umstrukturierung
+  - Wiederherstellung des UTXO-Sets, während einer Hard Fork 
+  - Wiederherstellung des Mempools während Hard Fork
+  - Wiederherstellung des Mempool während einer Reorganisation
 explanation: |
-  Jede revNNNNN.dat enthält die Daten, die erforderlich sind, um die Auswirkungen eines Blocks auf den UTXO-Satz rückgängig zu machen, was die Verwaltung von Reorganisationen erleichtert.
+  Jede revNNNNN.dat enthält die Daten, die erforderlich sind, um die Auswirkungen eines Blocks auf das UTXO-Set rückgängig zu machen, was die Verwaltung von Reorganisationen erleichtert.
 reviewed: true

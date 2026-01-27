@@ -26,7 +26,7 @@ Wie scannt man ein Windows-Netzwerk schnell und einfach nach angeschlossenen Rec
 
 
 
-Dieses Tool kann von Einzelpersonen zum **Scannen ihres lokalen Netzwerks** verwendet werden, aber auch von IT-Fachleuten für den gleichen Zweck. Ein Beweis dafür, dass **dieses Tool sehr praktisch ist**, ist, dass es bereits von **einigen cyberkriminellen Gruppen** verwendet wurde, um Unternehmensnetzwerke zu scannen (auf dieselbe Weise wie Nmap). Ein gutes Beispiel ist die [Ransomware-Gruppe RansomHub] (https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Es ist immer noch ein solides Stück Software, aber wie bei anderen netzwerk- und sicherheitsorientierten Tools kann es missbraucht werden.
+Dieses Tool kann von Einzelpersonen zum **Scannen ihres lokalen Netzwerks** verwendet werden, aber auch von IT-Fachleuten für den gleichen Zweck. Ein Beweis dafür, dass **dieses Tool sehr praktisch ist**, ist, dass es bereits von **einigen cyberkriminellen Gruppen** verwendet wurde, um Unternehmensnetzwerke zu scannen (auf dieselbe Weise wie Nmap). Ein gutes Beispiel ist die [Ransomware-Gruppe RansomHub](https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Es ist immer noch ein solides Stück Software, aber wie bei anderen netzwerk- und sicherheitsorientierten Tools kann es missbraucht werden.
 
 
 
@@ -42,7 +42,7 @@ Wenn Sie weiter gehen wollen, sehen Sie sich das Tutorial zu Nmap an:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Erste Schritte mit Angry IP Scanner
 
@@ -181,4 +181,4 @@ Wenn Sie **Nmap** mit einem grafischen Interface nutzen möchten, können Sie **
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

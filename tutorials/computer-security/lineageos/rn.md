@@ -1,5 +1,5 @@
 ---
-name: UruvyaroOS
+name: LineageOS
 description: Ubuntu, uburyo bwo gukoresha Android butagira amaboko kuri telefone ngendanwa
 ---
 
@@ -724,7 +724,7 @@ LineageOS itanga uburyo bukomeye bwo gusubira kugenzura telefone yawe ngendanwa 
 
 - [Urubuga rwemewe rwa LineageOS](https://umuryango.org)
 - [UmurongoOS Wiki](https://wiki.umurongo.org) - Uburongozi bwo gushiramwo hakurikijwe urugero
-- [UmurongoOS wa microG] (https://umuryango.microg.org) - Verisiyo ifise microG yunze ubumwe
+- [UmurongoOS wa microG](https://umuryango.microg.org) - Verisiyo ifise microG yunze ubumwe
 
 
 
@@ -733,9 +733,9 @@ LineageOS itanga uburyo bukomeye bwo gusubira kugenzura telefone yawe ngendanwa 
 
 
 
-- [Uruvyaro rw'Igihugu] (Uruvyaro rw'Igihugu)
+- [Uruvyaro rw'Igihugu](Uruvyaro rw'Igihugu)
 - [Ikonti ya Mastodon @UmuryangoOS](urubuga rwa Mastodon.org/@UmuryangoOS)
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -11,7 +11,7 @@ description: Mwongozo kamili wa biashara ya LNP2PBot na P2P Bitcoin
 Mabadilishano ya bure ya KYC-kwa-rika (P2P) ni muhimu kwa kuhifadhi usiri na uhuru wa kifedha wa watumiaji. Huwezesha miamala ya moja kwa moja kati ya watu binafsi bila hitaji la uthibitishaji wa utambulisho, ambao ni muhimu kwa wale wanaothamini ufaragha. Kwa ufahamu wa kina zaidi wa dhana za kinadharia, angalia kozi ya BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Kununua na kuuza Bitcoin peer-to-peer (P2P) ni mojawapo ya mbinu za kibinafsi zaidi za kupata au kutupa bitcoins. LNP2PBot ni programu huria ya Telegram bot inayowezesha ubadilishanaji wa P2P kwenye Lightning Network, kuwezesha shughuli za haraka, za gharama nafuu, bila KYC.
 
@@ -71,7 +71,7 @@ Anza kwa kusakinisha Umeme unaoendana na Wallet. Hapa kuna mapendekezo yetu ya k
 Chini ni kiungo cha mafunzo ya Wallet hii:
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
 - [Phoenix](https://phoenix.acinq.co) :
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 Chini ni kiungo cha mafunzo ya Wallet hii:
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
 - [Blixt](https://blixtwallet.github.io) :
@@ -99,7 +99,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 Chini ni kiungo cha mafunzo ya Wallet hii:
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Maelezo muhimu kwenye pochi zingine**
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Šifrovanjem poruka pomoću drugačijeg algoritma
 explanation: |
   Brojevi sekvenci osiguravaju da poruke budu primljene u ispravnom redosledu i sprečavaju njihovo preuređivanje.
-reviewed: false
+reviewed: true

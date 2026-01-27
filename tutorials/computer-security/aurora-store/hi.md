@@ -14,7 +14,7 @@ description: एंड्रॉइड एप्लिकेशन डाउन�
 
 
 
-# ऑरोरा स्टोर के साथ शुरुआत करना
+## ऑरोरा स्टोर के साथ शुरुआत करना
 
 
 
@@ -44,13 +44,13 @@ description: एंड्रॉइड एप्लिकेशन डाउन�
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 हालाँकि, हम ऑरोरा स्टोर की प्रामाणिकता और अखंडता सुनिश्चित करने के लिए आधिकारिक वेबसाइट से सीधे एपीके फ़ाइल डाउनलोड करने की सलाह देते हैं।
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 APK (एंड्रॉइड पैकेज किट) फ़ाइल एक पैकेज फ़ॉर्मेट है जिसका इस्तेमाल एंड्रॉइड ऑपरेटिंग सिस्टम द्वारा एप्लिकेशन वितरित और इंस्टॉल करने के लिए किया जाता है। यह विंडोज़ पर **.exe** फ़ाइल या macOS पर **.dmg** फ़ाइल के बराबर है।
 
@@ -88,7 +88,7 @@ APK (एंड्रॉइड पैकेज किट) फ़ाइल एक 
 
 
 
-## विशेषताएँ
+### विशेषताएँ
 
 
 
@@ -155,4 +155,4 @@ APK (एंड्रॉइड पैकेज किट) फ़ाइल एक 
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

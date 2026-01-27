@@ -1,0 +1,10 @@
+question: What does "pool hopping" involve for a miner delegating his hash rate to a mining pool?
+answer: Disconnecting from a mining pool once a certain number of shares have been submitted in a cycle, and redirecting computing power to your own account or to another mining pool
+wrong_answers:
+  - Adopting a bandwidth-intensive communication protocol to interact with mining pool in order to reduce obsolete shares by streamlining the announcement of new blocks
+  - Carring out several fictitious transactions within the mining pool to simulate a transfer of bitcoin ownership and increase the confidentiality of the delegated miners
+  - Writing the name of the mining pool in the input field of the reward transaction of the mined block, to make the operation of mining pools more transparent
+explanation: |
+ This method was described by Raulo in February 2011, who estimated that an individual could obtain 28% more bitcoins this way. It motivated the introduction of 
+ an "anti-cheating" score within the Slush cooperative.
+reviewed: true

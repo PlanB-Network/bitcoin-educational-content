@@ -1,9 +1,9 @@
-question: How should a business choose a Bitcoin payment solution that fits its needs?
-answer: By considering factors like transaction frequency, average payment size, and whether it’s online or in-person, and then selecting a solution tailored to that category.
+question: Doanh nghiệp nên chọn giải pháp thanh toán Bitcoin nào phù hợp với nhu cầu của mình?
+answer: Bằng cách xem xét các yếu tố như tần suất giao dịch, quy mô thanh toán trung bình và hình thức thanh toán là trực tuyến hay trực tiếp, sau đó lựa chọn giải pháp phù hợp với danh mục đó.
 wrong_answers:
-  - By always choosing the simplest solution, regardless of transaction volume or complexity.
-  - By only using the largest and most expensive solution available, irrespective of business size.
-  - By relying solely on guesswork without considering the business’s specific requirements.
+  - Bằng cách luôn lựa chọn giải pháp đơn giản nhất, bất kể khối lượng giao dịch hay mức độ phức tạp.
+  - Bằng cách chỉ sử dụng giải pháp lớn nhất và đắt nhất hiện có, bất kể quy mô doanh nghiệp.
+  - Bằng cách chỉ dựa vào phỏng đoán mà không xem xét đến các yêu cầu cụ thể của doanh nghiệp.
 explanation: |
-  Different businesses have different needs. Evaluating factors such as transaction volume, payment methods (online vs. physical), and scalability helps a company pick the right Bitcoin payment solution.
-reviewed: false
+  Mỗi doanh nghiệp có nhu cầu khác nhau. Việc đánh giá các yếu tố như khối lượng giao dịch, phương thức thanh toán (trực tuyến so với trực tiếp) và khả năng mở rộng sẽ giúp công ty lựa chọn giải pháp thanh toán Bitcoin phù hợp.
+reviewed: true

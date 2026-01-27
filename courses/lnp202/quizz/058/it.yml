@@ -1,0 +1,9 @@
+question: Nel protocollo NWC, quale meccanismo viene utilizzato per trasportare la richiesta tra l'applicazione e il nodo?
+answer: Eventi su relay Nostr
+wrong_answers:
+  - Chiamate REST dirette a LND
+  - Connessione VPN punto-punto
+  - Richieste DNS criptate
+explanation: |
+  La richiesta viene criptata e quindi pubblicata come evento su un relay Nostr, che il nodo legge per eseguire l'azione.
+reviewed: false

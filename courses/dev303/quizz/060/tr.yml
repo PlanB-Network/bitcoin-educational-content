@@ -1,0 +1,8 @@
+question: Rust'da özel bir fonksiyon benzeri makro geliştirirken, kalıp eşleştirmede `expr`, `ty` ve `ident` gibi parça belirticileri kullanmanın birincil amacı nedir?
+answer: Ne tür kod öğelerinin eşleştirilebileceğini tanımlamak ve sözdizimsel olarak geçerli girdi sağlamak için
+wrong_answers:
+  - Oluşturulan kodun dönüş türünü belirtmek ve derleme performansını optimize etmek için
+  - Makro dallarının yürütme sırasını belirlemek ve çalışma zamanı tür denetimini ele almak için
+  - Bellek ayırma modellerini kontrol etmek ve genişletilmiş kodda değişken kapsamlama kurallarını tanımlamak için
+explanation: |
+  Makro kalıplarındaki parça belirticileri, makro genişletme sırasında girdi belirteçlerinin sözdizimini doğrulayan tür kısıtlamaları olarak işlev görür. Makronun doğru türde kod öğesi (ifade, tür, tanımlayıcı, vb.) almasını sağlarlar ve geçersiz sözdizimiyle karşılaşıldığında açık hata mesajları verirler. Bu, çalışma zamanı yürütme sırasında değil, kalıp eşleştirme sırasında derleme zamanında gerçekleşir ve oluşturulan kodun bellek tahsisini, yürütme sırasını veya dönüş türlerini doğrudan kontrol etmezler.

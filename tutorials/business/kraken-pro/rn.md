@@ -14,7 +14,7 @@ Muri iyi nyigisho, tuzovuga ingene umuntu yokora konti y’ubudandaji ya Kraken,
 Niba ukunda ivyigwa vyo kwinjiza Bitcoin mu bucuruzi bwawe, ndagusavye kandi kumenya inyigisho yacu yuzuye y’ivyigwa ku bijanye n’ico ciyumviro:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Gukora konti y'ishirahamwe rya Kraken
 
@@ -115,7 +115,7 @@ Mu mahitamwo ya 2FA, ushobora guhitamwo gukoresha urufunguzo rw’umutekano w’
 Ushaka kumenya vyinshi ku buryo bwo gukoresha ubwo bwoko bw'igikoresho, raba inyigisho yacu yihariye:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Ubundi buryo ni ugukoresha porogaramu yo kwemeza ko umuntu ari uwuriho nka Google Authenticator canke Authy. Izo porogaramu generate ni kode y’imirongo 6 uzokenera kwinjira igihe cose winjiye.
 
@@ -132,7 +132,7 @@ Kugira ngo ukoreshe ubwo buryo, scanner kode ya QR ukoresheje porogarama uhisemw
 Kubindi bisobanuro ku bikorwa vyo kwemeza, ushobora kandi kuraba iyi nyigisho:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Munsi, urashobora kandi gushika ku mirongo iteye imbere, harimwo ubushobozi bwo gushinga 2FA zitandukanye. Kraken itanga intumwa z’umutekano ziteye imbere biciye ku 2FA. Ivyo bigufasha gukora ingero zitandukanye za 2FA ku bikorwa bitandukanye, nk’ukwinjira, kwemeza amategeko no gukura amahera. Ivyo bituma nk’akarorero, umuntu ashobora guha umucungezi w’amakonte uburenganzira bwo gukora ibikorwa bimwebimwe ataco amurekuriye gukura amahera. Akira amahitamwo:
 
@@ -320,4 +320,4 @@ Bivanye n’intumbero n’imiterere y’ishirahamwe ryawe, ikoreshwa rya Kraken 
 Kugira ngo ubone neza iki ciyumviro, ndagusavye ko wogira iyi nyigisho yuzuye ku bijanye no gushiramwo Bitcoin mu bucuruzi, ivuga mu buryo burambuye kwongera ku bijanye n’amahera, kwemera kwishura Bitcoin, n’ugucungera amafaranga:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

@@ -1,9 +1,8 @@
-question: Ni umuti woroshe uwuhe wo kurinda amakuru yawe ibitero vy’incungu?
-answer: Uhora ubika amakuru yawe ahambaye ku gikoresho co hanze canke ku kibanza co kubika amakuru co kuri Internet gitekanye.
+question: Ni umuti uwuhe woroshe wo gukingira amakuru yawe ibitero vy’incungu?
+answer: Uhore ukora ububiko bw' inyongera bw'amakuru yawe yakamaro kugikoresho cokubika amakuri kindi canke ku gikoresho co kubika amakuru co kuri interineti kirinzwe.
 wrong_answers:
-  - Shiraho porogaramu nyinshi zikingira virusi kuri mudasobwa yawe maze ukore ama scans rimwe na rimwe.
-  - Uhora uhindura mudasobwa yawe canke wongere uyishiremwo ubuhinga bwawe bwo gukoresha (OS).
-  - Ushobora gukoresha urubuga rwa Wi-Fi rwa bose nimba ataco wihisha ku gikoresho cawe.
+  - Shiraho porogaramu nyinshi zikingira umugera(nyabwonko) ku nyabwonko yawe maze ukore irondera rimwe na rimwe.
+  - Uhora uhindura inyabwonko yawe canke wongere uyishiremwo sisisteme (OS).
+  - Ushobora gukoresha umuhora wa Wi-Fi wa rusange nimba ataco wihisha ku gikoresho cawe.
 explanation: |
-  Gukora backup y’amakuru yawe ubudasiba biratuma ushobora gusubirana amakuru yawe iyo habaye igitero co kuri Internet canke iyo hadware ipfuye ata makuru ahambaye utakaje.
-reviewed: true
+  Gukora ububiko bwinyongera bw’amakuru yawe misi yose biratuma ushobora gusubirana amakuru yawe igihe habaye igitero co kuri interineti canke igikoresho cawe kigapfa, urashobora kugarukana amakuru yawe ata makuru ahambaye utakaje.

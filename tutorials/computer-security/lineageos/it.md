@@ -380,4 +380,6 @@ LineageOS offre un'alternativa matura per riprendere il controllo del tuo smartp
 - [Subreddit r/LineageOS](https://reddit.com/r/LineageOS)
 - [Account Mastodon @LineageOS](https://fosstodon.org/@LineageOS)
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+
+
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

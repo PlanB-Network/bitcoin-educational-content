@@ -1,5 +1,5 @@
 ---
-name: Zeus Takası
+name: Zeus Swap
 description: On-Chain ve Lightning Network bitcoinleri arasında gözetim dışı Exchange hizmeti
 ---
 
@@ -51,7 +51,7 @@ Lightning Network'in nasıl çalıştığına dair daha fazla ayrıntı için ö
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### İş modeli
 
@@ -149,7 +149,7 @@ Bu eksiksiz Wallet hakkında daha fazla bilgi edinmek için Zeus eğitimimize ba
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Web yapılandırması
 
@@ -390,12 +390,13 @@ Bu ultra basitleştirilmiş yaklaşım yeni başlayanlar için mükemmeldir, anc
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| Hizmet | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Minimum tutar |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + madenci ücretleri | 0.5% + madenci ücretleri | 25.000 sats |
+| **Boltz** | 0.2% + madenci ücretleri | 0.5% + madenci ücretleri | 50.000 sats |
+| **Phoenix** | Sadece madenci ücretleri | %0,4 sabit | 10.000 sats |
+| **Breez** | 0.25% + ağ ücretleri | 0.5% + madenci ücretleri | 50.000 sats |
 
 Zeus Swap kullanım kolaylığı ve teknik kontrol arasında bir denge sunar: Boltz'dan daha erişilebilir, Phoenix/Breez'den daha esnek, katı ve gözetimci olmayan bir yaklaşım.
 

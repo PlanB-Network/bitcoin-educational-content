@@ -46,7 +46,7 @@ description: Повысьте уровень безопасности в Инт�
 
 
 
-Чтобы установить приложение, откройте программу [Ledger Live] (https://www.Ledger.com/Ledger-live), затем перейдите на вкладку "*Мой Ledger*". Найдите приложение "*Ключ безопасности*" и установите его на свое устройство.
+Чтобы установить приложение, откройте программу [Ledger Live](https://www.Ledger.com/Ledger-live), затем перейдите на вкладку "*Мой Ledger*". Найдите приложение "*Ключ безопасности*" и установите его на свое устройство.
 
 
 
@@ -180,4 +180,4 @@ description: Повысьте уровень безопасности в Инт�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

@@ -1,0 +1,8 @@
+question: What mechanism does Rust use to automatically clean up variables and their resources when they go out of scope?
+answer: The drop mechanism that calls drop functions on variables
+wrong_answers:
+  - A garbage collector that periodically scans for unused memory
+  - Manual memory deallocation through explicit free() function calls
+  - Reference counting that tracks how many pointers reference each value
+explanation: |
+  Rust uses the drop mechanism to automatically clean up resources when variables go out of scope. This system implicitly calls a drop function on each variable as it goes out of scope, marking memory as available for reuse and performing any necessary cleanup operations like closing file handles. This approach, borrowed from C++'s RAII pattern, ensures automatic resource management without requiring garbage collection, manual memory management, or reference counting systems used by other languages.

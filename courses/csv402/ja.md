@@ -1,13 +1,11 @@
 ---
-name: RGBプロトコル、理論から実践へ
+name: RGBプログラミング
 goal: RGBを理解し使用するために必要なスキルを身につける
-objectives: 
-
-  - RGBプロトコルの基本概念を理解する
-  - クライアントサイドの検証とビットコインのコミットメントの原則をマスターする。
-  - RGBコントラクトの作成、管理、移管方法を学ぶ
-  - RGB対応Lightningノードの操作方法
-
+objectives:
+- RGBプロトコルの基本概念を理解する
+- クライアントサイドの検証とビットコインのコミットメントの原則をマスターする。
+- RGBコントラクトの作成、管理、移管方法を学ぶ
+- RGB対応Lightningノードの操作方法
 ---
 # RGBプロトコルの発見
 
@@ -45,7 +43,7 @@ objectives:
 ---
 このトレーニングコースは、もともと[Fulgur'Ventures](https://fulgur.ventures/)が主催した、トスカーナ州ヴィアレッジョでの2週間の上級開発ブートキャンプから発展したものです。RustとSDKに焦点を当てた最初の週は、この他のコースにあります：
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 このコースでは、ブートキャンプの2週目、RGBに焦点を当てる。
 
@@ -347,11 +345,11 @@ RGBトークンの二重使用を防ぐため、私たちは「**シングルユ
 そのプロセスは次のようにまとめられる：
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -1826,7 +1824,7 @@ ETP（*Extra Transaction Proof*）は、**Tapret** *コミットメント*（_ta
 
 ライトニングがどのように機能するかについては、この他のコースを受講されることをお勧めする：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### マルチ・プロトコル・コミットメント - MPC
 
@@ -3035,8 +3033,8 @@ examples`フォルダにRustのサンプルがあり、`ContractBuilder`を構�
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3080,7 +3078,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-次のコマンドは、グローバルな状態(名前、ティッカー、供給量...)と所有状態のリスト、つまり割り当て(例えば、UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` で定義された100万 `PBN` トークン)を表示します。
+次のコマンドは、グローバルな状態(名前、ティッカー、供給量...)と所有状態のリスト、つまり割り当て(例えば、UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` で定義された100万 `Plan ₿ Academy` トークン)を表示します。
 
 ```bash
 rgb state '<ContractId>'
@@ -3174,7 +3172,7 @@ rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-..
 この請求書から移行するには ：
 
 
-- トークンを隠し持つ）Bobはビットコインウォレットを持っている。彼は、必要なRGBトークンがあるUTXOと通貨（交換）用の1つのUTXOを消費するビットコイン取引（PSBTの形式、例えば`tx.psbt`）を準備する必要がある；
+- Bob（トークンを自身のstashに保有している）はビットコインウォレットを持っている。必要なRGBトークンが存在するUTXOを消費し、さらにお釣り用のUTXOを含むビットコイントランザクション（PSBT形式、例：`tx.psbt`）を準備する必要がある；
 - ボブは次のコマンドを実行する：
 
 ```bash
@@ -3263,7 +3261,7 @@ RGB状態遷移は、資金調達の2/2マルチシグからコミットメン�
 
 したがって、Lightning上のRGBの動作は、Lightningネットワーク自体の動作と並行して考える必要があります。このテーマをより深く掘り下げたい場合は、この他の包括的なトレーニングコースをご覧になることを強くお勧めする：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGBコードマップ
 
@@ -3760,7 +3758,7 @@ http://localhost:3001/createutxos
 ./regtest.sh mine 1
 ```
 
-これで RGB アセットを作成できます。コマンドは作成したいアセットの種類とパラメータによって異なります。ここでは、"PBN" という名前の NIA (*Non Inflatable Asset*) トークンを 1000 ユニットで作成しています。precision`でユニットの分割率を指定します。
+これで RGB アセットを作成できます。コマンドは作成したいアセットの種類とパラメータによって異なります。ここでは、"Plan ₿ Academy" という名前の NIA (*Non Inflatable Asset*) トークンを 1000 ユニットで作成しています。precision`でユニットの分割率を指定します。
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3768,8 +3766,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3805,7 +3803,7 @@ curl -X 'GET' \
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-次に、関連するアセット（`PBN`）を指定してチャンネルを開きます。openchannel` コマンドでは、チャンネルのサイズを satoshis で定義し、RGB アセットを含めるかどうかを選択できます。何を作成したいかによりますが、私の場合、コマンドは ：
+次に、関連するアセット（`Plan ₿ Academy`）を指定してチャンネルを開きます。openchannel` コマンドでは、チャンネルのサイズを satoshis で定義し、RGB アセットを含めるかどうかを選択できます。何を作成したいかによりますが、私の場合、コマンドは ：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3844,7 +3842,7 @@ http://localhost:3001/openchannel
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Lightning チャネルはオープンされ、ノード n°1 側には 500 の `PBN` トークンがある。ノード n°2 が `PBN` トークンを受け取りたい場合は、インボイスを生成しなければならない。その方法は以下の通りです：
+Lightning チャネルはオープンされ、ノード n°1 側には 500 の `Plan ₿ Academy` トークンがある。ノード n°2 が `Plan ₿ Academy` トークンを受け取りたい場合は、インボイスを生成しなければならない。その方法は以下の通りです：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3873,7 +3871,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-PBN`トークンで必要な現金を保持している最初のノードから、この請求書を支払うことにする：
+Plan ₿ Academy`トークンで必要な現金を保持している最初のノードから、この請求書を支払うことにする：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

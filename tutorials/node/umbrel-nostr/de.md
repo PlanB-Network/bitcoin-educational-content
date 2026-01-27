@@ -19,7 +19,7 @@ Vergewissern Sie sich, dass Sie Umbrel installiert haben, indem Sie unserer Inst
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Einführung in Nostr
 
@@ -137,7 +137,7 @@ Auf dieser Seite fügen Sie die URL Ihres Umbrel-Relais ein, die Sie zuvor kopie
 
 
 
-**Verbindung:** noStrudel bietet Ihnen mehrere Verbindungsoptionen an. In unserem Fall wählen wir "Privater Schlüssel" und fügen Ihren zuvor generierten privaten Nostr-Schlüssel ein. Wenn Sie noch keinen Schlüssel haben, können Sie die Erweiterung [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) installieren, um Ihre Nostr-Schlüssel zu erstellen und/oder zu speichern und so sicherer mit den verschiedenen Nostr-Anwendungen zu kommunizieren.
+**Verbindung:** noStrudel bietet Ihnen mehrere Verbindungsoptionen an. In unserem Fall wählen wir "Privater Schlüssel" und fügen Ihren zuvor generierten privaten Nostr-Schlüssel ein. Wenn Sie noch keinen Schlüssel haben, können Sie die Erweiterung [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) installieren, um Ihre Nostr-Schlüssel zu erstellen und/oder zu speichern und so sicherer mit den verschiedenen Nostr-Anwendungen zu kommunizieren.
 
 
 
@@ -306,7 +306,7 @@ Wenn du wissen willst, wie du deinen eigenen Lightning-Knoten auf Umbrel einrich
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Erweiterte Konfiguration und Sicherheit
 

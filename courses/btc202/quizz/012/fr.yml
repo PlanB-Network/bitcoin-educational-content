@@ -6,4 +6,4 @@ wrong_answers:
   - Stocker les clés privées des portefeuilles
 explanation: |
   Un mineur sélectionne les transactions dans la mempool et construit un bloc candidat qu’il tente de valider par preuve de travail.
-reviewed: false
+reviewed: true 

@@ -1,0 +1,8 @@
+question: Wakati hashes za Bitcoin zinatafsiriwa kama nambari kamili za endian kwa ulinganisho lengwa, kwa nini vizuizi halali kwa kawaida huonyesha sufuri nyingi zinazofuata katika uwakilishi wao wa heksadesimali?
+answer: Kwa sababu tafsiri ya little-endian inamaanisha baiti sahihi zaidi katika heksaidi zinalingana na biti muhimu zaidi za thamani kamili
+wrong_answers:
+  - Kwa sababu algoriti ya SHA-256 hutoa sufuri zinazofuata wakati ingizo lina data ya miamala yenye ruwaza zinazorudiwa
+  - Kwa sababu wachimbaji hufunika kichwa cha vitalu kwa makusudi baiti sifuri ili kufanya hesabu ya hashi iwe na ufanisi zaidi kwa vifaa vya ASIC.
+  - Kwa sababu sehemu ya nonce imeongezwa kutoka sifuri kwenda juu, na kusababisha kitendakazi cha hashi kuwa ruwaza za generate zenye sifuri zinazofuata.
+explanation: |
+  Katika tafsiri ya little-endian, baiti husomwa kwa mpangilio wa kinyume, kwa hivyo baiti za kulia zaidi katika heksadesimali huwa sehemu muhimu zaidi ya nambari kamili. Ili hashi iwe chini ya lengo (nambari ndogo), biti zake muhimu zaidi lazima ziwe sifuri, ambazo huonekana kama sifuri zinazofuata kwenye onyesho la heksadi. Huu ni uwakilishi tu wa kisanii cha ubadilishaji wa endianness, sio sifa ya maunzi ya SHA-256 au mining.

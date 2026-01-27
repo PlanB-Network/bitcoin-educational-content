@@ -27,7 +27,7 @@ Kugira ngo ushireho Umbrel kandi utunganye urudodo rwawe rwa Bitcoin, turagusavy
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Raba neza ko urudodo rwawe rwa Bitcoin ruri ku gihe kandi rukora neza, kuko Lightning Network ari rwo ruyizigira ku bikorwa vyose vya off-chain.
 
@@ -57,7 +57,7 @@ Kugira ngo ubone intangamarara yuzuye y'inyigisho za Lightning Network, turagusa
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Iryo shure rizoguha ubumenyi bushitse ku vyiyumviro nyamukuru vya Lightning Network, imbere y’uko ugenda wimenyereza n’urudodo rwawe rwa LND.
 
@@ -221,7 +221,7 @@ LND imaze gukora, urashobora gufungura umurongo wawe wa mbere wa Lightning. Kugi
 
 
 
-Nk’akarorero, [urudodo rwa ACINQ] (urudodo rwa ACINQ) ni urudodo rwemewe rw’imibare n’ubushobozi bwo gukoresha amahera.
+Nk’akarorero, [urudodo rwa ACINQ](urudodo rwa ACINQ) ni urudodo rwemewe rw’imibare n’ubushobozi bwo gukoresha amahera.
 
 
 
@@ -455,7 +455,7 @@ Ivyo bihitamwo si ngombwa, kandi umuti wa Tor + Zeus urakora neza kenshi.
 
 > **Ibikoresho vy'ingirakamaro:**
 > - [Inyandiko za Zewu - Ihuza ry'umutaka](https://umuryango.umutaka.com/t/zeus-LN-mobile/7619) - Inyobora yemewe yo guhuza Zewu n'umutaka
-> - [Zewu GitHub] (Zewu LN/Zewu) - Umugambi wa Zewu w'inkomoko yuguruye
+> - [Zewu GitHub](Zewu LN/Zewu) - Umugambi wa Zewu w'inkomoko yuguruye
 > - [Umuryango w'Umutaka - Guhuza Zewu biciye ku Murizo](https://umuryango.umutaka.com/t/ingene-wokoresha-umurizo-n'umutaka/6782) - Inyobora yo guhuza Zewu n'Umutaka ukoresheje Umurizo
 
 ## 5. Umutekano n’ingene wobikora neza
@@ -613,7 +613,7 @@ Kugira ngo umenye vyinshi ku bijanye no gutunganya no gukoresha iminara y'ibarab
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Ibindi bikorwa vyiza
 
 
@@ -709,7 +709,7 @@ Ivyo bikoresho birashobora gushirwa mu gukanda guke gusa biciye ku Umbrel App St
 
 - [Inkuba.io - Ibiranga](https://inkuba.io) - Incamake y'ibiranga ThunderHub
 - [Amakuru y'ugutwara umuravyo (RTL)](https://www.amakuru y'ugutwara umuravyo/) - Inyandiko za RTL
-- [Dawidi Kaspar - Gusubira gufatanya biciye ku rubuga rwa ThunderHub] (https://blog.davidkaspar.com) - Inyobora ngirakamaro yo gusubira gufatanya
+- [Dawidi Kaspar - Gusubira gufatanya biciye ku rubuga rwa ThunderHub](https://blog.davidkaspar.com) - Inyobora ngirakamaro yo gusubira gufatanya
 - [Inyigisho "Gucungera Ivyuma vy'Imiravyo"](https://github.com/openoms/ugucungera Ivyuma vy'Imiravyo) - Inyandiko ziteye imbere ku bakoresha ububasha
 
 

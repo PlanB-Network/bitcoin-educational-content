@@ -1,0 +1,8 @@
+question: Hạn chế cơ bản nào của mô hình UTXO đòi hỏi cách xử lý cụ thể khi sử dụng Bitcoin?
+answer: UTXO phải được sử dụng hết hoàn toàn và không thể sử dụng một phần.
+wrong_answers:
+  - UTXO chỉ có thể được sử dụng một lần cho mỗi khối để tránh chi tiêu hai lần.
+  - Các UTXO phải được sử dụng theo thứ tự thời gian dựa trên thời điểm tạo ra chúng.
+  - Giao dịch UTXO yêu cầu nhiều chữ ký từ các khóa khác nhau để được coi là hợp lệ.
+explanation: |
+  Mô hình UTXO có một ràng buộc cơ bản là các đầu ra giao dịch chưa được sử dụng phải được tiêu thụ toàn bộ - không có cơ chế nào cho việc chi tiêu một phần. Khi bạn cần chi tiêu ít hơn toàn bộ số tiền UTXO, bạn phải tạo một giao dịch chi tiêu toàn bộ UTXO và bao gồm một đầu ra tiền thừa trả lại cho chính bạn phần còn lại. Các tùy chọn khác mô tả các hạn chế không tồn tại: UTXO có thể được chi tiêu nhiều lần trong mỗi khối (các UTXO khác nhau), không yêu cầu thứ tự thời gian và thường chỉ cần một chữ ký hợp lệ trừ khi được thiết kế đặc biệt là đa chữ ký.

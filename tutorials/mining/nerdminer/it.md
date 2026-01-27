@@ -26,11 +26,11 @@ Puoi anche acquistare un kit NerdMiner già pre-assemblato da diversi rivenditor
 
 Inizialmente, vedremo come flashare il software sull'ESP-32 S3, poi vedremo come riavviarlo per cambiare rete wifi. Questi passaggi sono destinati agli utenti Windows, se stai utilizzando un sistema operativo Linux, esegui le [preliminary steps](#preliminary-steps-for-linux-users) per consentire al tuo sistema di riconoscere l'ESP-32 S3.
 
-# Installazione del software NerdMiner_v2
+## Installazione del software NerdMiner_v2
 
 L'installazione del software è notevolmente semplificata grazie all'uso del webflasher.
 
-## Passaggio 1: Preparazione del webflasher
+### Passaggio 1: Preparazione del webflasher
 
 Innanzitutto, devi accedere al [flasher NM2 online](https://bitmaker-hub.github.io/diyflasher/).
 
@@ -40,7 +40,7 @@ Quindi seleziona il firmware corrispondente al tuo ESP-32. Nella maggior parte d
 
 ![](assets/webflasher.webp)
 
-## Passo 2: Collegamento dell'ESP-32
+### Passo 2: Collegamento dell'ESP-32
 
 Una volta avviato il webflasher, si aprirà una finestra popup che mostra le diverse porte USB riconosciute dal browser.
 A questo punto, puoi collegare il tuo ESP-32 e verrà visualizzata una nuova porta (in questo caso, è la porta ttyACM0). Devi quindi selezionarla e fare clic su "connect".
@@ -51,7 +51,7 @@ Il software verrà quindi scaricato sul tuo ESP32 in pochi secondi.
 
 ![](assets/NM2-sucessfully-installed.webp)
 
-## Passo 3: Configurazione del NerdMiner
+### Passo 3: Configurazione del NerdMiner
 
 La configurazione del tuo NerdMiner verrà effettuata tramite uno smartphone o un computer.
 Attiva il WiFi e connettiti alla rete locale NerdMinerAP. Se stai utilizzando uno smartphone, verrà aperto automaticamente il portale di configurazione, altrimenti digita l'indirizzo 192.168.4.1 nel browser.
@@ -78,7 +78,7 @@ Ora puoi fare clic su "save".
 
 Congratulazioni, ora fai parte della rete di mining di Bitcoin!
 
-## Utilizzo del NerdMiner
+### Utilizzo del NerdMiner
 
 Il software NerdMinerv2 ha 3 schermate diverse, alle quali puoi accedere facendo clic sul pulsante in alto a destra dello schermo:
 
@@ -91,7 +91,7 @@ Se desideri riavviare il tuo NerdMiner, ad esempio per cambiare la rete WiFi, de
 
 Se premi una volta il pulsante inferiore, spegni il tuo NerdMiner. Premere due volte permette di invertire l'orientamento dello schermo.
 
-### Passaggi preliminari per gli utenti Linux
+#### Passaggi preliminari per gli utenti Linux
 
 Ecco i passaggi affinché Chrome possa rilevare la tua porta seriale su Linux.
 
@@ -112,13 +112,13 @@ Ecco i passaggi affinché Chrome possa rilevare la tua porta seriale su Linux.
 
 Ora che il tuo ESP-32 è riconosciuto dal sistema, puoi tornare al [primo passaggio](#etape-1-preparation-du-webflasher) per l'installazione del software.
 
-## Conclusioni
+### Conclusioni
 
 Ecco fatto! Il tuo NerdMiner_v2 è ora configurato e pronto per l'uso.
 
 Buon mining e che la fortuna sia con te!
 
-### Stima della probabilità di vincita
+#### Stima della probabilità di vincita
 
 Divertiamoci a stimare la probabilità di vincere una ricompensa di blocco. Questa stima sarà approssimativa e mira solo a ottenere l'ordine di grandezza della probabilità.
 Le pool a cui un NerdMiner può connettersi sono solo "pool di mining individuale", il che significa che la pool non mutualizza la potenza di hash di tutti i minatori connessi, ma agisce semplicemente come coordinatore.
@@ -126,7 +126,7 @@ Supponiamo ora che il nostro NerdMiner abbia una potenza di hash di circa 45kH/s
 
 Sapendo che la potenza di hash totale è di circa 450 EH/s (o 4.5 x 10^20 hash al secondo), possiamo considerare che la probabilità di trovare il prossimo blocco sia di 1 su 100 milioni di miliardi, il che è molto molto molto improbabile che accada. Quindi, oltre ad essere uno strumento educativo e oggetto di curiosità, un NerdMiner può fungere da biglietto della lotteria nel mining di bitcoin a un costo elettrico marginale di 0,5 W - anche se, come abbiamo appena visto, la probabilità di vincita è ridicolmente bassa. Eppure, perché non sfidare la fortuna?
 
-### Informazioni aggiuntive
+#### Informazioni aggiuntive
 
 Ecco alcuni link se desideri approfondire l'argomento:
 

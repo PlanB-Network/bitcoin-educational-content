@@ -1,0 +1,8 @@
+question: Mitä kriittistä strategista etua Liquid:n lainsäädännöllinen asema tarjoaa verrattuna muihin tokenisointialustoihin, kuten Ethereumiin tai Solanaan?
+answer: Liquid välttää rekisteröimättömiä arvopapeririskejä käyttämällä Bitcoin:tä (L-BTC) alkuperäisenä omaisuutena ilman mining:n esittelyä tai ICO:ta
+wrong_answers:
+  - Liquid toimii erityisen sääntelyn alaisuudessa, joka vapauttaa sen arvopaperilainsäädännöstä useimmilla lainkäyttöalueilla
+  - "Liquid:n federaatiomalli luokittelee automaattisesti kaikki liikkeeseen lasketut tokenit säännellyiksi arvopapereiksi nykyisten puitteiden mukaisesti"
+  - Liquid on saanut yleisluonteisen viranomaishyväksynnän tärkeimmiltä rahoitusviranomaisilta kaikille sen alustalla oleville tokenisoidulle omaisuudelle
+explanation: |
+  Liquid:n strateginen sääntelyetu perustuu sen tekniseen rakenteeseen eikä niinkään erityisiin poikkeuksiin tai hyväksyntöihin. Käyttämällä Bitcoin:ää natiivina omaisuuseränä (L-BTC) ilman mining:ää edeltäviä tokeneita tai ICO:ta Liquid välttää monia muita lohkoketjualustoja uhkaavan "rekisteröimättömän arvopaperin" luokituksen. Tämä on ratkaisevan tärkeää, koska SEC:n kaltaiset sääntelyviranomaiset ovat yhä tarkemmin tutkineet lohkoketjuprojekteja, jotka ovat luoneet ja myyneet omia tokeneitaan, ja mahdollisesti luokitelleet ne rekisteröimättömiksi arvopapereiksi. Väärissä vastauksissa annetaan virheellisesti ymmärtää, että Liquid:lla on erityisiä sääntelylupia tai automaattisia vaatimustenmukaisuusominaisuuksia, vaikka todellisuudessa sen etuna on se, että se välttää ongelmallisen token-talouden kokonaan.

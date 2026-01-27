@@ -1,21 +1,18 @@
 ---
-name: Sissejuhatus Austria majandusteadusesse
-goal: Avastage Austria majandusmõttekool. Uurige nende vaateid ühiskonnale ja makro/mikro-majanduslikele reaalsustele.
+name: Austria majandusteaduse koolkonna alused
+goal: Avasta Austria majanduskool kui alternatiivne raamistik turgude ja individuaalse otsustamise analüüsimiseks
 objectives:
-  - Alternatiiv Keynesianismile
-  - Kõva valuuta tähtsus
-  - Miks ja kuidas luuakse meie majandustsüklid?
-  - Miks on keskpankurid hulluks läinud?
+- Analüüsida raha, krediidi ja keskpangandussüsteemide funktsioone
+- Rakendada subjektiivse väärtuse teooriat ja ajaeelistust turutäitumisele
+- Mõista Austria majandustsükli teooriat ja selle põhjuseid
+- Võrrelda Austria metodoloogiat peamiste majanduslike lähenemistega
 ---
+# Teekond Austria majanduskooli juurde
 
-# Teekond majandusteadusesse
+Kas oled kunagi mõelnud, miks mõned majandusteadlased mõtlevad turgudest, vabadusest ja inimkäitumisest teisiti? Austria majanduskool pakub värskendavat perspektiivi, mis asetab sind majanduslikku mõtlemise keskpunkti. Selle asemel, et kasutada keerulist matemaatikat ja abstraktseid mudeleid, keskendub see lähenemine loogikale, inimeste valikutele ja sellele, kuidas päris inimesed teevad igapäevaelus otsuseid. See on majandus vabaduse, ratsionaalsuse ja isikliku tegutsemise prisma läbi.
 
-Tere tulemast Théo Mogeneti kursusele! Majanduse, ajaloo, kirjanduse, politoloogia ja tehnoloogia vastu kirglik olles on ta otsustanud jagada teiega oma teadmisi Austria majandusest. See majandusteaduse haru, mis on vähem tuntud, põhineb inimlikul ratsionaalsusel ja vabade tegutsejate käitumisel. Matemaatikas vähem intensiivne, on see eelkõige loogika ja sotsiaaluuringute küsimus.
-
-Sellel mõttekoolil on juba mitu sajandit selja taga ja sellel on terve autorite, mõtete ja majandusteadlaste panoraam. Majanduse suured nimed nagu Hayek, Rothbard, Mises, Bastiat või Menger on seda liikumist kaua kaitsnud. Erinevalt meie päeva kõikjalolevast Keynesianismist seab Austria kool üksikisiku võrrandi keskmesse, pakkudes liberaalsemat, kapitalistlikumat ja isegi anarhistlikumat lähenemist.
-
+See mõttekool on kujundanud arutelusid juba sajandeid, tänu mõjukatele mõtlejatele nagu Hayek, Mises ja Bastiat. Kuigi tänapäeva poliitilistes aruteludes domineerib peamiselt Keynesi majandusõpetus, esitab Austria traditsioon erinevaid küsimusi: Mis juhtub, kui eelistame individuaalset vabadust? Kuidas vabad turud tegelikult toimivad, kui inimestel on vabadus valida? Kui oled uudishimulik alternatiivsete viiside suhtes mõelda turgudest, ühiskonnast ja vabadusest, on see sinu võimalus uurida ideid, mida standardõpikutest ei leia.
 +++
-
 # Sissejuhatus
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
@@ -495,9 +492,8 @@ Sellise vale jaotuse tagajärjed hõlmavad finants- ja majanduskriise, majandust
 
 Tänapäeval kerkib majandusarvestuse debatt esile peamiselt energiaküsimustes, kus roheagendast ajendatud valeinvesteeringud muutuvad üha ilmsemaks. Samuti tõstatub see rahaturgude aruteludes, kus Austria majandusteadlased osutavad, et 2008. aasta kriis, mida peavoolu majandusteadlased ei suutnud ennustada, oli klassikaline buumi ja languse tsükkel, mida iseloomustas üleinvesteering eluasemeturule pikaajaliste madalate intressimäärade tõttu. Lisaks levitavad neo-marksistid ja teised sotsialistlikud fraktsioonid arvamust, et tehisintellekti tekkimine võiks lahendada majandusarvestuse probleemi. Siiski põhineb see vaatenurk probleemi valest mõistmisest; majandusarvestuse probleem ei ole arvutusvõimsuse küsimus, vaid pigem tootmise ja ressursside jaotamisega seotud informatsiooni genereerimise ja levitamise küsimus. Seda informatsiooni saab genereerida ainult kohapeal agentide poolt, kellel on spetsialiseeritud teadmised ja otsene huvi tulemuse vastu. Tehisintellekt ei saa asendada seda alt-üles protsessi ja seetõttu ei saa aidata keskplaneerijatel lahendada ressursside jaotamise probleemi. Kahjuks on sajandi vältel tekkinud arusaamatusi tõttu oodata paljude väidete levikut, et tehisintellekt toob kaasa uue majandusliku õitsengu ajastu, mida juhivad valgustatud keskplaneerijad, kes tehisintellekti abil suudavad parandada vabaturu ebaõnnestumisi.
 
-Konkreetse näite majandusarvestuse probleemi rakendamisest kaasaegses olukorras leiate sellest artiklist, mis käsitleb ressursside jaotamise probleemi kaasaegses Hiinas.
+Majandusarvutuse probleemi konkreetseks rakendamiseks tänapäevases olukorras võite viidata sellele artiklile, mis käsitleb ressursside jaotamist tänapäeva Hiinas: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, autor Théo Mogenet.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Järeldus
 

@@ -1,22 +1,19 @@
 ---
 name: 기업용 Bitcoin
 goal: Bitcoin에 귀사를 온보딩하기 위한 결제 및 재무 기본 사항을 알아보세요
-objectives: 
-
-  - 신흥 통화 및 비즈니스 도구로서의 Bitcoin
-  - 기업이 Bitcoin를 재무부에 보유하거나 결제에 사용할 수 있는 이유와 방법을 이해합니다
-  - 실제로 Bitcoin 결제를 수락하는 방법을 구체적으로 파악하세요
-  - 재정 및 회계 요구 사항을 관리할 수 있도록 준비하세요
-
+objectives:
+- 신흥 통화이자 비즈니스 도구로서의 비트코인을 발견하세요
+- 기업이 왜 그리고 어떻게 비트코인을 자금으로 보유하거나 결제에 사용할 수 있는지 이해하세요
+- 실제로 비트코인 결제를 수락하는 방법에 대한 구체적인 아이디어를 가지세요
+- 세무 및 회계 요구사항 관리에 대비하세요
 ---
-# Bitcoin 네트워크에서 귀사의 여정을 시작하세요
+# 비트코인 네트워크에서 귀사의 여정을 시작하세요
 
-Bitcoin과 Lightning Network의 실용적인 기능을 살펴보고, 인터넷과 마찬가지로 비즈니스 운영을 어떻게 **혁신**할 수 있는지 알아보세요. 디지털 자본부터 빠르고 경제적이며 확장 가능한 결제까지, Bitcoin은 광범위한 **비즈니스 사용 사례**를 제공합니다.
+비트코인과 라이트닝 네트워크의 실용적인 기능을 발견하고, 인터넷처럼 이들이 어떻게 비즈니스 운영을 변화시킬 수 있는지 탐구하세요. 재무 관리부터 빠르고 경제적이며 확장 가능한 결제까지, 비트코인은 기업을 위한 광범위한 사용 사례를 제공합니다.
 
-이 가이드를 통해 글로벌, 범용, 인터넷 네이티브 통화 네트워크인 Bitcoin을 이해하는 방법을 배우실 수 있습니다. 고유한 기본 특성을 지닌 **Bitcoin은 기존 통화 네트워크에 비해 상당한 개선점을 제공합니다**. 자본 저장 및 결제 시스템과 같은 전통적인 금융 사용 사례에 Bitcoin을 활용해야 하는 이유와 방법을 알아볼 수 있습니다. 또한, 이 가이드에서는 관련 회계 및 재정 요건을 포함해 Bitcoin을 획득하고 보유하는 방법과 간단한 또는 대규모 Bitcoin 결제 솔루션을 구현하는 방법도 다룹니다.
+이 과정 전반에 걸쳐, 비트코인을 글로벌하고 보편적이며 인터넷 기반의 통화 네트워크로 이해하는 방법을 배우게 됩니다. 고유한 기본 특성을 통해 비트코인은 전통적인 통화에 비해 상당한 개선을 제공합니다. 자본 저장 및 결제 시스템과 같은 전통적인 금융 사용 사례에 비트코인을 활용하는 이유와 방법을 발견하게 됩니다. 또한, 이 과정은 관련 회계 및 세무 요구사항을 포함한 비트코인 획득 및 보유, 그리고 간단하거나 대규모 비트코인 결제 솔루션 구현을 다룹니다.
 
-중소기업이든 대기업이든 상관없이 Bitcoin을 일상 업무에 통합하면 회사의 회복력, 생산성, 경쟁력을 높일 수 있습니다. 모든 인터넷 기반 기업은 Bitcoin을 지향하는 기업이 될 것이며, 이 과정을 통해 준비할 수 있습니다. 초기 섹션에서는 Bitcoin 운영의 기본 사항을 요약하므로 초보자라도 진행에 필요한 기초 지식을 습득할 수 있습니다. BIZ101을 시작하기 전이나 후에 Satoshi의 기초를 배우는 것은 언제나 좋은 생각입니다.
-
+소규모 비즈니스든 대기업이든, 일상 운영에 비트코인을 통합하면 회사를 더욱 탄력적이고 생산적이며 경쟁력 있게 만들 수 있습니다. 모든 인터넷 기반 회사는 비트코인 지향적인 회사가 될 것이며, 이 과정은 귀하가 준비되어 있음을 보장합니다.
 +++
 # 소개
 
@@ -215,7 +212,7 @@ Bitcoin은 **P2P 디지털 통화 Exchange 시스템**(전자 현금)입니다. 
 
 ![BIZ101](assets/ko/003.webp)
 
-Bitcoin는 **한도가 2100만 비트코인**으로 고정된 통화 정책을 가지고 있으며, 이 중 약 1980만 비트코인이 이미 배포되었습니다. 따라서 사용자가 저축과 생산성 향상을 저장하면 시간이 지남에 따라 가치가 상승하는 **디플레이션**이 발생합니다.
+비트코인은 고정된 통화 정책을 가지고 있으며, **최대 2100만 개** 중 약 1980만 개(2024년 기준)가 이미 채굴되었습니다. 이는 비트코인을 **디플레이션적**으로 만들며, 사용자들이 저축과 생산성 향상을 비트코인에 저장함에 따라 시간이 지날수록 가치가 상승합니다.
 
 기술적 특징은 금과 달러를 합친 것보다 뛰어나며, 지금까지 만들어진 금융 자산 중 가장 어려운 자산입니다. Bitcoin는 가치 저장 수단인 동시에 현재 개발 중인 통화인 Exchange의 매개체이기도 합니다. 중개자 없이, 최소한의 비용으로, 사기 없이, 24시간 연중무휴로, 제3자의 개입 없이 한 회사의 재무부에서 다른 회사로 가치를 신속하게 이전한다고 상상해 보세요.
 
@@ -227,7 +224,7 @@ Bitcoin는 우리가 배운 적 없는 수학, 암호학, 경제학, 역사 분�
 
 Bitcoin은 돈의 본질 자체에 대해 다시 생각해보게 합니다. 돈이란 과연 무엇인지 설명해 주시겠어요? 샐러리맨이나 기업가는 인생에서 5만~10만 시간을 돈을 버는 데 소비하지만, 돈을 더 잘 이해하고** 보존하는 데 100시간이라도 투자하는 사람은 얼마나 될까요? Bitcoin은 우리가 돈을 필요로 하는 근본적인 이유와 현세적 관점에 대해 질문하도록 독려합니다. 돈은 즉각적인 사치를 위한 것인가, 아니면 장기적인 회복력을 위한 것인가? 구매를 미룰 수 있는 자산이 있다면 우리는 어떤 선택을 할까요? 20년 또는 30년 후 우리 자신과 어떤 대화를 나누고 싶을까요?
 
-**Bitcoin 신분증**
+**비트코인 신분증 (2024년)**
 
 
 - 나이:** 15세(2009년 1월 3일)
@@ -253,7 +250,7 @@ Bitcoin은 돈의 본질 자체에 대해 다시 생각해보게 합니다. 돈�
 
 Bitcoin의 역사, 작동 방식 및 사용법에 대한 자세한 내용은 이 다른 종합 강좌를 참조하세요:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 ## Lightning Network 소개
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -311,7 +308,7 @@ Lightning Network는 빠른 속도와 결제 완료로 인해 오프라인 또�
 - 최종성: ** Lightning에서 결제가 완료되면 결제가 완료된 것입니다. 제3자에 의한 지불 거절이나 사기 관련 분쟁이 발생할 가능성이 없습니다.
 - 수수료: ** Lightning Network의 거래 수수료는 최소이며 판매자가 아닌 사용자가 지불합니다. 판매자는 나중에 Bitcoin을 다른 네트워크나 서비스로 이전해야 하는 경우에만 수수료가 발생합니다.
 
-**라이트닝 신분증**
+**라이트닝 신분증 (2024년)**
 
 
 - 발명:** 2015
@@ -334,7 +331,7 @@ Lightning Network는 빠른 속도와 결제 완료로 인해 오프라인 또�
 
 Lightning Network의 기술적 작동 방식에 대한 자세한 내용은 이 다른 종합 강좌를 참조하시기 바랍니다:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 # Bitcoin 재무부
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -453,9 +450,9 @@ Bitcoin는 화폐 인플레이션으로 인한 침식 없이 장기적으로 자
 
 이 주제에 대한 자세한 내용을 확인하세요:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## Bitcoin 재무부 보유
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -620,7 +617,7 @@ Bitcoin은 Exchange의 매개체 역할을 하기 때문에 순환 경제를 상
 
 여기에는 Mining 머신을 운영하여 보상을 얻는 것이 포함됩니다. 비전문 기업의 경우, 이는 상대적으로 미미한 수준입니다. 컴퓨팅, 네트워크 및 유지보수를 판매하거나 임대하는 중개업체를 통해 참여할 수 있습니다. 기계를 소유하고 있다면 감가상각 자산으로 회계 처리할 수 있습니다. 대규모의 경우 경쟁이 치열하고 비용, 특히 전기료를 잘 예측해야 하므로 투자 수익을 신중하게 계산해야 합니다.
 
-Mining 방법에 대해 자세히 알아보려면 [튜토리얼의 'Mining' 섹션을 참조하세요](https://planb.network/tutorials/mining).
+Mining 방법에 대해 자세히 알아보려면 [튜토리얼의 'Mining' 섹션을 참조하세요](https://planb.academy/tutorials/mining).
 
 
 - Bitcoin 구매하기:**
@@ -629,9 +626,9 @@ Mining 방법에 대해 자세히 알아보려면 [튜토리얼의 'Mining' 섹�
 
 비즈니스 계정을 개설하고 이를 사용하여 비트코인을 구매, 판매, 송금하는 방법을 알아보려면 기업용으로 특별히 설계된 크라켄과 비트파이넥스 플랫폼의 기업 버전 튜토리얼 2개를 확인하시기 바랍니다:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-Exchange 또는 P2P를 통해 비트코인을 획득하는 방법에 대해 자세히 알아보려면 [튜토리얼의 "Exchange" 섹션을 참조하세요](https://planb.network/tutorials/exchange).
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+Exchange 또는 P2P를 통해 비트코인을 획득하는 방법에 대해 자세히 알아보려면 [튜토리얼의 "Exchange" 섹션을 참조하세요](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/ko/012.webp)
 
@@ -942,15 +939,15 @@ pOS 디바이스** | 기업 환경에 맞게 맞춤 설계된 솔루션 | 기업
 
 **자체 보관 LN 지갑/노드:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 **보관용 LN 지갑:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 ## 필수
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
@@ -981,13 +978,13 @@ Essential 프로필은 고도로 정교한 회계 시스템을 요구하지는 �
 
 프로필에 가장 적합한 하이브리드 솔루션은 스위스 Bitcoin Pay일 가능성이 높습니다:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 구현하기 쉽지만 100% 커스터디라는 단점이 있는 또 다른 솔루션은 오픈 노드입니다:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 직접 손을 더럽힐 준비가 되어 있고 프로세스를 완벽하게 제어하고 싶다면 BTCPay 서버 소프트웨어가 훌륭한 옵션입니다. 그러나 BTCPay 서버의 가장 큰 단점은 설정과 관리에 시간이 많이 걸리고 일정 수준의 기술 전문 지식이 필요하다는 점이지만, 가이드를 따라하면 됩니다:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 마지막으로, 실제 판매 지점을 보완하기 위해 [비트코인화 PoS](https://bitcoinize.com/)를 설정하는 것을 고려할 수 있습니다.
 
 ## 전문가
@@ -1024,7 +1021,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 구현 세부 사항을 자세히 살펴보고 BTC Pay 서버의 실제 구성을 살펴보려면 다음 강좌를 참조하세요:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 ## 기업
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
@@ -1274,7 +1271,7 @@ Bitcoin 회계에 대한 접근 방식은 지역에 따라 다릅니다:
 
 Bitcoin를 직접 보관하는 분들에게 UTXO(*미사용 거래 결과물*)를 관리하는 것은 중요한 단계입니다. 적절한 UTXO 라벨링은 각 BTC 조각의 출처를 추적하고, 업무 활동과 관련된 거래와 개인 경비를 위한 거래를 구분하며, 법적 또는 세금 목적의 추적을 용이하게 하는 데 도움이 됩니다. 대부분의 좋은 Bitcoin Wallet 소프트웨어는 백업 파일(또는 설정에 따라 xpub)을 사용하여 Wallet을 가져와 출발지 또는 목적지를 기준으로 UTXO에 태그를 지정할 수 있습니다. 이 작업에 대한 전체 튜토리얼을 참조하세요:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 마지막으로, 소규모 판매자이든 기존 사업자이든 상관없이 Invoice을 Bitcoin에 **정산**할 수 있습니다. 핵심은 거래를 제대로 문서화하는 것입니다. 자체 보관 Wallet로 결제하는 경우에는 레이블에 generate 번호와 결제 목적을 명시하여 Invoice로 정산하는 것이 가장 이상적입니다. Exchange를 통해 Invoice을 정산하는 것을 선호하는 경우 영수증 또는 거래 내역을 내보내 회계 기록에 포함할 수 있는 옵션도 있습니다. 이러한 투명성을 통해 모든 BTC 운영의 추적과 보고를 간소화할 수 있습니다.
 
 ## 실용적인 Bitcoin 회계 예제

@@ -1,0 +1,8 @@
+question: Hvilken matematisk egenskap sikrer at punkter i elliptiske kurver kan legges sammen på en konsistent og forutsigbar måte i kryptografiske operasjoner?
+answer: Punkter danner en matematisk gruppe med lukning, assosiativitet, identitet og invers
+wrong_answers:
+  - Punkter opprettholder kontinuerlige, jevne kurver som bevarer geometriske forhold
+  - Punkter følger lineære progresjonsmønstre som skaper forutsigbare sekvenser
+  - Punkter bruker modulær aritmetikk som automatisk forhindrer beregningsfeil
+explanation: |
+  Elliptiske kurvepunkter danner en matematisk gruppe under addisjon, noe som betyr at de tilfredsstiller fire essensielle egenskaper: lukking (addisjon av to punkter gir et nytt punkt på kurven), assosiativitet (rekkefølgen på operasjonene spiller ingen rolle), identitet (punktet i uendeligheten fungerer som null) og invers (hvert punkt har en refleksjon som kansellerer det). Det er disse gruppeegenskapene som gjør at elliptisk kurvekryptografi fungerer pålitelig, og som gjør at operasjoner som skalarmultiplikasjon oppfører seg konsistent, uavhengig av om vi jobber med glatte reelle kurver eller diskrete punkter i endelige felt.

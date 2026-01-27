@@ -51,7 +51,7 @@ Jos haluat lisätietoja Lightning Network:n toiminnasta, tutustu omaan kurssiimm
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Liiketoimintamalli
 
@@ -149,7 +149,7 @@ Katso Zeus-opas saadaksesi lisätietoja tästä täydellisestä Wallet:stä:
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Web-konfigurointi
 
@@ -390,12 +390,13 @@ Tämä erittäin yksinkertaistettu lähestymistapa sopii täydellisesti aloittel
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| Palvelu | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Minimimäärä |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + louhintamaksut | 0.5% + louhintamaksut | 25 000 sats |
+| **Boltz** | 0.2% + louhintamaksut | 0.5% + louhintamaksut | 50 000 sats |
+| **Phoenix** | Vain louhintamaksut | 0.4% kiinteä | 10 000 sats |
+| **Breez** | 0.25% + verkkomaksut | 0.5% + louhintamaksut | 50 000 sats |
 
 Zeus Swap tarjoaa tasapainon helppokäyttöisyyden ja teknisen hallinnan välillä: se on helpommin lähestyttävä kuin Boltz, joustavampi kuin Phoenix/Breez ja sen lähestymistapa on tiukka, mutta ei säilytysvelvollisuutta.
 

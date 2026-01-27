@@ -1,0 +1,8 @@
+question: What is the most appropriate response when a Bitcoin application encounters an invalid input error, such as receiving a negative value for a field that requires only positive integers?
+answer: Reject the input and return an error indication to the caller
+wrong_answers:
+  - Convert the negative value to its absolute value and continue processing
+  - Log the error but proceed with the operation using a default value
+  - Terminate the entire application immediately to prevent data corruption
+explanation: |
+  Invalid input errors represent contract violations between the caller and function, where the provided parameters don't meet the function's requirements. The correct approach is to reject the input and return an error indication, allowing the caller to handle the situation appropriately. Converting negative values to positive ones silently masks the error and could lead to unintended behavior. Using default values ignores the caller's intent and may process incorrect data. Terminating the entire application is excessive for input validation failures and would create poor user experience in Bitcoin applications where graceful error handling is crucial.

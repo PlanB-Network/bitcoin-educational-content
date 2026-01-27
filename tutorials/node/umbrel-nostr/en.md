@@ -15,7 +15,7 @@ Umbrel is an open-source platform that lets you easily host Bitcoin applications
 Make sure you have installed Umbrel by following our installation guide:
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Introduction to Nostr
 
@@ -231,7 +231,7 @@ Thanks to NWC, your **Lightning payments via Nostr** (zaps to reward posts, _Val
 If you want to know how to set up your own Lightning node on Umbrel, I recommend you check out this other comprehensive tutorial:
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Advanced configuration and security
 

@@ -1,5 +1,5 @@
 ---
-name: lineageOs
+name: LineageOS
 description: स्मार्टफ़ोन के लिए मुफ़्त, अनग्लूड एंड्रॉइड ऑपरेटिंग सिस्टम
 ---
 
@@ -738,4 +738,4 @@ LineageOS आपके Android स्मार्टफ़ोन पर फि�
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

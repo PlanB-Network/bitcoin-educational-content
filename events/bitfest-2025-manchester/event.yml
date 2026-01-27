@@ -1,0 +1,21 @@
+id: 696a8cb9-9c0d-43bc-b841-c1957127ac70
+start_date: 2025-11-19 10:11:00
+end_date: 2025-11-19 10:11:00
+timezone: Europe/London
+address_city_country: Manchester, England
+address_line_2: Pendulum Hotel, Manchester Weston Building, Sackville Street
+name: BitFest 2025 Manchester
+type: conference
+description: |
+  "Bitfest 2025 is a celebration of Bitcoin, creativity, and
+  open-source culture, happening November 21–23 in Manchester, UK.
+  The weekend blends talks, art, music, and hands-on collaboration — with the
+  BitFest Bitcoin Conference at its core."
+language:
+  - en
+links:
+  website: https://bitfest.uk/
+tags:
+  - adoption
+  - finance
+  - cypherpunk

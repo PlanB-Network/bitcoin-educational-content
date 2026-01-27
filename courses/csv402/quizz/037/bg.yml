@@ -1,0 +1,9 @@
+question: Как да импортирам файла NonInflatableAsset.rgb Schema в местното хранилище?
+answer: rgb импортиране на schemata/NonInflatableAssets.rgb
+wrong_answers:
+  - rgb внос schema/NonInflatableAssets.rgb
+  - rgb клонинг на схема/NonInflatableAssets.rgb
+  - rgb clone schema/NonInflatableAssets.rgb
+explanation: |
+  Компилираният Schema се импортира в локалното хранилище с помощта на командата "rgb import schemata/NonInflatableAssets.rgb".
+reviewed: false

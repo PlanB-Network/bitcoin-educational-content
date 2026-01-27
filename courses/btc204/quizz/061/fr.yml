@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Le coin control est une fonctionnalité présente dans les bons logiciels de portefeuille Bitcoin, qui vous donne la capacité de sélectionner manuellement les UTXOs spécifiques à utiliser en tant qu'inputs pour effectuer une transaction.
 
-reviewed: false
+reviewed: true 

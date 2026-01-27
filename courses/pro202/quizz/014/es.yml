@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal ventaja del algoritmo de doble suma para la multiplicación escalar en criptografía de curva elíptica?
+answer: Reduce la complejidad del cálculo de O(n) a O(log n) operaciones
+wrong_answers:
+  - Elimina la necesidad de aritmética modular en campos finitos
+  - Convierte el problema del logaritmo discreto en una solución en tiempo polinómico
+  - Permite el cálculo directo de claves privadas a partir de claves públicas
+explanation: |
+  El algoritmo double-and-add mejora significativamente la eficiencia al reducir la complejidad computacional de O(n) sumas lineales a O(log n) operaciones. Funciona escaneando la representación binaria del escalar, duplicando el punto en cada paso y añadiendo el punto generador solo cuando el bit es 1. Las otras opciones son incorrectas: la aritmética modular sigue siendo necesaria en campos finitos, el problema del logaritmo discreto sigue siendo inviable computacionalmente (lo que es esencial para la seguridad) y las claves privadas no pueden calcularse a partir de claves públicas independientemente del algoritmo de multiplicación utilizado.

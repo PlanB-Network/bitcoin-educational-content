@@ -1,23 +1,17 @@
 ---
-name: Bitcoin 和 BTC 付款伺服器
-goal: 為您的企業安裝 BTC Pay 伺服器
-objectives: 
-
-  - 瞭解什麼是 btcpayserver。
-  - 自行託管和設定 BTC Pay 伺服器。
-  - 在您的日常業務中使用 btcpayserver。
-
+name: 精通BTC Pay Server
+goal: 為本地企業配置BTC Pay Server實例
+objectives:
+- 了解BTCPay Server在支付處理中的基本作用
+- 掌握BTCPay Server配置過程的內部運作
+- 在雲端和基於節點的環境中部署BTCPay Server
+- 成為BTC Pay Server營運者
 ---
-# Bitcoin 和 BTCPay 伺服器
+# 邁向財務主權之旅
 
-這是由 Alekos 和 Bas 撰寫的 BTCPay 伺服器操作員介紹課程，並由 melontwist 和 asi0 在 Plan ₿ 課程格式中加以改編。
+信任是脆弱的，尤其是涉及金錢時。這門入門課程將引導您了解 BTCPay Server，這是一個強大的工具，讓您無需依賴第三方即可接受比特幣付款。您將學習成為 BTCPay Server 營運者的基礎知識。
 
-后话
-
-「這是謊言，我對你的信任破滅了，我會讓你淘汰」。
-
-由 BTCPay 伺服器基金會製作
-
+本課程由 Alekos 和 Bas 創建，並由 melontwist 和 asi0 改編，揭示了個人和企業如何建立傳統支付系統的替代方案。無論您是對比特幣感到好奇，還是準備為企業運行支付基礎設施，您都將發現挑戰現狀的實用技能。準備好探索財務獨立的真正面貌了嗎？
 +++
 # 簡介
 
@@ -217,7 +211,7 @@ BTCPay Server 中的許多選項都以某種形式存在於其他 Bitcoin Wallet
 
 歡迎您進入 Demo 環境，您會被要求「登入」或「建立您的帳號」。出于安全考虑，服务器管理员可能会关闭创建新账户的功能。BTCPay服務器的標誌和按鈕顏色可以更改，因為BTCPay服務器是開放源碼軟件。第三方主機可以對軟件進行白標，並改變整個外觀。
 
-![image](assets/en/0.webp)
+![image](assets/en/001.webp)
 
 ### 建立帳戶視窗
 
@@ -227,7 +221,7 @@ BTCPay Server 中的許多選項都以某種形式存在於其他 Bitcoin Wallet
 
 當Email和密碼都正確填寫後，點擊'Create Account'按鈕。這將把Email和密碼保存在講師的BTCPay伺服器上。
 
-![image](assets/en/1.webp)
+![image](assets/en/002.webp)
 
 **！注意！**
 
@@ -237,7 +231,7 @@ BTCPay Server 中的許多選項都以某種形式存在於其他 Bitcoin Wallet
 
 BTCPay服務器實例的管理員也可以為BTCPay服務器創建帳戶。BTCPay 服務器實例的管理員可以點擊「服務器設置」(1)，點擊「用戶」標籤(2)，然後點擊用戶標籤右上方的 「+ 添加用戶 」按鈕(3)。在目標(4.3)中，您將學習更多關於帳戶的管理員控制。
 
-![image](assets/en/2.webp)
+![image](assets/en/003.webp)
 
 身為管理員，您需要使用者的電子郵件 Address 並設定標準密碼。基於安全理由，建議身為管理員的您告知使用者在使用帳號前應更改此密碼。如果管理員沒有設定密碼，且伺服器上已設定 SMTP，使用者會收到一封附有邀請連結的電子郵件，讓他們自行建立帳號和設定密碼。
 
@@ -280,7 +274,7 @@ https://Mainnet.demo.btcpayserver.org/login。
 - 隱藏敏感資訊切換鍵。
 - 管理帳戶。
 
-![image](assets/en/3.webp)
+![image](assets/en/004.webp)
 
 ### 深色和淺色模式
 
@@ -300,7 +294,7 @@ BTCPay 伺服器的使用者可以選擇使用者介面的淺色或深色模式�
 
 使用者可以決定刪除整個帳戶。這可透過按一下「帳戶」標籤上的刪除按鈕來完成。
 
-![image](assets/en/4.webp)
+![image](assets/en/005.webp)
 
 **！注意！**
 
@@ -310,7 +304,7 @@ BTCPay 伺服器的使用者可以選擇使用者介面的淺色或深色模式�
 
 學生可能想要變更密碼。他可以前往「密碼」標籤進行此操作。在此，他需要輸入舊密碼，並可將其變更為新密碼。
 
-![image](assets/en/5.webp)
+![image](assets/en/006.webp)
 
 ### 雙因素驗證 (2fa)
 
@@ -337,7 +331,7 @@ BTCPay 伺服器允許兩種方式啟用 2FA，基於應用程式的 2FA（Authy
 
 3.Authenticator 應用程式會為您提供一個唯一代碼。在BTCPay伺服器中輸入獨特代碼以驗證設定，然後點擊 「驗證 」完成整個過程。
 
-![image](assets/en/6.webp)
+![image](assets/en/007.webp)
 
 ### 技能摘要
 
@@ -361,7 +355,7 @@ BTCPay 伺服器允許兩種方式啟用 2FA，基於應用程式的 2FA（Authy
 
 當一個新的用戶登錄到BTCPay服務器，環境是空的，需要一個第一個商店。BTCPay 伺服器的導入精靈會讓使用者選擇「建立您的商店」(1)。商店可視為您 Bitcoin 需求的家。一個新的BTCPay伺服器節點將從同步Bitcoin Blockchain開始(2)。根據您運行 BTCPay 伺服器的基礎設施，這可能需要幾個小時到幾天不等。實例的當前版本顯示在您的BTCPay Server UI的右下角。這在疑難排解時非常有用。
 
-![image](assets/en/7.webp)
+![image](assets/en/008.webp)
 
 ### 建立商店精靈
 
@@ -369,7 +363,7 @@ BTCPay 伺服器允許兩種方式啟用 2FA，基於應用程式的 2FA（Authy
 
 使用者可以決定刪除整個帳戶。這可透過按一下「帳戶」標籤上的刪除按鈕來完成。
 
-![image](assets/en/8.webp)
+![image](assets/en/009.webp)
 
 **！注意！**
 
@@ -379,29 +373,29 @@ BTCPay 伺服器帳戶可以建立無限數量的商店。每個商店都是一�
 
 首先按一下「建立您的商店」。
 
-![image](assets/en/9.webp)
+![image](assets/en/010.webp)
 
 這將會建立您使用 BTCPay 伺服器的第一個首頁和儀表板。
 
 (1)點擊 「創建您的商店 」後，BTCPay伺服器會要求您為商店命名，可以是任何對您有用的名稱。
 
-![image](assets/en/10.webp)
+![image](assets/en/011.webp)
 
 (2) 接下來必須設定預設的商店貨幣，可以是法定貨幣或以 Bitcoin / Sats 標準計價的貨幣。在示範環境中，我們將設定為美元。
 
-![image](assets/en/11.webp)
+![image](assets/en/012.webp)
 
 (3) 作為商店設置的最後一個參數，BTCPay伺服器要求您設置一個 「首選價格來源 」來比較Bitcoin的價格和當前法定貨幣的價格，以便您的商店在Bitcoin和商店設置的法定貨幣之間顯示正確的Exchange匯率。我們將堅持使用演示示例中的預設值，並將其設置為 Kraken Exchange。BTCPay 伺服器使用 Kraken API 來檢查 Exchange 的匯率。
 
-![image](assets/en/12.webp)
+![image](assets/en/013.webp)
 
 (4) 現在這些商店參數已經設定好了，點擊 「創建 」按鈕，BTCPay伺服器將創建您的第一個商店的儀表板，向導將在此繼續。
 
-![image](assets/en/13.webp)
+![image](assets/en/014.webp)
 
 恭喜您，您已建立了第一個商店，這就是本練習的總結。
 
-![image](assets/en/14.webp)
+![image](assets/en/015.webp)
 
 ### 技能摘要
 
@@ -425,7 +419,7 @@ Bitcoin 錢包在建立時，會產生所謂的 "seed"。在上一個目標中�
 
 seed 的產生是依照業界標準「分層決定性」（HD）架構進行。
 
-![image](assets/en/15.webp)
+![image](assets/en/016.webp)
 
 ### 地址
 
@@ -576,7 +570,7 @@ Replace-by-fee (RBF) 是 Bitcoin 通訊協定的一項功能，允許您取代�
 
 按下「進階設定」按鈕以檢視 RBF 選項；
 
-![image](assets/en/16.webp)
+![image](assets/en/017.webp)
 
 
 - Randomize for higher privacy, 允許自動替換交易，以隨機化交易指紋。
@@ -597,9 +591,9 @@ BTCpay 伺服器也支援 BIP-329 標籤管理。BIP-329允許使用標籤；如
 
 BTCPay 伺服器總是會要求 generate 下一個可用的 Address，以避免 Address 重複使用。點擊 "generate next available BTC Address "後，BTCPay伺服器會生成一個新的Address和QR。它還允許您直接設置一個Label到Address，以便更好地管理您的地址。
 
-![image](assets/en/17.webp)
+![image](assets/en/018.webp)
 
-![image](assets/en/18.webp)
+![image](assets/en/019.webp)
 
 #### 重新掃描
 
@@ -624,11 +618,11 @@ BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
 
 BTCPay Server 中的 Wallet 設定可讓您清楚快速地瞭解 Wallet 的一般設定。如果 Wallet 是使用 BTCPay Server 建立的，則所有這些設定都會預先填入。
 
-![image](assets/en/19.webp)
+![image](assets/en/020.webp)
 
 BTCPay Server 中的 Wallet 設定可讓您清楚快速地瞭解 Wallet 的一般設定。如果Wallet是使用BTCPay Server創建的，所有這些設置都是預先填寫的。BTCPay Server的Wallet設置從Wallet狀態開始。是只看Wallet還是Hot Wallet？根據Wallet的類型，動作可能會有所不同，包括重新掃描Wallet以檢查是否有遺失的交易、從歷史中刪除舊的交易、註冊Wallet的付款連結，或更換和刪除目前附加到商店的Wallet。在 BTCPay 伺服器的 Wallet 設定中，管理員可以為 Wallet 設定標籤，以便更好地管理 Wallet。在此，管理員還可以看到衍生方案、帳號金鑰 (xpub)、指紋和密鑰路徑。Wallet 設定中的付款只有 2 個主要設定。如果交易未能在 Invoice 過期後（設定的分鐘內）確認，則付款無效。當付款交易有 X 數量的確認時，視為 Invoice 已確認。管理員也可以在付款時設定切換顯示建議費用，或在區塊數設定手動確認目標。
 
-![image](assets/en/20.webp)
+![image](assets/en/021.webp)
 
 **！注意！**
 
@@ -648,11 +642,11 @@ BTCPay伺服器在產生新的Wallet時提供的第二個選擇是通過創建�
 
 您在上一部分建立了一個新的 「商店」。安裝精靈會繼續要求「設定一個 Wallet」或「設定一個 Lightning 節點」。在本範例中，您將遵循「設定 Wallet」精靈程序 (1)。
 
-![image](assets/en/21.webp)
+![image](assets/en/022.webp)
 
 點擊 "Set up a Wallet "後，精靈會繼續要求您如何繼續；BTCPay伺服器現在提供連接現有Bitcoin Wallet到您的新商店的選項。如果您沒有Wallet，BTCPay伺服器會建議您建立一個新的Wallet。本範例將採用 「創建一個新的Wallet 」的步驟(2)。按照步驟學習如何 「連接現有的Wallet (1)」。
 
-![image](assets/en/22.webp)
+![image](assets/en/023.webp)
 
 **！注意！**
 
@@ -660,13 +654,13 @@ BTCPay伺服器在產生新的Wallet時提供的第二個選擇是通過創建�
 
 (1) 按一下「建立新的 Wallet」按鈕，繼續「建立新的 Wallet」精靈。
 
-![image](assets/en/23.webp)
+![image](assets/en/024.webp)
 
 (2) 點選 「建立新的 Wallet 」後，精靈的下一個視窗將會提供 "Hot Wallet「 和 」Watch-only wallet" 兩個選項。如果您跟隨導師，您的環境是共用的 Demo，您只能建立 Watch-only wallet。請注意以下兩張圖的差異。當您在 Demo 環境中跟隨教師，請建立「Watch-only wallet」並繼續使用「New Wallet」精靈。
 
-![image](assets/en/24.webp)
+![image](assets/en/025.webp)
 
-![image](assets/en/25.webp)
+![image](assets/en/026.webp)
 
 (3) 繼續新的Wallet精靈，現在您在創建BTC Watch-only wallet部分。在這裡，我們可以設定 Wallet 「Address 類型」 BTCPay 伺服器允許您選擇您偏好的 Address 類型；在撰寫本課程時，仍建議使用 bech32 位址。有關地址的詳細資訊，請參閱本部分的第一章。
 
@@ -686,23 +680,23 @@ BTCPay伺服器在產生新的Wallet時提供的第二個選擇是通過創建�
 
 選擇 SegWit（推薦）作為您的首選 Wallet Address 類型。
 
-![image](assets/en/26.webp)
+![image](assets/en/027.webp)
 
 (4)當設定Wallet的參數時，BTCPay伺服器允許用戶通過BIP39設定一個可選的passphrase，請務必確認您的密碼。
 
-![image](assets/en/27.webp)
+![image](assets/en/028.webp)
 
 (5) 設定Wallet的Address類型，並可能設定一些進階選項後，點擊 「創建」，BTCPay伺服器將generate您的新Wallet。請注意，這是生成seed短語前的最後一個步驟。請確保您只在一個不會被人從您的螢幕上盜取seed短語的環境中進行此步驟。
 
-![image](assets/en/28.webp)
+![image](assets/en/029.webp)
 
 (6) 在精靈的以下畫面中，BTCPay伺服器會為您顯示新產生的Wallet的恢復seed短語；這些是恢復您的Wallet和簽署交易的關鍵。BTCPay Server會生成一個包含12個單詞的seed短語。這些詞彙將在此設置畫面後從伺服器中刪除。這個Wallet特別是Watch-only wallet。建議不要將此 seed 短語以數位或攝影圖片的方式儲存。使用者只有在主動確認寫下 seed 詞組後，才能進一步進入精靈。
 
-![image](assets/en/29.webp)
+![image](assets/en/030.webp)
 
 (7) 點擊 「完成 」並確保新生成的Bitcoin seed短語後，BTCPay伺服器將使用所附的新Wallet更新您的商店，並準備好接收付款。在用戶Interface中，在左側導航菜單中，注意Bitcoin現在是如何高亮並在Wallet下被激活的。
 
-![image](assets/en/30.webp)
+![image](assets/en/031.webp)
 
 ### 範例：寫下 seed 詞組
 
@@ -775,7 +769,7 @@ BTCPay伺服器需要連接資訊；之前製作的（或託管解決方案）�
 - LND 透過 REST 代理
 - 透過 REST API 的 LNDhub
 
-![image](assets/en/31.webp)
+![image](assets/en/032.webp)
 
 點擊 "test connection"（測試連接）以確保您正確輸入連接詳細資料。連接確認無誤後，點擊 「保存」，BTCPay伺服器會顯示商店已更新為Lightning節點。
 
@@ -817,7 +811,7 @@ BTCPay伺服器需要連接資訊；之前製作的（或託管解決方案）�
 
 伺服器管理員可以按一下內部節點資訊，並查看其伺服器狀態 (線上/離線) 以及 Clearnet 或 Tor 的連線字串。
 
-![image](assets/en/32.webp)
+![image](assets/en/033.webp)
 
 #### 變更連接
 
@@ -825,7 +819,7 @@ BTCPay伺服器需要連接資訊；之前製作的（或託管解決方案）�
 
 在公共節點資訊商店旁邊，擁有者可以找到這個選項。它會帶回外部 Lightning 節點連線的初始設定，填寫新的 Lightning 節點資訊，按一下儲存，然後用新的節點資訊更新商店。
 
-![image](assets/en/33.webp)
+![image](assets/en/034.webp)
 
 #### 服務
 
@@ -835,7 +829,7 @@ BTCPay伺服器需要連接資訊；之前製作的（或託管解決方案）�
 
 在之前的步驟中將Lightning節點加入商店後，在Lightning Wallet的設定中，店主仍可使用Lightning設定頂端的Toggle選擇停用它。
 
-![image](assets/en/34.webp)
+![image](assets/en/035.webp)
 
 #### 閃電付款選項
 
@@ -892,25 +886,25 @@ BTCPay伺服器需要連接資訊；之前製作的（或託管解決方案）�
 
 與 Alby 等保管人連線時，店主應先建立帳戶，請造訪：https://getalby.com/。
 
-![image](assets/en/35.webp)
+![image](assets/en/036.webp)
 
 建立 Alby 帳戶後，前往您的 BTCPay 伺服器商店。
 
 步驟 1：點選儀表板上的「設定閃電節點」或錢包下方的「閃電」。
 
-![image](assets/en/36.webp)
+![image](assets/en/037.webp)
 
 步驟 2: 插入 Alby 提供的 Wallet 連線憑證。在 Alby 的儀表板上，點選 Wallet。在這裡您可以找到「Wallet 連線憑證」。複製這些認證。將 Alby 提供的連線憑證貼到 BTCPay 伺服器的連線設定欄位。
 
-![image](assets/en/37.webp)
+![image](assets/en/038.webp)
 
 步驟 3: 向BTCPay伺服器提供連接細節後，點擊 "Test Connection "按鈕以確保連接正常。請注意螢幕上方的 "Connection to lightning node successful "訊息。這證明一切運作正常。
 
-![image](assets/en/38.webp)
+![image](assets/en/039.webp)
 
 步驟 4：按一下儲存，您的店鋪現在與 Alby 的閃光節點連接。
 
-![image](assets/en/39.webp)
+![image](assets/en/040.webp)
 
 **！注意！**
 
@@ -957,13 +951,13 @@ BTCPay Server是一個模組化的軟體套件。然而，每台BTCPay伺服器�
 
 Wallet Balance 磁磚提供 Wallet 資金和績效的快速概覽。它可以用 BTC 或法定貨幣以每週、每月或每年的圖表檢視。
 
-![image](assets/en/40.webp)
+![image](assets/en/041.webp)
 
 ### 交易活動
 
 在Wallet餘額磁磚旁邊，BTCPay伺服器會顯示待定付款的快速概覽、過去7天的交易金額，以及您的商店是否已發出任何退款。點擊 「管理 」按鈕將進入待付款管理（在BTCPay伺服器 - 付款章節了解更多關於付款的資訊）。
 
-![image](assets/en/41.webp)
+![image](assets/en/042.webp)
 
 ### 閃電平衡
 
@@ -971,7 +965,7 @@ Wallet Balance 磁磚提供 Wallet 資金和績效的快速概覽。它可以用
 
 當管理員允許Lightning Network訪問時，BTCPay伺服器儀表板現在有一個新的磁磚，包含您的閃電節點資訊。有多少 BTC 在通道中，這是如何平衡本地或遠程（入站或出站流動資金），如果通道正在關閉或開啟，以及有多少 Bitcoin 在閃電節點上持有 On-Chain。
 
-![image](assets/en/42.webp)
+![image](assets/en/043.webp)
 
 ### 閃電服務
 
@@ -979,29 +973,29 @@ Wallet Balance 磁磚提供 Wallet 資金和績效的快速概覽。它可以用
 
 除了在BTCPay伺服器儀表板上看到您的Lightning餘額，管理員還可以看到Lightning服務磁磚。在這裡，管理員可以找到他們用來管理Lightning節點的工具的快速按鈕；例如，Ride the Lightning是BTCPay Server用來管理Lightning節點的標準工具之一。
 
-![image](assets/en/43.webp)
+![image](assets/en/044.webp)
 
 ### 近期交易
 
 最近交易磁磚將顯示您商店最近的交易。只需點擊一下，BTCPay 伺服器實例的管理員現在就可以看到最新的交易，並查看是否需要對其進行關注。
 
-![image](assets/en/44.webp)
+![image](assets/en/045.webp)
 
 ### 最近的發票
 
 最近發票磁磚顯示 BTCPay 伺服器產生的 6 張最新發票，包括狀態和 Invoice 金額。該磁磚也包含「檢視全部」按鈕，可輕鬆存取完整的 Invoice 概觀。
 
-![image](assets/en/45.webp)
+![image](assets/en/046.webp)
 
 ### 銷售點與集資
 
 由於 BTCPay Server 提供一套標準的外掛或應用程式，Point Of Sale 和 Crowdfund 是 BTCPay Server 的兩個主要外掛。每個商店和Wallet，BTCPay伺服器用戶可以generate他認為合適的銷售點或集資。每個都會創建一個新的儀表板磁磚，顯示插件的性能。
 
-![image](assets/en/46.webp)
+![image](assets/en/047.webp)
 
 請注意 Point of Sale 和 Crowdfund 磁磚之間的微小差異。管理員在銷售點磁磚中看到銷量最高的項目。在 Crowdfund 動態磚，這變成了 Top Perks。這兩個磁磚都有快速按鈕，可管理各自的應用程式，並檢視最近由最高項目或最高獎勵建立的發票。
 
-![image](assets/en/47.webp)
+![image](assets/en/048.webp)
 
 **注意！**
 
@@ -1101,13 +1095,13 @@ Invoice 計時器預設為 15 分鐘。該計時器是一種防止波動的保�
 
 我們可以為商店設定參數，當價格小於 X 時，顧客才會與 Lightning 進行互動；反之亦然，當 X 大於 Y 時，On-Chain 交易總會顯示 On-Chain 付款選項。
 
-![image](assets/en/48.webp)
+![image](assets/en/049.webp)
 
 #### 結帳
 
 從BTCPay伺服器1.7版開始，引入了新的結帳Interface，也就是所謂的結帳V2。由於 1.9 版已標準化，管理員和店主仍可將結帳設定為之前的版本。通過使用 「使用經典結帳 」切換鍵，店主可以將商店設置回之前的結帳體驗。BTCPay 伺服器也有一套精選的預設，適用於線上商務或店內體驗。
 
-![image](assets/en/49.webp)
+![image](assets/en/050.webp)
 
 當客戶與商店互動並產生Invoice時，Invoice會有一個過期時間。預設情況下，BTCPay伺服器將此設定為5分鐘，而管理員可以將此設定為任何他們認為合適的時間。結帳頁面可以通過檢查以下參數進一步自定義：
 
@@ -1119,37 +1113,37 @@ Invoice 計時器預設為 15 分鐘。該計時器是一種防止波動的保�
 - 以 Satoshis 顯示閃電付款金額
 - 結帳時自動偵測語言
 
-![image](assets/en/50.webp)
+![image](assets/en/051.webp)
 
 當未設定自動偵測語言時，BTCPay伺服器預設會顯示英文。店主可以將預設變更為自己喜歡的語言。
 
-![image](assets/en/51.webp)
+![image](assets/en/052.webp)
 
 按一下下拉選項，店主就可以設定自訂 HTML 標題，顯示在結帳頁面上。
 
-![image](assets/en/52.webp)
+![image](assets/en/053.webp)
 
 為了確保客戶知道自己的付款方式，店主可以明確設定結帳時總是要求用戶選擇自己喜歡的付款方式。當 Invoice 支付完成後，BTCPay 伺服器會允許客戶返回網路商店。店主可以在客戶付款後自動設定此重定向。
 
-![image](assets/en/53.webp)
+![image](assets/en/054.webp)
 
 #### 公開收據
 
 在公開收據設定中，店主可以將收據頁面設定為公開，並在收據頁面上顯示付款清單和收據的 QR 代碼，方便顧客以數位方式取得收據。
 
-![image](assets/en/54.webp)
+![image](assets/en/055.webp)
 
 ### 存取代幣
 
 存取權限用於與特定電子商務整合或客製化整合配對。
 
-![image](assets/en/55.webp)
+![image](assets/en/056.webp)
 
 ### 使用者
 
 商店使用者是店主管理員工、他們的帳戶以及商店存取權限的地方。員工建立帳戶後，店主可以添加特定用戶到商店作為訪客用戶或店主。要進一步定義員工的角色，請參考下一節 「BTCPay 伺服器商店設定 - 角色」。
 
-![image](assets/en/56.webp)
+![image](assets/en/057.webp)
 
 ### 角色
 
@@ -1157,11 +1151,11 @@ Invoice 計時器預設為 15 分鐘。該計時器是一種防止波動的保�
 
 (1) 若要建立新角色，請按一下「+ 新增角色」按鈕。
 
-![image](assets/en/57.webp)
+![image](assets/en/058.webp)
 
 (2) 輸入角色名稱，例如「出納」。
 
-![image](assets/en/58.webp)
+![image](assets/en/059.webp)
 
 (3) 設定角色的個別權限。
 
@@ -1191,17 +1185,17 @@ Invoice 計時器預設為 15 分鐘。該計時器是一種防止波動的保�
 
 在建立角色時，角色名稱是固定的，在編輯模式下不能變更。
 
-![image](assets/en/59.webp)
+![image](assets/en/060.webp)
 
 ### Webhooks
 
 在BTCPay伺服器內，建立一個新的 "Webhook "是相當容易的。在 BTCPay Server 商店設置 - Webhooks 標籤中，店主可以通過點擊 「+ 創建 Webhook 」輕鬆創建新的 Webhook。Webhooks 允許 BTCPay 伺服器發送與您的商店相關的 HTTP 事件給其他伺服器或電子商務整合。
 
-![image](assets/en/60.webp)
+![image](assets/en/061.webp)
 
 現在您已進入建立 Webhook 的視圖。確保您知道您的有效載荷 URL，並將其粘貼到您的 BTCPay 伺服器。當您貼上有效負載 URL 時，下方會顯示 Webhook 秘訣。複製webhook secret並在端點上提供。一切設定完成後，您可以在 BTCPay Server 中切換到自動重新交付。我們將嘗試在 10 秒、1 分鐘以及 10 分鐘後重新傳送任何失敗的傳送，最多 6 次。您可以在每個事件之間切換，或根據您的需要指定事件。請務必啟用 webhook，並點擊「新增 webhook」儲存。
 
-![image](assets/en/61.webp)
+![image](assets/en/062.webp)
 
 Webhooks與Bitpay API不相容。在BTCPay伺服器中有兩個獨立的IPN（用BitPay的術語："Instant Payment Notifications"）。
 
@@ -1217,13 +1211,13 @@ Payout 處理器與 BTCPay 伺服器中的 Payouts 概念共同運作。支付�
 
 店主可以單擊並分別設定這兩個付款處理器。店主可能只想每 X 小時執行一次 On-Chain 處理器，而 off-chain 則可能每幾分鐘執行一次。對於 On-Chain，您也可以設定應該包含哪一區塊的目標。預設值為 1（或下一個可用區塊）。請注意，設定 off-chain 付款處理器只有間隔計時器，而沒有區塊目標。Lightning Network 的付款是即時的。
 
-![image](assets/en/62.webp)
+![image](assets/en/063.webp)
 
-![image](assets/en/63.webp)
+![image](assets/en/064.webp)
 
 店主只有在 Hot-Wallet 連接到其商店時，才能設定 On-Chain 處理器。
 
-![image](assets/en/64.webp)
+![image](assets/en/065.webp)
 
 在設置支付處理程序後，您可以返回BTCPay伺服器商店設置中的支付處理程序標籤，快速移除或修改該處理程序。
 
@@ -1235,7 +1229,7 @@ Payout 處理器與 BTCPay 伺服器中的 Payouts 概念共同運作。支付�
 
 BTCPay Server可以使用Email來發送通知，或者當設定正確時，可以恢復在實例上建立的賬戶，標準的BTCPay Server不會在密碼丟失時發送電子郵件，例如。
 
-![image](assets/en/65.webp)
+![image](assets/en/066.webp)
 
 在店主設定電子郵件規則以啟動其商店的特定事件之前，我們必須先設定一些基本的電子郵件設定。BTCPay 伺服器需要這些設定，才能針對您商店的事件或密碼重設發送電子郵件。
 
@@ -1250,7 +1244,7 @@ BTCPay伺服器使用 「快速填寫 」選項讓您更容易填寫這些資訊
 
 使用快速填寫選項，BTCPay伺服器會預先填寫SMTP伺服器和連接埠的欄位；現在，店主只需要填寫電子郵件Address、登入（通常等同於您的電子郵件Address）和密碼中的憑證。BTCPay 伺服器在電子郵件設定中提供的進階選項是停用 TLS 憑證安全檢查；預設為啟用。
 
-![image](assets/en/66.webp)
+![image](assets/en/067.webp)
 
 透過電子郵件規則，店主可以設定特定事件，以觸發電子郵件至特定的電子郵件地址。
 
@@ -1265,7 +1259,7 @@ BTCPay伺服器使用 「快速填寫 」選項讓您更容易填寫這些資訊
 
 如果客戶提供了電子郵件 Address，這些觸發器也可以將資訊傳送給客戶。店主可以預先填寫主旨行，以清楚說明這封 Email 發生的原因，以及是什麼觸發因素造成的。
 
-![image](assets/en/67.webp)
+![image](assets/en/068.webp)
 
 ### 表格
 
@@ -1273,11 +1267,11 @@ BTCPay伺服器使用 「快速填寫 」選項讓您更容易填寫這些資訊
 
 在創建新表單時，BTCPay伺服器會開啟一個新視窗，要求您提供新表單所要求的基本資訊。首先，店主需要給他們的新表單一個明確的名稱，這個名稱在設置後不能更改。
 
-![image](assets/en/68.webp)
+![image](assets/en/069.webp)
 
 在店主為表單命名後，您也可以將「允許公開使用表單」的開關切換到 ON，它就會變成 Green。這樣表單就可以在每個面向客戶的地方使用。舉例來說，如果店主不透過銷售點建立一個獨立的 Invoice，他可能仍想收集顧客的資訊；將此開關切換為 ON 就可以收集這些資訊。
 
-![image](assets/en/69.webp)
+![image](assets/en/070.webp)
 
 每個表單至少有一個新表單欄位。店主可以選擇欄位的類型；
 
@@ -1296,7 +1290,7 @@ BTCPay伺服器使用 「快速填寫 」選項讓您更容易填寫這些資訊
 
 每種類型都有其需要填寫的參數。店主可以依自己的喜好設定。在第一個建立的欄位下方，店主可以繼續新增新欄位。
 
-![image](assets/en/70.webp)
+![image](assets/en/071.webp)
 
 #### 進階自訂表單
 
@@ -1386,7 +1380,7 @@ BTCPay 伺服器包含兩個不同的設定檢視。一個是專門的商店設�
 
 BTCPay Server知道兩種自定義角色，在BTCPay Server設置中的特定商店自定義角色和全伺服器自定義角色。兩者都擁有相似的權限；但是，如果通過BTCpay伺服器設置 - 角色標籤設置，應用的角色將是全伺服器的，並應用於多個商店。注意在伺服器設定中的自訂角色有一個 "Server-wide "標籤。
 
-![image](assets/en/71.webp)
+![image](assets/en/072.webp)
 
 ### 伺服器範圍自訂角色
 
@@ -1424,13 +1418,13 @@ BTCPay Server知道兩種自定義角色，在BTCPay Server設置中的特定商
 
 伺服器範圍的電子郵件設定與特定於商店的電子郵件設定相似。然而，此設定不僅處理商店或管理員日誌的觸發器。此電子郵件設定也可讓 BTCPay 伺服器在登入時恢復密碼。它的工作原理與商店特定設定相似；管理員可以快速填寫他們的電子郵件參數，並輸入他們的電子郵件憑證，伺服器現在可以發送電子郵件。
 
-![image](assets/en/72.webp)
+![image](assets/en/073.webp)
 
 ### 政策
 
 BTCPay伺服器政策管理員可以對一些主題進行設置，如現有用戶設置、新用戶設置、通知設置和維護設置。這些都是為了將新用戶註冊為管理員或普通用戶，甚至通過添加到您的服務器標頭從搜索引擎中隱藏BTCPay服務器。
 
-![image](assets/en/73.webp)
+![image](assets/en/074.webp)
 
 #### 現有使用者設定
 
@@ -1444,7 +1438,7 @@ BTCPay伺服器政策管理員可以對一些主題進行設置，如現有用�
 - 允許非管理員為其商店匯入 Hot 錢包。
   - 與之前建立 Hot 錢包的主題類似，此政策允許匯入 Hot Wallet，但會有在建立 Hot 錢包部分提到的相同危險。
 
-![image](assets/en/74.webp)
+![image](assets/en/075.webp)
 
 #### 新使用者設定
 
@@ -1458,11 +1452,11 @@ BTCPay伺服器政策管理員可以對一些主題進行設置，如現有用�
 
 在預設情況下，BTCPay伺服器已打開禁止新用戶註冊，並關閉了非管理員對用戶創建API端點的訪問。這是出於安全方面的考慮，任何隨機找到您伺服器的BTCPay登入帳號的人都無法開始建立帳號。
 
-![image](assets/en/75.webp)
+![image](assets/en/076.webp)
 
 #### 通知設定
 
-![image](assets/en/76.webp)
+![image](assets/en/077.webp)
 
 #### 維護設定
 
@@ -1473,13 +1467,13 @@ BTCPay Server是GitHub上的開源專案。每當 BTCPay Server 發佈新版本�
 - 阻止搜尋引擎索引本網站
 - 啟用實驗功能。
 
-![image](assets/en/77.webp)
+![image](assets/en/078.webp)
 
 #### 外掛程式
 
 BTCPay Server可以添加插件並擴展其功能集。預設情況下，插件是從 BTCPay Server 插件生成器儲存庫載入的。但是，管理員可以選擇查看預發佈狀態的外掛，如果外掛開發人員允許，伺服器管理員現在可以安裝beta版本的外掛。
 
-![image](assets/en/78.webp)
+![image](assets/en/079.webp)
 
 ##### 自訂設定
 
@@ -1489,19 +1483,19 @@ BTCPay Server可以添加插件並擴展其功能集。預設情況下，插件�
 - 將應用程式顯示在網站的根目錄
   - 顯示要在根網域上顯示的可能應用程式清單。
 
-![image](assets/en/79.webp)
+![image](assets/en/080.webp)
 
 
 - 將特定網域對應到特定應用程式。
   - 當您點選為特定應用程式設定特定網域時，管理員可根據需要設定指向特定應用程式的多個網域。
 
-![image](assets/en/80.webp)
+![image](assets/en/081.webp)
 
 #### 區塊探索者
 
 BTCPay 伺服器標準配備 Mempool.space 作為交易的 Block explorer。當BTCPay伺服器產生一個新的Invoice，並有一個交易綁定到它，店主可以點擊打開交易；BTCPay伺服器將標準地指向Mempool.空間作為Block explorer；伺服器管理員可以根據自己的喜好進行更改。
 
-![image](assets/en/81.webp)
+![image](assets/en/082.webp)
 
 ### 服務
 
@@ -1509,7 +1503,7 @@ BTCPay服務器設置：服務 "標籤是您的BTCPay伺服器使用的組件的
 
 BTCPay伺服器管理員可以點擊每項服務後面的 "See information"（查看資訊）打開該服務，並進行特定的設置。
 
-![image](assets/en/82.webp)
+![image](assets/en/083.webp)
 
 #### LND (gRPC)
 
@@ -1528,7 +1522,7 @@ BTCPay 開放 LND 的 GRPC 服務供外部使用；您可在此特定設定選�
 
 #### LND (REST)
 
-BTCPay 開放 LND 的 REST 服務供外部使用；您可在此找到連線資訊；相容的錢包列於此。相容的錢包包括 Joule、Alby 和 ZeusLN。BTCPay 伺服器會提供一個 QR 代碼供連線使用，掃瞄後即可在相容的 Wallet 中使用。
+BTCPay 開放 LND 的 REST 服務供外部使用；您可[在此]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay)找到連線資訊；相容的錢包列[於此](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server)。相容的錢包包括 Joule、Alby 和 ZeusLN。BTCPay 伺服器會提供一個 QR 代碼供連線使用，掃瞄後即可在相容的 Wallet 中使用。
 
 
 - REST Uri
@@ -1571,13 +1565,13 @@ BTCPay Server 標準配備兩種主題：淺色和深色模式。您可以點擊
 
 管理員可以透過新增自訂 CSS 或將自訂主題設定為完全自訂來擴充 Light/Dark 主題。
 
-![image](assets/en/83.webp)
+![image](assets/en/084.webp)
 
 #### 伺服器品牌
 
 伺服器管理員可以通過設置一個全伺服器的公司品牌來改變BTCPay伺服器的品牌。由於 BTCPay Server 是 FOSS，伺服器管理員可以為軟件貼上白色標籤，並改變外觀以適應其業務。
 
-![image](assets/en/84.webp)
+![image](assets/en/085.webp)
 
 ### 維護
 
@@ -1585,31 +1579,31 @@ BTCPay Server 標準配備兩種主題：淺色和深色模式。您可以點擊
 
 BTCPay Server是一個開源專案，更新頻率高。每個新版本都會在您的BTCPay伺服器通知或BTCPay伺服器官方頻道中公佈。
 
-![image](assets/en/85.webp)
+![image](assets/en/086.webp)
 
 #### 網域名稱
 
 在 BTCPay 伺服器設定完成後，管理員可能會想要改變他原本的網域。在維護標籤中，管理員可以更改網域。在點擊確認並在網域上設置適當的DNS記錄後，BTCPay伺服器會更新並重新啟動以返回到新的網域。
 
-![image](assets/en/86.webp)
+![image](assets/en/087.webp)
 
 #### 重新啟動
 
 重新啟動 BTCPay 伺服器和相關服務。
 
-![image](assets/en/87.webp)
+![image](assets/en/088.webp)
 
 #### 清潔
 
 BTCPay 伺服器使用 Docker 元件執行；隨著更新，可能會有殘留的 Docker 映像檔、暫存檔案等。伺服器管理員可執行 Clean script 來清理這些殘留，並在環境中回收空間。
 
-![image](assets/en/88.webp)
+![image](assets/en/089.webp)
 
 #### 更新
 
 可能是維護標籤中最重要的選項。BTCPay Server由社群建立，因此其更新週期比一般軟體產品更為頻繁。當BTCPay Server有新版本時，管理員將會在他們的通知中心收到通知。點擊更新按鈕，BTCPay伺服器將檢查GitHub的最新版本，更新伺服器並重新啟動。在更新之前，建議伺服器管理員閱讀BTCPay伺服器官方渠道發布的版本說明。
 
-![image](assets/en/89.webp)
+![image](assets/en/090.webp)
 
 ### 日誌
 
@@ -1771,9 +1765,9 @@ BTCPay伺服器擁有本地檔案系統，可直接上載商店（產品）資�
 
 當伺服器管理員進入「檔案儲存」索引標籤時，可以直接上傳到您的伺服器，或將檔案儲存提供者變更為本機檔案系統或 Azure Blob Storage。
 
-![image](assets/en/90.webp)
+![image](assets/en/091.webp)
 
-![image](assets/en/91.webp)
+![image](assets/en/092.webp)
 
 ### 技能摘要
 
@@ -1813,7 +1807,7 @@ BTCPay Server的核心是能夠作為Bitcoin Invoice管理系統。Invoice是追
 
 除非您使用內建的 [Wallet](https://docs.btcpayserver.org/Wallet/) 來手動接收付款，否則商店內的所有付款都會顯示在 Invoices 頁面上。此頁面會依日期累積排序付款，是 Invoice 管理和付款疑難排解的核心部分。
 
-![image](assets/en/92.webp)
+![image](assets/en/093.webp)
 
 ### 一般
 
@@ -1914,13 +1908,13 @@ Invoice 計時器預設為 15 分鐘。該計時器是一種防止波動的保�
 - 說明 - 文字編輯器、資料表、嵌入照片與影片
 - 外觀 - 使用 CSS 主題的顏色和樣式
 
-![image](assets/en/93.webp)
+![image](assets/en/094.webp)
 
 #### 建立付款要求
 
 在左側功能表中，前往「付款申請」，然後按一下「建立付款申請」。
 
-![image](assets/en/94.webp)
+![image](assets/en/095.webp)
 
 提供請求名稱、金額、顯示面額、相關商店、到期時間和說明（選擇性）
 
@@ -1930,7 +1924,7 @@ Invoice 計時器預設為 15 分鐘。該計時器是一種防止波動的保�
 
 BTCPay 為付款請求建立一個 URL。分享此 URL 以查看您的付款請求。需要多個相同的請求嗎？您可以使用主菜單中的Clone選項複製付款請求。
 
-![image](assets/en/95.webp)
+![image](assets/en/096.webp)
 
 **WARNING**
 
@@ -1940,7 +1934,7 @@ BTCPay 為付款請求建立一個 URL。分享此 URL 以查看您的付款請�
 
 收款人和請求人可在傳送付款後檢視付款請求的狀態。如果已全額收到付款，狀態會顯示為已結清。如果只支付了部分款項，「應付金額」將顯示應付餘額。
 
-![image](assets/en/96.webp)
+![image](assets/en/097.webp)
 
 #### 自訂付款要求
 
@@ -2084,7 +2078,7 @@ BTCPay Server 可讓店主快速建立多種佈局的銷售點。BTCPay Server �
 
 當店主點擊左邊菜單欄中的 "Point of Sale "時，BTCPay伺服器會要求一個名稱；這個名稱會在左邊菜單欄中顯示。點擊 「創建 」以創建 PoS。
 
-![image](assets/en/97.webp)
+![image](assets/en/098.webp)
 
 #### 更新新建立的銷售點
 
@@ -2098,7 +2092,7 @@ BTCPay Server 可讓店主快速建立多種佈局的銷售點。BTCPay Server �
 
 當公眾訪問您的商店時，會看到公眾標題或名稱。BTCPay伺服器會將您的商店命名為 "Tea shop"。
 
-![image](assets/en/98.webp)
+![image](assets/en/099.webp)
 
 #### 選擇銷售點風格
 
@@ -2114,23 +2108,23 @@ BTCPay 伺服器能夠以多種方式顯示其銷售點。
 - 列印顯示 (可列印產品清單與 QR)
   - 如果您不能經常以數位方式顯示您的產品清單，您需要一個 「離線 」的產品解決方案；BTCPay伺服器有一個打印顯示功能，可以作為一個離線商店。
 
-![image](assets/en/99.webp)
+![image](assets/en/100.webp)
 
 #### 銷售點風格 - 產品清單
 
-![image](assets/en/100.webp)
+![image](assets/en/101.webp)
 
 #### 銷售點風格 - 產品清單 + 購物車
 
-![image](assets/en/101.webp)
+![image](assets/en/102.webp)
 
 #### 銷售點風格 - 僅鍵盤
 
-![image](assets/en/102.webp)
+![image](assets/en/103.webp)
 
 #### 銷售點風格 - 列印顯示
 
-![image](assets/en/103.webp)
+![image](assets/en/104.webp)
 
 #### 貨幣
 
@@ -2140,7 +2134,7 @@ BTCPay 伺服器能夠以多種方式顯示其銷售點。
 
 向全世界介紹您的商店；您賣什麼，賣多少錢？所有關於您商店的說明都在這裡。
 
-![image](assets/en/104.webp)
+![image](assets/en/105.webp)
 
 #### 產品
 
@@ -2162,7 +2156,7 @@ BTCPay 伺服器能夠以多種方式顯示其銷售點。
 
 店主也可以使用「原始編輯器」來設定產品。原始編輯器需要對 JSON 結構有基本的瞭解。
 
-![image](assets/en/105.webp)
+![image](assets/en/106.webp)
 
 #### 結帳
 
@@ -2196,7 +2190,7 @@ BTCPay 伺服器允許小規模的 PoS 特定結帳自訂。店主可以設定�
 
 通過BTCPay服務器左側的主菜單，點擊插件部分下方的Crowdfund插件。BTCPay Server現在會要求為Crowdfund命名；這個名稱也會顯示在左邊的菜單欄中。
 
-![image](assets/en/106.webp)
+![image](assets/en/107.webp)
 
 #### 更新新建立的銷售點
 
@@ -2214,7 +2208,7 @@ BTCPay 伺服器允許小規模的 PoS 特定結帳自訂。店主可以設定�
 
 給群眾募款一句話，讓大家認清募款的目的。
 
-![image](assets/en/107.webp)
+![image](assets/en/108.webp)
 
 #### 特色圖片 URL
 
@@ -2228,13 +2222,13 @@ BTCPay 伺服器允許小規模的 PoS 特定結帳自訂。店主可以設定�
 
 向全世界介紹您的集資，您集資的目的是什麼？在此說明您的集資。
 
-![image](assets/en/108.webp)
+![image](assets/en/109.webp)
 
 #### 集資目標
 
 設定籌款者應為專案賺取的目標，以及目標應以何種貨幣計價。確保如果您的目標設定在兩個日期之間，請將這些目標和結束日期包含在 crowdfund 中的目標下方。
 
-![image](assets/en/109.webp)
+![image](assets/en/110.webp)
 
 #### 福利
 
@@ -2254,7 +2248,7 @@ BTCPay 伺服器允許小規模的 PoS 特定結帳自訂。店主可以設定�
 
 店主填入新建立的福利的所有欄位後，按一下儲存，您會發現眾人集資中的福利一欄現在已被填入。
 
-![image](assets/en/110.webp)
+![image](assets/en/111.webp)
 
 ### BTCPay 伺服器 - 銷售點
 
@@ -2435,11 +2429,11 @@ https://docs.btcpayserver.org。
 
 首先，前往 LunaNode.com 網站，在此建立新帳戶。按一下右上方的「註冊」或使用其首頁上的「開始使用」精靈。
 
-![image](assets/en/111.webp)
+![image](assets/en/112.webp)
 
 在您建立新帳戶後，LunaNode 會寄發一封驗證電子郵件。一旦您驗證帳戶，與 Voltage 相比，您會立即收到充值帳戶餘額的提示。這筆餘額需要用來支付伺服器空間和託管費用。
 
-![image](assets/en/112.webp)
+![image](assets/en/113.webp)
 
 #### 為您的 LunaNode 帳戶增加點數
 
@@ -2457,7 +2451,7 @@ https://docs.btcpayserver.org。
 
 建立 API 認證後，您會得到一長串字母和字元。這就是您的 API 金鑰。
 
-![image](assets/en/113.webp)
+![image](assets/en/114.webp)
 
 #### 如何部署新伺服器？
 
@@ -2467,7 +2461,7 @@ https://docs.btcpayserver.org。
 
 回到有 Launcher 的頁面，在欄位中填入您的 API 金鑰和 ID，然後按一下繼續。
 
-![image](assets/en/114.webp)
+![image](assets/en/115.webp)
 
 在下一步，您可以提供一個域名。如果您已經擁有一個網域名稱，並希望將其用於 BTCPay 伺服器，請確保您也在您的網域名稱上新增 DNS 記錄 (稱為 `A` 記錄)。如果您沒有網域，請使用 LunaNode 提供的網域 (您可以稍後在 BTCPay 伺服器設定中變更)，然後按繼續。
 
@@ -2481,7 +2475,7 @@ https://docs.btcpayserver.org。
 
 選擇您的 Lightning 實作。LunaNode 提供兩種不同的實作，LND 和 Core Lightning。在本指南中，我們將採用 LND。這兩種實現方式的差異不大，但確實存在差異；如需瞭解更多，建議閱讀廣泛的說明文件；https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln。
 
-![image](assets/en/115.webp)
+![image](assets/en/116.webp)
 
 LunaNode 提供多種虛擬機 (VM) 計劃。這些在價格範圍和伺服器規格上都有所不同。在本指南中，使用 m2 計劃即可；但是，如果您勾選的貨幣不只是 Bitcoin，請考慮至少使用 m4。
 
@@ -2491,7 +2485,7 @@ LunaNode 提供多種虛擬機 (VM) 計劃。這些在價格範圍和伺服器�
 
 創建過程結束後，點擊您的BTCPay服務器鏈接；在此，您將被要求創建一個管理員帳戶。
 
-![image](assets/en/116.webp)
+![image](assets/en/117.webp)
 
 ### 技能摘要
 
@@ -2521,15 +2515,15 @@ https://docs.btcpayserver.org。
 
 首先，前往 Voltage.cloud 網站註冊新帳戶。建立帳戶時，您可以註冊 7 天免費試用。點擊右上方的註冊或使用其首頁上的 「免費試用 7 天」。
 
-![image](assets/en/117.webp)
+![image](assets/en/118.webp)
 
 建立帳戶後，按一下儀表板上的 `NODES` 按鈕。一旦我們選擇了節點並建立了一個新的節點，我們就會看到Voltage提供的可能的節點。由於本指南也會介紹LightningNetwork，在Voltage，我們首先要選擇我們的Lightning實現，然後再創建一個BTCPay服務器。點擊 LightningNode。
 
-![image](assets/en/118.webp)
+![image](assets/en/119.webp)
 
 在這裡，您必須選擇想要哪一種 Lightning 節點。Voltage 為您的燈光設定提供了多種選項。這在使用 LunaNode 部署時有所不同。就本指南而言，使用 Lite 節點就足夠了。閱讀更多關於 Voltage.cloud 的差異。
 
-![image](assets/en/119.webp)
+![image](assets/en/120.webp)
 
 為您的節點命名、設定密碼，並保護此密碼。如果此密碼丟失，您將無法存取備份，而 Voltage 也無法復原。建立節點，Voltage 會向您顯示進度。Voltage 已為您建立了 Lightning 節點。現在我們可以建立 BTCPay 伺服器實例，並直接存取 Lightning Network。
 
@@ -2537,7 +2531,7 @@ https://docs.btcpayserver.org。
 
 Voltage 顯示您 BTCPay 伺服器的地理位置，voltage 主機位於美國西部地區。在此，您還可以看到伺服器的託管費用。點擊 「創建 」並給您的BTCPay服務器命名。啟用 Lightning，Voltage 會顯示上一步所建立的 Lightning 節點。點擊Create，Voltage會創建一個BTCPay伺服器實例。
 
-![image](assets/en/120.webp)
+![image](assets/en/121.webp)
 
 按下建立後，Voltage 會顯示預設的使用者名稱和密碼。這些與您之前在 Voltage 設定的密碼相似。點擊 「登錄到帳戶 」按鈕，您將被重定向到您的BTCPay服務器。
 
@@ -2565,17 +2559,17 @@ Voltage 和 LunaNode 設定之間有哪些主要差異？
 
 https://umbrel.com/
 
-![image](assets/en/121.webp)
+![image](assets/en/122.webp)
 
 ### BTCPay 伺服器 - Umbrel 部署
 
 當您的 Umbrel 節點與 Bitcoin Blockchain 完全同步後，前往 Umbrel App Store，在 Apps 下方搜尋 BTCPay Server。
 
-![image](assets/en/122.webp)
+![image](assets/en/123.webp)
 
 點擊BTCPay Server查看App詳情。當 BTCPay Server 的詳細資料開啟時，右下方會顯示應用程式正常執行的需求。它顯示需要Bitcoin和Lightning節點。如果您尚未在Umbrel上安裝Lightning節點，請點擊 「安裝」。這個過程可能需要幾分鐘。
 
-![image](assets/en/123.webp)
+![image](assets/en/124.webp)
 
 安裝您的 Lightning Node 之後：
 
@@ -2585,13 +2579,13 @@ https://umbrel.com/
 
 3.把這些寫下來。
 
-![image](assets/en/124.webp)
+![image](assets/en/125.webp)
 
 Umbrel會要求驗證剛才寫下的字。Lightning 節點設定完成後，回到 Umbrel App Store 並找到 BTCPay Server。點擊安裝按鈕，Umbrel會顯示是否已安裝所需的元件，以及BTCPay Server需要存取這些元件。安裝完成後，點擊App詳情右上方的開啟或通過您的Umbrels儀表板開啟BTCPay Server。
 
 Umbrel 會要求確認剛才寫下來的字。
 
-![image](assets/en/125.webp)
+![image](assets/en/126.webp)
 
 **注意！**
 
@@ -2599,11 +2593,11 @@ Umbrel 會要求確認剛才寫下來的字。
 
 Lightning 節點設定完成後，返回 Umbrel App Store 並找到 BTCPay Server。點擊安裝按鈕，Umbrel會顯示是否已安裝所需的元件，以及BTCPay Server是否需要存取這些元件。
 
-![image](assets/en/126.webp)
+![image](assets/en/127.webp)
 
 安裝完成後，點擊App詳細資料右上方的開啟或通過您的Umbrels儀表板開啟BTCPay伺服器。
 
-![image](assets/en/127.webp)
+![image](assets/en/128.webp)
 
 ### 技能摘要
 

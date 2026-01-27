@@ -147,4 +147,4 @@ Immagina di scrivere al nostro utente `EBC5604D9386E594CCC32943A03F96A96687FBD46
 
 Se ti è piaciuto scoprire Tox e sei riuscito a capire come è utile per rafforzare la tua privacy, non esitare a dare un pollice in su a questo tutorial. Ti consigliamo anche il nostro tutorial su Simple Login, uno strumento che consente di ricevere e inviare e-mail in modo anonimo.
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

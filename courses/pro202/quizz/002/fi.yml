@@ -1,0 +1,8 @@
+question: Mikä on Fermat'n pienen lauseen mukaan alkion n multiplikatiivinen käänteisluku alkukentässä F(p)?
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  Fermat'n pienen lauseen mukaan n^(p-1) ≡ 1 (mod p) mille tahansa nollasta poikkeavalle alkion n alkuluvulle alkulukukentässä. Kertolaskun käänteisluvun löytämiseksi tarvitaan arvo, joka kerrottuna n:llä antaa arvon 1. Koska n^(p-1) ≡ 1, voimme kirjoittaa tämän uudelleen muotoon n - n^(p-2) ≡ 1, mikä osoittaa, että n^(p-2) on n:n multiplikatiivinen käänteisluku. Muut vaihtoehdot ovat virheellisiä: n^(p-1) on Fermat'n lauseen mukaan yhtä kuin 1, kun taas n^(p+1) ja n^(p+2) antaisivat arvot, jotka vastaavat n^2:ta ja n^3:a, kun ne vähennetään modulo p:hen.

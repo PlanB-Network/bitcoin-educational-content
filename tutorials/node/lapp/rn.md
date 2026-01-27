@@ -29,7 +29,7 @@ Kugira ngo twubake app yacu ya Lightning, tuzoba turiko turakoresha ubuhinga buk
 - Ivyitegererezo vya Pug + bootstrap y'imbere yacu
 
 
-https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Uburyo bwo gukoresha
 

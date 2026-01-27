@@ -6,4 +6,4 @@ wrong_answers:
   - Crear una etiqueta, luego usar una clave pública para encriptarla
 explanation: |
   Para asegurar la seguridad, la encriptación autenticada debe primero encriptar el mensaje, luego generar una etiqueta en el texto encriptado. Otros órdenes son potencialmente vulnerables.
-reviewed: false
+reviewed: true

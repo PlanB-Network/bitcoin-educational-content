@@ -1,0 +1,8 @@
+question: Hva er hovedformålet med sukk-konstruksjonsprosessen i Bitcoin-transaksjonsvalidering?
+answer: For å opprette nøyaktig den samme meldingen som opprinnelig ble signert med den private nøkkelen for signaturverifisering
+wrong_answers:
+  - Til generate en unik identifikator for transaksjonen som forhindrer double-spending-angrep
+  - Komprimere transaksjonsdataene til et mindre format for effektiv nettverksoverføring
+  - Kryptere innholdet i transaksjonen slik at bare mottakeren kan dekryptere og bruke myntene
+explanation: |
+  Sighash-konstruksjonen oppretter den nøyaktige meldingen som ble signert med den private nøkkelen, slik at OP_CHECKSIG kan verifisere signaturens autentisitet. Denne prosessen innebærer å tømme ScriptSigs, erstatte den gjeldende inputens ScriptSig med den tilsvarende ScriptPubKey, og legge til en hashtype før dobbel hashing. De andre alternativene er feil: transaksjons-ID-er fungerer som identifikatorer, komprimering håndteres separat, og Bitcoin-transaksjoner er ikke krypterte, men offentlig synlige på blokkjeden.

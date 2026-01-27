@@ -111,7 +111,7 @@ La instalación de Fedora Workstation requiere la siguiente configuración de ha
 
 
 
-Puede descargar la edición [Fedora Workstation] (https://fedoraproject.org/fr/workstation/download) desde el sitio web oficial del proyecto Fedora. A continuación, seleccione la versión correspondiente a la arquitectura de su procesador (32 bits - 64 bits) y haga clic en el icono **Descargar**.
+Puede descargar la edición [Fedora Workstation](https://fedoraproject.org/fr/workstation/download) desde el sitio web oficial del proyecto Fedora. A continuación, seleccione la versión correspondiente a la arquitectura de su procesador (32 bits - 64 bits) y haga clic en el icono **Descargar**.
 
 
 
@@ -441,4 +441,4 @@ Ahora tu sistema Fedora está actualizado y listo para usar en todas tus tareas 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5

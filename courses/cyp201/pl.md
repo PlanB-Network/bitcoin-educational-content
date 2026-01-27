@@ -1,13 +1,11 @@
 ---
-name: Wewnętrzne działanie portfeli Bitcoin
+name: Architektura portfela Bitcoin
 goal: Zanurz się w zasadach kryptograficznych, które zasilają portfele Bitcoin.
-objectives: 
-
-  - Zdefiniowanie pojęć teoretycznych niezbędnych do zrozumienia algorytmów kryptograficznych używanych w Bitcoin.
-  - Pełne zrozumienie budowy deterministycznego i hierarchicznego Wallet.
-  - Wie, jak zidentyfikować i ograniczyć ryzyko związane z zarządzaniem Wallet.
-  - Zrozumienie zasad działania funkcji Hash, kluczy kryptograficznych i podpisów cyfrowych.
-
+objectives:
+- Zdefiniowanie pojęć teoretycznych niezbędnych do zrozumienia algorytmów kryptograficznych używanych w Bitcoin.
+- Pełne zrozumienie budowy deterministycznego i hierarchicznego Wallet.
+- Wie, jak zidentyfikować i ograniczyć ryzyko związane z zarządzaniem Wallet.
+- Zrozumienie zasad działania funkcji Hash, kluczy kryptograficznych i podpisów cyfrowych.
 ---
 
 # Podróż do serca portfeli Bitcoin
@@ -38,6 +36,8 @@ Dzięki jasnej pedagogice, ponad 60 diagramom wyjaśniającym i konkretnym przyk
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 
 Witamy w kursie CYP201, w którym dogłębnie zbadamy działanie portfeli HD Bitcoin. Ten kurs jest przeznaczony dla każdego, kto chce zrozumieć techniczne podstawy korzystania z Bitcoin, niezależnie od tego, czy są zwykłymi użytkownikami, oświeconymi entuzjastami, czy przyszłymi ekspertami.
 
@@ -47,7 +47,7 @@ Celem tego szkolenia jest przekazanie ci kluczy do opanowania narzędzi, z któr
 
 Zanim zagłębimy się w szczegóły budowy i działania portfeli Bitcoin, zaczniemy od kilku rozdziałów na temat prymitywów kryptograficznych, które warto znać.
 
-Zaczniemy od kryptograficznych funkcji Hash, fundamentalnych zarówno dla portfeli, jak i samego protokołu Bitcoin. Odkryjesz ich główne cechy, konkretne funkcje używane w Bitcoin, a w bardziej technicznym rozdziale poznasz szczegółowo działanie królowej funkcji Hash: SHA256.
+Zaczniemy od kryptograficznych funkcji Hash, fundamentalnych zarówno dla portfeli, jak i samego protokołu Bitcoin. Odkryjesz ich główne cechy, konkretne funkcje używane w Bitcoin, a w bardziej technicznym rozdziale poznasz szczegółowo działanie królowej funkcji Hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
@@ -65,7 +65,7 @@ Kiedy już dobrze zrozumiemy te Elements kryptografii, przejdziemy wreszcie do s
 ![CYP201](assets/en/003.webp)
 
 
-Szkolenie będzie kontynuowane wraz z badaniem BIP39 passphrase, seed (nie mylić z frazą Mnemonic), głównego kodu łańcucha i klucza głównego. Zobaczymy szczegółowo, czym są te Elements, jakie są ich role i jak są obliczane.
+Szkolenie będzie kontynuowane wraz z badaniem [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase, seed (nie mylić z frazą Mnemonic), głównego kodu łańcucha i klucza głównego. Zobaczymy szczegółowo, czym są te Elements, jakie są ich role i jak są obliczane.
 
 
 ![CYP201](assets/en/004.webp)
@@ -118,6 +118,8 @@ Ta tabela oferuje tłumaczenie głównych używanych terminów angielskich, aby 
 
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 
 Pierwszy rodzaj algorytmów kryptograficznych wykorzystywanych w Bitcoin obejmuje funkcje Hash. Odgrywają one istotną rolę na różnych poziomach protokołu, ale także w portfelach Bitcoin. Odkryjmy razem, czym jest funkcja Hash i do czego służy w Bitcoin.
@@ -281,6 +283,8 @@ Teraz znasz już podstawowe podstawy funkcji haszujących. W następnym rozdzial
 
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
 
 
 Wcześniej widzieliśmy, że funkcje haszujące mają ważne cechy, które uzasadniają ich użycie w Bitcoin. Przeanalizujmy teraz wewnętrzne mechanizmy tych funkcji haszujących, które nadają im te właściwości, a w tym celu proponuję przeanalizować działanie SHA256.
@@ -785,6 +789,8 @@ Teraz, gdy szczegółowo przyjrzeliśmy się działaniu funkcji Hash, w szczegó
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 
 W Bitcoin na poziomie aplikacji, oprócz funkcji Hash, kryptograficzne algorytmy pochodne są wykorzystywane do generate zabezpieczania danych przed początkowymi danymi wejściowymi. Chociaż algorytmy te opierają się na funkcjach Hash, służą innym celom, zwłaszcza w zakresie uwierzytelniania i generowania kluczy. Algorytmy te zachowują niektóre cechy funkcji Hash, takie jak nieodwracalność, odporność na manipulacje i odporność na kolizje.
 
@@ -918,6 +924,8 @@ W tym rozdziale przeanalizowaliśmy funkcje HMAC-SHA512 i PBKDF2, które wykorzy
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
+
 
 Druga metoda kryptograficzna stosowana w Bitcoin obejmuje algorytmy podpisu cyfrowego. Przyjrzyjmy się, co to oznacza i jak to działa.
 
@@ -941,7 +949,7 @@ Użytkownik, który chce dokonać transakcji Bitcoin, musi zatem utworzyć podpi
 W rezultacie użytkownik posiadający bitcoiny zablokowane kluczem publicznym musi znaleźć sposób na bezpieczne przechowywanie tego, co umożliwia odblokowanie jego środków: klucza prywatnego. Bitcoin Wallet to właśnie urządzenie, które pozwoli ci łatwo przechowywać wszystkie klucze bez dostępu do nich innych osób. Przypomina więc bardziej brelok do kluczy niż Wallet.
 
 
-Matematyczne powiązanie między kluczem publicznym a kluczem prywatnym, a także możliwość wykonania podpisu w celu udowodnienia posiadania klucza prywatnego bez jego ujawniania, są możliwe dzięki algorytmowi podpisu cyfrowego. W protokole Bitcoin stosowane są dwa algorytmy podpisu: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) oraz **Schnorr signature scheme**. ECDSA jest protokołem podpisu cyfrowego używanym w Bitcoin od jego początków. Schnorr jest nowszy w Bitcoin, ponieważ został wprowadzony w listopadzie 2021 r. wraz z aktualizacją Taproot.
+Matematyczne powiązanie między kluczem publicznym a kluczem prywatnym, a także możliwość wykonania podpisu w celu udowodnienia posiadania klucza prywatnego bez jego ujawniania, są możliwe dzięki algorytmowi podpisu cyfrowego. W protokole Bitcoin stosowane są dwa algorytmy podpisu: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) oraz **Schnorr signature scheme**. ECDSA jest protokołem podpisu cyfrowego używanym w Bitcoin od jego początków. Schnorr jest nowszy w Bitcoin, ponieważ został wprowadzony w listopadzie 2021 r. wraz z aktualizacją Taproot.
 
 Te dwa algorytmy są dość podobne w swoich mechanizmach. Oba opierają się na kryptografii krzywej eliptycznej. Główna różnica między tymi dwoma protokołami polega na strukturze podpisu i pewnych specyficznych właściwościach matematycznych. Przeanalizujemy zatem działanie tych algorytmów, zaczynając od najstarszego: ECDSA.
 
@@ -1047,15 +1055,17 @@ Używamy skończonego pola liczb całkowitych modulo $p$, aby zapewnić dokładn
 Matematyka krzywych eliptycznych nad skończonymi polami jest analogiczna do tych nad polem liczb rzeczywistych, z tą różnicą, że wszystkie operacje są wykonywane modulo $p$. Aby uprościć wyjaśnienia, w kolejnych rozdziałach będziemy kontynuować ilustrowanie pojęć za pomocą krzywej zdefiniowanej na liczbach rzeczywistych, pamiętając jednocześnie, że w praktyce krzywa jest zdefiniowana na skończonym polu.
 
 
-Jeśli chcesz dowiedzieć się więcej o matematycznych podstawach współczesnej kryptografii, polecam również zapoznanie się z tym innym kursem na Plan ₿ Network:
+Jeśli chcesz dowiedzieć się więcej o matematycznych podstawach współczesnej kryptografii, polecam również zapoznanie się z tym innym kursem na Plan ₿ Academy:
 
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Obliczanie klucza publicznego na podstawie klucza prywatnego
 
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
 Jak już wcześniej wspomniano, algorytmy podpisu cyfrowego w Bitcoin opierają się na parze kluczy prywatnych i publicznych, które są ze sobą powiązane matematycznie. Zbadajmy razem, czym jest to matematyczne powiązanie i jak są one generowane.
 
@@ -1241,6 +1251,8 @@ Oczywiście, w tym uproszczonym przykładzie z $k = 4$, możliwe byłoby znalezi
 
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 
 Teraz, gdy już wiesz, jak wyprowadzić klucz publiczny z klucza prywatnego, możesz już otrzymywać bitcoiny, używając tej pary kluczy jako warunku wydawania. Ale jak je wydać? Aby wydać bitcoiny, musisz odblokować _scriptPubKey_ dołączony do UTXO, aby udowodnić, że rzeczywiście jesteś jego prawowitym właścicielem. Aby to zrobić, musisz stworzyć podpis $s$, który pasuje do klucza publicznego $K$ obecnego w _scriptPubKey_ przy użyciu klucza prywatnego $k$, który został pierwotnie użyty do obliczenia $K$. Podpis cyfrowy jest zatem niepodważalnym dowodem na to, że jesteś w posiadaniu klucza prywatnego powiązanego z kluczem publicznym, o który się ubiegasz.
@@ -1550,6 +1562,8 @@ Cóż, tak naprawdę nie wiemy, dlaczego Satoshi go nie wybrał, ale prawdopodob
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 
 Jak widzieliśmy w poprzednich rozdziałach, podpisy cyfrowe są często używane do odblokowania skryptu danych wejściowych. W procesie podpisywania konieczne jest uwzględnienie podpisanych danych w obliczeniach, oznaczonych w naszych przykładach komunikatem $m$. Dane te, po podpisaniu, nie mogą być modyfikowane bez unieważnienia podpisu. Rzeczywiście, czy to w przypadku ECDSA, czy Schnorra, weryfikator podpisu musi uwzględnić w swoich obliczeniach tę samą wiadomość $m$. Jeśli różni się ona od wiadomości $m$ pierwotnie użytej przez podpisującego, wynik będzie nieprawidłowy, a podpis zostanie uznany za nieważny. Mówi się zatem, że podpis obejmuje pewne dane i chroni je w pewien sposób przed nieautoryzowanymi modyfikacjami.
 
@@ -1642,7 +1656,7 @@ Jeśli ta flaga sighash zostanie zintegrowana z Bitcoin, umożliwi to korzystani
 Aby pogłębić swoją wiedzę na temat Lightning Network, po kursie CYP201 gorąco polecam kurs LNP201 autorstwa Fanisa Michalakisa, który szczegółowo omawia ten temat:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 W następnej części proponuję odkryć, jak działa fraza Mnemonic u podstawy Bitcoin Wallet.
 
@@ -1657,6 +1671,8 @@ W następnej części proponuję odkryć, jak działa fraza Mnemonic u podstawy 
 
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
+
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
 
 
 Teraz, gdy zbadaliśmy działanie funkcji Hash i podpisów cyfrowych, możemy zbadać, jak działają portfele Bitcoin. Celem będzie opisanie, w jaki sposób skonstruowany jest Wallet w Bitcoin, jak jest dekomponowany i do czego służą różne informacje, które go tworzą. Zrozumienie mechanizmów Wallet pozwoli ci ulepszyć korzystanie z Bitcoin pod względem bezpieczeństwa i prywatności.
@@ -1691,10 +1707,10 @@ Jeśli ktoś chciał użyć wielu kluczy prywatnych, konieczne było utworzenie 
 Ograniczenie to wynika z modelu prywatności Bitcoin. Ponowne użycie tego samego Address ułatwia zewnętrznym obserwatorom śledzenie transakcji Bitcoin. Dlatego też ponowne użycie otrzymującego Address jest zdecydowanie odradzane. Aby jednak mieć wiele adresów i publicznie oddzielić nasze transakcje, konieczne jest zarządzanie wieloma kluczami prywatnymi. W przypadku portfeli JBOK oznacza to tworzenie tylu kopii zapasowych, ile jest nowych par kluczy, co może szybko stać się skomplikowane i trudne w utrzymaniu dla użytkowników.
 
 
-Aby dowiedzieć się więcej o modelu prywatności Bitcoin i odkryć metody ochrony swojej prywatności, polecam również śledzenie mojego kursu BTC204 na temat Plan ₿ Network:
+Aby dowiedzieć się więcej o modelu prywatności Bitcoin i odkryć metody ochrony swojej prywatności, polecam również śledzenie mojego kursu BTC204 na temat Plan ₿ Academy:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Portfele HD
 
@@ -1724,6 +1740,8 @@ W nadchodzących rozdziałach zbadamy wewnętrzne działanie portfeli HD, w tym 
 
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
+
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
 Nowoczesne portfele HD polegają na pojedynczej początkowej informacji zwanej "entropią" w celu deterministycznego generate całego zestawu kluczy Wallet. Ta entropia jest liczbą pseudolosową, która częściowo określa bezpieczeństwo Wallet.
 
@@ -1764,6 +1782,8 @@ W następnym rozdziale zobaczymy, jak przejść od losowej liczby do frazy Mnemo
 
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
 Fraza Mnemonic, zwana również "frazą seed", "frazą odzyskiwania", "tajną frazą" lub "24-słowną frazą", to sekwencja składająca się zwykle z 12 lub 24 słów, która jest generowana na podstawie entropii. Jest ona używana do deterministycznego wyprowadzenia wszystkich kluczy HD Wallet. Oznacza to, że na podstawie tej frazy możliwe jest deterministyczne generate i odtworzenie wszystkich kluczy prywatnych i publicznych Bitcoin Wallet, a w konsekwencji uzyskanie dostępu do chronionych nim środków. Celem frazy Mnemonic jest zapewnienie sposobu tworzenia kopii zapasowych i odzyskiwania bitcoinów, który jest zarówno bezpieczny, jak i łatwy w użyciu. Został on wprowadzony w 2013 roku wraz ze standardem BIP39.
 
@@ -1835,7 +1855,7 @@ Na przykład, dla 256-bitowej entropii, wynik $\text{ENT} \Vert \text{CS}$ wynos
 ### Konwersja sekwencji binarnej na frazę Mnemonic
 
 
-Sekwencja bitów $\text{ENT} \Vert \text{CS}$ jest następnie dzielony na segmenty po 11 bitów. Każdy 11-bitowy segment, po przekonwertowaniu na liczbę dziesiętną, odpowiada liczbie od 0 do 2047, która wyznacza pozycję słowa [na liście 2048 słów znormalizowanej przez BIP39] (https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Sekwencja bitów $\text{ENT} \Vert \text{CS}$ jest następnie dzielony na segmenty po 11 bitów. Każdy 11-bitowy segment, po przekonwertowaniu na liczbę dziesiętną, odpowiada liczbie od 0 do 2047, która wyznacza pozycję słowa [na liście 2048 słów znormalizowanej przez BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)
@@ -1900,7 +1920,7 @@ W rezultacie wybór 24-wyrazowej frazy nie zapewnia dodatkowej ochrony dla Walle
 Aby przejść dalej i dowiedzieć się konkretnie, jak ręcznie generate frazę testową Mnemonic, radzę zapoznać się z tym samouczkiem:
 
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Przed kontynuowaniem wyprowadzania Wallet z tej frazy Mnemonic, w następnym rozdziale przedstawię ci BIP39 passphrase, ponieważ odgrywa on rolę w procesie wyprowadzania i jest na tym samym poziomie co fraza Mnemonic.
 
@@ -1909,6 +1929,8 @@ Przed kontynuowaniem wyprowadzania Wallet z tej frazy Mnemonic, w następnym roz
 
 
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
+
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
 
 Jak właśnie zauważyliśmy, portfele HD są generowane na podstawie frazy Mnemonic składającej się zazwyczaj z 12 lub 24 słów. Fraza ta jest bardzo ważna, ponieważ pozwala na przywrócenie wszystkich kluczy Wallet w przypadku utraty jego fizycznego urządzenia (na przykład Hardware Wallet). Stanowi jednak pojedynczy punkt awarii, ponieważ jeśli zostanie naruszony, atakujący może ukraść wszystkie bitcoiny. W tym miejscu do gry wkracza BIP39 passphrase.
@@ -1965,6 +1987,8 @@ W następnej sekcji dowiemy się, w jaki sposób te dwa Elements u podstawy Wall
 
 
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 
 Po wygenerowaniu frazy Mnemonic i opcjonalnego passphrase można rozpocząć proces wyprowadzania Bitcoin HD Wallet. Fraza Mnemonic jest najpierw konwertowana na seed, który stanowi podstawę wszystkich kluczy Wallet.
@@ -2073,6 +2097,8 @@ Przed kontynuowaniem wyprowadzania HD Wallet z następującym Elements, chciałb
 ## Rozszerzone klucze
 
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 
 Klucz rozszerzony jest po prostu połączeniem klucza (prywatnego lub publicznego) i powiązanego z nim kodu łańcuchowego. Ten kod łańcucha jest niezbędny do wyprowadzenia kluczy podrzędnych, ponieważ bez niego niemożliwe jest wyprowadzenie kluczy podrzędnych z klucza nadrzędnego, ale proces ten omówimy dokładniej w następnym rozdziale. Te rozszerzone klucze umożliwiają zatem agregowanie wszystkich niezbędnych informacji w celu uzyskania kluczy podrzędnych, upraszczając w ten sposób zarządzanie kontami w HD Wallet.
@@ -2239,6 +2265,8 @@ W tym rozdziale dowiedzieliśmy się, że istnieją dwa różne typy kluczy poto
 ## Tworzenie par kluczy podrzędnych
 
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 
 Wyprowadzanie par kluczy potomnych w portfelach Bitcoin HD opiera się na hierarchicznej strukturze, która umożliwia generowanie dużej liczby kluczy, jednocześnie organizując te pary w różne grupy za pomocą gałęzi. Każda para potomna wywodząca się z pary nadrzędnej może być użyta bezpośrednio w *scriptPubKey* do zablokowania bitcoinów lub jako punkt wyjścia do generate kolejnych kluczy potomnych, i tak dalej, w celu utworzenia drzewa kluczy.
@@ -2498,6 +2526,8 @@ Do tej pory nauczyłeś się tworzyć podstawowy Elements z HD Wallet: frazę Mn
 
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 
 Hierarchiczna struktura portfeli HD w Bitcoin pozwala na organizację par kluczy na różne sposoby. Pomysł polega na wyprowadzeniu, z głównego klucza prywatnego i głównego kodu łańcucha, kilku poziomów głębokości. Każdy dodany poziom odpowiada wyprowadzeniu pary kluczy podrzędnych z pary kluczy nadrzędnych.
 
@@ -2631,6 +2661,8 @@ W następnym rozdziale odkryjemy, czym są "* deskryptory skryptu wyjścia*", ni
 
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
 
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 Często mówi się, że sama fraza Mnemonic jest wystarczająca do odzyskania dostępu do Wallet. W rzeczywistości sprawy są nieco bardziej złożone. W poprzednim rozdziale przyjrzeliśmy się strukturze derywacji HD Wallet i być może zauważyłeś, że proces ten jest dość złożony. Ścieżki derywacji informują oprogramowanie, w którym kierunku należy podążać, aby uzyskać klucze użytkownika. Jednak podczas odzyskiwania Bitcoin Wallet, jeśli ktoś nie zna tych ścieżek, sama fraza Mnemonic nie wystarczy. Umożliwia ona uzyskanie klucza głównego i kodu łańcucha głównego, ale konieczna jest znajomość indeksów użytych do uzyskania kluczy podrzędnych.
 
 
@@ -2696,6 +2728,8 @@ Wiesz już wszystko o działaniu portfeli HD w Bitcoin i procesie tworzenia par 
 
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
+
 
 Adresy odbiorcze to informacje osadzone w *scriptPubKey* w celu zablokowania nowo utworzonych UTXO. Mówiąc prościej, Address służy do odbierania bitcoinów. Przeanalizujmy ich działanie w połączeniu z tym, co studiowaliśmy w poprzednich rozdziałach.
 
@@ -2715,20 +2749,22 @@ Gdy użytkownik otrzymuje bitcoiny, nadawca tworzy UTXO i blokuje go za pomocą 
 To właśnie w *scriptPubKey* znajdują się adresy odbiorcze. Ich wykorzystanie różni się jednak w zależności od przyjętego standardu skryptu. Poniżej znajduje się tabela podsumowująca informacje zawarte w *scriptPubKey* w zależności od używanego standardu, a także informacje oczekiwane w *scriptSig* w celu odblokowania *scriptPubKey*.
 
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Arbitrary data     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Źródło: Klub przeglądowy Bitcoin Core PR, 7 lipca 2021 r. - Gloria Zhao*
 
+
+| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Dowolne dane | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Źródło: Bitcoin Core PR review club z 7 lipca 2021 – Gloria Zhao_
 
 Kody operacyjne używane w skrypcie są przeznaczone do manipulowania informacjami oraz, w razie potrzeby, do ich porównywania lub testowania. Weźmy przykład skryptu P2PKH, który wygląda następująco:
 
@@ -2880,6 +2916,8 @@ Skoro omówiliśmy już teorię, przejdźmy do praktyki! W następnym rozdziale 
 ## Pochodna Address
 
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 
 Przeanalizujmy razem, w jaki sposób generate może odebrać Address z pary kluczy znajdujących się na przykład na głębokości 5 w HD Wallet. Ten Address może być następnie użyty w oprogramowaniu Wallet do zablokowania UTXO.

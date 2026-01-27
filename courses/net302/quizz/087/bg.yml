@@ -1,0 +1,9 @@
+question: Коя команда показва пътя, по който пакетите достигат до дадена IP дестинация?
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute показва всеки междинен маршрутизатор между изпращача и целта, като използва TTL.
+reviewed: false

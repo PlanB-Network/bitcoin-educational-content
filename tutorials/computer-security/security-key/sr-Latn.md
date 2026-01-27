@@ -14,7 +14,7 @@ Danas je dvofaktorska autentifikacija (2FA) postala neophodna za poboljšanje si
 U drugom vodiču, objasnio sam kako postaviti i koristiti TOTP 2FA aplikaciju:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Ovde ćemo videti kako koristiti fizički sigurnosni ključ kao drugi faktor autentifikacije za sve vaše naloge.
 

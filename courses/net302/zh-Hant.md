@@ -88,7 +88,7 @@ ___
 **註**：說明是基於 GNU/Linux CentOS 7 系統。然而，在比較 Debian 和 CentOS 系統時，網路配置大體上是相同的。因此，我們不會做任何區分。當有區別時，我們會以特定的標誌作為前綴。
 
 
-**N.B.**：如果您在課程中遇到任何不熟悉的詞彙，請參閱 [詞彙表](https://planb.network/resources/glossary) 以瞭解定義。
+**N.B.**：如果您在課程中遇到任何不熟悉的詞彙，請參閱 [詞彙表](https://planb.academy/resources/glossary) 以瞭解定義。
 
 
 
@@ -136,7 +136,7 @@ ___
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/zh-Hant/001.webp)
 
 
 
@@ -150,7 +150,7 @@ ___
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/zh-Hant/002.webp)
 
 
 
@@ -164,7 +164,7 @@ ___
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/zh-Hant/003.webp)
 
 
 
@@ -178,7 +178,7 @@ ___
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/zh-Hant/004.webp)
 
 
 
@@ -195,7 +195,7 @@ ___
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/zh-Hant/005.webp)
 
 
 
@@ -261,7 +261,7 @@ TCP/IP 模型的四個層次為
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/zh-Hant/006.webp)
 
 
 
@@ -281,11 +281,11 @@ TCP/IP 堆疊的每個 Layer 都提供特定的服務，因此可以模組化的
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS 通訊協定
 
@@ -388,7 +388,7 @@ IP 通訊協定或稱為「***網際網路通訊協定***」，是 TCP/IP 模型
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/zh-Hant/007.webp)
 
 
 
@@ -429,7 +429,7 @@ IP 通訊協定或稱為「***網際網路通訊協定***」，是 TCP/IP 模型
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/zh-Hant/008.webp)
 
 
 
@@ -440,7 +440,7 @@ IP 通訊協定或稱為「***網際網路通訊協定***」，是 TCP/IP 模型
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/zh-Hant/009.webp)
 
 
 
@@ -454,7 +454,7 @@ IP 通訊協定或稱為「***網際網路通訊協定***」，是 TCP/IP 模型
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/zh-Hant/010.webp)
 
 
 
@@ -505,7 +505,7 @@ IP Address 有兩部分：
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/zh-Hant/011.webp)
 
 
 
@@ -583,7 +583,7 @@ IP Address 有兩部分：
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/zh-Hant/012.webp)
 
 
 
@@ -651,7 +651,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## TCP 通訊協定
 
@@ -678,7 +678,7 @@ TCP 是一個以連線為導向的通訊協定，這表示它在用戶端和伺�
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/zh-Hant/013.webp)
 
 
 
@@ -686,7 +686,7 @@ TCP 是一個以連線為導向的通訊協定，這表示它在用戶端和伺�
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/zh-Hant/014.webp)
 
 
 
@@ -709,7 +709,7 @@ TCP 可以偵測並處理重覆。如果重新傳送的區段到達，但原本�
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/zh-Hant/015.webp)
 
 
 
@@ -732,7 +732,7 @@ TCP 可以偵測並處理重覆。如果重新傳送的區段到達，但原本�
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/zh-Hant/016.webp)
 
 
 
@@ -749,7 +749,7 @@ TCP 可以偵測並處理重覆。如果重新傳送的區段到達，但原本�
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/zh-Hant/017.webp)
 
 
 
@@ -789,7 +789,7 @@ TCP 和 UDP 之間的這種互補性使現代網路能夠適應各種需求，�
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/zh-Hant/018.webp)
 
 
 
@@ -798,7 +798,7 @@ TCP 和 UDP 之間的這種互補性使現代網路能夠適應各種需求，�
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/zh-Hant/019.webp)
 
 
 
@@ -834,7 +834,7 @@ TCP 和 UDP 之間的這種互補性使現代網路能夠適應各種需求，�
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/zh-Hant/020.webp)
 
 
 
@@ -894,7 +894,7 @@ IP 位址主要有兩種分配方式：
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/zh-Hant/021.webp)
 
 
 
@@ -1181,7 +1181,7 @@ IP Address            MAC Address                Type
 - MAC Address 的視覺範例：
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/zh-Hant/022.webp)
 
 
 
@@ -1189,7 +1189,7 @@ IP Address            MAC Address                Type
 - IP Address 的視覺範例：
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/zh-Hant/023.webp)
 
 
 
@@ -1256,7 +1256,7 @@ NAT 背後的原理很簡單，但卻非常有效：不是為內部網路的每�
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/zh-Hant/024.webp)
 
 
 
@@ -1329,7 +1329,7 @@ NAT 可以用不同的方式實作，以符合特定需求。兩種主要的運�
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/zh-Hant/025.webp)
 
 
 
@@ -1377,11 +1377,11 @@ iptables -t nat -A POSTROUTING -o <WAN> -s 192.168.0.0/24 -j MASQUERADE
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## 如何使用 `ip` 設定網路？
@@ -1498,7 +1498,7 @@ ONBOOT=yes
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/zh-Hant/026.webp)
 
 
 
@@ -1952,7 +1952,7 @@ IPv6 區域網路有系統地將 Address 分為兩部分：
 以下是如何將 MAC Address 轉換為 EUI-64 的範例：
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/zh-Hant/027.webp)
 
 
 
@@ -2090,7 +2090,7 @@ IPv6 封包格式與 IPv4 不同之處在於它更簡單且更具擴充性。IPv
 這個標頭如果存在，總是緊接在基本標頭之後。它包含的資訊必須由封包路徑上的每個路由器處理，不像其他大多數標頭，通常只由目的地節點處理。典型的用途包括信令全局參數，或在封包通過網路時要求特定的處理步驟。
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/zh-Hant/028.webp)
 
 
 #### 路由標頭
@@ -2115,7 +2115,7 @@ IPv6 封包格式與 IPv4 不同之處在於它更簡單且更具擴充性。IPv
 Segments Left（剩餘網段）」欄位以剩餘網段的總數開始，並在每一跳遞減 1。
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/zh-Hant/029.webp)
 
 
 #### 碎片標頭
@@ -2132,7 +2132,7 @@ Segments Left（剩餘網段）」欄位以剩餘網段的總數開始，並在�
 - M 標誌：表示是否接下來會有更多片段。
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/zh-Hant/030.webp)
 
 
 #### 驗證標頭 (AH)
@@ -2144,7 +2144,7 @@ Segments Left（剩餘網段）」欄位以剩餘網段的總數開始，並在�
 如果嘗試偽造修改，驗證碼就不再匹配，資料報可能會被拒絕。此機制也可偵測未經授權的複製，以防重播攻擊。
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/zh-Hant/031.webp)
 
 
 #### 目的地選項標頭
@@ -2156,7 +2156,7 @@ Segments Left（剩餘網段）」欄位以剩餘網段的總數開始，並在�
 最初，通訊協定中並沒有定義這個選項。然而，在 IPv6 設計時引入了這個標頭，允許在不修改整體封包結構的情況下增加未來的擴展。例如，null 選項僅用於為記憶體對齊目的而將標頭填充為 8 位元組的倍數。
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/zh-Hant/032.webp)
 
 
 IPv6 封包設計建基於最小基本標頭（basic header）與模組化延伸標頭（modular extension header）之間的明確分離。此架構可確保標準的處理效能，以及演進通訊協定、整合安全性、複雜路由或服務品質機制所需的靈活性，同時保持與未來基礎架構的相容性。
@@ -2502,7 +2502,7 @@ Wireshark 適用於許多作業系統，包括 Linux 和 Windows。安裝時需�
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/zh-Hant/033.webp)
 
 
 
@@ -2553,7 +2553,7 @@ ethtool enp0s3
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/zh-Hant/034.webp)
 
 
 
@@ -3066,7 +3066,7 @@ host 192.6.23.4
 在監控或保護區域或廣域網路時，識別作用中的裝置及其暴露的服務是非常重要的。這正是 `nmap` (*Network Mapper*) 工具的功能。
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### 介紹 `nmap
 
@@ -3105,7 +3105,7 @@ nmap 192.168.0.0/24
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/zh-Hant/035.webp)
 
 
 
@@ -3118,7 +3118,7 @@ nmap 192.168.0.0/24
 - **漏洞預防**：找出在重要機器上執行的不安全或過期服務。
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### 流程詢問工具
 

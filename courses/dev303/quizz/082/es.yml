@@ -1,0 +1,8 @@
+question: ¿Qué papel desempeña el archivo de Lenguaje Unificado de Definición (UDL) en el flujo de trabajo de UniFFI?
+answer: Actúa como una especificación de interfaz que describe qué partes de la biblioteca Rust deben exponerse a otros lenguajes
+wrong_answers:
+  - Contiene el código de implementación real de Rust que se compila en los enlaces del idioma de destino
+  - Sirve como archivo de configuración en tiempo de ejecución que gestiona la asignación de memoria entre distintos entornos lingüísticos
+  - Proporciona un marco de pruebas para validar la corrección de los enlaces generados en varias plataformas
+explanation: |
+  El archivo UDL sirve como contrato o especificación entre la implementación de Rust y los enlaces lingüísticos generados. No contiene código Rust en sí, ni maneja operaciones o pruebas en tiempo de ejecución. En su lugar, define de forma declarativa qué funciones, tipos e interfaces de la biblioteca Rust deberían estar disponibles para otros lenguajes, especificando cómo deberían mapearse y presentarse en la interfaz nativa del lenguaje de destino.

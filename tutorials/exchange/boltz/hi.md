@@ -54,7 +54,7 @@ description: नियंत्रण बनाए रखते हुए वि
 
 
 
-एक एटॉमिक Exchange स्मार्ट कॉन्ट्रैक्ट्स [HTLC](https://planb.network/resources/glossary/htlc) (*हैशेड टाइमलॉक Contract*) के साथ काम करता है। इस प्रकार के Contract में, राशि एक दो-तरफ़ा चैनल में "लॉक" हो जाती है और एक समय सीमा लागू होती है, ताकि यदि लेनदेन एक निश्चित समय के भीतर पूरा नहीं होता है, तो शेष राशि जमाकर्ता को वापस कर दी जाए। बोल्ट्ज़ प्लेटफ़ॉर्म द्वारा उपयोग की जाने वाली यही प्रणाली है।
+एक एटॉमिक Exchange स्मार्ट कॉन्ट्रैक्ट्स [HTLC](https://planb.academy/resources/glossary/htlc) (*हैशेड टाइमलॉक Contract*) के साथ काम करता है। इस प्रकार के Contract में, राशि एक दो-तरफ़ा चैनल में "लॉक" हो जाती है और एक समय सीमा लागू होती है, ताकि यदि लेनदेन एक निश्चित समय के भीतर पूरा नहीं होता है, तो शेष राशि जमाकर्ता को वापस कर दी जाए। बोल्ट्ज़ प्लेटफ़ॉर्म द्वारा उपयोग की जाने वाली यही प्रणाली है।
 
 
 
@@ -116,9 +116,9 @@ description: नियंत्रण बनाए रखते हुए वि
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -152,9 +152,9 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 एक बार आपका भुगतान हो जाने और उसकी पुष्टि हो जाने पर, आपको स्वचालित रूप से आपके लाइटनिंग Wallet पर समतुल्य राशि प्राप्त हो जाएगी।
 
@@ -188,6 +188,6 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 अब तक आप बोल्ट्ज़ से परिचित हो चुके होंगे, जो एक अद्वितीय Exchange प्लेटफॉर्म है जो Bitcoin पारिस्थितिकी तंत्र की विभिन्न परतों के बीच अंतर-संचालन को सक्षम बनाता है।

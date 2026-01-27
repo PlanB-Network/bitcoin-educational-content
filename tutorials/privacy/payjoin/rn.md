@@ -14,7 +14,7 @@ description: PayJoin kuri Bitcoin ni iki?
 PayJoin ni umubumbe wihariye w’ugucuruza kwa Bitcoin kwongereza ubuzima bwite bw’ukoresha mu gihe c’ukwishura mu gukorana n’uwuronka ukwishyura.
 
 
-Mu mwaka w’2015, [LaurentMT](https://twitter.com/LaurentMT) yaravuze ubwa mbere ubwo buryo nk’“ibikorwa vy’ubuhinga bwa none” mu nyandiko ishobora gushikwako . [hano] (aha] (inyandiko y'ivyo bikoresho). Ubu buhinga bwaje kwemerwa n’ishirahamwe Samourai Wallet, ryabaye umukiriya wa mbere yabushize mu ngiro n’igikoresho ca Stowaway mu 2018. Iciyumviro ca PayJoin kiraboneka kandi muri [BIP79](Https. [BIP78] (Ubuhinga bwa none). Amajambo menshi arakoreshwa mu kwerekeza kuri PayJoin:
+Mu mwaka w’2015, [LaurentMT](https://twitter.com/LaurentMT) yaravuze ubwa mbere ubwo buryo nk’“ibikorwa vy’ubuhinga bwa none” mu nyandiko ishobora gushikwako . [hano](aha] (inyandiko y'ivyo bikoresho). Ubu buhinga bwaje kwemerwa n’ishirahamwe Samourai Wallet, ryabaye umukiriya wa mbere yabushize mu ngiro n’igikoresho ca Stowaway mu 2018. Iciyumviro ca PayJoin kiraboneka kandi muri [BIP79](Https. [BIP78](Ubuhinga bwa none). Amajambo menshi arakoreshwa mu kwerekeza kuri PayJoin:
 
 
 - PayJoin
@@ -70,4 +70,4 @@ Niba wipfuza gusuzuma igikorwa nyaco ca PayJoin, ng’iki kimwe nakoze kuri Test
 - Ivyo bimenyetso vy'ubuhinga bwa none.
 - Urubuga rwitwa PayJoin.org/
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

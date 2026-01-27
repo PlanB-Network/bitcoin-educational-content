@@ -1,16 +1,13 @@
 ---
 name: Spinoza na Bitcoin
 goal: Gundua viungo vya kifalsafa kati ya mawazo ya Spinoza na Bitcoin kama zana za uhuru kwa karne nyingi.
-objectives: 
-
-
-  - Kuelewa falsafa ya vitendo ya Spinoza na jitihada zake za uhuru.
-  - Kuchunguza dhana za Spinozist za uamuzi na udanganyifu wa kibinadamu.
-  - Kuchambua ulinganifu kati ya mapinduzi ya mawazo ya Spinoza na mapinduzi ya kiteknolojia ya Bitcoin.
-
-
-
+objectives:
+- Kuelewa falsafa ya vitendo ya Spinoza na utafutaji wake wa uhuru.
+- Kuchunguza dhana za Spinoza za udhibiti na udanganyifu wa kibinadamu.
+- Kuchambua mfanano kati ya mapinduzi ya mawazo ya Spinoza na mapinduzi ya teknolojia ya Bitcoin.
+- Kutumia nadharia ya hisia kutambua na kupinga udanganyifu katika mifumo ya kisiasa.
 ---
+# Wakati Spinoza Alikutana na Satoshi
 
 # Uchunguzi wa kifalsafa wa uhuru kupitia Spinoza na Bitcoin
 
@@ -20,16 +17,16 @@ Kozi hii inachunguza uhusiano wa kina kati ya falsafa ya kimapinduzi ya Baruch d
 
 
 
-Tutagundua jinsi Spinoza, baba wa falsafa ya Kutaalamika, alivyokuza maadili ya vitendo ili kutuweka huru kutokana na udanganyifu unaotufunga - hiari, umaliziaji na ushirikina wa kitheolojia. Mbinu yake ya kijiometri na nadharia ya athari inatuonyesha jinsi ya kuelewa mahali petu ulimwenguni na kuelekeza uwepo wetu kwa kile kinachoongeza nguvu zetu za kutenda.
-
+Tutagundua jinsi Spinoza, baba wa falsafa ya Kutaalamika, alivyokuza maadili ya vitendo ili kutuweka huru kutokana na udanganyifu unaotufunga kama vile hiari, umaliziaji na ushirikina wa kitheolojia. Mbinu yake ya kijiometri na nadharia ya athari inatuonyesha jinsi ya kuelewa nafasi yetu katika ulimwengu na kuelekeza uwepo wetu kwenye kile kinachoongeza uwezo wetu wa kutenda.
 
 
 Kisha kozi huchota ulinganifu wa kuvutia kati ya mapinduzi haya ya Copernican ya mawazo na Bitcoin: mifumo miwili ambayo haihitaji imani kipofu wala mamlaka kuu, lakini tu matumizi ya akili. Kama vile Spinozism ilivyokomboa mawazo kutoka kwa mafundisho ya kidini, Bitcoin hukomboa pesa kutoka kwa udhibiti wa serikali, ikitoa aina mpya ya uhuru wa kiuchumi unaotokana na hisabati na cryptography.
 
 
+Gundua j0insi mawazo ya kigeugeu ya mwanafalsafa wa karne ya 17 Baruch de Spinoza kuhusu uhuru, busara, na nguvu yanavyotabiri mapinduzi ya Bitcoin yenye usambazaji. Kozi hii inafunua mfanano wa kushangaza: wote wanakataa imani isiyokuwa na msingi na mamlaka ya kati, wote wanatumia uthabiti wa kihesabu ili kukomboa. Spinoza alikomboa akili kutoka kwa imani za kidini, Bitcoin inakomboa pesa kutoka kwa udhibiti wa serikali.
 
+Jifunze zana za vitendo kutoka kwa maadili ya Spinoza ili kuelewa misingi ya kifalsafa ya bitcoin na kuongeza uwezo wako. Je, uko tayari kuchunguza vifaa viwili vya ukombozi wa binadamu vikubwa zaidi katika historia?
 +++
-
 # Utangulizi
 
 
@@ -42,6 +39,8 @@ Kisha kozi huchota ulinganifu wa kuvutia kati ya mapinduzi haya ya Copernican ya
 
 <chapterId>99af4992-fd6c-5142-b168-d927b251574b</chapterId>
 
+:::video id=1def60bc-1d39-4e49-9b08-fd05b7a0d49b:::
+
 
 
 :::kitambulisho cha video=1def60bc-1d39-4e49-9b08-fd05b7a0d49b:::
@@ -52,14 +51,14 @@ Katika kozi hii, nimefurahi kuwasilisha falsafa ya Baruch de Spinoza (1632-1677)
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/sw/001.webp)
 
 
 Picha ya Spinoza
 
 
 
-Kozi hizi zinatokana na insha zangu mbili kuhusu somo, "Dini ya kweli ya Spinoza" na "Bitcoin, injili ya uhuru", inayopatikana katika karatasi ama mtandaoni au moja kwa moja kutoka kwa tovuti yangu, na kidijitali kwenye Amazon Kindle.
+Kozi hizi zinatokana na insha zangu mbili kuhusu somo, "Dini ya kweli ya Spinoza" na "Bitcoin, injili ya uhuru", inayopatikana katika karatasi ama kwenye mtandao au moja kwa moja kutoka kwa tovuti yangu, na kidijitali kwenye Amazon Kindle.
 
 
 
@@ -79,7 +78,7 @@ Kwa njia hii, tunaweza kuunganisha kati ya falsafa hii ya vitendo ya uhuru - au,
 
 
 
-Na hasa katika kipengele chake cha falsafa, ambayo inatufanya kutafakari kwa usahihi juu ya dhana ya uhuru: uhuru wa kufikiri, kujieleza, kuheshimu faragha na, bila shaka, kwa upande wetu, uhuru wa Exchange.
+Na hasa katika kipengele chake cha falsafa, ambayo inatufanya kutafakari kwa usahihi juu ya dhana ya uhuru: uhuru wa kufikiri, kujieleza, kuheshimu faragha na, bila shaka, kwa upande wetu, uhuru wa kubadilishana.
 
 
 
@@ -87,7 +86,7 @@ Kwanza, nitakujulisha Spinoza, tabia yake, asili yake ya kijamii, kidini na kifa
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/sw/002.webp)
 
 
 Picha ya Spinoza
@@ -98,7 +97,7 @@ Kisha tutaona ni nini falsafa hii mpya ya kimantiki kulingana na ambayo "hakuna 
 
 
 
-Ni wazo kwamba tunaweza tu kuelewa ulimwengu na asili ya mwanadamu kwa suala la kiungo cha causal kati ya mambo, kulingana na ambayo, athari daima ina sababu, na sababu hii yenyewe ni athari ya sababu nyingine na kadhalika, njia yote ya kurudi kwenye sababu ya kwanza, ambayo hatuna upatikanaji na ambayo, kulingana na Spinoza, ni Nature.
+Ni wazo kwamba tunaweza tu kuelewa ulimwengu na asili ya mwanadamu kwa suala la kiungo cha causal kati ya mambo, kulingana na ambayo, athari daima ina sababu, na sababu hii yenyewe ni athari ya sababu nyingine na kadhalika, njia yote ya kurudi kwenye sababu ya kwanza, ambayo hatuna upatikanaji na ambayo, kulingana na Spinoza, ni maumbile.
 
 
 
@@ -110,7 +109,7 @@ Pia tutaangalia kazi kuu mbili za Spinoza, tukianza na Maadili, iliyochapishwa b
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/sw/003.webp)
 
 
 
@@ -118,11 +117,11 @@ Kisha tutaangalia Traité théologico-Politique, iliyochapishwa wakati wa uhai w
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/sw/004.webp)
 
 
 
-Hatimaye, tutaona ni kwa nini Spinozism ni mapinduzi ya mawazo ya Copernican, na jinsi inavyowakilisha ufafanuzi mpya wa ulimwengu na asili ya binadamu, kwa kusoma udanganyifu 3 wa kimsingi ulioshutumiwa na Spinoza: udanganyifu wa hiari, udanganyifu wa sababu za mwisho au mwisho, na udanganyifu wa kitheolojia.
+Hatimaye, tutaona ni kwa nini Spinozism ni mapinduzi ya mawazo ya Copernican, na jinsi inavyowakilisha ufafanuzi mpya wa ulimwengu na asili ya binadamu, kwa kusoma udanganyifu wa 3 wa kimsingi ulioshutumiwa na Spinoza: udanganyifu wa hiari, udanganyifu wa sababu za mwisho au mwisho, na udanganyifu wa kitheolojia.
 
 
 
@@ -130,7 +129,7 @@ Shukrani kwa nadharia ya athari iliyokuzwa kwa njia ya jiometri, "jiometri zaidi
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/sw/005.webp)
 
 
 
@@ -152,6 +151,8 @@ Ingawa, kama unavyojua, mambo kwa sasa yanakwenda katika mwelekeo sahihi.
 
 <chapterId>f53a9cfd-326e-5b73-a766-3ef2f07c5a49</chapterId>
 
+:::video id=5fac3ddc-c472-4c64-8186-46a8f317e389:::
+
 
 
 :::kitambulisho cha video=5fac3ddc-c472-4c64-8186-46a8f317e389:::
@@ -166,7 +167,7 @@ Kwa imani ya Kiyahudi, alikuwa mwanachama wa jumuiya ya Wasephardic ya Kireno il
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/sw/006.webp)
 
 
 
@@ -174,7 +175,6 @@ Kwa hakika, tangu umri mdogo, alionyesha roho ya kukosoa vikali dini iliyoanzish
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -186,7 +186,7 @@ Mrithi, kama Descartes wa wakati wake (1596-1650), Pascal (1632-1662) na Newton 
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/sw/007.webp)
 
 
 
@@ -206,10 +206,10 @@ Na ni njia hii ambayo inaunganisha Spinoza na falsafa ya Kutaalamika, iwe ya Kij
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/sw/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/sw/009.webp)
 
 
 
@@ -225,7 +225,7 @@ Utajiri, hata hivyo, haufungamani na maliasili, unyonyaji na uharibifu wa makolo
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/sw/010.webp)
 
 
 
@@ -262,6 +262,8 @@ Iwe njia hizi ni za kifalsafa au kiteknolojia, kama tutakavyoona baadaye, Bitcoi
 
 <chapterId>4cc66e25-335c-591d-9b78-83e5664bbbbc</chapterId>
 
+:::video id=065c5091-69e1-412f-acce-c763ec31d3b1:::
+
 
 
 :::kitambulisho cha video=065c5091-69e1-412f-acce-c763ec31d3b1:::
@@ -272,7 +274,6 @@ Katika sura hii, ninapendekeza kwamba sasa tugeukie kazi kuu ya Spinoza, yenye k
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -284,7 +285,7 @@ Maadili ni kazi iliyoandikwa kwa Kilatini kwa namna ya jiomita, pengine ilichoch
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/sw/011.webp)
 
 
 
@@ -296,7 +297,7 @@ Ningependa kusema kwamba unapofungua Maadili, inashauriwa kuanza na sura za post
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/sw/012.webp)
 
 
 
@@ -328,7 +329,7 @@ Kwanza, ikiwa nafasi haipo kwa Spinoza, ni kwa sababu ni tukio ambalo hatujui sa
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/sw/013.webp)
 
 
 
@@ -336,7 +337,7 @@ Pili, hakuna swali la kufatalism pia, kwani maumbile hayajapewa nia. Radi, kwa m
 
 
 
-Spinoza hivyo inatetea wazo kwamba ukweli, yaani, maisha ya kila siku yenye vipengele vyema na vibaya, inaeleweka kikamilifu, na kwamba hakuna jambo katika asili ambalo halihusiani na sababu. Bila shaka, hii inazua swali la uovu, hasa uovu kabisa, ambao tutaangalia baadaye kidogo.
+Spinoza hivyo anatetea wazo kwamba ukweli, yaani maisha ya kila siku yenye vipengele vyema na vibaya, unaweza kueleweka kikamilifu, na kwamba hakuna jambo katika asili lisilo na sababu. Bila shaka, hili linazua swali kuhusu uovu, hasa ule uovu mkubwa kabisa, ambao tutaangalia baadaye kidogo.
 
 
 
@@ -348,11 +349,11 @@ Kulingana na Gilles Deleuze (1925-1995), profesa maarufu wa falsafa na mtaalamu 
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/sw/014.webp)
 
 
 
-Na badala ya kuamua ni nini kilicho sawa au kibaya, maadili huanzisha nini ni nzuri au mbaya kwa asili yetu wenyewe na uwezo wetu, anasema Spinoza, kuhifadhi katika nafsi yetu. Kuwa huru. Kwa hivyo, ni etholojia ya kweli, ambayo ni kusema, sayansi ya njia za kuwa, au, kama Gilles Deleuze anavyofafanua zaidi, sanaa ya kukutana vizuri.
+Na badala ya kuamua nini kilicho sawa au kibaya, maadili yanaanzisha kile kilicho chema au kibaya kulingana na asili yetu wenyewe na uwezo wetu, anasema Spinoza, kuhifadhi katika nafsi yetu ili tuwe huru. Kwa hivyo, hii ni etholojia ya kweli, yaani sayansi ya njia za kuwa, au kama Gilles Deleuze anavyofafanua zaidi, sanaa ya kukutana vizuri.
 
 
 
@@ -369,6 +370,8 @@ Kwa maneno mengine, “kupigania utumwa wao kana kwamba wanapigania uhuru wao”
 
 <chapterId>84b0187e-1050-5d44-a536-80554896e828</chapterId>
 
+:::video id=c1efc97e-1e96-4b37-894c-9a19794d6b52:::
+
 
 
 :::kitambulisho cha video=c1efc97e-1e96-4b37-894c-9a19794d6b52:::
@@ -384,7 +387,7 @@ Hii ni Traité théologico-politique, au TTP, iliyochapishwa bila kujulikana mna
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/sw/015.webp)
 
 
 
@@ -395,7 +398,7 @@ Kama tulivyoona, wazo la Spinoza kuhusu Mungu ndilo somo la sehemu nzima ya kwan
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/sw/016.webp)
 
 
 
@@ -407,7 +410,7 @@ Hivi ndivyo Spinoza anavyotuonyesha kwamba Mungu, kwa maoni yake, sio anthropomo
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/sw/017.webp)
 
 
 
@@ -444,7 +447,7 @@ Tetemeko la ardhi lenye sifa mbaya sana huko Lisbon mnamo Novemba 1, 1755, lilio
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/sw/018.webp)
 
 
 
@@ -456,7 +459,7 @@ Mchezo wa kuigiza uliofufua swali lililoulizwa na mwanafalsafa na mwanahisabati 
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/sw/019.webp)
 
 
 
@@ -464,7 +467,7 @@ Zaidi ya kuulaani mkono wa Mungu, Jean-Jacques Rousseau (1712-1778) alimwandikia
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/sw/020.webp)
 
 
 
@@ -491,6 +494,8 @@ Hii ndiyo sababu Mwangaza wa karne ya 18, kutokana na matumizi ya akili, sayansi
 
 <chapterId>3e6599e3-5b29-50a8-a67d-d0386da5d65d</chapterId>
 
+:::video id=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
+
 
 
 :::kitambulisho cha video=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
@@ -509,10 +514,9 @@ Kama vile Nicolas Copernicus (1473-1543) alivyothibitisha kwamba dunia haikuwa k
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/sw/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -520,15 +524,14 @@ Anasema kwamba mwanadamu sio "dola ndani ya himaya" na kwamba, kama vile dunia i
 
 
 
-Kabla yake, falsafa ya kitamaduni ya Uigiriki ilipendekeza maono yaliyoamriwa, ya hali ya juu ya ulimwengu kuelezea ulimwengu, ulimwengu na uzoefu wa mwanadamu. Kulingana na masimulizi ya kizushi, kimsingi ilitafuta kueleza asili ya ulimwengu, ikisisitiza juu ya upatano wa ulimwengu, asili na mwanadamu.
+Kabla yake, falsafa ya kitamaduni ya Kigiriki ilipendekeza maono ya hali ya juu na yaliyoamriwa ya ulimwengu ili kuelezea ulimwengu na uzoefu wa mwanadamu. Kulingana na masimulizi ya kifalsafa ya kijadi, falsafa hii kimsingi ililenga kueleza asili ya ulimwengu, ikisisitiza upatano kati ya ulimwengu, asili na mwanadamu.
+
+
+![image](assets/sw/022.webp)
 
 
 
-![image](./assets/fr/3.1.3.webp)
-
-
-
-Kosmolojia ya kielimu ya Enzi za Kati, kimsingi kuanzia karne ya 12 na kuendelea, ilikuwa mageuzi kuelekea kusababu zaidi ili kuoanisha akili na imani kueleza ulimwengu ambao bado ulikuwa wa daraja, lakini ambao ulilingana vyema na falsafa ya Kikristo.
+Kosmolojia ya kielimu ya enzi za kati, kimsingi kuanzia karne ya 12 na kuendelea, ilikuwa mageuzi kuelekea kusababu zaidi ili kuoanisha akili na imani kueleza ulimwengu ambao bado ulikuwa wa daraja, lakini ambao ulilingana vyema na falsafa ya Kikristo.
 
 
 
@@ -536,10 +539,9 @@ Lakini pamoja na fizikia mpya ya Copernicus (1473-1543) katika karne ya 15, kosm
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/sw/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -547,15 +549,15 @@ Lakini ili kuelewa kikamilifu Spinozism, tunahitaji pia kuzingatia muktadha wa R
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/sw/024.webp)
 
 
 
-Licha ya hatari na lawama za Giordano Bruno (1548-1600) na Galileo, Descartes alianza kutofautisha "kweli na uwongo" na kuoanisha theolojia, falsafa na fizikia. Katika kitabu chake maarufu cha Discourse on Method, kilichochapishwa mwaka wa 1637, Descartes alisema kwamba sababu ndiyo msingi wa ujuzi, ambao kupitia huo wanadamu wanaweza kupata uhuru.
+Licha ya hatari na lawama za Giordano Bruno (1548-1600) na Galileo, Descartes alianza kutofautisha "ukweli na uwongo" na kuoanisha theolojia, falsafa na fizikia. Katika kitabu chake maarufu cha Discourse on Method, kilichochapishwa mwaka wa 1637, Descartes alisema kwamba sababu ndiyo msingi wa ujuzi, ambao kupitia huo wanadamu wanaweza kupata uhuru.
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/sw/025.webp)
 
 
 
@@ -563,7 +565,7 @@ Kwa kuelezea ulimwengu kulingana na sheria za ulimwengu wote badala ya asili ili
 
 
 
-Lakini kama Mkatoliki, Descartes hata hivyo alianzisha uongozi kati ya wanadamu na aina nyingine ya ukomo wa asili, na hasa kuhusu spishi za wanyama, kile alichokiita "wanyama wa mashine". Na kwa kusema kwamba "hakuna nafsi ambayo, ikiongozwa vyema, haiwezi kupata nguvu kamili juu ya matendo na tamaa zake", Descartes hivyo anadai kwamba wanadamu wana uwezo wa kuanzisha kitu bila chochote, na kwamba mwanadamu, kwa maoni yake, "huepuka sheria za asili", kwamba ana uwezo kamili juu ya matendo yake mwenyewe na msingi wa azimio lake peke yake.
+Lakini kama Mkatoliki, Descartes hata hivyo alianzisha uongozi kati ya wanadamu na aina nyingine za ukomo wa asili, na hasa kuhusu spishi za wanyama, kile alichokiita "wanyama wa mashine". Na kwa kusema kwamba "hakuna nafsi ambayo, ikiongozwa vyema, haiwezi kupata nguvu kamili juu ya matendo na tamaa zake", Descartes hivyo anadai kwamba wanadamu wana uwezo wa kuanzisha kitu bila chochote, na kwamba mwanadamu, kwa maoni yake, "huepuka sheria za asili", kwamba ana uwezo kamili juu ya matendo yake mwenyewe na msingi wa azimio lake peke yake.
 
 
 
@@ -585,6 +587,8 @@ Kwa maneno mengine, wamejaliwa uhuru wa kuchagua, imani potofu ambayo ni ngumu s
 
 <chapterId>f147a914-cb64-5927-b305-26691930bca3</chapterId>
 
+:::video id=b59da795-ba19-4643-9672-36c9e7953a42:::
+
 
 
 :::kitambulisho cha video=b59da795-ba19-4643-9672-36c9e7953a42:::
@@ -599,7 +603,7 @@ Kama tulivyoona, Spinoza (1632-1677) anajulikana sana kwa kuzingatia uhuru wa ku
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/sw/026.webp)
 
 
 
@@ -623,7 +627,7 @@ Katika mwenendo wa maisha yake, kwa sababu hangekuwa chini ya sheria yoyote isip
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/sw/027.webp)
 
 
 
@@ -631,7 +635,7 @@ Lakini wakati Spinoza anamshukuru Descartes kwa kufungua njia ya udhibiti wa kim
 
 
 
-Spinoza, kwa upande mwingine, inazingatia kwamba ulimwengu wetu unashikamana na umedhamiriwa kikamilifu, na kwamba kila kitu kinachotokea ni muhimu na ni matokeo ya sababu ya mambo, kulingana na ambayo athari daima ina sababu, na sababu hii yenyewe ni athari ya sababu nyingine, na kadhalika.
+Spinoza, kwa upande mwingine, anazingatia kwamba ulimwengu wetu unashikamana na umepangwa kikamilifu, na kwamba kila kitu kinachotokea ni muhimu na ni matokeo ya sababu ya mambo, kulingana na ambayo athari daima ina sababu, na sababu hii yenyewe ni athari ya sababu nyingine, na kadhalika.
 
 
 
@@ -639,7 +643,7 @@ Hili ni wazo la uamuzi kamili, ambao anaweka katika Maadili yake kwamba wanaume 
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/sw/028.webp)
 
 
 
@@ -659,15 +663,15 @@ Bila shaka, tatizo linalojitokeza ni wajibu wa binadamu na matendo yao. tunaweza
 
 
 
-Kwa upande mwingine, itakuwa ni udanganyifu kuamini kwamba matendo ya mhalifu kamwe hayahusiani na uamuzi wake mwenyewe. Ingawa si suala la kuwapa udhuru, ni angalau swali la kujaribu kuwaelewa. Kwa hakika, hivi ndivyo haki inavyofanya: zaidi ya kuadhibu vitendo visivyo halali, ina jukumu la kuona kimbele na kulinda siku zijazo, ndiyo maana uhalifu fulani hauadhibiwi tu bali pia hutendewa, kwa kuzingatia historia ya familia, kijamii na kisaikolojia ya mkosaji.
+Kwa upande mwingine, itakuwa ni udanganyifu kuamini kwamba matendo ya mhalifu kamwe hayahusiani na uamuzi wake mwenyewe. Ingawa si suala la kuwapa udhuru, ni angalau swali la kujaribu kuwaelewa. Kwa hakika, hivi ndivyo haki inavyofanya: zaidi ya kuadhibu vitendo visivyo halali, ina jukumu la kuona mbeleni na kulinda siku zijazo, ndiyo maana uhalifu fulani hauadhibiwi tu bali pia hushughulikiwa, kwa kuzingatia historia ya kifamilia, kijamii na kisaikolojia ya mkosaji.
 
 
 
-Mtazamo huu wa uhuru kama uwezo wa kutenda ndio uhusiano tunaoweza kuufanya na falsafa ya Mwangaza ya karne ya 18. Kulingana na mmoja wa mabalozi wayo wakuu, mwanafalsafa Mjerumani Immanuel Kant (1724-1804), Mwangaza ulikuwa njia ya kuwaweka huru wanadamu kutoka katika hali ya ulezi, au kama vile Étienne de la Boétie (1530-1563) angesema, kutoka kwa utumwa wa hiari, ambao wao wenyewe waliwajibika.
+Mtazamo huu wa uhuru kama uwezo wa kutenda ndio uhusiano tunaoweza kuufanya na falsafa ya Mwangaza ya karne ya 18. Kulingana na mmoja wa mabalozi wako wakuu, mwanafalsafa Mjerumani Immanuel Kant (1724-1804), Mwangaza ulikuwa njia ya kuwaweka huru wanadamu kutoka katika hali ya ulezi, au kama vile Étienne de la Boétie (1530-1563) angesema, kutoka kwa utumwa wa hiari, ambao wao wenyewe waliwajibika.
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/sw/029.webp)
 
 
 
@@ -675,7 +679,7 @@ Wito wa Kant ni "Fikiria mwenyewe" na "Thubutu kujua", Kilatini maarufu "Sapere 
 
 
 
-Kwa hivyo uwezo wa Spinoza wa kutenda ni uwezo ambao wanadamu wanao ndani yao wenyewe kuelewa hali ya wanyama wao wenyewe, na kuelewa asili na matukio yake, iwe chanya au hasi, kwa kuhusisha na sababu za kusudi, ili tusitegemee maelezo ya maadili ambayo ni ya uwongo na ya uwongo, i.e. maelezo yaliyoundwa kulingana na matamanio yetu. Badala yake, inajumuisha kutafuta kuzifafanua kupitia akili, kwa mtazamo kuelekea ukombozi na uhuru.
+Kwa hivyo, uwezo wa Spinoza wa kutenda ni uwezo ambao wanadamu wanao ndani yao wenyewe wa kuelewa hali ya wanyama wao wenyewe, na kuelewa asili na matukio yake, iwe chanya au hasi, kwa kuhusisha na sababu za kusudi, ili tusitegemee maelezo ya maadili ambayo ni ya uongo na ya kupotosha, yaani maelezo yaliyoundwa kulingana na matamanio yetu. Badala yake, inajumuisha kutafuta kuzifafanua kupitia akili, kwa mtazamo kuelekea ukombozi na uhuru.
 
 
 
@@ -692,14 +696,13 @@ Hatimaye, inafaa kuashiria kwamba wakati vuguvugu la uhuru tunalokaribia kujadil
 
 
 
-![image](./assets/fr/3.2.5.webp)
-
-
-![image](./assets/fr/3.2.6.webp)
+![image](assets/sw/030.webp)
 
 
 
-Lakini ukweli ni tofauti kabisa, na mkanganyiko unatokana na tatizo la kisemantiki: kwa kutambua uwezo wa binadamu wa kutenda, na kufanya uchaguzi, huku tukikubali uamuzi wa kimantiki ambao wao ndio lengo lake. Wanaliberali wa kwanza ni, kwa kweli, pia warithi wa Spinoza. Wanachofanana na Spinoza ni imani kwamba wanadamu hawako juu ya maumbile lakini badala yake ni matokeo ya mchakato wa mageuzi ambao unawaweka ndani ya uamuzi, historia inayopita zaidi yao, na inawajibika kwa kiasi kikubwa kwa kile binadamu ni na kile anachofanya.
+
+
+Lakini ukweli ni tofauti kabisa, na mkanganyiko huu unatokana na tatizo la kisemantiki: tunapotambua uwezo wa binadamu wa kutenda na kufanya uchaguzi, huku tukikubali pia kwamba uamuzi wa kimantiki ndio lengo lake. Wana-liberali wa kwanza, kwa kweli, ni warithi wa Spinoza. Wanachofanana naye ni imani kwamba wanadamu hawako juu ya maumbile, bali ni matokeo ya mchakato wa mageuzi unaowaweka ndani ya muktadha wa uamuzi na historia, ambayo inapita uwezo wao binafsi na kwa kiasi kikubwa inawajibika kwa kile binadamu ni na anachofanya.
 
 
 
@@ -712,25 +715,27 @@ Hatimaye, ikiwa imani katika hiari ni udanganyifu ambao ni vigumu sana kujiondoa
 
 <chapterId>da2a7fb1-f1e9-5b56-822d-c73770de749d</chapterId>
 
+:::video id=a0127fe7-a4cb-4a1c-8af4-f11c40b4a3d7:::
+
 
 
 :::kitambulisho cha video=a0127fe7-a4cb-4a1c-8af4-f11c40b4a3d7:::
 
 
 
-Tuliona katika sura iliyotangulia kwamba udanganyifu wa hiari ni kuamini kwamba tunaweza kuanza kitu bila chochote, kwamba mapenzi yetu peke yake yatatuwezesha kuelekeza maisha yetu, na kwamba tungekuwa na uwezo usio na kipimo wa uamuzi. Ni wazo kwamba mwanadamu ana uwezo wa kuvuruga utaratibu wa Maumbile kuliko anavyotii.
+Tuliona katika sura iliyotangulia kwamba udanganyifu wa hiari ni kuamini kuwa tunaweza kuanzisha jambo bila msingi wowote, kwamba mapenzi yetu peke yake yanaweza kutuwezesha kuelekeza maisha yetu, na kwamba tunayo uwezo usio na mipaka wa kufanya maamuzi. Ni wazo linalodai kuwa mwanadamu ana uwezo wa kuvuruga utaratibu wa Maumbile kuliko kutii kwake utaratibu huo.
 
 
 
-Lakini kwa Spinoza (1632-1677), mwanadamu si "dola ndani ya himaya", yaani, yeye si, kinyume na kile Descartes alianzisha (1596-1650), ubaguzi wa asili, na kamwe haachiwi kutoka kwa kupanuka kwa mlolongo wa kuamua wa sababu na athari.
+Lakini kwa Spinoza (1632-1677), mwanadamu si "dola ndani ya himaya", yaani, yeye si, kinyume na kile Descartes alianzisha (1596-1650), ubaguzi wa asili "substance dualism", na kamwe haachiwi kutoka kwa kupanuka kwa mlolongo wa kuamua wa sababu na athari.
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/sw/031.webp)
 
 
 
-Na kwa kuwa Nature, anasema Spinoza, haina mwisho uliowekwa kutoka kwa mtazamo wa maadili, na kwa kuwa wanadamu huwa na makosa ya mawazo yao kwa kuelewa, Wanaifasiri kulingana na kile kinachofaa maslahi yao wenyewe. Hadi wanatoa maana kwa vitu vinavyotokana tu na jinsi wanavyovithamini na kuvihusianisha na wao wenyewe.
+Na kwa kuwa maumbile, anasema Spinoza, hayana mwisho uliowekwa kutoka kwa mtazamo wa maadili, na kwa kuwa wanadamu huwa na makosa ya mawazo yao kwa kuelewa, Wanaifasiri kulingana na kile kinachofaa maslahi yao wenyewe. Hadi wanatoa maana kwa vitu vinavyotokana tu na jinsi wanavyovithamini na kuvihusianisha na wao wenyewe.
 
 
 
@@ -750,7 +755,7 @@ Na ndio maana magonjwa mapya kama vile UKIMWI katika miaka ya 90 au covid mnamo 
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/sw/032.webp)
 
 
 
@@ -766,15 +771,15 @@ Na hivi ndivyo mwanasayansi wa asili wa Ufaransa Jean-Baptiste de Lamarck (1744-
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/sw/033.webp)
 
 
 
-Lakini kama Spinoza anavyosema, "udanganyifu wa wanaume hauishii hapo", na kati ya mifano yote ya mawazo ya kiteleolojia ya ujinga, na hatimaye ya kufurahisha, mara nyingi tunataja mfano maarufu wa mwanabiolojia Bernardin de Saint-Pierre (1737-1814). Mkurugenzi huyu wa zamani wa Jumba la Makumbusho la Historia ya Asili la Paris alizingatia umalizio wa asili na mashairi, lyricism na naivety fulani, kwa kuzingatia kwamba melon, kwa mfano, iliundwa kwa madhumuni pekee ya kupendeza familia kubwa, kwa kuwa ngozi yake iliyopigwa ilifanya iwe rahisi kukata vipande sawa.
+Lakini kama Spinoza anavyosema, "udanganyifu wa wanaume hauishii hapo", na kati ya mifano yote ya mawazo ya kijinga ya kiteolojia, na hatimaye ya kufurahisha, mara nyingi tunataja mfano maarufu wa mwanabiolojia Bernardin de Saint-Pierre (1737-1814).Mkurugenzi huyu wa zamani wa Jumba la Makumbusho la Historia ya Asili la Paris alichanganya uchunguzi wa asili na mashairi, ushairi wa kihisia na aina fulani ya naïvety, kwa kuzingatia kwamba tikiti, kwa mfano, iliundwa kwa madhumuni pekee ya kupendeza familia kubwa, kwa kuwa ganda lake lililopigwa mistari liliifanya iwe rahisi kukata vipande sawa.
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/sw/034.webp)
 
 
 
@@ -786,11 +791,11 @@ Kuamini, au kuwafanya wengine waamini, kinyume chake ni sawa na kuota huku macho
 
 
 
-Hata hivyo, tafsiri hii ya upendeleo ya mfumuko wa bei inatufanya kusahau kwamba, ingawa ni muhimu kwa ajili ya kusimamia uchumi kwa muda mfupi, lakini kwa kweli ni kodi iliyofichwa, ambayo inaongoza kwa muda mrefu tu kwa maafa ya kibinadamu na ya mali, na kufanya mataifa kutokuwa na uwezo wa kutotumia vibaya mamlaka yao. Hivi ndivyo Friedrich Hayek (1899-1992) anaelezea vizuri sana katika insha yake The Road to Serfdom, anapoibua utumwa ambao majimbo hayawezi kujiondoa tena.
+Hata hivyo, tafsiri hii ya upendeleo kuhusu mfumuko wa bei inatufanya tusahau kwamba, ingawa ni muhimu kwa usimamizi wa uchumi kwa muda mfupi, kwa hakika ni aina ya kodi iliyofichwa, ambayo kwa muda mrefu hupelekea maafa ya kibinadamu na ya mali, na kuyafanya mataifa kushindwa kujizuia dhidi ya matumizi mabaya ya mamlaka yao. Hivi ndivyo Friedrich Hayek (1899–1992) alivyoeleza vyema katika insha yake The Road to Serfdom, anapoeleza aina ya utumwa ambao mataifa hayawezi tena kujiondoa.
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/sw/035.webp)
 
 
 
@@ -816,6 +821,8 @@ Asante kwa umakini wako, na nitakuona katika sura inayofuata.
 
 <chapterId>93554156-5e62-526d-9b71-49c47be916af</chapterId>
 
+:::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
+
 
 
 :::kitambulisho cha video=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
@@ -826,7 +833,7 @@ Katika sura hii ya mwisho juu ya maono mapya ya Copernican ya mawazo yanayotolew
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/sw/036.webp)
 
 
 
@@ -850,7 +857,7 @@ Kwa maneno mengine, mzee mwenye ndevu nyeupe aliyefichwa nyuma ya wingu, ambaye 
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/sw/037.webp)
 
 
 
@@ -858,11 +865,11 @@ Hii ni hatua ya kwanza ya udanganyifu wa kitheolojia.
 
 
 
-Lakini licha ya kiburi chetu cha kujiamini kuwa tuko juu ya Asili, na kufikiria kuwa tunaweza kuanza kitu bila chochote, kwa kweli kila wakati tuko chini ya hali ya kuishi ambayo inaonyesha kwamba, mwishowe, hatutaweza "kuondokana nayo", kama profesa wa falsafa Gilles Deleuze (1925-1995) alivyoweka. Sisi ni watu wa kufa, kama wanyama wote, lakini tunajua.
+Lakini licha ya kiburi chetu cha kujiamini kwamba tuko juu ya Asili, na kufikiri kuwa tunaweza kuanza kitu kutoka kwa chochote, kwa hakika kila wakati tuko chini ya hali ya kuishi inayotuonyesha kwamba, mwishowe, hatutaweza “kuikwepa,” kama alivyosema profesa wa falsafa Gilles Deleuze (1925–1995). Sisi ni viumbe wenye kufa, kama wanyama wote, lakini tofauti ni kwamba tunajua hilo.
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/sw/038.webp)
 
 
 
@@ -878,11 +885,11 @@ Na kwa kuwa "tuna mwelekeo wa kuamini kwa urahisi kile tunachotarajia", anasema 
 
 
 
-Kwa maneno mengine, "mtu mashuhuri" kulingana na Voltaire (1694-1778), ambaye ushirikina haujawahi kuzaliwa kwa sababu, na daima unalingana na imani isiyo na maana au isiyo na msingi, kinyume na aina yoyote ya busara kwa kuhusisha vitu au vitendo nguvu au nguvu za kiroho ambazo hawana.
+Kwa maneno mengine, "mtu mashuhuri" kulingana na Voltaire (1694-1778), ambaye ushirikina haujawahi kuzaliwa kwa sababu, na daima unalingana na imani isiyo na maana au isiyo na msingi, kinyume na aina yoyote ya busara kwa kuhusisha vitu au vitendo vya nguvu au nguvu za kiroho ambazo hawana.
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/sw/039.webp)
 
 
 
@@ -894,7 +901,7 @@ Hiki ndicho Kiangazio cha Kijerumani, Kiingereza na Kifaransa kilitetea kuanzia 
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/sw/040.webp)
 
 
 
@@ -902,7 +909,7 @@ Na hivi ndivyo Spinoza anavyoonyesha tena katika Mkataba wake wa Kisiasa wa Theo
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/sw/041.webp)
 
 
 
@@ -910,7 +917,7 @@ Lakini jambo jipya ambalo Spinoza analeta kwa TTP, na ambalo linamfanya kwa njia
 
 
 
-Kwani punde tu mawazo yanapopatikana na kuonyeshwa kwa faragha, bila shaka yataenea katika jamii yote, na hakuna marufuku au udhibiti unaoweza kuzuia kuenea kwao. Mawazo, yawe ya kweli au ya uwongo, mazuri au mabaya, yatazunguka kwa vyovyote vile, na kuyapiga marufuku kunaweza tu kusababisha, kwa muda mrefu, kuasi na kupindua serikali kwa jina la uhuru.
+Kwani punde tu mawazo yanapozaliwa na kuonyeshwa kwa faragha, bila shaka yataenea katika jamii nzima, na hakuna marufuku au udhibiti unaoweza kuzuia uenezaji wake. Mawazo—yawe ya kweli au ya uongo, mazuri au mabaya—yataendelea kusambaa kwa namna yoyote ile, na kuyapiga marufuku kunaweza tu kusababisha, kwa muda mrefu, uasi na hatimaye mapinduzi dhidi ya serikali kwa jina la uhuru.
 
 
 
@@ -937,6 +944,8 @@ Kwa Spinoza, hali ya kidemokrasia ambayo inaruhusu uhuru wa mawazo kwa hiyo ni d
 
 <chapterId>1ce64576-2688-5757-a119-57cc3a1076c0</chapterId>
 
+:::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
+
 
 
 :::kitambulisho cha video=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
@@ -962,15 +971,15 @@ Wanafalsafa wa kale waliamini kwamba uovu haukuwepo katika asili, na Socrates (4
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/sw/042.webp)
 
 
 
-Lakini mapokeo ya kielimu, hasa yale ya Mtakatifu Augustino (354-430), ambayo bado yanaathiri maadili ya Kikristo leo, yalisema kwamba uovu haupo tu, kwamba ni ukweli, lakini kwamba unaweza kuelezwa kwa sababu watu wako huru, kwa sababu wana uwezo wa kufanya uchaguzi kati ya mema na mabaya, na kwamba uovu wanaosababisha ni wajibu wao wenyewe.
+Lakini mapokeo ya kielimu, hasa yale ya Mtakatifu Augustino (354–430), ambayo bado yanaathiri maadili ya Kikristo hadi leo, yalisisitiza kwamba uovu haupo tu kama ukweli, bali unaweza kueleweka kwa msingi wa uhuru wa binadamu kwamba watu wana uwezo wa kuchagua kati ya mema na mabaya, na kwamba uovu wanaoufanya ni jukumu lao binafsi.
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/sw/043.webp)
 
 
 
@@ -987,7 +996,7 @@ Kwa kweli, kama unavyoweza kufikiria, wazo hili limevunjwa na Spinoza, ambaye an
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/sw/044.webp)
 
 
 
@@ -1010,7 +1019,7 @@ Hii ndiyo sababu Spinozist Gilles Deleuze (1925-1995) anaeleza kwamba maadili ni
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/sw/045.webp)
 
 
 
@@ -1036,6 +1045,8 @@ Asante kwa umakini wako.
 
 <chapterId>3bb011ce-6f0c-51a6-b41f-25a3b5b7768e</chapterId>
 
+:::video id=bb427cc6-e54d-4b44-bd6d-281ba421001a:::
+
 
 
 :::kitambulisho cha video=bb427cc6-e54d-4b44-bd6d-281ba421001a:::
@@ -1050,7 +1061,7 @@ Anaendeleza mfumo wake katika sehemu ya tatu ya Maadili. Ni nadharia maarufu ya 
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/sw/046.webp)
 
 
 
@@ -1074,7 +1085,7 @@ Hivi ndivyo Spinoza anavyosema katika Maadili yake, anaposhangaa kwamba "watu ma
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/sw/047.webp)
 
 
 
@@ -1082,7 +1093,7 @@ Spinoza anachukua mfano wa chuki, ambayo anaona kuwa ni athari ya passiv, akageu
 
 
 
-Yaani tukimchukia mgeni ni kwa sababu tunamhusisha huyu mgeni na fikra tulizonazo juu yake, kwa sababu tusiozifahamu, kwa vile ni mgeni na tofauti kimaumbile. Ni wazo hili la sababu ya nje - wazo ambalo, zaidi ya hayo, daima huhamasisha wajinga kuzungumza vibaya juu ya dhana ambayo hawajui.
+Yaani, tukimchukia mgeni ni kwa sababu tunamhusisha huyu mgeni na fikra tulizonazo juu yake, kwa sababu zisizoeleweka kwetu, kwa vile ni mgeni na tofauti kimaumbile. Ni wazo hili la sababu ya nje — wazo ambalo, zaidi ya hayo, daima huhamasisha wajinga kuzungumza vibaya kuhusu dhana ambayo hawajui.
 
 
 
@@ -1090,11 +1101,11 @@ Hii ni kweli hasa, kwa njia, katika uwanja wa cryptocurrencies.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/sw/048.webp)
 
 
 
-Spinoza anasema ikiwa tunaondoa wazo hili hasi la sababu ya nje, si kwa maadili, lakini kwa elimu, kwa huruma, kwa sababu, hasa kwa kuzingatia katika kesi hii juu ya sifa za mgeni huyu, au katika kesi ya Bitcoin, juu ya kipengele chake cha vitendo au manufaa, basi hisia inayohusishwa ya huzuni hupotea na, moja kwa moja, hivyo chuki.
+Spinoza anasema kwamba, ikiwa tunaondoa wazo hasi la sababu ya nje—si kwa maadili, bali kwa elimu, kwa huruma, na kwa sababu, hasa tukizingatia katika kesi hii sifa za mgeni huyu, au katika kesi ya Bitcoin, kipengele chake cha vitendo au manufaa—basi hisia inayohusishwa na huzuni hupotea na, moja kwa moja, chuki hupungua.
 
 
 
@@ -1110,12 +1121,11 @@ Huu ni mfano wa umeme. Kwa sababu umeme unapopiga na kuua watu wasio na hatia, w
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/sw/049.webp)
 
 
 
-Ingawa kwa Spinoza, bila shaka, mawazo haya yote ya kiteleolojia ni ushirikina tu, sawa na ujinga, kwa kadiri katika mfano huu umeme unaopiga haufanyi chochote, anasema, lakini kueleza kiini cha asili yake yenyewe. Ambayo ni kupiga. Bila, bila shaka, nia yoyote ya maadili ya kuadhibu au kumtuza mtu yeyote.
-
+Ingawa kwa Spinoza, bila shaka, mawazo haya yote ya kiteleolojia ni ushirikina tu, sawa na ujinga, hasa kwa kuwa katika mfano huu umeme unaopiga haufanyi chochote, anasema, isipokuwa kueleza kiini cha asili yake yenyewe, ambacho ni kupiga. Bila, bila shaka, nia yoyote ya maadili ya kuadhibu au kumtuza mtu yeyote.
 
 
 Shukrani kwa mfano huu rahisi, tunaelewa kwamba suluhisho pekee la kujikinga na radi - kwa maneno mengine, kujikomboa kutoka kwa utumwa ambao hatari yake imekuwa ikituwekea siku zote - sio kulalamika juu ya bahati mbaya yetu au juu ya dhuluma inayodhaniwa ya kimungu, wala sio kuweka mbele hoja ndogo ya maadili. Hapana, badala yake, hapa tena, kama kwa chuki, ni suala la kutafakari juu ya kile tunaweza kufanya kutoka kwa mtazamo wa maadili.
@@ -1130,7 +1140,7 @@ Hii ni fikra ya Maadili. Spinoza inatuonyesha kwamba inawezekana kuhama kutoka k
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/sw/050.webp)
 
 
 
@@ -1153,6 +1163,8 @@ Na ndiyo maana Spinozism mara nyingi hujulikana kama "falsafa ya furaha".
 
 <chapterId>b54f2532-460c-11f0-a248-93ff24ef1d57</chapterId>
 
+:::video id=5f49d5b4-e15f-475b-b40d-07464c08ca4d:::
+
 
 
 :::kitambulisho cha video=5f49d5b4-e15f-475b-b40d-07464c08ca4d:::
@@ -1160,22 +1172,20 @@ Na ndiyo maana Spinozism mara nyingi hujulikana kama "falsafa ya furaha".
 
 
 
-Kama unavyojua sasa, uhuru kulingana na Spinoza ni ufahamu wa uamuzi wetu. Chini ya mwongozo wa akili, na shukrani kwa uwezo wetu wa kutenda, tunaweza kuelewa utaratibu wa sababu ya utumwa, ili tuweze kupigana nao, tusiwateseke tena, na tusitende tena dhidi ya maslahi yetu wenyewe.
-
+Kama unavyojua sasa, uhuru kulingana na Spinoza ni ufahamu wa uamuzi wetu. Chini ya mwongozo wa akili, na shukrani kwa uwezo wetu wa kutenda, tunaweza kuelewa utaratibu wa sababu za utumwa, ili tuweze kupigana nazo, tusiwateseke tena, na tusitende tena dhidi ya maslahi yetu wenyewe.
 
 
 Mwishowe, ufahamu huu unamaanisha kutoishi tena katika nihilism iliyoelezewa baadaye na Friedrich Nietzsche (1844-1900), ambayo watu hujipoteza katika maadili ya kiitikadi, i.e. hadithi za kisiasa au za kidini, kwa sababu hiyo wanakana ukweli, wanajifanya watoto wachanga na kujifanya wasiwe na furaha.
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 Hivi ndivyo hasa falsafa ya busara ya Kutaalamika ilihusu, shukrani haswa kwa Immanuel Kant (1724-1804), ambaye kwake ni mtu aliyeelimika tu, chini ya mwongozo wa akili, anaweza kufikiria mwenyewe na kuamua, kwa maadili, ni nini "kweli" au "nzuri," na ni nini sumu.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/sw/051.webp)
 
 
 
@@ -1186,7 +1196,7 @@ Ni hoja inayofanya kiungo na shule ya Austria ya uchumi huria, iliyozaliwa katik
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/sw/052.webp)
 
 
 
@@ -1194,7 +1204,7 @@ Menger na Mises walianzisha, kwa mfano, kwamba ujuzi wote lazima ujengwe kulinga
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/sw/053.webp)
 
 
 
@@ -1211,19 +1221,17 @@ Kwa mfano, Waustria wanaamini kwamba serikali inapojipatia, kwa kulazimishwa, uw
 Kwa nini hii? Kwa sababu daima hujikuta katika namna ya utumwa ambayo inamzuia kufanya hivyo, na hivyo kumsukuma, kama Spinoza angesema, "kuona bora zaidi, kupitishwa ... lakini kufanya mabaya zaidi".
 
 
-Kama Spinozist, Hayek anaelezea katika video kwamba "kwa kuwa mamlaka haya hayawezi kuondolewa bila vurugu, kinachoweza kufanywa ni kutumia hila na kuanzisha dhana mpya ya pesa ambayo serikali haziwezi tena kuizuia". Hoja iliyoungwa mkono na Milton Friedman (1912-2006) katika mahojiano, ambapo naye anajadili aina hii mpya ya sarafu ya kidijitali katika muktadha wa mtandao mchanga.
+Kama Spinozist, Hayek anaeleza katika video kwamba “kwa kuwa mamlaka haya hayawezi kuondolewa bila vurugu, kinachoweza kufanywa ni kutumia hila na kuanzisha dhana mpya ya pesa ambayo serikali haziwezi tena kuizuia.” Hoja hii inaungwa mkono na Milton Friedman (1912–2006) katika mahojiano, ambako naye anajadili aina hii mpya ya sarafu ya kidijitali katika muktadha wa mtandao ambao ulikuwa bado mchanga.
+
+
+![image](assets/sw/054.webp)
 
 
 
-![image](./assets/fr/4.3.5.webp)
+Hizi ni hoja za kisiasa na kiuchumi zilizotolewa na cypherpunks wa mwanzo, Eric Hughes (1953–) katika Ilani ya Cypherpunk, au Timothy May (1951–2018) katika Crypto Anarchist Manifesto, ambazo baadaye zilirudiwa na Satoshi Nakamoto.
 
 
-
-Hizi ni hoja za kisiasa na kiuchumi zilizotolewa na cypherpunks wa kwanza, Eric Hughes (1953-), katika "ilani yake ya Cypherpunk", au Timothy May (1951-2018) katika "crypto anarchist manifesto", na ambayo Satoshi Nakamoto itachukua tena.
-
-
-
-![image](./assets/fr/4.3.6.webp)
+![image](assets/sw/055.webp)
 
 
 
@@ -1231,19 +1239,18 @@ Hasa alipoandika kichwa cha habari cha Times cha Januari 3, 2009 katika msingi w
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/sw/056.webp)
 
 
 
-White Paper iliyochapishwa tarehe 31 Oktoba 2008 inawasilisha Bitcoin kama njia ya kubadilishana thamani kwenye Mtandao bila wahusika wengine wanaoaminika, kwa kuzingatia itifaki iliyogatuliwa. Mapinduzi ya "Copernican" ambayo hatimaye yatawezesha watu kurejesha uwezo wao wa kutenda, yaani uhuru wao, uhuru wao wa kufanya biashara, haki yao ya kumiliki mali na heshima kwa faragha yao.
+White Paper iliyochapishwa tarehe 31 Oktoba 2008 inawasilisha Bitcoin kama njia ya kubadilishana thamani kwenye Mtandao bila wahusika wengine wanaoaminika, kwa kuzingatia protocol iliyogatuliwa. Mapinduzi ya "Copernican" ambayo hatimaye yatawezesha watu kurejesha uwezo wao wa kutenda, yaani uhuru wao, uhuru wao wa kufanya biashara, haki yao ya kumiliki mali na heshima kwa faragha yao.
 
 
 Kwa nini? Kwa sababu Bitcoin huturuhusu kujiondoa kutoka kwa utumwa huu kwa njia ya Spinoza, kwa sababu ya sababu, kwa sababu ya lugha ya Galileo ya hisabati. Na, kama Hayek anapendekeza, bila serikali kuwa na uwezo wa kuipinga. Na kwa amani, bila shuruti au kugeuza imani.
 
 
 
-Kwa kweli, hii ni sambamba ya mwisho nitakayoweka kati ya Spinozism na Bitcoin, ili kuonyesha kwamba hakuna maana katika kushawishi mtu yeyote ambaye hajajiunga na dhana ya Copernican au ya usumbufu isipokuwa kwa sababu, uelewa, udadisi au nia nzuri.
-
+Kwa kweli, hii ndiyo sambamba ya mwisho nitakayoweka kati ya Spinozism na Bitcoin, ili kuonyesha kwamba hakuna maana ya kumshawishi mtu yeyote ambaye hajajiunga na dhana ya Copernican au ya usumbufu, isipokuwa kwa njia ya sababu, uelewa, udadisi, au nia njema.
 
 
 Si kwa nguvu, si kwa vurugu. Kwa sababu ukweli ni kwamba Copernicus, Galileo, Newton, Darwin, Einstein, Hayek, Spinoza au Satoshi Nakamoto hawakuwahi kutishia mtu yeyote ambaye hakuamini katika mawazo na maandamano yao.

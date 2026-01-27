@@ -6,4 +6,4 @@ wrong_answers:
   - Risque de perte et de surveillance
 explanation: |
   Un nœud tiers peut analyser ou bloquer vos transactions, voire associer vos données à votre identité.
-reviewed: false
+reviewed: true 

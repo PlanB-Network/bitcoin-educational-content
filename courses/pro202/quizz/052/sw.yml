@@ -1,0 +1,8 @@
+question: Je, ni faida gani kuu ambayo uthibitisho wa Merkle hutoa kwa wateja wa SPV (Uthibitishaji wa Malipo Kilichorahisishwa) wanapothibitisha kuingizwa kwa miamala?
+answer: Huruhusu uthibitishaji wa kuingizwa kwa miamala bila kupakua kizuizi kizima, ikihitaji baiti mia chache tu hata kwa vizuizi vyenye maelfu ya miamala.
+wrong_answers:
+  - Huondoa hitaji la kuthibitisha hash ya block dhidi ya lengo la ugumu, na kupunguza mahitaji ya kompyuta kwa wateja wepesi.
+  - Wanatoa uthibitisho wa kriptografia unaozuia mashambulizi ya double-spending kwa kuthibitisha ingizo zote za miamala ndani ya kizuizi
+  - Zinawawezesha wateja wa SPV kujenga upya historia kamili ya miamala bila kuunganisha kwenye nodi nyingi kamili kwa wakati mmoja.
+explanation: |
+  Uthibitisho wa Merkle hutumia sifa ya ukuaji wa logarithmic ya miti ya Merkle, ikiruhusu wateja wa SPV kuthibitisha kuingizwa kwa miamala kwa kutumia hashes za ndugu pekee kwenye njia ya mzizi. Hii inahitaji baiti mia chache tu bila kujali ukubwa wa vitalu, na kuifanya iwe ya vitendo kwa wateja wepesi. Majibu yasiyo sahihi huchanganya uthibitisho wa Merkle na mifumo mingine ya Bitcoin - haiondoi uthibitishaji wa ugumu, haizuii double-spending moja kwa moja, na haijengi upya historia ya miamala.

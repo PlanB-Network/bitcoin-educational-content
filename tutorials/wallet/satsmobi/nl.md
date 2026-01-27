@@ -7,12 +7,12 @@ description: Een via Telegram toegankelijke bewaring Wallet
 ![cover](assets/cover.webp)
 
 
-deze handleiding is geschreven door_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+deze handleiding is geschreven door_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 ## Sats.Mobi
 
-SatsMobi is een Wallet die werkt op Telegram, met alle functionaliteiten van een Lightning Network (custodial) Wallet, plus een reeks zeer vermakelijke functies. Het is ontstaan uit een Fork van de nu opgeheven LightningTipBot, en heeft al zijn functies geërfd, terwijl het meer actuele functies heeft toegevoegd, waardoor het moderner is geworden. Net als LNTipBot, omarmt Sats.Mobi ook de open-source filosofie. De Wallet kan onafhankelijk geconfigureerd en beheerd worden door het te klonen van deze [repository] (https://github.com/massmux/SatsMobiBot).
+SatsMobi is een Wallet die werkt op Telegram, met alle functionaliteiten van een Lightning Network (custodial) Wallet, plus een reeks zeer vermakelijke functies. Het is ontstaan uit een Fork van de nu opgeheven LightningTipBot, en heeft al zijn functies geërfd, terwijl het meer actuele functies heeft toegevoegd, waardoor het moderner is geworden. Net als LNTipBot, omarmt Sats.Mobi ook de open-source filosofie. De Wallet kan onafhankelijk geconfigureerd en beheerd worden door het te klonen van deze [repository](https://github.com/massmux/SatsMobiBot).
 
 
 Als je het liever gewoon gebruikt, zal het starten van een chat op Telegram onthullen dat het een bot is.

@@ -185,7 +185,7 @@ Alias Vault فوق‌العاده ساده است: شما یک صفحه اصلی
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 برای حذف یک نام مستعار که به عنوان تست ایجاد کرده‌اید، تنها کاری که باید انجام دهید این است که وارد `Home` خود شوید، سپس به `Credentials` بروید و بر روی هویتی که می‌خواهید حذف کنید کلیک کنید. فرمان _Delete_ در گوشه بالا سمت راست ظاهر خواهد شد تا بتوانید ادامه دهید.
 

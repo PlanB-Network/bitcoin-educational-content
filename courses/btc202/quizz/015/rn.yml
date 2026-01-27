@@ -1,7 +1,7 @@
 question: Ni ubuhe buryo nyamukuru bwo gushirwa mu ngiro kwa Bitcoin core?
-answer: Bitcoin Knots.
+answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin Amafaranga
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

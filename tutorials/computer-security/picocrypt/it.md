@@ -110,4 +110,4 @@ La versione non cifrata dell'archivio ZIP "Encrypted.zip" mi permette ora di rec
 
 Assicurati di usare password forti per proteggere i dati e, se usi un key file, ricordati di farne il backup, altrimenti non sarai più in grado di decriptare il contenitore PCV generato da Picocrypt. Infine, è bene sapere che esiste anche [una versione CLI](https://github.com/Picocrypt/CLI) (con meno funzioni) che consente di eseguire Picocrypt dalla riga di comando: anche in questo caso, Picocrypt apre le porte a nuove possibilità.
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

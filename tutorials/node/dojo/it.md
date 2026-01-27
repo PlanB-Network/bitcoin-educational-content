@@ -64,7 +64,7 @@ Per maggiori informazioni sulla scelta dell'attrezzatura, vi consiglio di seguir
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Attrezzatura consigliata
 
@@ -192,7 +192,7 @@ Per maggiori dettagli sul processo di installazione di Ubuntu, consultate il nos
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. aggiornamento del sistema
 
@@ -428,7 +428,7 @@ Il sistema chiederà quindi di inserire la password scelta e di confermarla una 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Autorizzare l'utente a usare Docker
 
@@ -496,7 +496,7 @@ torsocks wget http://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.on
 
 
 
-Recuperare l'archivio compresso contenente il codice sorgente di Dojo. In questo esempio, la versione più recente è la `1.27.0`: modificare il comando secondo [l'ultima versione qui sul repository ufficiale di GitHub] (https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases).
+Recuperare l'archivio compresso contenente il codice sorgente di Dojo. In questo esempio, la versione più recente è la `1.27.0`: modificare il comando secondo [l'ultima versione qui sul repository ufficiale di GitHub](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases).
 
 
 
@@ -1068,7 +1068,7 @@ Per approfondire la conoscenza dell'IBD e, più in generale, del funzionamento e
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Monitoraggio della sincronizzazione
@@ -1103,7 +1103,7 @@ Lo strumento di manutenzione Dojo è un Interface sicuro, basato sul web, che co
 
 
 
-Per accedervi, è necessario conoscere l'URL del proprio DMT e connettersi ad esso [tramite il browser Tor] (https://www.torproject.org/download/). Per farlo, aprire un terminale e andare nella cartella `/my-dojo`:
+Per accedervi, è necessario conoscere l'URL del proprio DMT e connettersi ad esso [tramite il browser Tor](https://www.torproject.org/download/). Per farlo, aprire un terminale e andare nella cartella `/my-dojo`:
 
 
 

@@ -4,6 +4,12 @@ description: Lihtsaim hooldusvahendi Wallet alustamiseks
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Tähelepanu: alates 2026. aasta algusest ei ole Wallet of Satoshi hooldusrežiimis (nagu selles juhendis kirjeldatud) enam Euroopa Liidus kättesaadav. Kui elate selles piirkonnas ja soovite seda tööriista edasi kasutada, peate kasutama VPN-i, mis asub väljaspool EL-i. Teine võimalus on kasutada Wallet of Satoshi isehooldusrežiimis. Spetsiaalne juhend avaldatakse peagi Plan ₿ Academy lehel.*
+
+---
+
 _Selle õpetuse on kirjutanud_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
@@ -12,7 +18,7 @@ _Selle õpetuse on kirjutanud_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_
 
 Wallet Satoshi on Lightning Network Wallet, eestkostetav ja väga lihtne kasutada.
 
-Kursuse [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) puhul kasutatakse seda Redeem Lightning Network vautšeriteks.
+Kursuse [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) puhul kasutatakse seda Redeem Lightning Network vautšeriteks.
 
 
 **Mäleta alati**: _ei oma võtmeid, mitte oma münte_

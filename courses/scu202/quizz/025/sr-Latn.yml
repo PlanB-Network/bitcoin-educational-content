@@ -6,4 +6,4 @@ wrong_answers:
   - RPM
 explanation: |
   Format Snap, koji je razvio Canonical, omogućava instalaciju samostalnog softvera, izolovanog od sistema i ažuriranog nezavisno.
-reviewed: false
+reviewed: true

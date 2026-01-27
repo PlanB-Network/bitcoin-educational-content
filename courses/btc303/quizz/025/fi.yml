@@ -1,0 +1,9 @@
+question: Mitkä ovat kaksi tärkeintä tapaa, joilla yksityiset taloudelliset tiedot voivat vuotaa Bitcoin:n käytön yhteydessä?
+answer: On-chain lohkoketjuanalyysin ja off-chain:n avulla siepattujen viestien avulla
+wrong_answers:
+  - wallet-ohjelmistovirheiden ja mining-poolin tietomurtojen kautta
+  - Pörssin hakkeroinnin ja hallituksen valvontaohjelmien kautta
+  - Sosiaalisessa mediassa julkaistavien viestien ja julkisten liiketoimia koskevien ilmoitusten avulla
+explanation: |
+  Luvun sisällön mukaan yksityiset tiedot voivat vuotaa kahdella ensisijaisella tavalla: on-chain ja off-chain. Ketjussa tapahtuvat vuodot tapahtuvat julkisen lohkoketjun analyysin kautta, jolloin transaktiomallit, osoitteiden uudelleenkäyttö ja klusterointi voivat paljastaa taloudellisia tietoja. Ketjun ulkopuoliset vuodot tapahtuvat, kun pahantahtoiset toimijat sieppaavat internet-viestinnän tai muilla lohkoketjun ulkopuolisilla keinoilla. Vaikka väärissä vastauksissa mainitaan todellisia turvallisuusongelmia Bitcoin-ekosysteemissä, ne eivät edusta aineistossa esitettyä perustavaa laatua olevaa luokittelua siitä, miten yksityisyydensuojavuotoja tapahtuu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Каква технология използва Umbrel, за да изолира и управлява своите приложения?
+answer: Контейнери Docker
+wrong_answers:
+  - Виртуални машини VirtualBox
+  - Скриптове на Bash
+  - Клъстери Kubernetes
+explanation: |
+  Всяко приложение в Umbrel работи в контейнер Docker, което позволява независимо управление и изолация.
+reviewed: true

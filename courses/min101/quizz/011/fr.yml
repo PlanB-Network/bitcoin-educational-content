@@ -1,0 +1,9 @@
+question: À quoi sert le nonce dans l’entête de bloc ?
+answer: Varier l’entête pour retenter
+wrong_answers:
+  - Augmenter la taille du bloc
+  - Représenter l'ensemble des transactions du bloc
+  - Indiquer la cible de difficulté
+explanation: |
+  Modifier le nonce change l’entrée du hachage et produit une empreinte totalement différente. Cela permet donc de retenter de trouver un hash valide.
+reviewed: false

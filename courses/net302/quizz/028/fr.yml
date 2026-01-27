@@ -6,4 +6,4 @@ wrong_answers:
   - Stream
 explanation: |
   Au niveau de la couche Transport avec TCP, l’unité de données est appelée segment, tandis qu’UDP utilise le terme packet.
-reviewed: false
+reviewed: true 

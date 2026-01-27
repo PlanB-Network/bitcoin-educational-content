@@ -1,0 +1,8 @@
+question: Hvilket matematisk problem danner grunnlaget for sikkerheten til ECDSA-signaturer i Bitcoin?
+answer: Problemet med diskret logaritme for elliptiske kurver
+wrong_answers:
+  - Heltallsfaktoriseringsproblemet
+  - Det kvadratiske restproblemet
+  - Hash-kollisjonsproblemet
+explanation: |
+  ECDSA-sikkerheten baserer seg på det elliptiske logaritmeproblemet: Gitt P = eG, er det enkelt å beregne P ut fra e og G, men det er beregningsmessig umulig å utlede den private nøkkelen e fra den offentlige nøkkelen P. Denne matematiske enveisrelasjonen muliggjør sikker offentlig nøkkelkryptografi med mindre nøkkelstørrelser enn RSA, som er avhengig av heltallsfaktorisering.

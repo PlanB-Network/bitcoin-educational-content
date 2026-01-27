@@ -1,0 +1,8 @@
+question: Ưu điểm chính của việc sử dụng các macro dẫn xuất như #[derive(Debug)] so với việc tự tay triển khai các trait cho các kiểu tùy chỉnh là gì?
+answer: Chúng tự động hoàn thành việc triển khai đặc tính generate tại thời điểm biên dịch, giảm thiểu mã lặp lại.
+wrong_answers:
+  - Chúng cung cấp hiệu năng thời gian chạy tốt hơn bằng cách tối ưu hóa các lệnh gọi phương thức trait trong quá trình thực thi.
+  - Chúng cho phép các đặc tính được triển khai nhiều lần cho cùng một loại với các hành vi khác nhau.
+  - Chúng cho phép triển khai đặc tính động có thể được sửa đổi trong thời gian chạy dựa trên trạng thái của chương trình.
+explanation: |
+  Các macro kế thừa tự động tạo ra các triển khai trait generate trong quá trình biên dịch, loại bỏ nhu cầu viết mã boilerplate lặp đi lặp lại một cách thủ công. Khi bạn sử dụng #[derive(Debug)], trình biên dịch sẽ tạo ra tất cả logic định dạng cần thiết cho trait đó. Các câu trả lời sai là không chính xác vì: macro kế thừa không cải thiện hiệu suất thời gian chạy (chúng tạo ra cùng một mã mà bạn sẽ viết thủ công), trait chỉ có thể được triển khai một lần cho mỗi kiểu bất kể cách chúng được triển khai, và macro kế thừa tạo ra mã tĩnh generate tại thời điểm biên dịch thay vì cho phép sửa đổi thời gian chạy.

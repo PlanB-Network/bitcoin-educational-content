@@ -1,0 +1,9 @@
+question: Vastavalt peatükis Bitcoin ühilduvust käsitlevale arutelule, millist tüüpi ühilduvust pakub pehme fork?
+answer: Nii edasi- kui ka tagasiulatuv ühilduvus, mis muudab selle täielikult ühilduvaks
+wrong_answers:
+  - Ainult tagasiulatuv ühilduvus, mis võimaldab uuel tarkvaral töödelda vanu andmeid
+  - Ainult edasiühilduvus, mis võimaldab vanal tarkvaral töödelda uusi andmeid
+  - Ei ühildu ei edasi ega tagasi, nõuab täielikku süsteemi uuendamist
+explanation: |
+  Peatükis on selgelt öeldud, et "Bitcoin konsensusreeglite muutmist nimetatakse pehmeks fork-ks, kui see on täielikult ühilduv" Selles määratletakse täielikku ühilduvust kui nii edasi- kui ka tagasiulatuvat ühilduvust. Edasi ühilduvus tähendab, et vana tarkvara saab töödelda uuemate versioonide andmeid, ignoreerides neid osi, millest ta ei saa aru, samas kui tagasiühilduvus tähendab, et uus tarkvara saab töödelda vanu andmeid. See kahekordne ühilduvus on see, mis muudab pehmed kahhelid Bitcoin eelistatud uuendamismehhanismiks, kuna need ei riku olemasolevaid süsteeme, võimaldades samas uut funktsionaalsust.
+reviewed: false

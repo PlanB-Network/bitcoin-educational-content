@@ -1,14 +1,12 @@
-question: Jakie jest ryzyko korzystania z Multisig Wallet?
+question: Jakie jest ryzyko korzystania z portfela wielopodpisowego?
 answer: Brak dostępu do wystarczającej liczby indywidualnych kluczy prywatnych lub komponentów kopii zapasowych.
 wrong_answers:
   - Posiadanie dostępu do wystarczającej liczby indywidualnych kluczy prywatnych lub komponentów kopii zapasowych.
   - Udostępnianie kluczy prywatnych innym stronom.
   - Udostępnianie kluczy publicznych innym stronom.
 explanation: |
-  W przypadku korzystania z Multisig Wallet, każdy klucz prywatny
-  Multisig powinien być przechowywany w różnych lokalizacjach. Dzieje się tak
-  ponieważ Multisig wymaga wielu podpisów do przeprowadzenia
-  transakcji, więc potrzebna jest pewna liczba portfeli
-  portfeli. Zatem przechowywanie każdej części w innej lokalizacji
-  dodaje dodatkowy Layer bezpieczeństwa.
+  W przypadku korzystania z portfela wielopodpisowego, każdy klucz prywatny powinien być przechowywany w różnych lokalizacjach. Dzieje się tak
+  ponieważ portfel wielopodpisowy wymaga wielu podpisów do przeprowadzenia
+  transakcji, więc potrzebna jest określona liczba portfeli. Zatem przechowywanie każdej części w innej lokalizacji
+  dodaje dodatkowego bezpieczeństwa.
 reviewed: true

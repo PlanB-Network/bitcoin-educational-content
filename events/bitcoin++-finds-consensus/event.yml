@@ -1,0 +1,23 @@
+id: 1e3235d5-a10c-4f45-8d38-7aa067f705de
+start_date: 2026-07-22 14:00:00
+end_date: 2026-07-24 22:00:00
+timezone: America/Toronto
+address_city_country: Toronto, Canada
+address_line_2:  The Great Hall, Toronto
+name: bitcoin++ finds consensus
+type: workshop
+description: |
+  Bitcoin stands as one of the greatest decentralized protocols.
+  Encompassing commerce around the globe, and billions of people's economic
+  desires, the protocol itself becomes the frontier of conflict and possibility
+  for the future of the network. In Toronto, we'll be gathering the developers
+  and protocol experts at the edge of bitcoin to reach consensus on some of the
+  most pressing topics of the network.
+language:
+  - en
+links:
+  website: https://btcplusplus.dev/conf/toronto
+tags:
+  - consensus
+  - technical-analysis
+  - education

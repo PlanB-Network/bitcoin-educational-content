@@ -1,11 +1,11 @@
 ---
 name: Weblate - kwongerako ururimi rushasha
-description: None wokwongerako gute ururimi rushasha kuri Plan ₿ Network?
+description: None wokwongerako gute ururimi rushasha kuri Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
 
-Intumbero ya Plan ₿ Network ni ugutanga ibikoresho vy’inyigisho vy’agaciro ka mbere ku Bitcoin no kubihindura mu ndimi nyinshi zishoboka. Vyinshi mu bisohoka kuri uru rubuga ni open-source kandi bishirwa kuri GitHub, bikaba vyemerera umuntu wese kugira uruhara mu gutunganya urubuga. Intererano zishobora kuba mu buryo butandukanye: gukosora no gukosora ibirimwo, guhindura amakuru canke guhingura inyigisho nshasha zo kwongera ku rubuga.
+Intumbero ya Plan ₿ Academy ni ugutanga ibikoresho vy’inyigisho vy’agaciro ka mbere ku Bitcoin no kubihindura mu ndimi nyinshi zishoboka. Vyinshi mu bisohoka kuri uru rubuga ni open-source kandi bishirwa kuri GitHub, bikaba vyemerera umuntu wese kugira uruhara mu gutunganya urubuga. Intererano zishobora kuba mu buryo butandukanye: gukosora no gukosora ibirimwo, guhindura amakuru canke guhingura inyigisho nshasha zo kwongera ku rubuga.
 
 
 Urubuga rwacu ubu ruratanga indimi zitandukanye, kandi turabandanya gukora kugira ngo twongereko izindi. Kugira ngo dutere imbere mu guhindura ubuhinduzi bw’imbere, dukoresha igikoresho ca Weblate, kidufasha gukorana no gucunga neza ubuhinduzi. Ni igikoresho gikoreshwa neza.
@@ -14,7 +14,7 @@ Urubuga rwacu ubu ruratanga indimi zitandukanye, kandi turabandanya gukora kugir
 Nimba ururimi rwawe kavukire rutaraboneka ku rubuga rwacu kandi ushaka kurushiramwo, iyi nyigisho ni iyawe!
 
 
-Mbere, urabe ko ushobora guhamagara umugwi wa Plan ₿ Network biciye ku [mugwi wa Telegaramu] Niwaba udafise Telegram, worungika ubutumwa kuri mari@planb.network. Raba neza ko wandika akajambo gatoyi kerekana uwo uri we be n’indimi uvuga.
+Mbere, urabe ko ushobora guhamagara umugwi wa Plan ₿ Academy biciye ku [mugwi wa Telegaramu] Niwaba udafise Telegram, worungika ubutumwa kuri mari@planb.network. Raba neza ko wandika akajambo gatoyi kerekana uwo uri we be n’indimi uvuga.
 
 
 ## Gusuzuma nimba ururimi ruriho kuri Weblate
@@ -36,14 +36,14 @@ Kugira turabe ko ururimi rwawe rusanzwe ruri muvyo turiko turakora.
 Nimba ururimi rwawe ruri muri uru rutonde, ntukeneye kurushiramwo kandi. Kugira ngo ushiremwo umusanzu mu gukosora urubuga, rondera inyigisho ikurikira:
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
 Nimba ururimi rwawe rutariho, kurikiza inyigisho iri musi kugira ngo urushiremwo.
 
 
-## Kwongera Ururimi Rushasha kuri Plan ₿ Network.
+## Kwongera Ururimi Rushasha kuri Plan ₿ Academy.
 
 
 
@@ -81,9 +81,9 @@ Nimba ururimi rwawe rutariho, kurikiza inyigisho iri musi kugira ngo urushiremwo
 Kugira ngo uyoborwe mu nzira y’ubuhinduzi, raba inyigisho yacu yihariye hano aha hepfo:
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
-Murakoze cane, mwatanguye igikorwa co guhindura Elements idahinduka ku rubuga rwa Plan ₿ Network!
+Murakoze cane, mwatanguye igikorwa co guhindura Elements idahinduka ku rubuga rwa Plan ₿ Academy!
 
 Birimwo imirongo yose iri ku rubuga, kiretse ibirimwo inyigisho (amashure, inyigisho...) ivyo dukoresha ubundi buryo bukora bimwe bimwe (ubuhinduzi bwa AI + ugukosora kw’abatanga).
 

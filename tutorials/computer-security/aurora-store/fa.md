@@ -14,7 +14,7 @@ description: یک جایگزین رایگان برای فروشگاه Play جه�
 
 
 
-# شروع به کار با فروشگاه Aurora
+## شروع به کار با فروشگاه Aurora
 
 
 
@@ -44,13 +44,13 @@ description: یک جایگزین رایگان برای فروشگاه Play جه�
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 با این حال، ما توصیه می‌کنیم که فایل APK را مستقیماً از وب‌سایت رسمی دانلود کنید تا از اصالت و یکپارچگی فروشگاه Aurora اطمینان حاصل کنید.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 یک فایل APK (Android Package Kit) فرمت بسته‌ای است که توسط سیستم‌عامل اندروید برای توزیع و نصب برنامه‌ها استفاده می‌شود. این معادل فایل‌های **.exe** در ویندوز یا فایل‌های **.dmg** در macOS است.
 
@@ -88,7 +88,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 
 
-## ویژگی‌ها
+### ویژگی‌ها
 
 
 
@@ -155,4 +155,4 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

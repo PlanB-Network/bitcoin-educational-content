@@ -1,6 +1,6 @@
 ---
 name: Bidrag - GitHub Webbhandledning (nybörjare)
-description: Komplett guide till Plan ₿ Network-handledning med GitHub Web
+description: Komplett guide till Plan ₿ Academy-handledning med GitHub Web
 ---
 ![cover](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Komplett guide till Plan ₿ Network-handledning med GitHub Web
 Innan du följer denna handledning om hur du lägger till en ny handledning måste du ha slutfört några inledande steg. Om du inte redan har gjort det kan du först läsa den här inledande handledningen och sedan komma tillbaka hit:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Du har redan:
 
@@ -16,11 +16,11 @@ Du har redan:
 
 
 - Välj ett tema för din handledning;
-- Kontaktade Plan ₿ Network-teamet via [Telegramgrupp](https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network ;
+- Kontaktade Plan ₿ Academy-teamet via [Telegramgrupp](https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network ;
 - Välj dina bidragsverktyg.
 
 
-I den här handledningen tittar vi på hur du lägger till din handledning i Plan ₿ Network med hjälp av webbversionen av GitHub. Om du redan har behärskat Git kanske denna mycket detaljerade handledning inte är nödvändig för dig. Istället rekommenderar jag att du kollar in en av dessa andra 2 tutorials, där jag beskriver de riktlinjer som ska följas och stegen för att göra ändringar från en lokal:
+I den här handledningen tittar vi på hur du lägger till din handledning i Plan ₿ Academy med hjälp av webbversionen av GitHub. Om du redan har behärskat Git kanske denna mycket detaljerade handledning inte är nödvändig för dig. Istället rekommenderar jag att du kollar in en av dessa andra 2 tutorials, där jag beskriver de riktlinjer som ska följas och stegen för att göra ändringar från en lokal:
 
 
 
@@ -28,13 +28,13 @@ I den här handledningen tittar vi på hur du lägger till din handledning i Pla
 - **Erfarna användare**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
 - **Mellanliggande (GitHub Desktop)**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Förkunskapskrav
 
@@ -44,28 +44,28 @@ Förutsättningar innan du påbörjar handledningen:
 
 
 
-- Har ett [GitHub-konto] (https://github.com/signup);
-- Ha en Fork av [Plan ₿ Network-källförvaret] (https://github.com/PlanB-Network/Bitcoin-educational-content);
-- Har [en lärarprofil på Plan ₿ Network] (https://planb.network/professors) (endast om du erbjuder en fullständig handledning).
+- Har ett [GitHub-konto](https://github.com/signup);
+- Ha en Fork av [Plan ₿ Academy-källförvaret](https://github.com/PlanB-Network/Bitcoin-educational-content);
+- Har [en lärarprofil på Plan ₿ Academy](https://planb.academy/professors) (endast om du erbjuder en fullständig handledning).
 
 
 Om du behöver hjälp med att få dessa förutsättningar, kommer mina andra handledningar att hjälpa dig:
 
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-När allt är på plats och du har din Fork av Plan ₿ Network-repository kan du börja lägga till handledningen.
+När allt är på plats och du har din Fork av Plan ₿ Academy-repository kan du börja lägga till handledningen.
 
 
 ## 1 - Skapa en ny filial
 
 
-Öppna din webbläsare och navigera till din Fork-sida i Plan ₿ Network-förvaret. Detta är den Fork som du etablerade på GitHub. URL:en till din Fork ska se ut så här: `https://github.com/[ditt-användarnamn]/Bitcoin-educational-content`:
+Öppna din webbläsare och navigera till din Fork-sida i Plan ₿ Academy-förvaret. Detta är den Fork som du etablerade på GitHub. URL:en till din Fork ska se ut så här: `https://github.com/[ditt-användarnamn]/Bitcoin-educational-content`:
 
 
 ![GITHUB](assets/fr/01.webp)
@@ -104,7 +104,7 @@ En gren i Git representerar en parallell version av projektet, vilket gör att d
 Nu när arbetsgrenen har skapats är det dags att integrera den nya handledningen.
 
 
-I dina grenfiler måste du hitta den lämpliga undermappen för placeringen av din handledning. Mapparnas organisation återspeglar de olika avsnitten på Plan ₿ Network-webbplatsen. I vårt exempel, eftersom vi lägger till en handledning om Green Wallet, ska du gå till följande sökväg: `Bitcoin-educational-content\tutorials\Wallet` som motsvarar avsnittet `Wallet` på webbplatsen:
+I dina grenfiler måste du hitta den lämpliga undermappen för placeringen av din handledning. Mapparnas organisation återspeglar de olika avsnitten på Plan ₿ Academy-webbplatsen. I vårt exempel, eftersom vi lägger till en handledning om Green Wallet, ska du gå till följande sökväg: `Bitcoin-educational-content\tutorials\Wallet` som motsvarar avsnittet `Wallet` på webbplatsen:
 
 
 ![GITHUB](assets/fr/05.webp)
@@ -197,15 +197,15 @@ Här är de obligatoriska fälten:
 
 
 
-- **projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du t.ex. skapar en handledning om programvaran Green Wallet hittar du detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Network upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
+- **projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du t.ex. skapar en handledning om programvaran Green Wallet hittar du detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Academy upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
 
 
 
-- **taggar**: 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Network:s tagglista](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **taggar**: 2 eller 3 relevanta nyckelord relaterade till handledningens innehåll, uteslutande valda [från Plan ₿ Academy:s tagglista](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- **kategori**: Den underkategori som motsvarar innehållet i handledningen, enligt Plan ₿ Network:s webbplatsstruktur (t.ex. för plånböcker: "Desktop", "Hardware", "Mobile", "Backup");
+- **kategori**: Den underkategori som motsvarar innehållet i handledningen, enligt Plan ₿ Academy:s webbplatsstruktur (t.ex. för plånböcker: "Desktop", "Hardware", "Mobile", "Backup");
 
 
 
@@ -217,7 +217,7 @@ Här är de obligatoriska fälten:
 
 
 
-- **professor_id**: Ditt `professor_id` (UUID) som visas på [din professorsprofil] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Ditt `professor_id` (UUID) som visas på [din professorsprofil](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
@@ -236,7 +236,7 @@ Här är de obligatoriska fälten:
 För mer information om ditt lärar-ID, se motsvarande handledning:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -442,7 +442,7 @@ Språkundermappen i mappen `/assets` (i mitt exempel: `/assets/en`) används fö
 För att namnge dina bilder använder du helt enkelt nummer som motsvarar den ordning de visas i handledningen, formaterade som två siffror (eller tre siffror om din handledning innehåller fler än 99 bilder). Namnge till exempel den första bilden "01.webp", den andra "02.webp" och så vidare.
 
 
-Dina bilder måste endast vara i formatet `.webp`. Om det behövs kan du använda [min programvara för bildkonvertering] (https://github.com/LoicPandul/ImagesConverter).
+Dina bilder måste endast vara i formatet `.webp`. Om det behövs kan du använda [min programvara för bildkonvertering](https://github.com/LoicPandul/ImagesConverter).
 
 
 ![GITHUB](assets/fr/32.webp)
@@ -474,7 +474,7 @@ Utropstecknet i början indikerar en bild. Den alternativa texten, som hjälper 
 ![GITHUB](assets/fr/35.webp)
 
 
-Om du vill skapa dina egna scheman, se till att följa Plan ₿ Network:s grafiska riktlinjer för att säkerställa visuell enhetlighet:
+Om du vill skapa dina egna scheman, se till att följa Plan ₿ Academy:s grafiska riktlinjer för att säkerställa visuell enhetlighet:
 
 
 
@@ -486,10 +486,10 @@ Om du vill skapa dina egna scheman, se till att följa Plan ₿ Network:s grafis
  - Vit: #FFFFFF
 
 
-**Det är absolut nödvändigt att alla bilder som integreras i dina handledningar är fria från upphovsrätt eller respekterar källfilslicensen**. Därför görs alla diagram som publiceras på Plan ₿ Network tillgängliga under en CC-BY-SA-licens, på samma sätt som texten.
+**Det är absolut nödvändigt att alla bilder som integreras i dina handledningar är fria från upphovsrätt eller respekterar källfilslicensen**. Därför görs alla diagram som publiceras på Plan ₿ Academy tillgängliga under en CC-BY-SA-licens, på samma sätt som texten.
 
 
-**-> Tips: ** När du delar filer offentligt, till exempel bilder, är det viktigt att ta bort överflödiga metadata. Dessa kan innehålla känslig information, t.ex. platsdata, skapandedatum och författardetaljer. För att skydda din integritet är det en bra idé att ta bort dessa metadata. För att förenkla detta kan du använda specialiserade verktyg som [Exif Cleaner] (https://exifcleaner.com/), som gör att du kan rensa upp ett dokuments metadata med en enkel dra-och-släpp-funktion.
+**-> Tips: ** När du delar filer offentligt, till exempel bilder, är det viktigt att ta bort överflödiga metadata. Dessa kan innehålla känslig information, t.ex. platsdata, skapandedatum och författardetaljer. För att skydda din integritet är det en bra idé att ta bort dessa metadata. För att förenkla detta kan du använda specialiserade verktyg som [Exif Cleaner](https://exifcleaner.com/), som gör att du kan rensa upp ett dokuments metadata med en enkel dra-och-släpp-funktion.
 
 
 ## 9 - Föreslå handledning
@@ -504,7 +504,7 @@ För att gå vidare med Pull Request, efter att ha sparat alla dina ändringar, 
 ![GITHUB](assets/fr/36.webp)
 
 
-En Pull Request är en begäran som görs för att integrera ändringar från din gren till huvudgrenen i Plan ₿ Network-arkivet, vilket möjliggör granskning och diskussion av ändringar innan de slås samman.
+En Pull Request är en begäran som görs för att integrera ändringar från din gren till huvudgrenen i Plan ₿ Academy-arkivet, vilket möjliggör granskning och diskussion av ändringar innan de slås samman.
 
 
 Innan du fortsätter ska du kontrollera noga längst ned i Interface att ändringarna är de du förväntade dig:
@@ -513,7 +513,7 @@ Innan du fortsätter ska du kontrollera noga längst ned i Interface att ändrin
 ![GITHUB](assets/fr/37.webp)
 
 
-Se till, högst upp i Interface, att din arbetsgren slås samman med `dev`-grenen i Plan ₿ Network-arkivet (som är huvudgrenen).
+Se till, högst upp i Interface, att din arbetsgren slås samman med `dev`-grenen i Plan ₿ Academy-arkivet (som är huvudgrenen).
 
 
 Ange en titel som kort sammanfattar de ändringar som du vill slå samman med källarkivet. Lägg till en kort kommentar som beskriver dessa ändringar (om du har ett problemnummer som är kopplat till skapandet av din handledning, kom ihåg att notera `Closes #{problemnummer}` som en kommentar) och klicka sedan på Green "*Create pull request*"-knappen för att bekräfta sammanslagningsbegäran:
@@ -522,7 +522,7 @@ Ange en titel som kort sammanfattar de ändringar som du vill slå samman med k�
 ![GITHUB](assets/fr/38.webp)
 
 
-Din PR kommer sedan att synas på fliken "*Pull Request*" i Plan ₿ Network:s huvudarkiv. Allt du behöver göra nu är att vänta tills en administratör kontaktar dig för att bekräfta att ditt bidrag har sammanfogats eller för att begära ytterligare ändringar.
+Din PR kommer sedan att synas på fliken "*Pull Request*" i Plan ₿ Academy:s huvudarkiv. Allt du behöver göra nu är att vänta tills en administratör kontaktar dig för att bekräfta att ditt bidrag har sammanfogats eller för att begära ytterligare ändringar.
 
 
 ![GITHUB](assets/fr/39.webp)
@@ -540,7 +540,7 @@ Om du vill göra ändringar i ditt bidrag efter att du redan har skickat in din 
 
 
 - Om din PR fortfarande är öppen och ännu inte har sammanfogats kan du göra ändringarna i samma arbetsgren. Ändringarna kommer att läggas till i din fortfarande öppna PR;
-- Om din PR redan har slagits samman med huvudgrenen måste du göra om processen från början genom att skapa en ny gren och sedan skicka in en ny PR. Se till att din Fork är synkroniserad med Plan ₿ Network-källarkivet på `dev`-grenen innan du fortsätter.
+- Om din PR redan har slagits samman med huvudgrenen måste du göra om processen från början genom att skapa en ny gren och sedan skicka in en ny PR. Se till att din Fork är synkroniserad med Plan ₿ Academy-källarkivet på `dev`-grenen innan du fortsätter.
 
 
-Om du har tekniska problem med att skicka in din handledning, tveka inte att be om hjälp på [vår dedikerade Telegramgrupp för bidrag] (https://t.me/PlanBNetwork_ContentBuilder). Tack så mycket!
+Om du har tekniska problem med att skicka in din handledning, tveka inte att be om hjälp på [vår dedikerade Telegramgrupp för bidrag](https://t.me/PlanBNetwork_ContentBuilder). Tack så mycket!

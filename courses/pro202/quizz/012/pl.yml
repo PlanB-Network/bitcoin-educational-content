@@ -1,0 +1,8 @@
+question: Jaka właściwość matematyczna zapewnia, że punkty krzywej eliptycznej mogą być dodawane do siebie w sposób spójny i przewidywalny w operacjach kryptograficznych?
+answer: Punkty tworzą grupę matematyczną z domknięciem, asocjatywnością, tożsamością i odwrotnościami
+wrong_answers:
+  - Punkty utrzymują ciągłe, gładkie krzywe, które zachowują relacje geometryczne
+  - Punkty podążają za liniowymi wzorcami progresji, które tworzą przewidywalne sekwencje
+  - Punkty wykorzystują arytmetykę modułową, która automatycznie zapobiega błędom obliczeniowym
+explanation: |
+  Punkty krzywej eliptycznej tworzą grupę matematyczną pod dodawaniem, co oznacza, że spełniają cztery podstawowe właściwości: domknięcie (dodanie dwóch punktów daje kolejny punkt na krzywej), asocjatywność (kolejność operacji nie ma znaczenia), tożsamość (punkt w nieskończoności działa jak zero) i odwrotności (każdy punkt ma odbicie, które go anuluje). Te właściwości grupowe sprawiają, że kryptografia krzywych eliptycznych działa niezawodnie i umożliwiają spójne zachowanie operacji takich jak mnożenie skalarne, niezależnie od tego, czy pracujemy z gładkimi krzywymi rzeczywistymi, czy dyskretnymi punktami skończonego pola.

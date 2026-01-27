@@ -86,6 +86,11 @@ videos:
     rumble:
       - it: b1t4fz4
 
+# license field, choose between CC-BY-SA-V4, MIT
+# (DEFAULT) CC-BY-SA-V4: is also quite permissive but includes a share-alike clause
+# MIT: allows for almost unrestricted use → only for imported content and docs with such license policy
+license: CC-BY-SA-V4
+
 # This parameter is used to control if a course has to be published only on testnet (parameter set to true) or on mainnet (parameter set to false)
 # Choose between true or false
 # ATTENTION: be careful using this parameter, in case you set it to true for an existing course,

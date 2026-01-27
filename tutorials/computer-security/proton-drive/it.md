@@ -40,7 +40,7 @@ Per quanto riguarda il [prezzo](https://proton.me/pricing), la versione gratuita
 
 Se non hai ancora un account Proton, dovrai crearne uno. Ti rimando al nostro tutorial su Proton Mail in cui spieghiamo in dettaglio come creare un account Proton gratuito e configurarlo:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![PROTON DRIVE](assets/notext/04.webp)
 
@@ -132,7 +132,7 @@ Infine, nella scheda "*Cestino*", puoi trovare i tuoi documenti eliminati di rec
 
 La maggior parte delle impostazioni per il tuo Proton Drive sono integrate nel tuo account Proton. Per istruzioni dettagliate su come configurare il tuo account, ti invito a consultare questo tutorial:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 
 ## Come installare il software Proton Drive?
@@ -198,4 +198,4 @@ Congratulazioni, ora hai una strategia di backup 3-2-1 molto robusta, che ti per
 
 Per saperne di più su come proteggere la tua presenza online ed evitare il hacking, ti consiglio anche di consultare il nostro tutorial dettagliato sul gestore di password Bitwarden:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

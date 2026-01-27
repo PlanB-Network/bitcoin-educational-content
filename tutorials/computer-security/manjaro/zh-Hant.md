@@ -322,7 +322,7 @@ Electrum 讓您**輕鬆地接收和發送比特幣**，同時提供多個 Wallet
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## 保護您的 Manjaro 系統
 
@@ -395,4 +395,4 @@ Manjaro 結合了**穩定性、速度和安全性**，同時保持**完全免費
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

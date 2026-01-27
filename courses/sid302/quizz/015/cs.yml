@@ -1,0 +1,8 @@
+question: Jaké informace jsou v síti Taproot s podporou HTLC sděleny síti Bitcoin, když výměna selže a jedna ze stran potřebuje získat zpět své finanční prostředky cestou protivníka?
+answer: Pouze konkrétní větev Merklova stromu obsahující podmínky hash/časového zámku potřebné pro obnovu fondu
+wrong_answers:
+  - "Kompletní logika skriptu včetně všech možných cest provedení a jednotlivých veřejných klíčů obou stran."
+  - Předobrazový tajný klíč a všechny agregované veřejné klíče použité v procesu kombinace klíčů MuSig2
+  - Celé smluvní podmínky HTLC, včetně swapových částek, časových rámců a adres Lightning i Liquid
+explanation: |
+  Taproot uspořádává podmínky HTLC do struktury Merkleova stromu, což umožňuje selektivní zveřejnění. Při neúspěšné spolupráci je odhalena pouze konkrétní větev potřebná k prokázání práva na vrácení finančních prostředků, zatímco ostatní podrobnosti smlouvy zůstávají skryty. To je rozdíl od starších HTLC, které odhalovaly kompletní skripty, a liší se to od případů spolupráce, kdy nejsou odhaleny vůbec žádné detaily skriptů.

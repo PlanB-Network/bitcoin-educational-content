@@ -665,7 +665,7 @@ Sau khi cấu hình, hãy kiểm tra thiết lập của bạn:
 
 
 
-### Các lựa chọn thay thế trên Plan ₿ Network
+### Các lựa chọn thay thế trên Plan ₿ Academy
 
 
 Để được bảo vệ tối đa, hãy tham khảo các hướng dẫn khác của chúng tôi:
@@ -673,14 +673,14 @@ Sau khi cấu hình, hãy kiểm tra thiết lập của bạn:
 
 
 
-- [Firefox được tăng cường](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Cấu hình đa nền tảng nâng cao
-- [Trình duyệt Tor](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Ẩn danh mạng hoàn toàn
-- [Trình duyệt Mullvad](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Bảo vệ dấu vân tay tối đa
+- [Firefox được tăng cường](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Cấu hình đa nền tảng nâng cao
+- [Trình duyệt Tor](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Ẩn danh mạng hoàn toàn
+- [Trình duyệt Mullvad](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Bảo vệ dấu vân tay tối đa
 
 
 
-Nếu bạn muốn tìm hiểu thêm về lịch sử và hoạt động của trình duyệt, cũng như các đối tượng kỹ thuật số chính trong cuộc sống hàng ngày, tôi mời bạn khám phá khóa đào tạo miễn phí mới của chúng tôi SCU 202, có sẵn trên Plan ₿ Network:
+Nếu bạn muốn tìm hiểu thêm về lịch sử và hoạt động của trình duyệt, cũng như các đối tượng kỹ thuật số chính trong cuộc sống hàng ngày, tôi mời bạn khám phá khóa đào tạo miễn phí mới của chúng tôi SCU 202, có sẵn trên Plan ₿ Academy:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

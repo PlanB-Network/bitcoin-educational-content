@@ -1,0 +1,9 @@
+question: Satoshi Nakamoton perustavanlaatuisen kritiikin mukaan mikä on perinteisten fiat-valuuttojen ydinongelma, joka Bitcoin:n oli tarkoitus ratkaista?
+answer: Liiallinen luottamus keskitettyihin instituutioihin, jotka historiallisesti ovat toistuvasti rikkoneet luottamusta heikentämällä valuuttoja
+wrong_answers:
+  - Digitaalisen infrastruktuurin puute ja hitaat tapahtumien käsittelyajat verrattuna nykyaikaisiin maksujärjestelmiin
+  - Kyvyttömyys suorittaa kansainvälisiä liiketoimia ilman kalliita välittäjiä ja valuutanvaihtomaksuja
+  - Alttius väärentämiselle ja fyysiselle varkaudelle, joka johtuu riippuvuudesta paperirahaan ja fyysiseen säilytykseen
+explanation: |
+  Satoshi Nakamoto totesi nimenomaisesti, että "tavanomaisen valuutan perusongelma on luottamus, jota tarvitaan, jotta se toimisi", ja että "fiat-valuuttojen historia on täynnä luottamuksen rikkomisia"
+  Tämä filosofinen perusta ohjasi Bitcoin:n suunnittelua luottamusta herättämättömäksi järjestelmäksi, joka ei vaadi uskoa keskuspankkeihin tai hallituksiin rahan vakauden ylläpitämiseksi, ja se puuttui suoraan liiallisen rahan painamisen aiheuttamaan valuutan arvon alenemiseen.

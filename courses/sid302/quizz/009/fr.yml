@@ -1,0 +1,8 @@
+question: Quel est l'objectif principal des engagements de Pedersen dans les zones Elements et Confidential Transactions ?
+answer: Remplacer les montants visibles des transactions par des engagements cryptographiques qui peuvent être validés sans révéler les valeurs réelles
+wrong_answers:
+  - Au generate, des identifiants hexadécimaux uniques de 64 caractères pour les actifs nouvellement émis sur la blockchain Elements
+  - Prévenir la double-spending en créant des preuves mathématiques que les valeurs cachées sont des nombres entiers positifs compris dans des fourchettes valables
+  - Permettre le transfert de Bitcoin de la chaîne principale vers les chaînes secondaires Elements par le biais de mécanismes cryptographiques d'ancrage
+explanation: |
+  Les engagements de Pedersen sont le mécanisme cryptographique de base qui permet la confidentialité dans le Confidential Transactions en remplaçant les montants visibles par des engagements mathématiques. Grâce à leurs propriétés homomorphiques, les validateurs peuvent vérifier que les entrées sont égales aux sorties plus les frais sans voir les valeurs réelles. Les preuves de portée empêchent les montants négatifs, les identifiants d'actifs identifient les jetons et les mécanismes d'ancrage gèrent les transferts entre chaînes, mais aucun de ces éléments n'est la fonction spécifique des engagements de Pedersen.

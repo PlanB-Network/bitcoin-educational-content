@@ -1,0 +1,8 @@
+question: Hva er det viktigste arkitektoniske kompromisset som Breez SDK gjør for å oppnå forenklet Lightning-integrasjon og samtidig opprettholde ikke-frihetsberøvende prinsipper?
+answer: Brukerne mister noe av personvernet ettersom Greenlight kan observere kanaltilstander og rutingsinformasjon, men beholder full kontroll over private nøkler og tilgang til penger
+wrong_answers:
+  - Brukerne må overlate en del av midlene til Greenlight i bytte mot automatisert kanaladministrasjon og redusert driftskompleksitet
+  - Utviklere mister tilgang til avanserte Lightning-funksjoner som tilpasset ruting og kanalpolicyer i bytte mot forenklet API-integrasjon og støtte på tvers av plattformer
+  - Applikasjoner ofrer sanntidsbetalingsfunksjoner i bytte mot bedre sikkerhet gjennom skybasert validering av alle Lightning-transaksjoner
+explanation: |
+  Breez SDK-arkitekturen representerer en nøye gjennomtenkt avveining mellom personvern og brukervennlighet. Selv om Greenlight kan observere kanaltilstander og rutingsinformasjon (noe som reduserer personvernet), har brukerne full kontroll over sine private nøkler, som aldri forlater enhetene deres. Dette sikrer at det ikke er mulig å få tilgang til midler uten brukerens autorisasjon, noe som ivaretar det sentrale prinsippet om ikke-forvaring. De gale svarene antyder feilaktig forvaring av midler, funksjonsbegrensninger eller behandlingsforsinkelser - ingen av disse er faktiske avveininger i SDK-designet.

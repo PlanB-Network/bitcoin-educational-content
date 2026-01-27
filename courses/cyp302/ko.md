@@ -1,29 +1,18 @@
 ---
-name: 공식 암호화 소개
+name: 현대 암호학의 기초
 goal: 암호화의 과학과 실무에 대한 심층적인 소개입니다.
-objectives: 
-
-  - Beale 암호와 최신 암호화 방법을 살펴보고 암호화의 기본 및 역사적 개념을 이해하세요.
-  - 수 이론, 그룹, 필드에 대해 알아보고 암호화의 근간이 되는 주요 수학적 개념을 익혀보세요.
-  - RC4 스트림 암호와 128비트 키를 사용하는 AES를 공부하여 대칭 암호화 알고리즘에 대해 알아보세요.
-  - RSA 암호화 시스템, 키 분배 및 Hash 함수를 조사하여 비대칭 암호화를 살펴보세요.
-
-
+objectives:
+- Beale 암호와 최신 암호화 방법을 살펴보고 암호화의 기본 및 역사적 개념을 이해하세요.
+- 수 이론, 그룹, 필드에 대해 알아보고 암호화의 근간이 되는 주요 수학적 개념을 익혀보세요.
+- RC4 스트림 암호와 128비트 키를 사용하는 AES를 공부하여 대칭 암호화 알고리즘에 대해 알아보세요.
+- RSA 암호화 시스템, 키 분배 및 Hash 함수를 조사하여 비대칭 암호화를 살펴보세요.
 ---
-# 암호화에 대해 자세히 알아보기
+# 현대 암호학 심층 탐구
 
+이 과정에서는 현대 암호학의 핵심 요소를 명확하고 접근하기 쉬운 방식으로 다룹니다. 고급 수학 배경 지식은 필요하지 않습니다. 각 장을 통해 대칭 및 공개 키 암호화, 해시 함수, 디지털 서명, 키 교환, 실제 프로토콜과 같은 핵심 개념을 배우게 됩니다. 그 과정에서 보안 메시징, TLS, 비밀번호 저장, 인증과 같은 실용적인 응용 프로그램과의 연결고리를 만들어 갈 것입니다.
 
-암호학 교육에서 좋은 중간 지점을 제시하는 자료를 찾기란 쉽지 않습니다.
-
-
-한편으로는 수학, 논리 또는 기타 공식적인 분야에 대한 배경 지식이 있는 사람만 접근할 수 있는 길고 형식적인 논문이 있습니다. 반면에, 조금이라도 호기심이 있는 사람에게는 너무 많은 세부 사항을 숨기는 매우 높은 수준의 소개가 있습니다.
-
-
-이 암호학 입문서는 그 중간 지점을 잡으려고 노력했습니다. 암호학을 처음 접하는 사람에게는 비교적 어렵고 자세하게 설명하지만, 일반적인 기초 논문처럼 토끼굴 같은 내용은 아닙니다.
-
-
+자료는 모든 수준의 학습자를 위해 설계되었으며, 호기심을 충족시키기에 충분한 기술적 깊이와 직관의 균형을 맞춥니다. 집중적이고 매력적인 여정을 기대하세요. 과정을 마칠 때쯤이면 현대 암호학이 어떻게, 왜 작동하는지, 그리고 이를 책임감 있게 사용하는 방법을 이해하게 될 것입니다.
 +++
-
 # 소개
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
@@ -182,7 +171,7 @@ CYP302 과정에 오신 것을 환영합니다!
 *그림 1: Beale 암호 번호. 2*
 
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 
 
@@ -424,7 +413,7 @@ $$
 *그림 1: 무작위 변수 X*
 
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 
 그림 1의 넓은 막대는 무작위 변수 $X$가 실제로 연속적이라는 것을 의미하는 것은 아닙니다. 대신 시각적으로 더 매력적으로 보이기 위해 막대를 넓게 만든 것입니다(직선으로만 표시하면 직관적이지 않은 시각화를 제공합니다).
@@ -478,7 +467,7 @@ Y$의 그래픽 묘사는 *그림 2*에 나와 있습니다.
 *그림 2: 무작위 변수 Y*
 
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 
 마지막 예로, 결과 집합 {1,3,7,11,12}와 다음과 같은 확률 분포를 갖는 무작위 변수 Z를 생각해 보겠습니다:
@@ -516,7 +505,7 @@ $$
 *그림 3: 무작위 변수 Z*
 
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 
 
@@ -692,18 +681,18 @@ X$와 $Y$의 결과 집합이 다음과 같이 정의되어 있다고 가정합�
 시프트 암호의 모듈로 연산자는 문자가 감싸도록 하여 모든 암호문자가 정의되도록 합니다. 예를 들어 "DOG"라는 단어에 시프트 암호를 적용하는 경우를 생각해 보겠습니다.
 
 
-17의 값을 갖는 키를 일률적으로 선택했다고 가정해 보겠습니다. 문자 "O"는 15와 같습니다. 모듈로 연산이 없으면 이 일반 텍스트 번호에 키를 더하면 암호 텍스트 번호가 32가 됩니다. 그러나 영어 알파벳에는 26개의 문자만 있기 때문에 이 일반 텍스트 번호는 암호문자로 변환할 수 없습니다. 모듈로 연산을 사용하면 암호 텍스트 번호가 실제로 6($32 \mod 26$의 결과)이 되며, 이는 암호 텍스트 문자 "G"와 동일합니다.
+값이 $17$인 키를 균등하게 선택했다고 가정해 보겠습니다. 문자 “O”는 $14$에 해당합니다. 모듈로 연산이 없다면, 이 평문의 숫자에 키를 더하면 암호문의 숫자는 $31$이 됩니다. 그러나 영어 알파벳은 $26$자뿐이므로 이 암호문 숫자를 문자로 변환할 수 없습니다. 모듈로 연산은 실제 암호문 숫자가 $5$임을 보장하며(즉, $31 \mod 26$의 결과), 이는 암호문 문자 “F”에 해당합니다.
 
 
 키 값이 17인 "DOG"라는 단어의 전체 암호화는 다음과 같습니다:
 
 
 
-- 메시지 = DOG = D,O,G = 3,15,6
+**메시지 = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$입니다
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$입니다
-- c = UGX$
+*c = UFX*
 
 
 누구나 시프트 암호의 작동 원리를 직관적으로 이해하고 직접 사용할 수 있습니다. 그러나 암호화에 대한 지식을 발전시키려면 체계가 훨씬 더 어려워지기 때문에 공식화에 익숙해지는 것이 중요합니다. 그래서 시프트 암호의 단계가 공식화된 것입니다.
@@ -1441,7 +1430,7 @@ Bob는 $T_0$ 시점에 메시지 $M$을 키 $K$로 암호화하여 암호문 $C$
 *그림 1: 공간 전반의 보안*
 
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 
 
@@ -1449,7 +1438,7 @@ Bob는 $T_0$ 시점에 메시지 $M$을 키 $K$로 암호화하여 암호문 $C$
 
 
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 
 
@@ -1598,7 +1587,7 @@ Bob는 $T_0$ 시점에 메시지 $M$을 키 $K$로 암호화하여 암호문 $C$
 *그림 3: XOR 스트림 암호*
 
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 
 암호화 체계는 일반적으로 정확한 사양이라기보다는 동일한 핵심 알고리즘을 사용하는 암호화를 위한 템플릿이라는 점에 유의하세요. 즉, 스트림 암호는 일반적으로 다양한 길이의 키를 사용할 수 있는 암호화를 위한 템플릿입니다. 키 길이는 암호 체계의 일부 사소한 세부 사항에 영향을 미칠 수 있지만, 본질적인 형태에는 영향을 미치지 않습니다.
@@ -1716,7 +1705,7 @@ Bob는 $T_0$ 시점에 메시지 $M$을 키 $K$로 암호화하여 암호문 $C$
 *그림 4: 블록 암호*
 
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 
 블록 암호는 그 자체로는 암호화 체계가 아닙니다. 그러나 블록 암호는 다양한 **작동 모드**와 함께 사용하여 다양한 암호화 체계를 생성할 수 있습니다. 작동 모드는 단순히 블록 암호 외부에 몇 가지 추가 연산을 추가하는 것입니다.
@@ -1728,7 +1717,7 @@ Bob는 $T_0$ 시점에 메시지 $M$을 키 $K$로 암호화하여 암호문 $C$
 *그림 5: ECB 모드*를 사용한 블록 암호
 
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 
 블록 암호를 사용하여 전자 코드북을 암호화하는 과정은 다음과 같습니다. 일반 텍스트 메시지를 128비트 블록으로 나눌 수 있는지 확인합니다. 그렇지 않은 경우 메시지에 **패딩**을 추가하여 결과를 128비트 블록 크기로 균등하게 나눌 수 있도록 합니다. 이것이 암호화 프로세스에 사용되는 데이터입니다.
@@ -1752,7 +1741,7 @@ Bob는 $T_0$ 시점에 메시지 $M$을 키 $K$로 암호화하여 암호문 $C$
 *그림 6: CBC 모드*를 사용한 블록 암호
 
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 
 블록 크기가 다시 128비트라고 가정해 보겠습니다. 따라서 시작하려면 원본 일반 텍스트 메시지가 필요한 패딩을 받았는지 다시 확인해야 합니다.
@@ -1776,7 +1765,7 @@ Bob는 $T_0$ 시점에 메시지 $M$을 키 $K$로 암호화하여 암호문 $C$
 *그림 7: OFB 모드*를 사용한 블록 암호
 
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 
 OFB 모드에서는 초기화 벡터도 선택합니다. 하지만 여기서는 첫 번째 블록의 경우 초기화 벡터가 키와 함께 블록 암호에 직접 삽입됩니다. 그 결과 128비트가 키 스트림으로 처리됩니다. 이 키 스트림은 일반 텍스트와 XOR 처리되어 블록의 암호 텍스트를 생성합니다. 이후 블록의 경우 이전 블록의 키 스트림을 블록 암호에 입력으로 사용하고 단계를 반복합니다.
@@ -1847,7 +1836,7 @@ AES 블록 암호는 *5장 5*에서 자세히 설명합니다.
 *그림 8: 대칭 암호화 체계 개요*
 
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 
 
@@ -1882,7 +1871,7 @@ Bob과 Alice는 MAC을 사용하여 특정 메시지의 조작에 대응할 수 
 *그림 9: 대칭 암호화 체계 개요*
 
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 
 **실존적 위변조 불가능성**으로 인해 공격자는 어떤 식으로든 메시지 $M$을 변경하거나 유효한 태그를 사용하여 자신만의 메시지를 만들 수 없습니다. 따라서 공격자가 동일한 개인 키를 사용하는 Bob와 Alice 사이의 많은 메시지의 태그를 관찰하더라도 마찬가지입니다. 공격자는 기껏해야 Alice이 메시지 $M$을 수신하지 못하도록 차단할 수 있습니다(암호화는 Address이 할 수 없는 문제).
@@ -1930,7 +1919,7 @@ MAC은 메시지가 실제로 Bob에 의해 생성되었음을 보장합니다. 
 *그림 10: 인증된 암호화 체계*
 
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 
 MAC은 어떻게 생성하나요? MAC은 여러 가지 방법으로 생성할 수 있지만, 가장 일반적이고 효율적인 방법은 **암호화 Hash 함수**를 사용하는 것입니다.
@@ -1949,7 +1938,7 @@ HMAC을 생성하는 데 사용할 수 있는 Hash 함수 팔레트가 있습니
 *그림 11: HMAC*
 
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 
 **참고:**
@@ -2006,7 +1995,7 @@ HMAC을 생성하는 데 사용할 수 있는 Hash 함수 팔레트가 있습니
 *그림 12: 보안 통신 세션*
 
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 
 
@@ -2199,7 +2188,7 @@ AES의 핵심인 Rijndael 암호가 어떻게 작동하는지 보여드리기 �
 *그림 1: 128비트 키*를 사용하는 AES-ECB
 
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 
 각 128비트 텍스트 블록은 Rijndael 암호화 체계에서 10번의 라운드를 거칩니다. 이를 위해서는 각 라운드마다 별도의 라운드 키가 필요합니다($K_1$ ~ $K_{10}$). 이는 **키 확장 알고리즘**을 사용하여 원래 128비트 키 $K_0$에서 각 라운드마다 생성됩니다. 따라서 암호화할 각 텍스트 블록에 대해 원래 키 $K_0$와 10개의 개별 라운드 키를 사용합니다. 암호화가 필요한 128비트 일반 텍스트 블록마다 동일한 11개의 키가 사용된다는 점에 유의하세요.
@@ -2574,7 +2563,7 @@ Alice는 먼저 하나의 공개 키($K_P$)와 하나의 개인 키($K_S$)로 �
 *그림 1: 비대칭 암호화*
 
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 
 
@@ -2611,7 +2600,7 @@ Alice은 메시지, 공개 키, 디지털 서명을 **검증 알고리즘**에 �
 *그림 2: 비대칭 인증*
 
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 
 

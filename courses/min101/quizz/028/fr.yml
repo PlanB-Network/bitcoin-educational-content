@@ -1,0 +1,9 @@
+question: La subvention de bloc correspond à quoi ?
+answer: Création monétaire
+wrong_answers:
+  - Frais des transactions
+  - Dépôt des utilisateurs
+  - Pénalité de spam
+explanation: |
+  La subvention est la part de la récompense qui crée de nouveaux bitcoins ex nihilo selon les règles du protocole.
+reviewed: false

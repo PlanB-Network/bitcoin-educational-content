@@ -1,11 +1,9 @@
-question: Blockchain trilemması nedir?
-answer: Blockchain'e dayalı bir protokol, ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik kriterlerinden yalnızca ikisini karşılayabilir.
+question: Eski bir kanal durumunu yayımlayan bir Lightning düğümü hangi riski alır?
+answer: Bir ceza
 wrong_answers:
-  - Blockchain'ye dayalı bir protokol, ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik kriterlerinden yalnızca birini karşılayabilir.
-  - Blockchain'e dayalı bir protokol, ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik kriterlerinin tümünü karşılayabilir.
-  - Blockchain'e dayalı bir protokol, ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik kriterlerinin hiçbirini karşılayamaz.
+  - Bir uyarı
+  - Ek madencilik ücretleri
+  - Geçici bir dondurma
 explanation: |
-  Blockchain trilemması, bir devlet kurumunun
-  gW-5'e dayalı protokol, aşağıdaki kriterlerden yalnızca ikisini karşılayabilir
-  ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik.
-reviewed: true
+  Protokol, karşı tarafın tüm fonları geri almasına olanak tanıyan caydırıcı bir ceza öngörür.
+reviewed: false

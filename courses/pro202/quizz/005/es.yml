@@ -1,0 +1,8 @@
+question: ¿Qué propiedad matemática garantiza que todo elemento distinto de cero en un campo primo F(p) tiene un inverso multiplicativo?
+answer: El campo está definido por un número primo p
+wrong_answers:
+  - El campo contiene exactamente p-1 elementos
+  - El campo utiliza operaciones aritméticas modulares
+  - El campo admite sumas y multiplicaciones
+explanation: |
+  Un campo finito F(p) debe estar definido por un número primo p para garantizar que cada elemento distinto de cero tenga un inverso multiplicativo. Este es un requisito fundamental de la teoría de campos: cuando p es primo, los números enteros módulo p forman un campo en el que la división siempre es posible (excepto por cero). Si p fuera compuesto, algunos elementos distintos de cero no tendrían inversos, lo que rompería la estructura del campo. Mientras que las demás opciones describen propiedades de los campos finitos, sólo la primalidad de p garantiza la existencia de inversos multiplicativos para todos los elementos distintos de cero.

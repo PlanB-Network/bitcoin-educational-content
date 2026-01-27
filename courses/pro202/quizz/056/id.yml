@@ -1,0 +1,8 @@
+question: Apa alasan utama transaksi P2SH yang dibungkus SegWit menggunakan tiga lapis aturan validasi selama verifikasi?
+answer: Untuk memastikan kompatibilitas ke belakang di seluruh node pra-BIP16, pasca-BIP16, dan SegWit dengan tetap mempertahankan konsensus
+wrong_answers:
+  - Untuk melipatgandakan keamanan dengan meminta tiga bukti kriptografi terpisah sebelum menerima transaksi
+  - Untuk mendistribusikan beban kerja validasi di berbagai jenis node untuk meningkatkan kinerja dan skalabilitas jaringan
+  - Untuk mencegah serangan double-spending dengan memvalidasi data transaksi yang sama melalui tiga metode independen
+explanation: |
+  P2SH yang dibungkus SegWit menggunakan tiga lapisan validasi khusus untuk kompatibilitas ke belakang: node pra-BIP16 menerima redeemScript sebagai valid, node pasca-BIP16 mengevaluasinya dengan meninggalkan OP_0 + hash pada stack, dan node SegWit melakukan validasi saksi penuh. Pendekatan berlapis ini memastikan semua jenis node dapat berpartisipasi dalam konsensus tanpa melanggar, tidak seperti jawaban yang salah yang menyarankan penggandaan keamanan, distribusi kinerja, atau pencegahan pengeluaran ganda sebagai motivasi utama.

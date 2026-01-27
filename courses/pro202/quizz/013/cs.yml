@@ -1,0 +1,8 @@
+question: Jaký typ matematické struktury tvoří body eliptické křivky při operaci sčítání?
+answer: Matematická grupa s uzavřeností, asociativitou, identitou a inverzí
+wrong_answers:
+  - Konečné pole s definovanými operacemi násobení a dělení
+  - Vektorový prostor se skalárním násobením a lineárními kombinacemi
+  - Kruhová struktura s operacemi sčítání a násobení
+explanation: |
+  Body eliptických křivek tvoří matematickou grupu při sčítání, což znamená, že splňují čtyři základní vlastnosti: uzavřenost (sečtením dvou bodů vznikne další bod na křivce), asociativitu (na pořadí operací nezáleží), identitu (bod v nekonečnu se chová jako nula) a inverznost (každý bod má odraz přes osu x, který jej ruší). Tato skupinová struktura je pro kryptografii eliptických křivek zásadní, protože zajišťuje, že operace jako skalární násobení (opakované přičítání bodu k sobě samému) jsou dobře definované a předvídatelné, což umožňuje bezpečné kryptografické protokoly, jako jsou ty, které se používají v Bitcoin.

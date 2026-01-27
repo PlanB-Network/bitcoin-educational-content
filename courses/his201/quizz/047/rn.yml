@@ -1,9 +1,9 @@
-question: Ni uwuhe muce wa Bitcoin Satoshi yipfuje gufata minenerwe mu kiganiro ciwe co muri Nyakanga 2010?
-answer: Ugutamenyekana kw'ibikorwa
+question: Ni kintu ca Bitcoin Satoshi yipfuje gufata minenerwe mu kiganiro ciwe co muri Mukakaro 2010?
+answer: Ugutamenyekana kw'ibikorwa(The anonymity of transactions)
 wrong_answers:
   - Politike y'amahera
   - Ubucuruzi bwo kuri interineti
-  - Porogaramu
+  - Porogaramu uko itegurwa
 explanation: |
-  Ku bijanye n’umugambi wo gushikiriza Slashdot, yavuze ko adashaka gushimika ku bijanye n’ukutamenyekana. Yasiguriye Martti Malmi imvo ziwe [mu bwiherero].
+  Ku bijanye n’umugambi wambere washikirijwe kuri Slashdot, yavuze ko adashaka gushimika ku bijanye n’ukutamenyekana. Yasiguriye Martti Malmi imvo ziwe [mu bwiherero]ps: //mmalmi.github.io/satoshi/#email-197).
 reviewed: true

@@ -81,11 +81,11 @@ _Za dodatnu sigurnost podesite PIN kod_
 ## O Lightning mreži
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning mreža revolucioniše Bitcoin transakcije čineći ih bržim, jeftinijim i efikasnijim. Savršena je za svakodnevnu upotrebu, omogućavajući skoro trenutna plaćanja sa minimalnim naknadama, idealna za mikrotransakcije poput kupovine kafe ili obavljanja čestih malih kupovina.
 
-Rukovanjem [off-chain](https://planb.network/resources/glossary/offchain), Lightning je dizajniran da se skalira, podržavajući hiljade transakcija u sekundi bez preopterećenja glavnog Bitcoin Blockchain-a. Ovo ga čini ključnim igračem u evoluciji Bitcoin-a u praktičan, globalni platni sistem.
+Rukovanjem [off-chain](https://planb.academy/resources/glossary/offchain), Lightning je dizajniran da se skalira, podržavajući hiljade transakcija u sekundi bez preopterećenja glavnog Bitcoin Blockchain-a. Ovo ga čini ključnim igračem u evoluciji Bitcoin-a u praktičan, globalni platni sistem.
 
 Privatnost je još jedna prednost, jer se transakcije na Lightning-u usmeravaju kroz privatne kanale plaćanja umesto da budu direktno zabeležene na Blockchain-u. Ovo obezbeđuje diskretniji način za obavljanje transakcija, uz očuvanje snažnog bezbednosnog modela Bitcoina.
 
@@ -94,7 +94,7 @@ Privatnost je još jedna prednost, jer se transakcije na Lightning-u usmeravaju 
 #### Objašnjenje platnih kanala
 
 
-Lightning mreža radi kroz kanale plaćanja, koji su veze između dve strane koje omogućavaju više transakcija bez direktne interakcije sa Blockchain-om. Kada je kanal otvoren, bilans između dve strane se pri svakoj transakciji ažurira na drugom sloju — Lightning mreži — što omogućava brza i niskotroškovna plaćanja. Samo otvaranje i zatvaranje kanala se beleži [On-Chain](https://planb.network/resources/glossary/onchain), smanjujući zagušenje na Bitcoin Blockchain-u. Ovakav pristup omogućava skalabilnost i veću privatnost, budući da pojedinačne transakcije nisu zapisane u javnom blokčejnu.
+Lightning mreža radi kroz kanale plaćanja, koji su veze između dve strane koje omogućavaju više transakcija bez direktne interakcije sa Blockchain-om. Kada je kanal otvoren, bilans između dve strane se pri svakoj transakciji ažurira na drugom sloju — Lightning mreži — što omogućava brza i niskotroškovna plaćanja. Samo otvaranje i zatvaranje kanala se beleži [On-Chain](https://planb.academy/resources/glossary/onchain), smanjujući zagušenje na Bitcoin Blockchain-u. Ovakav pristup omogućava skalabilnost i veću privatnost, budući da pojedinačne transakcije nisu zapisane u javnom blokčejnu.
 
 
 **Primer:** Alisa i Bob otvaraju kanal tako što mu pridružuju bitkoine. Alisa šalje bitkoine Bobu, i njihova off-chain salda se ažuriraju trenutno bez on-chain zapisa. Ako Alisa zatim plati Čarliju, a Alisa nema direktan kanal do Čarlija, uplata se može usmeriti kroz Bobov kanal da bi stigla do Čarlija. Usmeravanje kroz posredničke čvorove omogućava plaćanja čak i bez direktnih veza, čineći mrežu veoma efikasnom.

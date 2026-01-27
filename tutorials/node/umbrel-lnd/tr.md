@@ -27,7 +27,7 @@ Umbrel'i kurmak ve Bitcoin düğümünüzü yapılandırmak için özel eğitimi
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Bitcoin düğümünüzün güncel olduğundan ve düzgün çalıştığından emin olun, çünkü Lightning Network tüm off-chain işlemleri için buna güvenir.
 
@@ -57,7 +57,7 @@ Lightning Network'e tam bir teorik giriş için özel kursumuzu almanızı öner
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bu eğitim, LND düğümünüzle pratik yapmaya geçmeden önce size Lightning Network'in temel kavramları hakkında kapsamlı bir temel sağlayacaktır.
 
@@ -613,7 +613,7 @@ Gözetleme kulelerinin yapılandırılması ve kullanımı hakkında daha fazla 
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Diğer en iyi uygulamalar
 
 

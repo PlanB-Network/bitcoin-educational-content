@@ -1,0 +1,9 @@
+question: Enligt Ragnar Lifthasirs kritik, vilket problem skapar förenklade Bitcoin-berättelser som "bara HODL" för Bitcoin-ekosystemet?
+answer: De blir monomanier som får användarna att förbise viktigare aspekter som säkerhet och tillförlitlig användning
+wrong_answers:
+  - "De uppmuntrar till överdriven handelsaktivitet som destabiliserar Bitcoin:s pris och marknadsdynamik"
+  - De skapar falska förväntningar om garanterad avkastning som leder till granskning och ingripande från myndigheternas sida
+  - De främjar centraliserad användning av börser som koncentrerar Bitcoin-innehav till depåtjänster
+explanation: |
+  Lifthasir definierar dessa förenklade berättelser som "monomanier" - ett överdrivet fokus på en enda idé som får människor att förbise betydligt viktigare överväganden. Genom att bara fokusera på att hålla Bitcoin kan användare försumma kritiska aspekter som korrekta säkerhetsrutiner, självförvaring eller använda Bitcoin på ett förtroendefullt sätt. De andra alternativen, även om de är potentiellt problematiska, är inte den specifika kritik som Lifthasir gör om överförenklade Bitcoin-meddelanden.
+reviewed: false

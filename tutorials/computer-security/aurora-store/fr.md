@@ -8,7 +8,7 @@ description: Une alternative libre au Play Store pour télécharger des applicat
 Les magasins d'applications occupent une place centrale dans l'utilisation des ressources de votre appareil et sont régulièrement sujets à la centralisation et à la censure selon votre zone géographique. Sur les téléphones Android, le monopole détenu par Google Play Store est désormais révolu et nous assistons à une cohabitation de plusieurs magasins d'applications qui vous permettent de protéger vos données et votre vie numérique et tout ceci gratuitement.
 Dans ce tutoriel, nous partons à la découverte de Aurora Store, une alternative à Google Play Store, simple, open source et sécurisée.
 
-# Débuter avec Aurora Store
+## Débuter avec Aurora Store
 
 Aurora Store est un produit d'*Aurora Open Source Software*, un collectif de développeurs et d'enthousiastes de la confidentialité qui se focalise sur la construction d'outils libres et gratuits qui respectent votre vie numérique et votre liberté.
 Aurora Store est l'un des magasins d'applications alternatifs de Google Play Store les plus populaires sur la plateforme Android pour les raisons suivantes :
@@ -22,11 +22,11 @@ Vous pouvez télécharger Aurora Store sur le [site officiel](https://auroraoss.
 
 Vous pouvez également télécharger Aurora Store depuis d'autres magasins d'applications comme F-Droid ou IzzyOnDroid.
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Il est cependant recommandé de télécharger le fichier APK directement sur le site Web officiel afin de s'assurer de l'authenticité et de l'intégrité d'Aurora Store.
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Un fichier APK (Android Package Kit) est le format de paquet utilisé par le système d'exploitation Android pour la distribution et l'installation d'applications. C'est l'équivalent des fichiers **.exe** sous Windows ou **.dmg** sous macOS.
 
@@ -46,7 +46,7 @@ Dans les paramètres de l'application, vous pouvez définir selon votre convenan
 
 Depuis Aurora Store, vous pouvez accéder au catalogue d'applications disponible sur Google Play Store, lire leur description, connaître les retours utilisateurs et les installer sur votre téléphone. Toutefois, cela ne signifie pas que toutes les applications sont gratuites. Si votre application est payante sur Play Store, vous devrez au préalable effectuer le paiement en utilisant soit l'application Play Store, soit en vous rendant sur le site officiel de Play Store.
 
-## Les fonctionnalités
+### Les fonctionnalités
 
 Aurora Store n'est pas qu'un reflet de Google Play Store, il intègre des fonctionnalités qui vous donnent toutes les informations sur les applications que vous souhaitez installer. Au travers de ces fonctionnalités, Aurora Store vous rend maître de vos données et de votre vie numérique.
 
@@ -75,5 +75,5 @@ Aurora Store intègre Exodus, une solution qui analyse et détecte les traqueurs
 
 Plus qu'un magasin d'applications, Aurora Store se positionne comme une solution open source qui vous permet de prendre le contrôle de l'utilisation de vos données. Il vous apporte l'information utile sur vos applications et vous permet de protéger votre vie numérique de la collecte abusive. Pour renforcer votre confidentialité, découvrez notre cursus sur la sécurité des données numériques : mettez en place un environnement numérique personnel, sécurisé et fiable.
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 

@@ -6,4 +6,4 @@ wrong_answers:
   - El gestor de archivos
 explanation: |
   El navegador web está constantemente expuesto a contenidos externos, lo que lo convierte en un vector de ataque de primer orden para los ciberdelincuentes.
-reviewed: false
+reviewed: true

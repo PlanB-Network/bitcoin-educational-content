@@ -1,29 +1,18 @@
 ---
-name: Biçimsel Kriptografiye Giriş
+name: Modern kriptografinin temelleri
 goal: Kriptografi bilimine ve uygulamasına derinlemesine bir giriş.
-objectives: 
-
-  - Kriptografinin temel ve tarihsel kavramlarını anlamak için Beale şifrelerini ve modern kriptografik yöntemleri keşfedin.
-  - Kriptografinin altında yatan temel matematiksel kavramlarda ustalaşmak için sayı teorisi, gruplar ve alanları inceleyin.
-  - Simetrik kriptografik algoritmalar hakkında bilgi edinmek için RC4 akış şifresini ve 128 bit anahtarlı AES'yi inceleyin.
-  - Asimetrik kriptografiyi keşfetmek için RSA kriptosistemini, anahtar dağıtımını ve Hash işlevlerini inceleyin.
-
-
+objectives:
+- Kriptografinin temel ve tarihsel kavramlarını anlamak için Beale şifrelerini ve modern kriptografik yöntemleri keşfedin.
+- Kriptografinin altında yatan temel matematiksel kavramlarda ustalaşmak için sayı teorisi, gruplar ve alanları inceleyin.
+- Simetrik kriptografik algoritmalar hakkında bilgi edinmek için RC4 akış şifresini ve 128 bit anahtarlı AES'yi inceleyin.
+- Asimetrik kriptografiyi keşfetmek için RSA kriptosistemini, anahtar dağıtımını ve Hash işlevlerini inceleyin.
 ---
-# Kriptografiye derinlemesine dalış
+# Modern Kriptografiye Derinlemesine Bakış
 
+Bu kursta, modern kriptografinin temellerini ağır bir matematik geçmişi gerektirmeden açık ve anlaşılır bir şekilde ele alacağız. Bölümler boyunca, simetrik ve açık anahtarlı şifreleme, hash fonksiyonları, dijital imzalar, anahtar değişimi ve gerçek dünya protokolleri gibi temel fikirleri öğreneceksiniz. Bu süreçte, güvenli mesajlaşma, TLS, parola depolama ve kimlik doğrulama gibi pratik uygulamalarla noktaları birleştireceğiz.
 
-Kriptografi eğitiminde iyi bir orta yol sunan çok sayıda materyal bulmak zordur.
-
-
-Bir yanda, sadece matematik, mantık veya diğer bazı resmi disiplinlerde güçlü bir geçmişe sahip olanların gerçekten erişebileceği uzun, resmi incelemeler var. Öte yandan, en azından biraz meraklı olan herkes için gerçekten çok fazla ayrıntıyı gizleyen çok üst düzey tanıtımlar var.
-
-
-Kriptografiye giriş niteliğindeki bu kitap orta yolu yakalamayı amaçlamaktadır. Kriptografiye yeni başlayanlar için nispeten zorlayıcı ve ayrıntılı olsa da, tipik bir temel incelemenin tavşan deliği değildir.
-
-
+Materyal, her seviyeden öğrenci için tasarlanmıştır ve sezgiyi merakı tatmin edecek kadar teknik derinlikle dengeler. Odaklanmış, ilgi çekici bir yolculuk bekleyin. Sonunda, modern kriptografinin nasıl ve neden çalıştığını ve onu sorumlu bir şekilde nasıl kullanacağınızı anlayacaksınız.
 +++
-
 # Giriş
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
@@ -39,7 +28,7 @@ CYP302 kursuna hoş geldiniz!
 Bu kitap kriptografi bilimine ve uygulamasına derinlemesine bir giriş sunmaktadır. Mümkün olan yerlerde, materyalin biçimsel olarak açıklanmasından ziyade kavramsal olarak açıklanmasına odaklanmaktadır.
 
 
-Bu eğitim içeriği [JWBurgers] (https://github.com/JWBurgers/An_Introduction_to_Cryptography) kitabından ve reposundan uyarlanmıştır. Yazar, eğitim amaçlı kullanımına nezaketen izin vermiş olsa da, tüm fikri mülkiyet hakları orijinal yaratıcıya aittir.
+Bu eğitim içeriği [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography) kitabından ve reposundan uyarlanmıştır. Yazar, eğitim amaçlı kullanımına nezaketen izin vermiş olsa da, tüm fikri mülkiyet hakları orijinal yaratıcıya aittir.
 
 
 **Motivasyon ve hedefler**
@@ -81,7 +70,7 @@ Kitabın bu bölümlerindeki biçimsel ayrıntılarla gerçekten zorlanıyorsan�
 Bu kitabın şekillenmesinde en etkili kitap Jonathan Katz ve Yehuda Lindell'in _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015 adlı kitabı olmuştur. Bu kitaba eşlik eden bir kurs da Coursera'da "Cryptography" adıyla mevcuttur
 
 
-Bu kitaptaki genel bakışın oluşturulmasında yardımcı olan başlıca ek kaynaklar Simon Singh, _The Code Book_, Fourth Estate (Londra, 1999); Christof Paar ve Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) ve [Paar'ın "Introduction to Cryptography" adlı kitabına dayanan bir kurs] (https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); ve Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
+Bu kitaptaki genel bakışın oluşturulmasında yardımcı olan başlıca ek kaynaklar Simon Singh, _The Code Book_, Fourth Estate (Londra, 1999); Christof Paar ve Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) ve [Paar'ın "Introduction to Cryptography" adlı kitabına dayanan bir kurs](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); ve Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
 
 
 Bu kaynaklardan aldığım çok spesifik bilgi ve sonuçlara sadece atıfta bulunacağım, ancak burada onlara olan genel borçluluğumu kabul etmek istiyorum.
@@ -94,7 +83,7 @@ Bu girişten sonra kriptografi hakkında daha ileri düzeyde bilgi edinmek istey
 **Katkılar**
 
 
-Projeyi nasıl destekleyeceğinize dair bazı yönergeler için lütfen [depodaki katkı dosyasına] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) bir göz atın.
+Projeyi nasıl destekleyeceğinize dair bazı yönergeler için lütfen [depodaki katkı dosyasına](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) bir göz atın.
 
 
 
@@ -182,7 +171,7 @@ Hayatının sonuna yaklaşan Morriss, 1862 yılında kutuyu bir arkadaşına ver
 *Şekil 1: Beale şifreleme no. 2*
 
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 
 
@@ -424,7 +413,7 @@ Bir rastgele değişken için olası değerler ve ilişkili olasılıklar bir gr
 *Şekil 1: Rastgele değişken X*
 
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 
 Şekil 1'deki geniş çubuklar, $X$ rassal değişkeninin aslında sürekli olduğu anlamına gelmemektedir. Bunun yerine, çubuklar görsel olarak daha çekici olması için geniş tutulmuştur (sadece düz bir çizgi daha az sezgisel bir görselleştirme sağlar).
@@ -478,7 +467,7 @@ Y$'nin grafiksel bir tasviri *Şekil 2*'de verilmiştir.
 *Şekil 2: Rastgele değişken Y*
 
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 
 Son bir örnek olarak, {1,3,7,11,12} sonuç kümesine ve aşağıdaki olasılık dağılımına sahip rastgele değişken Z'yi düşünün:
@@ -516,7 +505,7 @@ Bunu *Şekil 3*'de görebilirsiniz. Z rastgele değişkeni, Y'nin aksine, tekdü
 *Şekil 3: Rastgele değişken Z*
 
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 
 
@@ -692,18 +681,18 @@ Modulo işlemi kriptografide sıklıkla karşılaşılan bir işlemdir. Örnek o
 Kaydırma şifresindeki modulo operatörü, harflerin etrafını sarmasını sağlar, böylece tüm şifreli metin harfleri tanımlanır. Örnek olarak, "DOG" kelimesi üzerinde kaydırma şifresinin uygulanmasını düşünün.
 
 
-Bir anahtarı 17 değerine sahip olacak şekilde eşit olarak seçtiğinizi varsayalım. "O" harfi 15'e eşittir. Modulo işlemi olmadan, bu düz metin sayısının anahtarla toplanması 32'lik bir şifreli metin sayısına karşılık gelecektir. Ancak, İngiliz alfabesinde yalnızca 26 harf bulunduğundan, bu şifreli metin sayısı bir şifreli metin harfine dönüştürülemez. Modulo işlemi, şifreli metin sayısının aslında 6 olmasını sağlar ($32 \mod 26$ sonucu), bu da "G" şifreli metin harfine eşittir.
+Diyelim ki değeri $17$ olan bir anahtarı eşit olasılıkla seçtiniz. “O” harfi $14$ değerine karşılık gelir. Modulo işlemi olmadan, bu açık metin sayısının anahtarla toplanması $31$ değerinde bir şifreli metin sayısı üretirdi. Ancak İngilizce alfabe yalnızca $26$ harf içerdiğinden bu sayı bir şifre harfine dönüştürülemez. Modulo işlemi, şifreli metin sayısının aslında $5$ olduğunu garanti eder ($31 \mod 26$ sonucudur) ve bu sayı şifreli harf “F”ye karşılık gelir.
 
 
 Anahtar değeri 17 olan "DOG" kelimesinin tüm şifrelemesi aşağıdaki gibidir:
 
 
 
-- Mesaj = DOG = D,O,G = 3,15,6
+**Mesaj = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 
 Herkes vardiya şifresinin nasıl çalıştığını sezgisel olarak anlayabilir ve muhtemelen kendisi de kullanabilir. Bununla birlikte, kriptografi bilginizi ilerletmek için, şemalar çok daha zor hale geleceğinden, formalizasyon konusunda daha rahat olmaya başlamak önemlidir. Bu nedenle, vardiya şifresi için adımlar resmileştirilmiştir.
@@ -1441,7 +1430,7 @@ Bob $M$ mesajını $T_0$ zamanında $K$ anahtarı ile şifreleyerek $C$ şifreli
 *Şekil 1: Uzayda gizlilik*
 
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 
 
@@ -1449,7 +1438,7 @@ Bob $M$ mesajını $T_0$ zamanında $K$ anahtarı ile şifreleyerek $C$ şifreli
 
 
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 
 
@@ -1598,7 +1587,7 @@ Tipik bir XOR akış şifresi *Şekil 3*'te gösterilmiştir. İlk olarak $K$ ö
 *Şekil 3: Bir XOR akış şifresi*
 
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 
 Bir şifreleme şemasının tam bir spesifikasyondan ziyade tipik olarak aynı çekirdek algoritma ile şifreleme için bir şablon olduğunu hatırlatmak isteriz. Buna bağlı olarak, bir akış şifresi tipik olarak farklı uzunluklarda anahtarlar kullanabileceğiniz bir şifreleme şablonudur. Anahtar uzunluğu, şemanın bazı küçük ayrıntılarını etkileyebilse de, temel biçimini etkilemeyecektir.
@@ -1716,7 +1705,7 @@ Bir blok şifrenin nasıl çalıştığına dair bir tasvir aşağıdaki *Şekil
 *Şekil 4: Bir blok şifre*
 
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 
 Bir blok şifre tek başına bir şifreleme şeması değildir. Ancak bir blok şifre, farklı şifreleme şemaları üretmek için çeşitli **çalışma modları** ile kullanılabilir. Bir çalışma modu basitçe blok şifrenin dışına bazı ek işlemler ekler.
@@ -1728,7 +1717,7 @@ Bunun nasıl çalıştığını göstermek için 128 bitlik bir giriş dizesi ve
 *Şekil 5: ECB moduna sahip bir blok şifre*
 
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 
 Blok şifreleme ile elektronik kod kitabı şifreleme işlemi aşağıdaki gibidir. Düz metin mesajınızı 128 bitlik bloklara bölüp bölemeyeceğinize bakın. Eğer değilse, mesaja **dolgu** ekleyin, böylece sonuç 128 bitlik blok boyutuna eşit olarak bölünebilir. Bu, şifreleme işlemi için kullanılan verilerinizdir.
@@ -1752,7 +1741,7 @@ Bunun yerine, bir blok şifreden oluşturulan herhangi bir şifreleme şeması *
 *Şekil 6: CBC moduna sahip bir blok şifre*
 
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 
 Blok boyutunun yine 128 bit olduğunu varsayalım. Başlangıç olarak, orijinal düz metin mesajınızın gerekli dolguyu aldığından emin olmanız gerekir.
@@ -1776,7 +1765,7 @@ Son olarak, dikkatimizi **çıkış geri besleme moduna** (**OFB modu**) çevire
 *Şekil 7: OFB moduna sahip bir blok şifre*
 
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 
 OFB modu ile ayrıca bir başlatma vektörü seçersiniz. Ancak burada, ilk blok için, başlatma vektörü doğrudan anahtarınızla birlikte blok şifrelemeye eklenir. Ortaya çıkan 128 bit, daha sonra bir anahtar dizisi olarak ele alınır. Bu anahtar dizisi, bloğun şifreli metnini üretmek için düz metin ile XORlanır. Sonraki bloklar için, bir önceki bloğun anahtar dizisini blok şifreye girdi olarak kullanır ve adımları tekrarlarsınız.
@@ -1847,7 +1836,7 @@ Bu tartışmadan sonra artık *Şekil 8*'i anlamış olmalısınız. Simetrik ş
 *Şekil 8: Simetrik şifreleme şemalarına genel bakış*
 
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 
 
@@ -1882,7 +1871,7 @@ Süreç *Şekil 9*'da gösterilmiştir. Bir **MAC** (Mesaj Kimlik Doğrulama Kod
 *Şekil 9: Simetrik şifreleme şemalarına genel bakış*
 
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 
 **Varoluşsal taklit edilemezlik** nedeniyle, bir saldırgan $M$ mesajını herhangi bir şekilde değiştiremez veya geçerli bir etikete sahip kendi mesajını oluşturamaz. Saldırgan, Bob ve Alice arasında aynı özel anahtarı kullanan birçok mesajın etiketlerini gözlemlese bile bu böyledir. Bir saldırgan en fazla Alice'in $M$ mesajını almasını engelleyebilir (kriptografinin **Address'ün** yapamayacağı bir sorun).
@@ -1930,7 +1919,7 @@ Alice şimdi ilk olarak $C$ şifreli metni ve $K_T$ anahtarı göz önüne alın
 *Şekil 10: Kimliği doğrulanmış bir şifreleme şeması*
 
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 
 MAC'ler nasıl oluşturulur? MAC'ler birden fazla yöntemle oluşturulabilirken, bunları oluşturmanın yaygın ve etkili bir yolu **kriptografik Hash işlevleridir**.
@@ -1949,7 +1938,7 @@ Bir HMAC oluşturmak için kullanılabilecek bir Hash işlevleri paleti vardır.
 *Şekil 11: HMAC*
 
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 
 **Notlar:**
@@ -2006,7 +1995,7 @@ Güvenli iletişim oturumlarının nasıl çalıştığını göstermek için yi
 *Şekil 12: Güvenli bir iletişim oturumu*
 
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 
 
@@ -2199,7 +2188,7 @@ Anahtara $K_0$ diyelim. Yukarıdaki parametrelerle yapı *Şekil 1*'deki gibi g�
 *Şekil 1: 128 bit anahtarlı AES-ECB*
 
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 
 Her 128 bitlik metin bloğu Rijndael şifreleme şemasında on turdan geçer. Bu, her tur için ayrı bir tur anahtarı gerektirir ($K_1$ ila $K_{10}$). Bunlar her tur için orijinal 128-bit $K_0$ anahtarından bir **anahtar genişletme algoritması** kullanılarak üretilir. Dolayısıyla, şifrelenecek her metin bloğu için orijinal $K_0$ anahtarının yanı sıra on ayrı tur anahtarı kullanacağız. Şifreleme gerektiren her 128 bitlik düz metin bloğu için aynı 11 anahtarın kullanıldığını unutmayın.
@@ -2574,7 +2563,7 @@ Daha sonraki bir noktada, Bob, Alice'ya bir $M$ mesajı yazmak ister. Hassas bil
 *Şekil 1: Asimetrik şifreleme*
 
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 
 
@@ -2611,7 +2600,7 @@ Dijital imza, adından da anlaşılacağı üzere, mektuplar, sözleşmeler vb. 
 *Şekil 2: Asimetrik kimlik doğrulama*
 
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 
 
@@ -2730,7 +2719,7 @@ Bir Hash fonksiyonu $H$, $x$ ve $y$ olmak üzere $x \neq y$, ancak $H(x) = H(y)$
 
 2.	Ardından, içe aktardığınız açık anahtarları doğrulamanız gerekir. Atmanız gereken en az bir adım, bulduğunuz açık anahtarların diğer çeşitli yerlerde yayınlananlarla aynı olduğunu doğrulamaktır. Örneğin, açık anahtarlarını içe aktardığınız kişilerin kişisel web sayfalarına, Twitter sayfalarına veya Github sayfalarına başvurabilirsiniz. Genellikle açık anahtarların bu karşılaştırması, parmak izi olarak bilinen açık anahtarın kısa bir Hash'i karşılaştırılarak yapılır.
 
-3.	Ardından, Bitcoin core için çalıştırılabilir dosyayı [web sitelerinden] (www.bitcoincore.org) indirmeniz gerekir. Linux, Windows ve MAC işletim sistemleri için paketler mevcut olacaktır.
+3.	Ardından, Bitcoin core için çalıştırılabilir dosyayı [web sitelerinden](www.bitcoincore.org) indirmeniz gerekir. Linux, Windows ve MAC işletim sistemleri için paketler mevcut olacaktır.
 
 4.	Ardından, iki sürüm dosyasını bulmanız gerekir. İlki, indirdiğiniz yürütülebilir dosya için resmi SHA-256 Hash ile birlikte yayınlanan diğer tüm paketlerin karmalarını içerir. Başka bir sürüm dosyası, paket karmaları ile birlikte sürüm dosyası üzerinde çeşitli katkıda bulunanların imzalarını içerecektir. Bu sürüm dosyalarının her ikisi de Bitcoin core web sitesinde bulunmalıdır.
 

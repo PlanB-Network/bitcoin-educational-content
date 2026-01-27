@@ -454,7 +454,7 @@ L'unica vera differenza nella scansione di UDP è che Nmap non attende un "Three
 
 _Trasmissione di pacchetti UDP e ricezione ICMP (porta irraggiungibile) durante la scansione Nmap_
 
-Nella schermata precedente si può notare che Nmap invia un gran numero di pacchetti UDP e riceve in risposta un pacchetto ICMP "Destination unreachable (Port unreachable)". Questo è normale, poiché è la risposta appropriata definita da [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") quando una porta UDP non è raggiungibile:
+Nella schermata precedente si può notare che Nmap invia un gran numero di pacchetti UDP e riceve in risposta un pacchetto ICMP "Destination unreachable (Port unreachable)". Questo è normale, poiché è la risposta appropriata definita da [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") quando una porta UDP non è raggiungibile:
 
 ![nmap-image](assets/fr/20.webp)
 
@@ -1119,7 +1119,7 @@ Sia chiaro: Nmap non è in grado di effettuare un test di penetrazione completo 
 
 È quindi importante capire cosa fa e cosa non fa Nmap e, allo stesso modo, sapere come interpretare i suoi risultati. In particolare, nel corso di questo tutorial abbiamo visto che le opzioni predefinite possono farci perdere importanti elementi che possono essere scoperti con un uso attento.
 
-Che siate un amministratore di sistema di rete, un ingegnere della sicurezza o addirittura un CISO, l'uso di Nmap vi offre una panoramica dello stato di sicurezza di un sistema informatico. Si tratta di un primo passo importante per la sicurezza di un sistema, che può essere eseguito regolarmente dal team IT. Tuttavia, non dovrebbe sostituire l'intervento e la consulenza di esperti di [cybersecurity] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), che saranno in grado di scoprire i punti deboli in modo molto più completo di Nmap.
+Che siate un amministratore di sistema di rete, un ingegnere della sicurezza o addirittura un CISO, l'uso di Nmap vi offre una panoramica dello stato di sicurezza di un sistema informatico. Si tratta di un primo passo importante per la sicurezza di un sistema, che può essere eseguito regolarmente dal team IT. Tuttavia, non dovrebbe sostituire l'intervento e la consulenza di esperti di [cybersecurity](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), che saranno in grado di scoprire i punti deboli in modo molto più completo di Nmap.
 
 ### V. Conclusione
 
@@ -1554,7 +1554,7 @@ In questa sezione, daremo un'occhiata ad alcuni degli usi classici di Nmap con a
 
 La possibilità di salvare i risultati delle scansioni Nmap in XML rende i dati compatibili con una serie di altri strumenti. Poiché oggi quasi tutti i linguaggi di programmazione e scripting dispongono di librerie in grado di analizzare l'XML, l'elaborazione di questi dati risulta molto più semplice. Diversi strumenti, in particolare quelli orientati alla sicurezza offensiva, dispongono di funzioni per l'elaborazione del formato XML generato da Nmap. Diamo un'occhiata più da vicino.
 
-Citerò alcuni strumenti offensivi senza descriverne nel dettaglio l'uso e il funzionamento. Presumo che il lettore abbia familiarità con il loro uso di base e che siano già operativi. Questa sezione sarà di particolare interesse per i professionisti della [cybersecurity] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), per le persone in formazione o per coloro che hanno deciso di approfondire l'argomento.
+Citerò alcuni strumenti offensivi senza descriverne nel dettaglio l'uso e il funzionamento. Presumo che il lettore abbia familiarità con il loro uso di base e che siano già operativi. Questa sezione sarà di particolare interesse per i professionisti della [cybersecurity](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), per le persone in formazione o per coloro che hanno deciso di approfondire l'argomento.
 
 ### II. Importare i risultati di Nmap in Metasploit
 

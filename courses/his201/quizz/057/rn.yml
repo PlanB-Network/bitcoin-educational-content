@@ -1,9 +1,9 @@
-question: Ni uwuhe Miner w’Ubudage yari afise 20% vy’igipimo ca Hash c’urubuga rwa Bitcoin mu mezi menshi mu 2010?
-answer: Ubuhinga
+question: Ni uwuhe mucukuzi w’Ubudage yari afise 20% vy’igipimo ca Hash c’urubuga rwa Bitcoin mu mezi menshi mu 2010?
+answer: ArtForz
 wrong_answers:
   - tcatm
-  - m0m
-  - umusirikare
+  - m0mchil
+  - knightmb
 explanation: |
-  Yashinze itongo rya Mining rigizwe n’amakarata y’ibishushanyo (ryitwa ArtFarm) mu ci ca 2010, gutyo aronka uburongozi bukomeye ku bariko barahiganwa mu mpera z’umwaka.
+  Yashinze itongo ryo gucukura rigizwe n’amakarata y’inyabwonko (ryitwa ArtFarm) mu ci rya 2010, gutyo aronka uburongozi bukomeye ku bariko barahiganwa mu mpera z’umwaka.
 reviewed: true

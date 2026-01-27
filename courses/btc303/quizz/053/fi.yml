@@ -1,0 +1,9 @@
+question: Mikä erottaa Bitcoin:n turvallisuusolettamukset perinteisten fyysisten turvajärjestelmien, kuten rakennusten, turvallisuusolettamuksista?
+answer: Bitcoin:n on puututtava kaikkiin tunnettuihin heikkouksiin, koska verkkovastustajat ovat anonyymejä ja hyödyntävät mitä tahansa haavoittuvuutta
+wrong_answers:
+  - Bitcoin perustuu matemaattisiin todisteisiin, kun taas rakennukset ovat riippuvaisia fyysisistä esteistä ja lainvalvonnasta
+  - "Bitcoin:n turvallisuus perustuu taloudellisiin kannustimiin, kun taas rakennuksissa käytetään pelotetta näkyvien turvatoimien avulla"
+  - Bitcoin käyttää salaussignaattoreita suojaukseen, kun taas rakennukset luottavat kulunvalvonta- ja valvontajärjestelmiin
+explanation: |
+  Keskeinen ero on se, että Bitcoin:n kaltaiset online-järjestelmät kohtaavat nimettömiä vastustajia, jotka väistämättä käyttävät hyväkseen kaikkia tunnettuja heikkouksia, toisin kuin fyysiset järjestelmät, joissa voimme hyväksyä jonkinlaisen riskin, koska rikoksentekijät voidaan tunnistaa ja asettaa syytteeseen. Kuten Andrew Poelstra totesi, verkossa meillä ei ole lainvalvonnan pelotevaikutuksen ylellisyyttä - jos järjestelmää on mahdollista vahingoittaa vahingollisesti, nimettömät toimijat tekevät sen. Tämä pakottaa Bitcoin:n puuttumaan kaikkiin haavoittuvuuksiin sen sijaan, että se hyväksyisi laskelmoidut riskit.
+reviewed: false

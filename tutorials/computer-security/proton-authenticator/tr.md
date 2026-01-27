@@ -194,7 +194,7 @@ Bu adımlar tamamlandıktan sonra, Proton Authenticator kullanıma hazırdır.
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ProtonMail hesabınıza giriş yapın ve güvenlik ayarlarına gidin. "İki faktörlü kimlik doğrulama" seçeneğini arayın ve etkinleştirin.
 
@@ -495,7 +495,7 @@ TOTP'leri de depolayan bir parola yöneticisi kullanmak caziptir. Ancak, parola 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Aynı şekilde, basılı acil durum kodlarını da el altında bulundurun.
 
@@ -545,7 +545,7 @@ Authy ile ilgili rehberimizi aşağıda bulabilirsiniz:
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Proton Authenticator, mevcut en kapsamlı ve güvenli çözümlerden biridir: açık kaynak, çok cihazlı şifreli senkronizasyon, ticari takip yok.
 

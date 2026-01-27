@@ -259,7 +259,7 @@ passphrase je veoma moćan alat za poboljšanje sigurnosti vaših bitkoina. Međ
 passphrase je veoma moćan alat za jačanje sigurnosti vaših bitkoina. Međutim, ključno je razumeti kako funkcioniše pre nego što ga implementirate, kako biste izbegli gubitak pristupa vašem Wallet. Zato sve objašnjavam u posvećenom vodiču:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Na kraju, poslednja stranica sa podešavanjima omogućava vam da resetujete vaš Ledger. Nastavite sa ovim resetovanjem samo ako ste sigurni da ne sadrži ključeve koji obezbeđuju bitkoine, jer biste mogli trajno izgubiti pristup vašim sredstvima.
 
@@ -470,7 +470,7 @@ Možete dodati "*Label*" da opišete izvor bitkoina koji će biti osigurani ovim
 Za više informacija o označavanju, takođe vam savetujem da pogledate ovaj drugi vodič:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Zatim možete koristiti ovaj Address za primanje bitkoina.
 

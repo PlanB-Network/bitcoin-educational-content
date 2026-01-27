@@ -75,7 +75,7 @@ The advantages of Qubes OS lie above all in its unique security model. At the he
 Qubes OS also offers total transparency and control over your digital environment. You know exactly which software has access to which resource, whether it's the network, a USB device or other sensitive components. The system integrates advanced security features by default, such as full disk encryption, and facilitates the use of anonymizing services like the Whonix operating system.
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Rather than seeking to create an impenetrable system, Qubes OS focuses on resilience: it encapsulates damage in the event of compromise, reducing the risk to the rest of the system. This pragmatic approach makes Qubes OS a preferred choice for users with high security needs, or who wish to retain maximum control over their digital lives.
 
@@ -94,7 +94,7 @@ Before installing Qubes OS, it's essential to ensure that your hardware meets th
 To install Qubes OS, download the official ISO image from the Qubes OS [official site](https://www.qubes-os.org/downloads/). It is essential to check the integrity of the ISO using the GPG signatures provided, to ensure that the file has not been tampered with and that the download is secure.
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
@@ -244,4 +244,4 @@ In conclusion, Qubes OS is no ordinary operating system, but a cutting-edge secu
 Whether you need to surf the web securely, protect sensitive information or work with varying levels of trust, Qubes OS provides a resilient, transparent framework. By adopting good practices and making full use of its features, you'll have a **digital fortress** adapted to modern threats. Learn more about protecting your data and privacy.
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

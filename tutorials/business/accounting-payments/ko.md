@@ -28,7 +28,7 @@ description: 소규모 비즈니스에서 Bitcoin 결제를 쉽고 빠르게 처
 간단하게 설명하기 위해 Satoshi의 Wallet을 예로 들어보겠습니다. 다음 단계에 따라 설치 및 구성하세요:
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 가이드를 따라 모바일 앱을 열고 '받기' 버튼을 클릭한 다음, 사용자가 지불할 generate에 해당하는 금액(보통 현지 통화)을 입력하면 Bitcoin를 결제 수단으로 수락할 준비가 완료됩니다.
 
@@ -59,7 +59,7 @@ POS 기능 사용의 이점은 세 가지입니다:
 자세한 내용은 Satoshi - POS의 Wallet에 대한 전용 튜토리얼을 참조하세요:
 
 
-https://planb.network/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
+https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
 
 ## 규정
 

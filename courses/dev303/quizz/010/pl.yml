@@ -1,0 +1,8 @@
+question: Co stanie się ze zmienną, gdy własność zostanie przeniesiona do innej zmiennej w Rust?
+answer: Oryginalna zmienna staje się nieważna i nie może być już używana
+wrong_answers:
+  - Oryginalna zmienna staje się odniesieniem do danych tylko do odczytu
+  - Obie zmienne współdzielą własność i mogą niezależnie modyfikować dane
+  - Oryginalna zmienna jest automatycznie konwertowana na zmienne odniesienie
+explanation: |
+  Gdy własność jest przenoszona w Rust, oryginalna zmienna staje się całkowicie nieważna i nie można już uzyskać do niej dostępu. Jest to podstawowa funkcja bezpieczeństwa, która zapobiega zarządzaniu tą samą pamięcią sterty przez wiele zmiennych, co mogłoby prowadzić do błędów typu use-after-free lub double-free. Operacja przeniesienia przenosi pełną kontrolę do nowej zmiennej, a kompilator wygeneruje błąd, jeśli spróbujesz użyć oryginalnej zmiennej po przeniesieniu. Różni się to od kopiowania (gdzie obie zmienne pozostają ważne) i pożyczania (gdzie pierwotny właściciel zachowuje własność).

@@ -27,7 +27,7 @@ Zunächst ist es wichtig zu verstehen, dass GitHub auf Git aufbaut (wie im vorhe
 
 Stellen Sie sich Git als eine Art Logbuch vor, das jeder Entwickler auf seinem eigenen Computer verwendet, um alle Änderungen in seinem Projekt aufzuzeichnen. GitHub hingegen ist wie eine öffentliche Bibliothek, in der all diese Logbücher geteilt, verglichen und kombiniert werden können.
 Der grundlegende Unterschied zwischen Git und GitHub liegt in ihrer Funktion: Git ist das Tool, das lokal von jedem Entwickler verwendet wird, um ihre Codeversionen zu verwalten, während GitHub die Online-Plattform ist, die diese Versionen hostet und die Zusammenarbeit erleichtert.
-GitHub ist viel mehr als nur ein Dienst zum Hosten von Code. Es ist eine Kollaborationsplattform, die es Entwicklern ermöglicht, effizient zusammenzuarbeiten. Und tatsächlich nutzt das PlanB Network diese Plattform, um nicht nur den gesamten Code, der die Website antreibt, zu hosten, sondern auch, und das ist für uns von Interesse, alle Inhalte (Tutorials, Schulungen, Ressourcen...).
+GitHub ist viel mehr als nur ein Dienst zum Hosten von Code. Es ist eine Kollaborationsplattform, die es Entwicklern ermöglicht, effizient zusammenzuarbeiten. Und tatsächlich nutzt das Plan ₿ Academy diese Plattform, um nicht nur den gesamten Code, der die Website antreibt, zu hosten, sondern auch, und das ist für uns von Interesse, alle Inhalte (Tutorials, Schulungen, Ressourcen...).
 
 ## Einige technische Begriffe
 

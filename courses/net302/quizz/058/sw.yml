@@ -6,4 +6,4 @@ wrong_answers:
   - /etc/network/interfaces
 explanation: |
   Kwenye RHEL, CentOS na mifumo inayofanana, kila Interface ina ifcfg-* faili yake iliyo ndani /etc/sysconfig/network-scripts/.
-reviewed: false
+reviewed: true

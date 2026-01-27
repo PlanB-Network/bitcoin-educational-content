@@ -16,7 +16,7 @@ Det andre essensielle prinsippet er passordets styrke. Et passord anses som ster
 
 En passordbehandler genererer og lagrer sterke passord på en sikker måte, og lar deg få tilgang til alle dine online kontoer uten behovet for å memorere dem individuelt. Du trenger bare å huske ett passord, hovedpassordet, som gir deg tilgang til alle dine lagrede passord i behandleren. Å bruke en passordbehandler forbedrer din online sikkerhet fordi det forhindrer gjenbruk av passord og systematisk genererer tilfeldige passord. Men det forenkler også din daglige bruk av kontoene dine ved å sentralisere tilgangen til din sensitive informasjon.
 I denne veiledningen vil vi utforske hvordan man setter opp og bruker en passordbehandler for å forbedre din online sikkerhet. Jeg vil introdusere deg for Bitwarden, og i en annen veiledning, vil vi se på en annen løsning kalt KeePass.
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Advarsel: En passordbehandler er flott for å lagre passord, men **du bør aldri lagre din Bitcoin lommeboks' mnemonic frase i den!** Husk, en mnemonic frase bør eksklusivt lagres i et fysisk format, som et stykke papir eller metall.
 
@@ -68,9 +68,9 @@ Først og fremst, anbefaler jeg sterkt at du setter opp tofaktorautentisering (2
 
 Hvis du er usikker på hvordan du setter opp og bruker disse 2FA-enhetene, anbefaler jeg å følge disse 2 andre opplæringene:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 For å gjøre dette, gå til "*Sikkerhet*" fanen i "*Innstillinger*" menyen.
 ![BITWARDEN](assets/notext/14.webp)
@@ -100,7 +100,7 @@ Nå som passordbehandleren din er konfigurert, kan du begynne å lagre legitimas
 ![BITWARDEN](assets/notext/25.webp)
 I skjemaet som åpnes, start med å bestemme naturen til gjenstanden som skal lagres. For å lagre innloggingsopplysninger, velg "*Login*" alternativet fra nedtrekksmenyen.
 ![BITWARDEN](assets/notext/26.webp)
-I "*Name*" feltet, skriv inn et beskrivende navn for dine legitimasjoner. Dette vil gjøre det lettere å søke etter og organisere passordene dine, spesielt hvis du har et stort antall. For eksempel, hvis du vil lagre dine legitimasjoner for PlanB Network-siden, kan du navngi denne gjenstanden på en måte som gjør den umiddelbart gjenkjennelig under dine fremtidige søk.
+I "*Name*" feltet, skriv inn et beskrivende navn for dine legitimasjoner. Dette vil gjøre det lettere å søke etter og organisere passordene dine, spesielt hvis du har et stort antall. For eksempel, hvis du vil lagre dine legitimasjoner for Plan ₿ Academy-siden, kan du navngi denne gjenstanden på en måte som gjør den umiddelbart gjenkjennelig under dine fremtidige søk.
 ![BITWARDEN](assets/notext/27.webp)
 "*Folder*" alternativet lar deg klassifisere dine legitimasjoner i mapper. Foreløpig har vi ikke opprettet noen ennå, men jeg vil vise deg hvordan du gjør det senere.
 ![BITWARDEN](assets/notext/28.webp)
@@ -128,7 +128,7 @@ Deretter klikker du på "*Lagre*".
 ![BITWARDEN](assets/notext/40.webp)
 Mappen din vises nå i din manager.
 ![BITWARDEN](assets/notext/41.webp)
-Du kan tilordne en mappe til en identifikator når du oppretter den, slik vi gjorde tidligere, eller ved å endre en eksisterende identifikator. For eksempel, ved å klikke på min identifikator for PlanB Network, kan jeg deretter velge å klassifisere den i "*Bitcoin*" mappen.
+Du kan tilordne en mappe til en identifikator når du oppretter den, slik vi gjorde tidligere, eller ved å endre en eksisterende identifikator. For eksempel, ved å klikke på min identifikator for Plan ₿ Academy, kan jeg deretter velge å klassifisere den i "*Bitcoin*" mappen.
 ![BITWARDEN](assets/notext/42.webp)
 På denne måten kan du strukturere din passordmanager for å gjøre det lettere å finne dine identifikatorer. Du kan organisere dem med mapper som personlig, profesjonell, banker, e-poster, sosiale nettverk, abonnementer, shopping, administrasjon, strømming, lagring, reise, helse, osv.
 Hvis du foretrekker å kun bruke webversjonen av Bitwarden, er det helt mulig å holde seg til det. Jeg anbefaler da å legge til din passordmanager i nettleserens favoritter for enkel tilgang og for å unngå phishing-risiko. Imidlertid tilbyr Bitwarden også et fullt spekter av klienter som lar deg bruke din manager på ulike enheter og forenkle dens daglige bruk. De tilbyr spesielt en mobilapp, en nettleserutvidelse og skrivebordsprogramvare. La oss se hvordan vi setter dem opp sammen.
@@ -172,11 +172,11 @@ Og til slutt, skriv inn den 6-sifrede koden fra din autentiseringsapp.
 Du er nå koblet til din Bitwarden manager gjennom nettleserutvidelsen.
 
 ![BITWARDEN](assets/notext/51.webp)
-For eksempel, hvis jeg går tilbake til PlanB Network-nettstedet og prøver å logge inn på kontoen min, kan du se at Bitwarden-utvidelsen integrert i nettleseren gjenkjenner innloggingsfeltene og automatisk tilbyr meg å velge identifikatoren jeg tidligere lagret.
+For eksempel, hvis jeg går tilbake til Plan ₿ Academy-nettstedet og prøver å logge inn på kontoen min, kan du se at Bitwarden-utvidelsen integrert i nettleseren gjenkjenner innloggingsfeltene og automatisk tilbyr meg å velge identifikatoren jeg tidligere lagret.
 ![BITWARDEN](assets/notext/52.webp)
 Hvis jeg velger denne identifikatoren, fyller Bitwarden inn innloggingsfeltene for meg. Denne funksjonen til utvidelsen tillater rask tilkobling til nettsteder, uten behovet for å kopiere og lime inn legitimasjon fra Bitwarden-webapplikasjonen eller programvaren.
 ![BITWARDEN](assets/notext/53.webp)
-Utvidelsen er også designet for å oppdage opprettelsen av nye kontoer. For eksempel, når jeg oppretter en ny konto på PlanB Network, foreslår Bitwarden automatisk å lagre den nye identifikatoren.
+Utvidelsen er også designet for å oppdage opprettelsen av nye kontoer. For eksempel, når jeg oppretter en ny konto på Plan ₿ Academy, foreslår Bitwarden automatisk å lagre den nye identifikatoren.
 ![BITWARDEN](assets/notext/54.webp)
 Ved å klikke på dette forslaget som vises, åpnes utvidelsen. Den lar meg angi detaljene for den nye identifikatoren og generere et sterkt, unikt passord.
 ![BITWARDEN](assets/notext/55.webp)

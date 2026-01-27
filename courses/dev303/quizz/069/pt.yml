@@ -1,0 +1,8 @@
+question: Qual é o principal papel das asserções no desenvolvimento de aplicações Bitcoin de acordo com as melhores práticas Rust?
+answer: Para detetar erros durante os testes, causar falhas precoces no programa quando ocorrem problemas e servir como documentação executável dos pressupostos do programador
+wrong_answers:
+  - Para lidar com erros de recursos em tempo de execução, como falhas de acesso a ficheiros e problemas de conetividade de rede, de uma forma graciosa
+  - Traduzir os erros de baixo nível da biblioteca em erros de alto nível da aplicação que os utilizadores possam compreender e agir
+  - Para evitar erros de entrada inválidos, restringindo os parâmetros de função para que só aceitem valores dentro de intervalos válidos
+explanation: |
+  As asserções servem três funções críticas no desenvolvimento robusto de software Bitcoin: detectam bugs durante a fase de testes, garantem que os programas falham cedo quando os pressupostos fundamentais são violados (facilitando a depuração) e actuam como documentação executável que descreve as expectativas do programador sobre o estado do programa. As outras opções descrevem diferentes estratégias de tratamento de erros - tratamento gracioso de falhas de recursos externos, tradução de erros entre camadas de abstração e validação de entradas - que são importantes mas distintas do papel específico das asserções na verificação dos pressupostos internos do programa.

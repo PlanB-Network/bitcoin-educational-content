@@ -81,7 +81,7 @@ _노드 관리 앱으로 QR코드 스캔하기__
 ## Lightning Network 소개
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network은 더 빠르고, 더 저렴하고, 더 효율적으로 Bitcoin 거래를 혁신적으로 개선했습니다. 일상적인 사용에 적합하며 최소한의 수수료로 거의 즉시 결제가 가능하므로 커피를 구매하거나 자주 소액 결제를 처리하는 등의 소액 거래에 이상적입니다.
 

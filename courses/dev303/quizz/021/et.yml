@@ -1,0 +1,8 @@
+question: Millist parameetritüüpi peaks Rust meetod kasutama, kui ta peab muutma struktuuri instantsi, võimaldades samal ajal kutsujale säilitada omandiõiguse?
+answer: "&mut ise"
+wrong_answers:
+  - "&self"
+  - ise
+  - mut ise
+explanation: |
+  Meetodid, mis peavad muutma struktuuri instantsi, võimaldades samal ajal kutsujale omandiõiguse säilitamist, peaksid esimese parameetrina kasutama `&mut self`. See loob muutuva viite instantsile, mis võimaldab meetodil muuta struktuuri välju, ilma et see võtaks kutsujalt omandiõigust ära. Kasutades `&self` lubaks ainult instantsi lugemist, `self` tarbiks instantsi täielikult ja `mut self` ei ole meetodi parameetrite puhul Rust süntaks.

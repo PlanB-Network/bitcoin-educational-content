@@ -1,0 +1,8 @@
+question: ¿Qué ocurre cuando se llama a lock() sobre un mutex en Rust y por qué muchos desarrolladores consideran aceptable desenvolver esta operación?
+answer: Devuelve un resultado que puede fallar si otro hilo entra en pánico mientras mantiene el mutex, y el desenvolvimiento es aceptable porque no se pueden manejar razonablemente los errores de los pánicos de otros hilos
+wrong_answers:
+  - Devuelve una opción que puede ser None si el mutex está ocupado, y unwrapping es aceptable porque los mutex ocupados deberían causar la terminación inmediata del programa
+  - Devuelve un resultado que puede fallar debido a la detección de bloqueos, y el desenvolvimiento es aceptable porque los bloqueos indican defectos de diseño fundamentales que deben entrar en pánico
+  - Siempre tiene éxito y devuelve el bloqueo directamente, haciendo innecesario el desenvolvimiento, ya que las operaciones con mutex están garantizadas como seguras en Rust
+explanation: |
+  Cuando se llama a lock() en un mutex, Rust devuelve un Resultado porque la operación puede fallar si otro hilo entró en pánico mientras mantenía el mutex, dejándolo en un estado envenenado. Esto crea una situación única en la que tu código local recibe un error por algo que ocurrió en el contexto de un hilo completamente diferente. Dado que no puedes razonablemente manejar o recuperarte de un error originado por el pánico de otro hilo, muchos desarrolladores consideran aceptable desenvolver bloqueos mutex, especialmente en bases de código libres de pánico. Las otras opciones son incorrectas porque los mutexes no devuelven Opciones para estados ocupados, no tienen detección de deadlock incorporada que cause Fallos resultantes, y la operación no siempre tiene éxito debido al mecanismo de envenenamiento.

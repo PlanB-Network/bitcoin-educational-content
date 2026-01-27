@@ -42,7 +42,7 @@ Pokud chcete pokračovat, podívejte se na výukový program Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Začínáme s programem Angry IP Scanner
 
@@ -181,4 +181,4 @@ Pokud chcete používat **Nmap** s grafickým Interface, můžete použít **apl
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

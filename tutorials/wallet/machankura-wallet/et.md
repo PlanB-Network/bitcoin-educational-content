@@ -101,7 +101,7 @@ Kuid Machankura tegeleb selle probleemiga, laiendades oma funktsionaalsust oma v
 
 
 
-Et saada teavet uute riikide kohta, kus teenus on saadaval, vaadake regulaarselt nende [veebisaiti] (https://8333.mobi).
+Et saada teavet uute riikide kohta, kus teenus on saadaval, vaadake regulaarselt nende [veebisaiti](https://8333.mobi).
 
 
 
@@ -344,7 +344,7 @@ Machankura ei ole lihtsalt Wallet. Saate Exchange oma satoshid kaupade ja teenus
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Teil on ka funktsioon "**Klann**", mis võimaldab teil hallata mitme allkirjaga koostöösüsteemi: klanni liikmed peavad iga kulutuse heaks kiitma ja te saate raha automaatselt nende vahel jaotada.
 
@@ -370,7 +370,7 @@ Teine, mis on esimese loogiline jätk, on kaasav ja kohalik lahendus, kasutades 
 
 
 
-Alustamiseks peate kirjutama Machankura WhatsApp-botile sõnumi (lihtne "Tere" on enam kui piisav). Tema WhatsAppi number on [+27 73 762 5720] (https://wa.me/+27737625720).
+Alustamiseks peate kirjutama Machankura WhatsApp-botile sõnumi (lihtne "Tere" on enam kui piisav). Tema WhatsAppi number on [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 
@@ -439,13 +439,13 @@ Machankura võimaldab teil saata oma bitcoine erinevate võimaluste kaudu:
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura võimaldab koostalitlusvõimet erinevate Lightning rahakottide vahel. Selles demonstratsioonis saadame bitcoine meie Machankura WhatsAppist Wallet Wallet Satoshi Wallet-le.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Saatmiseks sisestage number 1, mis vastab valikule "SEND BTC". Seejärel valige saatmisvõimalus "Lightning Address", seejärel sisestage Address, kuhu bitcoinid saadetakse. Lõpuks valige "Sats" väärtusmeede, märkige saadetavate satoshide arv ja kinnitage saatmine.
 
@@ -577,9 +577,9 @@ Veelgi enam, Machankura võimaldab kõigil, kes soovivad teile bitcoine saata, t
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### Saldokontroll
 

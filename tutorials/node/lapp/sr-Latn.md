@@ -30,7 +30,7 @@ Da bismo napravili našu Lightning aplikaciju, koristićemo sledeće tehnologije
 - Pug šabloni + bootstrap za naš frontend
 
 
-https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Operativni sistem
 

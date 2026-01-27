@@ -8,7 +8,7 @@ description: Kwa kutumia chaguo za kina za COLDCARD Q
 Katika somo lililopita, tulishughulikia usanidi wa awali wa COLDCARD Q na kazi zake za msingi kwa wanaoanza. Ikiwa umepokea COLDCARD Q yako na bado hujaisanidi, ninapendekeza uanze na mafunzo hayo kabla ya kuendelea hapa:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Mafunzo haya mapya yamejitolea kwa chaguo za kina za COLDCARD Q, zilizoundwa kwa watumiaji wa hali ya juu na wabobezi. Kwa hakika, COLDCARD inajitofautisha na wallet nyingine za maunzi kupitia vipengele vyake vingi vya usalama wa hali ya juu. Hata hivyo, si lazima kutumia chaguo hizi zote. Tumia tu zile zinazolingana na mkakati wako wa usalama.
 
@@ -28,7 +28,7 @@ Kabla ya kuanza, hakikisha kuwa una idhini ya kufikia nakala halisi ya maneno ya
 Iwapo hujui BIP39 passphrase ni nini, au ikiwa si wazi kabisa kwako jinsi inavyofanya kazi, ninapendekeza kwa dhati kwamba uangalie mafunzo haya mapema, ambayo yanashughulikia misingi ya kinadharia inayohitajika kuelewa hatari zinazohusiana na kutumia passphrase :
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Kumbuka kwamba mara tu unapoweka passphrase kwenye Wallet yako, Mnemonic yako pekee haitatosha kupata tena ufikiaji wa bitcoins zako. Utahitaji zote mbili za Mnemonic na passphrase. Zaidi ya hayo, utahitaji kuingiza passphrase kila wakati unapofungua COLDCARD Q yako. Hii huimarisha usalama kwa kufanya ufikiaji halisi wa COLDCARD na ufahamu wa PIN hautoshi bila passphrase.
 
@@ -99,7 +99,7 @@ Thibitisha kuwa alama ya kidole inayoonyeshwa inalingana na ya Wallet yako na ub
 Kumbuka kwamba kutumia passphrase inamaanisha utahitaji kuleta seti mpya ya funguo zinazotokana na mchanganyiko wa maneno yako ya Mnemonic na passphrase kwenye programu yako ya usimamizi ya Wallet (kama Sparrow Wallet). Ili kufanya hivyo, fuata hatua "*Sanidi Wallet mpya kwenye Sparrow*" katika mafunzo haya mengine :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Chaguzi za kufungua
 
@@ -299,7 +299,7 @@ Kuanzia sasa, kila wakati kifaa kinapowashwa, calculator ya kufanya kazi na amri
 ![CCQ](assets/fr/34.webp)
 
 
-Kwa mfano, unaweza kuhesabu SHA256 Hash ya "*Plan B Network*".
+Kwa mfano, unaweza kuhesabu SHA256 Hash ya "*Plan ₿ Academy*".
 
 
 ![CCQ](assets/fr/35.webp)
@@ -366,4 +366,4 @@ Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru sana ikiwa utaacha kido
 Ninapendekeza pia mafunzo haya mengine, ambayo tunajadili matumizi ya mshindani wa moja kwa moja kwa CCQ, Ledger Flex :
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

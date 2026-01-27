@@ -14,7 +14,7 @@ Det er imidlertid ikke trivielt å velge riktig autentiseringsprogram. Google Au
 
 
 
-**Ente Auth** skiller seg ut som et moderne og sikkert alternativ. Denne gratis, åpen kildekode-applikasjonen for flere plattformer, utviklet av teamet bak [Ente Photos] (https://ente.io), tilbyr ende-til-ende-kryptert sikkerhetskopiering i skyen og sømløs synkronisering mellom alle enhetene dine. I motsetning til proprietære løsninger gir Ente Auth deg full kontroll over autentiseringskodene dine, uten at det går på bekostning av personvernet ditt.
+**Ente Auth** skiller seg ut som et moderne og sikkert alternativ. Denne gratis, åpen kildekode-applikasjonen for flere plattformer, utviklet av teamet bak [Ente Photos](https://ente.io), tilbyr ende-til-ende-kryptert sikkerhetskopiering i skyen og sømløs synkronisering mellom alle enhetene dine. I motsetning til proprietære løsninger gir Ente Auth deg full kontroll over autentiseringskodene dine, uten at det går på bekostning av personvernet ditt.
 
 
 
@@ -50,7 +50,7 @@ Ente Auth ble utviklet av teamet bak Ente Photos, en ende-til-ende-kryptert og p
 
 
 
-**Åpen kildekode og revidert**: Ente Auths kildekode er [offentlig på GitHub] (https://github.com/ente-io/auth) under AGPL v3.0-lisensen. Alle utviklere kan revidere den for å se etter feil eller uønsket oppførsel. Kryptografien som er implementert har vært gjenstand for en [uavhengig ekstern revisjon](https://ente.io/blog/cryptography-audit/), en garanti for seriøsiteten i applikasjonens sikkerhet.
+**Åpen kildekode og revidert**: Ente Auths kildekode er [offentlig på GitHub](https://github.com/ente-io/auth) under AGPL v3.0-lisensen. Alle utviklere kan revidere den for å se etter feil eller uønsket oppførsel. Kryptografien som er implementert har vært gjenstand for en [uavhengig ekstern revisjon](https://ente.io/blog/cryptography-audit/), en garanti for seriøsiteten i applikasjonens sikkerhet.
 
 
 
@@ -87,7 +87,7 @@ Ente Auth ble utviklet av teamet bak Ente Photos, en ende-til-ende-kryptert og p
 
 
 
-Ente Auth er tilgjengelig på de fleste populære plattformer. Du kan laste ned applikasjonen fra [det offisielle nettstedet] (https://ente.io/auth) eller fra de offisielle butikkene.
+Ente Auth er tilgjengelig på de fleste populære plattformer. Du kan laste ned applikasjonen fra [det offisielle nettstedet](https://ente.io/auth) eller fra de offisielle butikkene.
 
 
 
@@ -109,7 +109,7 @@ Du har flere alternativer:
 
 - **Google Play Store**: Søk etter "Ente Auth" for klassisk installasjon
 - **F-Droid**: Tilgjengelig fra Android-applikasjonskatalogen med åpen kildekode, med garanti for verifisert konstruksjon og uten proprietært innhold
-- **Manuell installasjon**: APK-filer kan lastes ned fra [prosjektets GitHub-side] (https://github.com/ente-io/auth/releases) med integrert varsling om nye versjoner
+- **Manuell installasjon**: APK-filer kan lastes ned fra [prosjektets GitHub-side](https://github.com/ente-io/auth/releases) med integrert varsling om nye versjoner
 
 
 
@@ -123,7 +123,7 @@ Installer Ente Auth direkte fra Apple App Store ved å søke etter appnavnet. IO
 ### Datamaskiner (Windows, macOS, Linux)
 
 
-Ente Auth tilbyr native desktop-applikasjoner. Besøk [ente.io/download] (https://ente.io/download) eller [Releases-delen av GitHub] (https://github.com/ente-io/auth/releases) :
+Ente Auth tilbyr native desktop-applikasjoner. Besøk [ente.io/download](https://ente.io/download) eller [Releases-delen av GitHub](https://github.com/ente-io/auth/releases) :
 
 
 
@@ -142,7 +142,7 @@ Ente Auth tilbyr native desktop-applikasjoner. Besøk [ente.io/download] (https:
 ### Interface Web
 
 
-Uten installasjon kan du få tilgang til kodene dine via [auth.ente.io] (https://auth.ente.io) fra hvilken som helst nettleser. Interface web er begrenset til visning av koder (nyttig for feilsøking), ettersom det å legge til kontoer av sikkerhetsgrunner krever mobil- eller skrivebordsapplikasjonen.
+Uten installasjon kan du få tilgang til kodene dine via [auth.ente.io](https://auth.ente.io) fra hvilken som helst nettleser. Interface web er begrenset til visning av koder (nyttig for feilsøking), ettersom det å legge til kontoer av sikkerhetsgrunner krever mobil- eller skrivebordsapplikasjonen.
 
 
 
@@ -350,7 +350,7 @@ Ente Auth tilbyr flere praktiske funksjoner:
 
 
 
-**Automatiske ikoner**: Hver oppføring kan illustreres med tjenestens logo, takket være integreringen av ikonpakken [Simple Icons] (https://simpleicons.org/).
+**Automatiske ikoner**: Hver oppføring kan illustreres med tjenestens logo, takket være integreringen av ikonpakken [Simple Icons](https://simpleicons.org/).
 
 
 
@@ -530,7 +530,7 @@ Disse uavhengige revisjonene, som utføres av anerkjente firmaer, garanterer at 
 
 
 
-Ente Auth bruker en [eksemplarisk personvernerklæring] (https://ente.io/privacy/) basert på minimal datainnsamling. Kun informasjon som er strengt nødvendig for driften av tjenesten oppbevares: din e-post Address for autentisering og kontogjenoppretting.
+Ente Auth bruker en [eksemplarisk personvernerklæring](https://ente.io/privacy/) basert på minimal datainnsamling. Kun informasjon som er strengt nødvendig for driften av tjenesten oppbevares: din e-post Address for autentisering og kontogjenoppretting.
 
 
 

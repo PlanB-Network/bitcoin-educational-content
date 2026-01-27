@@ -10,7 +10,7 @@ description: Настройка и использование мобильног
 
 Если вы хотите узнать больше о сети Lightning и понять, как она работает технически, я рекомендую вам пройти этот курс:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 В этом руководстве мы рассмотрим **Lipa**, простой и эффективный Lightning-кошелек, разработанный в Швейцарии.
 
@@ -31,7 +31,7 @@ Lipa - это кошелек Lightning без косточек, отличающ
 Первым делом необходимо загрузить приложение Lipa. На данный момент оно доступно только на iOS:
 
 
-- [Для Apple] (https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- [Для Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
 
 Версия для Android находится в стадии разработки и скоро будет доступна.
 
@@ -91,7 +91,7 @@ Lipa - это кошелек Lightning без косточек, отличающ
 
 Для получения дополнительной информации о том, как правильно создавать резервные копии и управлять фразой восстановления, я настоятельно рекомендую ознакомиться с другим руководством, особенно если вы новичок:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Получение биткоинов
 
@@ -158,5 +158,5 @@ Lipa - отличный выбор для начала работы с Lightning
 ## Ресурсы
 
 
-- [Официальный сайт Липы] (https://lipa.swiss/)
-- [Поддержка Липы] (https://getlipa.atlassian.net/servicedesk/customer/portal/1)
+- [Официальный сайт Липы](https://lipa.swiss/)
+- [Поддержка Липы](https://getlipa.atlassian.net/servicedesk/customer/portal/1)

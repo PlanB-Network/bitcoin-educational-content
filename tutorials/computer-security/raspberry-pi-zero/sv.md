@@ -6,7 +6,7 @@ description: Hur man bygger en minimal, isolerad och lågkostnadsdator med en Ra
 
 
 
-Om du har varit på sidorna i Plan ₿ Network ett tag har du redan lärt dig att en av de mest förespråkade säkerhetsinställningarna, nästan ett måste, ** är förvaltningen av medel genom offline-lagring av dina privata nycklar **.
+Om du har varit på sidorna i Plan ₿ Academy ett tag har du redan lärt dig att en av de mest förespråkade säkerhetsinställningarna, nästan ett måste, ** är förvaltningen av medel genom offline-lagring av dina privata nycklar **.
 
 
 
@@ -14,7 +14,7 @@ Om du inte har upptäckt det ännu hittar du i den här handledningen länkar ti
 
 
 
-För att hantera privata nycklar offline krävs därför en enhet som är permanent frånkopplad från nätverket, antingen en [hårdvaruplånbok](https://planb.network/resources/glossary/hardware-wallet) eller en airgap-dator, avsedd för denna specifika funktion.
+För att hantera privata nycklar offline krävs därför en enhet som är permanent frånkopplad från nätverket, antingen en [hårdvaruplånbok](https://planb.academy/resources/glossary/hardware-wallet) eller en airgap-dator, avsedd för denna specifika funktion.
 
 
 
@@ -500,7 +500,7 @@ Bland de plånböcker som jag känner till är Electrum den enda som tillhandah�
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Slutsatser
 

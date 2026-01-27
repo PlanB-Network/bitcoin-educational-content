@@ -14,7 +14,7 @@ Att välja rätt autentiseringsapplikation är dock inte trivialt. Google Authen
 
 
 
-**Ente Auth** framstår som ett modernt och säkert alternativ. Denna kostnadsfria applikation med öppen källkod och flera plattformar, som utvecklats av teamet bakom [Ente Photos] (https://ente.io), erbjuder krypterade molnbackuper från början till slut och sömlös synkronisering mellan alla dina enheter. Till skillnad från proprietära lösningar ger Ente Auth dig total kontroll över dina autentiseringskoder utan att kompromissa med din integritet.
+**Ente Auth** framstår som ett modernt och säkert alternativ. Denna kostnadsfria applikation med öppen källkod och flera plattformar, som utvecklats av teamet bakom [Ente Photos](https://ente.io), erbjuder krypterade molnbackuper från början till slut och sömlös synkronisering mellan alla dina enheter. Till skillnad från proprietära lösningar ger Ente Auth dig total kontroll över dina autentiseringskoder utan att kompromissa med din integritet.
 
 
 
@@ -50,7 +50,7 @@ Ente Auth utvecklades av teamet bakom Ente Photos, en end-to-end krypterad och i
 
 
 
-**Öppen källkod och granskad**: Ente Auths källkod är [offentlig på GitHub] (https://github.com/ente-io/auth) under AGPL v3.0-licensen. Alla utvecklare kan granska den för att kontrollera om det finns brister eller oönskat beteende. Den implementerade kryptografin har varit föremål för en [oberoende extern revision](https://ente.io/blog/cryptography-audit/), en garanti för att applikationens säkerhet är seriös.
+**Öppen källkod och granskad**: Ente Auths källkod är [offentlig på GitHub](https://github.com/ente-io/auth) under AGPL v3.0-licensen. Alla utvecklare kan granska den för att kontrollera om det finns brister eller oönskat beteende. Den implementerade kryptografin har varit föremål för en [oberoende extern revision](https://ente.io/blog/cryptography-audit/), en garanti för att applikationens säkerhet är seriös.
 
 
 
@@ -142,7 +142,7 @@ Ente Auth erbjuder inbyggda skrivbordsapplikationer. Besök [ente.io/download](h
 ### Interface Webb
 
 
-Utan installation kan du komma åt dina koder via [auth.ente.io] (https://auth.ente.io) från vilken webbläsare som helst. Interface web är begränsad till att visa koder (användbart för felsökning), eftersom tillägg av konton av säkerhetsskäl kräver en mobil- eller datorapplikation.
+Utan installation kan du komma åt dina koder via [auth.ente.io](https://auth.ente.io) från vilken webbläsare som helst. Interface web är begränsad till att visa koder (användbart för felsökning), eftersom tillägg av konton av säkerhetsskäl kräver en mobil- eller datorapplikation.
 
 
 
@@ -350,7 +350,7 @@ Ente Auth erbjuder flera praktiska funktioner:
 
 
 
-**Automatiska ikoner**: Varje post kan illustreras med tjänstens logotyp tack vare integrationen av ikonpaketet [Simple Icons] (https://simpleicons.org/).
+**Automatiska ikoner**: Varje post kan illustreras med tjänstens logotyp tack vare integrationen av ikonpaketet [Simple Icons](https://simpleicons.org/).
 
 
 
@@ -510,7 +510,7 @@ Ente Auth bygger på robust end-to-end-kryptering med zero-knowledge-arkitektur.
 
 
 
-Eftersom koden är [öppen källkod] (https://github.com/ente-io/auth) kan samhället verifiera att det inte finns några bakdörrar. Ente har fått [flera externa revisioner](https://ente.io/blog/cryptography-audit/) utförda för att validera säkerheten i sin implementering:
+Eftersom koden är [öppen källkod](https://github.com/ente-io/auth) kan samhället verifiera att det inte finns några bakdörrar. Ente har fått [flera externa revisioner](https://ente.io/blog/cryptography-audit/) utförda för att validera säkerheten i sin implementering:
 
 
 
@@ -530,7 +530,7 @@ Dessa oberoende granskningar, som utförs av erkända företag, garanterar att E
 
 
 
-Ente Auth tillämpar en [exemplarisk integritetspolicy] (https://ente.io/privacy/) som bygger på minimal datainsamling. Endast information som är absolut nödvändig för att tjänsten ska fungera sparas: din e-post Address för autentisering och kontoåterställning.
+Ente Auth tillämpar en [exemplarisk integritetspolicy](https://ente.io/privacy/) som bygger på minimal datainsamling. Endast information som är absolut nödvändig för att tjänsten ska fungera sparas: din e-post Address för autentisering och kontoåterställning.
 
 
 

@@ -1,14 +1,11 @@
 ---
-name: Teoriden pratiğe RGB protokolü
+name: RGB programlama
 goal: RGB'i anlamak ve kullanmak için gereken becerileri edinme
-objectives: 
-
-  - RGB protokolünün temel kavramlarını anlamak
-  - Client-side Validation ve Bitcoin taahhütlerinin ilkelerine hakim olun
-  - RGB sözleşmelerinin nasıl oluşturulacağını, yönetileceğini ve aktarılacağını öğrenin
-  - RGB uyumlu bir Lightning düğümü nasıl çalıştırılır
-
-
+objectives:
+- RGB protokolünün temel kavramlarını anlamak
+- Client-side Validation ve Bitcoin taahhütlerinin ilkelerine hakim olun
+- RGB sözleşmelerinin nasıl oluşturulacağını, yönetileceğini ve aktarılacağını öğrenin
+- RGB uyumlu bir Lightning düğümü nasıl çalıştırılır
 ---
 # RGB protokolünü keşfetme
 
@@ -60,10 +57,10 @@ Son bölüm, gerçek hayattaki kullanım durumlarını vurgulamak için RGB taba
 
 
 ---
-Bu eğitim kursu aslında [Fulgur'Ventures] (https://fulgur.ventures/) tarafından Viareggio, Toskana'da düzenlenen iki haftalık bir ileri geliştirme eğitim kampından doğmuştur. Rust ve SDK'lara odaklanan ilk hafta, bu diğer kursta bulunabilir:
+Bu eğitim kursu aslında [Fulgur'Ventures](https://fulgur.ventures/) tarafından Viareggio, Toskana'da düzenlenen iki haftalık bir ileri geliştirme eğitim kampından doğmuştur. Rust ve SDK'lara odaklanan ilk hafta, bu diğer kursta bulunabilir:
 
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 Bu kursta, RGB'a odaklanan bootcamp'in ikinci haftasına odaklanıyoruz.
 
@@ -96,7 +93,7 @@ Bu eğitim kursunun yazılı versiyonu 2 ana kaynak kullanılarak hazırlanmış
 
 
 - Maxim Orlovsky, Hunter Trujilo ve Frederico Tenga'nın Lightning Bootcamp'teki seminerinin videoları;
-- Üretimi [Bitfinex] (https://www.bitfinex.com/) tarafından desteklenen RGB dokümantasyonu.
+- Üretimi [Bitfinex](https://www.bitfinex.com/) tarafından desteklenen RGB dokümantasyonu.
 
 
 RGB'nin karmaşık ve büyüleyici dünyasına dalmaya hazır mısınız? Hadi başlayalım!
@@ -915,13 +912,13 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 ### Tapret
 
 
-Son seçenek ise *Tapret* şeması ile **Taproot** (BIP341 ile tanıtılmıştır) kullanımıdır. *Tapret*, Blockchain üzerinde kapladığı alan ve Contract işlemleri için gizlilik açısından iyileştirmeler getiren deterministik Commitment'ün daha karmaşık bir şeklidir. Ana fikir, Commitment'ü bir [Taproot işleminin] (https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` kısmında gizlemektir.
+Son seçenek ise *Tapret* şeması ile **Taproot** (BIP341 ile tanıtılmıştır) kullanımıdır. *Tapret*, Blockchain üzerinde kapladığı alan ve Contract işlemleri için gizlilik açısından iyileştirmeler getiren deterministik Commitment'ün daha karmaşık bir şeklidir. Ana fikir, Commitment'ü bir [Taproot işleminin](https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` kısmında gizlemektir.
 
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
 
-Commitment'in bir Taproot işlemine nasıl eklendiğini açıklamadan önce, Commitment'in **imperatif olarak** aşağıdaki gibi 64 baytlık bir dizeye [oluşturulmuş] (https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) karşılık gelmesi gereken **tam biçimine** bakalım:
+Commitment'in bir Taproot işlemine nasıl eklendiğini açıklamadan önce, Commitment'in **imperatif olarak** aşağıdaki gibi 64 baytlık bir dizeye [oluşturulmuş](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) karşılık gelmesi gereken **tam biçimine** bakalım:
 
 
 ```txt
@@ -1217,7 +1214,7 @@ burada `kofaktör` her bir Contract için farklı pozisyonlar elde etme olasıl�
 - Tüm sözleşmeleri çarpışma olmadan konumlandıramazsak, `d` değerini artırır ve yeniden başlarız.
 
 
-Amaç, çarpışma riskini minimumda tutarken çok uzun ağaçlardan kaçınmaktır. Çarpışma olgusunun [Yıldönümü Paradoksu] (https://en.wikipedia.org/wiki/Birthday_problem) ile bağlantılı rastgele bir dağılım mantığı izlediğini unutmayın.
+Amaç, çarpışma riskini minimumda tutarken çok uzun ağaçlardan kaçınmaktır. Çarpışma olgusunun [Yıldönümü Paradoksu](https://en.wikipedia.org/wiki/Birthday_problem) ile bağlantılı rastgele bir dağılım mantığı izlediğini unutmayın.
 
 
 #### Yerleşik yapraklar
@@ -2594,7 +2591,7 @@ Lightning Network, Bitcoin üzerinde 2/2 çoklu imza cüzdanlarından oluşan me
 Lightning'in nasıl çalıştığı hakkında daha fazla bilgi için bu diğer kursa katılmanızı tavsiye ederim:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -4239,8 +4236,8 @@ interface: RGB20Fixed
 
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -4297,7 +4294,7 @@ rgb contracts
 ![RGB-Bitcoin](assets/en/087.webp)
 
 
-Ardından, bir sonraki komut global durumları (isim, ticker, Supply...) ve Sahip Olunan Durumların listesini, yani tahsisatları (örneğin, UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`de tanımlanan 1 milyon `PBN` jetonu) görüntüler.
+Ardından, bir sonraki komut global durumları (isim, ticker, Supply...) ve Sahip Olunan Durumların listesini, yani tahsisatları (örneğin, UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`de tanımlanan 1 milyon `Plan ₿ Academy` jetonu) görüntüler.
 
 
 ```bash
@@ -4428,7 +4425,7 @@ Bu Invoice'dan transfer etmek için:
 
 
 
-- Bob (tokenları Stash'ında tutan) bir Bitcoin Wallet'a sahiptir. Gerekli RGB tokenlarının bulunduğu UTXO'ları ve para birimi (Exchange) için bir UTXO harcayan bir Bitcoin işlemi (PSBT şeklinde, örneğin `tx.PSBT`) hazırlaması gerekir;
+- Bob (tokenleri kendi stash’inde tutan) bir Bitcoin cüzdanına sahiptir. Gerekli RGB tokenlerinin bulunduğu UTXO’ları harcayan ve ayrıca para üstü (change) için bir UTXO içeren bir Bitcoin işlemi (PSBT biçiminde, örn. `tx.psbt`) hazırlaması gerekir;
 - Bob aşağıdaki komutu yürütür:
 
 
@@ -4556,7 +4553,7 @@ Gerçekte, Lightning Network ödemelerin HTLC'ler (*Hashed Time-Locked Contracts
 Bu nedenle RGB'in Lightning üzerindeki çalışması, Lightning Network'nin çalışmasıyla paralel olarak düşünülmelidir. Bu konuyu daha derinlemesine incelemek isterseniz, bu diğer kapsamlı eğitim kursuna göz atmanızı şiddetle tavsiye ederim:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB kod haritası
 
@@ -4755,7 +4752,7 @@ Günümüzde RGB, kavramsal sağlamlığı ve LNP/BP ilişkisi aracılığıyla 
 ### Bitmask çözümü: RGB için bir Wallet
 
 
-RGB'in yeteneklerinden pratikte yararlanmak için **DIBA** projesi [Bitmask] (https://bitmask.app/) adlı bir Wallet tasarlamıştır. Buradaki fikir, bir web uygulaması veya tarayıcı uzantısı olarak erişilebilen, gözetim altında olmayan, Taproot tabanlı bir araç sağlamaktır. Bitmask hem RGB20 hem de RGB21 varlıklarını yönetir ve çeşitli güvenlik mekanizmalarını entegre eder:
+RGB'in yeteneklerinden pratikte yararlanmak için **DIBA** projesi [Bitmask](https://bitmask.app/) adlı bir Wallet tasarlamıştır. Buradaki fikir, bir web uygulaması veya tarayıcı uzantısı olarak erişilebilen, gözetim altında olmayan, Taproot tabanlı bir araç sağlamaktır. Bitmask hem RGB20 hem de RGB21 varlıklarını yönetir ve çeşitli güvenlik mekanizmalarını entegre eder:
 
 
 
@@ -4962,7 +4959,7 @@ Daha fazla bilgi edinmek veya katkıda bulunmak isteyenler için, aşağıdakile
 
 
 - [GitHub RGB Araçlar depoları](https://github.com/RGB-Tools);
-- gW-2341'i Android'de test etmek için [Iris Wallet'e adanmış bir bilgi sitesi] (https://iriswallet.com/).
+- gW-2341'i Android'de test etmek için [Iris Wallet'e adanmış bir bilgi sitesi](https://iriswallet.com/).
 
 
 Bir sonraki bölümde, bir RGB Lightning düğümünün nasıl başlatılacağına daha yakından bakacağız.
@@ -4983,7 +4980,7 @@ Bu son bölümde Frederico Tenga, Regtest ortamında bir Lightning RGB düğüm�
 Bu video, bir önceki bölümde anlattıklarımıza benzer bir eğitim niteliğindedir, ancak bu sefer özellikle Lightning'e odaklanmıştır!
 
 
-Bu video için ana kaynak, bu yapılandırmayı Regtest'te başlatmanızı kolaylaştıran Github deposudur [RGB Lightning Node] (https://github.com/RGB-Tools/RGB-lightning-node).
+Bu video için ana kaynak, bu yapılandırmayı Regtest'te başlatmanızı kolaylaştıran Github deposudur [RGB Lightning Node](https://github.com/RGB-Tools/RGB-lightning-node).
 
 
 ### RGB uyumlu bir Lightning düğümü dağıtma
@@ -5270,7 +5267,7 @@ Elbette siparişi uyarlayabilirsiniz. İşlemi onaylamak için, bir:
 ```
 
 
-Şimdi bir RGB varlığı oluşturabiliriz. Komut, oluşturmak istediğiniz varlığın türüne ve parametrelerine bağlı olacaktır. Burada 1000 birimlik bir Supply ile "PBN" adında bir NIA (*Şişirilemeyen Varlık*) token oluşturuyorum. Hassasiyet' birimlerin bölünebilirliğini tanımlamanıza olanak tanır.
+Şimdi bir RGB varlığı oluşturabiliriz. Komut, oluşturmak istediğiniz varlığın türüne ve parametrelerine bağlı olacaktır. Burada 1000 birimlik bir Supply ile "Plan ₿ Academy" adında bir NIA (*Şişirilemeyen Varlık*) token oluşturuyorum. Hassasiyet' birimlerin bölünebilirliğini tanımlamanıza olanak tanır.
 
 
 ```bash
@@ -5279,8 +5276,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -5328,7 +5325,7 @@ Komut, 2 numaralı düğümümün açık anahtarını döndürür:
 ![RGB-Bitcoin](assets/en/110.webp)
 
 
-Daha sonra, ilgili varlığı (`PBN`) belirterek kanalı açacağız. Openchannel` komutu, kanalın boyutunu satoshis cinsinden tanımlamanıza ve RGB varlığını dahil etmeyi seçmenize olanak tanır. Ne oluşturmak istediğinize bağlı, ancak benim durumumda komut şu şekildedir:
+Daha sonra, ilgili varlığı (`Plan ₿ Academy`) belirterek kanalı açacağız. Openchannel` komutu, kanalın boyutunu satoshis cinsinden tanımlamanıza ve RGB varlığını dahil etmeyi seçmenize olanak tanır. Ne oluşturmak istediğinize bağlı, ancak benim durumumda komut şu şekildedir:
 
 
 ```bash
@@ -5376,7 +5373,7 @@ Daha fazlasını burada bulabilirsiniz:
 ![RGB-Bitcoin](assets/en/112.webp)
 
 
-Lightning kanalı artık açıktır ve ayrıca n°1 düğümü tarafında 500 `PBN` jetonu içerir. Eğer n°2 düğümü `PBN` jetonlarını almak isterse, generate ve Invoice yapmalıdır. İşte nasıl yapılacağı:
+Lightning kanalı artık açıktır ve ayrıca n°1 düğümü tarafında 500 `Plan ₿ Academy` jetonu içerir. Eğer n°2 düğümü `Plan ₿ Academy` jetonlarını almak isterse, generate ve Invoice yapmalıdır. İşte nasıl yapılacağı:
 
 
 ```bash
@@ -5413,7 +5410,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RGB-Bitcoin](assets/en/113.webp)
 
 
-Şimdi bu Invoice'i, `PBN` token ile gerekli nakdi tutan ilk düğümden ödeyeceğiz:
+Şimdi bu Invoice'i, `Plan ₿ Academy` token ile gerekli nakdi tutan ilk düğümden ödeyeceğiz:
 
 
 ```bash

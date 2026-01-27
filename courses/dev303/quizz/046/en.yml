@@ -1,0 +1,8 @@
+question: What happens when you clone an RC<T> instance containing a large data structure?
+answer: Only the reference is copied and the reference counter is incremented, leaving the original data unchanged
+wrong_answers:
+  - The entire data structure is duplicated in memory and both copies maintain separate reference counters
+  - A shallow copy is created where primitive fields are copied but complex fields remain shared references
+  - The data is moved to a new memory location and the original RC becomes invalid until reinitialized
+explanation: |
+  When cloning an RC, Rust only copies the reference pointer and increments the internal reference counter, making the operation extremely efficient regardless of the data size. The underlying data remains in the same memory location and is shared between all RC instances. This is fundamentally different from cloning the actual data, which would defeat the purpose of shared ownership and waste memory.

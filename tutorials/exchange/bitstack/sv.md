@@ -8,7 +8,7 @@ description: Köp och sälj bitcoins på Bitstack-applikationen
 Bitstack är en fransk Bitcoin-investeringsplattform, reglerad PSAN av AMF. Den erbjuder en app som finns tillgänglig på Android och iOS för enkelt köp och försäljning av Bitcoin.
 
 
-Det som skiljer Bitstack åt är dess automatiska avrundningssystem, som synkroniserar användarens bankkonto för att konvertera skillnaden mellan det belopp som debiteras under dagliga utgifter och nästa högre euro, direkt till bitcoins. Denna metod underlättar tillämpningen av *Dollar Cost Averaging* (DCA), vilket möjliggör en gradvis, smärtfri ackumulering av satoshis. Förutom denna originalfunktion erbjuder plattformen också ett klassiskt DCA-system med automatiska investeringar, samt spotköp och försäljning.
+Det som särskiljer Bitstack är dess automatiska avrundningssystem, som synkroniserar användarens bankkonto för att konvertera skillnaden mellan det belopp som debiteras vid dagliga utgifter och nästa hela euro direkt till bitcoin. Denna metod underlättar tillämpningen av *Dollar Cost Averaging* (DCA) genom att möjliggöra en gradvis och smärtfri ackumulering av satoshis. Förutom denna unika funktion erbjuder plattformen även ett klassiskt DCA-system med automatiska investeringar samt engångsköp och försäljningar.
 
 
 ![Image](assets/fr/01.webp)
@@ -39,8 +39,8 @@ För att ladda ner Bitstack-applikationen, gå till din applikationsbutik:
 
 
 
-- [Ladda ner från Google Play Store] (https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
-- [Ladda ner på App Store] (https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-Bitcoin/id1608783388)
+- [Ladda ner från Google Play Store](https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
+- [Ladda ner på App Store](https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-Bitcoin/id1608783388)
 
 
 ![Image](assets/fr/02.webp)
@@ -73,10 +73,10 @@ Välj ett starkt lösenord för att säkra åtkomsten till ditt konto och klicka
 ![Image](assets/fr/06.webp)
 
 
-För säker lösenordshantering på daglig basis rekommenderas starkt att du använder en lösenordshanterare. På Plan ₿ Network hittar du flera handledningar om de bästa befintliga lösningarna, till exempel Bitwarden :
+För säker lösenordshantering på daglig basis rekommenderas starkt att du använder en lösenordshanterare. På Plan ₿ Academy hittar du flera handledningar om de bästa befintliga lösningarna, till exempel Bitwarden :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Du kommer sedan att bli ombedd att verifiera din identitet (KYC). I enlighet med franska bestämmelser kommer du att bli ombedd att lämna dina personuppgifter och bevis på din identitet. Fyll i rutorna med ditt efternamn, förnamn och födelsedatum.
 
@@ -160,7 +160,7 @@ Som nämnts i inledningen erbjuder Bitstack 3 metoder för att investera i Bitco
 - Användning av automatisk avrundning på kostnader.
 
 
-### Köpa med kontanter
+### Göra ett engångsköp
 
 
 För att göra ett engångsköp av bitcoins till marknadspris, klicka bara på "*Buy*".
@@ -271,7 +271,7 @@ Bestäm transaktionens prioritet. För ett avgiftsfritt uttag väljer du "*Stand
 ![Image](assets/fr/32.webp)
 
 
-Om du inte är bekant med hur en Wallet med egen förvaring fungerar, erbjuder vi handledning i de flesta av de lösningar som finns [på Plan ₿ Network i avsnittet "*Wallet*"] (https://planb.network/tutorials/wallet).
+Om du inte är bekant med hur en Wallet med egen förvaring fungerar, erbjuder vi handledning i de flesta av de lösningar som finns [på Plan ₿ Academy i avsnittet "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 
 ## Säljer Bitcoin

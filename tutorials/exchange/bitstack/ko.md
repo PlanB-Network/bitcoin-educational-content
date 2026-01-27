@@ -8,7 +8,7 @@ description: 비트스택 애플리케이션에서 비트코인을 사고 팔기
 비트스택은 프랑스 금융감독청(AMF)의 규제를 받는 프랑스 Bitcoin 투자 플랫폼입니다. 안드로이드와 iOS에서 사용할 수 있는 앱을 통해 Bitcoin을 쉽게 사고 팔 수 있습니다.
 
 
-비트스택의 차별점은 사용자의 은행 계좌를 동기화하여 일일 지출 중 인출된 금액과 다음 상위 유로화의 차액을 비트코인으로 직접 변환하는 자동 반올림 시스템입니다. 이 방법은 *달러 비용 평균화*(DCA)의 적용을 용이하게 하여 점진적이고 고통 없이 사토시를 축적할 수 있도록 합니다. 이 독창적인 기능 외에도 이 플랫폼은 자동 투자와 현물 매수 및 매도 기능을 갖춘 고전적인 DCA 시스템도 제공합니다.
+Bitstack의 차별점은 자동 반올림 시스템으로, 사용자의 은행 계좌를 동기화하여 일상 지출 시 인출된 금액과 다음 유로 단위 사이의 차이를 비트코인으로 직접 전환합니다. 이 방법은 *Dollar Cost Averaging* (DCA)의 적용을 용이하게 하여 사토시를 점진적이고 고통 없이 축적할 수 있게 합니다. 이 독창적인 기능 외에도 플랫폼은 자동 투자를 포함한 전통적인 DCA 시스템과 일회성 매수 및 매도를 제공합니다.
 
 
 ![Image](assets/fr/01.webp)
@@ -76,7 +76,7 @@ Bitstack 애플리케이션을 다운로드하려면 애플리케이션 스토�
 매일 비밀번호를 안전하게 관리하려면 비밀번호 관리 프로그램을 사용하는 것을 적극 권장합니다. Plan ₿ Network에서는 Bitwarden 과 같은 현존하는 최고의 솔루션에 대한 몇 가지 튜토리얼을 찾을 수 있습니다:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 그러면 신원 확인(KYC)을 요청받게 됩니다. 프랑스 규정에 따라 개인 정보 및 신원 증명을 제공해야 합니다. 성, 이름, 생년월일을 입력란에 입력합니다.
 
@@ -160,7 +160,7 @@ Address을 입력하고 추가 질문에 답하세요.
 - 비용에 자동 반올림을 사용합니다.
 
 
-### 현금으로 구매
+### 일회성 구매하기
 
 
 시장가로 비트코인을 일회성 구매하려면 "*구매*"를 클릭하기만 하면 됩니다.
@@ -271,7 +271,7 @@ Wallet에서 빈 수취인 Address를 입력합니다. 실수하면 거래를 �
 ![Image](assets/fr/32.webp)
 
 
-셀프 커스터디 Wallet의 작동 방식에 익숙하지 않은 경우, 사용 가능한 대부분의 솔루션에 대한 튜토리얼을 제공하고 있습니다[*Wallet* 섹션의 Plan ₿ Network에서](https://planb.network/tutorials/wallet).
+셀프 커스터디 Wallet의 작동 방식에 익숙하지 않은 경우, 사용 가능한 대부분의 솔루션에 대한 튜토리얼을 제공하고 있습니다[*Wallet* 섹션의 Plan ₿ Network에서](https://planb.academy/tutorials/wallet).
 
 
 ## Bitcoin 판매

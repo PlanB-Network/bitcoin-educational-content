@@ -1,9 +1,9 @@
-question: Ni igiki muri rusangi gishimikwako igihe umuntu atanga igice c’itunga ry’ishirahamwe kuri Bitcoin?
-answer: Gushiramwo amahera menshi gusa utazokenera mu myaka myinshi kandi ugume ufise igihe c’imyaka ine.
+question: Ni igiki muri rusangi gishimikwako igihe umuntu atanga igice c’itunga ry’uruganda muri Bitcoin?
+answer: Gushiramwo amahera menshi gusa utazokenera mu myaka myinshi kandi ugume usiga hagati igihe c’imyaka ine.
 wrong_answers:
   - Koresha amafaranga yose y’ibikorwa ubwo nyene utazirikanye ivy’amahera akenewe.
   - Niwiyumvire kugura no kugurisha mu ndwi nkeyi kugira ngo ubone inyungu nyinshi mu gihe gito.
   - Gushiramwo amahera gusa igihe ukeneye inguzanyo yihutirwa y’igihe gito kugira ngo ushobore kwishura amahera.
 explanation: |
-  Kubera ko igiciro ca Bitcoin gishobora guhinduka mu gihe gito, ni vyiza gukoresha amahera udakeneye ubwo nyene maze ukayagumya nibura imyaka ine. Ubwo buryo buratuma uguhinduka kw’ibintu bigenda neza kandi ukongera amahirwe yo gushika ku gushimira agaciro k’igihe kirekire.
-reviewed: false
+  Kubera ko igiciro ca Bitcoin gishobora guhinduka mu gihe gito, ni vyiza gukoresha amahera udakeneye ubwo nyene maze ukayabika nibura imyaka ine. Ubwo buryo buratuma uguhinduka kw’ibintu bigenda neza kandi ukongera amahirwe yo gushika ku gushimira agaciro k’igihe kirekire.
+reviewed: true

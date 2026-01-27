@@ -8,7 +8,7 @@ description: Ni gute wogura ibintu n’ibikorwa ukoresheje BTC ukoresheje Bitref
 Naho Bitcoin ibonwa canecane nk’uburyo bwo kuzigama muri iki gihe, iguma ari ifaranga ry’agaciro kari mu bushobozi bwaryo bwo guca mu kiganza kuva ku kuboko kuja ku kindi. Nimba abacuruzi bari hafi yawe bemeye Bitcoin nk’uburyo bwo kwishura, urafise uburenganzira bwo kuyikoresha ataco uhinduye. Ikibabaje ni uko uwo mugenzo utarakwiragira, kandi benshi mu bacuruzi ntibarakira BTC mu buryo bw’akavukire.
 
 
-Umuti mwiza usigaye ni "orange pill" abacuruzi bo mu karere kugira ngo bemere Bitcoin, mu kubasigurira ivyiza vy'iyi nzira. Ushobora gukoresha inyigisho ziboneka mu gice ca ["*abacuruzi*"](https://planb.network/inyigisho/umucuruzi) co ku rubuga rwacu nk'infashanyo. Iryo tegeko rishobora gukora neza ku bacuruzi batobato bigenga, ariko rigaragara ko rigoye cane ku minyororo minini y’igihugu, kuko muri rusangi abo bahuriye ku kibanza atari bo bafata ingingo ku bijanye n’uburyo bwo kwishura.
+Umuti mwiza usigaye ni "orange pill" abacuruzi bo mu karere kugira ngo bemere Bitcoin, mu kubasigurira ivyiza vy'iyi nzira. Ushobora gukoresha inyigisho ziboneka mu gice ca ["*abacuruzi*"](https://planb.academy/inyigisho/umucuruzi) co ku rubuga rwacu nk'infashanyo. Iryo tegeko rishobora gukora neza ku bacuruzi batobato bigenga, ariko rigaragara ko rigoye cane ku minyororo minini y’igihugu, kuko muri rusangi abo bahuriye ku kibanza atari bo bafata ingingo ku bijanye n’uburyo bwo kwishura.
 
 
 Mu gihe urindiriye ko abantu benshi bavyemera n’izo nzira, urashobora gukoresha amahera yawe ukoresheje uburyo bwo kwishura: amakarata y’ingabirano. Kandi ivyo nivyo nyene Bitrefill itanga kugira ngo ikuronse.
@@ -46,9 +46,9 @@ Injira imeyili Address. Niba wipfuza ko konti yawe idamenyekana, nukoreshe imeyi
 Niba ushaka kwiga ingene wokora email box itekanye mu buryo bworoshe n’ingene wocungera amajambo y’ibanga yawe, ndagusavye kuraba izi zindi nyigisho 2:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Hanyuma, ukande kuri buto ya "*Rema konti*".
 
@@ -85,7 +85,7 @@ Mu gice ca "*Ivyemezo bibiri*", fyonda ku buto "*Gushoboza*" hanyuma ukurikize u
 Kugira ngo umenye vyinshi ku buryo bwo gukoresha ivyemezo bibiri kugira ngo ukingire amakonti yawe yo kuri interineti, ndagusavye kuvumbura iyi yindi nyigisho:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Ni gute umuntu yogura ikarita y’ingabirano muri BTC kuri Bitrefill?
 
@@ -149,7 +149,7 @@ Ushobora kuronka amakarata yawe yose y'ingabirano ukanda ku rubuga rwawe ruri he
 
 ![BITREFILL](assets/notext/28.webp)
 
-Ndabagira inama kandi yo gukuraho porogarama ya Bitrefill, iboneka ku [Iduka rya Google Play] no kuri [Iduka ry’Iporogarama] (id16000000000000000) ku musi ku musi mu maduka y’umubiri.
+Ndabagira inama kandi yo gukuraho porogarama ya Bitrefill, iboneka ku [Iduka rya Google Play] no kuri [Iduka ry’Iporogarama](id16000000000000000) ku musi ku musi mu maduka y’umubiri.
 
 
 Kandi aho urafise, ubu urazi gukoresha ama bitcoins yawe ata KYC ku maduka akomeye kubera amafaranga yawe ya misi yose. Ku bwanje, mbona ko ubu buryo ari umuti w’igihe gito gushika abacuruzi benshi bashizemwo Bitcoin mu buryo bw’akavukire ku bibanza vyabo vy’ugurisha. Ariko rero, riguma ari uburyo bwiza cane kugeza ubu.
@@ -158,4 +158,4 @@ Kandi aho urafise, ubu urazi gukoresha ama bitcoins yawe ata KYC ku maduka akome
 Niba wipfuza gutanga umusanzu mu gukwiragiza Bitcoin no guhimiriza umucuruzi yigenga kwemera ubu buryo bwo kwishura, ndagusavye kuraba inyigisho yacu yuzuye ku bijanye n’Ikihembo ca Bitcoin co mu Busuwisi. Ni umuti w’ibintu vyose muri kimwe ku bikoresho vy’ugutanga amahera vya BTC, vyoroshe gushiramwo no gucunga ku musi ku musi:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

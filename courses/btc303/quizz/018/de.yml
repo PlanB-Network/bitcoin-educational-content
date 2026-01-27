@@ -1,0 +1,9 @@
+question: Was macht die vertrauenslose Eigenschaft von Bitcoin bei digitalen Transaktionen konkret überflüssig?
+answer: Vertrauenswürdige Dritte zur Verarbeitung und Validierung von Transaktionen
+wrong_answers:
+  - Hardware- und Softwarekomponenten zum Betrieb von Bitcoin-Knoten
+  - Kryptographische Algorithmen zur Sicherung von privaten Schlüsseln und Signaturen
+  - Netzwerk-Konsensmechanismen zur Einigung auf gültige Blöcke
+explanation: |
+  Die vertrauenslose Eigenschaft von Bitcoin macht vertrauenswürdige Drittparteien wie Banken oder Finanzinstitute für die Verarbeitung und Validierung von Transaktionen überflüssig. Wie Satoshi Nakamoto im Bitcoin-Whitepaper erläuterte, stützt sich der traditionelle Handel auf Finanzinstitute, die als vertrauenswürdige Vermittler dienen, aber das Design von Bitcoin ermöglicht es dem System, durch seinen dezentralen Konsensmechanismus ohne vertrauenswürdige Parteien korrekt zu funktionieren. Die anderen Optionen stellen wesentliche technische Komponenten dar, die Bitcoin immer noch benötigt - man braucht immer noch Hardware/Software, um teilzunehmen, die kryptografische Sicherheit bleibt grundlegend, und der Netzwerkkonsens ist die Art und Weise, wie Bitcoin die Vertrauenslosigkeit erreicht, und nicht etwas, das es eliminiert.
+reviewed: false

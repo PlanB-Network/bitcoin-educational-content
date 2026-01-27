@@ -165,7 +165,7 @@ Heslová fráze je velmi mocným nástrojem pro zvýšení zabezpečení vašich
 
 Passphrase je velmi silný nástroj pro zvýšení bezpečnosti vašich bitcoinů. Je však velmi důležité porozumět jejímu fungování dříve, než ji začnete používat, abyste se vyhnuli ztrátě přístupu ke své peněžence. Proto vám vše podrobně vysvětluji v samostatném návodu:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Nakonec, poslední stránka nastavení vám umožňuje resetovat váš Ledger. K tomuto resetu přistupte pouze v případě, že jste si jisti, že neobsahuje žádné klíče zabezpečující bitcoiny, protože byste mohli trvale ztratit přístup k vašim finančním prostředkům.
 ![LEDGER FLEX](assets/notext/30.webp)
@@ -269,7 +269,7 @@ Můžete přidat "*Label*" pro popis zdroje bitcoinů, které budou s touto adre
 
 Pro více informací o označování doporučuji také zkontrolovat tento další tutoriál:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Poté můžete tuto adresu použít k přijetí bitcoinů.
 

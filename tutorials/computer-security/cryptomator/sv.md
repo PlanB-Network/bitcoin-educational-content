@@ -42,7 +42,7 @@ Cryptomator är ett alternativ till andra applikationer, särskilt Picocrypt som
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Cryptomator-applikationen är tillgänglig på **Windows** (exe / msi), **Linux**, **macOS,** men också **Android** och **iOS**. Förresten, alla applikationer är gratis, förutom Android-applikationen, som du måste betala för (14,99 euro).
 
@@ -60,13 +60,13 @@ På din maskin kommer **Cryptomator att skapa en mapp inom vilken den kommer att
 
 
 
-För att komma igång behöver du **ladda ner** och **installera** **Cryptomator**. När nedladdningen är klar är några klick allt som krävs för att slutföra installationen. Liksom [Rclone] (https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/) kommer Cryptomator att förlita sig på WinFsp för att ** montera en virtuell enhet på din Windows-maskin **.
+För att komma igång behöver du **ladda ner** och **installera** **Cryptomator**. När nedladdningen är klar är några klick allt som krävs för att slutföra installationen. Liksom [Rclone](https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/) kommer Cryptomator att förlita sig på WinFsp för att ** montera en virtuell enhet på din Windows-maskin **.
 
 
 
 
 
-- [Ladda ner Cryptomator från den officiella webbplatsen] (https://cryptomator.org/downloads/)
+- [Ladda ner Cryptomator från den officiella webbplatsen](https://cryptomator.org/downloads/)
 
 
 

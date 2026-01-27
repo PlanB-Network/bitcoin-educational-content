@@ -1,0 +1,8 @@
+question: Mikä on perustavanlaatuinen ero LDK:n lohkoketjuintegraation lähestymistavan ja perinteisten Lightning-solmujen välillä resurssirajoitteisissa ympäristöissä?
+answer: LDK tarjoaa suodatukseen perustuvan abstraktion, jonka avulla sovellukset voivat toteuttaa seurannan Electrum-palvelimien kaltaisten kevyiden tietolähteiden avulla
+wrong_answers:
+  - LDK vaatii täyden lohkoketjun synkronoinnin, mutta optimoi tallennuksen pakattujen lohkootsikoiden ja transaktioiden karsintamekanismien avulla
+  - LDK toteuttaa mukautetun lohkoketjuprotokollan, joka vähentää kaistanleveyttä säilyttämällä muistissa vain kanavan kannalta merkitykselliset transaktiot
+  - LDK käyttää hybridi konsensusmekanismia, joka validoi vain Lightningiin liittyvät transaktiot ja jättää huomiotta tavalliset Bitcoin-operaatiot
+explanation: |
+  LDK:n lohkoketjuintegraatio on suunniteltu kahdella tilalla: täysi lohkotila resurssirikkaisiin ympäristöihin ja suodatukseen perustuva tila rajoitettuihin ympäristöihin. Suodatusmoodin avulla LDK voi välittää valvontatarpeensa abstraktien rajapintojen kautta ja pyytää tiettyjen transaktioiden, UTXO:iden tai skriptimallien valvontaa. Sovellukset voivat sitten toteuttaa tämän seurannan käyttämällä kevyitä lähteitä, kuten Electrum-palvelimia tai lohko-etsintäohjelmia, mikä vähentää kaistanleveys- ja tallennustilavaatimuksia huomattavasti verrattuna täyteen lohkoketjun synkronointiin. Tämä abstraktio mahdollistaa sen, että mobiililompakot ja verkkosovellukset voivat ylläpitää Lightning-toiminnallisuutta ilman perinteisten Lightning-solmujen vaatimaa resurssien ylikuormitusta.

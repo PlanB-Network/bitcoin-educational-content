@@ -1,0 +1,9 @@
+question: Was passiert, wenn Sie mit Ihren eigenen Bitcoin-Datenschutzpraktiken nachlässig sind?
+answer: Es kann auch die Privatsphäre anderer Bitcoin-Nutzer beeinträchtigen
+wrong_answers:
+  - Es betrifft nur Ihre eigenen Transaktionen und hat keine Auswirkungen auf andere
+  - Sie macht das gesamte Bitcoin-Netz für alle sicherer
+  - Sie trägt zur Verbesserung der allgemeinen Anonymität des Bitcoin-Systems bei
+explanation: |
+  Der Datenschutz bei Bitcoin ist zwischen den Nutzern vernetzt. Wenn eine Person mit ihren Datenschutzpraktiken schlampig umgeht, kann sich dies negativ auf die Privatsphäre anderer Nutzer auswirken, mit denen sie Transaktionen durchführt. Dies geschieht, weil Transaktionsmuster, Adress-Clustering und andere Blockchain-Analysetechniken Informationen über mehrere an Transaktionen beteiligte Parteien offenlegen können. Das Kapitel betont, dass die von Ihnen ergriffenen Maßnahmen zum Schutz der Privatsphäre nicht nur Sie selbst schützen - sie tragen auch zum Schutz der breiteren Bitcoin-Gemeinschaft bei und machen die Privatsphäre zu einer kollektiven Verantwortung und nicht nur zu einem individuellen Anliegen.
+reviewed: false

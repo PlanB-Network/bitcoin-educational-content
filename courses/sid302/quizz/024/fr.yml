@@ -1,0 +1,8 @@
+question: Dans la plateforme de gestion des actifs (AMP) de Liquid, quel est le principal mécanisme technique qui empêche les actions de conformité à point de défaillance unique tout en maintenant le contrôle réglementaire sur les actifs tokénisés ?
+answer: Autorisation multi-signature nécessitant plusieurs parties pour approuver les mesures de conformité telles que le gel des fonds ou la réémission de jetons
+wrong_answers:
+  - Les jetons de gouvernance Smart contract qui permettent à la communauté de voter sur toutes les décisions relatives à la conformité et à l'application de la réglementation
+  - Comptes bloqués dans le temps qui exécutent automatiquement les actions de mise en conformité à l'expiration de périodes d'attente prédéterminées
+  - Consensus cryptographique par preuve d'enjeu : les validateurs doivent parvenir à un accord majoritaire avant d'exécuter toute action de mise en conformité
+explanation: |
+  AMP utilise le contrôle multi-signature pour s'assurer que les actions de conformité requièrent l'autorisation de plusieurs parties, empêchant ainsi tout employé d'agir unilatéralement. Cela permet de créer un système de contrôle et d'équilibre pour les opérations sensibles tout en maintenant la surveillance réglementaire requise pour les actifs institutionnels. Les mauvaises réponses décrivent des mécanismes qui n'existent pas dans la PGA ou qui seraient inappropriés pour la conformité financière réglementée.

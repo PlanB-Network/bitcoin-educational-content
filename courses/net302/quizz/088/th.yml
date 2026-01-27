@@ -1,0 +1,9 @@
+question: คำสั่ง Linux ใดที่แสดงตารางการกำหนดเส้นทางเครือข่ายที่ใช้งานอยู่?
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - ping route
+  - netstat -s
+explanation: |
+  ip route show แสดงรายการเส้นทางที่เคอร์เนลรู้จักและเส้นทางที่แพ็กเก็ต IP ใช้เดินทาง
+reviewed: false

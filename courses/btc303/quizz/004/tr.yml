@@ -1,0 +1,9 @@
+question: Bitcoin teknik incelemesine göre, Satoshi Nakamoto double-spending sorununu çözmek için hangi çözümü öneriyor?
+answer: Kronolojik işlem sırasının hesaplamalı kanıtını kullanan eşler arası dağıtılmış bir zaman damgası sunucusu
+wrong_answers:
+  - Birden fazla güvenilir otoritenin eşik imzalarına sahip merkezi bir sunucu
+  - Çoğunluğun her işlemi onaylaması gereken sabit sunuculardan oluşan bir federasyon
+  - Çifte harcamayı önlemek için merkezi güvenilir tarafa sahip bir kör imza sistemi
+explanation: |
+  Satoshi Nakamoto, Bitcoin whitepaper'ında belirtildiği gibi özellikle 'generate işlemlerin kronolojik sırasının hesaplamalı kanıtı için eşler arası dağıtılmış bir zaman damgası sunucusu' kullanmayı önermiştir. Anahtar kelime 'dağıtılmış', yani merkezi bir kontrol noktası yok. Yanlış cevaplar, merkezi ya da yarı-merkezi yaklaşımlara dayanan daha önceki başarısız dijital para girişimlerini temsil etmektedir; bu da onları sansüre ve başarısızlığa karşı savunmasız hale getirmiştir - tam da Bitcoin'ün gerçek ademi merkeziyetçilik yoluyla çözmek için tasarlandığı sorunlar.
+reviewed: false

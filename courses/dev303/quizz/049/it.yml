@@ -1,0 +1,8 @@
+question: Quale problema fondamentale risolve RC che Box non può gestire nel sistema di proprietà di Rust?
+answer: RC consente la proprietà multipla degli stessi dati attraverso il conteggio dei riferimenti
+wrong_answers:
+  - RC fornisce un'allocazione e una deallocazione della memoria più rapida rispetto a Box
+  - RC consente la gestione automatica della memoria senza alcun overhead di runtime
+  - RC consente di effettuare controlli di prestito in tempo di compilazione che Box non può eseguire
+explanation: |
+  RC (Reference Counter) affronta in modo specifico la limitazione del modello di proprietà singola di Box, consentendo a più parti di codice di condividere simultaneamente la proprietà degli stessi dati. Box segue le regole di proprietà tradizionali, secondo le quali solo un'entità può possedere i dati alla volta, rendendo impossibile la creazione di scenari come le strutture di dati condivisi in cui più elenchi fanno riferimento alla stessa porzione di coda. RC mantiene un contatore interno che tiene traccia dei riferimenti, aumentando quando vengono clonati e diminuendo quando vengono abbandonati, liberando memoria solo quando il conteggio raggiunge lo zero. Questo permette di avere modelli di condivisione dei dati flessibili, mantenendo la sicurezza della memoria, che è fondamentalmente diversa dall'approccio di proprietà esclusiva di Box.

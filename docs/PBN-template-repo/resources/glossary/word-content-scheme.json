@@ -1,0 +1,246 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "glossary-word-content",
+  "description": "Schema for validating glossary word markdown files (e.g., en.md, fr.md). These files contain YAML front-matter with the term field and markdown content defining the glossary term.",
+  "type": "object",
+  "properties": {
+    "frontmatter": {
+      "type": "object",
+      "description": "YAML front-matter block enclosed by --- delimiters at the start of the file",
+      "properties": {
+        "term": {
+          "type": "string",
+          "description": "The glossary term in UPPERCASE. May include parenthetical additions for abbreviations, opcodes, or clarifications (e.g., 'SATOSHI (SAT)', 'OP_ROLL (0X7A)', 'HOT WALLET (SOFTWARE)'). Numbers should be written out (e.g., '51 PERCENT ATTACK' not '51%').",
+          "pattern": "^[A-Z0-9][A-Z0-9 _+-]*(?:\\s*\\([A-Z0-9 ]+\\))?$",
+          "examples": [
+            "WALLET",
+            "SATOSHI (SAT)",
+            "51 PERCENT ATTACK",
+            "OP_ROLL (0X7A)",
+            "SHA256",
+            "C++ (PLUS PLUS)",
+            "API"
+          ]
+        }
+      },
+      "required": ["term"],
+      "additionalProperties": false
+    },
+    "content_rules": {
+      "type": "object",
+      "description": "Documentation of markdown content structural requirements. This property describes validation rules that should be enforced by content validators.",
+      "properties": {
+        "definition_paragraph": {
+          "type": "object",
+          "description": "The primary definition paragraph immediately following the YAML front-matter",
+          "properties": {
+            "required": {
+              "type": "boolean",
+              "const": true,
+              "description": "A definition paragraph is required immediately after the front-matter"
+            },
+            "position": {
+              "type": "string",
+              "const": "immediately_after_frontmatter",
+              "description": "Must appear directly after the closing --- of the front-matter"
+            },
+            "guidelines": {
+              "type": "array",
+              "description": "Content guidelines for the definition paragraph",
+              "items": {
+                "type": "string"
+              },
+              "default": [
+                "Defines what the term is in clear, technical language",
+                "For acronyms, start with: Acronym for \"[Full Name]\".",
+                "Should be comprehensive but concise",
+                "Use backticks for technical terms: `scriptPubKey`, `SHA256`"
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "additional_paragraphs": {
+          "type": "object",
+          "description": "Optional extended explanation paragraphs",
+          "properties": {
+            "required": {
+              "type": "boolean",
+              "const": false,
+              "description": "Additional paragraphs are optional"
+            },
+            "guidelines": {
+              "type": "array",
+              "description": "Content guidelines for additional paragraphs",
+              "items": {
+                "type": "string"
+              },
+              "default": [
+                "Provide deeper technical explanation if needed",
+                "Include examples, use cases, or historical context",
+                "May include bulleted or numbered lists"
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "code_formatting": {
+          "type": "object",
+          "description": "Rules for inline code and code blocks",
+          "properties": {
+            "inline_code": {
+              "type": "string",
+              "const": "backticks",
+              "description": "Use single backticks for technical terms: `scriptPubKey`, `SHA256`, `HASH160`"
+            },
+            "examples": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": [
+                "`scriptPubKey`",
+                "`SHA256`",
+                "`RIPEMD160`",
+                "`OP_CHECKSIG`"
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "math_formulas": {
+          "type": "object",
+          "description": "Rules for mathematical formulas using LaTeX notation",
+          "properties": {
+            "inline_format": {
+              "type": "string",
+              "const": "$formula$",
+              "description": "Single dollar signs for inline math"
+            },
+            "block_format": {
+              "type": "string",
+              "const": "$$formula$$",
+              "description": "Double dollar signs for block/display math"
+            },
+            "examples": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": [
+                "$y^2 = x^3 + 7$",
+                "$H(m_1) = H(m_2)$",
+                "$$s_A = n_A + t + H(N_A + T \\parallel P_A \\parallel m_A) \\cdot p_A$$"
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "images": {
+          "type": "object",
+          "description": "Rules for including images in glossary definitions",
+          "properties": {
+            "required": {
+              "type": "boolean",
+              "const": false,
+              "description": "Images are optional"
+            },
+            "format": {
+              "type": "string",
+              "const": "![](relative/path/to/image.webp)",
+              "description": "Standard markdown image syntax with empty alt text"
+            },
+            "path_pattern": {
+              "type": "string",
+              "const": "../../dictionnaire/assets/XX.webp",
+              "description": "Relative path from word directory to assets folder"
+            },
+            "preferred_format": {
+              "type": "string",
+              "const": "webp",
+              "description": "Preferred image format is WebP"
+            }
+          },
+          "additionalProperties": false
+        },
+        "alternative_names_blockquote": {
+          "type": "object",
+          "description": "Optional blockquote at the END of the file containing alternative names, translations, or etymology",
+          "properties": {
+            "required": {
+              "type": "boolean",
+              "const": false,
+              "description": "Alternative names blockquote is optional"
+            },
+            "position": {
+              "type": "string",
+              "const": "end_of_file",
+              "description": "MUST appear at the very end of the file if present"
+            },
+            "format": {
+              "type": "string",
+              "const": "> *text in italics*",
+              "description": "Blockquote with arrow symbol and italicized text"
+            },
+            "pattern": {
+              "type": "string",
+              "const": "^> ► \\*.*\\*$",
+              "description": "Regex pattern: starts with '> ► *' and ends with '*'"
+            },
+            "content_types": {
+              "type": "array",
+              "description": "Types of content that appear in the alternative names blockquote",
+              "items": {
+                "type": "string"
+              },
+              "default": [
+                "Alternative English names for the term",
+                "French translation or equivalent term",
+                "Etymology or origin notes",
+                "Related terminology clarifications"
+              ]
+            },
+            "examples": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": [
+                "> ► *This attack is also known as the \"Goldfinger attack\".*",
+                "> ► *In French, this is translated as \"interface de programmation d'applications\" or simply \"interface de programmation.\"*",
+                "> ► *In English, it is referred to as a \"hash function\".*"
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "links": {
+          "type": "object",
+          "description": "Rules for hyperlinks in content",
+          "properties": {
+            "format": {
+              "type": "string",
+              "const": "[text](url)",
+              "description": "Standard markdown link syntax"
+            },
+            "guidelines": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": [
+                "Use descriptive link text, not raw URLs",
+                "Prefer linking to primary sources (BIPs, papers, official repos)",
+                "External links should point to stable, reliable resources"
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": ["frontmatter"],
+  "additionalProperties": false
+}

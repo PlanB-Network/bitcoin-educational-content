@@ -13,7 +13,7 @@ description: Stručný návod, jak motivovat zákazníky, aby ve vašem obchodě
 Konečně jste se rozhodli přijímat ve své firmě Bitcoin a vše je připraveno: Lightning Network Wallet je nastaven pro příjem plateb, vaši zaměstnanci vědí, jak používat verzi Wallet pouze pro čtení, aby mohli přijímat platby vaším jménem, prodejní místo (PoS) bylo nakonfigurováno s produkty obchodu a měsíčně aktualizováno a již víte, jak spravovat účetnictví Bitcoin od zákazníků. Pokud nevíte, jak na to, podívejte se na tento výukový program:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## V čem je problém
 
@@ -129,7 +129,7 @@ Způsob implementace je ponechán na obchodníkovi, ale ve stručnosti uvádíme
 V každém případě je vždy dobrým zvykem zajistit, aby vaše firma, pokud má fyzické umístění, byla uvedena a aktuální na [BTC Map](https://btcmap.org/map). Většina uživatelů bitcoinu je s tímto nástrojem obeznámena a téměř všichni, kteří utratili bitcoin v kamenných obchodech, si alespoň jednou ověřili, které obchody je přijímají. Pokud se chcete dozvědět, jak přidat svůj obchod na BTC Map, nebo chcete více informací, podívejte se na tento návod:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Řízení účetnictví
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 Pokud vás zajímá, jak spravovat účetnictví právě vydělaných bitcoinů, ať už jste použili některou ze slevových politik, nebo ne, je tento návod určen právě vám:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Závěr
 

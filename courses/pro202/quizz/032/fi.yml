@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen syy siihen, että P2SH on suurelta osin syrjäyttänyt pelkät multisig-tapahtumat monimutkaisten menoehtojen osalta?
+answer: Paljas multisig paljastaa kaikki julkiset avaimet on-chain, mikä tekee transaktioista suuria, kalliita ja vaikeasti osoitteiksi koodattavia
+wrong_answers:
+  - Paljas multisig vaatii enemmän allekirjoituksia kuin P2SH, jotta saavutetaan sama turvallisuustaso usean osapuolen transaktioissa
+  - Paljas multisig ei pysty käsittelemään ajallisesti lukittuja tapahtumia tai ehdollisia menovaatimuksia kuten P2SH voi
+  - Paljaat multisig-allekirjoitukset eivät ole yhteensopivia nykyaikaisten wallet-ohjelmistojen kanssa, eikä niitä voida lähettää nykyisille solmuille
+explanation: |
+  P2SH otettiin käyttöön nimenomaan puuttumaan paljaan multisigin tehottomuuteen. Paljas multisig edellyttää, että kaikki julkiset avaimet ovat näkyvissä scriptPubKey:ssä, mikä aiheuttaa suuria transaktiokokoja, jotka maksavat enemmän maksuja ja joita on vaikea esittää käyttäjäystävällisinä osoitteina. P2SH ratkaisee tämän piilottamalla monimutkaisen komentosarjan 20 tavun hashin taakse ja paljastamalla todelliset käyttöehdot vasta, kun tuotos on käytetty. Tämä pienentää on-chain:n jalanjälkeä, parantaa yksityisyyttä ja mahdollistaa vakioidut osoitemuodot säilyttäen samat turvatakeet.

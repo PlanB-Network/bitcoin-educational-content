@@ -24,11 +24,11 @@ Výsledkem je **Debifi**, platforma, která se prezentuje jako moderní alternat
 
 
 
-Debifi je neúvěrová úvěrová platforma s podporou Bitcoin, což znamená, že si ponecháváte kontrolu nad svými soukromými klíči. Umožňuje uživatelům odblokovat likviditu v Exchange za jejich uzamčené bitcoiny jako kolaterál. Na rozdíl od tradičních bankovních půjček využívá Debifi systém úschovy více podpisů (3 ze 4) a nepřijímá zástavu kolaterálu, což zaručuje větší bezpečnost a transparentnost.
+Debifi je neúvěrová úvěrová platforma s podporou Bitcoin, což znamená, že si ponecháváte kontrolu nad svými soukromými klíči. Umožňuje uživatelům odblokovat likviditu výměnou za jejich uzamčené bitcoiny jako kolaterál. Na rozdíl od tradičních bankovních půjček používá Debifi systém úschovy více podpisů (3 ze 4) a neakceptuje rehypotéku kolaterálu, což zaručuje větší bezpečnost a transparentnost.
 
 
 
-V praxi to znamená, že Debifi ani jednotliví věřitelé nemohou utratit vaše BTC bez souhlasu tří stran (vás, věřitele a důvěryhodné třetí strany). Díky tomu je systém bezpečnější: pokud si půjčíte na Debifi, zůstane vám Ownership z vašich Bitcoin až do úplného splacení půjčky.
+V praxi to znamená, že Debifi ani jednotliví věřitelé nemohou utratit vaše BTC bez souhlasu tří stran (vás, věřitele a důvěryhodné třetí strany). Díky tomu je systém bezpečnější: pokud si na Debifi půjčíte, zůstává vám vlastnictví vašich Bitcoin až do úplného splacení půjčky.
 
 
 
@@ -36,22 +36,21 @@ V praxi to znamená, že Debifi ani jednotliví věřitelé nemohou utratit vaš
 
 
 
-S Debifi jsou to zajištěné půjčky, zabezpečení Blockchain (multisignature, 2FA), výběr stablecoinů/kapalin, důvěrnost a úplná kontrola Bitcoin. Debifi vám "umožňuje ponechat si své peníze" (vaše klíče, vaše mince) a zároveň nabízí konkurenceschopné sazby a globální přístup k půjčkám zajištěným BTC.
+U společnosti Debifi získáte půjčky se zástavou Bitcoin, které jsou nadměrně zajištěny a zajištěny zástavou on-chain. Vaše prostředky zůstanou v bezpečí díky peněženkám s více podpisy, 2FA a naprosté kontrole nad Bitcoin - vy máte klíče, vy mince. Půjčujte si v řadě stablecoinů nebo fiat variant, za konkurenceschopné sazby a s globální likviditou.
 
 
 
 Zde je rychlé srovnání mezi půjčkou Debifi a tradiční bankovní půjčkou:
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 Než vám krok za krokem ukážu, jak si půjčit na Debifi, je tu několik bodů, které byste podle mě měli vědět.
 
@@ -76,7 +75,7 @@ Než vám krok za krokem ukážu, jak si půjčit na Debifi, je tu několik bod�
 
 
 
-- Systém úschovy Multisig (3/4)** je bezpečný vkladový mechanismus, v němž jsou bitcoiny dlužníka uloženy na vícepodpisovou úschovu Address. Konkrétně čtyři (4) strany mají každá svůj klíč (dlužník, věřitel, Debifi, nezávislá třetí strana). K přesunu finančních prostředků jsou zapotřebí alespoň 3 ze 4 podpisů.
+- Systém úschovy Multisig (3/4)** je bezpečný mechanismus vkladu, kdy jsou bitcoiny dlužníka uloženy na adresu s více podpisy. Konkrétně čtyři (4) strany mají každá svůj klíč (dlužník, věřitel, Debifi, nezávislá třetí strana). K přesunu finančních prostředků jsou zapotřebí alespoň 3 ze 4 podpisů.
 
 
 
@@ -118,23 +117,17 @@ Než si budete moci od společnosti Debifi půjčit, ujistěte se, že máte ná
 
 
 
-- Bitcoin Wallet: místo, kde máte uložen svůj BTC (ideálně jiné, např. Hardware Wallet nebo důvěryhodný mobilní telefon Wallet). Právě z tohoto Wallet odešlete zástavu Bitcoin do Debifi a obdržíte finanční prostředky.
+- Bitcoin wallet: místo, kde máte uložen svůj BTC (ideálně jiné, např. Hardware Wallet nebo důvěryhodný mobilní telefon wallet). Právě z tohoto wallet budete posílat kolaterál Bitcoin do Debifi a dostávat kolaterál zpět.
 
 
 
-
-
-- Stablecoiny nebo fiat: Debifi půjčuje ve stablecoinech a některých fiat měnách. Hlavní používané stablecoiny jsou USDT a USDC.
-
-
-
-Můžete použít Aqua, Bitcoin a Liquid Wallet, které také podporují správu stablecoinů USDT v různých sítích. Nebo COLDCARD (Mk4 nebo Q), v současné době jediný hardware podporovaný společností Debifi.
+Můžete použít Aqua, Bitcoin a Liquid wallet, které také podporují správu stablecoinů USDT v různých sítích. Nebo COLDCARD (Mk4 nebo Q), v současné době jediný hardware podporovaný společností Debifi.
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 
 
@@ -148,17 +141,17 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- Aplikace dvoufaktorového ověřování: Debifi vyžaduje kód Authenticator pro každou důležitou akci. Jedná se o dodatečné zabezpečení Layer. V tomto návodu budeme používat Google Authenticator. Případně můžete použít jiné, jak uznáte za vhodné.
+- Aplikace dvoufaktorového ověřování: Debifi vyžaduje kód Authenticator pro každou důležitou akci. Je to další vrstva zabezpečení. V tomto návodu budeme používat Google Authenticator. Případně můžete použít jiné, které uznáte za vhodné.
 
 
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 
 
-- Webové stránky a mobilní aplikace Debifi: Debifi je webová stránka i mobilní aplikace, které fungují společně. Mobilní aplikace se stává Wallet, která uchovává váš soukromý klíč a řídí podepisování smluv. Kromě toho je třeba použít webovou stránku k odevzdání smluv (velký Interface poskytuje celkový přehled o úvěrových smlouvách a jejich specifikách).
+- Webové stránky a mobilní aplikace Debifi: Debifi je webová stránka i mobilní aplikace, které fungují společně. Mobilní aplikace se stává wallet, která uchovává váš soukromý klíč a řídí podepisování smluv. Kromě toho je třeba použít webovou stránku k odevzdání smluv (velký Interface vám poskytne celkový přehled o úvěrových smlouvách a jejich specifikách).
 
 
 
@@ -200,7 +193,7 @@ Po vstupu do aplikace klikněte na nabídku **Nastavení**.
 
 
 
-Poté klikněte na **Přihlásit se nebo vytvořit účet** a vytvořte si účet pomocí e-mailu Address.
+Poté klikněte na **Přihlášení nebo vytvoření účtu** a vytvořte si účet s vaší e-mailovou adresou.
 
 
 
@@ -276,7 +269,7 @@ V zájmu bezpečnosti vás společnost Debifi požádá o provedení tří krok�
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Vezměte prosím na vědomí, že účet bude moci otevřít pouze váš registrovaný smartphone (dodatečné bezpečnostní opatření).
 
@@ -360,7 +353,7 @@ Společnost Debifi si zakládá na transparentních a flexibilních podmínkách
 
 
 
-- Konzervativní úvěr (20-40 % LTV), který odpovídá úvěru s nízkým rizikem, je ideální pro maximální zajištění proti kolísání cen Bitcoin;
+- Konzervativní úvěr (30-40 % LTV), který odpovídá úvěru s nízkým rizikem, je ideální pro maximální zajištění proti kolísání cen Bitcoin;
 
 
 
@@ -372,7 +365,7 @@ Společnost Debifi si zakládá na transparentních a flexibilních podmínkách
 
 
 
-- Agresivní (70-85 % LTV), který nabízí vyšší likviditu, ale nese velmi vysoké riziko likvidace při poklesu trhu. Při výběru této tranše je nutné aktivně sledovat podmínky na trhu Bitcoin.
+- Agresivní (70 % LTV), který nabízí vyšší likviditu, ale nese velmi vysoké riziko likvidace při poklesu trhu. Při výběru této tranše je nutné aktivně sledovat podmínky na trhu Bitcoin.
 
 
 
@@ -388,7 +381,7 @@ Stanovení sazby obecně závisí na zvoleném LTV, délce trvání úvěru, vol
 
 
 
-Splátkové kalendáře půjček jsou často flexibilní a přizpůsobené potřebám uživatele. Splátky lze provádět kdykoli, pokud jsou splněny požadavky na zajištění. Splátky úvěru se obvykle skládají z úroků po dobu trvání úvěru, přičemž jistina je splatná v den splatnosti.
+Splátkové kalendáře jsou flexibilní a navržené tak, aby se přizpůsobily potřebám dlužníka. Úvěry lze kdykoli zcela nebo částečně splatit bez dalších poplatků, pokud jsou splněny požadavky na zajištění. Po celou dobu trvání úvěru jsou obvykle pravidelně spláceny úroky, zatímco jistina je vypořádána při splatnosti.
 
 
 
@@ -396,7 +389,16 @@ Splátkové kalendáře půjček jsou často flexibilní a přizpůsobené potř
 
 
 
-Vzhledem k tomu, že cena Bitcoin je volatilní, obsahuje zodpovědná půjčka ve smlouvě specifické zásady maržových výzev. Tato politika umožňuje, aby byl dlužník upozorněn, že má buď poskytnout dodatečné zajištění, nebo splatit část půjčky.
+Vzhledem k volatilitě společnosti Bitcoin zahrnují úvěry jasně definovanou politiku výzvy k dodatkové úhradě. K výzvě k úhradě marže dochází, když se LTV zvýší v důsledku poklesu hodnoty zajištění. Debifi informuje dlužníka e-mailem a prostřednictvím aplikace a umožní mu přidat zajištění nebo splatit část půjčky.
+
+
+75% LTV - první upozornění
+
+80 % LTV - druhé upozornění
+
+85 % LTV - závěrečné upozornění
+
+90 % LTV - Zajištění je zlikvidováno
 
 
 
@@ -433,7 +435,7 @@ Můžete si prohlédnout :
 6. Je třeba zadat přesnou částku, kterou potřebujete (tato částka musí být v rámci pásma, viz bod 2);
 
 
-7. Je třeba zadat Ethereum USDC Address, který má být použit pro příjem finančních prostředků.
+7. Je třeba zadat adresu Ethereum USDC, která má být použita pro příjem prostředků.
 
 
 
@@ -453,7 +455,7 @@ Vraťte se do mobilní aplikace pro ''**Provide public key**''.
 
 
 
-Stiskněte '' **Provide public key** '' a vyberte zdroj veřejného klíče. Věřitel bude muset rovněž zadat veřejný klíč Supply.
+Stiskněte '' **Provide public key** '' a vyberte zdroj veřejného klíče. Veřejný klíč bude muset dodat také věřitel.
 
 
 
@@ -473,7 +475,7 @@ Stiskněte '' **Provide public key** '' a vyberte zdroj veřejného klíče. Vě
 
 
 
-Dalším krokem je podepsání dokumentu Contract. Ještě v mobilní aplikaci stiskněte '' **Podepsat Contract** ''
+Dalším krokem je podpis smlouvy. Ještě v mobilní aplikaci stiskněte '' **Podepsat Contract** ''
 
 
 
@@ -485,7 +487,7 @@ Dalším krokem je podepsání dokumentu Contract. Ještě v mobilní aplikaci s
 
 
 
-Po dokončení podepisování Contract společnost Debifi automaticky vytvoří jedinečný vícepodpis Bitcoin Address (escrow 3-sur-4) pro váš Contract. Dokud jsou vaše bitcoiny v úschově, nelze je použít jinde.
+Po dokončení podpisu smlouvy společnost Debifi automaticky vytvoří jedinečnou adresu Bitcoin s více podpisy (escrow 3-sur-4) pro vaši smlouvu. Dokud jsou vaše bitcoiny v úschově, nelze je použít jinde.
 
 
 
@@ -493,7 +495,7 @@ Po dokončení podepisování Contract společnost Debifi automaticky vytvoří 
 
 
 
-Posledním krokem je uložení zástavy Bitcoin do systému úschovy s více podpisy. Debifi vám poté ukáže escrow Address (B) a množství BTC (A), které má být odesláno jako (kolaterál + provize).
+Posledním krokem je uložení zástavy Bitcoin do systému úschovy více podpisů. Debifi vám ukáže adresu úschovy (B) a množství BTC (A), které má být odesláno jako (kolaterál + provize).
 
 
 
@@ -509,7 +511,7 @@ Toto oznámení se zobrazí také v mobilní aplikaci.
 
 
 
-Jakmile je váš vklad potvrzen, věřitel vyplatí částku půjčky na vámi uvedenou přijímající společnost Address, čímž je transakce dokončena a vy získáte přístup k potřebným finančním prostředkům.
+Jakmile je váš vklad potvrzen, věřitel vyplatí částku půjčky na vámi uvedenou přijímací adresu, čímž je transakce dokončena a vy máte přístup k potřebným finančním prostředkům.
 
 
 
@@ -517,7 +519,7 @@ Poté obdržíte od společnosti Debifi oznámení s výzvou k úhradě poplatk�
 
 
 
-Ve skutečnosti se po vytvoření Contract poplatky za úvěr automaticky odečtou ze zajištění, které dlužník uložil do úschovy s více podpisy Address.
+Ve skutečnosti se po vytvoření smlouvy poplatky za úvěr automaticky odečtou ze zajištění, které dlužník uložil na adresu úschovy s více podpisy.
 
 
 
@@ -529,7 +531,7 @@ Stačí, když podepíšete transakci, která umožní společnosti Debifi odeč
 
 
 
-Příslušné poplatky za poskytnutí úvěru činí 1,5-2 % v závislosti na době splatnosti Contract. Platforma si účtuje poplatky pouze v Bitcoin.
+Příslušné poplatky za poskytnutí úvěru činí 1,5-2 % v závislosti na době trvání smlouvy. Platforma si účtuje poplatky pouze v Bitcoin.
 
 
 
@@ -537,25 +539,23 @@ Příslušné poplatky za poskytnutí úvěru činí 1,5-2 % v závislosti na do
 
 
 
-Jakmile je půjčka v běhu, Debifi vám umožní sledovat váš Contract v reálném čase. V okně Interface uvidíte :
-
-
+Jakmile je půjčka aktivní, Debifi vám umožní sledovat vaši smlouvu v reálném čase. V rozhraní najdete:
 
 
 
 - Vypůjčená částka a zbývající doba splatnosti.
-- Aktuální poměr LTV (Loan-to-Value): LTV se zvyšuje, pokud cena BTC klesá (protože vaše zástava má nižší hodnotu). Je stanovena varovná prahová hodnota (obvykle 90 %). Pokud vaše LTV tuto hranici překročí, hrozí vám nucená likvidace. Debifi vám pak dá 24 hodin na reakci.
-
-
-
-O snížení ceny budou dlužníci informováni. Tato informace bude rovněž k dispozici na souhrnné stránce Contract. Pro obnovení původního poměru půjčky k hodnotě úvěru musí dlužník :
+- Aktuální poměr LTV (Loan-to-Value), který se zvyšuje, když cena BTC klesá a hodnota vašeho zajištění klesá.
 
 
 
 
+Dlužníci jsou informováni o snížení hodnoty zajištění a tato informace se také zobrazí na stránce se souhrnem smlouvy. Pro obnovení původního poměru hodnoty úvěru k hodnotě zástavy musí dlužník buď:
 
-- nebo složit dodatečnou jistotu;
+
+
+- složit další zástavu;
 - splatit celý dluh nebo jeho část.
+
 
 
 
@@ -577,21 +577,21 @@ V Debifi :
 
 
 
-- Přejděte na stránku Contract a klikněte na možnost **Provedení splátky**. Zadejte celkovou dlužnou částku (jistina + úrok).
+- Přejděte na svou smlouvu a klikněte na možnost **Provedení splátky**. Zadejte celkovou dlužnou částku (jistina + úrok).
 
 
 
 
 
-- Pošlete stablecoiny ze svého účtu Wallet na uvedený účet Address věřitele a vraťte se k potvrzení splátky na platformě zkopírováním **ID** splátkové transakce do vyhrazené karty. Tím usnadníte společnosti Debifi provádění kontrol.
+- Pošlete stablecoiny ze svého účtu wallet na uvedenou adresu věřitele a vraťte se k potvrzení splátky na platformě zkopírováním **ID** splátkové transakce do vyhrazené karty. Tím usnadníte společnosti Debifi provádění kontrol.
 
 
 
-Po potvrzení platby věřitelem (a vámi) vás společnost Debifi požádá o **vrácení**. Vaše zástava Bitcoin je uvolněna a vy ji můžete vrátit z úschovy do svého vlastního portfolia.  Nezapomeňte si vyzvednout všechny své bitcoiny.
+Po potvrzení platby věřitelem (a vámi) vás společnost Debifi požádá o **vrácení**. Vaše zástava Bitcoin je uvolněna a vy ji můžete vrátit z úschovy do své vlastní zástavy wallet.  Nezapomeňte si vyzvednout všechny své bitcoiny.
 
 
 
-Jakmile obdržíte bitcoiny, změní se výpůjčka Contract na **Contract completed**.
+Jakmile obdržíte bitcoiny, smlouva o půjčce se změní na **Contract completed**.
 
 
 
@@ -604,7 +604,7 @@ Gratulujeme! Proces jste dokončili.
 
 
 
-Ať už jsou vaše cíle nebo motivace jakékoli - financování projektu, pořízení nemovitosti, nákup bitcoinů atd. - buďte velmi obezřetní, než si vezmete půjčku krytou Bitcoin. - buďte velmi obezřetní, než si vezmete půjčku zajištěnou společností Bitcoin. Věnujte čas pečlivému zvážení svého rozhodnutí, protože Bitcoin zůstává volatilním aktivem. ** Prudký pokles jeho ceny může mít za následek nucenou likvidaci vašich bitcoinů**.
+Ať už jsou vaše cíle nebo motivace jakékoli - financování projektu, pořízení nemovitosti, nákup bitcoinů atd. - předtím, než si vezmete půjčku krytou Bitcoin, buďte velmi opatrní. Věnujte čas pečlivému posouzení svého rozhodnutí, protože Bitcoin zůstává volatilním aktivem. ** Prudký pokles jeho ceny by mohl vést k nucené likvidaci vašich bitcoinů**
 
 
 
@@ -612,7 +612,7 @@ Sledujte poměr úvěru k zajištění (LTV). Pokud je to možné, nastavte si u
 
 
 
-Ovládejte své klíče. Své BTC uchovávejte v bezpečném zařízení Wallet (ideálně hardwarovém nebo renomovaném Wallet). Nenastavujte PIN kód související s důležitým datem ve vašem životě a nikdy nesdělujte frázi pro obnovení. V aplikaci Debifi máte svůj soukromý klíč generate - Debifi ho nezná.
+Ovládejte své klíče. Své BTC uchovávejte v bezpečném wallet (ideálně hardwarovém nebo renomovaném wallet). Nenastavujte PIN kód související s důležitým datem ve vašem životě a nikdy nesdělujte svou frázi pro obnovení. V aplikaci Debifi máte generate svůj soukromý klíč - Debifi ho nezná.
 
 
 
@@ -620,7 +620,7 @@ Začněte pokud možno v malém. Při první půjčce si vyzkoušejte skromnou �
 
 
 
-Pro sledování aktuálních informací o Debifi používejte pouze oficiální webové stránky Debifi a vyhněte se neznámým nebo podvodným odkazům.  Aktualizujte aplikaci, chraňte svůj chytrý telefon kódem PIN a vyberte kompatibilní telefon Hardware Wallet.
+Pro sledování aktuálních informací o Debifi používejte pouze oficiální webové stránky Debifi a vyhněte se neznámým nebo podvodným odkazům.  Aktualizujte aplikaci, chraňte svůj chytrý telefon kódem PIN a vyberte kompatibilní zařízení Hardware Wallet.
 
 
 
@@ -640,4 +640,4 @@ Doporučuji vám absolvovat tento kurz, který se podrobně zabývá Bitcoin, st
 
 
 
-https://planb.network/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46
+https://planb.academy/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46

@@ -14,11 +14,11 @@ Proton - швейцарская компания, специализирующа
 
 Чтобы пользоваться кошельком Proton, вам нужен аккаунт Proton. Вы можете создать его бесплатно, следуя первым шагам этого руководства, посвященного созданию почтового ящика Proton (только раздел "*Создание аккаунта Proton*"). После того как аккаунт будет создан, вы сможете продолжить работу с остальными частями этого руководства.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Подключение к Proton Wallet
 
-Перейдите на [веб-сайт Proton Wallet] (https://proton.me/wallet) и нажмите на кнопку "*Get Proton Wallet*".
+Перейдите на [веб-сайт Proton Wallet](https://proton.me/wallet) и нажмите на кнопку "*Get Proton Wallet*".
 
 ![Image](assets/fr/01.webp)
 
@@ -68,7 +68,7 @@ Proton Wallet отображает вашу мнемоническую фраз�
 
 Для получения более подробной информации о том, как правильно сохранять и управлять мнемоническими фразами, я настоятельно рекомендую ознакомиться с другими уроками, особенно если вы новичок:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 конечно, вы никогда не должны фотографировать эти слова, в отличие от того, что я делаю в этом руководстве
 
@@ -96,7 +96,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Чтобы углубить ваши знания о парольной фразе, я рекомендую этот учебник:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Получение биткоинов
 
@@ -162,4 +162,4 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 Для более глубокого изучения я рекомендую этот учебник по Jade Plus, новейшему аппаратному кошельку Blockstream:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

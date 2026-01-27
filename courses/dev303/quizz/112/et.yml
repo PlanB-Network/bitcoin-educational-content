@@ -1,0 +1,8 @@
+question: Milline põhimõtteline arusaam Lightningi kasutuselevõtu kohta viis Breez ülemineku ühe mobiilirakenduse loomiselt SDK-arhitektuuri arendamisele?
+answer: Mobiilirakenduste ökosüsteem ei hõlbusta lihtsat suhtlust rakenduste vahel, mis takistab spetsialiseeritud rakendustel kasutada jagatud Lightning-infrastruktuuri
+wrong_answers:
+  - Mobiilsete seadmete arvutusvõimsus ei ole piisav, et Lightning-sõlmede tööd usaldusväärselt teostada, mistõttu on nõuetekohaseks toimimiseks vaja pilvepõhist infrastruktuuri
+  - Regulatiivsete nõuete täitmine nõuab, et Lightning-funktsioonid oleksid koondatud SDK-desse, mitte jaotatud individuaalsete mobiilirakenduste vahel
+  - Kasutajakogemuse uuring näitas, et tarbijad eelistavad, et välkmakseid haldaksid pigem kolmanda osapoole teenused kui üksikud rakendused
+explanation: |
+  Õige vastus määratleb peamise arhitektuurilise piirangu, mis avastati algse Breez rakenduse kaudu: mobiilne ökosüsteem ei võimalda lihtsat rakendustevahelist suhtlust, sundides arendajaid ehitama kõik Lightningi funktsioonid pigem ühte rakendusse kui looma spetsialiseeritud rakendusi, mis jagavad Lightningi infrastruktuuri. See arusaam viis SDK lähenemisviisi, mis võimaldab mitmel rakendusel ühendada sama Lightning-sõlme. Valed vastused keskenduvad tehnilistele piirangutele, regulatiivsetele küsimustele või kasutajate eelistustele, kuid need ei olnud põhiline arhitektuuriline arusaam, mis viis strateegilise ülemineku SDK-mudelile.

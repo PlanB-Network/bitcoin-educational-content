@@ -32,13 +32,13 @@ Detta kan användas för att överföra:
 
 
 - **gW-0-fraser** (ColdCard Q:s seed-mästare eller de hemligheter som finns lagrade i ColdCardQ:s [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **konfidentiella anteckningar och lösenord**: detta kan vara vilken hemlighet som helst eller hela katalogen [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) på din ColdCardQ.
+- **konfidentiella anteckningar och lösenord**: detta kan vara vilken hemlighet som helst eller hela katalogen [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) på din ColdCardQ.
 - en säkerhetskopia av hela din **ColdCardQ**: den ColdCardQ som tar emot denna säkerhetskopia får inte ha en seed Master för att detta ska fungera.
 - gW-3 (**Partiellt signerade Bitcoin-transaktioner**) som en del av ett system med flera signaturer.
 
 
 
-Detta kräver att du har uppgraderat din [enhetens firmware till version v1.3.2Q] (https://coldcard.com/docs/upgrade/) eller högre.
+Detta kräver att du har uppgraderat din [enhetens firmware till version v1.3.2Q](https://coldcard.com/docs/upgrade/) eller högre.
 
 
 
@@ -95,7 +95,7 @@ En QR-kod genereras på skärmen. Återigen måste du kommunicera denna QR-kod t
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Vi har för närvarande:*
 
@@ -145,7 +145,7 @@ Du ombeds nu att välja vilken typ av hemligheter som ska överföras mellan de 
 
 
 
-Här kommer vår hemlighet att vara ett kort meddelande genom att välja **"Quick Text Message"**. Skriv ditt meddelande (för oss "PlanB Network rocks") och tryck sedan på **"ENTER"**.
+Här kommer vår hemlighet att vara ett kort meddelande genom att välja **"Quick Text Message"**. Skriv ditt meddelande (för oss "Plan ₿ Academy rocks") och tryck sedan på **"ENTER"**.
 
 
 Enheten genererar sedan ett nytt slumpmässigt lösenord som kallas **"Teleport Password"** , i exemplet "NE XG BT SK".
@@ -190,7 +190,7 @@ Tryck på **"QR"**-knappen för att skanna QR-koden som presenteras av den sänd
 
 
 
-Uppgifterna dekrypteras sedan och görs begripliga för den mottagande enheten. Det mottagna meddelandet är verkligen "PlanB Network rocks". Det är allt.
+Uppgifterna dekrypteras sedan och görs begripliga för den mottagande enheten. Det mottagna meddelandet är verkligen "Plan ₿ Academy rocks". Det är allt.
 
 
 
@@ -324,4 +324,4 @@ Om ColdCardQ:s "Push Tx"-funktion är aktiverad är det bara att fästa ColdCard
 
 
 
-*Källa: [ColdCards officiella webbplats [ColdCards officiella webbplats] (https://coldcard.com/)*
+*Källa: [ColdCards officiella webbplats [ColdCards officiella webbplats](https://coldcard.com/)*

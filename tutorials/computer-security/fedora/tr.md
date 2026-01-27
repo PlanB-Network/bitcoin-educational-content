@@ -126,7 +126,7 @@ Fedora Workstation] sürümünü (https://fedoraproject.org/fr/workstation/downl
 
 
 
-Fedora'yı yüklemek için [Balena Etcher] (https://etcher.balena.io/) gibi bir yazılım kullanarak önyüklenebilir bir USB anahtarı oluşturmanız gerekir.
+Fedora'yı yüklemek için [Balena Etcher](https://etcher.balena.io/) gibi bir yazılım kullanarak önyüklenebilir bir USB anahtarı oluşturmanız gerekir.
 
 
 
@@ -441,4 +441,4 @@ Artık Fedora sisteminiz güncel ve tüm günlük işleriniz için kullanıma ha
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5

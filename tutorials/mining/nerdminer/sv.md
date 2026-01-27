@@ -17,9 +17,9 @@ Innan vi går igenom de olika stegen, låt oss lista den nödvändiga utrustning
 
 
 
-- en [Lilygo T-display S3] (https://lilygo.cc/products/t-display-s3)
-- en [USB-C-ström Supply] (https://amzn.eu/d/gIOot90)
-- ett 3D-fodral: om du har en 3D-skrivare kan du ladda ner [3D-filen] (https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), annars kan du köpa en i [Silexperience onlinebutik] (https://silexperience.company.site/NerdMiner_V2-p544379757).
+- en [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
+- en [USB-C-ström Supply](https://amzn.eu/d/gIOot90)
+- ett 3D-fodral: om du har en 3D-skrivare kan du ladda ner [3D-filen](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), annars kan du köpa en i [Silexperience onlinebutik](https://silexperience.company.site/NerdMiner_V2-p544379757).
 - en PC med Chrome Browser installerad
 - en internetanslutning
 - a Bitcoin Address
@@ -30,10 +30,10 @@ Du kan också köpa ett färdigmonterat NerdMiner-kit från flera återförsälj
 
 
 - [DécouvreBitcoin](https://shop.decouvrebitcoin.com/products/nerd-Miner?_pos=1&_psq=nerd&_ss=e&_v=1.0)
-- [BitMaker] (https://bitronics.store/shop/)
+- [BitMaker](https://bitronics.store/shop/)
 
 
-Först ska vi se hur man flashar programvaran till ESP-32 S3, och sedan ska vi se hur man startar om den för att ändra wifi-nätverket. Dessa steg är för Windows-användare, om du använder ett Linux OS, vänligen utför de [preliminära stegen] (#etapes-preliminaires-pour-utilisateurs-linux) för att tillåta igenkänning av ESP-32 S3 av ditt system.
+Först ska vi se hur man flashar programvaran till ESP-32 S3, och sedan ska vi se hur man startar om den för att ändra wifi-nätverket. Dessa steg är för Windows-användare, om du använder ett Linux OS, vänligen utför de [preliminära stegen](#etapes-preliminaires-pour-utilisateurs-linux) för att tillåta igenkänning av ESP-32 S3 av ditt system.
 
 
 **Installationen av NerdMiner_v2 Software** är mycket förenklad tack vare användningen av webflasher.
@@ -42,7 +42,7 @@ Först ska vi se hur man flashar programvaran till ESP-32 S3, och sedan ska vi s
 ## Steg 1: Förberedelse av webbflasher
 
 
-Först måste du gå till [online NM2 flasher] (https://bitmaker-hub.github.io/diyflasher/).
+Först måste du gå till [online NM2 flasher](https://bitmaker-hub.github.io/diyflasher/).
 
 
 Välj sedan den firmware som motsvarar din ESP-32. För det mesta är det standardversionen: T-Display S3. Klicka sedan på "Flash".
@@ -190,5 +190,5 @@ Här är några länkar om du vill läsa mer om ämnet:
 
 
 
-- [Projektsida för NerdMiner_v2] (http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Fullständig dokumentation av NerdMiners] (https://docs.bitwater.ch/nerd-Miner-v2/)
+- [Projektsida för NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
+- [Fullständig dokumentation av NerdMiners](https://docs.bitwater.ch/nerd-Miner-v2/)

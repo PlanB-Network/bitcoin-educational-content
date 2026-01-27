@@ -1,0 +1,8 @@
+question: Hangi özel mekanizma SegWit öncesi düğümlerin tanık doğrulama kurallarını anlamadan P2WPKH işlemlerini geçerli olarak kabul etmesini sağlar?
+answer: SegWit öncesi düğümler OP_0 + 20 baytlık karma komut dosyasını imza doğrulaması gerektirmeyen bir 'anyone-can-spend' çıktısı olarak yorumlar
+wrong_answers:
+  - SegWit öncesi düğümler, P2WPKH işlemlerini kabul etmeden önce tanık doğrulaması için otomatik olarak yükseltilmiş düğümlere iletir
+  - SegWit öncesi düğümler P2WPKH modelini tanır ve doğrulamayı tamamen atlayarak tüm tanık işlemlerini önceden doğrulanmış olarak değerlendirir
+  - SegWit öncesi düğümler, geriye dönük uyumluluk dönüştürme kurallarını kullanarak tanık verilerini tekrar geleneksel scriptSig formatına dönüştürür
+explanation: |
+  SegWit'nin tasarımındaki deha, SegWit öncesi düğümlerin bilinmeyen komut dosyası kalıplarını nasıl ele aldığından yararlanmakta yatmaktadır. Bu eski düğümler bir P2WPKH komut dosyasıyla (OP_0 ve ardından 20 baytlık bir itme) karşılaştıklarında, bunu özel bir tanık programı olarak tanımazlar. Bunun yerine, OP_0'ı ve hash'i yığında bırakan standart bir kod olarak değerlendirirler. OP_0, Bitcoin'un komut dosyası sisteminde yanlış olarak değerlendirildiğinden, SegWit öncesi düğümler bunu bir 'anyone-can-spend' koşulu olarak yorumlar - yani onların bakış açısından imza doğrulaması gerekmez. Bu, işlemin mutabakatı bozmadan mempool'larına ve bloklarına kabul edilmesini sağlarken, SegWit farkında düğümler tanık verilerini kullanarak gerçek kriptografik doğrulamayı gerçekleştirir.

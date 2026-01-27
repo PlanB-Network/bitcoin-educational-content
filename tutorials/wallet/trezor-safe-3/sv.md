@@ -6,7 +6,7 @@ description: Konfigurera och använda Hardware Wallet Safe 3
 
 
 
-*Bildkredit: [Trezor.io] (https://trezor.io/)*
+*Bildkredit: [Trezor.io](https://trezor.io/)*
 
 
 
@@ -93,17 +93,17 @@ Navigering på enheten är enkel: använd högerknappen för att bläddra till h
 
 
 
-I den här handledningen ska jag visa dig hur du använder Trezor Safe 3 med [Sparrow wallet Wallet management software] (https://sparrowwallet.com/download/). Om du inte redan har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow wallet :
+I den här handledningen ska jag visa dig hur du använder Trezor Safe 3 med [Sparrow wallet Wallet management software](https://sparrowwallet.com/download/). Om du inte redan har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow wallet :
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Du behöver också programvaran Trezor Suite för att konfigurera Safe 3, kontrollera dess äkthet och installera den fasta programvaran. Vi kommer endast att använda den här programvaran för detta, och därefter kommer den endast att behövas för uppdateringar av den fasta programvaran. För den dagliga hanteringen av Wallet kommer vi att använda Sparrow wallet exklusivt, eftersom den är optimerad för Bitcoin och enkel att använda, även för nybörjare (Sparrow stöder endast Bitcoin, inte altcoins).
 
 
 
-[Ladda ner Trezor Suite från den officiella webbplatsen] (https://trezor.io/trezor-suite)
+[Ladda ner Trezor Suite från den officiella webbplatsen](https://trezor.io/trezor-suite)
 
 
 
@@ -115,7 +115,7 @@ För båda dessa program rekommenderar jag starkt att du kontrollerar både dera
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Starta Trezor Safe 3
 
@@ -213,7 +213,7 @@ Om du vill lära dig mer om de andra säkerhetskopieringsalternativen som finns 
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 ![Image](assets/fr/16.webp)
 
@@ -279,7 +279,7 @@ För mer information om det rätta sättet att spara och hantera din Mnemonic-fr
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/21.webp)
 
@@ -385,7 +385,7 @@ Vi kommer inte att behöva Trezor Suite-programvaran längre, förutom för att 
 
 
 
-Börja med att ladda ner och installera Sparrow wallet [från den officiella webbplatsen] (https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
+Börja med att ladda ner och installera Sparrow wallet [från den officiella webbplatsen](https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
 
 
 
@@ -393,7 +393,7 @@ När du har öppnat Sparrow wallet ska du se till att programvaran är ansluten 
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Klicka på fliken "*File*" och sedan på "*New Wallet*".
 
@@ -471,7 +471,7 @@ Om du vill veta mer om hur du utför ett återställningstest föreslår jag att
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Hur kan jag ta emot bitcoins med Trezor Safe 3?
 
@@ -629,6 +629,6 @@ Gratulerar, du har nu lärt dig den grundläggande användningen av Trezor Safe 
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Om du tyckte att den här handledningen var användbar skulle jag vara tacksam om du lämnar en Green-tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack så mycket!

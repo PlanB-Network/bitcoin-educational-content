@@ -1,0 +1,8 @@
+question: What naming convention does Rust enforce for structure names and field names respectively?
+answer: CamelCase for structure names and snake_case for field names
+wrong_answers:
+  - snake_case for structure names and CamelCase for field names
+  - kebab-case for structure names and camelCase for field names
+  - UPPER_CASE for structure names and lowercase for field names
+explanation: |
+  Rust follows specific naming conventions that the compiler enforces through warnings. Structure names should use CamelCase (also known as PascalCase), where each word starts with a capital letter like 'MyStruct'. Field names within structures should use snake_case with underscores separating words like 'my_field'. This convention maintains consistency across Rust codebases and improves readability for developers.

@@ -1,0 +1,8 @@
+question: Mikä on Bitcoin:n vaikeusarvon ja lohkon validoinnissa käytettävän nykyisen tavoitteen välinen matemaattinen suhde?
+answer: Vaikeus vastaa pienintä mahdollista tavoitetta jaettuna nykyisellä tavoitteella
+wrong_answers:
+  - Vaikeus on yhtä suuri kuin nykyinen tavoite jaettuna alimmalla mahdollisella tavoitteella
+  - Vaikeus on yhtä suuri kuin nykyinen tavoite kerrottuna alimmalla mahdollisella tavoitteella
+  - Vaikeus on yhtä suuri kuin kerroin kertaa 256 korotettuna eksponenttiin miinus 3
+explanation: |
+  Bitcoin:n vaikeus määritellään nimenomaan muodossa lowest_target / current_target, joka ilmaisee, kuinka monta kertaa vaikeampi mining on verrattuna helpoimpaan mahdolliseen vaikeusasteeseen. Tämä käänteinen suhde tarkoittaa sitä, että kun kohde pienenee (jolloin kelvollisten hashien löytäminen vaikeutuu), vaikeus kasvaa samassa suhteessa. Kaava varmistaa, että vaikeus 1 edustaa helpoimpia mining:n olosuhteita, kun taas korkeammat arvot osoittavat, että kelvollisten lohkojen löytäminen vaatii suhteellisesti enemmän laskentatyötä.

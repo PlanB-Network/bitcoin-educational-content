@@ -78,7 +78,7 @@ Iyo installation irangiye, uzokenera kwinjiza ID ya konti yawe. Turabona ingene 
 ## Ni gute woshira IVPN kuri telefone ngendanwa?
 
 
-Gukuraho IVPN mu iduka ryawe ry'amaporogarama, yaba ari [Iduka ry'amaporogarama] (id1193122683) ku bakoresha iOS, [Google Play Iduka](id=net.ivpn.client) kuri Android, canke [F-Droid](its/f-droid.org/ru/amapaki/net.ivpn.client). Niba ukoresha Android, urafise kandi uburenganzira bwo gukura dosiye `.apk` uyikuye kuri [urubuga rwa IVPN](https://www.ivpn.net/ru/apps-android/).
+Gukuraho IVPN mu iduka ryawe ry'amaporogarama, yaba ari [Iduka ry'amaporogarama](id1193122683) ku bakoresha iOS, [Google Play Iduka](id=net.ivpn.client) kuri Android, canke [F-Droid](its/f-droid.org/ru/amapaki/net.ivpn.client). Niba ukoresha Android, urafise kandi uburenganzira bwo gukura dosiye `.apk` uyikuye kuri [urubuga rwa IVPN](https://www.ivpn.net/ru/apps-android/).
 
 ![IVPN](assets/notext/05.webp)
 
@@ -200,9 +200,9 @@ Mu "*AntiTracker*", hitamwo urutonde rwo kubuza umukurikirana wawe. Ivyo bigenew
 Kandi aho urafise, ubu urafise ibikoresho vyo kunezerererwa IVPN bimwe bishitse. Niba kandi ushaka kwongereza umutekano wa konti zawe zo kuri internet ukoresheje umucungerezi w’ijambobanga ryo mu karere, ndagutumiye ngo urabe inyigisho yacu ku KeePass, umuti w’ubuntu kandi ufunguye:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Niba ushaka kumenya uwundi mutanga VPN asa na IVPN, mu bijanye n’ibiranga n’ibiciro, ndagusavye kandi kuraba inyigisho yacu kuri Mullvad:
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

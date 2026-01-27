@@ -6,4 +6,4 @@ wrong_answers:
   - Jedinstvena lista imena
 explanation: |
   Kutija je sadržala tri šifrovana teksta i belešku koja objašnjava otkriće blaga i pruža uputstva kako da se preuzme njegov sadržaj.
-reviewed: false
+reviewed: true

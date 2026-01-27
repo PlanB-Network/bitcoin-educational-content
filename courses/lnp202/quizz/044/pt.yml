@@ -1,0 +1,9 @@
+question: Que papel desempenha o ThunderHub em relação ao seu nó LND?
+answer: Gestão do Interface
+wrong_answers:
+  - Implementação do Lightning
+  - Serviço de guarda
+  - Nó de encaminhamento
+explanation: |
+  O ThunderHub é uma interface que se liga ao LND para gerir o nó.
+reviewed: false

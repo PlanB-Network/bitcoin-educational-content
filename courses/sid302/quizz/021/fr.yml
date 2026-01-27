@@ -1,0 +1,8 @@
+question: Quel est le principal avantage commercial du délai de règlement de 2 minutes du Liquid par rapport aux systèmes financiers traditionnels ?
+answer: Réduit le risque de contrepartie en permettant un règlement atomique où la livraison et le paiement ont lieu simultanément
+wrong_answers:
+  - Élimine la nécessité de se conformer à la réglementation et aux exigences en matière de connaissance du client (KYC) dans la négociation d'actifs
+  - Permet une évolutivité illimitée pour les opérations à haute fréquence sans frais de transaction
+  - Permet la découverte automatique des prix grâce à des algorithmes intégrés de tenue de marché
+explanation: |
+  Le règlement en 2 minutes de Liquid permet un règlement atomique, ce qui est essentiel pour réduire le risque de contrepartie, car les deux parties reçoivent simultanément ce qui leur est dû, ce qui élimine le risque de défaillance de l'une d'entre elles. Le règlement traditionnel à T+2 crée une fenêtre où le risque de contrepartie existe. Les autres options sont incorrectes : la Liquid nécessite toujours une mise en conformité par le biais d'AMP, comporte des frais de transaction et des limites d'échelle, et ne permet pas la tenue de marché automatique.

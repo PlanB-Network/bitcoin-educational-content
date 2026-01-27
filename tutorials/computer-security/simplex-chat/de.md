@@ -64,7 +64,7 @@ SimpleX Chat ist auf allen Plattformen verfügbar. Sie können die Anwendung dir
 
 
 - [Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app);
-- [App Store] (https://apps.apple.com/us/app/simplex-chat-secure-messenger/id1605771084);
+- [App Store](https://apps.apple.com/us/app/simplex-chat-secure-messenger/id1605771084);
 - [F-Droid](https://simplex.chat/fdroid/).
 
 
@@ -397,4 +397,4 @@ Ich empfehle auch dieses andere Tutorial, in dem ich Threema vorstelle, eine wei
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

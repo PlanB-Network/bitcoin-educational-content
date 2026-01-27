@@ -1,0 +1,9 @@
+question: Mikä perusperiaate erottaa tekstin mukaan Karl Popperin käsitteen avoimesta yhteiskunnasta suljetusta yhteiskunnasta?
+answer: Avoimet yhteiskunnat antavat yksilöille mahdollisuuden kriittiseen arvostelukykyyn ja henkilökohtaiseen vastuuseen, kun taas suljetut yhteiskunnat hylkäävät yksilön vapauden kritiikkiin ja ulkoiseen vaihtoon
+wrong_answers:
+  - Avoimissa yhteiskunnissa asetetaan etusijalle taloudellinen vapaus ja markkinamekanismit, kun taas suljetuissa yhteiskunnissa korostetaan tuotannon ja jakelun valtiollista valvontaa
+  - Avoimet yhteiskunnat perustuvat demokraattisiin äänestysjärjestelmiin ja enemmistövaltaan, kun taas suljetut yhteiskunnat perustuvat autoritaariseen johtajuuteen ja hierarkkisiin komentorakenteisiin
+  - Avoimet yhteiskunnat edistävät teknologista ja tieteellistä kehitystä, kun taas suljetut yhteiskunnat pitävät yllä perinteisiä menetelmiä ja vastustavat innovointia
+explanation: |
+  Popperin erottelu keskittyy perusasenteeseen yksilön kriittistä ajattelua ja henkilökohtaista päätöksentekoa kohtaan.
+  Avoimille yhteiskunnille on ominaista yksilöiden kyky käyttää kriittistä harkintaa ja henkilökohtaista vastuuta, ja ne hyväksyvät muutoksen, monimuotoisuuden ja ulkoisen vaihdon. Suljetut yhteiskunnat sitä vastoin torjuvat yksilön kriittisen vapauden, pelkäävät muutosta ja pitävät yllä staattista, heimomentaliteettia, joka tukahduttaa yksilön vastuun kollektiivisen mukautumisen ja perinteisen järjestyksen hyväksi.

@@ -11,7 +11,7 @@ description: Kompletan vodič za LNP2PBot i P2P Bitcoin trgovanje
 Peer-to-peer razmene bez KYC-ija (P2P) su ključne za očuvanje poverljivosti korisnika i finansijske autonomije. Omogućavaju direktne transakcije između pojedinaca bez potrebe za verifikacijom identiteta, što je od suštinskog značaja za one koji cene privatnost. Za dublje razumevanje teorijskih koncepata, pogledajte kurs BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Kupovina i prodaja bitcoina peer-to-peer (P2P) je jedan od najprivatnijih metoda za sticanje ili raspolaganje bitcoinima. LNP2PBot je open source Telegram bot koji omogućava P2P razmene na Lightning mreži, omogućavajući brze, niskotarifne transakcije bez KYC-ija.
 
@@ -71,7 +71,7 @@ Počnite instaliranjem kompatibilnog Lightning novčanika. Evo naših detaljnih 
 Ispod je link ka uputstvu za ovaj Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
 - [Phoenix](https://phoenix.acinq.co) :
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 Ispod je link ka uputstvu za ovaj novčanik:
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
 - [Blixt](https://blixtwallet.github.io) :
@@ -99,7 +99,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 Ispod je link ka uputstvu za ovaj Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Važne napomene o drugim novčanicima**
 

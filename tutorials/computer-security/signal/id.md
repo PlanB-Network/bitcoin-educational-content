@@ -44,7 +44,7 @@ Signal tersedia di semua platform. Anda dapat mengunduh aplikasi ini langsung da
 
 Di Android, juga memungkinkan untuk [menginstal melalui APK](https://github.com/signalapp/Signal-Android/releases).
 
-Dalam tutorial ini, kami akan berkonsentrasi pada versi seluler, tetapi harap dicatat bahwa [versi desktop juga tersedia] (https://signal.org/fr/download/) (MacOS, Linux, dan Windows). Namun, Anda harus menyiapkan aplikasi seluler terlebih dahulu sebelum Anda dapat menyinkronkan akun Anda dengan versi desktop.
+Dalam tutorial ini, kami akan berkonsentrasi pada versi seluler, tetapi harap dicatat bahwa [versi desktop juga tersedia](https://signal.org/fr/download/) (MacOS, Linux, dan Windows). Namun, Anda harus menyiapkan aplikasi seluler terlebih dahulu sebelum Anda dapat menyinkronkan akun Anda dengan versi desktop.
 
 Dalam tutorial ini, kami akan fokus pada versi seluler. Namun, perlu diketahui bahwa [versi desktop juga tersedia](https://signal.org/fr/download/) (macOS, Linux, dan Windows). Anda perlu mengatur aplikasi seluler terlebih dahulu sebelum dapat menyinkronkan akun Anda dengan versi desktop.
 
@@ -133,4 +133,4 @@ Selamat, Anda sekarang sudah mahir menggunakan Signal aplikasi kirim pesan, sebu
 
 Saya juga merekomendasikan tutorial lain, saya akan memperkenalkan Anda pada Proton Mail, sebuah alternatif yang jauh lebih ramah privasi daripada Gmail:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

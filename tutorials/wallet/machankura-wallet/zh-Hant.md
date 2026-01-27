@@ -344,7 +344,7 @@ Machankura 不只是 Wallet。您可以直接從應用程式 Exchange 您的 Sat
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 您還擁有「**氏族**」功能，可讓您管理合作的多重簽章系統：氏族成員必須核准每筆支出，您可以自動在他們之間分配資金。
 
@@ -439,13 +439,13 @@ Machankura 允許您透過不同的選項傳送您的 bitcoins：
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura 實現了不同 Lightning 錢包之間的互操作性。在這個示範中，我們從 Machankura WhatsApp Wallet 發送比特幣到 Satoshi Wallet 的 Wallet。
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 要發送，請輸入數字 1，對應於 "SEND BTC "選項。接下來，選擇 "Lightning Address "發送選項，然後輸入要發送比特幣的 Address。最後，選擇 "Sats "值量，指出要發送的薩托希數量，並確認發送。
 
@@ -577,9 +577,9 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### 餘額檢查
 

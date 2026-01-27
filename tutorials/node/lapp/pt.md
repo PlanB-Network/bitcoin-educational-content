@@ -21,7 +21,7 @@ Para construir nuestra aplicación Lightning, utilizaremos las siguientes tecnol
 - Express para nuestro servidor web
 - Pug + plantillas bootstrap para nuestro frontend
 
-https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
 

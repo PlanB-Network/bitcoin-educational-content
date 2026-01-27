@@ -124,7 +124,7 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 
-- **Blockstream App** ist eine mobile (iOS, Android) und Desktop-Anwendung zur Verwaltung von Bitcoin-Wallets und Assets auf dem Liquid Network. Sie wurde 2016 von [Blockstream] (https://blockstream.com/) übernommen und hieß zuvor *Green Address* und dann *Blockstream Green*.
+- **Blockstream App** ist eine mobile (iOS, Android) und Desktop-Anwendung zur Verwaltung von Bitcoin-Wallets und Assets auf dem Liquid Network. Sie wurde 2016 von [Blockstream](https://blockstream.com/) übernommen und hieß zuvor *Green Address* und dann *Blockstream Green*.
 - **Hauptmerkmale**:
 - **Onchain-Transaktionen** auf Blockchain Bitcoin.
     - Transaktionen über das **Liquid**-Netz (Sidechain für schnellen, vertraulichen Austausch).
@@ -149,10 +149,10 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 - **Für Android**:
-    - Laden Sie [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) aus dem Google Play Store herunter.
+    - Laden Sie [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) aus dem Google Play Store herunter.
     - Alternativ: Installieren Sie über die APK-Datei, die auf [Blockstreams offiziellem GitHub](https://github.com/Blockstream/green_android) verfügbar ist.
 - Für **iOS**:
-    - Laden Sie [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) aus dem App Store herunter.
+    - Laden Sie [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) aus dem App Store herunter.
 - **Hinweis**: Achten Sie darauf, von offiziellen Quellen herunterzuladen, um betrügerische Anwendungen zu vermeiden.
 
 
@@ -329,9 +329,9 @@ Der seed-Satz mit 12 Wörtern wird angezeigt, damit Sie ihn speichern können.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 4.3. seed-Satz prüfen
 
@@ -346,7 +346,7 @@ Dazu schreiben wir einen Verweis auf, löschen Wallet, stellen es mit dem Backup
 
 
 
-- Klicken Sie auf dem Wallet-Startbildschirm auf die Registerkarte "Einstellungen" und dann auf "Wallet-Details", und kopieren Sie den zPub ([erweiterter öffentlicher Schlüssel](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
+- Klicken Sie auf dem Wallet-Startbildschirm auf die Registerkarte "Einstellungen" und dann auf "Wallet-Details", und kopieren Sie den zPub ([erweiterter öffentlicher Schlüssel](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 
@@ -370,7 +370,7 @@ Hinweis: Ein zpub Address kann in Ihre Blockstream-Anwendung für die Funktion "
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ### 4.4. Sicherung des Zugangs zur Anwendung
 
@@ -408,7 +408,7 @@ Um Liquid-Bitcoins (L-BTC) zu erhalten, gibt es mehrere Möglichkeiten. Sie kön
 
 
 
-Alternativ Exchange Ihre Bitcoins onchain oder über die Lightning Network für L-BTC mit [eine Brücke wie Boltz] (https://boltz.Exchange/): Geben Sie Ihre Liquid erhalten Address, die Zahlung, wie Sie wollen, und erhalten Sie Ihre L-BTC.
+Alternativ Exchange Ihre Bitcoins onchain oder über die Lightning Network für L-BTC mit [eine Brücke wie Boltz](https://boltz.Exchange/): Geben Sie Ihre Liquid erhalten Address, die Zahlung, wie Sie wollen, und erhalten Sie Ihre L-BTC.
 
 
 
@@ -521,19 +521,19 @@ Nutzung des Onchain-Netzwerks
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Importieren und Verfolgen eines Wallet im "Nur beobachten"-Modus
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Desktop-Version
 
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 
@@ -552,9 +552,9 @@ Um **Blockstream App** sicher und effizient zu nutzen, befolgen Sie diese Empfeh
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
@@ -629,32 +629,32 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Lernen und Tutorien: **[Plan ₿ Network](https://planb.network/)**
+- Lernen und Tutorien: **[Plan ₿ Academy](https://planb.academy/)**
  - Sicherung des Wiederherstellungssatzes
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
 - **Liquid Network** :
-- [Glossar](https://planb.network/fr/resources/glossary/liquid-network)
+- [Glossar](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 
 - **Lightning Network**:
-- [Glossar](https://planb.network/fr/resources/glossary/lightning-network)
+- [Glossar](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

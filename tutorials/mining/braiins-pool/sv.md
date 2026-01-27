@@ -19,7 +19,7 @@ I maj 2024 har Braiins Pool en datorkraft på 13 EH/s, vilket motsvarar cirka 1,
 Sedan slutet av 2023 har Braiins Pool ändrat sitt ersättningssystem till att anta FPPS-systemet (Full Pay Per Share). Det innebär att gruvarbetare får belöningar varje dag för allt sitt arbete från föregående dag, även om poolen inte hittade ett block. Detta skiljer sig från det gamla systemet där gruvarbetarna endast fick en belöning när poolen hittade ett block.
 
 
-** Det är värt att notera, [enligt en tweet av Mononaut] (https://x.com/mononautical/status/1777686545715089605) som analyserar Bitcoin TimeChain, att många Mining-pooler som använder FPPS-systemet skulle skicka de utvunna bitcoins till en Address av AntPool, vilket skulle innebära att AntPool kontrollerar Hashrate för alla dessa pooler, cirka 47% av den globala Bitcoin Hashrate. Detta är mycket dåliga nyheter för decentraliseringen av nätverket.**
+** Det är värt att notera, [enligt en tweet av Mononaut](https://x.com/mononautical/status/1777686545715089605) som analyserar Bitcoin TimeChain, att många Mining-pooler som använder FPPS-systemet skulle skicka de utvunna bitcoins till en Address av AntPool, vilket skulle innebära att AntPool kontrollerar Hashrate för alla dessa pooler, cirka 47% av den globala Bitcoin Hashrate. Detta är mycket dåliga nyheter för decentraliseringen av nätverket.**
 
 
 ### Poolavgifter

@@ -1,0 +1,9 @@
+question: Di mana saya memasang ThunderHub pada Umbrel?
+answer: App Store
+wrong_answers:
+  - Konsol SSH
+  - Pengaturan sistem
+  - Interface Bitcoin Inti
+explanation: |
+  ThunderHub diinstal sebagai aplikasi melalui Umbrel App Store.
+reviewed: false

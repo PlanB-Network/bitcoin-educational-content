@@ -104,7 +104,7 @@ Kugira ngo uyironke, genda kuri [urubuga rwemewe rwa Manjaro](https://manjaro.or
 
 
 
-Hanyuma ugende ku rubuga rwa porogarama ya [Rufus] (https://rufus.ie/fr/) maze uyikuremwo. Gukoresha porogarama, ushiremwo urufunguzo rwawe rwa USB, uhitemwo ishusho ya Manjaro ISO maze utangure guca ibibatsi. Rindira ko igikorwa kirangira imbere y’uko ukuraho urufunguzo. Ushobora rero gusubira gufungura mudasobwa yawe.
+Hanyuma ugende ku rubuga rwa porogarama ya [Rufus](https://rufus.ie/fr/) maze uyikuremwo. Gukoresha porogarama, ushiremwo urufunguzo rwawe rwa USB, uhitemwo ishusho ya Manjaro ISO maze utangure guca ibibatsi. Rindira ko igikorwa kirangira imbere y’uko ukuraho urufunguzo. Ushobora rero gusubira gufungura mudasobwa yawe.
 
 
 
@@ -322,7 +322,7 @@ Electrum iragufasha **kwakira no kohereza bitcoins** mu buryo bworoshe, mu gihe 
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## Gukingira sisitemu yawe ya Manjaro
 
@@ -395,4 +395,4 @@ Manjaro ihuriza hamwe **ugushikama, umuvuduko n’umutekano**, mu gihe iguma **u
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

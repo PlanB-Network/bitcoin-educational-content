@@ -1,6 +1,6 @@
 ---
-name: Dodajte događaj na PlanB Network
-description: Kako da predložim dodavanje novog događaja na PlanB Network?
+name: Dodajte događaj na Plan ₿ Academy
+description: Kako da predložim dodavanje novog događaja na Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Kako da predložim dodavanje novog događaja na PlanB Network?
 Misija PlanB-a je da obezbedi vrhunske obrazovne resurse o Bitcoin na što više jezika. Sav sadržaj objavljen na sajtu je otvorenog koda i hostovan na GitHub-u, pružajući svakome priliku da doprinese obogaćivanju platforme.
 
 
-Ako želite da dodate Bitcoin konferenciju na sajt PlanB Network i povećate vidljivost vašeg događaja, ali ne znate kako? Ovaj vodič je za vas!
+Ako želite da dodate Bitcoin konferenciju na sajt Plan ₿ Academy i povećate vidljivost vašeg događaja, ali ne znate kako? Ovaj vodič je za vas!
 
 ![event](assets/01.webp)
 
@@ -16,7 +16,7 @@ Ako želite da dodate Bitcoin konferenciju na sajt PlanB Network i povećate vid
 - Prvo, potrebno je da imate nalog na GitHub-u. Ako ne znate kako da kreirate nalog, napravili smo detaljan vodič da vas uputimo.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- Ako nikada ranije niste doprineli sadržaju PlanB Network-a, biće potrebno da kreirate svoj Fork originalnog repozitorijuma. Forkovanje repozitorijuma znači kreiranje kopije tog repozitorijuma na vašem GitHub nalogu, što vam omogućava da radite na projektu bez uticaja na originalni repozitorijum. Kliknite na dugme `Fork this repository`:
+- Ako nikada ranije niste doprineli sadržaju Plan ₿ Academy-a, biće potrebno da kreirate svoj Fork originalnog repozitorijuma. Forkovanje repozitorijuma znači kreiranje kopije tog repozitorijuma na vašem GitHub nalogu, što vam omogućava da radite na projektu bez uticaja na originalni repozitorijum. Kliknite na dugme `Fork this repository`:
 
 ![event](assets/04.webp)
 
@@ -118,7 +118,7 @@ tags:
 Ako još uvek nemate "*project*" identifikator za vašu organizaciju, možete ga dodati prateći ovaj drugi vodič.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -148,7 +148,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![event](assets/14.webp)
 
 
-- Odaberite svoj Fork iz PlanB Network repozitorijuma:
+- Odaberite svoj Fork iz Plan ₿ Academy repozitorijuma:
 
 ![event](assets/15.webp)
 
@@ -199,7 +199,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 - Kliknite na dugme `Add file`, zatim na `Upload files`: ![event](assets/25.webp)
-- Otvorit će se nova stranica. Prevucite i otpustite sliku koja predstavlja vašu konferenciju i koja će biti prikazana na PlanB Network sajtu:
+- Otvorit će se nova stranica. Prevucite i otpustite sliku koja predstavlja vašu konferenciju i koja će biti prikazana na Plan ₿ Academy sajtu:
 
 ![event](assets/26.webp)
 
@@ -258,10 +258,10 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![event](assets/37.webp)
 
-Čestitamo! Vaš PR je uspešno kreiran. Administrator će ga sada proveriti i, ako je sve u redu, spojiti ga u glavni repozitorijum PlanB Network-a. Trebalo bi da vidite vaš događaj na sajtu nekoliko dana kasnije.
+Čestitamo! Vaš PR je uspešno kreiran. Administrator će ga sada proveriti i, ako je sve u redu, spojiti ga u glavni repozitorijum Plan ₿ Academy-a. Trebalo bi da vidite vaš događaj na sajtu nekoliko dana kasnije.
 
 
-Obavezno pratite napredak vašeg PR-a. Administrator može ostaviti komentar tražeći dodatne informacije. Sve dok vaš PR nije validiran, možete ga pregledati u kartici `Pull requests` na PlanB Network GitHub repozitorijumu:
+Obavezno pratite napredak vašeg PR-a. Administrator može ostaviti komentar tražeći dodatne informacije. Sve dok vaš PR nije validiran, možete ga pregledati u kartici `Pull requests` na Plan ₿ Academy GitHub repozitorijumu:
 
 ![event](assets/38.webp)
 

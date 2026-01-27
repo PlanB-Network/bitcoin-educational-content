@@ -1,0 +1,8 @@
+question: Welches ist der grundlegende Mechanismus, der es SegWit ermöglicht, die Blockkapazität zu erhöhen und gleichzeitig die Abwärtskompatibilität mit den Vor-SegWit-Knoten zu wahren?
+answer: Blockgewichtungssystem, bei dem die Daten von Zeugen bei der Kapazitätsberechnung um 75 % abgezogen werden, so dass bis zu 4 MB Gesamtdaten möglich sind, während die alten Knoten ≤1 MB sehen
+wrong_answers:
+  - Komprimierungsalgorithmen, die die Größe der Zeugnisdaten vor der Übertragung um 75 % reduzieren, so dass die Blöcke für alle Knotenpunkte unter 1 MB bleiben
+  - Dynamische Blockgrößenanpassung, die die Grenzwerte auf der Grundlage des SegWit-Transaktionsanteils in jedem Block erhöht
+  - Getrennte Zeugenblöcke, die nur an aufgerüstete Knoten übertragen werden, während ältere Knoten herkömmliche 1-MB-Blöcke erhalten
+explanation: |
+  SegWit verwendet Blockgewichtungseinheiten, wobei Basistransaktionsdaten als 4 Gewichtungseinheiten pro Byte zählen, während Zeugendaten als 1 Gewichtungseinheit pro Byte zählen. Diese 75 %ige Ermäßigung ermöglicht Blöcke mit bis zu 4 Millionen Gewichtseinheiten (potenziell 4 MB mit allen Zeugendaten) und stellt gleichzeitig sicher, dass ältere Knoten nie mehr als 1 MB an Basistransaktionsdaten sehen. Die anderen Optionen beschreiben nicht vorhandene Mechanismen - es gibt keine Komprimierung, keine dynamische Größenanpassung und keine separate Blockübermittlung.

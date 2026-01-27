@@ -6,4 +6,4 @@ wrong_answers:
   - Broj koji deli bez ostatka
 explanation: |
   Operacija modulo uključuje određivanje ostatka pri deljenju, na primer, 25 mod 4 jednako je 1 jer je ostatak deljenja 1.
-reviewed: false
+reviewed: true

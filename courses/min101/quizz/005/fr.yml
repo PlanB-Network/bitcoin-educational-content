@@ -1,0 +1,9 @@
+question: À quoi correspond le champ nbits dans l’entête de bloc ?
+answer: La cible de difficulté encodée
+wrong_answers:
+  - La taille du bloc en octets
+  - Le nombre de transactions dans le bloc
+  - L'horodatage du bloc
+explanation: |
+  Le champ nbits encode la cible de difficulté active.
+reviewed: false

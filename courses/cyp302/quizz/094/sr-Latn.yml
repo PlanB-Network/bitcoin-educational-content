@@ -1,9 +1,9 @@
-question: Koji je glavni izvor zabune između pojmova blok šifra i strim šifra?
+question: Koji je glavni izvor zabune između pojmova blok šifra i strim šifra (ili u prevodu šifre toka)?
 answer: Blok šifre se ponekad razumeju isključivo kao algoritmi koji koriste blok modove poput ECB ili CBC.
 wrong_answers:
-  - Stream šifre su uvek manje sigurne od blok šifara.
+  - Šifre toka su uvek manje sigurne od blok šifara.
   - Blok šifre operišu na jednom bitu istovremeno.
-  - Stream šifre uvek zahtevaju popunjavanje.
+  - Šifre toka uvek zahtevaju popunjavanje.
 explanation: |
-  Zbrka nastaje zbog činjenice da neki smatraju blokovske šifre samo kao algoritme koji koriste specifične načine blokiranja, dok u stvarnosti, one mogu uključivati šeme šifrovanja kao što je OFB način.
-reviewed: false
+  Zbrka nastaje zbog činjenice da neki smatraju blokovske šifre samo kao algoritme koji koriste specifične režime blokiranja, dok u stvarnosti, one mogu uključivati šeme šifrovanja kao što je OFB režim rada.
+reviewed: true

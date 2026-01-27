@@ -1,0 +1,10 @@
+question: Which mobile bitcoin depository application was developed by French company Paymium SAS in April 2012?
+answer: Paytunia
+wrong_answers:
+  - Instawallet
+  - MyBitcoin
+  - Vibanko
+explanation: |
+ Paymium presented it as "a revolutionary application based on the Bitcoin open protocol for secure and easy online payments and money transfers". 
+ The company had also acquired the Instawallet web application from Jan Vornberger in March 2012.
+reviewed: true

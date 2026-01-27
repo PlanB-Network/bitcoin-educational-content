@@ -1,0 +1,8 @@
+question: Milline on kõige kriitilisem taastamise probleem, millega kasutajad seisavad silmitsi, kui nende vahendeid hallatakse Greenlight'i pilvepõhise Lightning-sõlme arhitektuuri kaudu?
+answer: Kasutajad vajaksid tehnilisi teadmisi sõltumatute Core Lightning sõlmede käivitamiseks ja kanali oleku taastamiseks ilma Greenlight'i infrastruktuurita
+wrong_answers:
+  - "Kasutajad kaotavad juurdepääsu oma privaatvõtmetele, mida hoitakse ainult Blockstream'i serverites"
+  - "Kanalite olekud on krüpteeritud Greenlight'i enda võtmete abil, mis teeb fondide taastamise matemaatiliselt võimatuks"
+  - "Lightning-kanalid aeguvad automaatselt 30 päeva pärast ilma Greenlight'i pideva hooldusteenuseta"
+explanation: |
+  Õige vastus toob esile fondide taastamise tõelise tehnilise keerukuse Greenlight'i arhitektuuris. Kuigi kasutajad säilitavad oma isiklikud võtmed, nõuab fondidele juurdepääs ilma Greenlight'ilt Core Lightning'i sõlmede käivitamist ja kanalite seisundi käsitsi taastamist - protsess, mis ületab enamiku kasutajate võimekuse. Valed vastused on valed, sest: kasutajad kontrollivad oma isiklikke võtmeid (neid ei säilitata serverites), kanalite olekud kasutavad standardseid Lightningi protokolle (mitte patenteeritud krüpteerimist) ja Lightningi kanalitel ei ole teenusepakkujatega seotud automaatseid aegumistähtaegu.

@@ -1,0 +1,8 @@
+question: 當 Rust 發生恐慌時，可以設定何種環境變數來顯示完整的呼叫堆疊追蹤？
+answer: RUST_BACKTRACE
+wrong_answers:
+  - rust_stacktrace
+  - rust_debug_trace
+  - rust_panic_trace
+explanation: |
+  RUST_BACKTRACE 是正確的環境變數，可透過顯示導致恐慌的完整呼叫堆疊，提供額外的除錯資訊。這有助於開發人員追蹤到底是哪一連串的函式呼叫導致錯誤。其他選項 (RUST_STACKTRACE、RUST_DEBUG_TRACE 及 RUST_PANIC_TRACE)不是有效的 Rust 環境變數，當恐慌發生時不會產生任何除錯輸出。

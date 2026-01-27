@@ -23,7 +23,7 @@ Tato zařízení se prodávají buď jako přídavné topení v případě model
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Vezměte prosím na vědomí, že cenový rozdíl oproti tradičním ohřívačům stejného výkonu vám v naprosté většině případů neumožní dosáhnout finančního zisku. Saturace vygenerovaná činností Mining tento cenový rozdíl nikdy nevyrovná, pokud nemáte přístup k bezplatné (přebytečné) nebo velmi levné elektřině.
 
@@ -207,9 +207,9 @@ Podrobnější informace o připojení k zařízení Mining pool naleznete v tě
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Abychom to shrnuli, potřebujeme
 
@@ -358,4 +358,4 @@ Chcete-li se dozvědět více, podívejte se na náš návod k vyšší verzi mo
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

@@ -77,13 +77,13 @@ RGB has its own rabbit hole within the Bitcoin rabbit hole, while I am falling d
 - 4 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0020.md
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
-# RGB-node Tutorial
+## RGB-node Tutorial
 
-## Introduction
+### Introduction
 
 In this tutorial we explain how to use RGB-node to create a fungible token and how to transfer it, this document is based on RGB-node demo and differs in that this tutorial uses real testnet data and for that, we must build our own Partially Signed Bitcoin Transaction, psbt from now on.
 
-## Requirements
+### Requirements
 
 The use of a Linux distribution is recommended, this tutorial was written using Pop!OS, which is based on Ubuntu and you will need:
 
@@ -224,7 +224,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data0 -n testnet
 $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
-## Issuance
+### Issuance
 
 To issue an asset we run rgb0-cli with the fungible issue subcommands, then the arguments, the ticker USDT, the name "USD Tether" and in the allocation we will use the issuing amount and the issuance_utxo like we see below:
 
@@ -274,7 +274,7 @@ $ rgb0-cli fungible list
   ticker: USDT
 ```
 
-## Generate blinded UTXO
+### Generate blinded UTXO
 
 In order to receive the new USDT, rgb-node-1 needs to generate a blinded UTXO corresponding to receive_utxo to hold the asset.
 
@@ -287,7 +287,7 @@ Outpoint blinding secret: 1679197189805229975
 
 To be able to accept transfers related to this UTXO, we will need the original receive_utxo and the blinding_factor.
 
-## Transfer
+### Transfer
 
 To transfer some amount of the asset to rgb-node-1 we need to send it to the blinded UTXO, rgb-node-0 needs to create a consignment and a disclosure, and commit it into a bitcoin transaction. Then we will need a psbt which we will modify to include the commit. In addition, the -i and -a options allow us to provide an input outpoint that would be the origin of the asset and an allocation where we will receive the change, we must indicate it in the following way @<change_utxo>.
 
@@ -300,7 +300,7 @@ Consignment data to share:consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2yv46ycudwy
 
 This will write three new files, consignment, disclosure and the psbt including the tweak, this psbt is called witness transaction, the consignment is sent to rgb-node-1.
 
-## Witness
+### Witness
 
 The witness transaction should be signed and broadcasted, for this we need to base64 encode it back.
 
@@ -330,7 +330,7 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 }
 ```
 
-## Broadcast
+### Broadcast
 
 Broadcast it using sendrawtransaction subcommand to get it confirmed into the blockchain.
 
@@ -339,7 +339,7 @@ $ bcli sendrawtransaction "02000000000101eda9c9d4f406a7cae6704274149b9b75bfbcd28
 8e3787fe40b5feb3044f892e739bdb4043e10de384255a915a37725811abc3fe
 ```
 
-## Accept
+### Accept
 
 To accept an incoming transfer rgb-node-1 should have received the consignment file from rgb-node-0, have the receive_utxo and the corresponding blinding_factor generated during blinding UTXO generation.
 
@@ -459,7 +459,7 @@ $ rgb0-cli fungible list -l
         blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ```
 
-## Conclusions
+### Conclusions
 
 We have been able to create a fungible asset and move it from one transaction to another in a private way, if we check the confirmed transaction in a block explorer we would not find anything different from regular transaction, this is thanks to the fact that RGB uses single-use seals to tweak the transactions, In this post, I do an intro to how RGB works.
 

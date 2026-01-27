@@ -137,11 +137,11 @@ cargo run -p ledger_manager_gui
 शुरू करने से पहले, अगर आपका Ledger नया है, तो सुनिश्चित करें कि आपने पिन कोड सेट कर लिया है और रिकवरी वाक्यांश सहेज लिया है। इन शुरुआती चरणों के लिए आपको Ledger लाइव की ज़रूरत नहीं है। बस अपने Ledger को USB केबल के ज़रिए कनेक्ट करें ताकि उसे पावर मिल सके। अगर आपको नहीं पता कि इन दो चरणों को कैसे आगे बढ़ाया जाए, तो आप अपने मॉडल के लिए खास ट्यूटोरियल की शुरुआत देख सकते हैं:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 ## बक्का का उपयोग
 
@@ -197,4 +197,4 @@ Bitcoin एप्लिकेशन को इंस्टॉल करने �
 मैं आपको GnuPG पर इस ट्यूटोरियल को देखने की भी सलाह देता हूँ, जो बताता है कि अपने सॉफ़्टवेयर को इंस्टॉल करने से पहले उसकी अखंडता और प्रामाणिकता की जाँच कैसे करें। यह एक महत्वपूर्ण अभ्यास है, खासकर जब Wallet प्रबंधन सॉफ़्टवेयर जैसे Liana या Sparrow को इंस्टॉल किया जाता है:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc

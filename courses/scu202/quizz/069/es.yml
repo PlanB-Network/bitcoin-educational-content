@@ -6,4 +6,4 @@ wrong_answers:
   - Optimización del consumo de memoria
 explanation: |
   Las actualizaciones dan prioridad a las vulnerabilidades de seguridad que podrían permitir a un atacante poner en peligro su sistema.
-reviewed: false
+reviewed: true

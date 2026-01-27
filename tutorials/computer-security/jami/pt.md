@@ -82,7 +82,7 @@ A aplicação está disponível diretamente na App Store ou na Play Store. Basta
 
 
 
-Para instalar o Jami no seu dispositivo, primeiro precisa de visitar o site oficial do Jami. Por predefinição, o site apresenta o software correspondente ao sistema operativo do seu dispositivo e pode clicar diretamente no botão de transferência para o iniciar. No entanto, também pode transferir o executável para Windows diretamente da [página de transferência] (https://jami.net/download-jami-windows/).
+Para instalar o Jami no seu dispositivo, primeiro precisa de visitar o site oficial do Jami. Por predefinição, o site apresenta o software correspondente ao sistema operativo do seu dispositivo e pode clicar diretamente no botão de transferência para o iniciar. No entanto, também pode transferir o executável para Windows diretamente da [página de transferência](https://jami.net/download-jami-windows/).
 
 
 
@@ -90,7 +90,7 @@ Para instalar o Jami no seu dispositivo, primeiro precisa de visitar o site ofic
 
 
 
-Para os utilizadores do macOS, o ficheiro também está disponível na [página de transferência do macOS] (https://jami.net/download-jami-macos/).
+Para os utilizadores do macOS, o ficheiro também está disponível na [página de transferência do macOS](https://jami.net/download-jami-macos/).
 
 
 
@@ -140,7 +140,7 @@ Este comando instala as ferramentas necessárias para gerir chaves GPG (gnupg e 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -360,4 +360,4 @@ Descubra o Tox, um protocolo descentralizado que combina encriptação de ponta 
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

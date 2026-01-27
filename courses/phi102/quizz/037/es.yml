@@ -1,0 +1,8 @@
+question: Según el análisis de Bastiat, ¿cuál es el problema lógico de la afirmación de Proudhon "la propiedad es un robo"?
+answer: Si la propiedad es el robo, entonces el robo se convierte en propiedad, creando una contradicción lógica
+wrong_answers:
+  - La propiedad no puede existir sin regulación gubernamental y marcos jurídicos
+  - El robo es moralmente malo, mientras que la propiedad es moralmente correcta en cualquier circunstancia
+  - La propiedad requiere posesión física, mientras que el robo implica adquisición temporal
+explanation: |
+  Bastiat demostró la contradicción lógica interna de la famosa frase de Proudhon al mostrar que si aceptamos que la propiedad es igual al robo, entonces por extensión lógica el robo debe ser igual a la propiedad. Esto crea un razonamiento circular imposible en el que algo legítimo es simultáneamente ilegítimo. Bastiat argumenta, en cambio, que la propiedad se deriva naturalmente del trabajo, de la propiedad de uno mismo y de las facultades humanas, lo que la convierte en un concepto fundamental y lógico y no en una forma de robo.

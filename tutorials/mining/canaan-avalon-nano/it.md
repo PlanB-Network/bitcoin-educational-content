@@ -23,7 +23,7 @@ Questi dispositivi sono commercializzati come riscaldatori ausiliari, nel caso d
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Si noti che la differenza di prezzo con i riscaldatori tradizionali di potenza equivalente non consente, nella stragrande maggioranza dei casi, di ottenere un profitto finanziario. I satoshi generati dall'attività del Mining non compenseranno mai questa differenza di prezzo, a meno che non si abbia accesso a elettricità gratuita (in eccesso) o molto economica.
 
@@ -207,9 +207,9 @@ Per ulteriori dettagli sulla connessione a un Mining pool, consultare queste ese
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Per riassumere, abbiamo bisogno di
 
@@ -358,4 +358,4 @@ Per saperne di più, date un'occhiata al nostro tutorial sulla versione superior
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

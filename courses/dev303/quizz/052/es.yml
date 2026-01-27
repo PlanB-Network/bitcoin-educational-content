@@ -1,0 +1,8 @@
+question: ¿Cuál es la diferencia clave entre cómo se gestionan las infracciones de préstamo con referencias Rust normales y con RefCell?
+answer: Las referencias regulares provocan errores de compilación, mientras que RefCell causa pánicos en tiempo de ejecución
+wrong_answers:
+  - Las referencias regulares provocan pánicos en tiempo de ejecución mientras que RefCell causa errores en tiempo de compilación
+  - Las referencias regulares permiten múltiples accesos mutables, mientras que RefCell impone un único acceso mutable
+  - Las referencias regulares requieren anotaciones explícitas de tiempo de vida, mientras que RefCell utiliza la limpieza automática
+explanation: |
+  RefCell traslada la aplicación de las reglas de préstamo de Rust del tiempo de compilación al tiempo de ejecución. Mientras que el compilador analiza estáticamente las referencias regulares y evita las infracciones de préstamo antes de que se ejecute el programa, RefCell realiza estas mismas comprobaciones de seguridad durante la ejecución del programa. Esto permite a RefCell eludir las restricciones conservadoras del compilador en los casos en los que el programador sabe que el código es seguro, pero las infracciones provocan pánicos en tiempo de ejecución en lugar de fallos de compilación.

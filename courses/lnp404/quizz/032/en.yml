@@ -1,0 +1,8 @@
+question: What are the three distinct fee components that operators must account for when executing a Loop Out operation?
+answer: Service fee to Loop provider, routing fees to the network, and miner fees for on-chain settlement
+wrong_answers:
+  - Channel opening fee, channel closing fee, and Lightning Network registration fee for new connections
+  - Node maintenance fee, peer connection fee, and Bitcoin wallet synchronization fee for balance updates
+  - Liquidity provider fee, channel rebalancing fee, and Terminal interface subscription fee for access rights
+explanation: |
+  Loop Out operations involve three specific costs: the service fee paid to the Loop provider for facilitating the swap, routing fees paid to Lightning Network nodes that route the payment to the Loop server, and miner fees for confirming the on-chain Bitcoin transaction that settles the swap. The wrong answers mix legitimate blockchain concepts but don't represent the actual fee structure of Loop operations, which specifically involves off-chain Lightning routing combined with on-chain settlement.

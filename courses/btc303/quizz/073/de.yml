@@ -1,0 +1,9 @@
+question: Wann sollten nach der verantwortungsvollen Veröffentlichungspraxis von Bitcoin Core Details zu Sicherheitslücken öffentlich bekannt gegeben werden, nachdem ein Fix bereitgestellt wurde?
+answer: Nachdem mehr als 80 % der Bitcoin-Knoten die Korrekturen installiert haben
+wrong_answers:
+  - Unmittelbar nach Veröffentlichung des Patches, um falsche Sicherheitsannahmen zu vermeiden
+  - Nachdem alle wichtigen Altcoins benachrichtigt wurden und ihre Implementierungen aktualisiert haben
+  - Nach einer standardmäßigen 90-tägigen Embargofrist, unabhängig vom Einsatzstatus
+explanation: |
+  Bitcoin Core folgt einem einsatzbasierten Zeitplan für die Offenlegung und nicht einer festen Zeitspanne. Der Schwellenwert von 80 % stellt sicher, dass der größte Teil des Netzes geschützt ist, bevor Angreifer von der Schwachstelle durch die Veröffentlichung erfahren können. Bei diesem Ansatz hat die Netzwerksicherheit Vorrang vor willkürlichen Zeitvorgaben, da eine vorzeitige Offenlegung die verbleibenden 20 % der Knotenpunkte gezielten Angriffen aussetzen könnte. Die anderen Optionen stellen gängige Praktiken der traditionellen Softwaresicherheit dar, berücksichtigen aber nicht den dezentralen Charakter von Bitcoin, bei dem die Nutzer ihre Knoten freiwillig aktualisieren müssen.
+reviewed: false

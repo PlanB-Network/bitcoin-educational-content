@@ -1,0 +1,8 @@
+question: Según la teoría económica del libre mercado, ¿qué ocurre cuando los empresarios anticipan prematuramente la demanda de los consumidores de una innovación que aún no existe?
+answer: La ausencia de beneficios les disuade naturalmente de continuar e impide que otros sigan su ejemplo
+wrong_answers:
+  - La intervención gubernamental reorienta sus esfuerzos hacia proyectos más beneficiosos socialmente mediante subvenciones
+  - Siguen invirtiendo hasta que las preferencias de los consumidores coinciden con sus predicciones iniciales
+  - Las normas del mercado les obligan a abandonar sus proyectos para evitar el despilfarro económico
+explanation: |
+  En un sistema de libre mercado, los beneficios sirven como señales cruciales que indican la demanda real de los consumidores. Cuando los empresarios juzgan mal el momento del mercado y anticipan una demanda que no existe, no consiguen generate beneficios, lo que naturalmente desalienta nuevas inversiones en esa dirección. Este mecanismo de autocorrección evita que se malgasten recursos en innovaciones prematuras. Las otras opciones sugieren incorrectamente la intervención externa o la inversión persistente a pesar de las señales del mercado, lo que contradice el énfasis del capítulo en cómo las señales de beneficios guían la toma de decisiones económicas racionales.

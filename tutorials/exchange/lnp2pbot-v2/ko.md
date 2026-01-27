@@ -11,7 +11,7 @@ description: LNP2PBot 및 P2P Bitcoin 거래에 대한 전체 가이드
 KYC가 필요 없는 P2P(P2P) 거래소는 사용자의 개인정보와 금융 자율성을 보호하는 데 필수적입니다. 신원 확인 없이 개인 간 직접 거래가 가능하므로 프라이버시를 중시하는 사람들에게 매우 중요합니다. 이론적 개념에 대해 더 깊이 이해하려면 BTC204 과정을 살펴보세요:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Bitcoin P2P (P2P) 구매 및 판매는 비트코인을 취득하거나 처분하는 가장 사적인 방법 중 하나입니다. LNP2PBot은 오픈 소스 텔레그램 봇으로, Lightning Network에서 P2P 교환을 용이하게 하여 빠르고 저렴한 비용으로 KYC 없이 거래할 수 있도록 지원합니다.
 
@@ -71,7 +71,7 @@ Lnp2pbot을 사용하려면 다음이 필요합니다:
 아래는 이 Wallet에 대한 튜토리얼 링크입니다:
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
 - [피닉스](https://phoenix.acinq.co) :
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 아래는 이 Wallet에 대한 튜토리얼 링크입니다:
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
 - [블릭스트](https://blixtwallet.github.io) :
@@ -99,7 +99,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 아래는 이 Wallet에 대한 튜토리얼 링크입니다:
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **다른 지갑에 대한 중요 참고 사항**
 

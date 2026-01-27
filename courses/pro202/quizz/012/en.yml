@@ -1,0 +1,8 @@
+question: What mathematical property ensures that elliptic curve points can be added together consistently and predictably in cryptographic operations?
+answer: Points form a mathematical group with closure, associativity, identity, and inverses
+wrong_answers:
+  - Points maintain continuous smooth curves that preserve geometric relationships
+  - Points follow linear progression patterns that create predictable sequences
+  - Points use modular arithmetic that automatically prevents computational errors
+explanation: |
+  Elliptic curve points form a mathematical group under addition, which means they satisfy four essential properties: closure (adding two points gives another point on the curve), associativity (order of operations doesn't matter), identity (point at infinity acts as zero), and inverses (every point has a reflection that cancels it out). These group properties are what make elliptic curve cryptography work reliably and enable operations like scalar multiplication to behave consistently, regardless of whether we're working with smooth real curves or discrete finite field points.

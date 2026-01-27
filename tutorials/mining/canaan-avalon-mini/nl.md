@@ -23,7 +23,7 @@ Deze apparaten worden op de markt gebracht als een extra verwarming in het geval
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Houd er rekening mee dat het prijsverschil met traditionele kachels met een gelijkwaardig vermogen je in de meeste gevallen niet in staat stelt om financiële winst te maken. De satoshis die worden gegenereerd door de activiteit van Mining zullen dit prijsverschil nooit compenseren, tenzij je toegang hebt tot gratis (overtollige) of zeer goedkope elektriciteit.
 
@@ -181,9 +181,9 @@ Voor meer details over hoe je verbinding maakt met een Mining pool, kun je deze 
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Samengevat hebben we het volgende nodig
 
@@ -358,4 +358,4 @@ Bekijk voor meer informatie onze handleiding over de kleinere versie van de Aval
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

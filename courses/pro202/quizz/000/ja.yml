@@ -1,0 +1,8 @@
+question: Bitcoinのsecp256k1はどの楕円曲線方程式を使っているのか？
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + ax + b
+  - y² = x³ + 5
+  - y² = x³ + x + 7
+explanation: |
+  Bitcoinは特にsecp256k1楕円曲線を使用し、これは簡略化された方程式y² = x³ + 7を持つ。これは一般的な楕円曲線 y² = x³ + ax + b (a = 0, b = 7)の特別な場合です。他の選択肢は不正解です： y² = x³ + ax + b は一般的な形ですが、Bitcoinの特定の曲線ではありません。

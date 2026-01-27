@@ -1,0 +1,9 @@
+question: Milline on libertaarne filosoofia kohaselt riigiraha ja tururaha tekkimise ja omaduste poolest põhimõtteline erinevus?
+answer: Riigi raha on sunniviisiline ja tsentraliseeritud, mille lihtne loomine viib väärtuse kaotamiseni, samas kui tururaha tekib vabatahtlikult ja säilitab pikaajalise väärtuse
+wrong_answers:
+  - Riigi raha on demokraatlikult kontrollitud ja stabiilne, samas kui tururaha on erahuvide poolt manipuleeritud ja väga volatiilne
+  - Riigi raha teenib ümberjagamismehhanismide kaudu avalikku heaolu, samas kui tururaha toob kasu ainult jõukatele investoritele ja varajastele kasutuselevõtjatele
+  - Riiklik raha annab majandusliku kindlustunde valitsuse toetuse kaudu, samas kui tururaha tekitab ebakindlust institutsionaalse toetuse puudumise tõttu
+explanation: |
+  Tekstis eristatakse selgelt riiklikku (fiat) raha kui sunniviisilist, tsentraliseeritud süsteemi, mida on lihtne luua ja mis kipub väärtust kaotama, ja tururaha (nagu kuld ajalooliselt ja Bitcoin praegu), mis tekib vabatahtlikult, spontaanselt ja säilitab väärtuse pikaajaliselt.
+  See peegeldab laiemat libertaarset põhimõtet, mis eelistab vabatahtlikke, detsentraliseeritud süsteeme sunnitud, tsentraliseeritud süsteemidele. Valed vastused peegeldavad levinud väärarusaamu riikliku kontrolli eeliste kohta võrreldes turumehhanismidega.

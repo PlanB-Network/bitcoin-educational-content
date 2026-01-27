@@ -101,7 +101,7 @@ Qubes OS erbjuder också total transparens och kontroll över din digitala milj�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 I stället för att försöka skapa ett ogenomträngligt system fokuserar Qubes OS på motståndskraft: det kapslar in skadan i händelse av intrång, vilket minskar risken för resten av systemet. Detta pragmatiska tillvägagångssätt gör Qubes OS till ett förstahandsval för användare med höga säkerhetsbehov eller som vill behålla maximal kontroll över sina digitala liv.
 
@@ -122,11 +122,11 @@ Innan du installerar Qubes OS är det viktigt att se till att din maskinvara upp
 
 
 
-För att installera Qubes OS, hämta den officiella ISO-bilden från Qubes OS [officiella webbplats] (https://www.qubes-os.org/downloads/). Det är viktigt att kontrollera ISO-filens integritet med hjälp av de GPG-signaturer som tillhandahålls, för att säkerställa att filen inte har manipulerats och att nedladdningen är säker.
+För att installera Qubes OS, hämta den officiella ISO-bilden från Qubes OS [officiella webbplats](https://www.qubes-os.org/downloads/). Det är viktigt att kontrollera ISO-filens integritet med hjälp av de GPG-signaturer som tillhandahålls, för att säkerställa att filen inte har manipulerats och att nedladdningen är säker.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
@@ -327,4 +327,4 @@ Oavsett om du behöver surfa säkert på webben, skydda känslig information ell
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

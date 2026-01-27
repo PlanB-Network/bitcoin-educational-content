@@ -95,7 +95,7 @@ Sullo schermo viene generato un codice QR. Ancora una volta, dovrete comunicare 
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Attualmente abbiamo:*
 
@@ -190,7 +190,7 @@ Premere il pulsante **"QR "** per scansionare il codice QR presentato dal dispos
 
 
 
-I dati vengono quindi decifrati e resi intelligibili al dispositivo ricevente. Il messaggio ricevuto è effettivamente "PlanB Network rocks". Tutto qui.
+I dati vengono quindi decifrati e resi intelligibili al dispositivo ricevente. Il messaggio ricevuto è effettivamente "Plan ₿ Academy rocks". Tutto qui.
 
 
 
@@ -214,7 +214,7 @@ I dati vengono quindi decifrati e resi intelligibili al dispositivo ricevente. I
 
 
 
-Ciò presuppone che il vostro Wallet Multisig sia già stato creato e che il vostro dispositivo ColdCardQ sia già stato preimpostato per poter eseguire transazioni multi-firma. In caso contrario, le spiegazioni sono disponibili [qui] (https://coldcard.com/docs/Multisig/) sul sito web di Coinkite.
+Ciò presuppone che il vostro Wallet Multisig sia già stato creato e che il vostro dispositivo ColdCardQ sia già stato preimpostato per poter eseguire transazioni multi-firma. In caso contrario, le spiegazioni sono disponibili [qui](https://coldcard.com/docs/Multisig/) sul sito web di Coinkite.
 
 
 

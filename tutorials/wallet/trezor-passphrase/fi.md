@@ -18,7 +18,7 @@ Ennen tämän opetusohjelman aloittamista, jos et tunne passphrase-käsitettä, 
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 passphrase Trezorissa käsitellään klassisella tavalla, jos olet valinnut BIP39-standardin määrityksen aikana (mitä suosittelen, jos et tarvitse *Multi-share Backup*). Trezorissa on erikoista se, että voit syöttää passphrase:n joko suoraan Hardware Wallet:ssä tai tietokoneen näppäimistön kautta Trezor Suite -ohjelmiston avulla. Jälkimmäinen vaihtoehto on huomattavasti vähemmän turvallinen, koska tietokoneella on huomattavasti suurempi hyökkäyspinta kuin Hardware Wallet:llä. Monimutkaisen passphrase:n kirjoittaminen voi kuitenkin olla nopeampaa tavallisella näppäimistöllä kuin Hardware Wallet:llä, mikä voi kannustaa käyttämään vahvoja salasanoja. On siis aina parempi käyttää passphrase:tä, vaikka se jouduttaisiinkin kirjoittamaan, kuin olla käyttämättä sitä lainkaan. On kuitenkin tärkeää olla tietoinen siitä, että tämä lisää numeeristen hyökkäysten riskiä.
 
@@ -36,15 +36,15 @@ Trezor Suitessa on kaksi eri tapaa hallita passphrase-kysyntää. Voit aktivoida
 
 
 
-Varmista ennen tämän ohjeen aloittamista, että olet jo alustanut Trezorin ja luonut Mnemonic-lauseen. Jos et ole vielä aloittanut ja Trezorisi on uusi, noudata Plan ₿ Network:stä löytyvää mallikohtaista ohjetta. Kun olet suorittanut tämän vaiheen, voit palata tähän opetusohjelmaan.
+Varmista ennen tämän ohjeen aloittamista, että olet jo alustanut Trezorin ja luonut Mnemonic-lauseen. Jos et ole vielä aloittanut ja Trezorisi on uusi, noudata Plan ₿ Academy:stä löytyvää mallikohtaista ohjetta. Kun olet suorittanut tämän vaiheen, voit palata tähän opetusohjelmaan.
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 
 ## passphrase:n lisääminen Safe 3:een tai Safe 5:een
@@ -79,7 +79,7 @@ Jos haluat tarkempia suosituksia passphrase:n valinnasta, pyydän sinua jälleen
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Jos haluat syöttää passphrase:n tietokoneen näppäimistöllä, syötä se sille varattuun kenttään ja napsauta sitten "*Access passphrase Wallet*".
 
@@ -177,7 +177,7 @@ Jos haluat tarkempia suosituksia passphrase:n valinnasta, pyydän sinua jälleen
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Kirjoita passphrase-korttisi sille varattuun kenttään ja napsauta sitten "*Access passphrase Wallet*" -painiketta.
 
@@ -215,6 +215,6 @@ Onneksi olkoon, olet nyt valmis käyttämään passphrase BIP39:ää Trezor-lait
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit Green peukalon alle. Voit vapaasti jakaa tämän artikkelin sosiaalisissa verkostoissa. Kiitos paljon!

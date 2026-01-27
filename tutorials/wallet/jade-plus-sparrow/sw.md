@@ -34,7 +34,7 @@ Jade Plus inaoana na programu nyingi za usimamizi za Wallet. Hapa kuna muhtasari
 Katika somo hili, tutaweka usanidi wa kina wa Jade Plus na programu ya eneo-kazi Sparrow Wallet katika modi ya misimbo ya QR. Usanidi huu ni bora kwa watumiaji wa kati au wenye uzoefu. Ikiwa unatafuta mbinu rahisi zaidi kwa wanaoanza, ninapendekeza uangalie mafunzo haya ambapo tunatumia Jade Plus na Green Wallet kwenye muunganisho wa Bluetooth:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## Mfano wa usalama wa Jade Plus
 
@@ -142,7 +142,7 @@ Unaweza kuiandika kwenye kadibodi iliyotolewa kwenye kisanduku, au kwa usalama u
 Kwa maelezo zaidi kuhusu njia sahihi ya kuhifadhi na kudhibiti maneno yako ya Mnemonic, ninapendekeza sana kufuata mafunzo haya mengine, hasa ikiwa wewe ni mwanzilishi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 bila shaka, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama ninavyofanya katika mafunzo haya. Sampuli hii ya Wallet itatumika kwenye Testnet pekee na itafutwa mwishoni mwa mafunzo.
 
@@ -378,7 +378,7 @@ BIP39 passphrase ni nenosiri la hiari ambalo unaweza kuchagua kwa uhuru, na amba
 Kabla ya kusanidi chaguo hili kwenye Jade Plus yako, inashauriwa sana kusoma nakala hii ili kuelewa kikamilifu utendakazi wa kinadharia wa passphrase na uepuke makosa ambayo yanaweza kusababisha upotezaji wa bitcoins zako :
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Jade yako ikiwa bado imefungwa (passphrase inaweza kuingizwa tu wakati kifaa hakijafunguliwa), fikia menyu ya "*Chaguo*".
 
@@ -444,7 +444,7 @@ Ikiwa passphrase yako ni halali, thibitisha.
 Tafadhali kumbuka kuwa kaulisiri za BIP39 ni nyeti kwa herufi kubwa na za kuchapa. Ukiingiza passphrase tofauti kidogo na ile iliyosanidiwa awali, Jade haitaripoti hitilafu bali itapata seti nyingine ya funguo za kriptografia ambazo hazitakuwa zile za Wallet yako ya awali.
 
 
-Kwa hivyo ni muhimu, wakati wa kusanidi, kuandika alama ya vidole vya ufunguo mkuu wako, ambayo inaweza kupatikana katika kona ya chini ya mkono wa kulia wa skrini. Kwa mfano, na passphrase `PBN` yangu, alama ya vidole ya ufunguo kuu wangu ni `3AD1AE65`.
+Kwa hivyo ni muhimu, wakati wa kusanidi, kuandika alama ya vidole vya ufunguo mkuu wako, ambayo inaweza kupatikana katika kona ya chini ya mkono wa kulia wa skrini. Kwa mfano, na passphrase `Plan ₿ Academy` yangu, alama ya vidole ya ufunguo kuu wangu ni `3AD1AE65`.
 
 
 ![Image](assets/fr/49.webp)
@@ -456,7 +456,7 @@ Kila wakati unapofungua Jade yako kwa passphrase yako, hakikisha kuwa alama ya k
 Kabla ya kupokea bitcoins zako za kwanza kwenye Wallet yako, **Ninakushauri sana ufanye jaribio tupu la uokoaji**. Andika maelezo fulani ya marejeleo, kama vile xpub yako au kupokea Address kwanza, kisha ufute Wallet yako kwenye Jade Plus wakati bado ni tupu (`Chaguo -> Kifaa -> Weka Upya Kiwandani`). Kisha jaribu kurejesha Wallet yako kwa kutumia nakala zako za karatasi za maneno ya Mnemonic na passphrase yoyote. Hakikisha kuwa maelezo ya kidakuzi yaliyotolewa baada ya kurejesha yanalingana na uliyoandika awali. Ikiwa inafanya hivyo, unaweza kuwa na uhakika kwamba nakala zako za karatasi ni za kuaminika. Ili kujua zaidi kuhusu jinsi ya kufanya urejeshaji wa jaribio, angalia mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Inasanidi Wallet kwenye Sparrow Wallet
 
@@ -473,7 +473,7 @@ Anza kwa kupakua na kusakinisha Sparrow Wallet [kutoka tovuti rasmi](https://spa
 Hakikisha kuangalia uhalisi na uadilifu wa programu kabla ya usakinishaji. Ikiwa hujui jinsi ya kufanya hivyo, tafadhali soma mafunzo haya:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Mara Sparrow Wallet imefunguliwa, bofya kwenye kichupo cha "*Faili*", kisha kwenye "*Mpya Wallet*".
 
@@ -649,4 +649,4 @@ Hongera, sasa unajua jinsi ya kusanidi na kutumia Jade Plus katika hali ya QR. I
 Ili kwenda mbali zaidi, ninapendekeza mafunzo haya mengine kwenye Jade Plus, ambapo tunaisanidi kupitia Bluetooth na programu ya simu ya Green:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0

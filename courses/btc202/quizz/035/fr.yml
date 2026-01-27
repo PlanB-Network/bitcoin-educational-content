@@ -6,4 +6,4 @@ wrong_answers:
   - Un hub USB
 explanation: |
   Un onduleur évite les extinctions brutales en cas de coupure électrique et protège la stabilité du nœud.
-reviewed: false
+reviewed: true 

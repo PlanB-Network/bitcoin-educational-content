@@ -22,7 +22,7 @@ Passport "*Batch 2*", представленный в этом руководс�
 
 Если вы новичок, самый простой вариант - использовать ваш паспорт с родным приложением Envoy, разработанным компанией Foundation. Чтобы узнать, как использовать Envoy с вашим паспортом, ознакомьтесь с другим руководством:
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Распаковка паспорта
 
@@ -135,13 +135,13 @@ https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf
 
 ![Image](assets/fr/20.webp)
 
-Для этого воспользуйтесь картой MicroSD, входящей в комплект поставки Passport (или другой картой), и вставьте ее в компьютер. Загрузите последнюю версию прошивки с [сайта документации Foundation] (https://docs.foundation.xyz/firmware-updates/passport/) или [их репозитория GitHub] (https://github.com/Foundation-Devices/passport2/releases).
+Для этого воспользуйтесь картой MicroSD, входящей в комплект поставки Passport (или другой картой), и вставьте ее в компьютер. Загрузите последнюю версию прошивки с [сайта документации Foundation](https://docs.foundation.xyz/firmware-updates/passport/) или [их репозитория GitHub](https://github.com/Foundation-Devices/passport2/releases).
 
 ![Image](assets/fr/21.webp)
 
 Прежде чем устанавливать ее на свое устройство, мы настоятельно рекомендуем вам проверить подлинность и целостность загруженной прошивки. Если вам нужна помощь в этом, обратитесь к этому руководству:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 После проверки файла `.bin` поместите его на MicroSD, а затем вставьте в Passport. Откроется файловый проводник Passport. Выберите файл `vN.N.N-passport.bin`.
 
@@ -207,7 +207,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 Для получения более подробной информации о том, как правильно сохранять и управлять мнемоническими фразами, я настоятельно рекомендую ознакомиться с другими уроками, особенно если вы новичок:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 конечно, вы никогда не должны делиться этими словами в Интернете, как это делаю я в этом учебнике. Этот образец портфолио будет использоваться только на Testnet и будет удален по окончании урока.
 
@@ -294,7 +294,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Прежде чем настраивать эту опцию на вашем Passport, настоятельно рекомендуем прочитать эту статью, чтобы полностью понять теоретическую работу парольной фразы и избежать ошибок, которые могут привести к потере ваших биткоинов:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Чтобы активировать его, перейдите в меню "*Море*" и нажмите на "*Ввести парольную фразу*".
 
@@ -306,7 +306,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 Обратите внимание, что парольные фразы BIP39 чувствительны к регистру и опечаткам. Если вы введете кодовую фразу, немного отличающуюся от первоначально настроенной, Passport не сообщит об ошибке, но создаст другой набор криптографических ключей, который не будет совпадать с тем, что был в вашем первоначальном кошельке.
 
-Поэтому при настройке важно записать где-нибудь отпечаток мастер-ключа, который вы получите на следующем этапе. Например, с моей ключевой фразой `Plan B Network`, мой отпечаток мастер-ключа - `745D526B`.
+Поэтому при настройке важно записать где-нибудь отпечаток мастер-ключа, который вы получите на следующем этапе. Например, с моей ключевой фразой `Plan ₿ Academy`, мой отпечаток мастер-ключа - `745D526B`.
 
 ![Image](assets/fr/52.webp)
 
@@ -316,7 +316,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 Прежде чем вы получите первые биткоины на свой кошелек, **я настоятельно рекомендую вам провести тест на восстановление пустого кошелька**. Запишите какую-нибудь справочную информацию, например, ваш xpub или адрес первого получения, затем удалите кошелек на Passport, пока он еще пуст (`Настройки -> Дополнительно -> Стереть Passport`). Затем попробуйте восстановить кошелек, используя бумажные резервные копии мнемонической фразы и любой парольной фразы. Проверьте, совпадает ли информация cookie, полученная после восстановления, с той, которую вы записали изначально. Если да, то вы можете быть уверены, что ваши бумажные резервные копии надежны. Чтобы узнать больше о том, как провести тестовое восстановление, обратитесь к другому руководству:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -330,7 +330,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 Перед установкой обязательно проверьте подлинность и целостность программного обеспечения. Если вы не знаете, как это сделать, обратитесь к этому руководству:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Открыв Sparrow Wallet, нажмите на вкладку "*Файл*", затем на "*Новый кошелек*".
 
@@ -484,4 +484,4 @@ Sparrow отобразит первый пустой адрес квитанци
 
 Более подробную информацию вы найдете в нашем руководстве по программе Liana:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

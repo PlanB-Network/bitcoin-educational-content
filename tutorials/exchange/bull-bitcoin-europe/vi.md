@@ -48,7 +48,7 @@ Scan the QR code with your authentication application, enter the 6-digit code an
 
 If you're not familiar with using authentication applications for the 2FA, I recommend you take a look at this tutorial on the Authy application:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Enter your password to confirm.
 
@@ -125,9 +125,9 @@ Enter the amount you wish to purchase. You'll also need to choose how you want t
 
 If you're not familiar with using Bitcoin, Lightning or Liquid wallets, I suggest you take our dedicated training course:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-You can also explore [our detailed tutorials on the best Bitcoin wallets](https://planb.network/tutorials/wallet).
+You can also explore [our detailed tutorials on the best Bitcoin wallets](https://planb.academy/tutorials/wallet).
 
 Then confirm your purchase by clicking on "*Confirm Buy*".
 
@@ -196,8 +196,16 @@ To keep track of all your transactions, you can consult the history in the "*Lat
 
 ![BULL](assets/fr/36.webp)
 
+## Bắt đầu mua định kỳ tự động (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Tạo lệnh giới hạn
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Now you know how to buy and sell bitcoin easily with Bull Bitcoin. If you found this tutorial useful, I'd be very grateful if you put a green thumb below. Feel free to share this article on your social networks. Thank you very much!
 
 I also recommend you check out this other comprehensive tutorial to learn how to manage your mnemonic phrase the right way:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

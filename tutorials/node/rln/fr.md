@@ -4,13 +4,13 @@ description: Comment lancer un nœud Lightning compatible RGB avec RLN ?
 ---
 ![cover](assets/cover.webp)
 
-Dans ce tutoriel, vous allez découvrir étape par étape la mise en place d'un nœud Lightning RGB sur un environnement en Regtest. Nous allons voir comment y créer des tokens RGB et les faire circuler dans des canaux.
+Dans ce tutoriel, vous allez découvrir étape par étape comment mettre en place d'un nœud Lightning RGB dans un environnement Regtest. Nous allons voir comment y créer des tokens RGB et les faire circuler à travers des canaux Lightning.
 
 ## Le projet RLN
 
-L’équipe de Bitfinex dédiée à RGB travaille depuis 2022 à enrichir l’écosystème de ce protocole en développant une pile technologique complète. Plutôt que de viser un produit commercial unique, ses efforts se concentrent sur la mise à disposition de briques logicielles open-source, la contribution aux spécifications du protocole RGB et la création de références de mise en œuvre.
+Depuis 2022, L’équipe de Bitfinex dédiée à RGB travaille à enrichir son écosystème en développant une pile technologique complète. Plutôt que de viser un produit commercial unique, elle se concentre sur la création de briques logicielles open-source, la contribution aux spécifications du protocole RGB et la publication de références d’implémentation.
 
-Parmi les contributions notables de Bitfinex à l'écosystème RGB, il y a [la librairie *RGBlib*](https://github.com/RGB-Tools/rgb-lib), écrite en Rust et accessible via des bindings en Kotlin et Python, qui simplifie grandement le développement d’applications RGB en encapsulant les mécanismes complexes de validation et d’engagement.
+Parmi les contributions majeures de Bitfinex à l'écosystème RGB, figure [la librairie *RGBlib*](https://github.com/RGB-Tools/rgb-lib), écrite en Rust et accessible via des bindings en Kotlin et Python, qui simplifie grandement le développement d’applications RGB en encapsulant les mécanismes complexes de validation et d’engagement.
 
 L'équipe de Bitfinex a également conçu un wallet mobile RGB, nommé "[*Iris Wallet*](https://iriswallet.com/)", disponible sur Android. Ce wallet intègre notamment l'utilisation d'un serveur proxy RGB qui permet de gérer facilement les échanges de données off-chain (*consignments*) pour la *Client‐side Validation* sur RGB.
 
@@ -29,7 +29,7 @@ Un contrat RGB se structure comme une machine à états évolutive. Il démarre 
 
 Pour en savoir plus sur le fonctionnement du protocole RGB, je vous conseille de suivre cette formation complète :
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## Installation du nœud Lightning compatible RGB
 
@@ -209,7 +209,7 @@ Vous pouvez évidemment adapter la commande. Pour confirmer la transaction, on m
 ./regtest.sh mine 1
 ```
 
-On peut maintenant créer un asset RGB. La commande va dépendre du type d'asset que vous souhaitez créer et de ses paramètres. Ici je crée un token NIA (*Non Inflatable Asset*) nommé "PBN" avec une supply de 1000 unités. La `precision` permet de définir la divisibilité des unités.
+On peut maintenant créer un asset RGB. La commande va dépendre du type d'asset que vous souhaitez créer et de ses paramètres. Ici je crée un token NIA (*Non Inflatable Asset*) nommé "Plan ₿ Academy" avec une supply de 1000 unités. La `precision` permet de définir la divisibilité des unités.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -217,8 +217,8 @@ curl -X POST -H "Content-Type: application/json" \
         "amounts": [
           1000
         ],
-        "ticker": "PBN",
-        "name": "Plan B Network",
+        "ticker": "Plan ₿ Academy",
+        "name": "Plan ₿ Academy",
         "precision": 0
       }' \
   http://localhost:3001/issueassetnia
@@ -254,7 +254,7 @@ La commande me renvoie la clé publique de mon nœud n°2 :
 
 ![RLN](assets/fr/13.webp)
 
-Ensuite, nous allons ouvrir le canal en spécifiant l'asset concerné (`PBN`). La commande `/openchannel` vous permet de définir la taille du canal en satoshis et d'opter pour l'inclusion de l'asset RGB. Cela dépend de ce que vous souhaitez créer, mais dans mon cas, la commande est :
+Ensuite, nous allons ouvrir le canal en spécifiant l'asset concerné (`Plan ₿ Academy`). La commande `/openchannel` vous permet de définir la taille du canal en satoshis et d'opter pour l'inclusion de l'asset RGB. Cela dépend de ce que vous souhaitez créer, mais dans mon cas, la commande est :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -292,7 +292,7 @@ Pour confirmer la transaction, on mine 6 blocs :
 
 ![RLN](assets/fr/15.webp)
 
-Le canal Lightning est désormais ouvert et contient également 500 tokens `PBN` du côté du nœud n°1. Si le nœud n°2 souhaite recevoir des tokens `PBN`, il devra générer une invoice. Voici comment procéder :
+Le canal Lightning est désormais ouvert et contient également 500 tokens `Plan ₿ Academy` du côté du nœud n°1. Si le nœud n°2 souhaite recevoir des tokens `Plan ₿ Academy`, il devra générer une invoice. Voici comment procéder :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -319,7 +319,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RLN](assets/fr/16.webp)
 
-Nous allons maintenant payer cette invoice depuis le premier nœud, qui détient les liquidités nécessaires avec le token `PBN` :
+Nous allons maintenant payer cette invoice depuis le premier nœud, qui détient les liquidités nécessaires avec le token `Plan ₿ Academy` :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -355,5 +355,5 @@ Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de me
 
 Je vous conseille également de découvrir cet autre tutoriel dans lequel je vous explique comment utiliser l'outil RGB CLI développé par l'association LNP/BP pour créer un contrat RGB :
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
 

@@ -1,22 +1,19 @@
 ---
 name: Bitkoin za preduzeća
 goal: Naučite osnove plaćanja i čuvanja vrednosti kako biste integrisali svoju kompaniju sa Bitkoinom
-objectives: 
-
-  - Bitkoin kao nova valuta i poslovni alat
-  - Razumeti zašto i kako preduzeće može držati Bitkoin u trezoru ili ga koristiti za plaćanja
-  - Imati konkretnu ideju kako praktično prihvatiti Bitkoin kao način plaćanja
-  - Budite spremni za upravljanje fiskalnim i računovodstvenim zahtevima
-
+objectives:
+- Otkrijte Bitcoin kao valutu u nastajanju i poslovni alat
+- Razumite zašto i kako preduzeće može držati bitcoin u blagajni ili ga koristiti za plaćanja
+- Imajte konkretnu ideju o tome kako prihvatiti Bitcoin plaćanje u praksi
+- Budite spremni za upravljanje fiskalnim i računovodstvenim zahtevima
 ---
-# Pokrenite putovanje Vaše kompanije na Bitkoin mreži
+# Pokrenite put vaše kompanije na Bitcoin mreži
 
-Otkrijte praktične mogućnosti Bitkoin i Lightning mreže, i istražite kako, slično internetu, mogu **transformisati vaše poslovne operacije**. Od digitalnog kapitala do brzih, ekonomičnih i skalabilnih plaćanja, Bitkoin nudi širok spektar **upotreba za preduzeća**.
+Otkrijte praktične mogućnosti Bitcoin i Lightning mreže i istražite kako one, slično internetu, mogu transformisati vaše poslovne operacije. Od trezora do brzih, ekonomičnih i skalabilnih plaćanja, Bitcoin nudi širok spektar slučajeva upotrebe za preduzeća.
 
-Kroz ovaj vodič, naučićete kako da razumete Bitkoin kao globalnu, univerzalnu i internet-prirodnu monetarnu mrežu. Sa svojim jedinstvenim fundamentalnim karakteristikama, **Bitkoin pruža značajna poboljšanja u odnosu na tradicionalne valutne mreže**. Otkrićete zašto i kako iskoristiti Bitkoin za klasične finansijske slučajeve upotrebe kao što su skladištenje kapitala i platni sistemi. Pored toga, ovaj vodič će pokriti sticanje i držanje Bitkoina, uključujući povezane računovodstvene i fiskalne zahteve, kao i implementaciju jednostavnih ili velikih Bitkoin platnih rešenja.
+Tokom ovog kursa, naučićete kako da razumete Bitcoin kao globalnu, univerzalnu i internet-izvornu monetarnu mrežu. Sa svojim jedinstvenim fundamentalnim karakteristikama, Bitcoin nudi značajna poboljšanja u odnosu na tradicionalnu valutu. Otkrijte zašto i kako da iskoristite Bitcoin za klasične finansijske slučajeve upotrebe kao što su skladištenje kapitala i sistemi plaćanja. Dodatno, ovaj kurs će pokriti sticanje i držanje Bitcoina, uključujući povezane računovodstvene i fiskalne zahteve, kao i implementaciju jednostavnih ili velikih Bitcoin rešenja za plaćanje.
 
-Bilo da ste **mala firma ili velika korporacija**, integracija Bitkoin u Vaše svakodnevne operacije može učiniti Vašu kompaniju **otpornijom, produktivnijom i konkurentnijom**. Svaka internet-bazirana kompanija postat će kompanija orijentisana na Bitkoin, a ovaj kurs osigurava da ste spremni. Početni delovi kursa obuhvataju osnove funkcionisanja Bitkoina, tako da čak i ako ste početnik, steći ćete osnovno znanje potrebno za nastavak. Učenje osnova Satošijevog izuma je uvek dobra ideja, bilo pre ili nakon što se upustite u BIZ101.
-
+Bilo da ste malo preduzeće ili velika korporacija, integracija Bitcoina u vaše svakodnevne operacije može učiniti vašu kompaniju otpornijom, produktivnijom i konkurentnijom. Svaka kompanija bazirana na internetu postaće kompanija orijentisana na Bitcoin, i ovaj kurs osigurava da ste spremni.
 +++
 # Uvod
 
@@ -36,7 +33,7 @@ Bilo da predstavljate malo preduzeće ili veliku korporaciju, ovaj kurs ima za c
 
 Spremni da zaronite u svet Bitcoina za preduzeća? Idemo!
 
-**Napomena**: Ako tokom kursa naiđete na nepoznate termine, molimo vas da pogledate [glosar](https://planb.network/resources/glossary) za definicije.
+**Napomena**: Ako tokom kursa naiđete na nepoznate termine, molimo vas da pogledate [glosar](https://planb.academy/resources/glossary) za definicije.
 
 # Valuta, platni sistemi i Bitkoin
 
@@ -203,7 +200,7 @@ Zajedno čine Bitkoin **imovinom na donosioca** i digitalnom valutom **bez izdav
 
 ![BIZ101](assets/sr-Latn/003.webp)
 
-Bitkoin ima fiksnu monetarnu politiku, sa **ograničenjem od 21 milion bitkoina**, od kojih je ~19,8 miliona već distribuirano. Ovo ga čini **deflatornim**, sa vrednošću koja raste tokom vremena kako korisnici u njemu čuvaju ušteđevinu i dobitke u produktivnosti.
+Bitcoin ima fiksnu monetarnu politiku, sa **maksimumom od 21 milion bitkoina**, od kojih je ~19,8 (2024) miliona već izrudareno. To ga čini **deflatornim**, pri čemu njegova vrednost raste tokom vremena jer korisnici u njemu čuvaju uštedevinu i dobitke u produktivnosti.
 
 Njegove tehničke karakteristike nadmašuju one od zlata i dolara zajedno, čineći ga najtvrđim finansijskim sredstvom ikada stvorenim. Bitkoin je i čuvar vrednosti i sredstvo razmene, valuta u nastajanju. Zamislite prenos vrednosti iz trezora jedne kompanije u drugu brzo, bez posrednika, uz minimalne troškove, bez prevare, 24/7, i bez uključivanja treće strane.
 
@@ -215,7 +212,7 @@ Bitkoin je disruptivan jer nas podstiče da učimo koncepte iz matematike, kript
 
 Bitkoin nas izaziva da preispitamo samu prirodu novca. Možete li objasniti šta novac zaista jeste? Radnik sa platom ili preduzetnik može provesti 50.000 do 100.000 sati svog života zarađujući novac, ali koliko njih **posveti čak 100 sati da ga bolje razume** i sačuva? Bitkoin nas podstiče da preispitamo osnovne razloge iza naše potrebe za novcem i našu vremensku perspektivu. Da li je novac za trenutni luksuz ili dugoročnu otpornost? Ako bismo imali imovinu koja raste u vrednosti i omogućava nam da odložimo kupovine, koje bismo izbore napravili? Kakve bismo razgovore želeli da vodimo sa sobom za 20 ili 30 godina?
 
-**Bitkoin LIČNA KARTA**
+**LIČNA KARTA BITKOINA (u 2024. godini)**
 
 
 - **Starost:** 15 godina (3. januar 2009.)
@@ -241,7 +238,7 @@ Bitkoin nas izaziva da preispitamo samu prirodu novca. Možete li objasniti šta
 
 Za više informacija o Bitkoinu, njegovoj istoriji, načinu rada i upotrebi, takođe predlažem da pratite ovaj drugi sveobuhvatni kurs:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 ## Uvod u Lightning Mrežu
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -299,7 +296,7 @@ Lightning Mreža je idealna za Bitkoin plaćanja u fizičkim ili online prodavni
 - **Konačnost:** Jednom kada se uplata izvrši na Lightning mreži, ona je konačna. Ne postoji mogućnost povrata sredstava od strane trećih lica ili sporova vezanih za prevaru.
 - **Naknade:** Naknade za transakcije na Lightning mreži su minimalne i plaća ih korisnik, a ne trgovac. Trgovci snose naknade samo ako kasnije trebaju preneti svoj bitkoin na drugu mrežu ili uslugu.
 
-**LIGHTNING LIČNA KARTA**
+**LIČNA KARTA LAJTNINGA (u 2024. godini)**
 
 
 - **Izumljen:** 2015.
@@ -322,7 +319,7 @@ Lightning Mreža je idealna za Bitkoin plaćanja u fizičkim ili online prodavni
 
 Za više informacija o tehničkom funkcionisanju Lightning mreže, predlažem da pratite i ovaj drugi sveobuhvatni kurs:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 # Bitkoin u trezoru
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -441,9 +438,9 @@ Ovi mislioci su oblikovali ideju da državna intervencija iskrivljuje tržišta 
 
 Za više informacija o ovoj temi:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## Držanje Bitkoin u trezoru
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -595,7 +592,7 @@ Pošto bitkoin funkcioniše kao sredstvo razmene, moguće je zamisliti cirkularn
 
 Ovo podrazumeva zarađivanje nagrada od rada na mašinama za rudarenje. Za nespecijalizovane firme, ovo ostaje relativno marginalno. Možete učestvovati preko posrednika koji će vam prodati ili iznajmiti računarsku snagu, mrežu i održavanje. Ako posedujete mašine, možete ih računati kao amortizovanu imovinu. U velikim razmerama, moraćete pažljivo izračunati povrat investicije jer je tržište veoma konkurentno i zahteva dobro predviđanje troškova, posebno električne energije.
 
-Da biste saznali više o metodama rudarenja, možete [pogledati "Mining" odeljak u našim tutorijalima](https://planb.network/tutorials/mining).
+Da biste saznali više o metodama rudarenja, možete [pogledati "Mining" odeljak u našim tutorijalima](https://planb.academy/tutorials/mining).
 
 
 - **Kupovina bitkoina:**
@@ -604,9 +601,9 @@ Ovo je daleko najčešći metod, koji se sprovodi ili putem peer-to-peer razmene
 
 Da biste naučili kako da otvorite poslovni račun i koristite ga za kupovinu, prodaju i transfer bitkoina, možete pogledati ova dva vodiča posebno dizajnirana za preduzeća, koja pokrivaju platforme Kraken i Bitfinex u njihovim korporativnim verzijama:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-Da biste saznali više o metodama za sticanje bitkoina putem manjačnice ili peer-to-peer, možete [pogledati odeljak "Exchange" u našim tutorijalima](https://planb.network/tutorials/exchange).
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+Da biste saznali više o metodama za sticanje bitkoina putem manjačnice ili peer-to-peer, možete [pogledati odeljak "Exchange" u našim tutorijalima](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/sr-Latn/012.webp)
 
@@ -861,15 +858,15 @@ Za detaljne tutorijale o preporučenim novčanicima i osnovnom podešavanju, mol
 
 **Samostalni LN novčanici/čvorovi:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 **Non-custodial LN novčanici:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 ## Osnovni profil
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
@@ -900,13 +897,13 @@ Iako Osnovni profil ne zahteva visoko sofisticirane računovodstvene sisteme, ip
 
 Najprikladnije hibridno rešenje za vaš profil je verovatno Swiss Bitkoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 Još jedno lako rešenje za implementaciju, ali sa nedostatkom da je 100% kustodijalno, je Open Node:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 Ako ste spremni da se upustite u posao i želite potpunu kontrolu nad procesom, BTCPay softver je odlična opcija. Međutim, glavni nedostatak BTCPay Server-a je što njegovo postavljanje i upravljanje oduzimaju mnogo vremena i zahtevaju određeni nivo tehničke stručnosti, ali možete pratiti naše vodiče:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 Konačno, kao dopunu za fizičke prodajne tačke, možete razmotriti postavljanje [Bitkoinize PoS](https://Bitkoinize.com/).
 
 ## Profesionalac
@@ -943,7 +940,7 @@ Kada je reč o primerima iz stvarnog sveta, razmislite o srednje velikoj e-comme
 
 Da biste dublje istražili specifičnosti implementacije i istražili praktične konfiguracije BTC Pay Server-a, pogledajte sledeći kurs:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 ## Preduzeće
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
@@ -1193,7 +1190,7 @@ Međutim, jednostavna `.csv` datoteka koja sadrži istoriju transakcija često j
 
 Za one koji sami čuvaju svoj bitkoin, upravljanje UTXO-ima (*Unspent Transaction Outputs-Nepotrošenim izlazima transakcija*) je važan korak. Pravilno označavanje UTXO pomaže u praćenju porekla svakog BTC fragmenta, razlikovanju transakcija vezanih za profesionalne aktivnosti od onih za lične troškove, i olakšava praćenje u pravne ili poreske svrhe. Većina dobrog softvera za bitkoin novčanik omogućava vam da uvezete svoj novčanik koristeći vašu rezervnu datoteku (ili vaš xpub, u zavisnosti od vašeg podešavanja) i označite UTXO-e na osnovu njihovog porekla ili odredišta. Da bismo Vam pomogli, ovde je kompletan vodič posvećen ovoj praksi:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **platiti fakturu u bitkoinu**. Ključ je pravilno dokumentovati transakciju. Ako plaćate iz novčanika koji sami čuvate, idealno je generisati transakciju sa napomenom broja fakture i svrhe plaćanja u vašim oznakama. Ako više volite da izmirite fakturu putem menjačnice, takođe ćete imati opciju da izvezete potvrdu ili istoriju transakcija kako biste ih uključili u svoje knjigovodstvene evidencije. Ova transparentnost će pojednostaviti praćenje i izveštavanje svih vaših BTC operacija.
 
 ## Praktični primeri bitkoin računovodstva

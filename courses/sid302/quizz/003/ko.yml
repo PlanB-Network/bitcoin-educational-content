@@ -1,0 +1,8 @@
+question: Liquid Network에서 사용하는 주요 합의 메커니즘은 무엇인가요?
+answer: 연합 합의
+wrong_answers:
+  - Proof-of-Work
+  - 지분 증명
+  - 위임 지분 증명
+explanation: |
+  Liquid Network는 연합 합의 모델에서 운영되며, 이는 Bitcoin의 Proof-of-Work 시스템과는 근본적으로 다릅니다. 이 모델에서는 선택된 15명의 기능자 그룹이 결정론적 라운드 로빈 방식으로 블록을 생성하는 블록 서명자 역할을 합니다. Proof-of-Work은 mining을 포함하는 Bitcoin의 합의 메커니즘이며, 지분 증명과 위임 지분 증명은 다른 블록체인 네트워크에서는 사용하지만 Liquid에서는 사용하지 않는 합의 메커니즘입니다.

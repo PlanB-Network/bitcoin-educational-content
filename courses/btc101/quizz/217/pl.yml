@@ -1,8 +1,9 @@
-question: Na co pozwala Lightning Network?
-answer: Natychmiastowe, tanie transakcje Bitcoin.
+question: Jaki jest główny cel Lightning Network?
+answer: Umożliwienie płatności offchain, szybkich i tanich
 wrong_answers:
-  - Natychmiastowe, wysokokosztowe transakcje Bitcoin.
-  - Opóźnione, tanie transakcje Bitcoin.
-  - Opóźnione, wysokokosztowe transakcje Bitcoin.
-explanation: >-
-reviewed: true
+  - Zwiększenie rozmiaru bloków w blockchainie Bitcoina
+  - Stopniowe zastąpienie blockchaina Bitcoina bardziej wydajnym systemem
+  - Uczynienie farm wydobywczych bardzo bogatymi
+explanation: |
+  Lightning Network ma na celu umożliwienie niemal natychmiastowych płatności w bitcoinach przy niskich opłatach, bez przeciążania głównego blockchaina.
+reviewed: false

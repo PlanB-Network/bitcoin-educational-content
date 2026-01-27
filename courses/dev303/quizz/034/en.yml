@@ -1,0 +1,8 @@
+question: Which method allows you to extract a value from a Result while providing a custom panic message if an error occurs?
+answer: expect
+wrong_answers:
+  - unwrap_or_else
+  - unwrap_with_message
+  - panic_with
+explanation: |
+  The expect method is specifically designed to extract the success value from a Result while allowing you to provide a custom panic message that will be displayed if an error occurs. This makes debugging easier compared to unwrap, which uses a generic panic message. The unwrap_or_else method doesn't panic but instead executes a closure when an error occurs. The other options (unwrap_with_message and panic_with) are not actual Rust methods for handling Result types.

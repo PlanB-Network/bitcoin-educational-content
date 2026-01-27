@@ -1,0 +1,8 @@
+question: Ni ikihe gikorwa ca Python kivugwa cane cane mu gukora neza igiharuro c'ibice mu bikorwa vy'ubuhinga bwo gukingira amakuru?
+answer: pow(ishimikiro, ubusobanuro, uburyo)
+wrong_answers:
+  - mod(ishimikiro, exp, imbere)
+  - exp(ishimikiro, mod, umurima)
+  - mult(ishingiro, ubusobanuro, umubare)
+explanation: |
+  Python yubatswemwo pow(base, exp, mod) igikorwa cakozwe cane cane ku bijanye n'ugushiramwo neza, ari ngirakamaro ku bikorwa vy'ubuhinga bwa none birimwo ibiharuro binini. Iyi nzira ikoresha ubuhinga bwo kubara (base^exp) mod mod ataco ukeneye guharura igisubizo gishobora kuba kinini cane co hagati ca base^exp mbere. Ayandi mahitamwo ntabwo ari ibikorwa vya Python bibereye - mod(), exp(), na mult() n'ivyo bigereranyo vy'imirongo ntibiri mu bubiko bw'ibitabo bwa Python ku mibare y'ibiharuro vy'ibiharuro.

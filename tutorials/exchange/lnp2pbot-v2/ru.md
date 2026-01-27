@@ -8,7 +8,7 @@ description: Полное руководство по LNP2PBot и P2P-торго
 
 Одноранговые (P2P) биржи, не требующие KYC, необходимы для сохранения конфиденциальности и финансовой независимости пользователей. Они позволяют осуществлять прямые транзакции между людьми без необходимости проверки личности, что очень важно для тех, кто ценит конфиденциальность. Для более глубокого понимания теоретических концепций ознакомьтесь с курсом BTC204:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Покупка и продажа биткоинов по принципу peer-to-peer (P2P) - один из самых конфиденциальных методов приобретения или отчуждения биткоинов. LNP2PBot - это Telegram-бот с открытым исходным кодом, который облегчает P2P-обмен в сети Lightning, обеспечивая быстрые, недорогие и не требующие KYC транзакции.
 
@@ -52,7 +52,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Ниже приведена ссылка на учебник по созданию этого кошелька:
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 - [Феникс](https://phoenix.acinq.co):
   - Простота и надежность
@@ -63,7 +63,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 Ниже приведена ссылка на учебник по созданию этого кошелька:
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 - [Blixt](https://blixtwallet.github.io) :
   - Более техническая, но очень полная
@@ -74,7 +74,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 Ниже приведена ссылка на учебник по созданию этого кошелька:
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Важные заметки о других портфелях**
 

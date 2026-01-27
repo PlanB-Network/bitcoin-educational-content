@@ -1,0 +1,8 @@
+question: Какво е OpenNode?
+answer: Лесно онлайн решение за фирми за приемане на Bitcoin.
+wrong_answers:
+  - Вид възел Bitcoin, който се използва едновременно от много потребители.
+  - Софтуер Bitcoin mining, който е с отворен код.
+  - Платформа за обмен Bitcoin.
+explanation: >-
+reviewed: true

@@ -21,7 +21,7 @@ Du er sikkert kjent med ordtaket "Ikke dine nøkler, ikke dine mynter", som oppf
 
 
 
-BTC 202 er et lett tilgjengelig kurs som er utviklet for å lære deg å spinne din egen Bitcoin-knute, selv om du ikke er en teknisk ekspert. Vi begynner med å definere hva en Bitcoin-knute er, hva den brukes til, og hvorfor det er helt avgjørende å spinne en selv. Deretter guider jeg deg trinn for trinn gjennom valg av maskinvare, installering av nødvendig programvare, tilkobling av Wallet og de første mulige optimaliseringene for å ta den videre.
+BTC 202 er et lett tilgjengelig kurs laget for å lære deg å kjøre din egen Bitcoin-node, selv om du ikke er en teknisk ekspert. Vi starter med å definere hva en Bitcoin-node er, hva den brukes til, og hvorfor det er helt essensielt å kjøre en selv. Deretter vil jeg veilede deg steg for steg i valg av maskinvare, installasjon av nødvendig programvare, tilkobling av lommebokprogramvaren og de første mulige optimaliseringene for å gå videre.
 
 
 
@@ -118,7 +118,7 @@ Deretter tar vi oss tid til å gå gjennom noe av teorien som er gjennomgått ti
 
 
 
-Som med alle Plan ₿ Network-kurs, finner du en avsluttende eksamen i den siste delen for å teste kunnskapen din om Bitcoin-noder.
+Som med alle Plan ₿ Academy-kurs, finner du en avsluttende eksamen i den siste delen for å teste kunnskapen din om Bitcoin-noder.
 
 
 
@@ -328,7 +328,7 @@ En Miner trenger en Bitcoin-node for å samhandle med nettverket.
 
 
 
-Rollen til Miner skilles også noen ganger fra rollen til hakkeren. En hakker er en maskin som har som oppgave å Hash malblokker levert av en pool-server, på jakt etter hasher som tilfredsstiller vanskelighetsmålet som er definert for aksjer, og ikke Bitcoin. Resten av Mining-prosessen, som inkluderer faktisk blokkkonstruksjon, transaksjonsvalg eller Proof-of-Work-søk i henhold til Bitcoins egen vanskelighetsgrad, samt distribusjon, utføres direkte av poolene.
+Rollen til Miner skilles også noen ganger fra rollen til grind. En grind er en maskin som har som oppgave å Hash malblokker levert av en pool-server, på jakt etter hasher som tilfredsstiller vanskelighetsmålet som er definert for aksjer, og ikke Bitcoin. Resten av Mining-prosessen, som inkluderer faktisk blokkkonstruksjon, transaksjonsvalg eller Proof-of-Work-søk i henhold til Bitcoins egen vanskelighetsgrad, samt distribusjon, utføres direkte av poolene.
 
 
 
@@ -410,7 +410,7 @@ Med andre ord kjører rundt 9 av 10 offentlige noder Bitcoin core. Resten av net
 
 
 
-Bitcoin core er skrevet i C++. Det er også et åpen kildekode-prosjekt som vedlikeholdes av et fellesskap av utviklere som jobber frivillig eller blir betalt av ulike enheter (ofte av selskaper i økosystemet som har en egeninteresse i utviklingen av Core). [Koden ligger på GitHub] (https://github.com/Bitcoin/Bitcoin), og utviklingen følger en streng plan:
+Bitcoin Core er programvare skrevet i C++. Det er også et åpen kildekode-prosjekt som vedlikeholdes av et fellesskap av utviklere — enten frivillige eller finansiert av ulike enheter (ofte selskaper i økosystemet som har interesse av at Core-utviklingen går gunstig). [Koden er vertet på GitHub](https://github.com/bitcoin/bitcoin), og utviklingen følger en streng modell:
 
 
 
@@ -448,7 +448,7 @@ Vi kan også nevne:
 
 - Libbitcoin**: et modulært C++-bibliotek utviklet av Amir Taaki og vedlikeholdt av Eric Voskuil;
 - Bcoin**: en JavaScript-implementasjon som ikke lenger vedlikeholdes aktivt;
-- BTCD/btcsuit**e: en implementering i Go.
+- **BTCD/btcsuite** : en implementasjon i Go.
 
 
 
@@ -481,7 +481,7 @@ Som vi skal diskutere senere i dette kurset, er det nodene, i henhold til deres 
 
 
 
-## Hvorfor vri din egen knute?
+## Hvorfor kjøre din egen node?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Det er en utbredt oppfatning at det å drive en Bitcoin-node er en rent altruist
 
 
 
-Som vi har påpekt i de foregående kapitlene, er det ingen direkte økonomisk gevinst ved å spinne en knute. Man skulle derfor tro at det ikke er noen personlig interesse i å gjøre det. Likevel er det mange personlige fordeler ved å drive sin egen knute. For å overbevise deg om dette skal jeg i dette kapittelet presentere alle grunnene, både tekniske og strategiske, til hvorfor du bør installere og bruke din egen Bitcoin-node.
+Som vi har påpekt i de foregående kapitlene, gir det ingen direkte økonomisk gevinst å kjøre en node. Man kunne derfor tro at det ikke er noen personlig interesse i å gjøre det. Likevel gir det å drive sin egen node mange individuelle fordeler. For å overbevise deg om dette, vil jeg i dette kapittelet presentere alle de tekniske og strategiske grunnene som bør motivere deg til å installere og bruke din egen Bitcoin-node.
 
 
 
@@ -516,7 +516,7 @@ Ved å bruke din egen node sender du transaksjonene dine direkte til nettverket,
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Ikke-kvotepliktige transaksjoner
 
@@ -576,7 +576,7 @@ Installasjon av en Full node er ingen triviell operasjon. Det innebærer å inst
 
 
 
-Å tilegne seg denne kunnskapen styrker tilliten til verktøyet og kan redusere risikoen for å gjøre feil eller bli utsatt for svindel. Å spinne sin egen knute er også en form for læring.
+Å tilegne seg denne kunnskapen styrker tilliten din til verktøyet og kan redusere risikoen for feil eller svindel. Å kjøre sin egen node er også en læringsprosess.
 
 
 
@@ -692,7 +692,7 @@ Det er altså ikke antallet noder som betyr noe, men betydningen av den økonomi
 
 
 
-> Ikke din knute, ikke dine regler.
+> Ikke din node, ikke dine regler.
 
 
 ## De ulike typene Bitcoin-noder
@@ -706,7 +706,7 @@ En Bitcoin-node er derfor en maskin som kjører en implementering av Bitcoin-pro
 
 
 
-### Den komplette knuten
+### Den fullstendige noden
 
 
 
@@ -730,7 +730,7 @@ Avhengig av behovene dine kan du legge til en indekserer i Full node. Bitcoin co
 
 
 
-### pruned-knuten
+### Den beskårne noden
 
 
 
@@ -754,7 +754,7 @@ Kort sagt fungerer Wallet-sporing problemfritt på en pruned-node hvis du oppret
 
 
 
-### Den lette knuten / SPV
+### Den lette noden / SPV
 
 
 
@@ -849,11 +849,11 @@ Dette er den mest suverene og fleksible tilnærmingen: Du vet nøyaktig hva som 
 
 
 
-#### Bitcoin core (kunde med ultramajoritet)
+#### Bitcoin Core (dominerende klient)
 
 
 
-[Bitcoin core er nettverkets ultra-majoritetsklient] (https://bitcoincore.org/). Den laster ned, validerer og vedlikeholder Blockchain, tilbyr RPC/REST API-er og kan integrere en Wallet. Hvis du foretrekker standardverktøy og føler deg komfortabel med å legge til tjenester selv (for eksempel Electrum-server, explorer og LND), er det bedre å bruke Core som den er.
+[Bitcoin core er nettverkets ultra-majoritetsklient](https://bitcoincore.org/). Den laster ned, validerer og vedlikeholder Blockchain, tilbyr RPC/REST API-er og kan integrere en Wallet. Hvis du foretrekker standardverktøy og føler deg komfortabel med å legge til tjenester selv (for eksempel Electrum-server, explorer og LND), er det bedre å bruke Core som den er.
 
 
 
@@ -865,15 +865,15 @@ Dette er den mest suverene og fleksible tilnærmingen: Du vet nøyaktig hva som 
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (hovedalternativ kunde)
+#### Bitcoin Knots (hovedalternativ klient)
 
 
 
-[Bitcoin Knots er en Fork av Bitcoin core] (https://bitcoinknots.org/), vedlikeholdt av Luke Dashjr. Det er den viktigste alternative klienten til Core for implementering av Bitcoin-protokollen. Den er fullt kompatibel med resten av nettverket (den er på ingen måte en Hard Fork som Bitcoin Cash), men tilbyr likevel flere funksjoner, blant annet relépolicyalternativer som ikke finnes i Core, eller som brukes strengere som standard for å begrense det noen anser som spam.
+[Bitcoin Knots er en Fork av Bitcoin core](https://bitcoinknots.org/), vedlikeholdt av Luke Dashjr. Det er den viktigste alternative klienten til Core for implementering av Bitcoin-protokollen. Den er fullt kompatibel med resten av nettverket (den er på ingen måte en Hard Fork som Bitcoin Cash), men tilbyr likevel flere funksjoner, blant annet relépolicyalternativer som ikke finnes i Core, eller som brukes strengere som standard for å begrense det noen anser som spam.
 
 
 
@@ -886,7 +886,7 @@ Det er to mulige grunner til å velge Knots fremfor Core:
 - Policy**: Noen foretrekker å bruke alternative klienter som Knots av ikke-tekniske grunner, særlig for å støtte et alternativ til Core og dermed redusere Core-monopolet. Hvis Core noen gang skulle bli kompromittert, ville det være nyttig ikke bare å ha solide, godt vedlikeholdte alternative klienter, men også å vite hvordan man bruker dem effektivt. Andre bruker Knots i protest, fordi de har mistet tilliten til Core-utviklerne eller misliker majoriteten av klientens ledelse.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Personlig anbefaler jeg at du velger Core, hovedsakelig for å få raskere tilgang til sikkerhetsoppdateringer. Noen sårbarheter som oppdages i Knots, blir faktisk rettet med en forsinkelse. Mer generelt er utviklingsprosessen i Core solid strukturert og støttes av et stort antall bidragsytere, mens Knots vedlikeholdes av en enkelt person og har et mye mindre fellesskap. På den annen side har reléregler en tendens til å miste sin nytteverdi i dag, spesielt når de bare brukes av en liten del av nettverket (som i perkolasjonsteorien).
 
@@ -942,7 +942,7 @@ Jeg vil ikke gå nærmere inn på hvordan det fungerer og de spesifikke funksjon
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -968,7 +968,7 @@ Kort sagt, hvis du bare trenger de viktigste applikasjonene for Bitcoin, ikke er
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MinNode
 
@@ -986,13 +986,13 @@ I praksis samler MyNode alle de grunnleggende byggesteinene som trengs for å dr
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
 
 
-[RaspiBlitz er et 100% åpen kildekode-prosjekt] (https://docs.raspiblitz.org/) (MIT-lisens) for montering av en Bitcoin-node og en Lightning-node på en Raspberry Pi. Bare last ned avbildningen, start opp, og følg deretter veiviseren for å få en fungerende node-in-a-box på Raspberry Pi. Ferdigmonterte sett er også tilgjengelige fra tredjeparter, vanligvis mellom 300 og 400 dollar, avhengig av maskinvaren. RaspiBlitz tilbyr også en rekke tilleggsprogrammer som er enkle å installere.
+[RaspiBlitz er et 100% åpen kildekode-prosjekt](https://docs.raspiblitz.org/) (MIT-lisens) for montering av en Bitcoin-node og en Lightning-node på en Raspberry Pi. Bare last ned avbildningen, start opp, og følg deretter veiviseren for å få en fungerende node-in-a-box på Raspberry Pi. Ferdigmonterte sett er også tilgjengelige fra tredjeparter, vanligvis mellom 300 og 400 dollar, avhengig av maskinvaren. RaspiBlitz tilbyr også en rekke tilleggsprogrammer som er enkle å installere.
 
 
 
@@ -1004,13 +1004,13 @@ Hvis du eier en Raspberry Pi, er dette et utmerket alternativ, ettersom mer komp
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
 
 
-[RoninDojo er en personvernfokusert node-in-a-box] (https://wiki.ronindojo.io/en/home) som automatiserer distribusjonen av Samurai Dojo og Whirlpool, med en dedikert Interface og plugins som er spesielt utviklet for Samurai-økosystemet.
+[RoninDojo er en personvernfokusert node-in-a-box](https://wiki.ronindojo.io/en/home) som automatiserer distribusjonen av Samurai Dojo og Whirlpool, med en dedikert Interface og plugins som er spesielt utviklet for Samurai-økosystemet.
 
 
 
@@ -1026,13 +1026,13 @@ Prosjektet har tidligere tilbudt en forhåndskonfigurert maskin kalt Tanto, men 
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
 
 
-En annen [node-in-a-box-løsning er Nodl] (https://www.nodl.eu/). Som med de foregående prosjektene kan du enten kjøpe den forhåndskonfigurerte maskinvaren (mellom € 599 og € 799, avhengig av modell) eller installere den selv i DIY-modus.
+En annen [node-in-a-box-løsning er Nodl](https://www.nodl.eu/). Som med de foregående prosjektene kan du enten kjøpe den forhåndskonfigurerte maskinvaren (mellom € 599 og € 799, avhengig av modell) eller installere den selv i DIY-modus.
 
 
 
@@ -1437,7 +1437,7 @@ Umbrel tilbyr to forskjellige tilnærminger:
 
 
 
-- [**Umbrel Home**] (https://umbrel.com/umbrel-home): Dette er en bruksklar miniserver som er spesialdesignet og optimalisert for umbrelOS. Den er kompakt, lydløs, Ethernet-tilkoblet og utstyrt med en NVMe SSD (opptil 4 TB valgfritt), 16 GB RAM og en firekjerners CPU. Du bestiller den, plugger den inn og går til `umbrel.local`. Du kan ha en operativ Umbrel oppe og gå på få minutter. Det er plug-and-play-alternativet.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): Dette er en bruksklar miniserver som er spesialdesignet og optimalisert for umbrelOS. Den er kompakt, lydløs, Ethernet-tilkoblet og utstyrt med en NVMe SSD (opptil 4 TB valgfritt), 16 GB RAM og en firekjerners CPU. Du bestiller den, plugger den inn og går til `umbrel.local`. Du kan ha en operativ Umbrel oppe og gå på få minutter. Det er plug-and-play-alternativet.
 
 
 
@@ -1509,7 +1509,7 @@ Ved å distribuere applikasjoner i containere kan du forme Umbrel slik du ønske
 
 
 
-En av Umbrels viktigste fordeler i forhold til konkurrentene er det store og svært aktive brukerfellesskapet. Du kan nå dem hovedsakelig via [deres Discord] (https://discord.gg/efNtFzqtdx) og [deres nettforum] (https://community.umbrel.com/). Her finner du ikke bare praktiske råd, men fremfor alt løsninger for å løse problemer eller fikse feil. Det er et flott sted å starte, utvikle seg og til slutt hjelpe andre brukere, slik at du ikke blir stående alene med din Coin.
+En av Umbrels viktigste fordeler i forhold til konkurrentene er det store og svært aktive brukerfellesskapet. Du kan nå dem hovedsakelig via [deres Discord](https://discord.gg/efNtFzqtdx) og [deres nettforum](https://community.umbrel.com/). Her finner du ikke bare praktiske råd, men fremfor alt løsninger for å løse problemer eller fikse feil. Det er et flott sted å starte, utvikle seg og til slutt hjelpe andre brukere, slik at du ikke blir stående alene med din Coin.
 
 
 
@@ -1565,7 +1565,7 @@ Hvis du har valgt en Raspberry Pi 5 (et alternativ jeg ikke anbefaler, som nevnt
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Som nevnt i forrige avsnitt valgte jeg å kjøre denne opplæringen på en liten, renovert PC som jeg fant til en god pris: en *Lenovo ThinkCentre M900 Tiny* utstyrt med en Intel Core i7-prosessor og 16 GB RAM. Dette er en svært komfortabel konfigurasjon for å kjøre Umbrel, spesielt for en Bitcoin-node. Jeg valgte imidlertid denne konfigurasjonen fordi jeg ønsker å installere en Lightning-node og andre mer krevende applikasjoner senere. Jeg har også lagt til en 2 TB SSD i ThinkCentre for å beholde hele Blockchain og fortsatt ha en komfortabel margin. Med denne konfigurasjonen er totalkostnaden 270 euro, inkludert alle utgifter.
 
@@ -1619,7 +1619,7 @@ Før du installerer UmbrelOS på maskinen din, må du opprette en oppstartbar US
 
 
 
-Gå til [det offisielle Umbrel-nettstedet for å laste ned ISO-bildet] (https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) for installasjon via USB-nøkkel. Sørg for at du velger den versjonen som er kompatibel med x86_64-arkitekturen (filen heter `umbrelos-amd64-usb-installer.iso`). Nedlastingen kan ta litt tid, da avbildningen er ganske stor.
+Gå til [det offisielle Umbrel-nettstedet for å laste ned ISO-bildet](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) for installasjon via USB-nøkkel. Sørg for at du velger den versjonen som er kompatibel med x86_64-arkitekturen (filen heter `umbrelos-amd64-usb-installer.iso`). Nedlastingen kan ta litt tid, da avbildningen er ganske stor.
 
 
 
@@ -1633,7 +1633,7 @@ Gå til [det offisielle Umbrel-nettstedet for å laste ned ISO-bildet] (https://
 
 
 
-For å lage en oppstartbar USB-minnepinne bruker du et enkelt, plattformuavhengig verktøy som heter [Balena Etcher] (https://www.balena.io/etcher/). Last ned og installer det på datamaskinen din.
+For å lage en oppstartbar USB-minnepinne bruker du et enkelt, plattformuavhengig verktøy som heter [Balena Etcher](https://www.balena.io/etcher/). Last ned og installer det på datamaskinen din.
 
 
 
@@ -1822,7 +1822,7 @@ Det finnes flere metoder for å identifisere Umbrels IP Address, fra de enkleste
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Velg et sterkt passord, og sørg for å ta minst én sikkerhetskopi (det anbefal
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Når du har skrevet inn passordet ditt, klikker du på "*Opprett*"-knappen.
 
@@ -1944,7 +1944,7 @@ Først og fremst anbefaler jeg på det sterkeste at du aktiverer tofaktorautenti
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Dette gjør du ved å klikke på den aktuelle boksen i innstillingene.
 
@@ -2042,7 +2042,7 @@ Vær forsiktig så du ikke allokerer en verdi som er for stor for maskinen din. 
 
 
 
-For å finne ut mer om virkningen av parameteren `dbcache` på den innledende synkroniseringen, anbefaler jeg denne analysen av Jameson Lopp: [*Effects of DBcache Size on Bitcoin Node Sync Speed*] (https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
+For å finne ut mer om virkningen av parameteren `dbcache` på den innledende synkroniseringen, anbefaler jeg denne analysen av Jameson Lopp: [*Effects of DBcache Size on Bitcoin Node Sync Speed*](https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
 
 
 
@@ -2435,7 +2435,7 @@ Som nevnt tidligere kan en explorer ligge på et nettsted på nettet eller kjør
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 I tillegg kan internettleverandøren din vite at du ser på en bestemt transaksjon via Block explorer-nettstedet. Dette reiser også et spørsmål om tillit: Du må stole på at nettjenesten gir deg nøyaktig informasjon om transaksjonene dine, uten at du selv kan verifisere sannhetsgehalten.
 
@@ -2472,7 +2472,7 @@ Hvis du vil lære mer om hvordan du bruker Mempool.Space Explorer, anbefaler jeg
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Lightning Node
 
@@ -2492,15 +2492,15 @@ Umbrel tilbyr en rekke applikasjoner som hjelper deg med å få Lightning-noden 
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Du kan deretter administrere noden din fra Interface, eller du kan installere *Ride The Lightning* eller *ThunderHub* for å få enda bedre funksjonalitet og avanserte alternativer. Disse verktøyene gir deg et mye mer omfattende nettbasert Interface-administrasjonssystem for noden din.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2514,9 +2514,11 @@ Til slutt anbefaler jeg *Lightning Network+*-applikasjonen, som lar deg finne je
 
 
 
-Takket være Umbrel er det blitt mye enklere å administrere en personlig Lightning-node, men det er fortsatt relativt komplisert. Derfor kommer vi til å se nærmere på dette emnet i et fremtidig kurs som er viet denne bruken.
+Takket være Umbrel er administrasjonen av en personlig Lightning-node forenklet, men den forblir likevel relativt kompleks. Av denne grunn anbefaler jeg at du følger kurset LNP 202, som er den logiske fortsettelsen av kurset BTC 202, og der jeg veileder deg steg for steg i oppsettet og administrasjonen av din Lightning-node på Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Haleskala
 
@@ -2564,7 +2566,7 @@ For å installere og konfigurere Tailscale på din Umbrel, se denne veiledningen
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2590,7 +2592,7 @@ Nostr-klientene ***noStrudel*** eller ***Snort*** er også tilgjengelige på Umb
 
 
 
-Til slutt er det ***Nostr Wallet Connect***-appen på Umbrel, som muliggjør innfødte Lightning-betalinger i Nostr. Konkret kan du koble din fremtidige Lightning-node til Nostr-kundene dine for å sende mikrobetalinger, kalt "*zaps*", for å belønne innhold eller samhandle på en inntektsgivende måte, uten å måtte gå gjennom en tredjeparts tjeneste. Disse betalingene sendes direkte fra din personlige node via dine kanaler.
+Til slutt finnes applikasjonen ***Nostr Wallet Connect*** på Umbrel, som gjør det mulig å foreta innfødte Lightning-betalinger i Nostr. Konkret kan du koble din fremtidige Lightning-node til dine Nostr-klienter for å sende mikrobetaIinger, kalt "*zaps*", for å belønne innhold eller samhandle på en monetarisert måte, uten å bruke en tredjepartstjeneste. Disse betalingene sendes direkte fra din personlige node via dine kanaler.
 
 
 
@@ -2598,7 +2600,7 @@ For å finne ut hvordan du bruker alle disse programmene, anbefaler jeg at du ta
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### BTCPay-server
 
@@ -2626,7 +2628,7 @@ Hvis du eier en bedrift og ønsker å ta imot Bitcoin-betalinger direkte via Umb
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2636,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2644,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Avanserte konsepter og beste praksis
@@ -2652,7 +2654,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Vedlikehold av Umbrel-knuten din
+## Vedlikeholde din Umbrel-node
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2751,7 +2753,7 @@ Hvis du vil fordype deg i datasikkerhet generelt, anbefaler jeg deg å sjekke ut
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Diagnose og hjelp til selvhjelp
 
@@ -2761,7 +2763,7 @@ Hvis det oppstår en feil på Umbrel, må du først generate en diagnostikkpakke
 
 
 
-Hvis problemet vedvarer, anbefaler jeg at du [blir med i Umbrel-brukerfellesskapet på deres Discord] (https://discord.gg/efNtFzqtdx). Begynn med å gjøre et søk for å finne ut om noen allerede har støtt på samme problem og funnet en løsning. Hvis ikke, kan du legge inn en melding i kanalen `general-support`. Du kan også bruke [Umbrel-forumet](https://community.umbrel.com/).
+Hvis problemet vedvarer, anbefaler jeg at du [blir med i Umbrel-brukerfellesskapet på deres Discord](https://discord.gg/efNtFzqtdx). Begynn med å gjøre et søk for å finne ut om noen allerede har støtt på samme problem og funnet en løsning. Hvis ikke, kan du legge inn en melding i kanalen `general-support`. Du kan også bruke [Umbrel-forumet](https://community.umbrel.com/).
 
 
 
@@ -2891,7 +2893,7 @@ Når noden starter på nytt etter å ha vært i bruk, forsøker Core først å k
 
 
 
-I dette tilfellet spør programvaren _**DNS seeds**_. Dette er [servere som vedlikeholdes av anerkjente økosystemutviklere] (https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), som returnerer en liste over IP-adresser til antatt aktive noder. Disse adressene gjør det mulig for den nye noden å starte sine første tilkoblinger og be om de nødvendige dataene fra IBD-en. Her er listen over *DNS-frø* som er aktive til dags dato (august 2025):
+I dette tilfellet spør programvaren _**DNS seeds**_. Dette er [servere som vedlikeholdes av anerkjente økosystemutviklere](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), som returnerer en liste over IP-adresser til antatt aktive noder. Disse adressene gjør det mulig for den nye noden å starte sine første tilkoblinger og be om de nødvendige dataene fra IBD-en. Her er listen over *DNS-frø* som er aktive til dags dato (august 2025):
 
 
 
@@ -2929,7 +2931,7 @@ Hvis noden din lytter på en åpen port (standard er 8333), godtar den innkommen
 
 
 
-## Bitcoin-knutens anatomi
+## Anatomi av din Bitcoin-node
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,7 +2943,7 @@ Når noden har fullført den innledende synkroniseringen, lagrer den flere utfyl
 
 
 
-- gW-402 **blokker** lagret på disk,
+- **blokkene** i blokkjeden som er lagret på disken,
 - **UTXO-settet** som vedlikeholdes i en nøkkelverdidatabase,
 - og **Mempool** lagres i RAM og serialiseres med jevne mellomrom.
 
@@ -3077,9 +3079,9 @@ Veksten i UTXO-settet stammer også fra strukturen til enkle betalingstransaksjo
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Siden en del av den må oppbevares i RAM for å verifisere transaksjoner innen rimelig tid, kan UTXO-settet gradvis gjøre driften av en Full node for kostbar. Det finnes allerede noen få forslag for å løse dette problemet, blant annet [Utreexo] (https://planb.network/resources/glossary/utreexo).
+Siden en del av den må oppbevares i RAM for å verifisere transaksjoner innen rimelig tid, kan UTXO-settet gradvis gjøre driften av en Full node for kostbar. Det finnes allerede noen få forslag for å løse dette problemet, blant annet [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3093,7 +3095,7 @@ Mempool er det lokale settet med gyldige transaksjoner som er mottatt, men ennå
 
 
 - størrelsen som er allokert til Mempool via parameteren `maxmempool`: en node med en større Mempool vil kunne romme flere transaksjoner enn en node med en mindre Mempool (med mindre sistnevnte blir tom);
-- gW-433-regler: Disse er en delmengde av nodens reléregler og definerer egenskapene som en ubekreftet transaksjon må oppfylle for å bli akseptert i Mempool;
+- mempool-reglene: de utgjør et delsett av nodens videresendingsregler og definerer egenskapene en ubekreftet transaksjon må oppfylle for å bli akseptert i mempoolen;
 - transaksjonsperkolasjon: På grunn av ulike faktorer kan en gitt transaksjon ha blitt distribuert til én del av nettverket, men ennå ikke nådd en annen.
 
 
@@ -3135,10 +3137,10 @@ Flere andre filer på samme nivå som `blocks/`, `chainstate/` og `indexes/` bid
 - Når noden slås av, lagrer `anchors.dat` adressene til utgående peers, slik at du raskt kan prøve å kontakte dem igjen neste gang du starter opp.
 - `banlist.json` inneholder lokale forbud som er besluttet av operatøren eller av noden (gjentatt ugyldig oppførsel), for å hindre noden i å koble seg til eller godta tilkoblinger fra disse spesifikke motpartene.
 - `fee_estimates.dat` lagrer tidshorisontstatistikk over observerte bekreftelser, som brukes av gebyrestimatoren til å foreslå gebyrsatser som er i samsvar med forsinkelsesmålene som velges når en transaksjon opprettes.
-- gW-446.conf` inneholder nodens konfigurasjonsparametere. Det er her du kan justere reléreglene. Jeg skal fortelle deg mer om dette i neste kapittel.
+- `bitcoin.conf` inneholder konfigurasjonsparametrene for noden din. Det er i denne filen du kan justere videresendingsreglene. Jeg vil snakke mer om dette i neste kapittel;
 - `settings.json` inneholder flere parametere til `Bitcoin.conf`.
 - `debug.log` er den diagnostiske tekstloggen, som kan brukes til å forstå nodeaktiviteten hvis det oppstår en feil.
-- gW-448.pid` lagrer prosessidentifikatoren ved kjøring, slik at andre programmer eller skript enkelt kan identifisere bitcoind (*Bitcoin daemon*) og samhandle med den om nødvendig. Den opprettes ved oppstart av noden og slettes ved avslutning.
+- `bitcoind.pid` registrerer prosess-ID-en under kjøring, slik at andre applikasjoner eller skript enkelt kan identifisere Bitcoind (*Bitcoin Daemon*) og samhandle med det ved behov. Den opprettes når noden starter og slettes når den stopper;
 - `ip_asn.map` er en IP → ASN-tilordningstabell (frittstående system) som brukes til bucketing og peer-diversifisering (`-asmap`-alternativet).
 - `onion_v3_private_key` lagrer den private nøkkelen til Tor v3-tjenesten når alternativet `-listenonion` er aktivert, for å holde en stabil onion Address mellom omstarter.
 - `i2p_private_key` lagrer den private I2P-nøkkelen når `-i2psam=` brukes til å opprette utgående og eventuelt innkommende tilkoblinger på I2P.
@@ -3154,9 +3156,9 @@ Som vi så i de første delene av dette BTC 202-kurset, er Bitcoin core både Bi
 
 
 
-- `wallets/` er standardkatalogen som inneholder en eller flere;
+- `wallets/` er standardkatalogen som inneholder en eller flere lommebøker;
 - `wallets/<name>/Wallet.dat` er SQLite-databasen til Wallet (nøkler, deskriptorer, transaksjonsmetadata osv.);
-- wallets/<name>/Wallet.dat-journal` er SQLite-tilbakestillingsloggen.
+- `wallets/<name>/wallet.dat-journal` er SQLite-rollback-loggen.
 
 
 
@@ -3335,10 +3337,10 @@ På nettverksnivå har vi også
 
 
 - `addnode`: legger til en vennlig motpart å kontakte i tillegg til den vanlige oppdagelsen (kan spesifiseres flere ganger).
-- connect`: begrenser tilkoblinger strengt til den oppgitte Address (kan angis flere ganger). Kjernen vil ikke koble seg til noen annen node.
+- `connect`: begrenser tilkoblinger strengt til den angitte adressen (kan spesifiseres flere ganger). Core vil ikke koble seg til noen andre noder;
 - `seednode`: brukes bare til å fylle ut bok-Address når du kobler til en node, og kobler deretter fra.
 - `maxconnections`: definerer det globale taket for innkommende + utgående tilkoblinger. Som standard er denne parameteren satt til 125, noe som betyr at noden aldri vil akseptere mer enn 125 tilkoblinger.
-- maxuploadtarget`: begrenser opplastinger for å begrense båndbredden over et glidende 24-timers vindu. Dette taket går ikke på bekostning av spredningen av viktige, nylige Elements.
+- `maxuploadtarget` : begrenser opplasting for å redusere båndbredde over et rullerende 24-timersvindu. Denne grensen ofrer ikke spredningen av nødvendige nylige elementer;
 - `onlynet`: begrenser utgående tilkoblinger til kun utvalgte nettverk (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Hvis du for eksempel vil at noden din bare skal koble seg til Bitcoin-nettverket via Tor, kan du aktivere parameteren `onlynet=onion` og deaktivere innkommende tilkoblinger (eller bare tillate tilkoblinger via Tor også).
 - `dnsseed`: Tillater eller forbyr _DNS seeds_ å be om motparter når den lokale Address-poolen er lav (standard: `1`, med mindre `-connect` eller `-maxconnections=0`).
 - `forcednsseed`: tvinger _DNS seeds_ til å bli forespurt ved oppstart, selv om du allerede har adresser på lager (standard: `0`).
@@ -3362,7 +3364,7 @@ For å være fullt Tor-aktivert må du tvinge Bitcoin core til å bruke bare det
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3420,7 @@ Her er de grunnleggende parameterne du kan endre i `Bitcoin.conf` når det gjeld
 
 
 
-- blocksonly=1`: Deaktiverer aksept og videresending av ubekreftede transaksjoner mottatt fra motparter (med mindre spesielle tillatelser er gitt). Noden laster nå bare opp og annonserer blokker. Transaksjoner som opprettes lokalt, kan fortsatt kringkastes (for å bruke noden med Wallet-programvaren). Dette reduserer båndbredde- og RAM-kravene betraktelig, selv om det går på bekostning av redusert nytteverdi for reléet og total uvitenhet om Mempool.
+- `blocksonly=1` : Deaktiverer mottak og videresending av ubekreftede transaksjoner mottatt fra jevnaldrende (bortsett fra spesielle tillatelser). Noden laster kun ned og kunngjør blokker. Lokalt opprettede transaksjoner kan fortsatt kringkastes (for å bruke noden med lommebokprogramvaren din). Dette reduserer båndbredde og RAM-behov betydelig, men på bekostning av redusert nytte for videresending og total uvitenhet om mempoolen.
 
 
 
@@ -3448,7 +3450,7 @@ Her er de avanserte innstillingene for Mempool og relépolicy. Hvis du er nybegy
 
 
 
-- datacarrier=1`: Tillater videresending og (hvis Mining via node) inkludering av transaksjoner som inneholder ikke-finansielle data via en `OP_RETURN`-utgang (standard: `1`). Deaktivering av denne parameteren reduserer overflaten for spam med ikke-finansielle data noe, på bekostning av redusert kompatibilitet med visse bruksområder. I alle tilfeller må du akseptere mined `OP_RETURN`.
+- `datacarrier=1` : Tillater videresending og (hvis gruvedrift via noden) inkludering av transaksjoner som bærer ikke-finansielle data gjennom en `OP_RETURN`-utgang (standard: `1`). Deaktivering av denne parameteren reduserer litt risikoen for ikke-finansiell dataspam på bekostning av lavere kompatibilitet med enkelte bruksområder. I alle tilfeller må du akseptere utvunnede `OP_RETURN`.
 
 
 
@@ -3490,13 +3492,13 @@ Her er de avanserte innstillingene for Mempool og relépolicy. Hvis du er nybegy
 
 
 
-- peerbloomfilters=1`: Aktiver støtte for Bloom-filtre (BIP37) for å servere filtrerte blokker/transaksjoner til tynne klienter (standard: `0`). Advarsel: Dette øker belastningen på ressursene dine.
+- `peerbloomfilters=1` : Aktiverer støtte for Bloom-filtre (BIP37) for å levere filtrerte blokker/transaksjoner til lette klienter (standard: `0`). Merk at dette øker belastningen på ressursene dine.
 
 
 
 
 
-- peerblockfilters=1`: Serverer BIP157 (*Neutrino*) kompakte filtre til motparter (standard: `0`).
+- `peerblockfilters=1` : Leverer kompakte BIP157 (*Neutrino*) filtre til jevnaldrende (standard: `0`).
 
 
 
@@ -3520,7 +3522,7 @@ Du kan også justere måten lommebøkene dine administreres på i filen `Bitcoin
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definerer formatet på Wallet-genererte adresser for mottak.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Definerer formatet på adressene som lommeboken genererer for mottak.
 
 
 
@@ -3568,7 +3570,7 @@ Du kan også justere måten lommebøkene dine administreres på i filen `Bitcoin
 
 
 
-- fallbackfee=<amt>`: Fallback-rate (BTC/kvB) som brukes hvis estimatoren går tom for data (standard: `0,00`). Hvis du setter den til 0, deaktiveres fallback helt.
+- `fallbackfee=<amt>` : Reservegebyr (BTC/kvB) som brukes hvis estimatoren mangler data (standard: `0.00`). Å sette den til 0 deaktiverer reservegebyret helt.
 
 
 
@@ -3660,7 +3662,7 @@ Konfigurasjonsfilen gir deg også mulighet til å justere parametrene for maskin
 
 
 
-- txindex=1`: Bygger og vedlikeholder en global indeks over bekreftede transaksjoner. Nødvendig for visse spørringer (`getrawtransaction`, ikke Wallet) og for utforskningsformål, men øker diskavtrykket betydelig. Inkompatibel med pruned-modus.
+- `txindex=1` : Bygger og vedlikeholder et globalt register over bekreftede transaksjoner. Nødvendig for visse forespørsler (`getrawtransaction` utenfor lommeboken) og for utforskningsformål, men øker diskforbruket betydelig. Ikke kompatibel med beskåret modus.
 
 
 
@@ -3882,7 +3884,7 @@ Til slutt kan du i filen `Bitcoin.conf` også konfigurere tilgangsparametrene fo
 
 
 
-Vi er nå ferdige med å liste opp de fleste konfigurasjonsparametrene. Denne `Bitcoin.conf`-filen utgjør dermed det virkelige dashbordet for noden din: den definerer nettverkskonfigurasjon, Mempool-styring, disk- og minnebruk, indeksering og generell administrasjon. Hvis du vil lære mer om denne filen og lage en som er skreddersydd til dine behov, anbefaler jeg at du bruker [Jameson Lopps generator] (https://jlopp.github.io/Bitcoin-core-config-generator/).
+Vi er nå ferdige med å liste opp de fleste konfigurasjonsparametrene. Denne `Bitcoin.conf`-filen utgjør dermed det virkelige dashbordet for noden din: den definerer nettverkskonfigurasjon, Mempool-styring, disk- og minnebruk, indeksering og generell administrasjon. Hvis du vil lære mer om denne filen og lage en som er skreddersydd til dine behov, anbefaler jeg at du bruker [Jameson Lopps generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
 
 
 
@@ -3894,15 +3896,17 @@ Du kan nå gå videre til den siste delen av kurset, der du kan evaluere BTC 202
 
 
 
-Du har nå flere alternativer åpne for deg. Det neste logiske steget er å sette opp din egen Lightning-node, slik at du kan være helt uavhengig for off-chain-transaksjonene dine. Dette vil være temaet for et kommende kurs, som vil bli publisert i høst 2025 på Plan ₿ Network.
+Flere veier ligger nå åpne for deg. Det neste logiske steget er å sette opp din egen Lightning-node, slik at du er fullstendig uavhengig for dine off-chain-transaksjoner. Dette er nettopp temaet for et annet kurs hos Plan ₿ Academy:
 
 
 
-I mellomtiden inviterer jeg deg til å ta BTC 204-opplæringen, som vil gjøre deg i stand til å forstå og mestre prinsippene for personvern i din bruk av Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Jeg inviterer deg også til å oppdage kurset BTC 204, som vil gjøre deg i stand til å forstå og beherske prinsippene for personvern i din bruk av Bitcoin:
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Siste del

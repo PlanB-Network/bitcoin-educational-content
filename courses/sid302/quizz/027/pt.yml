@@ -1,0 +1,8 @@
+question: Na arquitetura cega da Blockstream AMP, que mecanismo criptográfico permite a encriptação do montante do ativo, mantendo a verificação da validade da transação?
+answer: Troca de chaves Diffie-Hellman de curva elíptica com provas de alcance que verificam a validade da transação sem revelar valores encriptados
+wrong_answers:
+  - SNARKs de conhecimento zero com esquemas de compromisso que ocultam os montantes das transacções ao mesmo tempo que provam a integridade computacional
+  - Assinaturas em anel com endereços furtivos que ofuscam a identidade do remetente, mantendo a auditabilidade criptográfica
+  - Encriptação homomórfica com compromissos de árvore de merkle que permitem operações matemáticas em dados de transação encriptados
+explanation: |
+  A AMP utiliza a troca de chaves ECDH em que os remetentes encriptam os montantes dos activos utilizando as chaves públicas cegas dos destinatários, gerando provas de alcance que verificam matematicamente a validade da transação sem expor os valores. Isto difere das SNARKs (provas computacionais), das assinaturas em anel (foco no anonimato) ou da encriptação homomórfica (computação em dados encriptados) - a AMP precisa especificamente de transacções confidenciais mas verificáveis.

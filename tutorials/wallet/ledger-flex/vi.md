@@ -165,7 +165,7 @@ Cụm mật khẩu là một công cụ rất mạnh mẽ để tăng cường b
 
 Passphrase là một công cụ cực kỳ mạnh mẽ để tăng cường bảo mật cho bitcoin của bạn. Tuy nhiên, điều rất quan trọng là phải hiểu rõ cách hoạt động của nó trước khi triển khai, để tránh mất quyền truy cập vào ví. Đó là lý do tại sao tôi giải thích tất cả trong một hướng dẫn riêng:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Cuối cùng, trang cài đặt cuối cùng cho phép bạn đặt lại Ledger của bạn. Chỉ tiến hành đặt lại này nếu bạn chắc chắn rằng nó không chứa bất kỳ khóa nào bảo vệ bitcoin, vì bạn có thể mất vĩnh viễn quyền truy cập vào quỹ của mình.
 ![LEDGER FLEX](assets/notext/30.webp)
@@ -269,7 +269,7 @@ Bạn có thể thêm một "*Label*" để mô tả nguồn của bitcoin sẽ 
 
 Để biết thêm thông tin về việc gắn nhãn, tôi cũng khuyên bạn nên xem qua hướng dẫn khác này:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Sau đó, bạn có thể sử dụng địa chỉ này để nhận bitcoin.
 

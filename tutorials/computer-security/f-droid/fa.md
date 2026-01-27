@@ -100,7 +100,7 @@ F-Droid اطلاعات جامعی در مورد هر برنامه‌ای که م
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid تمام اطلاعاتی که برای تصمیم‌گیری در مورد اینکه آیا استفاده از یک برنامه از داده‌های شما محافظت می‌کند و حریم خصوصی شما را افزایش می‌دهد، نیاز دارید را به شما می‌دهد. تمام برنامه‌هایی که می‌خواهید استفاده کنید را اسکن کنید، سپس روی دکمه **نصب** کلیک کنید تا برنامه خود را دانلود و نصب کنید.
 
@@ -187,4 +187,4 @@ F-Droid تشویق به تمرین منبع باز و مشارکت جامعه م
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

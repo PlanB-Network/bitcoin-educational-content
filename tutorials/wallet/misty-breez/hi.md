@@ -81,7 +81,7 @@ Liquid, Bitcoin नेटवर्क के समानांतर Layer ह�
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 अपने वाक्यांशों का बैकअप लेने के लिए, **प्राथमिकताएं > सुरक्षा** मेनू का चयन करें, फिर **अपना बैकअप वाक्यांश जांचें** विकल्प का चयन करें।
 
@@ -210,4 +210,4 @@ Interface **बैलेंस** मेनू पर, अपने Wallet पर
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

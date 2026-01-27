@@ -4,6 +4,12 @@ description: Yksinkertaisin huoltajien Wallet, jolla pääsee alkuun
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Huomio: vuoden 2026 alusta lähtien Wallet of Satoshi custodial-tilassa (kuten tässä oppaassa esitetään) ei ole enää saatavilla Euroopan unionissa. Jos asut tällä alueella ja haluat jatkaa tämän työkalun käyttöä, sinun on käytettävä EU:n ulkopuolelle sijoitettua VPN-yhteyttä. Toinen vaihtoehto on käyttää Wallet of Satoshia self-custodial-tilassa. Erillinen opas julkaistaan pian Plan ₿ Academyssa.*
+
+---
+
 _Tämän ohjeen on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
@@ -12,7 +18,7 @@ _Tämän ohjeen on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampu
 
 Satoshi:n Wallet on Lightning Network Wallet, huoltajuus, ja se on hyvin helppokäyttöinen.
 
-Kurssilla [BTC105 - Finding Now] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) sitä käytetään Redeem Lightning Network-seteliin.
+Kurssilla [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) sitä käytetään Redeem Lightning Network-seteliin.
 
 
 **Aina muista**: ei avaimia, ei kolikoita

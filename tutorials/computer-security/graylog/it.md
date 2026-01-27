@@ -387,7 +387,7 @@ Da Graylog, fai clic su "**Sistema**" nel menu, quindi su "**Indici**". Nella nu
 
 ![Image](assets/fr/005.webp)
 
-Nomina questo indice, ad esempio "**Indice Linux**", aggiungi una descrizione e un prefisso, prima di confermare. In questo caso, **immagazzineremo tutti i registri di Linux in questo indice**. È anche possibile creare indici specifici per memorizzare solo determinati registri (solo registri [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/ "SSH"), registri di servizi Web, ecc.)
+Nomina questo indice, ad esempio "**Indice Linux**", aggiungi una descrizione e un prefisso, prima di confermare. In questo caso, **immagazzineremo tutti i registri di Linux in questo indice**. È anche possibile creare indici specifici per memorizzare solo determinati registri, registri di servizi Web, ecc.
 
 ![Image](assets/fr/006.webp)
 

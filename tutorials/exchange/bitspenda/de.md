@@ -35,7 +35,7 @@ BitSpenda ist eine webbasierte Plattform, auf der Sie Exchange Bitcoin und Mobil
 
 
 
-Die Durchführung einer Transaktion mit BitSpenda ist ziemlich intuitiv und erfordert nur wenige Schritte. Klicken Sie auf der offiziellen BitSpenda-[Website] (https://bitspenda.app) auf die Schaltfläche "Start", und Sie werden zum Interface Exchange weitergeleitet.
+Die Durchführung einer Transaktion mit BitSpenda ist ziemlich intuitiv und erfordert nur wenige Schritte. Klicken Sie auf der offiziellen BitSpenda-[Website](https://bitspenda.app) auf die Schaltfläche "Start", und Sie werden zum Interface Exchange weitergeleitet.
 
 
 
@@ -98,9 +98,9 @@ Sobald Ihre Transaktion bestätigt wurde, bezahlen Sie den zugehörigen Lightnin
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ### M-Pesa in Kenia
 
@@ -177,7 +177,7 @@ Geben Sie dann die Mobile Money-Nummer des Empfängers Ihres Exchange ein.
 
 
 
-Mit BitSpenda will [Bitcoin Dua] (https://www.bitcoindua.org/) einen idealen Rahmen für die Einführung von Bitcoin in Afrika schaffen. BitSpenda zeichnet sich vor allem durch :
+Mit BitSpenda will [Bitcoin Dua](https://www.bitcoindua.org/) einen idealen Rahmen für die Einführung von Bitcoin in Afrika schaffen. BitSpenda zeichnet sich vor allem durch :
 
 
 
@@ -197,4 +197,4 @@ Viele andere Initiativen und Lösungen wie BitSpenda entstehen in afrikanischen 
 
 
 
-https://planb.network/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c
+https://planb.academy/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c

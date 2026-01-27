@@ -1,7 +1,7 @@
 question: Koja je glavna alternativna implementacija Bitcoin core?
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin Gotovina
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

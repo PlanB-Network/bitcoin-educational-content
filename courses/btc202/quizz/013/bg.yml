@@ -1,0 +1,9 @@
+question: Какъв вид оборудване се използва днес за ефективното копаене на Bitcoin?
+answer: ASIC
+wrong_answers:
+  - Classic CPU
+  - GPU
+  - FPGA
+explanation: |
+  Днес Bitcoin копаенето се извършва с помощта на ASIC. Това са специализирани чипове за алгоритъма SHA-256.
+reviewed: true

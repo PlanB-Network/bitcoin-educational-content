@@ -1,26 +1,18 @@
 ---
-name: Avusturya Ekonomisine Giriş
-goal: Avusturya ekonomik düşünce okulunu keşfedin. Toplum ve makro/mikro-ekonomik gerçeklikler hakkındaki görüşlerini inceleyin.
-objectives: 
-
-  - Keynesçiliğe bir alternatif
-  - Hard para biriminin önemi
-  - Ekonomik döngülerimiz neden ve nasıl oluşuyor?
-  - Merkez bankacıları neden çıldırdı?
-
+name: Avusturya ekonomi okulu temelleri
+goal: Piyasaları ve bireysel karar vermeyi analiz etmek için alternatif bir çerçeve olarak Avusturya iktisadını keşfedin
+objectives:
+- Para, kredi ve merkez bankacılığı sistemlerinin işlevlerini analiz etmek
+- Öznel değer teorisi ve zaman tercihini piyasa davranışına uygulamak
+- Avusturya iş döngüsü teorisini ve nedenlerini anlamak
+- Avusturya metodolojisini ana akım ekonomik yaklaşımlarla karşılaştırmak
 ---
+# Avusturya Ekonomisine Yolculuk
 
-# Ekonomiye Bir Yolculuk
+Hiç bazı ekonomistlerin piyasalar, özgürlük ve insan davranışı hakkında neden farklı düşündüğünü merak ettiniz mi? Avusturya ekonomisi, sizi ekonomik düşüncenin merkezine yerleştiren ferahlatıcı bir bakış açısı sunar. Ağır matematik ve soyut modeller yerine, bu yaklaşım mantığa, insan seçimine ve gerçek insanların günlük yaşamlarında nasıl karar verdiklerine odaklanır. Özgürlük, rasyonellik ve kişisel eylem merceğinden ekonomidir.
 
-
-Théo Mogenet'in kursuna hoş geldiniz! Ekonomi, tarih, edebiyat, siyaset bilimi ve teknoloji konularında tutkulu olan Théo Mogenet, Avusturya ekonomisi hakkındaki bilgilerini sizlerle paylaşmaya karar verdi. Ekonomide daha az bilinen bu dal, insan rasyonalitesine ve özgür aktör davranışına dayanır. Matematikte daha az yoğun olan bu dal, her şeyden önce bir mantık ve sosyal çalışma meselesidir.
-
-
-Bu düşünce ekolünün arkasında birkaç asırlık bir zaman dilimi ve bir yazarlar, düşünceler ve ekonomistler panoraması vardır. Hayek, Rothbard, Mises, Bastiat veya Menger gibi ekonominin büyük isimleri bu akımı uzun süre savunmuşlardır. Günümüzün her yerde karşımıza çıkan Keynesçiliğinin aksine Avusturya okulu daha liberal, kapitalist ve hatta anarşist bir yaklaşımla bireyi yeniden denklemin merkezine koymaktadır.
-
-
+Bu düşünce okulu, Hayek, Mises ve Bastiat gibi etkili düşünürler sayesinde yüzyıllardır tartışmaları şekillendirmiştir. Ana akım Keynesyen ekonomi bugünün politika tartışmalarına hâkim olsa da, Avusturya geleneği farklı sorular sorar: Bireysel özgürlüğe öncelik verdiğimizde ne olur? İnsanlar seçme özgürlüğüne sahip olduğunda serbest piyasalar gerçekte nasıl çalışır? Piyasalar, toplum ve özgürlük hakkında düşünmenin alternatif yollarını merak ediyorsanız, standart ders kitaplarında bulamayacağınız fikirleri keşfetmek için bu sizin şansınız.
 +++
-
 # Giriş
 
 
@@ -778,10 +770,9 @@ Bu yanlış tahsisin sonuçları arasında finansal ve ekonomik krizler, ekonomi
 Günümüzde ekonomik hesaplama tartışması, öncelikle Green gündemi tarafından yönlendirilen yanlış yatırımların giderek daha belirgin hale geldiği enerji tartışmalarında yeniden ortaya çıkmaktadır. Avusturyalı iktisatçılar, ana akım iktisatçıların öngöremediği 2008 krizinin, uzun süreli düşük faiz oranları nedeniyle konut piyasasına aşırı yatırım yapılmasıyla karakterize edilen klasik bir patlama ve çöküş döngüsü olduğuna işaret ederek, para piyasalarıyla ilgili tartışmalarda da ortaya çıkmaktadır. Dahası, neo-Marksistler ve diğer sosyalist gruplar, yapay zekanın ortaya çıkışının ekonomik hesaplama sorununu çözebileceği fikrini yaymaktadır. Ancak bu bakış açısı, konunun hatalı bir şekilde anlaşılmasından kaynaklanmaktadır; ekonomik hesaplama sorunu bir hesaplama gücü meselesi değil, üretim ve kaynak tahsisi ile ilgili bilgi üretme ve dağıtma meselesidir. Bu bilgi yalnızca uzmanlaşmış bilgiye sahip ve sonuçtan çıkar sağlayan aracılar tarafından yerel olarak üretilebilir. Yapay zeka bu aşağıdan yukarıya sürecin yerini alamaz ve bu nedenle merkezi planlamacılara kaynak tahsisi sorununda yardımcı olamaz. Ne yazık ki, yüzyıllık bir yanlış anlama nedeniyle, YZ'nin serbest piyasaların başarısızlıklarını düzeltebilecek aydınlanmış merkezi planlamacılar tarafından yönetilen yeni bir ekonomik refah çağını başlatacağına dair iddiaların çoğalmasını bekliyoruz.
 
 
-Ekonomik hesaplama probleminin güncel bir duruma somut bir uygulaması için, modern Çin'de kaynak tahsisi sorununu ele alan bu makaleye başvurabilirsiniz.
+Ekonomik hesaplama sorununu çağdaş bir duruma somut biçimde uygulamak için, modern Çin’de kaynak tahsisini ele alan bu makaleye başvurabilirsiniz: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, Théo Mogenet tarafından.
 
 
-> Finansal Baskıya Giden Yol: Kağıttan Kaplan Çin, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Sonuç

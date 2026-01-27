@@ -616,7 +616,7 @@ curl -X POST http://localhost:9740/lnurlauth \
 
 
 
-LNbits kan bruke Phoenixd som finansieringskilde i henhold til [offisiell dokumentasjon] (https://docs.lnbits.org/guide/wallets.html):
+LNbits kan bruke Phoenixd som finansieringskilde i henhold til [offisiell dokumentasjon](https://docs.lnbits.org/guide/wallets.html):
 
 
 
@@ -706,7 +706,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Oppdateringer:** Se [GitHub releases] (https://github.com/ACINQ/phoenixd/releases) for nye versjoner. Oppdatering er så enkelt som å bytte ut binærfilen og starte tjenesten på nytt.
+**Oppdateringer:** Se [GitHub releases](https://github.com/ACINQ/phoenixd/releases) for nye versjoner. Oppdatering er så enkelt som å bytte ut binærfilen og starte tjenesten på nytt.
 
 
 

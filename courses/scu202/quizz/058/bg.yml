@@ -1,0 +1,9 @@
+question: Кой енджин за визуализация се използваше в Internet Explorer от версия 4 нататък и доминираше на пазара в началото на 2000-те години?
+answer: Trident
+wrong_answers:
+  - Gecko
+  - WebKit
+  - Мигване
+explanation: |
+  Trident, разработен от Microsoft, беше представен заедно с Internet Explorer 4.0 през 1997 г. и доминираше в уеб по време на виртуалния монопол на Internet Explorer.
+reviewed: false

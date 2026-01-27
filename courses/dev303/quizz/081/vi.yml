@@ -1,0 +1,8 @@
+question: Mục đích chính của việc sử dụng map_err() khi kết hợp các phép toán với kiểu Result trong Rust là gì?
+answer: Để chuyển đổi các loại lỗi trong khi vẫn giữ nguyên giá trị thành công trong quá trình lan truyền lỗi.
+wrong_answers:
+  - Để chuyển đổi các giá trị thành công đồng thời tự động lan truyền lỗi mà không cần sửa đổi.
+  - Để chuyển đổi kiểu Kết quả thành kiểu Tùy chọn khi cần bỏ qua lỗi.
+  - Để ngăn chặn sự lan truyền lỗi bằng cách chuyển đổi tất cả các lỗi thành giá trị thành công mặc định.
+explanation: |
+  Phương thức map_err() được thiết kế đặc biệt để chuyển đổi các loại lỗi trong khi vẫn giữ nguyên giá trị thành công. Điều này rất quan trọng đối với việc xây dựng các ứng dụng phân lớp, nơi các thành phần khác nhau cần các biểu diễn lỗi khác nhau. Ví dụ, bạn có thể chuyển đổi các lỗi phân tích cú pháp cấp thấp thành các lỗi cụ thể theo miền để cung cấp ngữ cảnh tốt hơn. Các tùy chọn khác không chính xác: map() chuyển đổi giá trị thành công (không phải map_err()), map_err() không chuyển đổi sang kiểu Option, và nó không ngăn chặn sự lan truyền hoặc tạo ra các giá trị thành công mặc định.

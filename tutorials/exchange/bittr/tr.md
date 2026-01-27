@@ -21,7 +21,7 @@ Bittr ile Sats'yı istiflemeye başlamanın ne kadar kolay olduğunu inceleyelim
 ## Bittr ile çalışmaya başlama
 
 
-- Web veya mobil üzerinden [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) adresine gidin ve "Bitcoin Satın Al" seçeneğine tıklayın
+- Web veya mobil üzerinden [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) adresine gidin ve "Bitcoin Satın Al" seçeneğine tıklayın
 
 
 

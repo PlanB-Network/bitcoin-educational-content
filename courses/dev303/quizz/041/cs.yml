@@ -1,0 +1,8 @@
+question: Jakými třemi způsoby mohou uzávěry zachycovat proměnné ze svého prostředí v Rust?
+answer: Neměnným odkazem, proměnným odkazem nebo převzetím vlastnictví
+wrong_answers:
+  - Kopírováním hodnoty, vypůjčením reference nebo dereferencováním ukazatele
+  - Alokací zásobníku, alokací haldy nebo statickým úložištěm
+  - Sdíleným přístupem, výhradním přístupem nebo souběžným přístupem
+explanation: |
+  Uzávěry v Rust zachycují proměnné prostředí přesně třemi způsoby: neměnným odkazem (když potřebují pouze číst), proměnným odkazem (když potřebují modifikovat) nebo převzetím vlastnictví (když potřebují přesunout hodnotu, často kvůli bezpečnosti vláken). Překladač automaticky vybere nejpřísnější metodu, která vyhovuje potřebám uzávěru, podle principu nejmenšího oprávnění.

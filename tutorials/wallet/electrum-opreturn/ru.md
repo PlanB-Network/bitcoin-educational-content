@@ -53,7 +53,7 @@ description: Зарегистрировать сообщение о Blockchain B
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -218,7 +218,7 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-Совет: используйте инструмент [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) для автоматического создания скрипта generate. Даже если этот инструмент предлагает ввести сумму в BTC, сохраните единицу измерения в Electrum.
+Совет: используйте инструмент [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) для автоматического создания скрипта generate. Даже если этот инструмент предлагает ввести сумму в BTC, сохраните единицу измерения в Electrum.
 
 
 

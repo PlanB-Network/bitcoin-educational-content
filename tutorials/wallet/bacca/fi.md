@@ -6,7 +6,7 @@ description: Ledgerin määrittäminen ilman Ledger Live -ohjelmistoa
 
 Jos käytät Ledgeriä, olet luultavasti huomannut, että sinun on käytävä läpi Ledger Live -ohjelmisto, ainakin laitteen alkukonfigurointi, sen aitouden tarkistaminen ja Bitcoin-sovelluksen asentaminen siihen. Tämän konfiguroinnin jälkeen monet Bitcoin-käyttäjät käyttävät kuitenkin mieluummin erikoistuneita Bitcoin-lompakon hallintaohjelmistoja, kuten Sparrow tai Liana, kuin Ledger Livea. Vaikka Ledger valmistaa erinomaisia laitteistolompakoita, jotka sisältävät nopeasti uusimmat Bitcoin-ominaisuudet, niiden ohjelmistoja ei välttämättä ole mukautettu bitcoin-käyttäjien erityistarpeisiin. Ledger Live sisältääkin monia altcoineille suunniteltuja ominaisuuksia, kun taas Bitcoin-lompakon hallintaan tarkoitetut vaihtoehdot ovat rajalliset. Sparrow'n ja Liana'n ongelmana (toistaiseksi) on kuitenkin se, että ne eivät salli Bitcoin-sovelluksen asentamista Ledgeriin.
 
-Voit ohittaa Ledger Liven käytön Ledgerin alkukonfiguroinnin aikana käyttämällä Bacca-työkalua (tai "Ledger Installer"). Tämän ohjelmiston avulla voit asentaa ja päivittää Bitcoin-sovelluksen, tarkistaa Ledgerin aitouden ja jopa myöhemmin päivittää laitteen laiteohjelmiston. Baccan on luonut Antoine Poinsot (Darosior), Chaincode Labsin Bitcoin Core -kehittäjä, [Revaultin ja Lianan] (https://wizardsardine.com/) toinen perustaja ja Pythcoiner.
+Voit ohittaa Ledger Liven käytön Ledgerin alkukonfiguroinnin aikana käyttämällä Bacca-työkalua (tai "Ledger Installer"). Tämän ohjelmiston avulla voit asentaa ja päivittää Bitcoin-sovelluksen, tarkistaa Ledgerin aitouden ja jopa myöhemmin päivittää laitteen laiteohjelmiston. Baccan on luonut Antoine Poinsot (Darosior), Chaincode Labsin Bitcoin Core -kehittäjä, [Revaultin ja Lianan](https://wizardsardine.com/) toinen perustaja ja Pythcoiner.
 
 Tässä ohjeessa näytän, miten tätä työkalua käytetään, jotta voit luopua lopullisesti Ledger Live -ohjelmistosta ja silti nauttia Ledger-laitteista. Se toimii kaikissa laitteissa: Nano S Classic, Nano S Plus, Nano X, Flex ja Stax.
 
@@ -98,11 +98,11 @@ Sinulla on nyt pääsy ohjelmiston käyttöliittymään.
 
 Jos Ledger on uusi, varmista ennen aloittamista, että olet määrittänyt PIN-koodin ja tallentanut palautuslausekkeen. Et tarvitse Ledger Liveä näihin alkuvaiheisiin. Kytke Ledgeriin virta USB-kaapelilla. Jos et ole varma, miten edetä näissä kahdessa vaiheessa, voit tutustua malliasi koskevan ohjeen alkuun:
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 
 ## Baccan käyttäminen
@@ -142,5 +142,5 @@ Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit v
 Suosittelen myös tutustumaan tähän GnuPG:tä käsittelevään oppaaseen, jossa kerrotaan, miten tarkistat ohjelmiston eheyden ja aitouden ennen sen asentamista. Tämä on tärkeä käytäntö erityisesti silloin, kun asennat salkunhallintaohjelmistoja, kuten Liana tai Sparrow :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

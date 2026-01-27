@@ -1,0 +1,8 @@
+question: Durante a validação da transação Bitcoin, o que é que um nó deve verificar para garantir que cada entrada está devidamente autorizada a gastar a saída referenciada?
+answer: O ScriptSig deve desbloquear com êxito a ScriptPubKey correspondente quando executado em conjunto
+wrong_answers:
+  - "A assinatura digital de entrada deve corresponder exatamente à chave pública incorporada de saída"
+  - O hash da transação deve ser igual à raiz do merkle armazenada no cabeçalho do bloco referenciado
+  - O montante de entrada deve ser maior ou igual ao montante de saída que está a ser gasto
+explanation: |
+  O sistema de scripts do Bitcoin exige que o ScriptSig (script de desbloqueio) de cada entrada seja executado com êxito com o ScriptPubKey (script de bloqueio) da saída referenciada para produzir um resultado verdadeiro na pilha. Este modelo de execução de script permite condições de despesa flexíveis para além da simples correspondência de assinaturas. As outras opções descrevem requisitos de validação incorretos - as assinaturas não precisam corresponder exatamente às chaves incorporadas, os hashes de transação não são comparados às raízes de merkle durante a validação de entrada e as entradas individuais não precisam exceder suas saídas (somente o total de entradas deve exceder o total de saídas).

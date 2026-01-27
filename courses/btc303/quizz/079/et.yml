@@ -1,0 +1,9 @@
+question: Mis on vastutustundliku avalikustamise raamistiku kohaselt peamine strateegiline põhjus, miks pakkuda haavatavuse parandusi altcoini arendajatele alles pärast seda, kui parandused on Bitcoin võrgus laialdaselt kasutusel?
+answer: Selleks, et vältida ründajail sama haavatavuse ärakasutamist Bitcoin puhul, kui altcoine on parandatud
+wrong_answers:
+  - "Bitcoin konkurentsieelise säilitamiseks alternatiivsete krüptoraha rakenduste ees"
+  - Tagamaks, et altcoini arendajatel on piisavalt aega paranduste mõistmiseks ja nõuetekohaseks rakendamiseks
+  - Vältida õigusliku vastutuse probleeme, mis võivad tekkida enneaegsest avalikustamisest kolmandatele projektidele
+explanation: |
+  Ajastusstrateegia peegeldab turvalisus-eesmärgil põhinevat lähenemisviisi, mille kohaselt tuleb Bitcoin võrku kaitsta enne teiste abistamist. Kui altcoinidest teavitati samaaegselt, võiksid ründajad uurida altcoinide rakendusi või kasutada neid ära, et mõista haavatavust, ja seejärel potentsiaalselt rünnata Bitcoin sõlmi, mis ei ole veel uuendatud. Järjestikune lähenemisviis tagab Bitcoin laialdase kaitse enne abi laiendamist teistele võrkudele, minimeerides haavatavuse ärakasutamise akna kogu ökosüsteemis.
+reviewed: false

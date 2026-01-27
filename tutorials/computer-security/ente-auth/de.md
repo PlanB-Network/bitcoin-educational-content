@@ -14,7 +14,7 @@ Die Wahl der richtigen Authentifizierungsanwendung ist jedoch nicht trivial. Goo
 
 
 
-**Ente Auth** zeichnet sich als moderne, sichere Alternative aus. Diese kostenlose, quelloffene, plattformübergreifende Anwendung, die vom Team hinter [Ente Photos] (https://ente.io) entwickelt wurde, bietet durchgängig verschlüsselte Cloud-Backups und eine nahtlose Synchronisation zwischen all Ihren Geräten. Im Gegensatz zu proprietären Lösungen haben Sie mit Ente Auth die volle Kontrolle über Ihre Authentifizierungscodes, ohne Ihre Privatsphäre zu gefährden.
+**Ente Auth** zeichnet sich als moderne, sichere Alternative aus. Diese kostenlose, quelloffene, plattformübergreifende Anwendung, die vom Team hinter [Ente Photos](https://ente.io) entwickelt wurde, bietet durchgängig verschlüsselte Cloud-Backups und eine nahtlose Synchronisation zwischen all Ihren Geräten. Im Gegensatz zu proprietären Lösungen haben Sie mit Ente Auth die volle Kontrolle über Ihre Authentifizierungscodes, ohne Ihre Privatsphäre zu gefährden.
 
 
 
@@ -87,7 +87,7 @@ Ente Auth wurde von dem Team entwickelt, das hinter Ente Photos steht, einem End
 
 
 
-Ente Auth ist auf den meisten gängigen Plattformen verfügbar. Sie können die Anwendung von [der offiziellen Website] (https://ente.io/auth) oder aus den offiziellen Stores herunterladen.
+Ente Auth ist auf den meisten gängigen Plattformen verfügbar. Sie können die Anwendung von [der offiziellen Website](https://ente.io/auth) oder aus den offiziellen Stores herunterladen.
 
 
 
@@ -142,7 +142,7 @@ Ente Auth bietet native Desktop-Anwendungen an. Besuchen Sie [ente.io/download](
 ### Interface Web
 
 
-Ohne Installation können Sie über [auth.ente.io] (https://auth.ente.io) von jedem Browser aus auf Ihre Codes zugreifen. Interface Web ist auf die Anzeige von Codes beschränkt (nützlich für die Fehlersuche), da das Hinzufügen von Konten aus Sicherheitsgründen die mobile oder Desktop-Anwendung erfordert.
+Ohne Installation können Sie über [auth.ente.io](https://auth.ente.io) von jedem Browser aus auf Ihre Codes zugreifen. Interface Web ist auf die Anzeige von Codes beschränkt (nützlich für die Fehlersuche), da das Hinzufügen von Konten aus Sicherheitsgründen die mobile oder Desktop-Anwendung erfordert.
 
 
 
@@ -350,7 +350,7 @@ Ente Auth bietet mehrere praktische Funktionen:
 
 
 
-**Automatische Icons**: Jeder Eintrag kann mit dem Logo des Dienstes illustriert werden, dank der Integration des Icon Packs [Simple Icons] (https://simpleicons.org/).
+**Automatische Icons**: Jeder Eintrag kann mit dem Logo des Dienstes illustriert werden, dank der Integration des Icon Packs [Simple Icons](https://simpleicons.org/).
 
 
 

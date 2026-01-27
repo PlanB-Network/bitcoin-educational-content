@@ -1,0 +1,8 @@
+question: Wawasan mendasar apa tentang adopsi Lightning yang membuat Breez beralih dari membangun aplikasi seluler tunggal ke pengembangan arsitektur SDK?
+answer: Ekosistem aplikasi seluler tidak memfasilitasi komunikasi yang mudah antar aplikasi, sehingga aplikasi khusus tidak dapat memanfaatkan infrastruktur Lightning bersama
+wrong_answers:
+  - Perangkat seluler tidak memiliki daya komputasi yang cukup untuk menjalankan node Lightning dengan andal, sehingga membutuhkan infrastruktur berbasis cloud untuk pengoperasian yang tepat
+  - Kepatuhan terhadap peraturan mengharuskan fungsionalitas Lightning dipusatkan di SDK daripada didistribusikan di masing-masing aplikasi seluler
+  - Riset pengalaman pengguna menunjukkan bahwa konsumen lebih suka pembayaran Lightning dikelola oleh layanan pihak ketiga daripada aplikasi individual
+explanation: |
+  Jawaban yang benar mengidentifikasi batasan arsitektur utama yang ditemukan melalui aplikasi Breez yang asli: ekosistem seluler tidak memungkinkan komunikasi antar aplikasi yang mudah, sehingga memaksa pengembang untuk membangun semua fitur Lightning ke dalam satu aplikasi daripada membuat aplikasi khusus yang berbagi infrastruktur Lightning. Wawasan ini mengarah pada pendekatan SDK yang memungkinkan beberapa aplikasi untuk terhubung ke simpul Lightning yang sama. Jawaban yang salah berfokus pada keterbatasan teknis, masalah regulasi, atau preferensi pengguna, tetapi ini bukanlah wawasan arsitektur mendasar yang mendorong pergeseran strategis ke model SDK.

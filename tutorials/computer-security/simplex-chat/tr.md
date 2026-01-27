@@ -73,7 +73,7 @@ Android'de [APK ile yüklemek](https://github.com/simplex-chat/simplex-chat/rele
 
 
 
-Bu eğitimde mobil versiyona odaklanacağız, ancak [masaüstü versiyonlarının da mevcut olduğunu] (https://simplex.chat/downloads/) (MacOS, Linux ve Windows) lütfen unutmayın. Masaüstü sürümünü mevcut bir mobil kullanıcı profiline bağlamak mümkündür, ancak bu senkronizasyonun çalışması için her iki cihazın da aynı yerel ağa bağlı olması gerekir.
+Bu eğitimde mobil versiyona odaklanacağız, ancak [masaüstü versiyonlarının da mevcut olduğunu](https://simplex.chat/downloads/) (MacOS, Linux ve Windows) lütfen unutmayın. Masaüstü sürümünü mevcut bir mobil kullanıcı profiline bağlamak mümkündür, ancak bu senkronizasyonun çalışması için her iki cihazın da aynı yerel ağa bağlı olması gerekir.
 
 
 
@@ -397,4 +397,4 @@ Ayrıca, mesajlaşma uygulamanız için ilginç bir alternatif olan Threema'yı 
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

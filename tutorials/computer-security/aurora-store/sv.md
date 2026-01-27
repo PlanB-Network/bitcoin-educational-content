@@ -14,7 +14,7 @@ I den här handledningen upptäcker vi Aurora Store, ett enkelt, öppet källkod
 
 
 
-# Kom igång med Aurora Store
+## Kom igång med Aurora Store
 
 
 
@@ -32,7 +32,7 @@ Aurora Store är en av de mest populära alternativa appbutikerna till Google Pl
 
 
 
-Du kan ladda ner Aurora Store från [officiell webbplats] (https://auroraoss.com/aurora-store) genom att klicka på "Release" -knappen i byggtyperna. Välj alternativet Vanilla om du använder ett annat telefonmärke än Huawei. Nya Huawei-telefonmodeller har sin egen version av Aurora Store på grund av deras begränsningar för Google-tjänster till följd av amerikanska sanktioner.
+Du kan ladda ner Aurora Store från [officiell webbplats](https://auroraoss.com/aurora-store) genom att klicka på "Release" -knappen i byggtyperna. Välj alternativet Vanilla om du använder ett annat telefonmärke än Huawei. Nya Huawei-telefonmodeller har sin egen version av Aurora Store på grund av deras begränsningar för Google-tjänster till följd av amerikanska sanktioner.
 
 
 
@@ -44,13 +44,13 @@ Du kan också ladda ner Aurora Store från andra applikationsbutiker som F-Droid
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Vi rekommenderar dock att du laddar ner APK-filen direkt från den officiella webbplatsen för att säkerställa äktheten och integriteten hos Aurora Store.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 En APK-fil (Android Package Kit) är det paketformat som används av operativsystemet Android för att distribuera och installera program. Det motsvarar **.exe**-filer på Windows eller **.dmg**-filer på macOS.
 
@@ -88,7 +88,7 @@ Från Aurora Store kan du komma åt katalogen över applikationer som finns till
 
 
 
-## Funktioner
+### Funktioner
 
 
 
@@ -155,4 +155,4 @@ Aurora Store är mer än bara en applikationsbutik, det är en öppen källkodsl
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

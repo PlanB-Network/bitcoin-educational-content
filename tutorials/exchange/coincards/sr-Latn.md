@@ -42,7 +42,7 @@ Kao i njegov veliki brat Bitrefill, i njegovi konkurenti (The Bitcoin Company, C
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards nudi širok spektar izbora, od maloprodaje do brze hrane, streaming platformi, online igara, e-commerce sajtova i još mnogo toga...
 
@@ -67,7 +67,7 @@ Ovo je prilika da podsetimo one koji bi želeli da plate svoje poklon kartice u 
 
 
 
-Izbor tutorijala o glavnim Lightning portfolijima (Phoenix, Breez, BitKit, Zeus...) možete pronaći ovde: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+Izbor tutorijala o glavnim Lightning portfolijima (Phoenix, Breez, BitKit, Zeus...) možete pronaći ovde: [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -75,7 +75,7 @@ Ako želite da saznate više o tome kako Lightning Network funkcioniše, dostupa
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Kako da kupim BTC poklon karticu na Coincards?
 
@@ -244,4 +244,4 @@ Ako želite da pomognete u popularizaciji Bitcoin i ohrabrite nezavisnog trgovca
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

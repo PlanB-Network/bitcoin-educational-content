@@ -1,0 +1,8 @@
+question: Milline krüptograafiline mehhanism võimaldab Blockstream AMP pimendavas arhitektuuris varade summa krüpteerimist, säilitades samal ajal tehingu kehtivuse kontrolli?
+answer: Elliptilise kõveraga Diffie-Hellmani võtmevahetus koos vahemiktõenditega, mis kontrollivad tehingu kehtivust ilma krüpteeritud väärtusi paljastamata
+wrong_answers:
+  - Nullteadmistega SNARKid koos kohustusskeemidega, mis varjavad tehingusummasid, tõestades samal ajal arvutuslikku terviklikkust
+  - Rõngasallkirjad varjatud aadressidega, mis varjavad saatja identiteeti, säilitades samal ajal krüptograafilise kontrollitavuse
+  - Homomorfne krüpteerimine Merkle Tree'i kohustustega, mis võimaldavad matemaatilisi operatsioone krüpteeritud tehinguandmetega
+explanation: |
+  AMP kasutab ECDH võtmevahetust, kus saatjad krüpteerivad varasummasid, kasutades vastuvõtjate pimestavaid avalikke võtmeid, genereerides vahemiktõendeid, mis kontrollivad matemaatiliselt tehingu kehtivust ilma väärtusi paljastamata. See erineb SNARKidest (arvutuslikud tõendid), ringallkirjadest (anonüümsuse fookus) või homomorfsest krüpteerimisest (arvutamine krüpteeritud andmetega) - AMP vajab konkreetselt konfidentsiaalseid, kuid kontrollitavaid tehinguid.

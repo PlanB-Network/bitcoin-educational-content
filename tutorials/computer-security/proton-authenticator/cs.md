@@ -194,7 +194,7 @@ Nejprve si můžete přečíst našeho průvodce službou ProtonMail, kde najdet
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 Přihlaste se ke svému účtu ProtonMail a přejděte do nastavení zabezpečení. Vyhledejte možnost "Dvoufaktorové ověřování" a aktivujte ji.
 
@@ -495,7 +495,7 @@ V ideálním případě používejte na kritických účtech více než jeden dr
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Stejně tak mějte po ruce vytištěné nouzové kódy.
 
@@ -545,7 +545,7 @@ Níže najdete našeho průvodce službou Authy:
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Proton Authenticator je jedno z nejkomplexnějších a nejbezpečnějších řešení: open source, šifrovaná synchronizace pro více zařízení, žádné komerční návaznosti.
 

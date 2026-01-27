@@ -1,0 +1,8 @@
+question: Cosa succede quando si costruisce un albero di Merkle a partire dalle transazioni se il numero di hash a qualsiasi livello è dispari?
+answer: L'ultimo hash viene duplicato per creare un numero pari di coppie per il livello successivo
+wrong_answers:
+  - L'ultimo hash viene riportato invariato al livello successivo senza accoppiamento
+  - L'ultimo hash viene sottoposto a XOR con il primo hash di quel livello per completare l'accoppiamento
+  - L'ultimo hash viene combinato con un hash nullo (tutti zeri) per creare la coppia finale
+explanation: |
+  La costruzione dell'albero di Merkle di Bitcoin richiede l'accoppiamento degli hash a ogni livello. Quando esiste un numero dispari, il protocollo duplica specificamente l'ultimo hash per garantire un accoppiamento corretto. In questo modo si mantiene la struttura binaria dell'albero e si assicura il calcolo deterministico delle radici. Le altre opzioni romperebbero la compatibilità con le regole di consenso di Bitcoin e creerebbero Merkle Root diverse per set di transazioni identici.

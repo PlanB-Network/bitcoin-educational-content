@@ -1,9 +1,9 @@
-question: Ni igiki congerewe mu ci ca 2010 catumye habaho amaforogo ya Soft muri Bitcoin?
-answer: Kode z'imikorere ya OP_NOP
+question: Ni igiki congerewe mu ci rya 2010 catumye habaho ama softs forks ya Bitcoin?
+answer: The OP_NOP operation codes
 wrong_answers:
-  - Uburyo bwo kugabisha
-  - Ingano y'ibubiko
-  - Uburyo busanzwe bwo gucuruza
+  - Uburyo bwo kugabisha(The alert system)
+  - UBuringanire block itarenza(The block size limit)
+  - Uburyo busanzwe bwo gucuruza(The standard transaction format)
 explanation: |
-  Ivyo vyari amabwirizwa ya no-op atashobora guhindura inyandiko iyo ikoreshejwe. Bashoboje kwongerako OP_GUSUZUMA IGIHE C'ISAHA ​​na OP_GUSUZUMA URUTONDE ku masezerano mu 2015/2016.
+  Ivyo vyari amabwirizwa ya no-op atashobora guhindura inyandiko iyo ikoreshejwe. Bashoboje kwongerako OP_CHECKLOCKTIMEVERIFY and OP_CHECKSEQUENCEVERIFY ku masezerano mu 2015/2016.
 reviewed: true

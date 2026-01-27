@@ -6,7 +6,7 @@ description: Bruke COLDCARD Qs avanserte alternativer
 
 I en tidligere veiledning gjennomgikk vi den første konfigurasjonen av COLDCARD Q og de grunnleggende funksjonene for nybegynnere. Hvis du nettopp har mottatt COLDCARD Q og ikke har konfigurert det ennå, anbefaler jeg at du starter med den veiledningen før du fortsetter her:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Denne nye veiledningen er dedikert til COLDCARD Qs avanserte alternativer, designet for avanserte og paranoide brukere. COLDCARDs skiller seg faktisk fra andre maskinvarelommebøker ved sine mange avanserte sikkerhetsfunksjoner. Du trenger selvfølgelig ikke å bruke alle disse alternativene. Bare velg de som passer din sikkerhetsstrategi.
 
@@ -20,7 +20,7 @@ Før du begynner, må du sørge for at du har tilgang til en fysisk sikkerhetsko
 
 Hvis du ikke vet hva en BIP39-passordfrase er, eller hvis det ikke er helt klart for deg hvordan den fungerer, anbefaler jeg på det sterkeste at du tar en titt på denne veiledningen på forhånd, som dekker det teoretiske grunnlaget som trengs for å forstå risikoen forbundet med å bruke en passordfrase :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Husk at når du har satt opp passordfrasen i lommeboken din, vil ikke huskeregelen alene være nok til å få tilgang til bitcoinsene dine igjen. Du trenger både huskeregelen og passordfrasen. I tillegg må du oppgi passordfrasen hver gang du låser opp COLDCARD Q. Dette øker sikkerheten ved å gjøre fysisk tilgang til COLDCARD og kjennskap til PIN-koden utilstrekkelig uten passordfrasen.
 
@@ -68,7 +68,7 @@ Bekreft at fingeravtrykket som vises, stemmer overens med lommeboken din, og kli
 
 Husk at bruk av en passordfrase betyr at du må importere et nytt sett med nøkler som er avledet fra kombinasjonen av den mnemoniske frasen og passordfrasen i lommebokadministrasjonsprogramvaren din (som Sparrow Wallet). For å gjøre dette, følg trinnet "*Konfigurer en ny lommebok på Sparrow*" i denne andre veiledningen :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Låser opp alternativer
 
@@ -202,7 +202,7 @@ Fra nå av vises en fungerende kalkulator med grunnleggende kommandoer hver gang
 
 ![CCQ](assets/fr/34.webp)
 
-Du kan for eksempel beregne SHA256-hashingen av "*Plan B Network*".
+Du kan for eksempel beregne SHA256-hashingen av "*Plan ₿ Academy*".
 
 ![CCQ](assets/fr/35.webp)
 
@@ -247,4 +247,4 @@ Hvis du fant denne opplæringen nyttig, ville jeg være veldig takknemlig hvis d
 
 Jeg anbefaler også denne andre veiledningen, der vi diskuterer bruken av en direkte konkurrent til CCQ, Ledger Flex :
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

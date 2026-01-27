@@ -710,7 +710,7 @@ Sparrow سه حالت اتصال ارائه می‌دهد:
 برای اطلاعات بیشتر در مورد نرم‌افزار Sparrow wallet، ما یک آموزش جامع داریم:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## نتیجه‌گیری
 
 

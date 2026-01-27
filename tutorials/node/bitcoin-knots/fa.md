@@ -47,7 +47,7 @@ Bitcoin Knots یک پیاده‌سازی جایگزین از پروتکل Bitcoi
 قبل از نصب نرم‌افزار بر روی دستگاه خود، اکیداً توصیه می‌کنیم که اصالت و یکپارچگی آن را بررسی کنید. اگر نمی‌دانید چگونه، به این آموزش دیگر نگاهی بیندازید:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 پس از تأیید نرم‌افزار، با دنبال کردن مراحل مشخص شده در پنل نصب، آن را نصب کنید.
 
 
@@ -173,7 +173,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 passphrase BIP39 یک رمز عبور اختیاری است که می‌توانید به‌صورت آزادانه انتخاب کنید، علاوه بر عبارت Mnemonic خود، برای افزایش امنیت Wallet شما. قبل از پیکربندی این ویژگی، به شدت توصیه می‌کنیم که مقاله زیر را بخوانید، که به‌طور مفصل توضیح می‌دهد که چگونه passphrase به‌صورت نظری کار می‌کند و چگونه می‌توان از اشتباهاتی که ممکن است به از دست دادن دائمی بیت‌کوین‌های شما منجر شود، جلوگیری کرد:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 اگر گزینه passphrase را فعال کرده‌اید، یک گزینه قوی انتخاب کنید و آن را با دقت بر روی یک یا چند رسانه فیزیکی امن ذخیره کنید.
 
 
@@ -407,4 +407,4 @@ rpcpassword=my_password
 من همچنین این آموزش دیگر را توصیه می‌کنم که در آن توضیح می‌دهم چگونه نود لایتنینگ خود را راه‌اندازی کنید:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

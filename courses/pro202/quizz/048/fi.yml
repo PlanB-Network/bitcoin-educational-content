@@ -1,0 +1,8 @@
+question: Mitä tapahtuu, kun Merkle-puu rakennetaan transaktioista, jos hashien määrä millä tahansa tasolla on pariton?
+answer: Viimeinen hash-koodi monistetaan, jotta seuraavaa tasoa varten saadaan parillinen määrä pareja
+wrong_answers:
+  - Viimeinen hash siirretään muuttumattomana seuraavalle tasolle ilman paritusta
+  - Viimeinen hash-tieto XOR-korjataan kyseisen tason ensimmäisen hash-tieton kanssa parituksen loppuun saattamiseksi
+  - Viimeinen hash yhdistetään nollahashiin (kaikki nollat) lopullisen parin luomiseksi
+explanation: |
+  Bitcoin:n Merkle-puun rakentaminen edellyttää hashien yhdistämistä jokaisella tasolla. Kun on olemassa pariton määrä, protokolla kopioi erityisesti viimeisen hash:n, jotta varmistetaan asianmukainen paritus. Näin säilytetään puun binäärirakenne ja varmistetaan deterministinen juuren laskenta. Muut vaihtoehdot rikkoisivat yhteensopivuuden Bitcoin:n konsensussääntöjen kanssa ja loisivat eri Merkle-juuret identtisille tapahtumasarjoille.

@@ -62,7 +62,7 @@ Minibits'i kurarken, temel kavramları açıklayan tanıtım ekranları görecek
 Uygulamayı başlattığınızda varsayılan olarak Minibits darphanesi etkinleştirilir. Bununla birlikte, ecash'in güçlü yönlerinden biri, daha fazla merkeziyetsizlik ve güvenlik için birden fazla darphane kullanabilmesidir. Başka bir darphane eklemek için `Ayarlar`a gidin, ardından `Darphaneleri yönet`i seçin ve son olarak `Darphane ekle`ye dokunun.
 
 
-[Bitcoinmints.com] (Bitcoinmints.com), saygın seçenekleri seçmenize yardımcı olmak için kullanıcı derecelendirmeleriyle birlikte mevcut darphanelerin kapsamlı bir listesini sunar. Birden fazla darphane kullanmak riskinizi azaltır. Bir darphanede sorun yaşanırsa, diğer darphanelerdeki fonlarınız erişilebilir kalır.
+[Bitcoinmints.com](Bitcoinmints.com), saygın seçenekleri seçmenize yardımcı olmak için kullanıcı derecelendirmeleriyle birlikte mevcut darphanelerin kapsamlı bir listesini sunar. Birden fazla darphane kullanmak riskinizi azaltır. Bir darphanede sorun yaşanırsa, diğer darphanelerdeki fonlarınız erişilebilir kalır.
 
 
 ![image](assets/en/04.webp)
@@ -73,7 +73,7 @@ Uygulamayı başlattığınızda varsayılan olarak Minibits darphanesi etkinle�
 
 Yedekleme, tüm kurulum sürecindeki tartışmasız en kritik adımdır. Yedekleme seçeneklerine erişmek için `Ayarlar`-> `Yedekleme` bölümüne gidin Burada iki temel seçenek bulacaksınız:
 
-1. cihaz kaybı durumunda ecash bakiyenizi kurtarmanızı sağlayan `12 kelime` içeren `seed cümleniz`. Bu seed cümlesi, eklediğiniz tüm darphanelerdeki tüm ecash için ana anahtarınızdır. Bunu fiziksel bir ortama (kağıt veya metal) yazın ve birden fazla yerde güvenli bir şekilde saklayın. seed ifadenizi asla ele geçirilebileceği bir yerde dijital olarak saklamayın. Wallet'nızı korumaya yönelik en iyi uygulamalar için bu [öğretici] (https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) adresini ziyaret etmeyi düşünün.
+1. cihaz kaybı durumunda ecash bakiyenizi kurtarmanızı sağlayan `12 kelime` içeren `seed cümleniz`. Bu seed cümlesi, eklediğiniz tüm darphanelerdeki tüm ecash için ana anahtarınızdır. Bunu fiziksel bir ortama (kağıt veya metal) yazın ve birden fazla yerde güvenli bir şekilde saklayın. seed ifadenizi asla ele geçirilebileceği bir yerde dijital olarak saklamayın. Wallet'nızı korumaya yönelik en iyi uygulamalar için bu [öğretici](https://planb.academy/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) adresini ziyaret etmeyi düşünün.
 
 2. uzun bir yedekleme dizesi içeren `Wallet yedekleme`.
 

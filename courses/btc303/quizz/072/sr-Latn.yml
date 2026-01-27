@@ -1,0 +1,12 @@
+question: Prema analizi Gregory Maxwella, šta stvara osnovni kompromis koji u raspravama o skaliranju Bitcoina primorava korisnike da se okreću servisima od poverenja?
+answer: I preterano visoka potrošnja resursa koja izbacuje validatore iz igre, i previše skup pristup blok-prostoru za rešavanje sporova
+wrong_answers:
+  - Sukob između povećanja propusnosti transakcija i održavanja adekvatne profitabilnosti rudarenja u različitim veličinama bazena
+  - Napetost između implementacije SegWit nadogradnje i očuvanja unazadne kompatibilnosti sa starim softverskim novčanicima
+  - Takmičenje između rešenja drugog sloja i on-chain pristupa skaliranju za ograničene razvojne resurse i podršku zajednice
+explanation: |
+  Maxwell je identifikovao dvostrani problem gde Bitcoin gubi svoje prednosti u oba smera: ako je korišćenje resursa previše visoko u odnosu na dostupnu 
+  tehnologiju, validacija postaje preskupa i korisnici bivaju isključeni, te moraju da se oslanjaju na pouzdane treće strane umesto da validiraju nezavisno. 
+  Suprotno tome, ako je kapacitet prenizak i metode transakcija su neefikasne, pristupanje blockchain-u za rešavanje sporova postaje preterano skupo, 
+  što opet gura korisnike ka pouzdanim uslugama. Ovo stvara delikatan balans koji rešenja za skaliranje moraju da navigiraju.
+reviewed: true

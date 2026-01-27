@@ -18,7 +18,7 @@ W ramach ekosystemu Bitcoin, Wallet z Satoshi jest zalecanym Wallet do rozpoczę
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Aby ułatwić przyjęcie Bitcoin w społecznościach na całym świecie, Wallet z Satoshi utworzył również punkt sprzedaży, aby zachęcić użytkowników do znalezienia sprawdzonego zastosowania w ich społeczności: kupowania i sprzedawania towarów i usług za pomocą Bitcoin.
 
@@ -174,16 +174,16 @@ Masz teraz narzędzie do akceptacji Bitcoin w swojej firmie w zaledwie kilka min
 
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 A jeśli szukasz kompletnego PoS odpowiedniego dla małych i średnich firm, polecam również Swiss Bitcoin Pay:
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Wreszcie, znajdź nasz kompletny kurs szkoleniowy, aby nauczyć się podstaw płatności Bitcoin i przepływów pieniężnych dla firm:
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

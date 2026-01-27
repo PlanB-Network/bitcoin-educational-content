@@ -21,7 +21,7 @@ Có lẽ bạn đã quen thuộc với câu châm ngôn "Not your key, not your 
 
 
 
-BTC 202 là một khóa học dễ tiếp cận, được thiết kế để hướng dẫn bạn cách tự làm nút thắt Bitcoin, ngay cả khi bạn không phải là chuyên gia kỹ thuật. Chúng ta sẽ bắt đầu bằng cách định nghĩa nút thắt Bitcoin là gì, công dụng của nó, và tại sao việc tự làm một nút thắt Bitcoin lại vô cùng cần thiết. Sau đó, tôi sẽ hướng dẫn bạn từng bước lựa chọn phần cứng, cài đặt phần mềm cần thiết, kết nối Wallet và thực hiện những tối ưu hóa đầu tiên để nâng cao hơn nữa.
+BTC 202 là một khóa học dễ tiếp cận được thiết kế để dạy bạn cách vận hành nút Bitcoin của riêng mình, ngay cả khi bạn không phải là chuyên gia kỹ thuật. Chúng ta sẽ bắt đầu bằng cách định nghĩa nút Bitcoin là gì, nó có chức năng gì và tại sao việc tự mình vận hành nó lại vô cùng quan trọng. Sau đó, tôi sẽ hướng dẫn bạn từng bước trong việc chọn phần cứng, cài đặt phần mềm cần thiết, kết nối phần mềm ví và thực hiện những tối ưu hóa ban đầu để tiến xa hơn.
 
 
 
@@ -118,7 +118,7 @@ Sau đó, chúng ta sẽ dành thời gian xem lại một số lý thuyết đ�
 
 
 
-Giống như tất cả các khóa học Plan ₿ Network, ở phần cuối, bạn sẽ thấy bài kiểm tra cuối kỳ để kiểm tra kiến thức của bạn về các nút Bitcoin.
+Giống như tất cả các khóa học Plan ₿ Academy, ở phần cuối, bạn sẽ thấy bài kiểm tra cuối kỳ để kiểm tra kiến thức của bạn về các nút Bitcoin.
 
 
 
@@ -328,7 +328,7 @@ Miner cần có một nút Bitcoin để tương tác với mạng.
 
 
 
-Vai trò của Miner đôi khi cũng được phân biệt với vai trò của máy băm. Máy băm là một máy có nhiệm vụ tạo mẫu các khối do máy chủ của nhóm cung cấp, tìm kiếm các giá trị băm thỏa mãn mục tiêu độ khó được xác định cho các phần chia sẻ, chứ không phải mục tiêu của Bitcoin. Phần còn lại của quy trình Mining, bao gồm xây dựng khối thực tế, lựa chọn giao dịch hoặc tìm kiếm Proof-of-Work theo độ khó riêng của Bitcoin, cũng như phân phối, được thực hiện trực tiếp bởi các nhóm.
+Vai trò của Miner đôi khi cũng được phân biệt với vai trò của grind. Grind là một máy có nhiệm vụ tạo mẫu các khối do máy chủ của nhóm cung cấp, tìm kiếm các giá trị băm thỏa mãn mục tiêu độ khó được xác định cho các phần chia sẻ, chứ không phải mục tiêu của Bitcoin. Phần còn lại của quy trình Mining, bao gồm xây dựng khối thực tế, lựa chọn giao dịch hoặc tìm kiếm Proof-of-Work theo độ khó riêng của Bitcoin, cũng như phân phối, được thực hiện trực tiếp bởi các nhóm.
 
 
 
@@ -410,7 +410,7 @@ Nói cách khác, khoảng 9/10 nút công khai đang chạy Bitcoin core. Phầ
 
 
 
-Bitcoin core được viết bằng C++. Đây cũng là một dự án nguồn mở được duy trì bởi một cộng đồng các nhà phát triển tình nguyện hoặc được trả lương bởi nhiều tổ chức khác nhau (thường là các công ty trong hệ sinh thái có lợi ích liên quan đến việc phát triển Core). [Mã được lưu trữ trên GitHub](https://github.com/Bitcoin/Bitcoin), và quá trình phát triển tuân theo một quy trình nghiêm ngặt:
+Bitcoin Core là phần mềm được viết bằng C++. Đây cũng là một dự án mã nguồn mở được duy trì bởi cộng đồng các nhà phát triển — tình nguyện viên hoặc được tài trợ bởi các tổ chức khác nhau (thường là các công ty trong hệ sinh thái có lợi ích trong việc phát triển Core một cách thuận lợi). [Mã nguồn được lưu trữ trên GitHub](https://github.com/bitcoin/bitcoin), và quá trình phát triển tuân theo một mô hình nghiêm ngặt:
 
 
 
@@ -448,7 +448,7 @@ Chúng ta cũng có thể đề cập đến:
 
 - Libbitcoin**: một thư viện C++ dạng mô-đun được phát triển bởi Amir Taaki và được bảo trì bởi Eric Voskuil;
 - Bcoin**: một triển khai JavaScript, hiện không còn được duy trì tích cực;
-- BTCD/btcsuit**e: một triển khai trong Go.
+- **BTCD/btcsuite** : một bản triển khai bằng Go.
 
 
 
@@ -481,7 +481,7 @@ Như chúng ta sẽ thảo luận sau trong khóa học này, chính các nút, 
 
 
 
-## Tại sao phải tự vặn nút thắt của mình?
+## Tại sao nên vận hành nút của riêng bạn?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Có một niềm tin rộng rãi rằng việc vận hành một nút Bitcoin l�
 
 
 
-Thật vậy, như chúng tôi đã chỉ ra trong các chương trước, việc dệt nút không mang lại lợi ích tài chính trực tiếp nào. Do đó, người ta có thể nghĩ rằng việc này không liên quan gì đến lợi ích cá nhân. Tuy nhiên, việc vận hành nút riêng mang lại nhiều lợi ích cá nhân. Để thuyết phục bạn về điều này, trong chương này, tôi sẽ trình bày tất cả các lý do, cả về mặt kỹ thuật lẫn chiến lược, tại sao bạn nên cài đặt và sử dụng nút Bitcoin của riêng mình.
+Như chúng ta đã nhấn mạnh trong các chương trước, việc vận hành một nút không mang lại lợi ích tài chính trực tiếp. Do đó, có thể nghĩ rằng không có lợi ích cá nhân nào khi làm như vậy. Tuy nhiên, việc vận hành nút của riêng mình mang lại nhiều lợi ích cá nhân. Để thuyết phục bạn, trong chương này tôi sẽ trình bày tất cả các lý do, cả kỹ thuật lẫn chiến lược, nên khuyến khích bạn cài đặt và sử dụng nút Bitcoin của riêng mình.
 
 
 
@@ -516,7 +516,7 @@ Bằng cách sử dụng nút riêng, bạn truyền tải giao dịch trực ti
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Giao dịch không thể kiểm duyệt
 
@@ -576,7 +576,7 @@ Việc cài đặt Full node không phải là một thao tác đơn giản. Nó
 
 
 
-Việc có được kiến thức này sẽ củng cố niềm tin của bạn vào công cụ và có thể giảm thiểu nguy cơ mắc lỗi hoặc bị lừa đảo. Tự mình thắt nút cũng là một hình thức học tập.
+Việc có được kiến thức này giúp củng cố niềm tin của bạn vào công cụ và có thể giảm nguy cơ mắc lỗi hoặc bị lừa đảo. Vận hành nút của riêng mình cũng là một quá trình học hỏi.
 
 
 
@@ -692,7 +692,7 @@ Vậy nên, điều quan trọng không phải là số lượng nút, mà là t
 
 
 
-> Không phải nút thắt của bạn, không phải quy tắc của bạn.
+> Không phải nút của bạn, không phải quy tắc của bạn.
 
 
 ## Các loại nút Bitcoin khác nhau
@@ -706,7 +706,7 @@ Do đó, một nút Bitcoin là một máy chạy một phiên bản triển kha
 
 
 
-### Nút thắt hoàn chỉnh
+### Nút đầy đủ
 
 
 
@@ -730,7 +730,7 @@ Tùy thuộc vào nhu cầu, bạn có thể thêm một bộ lập chỉ mục 
 
 
 
-### Nút thắt pruned
+### Nút được cắt tỉa
 
 
 
@@ -754,7 +754,7 @@ Tóm lại, việc theo dõi Wallet hoạt động trơn tru trên một nút pr
 
 
 
-### Nút thắt nhẹ / SPV
+### Nút nhẹ / SPV
 
 
 
@@ -849,7 +849,7 @@ Cài đặt một triển khai thô nghĩa là sử dụng trực tiếp phần 
 
 
 
-#### Bitcoin core (khách hàng cực kỳ đa số)
+#### Bitcoin Core (khách hàng chiếm đa số tuyệt đối)
 
 
 
@@ -865,9 +865,9 @@ Cài đặt một triển khai thô nghĩa là sử dụng trực tiếp phần 
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
 #### Bitcoin Knots (khách hàng thay thế chính)
 
@@ -886,7 +886,7 @@ Có 2 lý do để chọn Knots thay vì Core:
 - Chính sách**: Một số người thích sử dụng các máy khách thay thế như Knots vì những lý do phi kỹ thuật, đặc biệt là để hỗ trợ một giải pháp thay thế cho Core và do đó giảm bớt sự độc quyền của nó. Nếu Core bị xâm phạm, việc có các máy khách thay thế vững chắc, được bảo trì tốt sẽ rất hữu ích không chỉ mà còn phải biết cách sử dụng chúng một cách hiệu quả. Những người khác sử dụng Knots cho mục đích phản đối, vì họ đã mất niềm tin vào các nhà phát triển của Core hoặc không đồng tình với phần lớn ban quản lý của máy khách.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Cá nhân tôi khuyên bạn nên chọn Core, chủ yếu để được hưởng lợi từ các bản vá bảo mật nhanh hơn. Thực tế, một số lỗ hổng được phát hiện trong Knots được khắc phục khá chậm. Nhìn chung, quy trình phát triển của Core được xây dựng chặt chẽ và được hỗ trợ bởi một số lượng lớn người đóng góp, trong khi Knots chỉ được duy trì bởi một người và có cộng đồng nhỏ hơn nhiều. Mặt khác, các quy tắc chuyển tiếp có xu hướng mất đi tính hữu ích ngày nay, đặc biệt là khi chỉ được áp dụng bởi một phần rất nhỏ của mạng lưới (theo lý thuyết thẩm thấu).
 
@@ -942,7 +942,7 @@ Tôi sẽ không đi sâu vào chi tiết về cách thức hoạt động và c
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -968,7 +968,7 @@ Tóm lại, nếu bạn chỉ cần các ứng dụng thiết yếu cho Bitcoin,
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### Nút của tôi
 
@@ -986,7 +986,7 @@ Trên thực tế, MyNode tập hợp tất cả các khối xây dựng cơ b�
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ Nếu bạn sở hữu Raspberry Pi, đây là một lựa chọn tuyệt vời,
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ Trước đây, dự án đã cung cấp một máy được cấu hình sẵn c
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1521,7 +1521,7 @@ Một trong những lợi thế chính của Umbrel so với các đối thủ c
 
 
 
-Mã nguồn của Umbrel được công khai (bạn có thể xem Fork và chỉnh sửa nó), nhưng nó không được cấp phép theo giấy phép nguồn mở thực sự. Trên thực tế, umbrelOS được phân phối theo giấy phép [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), mặc dù một số công cụ phát triển liên quan được cung cấp theo giấy phép MIT.
+Mã nguồn của Umbrel được công khai (bạn có thể xem Fork và chỉnh sửa nó), nhưng nó không được cấp phép theo giấy phép nguồn mở thực sự. Trên thực tế, umbrelOS được phân phối theo giấy phép [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), mặc dù một số công cụ phát triển liên quan được cung cấp theo giấy phép MIT.
 
 
 
@@ -1565,7 +1565,7 @@ Nếu bạn đã chọn Raspberry Pi 5 (một lựa chọn tôi không khuyến 
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Như đã đề cập ở phần trước, tôi đã chọn chạy hướng dẫn này trên một chiếc PC nhỏ đã tân trang mà tôi tìm thấy với mức giá tốt: *Lenovo ThinkCentre M900 Tiny* được trang bị bộ vi xử lý Intel Core i7 và RAM 16 GB. Đây là cấu hình rất thoải mái để chạy Umbrel, đặc biệt là đối với một node Bitcoin. Tuy nhiên, tôi chọn cấu hình này vì tôi muốn cài đặt một node Lightning và các ứng dụng đòi hỏi nhiều tài nguyên hơn sau này. Tôi cũng đã thêm một ổ SSD 2TB vào ThinkCentre của mình để giữ nguyên toàn bộ Blockchain và vẫn có một khoản dự phòng thoải mái. Với cấu hình này, tổng chi phí là 270 euro, bao gồm tất cả các chi phí.
 
@@ -1822,7 +1822,7 @@ http://192.168.1.42
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Chọn mật khẩu mạnh và đảm bảo bạn giữ ít nhất một bản s
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Sau khi nhập mật khẩu, hãy nhấp vào nút "*Tạo*".
 
@@ -1944,7 +1944,7 @@ Trước hết, tôi thực sự khuyên bạn nên bật xác thực hai yếu 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Để thực hiện việc này, hãy nhấp vào ô tương ứng trong phần cài đặt.
 
@@ -2435,7 +2435,7 @@ Như đã đề cập trước đó, trình duyệt có thể được lưu tr�
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Hơn nữa, Nhà cung cấp dịch vụ Internet (ISP) của bạn có thể biết bạn đang xem một giao dịch cụ thể thông qua trang web Block explorer. Điều này cũng đặt ra vấn đề về lòng tin: bạn phải tin tưởng vào dịch vụ trực tuyến để cung cấp thông tin chính xác về các giao dịch của mình mà không thể tự mình xác minh tính xác thực của thông tin đó.
 
@@ -2472,7 +2472,7 @@ Sau khi cài đặt ứng dụng, bạn chỉ cần mở ứng dụng để truy
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Nút sét
 
@@ -2492,15 +2492,15 @@ Umbrel cung cấp một số ứng dụng giúp bạn thiết lập và vận h�
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Sau đó, bạn có thể quản lý nút của mình từ Interface chính, hoặc để có chức năng tốt hơn và các tùy chọn nâng cao hơn, hãy cài đặt *Ride The Lightning* hoặc *ThunderHub*. Các công cụ này sẽ cung cấp cho bạn một hệ thống quản lý Interface dựa trên web toàn diện hơn nhiều cho nút của bạn.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2514,9 +2514,11 @@ Cuối cùng, tôi khuyên bạn nên sử dụng ứng dụng *Lightning Networ
 
 
 
-Nhờ Umbrel, việc quản lý một node Lightning cá nhân đã được đơn giản hóa đáng kể, nhưng vẫn còn tương đối phức tạp. Vì lý do này, chúng ta sẽ xem xét kỹ hơn chủ đề này trong một khóa học sắp tới dành riêng cho việc sử dụng này.
+Nhờ Umbrel, việc quản lý một nút Lightning cá nhân trở nên đơn giản hơn, nhưng vẫn tương đối phức tạp. Chính vì vậy, tôi khuyến nghị bạn theo học khóa LNP 202, là phần tiếp nối hợp lý của khóa BTC 202, trong đó tôi sẽ đồng hành cùng bạn từng bước trong việc thiết lập và quản lý nút Lightning của bạn trên Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Vảy đuôi
 
@@ -2564,7 +2566,7 @@ Do đó, Tailscale trên Umbrel là một giải pháp rất thú vị nếu b�
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2590,7 +2592,7 @@ Các ứng dụng khách Nostr ***noStrudel*** hoặc ***Snort*** cũng có sẵ
 
 
 
-Cuối cùng, còn có ứng dụng ***Nostr Wallet Connect*** trên Umbrel, cho phép thanh toán Lightning gốc trong Nostr. Cụ thể, bạn có thể liên kết nút Lightning tương lai của mình với khách hàng Nostr để gửi các khoản thanh toán nhỏ, được gọi là "*zaps*", để thưởng cho nội dung hoặc tương tác theo hình thức kiếm tiền, mà không cần thông qua dịch vụ của bên thứ ba. Các khoản thanh toán này được gửi trực tiếp từ nút cá nhân của bạn thông qua các kênh của bạn.
+Cuối cùng, có ứng dụng ***Nostr Wallet Connect*** trên Umbrel, cho phép thực hiện các khoản thanh toán Lightning gốc trong Nostr. Cụ thể, bạn có thể liên kết nút Lightning trong tương lai của mình với các ứng dụng khách Nostr để gửi các khoản thanh toán nhỏ, gọi là “*zaps*”, nhằm thưởng cho nội dung hoặc tương tác theo cách kiếm tiền, mà không cần qua dịch vụ bên thứ ba. Các khoản thanh toán này được gửi trực tiếp từ nút cá nhân của bạn qua các kênh của bạn.
 
 
 
@@ -2598,7 +2600,7 @@ Cuối cùng, còn có ứng dụng ***Nostr Wallet Connect*** trên Umbrel, cho
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### Máy chủ BTCPay
 
@@ -2626,7 +2628,7 @@ Nếu bạn sở hữu một doanh nghiệp và muốn chấp nhận thanh toán
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2636,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2644,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Các khái niệm nâng cao và thực hành tốt nhất
@@ -2652,7 +2654,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Duy trì nút thắt ô của bạn
+## Bảo trì nút Umbrel của bạn
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2751,7 +2753,7 @@ Không bao giờ để bảng điều khiển truy cập Internet mà không s�
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Chẩn đoán và tự giúp đỡ
 
@@ -2929,7 +2931,7 @@ Nếu nút của bạn đang lắng nghe trên một cổng mở (mặc định 
 
 
 
-## Cấu tạo nút thắt Bitcoin của bạn
+## Cấu trúc của nút Bitcoin của bạn
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,7 +2943,7 @@ Khi nút của bạn hoàn tất quá trình đồng bộ hóa ban đầu, nó s
 
 
 
-- gW-402 **khối** được lưu trữ trên đĩa,
+- các **khối** của blockchain được lưu trữ trên đĩa,
 - bộ **UTXO** được duy trì trong cơ sở dữ liệu khóa-giá trị,
 - và **Mempool** được lưu trữ trong RAM và được tuần tự hóa theo định kỳ.
 
@@ -3077,9 +3079,9 @@ Sự phát triển của bộ UTXO cũng bắt nguồn từ cấu trúc của c�
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Vì một phần của nó phải được lưu trữ trong RAM để xác minh các giao dịch trong thời gian hợp lý, bộ UTXO có thể dần dần khiến việc vận hành Full node trở nên quá tốn kém. Để giải quyết vấn đề này, một số đề xuất đã được đưa ra, đáng chú ý là [Utreexo](https://planb.network/resources/glossary/utreexo).
+Vì một phần của nó phải được lưu trữ trong RAM để xác minh các giao dịch trong thời gian hợp lý, bộ UTXO có thể dần dần khiến việc vận hành Full node trở nên quá tốn kém. Để giải quyết vấn đề này, một số đề xuất đã được đưa ra, đáng chú ý là [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3093,7 +3095,7 @@ Mempool là tập hợp cục bộ các giao dịch hợp lệ đã được nh�
 
 
 - kích thước được phân bổ cho Mempool thông qua tham số `maxmempool`: một nút có Mempool lớn hơn sẽ có thể chứa nhiều giao dịch hơn một nút có Mempool nhỏ hơn (trừ khi nút sau bị trống);
-- Quy tắc gW-433: đây là một tập hợp con các quy tắc chuyển tiếp của nút và xác định các đặc điểm mà một giao dịch chưa xác nhận phải đáp ứng để được chấp nhận trong Mempool;
+- các quy tắc của mempool: chúng tạo thành một tập hợp con của các quy tắc chuyển tiếp của nút và xác định các đặc điểm mà một giao dịch chưa được xác nhận phải đáp ứng để được chấp nhận vào mempool;
 - sự thẩm thấu giao dịch: do nhiều yếu tố khác nhau, một giao dịch nhất định có thể đã được phân phối đến một phần của mạng nhưng chưa đến được phần khác.
 
 
@@ -3135,10 +3137,10 @@ Một số tệp khác ở cùng cấp độ như `blocks/`, `chainstate/` và `
 - Khi nút bị tắt, `anchors.dat` sẽ lưu địa chỉ của các đối tác gửi đi để bạn có thể thử liên hệ lại với họ một cách nhanh chóng vào lần khởi động tiếp theo.
 - `banlist.json` chứa các lệnh cấm cục bộ do người vận hành hoặc nút quyết định (hành vi không hợp lệ lặp lại) nhằm ngăn nút kết nối lại hoặc chấp nhận kết nối từ các đối tác cụ thể này.
 - `fee_estimates.dat` lưu trữ số liệu thống kê về mốc thời gian đối với các xác nhận được quan sát, được bộ ước tính phí sử dụng để đề xuất mức phí phù hợp với mục tiêu độ trễ đã chọn khi tạo giao dịch.
-- gW-446.conf` chứa các tham số cấu hình của nút. Đây là nơi bạn có thể điều chỉnh các quy tắc chuyển tiếp. Tôi sẽ nói thêm về điều này trong chương tiếp theo.
+- `bitcoin.conf` chứa các tham số cấu hình của nút của bạn. Chính trong tệp này, các quy tắc chuyển tiếp có thể được điều chỉnh. Tôi sẽ trình bày chi tiết hơn trong chương tiếp theo;
 - `settings.json` chứa các tham số bổ sung cho `Bitcoin.conf`.
 - `debug.log` là nhật ký văn bản chẩn đoán, có thể được sử dụng để hiểu hoạt động của nút trong trường hợp xảy ra lỗi.
-- gW-448.pid` lưu trữ mã định danh quy trình khi chạy, cho phép các ứng dụng hoặc tập lệnh khác dễ dàng nhận dạng bitcoind (*Bitcoin daemon*) và tương tác với nó nếu cần. Mã này được tạo khi khởi động nút và bị xóa khi tắt máy.
+- `bitcoind.pid` ghi lại mã định danh tiến trình trong quá trình thực thi, cho phép các ứng dụng hoặc tập lệnh khác dễ dàng xác định Bitcoind (*Bitcoin Daemon*) và tương tác với nó khi cần thiết. Nó được tạo khi nút khởi động và bị xóa khi tắt;
 - `ip_asn.map` là bảng ánh xạ IP → ASN (hệ thống độc lập) được sử dụng để phân nhóm và đa dạng hóa ngang hàng (tùy chọn `-asmap`).
 - `onion_v3_private_key` lưu trữ khóa riêng của dịch vụ Tor v3 khi tùy chọn `-listenonion` được bật, nhằm duy trì onion Address ổn định giữa các lần khởi động lại.
 - `i2p_private_key` lưu trữ khóa riêng tư I2P khi `-i2psam=` được sử dụng để tạo kết nối đi và có thể là kết nối đến trên I2P.
@@ -3154,9 +3156,9 @@ Như chúng ta đã thấy trong các phần đầu của khóa học BTC 202 n�
 
 
 
-- `wallets/` là thư mục mặc định lưu trữ một hoặc nhiều;
+- `wallets/` là thư mục mặc định lưu trữ một hoặc nhiều ví;
 - `wallets/<name>/Wallet.dat` là cơ sở dữ liệu SQLite của Wallet (khóa, mô tả, siêu dữ liệu giao dịch, v.v.);
-- wallets/<name>/Wallet.dat-journal` là nhật ký khôi phục SQLite.
+- `wallets/<name>/wallet.dat-journal` là nhật ký hoàn tác của SQLite.
 
 
 
@@ -3335,10 +3337,10 @@ Nếu bạn không muốn mở cổng trên bộ định tuyến nhưng vẫn ch
 
 
 - `addnode`: thêm một đối tác thân thiện để liên hệ ngoài chức năng khám phá thông thường (có thể chỉ định nhiều lần).
-- connect`: hạn chế nghiêm ngặt các kết nối đến Address được cung cấp (có thể được chỉ định nhiều lần). Core sẽ không kết nối với bất kỳ nút nào khác.
+- `connect`: giới hạn nghiêm ngặt các kết nối đến địa chỉ được cung cấp (có thể được chỉ định nhiều lần). Core sẽ không kết nối với bất kỳ nút nào khác;
 - `seednode`: chỉ được sử dụng để điền vào book-Address khi kết nối với một nút, sau đó ngắt kết nối.
 - `maxconnections`: xác định giới hạn toàn cục cho các kết nối đến và đi. Theo mặc định, tham số này được đặt thành 125, nghĩa là nút của bạn sẽ không bao giờ chấp nhận quá 125 kết nối.
-- maxuploadtarget`: giới hạn tải lên để giới hạn băng thông trong khung thời gian 24 giờ. Giới hạn này không làm ảnh hưởng đến việc truyền tải Elements thiết yếu gần đây.
+- `maxuploadtarget` : giới hạn tải lên để hạn chế băng thông trong khoảng thời gian trượt 24 giờ. Giới hạn này không làm ảnh hưởng đến việc lan truyền các phần tử gần đây cần thiết;
 - `onlynet`: giới hạn kết nối đi chỉ với các mạng được chọn (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Ví dụ: nếu bạn muốn nút của mình chỉ kết nối với mạng Bitcoin qua Tor, bạn có thể bật tham số `onlynet=onion` và tắt kết nối đến (hoặc chỉ cho phép kết nối qua Tor).
 - `dnsseed`: cho phép hoặc không cho phép _DNS seeds_ yêu cầu các đối tác khi nhóm Address cục bộ của bạn sắp hết (mặc định: `1`, trừ khi `-connect` hoặc `-maxconnections=0`).
 - `forcednsseed`: buộc _hạt giống DNS_ phải được yêu cầu khi khởi động, ngay cả khi bạn đã có địa chỉ trong kho (mặc định: `0`).
@@ -3362,7 +3364,7 @@ Theo mặc định, nút của bạn giao tiếp qua clearnet, Tor và I2P. Đi�
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `nghe=1`,
-- liên kết=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3420,7 @@ Sau đây là các tham số cơ bản bạn có thể sửa đổi trên `Bitco
 
 
 
-- blocksonly=1`: Vô hiệu hóa việc chấp nhận và truyền lại các giao dịch chưa được xác nhận nhận được từ các peer (trừ khi được cấp quyền đặc biệt). Giờ đây, node chỉ tải lên và quảng bá các khối. Các giao dịch được tạo cục bộ vẫn có thể được phát sóng (để sử dụng node của bạn với phần mềm Wallet). Điều này giúp giảm đáng kể yêu cầu về băng thông và RAM, mặc dù phải trả giá bằng việc giảm tính hữu dụng của relay và hoàn toàn không quen thuộc với Mempool.
+- `blocksonly=1` : Tắt việc chấp nhận và chuyển tiếp các giao dịch chưa được xác nhận nhận từ các nút ngang hàng (trừ các quyền đặc biệt). Nút chỉ tải xuống và thông báo các khối. Các giao dịch được tạo cục bộ vẫn có thể được phát sóng (để sử dụng nút của bạn với phần mềm ví của bạn). Điều này làm giảm đáng kể băng thông và yêu cầu RAM, nhưng làm giảm tính hữu ích cho việc chuyển tiếp và khiến nút hoàn toàn không biết về mempool.
 
 
 
@@ -3448,7 +3450,7 @@ Sau đây là các cài đặt nâng cao cho Mempool và chính sách rơle. N�
 
 
 
-- datacarrier=1`: Cho phép chuyển tiếp và (nếu Mining thông qua nút) bao gồm các giao dịch mang dữ liệu phi tài chính thông qua đầu ra `OP_RETURN` (mặc định: `1`). Việc hủy kích hoạt tham số này sẽ làm giảm nhẹ diện tích bề mặt cho dữ liệu spam phi tài chính, đồng thời làm giảm khả năng tương thích với một số mục đích sử dụng nhất định. Trong mọi trường hợp, bạn phải chấp nhận `OP_RETURN` đã được khai thác.
+- `datacarrier=1` : Cho phép chuyển tiếp và (nếu khai thác qua nút) bao gồm các giao dịch mang dữ liệu phi tài chính thông qua đầu ra `OP_RETURN` (mặc định: `1`). Vô hiệu hóa tham số này giúp giảm nhẹ nguy cơ spam dữ liệu phi tài chính, nhưng giảm khả năng tương thích với một số trường hợp sử dụng. Trong mọi trường hợp, bạn phải chấp nhận các `OP_RETURN` đã được khai thác.
 
 
 
@@ -3490,13 +3492,13 @@ Sau đây là các cài đặt nâng cao cho Mempool và chính sách rơle. N�
 
 
 
-- peerbloomfilters=1`: Bật hỗ trợ cho bộ lọc Bloom (BIP37) để phục vụ các khối/giao dịch đã lọc cho máy khách mỏng (mặc định: `0`). Cảnh báo: điều này làm tăng tải cho tài nguyên của bạn.
+- `peerbloomfilters=1` : Bật hỗ trợ bộ lọc Bloom (BIP37) để cung cấp các khối/giao dịch đã được lọc cho các máy khách nhẹ (mặc định: `0`). Lưu ý, điều này làm tăng tải trên tài nguyên của bạn.
 
 
 
 
 
-- peerblockfilters=1`: Cung cấp bộ lọc nhỏ gọn BIP157 (*Neutrino*) cho các đối tác (mặc định: `0`).
+- `peerblockfilters=1` : Cung cấp các bộ lọc gọn nhẹ BIP157 (*Neutrino*) cho các nút ngang hàng (mặc định: `0`).
 
 
 
@@ -3520,7 +3522,7 @@ Bạn cũng có thể điều chỉnh cách quản lý ví của mình trong t�
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Xác định định dạng của các địa chỉ do Wallet tạo ra để tiếp nhận.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Xác định định dạng của các địa chỉ được ví tạo ra để nhận tiền.
 
 
 
@@ -3568,7 +3570,7 @@ Bạn cũng có thể điều chỉnh cách quản lý ví của mình trong t�
 
 
 
-- fallbackfee=<amt>`: Tỷ lệ dự phòng (BTC/kvB) được sử dụng nếu bộ ước tính hết dữ liệu (mặc định: `0,00`). Đặt thành 0 sẽ vô hiệu hóa hoàn toàn tính năng dự phòng.
+- `fallbackfee=<amt>` : Mức phí dự phòng (BTC/kvB) được sử dụng nếu bộ ước tính thiếu dữ liệu (mặc định: `0.00`). Đặt giá trị này thành 0 sẽ tắt hoàn toàn chế độ dự phòng.
 
 
 
@@ -3660,7 +3662,7 @@ Tệp cấu hình cũng cho phép bạn điều chỉnh các thông số liên q
 
 
 
-- txindex=1`: Xây dựng và duy trì một chỉ mục toàn cầu cho các giao dịch đã xác nhận. Cần thiết cho một số truy vấn nhất định (`getrawtransaction` không phải Wallet) và cho mục đích khám phá, nhưng làm tăng đáng kể dung lượng ổ đĩa. Không tương thích với chế độ pruned.
+- `txindex=1` : Xây dựng và duy trì chỉ mục toàn cầu của các giao dịch đã được xác nhận. Cần thiết cho một số truy vấn (`getrawtransaction` ngoài ví) và cho mục đích khám phá, nhưng làm tăng đáng kể mức sử dụng ổ đĩa. Không tương thích với chế độ cắt tỉa.
 
 
 
@@ -3894,15 +3896,17 @@ Bây giờ bạn có thể chuyển sang phần cuối cùng của khóa học, 
 
 
 
-Bây giờ bạn có một số lựa chọn. Bước hợp lý tiếp theo là thiết lập nút Lightning của riêng bạn, cho phép bạn hoàn toàn độc lập với các giao dịch off-chain. Đây sẽ là chủ đề của một khóa học sắp tới, dự kiến được xuất bản vào mùa thu năm 2025 trên Plan ₿ Network.
+Hiện tại có nhiều hướng đi mở ra trước mắt bạn. Bước tiếp theo hợp lý là thiết lập nút Lightning của riêng bạn, nhằm đạt được sự độc lập hoàn toàn trong các giao dịch off-chain. Đây chính là chủ đề của một khóa học khác trên Plan ₿ Academy:
 
 
 
-Trong khi đó, tôi mời bạn khám phá khóa đào tạo BTC 204, khóa đào tạo này sẽ giúp bạn hiểu và nắm vững các nguyên tắc bảo vệ quyền riêng tư khi sử dụng Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Tôi cũng mời bạn khám phá khóa học BTC 204, khóa học sẽ giúp bạn hiểu và làm chủ các nguyên tắc bảo vệ quyền riêng tư trong việc sử dụng Bitcoin của mình:
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Phần cuối

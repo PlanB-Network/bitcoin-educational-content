@@ -22,7 +22,7 @@ Para gerir a sua carteira segura num Passport, tem várias opções. Esta cartei
 
 Se é um principiante, a opção mais fácil é utilizar o seu Passport com a aplicação nativa Envoy, desenvolvida pela Foundation. Para saber como utilizar o Envoy com o seu Passport, consulte este outro tutorial :
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Desembalar o Passaporte
 
@@ -79,7 +79,7 @@ O passo seguinte consiste em verificar o seu dispositivo. Este procedimento conf
 
 ![Image](assets/fr/08.webp)
 
-Aceda ao [sítio oficial de verificação] (https://validate.foundationdevices.com/) e selecione "*Passport*".
+Aceda ao [sítio oficial de verificação](https://validate.foundationdevices.com/) e selecione "*Passport*".
 
 ![Image](assets/fr/09.webp)
 
@@ -135,13 +135,13 @@ O Passport está pronto para receber o novo firmware através de um cartão Micr
 
 ![Image](assets/fr/20.webp)
 
-Para o fazer, utilize o cartão MicroSD incluído na caixa do Passport (ou outro) e insira-o no computador. Descarregue a versão mais recente do firmware a partir do [sítio de documentação da Fundação] (https://docs.foundation.xyz/firmware-updates/passport/) ou [do seu repositório GitHub] (https://github.com/Foundation-Devices/passport2/releases).
+Para o fazer, utilize o cartão MicroSD incluído na caixa do Passport (ou outro) e insira-o no computador. Descarregue a versão mais recente do firmware a partir do [sítio de documentação da Fundação](https://docs.foundation.xyz/firmware-updates/passport/) ou [do seu repositório GitHub](https://github.com/Foundation-Devices/passport2/releases).
 
 ![Image](assets/fr/21.webp)
 
 Antes de o instalar no seu dispositivo, aconselhamos vivamente que verifique a autenticidade e a integridade do firmware descarregado. Se precisar de ajuda para o fazer, consulte este tutorial :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Depois de verificar o arquivo `.bin`, coloque-o no seu MicroSD e insira-o no Passport. O explorador de arquivos do Passport será aberto. Selecione o ficheiro `vN.N.N-passport.bin`.
 
@@ -207,7 +207,7 @@ Clique no botão de confirmação para ver a sua frase mnemónica.
 
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 é claro que nunca deve partilhar estas palavras na Internet, como eu estou a fazer neste tutorial. Este exemplo de portefólio será utilizado apenas na Testnet e será eliminado no final do tutorial
 
@@ -294,7 +294,7 @@ Antes de continuar, se desejar, pode acrescentar uma frase-passe BIP39. Uma fras
 
 Antes de configurar esta opção no seu Passport, recomenda-se vivamente a leitura deste artigo para compreender totalmente o funcionamento teórico da frase-chave e evitar erros que possam levar à perda das suas bitcoins:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Para o ativar, vá ao menu "*Mais*" e clique em "*Enter Passphrase*".
 
@@ -306,7 +306,7 @@ Introduza a sua frase-chave utilizando o teclado aA1 e certifique-se de que a gu
 
 Tenha em atenção que as frases-passe BIP39 são sensíveis a maiúsculas e minúsculas. Se introduzir uma frase-chave ligeiramente diferente da inicialmente configurada, o Passport não comunicará um erro, mas obterá outro conjunto de chaves criptográficas que não serão as da sua carteira inicial.
 
-Portanto, é importante, ao configurar, anotar em algum lugar a impressão digital da chave mestra que será dada no próximo passo. Por exemplo, com a minha frase-passe `Plan B Network`, a impressão digital da minha chave-mestra é `745D526B`.
+Portanto, é importante, ao configurar, anotar em algum lugar a impressão digital da chave mestra que será dada no próximo passo. Por exemplo, com a minha frase-passe `Plan ₿ Academy`, a impressão digital da minha chave-mestra é `745D526B`.
 
 ![Image](assets/fr/52.webp)
 
@@ -316,7 +316,7 @@ Cada vez que desbloquear, depois de escrever a frase-chave, verifique neste ecr�
 
 Antes de receberes os teus primeiros bitcoins na tua carteira, **aconselho-te vivamente a fazeres um teste de recuperação vazio**. Tome nota de algumas informações de referência, como o seu xpub ou o primeiro endereço de receção, e depois apague a sua carteira no Passport enquanto ainda está vazia (`Configurações -> Avançado -> Apagar Passport`). Em seguida, tente restaurar a sua carteira utilizando as cópias de segurança em papel da frase mnemónica e de qualquer frase-chave. Verifique se a informação do cookie gerada após o restauro corresponde à que escreveu originalmente. Se corresponder, pode ter a certeza de que as suas cópias de segurança em papel são fiáveis. Para saber mais sobre como efetuar uma recuperação de teste, consulte este outro tutorial :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -324,13 +324,13 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 Neste tutorial, vou mostrar-vos uma utilização avançada do Passport com a Sparrow Wallet. No entanto, esta carteira de hardware também é compatível com Envoy (a aplicação Foundation), Keeper, BlueWallet, Nunchuk, Specter, e muitos outros...
 
-Comece por descarregar e instalar a Sparrow Wallet [a partir do site oficial] (https://sparrowwallet.com/) no seu computador, caso ainda não o tenha feito.
+Comece por descarregar e instalar a Sparrow Wallet [a partir do site oficial](https://sparrowwallet.com/) no seu computador, caso ainda não o tenha feito.
 
 ![Image](assets/fr/54.webp)
 
 Certifique-se de que verifica a autenticidade e a integridade do software antes da instalação. Se não souber como o fazer, consulte este tutorial:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Quando a Sparrow Wallet estiver aberta, clique no separador "*Arquivo*" e depois em "*Nova carteira*".
 
@@ -484,4 +484,4 @@ Parabéns, agora já sabe como configurar e utilizar o Passport. Se achou este t
 
 Para mais informações, consulte o nosso tutorial sobre o software Liana:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

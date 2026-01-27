@@ -1,0 +1,8 @@
+question: Jaka podstawowa zasada projektowa pozwala LDK na tworzenie modułów HSM obsługujących technologię Lightning, które mogą inteligentnie oceniać, czy transakcja reprezentuje legalne przekierowanie płatności, czy potencjalnie złośliwe próby?
+answer: Modułowa architektura LDK umożliwia wyodrębnienie określonych komponentów podpisywania i weryfikacji transakcji przy jednoczesnym zachowaniu świadomości kontekstu protokołu Lightning
+wrong_answers:
+  - "System LDK oparty na zdarzeniach automatycznie oznacza podejrzane transakcje za pomocą algorytmów uczenia maszynowego zintegrowanych z podstawowym procesem podpisywania"
+  - "Warstwa abstrakcji blockchain LDK zapewnia wykrywanie oszustw w czasie rzeczywistym poprzez porównywanie wszystkich transakcji z danymi z sieci plotek"
+  - "System zarządzania peerami LDK implementuje zaawansowane podpisy kryptograficzne, które z natury rozróżniają legalne i złośliwe wzorce transakcji"
+explanation: |
+  Modułowa konstrukcja LDK pozwala programistom wyodrębnić tylko komponenty podpisywania i weryfikacji, zachowując jednocześnie inteligencję protokołu Lightning potrzebną do zrozumienia kontekstu transakcji. Umożliwia to HSM podejmowanie świadomych decyzji dotyczących przekazywania płatności, operacji na kanałach i zagrożeń bezpieczeństwa, zamiast ślepego podpisywania transakcji. Błędne odpowiedzi błędnie przypisują tę zdolność do automatycznego wykrywania oszustw, monitorowania blockchain lub podpisów kryptograficznych, podczas gdy w rzeczywistości jest to zdolność architektury modułowej do utrzymywania świadomości protokołu w izolowanych komponentach, która umożliwia inteligentną ocenę transakcji.

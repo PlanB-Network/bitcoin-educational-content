@@ -1,0 +1,8 @@
+question: Jaka jest główna zaleta korzystania z polecenia `cargo check` podczas programowania?
+answer: Wykonuje sprawdzanie kompilacji szybciej niż pełna kompilacja bez generowania plików wykonywalnych
+wrong_answers:
+  - Automatycznie naprawia błędy kompilacji i błędy stylu kodu w projekcie
+  - Pobiera i aktualizuje wszystkie zależności projektu do ich najnowszych wersji
+  - Uruchamia program z informacjami debugowania i szczegółowym raportowaniem błędów
+explanation: |
+  Polecenie `cargo check` zostało zaprojektowane do szybkiej iteracji rozwoju, wykonując wszystkie te same kontrole kompilacji co `cargo build`, ale pomijając końcowy etap generowania pliku wykonywalnego. Dzięki temu jest znacznie szybsze niż pełna kompilacja, gdy trzeba tylko sprawdzić, czy kod kompiluje się poprawnie. Błędne odpowiedzi opisują funkcjonalność innych narzędzi: Clippy i inne lintery mogą sugerować poprawki, ale nie stosują ich automatycznie, `cargo update` obsługuje aktualizacje zależności, a `cargo run` wykonuje programy z możliwością debugowania.

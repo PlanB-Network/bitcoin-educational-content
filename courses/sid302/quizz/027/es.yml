@@ -1,0 +1,8 @@
+question: En la arquitectura cegadora de Blockstream AMP, ¿qué mecanismo criptográfico permite cifrar el importe de los activos manteniendo la verificación de la validez de las transacciones?
+answer: Intercambio de claves Diffie-Hellman de curva elíptica con pruebas de alcance que verifican la validez de las transacciones sin revelar los valores cifrados
+wrong_answers:
+  - SNARKs de conocimiento cero con esquemas de compromiso que ocultan los importes de las transacciones al tiempo que demuestran la integridad computacional
+  - Firmas en anillo con direcciones invisibles que ocultan la identidad del remitente al tiempo que mantienen la auditabilidad criptográfica
+  - Cifrado homomórfico con compromisos de árbol merkle que permiten realizar operaciones matemáticas con datos de transacciones cifrados
+explanation: |
+  AMP utiliza el intercambio de claves ECDH, en el que los remitentes cifran los importes de los activos utilizando las claves públicas cegadoras de los receptores, generando pruebas de alcance que verifican matemáticamente la validez de las transacciones sin exponer los valores. Esto difiere de los SNARK (pruebas computacionales), las firmas en anillo (centradas en el anonimato) o el cifrado homomórfico (computación sobre datos cifrados): AMP necesita específicamente transacciones confidenciales pero verificables.

@@ -90,7 +90,7 @@ Gotowy do zanurzenia się w świecie sieci komputerowych? Do dzieła!
 **UWAGA**: Opisy są oparte na systemie GNU/Linux CentOS 7. Jednak konfiguracje sieciowe są w dużej mierze takie same przy porównywaniu Debiana z systemem CentOS. Nie będziemy więc wprowadzać żadnych rozróżnień. Jeśli takowe istnieje, poprzedzimy je konkretnym logo.
 
 
-**N.B.**: Jeśli podczas kursu napotkasz nieznane terminy, zapoznaj się z ich definicjami w [słowniczku] (https://planb.network/resources/glossary).
+**N.B.**: Jeśli podczas kursu napotkasz nieznane terminy, zapoznaj się z ich definicjami w [słowniczku](https://planb.academy/resources/glossary).
 
 
 
@@ -138,7 +138,7 @@ Zaletą tego rozwiązania jest prostota okablowania i brak zależności od jakie
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/pl/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Taki hierarchiczny układ sprawdza się szczególnie dobrze w przypadku dużych 
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/pl/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Główną zaletą topologii magistrali jest niski koszt instalacji dzięki upros
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/pl/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Taki układ ułatwia zarządzanie i konserwację: jeśli jedno urządzenie peryf
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/pl/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Kompromis polega na tym, że liczba połączeń, które należy ustanowić, szyb
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/pl/005.webp)
 
 
 
@@ -263,7 +263,7 @@ Cztery warstwy modelu TCP/IP to:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/pl/006.webp)
 
 
 
@@ -283,11 +283,11 @@ Każdy Layer stosu TCP/IP zapewnia określone usługi, umożliwiając Address r�
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## Protokół QoS IPv5
 
@@ -390,7 +390,7 @@ Gdy datagram przekracza MTU segmentu sieci, przez który musi przejść, sprzęt
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/pl/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Transmisja odbywa się zatem zgodnie z ustrukturyzowanym procesem:
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/pl/008.webp)
 
 
 
@@ -442,7 +442,7 @@ Po dotarciu na miejsce, proces jest odwracany: maszyna odbierająca otrzymuje ra
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/pl/009.webp)
 
 
 
@@ -456,7 +456,7 @@ Transformację danych w każdym Layer można podsumować następująco:
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/pl/010.webp)
 
 
 
@@ -507,7 +507,7 @@ Liczba dostępnych adresów różni się znacznie w zależności od klasy: od du
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/pl/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Potrzebujemy 4 podsieci z maksymalnie 60 hostami każda.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/pl/012.webp)
 
 
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Protokół TCP
 
@@ -680,7 +680,7 @@ TCP jest protokołem zorientowanym na połączenie, co oznacza, że ustanawia wy
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/pl/013.webp)
 
 
 
@@ -688,7 +688,7 @@ Aby poprawić niezawodność, TCP wykorzystuje licznik czasu: po wysłaniu segme
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/pl/014.webp)
 
 
 
@@ -711,7 +711,7 @@ Synchronizacja sekwencji Exchange opiera się na słynnym mechanizmie **"*three-
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/pl/015.webp)
 
 
 
@@ -734,7 +734,7 @@ W praktyce okno przesuwne definiuje zakres numerów sekwencyjnych, które mogą 
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/pl/016.webp)
 
 
 
@@ -751,7 +751,7 @@ To precyzyjne zarządzanie, łączące elastyczny routing IP ze ścisłą kontro
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/pl/017.webp)
 
 
 
@@ -791,7 +791,7 @@ Wymiany te regulują dwa kluczowe aspekty:
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/pl/018.webp)
 
 
 
@@ -800,7 +800,7 @@ Wymiany te regulują dwa kluczowe aspekty:
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/pl/019.webp)
 
 
 
@@ -840,7 +840,7 @@ Rdzeniem tego systemu są **prymitywy usług**, które działają jako interfejs
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/pl/020.webp)
 
 
 
@@ -900,7 +900,7 @@ przykład: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/pl/021.webp)
 
 
 
@@ -1187,7 +1187,7 @@ Ważne jest, aby pamiętać, że MAC Address i IP Address to dwa zupełnie róż
 - Wizualny przykład MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/pl/022.webp)
 
 
 
@@ -1195,7 +1195,7 @@ Ważne jest, aby pamiętać, że MAC Address i IP Address to dwa zupełnie róż
 - Wizualny przykład Address IP:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/pl/023.webp)
 
 
 
@@ -1262,7 +1262,7 @@ Oprócz rozwiązania problemu niedoboru IPv4, NAT wzmacnia również bezpieczeń
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/pl/024.webp)
 
 
 
@@ -1335,7 +1335,7 @@ aby zilustrować, jak to działa w praktyce, rozważmy następujący przykład:_
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/pl/025.webp)
 
 
 
@@ -1383,11 +1383,11 @@ W następnym rozdziale przyjrzymy się szczegółowo konfiguracji IP Address w s
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Jak skonfigurować sieć za pomocą `ip`?
@@ -1504,7 +1504,7 @@ W środowiskach profesjonalnych celem jest zagwarantowanie ciągłości usług i
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/pl/026.webp)
 
 
 
@@ -1958,7 +1958,7 @@ Istnieje kilka metod automatycznej konfiguracji:
 Oto przykład, jak przekształcić MAC Address w EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/pl/027.webp)
 
 
 
@@ -2096,7 +2096,7 @@ Oto przegląd różnych typów nagłówków rozszerzeń zdefiniowanych przez IPv
 Nagłówek ten, jeśli występuje, jest zawsze umieszczany bezpośrednio po nagłówku podstawowym. Zawiera on informacje, które muszą być przetwarzane przez każdy router na ścieżce pakietu, w przeciwieństwie do większości innych nagłówków, które są zwykle obsługiwane tylko przez węzeł docelowy. Typowe zastosowania obejmują sygnalizowanie parametrów globalnych lub żądanie określonych kroków przetwarzania, gdy pakiet przemieszcza się przez sieć.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/pl/028.webp)
 
 
 #### Nagłówek routingu
@@ -2121,7 +2121,7 @@ Pierwsze cztery pola tego nagłówka rootowania to:
 Pole "Segments Left" zaczyna się od całkowitej liczby pozostałych segmentów i jest zmniejszane o jeden przy każdym przeskoku.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/pl/029.webp)
 
 
 #### Nagłówek fragmentacji
@@ -2138,7 +2138,7 @@ Nagłówek fragmentacji zawiera następujące pola:
 - Flaga **M**: wskazuje, czy ma nastąpić więcej fragmentów.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/pl/030.webp)
 
 
 #### Nagłówek uwierzytelniania (AH)
@@ -2150,7 +2150,7 @@ Nagłówek ten został zaprojektowany w celu zabezpieczenia komunikacji poprzez 
 W przypadku nieuczciwej próby modyfikacji, kod uwierzytelniający nie będzie już pasował, a datagram może zostać odrzucony. Mechanizm ten chroni również przed atakami typu replay, wykrywając nieautoryzowane duplikaty.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/pl/031.webp)
 
 
 #### Nagłówek opcji miejsca docelowego
@@ -2162,7 +2162,7 @@ Nagłówek ten jest przeznaczony wyłącznie dla końcowego odbiorcy datagramu. 
 Początkowo taka opcja nie była zdefiniowana w protokole. Nagłówek ten został jednak wprowadzony podczas projektowania protokołu IPv6, aby umożliwić dodawanie przyszłych rozszerzeń bez modyfikowania ogólnej struktury pakietu. Opcja null, na przykład, jest używana tylko do wypełnienia nagłówka wielokrotnością 8 bajtów w celu wyrównania pamięci.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/pl/032.webp)
 
 
 Konstrukcja pakietów IPv6 opiera się na wyraźnym oddzieleniu minimalnego nagłówka podstawowego od modułowych nagłówków rozszerzeń. Architektura ta zapewnia zarówno standardową wydajność przetwarzania, jak i elastyczność potrzebną do ewolucji protokołu i integracji bezpieczeństwa, złożonego routingu lub mechanizmów jakości usług, przy jednoczesnym zachowaniu kompatybilności z przyszłymi infrastrukturami.
@@ -2508,7 +2508,7 @@ Wireshark jest dostępny w wielu systemach operacyjnych, w tym Linux i Windows. 
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/pl/033.webp)
 
 
 
@@ -2559,7 +2559,7 @@ To polecenie wyświetla szczegółowy raport na temat `enp0s3` Interface, wspól
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/pl/034.webp)
 
 
 
@@ -3072,7 +3072,7 @@ Powtarzające się lub intensywne zapytania do serwerów DNS innych firm bez poz
 Podczas monitorowania lub zabezpieczania sieci lokalnej lub rozległej kluczowe znaczenie ma identyfikacja aktywnych urządzeń i usług, które udostępniają. Dokładnie to robi narzędzie `nmap` (*Network Mapper*).
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Przedstawiamy `nmap`
 
@@ -3111,7 +3111,7 @@ W tym przypadku, wszystkie hosty w zakresie od `192.168.0.0` do `192.168.0.255` 
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/pl/035.webp)
 
 
 
@@ -3124,7 +3124,7 @@ Administrator może polegać na `nmap` w kilku zadaniach:
 - **Zapobieganie lukom w zabezpieczeniach**: wykrywanie niezabezpieczonych lub nieaktualnych usług działających na krytycznych komputerach.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Narzędzia do analizy procesów
 

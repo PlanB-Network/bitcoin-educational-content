@@ -90,9 +90,9 @@ Ili Manjaro ifanye kazi kikamilifu, kompyuta yako lazima itimize mahitaji machac
 
 
 
-- Kichakataji cha biti 64 (x86_64)
+- Drive ya biti 64 (x86_64)
 - **RAM ya GB 4 inapendekezwa (angalau GB 2)** (tazama hapa chini)
-- GB 30 ya nafasi ya diski (zaidi ikiwa utaunda kizigeu cha `/home`)
+- GB 30 ya nafasi ya disk (zaidi ikiwa utaunda kizigeu cha `/home`)
 
 
 
@@ -104,7 +104,7 @@ Ili kupakua, nenda kwa [tovuti rasmi ya Manjaro](https://manjaro.org/) na uchagu
 
 
 
-Kisha nenda kwenye tovuti ya programu ya [Rufus] (https://rufus.ie/fr/) na uipakue. Endesha programu, chomeka ufunguo wako wa USB, chagua picha ya Manjaro ISO na uanze kuangaza. Subiri mchakato ukamilike kabla ya kuondoa ufunguo. Kisha unaweza kuanzisha upya kompyuta yako.
+Kisha nenda kwenye tovuti ya programu ya [Rufus](https://rufus.ie/fr/) na uipakue. Endesha programu, chomeka ufunguo wako wa USB, chagua picha ya Manjaro ISO na uanze kuangaza. Subiri mchakato ukamilike kabla ya kuondoa ufunguo. Kisha unaweza kuanzisha upya kompyuta yako.
 
 
 
@@ -112,11 +112,11 @@ Kisha nenda kwenye tovuti ya programu ya [Rufus] (https://rufus.ie/fr/) na uipak
 
 
 
-Ili kusakinisha Manjaro kwenye kompyuta yako, kwanza izima kabisa. Kisha chomeka kitufe cha USB, washa mashine tena na ufikie menyu ya kuwasha au UEFI/BIOS firmware kwa kubonyeza **F2, F10, F12, Escape** au **Futa** (kulingana na mtengenezaji).
+Ili kusakinisha Manjaro kwenye kompyuta yako, kwanza izime kabisa. Kisha chomeka  USB Drive, washa mashine tena na ufikie menyu ya kuwasha au UEFI/BIOS firmware kwa kubonyeza **F2, F10, F12, Escape** au **Futa** (kulingana na mtengenezaji).
 
 
 
-Kisha chagua kitufe cha USB kama kifaa cha kuwasha ili kuanza mchakato wa usakinishaji wa OS.
+Kisha chagua  USB Drive kama kifaa cha kuwasha ili kuanza mchakato wa usakinishaji wa OS.
 
 
 
@@ -128,7 +128,7 @@ Mara ya kwanza unapozindua Manjaro kutoka kwa ufunguo wa USB, utachukuliwa moja 
 
 
 
-Kisha chagua chaguo la **Kuwasha na viendeshi vya chanzo wazi** ili kuanza usakinishaji wa Manjaro. Viendeshi hivi vya chanzo-wazi vinaendana na maunzi mengi na vitatosha katika hali nyingi. Ikiwa una kadi ya michoro ya NVIDIA, kwa mfano, au unahitaji utendaji wa juu wa michoro, unaweza kuchagua **Anzisha na viendeshi wamiliki**, ambayo hutumia viendeshi wamiliki.
+Kisha chagua chaguo la **Kuwasha open-source drivers** ili kuanza usakinishaji wa Manjaro. Drive hizi za chanzo-wazi zinaendana na maunzi mengi na zitatosha katika hali nyingi. Ikiwa una kadi ya michoro ya NVIDIA, kwa mfano, au unahitaji utendaji wa juu wa michoro, unaweza kuchagua **Anzisha na closed-source drivers**, ambayo hutumia closed-source drivers.
 
 
 
@@ -136,7 +136,7 @@ Kisha chagua chaguo la **Kuwasha na viendeshi vya chanzo wazi** ili kuanza usaki
 
 
 
-Mfumo utazinduliwa katika **modi chaguomsingi ya moja kwa moja**. Hii hukuruhusu kujaribu utendakazi wa Manjaro ili kuona kama inafaa mahitaji yako kabla ya kuisakinisha kabisa. Mara tu ikiwa tayari, bofya chaguo la **Sakinisha Manjaro Linux**.
+Mfumo utazinduliwa katika **mode chaguomsingi ya moja kwa moja**. Hii hukuruhusu kujaribu utendakazi wa Manjaro ili kuona kama inafaa mahitaji yako kabla ya kuisakinisha kabisa. Mara tu ikiwa tayari, bofya chaguo la **Sakinisha Manjaro Linux**.
 
 
 
@@ -156,7 +156,7 @@ Kisha chagua eneo lako ili kuweka saa za eneo sahihi. Katika hatua hii, unaweza 
 
 
 
-Chagua mpangilio wa kibodi. Sehemu ya majaribio inapatikana ili kuangalia kama vitufe vilivyochapwa vinalingana na herufi zinazotarajiwa.
+Chagua mpangilio wa keyboard. Sehemu ya majaribio inapatikana ili kuangalia kama vitufe vilivyochapwa vinalingana na herufi zinazotarajiwa.
 
 
 
@@ -164,7 +164,7 @@ Chagua mpangilio wa kibodi. Sehemu ya majaribio inapatikana ili kuangalia kama v
 
 
 
-### Ugawaji wa diski
+### Ugawaji wa disk
 
 
 Una chaguzi mbili za kugawa diski yako.
@@ -173,8 +173,8 @@ Una chaguzi mbili za kugawa diski yako.
 
 
 
-- Ya kwanza, na rahisi zaidi, ni kufuta diski nzima na kusakinisha Manjaro juu yake.
-- Ya pili inaruhusu ** kugawanya kwa mikono **.
+- Ya kwanza, na rahisi zaidi, ni kufuta disk nzima na kusakinisha Manjaro juu yake.
+- Ya pili inaruhusu **kugawanya kwa mikono**.
 
 
 
@@ -322,7 +322,7 @@ Electrum hukuruhusu **kupokea na kutuma bitcoins** kwa urahisi, huku ukitoa vipe
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## Kulinda mfumo wako wa Manjaro
 
@@ -395,4 +395,4 @@ Manjaro inachanganya **utulivu, kasi na usalama**, huku ikisalia **bila malipo k
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

@@ -104,7 +104,7 @@ Manjaro также предлагает **обширный каталог при
 
 
 
-Затем перейдите на сайт [Rufus] (https://rufus.ie/fr/) и загрузите программу. Запустите программу, подключите USB-носитель, выберите ISO-образ Manjaro и начните прошивку. Дождитесь окончания процесса, после чего извлеките ключ. После этого можно перезагрузить компьютер.
+Затем перейдите на сайт [Rufus](https://rufus.ie/fr/) и загрузите программу. Запустите программу, подключите USB-носитель, выберите ISO-образ Manjaro и начните прошивку. Дождитесь окончания процесса, после чего извлеките ключ. После этого можно перезагрузить компьютер.
 
 
 
@@ -322,7 +322,7 @@ Electrum позволяет вам **получать и отправлять б
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## Защита системы Manjaro
 
@@ -395,4 +395,4 @@ Manjaro сочетает в себе **стабильность, скорост�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

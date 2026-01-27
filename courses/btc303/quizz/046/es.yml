@@ -1,0 +1,9 @@
+question: ¿Qué diferencia fundamentalmente a los sistemas en línea como Bitcoin de los sistemas físicos en lo que se refiere a las amenazas de los adversarios?
+answer: Los sistemas en línea se enfrentan a adversarios seudónimos y anónimos que pueden explotar cualquier punto débil sin ser visibles ni descubiertos
+wrong_answers:
+  - Los sistemas en línea tienen algoritmos criptográficos más complejos que son más difíciles de analizar en busca de vulnerabilidades de seguridad
+  - Los sistemas físicos pueden ser protegidos por las fuerzas de seguridad, mientras que los sistemas en línea sólo se basan en pruebas matemáticas
+  - Los sistemas en línea procesan las transacciones más rápidamente, lo que facilita a los adversarios lanzar ataques coordinados
+explanation: |
+  La distinción clave destacada por Andrew Poelstra es que los sistemas físicos pueden confiar en las fuerzas del orden y en la visibilidad de los adversarios para disuadir los ataques, incluso aceptando algunos riesgos como el incendio de edificios. Sin embargo, los sistemas en línea como Bitcoin operan en un entorno en el que los adversarios pueden actuar de forma seudónima o anónima, conectarse desde cualquier lugar y explotar los puntos débiles sin ser identificados ni descubiertos. Esta diferencia fundamental significa que todas las debilidades conocidas de Bitcoin deben ser abordadas, ya que inevitablemente serán explotadas por adversarios invisibles que no se enfrentan a consecuencias en el mundo real.
+reviewed: false

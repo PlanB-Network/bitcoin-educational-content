@@ -1,8 +1,9 @@
-question: ¿Cómo funciona una dirección multisignatura 2/2 en Bitcoin?
+question: ¿Cómo funciona una dirección multifirma 2/2 en Bitcoin?
 answer: Requiere dos firmas para desbloquear y gastar los fondos.
 wrong_answers:
   - Permite gastar los fondos con solo una de las dos llaves.
   - Autoriza transacciones solo en casos específicos de bloqueo.
   - Se utiliza solo para enviar fondos a direcciones públicas.
 explanation: |
-  Una dirección multisignatura 2/2 requiere las firmas de ambas partes involucradas para que los fondos puedan ser gastados, lo cual se utiliza para la seguridad de los canales de Lightning.
+  Una dirección multifirma 2/2 requiere las firmas de ambas partes involucradas para que los fondos puedan ser gastados, lo cual se utiliza para la seguridad de los canales de Lightning.
+reviewed: true

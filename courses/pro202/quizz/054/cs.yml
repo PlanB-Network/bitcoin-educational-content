@@ -1,0 +1,8 @@
+question: Jaká specifická podmínka musí být v procesu předávání údajů o zásobách a transakcích v síti Bitcoin splněna, než mohou dva uzly začít aktivně předávat údaje o zásobách a transakcích?
+answer: Oba uzly si musí navzájem vyměňovat zprávy o verzi a veracku
+wrong_answers:
+  - Připojující se uzel musí obdržet potvrzení DNS seed od hlavních vývojářů
+  - "Oba uzly si musí vzájemně ověřit výšku bloku a hash hrotu řetězu."
+  - "Přijímající uzel musí ověřit certifikát připojujícího se uzlu."
+explanation: |
+  Ruční potřesení Bitcoin P2P vyžaduje obousměrnou výměnu, kdy spojovací uzel odešle zprávu o verzi, příjemce odpoví verackem a vlastní zprávou o verzi a původní odesílatel odpoví svým verackem. Teprve po této úplné výměně čtyř zpráv (verze→verack+verze→verack) mohou uzly zahájit aktivní komunikaci. Semínka DNS se používají pouze pro počáteční zjišťování partnerů, nikoli pro předávání zpráv. Bitcoin nepoužívá certifikáty a k ověření řetězce dochází až po navázání spojení.

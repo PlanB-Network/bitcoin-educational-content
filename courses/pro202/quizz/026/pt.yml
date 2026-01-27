@@ -1,0 +1,8 @@
+question: Por que razão a validação da transação Bitcoin antiga apresenta uma complexidade de tempo quadrática em relação ao número de entradas?
+answer: Cada entrada requer o seu próprio cálculo de suspiro sobre uma estrutura que inclui todas as entradas na transação
+wrong_answers:
+  - Cada entrada deve verificar as assinaturas em relação a todas as outras entradas para evitar o double-spending na transação
+  - O modelo de execução baseado em pilha requer loops aninhados para processar códigos de operação para cada combinação de entrada
+  - "O ScriptSig de cada entrada deve ser validado com o ScriptPubKey de cada saída para encontrar a correspondência correta"
+explanation: |
+  A validação Bitcoin herdada cria uma complexidade quadrática, porque cada entrada necessita do seu próprio cálculo de cinzas, mas cada cálculo processa uma estrutura de transação que contém todas as entradas. Com n entradas, isso cria n×n operações. O SegWit resolveu este problema armazenando em cache partes partilhadas do cálculo do sighash, reduzindo a complexidade para tempo linear e evitando potenciais ataques de negação de serviço de grandes transacções com várias entradas.

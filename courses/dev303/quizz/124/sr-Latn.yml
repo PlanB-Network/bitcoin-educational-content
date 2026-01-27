@@ -1,0 +1,8 @@
+question: Koji je primarni tehnički mehanizam koji omogućava da Breez SDK prikaže korisnicima objedinjeni saldo, dok istovremeno održava funkcionalnost i Lightning i on-chain Bitcoin?
+answer: Automatske usluge zamene koje konvertuju između Lightning i on-chain Bitcoin u pozadini po potrebi
+wrong_answers:
+  - Prikazivanje stanja u realnom vremenu koje prikazuje zbir Lightning i on-chain sredstava bez stvarne konverzije
+  - Rezervisanje kanala koje omogućava slobodno kretanje sredstava između Lightning i on-chain stanja unutar istog UTXO
+  - Generisanje adresa sa dva sloja koje kreira hibridne adrese sposobne za primanje i Lightning i on-chain uplata
+explanation: |
+  Tačan odgovor su automatske usluge zamene jer Breez SDK specifično implementira on-chain funkcionalnost zamene kako bi se besprekorno konvertovalo između Lightning i on-chain Bitcoin kada korisnici treba da izvrše različite tipove plaćanja. Ovo omogućava korisnicima da vide jedinstveni saldo dok sistem upravlja tehničkom složenošću premeštanja sredstava između slojeva. Pogrešni odgovori opisuju nepostojeće ili tehnički nemoguće mehanizme - agregacija salda bi samo prikazala kombinovane iznose bez omogućavanja funkcionalnosti između slojeva, rezerve kanala ne mogu premeštati sredstva u on-chain stanja, a hibridne adrese ne postoje u Bitcoin protokolu.

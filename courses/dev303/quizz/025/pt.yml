@@ -1,0 +1,8 @@
+question: Que palavra-chave é utilizada para definir blocos de implementação que contêm métodos e funções associadas para estruturas no Rust?
+answer: impl
+wrong_answers:
+  - método
+  - estrutura
+  - fn
+explanation: |
+  A palavra-chave `impl` é usada especificamente para criar blocos de implementação onde você define métodos e funções associadas para estruturas. Enquanto `struct` define a estrutura em si, `fn` define funções individuais, e `method` não é uma palavra-chave do Rust, apenas `impl` cria o bloco que contém o comportamento associado a um tipo. Blocos de implementação utilizando `impl` permitem adicionar funcionalidades às suas estruturas, tornando-as mais do que apenas recipientes de dados.

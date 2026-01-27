@@ -1,0 +1,8 @@
+question: Vad skapar kommandot `cargo new project_name` automatiskt som en del av projektstrukturen?
+answer: Ett Git-arkiv, filen Cargo.toml och den grundläggande filen main.rs med programmet Hello World
+wrong_answers:
+  - Endast en konfigurationsfil Cargo.toml och en tom källkatalogstruktur
+  - En komplett testsvit, dokumentationsfiler och produktionsfärdig konfiguration
+  - Binära exekverbara filer, målkatalog och konfiguration av release build
+explanation: |
+  Kommandot `cargo new` skapar en omfattande projektgrund inklusive ett Git-arkiv för versionshantering, en Cargo.toml-fil för projektkonfiguration och beroenden samt en grundläggande main.rs-fil som innehåller ett "Hello, world!"-program. Detta ger allt som behövs för att starta utvecklingen omedelbart. De andra alternativen är felaktiga eftersom cargo new inte skapar testsviter, dokumentationsfiler, körbara binärfiler eller byggartefakter - det sätter bara upp den första projektstrukturen.

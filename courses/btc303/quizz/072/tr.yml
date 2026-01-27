@@ -1,0 +1,9 @@
+question: Gregory Maxwell'in analizine göre, Bitcoin ölçeklendirme tartışmalarında kullanıcıları güvenilir hizmetlere yönlendiren temel ödünleşimi yaratan nedir?
+answer: Hem aşırı yüksek kaynak kullanımının doğrulayıcıları fiyatlandırması hem de uyuşmazlık çözümü için aşırı pahalı blok alanı erişimi
+wrong_answers:
+  - Farklı havuz boyutlarında işlem hacmini artırmak ve yeterli mining karlılığını sürdürmek arasındaki çatışma
+  - Ayrıştırılmış tanık yükseltmelerinin uygulanması ve eski wallet yazılımıyla geriye dönük uyumluluğun korunması arasındaki gerilim
+  - Sınırlı kalkınma kaynakları ve toplum desteği için ikinci katman çözümleri ile on-chain ölçeklendirme yaklaşımları arasındaki rekabet
+explanation: |
+  Maxwell, Bitcoin'ün avantajlarını her iki yönde de kaybettiği çift taraflı bir sorun tanımlamıştır: kaynak kullanımı mevcut teknolojiye göre çok yüksekse, doğrulama çok maliyetli hale gelir ve bağımsız olarak doğrulama yapmak yerine güvenilir üçüncü taraflara güvenmek zorunda kalan kullanıcıları fiyatlandırır. Tersine, kapasite çok düşükse ve işlem yöntemleri verimsizse, uyuşmazlık çözümü için blok zincirine erişim çok pahalı hale gelir ve kullanıcıları yine güvenilir hizmetlere iter. Bu durum, ölçeklendirme çözümlerinin izlemesi gereken hassas bir denge yaratır.
+reviewed: false

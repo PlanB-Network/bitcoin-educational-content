@@ -6,4 +6,4 @@ wrong_answers:
   - CIDR (Classless Inter-Domain Routing)
 explanation: |
   Le NAT traduit les adresses privées internes en une adresse IP publique, permettant à plusieurs appareils de partager la même connexion extérieure.
-reviewed: false
+reviewed: true 

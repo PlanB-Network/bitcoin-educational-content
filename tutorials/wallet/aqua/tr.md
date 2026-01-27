@@ -57,7 +57,7 @@ Liquid Network, blokları doğrulayan ve iki taraflı sabitlemeyi yöneten Bitco
 ![AQUA](assets/fr/04.webp)
 
 
-Android kullanıcıları için, uygulamayı `.apk` dosyası [GitHub'da mevcuttur] (https://github.com/AquaWallet/Aqua-Wallet/releases) aracılığıyla yükleme seçeneğiniz de vardır.
+Android kullanıcıları için, uygulamayı `.apk` dosyası [GitHub'da mevcuttur](https://github.com/AquaWallet/Aqua-Wallet/releases) aracılığıyla yükleme seçeneğiniz de vardır.
 
 
 ![AQUA](assets/fr/05.webp)
@@ -111,7 +111,7 @@ Aynı ayarlar menüsünde, uygulama dilini ve kullanılan fiat para birimini de 
 Wallet'inize ilk bitcoinlerinizi almadan önce **boş kurtarma testi** yapmanızı şiddetle tavsiye ederim. Xpub'ınız veya ilk aldığınız Address gibi bazı referans bilgilerini not edin, ardından Wallet'inizi hala boşken Aqua uygulamasından silin. Ardından kağıt yedeklerinizi kullanarak Wallet'inizi Aqua'a geri yüklemeyi deneyin. Geri yüklemeden sonra oluşturulan çerez bilgilerinin başlangıçta yazdığınızla eşleşip eşleşmediğini kontrol edin. Eğer eşleşiyorsa, kağıt yedeklerinizin güvenilir olduğundan emin olabilirsiniz. Test kurtarma işleminin nasıl gerçekleştirileceği hakkında daha fazla bilgi edinmek için lütfen bu diğer eğitime başvurun:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Bir emülatör kullandığım için ekranımda göremiyorsunuz ama ayarlarda uygulamayı biyometrik kimlik doğrulama sistemiyle kilitleme seçeneğini bulacaksınız. Bu güvenlik özelliğini etkinleştirmenizi şiddetle tavsiye ederim çünkü bu özellik olmadan, kilidi açık telefonunuza erişimi olan herhangi biri bitcoinlerinizi çalabilir. IOS'ta Face ID'yi ya da Android'de parmak izinizi kullanabilirsiniz. Kimlik doğrulama sırasında bu yöntemler başarısız olursa, telefonunuzun PIN kodunu kullanarak uygulamaya erişmeye devam edebilirsiniz.
 
@@ -284,4 +284,4 @@ Bu eğitimi faydalı bulduysanız, aşağıya bir Green başparmak bırakırsan�
 Ayrıca, Liquid Wallet'nizi kurmak için bir başka ilginç çözüm olan Blockstream Green mobil uygulaması hakkındaki bu diğer kapsamlı eğitime de göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

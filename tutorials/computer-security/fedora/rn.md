@@ -111,7 +111,7 @@ Gushiramwo Fedora Workstation bisaba gutunganya ibikoresho bikurikira:
 
 
 
-Ushobora gukuraho [Ikibanza c’Ibikorwa ca Fedora] (https://umugambi.org/fr/Ikibanza c’Ibikorwa/gukuraho) ku rubuga rwemewe rw’umugambi wa Fedora. Hanyuma uhitemwo verisiyo ihuye n’ubwubatsi bwa processeur yawe (32-bit - 64-bit) hanyuma ukande ku kimenyetso **Download**.
+Ushobora gukuraho [Ikibanza c’Ibikorwa ca Fedora](https://umugambi.org/fr/Ikibanza c’Ibikorwa/gukuraho) ku rubuga rwemewe rw’umugambi wa Fedora. Hanyuma uhitemwo verisiyo ihuye n’ubwubatsi bwa processeur yawe (32-bit - 64-bit) hanyuma ukande ku kimenyetso **Download**.
 
 
 
@@ -441,4 +441,4 @@ Ubu rero Fedora yawe iri ku gihe kandi yiteguriye gukoreshwa mu bikorwa vyawe vy
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5

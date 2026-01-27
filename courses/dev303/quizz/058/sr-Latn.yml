@@ -1,0 +1,8 @@
+question: Kada kreirate prilagođeni makro nalik funkciji koji treba da obrađuje različit broj ulaznih argumenata, koja kombinacija specifikatora fragmenta i obrasca ponavljanja bi bila najprikladnija?
+answer: Koristite $($x:expr),* da biste uparili nula ili više izraza odvojenih zarezima
+wrong_answers:
+  - Koristite $($x:ident)+ da biste uparili jedan ili više identifikatora bez separatora
+  - Koristite $($x:ty);* da biste uparili nula ili više tipova odvojenih tačka-zarezima
+  - Koristite $($x:expr)? da biste uparili opcioni pojedinačni izraz bez ponavljanja
+explanation: |
+  Šablon $($x:expr),* je posebno dizajniran za makroe sa promenljivim brojem argumenata, gde expr odgovara bilo kojem izrazu, a sintaksa ,* obrađuje nula ili više ponavljanja razdvojenih zarezima. Ovo je tačno ono što je potrebno za makroe kao što je vec! koji mogu prihvatiti promenljiv broj argumenata. Druge opcije su netačne jer: ident odgovara samo identifikatorima (ne punim izrazima), ty odgovara tipovima (ne vrednostima), a ? odgovara opcionalnim pojedinačnim stavkama, a ne promenljivim ponavljanjima.

@@ -1,5 +1,5 @@
 ---
-name: Alias Tresor
+name: Alias Vault
 description: Leistungsstarkes Tool zur Verwaltung von Passwörtern, Zwei-Faktor-Authentifizierung und Aliasen (mit integriertem E-Mail-Server) - Auch selbst gehostet!
 ---
 
@@ -185,7 +185,7 @@ Bevor Sie diese E-Mail für einen Anmeldedienst verwenden, können Sie die Funkt
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Um einen Alias zu löschen, den Sie zu Testzwecken erstellt haben, müssen Sie sich nur bei "Home" anmelden, dann "Anmeldeinformationen" wählen und auf die Identität klicken, die Sie löschen möchten. Der Befehl _Löschen_ wird in der oberen rechten Ecke angezeigt, damit Sie fortfahren können.
 
@@ -287,7 +287,7 @@ Die Gelegenheit ist einzigartig: **Beenden Sie die Abhängigkeit von externen Di
 
 
 
-Es ist an der Zeit, sich an [Dokumentation] (https://docs.aliasvault.net/installation/) zu wenden, um herauszufinden, wie man Alias Vault selbst hosten kann.
+Es ist an der Zeit, sich an [Dokumentation](https://docs.aliasvault.net/installation/) zu wenden, um herauszufinden, wie man Alias Vault selbst hosten kann.
 
 
 
@@ -433,7 +433,7 @@ Da sich Alias Vault in der _Beta-Phase_ befindet, kann es zu Schwierigkeiten bei
 
 
 
-Für ein vollständiges Verständnis der Architektur und der Sicherheit von Alias Vault empfehle ich Ihnen dringend, [diese Seite] (https://docs.aliasvault.net/architecture/) zu konsultieren, die Details zur Kryptographie enthält, die dem Betrieb zugrunde liegt.
+Für ein vollständiges Verständnis der Architektur und der Sicherheit von Alias Vault empfehle ich Ihnen dringend, [diese Seite](https://docs.aliasvault.net/architecture/) zu konsultieren, die Details zur Kryptographie enthält, die dem Betrieb zugrunde liegt.
 
 
 

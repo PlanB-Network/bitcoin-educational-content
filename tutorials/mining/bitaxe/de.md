@@ -3,7 +3,7 @@ name: Bitaxe
 description: Wie richtet man ein BitAxe ein?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Einführung
+## Einführung
 
 BitAxe ist ein Open-Source-Projekt, das von Skot erstellt und [auf GitHub verfügbar ist](https://github.com/skot/bitaxe), welches kosteneffektive Experimente im Mining ermöglicht.
 
@@ -20,7 +20,7 @@ Es gibt mehrere Versionen von BitAxe, mit unterschiedlichen Chips und Leistungen
 
 In diesem Tutorial werden wir ein BitAxe Ultra 204 verwenden, das mit einem BM1366-Chip ausgestattet ist, der für den Antminer S19XP verwendet wird. Dieses ist bereits vom Händler montiert und geflasht.
 
-### [Die Liste der Händler ist auf dieser Seite verfügbar](https://bitaxe.org/legit.html)
+[Die Liste der Händler ist auf dieser Seite verfügbar](https://bitaxe.org/legit.html)
 
 ![signup](assets/2.webp)
 
@@ -28,7 +28,7 @@ In der Regel wird es mit einem Netzteil verkauft. Wenn nicht, müssen Sie ein Ne
 
 ![signup](assets/1.webp)
 
-### Konfiguration
+## Konfiguration
 Wenn Sie Ihr BitAxe zum ersten Mal anschließen, wird es standardmäßig versuchen, eine Verbindung zu einem Wi-Fi-Netzwerk herzustellen. Nach fünf Versuchen wird es den Namen seines eigenen Wi-Fi-Netzwerks anzeigen, sodass Sie sich damit verbinden und es konfigurieren können.
 Dazu können Sie jeden Computer oder Smartphone verwenden. Gehen Sie zu Ihren Wi-Fi-Einstellungen, suchen Sie nach neuen Netzwerken, und Sie werden ein Wi-Fi namens Bitaxe_XXXX sehen. Hier ist es `Bitaxe_A859`. Verbinden Sie sich mit diesem Wi-Fi-Netzwerk, und ein Fenster wird sich automatisch öffnen.
 
@@ -46,7 +46,7 @@ Geben Sie daher die SSID des WLANs an, also den Namen Ihres Netzwerks, das Passw
 
 Wie Sie auf dem Bildschirm sehen können, müssen Sie die Teile `stratum+tcp://` und `:3333` entfernen, sodass nur `eu.stratum.braiins.com` übrig bleibt. Geben Sie dann im Feld `Port` die 4 Ziffern am Ende der vom Pool gegebenen URL ein, aber ohne das `:`. Hier ist es also `3333`.
 
-In diesem Tutorial verwenden wir den Braiins-Mining-Pool, aber Sie können gerne einen anderen wählen. Unsere Tutorials zu Mining-Pools finden Sie [auf der PlanB Network-Website](https://planb.network/en/tutorials/mining).
+In diesem Tutorial verwenden wir den Braiins-Mining-Pool, aber Sie können gerne einen anderen wählen. Unsere Tutorials zu Mining-Pools finden Sie [auf der Plan ₿ Academy-Website](https://planb.academy/en/tutorials/mining).
 
 Geben Sie als Nächstes in `User` Ihren Identifikator ein und dann das `Password`, üblicherweise ist es `"x"` oder `"Anything123"`.
 
@@ -56,7 +56,7 @@ Die Einstellung `Core Voltage` sollte standardmäßig auf `1200` belassen werden
 
 Sobald Sie alle Einstellungen korrekt eingegeben haben, klicken Sie unten auf den `Save`-Button und starten Sie Ihren BitAxe neu, indem Sie ihn einfach aus- und wieder einstecken.
 Wenn Sie Ihre Informationen korrekt eingegeben haben, sollte das Gerät schnell eine Verbindung zu Ihrem WLAN und dann zum Mining-Pool herstellen und beginnen, einige Informationen auf seinem kleinen Bildschirm anzuzeigen. Es wird wahrscheinlich einige Minuten dauern, bis es auf dem Dashboard des Mining-Pools erscheint.
-### Dashboard und Bildschirm
+## Dashboard und Bildschirm
 
 Drei verschiedene Anzeigen werden durchlaufen. Auf der dritten Seite sehen Sie die `IP`-Informationen, die die IP-Adresse ist, mit der Sie sich mit dem Dashboard verbinden können. Hier ist die Adresse `192.168.1.19`.
 

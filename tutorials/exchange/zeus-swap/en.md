@@ -39,7 +39,7 @@ For a reverse swap (Lightning → On-Chain), the user pays a Lightning invoice f
 For more details on how the Lightning Network works, take a look at our dedicated course :
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Business model
 
@@ -113,7 +113,7 @@ Zeus Swap automatically adjusts expiry times and mining fees according to networ
 See our Zeus tutorial to learn more about this complete Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Web configuration
 
@@ -295,12 +295,13 @@ This ultra-simplified approach is perfectly suited to beginners, but limits unde
 ⚠️ **Warning**: Fees may vary over time depending on market conditions and service updates. Always check the fees displayed in the Interface before validating a swap.
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Minimum amount |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + mining fees | 0.5% + mining fees | 25,000 sats |
+| **Boltz** | 0.2% + mining fees | 0.5% + mining fees | 50,000 sats |
+| **Phoenix** | Mining fees only | 0.4% fixed | 10,000 sats |
+| **Breez** | 0.25% + network fees | 0.5% + mining fees | 50,000 sats |
 
 Zeus Swap offers a balance between ease of use and technical control: more accessible than Boltz, more flexible than Phoenix/Breez, with a strict non-custodial approach.
 

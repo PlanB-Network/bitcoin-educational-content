@@ -22,11 +22,11 @@ Complétez les informations requises : indiquez votre adresse email et votre pay
 
 Pour des conseils sur l'utilisation et la sauvegarde de mots de passe forts et uniques, consultez également ce tutoriel :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Nous allons à présent configurer le 2FA pour sécuriser le compte. Utilisez une application d'authentification sur votre smartphone, telle que Google Authenticator ou Authy par exemple. Vous trouverez un tutoriel sur cet outil ici :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scannez le QR code avec votre application et entrez les 6 chiffres fournis.
 
@@ -54,7 +54,7 @@ Bitfinex applique un processus de vérification (KYC) conforme aux réglementati
 - *Basic* est un mode d'affichage uniquement, qui permet de consulter la plateforme sans effectuer d’opérations ;
 - *Basic Plus* permet d’accéder aux fonctionnalités essentielles, notamment les transactions sur le marché au comptant et certaines options de dépôt et de retrait ;
 - *Intermediate* débloque des services avancés tels que le trading sur marge, les prêts, les transactions P2P et OTC, et offre des délais réduits pour les dépôts ;
-- *Full* permet d'accéder aux virements bancaires internationaux et bénéficier de l’ensemble des fonctionnalités de la plateforme.
+- *Full* permet d'accéder aux virements bancaires internationaux et de bénéficier de l’ensemble des fonctionnalités de la plateforme.
 
 Pour chaque palier, des documents supplémentaires sont exigés lors de la vérification. Pour la plupart des utilisateurs, les comptes *Basic Plus* ou *Intermediate* sont généralement suffisants.
 
@@ -76,7 +76,7 @@ Complétez les étapes en fournissant les informations et les documents demandé
 
 Une fois connecté, vous verrez une barre de navigation en haut de l'interface avec : "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. Bitfinex offre un large panel de fonctionnalités, dont :
 - **Trading** : Marché "*classique*" où vous pouvez passer des ordres pour acheter et vendre des cryptomonnaies (dont le bitcoin) ;
-- **OTC** : Service Over-The-Counter pour échanger de gros volumes directement avec un autre acteur, en dehors des carnets d’ordre publics ;
+- **OTC** : Service Over-The-Counter pour échanger de gros volumes directement avec un autre acteur, en dehors des carnets d’ordres publics ;
 - **Funding** : Espace dédié au lending et au margin funding ;
 - **Derivatives** : Section pour les produits dérivés (contrats à terme, etc.), plutôt destinés aux traders expérimentés ;
 - **P2P** : Permet d’acheter ou de vendre des cryptos auprès d’autres utilisateurs en pair-à-pair.
@@ -163,9 +163,9 @@ Bitfinex offre aussi des options de dépôt et de retrait via le Lightning Netwo
 
 Si le Lightning Network vous intéresse, nous avons également une formation complète pour comprendre son fonctionnement :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Après l'achat de vos premiers bitcoins, vous avez évidemment la possibilité de les laisser sur la plateforme, mais je vous recommande fortement de les transférer vers votre propre portefeuille en self-custody. Si vous ne savez pas encore comment utiliser un portefeuille Bitcoin, je vous invite à explorer [la section "Wallet" sur Plan ₿ Network](https://planb.network/tutorials/wallet).
+Après l'achat de vos premiers bitcoins, vous avez évidemment la possibilité de les laisser sur la plateforme, mais je vous recommande fortement de les transférer vers votre propre portefeuille en self-custody. Si vous ne savez pas encore comment utiliser un portefeuille Bitcoin, je vous invite à explorer [la section "Wallet" sur Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 ## 6 - Achat et vente de bitcoins sur Bitfinex
 
@@ -179,7 +179,7 @@ Sélectionnez la paire "*BTC/EUR*" si vous désirez acheter ou vendre des BTC en
 
 ![BITFINEX](assets/fr/26.webp)
 
-L'interface affiche au centre un graphique du cours, l'order book en bas, et le module de saisie d'ordre à gauche. Dans la section de saisie, vous avez le choix entre un ordre "*Market*" (exécuté immédiatement au meilleur prix disponible) ou "*Limit*" (vous définissez le prix). Indiquez la quantité de BTC à acheter ou à vendre, ou sélectionnez un pourcentage de votre solde. Cliquez ensuite sur "*Buy*" pour acheter ou sur "*Sell*" pour vendre.
+L'interface affiche au centre un graphique du cours, l'order block en bas, et le module de saisie d'ordre à gauche. Dans la section de saisie, vous avez le choix entre un ordre "*Market*" (exécuté immédiatement au meilleur prix disponible) ou "*Limit*" (vous définissez le prix). Indiquez la quantité de BTC à acheter ou à vendre, ou sélectionnez un pourcentage de votre solde. Cliquez ensuite sur "*Buy*" pour acheter ou sur "*Sell*" pour vendre.
 
 ![BITFINEX](assets/fr/27.webp)
 

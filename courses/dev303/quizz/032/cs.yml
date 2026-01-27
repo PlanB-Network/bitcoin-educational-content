@@ -1,0 +1,8 @@
+question: Jaký je hlavní rozdíl mezi obnovitelnými a neobnovitelnými chybami v systému zpracování chyb Rust?
+answer: Obnovitelné chyby lze řešit elegantně a umožnit pokračování programu, zatímco neobnovitelné chyby program ukončí
+wrong_answers:
+  - Obnovitelné chyby používají makro panic!, zatímco neobnovitelné chyby používají výčet Result pro správnou správu chyb
+  - K opravitelným chybám dochází při kompilaci, zatímco k neopravitelným chybám dochází až během běhu programu
+  - Obnovitelné chyby vyžadují odvíjení zásobníku, zatímco neobnovitelné chyby může volající kód ignorovat
+explanation: |
+  Rust kategorizuje chyby podle toho, zda se z nich programy mohou přiměřeně zotavit. Obnovitelné chyby představují očekávané poruchové stavy, jako jsou chybějící soubory nebo síťové problémy, které mohou programy elegantně řešit pomocí typů Result, což umožňuje pokračovat ve vykonávání s příslušným ošetřením chyb. Neobnovitelné chyby označují zásadní problémy, jako je porušení paměťové bezpečnosti nebo logické chyby, kdy program nemůže bezpečně pokračovat, což vyvolá paniku, která ukončí provádění, aby se zabránilo dalšímu poškození.

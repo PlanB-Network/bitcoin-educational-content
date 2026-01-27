@@ -25,11 +25,15 @@ Aurora Store è uno dei più popolari negozi di app alternativi a Google Play St
 
 È possibile scaricare Aurora Store anche da altri negozi di applicazioni come F-Droid o IzzyOnDroid.
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
+
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Tuttavia, si consiglia di scaricare il file APK direttamente dal sito ufficiale per garantire l'autenticità e l'integrità di Aurora Store.
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
+
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Un file APK (Android Package Kit) è il formato di pacchetto utilizzato dal sistema operativo Android per distribuire e installare le applicazioni. È l'equivalente dei file **.exe** su Windows o **.dmg** su macOS.
 
@@ -49,7 +53,7 @@ Nelle impostazioni dell'applicazione, è possibile definire la frequenza degli a
 
 Da Aurora Store è possibile accedere al catalogo delle applicazioni disponibili su Google Play Store, leggine la descrizione, ottieni il feedback degli utenti e installale sul tuo telefono. Tuttavia, questo non significa che tutte le applicazioni siano gratuite. Se l'applicazione, da te scelta, deve essere pagata su Play Store, dovrai prima effettuare il pagamento, utilizzando l'applicazione Play Store o visitando il sito web ufficiale di Play Store.
 
-## Caratteristiche
+### Caratteristiche
 
 Aurora Store non solo rispecchia Google Play Store, ma include anche funzioni che forniscono tutte le informazioni necessarie sulle applicazioni che desideri installare. Grazie a queste caratteristiche, Aurora Store ti permette di avere il controllo dei tuoi dati e della tua vita digitale.
 
@@ -79,4 +83,4 @@ Aurora Store integra Exodus, una soluzione che analizza e rileva i tracker utili
 
 Più che un semplice store di applicazioni, Aurora Store è una soluzione open source che ti permette di avere il controllo sull'utilizzo dei tuoi dati. Ti fornisce informazioni utili sulle tue applicazioni e ti permette di proteggere la tua vita digitale dalla raccolta abusiva. Per rafforzare la tua riservatezza, dai un occhiata al nostro corso sulla sicurezza dei dati digitali: creare un ambiente digitale personale, sicuro e affidabile.
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -1,0 +1,8 @@
+question: Mục đích chính của toán tử dấu hỏi (?) của Rust khi được sử dụng với các kiểu Kết quả là gì?
+answer: Để tự động giải nén các giá trị thành công và trả về lỗi ngay lập tức từ hàm hiện tại.
+wrong_answers:
+  - Chuyển đổi tất cả các kiểu dữ liệu Result thành kiểu dữ liệu Option để dễ dàng xử lý giá trị null hơn.
+  - Tự động báo lỗi kèm thông báo tùy chỉnh khi xảy ra bất kỳ lỗi nào.
+  - Để bọc các giá trị thành công trong một lớp Kết quả bổ sung nhằm tăng cường tính an toàn.
+explanation: |
+  Toán tử dấu hỏi (?) được thiết kế đặc biệt để truyền lỗi trong Rust. Khi được áp dụng cho một đối tượng Result, nó sẽ trích xuất giá trị thành công nếu thao tác thành công, cho phép mã tiếp tục với giá trị đó. Tuy nhiên, nếu xảy ra lỗi, toán tử ? sẽ ngay lập tức trả về lỗi đó từ hàm hiện tại, truyền lỗi đó lên ngăn xếp cuộc gọi. Điều này loại bỏ sự cần thiết của các biểu thức khớp dài dòng trong khi vẫn duy trì ngữ nghĩa xử lý lỗi rõ ràng. Toán tử này chỉ có thể được sử dụng trong các hàm trả về kiểu Result, đảm bảo các mẫu truyền lỗi phù hợp.

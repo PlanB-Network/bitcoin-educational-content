@@ -1,0 +1,8 @@
+question: Šta osigurava da obe strane u zameni između slojeva ili uspešno završe transakciju ili obe ne uspeju bez gubitka sredstava?
+answer: Ista hash brava se koristi na obe mreže, stvarajući kriptografsko povezivanje između delova zamene.
+wrong_answers:
+  - Vremenske brave sprečavaju bilo koju stranu da zahteva sredstva dok obe mreže ne potvrde transakcije
+  - MuSig2 agregacija ključeva zahteva da obe strane potpišu pre nego što bilo koja sredstva mogu biti premeštena
+  - "Putanja skripte Taproot automatski poništava transakcije ako jedna mreža ne uspe da se završi"
+explanation: |
+  Atomska priroda zamena između slojeva oslanja se na korišćenje identičnih heš zaključavanja na oba mreže. Kada primalac otkrije tajnu preimage da bi preuzeo sredstva na jednom sloju, ta ista tajna postaje vidljiva i upotrebljiva od strane pošiljaoca da preuzme recipročna sredstva na drugom sloju. Ovo kriptografsko povezivanje osigurava atomskost - ili obe strane dobijaju svoja sredstva ili nijedna ne dobija, eliminišući rizik od suprotne strane u zameni bez poverenja.

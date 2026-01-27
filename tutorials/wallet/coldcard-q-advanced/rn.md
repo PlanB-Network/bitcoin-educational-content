@@ -11,7 +11,7 @@ description: Gukoresha amahitamwo ateye imbere ya COLDCARD Q
 Mu nyigisho iheruka, twavuga ku bijanye n’imiterere ya mbere ya COLDCARD Q n’ibikorwa vyayo vy’ishimikiro ku batangura. Niba uherutse kwakira COLDCARD Q yawe kandi utarayishiraho, ndagusavye utangure n’iyo nyigisho imbere y’uko ukomeza hano:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Iyi nyigisho nshasha igenewe amahitamwo ateye imbere ya COLDCARD Q, yagenewe abakoresha bateye imbere n’abafise ubwoba. Nkako, COLDCARDs zitandukanye n’izindi nkweto z’ibikoresho vy’ubuhinga bwa none kubera ibintu vyinshi vy’umutekano biteye imbere zifise. Ego ni ko, ntubwirizwa gukoresha izo nzira zose. Hitamwo gusa izo zihuye n’ingene ukoresha ubuhinga bwo gucungera umutekano.
 
@@ -31,7 +31,7 @@ Imbere y’uko utangura, urabe neza ko ufise uburenganzira bwo kuronka ububiko b
 Niba utazi ico BIP39 passphrase ari co, canke nimba utagusobanukiye neza ingene ikora, ndagusavye cane ko wobanza kuraba iyi nyigisho, ivuga ivy’ishimikiro ry’ivyiyumviro bikenewe kugira ngo utahure ingorane zijanye n’ugukoresha passphrase :
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Zirikana ko umaze gushinga passphrase kuri Wallet yawe, Mnemonic yawe yonyene ntizohagije kugira ngo wongere ubone amafaranga yawe ya bitcoins. Uzokenera Mnemonic na passphrase. Ikindi, uzokenera kwinjira muri passphrase igihe cose ufunguye COLDCARD Q yawe. Ivyo bituma umutekano urushirizaho gushikira COLDCARD no kumenya PIN bidahagije ata passphrase.
 
@@ -102,7 +102,7 @@ Wemeze ko urutoke rwerekanwa rujanye n'urwa Wallet yawe hanyuma ukande kuri "*Re
 Zirikana ko gukoresha passphrase bisigura ko uzokenera kwinjiza urutonde rushasha rw'imfunguruzo zivuye mu guhuza ijambo ryawe rya Mnemonic na passphrase muri porogarama yawe yo gucunga Wallet (nka Sparrow wallet). Kugira ngo ubikore, kurikiza intambwe "*Gutegura Wallet nshasha kuri Sparrow*" muri iyi yindi nyigisho :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Gufungura amahitamwo
 
@@ -369,4 +369,4 @@ Niba wabonye iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rwa Gr
 Ndasaba kandi iyi yindi nyigisho, aho tuganira ku gukoresha umuhiganwa ataco akora kuri CCQ, Ledger Flex :
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

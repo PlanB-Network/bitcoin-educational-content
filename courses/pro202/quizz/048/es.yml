@@ -1,0 +1,8 @@
+question: ¿Qué ocurre al construir un árbol de Merkle a partir de transacciones si el número de hashes en cualquier nivel es impar?
+answer: El último hash se duplica para crear un número par de pares para el siguiente nivel
+wrong_answers:
+  - El último hash se transmite sin cambios al siguiente nivel sin emparejamiento
+  - El último hash se XOR con el primer hash de ese nivel para completar el emparejamiento
+  - El último hash se combina con un hash nulo (todo ceros) para crear el par final
+explanation: |
+  La construcción del árbol Merkle de Bitcoin requiere emparejar los hashes en cada nivel. Cuando existe un número impar, el protocolo duplica específicamente el último hash para garantizar el emparejamiento correcto. Esto mantiene la estructura binaria del árbol y garantiza un cálculo determinista de la raíz. Las otras opciones romperían la compatibilidad con las reglas de consenso de Bitcoin y crearían diferentes raíces Merkle para conjuntos de transacciones idénticos.

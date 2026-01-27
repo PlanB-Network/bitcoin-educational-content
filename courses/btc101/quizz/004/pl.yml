@@ -1,9 +1,9 @@
 question: Co oznacza, że Bitcoin jest walutą neutralną?
-answer: Nie jest ona kontrolowana przez żaden podmiot ani instytucję.
+answer: Nie jest kontrolowana przez żaden podmiot ani instytucję.
 wrong_answers:
-  - Jest on kontrolowany przez pojedynczy podmiot lub instytucję.
-  - Jest on regulowany przez rząd.
-  - Jest on używany tylko w przypadku dużych transakcji.
+  - Jest kontrolowana przez pojedynczy podmiot lub instytucję.
+  - Jest regulowana przez rząd.
+  - Jest używana tylko w przypadku dużych transakcji.
 explanation: |
   Bitcoin jest walutą neutralną, co oznacza, że nie jest kontrolowana
   przez żaden podmiot ani instytucję, więc każdy użytkownik ma takie same

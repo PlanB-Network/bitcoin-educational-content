@@ -1,0 +1,8 @@
+question: Qual è la differenza principale tra errori recuperabili e non recuperabili nel sistema di gestione degli errori di Rust?
+answer: Gli errori recuperabili possono essere gestiti con grazia, permettendo ai programmi di continuare, mentre gli errori non recuperabili terminano il programma
+wrong_answers:
+  - Gli errori recuperabili utilizzano la macro Panic! mentre gli errori non recuperabili utilizzano l'enum Result per una corretta gestione degli errori
+  - Gli errori recuperabili si verificano in fase di compilazione, mentre gli errori non recuperabili si verificano solo durante l'esecuzione del programma
+  - Gli errori recuperabili richiedono lo svuotamento dello stack, mentre gli errori non recuperabili possono essere ignorati dal codice chiamante
+explanation: |
+  Rust classifica gli errori in base alla possibilità di recupero dei programmi. Gli errori recuperabili rappresentano condizioni di fallimento previste, come file mancanti o problemi di rete, che i programmi possono gestire con grazia utilizzando i tipi di risultato, consentendo all'esecuzione di continuare con una gestione appropriata degli errori. Gli errori irrecuperabili indicano problemi fondamentali, come violazioni della sicurezza della memoria o errori logici, per i quali il programma non può continuare in modo sicuro, innescando il panico che termina l'esecuzione per evitare ulteriori corruzioni.

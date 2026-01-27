@@ -1,0 +1,8 @@
+question: O que acontece com a diferença entre os montantes de entrada e os montantes de saída em uma transação Bitcoin?
+answer: A diferença torna-se automaticamente a taxa de transação paga aos mineiros
+wrong_answers:
+  - "A diferença é devolvida ao endereço original do remetente como troco"
+  - A diferença é queimada e permanentemente retirada da circulação
+  - A diferença é mantida em depósito até que a transação seja confirmada
+explanation: |
+  No sistema de taxas do Bitcoin, as taxas são calculadas implicitamente como a diferença entre os valores totais de entrada e os valores totais de saída (taxa = soma(entradas) - soma(saídas)). Qualquer valor não explicitamente atribuído a uma saída torna-se automaticamente a taxa do mineiro. É por isso que a criação de saídas de alteração adequadas é fundamental - se se esquecer de incluir uma saída de alteração ao gastar um UTXO grande, todo o restante torna-se uma taxa cara para o mineiro. As outras opções estão incorrectas porque o Bitcoin não cria automaticamente saídas de alteração, não queima valor não atribuído e não utiliza mecanismos de caução para diferenças de transação.

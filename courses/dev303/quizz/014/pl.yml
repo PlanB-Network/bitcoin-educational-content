@@ -1,0 +1,8 @@
+question: Jaka jest główna różnica między ciągiem znaków a literałem ciągu znaków (&str) w Rust?
+answer: String zarządza dynamicznie alokowaną pamięcią sterty i może być modyfikowany, podczas gdy &str jest widokiem na niezmienne dane typu string
+wrong_answers:
+  - String jest przechowywany na stosie, podczas gdy &str jest przechowywany na stercie dla lepszej wydajności
+  - String może zawierać tylko znaki ASCII, podczas gdy &str może zawierać dowolne znaki Unicode
+  - String automatycznie implementuje pożyczanie, podczas gdy &str wymaga jawnego przeniesienia własności
+explanation: |
+  String i &str reprezentują różne podejścia do obsługi ciągów znaków w Rust. String jest alokowanym na stercie, rosnącym typem łańcucha, który jest właścicielem swoich danych i może być modyfikowany w czasie wykonywania. W przeciwieństwie do tego, &str (string slice) jest niezmiennym odniesieniem do danych łańcuchowych, często wskazującym na literały łańcuchowe osadzone w programie binarnym lub wycinki istniejących danych łańcuchowych. To rozróżnienie pozwala Rust na optymalizację zarówno pod kątem elastyczności (String dla zawartości dynamicznej), jak i wydajności (&str dla dostępu tylko do odczytu bez alokacji).

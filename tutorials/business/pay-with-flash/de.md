@@ -69,7 +69,7 @@ Je nachdem, welchen Lightning Wallet Sie verwenden, stehen Ihnen die folgenden O
 
 
 
-https://planb.network/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-465c3bde9903
+https://planb.academy/tutorials/wallet/mobile/alby-go-40202802-b346-4a3c-9863-465c3bde9903
 
 
 
@@ -87,7 +87,7 @@ In diesem Tutorial werden wir den Blitz Wallet mit einer Nostr Wallet Connect-Ve
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![wallet_name](assets/fr/05.webp)
 
@@ -293,4 +293,4 @@ Wir hoffen, dass Ihnen diese Entdeckung gefallen hat, und wir ermutigen Sie, meh
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

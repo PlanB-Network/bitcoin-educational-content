@@ -1,0 +1,8 @@
+question: Ni kuki BIP34 isaba gushiramwo uburebure bw’ibarabara mu kibanza ca scriptSig c’isoko rya Coinbase?
+answer: Kugira ngo umenye neza ko Coinbase transaction ID yose ari iyo kwihariza mu bice vyose
+wrong_answers:
+  - Kugira ngo abacukuzi b’amabuye y’agaciro batange entropie y’inyongera iyo umwanya wa nonce uheze
+  - Kugira ngo abaguzi b'umuco bashobore kugenzura urutonde rw'amabuye ata gukuraho amabuye yuzuye
+  - Kugira ngo abacukuzi ntibasabe infashanyo z’amabuye y’agaciro zirengeye amahera yemerewe .
+explanation: |
+  BIP34 itegeka ko uburebure bw'ibarabara bushirwa mu nyandiko ya Coinbase cane cane kugira ngo yemeze ubudasa bwa Coinbase transaction ID yose. Hatari iki gisabwa, amabuye abiri ku burebure butandukanye yoshobora kugira amafaranga asa n’ayo Coinbase, akarema txids zibiri zishobora kurenga ku vyiyumviro vy’ubudasa bw’amafaranga ya Bitcoin kandi zishobora gutuma haba amakimbirane mu gushirwa mu ngiro kw’urutonde rwa txid.

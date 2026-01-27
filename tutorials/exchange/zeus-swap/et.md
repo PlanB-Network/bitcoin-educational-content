@@ -51,7 +51,7 @@ Lisateavet selle kohta, kuidas Lightning Network töötab, leiate meie spetsiaal
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Ärimudel
 
@@ -149,7 +149,7 @@ Vaata meie Zeuse õpetust, et rohkem teada saada selle täieliku Wallet kohta:
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Veebikonfiguratsioon
 
@@ -390,12 +390,13 @@ Selline ülimalt lihtsustatud lähenemine sobib ideaalselt algajatele, kuid piir
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| Teenus | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Minimaalne summa |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + kaevandustasud | 0.5% + kaevandustasud | 25 000 satsi |
+| **Boltz** | 0.2% + kaevandustasud | 0.5% + kaevandustasud | 50 000 satsi |
+| **Phoenix** | Ainult kaevandustasud | 0.4% fikseeritud | 10 000 satsi |
+| **Breez** | 0.25% + võrgutasud | 0.5% + kaevandustasud | 50 000 satsi |
 
 Zeus Swap pakub tasakaalu kasutusmugavuse ja tehnilise kontrolli vahel: kättesaadavam kui Boltz, paindlikum kui Phoenix/Breez, kuid rangelt mittekohustuslik lähenemine.
 

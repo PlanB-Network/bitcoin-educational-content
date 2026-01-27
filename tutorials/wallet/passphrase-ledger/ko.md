@@ -11,7 +11,7 @@ BIP39 passphrase는 선택적 비밀번호로, Mnemonic 문구와 결합하면 �
 이 튜토리얼을 시작하기 전에 passphrase의 개념, 작동 방식, Bitcoin Wallet에 미치는 영향에 대해 잘 모르신다면 제가 모든 것을 설명한 다른 이론 문서를 참조하시기 바랍니다:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## passphrase는 Ledger에서 어떻게 작동하나요?
 
@@ -44,11 +44,11 @@ Ledger 디바이스의 경우, Wallet에서 passphrase을 구성할 수 있는 �
 이 튜토리얼을 시작하기 전에 Ledger을 이미 초기화하고 Mnemonic 문구를 생성했는지 확인하세요. 그렇지 않고 Ledger을 처음 사용하는 경우 PlanB 네트워크에서 제공되는 해당 모델에 대한 특정 튜토리얼을 따르세요. 이 단계가 완료되면 이 튜토리얼로 돌아올 수 있습니다.
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 ## Ledger로 임시 passphrase을 설정하는 방법은 무엇인가요?
 
@@ -274,4 +274,4 @@ Wallet를 passphrase과 함께 사용하기 전에 드라이런 복구 테스트
 Ledger Flex를 사용하는 방법에 대한 다른 전체 튜토리얼도 확인해 보시기 바랍니다:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

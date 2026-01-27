@@ -81,7 +81,7 @@ Tässä opetusohjelmassa näytän, miten Trezor Model Onea käytetään [Sparrow
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Tarvitset myös Trezor Suite -ohjelmiston Model Onen konfigurointiin, sen aitouden tarkistamiseen ja laiteohjelmiston asentamiseen. Käytämme tätä ohjelmistoa vain tähän, ja sen jälkeen sitä tarvitaan vain laiteohjelmistopäivityksiin. Wallet:n päivittäiseen hallintaan käytämme yksinomaan Sparrow Wallet -ohjelmistoa, koska se on optimoitu Bitcoin:lle ja helppokäyttöinen myös aloittelijoille (Sparrow tukee vain Bitcoin:tä, ei altcoineja).
 
@@ -99,7 +99,7 @@ Suosittelen vahvasti, että tarkistat molempien ohjelmien aitouden (GnuPG:llä) 
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Trezor Model One -mallin käynnistäminen
 
@@ -209,7 +209,7 @@ Jos haluat lisätietoja oikeasta tavasta tallentaa ja hallita Mnemonic-lauseesi,
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Siirry seuraaviin sanoihin napsauttamalla hiiren kakkospainiketta. Kun olet kirjoittanut kaikki sanat, siirry seuraavaan vaiheeseen napsauttamalla uudelleen oikeaa painiketta.
 
@@ -315,7 +315,7 @@ Kun olet avannut Sparrow Wallet:n, varmista, että ohjelmisto on yhdistetty Bitc
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Napsauta välilehteä "*File*" ja sitten "*New Wallet*".
 
@@ -357,7 +357,7 @@ Kun yhdistät Model One -mallin tietokoneeseen, jossa Sparrow Wallet on avoinna,
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 ![Image](assets/fr/26.webp)
 
@@ -407,7 +407,7 @@ Jos haluat lisätietoja palautustestin suorittamisesta, suosittelen, että tutus
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Miten vastaanottaa bitcoineja Trezor Model One -laitteella?
 
@@ -565,6 +565,6 @@ Onneksi olkoon, olet nyt perillä Trezor Model One:n peruskäytöstä Sparrow Wa
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit Green-peukalon alle. Voit vapaasti jakaa tämän artikkelin sosiaalisissa verkostoissa. Kiitos paljon!

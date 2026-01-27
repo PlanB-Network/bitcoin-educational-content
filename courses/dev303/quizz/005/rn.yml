@@ -1,0 +1,8 @@
+question: Ni igiki gikorwa nyamukuru ca Clippy mu bijanye n’iterambere ry’ibidukikije rya Rust?
+answer: Igikoresho giteye imbere gisesangura kode kandi kigatanga ivyiyumviro vyo gutera imbere kugira ngo imvugo nziza za Rust zibe nziza
+wrong_answers:
+  - Umuyobozi w'amapaki akora ibikorwa vyo gutorera umuti ibibazo n'ubwubatsi bw'umugambi
+  - Igikoresho co gukoranya gihindura kode y'inkomoko ya Rust mu bice bibiri bishobora gukorwa
+  - Igikoresho co guhingura inyandiko gikora ibikoresho vy'ishingiro vya API ubwaco
+explanation: |
+  Clippy ni linter iteye imbere irenze ugusuzuma insiguro y’amajambo y’ishimikiro kugira ngo isesengure kode yawe ya Rust no gutanga ivyiyumviro vyo gutera imbere. Udakunze abagenzura insiguro yoroshe, Clippy iratahura imvugo za Rust kandi irashobora gutanga impanuro z’uburyo bwiza canke bw’imvugo bwo gukora ibikorwa vyihariye. Ayandi mahitamwo adondora ibikoresho bitandukanye: Cargo ni umucungerezi w’amapaki akora ivy’ibiva ku bindi no kwubaka, rustc ni umukozi ahindura kode y’inkomoko mu bikorwa, na rustdoc ni umuhinguzi w’inyandiko. Clippy yibanze cane cane ku gusesangura uburyo bwa kode no gufasha abahinguzi kwandika kode nziza, ishobora kubungabunga kode ya Rust mu gutanga ivyiyumviro vyiza.

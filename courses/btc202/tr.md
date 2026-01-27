@@ -21,7 +21,7 @@ Bitcoinlerinizi kendinizin muhafaza etmesini teşvik eden "Anahtarlarınız yoks
 
 
 
-BTC 202, teknik bir uzman olmasanız bile size kendi Bitcoin düğümünüzü nasıl atacağınızı öğretmek için tasarlanmış erişilebilir bir kurstur. Bitcoin düğümünün ne olduğunu, ne işe yaradığını ve kendi düğümünüzü atmanın neden kesinlikle gerekli olduğunu tanımlayarak başlayacağız. Daha sonra donanımınızı seçme, gerekli yazılımı yükleme, Wallet'unuzu bağlama ve daha ileri götürmek için ilk olası optimizasyonları yapma konusunda size adım adım rehberlik edeceğim.
+BTC 202, teknik bir uzman olmasanız bile kendi Bitcoin düğümünüzü çalıştırmayı öğrenmeniz için tasarlanmış erişilebilir bir eğitimdir. Öncelikle bir Bitcoin düğümünün ne olduğunu, ne işe yaradığını ve neden kendi başınıza bir tane çalıştırmanın kesinlikle gerekli olduğunu tanımlayarak başlayacağız. Ardından, donanımınızı seçme, gerekli yazılımları yükleme, cüzdan yazılımınızı bağlama ve daha ileri gitmek için ilk olası optimizasyonları yapma konusunda sizi adım adım yönlendireceğim.
 
 
 
@@ -118,7 +118,7 @@ Daha sonra, IBD sürecini ve eş bulmayı ayrıntılı olarak anlamak, bir düğ
 
 
 
-Tüm Plan ₿ Network kurslarında olduğu gibi, final bölümünde Bitcoin düğümleri hakkındaki bilginizi test etmek için bir final sınavı bulacaksınız.
+Tüm Plan ₿ Academy kurslarında olduğu gibi, final bölümünde Bitcoin düğümleri hakkındaki bilginizi test etmek için bir final sınavı bulacaksınız.
 
 
 
@@ -328,7 +328,7 @@ Bir Miner ağ ile etkileşime geçmek için bir Bitcoin düğümüne ihtiyaç du
 
 
 
-Miner'ün rolü de bazen kıyıcıdan farklıdır. Kıyıcı, görevi bir havuzun sunucusu tarafından sağlanan Hash şablon bloklarını, Bitcoin'nin değil, paylaşımlar için tanımlanan zorluk hedefini karşılayan hash'leri aramak olan bir makinedir. Gerçek blok yapımı, işlem seçimi veya Bitcoin'nin kendi zorluk derecesine göre Proof-of-Work aramasının yanı sıra dağıtımı da içeren Mining sürecinin geri kalanı doğrudan havuzlar tarafından gerçekleştirilir.
+Miner'ün rolü de bazen grind farklıdır. Grind, görevi bir havuzun sunucusu tarafından sağlanan Hash şablon bloklarını, Bitcoin'nin değil, paylaşımlar için tanımlanan zorluk hedefini karşılayan hash'leri aramak olan bir makinedir. Gerçek blok yapımı, işlem seçimi veya Bitcoin'nin kendi zorluk derecesine göre Proof-of-Work aramasının yanı sıra dağıtımı da içeren Mining sürecinin geri kalanı doğrudan havuzlar tarafından gerçekleştirilir.
 
 
 
@@ -410,7 +410,7 @@ Başka bir deyişle, 10 genel düğümden yaklaşık 9'u Bitcoin core çalışt�
 
 
 
-Bitcoin core C++ dilinde yazılmıştır. Ayrıca, gönüllü olan veya çeşitli kuruluşlar tarafından (genellikle ekosistemde Core'un geliştirilmesinde menfaati olan şirketler tarafından) ödeme yapılan bir geliştirici topluluğu tarafından sürdürülen açık kaynaklı bir projedir. [Kod GitHub'da barındırılmaktadır] (https://github.com/Bitcoin/Bitcoin) ve geliştirme titiz bir şekilde takip edilmektedir:
+Bitcoin Core, C++ ile yazılmış bir yazılımdır. Ayrıca, gönüllü veya çeşitli kuruluşlar tarafından finanse edilen geliştirici topluluğu tarafından sürdürülen açık kaynaklı bir projedir (çoğu zaman Core geliştirmesinin olumlu ilerlemesini isteyen ekosistem şirketleri tarafından). [Kod GitHub’da barındırılmaktadır](https://github.com/bitcoin/bitcoin) ve geliştirme katı bir modele uyar:
 
 
 
@@ -448,7 +448,7 @@ Ayrıca şunu da belirtebiliriz:
 
 - Libbitcoin**: Amir Taaki tarafından geliştirilen ve Eric Voskuil tarafından bakımı yapılan modüler bir C++ kütüphanesi;
 - Bcoin**: artık aktif olarak bakımı yapılmayan bir JavaScript uygulaması;
-- BTCD/btcsuit**e: Go'da bir uygulama.
+- **BTCD/btcsuite** : Go dilinde bir uygulama.
 
 
 
@@ -481,7 +481,7 @@ Bu dersin ilerleyen bölümlerinde tartışacağımız üzere, protokolün kural
 
 
 
-## Neden kendi düğümünü kendin atıyorsun?
+## Neden kendi düğümünüzü çalıştırmalısınız?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Bir Bitcoin düğümünü işletmenin, kişisel kazanç olmaksızın, yalnızca 
 
 
 
-Gerçekten de, önceki bölümlerde de belirttiğimiz gibi, düğüm atmanın doğrudan maddi bir getirisi yoktur. Bu nedenle bunu yapmakta kişisel bir çıkar olmadığı düşünülebilir. Yine de kendi düğümünüzü işletmek birçok bireysel fayda sağlar. Sizi bu konuda ikna etmek için bu bölümde neden kendi Bitcoin düğümünüzü kurmanız ve kullanmanız gerektiğine dair hem teknik hem de stratejik tüm nedenleri sunacağım.
+Önceki bölümlerde vurguladığımız gibi, bir düğüm çalıştırmak doğrudan finansal bir kazanç sağlamaz. Bu nedenle, bunu yapmanın kişisel bir çıkarı olmadığı düşünülebilir. Ancak, kendi düğümünüzü işletmek birçok bireysel avantaj sağlar. Bunu size göstermek için, bu bölümde hem teknik hem de stratejik tüm nedenleri açıklayacağım; bunlar, kendi Bitcoin düğümünüzü kurup kullanmanız için sizi teşvik etmelidir.
 
 
 
@@ -516,7 +516,7 @@ Kendi node'unuzu kullanarak işlemlerinizi aracıları atlayarak doğrudan ağa 
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Sansüre tabi olmayan işlemler
 
@@ -576,7 +576,7 @@ Full node'nin kurulumu önemsiz bir işlem değildir. Yazılım yüklemeyi, teme
 
 
 
-Bu bilgiyi edinmek alete olan güveninizi güçlendirir ve hata yapma veya dolandırıcılığa maruz kalma riskini azaltabilir. Kendi düğümünüzü atmak da bir öğrenme biçimidir.
+Bu bilgiyi edinmek, araca olan güveninizi güçlendirir ve hatalar veya dolandırıcılıklara maruz kalma riskini azaltabilir. Kendi düğümünüzü çalıştırmak aynı zamanda öğrenmektir.
 
 
 
@@ -692,7 +692,7 @@ Dolayısıyla önemli olan düğüm sayısı değil, destekledikleri ekonomik fa
 
 
 
-> Senin düğümün değil, senin kuralların değil.
+> Senin düğümün değilse, senin kuralların da değildir.
 
 
 ## Farklı Bitcoin düğüm tipleri
@@ -730,7 +730,7 @@ Pratikte, bir Full node, blok dosyaları için birkaç yüz gigabayt, komut dosy
 
 
 
-### pruned düğümü
+### Budanmış düğüm
 
 
 
@@ -849,11 +849,11 @@ Bu en egemen ve esnek yaklaşımdır: tam olarak neyin çalıştığını, veril
 
 
 
-#### Bitcoin core (ultra çoğunluklu müşteri)
+#### Bitcoin Core (ağırlıklı istemci)
 
 
 
-[Bitcoin core ağın ultra çoğunluk istemcisidir] (https://bitcoincore.org/). Blockchain'yi indirir, doğrular ve bakımını yapar, RPC/REST API'leri sağlar ve bir Wallet entegre edebilir. Standart araçları tercih ediyorsanız ve kendiniz hizmet ekleme konusunda rahat hissediyorsanız (Electrum sunucusu, explorer ve LND gibi), Core'u olduğu gibi kullanmanız daha iyi olacaktır.
+[Bitcoin core ağın ultra çoğunluk istemcisidir](https://bitcoincore.org/). Blockchain'yi indirir, doğrular ve bakımını yapar, RPC/REST API'leri sağlar ve bir Wallet entegre edebilir. Standart araçları tercih ediyorsanız ve kendiniz hizmet ekleme konusunda rahat hissediyorsanız (Electrum sunucusu, explorer ve LND gibi), Core'u olduğu gibi kullanmanız daha iyi olacaktır.
 
 
 
@@ -865,11 +865,11 @@ Bu en egemen ve esnek yaklaşımdır: tam olarak neyin çalıştığını, veril
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (ana alternatif müşteri)
+#### Bitcoin Knots (ana alternatif istemci)
 
 
 
@@ -886,7 +886,7 @@ Core yerine Knots'u seçmenin 2 olası nedeni vardır:
 - Politika**: Bazı insanlar Knots gibi alternatif istemcileri teknik olmayan nedenlerle, özellikle de Core'a bir alternatifi desteklemek ve böylece onun tekelini azaltmak için kullanmayı tercih etmektedir. Eğer Core tehlikeye girerse, sadece sağlam, iyi bakımlı alternatif istemcilere sahip olmak değil, aynı zamanda bunları etkili bir şekilde nasıl kullanacaklarını bilmek de yararlı olacaktır. Diğerleri Knots'u protesto amacıyla kullanmaktadır, çünkü Core'un geliştiricilerine olan güvenlerini kaybetmişlerdir ya da istemci yönetiminin çoğunluğunu onaylamamaktadırlar.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Şahsen, güvenlik yamalarından daha hızlı yararlanmak için Core'u seçmenizi tavsiye ederim. Gerçekten de Knots'ta keşfedilen bazı güvenlik açıkları gecikmeli olarak düzeltilmektedir. Daha genel olarak, Core'un geliştirme süreci sağlam bir şekilde yapılandırılmış ve çok sayıda katılımcı tarafından desteklenirken, Knots tek bir kişi tarafından sürdürülüyor ve çok daha küçük bir topluluğa sahip. Öte yandan, röle kuralları, özellikle ağın sadece küçük bir kısmı tarafından uygulandığında (percolation teorisi gibi) günümüzde kullanışlılıklarını kaybetme eğilimindedir.
 
@@ -942,7 +942,7 @@ Nasıl çalıştığı ve belirli özellikleri hakkında burada daha fazla ayrı
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -968,13 +968,13 @@ Kısacası, Umbrel'in çok zengin ekosistemine özel bir ilgi duymadan sadece Bi
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
 
 
-[MyNode, yalnızca Bitcoin ve Lightning'e odaklanan bir dağıtımdır] (https://mynodebtc.com/), bir web Interface, bir uygulama pazarı ve tek tıklamayla yükseltmeler sunar. Kullanıma hazır donanım satın alabilir (*Model Two* 549 dolardan satılmaktadır) ya da MyNode'u kendi makinenize ücretsiz olarak kurabilirsiniz. Proje ayrıca yazılımın öncelikli destek ve gelişmiş özellikler içeren bir *Premium* sürümünü (94 $) sunmaktadır.
+[MyNode, yalnızca Bitcoin ve Lightning'e odaklanan bir dağıtımdır](https://mynodebtc.com/), bir web Interface, bir uygulama pazarı ve tek tıklamayla yükseltmeler sunar. Kullanıma hazır donanım satın alabilir (*Model Two* 549 dolardan satılmaktadır) ya da MyNode'u kendi makinenize ücretsiz olarak kurabilirsiniz. Proje ayrıca yazılımın öncelikli destek ve gelişmiş özellikler içeren bir *Premium* sürümünü (94 $) sunmaktadır.
 
 
 
@@ -986,7 +986,7 @@ Pratikte MyNode, bir Full node'i çalıştırmak için gereken tüm temel yapı 
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ Bir Raspberry Pi'niz varsa, Umbrel gibi daha eksiksiz sistemler bu tür mini PC'
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ Proje daha önce Tanto adında önceden yapılandırılmış bir makine sunuyord
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1565,7 +1565,7 @@ Raspberry Pi 5'i tercih ettiyseniz (bir önceki bölümde belirtildiği gibi tav
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Önceki bölümde belirtildiği gibi, bu öğreticiyi iyi bir fiyata bulduğum yenilenmiş küçük bir bilgisayarda çalıştırmayı seçtim: Intel Core i7 işlemci ve 16 GB RAM ile donatılmış bir *Lenovo ThinkCentre M900 Tiny*. Bu, Umbrel'i çalıştırmak için, özellikle de bir Bitcoin düğümü için çok rahat bir yapılandırma. Ancak ben bu konfigürasyonu seçtim çünkü daha sonra bir Lightning düğümü ve daha zorlu uygulamalar kurmak istiyorum. Ayrıca ThinkCentre'ime 2 TB SSD ekleyerek Blockchain'nin tamamını kullanmaya devam ettim ve yine de rahat bir marj elde ettim. Bu yapılandırma ile toplam maliyet, tüm masraflar dahil 270 €'dur.
 
@@ -1619,7 +1619,7 @@ UmbrelOS'u makinenize kurmadan önce, işletim sistemini içeren önyüklenebili
 
 
 
-USB anahtar aracılığıyla kurulum için [ISO görüntüsünü indirmek için resmi Umbrel web sitesine] (https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) gidin. X86_64 mimarisiyle uyumlu sürümü seçtiğinizden emin olun (`umbrelos-amd64-usb-installer.iso` adlı dosya). İmaj oldukça büyük olduğu için indirme işlemi biraz zaman alabilir.
+USB anahtar aracılığıyla kurulum için [ISO görüntüsünü indirmek için resmi Umbrel web sitesine](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) gidin. X86_64 mimarisiyle uyumlu sürümü seçtiğinizden emin olun (`umbrelos-amd64-usb-installer.iso` adlı dosya). İmaj oldukça büyük olduğu için indirme işlemi biraz zaman alabilir.
 
 
 
@@ -1633,7 +1633,7 @@ USB anahtar aracılığıyla kurulum için [ISO görüntüsünü indirmek için 
 
 
 
-Önyüklenebilir USB bellek oluşturmak için [Balena Etcher] (https://www.balena.io/etcher/) adlı basit, platformlar arası bir araç kullanacaksınız. İndirin ve bilgisayarınıza kurun.
+Önyüklenebilir USB bellek oluşturmak için [Balena Etcher](https://www.balena.io/etcher/) adlı basit, platformlar arası bir araç kullanacaksınız. İndirin ve bilgisayarınıza kurun.
 
 
 
@@ -1822,7 +1822,7 @@ Umbrel IP Address'ınızı tanımlamak için en basitinden en gelişmişine kada
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Güçlü bir parola seçin ve en az bir yedek tuttuğunuzdan emin olun (bir paro
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Şifrenizi girdikten sonra "*Oluştur*" düğmesine tıklayın.
 
@@ -1944,7 +1944,7 @@ Umbrel'in Interface'i oldukça sezgiseldir:
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Bunu yapmak için ayarlardaki ilgili kutuya tıklayın.
 
@@ -2435,7 +2435,7 @@ Daha önce de belirtildiği gibi, bir gezgin çevrimiçi olarak bir web sitesind
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Dahası, İnternet Servis Sağlayıcınız (İSS) belirli bir işlemi Block explorer sitesi üzerinden görüntülediğinizi biliyor olabilir. Bu aynı zamanda bir güven sorununu da beraberinde getirir: doğruluğunu kendiniz teyit edemeden, işlemleriniz hakkında size doğru bilgi sağlaması için çevrimiçi hizmete güvenmeniz gerekir.
 
@@ -2472,7 +2472,7 @@ Mempool.Space gezginini kullanma hakkında daha fazla bilgi edinmek için bu kap
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Yıldırım Düğümü
 
@@ -2492,15 +2492,15 @@ Umbrel, Lightning düğümünüzü kurmanıza ve çalıştırmanıza yardımcı 
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Daha sonra düğümünüzü ana Interface'den yönetebilir veya daha fazla işlevsellik ve gelişmiş seçenekler için *Ride The Lightning* veya *ThunderHub* yükleyebilirsiniz. Bu araçlar size düğümünüz için çok daha kapsamlı bir web tabanlı Interface yönetim sistemi sağlayacaktır.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2514,9 +2514,11 @@ Son olarak, kanal açabileceğiniz eşler bulmanızı sağlayan ve hem giden hem
 
 
 
-Umbrel sayesinde, kişisel bir Lightning düğümünü yönetmek büyük ölçüde basitleştirilmiştir, ancak yine de nispeten karmaşıktır. Bu nedenle, gelecekte tamamen bu kullanıma ayrılmış bir kursta bu konuya daha yakından bakacağız.
+Umbrel sayesinde kişisel bir Lightning düğümünün yönetimi basitleştirilmiştir, ancak yine de nispeten karmaşık olmaya devam etmektedir. Bu nedenle, BTC 202 kursunun mantıksal devamı olan LNP 202 kursunu takip etmenizi öneririm; bu kursta Umbrel üzerinde Lightning düğümünüzün kurulumu ve yönetimi konusunda sizi adım adım yönlendiriyorum.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Kuyruk Ölçeği
 
@@ -2564,7 +2566,7 @@ Tailscale'i Umbrel'inize kurmak ve yapılandırmak için bu eğitimin 4. bölüm
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2590,7 +2592,7 @@ Nostr istemcileri ***noStrudel*** veya ***Snort*** da Umbrel'de mevcuttur. Bu uy
 
 
 
-Son olarak, Umbrel'de Nostr'da yerel Lightning ödemelerini mümkün kılan ***Nostr Wallet Connect*** uygulaması var. Somut olarak, üçüncü taraf bir hizmetten geçmeye gerek kalmadan, içeriği ödüllendirmek veya paraya dönüştürülmüş bir şekilde etkileşimde bulunmak için "*zaps*" adı verilen mikro ödemeler göndermek üzere gelecekteki Lightning düğümünüzü Nostr müşterilerinize bağlayabilirsiniz. Bu ödemeler, kanallarınız aracılığıyla doğrudan kişisel düğümünüzden gönderilir.
+Son olarak, Umbrel'de yer alan ***Nostr Wallet Connect*** uygulaması, Nostr içinde yerel Lightning ödemeleri yapılmasına olanak tanır. Somut olarak, gelecekteki Lightning düğümünüzü Nostr istemcilerinize bağlayarak, içerikleri ödüllendirmek veya para kazanılan bir şekilde etkileşimde bulunmak için "*zaps*" adı verilen mikro ödemeler gönderebilirsiniz. Bu ödemeler, üçüncü taraf bir hizmetten geçmeden, doğrudan kişisel düğümünüzden kanallarınız aracılığıyla gönderilir.
 
 
 
@@ -2598,7 +2600,7 @@ Tüm bu uygulamaları nasıl kullanacağınızı öğrenmek için bu eğitimin t
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### BTCPay Sunucusu
 
@@ -2626,7 +2628,7 @@ Bir işletmeniz varsa ve Bitcoin ödemelerini doğrudan Umbrel node'unuz üzerin
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2636,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2644,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Gelişmiş kavramlar ve en iyi uygulamalar
@@ -2652,7 +2654,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Şemsiye düğümünüzün bakımı
+## Umbrel düğümünüzü bakımda tutma
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2751,7 +2753,7 @@ Genel olarak bilgisayar güvenliği konusundaki bilginizi derinleştirmek için 
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Teşhis ve kendi kendine yardım
 
@@ -2761,7 +2763,7 @@ Umbrel'inizde bir hata olması durumunda, önce UmbrelOS'un veya ilgili uygulama
 
 
 
-Sorun devam ederse, [Discord'larındaki Umbrel kullanıcı topluluğuna katılmanızı] (https://discord.gg/efNtFzqtdx) tavsiye ederim. Daha önce aynı zorlukla karşılaşmış ve bir çözüm bulmuş birileri olup olmadığını belirlemek için bir arama yaparak başlayın. Eğer yoksa, `general-support` kanalına bir mesaj gönderebilirsiniz. Ayrıca [Umbrel forumunu](https://community.umbrel.com/) da kullanabilirsiniz.
+Sorun devam ederse, [Discord'larındaki Umbrel kullanıcı topluluğuna katılmanızı](https://discord.gg/efNtFzqtdx) tavsiye ederim. Daha önce aynı zorlukla karşılaşmış ve bir çözüm bulmuş birileri olup olmadığını belirlemek için bir arama yaparak başlayın. Eğer yoksa, `general-support` kanalına bir mesaj gönderebilirsiniz. Ayrıca [Umbrel forumunu](https://community.umbrel.com/) da kullanabilirsiniz.
 
 
 
@@ -2908,7 +2910,7 @@ Bu durumda, yazılım _**DNS tohumlarını**_ sorgular. Bunlar, aktif olduğu va
 
 
 
-Vakaların büyük çoğunluğunda, *DNS tohumları* adımı diğer düğümlerle ilk bağlantıları kurmak için yeterlidir. İstisnai olarak, bu sunucular 60 saniye içinde yanıt vermezse, düğüm başka bir yönteme geçer: gW-569'un kodunda _tohum düğümlerinin_ [1.000'den fazla adresten oluşan statik bir liste] (https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) yerleşiktir ve düzenli olarak güncellenir. IP adresi elde etmenin ilk iki yöntemi başarısız olursa, bu son çözüm düğümün daha sonra yeni IP adresleri talep edebileceği bir ilk bağlantı kurar.
+Vakaların büyük çoğunluğunda, *DNS tohumları* adımı diğer düğümlerle ilk bağlantıları kurmak için yeterlidir. İstisnai olarak, bu sunucular 60 saniye içinde yanıt vermezse, düğüm başka bir yönteme geçer: gW-569'un kodunda _tohum düğümlerinin_ [1.000'den fazla adresten oluşan statik bir liste](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) yerleşiktir ve düzenli olarak güncellenir. IP adresi elde etmenin ilk iki yöntemi başarısız olursa, bu son çözüm düğümün daha sonra yeni IP adresleri talep edebileceği bir ilk bağlantı kurar.
 
 
 
@@ -2941,7 +2943,7 @@ Düğümünüz ilk senkronizasyonunu tamamladığında, blokları ve işlemleri 
 
 
 
-- gW-402 **bloklar** disk üzerinde depolanır,
+- diskte depolanan blokzincirin **blokları**,
 - bir anahtar-değer veritabanında tutulan **UTXO seti**,
 - ve **Mempool** RAM'de saklanır ve periyodik olarak serileştirilir.
 
@@ -3077,9 +3079,9 @@ UTXO setinin büyümesi, Bitcoin üzerindeki basit ödeme işlemlerinin yapısı
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-İşlemleri makul bir sürede doğrulamak için bir kısmının RAM'de tutulması gerektiğinden, UTXO seti bir Full node'un çalışmasını kademeli olarak çok maliyetli hale getirebilir. Bu sorunu çözmek için, başta [Utreexo] (https://planb.network/resources/glossary/utreexo) olmak üzere birkaç öneri zaten mevcuttur.
+İşlemleri makul bir sürede doğrulamak için bir kısmının RAM'de tutulması gerektiğinden, UTXO seti bir Full node'un çalışmasını kademeli olarak çok maliyetli hale getirebilir. Bu sorunu çözmek için, başta [Utreexo](https://planb.academy/resources/glossary/utreexo) olmak üzere birkaç öneri zaten mevcuttur.
 
 
 
@@ -3093,7 +3095,7 @@ Mempool, alınmış ancak henüz onaylanmamış geçerli işlemlerin yerel küme
 
 
 - gW-614'e `maxmempool` parametresi aracılığıyla tahsis edilen boyut: daha büyük bir Mempool'e sahip bir düğüm, daha küçük bir Mempool'e sahip bir düğümden daha fazla işlem tutabilecektir (ikincisi boşalmadığı sürece);
-- gW-433 kuralları: bunlar düğümün aktarım kurallarının bir alt kümesidir ve onaylanmamış bir işlemin Mempool'te kabul edilmesi için karşılaması gereken özellikleri tanımlar;
+- mempool kuralları: bunlar düğümün aktarım kurallarının bir alt kümesini oluşturur ve onaylanmamış bir işlemin mempool’a kabul edilmesi için karşılaması gereken özellikleri tanımlar;
 - işlem süzülmesi: çeşitli faktörler nedeniyle, belirli bir işlem ağın bir kısmına dağıtılmış, ancak henüz başka bir kısmına ulaşmamış olabilir.
 
 
@@ -3135,10 +3137,10 @@ Block/`, `chainstate/` ve `indexes/` ile aynı seviyedeki diğer bazı dosyalar 
 - Düğüm kapatıldığında, `anchors.dat` giden eşlerin adreslerini kaydeder, böylece bir dahaki sefere başlattığınızda onlarla tekrar hızlı bir şekilde iletişim kurmayı deneyebilirsiniz.
 - `banlist.json`, düğümün bu belirli eşlerden yeniden bağlanmasını veya bağlantı kabul etmesini önlemek için operatör veya düğüm tarafından karar verilen yerel yasakları (tekrarlanan geçersiz davranış) içerir.
 - fee_estimates.dat`, bir işlem oluşturulurken seçilen gecikme hedefleriyle tutarlı ücret oranları önermek için ücret tahmincisi tarafından kullanılan, gözlemlenen onaylara ilişkin zaman ufku istatistiklerini depolar.
-- gW-446.conf` düğümünüzün yapılandırma parametrelerini içerir. Burası röle kurallarını ayarlayabileceğiniz yerdir. Bir sonraki bölümde bu konu hakkında daha fazla bilgi vereceğim.
+- `bitcoin.conf`, düğümünüzün yapılandırma parametrelerini içerir. Özellikle bu dosyada aktarım kuralları ayarlanabilir. Bunu bir sonraki bölümde daha ayrıntılı olarak açıklayacağım;
 - `settings.json`, `Bitcoin.conf` için ek parametreler içerir.
 - debug.log`, bir hata durumunda düğüm etkinliğini anlamak için kullanılabilecek tanılama metin günlüğüdür.
-- gW-448.pid` çalışma zamanında süreç tanımlayıcısını saklar ve diğer uygulamaların veya komut dosyalarının bitcoind'i (*Bitcoin daemon*) kolayca tanımlamasına ve gerekirse onunla etkileşime girmesine olanak tanır. Düğüm başlangıcında oluşturulur ve kapatıldığında silinir.
+- `bitcoind.pid`, çalıştırma sırasında işlem kimliğini kaydeder ve diğer uygulamaların veya komut dosyalarının Bitcoind’i (*Bitcoin Daemon*) kolayca tanımlamasına ve gerekirse onunla etkileşime girmesine olanak tanır. Düğüm başlatıldığında oluşturulur ve kapatıldığında silinir;
 - ip_asn.map`, kova oluşturma ve eş çeşitlendirme (`-asmap` seçeneği) için kullanılan bir IP → ASN eşleme tablosudur (bağımsız sistem).
 - onion_v3_private_key`, `-listenonion` seçeneği etkinleştirildiğinde, yeniden başlatmalar arasında sabit bir onion Address tutmak için Tor v3 hizmetinin özel anahtarını saklar.
 - i2p_private_key`, I2P üzerinde giden ve muhtemelen gelen bağlantılar yapmak için `-i2psam=` kullanıldığında I2P özel anahtarını saklar.
@@ -3154,9 +3156,9 @@ Bu BTC 202 kursunun ilk bölümlerinde gördüğümüz gibi, Bitcoin core hem Bi
 
 
 
-- wallets/` bir veya daha fazlasını barındıran varsayılan dizindir;
+- `wallets/` bir veya daha fazla cüzdanı barındıran varsayılan dizindir;
 - `wallets/<name>/Wallet.dat` Wallet'in SQLite veritabanıdır (anahtarlar, tanımlayıcılar, işlem meta verileri, vb.);
-- wallets/<name>/Wallet.dat-journal` SQLite geri alma günlüğüdür.
+- `wallets/<name>/wallet.dat-journal`, SQLite geri alma günlüğüdür.
 
 
 
@@ -3335,10 +3337,10 @@ Ağ düzeyinde, ayrıca
 
 
 - addnode`: olağan keşfe ek olarak iletişim kurulacak dost bir eş ekler (birkaç kez belirtilebilir).
-- connect`: bağlantıları sağlanan Address ile sıkı bir şekilde kısıtlar (birkaç kez belirtilebilir). Çekirdek başka hiçbir düğüme bağlanmayacaktır.
+- `connect`: bağlantıları verilen adrese kesin olarak sınırlar (birden çok kez belirtilebilir). Core başka hiçbir düğüme bağlanmayacaktır;
 - `seednode`: yalnızca bir düğüme bağlanırken Address kitabını doldurmak için kullanılır, ardından bağlantıyı keser.
 - `maxconnections`: gelen + giden bağlantılar için global tavanı tanımlar. Varsayılan olarak, bu parametre 125 olarak ayarlanmıştır, yani düğümünüz asla 125'ten fazla bağlantı kabul etmeyecektir.
-- maxuploadtarget`: 24 saatlik kayan bir pencere boyunca bant genişliğini sınırlamak için yüklemeleri sınırlar. Bu sınır, temel son Elements'in yayılmasını feda etmez.
+- `maxuploadtarget` : bant genişliğini sınırlamak için yüklemeyi 24 saatlik kayan bir zaman aralığında sınırlar. Bu sınır, gerekli yeni öğelerin yayılmasını engellemez;
 - onlynet`: giden bağlantıları yalnızca seçilen ağlarla sınırlar (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Örneğin, düğümünüzün Bitcoin ağına yalnızca Tor üzerinden bağlanmasını istiyorsanız, `onlynet=onion` parametresini etkinleştirebilir ve gelen bağlantıları devre dışı bırakabilirsiniz (veya yalnızca Tor üzerinden bağlantılara da izin verebilirsiniz).
 - `dnsseed`: yerel Address havuzunuz düşük olduğunda _DNS tohumlarının_ eşler talep etmesine izin verir veya vermez (varsayılan: `-connect` veya `-maxconnections=0` olmadığı sürece `1`).
 - forcednsseed`: stokta zaten adresleriniz olsa bile _DNS tohumlarının_ başlangıçta istenmesini zorlar (öntanımlı: `0`).
@@ -3362,7 +3364,7 @@ Tor'u tam olarak etkinleştirmek için, Bitcoin core'yı yalnızca bu ağı kull
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3420,7 @@ Mempool'nizin yönetimi ve onaylanmamış işlemlerin aktarılmasıyla ilgili `B
 
 
 
-- blocksonly=1`: Eşlerden alınan onaylanmamış işlemlerin kabulünü ve yeniden iletimini devre dışı bırakır (özel izinler verilmediği sürece). Düğüm artık sadece blokları yükler ve ilan eder. Yerel olarak oluşturulan işlemler hala yayınlanabilir (düğümünüzü Wallet yazılımınızla kullanmak için). Bu, aktarıcı için daha az kullanışlılık ve Mempool'e tamamen yabancılık pahasına da olsa bant genişliği ve RAM gereksinimlerini büyük ölçüde azaltır.
+- `blocksonly=1` : Eşlerden alınan onaylanmamış işlemlerin kabulünü ve yeniden iletimini devre dışı bırakır (özel izinler hariç). Düğüm yalnızca blokları indirir ve duyurur. Yerel olarak oluşturulan işlemler hâlâ yayınlanabilir (düğümünüzü cüzdan yazılımınızla kullanmak için). Bu, bant genişliği ve RAM gereksinimlerini önemli ölçüde azaltır, ancak aktarım için kullanılabilirliği azaltır ve mempool hakkında hiçbir bilgi bırakmaz.
 
 
 
@@ -3448,7 +3450,7 @@ Bir hatırlatma olarak, RBF, göndericinin onaylamayı hızlandırmak için bir 
 
 
 
-- datacarrier=1`: Bir `OP_RETURN` çıkışı üzerinden finansal olmayan veri taşıyan işlemlerin aktarılmasına ve (düğüm üzerinden Mining ise) dahil edilmesine izin verir (varsayılan: `1`). Bu parametrenin devre dışı bırakılması, belirli kullanımlarla uyumluluğun azalması pahasına, finansal olmayan veri spam'i için yüzey alanını biraz azaltır. Her durumda, mayınlı `OP_RETURN` yı kabul etmelisiniz.
+- `datacarrier=1` : Düğüm üzerinden madencilik yapılıyorsa, finansal olmayan veriler içeren işlemlerin `OP_RETURN` çıktısı aracılığıyla aktarımına ve dahil edilmesine izin verir (varsayılan: `1`). Bu parametrenin devre dışı bırakılması, finansal olmayan veri spam yüzeyini biraz azaltır ancak bazı kullanım durumlarıyla uyumluluğu düşürür. Her durumda, çıkarılan `OP_RETURN`ları kabul etmeniz gerekir.
 
 
 
@@ -3490,13 +3492,13 @@ Bir hatırlatma olarak, RBF, göndericinin onaylamayı hızlandırmak için bir 
 
 
 
-- peerbloomfilters=1`: Filtrelenmiş blokları/işlemleri ince istemcilere sunmak için Bloom filtreleri (BIP37) desteğini etkinleştirin (varsayılan: `0`). Uyarı: Bu, kaynaklarınız üzerindeki yükü artırır.
+- `peerbloomfilters=1` : Hafif istemcilere filtrelenmiş bloklar/işlemler sunmak için Bloom filtreleri (BIP37) desteğini etkinleştirir (varsayılan: `0`). Dikkat, bu kaynaklarınız üzerindeki yükü artırır.
 
 
 
 
 
-- peerblockfilters=1`: BIP157 (*Neutrino*) kompakt filtrelerini eşlere sunar (varsayılan: `0`).
+- `peerblockfilters=1` : Eşlere kompakt BIP157 (*Neutrino*) filtreleri sunar (varsayılan: `0`).
 
 
 
@@ -3520,7 +3522,7 @@ Cüzdanlarınızın yönetilme şeklini `Bitcoin.conf` dosyasından da ayarlayab
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Alım için Wallet tarafından oluşturulan adreslerin biçimini tanımlar.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Cüzdan tarafından alım için oluşturulan adreslerin biçimini tanımlar.
 
 
 
@@ -3568,7 +3570,7 @@ Cüzdanlarınızın yönetilme şeklini `Bitcoin.conf` dosyasından da ayarlayab
 
 
 
-- fallbackfee=<amt>`: Tahmin edicinin verisi biterse kullanılan geri dönüş oranı (BTC/kvB) (varsayılan: `0,00`). 0 olarak ayarlamak geri dönüşü tamamen devre dışı bırakır.
+- `fallbackfee=<amt>` : Tahmin aracının verisi eksikse kullanılan yedek ücret oranı (BTC/kvB) (varsayılan: `0.00`). 0 olarak ayarlamak yedeği tamamen devre dışı bırakır.
 
 
 
@@ -3660,7 +3662,7 @@ Yapılandırma dosyası, makinenizle ilgili parametreleri ayarlamanıza da olana
 
 
 
-- txindex=1`: Onaylanmış işlemlerin küresel bir dizinini oluşturur ve korur. Belirli sorgular (`getrawtransaction` non-Wallet) ve keşif amaçları için gereklidir, ancak disk ayak izini önemli ölçüde artırır. pruned modu ile uyumsuzdur.
+- `txindex=1` : Onaylanmış işlemlerin küresel dizinini oluşturur ve korur. Bazı sorgular (`getrawtransaction` cüzdan dışında) ve keşif amaçları için gereklidir, ancak disk kullanımını önemli ölçüde artırır. Budanmış mod ile uyumlu değildir.
 
 
 
@@ -3882,7 +3884,7 @@ Son olarak, `Bitcoin.conf` dosyası da düğümünüz için erişim parametreler
 
 
 
-Artık yapılandırma parametrelerinin çoğunu listelemeyi bitirdik. Bu `Bitcoin.conf` dosyası düğümünüzün gerçek kontrol panelini oluşturur: ağ yapılandırmasını, Mempool yönetimini, disk ve bellek kullanımını, indekslemeyi ve genel yönetimi tanımlar. Bu dosya hakkında daha fazla bilgi edinmek ve ihtiyaçlarınıza uygun bir dosya oluşturmak isterseniz [Jameson Lopp's generator] (https://jlopp.github.io/Bitcoin-core-config-generator/) adresini kullanmanızı tavsiye ederim.
+Artık yapılandırma parametrelerinin çoğunu listelemeyi bitirdik. Bu `Bitcoin.conf` dosyası düğümünüzün gerçek kontrol panelini oluşturur: ağ yapılandırmasını, Mempool yönetimini, disk ve bellek kullanımını, indekslemeyi ve genel yönetimi tanımlar. Bu dosya hakkında daha fazla bilgi edinmek ve ihtiyaçlarınıza uygun bir dosya oluşturmak isterseniz [Jameson Lopp's generator](https://jlopp.github.io/Bitcoin-core-config-generator/) adresini kullanmanızı tavsiye ederim.
 
 
 
@@ -3894,15 +3896,17 @@ Artık kursun son bölümüne geçebilir, burada BTC 202'yi değerlendirebilir v
 
 
 
-Artık önünüzde birkaç seçenek var. Bir sonraki mantıklı adım, off-chain işlemleriniz için tamamen bağımsız olmanızı sağlayacak şekilde kendi Lightning düğümünüzü kurmaktır. Bu, 2025 sonbaharında Plan ₿ Network üzerine yayınlanacak olan gelecek bir kursun konusu olacaktır.
+Artık önünüzde birden fazla yol bulunmaktadır. Bir sonraki mantıklı adım, off-chain işlemleriniz için tamamen bağımsız olabilmek adına kendi Lightning düğümünüzü kurmaktır. Bu da Plan ₿ Academy’deki başka bir kursun tam olarak konusudur:
 
 
 
-Bu arada, sizi Bitcoin kullanımınızda gizlilik koruma ilkelerini anlamanızı ve bu konuda uzmanlaşmanızı sağlayacak BTC 204 eğitimini keşfetmeye davet ediyorum:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Ayrıca, Bitcoin kullanımınızda gizliliğin korunmasına ilişkin ilkeleri anlamanızı ve bunlara hâkim olmanızı sağlayacak olan BTC 204 eğitimini keşfetmenizi öneririm:
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Son bölüm

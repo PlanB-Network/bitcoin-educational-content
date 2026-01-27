@@ -1,0 +1,8 @@
+question: Koji je glavni mehanizam konsenzusa koji koristi Liquid Network?
+answer: Federated Consensus
+wrong_answers:
+  - Proof-of-Work
+  - Proof-of-Stake
+  - Delegirani dokaz o ulogu
+explanation: |
+  Liquid Network radi na modelu Federativnog Konsenzusa, koji je suštinski različit od Bitcoin-ovog Proof-of-Work sistema. U ovom modelu, odabrana grupa od petnaest funkcionera deluje kao potpisnici blokova koji proizvode blokove na deterministički round-robin način. Proof-of-Work je Bitcoin-ov konsenzusni mehanizam koji uključuje mining, dok su Proof-of-Stake i Delegated Proof-of-Stake konsenzusni mehanizmi koje koriste druge blockchain mreže, ali ne i Liquid.

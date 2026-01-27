@@ -1,0 +1,9 @@
+question: Eric Voskuilin vastarinta-aksiooman mukaan mikä perusolettamus on hyväksyttävä, jotta Bitcoin olisi järkevä järjestelmä?
+answer: Järjestelmän on mahdollista vastustaa valtion valvontaa
+wrong_answers:
+  - Suurin osa verkon hashpowerista pysyy aina rehellisenä
+  - Kvanttilaskenta ei koskaan murra salausalgoritmeja
+  - Käyttäjät asettavat aina hajauttamisen mukavuuden edelle
+explanation: |
+  Vastarinnan aksiooma olettaa, että järjestelmät voivat vastustaa valtiollista valvontaa, mikä on perustavaa laatua Bitcoin:n tarkoituksen kannalta, sillä se on luvatonta rahaa. Ilman tätä olettamusta koko Bitcoin:n lähtökohta romahtaa, koska valtiot väistämättä kontrolloisivat sitä. Vaikka muut vaihtoehdot ovatkin tärkeitä Bitcoin:n turvallisuuden kannalta, ne eivät kuulu Voskuilin vastarinta-aksioomaan, joka käsittelee nimenomaan sitä filosofista perustaa, jonka mukaan valtiollisen valvonnan vastustaminen on mahdollista.
+reviewed: false

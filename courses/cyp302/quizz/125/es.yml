@@ -6,4 +6,4 @@ wrong_answers:
   - Mejorar las técnicas de cifrado simétrico
 explanation: |
   Diffie, Hellman y Merkle estaban motivados por las dificultades prácticas de la distribución y gestión de claves para asegurar las comunicaciones, desafíos cruciales en un mundo en transición hacia la comunicación digital.
-reviewed: false
+reviewed: true

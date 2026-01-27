@@ -1,0 +1,8 @@
+question: Vilken är den främsta begränsningen som utvecklare måste komma runt när de använder UniFFI för utveckling av mobilapplikationer som kräver responsiva användargränssnitt?
+answer: UniFFI stöder endast synkrona gränssnitt, vilket innebär att utvecklare måste hantera asynkrona operationer genom separata trådningsmekanismer
+wrong_answers:
+  - UniFFI kan inte hantera komplexa datatyper som enums och structs, vilket begränsar de mobila API-gränssnittens rikedom
+  - UniFFI genererar bindningar som inte är minnessäkra över språkgränser, vilket kräver manuell minneshantering
+  - UniFFI stöder inte översättning av felhantering, vilket tvingar utvecklare att implementera anpassad undantagshantering på varje målspråk
+explanation: |
+  UniFFI:s största begränsning är att det inte finns något stöd för asynkrona gränssnitt - alla genererade bindningar är synkrona. Detta skapar utmaningar för mobilutveckling där responsiva användargränssnitt är kritiska, eftersom utvecklare måste implementera sina egna trådlösningar för att undvika att blockera huvudtråden. De felaktiga svaren är felaktiga eftersom UniFFI faktiskt utmärker sig när det gäller att hantera komplexa typer som enum och structs, tillhandahåller automatisk minnessäker marshaling över språkgränser och har sofistikerad felhanteringsöversättning som konverterar Rust Result-typer till inbyggda undantagsmodeller för målspråk.

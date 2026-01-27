@@ -143,4 +143,4 @@ See also Bitcoin news events
 Now you can start exchanging bitcoins anonymously and securely with Vexl. To find out more, take a look at our Bitcoin privacy course.
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

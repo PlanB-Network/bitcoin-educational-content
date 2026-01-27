@@ -1,0 +1,8 @@
+question: Selon la théorie autrichienne des cycles économiques, pourquoi la baisse artificielle des taux d'intérêt par les banques centrales fausse-t-elle les signaux intertemporels dans l'économie?
+answer: Elle fait croire aux entrepreneurs qu'il y a plus d'épargne disponible qu'en réalité, les incitant à investir dans des projets à long terme non soutenables
+wrong_answers:
+  - Elle réduit directement la productivité marginale du capital dans tous les secteurs économiques de manière uniforme
+  - "Elle augmente automatiquement les préférences temporelles des consommateurs vers la consommation future plutôt qu'immédiate"
+  - "Elle crée une déflation structurelle qui décourage l'investissement dans les biens de consommation courante"
+explanation: |
+  Dans la théorie autrichienne, les taux d'intérêt naturels reflètent les préférences temporelles réelles et l'épargne disponible. Quand les banques centrales abaissent artificiellement ces taux, elles envoient un faux signal suggérant une abondance d'épargne. Les entrepreneurs, trompés par ce signal, orientent leurs investissements vers des projets à long terme qui ne correspondent pas aux préférences réelles des consommateurs. Cette distorsion du signal intertemporel génère les malinvestissements caractéristiques du boom artificiel.

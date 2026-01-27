@@ -156,7 +156,7 @@ objectives:
 
 
 
-*注意：如果您在課程中遇到任何不熟悉的詞彙，請參閱 [詞彙表](https://planb.network/resources/glossary) 以瞭解定義。*
+*注意：如果您在課程中遇到任何不熟悉的詞彙，請參閱 [詞彙表](https://planb.academy/resources/glossary) 以瞭解定義。*
 
 
 
@@ -179,7 +179,7 @@ SCU101 課程是一門入門課程，旨在為 IT 初級和中級使用者建立
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### 安全的線上瀏覽
 
@@ -974,7 +974,7 @@ Arch Linux 系列的哲學與現成的發行版截然不同。它們是極簡主
 
 Arch Linux 首先是針對想要完全控制環境的進階使用者，同時也接受一定的安裝與維護複雜度。此技術需求已導致數個衍生發行版的出現，目的在於使其使用更平民化。
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 最著名的是 Manjaro，它保留了 Arch 的技術基礎，同時提供簡化的安裝、預設的桌面環境，以及稍微延遲的發行週期以穩定更新。
 
@@ -1062,7 +1062,7 @@ Ubuntu 由 Canonical 開發，於 2004 年推出，是全球最受歡迎的發�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint 於 2006 年推出，是源自 Ubuntu 的發行版，旨在提供更�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint 以其簡單、預設的多媒體編解碼器和設計良好的更新工具脫穎而出。另一方面，Mint 嚴重依賴 Ubuntu 的基礎架構，使得它必須依賴 Ubuntu 的技術選擇 (尤其是在核心與儲存庫層級)。Mint 特別適合非技術性使用者，或是想要一個不需要太多學習、即開即用的系統的人。
 
@@ -1108,7 +1108,7 @@ Zorin OS 由一個愛爾蘭團隊於 2008 年創立，明確以尋求平順過�
 
 elementary OS 於 2011 年推出，是以 Ubuntu 為基礎的發行版，主要著重於 Interface 的設計與一致性。其 Pantheon 桌面環境的靈感來自 macOS，簡約、優雅且流暢。然而，與其他發行版相比，該系統的自訂性仍然較低，一些進階使用者可能會因為 Interface 的選擇及其刻意鎖定的結構而感到受限。Interface 非常適合對美學敏感、尋求簡單連貫系統作日常使用的使用者。
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1151,7 +1151,7 @@ Fedora 是 Red Hat 支持的發行版，面向最新的技術 (Wayland、PipeWir
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
 - **openSUSE** (Tumbleweed 或 Leap)：
@@ -1179,7 +1179,7 @@ Debian 有多個分支，包括 *Stable* (非常可靠，但軟件較舊) 和 *T
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
 - **Manjaro**：
@@ -1208,7 +1208,7 @@ Arch Linux 是一個簡約、可持續更新的發行版，沒有 Interface 或�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### 專業配送
 
@@ -1246,7 +1246,7 @@ Tails 是一個以 Debian 為基礎、注重隱私的 Live 發行版。所有東
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **註：** Live 發行版是可以直接從 USB 隨身碟或 CD 使用的 Linux 作業系統，無須在 Hard 磁碟上安裝。
 
@@ -1300,7 +1300,7 @@ PureOS 是 Purism 所開發的 Debian 衍生發行版，完全免費 (FSF 核准
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 - **Raspberry Pi OS**：
 
@@ -1326,7 +1326,7 @@ Whonix 以雙虛擬機器架構 (閘道 + 工作站) 結合 Debian 與 Tor 網�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 這個全景圖讓您對目前的 Linux 發行版生態系統有一個概觀的了解，讓您能夠選擇最適合您的技術規格和目標的發行版。
 
@@ -1938,7 +1938,7 @@ LTS 版本與非 LTS 版本 Ubuntu 的主要差異在於支援與穩定性的時
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 安裝完成後，按提示移除 USB 密鑰，然後重啟。Ubuntu 現在已經安裝完成，可以在您的電腦上使用。
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### 辦公室套件
 
 
@@ -3114,13 +3114,13 @@ sudo snap install code --classic
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 最後，作為本章的總結，這裡有幾個每天都要遵循的最佳實踐：
 
@@ -3212,9 +3212,9 @@ sudo apt update && sudo apt upgrade
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 最後，請定期變更此密碼 - 每 3 到 6 個月變更一次 - 尤其是當您的機器用於共用或行動環境時。
 
@@ -3314,13 +3314,13 @@ BIOS (*Basic Input/Output System*) 是 UEFI (*Unified Extensible Firmware Interf
 - Linux 發行版本不會自動加密磁碟，除非在安裝時選擇此選項。您可以使用 LUKS 加密磁碟
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 在任何情況下，解密密碼都必須強大、有別於系統密碼，並儲存在安全的密碼管理器中。如果您使用包含敏感資料的外接式磁碟或 USB 隨身碟，也請考慮使用 VeraCrypt 等工具將它們個別加密。
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### 最小特權原則
 
@@ -3417,7 +3417,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 就 IT 安全性而言，虛擬機器的一大優勢是其分隔能力。虛擬機器不會與主機系統共用檔案、進程或網路存取，除非您明確設定這些交換。因此，如果虛擬機器受到惡意軟體感染，或您在虛擬機器內測試敏感軟體，影響仍會限於該虛擬機器：只要遵守隔離參數 (不共用目錄、不傳送 USB 裝置到虛擬機器...)，您的主系統仍會保持完整。
 
@@ -3953,7 +3953,7 @@ sudo apt autoremove
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### 在 macOS 下
 
@@ -4061,11 +4061,11 @@ macOS 以其安全性著稱，這主要歸功於其應用程式簽章政策和�
 
 
 
-若要進一步瞭解加密 Hash 函式和數位簽章，我邀請您參加 Plan ₿ Network 提供的免費 CYP 201 課程：
+若要進一步瞭解加密 Hash 函式和數位簽章，我邀請您參加 Plan ₿ Academy 提供的免費 CYP 201 課程：
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 驗證軟體的完整性與真實性
 
@@ -4469,7 +4469,7 @@ Alice 在她的筆記型電腦上保存了一個版本的檔案，她每天都�
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 因此，Alice 遵循 3-2-1 規則：它的檔案有 3 份副本 (電腦、USB key、雲端)，至少儲存在 2 個不同的媒體 (內部磁碟、USB key、遠端伺服器)，並至少有 1 個異地副本 (雲端伺服器)。
 
@@ -4556,7 +4556,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 在 Linux 下，標準的解決方案是 LUKS (*Linux Unified Key Setup*)。LUKS 是整合在大多數發行版本中的加密磁碟區管理系統。首次安裝系統時，一般會提示您加密整個電腦磁碟。當然，我強烈建議您啟用此選項。一旦啟用加密，系統在每次開機時都會要求輸入密碼，甚至在作業系統載入之前也是如此。這可確保磁碟的實體存取無法繞過安全性。
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 如果您希望加密外部磁碟或 USB 隨身碟，也可以透過命令列或圖形化的 Interface 進行加密。磁碟必須格式化，因此如果不先備份，所有現有資料都會遺失。
 
@@ -4832,7 +4832,7 @@ sudo apt install -y gnome-disk-utility
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4877,7 +4877,7 @@ FileVault 啟用後，您需要選擇密碼遺失時的復原方法：使用您�
 
 Cryptomator 是一個極佳的選擇。這個開放原始碼軟體可讓您建立一個保險箱：一個特殊目錄，存放在此目錄中的所有檔案都會自動加密。這個保險箱可以與 Dropbox、Google Drive 或 Nextcloud 等雲端服務同步，而提供者無法存取未加密的資料。此應用程式適用於所有作業系統，包括 Android 和 iOS，使用時不需要特殊的技術能力。
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4885,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 最後，也可以在容器模式下使用 VeraCrypt，它會建立一個檔案，作為加密存檔，可像磁碟一樣掛載。
 
@@ -4943,18 +4943,18 @@ sudo apt install libimage-exiftool-perl
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-將 `name.jpg` 改為您檔案的真實名稱。同時確定您的位置是在包含此影像的目錄中。例如，如果我在 `/Downloads` 目錄下有一張 Satoshi Nakamoto 雕像的照片，我可以執行以下指令來顯示它的 metadata：
+將 `name.webp` 改為您檔案的真實名稱。同時確定您的位置是在包含此影像的目錄中。例如，如果我在 `/Downloads` 目錄下有一張 Satoshi Nakamoto 雕像的照片，我可以執行以下指令來顯示它的 metadata：
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ exiftool Satoshi-Nakamoto-Lugano.jpeg
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ exiftool -all= name.jpg
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ exiftool -all= -overwrite_original name.jpg
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-這會刪除目前目錄中所有 JPEG 檔案的 metadata。您可以根據需要調整副檔名 (`*.png`、`*.pdf`...)。
+這會刪除目前目錄中所有 JPEG 檔案的 metadata。您可以根據需要調整副檔名 (`*.webp`、`*.pdf`...)。
 
 
 
@@ -5580,9 +5580,9 @@ Google Chrome 是基於開放原始碼的 Chromium 專案。不過，Google 加�
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### 勇敢
 
@@ -5742,7 +5742,7 @@ Firefox 儘管在某些效能領域稍稍落後於以 Blink 為基礎的瀏覽�
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor 瀏覽器
 
 
@@ -5751,7 +5751,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 其缺點是效能大幅降低（延遲率高），而且與某些網站的相容性有限。Tor 瀏覽器是敏感活動 (新聞、激進主義...) 的理想選擇，但不太適合一般日常使用。
 
@@ -5765,11 +5765,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 [Mullvad Browser](https://mullvad.net/en/browser) 是 Tor 基金會與 Mullvad VPN 合作的成果。它以 Tor 瀏覽器為基礎，而 Tor 瀏覽器本身則源自 Firefox ESR。Mullvad 瀏覽器的設計旨在最大化使用者隱私。在預設情況下，它包含了針對指紋、追蹤者和第三方腳本的進階保護。
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 它具有 Tor 瀏覽器提供的大部分安全和隱私功能，但有一點不同：它不會透過 Tor 網路重定向流量。為了避免 IP Address 洩漏，您可以將它與 VPN（最好是 Mullvad VPN）結合使用。
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 如果您關心個人隱私，無論您是初學者或進階使用者，Mullvad Browser 都是絕佳的解決方案。
 
@@ -5795,7 +5795,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Zen 瀏覽器
 
@@ -5813,7 +5813,7 @@ Zen 也支援 Firefox 擴充套件，以及透過 Mozilla 帳戶進行同步處�
 
 如果您正在尋找一個免費、創新、不雜亂且尊重您隱私的 Gecko 瀏覽環境，Zen Browser 是一個有趣的選擇。
 
-https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### 基於 WebKit 的瀏覽器
 
@@ -5855,7 +5855,7 @@ Orion 完全由 Kagi 團隊 (以其無廣告搜尋引擎而聞名) 所開發。�
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### 無渲染引擎的瀏覽器
 
 
@@ -6035,9 +6035,9 @@ sudo apt update && sudo apt upgrade firefox
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 使用密碼管理器有許多好處：它可以簡化您的日常生活，讓您無需記下眾多的密碼，並將主要的認證弱點：使用者本身的弱點減到最低。
 
@@ -6047,13 +6047,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### 使用 VPN
 
@@ -6087,11 +6087,11 @@ VPN (*Virtual Private Network*) 是一種隧道工具，可加密裝置與中介
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 應避免使用知名度高的 VPN。儘管這些公司積極行銷，但它們仍是集中式的商業服務，通常設於保護性較低的司法管轄區，而且實際技術運作很少透明化。
 
@@ -6626,7 +6626,7 @@ GrapheneOS 沒有整合任何專屬元件。您可以自由添加或不添加 Go
 Graphene 僅與最近的 Google Pixels (Pixel 6、7、8 和 9) 相容。
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6842,11 +6842,11 @@ Shelter 工具是一款開放原始碼應用程式，利用 Android 系統的此
 要保護自己，只需避免使用這些公共網路，或使用 VPN，它會在您的裝置和遠端伺服器之間建立加密隧道。此隧道會封鎖您的資料，使其極難被截取或修改。
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 至於您家中的 Wi-Fi 網路，我們會在 SCU 202 課程的最後一部分討論。
 
@@ -6921,7 +6921,7 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 為了達到此目的，您應該使用加密的本機解決方案，例如外接磁碟或加密 USB 鑰匙 (例如使用 Veracrypt)。如果做不到這一點，*Syncthing* 或 *Nextcloud* 等自行託管的雲端解決方案可讓您在個人伺服器上備份資料，同時保留對存取和機密性的完全控制。與商業雲端服務 (Google Drive、iCloud...) 不同，這些解決方案可大幅限制您的資訊暴露給第三方。
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### 遠端抹除
 
@@ -7019,7 +7019,7 @@ Signal 是一款即時通訊應用程式，從一開始就以提供最高的機�
 簡而言之，Signal 是非常好的訊息傳輸解決方案，但可惜的是它需要從電話號碼連線。
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7042,7 +7042,7 @@ Telegram 是非常受歡迎的訊息服務，這要歸功於它的人性化設�
 因此 Telegram 在技術上可以存取大部分未明確保護的對話內容。即使該公司對政府機關採取堅定的立場，Telegram 對於機密或敏感的交換內容也不是最佳解決方案，除非您明確使用其「秘密交換」，但這在日常工作中實用性要低得多。
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7065,7 +7065,7 @@ Threema 的另一個重要方面是其商業模式：應用程式並非免費，
 我認為這個訊息傳輸解決方案非常出色，但它的主要缺點是其伺服器的原始碼仍然是專屬的。
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpleX 聊天
 
@@ -7088,7 +7088,7 @@ SimpleX Chat 於 2021 年推出，完全消除使用者 ID 的概念：沒有電
 在安全性和機密性方面，SimpleX 比大多數現有的訊息傳送系統更進一步，將元資料限制到最低程度，並消除對中央目錄或唯一識別碼的任何依賴。然而，此架構在使用者友善性方面也有一些妥協：有時人體工學較不直覺、需要有輕微的初期學習曲線，以及依賴中繼伺服器的可用性。
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### 會議
 
@@ -7105,7 +7105,7 @@ Session 由 Oxen Privacy Tech Foundation 於 2020 年推出，是一款訊息應
 Session 客戶端和伺服器均為開放原始碼。該軟體可在 Android、iOS、Windows、macOS 和 Linux 上使用，可選擇透過 Mnemonic 詞組在裝置之間進行同步，類似於 Bitcoin 錢包所使用的詞組。這個詞組讓使用者可以獨佔控制自己的資料，但也在備份方面負起重大責任。
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
@@ -7125,7 +7125,7 @@ Keet 對所有通訊進行端對端加密。註冊是完全匿名的：不需要
 Keet 可在 Android、iOS、Windows、macOS 和 Linux 上使用，並可使用 Mnemonic 短語在裝置之間進行同步。
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### 奧爾維德
 
@@ -7162,7 +7162,7 @@ Olvid 提供兩個版本：
 Olvid 與 Android、iOS、Windows、macOS 及 Linux 相容。其人體工學設計保持簡單易用。此應用程式也具備密碼鑰匙和聯絡人的加密備份系統，因此您可以在新裝置上還原帳號。
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### 避免使用的訊息傳送應用程式
 
@@ -7260,7 +7260,7 @@ Thunderbird Mobile 是 Mozilla 基金會開發的流行開放原始碼電子郵�
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7502,7 +7502,7 @@ Bitwarden 是目前最全面的開放原始碼密碼管理器之一。它會在�
 您可以使用 Bitwarden 的伺服器，如果您喜歡，也可以自行託管，以獲得完全的控制權。它的 Interface 手機清晰流暢，可與 Android 或 iOS 系統無縫整合。
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7517,7 +7517,7 @@ KeePass 是基於加密本地文件的歷史密碼管理器。在手機上，Kee
 還有 iOS 版的 [KeePassium](https://keepassium.com/)，這是蘋果生態系統中一個整合良好的應用程式，與 KeePass 格式相容，並且是開放源碼的。另一個 KeePass 客戶端的 iOS 替代方案是 Strongbox，但這個軟體已經幾年沒有開放原始碼了。
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Proton Pass](https://proton.me/pass)
@@ -7548,7 +7548,7 @@ VPN (*Virtual Private Network*) 可讓您加密網際網路流量，並透過遠
 Mullvad 是隱私保護方面最好的 VPN 之一。它不需要電子郵件或密碼：您的帳號與一個簡單的隨機號碼相連。可以比特幣或現金付款。行動用戶端是開放原始碼，易於使用且功能強大。Mullvad 不保留日誌、不追蹤使用者，並定期公佈獨立的安全稽核。
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7557,7 +7557,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN 是另一個注重隱私的絕佳選擇。它提供簡單有效的行動 Interface，不收集日誌，並允許匿名註冊。您也可以使用比特幣付款。該應用程式包含防火牆，可阻止所有非 VPN 流量，這在智慧型手機上非常有用。客戶端是開放原始碼的。
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN](https://protonvpn.com/)
@@ -7595,7 +7595,7 @@ Aegis 是一款全面的開放原始碼應用程式。它用密碼加密您的 2
 Ente Auth 是一個現代化、開放源碼、多平台的解決方案，具有端對端加密備份功能。它能讓您在行動裝置、桌上型電腦和網頁上安全地同步您的 2FA 代碼。您也可以離線使用，無需雲端備份或建立帳戶。
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth 提供許多附加功能：依標籤組織、每項服務的自訂圖示、備註、我的最愛、整合搜尋、安全的團隊程式碼分享。
 
 
@@ -7609,13 +7609,13 @@ Ente Auth 提供許多附加功能：依標籤組織、每項服務的自訂圖�
 Authy 提供跨多個裝置的 2FA 同步功能，非常方便，但此應用程式並非開放原始碼，而且註冊時需要電話號碼。不過，對於初學者而言，它比 Google Authenticator 更完整，特別是它的雲端備份功能。
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 如果您想瞭解更多關於密碼管理器、2FA 認證和 VPN 的資訊，我建議您閱讀 SCU-101 課程中的專門章節：
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### 天氣
 
@@ -8267,7 +8267,7 @@ Wi-Fi（「*無線保真*」的縮寫）是一種無線通訊技術，可讓您�
 在回顧了理論基礎之後，本章將引導您採取明確、實際且有效的步驟來加強本機網路的安全性。
 
 
-**請注意：由於 Plan ₿ Network 針對的是國際受眾，因此此處提供的資訊屬於一般資訊。依據您當地的情況和 ISP，某些最佳作法可能不會在此提及，或可能以不同的方式適用。**
+**請注意：由於 Plan ₿ Academy 針對的是國際受眾，因此此處提供的資訊屬於一般資訊。依據您當地的情況和 ISP，某些最佳作法可能不會在此提及，或可能以不同的方式適用。**
 
 
 ### 選擇和保護您的網路設備
@@ -8305,9 +8305,9 @@ Wi-Fi（「*無線保真*」的縮寫）是一種無線通訊技術，可讓您�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 這些系統可對防火牆規則、傳出和傳入連線、網路分割 (VLAN) 和 DNS 管理進行更精細的控制，但主要針對進階使用者。
 
@@ -8344,9 +8344,9 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 此密碼必須長（40 個字元）、複雜（數字、小寫、大寫和符號）、唯一（不可在其他地方重複使用）且隨機。我建議您使用密碼管理器來安全地儲存這些憑證。
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 警告：請勿混淆路由器的管理密碼（可保護存取其設定）與 Wi-Fi 密碼（可讓您連線至無線網路）。這是兩個不同的 Elements，都需要更改。
 
@@ -8384,7 +8384,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 有些路由器允許您從外部透過網際網路連線至其管理 Interface。此功能不合理地增加了路由器的攻擊面。除非您有遠端管理的特定需求，否則請完全停用此功能。即使如此，也請務必使用 VPN。
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - **過時或不安全的通訊協定**：
@@ -8505,7 +8505,7 @@ DNS (*Domain Name System*) 是一種網際網路服務，可將人類可理解�
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - 在作業系統層級：有些作業系統原生整合了加密 DNS 支援 (DoT 或 DoH)，可保護所有通過系統網路堆疊的 DNS 請求。不過，這並不能確保整個電腦或電話的安全：如果應用程式設定為使用不同的 DNS 解析器或通訊協定，就可以繞過此設定。
 
 
@@ -8520,7 +8520,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 若要更進一步，您也可以設定本機 DNS 過濾解決方案，例如 Pi-hole 或 AdGuard Home。
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 這些工具就像是您網路內的小型 DNS 伺服器，可封鎖對已知會寄存廣告、瀏覽器追蹤程式、釣魚網站或惡意網站的網域的請求。這些工具也允許您建立自己的封鎖清單，或根據連接的裝置自訂過濾方式。
 
@@ -8541,19 +8541,19 @@ https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5
 - WireGuard：現代、快速、輕量
 - OpenVPN: 較舊，但非常成熟且可設定
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 以下是 Tailscale 的完整教學，這是一個使用 WireGuard 的易於設定 VPN 解決方案：
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 您可以將此 VPN 直接託管在相容的路由器、小型電腦 (例如 Raspberry Pi) 或家中的專用伺服器上。您也可以直接將它以用戶端方式安裝在任何裝置上。
 
 但 VPN 不只是用於遠端存取。您也可以在裝置上使用經典的 VPN 用戶端，即使您不在家（公共 Wi-Fi、旅館、大學等），也能加密您所有的傳出流量。在這種情況下，您的裝置會連線到第三方 VPN 伺服器 (商業或自行託管)，然後它會將您的連線轉發到網際網路。這樣就可以向 ISP 隱藏您的真實 IP Address，保護您的資料不受本地窺探，並避免某些形式的審查。
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 最後，也可以直接在路由器上設定 VPN，讓您可以保護家中的所有裝置，而無需在每個裝置上安裝 VPN 用戶端。
 
@@ -8563,17 +8563,17 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 第一步是集中管理安全記錄。每個連線到網路的裝置都會產生記錄，其中包含連線、錯誤或可疑活動的資訊。我建議不要單獨諮詢這些記錄，而是將它們傳送至能夠將它們群組、排序和分析的伺服器。Graylog 或 Elastic Stack (ELK) 等解決方案可讓您將這些日誌匯集到圖形化的 Interface，您可以在其中搜尋特定事件、建立警示或視覺化網路活動。
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 接下來，定期主動掃描您的區域網路，例如使用 Nmap。這會讓您概覽網路上的所有裝置，以及它們所開啟的連接埠。如果您發現未知裝置或不尋常的服務，這可能就是攻擊的跡象。
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 若要更進一步，您可以安裝 IDS (* 入侵偵測系統*)，甚至是 IPS (* 入侵防禦系統*)。這些工具 (例如 Suricata 或 Snort) 會即時監控網路流量，並偵測已知攻擊的特徵 (連接埠掃描、注入、可疑連線等)。IDS 會發出警告，而 IPS 則可自動封鎖某些動作。
 
 最後，監控頻寬消耗也是異常活動的良好指標。如果裝置突然無緣無故消耗大量資料，這可能是未經授權的下載、資料洩漏，甚至是裝置受到攻擊。ntopng 或 vnStat 等工具可讓您依裝置檢視流入和流出的流量。
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### 備份與彈性
 

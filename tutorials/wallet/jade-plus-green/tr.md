@@ -37,7 +37,7 @@ Jade Plus çoğu Wallet yönetim yazılımı ile uyumludur. İşte yazının yaz
 Bu eğitimde, Jade Plus'ı Blockstream'in Green Wallet mobil uygulaması ile Bluetooth bağlantısı üzerinden kuracak ve kullanacağız. Bu kurulum yeni başlayanlar için idealdir. Daha gelişmiş bir yaklaşım arıyorsanız, Jade Plus'ı QR kodları modunda Sparrow wallet ile kullandığımız bu eğitime göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Jade Plus güvenlik modeli
 
@@ -142,7 +142,7 @@ Kutuyla birlikte verilen kartona yazabilir veya daha fazla güvenlik için, yang
 Mnemonic ifadenizi kaydetmenin ve yönetmenin doğru yolu hakkında daha fazla bilgi için, özellikle de yeni başlayan biriyseniz, bu diğer öğreticiyi izlemenizi şiddetle tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir**
 
@@ -165,12 +165,12 @@ Aşağıdaki kelimeleri görüntülemek için ekranın sağındaki oka tıklayı
 Bu eğitimde, Jade Plus üzerinde barındırılan Wallet'yi yönetmek için Green Wallet uygulamasını kullanacağız. Bu yöntem özellikle yeni başlayanlar için uygundur. Bitcoin Wallet'nizi daha ayrıntılı olarak yönetmek isterseniz, ayrı bir eğitimde ele alacağımız Sparrow wallet'u da kullanabilirsiniz:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Blockstream Green uygulamasının kurulumu ve ayarlanması ile ilgili talimatlar için lütfen bu diğer eğitimin ilk bölümüne bakın:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Blockstream Green uygulamasına girdikten sonra, "*Yeni bir Wallet* yapılandır" düğmesine tıklayın.
 
@@ -286,7 +286,7 @@ Klasik bir single-sig Wallet oluşturmak istiyorsanız "*Standard*" seçeneğini
 "*2FA*" seçeneği hakkında daha fazla bilgi için bu diğer öğreticiyi takip edebilirsiniz:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Hesabınız oluşturuldu.
 
@@ -318,13 +318,13 @@ Ardından Jade'inizdeki PIN kodunu girin ve tekrar bağlanacaksınız.
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 
 
-Jade cihazınızın kilidi Blockstream'in "sanal secure element "i aracılığıyla açılır (bu eğitimin ilk bölümüne bakın). Bu, Green uygulamasıyla bir Bluetooth bağlantısı gerektirir. Kilit açma sırasında Bluetooth bağlantısıyla ilgili zorluklarla karşılaşırsanız, iki cihazı ayırmayı ve yeniden ilişkilendirmeyi deneyin. Sorun devam ederse, "*QR Scan*" seçeneğini seçerek ve [Blockstream web sitesinde] (https://jadefw.blockstream.com/pinqr/index.html) bulunan talimatları izleyerek Jade cihazınızın kilidini açabilirsiniz.
+Jade cihazınızın kilidi Blockstream'in "sanal secure element "i aracılığıyla açılır (bu eğitimin ilk bölümüne bakın). Bu, Green uygulamasıyla bir Bluetooth bağlantısı gerektirir. Kilit açma sırasında Bluetooth bağlantısıyla ilgili zorluklarla karşılaşırsanız, iki cihazı ayırmayı ve yeniden ilişkilendirmeyi deneyin. Sorun devam ederse, "*QR Scan*" seçeneğini seçerek ve [Blockstream web sitesinde](https://jadefw.blockstream.com/pinqr/index.html) bulunan talimatları izleyerek Jade cihazınızın kilidini açabilirsiniz.
 
 
 Wallet'unuzdaki ilk bitcoinlerinizi almadan önce, **Boş bir kurtarma testi** yapmanızı şiddetle tavsiye ederim. Xpub'ınız veya ilk aldığınız Address gibi bazı referans bilgilerini not edin, ardından Wallet'unuzu Green uygulamasında ve Jade Plus'ta hala boşken silin (`Options -> Device -> Factory Reset`). Ardından Wallet ifadesinin kağıt yedeklerini kullanarak Mnemonic'nizi geri yüklemeyi deneyin. Geri yüklemeden sonra oluşturulan çerez bilgilerinin orijinal olarak yazdığınızla eşleşip eşleşmediğini kontrol edin. Eğer eşleşiyorsa, kağıt yedeklerinizin güvenilir olduğundan emin olabilirsiniz. Test kurtarma işleminin nasıl gerçekleştirileceği hakkında daha fazla bilgi edinmek için lütfen bu diğer eğitime başvurun:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Bitcoin alma
 
@@ -374,7 +374,7 @@ Sonraki sayfada, alıcının Address numarasını girin. Manuel olarak girebilir
 ![JADE-PLUS-GREEN](assets/fr/41.webp)
 
 
-Ekranın alt kısmında, bu işlem için ücret oranını seçebilirsiniz. Uygulamanın önerilerini takip etme veya ücretlerinizi özelleştirme seçeneğiniz vardır. Bekleyen diğer işlemlere göre ücret ne kadar yüksekse, işleminiz o kadar hızlı işlenecektir. Ücret piyasası bilgileri için lütfen [Mempool.space] (https://Mempool.space/) adresindeki "*İşlem Ücretleri*" bölümünü ziyaret edin.
+Ekranın alt kısmında, bu işlem için ücret oranını seçebilirsiniz. Uygulamanın önerilerini takip etme veya ücretlerinizi özelleştirme seçeneğiniz vardır. Bekleyen diğer işlemlere göre ücret ne kadar yüksekse, işleminiz o kadar hızlı işlenecektir. Ücret piyasası bilgileri için lütfen [Mempool.space](https://Mempool.space/) adresindeki "*İşlem Ücretleri*" bölümünü ziyaret edin.
 
 
 ![JADE-PLUS-GREEN](assets/fr/42.webp)
@@ -422,4 +422,4 @@ Tebrikler, artık Jade Plus'ı Blockstream Green mobil uygulaması ile Bluetooth
 İşleri bir adım öteye taşımak için, Jade Plus'ı QR modunda Sparrow wallet yazılımı ile yapılandırdığımız bu öğreticiyi tavsiye ederim. Ayrıca Hardware Wallet'nizin gelişmiş ayarlarını nasıl kullanacağınızı da öğreneceksiniz:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

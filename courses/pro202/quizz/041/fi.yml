@@ -1,0 +1,8 @@
+question: Mitä tapahtuisi Bitcoin:n kokonaistarjonnalle, jos kaivostyöläiset hakisivat johdonmukaisesti vain 90 prosenttia sallitusta lohkotuesta kaikissa lohkoissa?
+answer: Kokonaistarjonta pienenisi pysyvästi alle 21 miljoonan BTC:n, koska hakemattomat tuet menetetään lopullisesti
+wrong_answers:
+  - Loput 10 prosenttia kerääntyisi vararahastoon, josta tulevat kaivostyöntekijät voisivat lunastaa varat alhaisen maksun kausina
+  - Vaikeusasteen mukautusmekanismi kompensoisi tätä lisäämällä tulevia lohkopalkkioita, jotta 21 miljoonan enimmäismäärä säilyisi ennallaan
+  - Saamatta jääneet tuet jaettaisiin uudelleen suhteessa transaktiomaksujen saajien kesken seuraavissa lohkoissa
+explanation: |
+  Bitcoin:n protokolla sallii kaivostyöläisten vaatia vähemmän kuin suurimman sallitun tuen, mutta kaikki hakematta jääneet summat menetetään pysyvästi - ei ole mitään mekanismia, jolla ne voitaisiin jakaa uudelleen tai saada takaisin myöhemmin. Tukikaava ja puolittamisaikataulu määrittävät teoreettisen maksimimäärän, joka on noin 21 miljoonaa BTC, mutta todellinen tarjonta riippuu siitä, että kaivostyöläiset lunastavat koko oikeutensa. Toisin kuin vaikeusasteen mukautus, joka reagoi mining:n olosuhteisiin, ei ole korvaavaa mekanismia lunastamattomille palkkioille, mikä tekee kokonaistarjonnasta mahdollisesti deflatorisen, jos kaivostyöläiset hakevat jatkuvasti liian vähän.

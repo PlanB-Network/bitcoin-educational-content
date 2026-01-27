@@ -348,7 +348,7 @@ Intambwe zo gutunganya:
 
 
 
-**Iciyumviro:** Utegerezwa kuba ufise konti y’ubucuruzi ya PayPal kugira ngo generate ivyo bimenyetso. Ushobora kubironka biciye ku rubuga [rw'abahinguzi] (https://abahinguzi.paypal.com)
+**Iciyumviro:** Utegerezwa kuba ufise konti y’ubucuruzi ya PayPal kugira ngo generate ivyo bimenyetso. Ushobora kubironka biciye ku rubuga [rw'abahinguzi](https://abahinguzi.paypal.com)
 
 
 

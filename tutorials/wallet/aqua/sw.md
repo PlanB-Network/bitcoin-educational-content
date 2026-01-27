@@ -110,7 +110,7 @@ Katika menyu ya mipangilio sawa, unaweza pia kubadilisha lugha ya programu na sa
 Kabla ya kupokea bitcoins zako za kwanza kwenye Wallet yako, **Ninakushauri sana ufanye jaribio tupu la uokoaji**. Andika baadhi ya maelezo ya marejeleo, kama vile xpub yako au kwanza kupokea Address, kisha ufute Wallet yako kwenye programu ya Aqua ingali tupu. Kisha jaribu kurejesha Wallet yako kwenye Aqua kwa kutumia nakala zako za karatasi. Hakikisha kuwa maelezo ya kidakuzi yaliyotolewa baada ya kurejesha yanalingana na uliyoandika awali. Ikiwa inafanya hivyo, unaweza kuwa na uhakika kwamba nakala zako za karatasi ni za kuaminika. Ili kujua zaidi kuhusu jinsi ya kufanya urejeshaji wa jaribio, tafadhali soma mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Huwezi kuiona kwenye skrini yangu kwa sababu ninatumia emulator, lakini katika mipangilio, utapata chaguo la kufunga programu ukitumia mfumo wa uthibitishaji wa kibayometriki. Ninapendekeza sana kuwezesha kipengele hiki cha usalama kwa sababu, bila hiyo, mtu yeyote aliye na ufikiaji wa simu yako ambayo haijafunguliwa anaweza kuiba bitcoins zako. Unaweza kutumia Kitambulisho cha Uso kwenye iOS au alama ya vidole kwenye Android. Mbinu hizi zisipofaulu wakati wa uthibitishaji, bado unaweza kufikia programu kwa kutumia msimbo wa PIN wa simu yako.
 
@@ -281,4 +281,4 @@ Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru ikiwa utaacha kidole gu
 Pia ninapendekeza uangalie mafunzo haya mengine ya kina kwenye programu ya simu ya Blockstream Green, ambayo ni suluhisho lingine la kuvutia la kusanidi Liquid Wallet yako:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

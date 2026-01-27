@@ -20,7 +20,7 @@ Kipengele maalum cha Wallet hii ni uwezo wa kutuma bitcoins kwa kutumia barua pe
 Ili kutumia Protoni Wallet, unahitaji akaunti ya Protoni. Unaweza kuunda moja bila malipo kwa kufuata hatua za kwanza za mafunzo haya yaliyotolewa ili kuunda kisanduku cha barua cha Proton (sehemu ya "*Kuunda akaunti ya Protoni*" pekee). Baada ya akaunti yako kusanidiwa, unaweza kuendelea na mafunzo haya mengine.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Unganisha kwa Proton Wallet
 
@@ -100,7 +100,7 @@ Unaweza kuiandika kwenye kipande cha karatasi, au kwa usalama ulioongezwa, napen
 Kwa maelezo zaidi kuhusu njia sahihi ya kuhifadhi na kudhibiti maneno yako ya Mnemonic, ninapendekeza sana kufuata mafunzo haya mengine, hasa ikiwa wewe ni mwanzilishi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 _**Ni kweli, hupaswi kamwe kupiga picha ya maneno haya, tofauti na ninavyofanya katika somo hili.**_
 
@@ -141,7 +141,7 @@ Hapa ndipo unaweza kuongeza BIP39 passphrase kwa Wallet mpya.
 Ili kuongeza ujuzi wako wa passphrase, ninapendekeza mafunzo haya:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Pokea bitcoins
 
@@ -239,4 +239,4 @@ Hongera, sasa unajua jinsi ya kusanidi na kutumia Proton Wallet. Ikiwa umepata m
 Ili kwenda mbali zaidi, ninapendekeza mafunzo haya kwenye Jade Plus, Hardware Wallet ya hivi karibuni ya Blockstream:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

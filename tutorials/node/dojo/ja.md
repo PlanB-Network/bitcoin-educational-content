@@ -1,5 +1,5 @@
 ---
-name: 道場
+name: Dojo
 description: プライバシーと自律性のためのオープンソースBitcoinノード
 ---
 
@@ -64,7 +64,7 @@ Dojoサーバーを立ち上げるのに、超強力なマシンは必要あり�
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### 推奨機材
 
@@ -192,7 +192,7 @@ Ubuntuのインストールプロセスの詳細については、専用のチ�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. システム・アップデート
 
@@ -428,7 +428,7 @@ sudo passwd dojo
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3.ユーザーにDockerの使用を許可する
 
@@ -1068,7 +1068,7 @@ IBD、そしてより一般的に、Bitcoinノードの操作と役割につい�
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7.同期モニタリング

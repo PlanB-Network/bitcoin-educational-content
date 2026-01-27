@@ -1,0 +1,9 @@
+question: Quel était le problème spécifique des fourchettes souples fork de BIP66 que Shaolinfry a cité comme preuve contre les fourchettes souples activées par les mineurs ?
+answer: 95 % des hashrate ont signalé qu'ils étaient prêts, mais environ la moitié d'entre eux n'ont pas validé les règles mises à jour et ont extrait des blocs non valides
+wrong_answers:
+  - Les mineurs ont refusé de signaler leur soutien malgré la demande massive des utilisateurs, ce qui a bloqué la mise à niveau pour une durée indéterminée
+  - Un petit pourcentage de mineurs a opposé son veto à la mise à niveau de l'ensemble du réseau, malgré le soutien de la majorité des utilisateurs
+  - La mise à jour a provoqué une rupture permanente de la chaîne, car les mineurs et les utilisateurs n'étaient pas d'accord sur les détails de la mise en œuvre
+explanation: |
+  L'incident du BIP66 a révélé une faille critique dans les soft forks activés par les mineurs : le fait de signaler qu'on est prêt ne garantit pas une validation réelle. Bien que 95 % des mineurs aient indiqué qu'ils étaient prêts pour la mise à jour, environ la moitié d'entre eux n'ont pas correctement validé les nouvelles règles et ont miné par erreur sur un bloc invalide. Cela a démontré que la signalisation de la puissance de hachage peut être trompeuse et ne garantit pas une mise en œuvre correcte, ce qui était l'un des principaux arguments de Shaolinfry pour proposer les fourches Soft activées par l'utilisateur comme un mécanisme de mise à niveau plus fiable.
+reviewed: false

@@ -20,7 +20,7 @@ Tässä opetusohjelmassa tutustumme **Banxaasiin**, vaihtokauppa-alustaan, joka 
 
 
 
-Banxaas tulee Senegalin murteesta (Wolof), joka tarkoittaa haaraa. Ideologisesti voimme nähdä Banxaasin haarana, joka yhdistää senegalilaiset Bitcoin:n käyttöön. Haara, johon voit luottaa suojellaksesi säästöjäsi inflaatiolta ja sensuurilta. Senegalilaisen start-up-yrityksen (Yité Technologies) kehittämä [Banxaas] (https://banxaas.com) tarjoaa Lightning Network:n voiman ansiosta Exchange-palvelun Bitcoin:n ja CFA-frankin (XOF) välillä ja päinvastoin. Banxaasilla on epätavallinen lähestymistapa Exchange-alustoihin Länsi-Afrikan osa-alueella.
+Banxaas tulee Senegalin murteesta (Wolof), joka tarkoittaa haaraa. Ideologisesti voimme nähdä Banxaasin haarana, joka yhdistää senegalilaiset Bitcoin:n käyttöön. Haara, johon voit luottaa suojellaksesi säästöjäsi inflaatiolta ja sensuurilta. Senegalilaisen start-up-yrityksen (Yité Technologies) kehittämä [Banxaas](https://banxaas.com) tarjoaa Lightning Network:n voiman ansiosta Exchange-palvelun Bitcoin:n ja CFA-frankin (XOF) välillä ja päinvastoin. Banxaasilla on epätavallinen lähestymistapa Exchange-alustoihin Länsi-Afrikan osa-alueella.
 
 
 
@@ -29,7 +29,7 @@ Banxaas tulee Senegalin murteesta (Wolof), joka tarkoittaa haaraa. Ideologisesti
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 
 
@@ -37,13 +37,13 @@ https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Kaupankäynti ensimmäistä kertaa Banxaasin kanssa
 
 
 
-Ensimmäiseksi [banxaasissa] (https://banxaas.com) on määriteltävä Exchange:n suunta:
+Ensimmäiseksi [banxaasissa](https://banxaas.com) on määriteltävä Exchange:n suunta:
 
 
 
@@ -92,9 +92,9 @@ Kun aloitat muuntamisen CFA-frangista Bitcoin:ksi, lisäät Lightning Address:n 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 Banxaas antaa sinun tarkistaa Bitcoin-vastaanottosi Address:n tarkkuuden napsauttamalla **Validoi kohde**-painiketta.
 
@@ -190,4 +190,4 @@ Tutustu myös Peachia koskevaan oppaaseemme, joka on peer-to-peer Exchange -alus
 
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874

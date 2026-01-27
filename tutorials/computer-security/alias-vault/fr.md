@@ -1,5 +1,5 @@
 ---
-name: Voûte alias
+name: Alias Vault
 description: Outil puissant pour gérer les mots de passe, l'authentification à deux facteurs et les alias (avec serveur de messagerie intégré) - Egalement auto-hébergé !
 ---
 
@@ -185,7 +185,7 @@ Avant d'utiliser ce courrier électronique pour un service de connexion, vous po
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Pour supprimer un alias que vous avez créé à titre de test, il vous suffit de vous connecter à votre `Home`, puis à `Credentials` et de cliquer sur l'identité que vous souhaitez supprimer. La commande _Delete_ apparaîtra dans le coin supérieur droit pour que vous puissiez procéder.
 
@@ -227,7 +227,7 @@ La seule précaution à prendre est de vérifier qu'Alias Vault est actif. En ef
 
 
 
-Comme toute application de ce type qui se respecte, Alias Vault dispose d'une version pour appareils mobiles, tant pour Android que pour iOS. Pour Android, vous pouvez télécharger l'application à partir de [F-Droid] (https://f-droid.org/packages/net.aliasvault.app/).
+Comme toute application de ce type qui se respecte, Alias Vault dispose d'une version pour appareils mobiles, tant pour Android que pour iOS. Pour Android, vous pouvez télécharger l'application à partir de [F-Droid](https://f-droid.org/packages/net.aliasvault.app/).
 
 
 
@@ -287,7 +287,7 @@ L'opportunité est unique : **Ne plus dépendre de fournisseurs de services exte
 
 
 
-Il est temps de se tourner vers la [documentation] (https://docs.aliasvault.net/installation/), pour savoir comment procéder à l'auto-hébergement d'Alias Vault.
+Il est temps de se tourner vers la [documentation](https://docs.aliasvault.net/installation/), pour savoir comment procéder à l'auto-hébergement d'Alias Vault.
 
 
 
@@ -433,7 +433,7 @@ Alias Vault étant en phase _Beta_, il se peut que vous ayez des difficultés à
 
 
 
-Pour une compréhension complète de l'architecture et de la sécurité adoptées par Alias Vault, je vous recommande vivement de consulter [cette page] (https://docs.aliasvault.net/architecture/), qui contient des détails sur la cryptographie sous-jacente à son fonctionnement.
+Pour une compréhension complète de l'architecture et de la sécurité adoptées par Alias Vault, je vous recommande vivement de consulter [cette page](https://docs.aliasvault.net/architecture/), qui contient des détails sur la cryptographie sous-jacente à son fonctionnement.
 
 
 

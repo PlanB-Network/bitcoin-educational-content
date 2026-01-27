@@ -276,7 +276,7 @@ Hapa utapata chaguzi mbili za kuhifadhi nakala ya data yako:
 
 
 
-"**Threema Safe** huhifadhi maelezo yote ya akaunti yako, isipokuwa mazungumzo yako, kwenye seva za Threema. Data hii imesimbwa kwa njia fiche kwa nenosiri ulilochagua ulipofungua akaunti yako, na hivyo kuhakikisha kwamba Threema haina ufikiaji. Hifadhi rudufu hufanywa kiotomatiki na mara kwa mara.
+"Threema Safe* huhifadhi maelezo yote ya akaunti yako, isipokuwa mazungumzo yako, kwenye seva za Threema. Data hii imesimbwa kwa njia fiche kwa nenosiri ulilochagua ulipofungua akaunti yako, na hivyo kuhakikisha kwamba Threema haina ufikiaji. Hifadhi rudufu hufanywa kiotomatiki na mara kwa mara.
 
 
 
@@ -440,4 +440,4 @@ Pia ninapendekeza somo hili lingine, ambalo ninakuletea Proton Mail, njia mbadal
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

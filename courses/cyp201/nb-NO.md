@@ -1,11 +1,11 @@
 ---
-name: Det indre arbeidet til Bitcoin-lommebøker
+name: Arkitektur for Bitcoin-lommebok
 goal: Dykk ned i de kryptografiske prinsippene som driver Bitcoin-lommebøker.
 objectives:
-  - Definere de teoretiske begrepene som er nødvendige for å forstå de kryptografiske algoritmene brukt i Bitcoin.
-  - Fullt ut forstå konstruksjonen av en deterministisk og hierarkisk lommebok.
-  - Vite hvordan man identifiserer og reduserer risikoene forbundet med å håndtere en lommebok.
-  - Forstå prinsippene for hash-funksjoner, kryptografiske nøkler og digitale signaturer.
+- Definere de teoretiske begrepene som er nødvendige for å forstå de kryptografiske algoritmene brukt i Bitcoin.
+- Fullt ut forstå konstruksjonen av en deterministisk og hierarkisk lommebok.
+- Vite hvordan man identifiserer og reduserer risikoene forbundet med å håndtere en lommebok.
+- Forstå prinsippene for hash-funksjoner, kryptografiske nøkler og digitale signaturer.
 ---
 
 # En reise inn i hjertet av Bitcoin-lommebøker
@@ -28,12 +28,14 @@ Med klar pedagogikk, over 60 forklarende diagrammer og konkrete eksempler, vil C
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 Velkommen til CYP201-kurset, hvor vi vil utforske HD Bitcoin-lommebøker i dybden. Dette kurset er designet for alle som ønsker å forstå de tekniske grunnleggende om å bruke Bitcoin, enten de er tilfeldige brukere, opplyste entusiaster eller fremtidige eksperter.
 
 Målet med denne opplæringen er å gi deg nøklene til å mestre verktøyene du bruker daglig. HD Bitcoin-lommebøker, som er i hjertet av brukeropplevelsen din, er basert på noen ganger komplekse konsepter, som vi vil forsøke å gjøre tilgjengelige. Sammen vil vi avmystifisere dem!
 
 Før vi dykker ned i detaljene om konstruksjonen og driften av Bitcoin-lommebøker, vil vi starte med noen kapitler om de kryptografiske primitivene å vite for det som følger.
-Vi starter med kryptografiske hash-funksjoner, grunnleggende for både lommebøker og Bitcoin-protokollen selv. Du vil oppdage deres viktigste egenskaper, de spesifikke funksjonene brukt i Bitcoin, og i et mer teknisk kapittel, vil du lære i detalj om arbeidet til dronningen av hash-funksjoner: SHA256.
+Vi starter med kryptografiske hash-funksjoner, grunnleggende for både lommebøker og Bitcoin-protokollen selv. Du vil oppdage deres viktigste egenskaper, de spesifikke funksjonene brukt i Bitcoin, og i et mer teknisk kapittel, vil du lære i detalj om arbeidet til dronningen av hash-funksjoner: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 Deretter vil vi diskutere driften av digitale signaturalgoritmer som du bruker hver dag for å sikre dine UTXOer. Bitcoin bruker to: ECDSA og Schnorr-protokollen. Du vil lære hvilke matematiske primitiver som ligger til grunn for disse algoritmene og hvordan de sikrer transaksjonenes sikkerhet.
@@ -43,7 +45,7 @@ Deretter vil vi diskutere driften av digitale signaturalgoritmer som du bruker h
 Når vi har en god forståelse av disse elementene av kryptografi, vil vi endelig gå videre til hjertet av opplæringen: deterministiske og hierarkiske lommebøker! Først er det en seksjon dedikert til mnemoniske fraser, disse sekvensene av 12 eller 24 ord som lar deg opprette og gjenopprette lommebøkene dine. Du vil oppdage hvordan disse ordene genereres fra en kilde til entropi og hvordan de letter bruken av Bitcoin.
 
 ![CYP201](assets/en/003.webp)
-Opplæringen vil fortsette med studiet av BIP39-passfrasen, seeden (ikke å forveksle med den mnemoniske frasen), hovedkjedekoden og hovednøkkelen. Vi vil se i detalj hva disse elementene er, deres respektive roller, og hvordan de beregnes.
+Opplæringen vil fortsette med studiet av [BIP39](https://planb.academy/resources/glossary/bip0039)-passfrasen, seeden (ikke å forveksle med den mnemoniske frasen), hovedkjedekoden og hovednøkkelen. Vi vil se i detalj hva disse elementene er, deres respektive roller, og hvordan de beregnes.
 ![CYP201](assets/en/004.webp)
 
 Til slutt, fra hovednøkkelen, vil vi oppdage hvordan kryptografiske nøkkelpar er avledet på en deterministisk og hierarkisk måte opp til mottaksadressene.
@@ -87,6 +89,8 @@ Denne tabellen gir deg en oversettelse av de viktigste engelske termene som bruk
 ## Introduksjon til Hashfunksjoner
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 Den første typen kryptografiske algoritmer brukt på Bitcoin omfatter hashfunksjoner. De spiller en essensiell rolle på forskjellige nivåer av protokollen, men også innenfor Bitcoin-lommebøker. La oss sammen oppdage hva en hashfunksjon er og hva den brukes til i Bitcoin.
 
@@ -196,6 +200,9 @@ Du kjenner nå til de grunnleggende prinsippene om hashfunksjoner for det som f�
 ## Detaljene i SHA256
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
+
 Vi har tidligere sett at hash-funksjoner har viktige egenskaper som rettferdiggjør deres bruk i Bitcoin. La oss nå undersøke de interne mekanismene til disse hash-funksjonene som gir dem disse egenskapene, og for å gjøre dette, foreslår jeg å dissekere driften av SHA256.
 SHA256 og SHA512-funksjonene tilhører samme SHA2-familie. Deres mekanisme er basert på en spesifikk konstruksjon kalt **Merkle-Damgård konstruksjonen**. RIPEMD160 bruker også denne samme typen konstruksjon.
 
@@ -549,6 +556,8 @@ Nå som vi har sett nærmere på virkemåten til hash-funksjoner, spesielt SHA25
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 I Bitcoin på applikasjonsnivå, i tillegg til hash-funksjoner, brukes kryptografiske derivasjonsalgoritmer for å generere sikre data fra innledende inndata. Selv om disse algoritmene er avhengige av hash-funksjoner, tjener de forskjellige formål, spesielt når det gjelder autentisering og nøkkelgenerering. Disse algoritmene beholder noen av egenskapene til hash-funksjoner, som irreversibilitet, manipuleringsmotstand og kollisjonsmotstand.
 
 På Bitcoin-lommebøker brukes hovedsakelig 2 derivasjonsalgoritmer:
@@ -634,6 +643,8 @@ I dette kapittelet har vi utforsket HMAC-SHA512 og PBKDF2-funksjonene, som bruke
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
+
 Den andre kryptografiske metoden som brukes i Bitcoin involverer algoritmer for digitale signaturer. La oss utforske hva dette innebærer og hvordan det fungerer.
 
 ### Bitcoins, UTXOer og Betingelser for Bruk
@@ -646,7 +657,7 @@ Dette er den grunnleggende operasjonen av Bitcoin, men over tid har denne operas
 En bruker som ønsker å utføre en Bitcoin-transaksjon må derfor opprette en digital signatur ved hjelp av sin private nøkkel på den aktuelle transaksjonen. Signaturen kan verifiseres av andre nettverksdeltakere. Hvis den er gyldig, betyr dette at brukeren som initierer transaksjonen faktisk er eieren av den private nøkkelen, og derfor eieren av bitcoinene de ønsker å bruke. Andre brukere kan deretter akseptere og formidle transaksjonen.
 Som et resultat må en bruker som eier bitcoins låst med en offentlig nøkkel finne en måte å sikkert lagre det som tillater opplåsing av deres midler: den private nøkkelen. En Bitcoin-lommebok er nettopp en enhet som vil tillate deg å enkelt holde alle nøklene dine uten at andre mennesker har tilgang til dem. Det er derfor mer som en nøkkelring enn en lommebok.
 
-Den matematiske koblingen mellom en offentlig nøkkel og en privat nøkkel, samt evnen til å utføre en signatur for å bevise besittelsen av en privat nøkkel uten å avsløre den, er muliggjort av en digital signaturalgoritme. I Bitcoin-protokollen brukes 2 signaturalgoritmer: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) og **Schnorr-signaturordningen**. ECDSA er den digitale signaturprotokollen som brukes i Bitcoin fra begynnelsen. Schnorr er mer nylig i Bitcoin, da den ble introdusert i november 2021 med Taproot-oppdateringen.
+Den matematiske koblingen mellom en offentlig nøkkel og en privat nøkkel, samt evnen til å utføre en signatur for å bevise besittelsen av en privat nøkkel uten å avsløre den, er muliggjort av en digital signaturalgoritme. I Bitcoin-protokollen brukes 2 signaturalgoritmer: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) og **Schnorr-signaturordningen**. ECDSA er den digitale signaturprotokollen som brukes i Bitcoin fra begynnelsen. Schnorr er mer nylig i Bitcoin, da den ble introdusert i november 2021 med Taproot-oppdateringen.
 Disse to algoritmene er ganske like i sine mekanismer. De er begge basert på elliptisk kurvekryptografi. Den største forskjellen mellom disse to protokollene ligger i strukturen av signaturen og noen spesifikke matematiske egenskaper. Vi vil derfor studere funksjonen til disse algoritmene, og starter med den eldste: ECDSA.
 
 ### Elliptisk Kurvekryptografi
@@ -709,13 +720,16 @@ Vi bruker et endelig felt av heltall modulo $p$ for å sikre nøyaktigheten av o
 
 Matematikken til elliptiske kurver over endelige felt er analog med de over feltet av reelle tall, med tilpasningen at alle operasjoner utføres modulo $p$. For å forenkle forklaringer, vil vi i de følgende kapitlene fortsette å illustrere konsepter ved hjelp av en kurve definert over reelle tall, samtidig som vi husker at, i praksis, er kurven definert over et endelig felt.
 
-Hvis du ønsker å lære mer om de matematiske grunnlagene for moderne kryptografi, anbefaler jeg også å konsultere dette andre kurset på Plan ₿ Network:
+Hvis du ønsker å lære mer om de matematiske grunnlagene for moderne kryptografi, anbefaler jeg også å konsultere dette andre kurset på Plan ₿ Academy:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Beregning av den offentlige nøkkelen fra den private nøkkelen
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
+
 Som tidligere sett, er de digitale signaturalgoritmene på Bitcoin basert på et par av private og offentlige nøkler som er matematisk koblet. La oss utforske sammen hva denne matematiske koblingen er og hvordan de genereres.
 
 ### Den private nøkkelen
@@ -828,6 +842,8 @@ Selvfølgelig, i dette forenklede eksemplet med $k = 4$, ville det være mulig �
 ## Signering med den private nøkkelen
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 Nå som du vet hvordan du kan utlede en offentlig nøkkel fra en privat nøkkel, kan du allerede motta bitcoins ved å bruke dette nøkkelparet som en betingelse for utgift. Men hvordan bruke dem? For å bruke bitcoins, må du låse opp _scriptPubKey_ knyttet til din UTXO for å bevise at du faktisk er dens legitime eier. For å gjøre dette, må du produsere en signatur $s$ som matcher den offentlige nøkkelen $K$ til stede i _scriptPubKey_ ved å bruke den private nøkkelen $k$ som opprinnelig ble brukt til å beregne $K$. Den digitale signaturen er dermed utvetydig bevis på at du er i besittelse av den private nøkkelen assosiert med den offentlige nøkkelen du hevder.
 
@@ -1042,6 +1058,8 @@ Vel, vi vet egentlig ikke hvorfor Satoshi ikke valgte det, men en sannsynlig hyp
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 Som vi har sett i tidligere kapitler, brukes digitale signaturer ofte til å låse opp skriptet til en inngang. I signeringsprosessen er det nødvendig å inkludere de signerte dataene i beregningen, betegnet i våre eksempler med meldingen $m$. Disse dataene, når de er signert, kan ikke endres uten å gjøre signaturen ugyldig. Faktisk, enten for ECDSA eller Schnorr, må signaturens verifiserer inkludere den samme meldingen $m$ i sin beregning. Hvis den avviker fra meldingen $m$ som opprinnelig ble brukt av signereren, vil resultatet være feil og signaturen vil bli ansett som ugyldig. Det sies da at en signatur dekker visse data og beskytter dem, på en måte, mot uautoriserte endringer.
 
 ### Hva er et sighash-flagg?
@@ -1094,7 +1112,7 @@ Hvis dette sighash-flagget integreres i Bitcoin, vil det muliggjøre bruk av cov
 
 For å fordype din kunnskap om Lightning Network, etter CYP201-kurset, anbefaler jeg på det sterkeste LNP201-kurset av Fanis Michalakis, som dekker emnet i detalj:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 I neste del foreslår jeg å oppdage hvordan den mnemoniske frasen som ligger til grunn for din Bitcoin-lommebok fungerer.
 
@@ -1105,6 +1123,8 @@ I neste del foreslår jeg å oppdage hvordan den mnemoniske frasen som ligger ti
 ## Utviklingen av Bitcoin-lommebøker
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
+
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
 
 Nå som vi har utforsket hvordan hash-funksjoner og digitale signaturer fungerer, kan vi studere hvordan Bitcoin-lommebøker fungerer. Målet vil være å forestille seg hvordan en lommebok på Bitcoin er konstruert, hvordan den er dekomponert, og hvilke forskjellige informasjonsbiter som utgjør den brukes til. Denne forståelsen av lommebokmekanismene vil tillate deg å forbedre din bruk av Bitcoin når det gjelder sikkerhet og personvern.
 
@@ -1125,9 +1145,9 @@ Hvis man ønsket å bruke flere private nøkler, var det da nødvendig å lage l
 
 Denne begrensningen stammer fra Bitcoins personvernmodell. Ved å gjenbruke samme adresse, gjør det det lettere for eksterne observatører å spore alle mine Bitcoin-transaksjoner. Derfor er gjenbruk av en mottaksadresse sterkt frarådet. Imidlertid, for å ha flere adresser og offentlig skille våre transaksjoner, er det nødvendig å håndtere flere private nøkler. I tilfellet med JBOK-lommebøker, innebærer dette å skape like mange sikkerhetskopier som det er nye par med nøkler, en oppgave som raskt kan bli kompleks og vanskelig å opprettholde for brukere.
 
-For å lære mer om Bitcoins personvernmodell og oppdage metoder for å beskytte ditt personvern, anbefaler jeg også å følge mitt BTC204 kurs på Plan ₿ Network:
+For å lære mer om Bitcoins personvernmodell og oppdage metoder for å beskytte ditt personvern, anbefaler jeg også å følge mitt BTC204 kurs på Plan ₿ Academy:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Lommebøker (_Hierarchical Deterministic_)
 
@@ -1146,6 +1166,9 @@ I de kommende kapitlene vil vi utforske de interne mekanismene til HD-lommebøke
 ## Entropi og Tilfeldig Nummer
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
+
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
+
 Moderne HD-lommebøker (deterministiske og hierarkiske) er avhengige av et enkelt innledende stykke informasjon kalt "entropi" for å deterministisk generere hele settet med lommeboknøkler. Denne entropien er et pseudo-tilfeldig nummer hvis kaosnivå delvis bestemmer sikkerheten til lommeboken.
 
 ### Definisjon av Entropi
@@ -1172,6 +1195,9 @@ I neste kapittel vil vi se hvordan vi går fra et tilfeldig nummer til en mnemon
 ## Den Mnemonic Frasen
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
+
 Mnemonisk frase, også kalt "seed phrase", "recovery phrase", "secret phrase", eller "24-ords frase", er en sekvens som vanligvis består av 12 eller 24 ord, som genereres fra entropi. Den brukes til deterministisk å avlede alle nøklene til en HD-lommebok. Dette betyr at fra denne frasen, er det mulig å deterministisk generere og gjenskape alle de private og offentlige nøklene til Bitcoin-lommeboken, og dermed få tilgang til midlene som er beskyttet med den. Formålet med den mnemoniske frasen er å tilby et middel for sikkerhetskopiering og gjenoppretting av bitcoins som er både sikkert og enkelt å bruke. Den ble introdusert i standarder i 2013 med BIP39.
 La oss sammen oppdage hvordan vi går fra entropi til en mnemonisk frase.
 
@@ -1223,7 +1249,7 @@ For eksempel, for en entropi på 256 bits, er resultatet $\text{ENT} \Vert \text
 
 ### Konvertering av den Binære Sekvensen til en Mnemonisk Frase
 
-Bitsekvensen $\text{ENT} \Vert \text{CS}$ deles deretter inn i segmenter på 11 bits. Hvert 11-bits segment, når det er konvertert til desimal, tilsvarer et tall mellom 0 og 2047, som angir posisjonen til et ord [i en liste over 2048 ord standardisert av BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bitsekvensen $\text{ENT} \Vert \text{CS}$ deles deretter inn i segmenter på 11 bits. Hvert 11-bits segment, når det er konvertert til desimal, tilsvarer et tall mellom 0 og 2047, som angir posisjonen til et ord [i en liste over 2048 ord standardisert av BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 For eksempel, for en 128-bit entropi, er kontrollsummen 4 bit, og dermed måler den totale sekvensen 132 bit. Den er delt inn i 12 segmenter på 11 bit (de oransje bitene betegner kontrollsummen):
@@ -1263,11 +1289,13 @@ Som et resultat gir ikke å velge en 24-ords frase ekstra beskyttelse for lommeb
 En 12-ords frase, som også tilbyr 128 bits sikkerhet, er derfor for øyeblikket tilstrekkelig for å beskytte dine bitcoins mot ethvert tyveriforsøk. Så lenge den digitale signaturalgoritmen ikke endres for å bruke større nøkler eller for å stole på et matematisk problem annet enn ECDLP, forblir en 24-ords frase overflødig. Dessuten øker en lengre frase risikoen for tap under sikkerhetskopiering: en sikkerhetskopi som er halvparten så kort er alltid enklere å håndtere.
 For å gå videre og lære konkret hvordan man manuelt genererer en test mnemonisk frase, anbefaler jeg deg å oppdage denne opplæringen:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Før vi fortsetter med derivasjonen av lommeboken fra denne mnemoniske frasen, vil jeg introdusere deg, i det følgende kapittelet, til BIP39-passfrasen, ettersom den spiller en rolle i derivasjonsprosessen, og den er på samme nivå som den mnemoniske frasen.
 ## Passfrasen
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
+
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
 Som vi nettopp har sett, genereres HD-lommebøker fra en mnemonisk frase som typisk består av 12 eller 24 ord. Denne frasen er veldig viktig fordi den muliggjør gjenopprettingen av alle nøklene til en lommebok i tilfelle dens fysiske enhet (som en maskinvarelommebok, for eksempel) går tapt. Imidlertid utgjør den et enkelt feilpunkt, fordi hvis den blir kompromittert, kan en angriper stjele alle bitcoinsene. Dette er hvor BIP39-passfrasen kommer inn i bildet.
 
@@ -1300,6 +1328,8 @@ I den følgende seksjonen vil vi oppdage hvordan disse to elementene som er grun
 
 ## Opprettelse av Seed og Master Key
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 Når den mnemoniske frasen og den valgfrie passfrasen er generert, kan prosessen med å utlede en Bitcoin HD-lommebok begynne. Den mnemoniske frasen konverteres først til en seed som utgjør grunnlaget for alle nøklene i lommeboken.
 
@@ -1377,6 +1407,8 @@ Før vi fortsetter med utledningen av HD-lommeboken med de følgende elementene,
 
 ## Utvidede Nøkler
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 En utvidet nøkkel er ganske enkelt sammensetningen av en nøkkel (enten privat eller offentlig) og dens assosierte kjedekode. Denne kjedekoden er essensiell for utledningen av barnenøkler fordi, uten den, er det umulig å utlede barnenøkler fra en foreldrenøkkel, men vi vil oppdage denne prosessen mer presist i neste kapittel. Disse utvidede nøklene tillater dermed å aggregere all nødvendig informasjon for å utlede barnenøkler, og forenkler dermed kontoadministrasjonen innenfor en HD-lommebok.
 
@@ -1491,6 +1523,8 @@ I dette kapittelet oppdaget vi at det finnes to forskjellige typer barne-nøkler
 
 ## Utledning av Barne-Nøkkelpar
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 Utledningen av barne-nøkkelpar i Bitcoin HD-lommebøker er avhengig av en hierarkisk struktur som tillater generering av et stort antall nøkler, samtidig som disse parene organiseres i forskjellige grupper gjennom grener. Hvert barne-par som er utledet fra et foreldrepar, kan brukes direkte i et *scriptPubKey* for å låse bitcoins, eller som et utgangspunkt for å generere flere barne-nøkler, og så videre, for å skape et tre av nøkler.
 
@@ -1698,6 +1732,8 @@ For å oppsummere, så langt har du lært å skape de grunnleggende elementene a
 ## Lommebokstruktur og Avledningsveier
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 Den hierarkiske strukturen av HD-lommebøker på Bitcoin tillater organiseringen av nøkkelpar på forskjellige måter. Ideen er å avlede, fra hovedprivatnøkkelen og hovedkjedekoden, flere nivåer av dybde. Hvert lagt til nivå tilsvarer avledningen av et barne-nøkkelpar fra et foreldre-nøkkelpar.
 
 Over tid har forskjellige BIP-er introdusert standarder for disse avledningsveiene, med mål om å standardisere bruken på tvers av forskjellig programvare. Så, i dette kapittelet vil vi oppdage betydningen av hvert nivå av avledning i HD-lommebøker, i henhold til disse standardene.
@@ -1782,6 +1818,9 @@ I dette eksemplet:
 I neste kapittel skal vi oppdage hva "*output script descriptors*" er, en nylig introdusert innovasjon i Bitcoin Core som forenkler sikkerhetskopieringen av en Bitcoin-lommebok.
 ## Output script descriptors
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
+
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 Du får ofte høre at den mnemoniske frasen alene er tilstrekkelig for å gjenopprette tilgang til en lommebok. I virkeligheten er ting litt mer komplekse. I forrige kapittel så vi på avledningsstrukturen til HD-lommeboken, og du kan ha lagt merke til at denne prosessen er ganske kompleks. Avledningsveier forteller programvaren hvilken retning den skal følge for å avlede brukerens nøkler. Men, når man gjenoppretter en Bitcoin-lommebok, hvis man ikke kjenner disse veiene, er den mnemoniske frasen alene ikke nok. Den tillater å oppnå hovednøkkelen og hovedkjedekoden, men det er da nødvendig å kjenne indeksene som ble brukt for å nå barnenøklene.
 
 Teoretisk sett ville det være nødvendig å lagre ikke bare den mnemoniske frasen til vår lommebok, men også veiene til kontoene vi bruker. I praksis er det ofte mulig å gjenopprette tilgang til barnenøklene uten denne informasjonen, forutsatt at standardene har blitt fulgt. Ved å teste hver standard en etter en, er det generelt mulig å gjenopprette tilgang til bitcoinene. Men, dette er ikke garantert og det er spesielt komplisert for nybegynnere. Også, med diversifiseringen av skripttyper og fremveksten av mer komplekse konfigurasjoner, kunne denne informasjonen bli vanskelig å ekstrapolere, og dermed gjøre denne dataen til privat informasjon og vanskelig å gjenopprette ved brute force. Dette er grunnen til at en innovasjon nylig har blitt introdusert og begynner å bli integrert i din favoritt lommebokprogramvare: *output script descriptors*.
@@ -1823,6 +1862,8 @@ Du vet nå alt om driften av HD-lommeboken på Bitcoin og prosessen med å avled
 ## Mottaksadresser
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
+
 Mottaksadresser er informasjonsbiter innebygd i *scriptPubKey* for å låse nylig opprettede UTXOer. Enkelt sagt tjener en adresse til å motta bitcoins. La oss utforske deres funksjon i forbindelse med det vi har studert i de foregående kapitlene.
 
 ### Rollen til Bitcoin-adresser i Skript
@@ -1833,19 +1874,21 @@ Når en bruker mottar bitcoins, oppretter avsenderen en utdata UTXO og låser de
 
 Det er nettopp i *scriptPubKey* at mottaksadressene finnes. Imidlertid varierer bruken av dem avhengig av hvilken skriptstandard som er vedtatt. Her er en oppsummeringstabell over informasjonen som er inneholdt i *scriptPubKey* i henhold til standarden som brukes, samt informasjonen som forventes i *scriptSig* for å låse opp *scriptPubKey*.
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *innløsningsskript* | *vitne*                                  |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signatur>`                    |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signatur> <offentlig nøkkel>` |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <innløsningsskript>` | Vilkaarlig data |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signatur> <offentlig nøkkel>`          |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <vitneskript>`            |
-| P2SH-P2WPKH        | `OP_HASH160 <innløsningsskriptHash> OP_EQUAL`               | `<innløsningsskript>`           | `0 <pubKeyHash>`    | `<signatur> <offentlig nøkkel>`          |
-| P2SH-P2WSH         | `OP_HASH160 <innløsningsskriptHash> OP_EQUAL`               | `<innløsningsskript>`           | `0 <scriptHash>`    | `<data pushes> <vitneskript>`            |
-| P2TR (nøkkelbane)  | `1 <offentlig nøkkel>`                                      |                                 |                     | `<signatur>`                             |
-| P2TR (skriptbane)  | `1 <offentlig nøkkel>`                                      |                                 |                     | `<data pushes> <skript> <kontrollblokk>` |
 
-*Kilde: Bitcoin Core PR review club, 7. juli 2021 - Gloria Zhao*
+
+| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Vilkårlige data | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Kilde: Bitcoin Core PR review club 7. juli 2021 – Gloria Zhao_
 
 Opcodes brukt i et skript er designet for å manipulere informasjon, og om nødvendig, sammenligne eller teste den. La oss ta eksempelet med et P2PKH-skript, som er som følger:
 
@@ -1932,6 +1975,8 @@ Nå som vi har dekket teorien, la oss gå videre til praksis! I det følgende ka
 
 ## Adresseutledning
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 La oss sammen utforske hvordan man genererer en mottaksadresse fra et par nøkler som befinner seg, for eksempel, på dybde 5 i en HD-lommebok. Denne adressen kan deretter brukes i en lommebokprogramvare for å låse en UTXO.
 

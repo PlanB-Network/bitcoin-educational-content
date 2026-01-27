@@ -1,0 +1,8 @@
+question: Ni nini kinachotokea kwa hitimisho la aina ya kufungwa mara tu kufungwa kunapoitwa na aina maalum?
+answer: Aina hizo hurekebishwa kwa mfano huo wa kufungwa
+wrong_answers:
+  - Kufungwa bado kunaweza kukubali aina tofauti katika simu zijazo
+  - Kikusanyaji huweka upya aina za simu inayofuata ya chaguo-msingi
+  - Aina hizo hubaki kunyumbulika na zinaweza kubadilika kulingana na muktadha
+explanation: |
+  Katika Rust, vifungashio hufaidika na hitimisho la aina otomatiki, lakini unyumbulifu huu una mipaka. Mara tu kifungashio kinapoitwa na aina maalum za vigezo, kikusanyaji hufunga aina hizo kwa mfano huo maalum wa kufungwa. Hii ina maana kwamba kifungashio hicho hicho hakiwezi kuitwa baadaye na aina tofauti - kinakuwa monomorphized kwa aina za kwanza zinazokutana nazo. Hii ni tofauti na vitendakazi vya jumla ambavyo vinaweza kuitwa na aina tofauti kwa sababu kila simu huunda istilahi tofauti. Chaguzi zingine si sahihi kwa sababu zinaonyesha unyumbulifu unaoendelea ambao haupo mara tu aina za kifungashio zinapoamuliwa.

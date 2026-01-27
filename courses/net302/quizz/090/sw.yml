@@ -3,7 +3,7 @@ answer: Ili kuchuja kulingana na mtumiaji
 wrong_answers:
   - Ili kulazimisha azimio la DNS
   - Ili kuonyesha bandari wazi
-  - Ili kutaja seva ya DNS
+  - Ili kutaja server ya DNS
 explanation: |
   Chaguo -u katika lsof huzuia pato kwa faili zilizofunguliwa na mtumiaji maalum au UID.
-reviewed: false
+reviewed: true

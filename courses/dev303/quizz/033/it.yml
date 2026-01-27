@@ -1,0 +1,8 @@
+question: Quale variabile d'ambiente può essere impostata per visualizzare una traccia completa dello stack delle chiamate quando si verifica un panico in Rust?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - RUST_STACKTRACE
+  - RUST_DEBUG_TRACE
+  - TRACCIA_PANICA_RUGGINE
+explanation: |
+  RUST_BACKTRACE è la variabile d'ambiente corretta che fornisce ulteriori informazioni di debug mostrando lo stack completo delle chiamate che hanno portato al panico. Questo aiuta gli sviluppatori a tracciare esattamente la sequenza di chiamate di funzione che ha generato l'errore. Le altre opzioni (RUST_STACKTRACE, RUST_DEBUG_TRACE e RUST_PANIC_TRACE) non sono variabili d'ambiente Rust valide e non producono alcun output di debug quando si verifica un panico.

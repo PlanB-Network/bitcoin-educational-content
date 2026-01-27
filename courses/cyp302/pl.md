@@ -1,29 +1,18 @@
 ---
-name: Wprowadzenie do kryptografii formalnej
+name: Podstawy nowoczesnej kryptografii
 goal: Dogłębne wprowadzenie do nauki i praktyki kryptografii.
-objectives: 
-
-  - Poznaj szyfry Beale'a i nowoczesne metody kryptograficzne, aby zrozumieć podstawowe i historyczne koncepcje kryptografii.
-  - Zagłęb się w teorię liczb, grup i pól, aby opanować kluczowe koncepcje matematyczne leżące u podstaw kryptografii.
-  - Przeanalizuj szyfr strumieniowy RC4 i AES z kluczem 128-bitowym, aby poznać symetryczne algorytmy kryptograficzne.
-  - Zbadanie kryptosystemu RSA, dystrybucji kluczy i funkcji Hash w celu poznania kryptografii asymetrycznej.
-
-
+objectives:
+- Poznaj szyfry Beale'a i nowoczesne metody kryptograficzne, aby zrozumieć podstawowe i historyczne koncepcje kryptografii.
+- Zagłęb się w teorię liczb, grup i pól, aby opanować kluczowe koncepcje matematyczne leżące u podstaw kryptografii.
+- Przeanalizuj szyfr strumieniowy RC4 i AES z kluczem 128-bitowym, aby poznać symetryczne algorytmy kryptograficzne.
+- Zbadanie kryptosystemu RSA, dystrybucji kluczy i funkcji Hash w celu poznania kryptografii asymetrycznej.
 ---
-# Głębokie zagłębienie się w kryptografię
+# Głębokie zanurzenie w nowoczesną kryptografię
 
+W tym kursie omówimy podstawy nowoczesnej kryptografii w jasny i przystępny sposób, bez wymagania solidnego zaplecza matematycznego. W kolejnych rozdziałach poznasz kluczowe koncepcje, takie jak szyfrowanie symetryczne i klucza publicznego, funkcje skrótu, podpisy cyfrowe, wymiana kluczy oraz protokoły stosowane w rzeczywistości. Po drodze połączymy kropki z praktycznymi zastosowaniami, takimi jak bezpieczna wymiana wiadomości, TLS, przechowywanie haseł i uwierzytelnianie.
 
-Trudno jest znaleźć wiele materiałów, które oferują dobry środek w edukacji kryptograficznej.
-
-
-Z jednej strony istnieją długie, formalne traktaty, naprawdę dostępne tylko dla osób z silnym doświadczeniem w matematyce, logice lub innej dyscyplinie formalnej. Z drugiej strony, istnieją bardzo szczegółowe wprowadzenia, które naprawdę ukrywają zbyt wiele szczegółów dla każdego, kto jest choć trochę ciekawy.
-
-
-To wprowadzenie do kryptografii ma na celu uchwycenie środka. Chociaż powinno być stosunkowo trudne i szczegółowe dla każdego, kto jest nowy w kryptografii, nie jest to królicza nora typowego fundamentalnego traktatu.
-
-
+Materiał jest zaprojektowany dla uczących się na wszystkich poziomach i równoważy intuicję z wystarczającą głębią techniczną, aby zaspokoić ciekawość. Oczekuj skoncentrowanej, angażującej podróży. Pod koniec zrozumiesz, jak i dlaczego działa nowoczesna kryptografia oraz jak używać jej odpowiedzialnie.
 +++
-
 # Wprowadzenie
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
@@ -94,7 +83,7 @@ Czytelnikom, którzy po zapoznaniu się z tym wprowadzeniem chcieliby poszukać 
 **Wkład**
 
 
-Prosimy o zapoznanie się z [plikiem wkładu w repozytorium] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) w celu uzyskania wskazówek, jak wspierać projekt.
+Prosimy o zapoznanie się z [plikiem wkładu w repozytorium](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) w celu uzyskania wskazówek, jak wspierać projekt.
 
 
 
@@ -182,7 +171,7 @@ Drugi szyfrogram można zobaczyć na *Rysunku 2* poniżej. [Kluczem do tego szyf
 *Rysunek 1: Szyfr Beale'a nr. 2*
 
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 
 
@@ -196,7 +185,7 @@ Po odszyfrowaniu druga wiadomość zawiera szczegółową zawartość skarbu (z�
 **Uwagi:**
 
 
-[1] Dobre podsumowanie tej historii można znaleźć w Simon Singh, *The Code Book*, Fourth Estate (Londyn, 1999), s. 82-99. Krótki film przedstawiający tę historię został nakręcony przez Andrew Allena w 2010 roku. Można go znaleźć pod tytułem "The Thomas Beale Cipher" [na jego stronie internetowej] (http://www.thomasbealecipher.com/).
+[1] Dobre podsumowanie tej historii można znaleźć w Simon Singh, *The Code Book*, Fourth Estate (Londyn, 1999), s. 82-99. Krótki film przedstawiający tę historię został nakręcony przez Andrew Allena w 2010 roku. Można go znaleźć pod tytułem "The Thomas Beale Cipher" [na jego stronie internetowej](http://www.thomasbealecipher.com/).
 
 
 [2] Ten obraz jest dostępny na stronie Wikipedii poświęconej szyfrom Beale'a.
@@ -424,7 +413,7 @@ Możliwe wartości i związane z nimi prawdopodobieństwa dla zmiennej losowej m
 *Rysunek 1: Zmienna losowa X*
 
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 
 Szerokie słupki na *Rysunku 1* oczywiście nie sugerują, że zmienna losowa $X$ jest ciągła. Zamiast tego słupki są szerokie, aby były bardziej atrakcyjne wizualnie (tylko linia prosto w górę zapewnia mniej intuicyjną wizualizację).
@@ -478,7 +467,7 @@ Graficzne przedstawienie $Y$ znajduje się na *Rysunku 2*.
 *Rysunek 2: Zmienna losowa Y*
 
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 
 W ostatnim przykładzie rozważmy zmienną losową Z. Ma ona zbiór wyników {1,3,7,11,12} i następujący rozkład prawdopodobieństwa:
@@ -516,7 +505,7 @@ Można to zobaczyć na *Rysunku 3*. Zmienna losowa Z jest, w przeciwieństwie do
 *Rysunek 3: Zmienna losowa Z*
 
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 
 
@@ -692,18 +681,18 @@ Najpierw ją zdefiniujmy. Załóżmy słownik *D*, który zrównuje wszystkie li
 Operator modulo w szyfrze przestawieniowym zapewnia zawijanie liter, dzięki czemu wszystkie litery szyfrogramu są zdefiniowane. Aby to zilustrować, rozważmy zastosowanie szyfru przestawieniowego na słowie "DOG".
 
 
-Załóżmy, że jednolicie wybrano klucz o wartości 17. Litera "O" jest równa 15. Bez operacji modulo, dodanie tej liczby tekstu jawnego do klucza dałoby liczbę szyfrogramu równą 32. Jednak ta liczba szyfrogramu nie może zostać przekształcona w literę szyfrogramu, ponieważ alfabet angielski ma tylko 26 liter. Operacja modulo zapewnia, że liczba szyfrogramu wynosi w rzeczywistości 6 (wynik $32 \mod 26$), co odpowiada literze szyfrogramu "G".
+Załóżmy, że jednolicie wybrano klucz o wartości $17$. Litera „O” odpowiada $14$. Bez operacji modulo dodanie tej liczby tekstu jawnego do klucza dałoby liczbę szyfrogramu równą $31$. Jednak tej liczby nie można zamienić na literę szyfrogramu, ponieważ alfabet angielski ma tylko $26$ liter. Operacja modulo zapewnia, że liczba szyfrogramu wynosi faktycznie $5$ (wynik $31 \mod 26$), co odpowiada literze szyfrogramu „F”.
 
 
 Całe szyfrowanie słowa "DOG" z wartością klucza 17 wygląda następująco:
 
 
 
-- Wiadomość = DOG = D,O,G = 3,15,6
+**Wiadomość = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 
 Każdy może intuicyjnie zrozumieć, jak działa szyfr przestawieniowy i prawdopodobnie sam go używać. Aby jednak pogłębić swoją wiedzę na temat kryptografii, ważne jest, aby zacząć czuć się bardziej komfortowo z formalizacją, ponieważ schematy staną się znacznie trudniejsze. Dlatego też kroki szyfru przestawieniowego zostały sformalizowane.
@@ -1441,7 +1430,7 @@ Bob szyfruje wiadomość $M$ w czasie $T_0$ kluczem $K$ w celu uzyskania szyfrog
 *Rysunek 1: Tajność w przestrzeni*
 
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 
 
@@ -1449,7 +1438,7 @@ Bob szyfruje wiadomość $M$ w czasie $T_0$ kluczem $K$ w celu uzyskania szyfrog
 
 
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 
 
@@ -1598,7 +1587,7 @@ Typowy szyfr strumieniowy XOR został przedstawiony na *Rysunku 3*. Najpierw bie
 *Rysunek 3: Szyfr strumieniowy XOR*
 
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 
 Należy pamiętać, że schemat szyfrowania jest zazwyczaj szablonem dla szyfrowania z tym samym podstawowym algorytmem, a nie dokładną specyfikacją. W związku z tym szyfr strumieniowy jest zazwyczaj szablonem szyfrowania, w którym można używać kluczy o różnych długościach. Chociaż długość klucza może wpływać na niektóre drobne szczegóły schematu, nie wpłynie to na jego zasadniczą formę.
@@ -1716,7 +1705,7 @@ Przedstawienie działania szyfru blokowego można zobaczyć na *Rysunku 4* poni�
 *Rysunek 4: Szyfr blokowy*
 
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 
 Szyfr blokowy sam w sobie nie jest schematem szyfrowania. Ale szyfr blokowy może być używany z różnymi **trybami działania** w celu stworzenia różnych schematów szyfrowania. Tryb działania po prostu dodaje pewne dodatkowe operacje poza szyfrem blokowym.
@@ -1728,7 +1717,7 @@ Aby zilustrować, jak to działa, załóżmy szyfr blokowy (BC), który wymaga 1
 *Rysunek 5: Szyfr blokowy z trybem ECB*
 
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 
 Proces szyfrowania elektronicznej książki kodowej za pomocą szyfru blokowego wygląda następująco. Sprawdź, czy możesz podzielić swój zwykły tekst na 128-bitowe bloki. Jeśli nie, dodaj **padding** do wiadomości, tak aby wynik mógł być równomiernie podzielony przez rozmiar bloku 128 bitów. Są to dane używane w procesie szyfrowania.
@@ -1752,7 +1741,7 @@ Tryb **cipher block chaining** (**tryb CBC**) jest prawdopodobnie najczęściej 
 *Rysunek 6: Szyfr blokowy z trybem CBC*
 
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 
 Załóżmy, że rozmiar bloku wynosi ponownie 128 bitów. Aby rozpocząć, należy ponownie upewnić się, że oryginalna wiadomość w postaci zwykłego tekstu otrzyma niezbędne wypełnienie.
@@ -1776,7 +1765,7 @@ Na koniec zwróćmy uwagę na **tryb wyjściowego sprzężenia zwrotnego** (**tr
 *Rysunek 7: Szyfr blokowy z trybem OFB*
 
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 
 W trybie OFB użytkownik również wybiera wektor inicjujący. Ale tutaj, dla pierwszego bloku, wektor inicjujący jest bezpośrednio wstawiany do szyfru blokowego wraz z kluczem. Wynikowe 128 bitów jest następnie traktowane jako strumień klucza. Ten strumień klucza jest XORowany z tekstem jawnym w celu utworzenia szyfrogramu dla bloku. W przypadku kolejnych bloków używa się strumienia klucza z poprzedniego bloku jako danych wejściowych do szyfru blokowego i powtarza kroki.
@@ -1847,7 +1836,7 @@ Z tej dyskusji powinieneś teraz zrozumieć *Rysunek 8*. Przedstawia on przeglą
 *Rysunek 8: Przegląd schematów szyfrowania symetrycznego*
 
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 
 
@@ -1882,7 +1871,7 @@ Proces ten został przedstawiony na *Rysunku 9*. Aby użyć **MAC** (Message Aut
 *Rysunek 9: Przegląd schematów szyfrowania symetrycznego*
 
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 
 Ze względu na **istniejącą niezmienność**, atakujący nie może w żaden sposób zmienić wiadomości $M$ ani utworzyć własnej wiadomości z prawidłowym znacznikiem. Dzieje się tak, nawet jeśli atakujący obserwuje znaczniki wielu wiadomości między Bobem i Alicją, które używają tego samego klucza prywatnego. Atakujący może co najwyżej zablokować Alicji możliwość odebrania wiadomości $M$ (problem, którego kryptografia nie może Address).
@@ -1930,7 +1919,7 @@ Alice sprawdza teraz najpierw, czy znacznik jest ważny, biorąc pod uwagę szyf
 *Rysunek 10: Uwierzytelniony schemat szyfrowania*
 
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 
 W jaki sposób tworzone są MAC? Chociaż MAC mogą być tworzone za pomocą wielu metod, powszechnym i skutecznym sposobem ich tworzenia są **kryptograficzne funkcje Hash**.
@@ -1949,7 +1938,7 @@ Istnieje paleta funkcji Hash, których można użyć do utworzenia HMAC. Najczę
 *Rysunek 11: HMAC*
 
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 
 **Uwagi:**
@@ -2006,7 +1995,7 @@ Sesja komunikacyjna rozpoczyna się od wysłania przez Boba szyfrogramu $C_{0,B}
 *Rysunek 12: Sesja bezpiecznej komunikacji*
 
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 
 
@@ -2199,7 +2188,7 @@ Nazwijmy klucz $K_0$. Konstrukcja z powyższymi parametrami wygląda jak na *Rys
 *Rysunek 1: AES-ECB z kluczem 128-bitowym*
 
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 
 Każdy 128-bitowy blok tekstu przechodzi przez dziesięć rund w schemacie szyfrowania Rijndael. Wymaga to osobnego klucza dla każdej rundy (od $K_1$ do $K_{10}$). Są one tworzone dla każdej rundy z oryginalnego 128-bitowego klucza $K_0$ przy użyciu **algorytmu rozszerzania klucza**. W związku z tym, dla każdego bloku tekstu, który ma zostać zaszyfrowany, użyjemy oryginalnego klucza $K_0$, a także dziesięciu oddzielnych kluczy rundowych. Należy pamiętać, że te same 11 kluczy jest używanych dla każdego 128-bitowego bloku tekstu jawnego, który wymaga szyfrowania.
@@ -2574,7 +2563,7 @@ W pewnym momencie Bob chce napisać wiadomość $M$ do Alicji. Ponieważ zawiera
 *Rysunek 1: Szyfrowanie asymetryczne*
 
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 
 
@@ -2611,7 +2600,7 @@ Podpis cyfrowy jest, jak sama nazwa wskazuje, cyfrowym odpowiednikiem pisemnego 
 *Rysunek 2: Uwierzytelnianie asymetryczne*
 
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 
 
@@ -2726,11 +2715,11 @@ O funkcji Hash $H$ mówi się, że jest **odporna na kolizje**, jeśli nie jest 
 Odporne na kolizje funkcje Hash są ważne na przykład przy weryfikacji oprogramowania. Załóżmy, że chcesz pobrać wersję Bitcoin Core 0.21.0 dla systemu Windows (aplikacja serwerowa do przetwarzania ruchu sieciowego Bitcoin). Główne kroki, które należałoby wykonać, aby zweryfikować legalność oprogramowania, są następujące:
 
 
-1.	Najpierw należy pobrać i zaimportować klucze publiczne jednego lub więcej współtwórców Bitcoin Core do oprogramowania, które może weryfikować podpisy cyfrowe (np. Kleopetra). Te klucze publiczne można znaleźć [tutaj] (https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Zaleca się zweryfikowanie oprogramowania Bitcoin Core za pomocą kluczy publicznych od wielu dostawców.
+1.	Najpierw należy pobrać i zaimportować klucze publiczne jednego lub więcej współtwórców Bitcoin Core do oprogramowania, które może weryfikować podpisy cyfrowe (np. Kleopetra). Te klucze publiczne można znaleźć [tutaj](https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Zaleca się zweryfikowanie oprogramowania Bitcoin Core za pomocą kluczy publicznych od wielu dostawców.
 
 2.	Następnie należy zweryfikować zaimportowane klucze publiczne. Przynajmniej jednym krokiem, który powinieneś podjąć, jest sprawdzenie, czy znalezione klucze publiczne są takie same, jak opublikowane w różnych innych lokalizacjach. Możesz na przykład zapoznać się z osobistymi stronami internetowymi, stronami Twittera lub stronami Github osób, których klucze publiczne zaimportowałeś. Zazwyczaj porównanie kluczy publicznych odbywa się poprzez porównanie krótkiego Hash klucza publicznego znanego jako odcisk palca.
 
-3.	Następnie należy pobrać plik wykonywalny dla Bitcoin Core z ich [strony internetowej] (www.bitcoincore.org). Dostępne będą pakiety dla systemów operacyjnych Linux, Windows i MAC.
+3.	Następnie należy pobrać plik wykonywalny dla Bitcoin Core z ich [strony internetowej](www.bitcoincore.org). Dostępne będą pakiety dla systemów operacyjnych Linux, Windows i MAC.
 
 4.	Następnie należy zlokalizować dwa pliki wydania. Pierwszy z nich zawiera oficjalny SHA-256 Hash dla pobranego pliku wykonywalnego wraz ze skrótami wszystkich innych wydanych pakietów. Kolejny plik wydania będzie zawierał podpisy różnych współtwórców nad plikiem wydania wraz ze skrótami pakietów. Oba te pliki powinny znajdować się na stronie Bitcoin Core.
 

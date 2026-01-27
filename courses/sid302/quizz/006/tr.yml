@@ -1,0 +1,8 @@
+question: Elements, ağ doğrulamasına izin verirken işlem tutarlarını gizlemek için hangi kriptografik tekniği kullanır?
+answer: Pedersen Taahhütleri
+wrong_answers:
+  - Merkle Tree Hashing
+  - Eliptik Eğri İmzalar
+  - SHA-256 Şifreleme
+explanation: |
+  Pedersen Taahhütleri, Elements' Confidential Transactions'de işlem tutarlarını gizlemek için kullanılan özel kriptografik tekniktir. Bu taahhütler, görünür tutarları, gerçek değerleri ortaya çıkarmadan doğrulayıcılar tarafından matematiksel olarak doğrulanabilen kriptografik taahhütlerle değiştirir. Merkle Tree Hashing, işlem verilerini bloklar halinde düzenlemek için kullanılır, Eliptik Eğri İmzaları işlem yetkilendirmesi için kullanılır ve SHA-256 bir hashing algoritmasıdır, ancak bunların hiçbiri Pedersen Taahhütleri gibi doğrulama yeteneğini korurken işlem tutarlarını gizlemez.

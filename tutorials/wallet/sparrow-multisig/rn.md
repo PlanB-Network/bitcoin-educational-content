@@ -48,7 +48,7 @@ Muri iyi nyigisho, tuzokwiga ingene twokora no gukoresha Wallet y'amasinya mensh
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 ## Ibisabwa
 
@@ -58,7 +58,7 @@ Ku bw’iyi nyigisho, ngiye kukwereka ingene wokora Multisig ukoresheje [porogar
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
 Kugira ngo ushireho Wallet ifise amasinyatire menshi, uzokenera ama wallets atandukanye y’ibikoresho. Ku Multisig 2-de-3, nk'akarorero, woshobora gukoresha :
 
@@ -101,11 +101,11 @@ Imbere yo gutunganya Multisig Wallet yawe, urabe neza ko Hardware Wallet yose it
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Nk'uko tuzobibona mu nyuma muri iyi nyigisho, birashoboka kandi ko ushiramwo mu mitunganyirize yawe Multisig ikintu kidafitaniye isano na Hardware Wallet, ariko imfunguruzo zayo z'ibanga zibitswe kuri PC yawe. Ubwo buryo buragaragara ko butagira umutekano mwinshi nk’ugukoresha gusa amasakoshi y’ibikoresho, ariko burashobora kuba ngirakamaro mu bihe bimwebimwe. Nk'akarorero, ku Multisig 2-de-3, woshobora guhitamwo amasakoshi abiri y'ibikoresho n'imwe ya Software Wallet.
 
@@ -375,7 +375,7 @@ Uretse kubika *Descriptor*, ntimwibagire kwitwararika cane kubika amajambo ya Mn
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Imbere yo kwakira ama bitcoins yawe ya mbere kuri Multisig yawe, **Ndaguhanura cane gukora ikigeragezo co gusubirana ubusa**. Niwibuke amakuru amwamwe y’ishingiro, nk’uwa mbere yakira Address, hanyuma usubiremwo amasakoshi yawe y’ibikoresho mu gihe Wallet ikiri ubusa. Inyuma y'aho, gerageza gusubizaho Multisig Wallet yawe ku bikoresho vy'ibikoresho ukoresheje amafoto yawe y'impapuro z'amajambo Mnemonic, hanyuma kuri Sparrow ukoresheje *Descriptor*. Suzuma ko Address ya mbere yasohotse inyuma yo gusubizaho ihuye n’iyo wanditse mu ntango. Nivyashika, urashobora kwizigira yuko amakete yawe yo mu mpapuro ari ay’ukwizigirwa.
 
@@ -385,7 +385,7 @@ Kugira ngo umenye vyinshi ku buryo bwo gukora ikibazo co gukira, ndagusavye urab
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Kwakira amafaranga kuri Multisig yawe
 
@@ -619,4 +619,4 @@ Kugira ngo ugende kure, ndagusavye ko woraba iyi nyigisho ku bundi buryo bwo kwo
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

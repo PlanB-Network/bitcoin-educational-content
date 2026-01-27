@@ -18,7 +18,7 @@ Mu gihe c’ubuhinga bwa none co gukusanya amakuru, ubuzima bwite bwo kuri Inter
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Hashingiwe kuri iyo ngingo, [Mozilla VPN](ibicuruzwa) ni igikorwa ca VPN gifise inkomoko yuguruye categuwe mu 2020 n’ishirahamwe Mozilla Foundation. Iraboneka kuri:
 
@@ -191,4 +191,4 @@ Ubu rero urateguye gukoresha Internet ata nkomanzi kandi ata nkomanzi. Niba wara
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

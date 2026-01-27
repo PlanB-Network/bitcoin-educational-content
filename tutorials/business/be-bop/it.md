@@ -348,7 +348,7 @@ Fasi di configurazione:
 
 
 
-**Nota: ** Per ottenere questi identificatori è necessario disporre di un conto PayPal business. È possibile ottenerli tramite il portale [developer] (https://developer.paypal.com)
+**Nota: ** Per ottenere questi identificatori è necessario disporre di un conto PayPal business. È possibile ottenerli tramite il portale [developer](https://developer.paypal.com)
 
 
 

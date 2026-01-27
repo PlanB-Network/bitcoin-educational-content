@@ -1,0 +1,9 @@
+question: De acordo com a Licença MIT sob a qual o Bitcoin Core é distribuído, que restrição existe em relação à distribuição de trabalhos derivados?
+answer: Os trabalhos derivados devem ser distribuídos sob os mesmos termos que a licença do software original
+wrong_answers:
+  - As obras derivadas não podem ser vendidas comercialmente e devem ser sempre distribuídas gratuitamente
+  - Os trabalhos derivados requerem permissão explícita por escrito dos criadores do Bitcoin Core antes da distribuição
+  - As obras derivadas devem incluir a marca original do Bitcoin Core e não podem ser renomeadas ou mudar de marca
+explanation: |
+  A Licença MIT exige que os trabalhos derivados sejam distribuídos sob os mesmos termos de licença que o software original, garantindo que a natureza de código aberto seja preservada. Isso não proíbe a venda comercial (resposta errada 1), não exige permissão dos desenvolvedores (resposta errada 2) e não exige a manutenção da marca original (resposta errada 3). A licença afirma especificamente que modificações e trabalhos derivados devem ser permitidos sob os mesmos termos, mantendo o modelo de desenvolvimento sem permissão que permite inovações como Lightning Network e sidechains.
+reviewed: false

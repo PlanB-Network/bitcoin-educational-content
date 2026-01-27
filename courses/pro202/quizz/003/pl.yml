@@ -1,0 +1,8 @@
+question: Która funkcja Pythona została wymieniona w szczególności do wykonywania wydajnego modułowego potęgowania w operacjach kryptograficznych?
+answer: pow(base, exp, mod)
+wrong_answers:
+  - mod(base, exp, prime)
+  - exp(base, mod, field)
+  - mult(base, exp, modulo)
+explanation: |
+  Wbudowana w Pythona funkcja pow(base, exp, mod) jest specjalnie zaprojektowana do wydajnego wykładania modularnego, co jest kluczowe dla operacji kryptograficznych z dużymi wykładnikami. Funkcja ta wykorzystuje zoptymalizowane algorytmy do obliczania (base^exp) mod mod bez konieczności wcześniejszego obliczania potencjalnie ogromnego wyniku pośredniego base^exp. Pozostałe opcje nie są poprawnymi funkcjami Pythona - mod(), exp() i mult() z tymi wzorcami parametrów nie istnieją w standardowej bibliotece Pythona dla kryptograficznej arytmetyki modularnej.

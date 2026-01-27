@@ -139,7 +139,7 @@ U kunt ook **een OPNsense rack-mountable appliance** kopen via onze online winke
 
 
 
-U moet rekening houden met de hardware middelen die nodig zijn om OPNsense te draaien. Dit wordt beschreven op [deze documentatiepagina] (https://docs.opnsense.org/manual/hardware.html).
+U moet rekening houden met de hardware middelen die nodig zijn om OPNsense te draaien. Dit wordt beschreven op [deze documentatiepagina](https://docs.opnsense.org/manual/hardware.html).
 
 
 

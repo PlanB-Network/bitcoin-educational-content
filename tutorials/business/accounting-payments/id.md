@@ -28,7 +28,7 @@ Langkah selanjutnya adalah menerima Bitcoin secara langsung dalam bisnis Anda; c
 Untuk mempermudah, kita akan menggunakan Wallet dari Satoshi sebagai contoh. Ikuti langkah-langkah berikut untuk menginstal dan mengkonfigurasinya:
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Setelah mengikuti panduan ini, Anda akan siap untuk menerima Bitcoin sebagai metode pembayaran: cukup buka aplikasi seluler dan klik tombol "Terima", lalu masukkan jumlah (biasanya dalam mata uang lokal Anda) ke generate atau Invoice yang harus dibayarkan oleh pengguna.
 
@@ -45,7 +45,7 @@ Konfigurasi yang sedikit lebih canggih adalah menggunakan fitur Point of Sale Wa
 ![image](assets/en/01.webp)
 
 
-Ini adalah salah satu dari dua cara untuk mengakses fitur Point of Sale. Cara lainnya adalah melalui aplikasi khusus [Wallet dari aplikasi Satoshi PoS] (https://www.walletofsatoshi.com/pos.)
+Ini adalah salah satu dari dua cara untuk mengakses fitur Point of Sale. Cara lainnya adalah melalui aplikasi khusus [Wallet dari aplikasi Satoshi PoS](https://www.walletofsatoshi.com/pos.)
 
 
 Manfaat menggunakan fitur Point of Sale ada tiga:
@@ -59,7 +59,7 @@ Manfaat menggunakan fitur Point of Sale ada tiga:
 Untuk informasi lebih lanjut, lihat tutorial khusus pada Wallet dari Satoshi - Point of Sale:
 
 
-https://planb.network/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
+https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
 
 ## Peraturan
 

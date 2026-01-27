@@ -33,7 +33,7 @@ I denne veiledningen skal vi se på tre måter å bruke en **Watchtower** på:
 
 
 
-*Denne veiledningen er hentet fra [den offisielle LND-dokumentasjonen] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Noen endringer kan ha blitt gjort i forhold til den opprinnelige versjonen
+*Denne veiledningen er hentet fra [den offisielle LND-dokumentasjonen](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Noen endringer kan ha blitt gjort i forhold til den opprinnelige versjonen
 
 
 
@@ -327,7 +327,7 @@ OPTIONS:
 
 
 
-*Denne veiledningen er delvis hentet fra en artikkel på [Summer of Bitcoin Blog] (https://blog.summerofbitcoin.org/). Det er gjort endringer i den opprinnelige versjonen*
+*Denne veiledningen er delvis hentet fra en artikkel på [Summer of Bitcoin Blog](https://blog.summerofbitcoin.org/). Det er gjort endringer i den opprinnelige versjonen*
 
 
 
@@ -519,7 +519,7 @@ I den samme menyen finner du også URI-en til Watchtower-tjenesten din, hvis du 
 
 
 
-Det finnes flere Watchtowers tilgjengelig på nettet. For eksempel tilbyr [LN+ og Voltage en altruistisk Watchtower] (https://lightningnetwork.plus/Watchtower) som du kan koble deg til:
+Det finnes flere Watchtowers tilgjengelig på nettet. For eksempel tilbyr [LN+ og Voltage en altruistisk Watchtower](https://lightningnetwork.plus/Watchtower) som du kan koble deg til:
 
 
 

@@ -3,6 +3,7 @@ answer: Deben gastarse en su totalidad
 wrong_answers:
   - Pueden usarse múltiples veces hasta agotarse
   - Solo son utilizables en ciertas transacciones específicas
-  - Representan pequeñas cantidades fijas de bitcoins
+  - Representan pequeñas cantidades fijas de Bitcoin
 explanation: |
   Al igual que un billete de banco, un UTXO debe gastarse completamente en una transacción, y cualquier exceso se devuelve al emisor como cambio.
+reviewed: true

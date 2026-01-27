@@ -1,0 +1,8 @@
+question: Apa keuntungan utama dari iterator yang malas di Rust?
+answer: Mereka tidak melakukan pekerjaan apa pun sampai dikonsumsi, memungkinkan perantaian yang efisien tanpa membuat koleksi perantara
+wrong_answers:
+  - Mereka secara otomatis memparalelkan operasi di beberapa inti CPU untuk kinerja yang lebih baik
+  - Mereka menyimpan hasil sebelumnya dalam memori untuk menghindari penghitungan ulang nilai yang sama beberapa kali
+  - Mereka menggunakan lebih sedikit memori dengan hanya menyimpan referensi alih-alih menyalin nilai data aktual
+explanation: |
+  Evaluasi malas pada iterator Rust berarti iterator tersebut tidak melakukan pemrosesan apa pun hingga metode konsumsi dipanggil. Hal ini memungkinkan Anda untuk merantai beberapa operasi seperti map, filter, dan adaptor lainnya secara bersamaan tanpa membuat koleksi perantara di antara setiap langkah. Kompiler dapat mengoptimalkan seluruh rantai menjadi kode yang efisien yang memproses elemen satu per satu melalui semua transformasi, daripada membuat vektor sementara atau koleksi lain pada setiap tahap.

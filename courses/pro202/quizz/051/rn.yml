@@ -1,0 +1,8 @@
+question: Mu miterere y’ubutumwa bw’urubuga rwa Bitcoin P2P, ni amakuru ayahe yihariye agize umwanya w’igenzura w’amabayiti 4 mu ibahasha ry’ubutumwa ryose?
+answer: Bytes 4 za mbere za hash256 z'ubutumwa bw'umuzigo
+wrong_answers:
+  - Bytes 4 za mbere za SHA256 hash y'ubutumwa bwose bw'ibahasha
+  - Bytes 4 za mbere za hash256 z'itegeko ry'umurima ryifatanijwe n'umuzigo
+  - Bytes 4 za mbere za RIPEMD160 hash y'ubutumwa bw'umuzigo
+explanation: |
+  Ibaruwa ry'ubutumwa rya Bitcoin rya P2P rikoresha uburyo bwihariye bwo gusuzuma aho umwanya w'igenzura w'amabayiti 4 urimwo amabayiti 4 ya mbere ya hash256 akoreshwa ku butumwa bw'inyungu gusa. Ivyo bitanga ukugenzura ubutungane bw’amakuru y’umuzigo mu gihe c’ugutanga amakuru ku rubuga. Ayandi mahitamwo ntabwo ari meza kuko yerekana ibikorwa bitandukanye vya hash (SHA256 imwe, RIPEMD160) canke amakuru atandukanye y’injiza (ibahasha ryose, itegeko+umuzigo) kuruta ivyo Bitcoin ishira mu ngiro mu vy’ukuri mu nzira yayo y’uruja n’uruza.

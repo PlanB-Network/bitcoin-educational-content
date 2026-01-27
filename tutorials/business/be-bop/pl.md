@@ -348,7 +348,7 @@ Kroki konfiguracji:
 
 
 
-**Uwaga:** Musisz mieć konto firmowe PayPal, aby generate te identyfikatory. Można je uzyskać za pośrednictwem portalu [deweloperskiego] (https://developer.paypal.com)
+**Uwaga:** Musisz mieć konto firmowe PayPal, aby generate te identyfikatory. Można je uzyskać za pośrednictwem portalu [deweloperskiego](https://developer.paypal.com)
 
 
 

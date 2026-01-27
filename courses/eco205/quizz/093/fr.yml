@@ -1,0 +1,8 @@
+question: Dans la théorie autrichienne, quel rôle principal la monnaie joue-t-elle dans la transmission de l'information économique?
+answer: Elle permet de diffuser l'information sous forme de prix qui reflètent les valorisations subjectives des biens
+wrong_answers:
+  - "Elle centralise toutes les décisions économiques en un point unique pour optimiser l'allocation des ressources"
+  - Elle standardise les préférences individuelles pour créer une demande homogène sur tous les marchés
+  - Elle élimine complètement la subjectivité des échanges en imposant des valeurs objectives fixes
+explanation: |
+  Selon la pensée autrichienne, la monnaie joue un rôle crucial de diffusion de l'information économique sous forme de prix. Ces prix constituent l'expression comptable des valorisations subjectives et servent d'« étoile directrice » informant tous les participants sur l'état du marché. La monnaie agit comme dénominateur commun permettant de traduire les valeurs subjectives en termes comparables, facilitant ainsi la coordination décentralisée des acteurs économiques sans centralisation ni standardisation forcée des préférences.

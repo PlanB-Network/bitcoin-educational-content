@@ -34,7 +34,7 @@ Nói cách khác, với cách triển khai này, bạn có thể:
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Tại sao bạn nên có nút Lightning riêng?
 
@@ -64,7 +64,7 @@ Theo nghĩa này, việc chạy một nút Lightning sẽ tăng cường tính b
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Bạn có hai lựa chọn để chạy phiên bản triển khai LND trên máy của chúng tôi. Chúng tôi có thể thiết lập môi trường trên máy của mình để chạy cục bộ hoặc cài đặt LND từ vùng chứa Docker. Ở đây, chúng tôi sẽ tập trung vào lựa chọn đầu tiên và xem cách tiến hành với Docker trong hướng dẫn sau.
@@ -665,4 +665,4 @@ Vậy là bạn đã đến phần cuối của hướng dẫn này. Nếu bạn
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

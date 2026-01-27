@@ -1,0 +1,8 @@
+question: Wat zijn de twee kritieke verificatiecontroles die een Bitcoin knooppunt moet uitvoeren wanneer het een nieuw blok ontvangt voordat het het accepteert in de blockchain?
+answer: De blokhash moet onder de doelmoeilijkheid liggen en de berekende Merkle root moet overeenkomen met de Merkle root van de header
+wrong_answers:
+  - Het bloktijdstempel moet geldig zijn en alle transactiehandtekeningen moeten cryptografisch geverifieerd zijn
+  - De blokgrootte moet kleiner zijn dan 1MB en de vorige blokhash moet verwijzen naar een bekend geldig blok
+  - De blokversie moet overeenkomen met de netwerkconsensus en de totale transactiekosten moeten hoger zijn dan de mining beloning
+explanation: |
+  Het Bitcoin principe "vertrouw niet, verifieer" vereist precies twee fundamentele controles voor blokacceptatie: proof-of-work validatie (hash van het blok onder de moeilijkheidsdoelstelling) en verificatie van de integriteit van de transactie (Merkle root matching). Hoewel andere controles zoals tijdstempelvalidatie, handtekeningverificatie en grenzen aan de grootte belangrijk zijn, zorgen deze twee specifieke controles ervoor dat het blok voldoet aan de moeilijkheidsvereisten en de geclaimde transacties bevat zonder geknoei.

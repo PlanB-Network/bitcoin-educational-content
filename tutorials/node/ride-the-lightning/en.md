@@ -485,7 +485,7 @@ Never expose RTL directly on the Internet. Give preference to :
 - Reverse proxy **HTTPS** (Nginx/Caddy) only if you know how to configure it
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Good safety practices
 
@@ -524,10 +524,10 @@ To find out more :
 In short, RTL gives you total control over your Lightning node, in a modern, full-featured Interface.
 
 
-**Sources :** RTL official website; RTL GitHub; Umbrel App Store; Umbrel Community; Plan B Network resources.
+**Sources :** RTL official website; RTL GitHub; Umbrel App Store; Umbrel Community; Plan ₿ Academy resources.
 
 
 To deepen your understanding of how the Lightning Network works, I also recommend you take this free course:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

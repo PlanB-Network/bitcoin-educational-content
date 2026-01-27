@@ -19,7 +19,7 @@ description: Настройка и использование COLDCARD Q
 ---
 Поскольку COLDCARD Q обладает множеством функций, я предлагаю разделить его использование на 2 урока. В первом уроке мы рассмотрим начальную настройку и основные функции устройства. Затем, во втором уроке, мы рассмотрим, как использовать все расширенные возможности COLDCARD.
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
 ## Представляем вашему вниманию COLDCARD Q
@@ -55,7 +55,7 @@ COLDCARD Q - это аппаратный кошелек только для би
 
 В общем, COLDCARD Q предлагает улучшенный пользовательский опыт по сравнению с MK4 и может стать идеальным вариантом для средних и опытных пользователей, которым нужна простота в использовании.
 
-COLDCARD Q доступен для продажи [на официальном сайте Coinkite] (https://store.coinkite.com/store/coldcard). Ее также можно приобрести в розничной сети.
+COLDCARD Q доступен для продажи [на официальном сайте Coinkite](https://store.coinkite.com/store/coldcard). Ее также можно приобрести в розничной сети.
 
 ## Подготовка учебника
 
@@ -81,7 +81,7 @@ COLDCARD Q доступен для продажи [на официальном �
 
 Для этого урока вам также понадобится Sparrow Wallet для управления кошельком Bitcoin на вашем компьютере. Скачайте [Sparrow Wallet](https://sparrowwallet.com/download/) с официального сайта. Я настоятельно рекомендую вам проверить его подлинность (с помощью GnuPG) и целостность (с помощью хэша), прежде чем приступать к установке. Если вы не знаете, как это сделать, следуйте этому руководству:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Выбор PIN-кода
 
@@ -161,7 +161,7 @@ PIN-коды COLDCARD состоят из двух частей: префикс�
 
 Если вы не знакомы с процессом проверки, я рекомендую вам прочесть это руководство:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Возьмите карту памяти microSD и перенесите на нее файл прошивки (документ в формате `.dfu`). Вставьте карту microSD в один из портов вашего COLDCARD.
 
@@ -201,7 +201,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 Другие дополнительные настройки мы рассмотрим в следующем уроке:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ## Создание кошелька Bitcoin
 
@@ -332,7 +332,7 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea
 
 Чтобы узнать больше о том, как выполнить тест восстановления, я предлагаю вам ознакомиться с другим руководством:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Получение биткоинов
 
@@ -384,7 +384,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 Для получения дополнительной информации о маркировке я также рекомендую этот учебник:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Затем вы можете использовать этот адрес для получения биткоинов.
 
@@ -484,4 +484,4 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 Я также рекомендую вам взглянуть на другой учебник, в котором мы обсуждаем расширенные возможности COLDCARD Q :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

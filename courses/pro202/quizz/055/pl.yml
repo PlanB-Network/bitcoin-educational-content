@@ -1,0 +1,8 @@
+question: Gdy węzeł Bitcoin żąda nagłówków bloków za pomocą polecenia getheaders, jaka jest maksymalna liczba nagłówków, które mogą zostać zwrócone w pojedynczej odpowiedzi i co następuje po każdym 80-bajtowym nagłówku?
+answer: Zwróconych może zostać do 2000 nagłówków, a po każdym z nich następuje fikcyjna liczba transakcji równa zero
+wrong_answers:
+  - Zwróconych może zostać do 1000 nagłówków, po których następuje rzeczywista liczba transakcji w postaci zmiennejint
+  - Zwracanych może być do 2000 nagłówków, po których następuje 4-bajtowa suma kontrolna danych nagłówka
+  - Zwracanych może być do 500 nagłówków, a po każdym z nich podawany jest hash korzenia Merkle w celu weryfikacji
+explanation: |
+  Protokół P2P Bitcoin specjalnie ogranicza odpowiedzi getheaders do maksymalnie 2000 nagłówków, aby zapobiec przytłaczaniu węzłów ogromnymi odpowiedziami. Każdy nagłówek ma dokładnie 80 bajtów, a po nim następuje pole liczby transakcji ustawione na zero, ponieważ wiadomości zawierające tylko nagłówki nie zawierają rzeczywistych transakcji. Taka konstrukcja umożliwia wydajną synchronizację łańcucha, w której węzły mogą szybko pobrać i zweryfikować strukturę łańcucha proof-of-work przed zażądaniem pełnych danych blokowych.

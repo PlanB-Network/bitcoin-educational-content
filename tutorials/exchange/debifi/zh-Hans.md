@@ -1,5 +1,5 @@
 ---
-name: 德比菲
+name: Debifi
 description: 获得由 Bitcoin 担保的非监护贷款。
 ---
 
@@ -16,7 +16,7 @@ description: 获得由 Bitcoin 担保的非监护贷款。
 
 
 
-Bitcoin 协议的兴起开创了一个新的金融时代，同时也带来了一系列挑战。其中一个挑战是如何在不被迫出售 Bitcoin 的情况下获得流动资金，从而失去其增长潜力
+Bitcoin 协议的兴起开创了一个新的金融时代，同时也带来了一系列挑战。其中一个挑战是如何在不被迫出售 Bitcoin 的情况下获得流动资金，从而失去其增长潜力。
 
 
 
@@ -24,11 +24,11 @@ Bitcoin 协议的兴起开创了一个新的金融时代，同时也带来了一
 
 
 
-Debifi 是一个非托管 Bitcoin 支持的借贷平台，这意味着您可以保留对自己私钥的控制权。它允许用户以其锁定的比特币作为抵押，解锁 Exchange 中的流动性。与传统银行贷款不同，Debifi 采用多重签名托管系统（四分之三），不接受抵押物抵押，保证了更高的安全性和透明度。
+Debifi 是一个由 Bitcoin 支持的非托管借贷平台，这意味着你可以保留对自己私钥的控制权。它允许用户以其锁定的比特币作为抵押物来释放流动性。与传统银行贷款不同，Debifi 采用多重签名托管系统（四分之三），不接受抵押品再抵押，从而保证了更高的安全性和透明度。
 
 
 
-在实践中，这意味着 Debifi 或单个贷款人都不能在未经三方（您、贷款人和可信赖的第三方）同意的情况下使用您的 BTC。这使得系统更加安全：如果您在 Debifi 上借款，您将保留 Bitcoin 中的 Ownership 直到贷款全部偿还。
+在实践中，这意味着 Debifi 或单个贷款人都不能在未经三方（您、贷款人和可信赖的第三方）同意的情况下使用您的 BTC。这使得系统更加安全：如果您在 Debifi 上借款，您将保留您的 Bitcoin 的所有权，直到贷款全部偿还为止。
 
 
 
@@ -36,22 +36,21 @@ Debifi 是一个非托管 Bitcoin 支持的借贷平台，这意味着您可以�
 
 
 
-Debifi 提供抵押贷款、Blockchain 安全性（多重签名、2FA）、稳定币/液体选择、保密性和 Bitcoin 全面控制。Debifi "让您保管您的钱"（您的钥匙、您的币），同时提供有竞争力的利率和全球范围内的 BTC 支持贷款。
+通过 Debifi，您可以获得由 Bitcoin 支持的贷款，这些贷款具有超额抵押和 on-chain 担保。多签名钱包、2FA 和对 Bitcoin 的完全控制确保您的资金安全--您持有您的钥匙，您持有您的硬币。以具有竞争力的利率和全球流动性借入一系列稳定币或法定货币。
 
 
 
 下面是 Debifi 贷款与传统银行贷款的简单比较：
 
 
-
-| Caractéristiques       | Prêt via Debifi                                                       | Prêt bancaire traditionnel                                                 |
-| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Accessibilité          | ✔️ Ouvert à tout détenteur de Bitcoin (même sans historique bancaire) | ❌ Souvent réservé aux clients avec garanties physiques et dossiers solides |
-| Vitesse d’obtention    | ✔️ Liquide en quelques minutes/heures                                 | ❌ Processus long (jours ou semaines)                                       |
-| Garanties exigées      | ✔️ Collatéral en Bitcoin uniquement                                   | ❌ Garanties physiques (maisons, terrains, revenus stables)                 |
-| Contrôle de l’actif    | ✔️ Vous conservez l’exposition au Bitcoin et son potentiel de hausse  | ❌ Vous n’avez aucun lien entre le prêt et vos actifs financiers            |
-| Souplesse géographique | ✔️ Disponible partout (sans contrainte géographique bancaire)         | ❌ Limité à la juridiction de la banque                                     |
-| Risque principal       | ❌ Risque de liquidation si le prix du BTC chute trop                  | ❌ Risque de saisie de biens ou impact négatif sur la cote de crédit        |
+| Characteristics        | Loan via Debifi                                                        | Traditional Bank Loan                                                       |
+| ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Accessibility          | ✔️ Open to any Bitcoin holder (even without banking history)           | ❌ Often limited to clients with physical collateral and strong records      |
+| Speed of approval      | ✔️ Funds available within minutes or hours                             | ❌ Lengthy process (days or weeks)                                           |
+| Required guarantees    | ✔️ Bitcoin used as the sole collateral                                 | ❌ Physical guarantees (property, land, stable income)                       |
+| Asset control          | ✔️ You keep exposure to Bitcoin and its upside potential               | ❌ No connection between the loan and your financial assets                  |
+| Geographic flexibility | ✔️ Available everywhere (no banking jurisdiction constraints)          | ❌ Restricted to the bank’s jurisdiction                                     |
+| Main risk              | ❌ Liquidation risk if BTC price drops too sharply                      | ❌ Risk of asset seizure or negative impact on credit score                  |
 
 在逐步向您介绍如何在 Debifi 上借款之前，我认为您需要了解几点。
 
@@ -76,13 +75,13 @@ Debifi 提供抵押贷款、Blockchain 安全性（多重签名、2FA）、稳�
 
 
 
-- Multisig 托管 (3/4)** 系统是一种安全的存款机制，借款人的比特币存放在多重签名的 Address 中。具体来说，四（4）方（借款人、出借人、Debifi、独立第三方）各持有一个密钥。要转移资金，至少需要 4 个签名中的 3 个签名。
+- Multisig 托管 (3/4)** 系统是一种安全存款机制，借款人的比特币存放在一个多重签名地址中。具体来说，四（4）方（借款人、出借人、Debifi、独立第三方）各持有一个密钥。要转移资金，至少需要 4 个签名中的 3 个签名。
 
 
 
 
 
-- 稳定币**是一种价值与稳定资产（如美元）挂钩的加密货币，它避免了 Bitcoin 的波动性。例如，1 USDC 的价值始终为 1 美元，因为它有法定储备作为支撑。
+- 稳定币**是一种价值与稳定资产（如美元）挂钩的加密货币，它避免了 Bitcoin 的波动性。例如，1 USDC 的价值总是~1 美元，因为它有法定储备作为支持。
 
 
 
@@ -118,23 +117,17 @@ BTC 会话视频教程 ：
 
 
 
-- Bitcoin Wallet：您持有 BTC 的地方（最好是非托管地，如 Hardware Wallet 或可信的移动 Wallet）。您将通过 Wallet 向 Debifi 发送 Bitcoin 抵押品并接收资金。
+- Bitcoin wallet：您持有 BTC 的地方（最好是非托管的，例如 Hardware Wallet 或可信的移动 wallet）。您将从这个 wallet 向 Debifi 发送 Bitcoin 抵押品，并接收回抵押品。
 
 
 
-
-
-- 稳定币或法定货币：Debifi 以稳定币和一些法定货币提供贷款。主要使用的稳定币是 USDT 和 USDC。
-
-
-
-您可以使用 Aqua、Bitcoin 和 Liquid Wallet，它们也支持各种网络上的 USDT 稳定币管理。或者 COLDCARD（Mk4 或 Q），这是 Debifi 目前唯一支持的硬件。
+您可以使用 Aqua、Bitcoin 和 Liquid wallet，它们也支持各种网络上的 USDT 稳定币管理。或者 COLDCARD（Mk4 或 Q），这是 Debifi 目前唯一支持的硬件。
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 
 
@@ -148,17 +141,17 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-- 双因素身份验证应用程序：Debifi 的每项重要操作都需要验证码。这是额外的 Layer 安全措施。在本教程中，我们将使用 Google Authenticator。或者，您也可以使用其他合适的验证码。
+- 双因素身份验证应用程序：Debifi 的每项重要操作都需要验证码。这是一个额外的安全层。在本教程中，我们将使用 Google Authenticator。或者，您也可以使用其他合适的验证码。
 
 
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 
 
-- Debifi 网站和移动应用程序：Debifi 既是一个网站，也是一个移动应用程序，两者协同工作。移动应用程序成为 Wallet，存储您的私人密钥，并管理合同的签署。此外，您还需要使用网站提交合同（一个大的 Interface 可让您大致了解贷款合同及其具体内容）。
+- Debifi 网站和移动应用程序：Debifi 既是一个网站，也是一个移动应用程序，两者协同工作。移动应用程序成为 wallet，存储您的私人密钥，并管理合同的签署。此外，您还需要使用网站提交合同（一个大的 Interface 可让您大致了解贷款合同及其具体内容）。
 
 
 
@@ -200,7 +193,7 @@ https://planb.network/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-然后点击**登录或创建账户**，使用您的电子邮件 Address 创建账户。
+然后点击**登录或创建账户**，用您的电子邮件地址创建一个账户。
 
 
 
@@ -268,7 +261,7 @@ https://planb.network/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-- 为了提高安全性，您甚至可以加装 passphrase。
+- 为了增加安全性，您甚至可以添加一个 passphrase。
 
 
 
@@ -276,7 +269,7 @@ https://planb.network/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 请注意，只有您注册的智能手机才能打开您的账户（额外的安全措施）。
 
@@ -360,7 +353,7 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-- 保守型（20% - 40% LTV）相当于低风险贷款，是最大限度地防止 Bitcoin 价格波动的理想选择；
+- 保守型（30% - 40% LTV）相当于低风险贷款，是最大限度地防止 Bitcoin 价格波动的理想选择；
 
 
 
@@ -372,7 +365,7 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-- 进取型（70% - 85% LTV），提供更大的流动性，但在市场低迷时清算风险极高。在选择这一档时，必须积极监控 Bitcoin 的市场状况。
+- 进取型（按揭成数 70%），流动性更强，但在市场低迷时清算风险极高。在选择这一档时，必须积极监控 Bitcoin 的市场状况。
 
 
 
@@ -388,7 +381,7 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-贷款的还款计划通常比较灵活，可根据用户的需求量身定制。只要满足抵押要求，可随时还款。贷款付款一般为贷款期间的利息，本金在到期时支付。
+还款计划灵活，可满足借款人的需求。只要抵押品符合要求，贷款可随时全部或部分偿还，无需额外费用。在整个贷款期间，利息通常定期支付，本金则在到期时结清。
 
 
 
@@ -396,7 +389,16 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-由于 Bitcoin 的价格波动较大，负责任的贷款会在协议中包含具体的追加保证金政策。该政策允许通知借款人提供额外抵押或偿还部分贷款。
+鉴于 Bitcoin 的不稳定性，贷款包括一项明确规定的追加保证金政策。当抵押品价值下降导致抵押率上升时，就会出现追加保证金的情况。Debifi 会通过电子邮件和应用程序通知借款人，允许他们增加抵押品或偿还部分贷款。
+
+
+75% LTV - 首次预警
+
+80% LTV - 第二警报
+
+85% LTV - 最后警报
+
+90% LTV - 抵押物被清算
 
 
 
@@ -433,11 +435,11 @@ Bitcoin 贷款批次一般为三批：
 6.必须输入所需的确切金额（该金额必须在范围之内，见 2）；
 
 
-7.必须输入用于接收资金的以太坊 USDC Address。
+7.必须输入用于接收资金的以太坊 USDC 地址。
 
 
 
-一旦您对报价感到满意并填写了必要信息，请点击 "Contract 申请"。
+一旦您对报价满意并填写了必要信息，请点击 "Contract 申请"。
 
 
 
@@ -453,7 +455,7 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-按 "**提供公钥**"，然后选择公钥来源。贷款人也需要 Supply 公钥。
+按 "**提供公钥**"，然后选择公钥来源。贷款人也需要提供公钥。
 
 
 
@@ -473,7 +475,7 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-下一步是签署 Contract。仍在移动应用程序中，按'' **签署 Contract** ''。
+下一步是签署合同。仍在移动应用程序中，按'' **签署 Contract** ''。
 
 
 
@@ -485,7 +487,7 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-当您完成 Contract 的签名后，Debifi 会自动为您的 Contract 创建一个唯一的多重签名 Bitcoin Address（托管 3-sur-4）。只要您的比特币还在托管中，就不能在其他地方使用。
+当您完成合约签署后，Debifi 会自动为您的合约创建一个唯一的多重签名 Bitcoin 地址（托管 3-sur-4）。只要您的比特币还在托管中，就不能在其他地方使用。
 
 
 
@@ -493,7 +495,7 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-最后一步是将您的 Bitcoin 抵押品存入多重签名托管系统。然后，Debifi 会向您显示托管的 Address (B) 和作为（抵押+佣金）发送的 BTC (A) 数量。
+最后一步是将您的 Bitcoin 抵押品存入多重签名托管系统。Debifi 会向您显示托管地址（B）和要发送的 BTC 数量（A）（抵押品 + 佣金）。
 
 
 
@@ -509,7 +511,7 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-您的存款一经确认，贷款人就会立即将贷款金额支付给您指定的收款 Address，最终完成交易并为您提供所需资金。
+一旦您的存款得到确认，贷款机构就会立即将贷款金额支付到您指定的收款地址，从而完成交易，让您获得所需的资金。
 
 
 
@@ -517,7 +519,7 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-实际上，一旦创建了 Contract，贷款费用就会自动从借款人在多重签名托管 Address 中托管的抵押物中扣除。
+实际上，合同一旦签订，贷款费用就会自动从借款人在多重签名托管地址中托管的抵押物中扣除。
 
 
 
@@ -529,7 +531,7 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-根据 Contract 的期限，适用的贷款费用为 1.5%-2%。平台只收取 Bitcoin 的佣金。
+适用的贷款费用为 1.5%-2%，具体取决于合同期限。平台仅以 Bitcoin 为单位收取佣金。
 
 
 
@@ -537,29 +539,27 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-贷款开始后，Debifi 可让您实时监控 Contract。在 Interface 中，您将看到 ：
-
-
+贷款激活后，Debifi 允许您实时跟踪您的合同。在界面中，您可以找到
 
 
 
 - 借款金额和剩余期限。
-- 当前的 LTV（贷款价值比）：如果 BTC 价格下跌，LTV 就会增加（因为您的抵押品价值降低）。设定了一个警告阈值（一般为 90%）。如果您的 LTV 超过此阈值，则有被强制清算的风险。Debifi 会给您 24 小时的反应时间。
-
-
-
-借款人将收到降价通知。这一信息也将在 Contract 摘要页面上公布。要恢复贷款的原始贷款价值比，借款人必须：
+- 当前的贷款价值比（LTV），当 BTC 价格下降、抵押物价值下降时，贷款价值比就会上升。
 
 
 
 
+抵押物价值下降时，借款人会收到通知，该信息也会显示在合同摘要页面上。要恢复原来的贷款价值比，借款人必须满足以下任一条件
 
-- 或存入额外担保金 ；
+
+
+- 存入额外的抵押品；
 - 偿还全部或部分债务。
 
 
 
-如果抵押品价格上涨，借款人保留抵押品的任何资本收益。他只欠贷款额，而贷款额是预先确定的，与 Bitcoin 价格无关。
+
+如果抵押品价格上涨，借款人保留抵押品的任何资本收益。他只欠贷款额，而贷款额是预先确定的，与 Bitcoin 的价格无关。
 
 
 
@@ -577,21 +577,21 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-- 进入 Contract，点击**还款**。输入应付款总额（本金+利息）。
+- 转到您的合同，点击**还款**。输入应付款总额（本金+利息）。
 
 
 
 
 
-- 将稳定币从您的 Wallet 发送至放款人的 Address，然后返回平台确认还款，将还款交易的**ID**复制到专用标签。这样可以方便 Debifi 进行检查。
+- 将稳定币从您的 wallet 发送到指定的放款人地址，然后返回平台确认还款，将还款交易的**ID**复制到专用标签。这样可以方便 Debifi 进行检查。
 
 
 
-一旦贷款人（和您）确认付款，Debifi 将要求您**退款。您的 Bitcoin 抵押品将被释放，您可以将其从托管账户归还到您自己的投资组合中。  不要忘记收回您所有的比特币。
+一旦贷款人（和您）确认付款，Debifi 将要求您**退款。您的 Bitcoin 抵押品将被释放，您可以将其从托管中归还给您自己的 wallet。  不要忘记收回您所有的比特币。
 
 
 
-收到比特币后，贷款 Contract 就会变为 **Contract 已完成**。
+一旦收到比特币，贷款合同就会变为 **Contract 已完成**。
 
 
 
@@ -604,7 +604,7 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-无论您的目标或动机是什么--为项目融资、购置房产、购买比特币等。 - 在获得由 Bitcoin 支持的贷款之前，请务必格外谨慎。 - 在获得 Bitcoin 支持的贷款之前，一定要非常谨慎。由于 Bitcoin 仍是一种不稳定的资产，请花时间仔细考虑您的决定。 **价格暴跌可能导致您的比特币被强制清算**。
+无论您的目标或动机是什么--为项目融资、购置房产、购买比特币等--在使用 Bitcoin 支持的贷款之前，请务必谨慎。请花时间仔细评估您的决定，因为 Bitcoin 仍然是一种不稳定的资产。 **价格暴跌可能导致你的比特币被迫清算。
 
 
 
@@ -612,7 +612,7 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-控制您的钥匙。将您的 BTC 保存在安全的 Wallet 中（最好是硬件或信誉良好的 Wallet）。不要设置与您生活中重要日期相关的 PIN 码，也不要共享您的恢复短语。在 Debifi 上，您的 generate 私钥在应用程序中 - Debifi 并不知道。
+控制您的钥匙。将您的 BTC 保存在安全的 wallet 中（最好是硬件或信誉良好的 wallet）。不要设置与您生活中重要日期相关的 PIN 码，也不要共享您的恢复短语。在 Debifi 上，您的 generate 私钥在应用程序中 - Debifi 并不知道。
 
 
 
@@ -640,4 +640,4 @@ Bitcoin 贷款批次一般为三批：
 
 
 
-https://planb.network/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46
+https://planb.academy/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46

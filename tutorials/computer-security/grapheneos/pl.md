@@ -45,7 +45,7 @@ GrapheneOS zapewnia dodatkowe bezpieczeństwo systemu Android dzięki kilku pros
 3. **Sandbox containment** - GrapheneOS wzmacnia istniejące piaskownice Androida, dodatkowo blokując możliwość komunikacji każdej aplikacji z resztą telefonu.
 
 
-Dowiedz się więcej o szczegółach technicznych zestawu funkcji GrapheneOS [tutaj] (https://grapheneos.org/features).
+Dowiedz się więcej o szczegółach technicznych zestawu funkcji GrapheneOS [tutaj](https://grapheneos.org/features).
 
 
 ### Ułatwienie przejścia
@@ -72,7 +72,7 @@ GrapheneOS jest obecnie produkowany tylko dla _(raczej ironicznie)_ serii telefo
 ### Wybór urządzenia
 
 
-Wybierając Pixela, na którym chcesz zainstalować GrapheneOS, sprawdź, jak długo urządzenie będzie otrzymywać domyślne [aktualizacje zabezpieczeń] (https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g).
+Wybierając Pixela, na którym chcesz zainstalować GrapheneOS, sprawdź, jak długo urządzenie będzie otrzymywać domyślne [aktualizacje zabezpieczeń](https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g).
 
 
 W chwili pisania tego tekstu Pixel 6a jest najtańszym dostępnym modelem z dobrym długoterminowym wsparciem, gwarantowanym do lipca 2027 roku. Jeśli wybierzesz ten model, odblokowanie OEM nie będzie działać z fabryczną wersją systemu operacyjnego. Musisz zaktualizować go do wersji z czerwca 2022 r. lub nowszej za pomocą aktualizacji bezprzewodowej. Po aktualizacji konieczne będzie również przywrócenie ustawień fabrycznych urządzenia, aby naprawić odblokowanie OEM. Wszystkie inne modele, które są odblokowane przez operatora, będą gotowe na GrapheneOS zaraz po wyjęciu z pudełka.
@@ -141,7 +141,7 @@ Film przedstawiający proste kroki opisane powyżej
 
 
 
-Jeśli te proste kroki wydają się zbyt daleko idące, możesz rozważyć zakup Pixela z oprogramowaniem GrapheneOS [preinstalowanym] (https://ronindojo.io/en/roninmobile). Pamiętaj tylko, że pokładasz niewielkie zaufanie w dostawcy.
+Jeśli te proste kroki wydają się zbyt daleko idące, możesz rozważyć zakup Pixela z oprogramowaniem GrapheneOS [preinstalowanym](https://ronindojo.io/en/roninmobile). Pamiętaj tylko, że pokładasz niewielkie zaufanie w dostawcy.
 
 
 ### Wstępnie zainstalowane aplikacje
@@ -233,7 +233,7 @@ Oprócz aplikacji znajdujących się w domyślnym repozytorium w F-Droid, wiele 
 Ekran główny F-Droid
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Sklep Aurora
 
@@ -263,7 +263,7 @@ Aurora ma również pewne potencjalne wektory ataku, ponieważ "anonimowe konta"
 Ekran główny Aurora Store
 
 
-https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
+https://planb.academy/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### Pobierz APK
 
@@ -304,7 +304,7 @@ Twitter PWA
 Naprawdę nie można się pomylić z wstępnie spakowaną opcją, Vanadium. Aplikacja zachowuje się identycznie jak każda inna przeglądarka mobilna, którą wypróbowałem i ani razu nie miałem żadnych problemów z kompatybilnością.
 
 
-W przypadku konieczności uzyskania dostępu do natywnych witryn Tor `.onion`, można pobrać pakiet Tor Browser APK bezpośrednio z ich [strony internetowej] (https://www.torproject.org/download/#android) lub za pośrednictwem F-Droid.
+W przypadku konieczności uzyskania dostępu do natywnych witryn Tor `.onion`, można pobrać pakiet Tor Browser APK bezpośrednio z ich [strony internetowej](https://www.torproject.org/download/#android) lub za pośrednictwem F-Droid.
 
 
 ### VPN
@@ -319,9 +319,9 @@ Oto dwie uznane opcje, które umożliwiają opłacenie usługi w Bitcoinach bez 
 
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Wiadomości
 
@@ -344,15 +344,15 @@ Większość osób, które nie są zainteresowane przestrzenią prywatności, pr
 Po lewej: Threema, po prawej: Simplex
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Media
 
@@ -449,13 +449,13 @@ Po lewej: Proton Pass,
 po prawej: Bitwarden
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### Rozwiązania w chmurze
 
@@ -472,7 +472,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 Proton Drive
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## Wady
 
@@ -518,7 +518,7 @@ GrapheneOS umożliwia korzystanie z oddzielnego telefonu. Dodatkowe profile mog�
 Jeśli masz tylko jedną lub dwie z tych aplikacji, które wymagają Usług Play, ale są używane bardzo rzadko, zainstalowanie ich wraz z Usługami Play w osobnym profilu może być świetnym pomysłem, aby jeszcze bardziej wzmocnić wszelkie implikacje związane z prywatnością, które są pozostawione przez uruchomienie ich w profilu właściciela.
 
 
-Więcej o tym przypadku użycia można przeczytać [tutaj] (https://discuss.grapheneos.org/d/168-ideas-for-user-profiles/2).
+Więcej o tym przypadku użycia można przeczytać [tutaj](https://discuss.grapheneos.org/d/168-ideas-for-user-profiles/2).
 
 
 Jeśli zdecydujesz się dodać oddzielny profil, aby dopasować go do swojego przypadku użycia, aplikacja [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) może być dla Ciebie przydatna. Insular pozwala łatwo sklonować dowolną z istniejących aplikacji do nowego profilu bez konieczności przechodzenia przez którąkolwiek z tradycyjnych ścieżek instalacji opisanych wcześniej w tym przewodniku. Insular pozwala również szybko "zamrozić" dowolną z tych aplikacji, aby całkowicie wyłączyć wszystkie usługi działające w tle.

@@ -1,0 +1,8 @@
+question: Welche Informationen werden in einem Taproot-fähigen HTLC-Netz an das Bitcoin-Netz weitergegeben, wenn der Swap fehlschlägt und eine Partei ihre Gelder über den gegnerischen Pfad zurückfordern muss?
+answer: Nur der spezifische Merkle-Baum-Zweig, der die für die Wiederherstellung des Fonds erforderlichen Hash-/Zeitsperrbedingungen enthält
+wrong_answers:
+  - "Die gesamte Skriptlogik einschließlich aller möglichen Ausführungswege und der individuellen öffentlichen Schlüssel beider Parteien"
+  - Das geheime Vorabbild und alle aggregierten öffentlichen Schlüssel, die im MuSig2-Schlüsselkombinationssystem verwendet werden
+  - Die gesamten HTLC-Vertragsbedingungen, einschließlich Swap-Beträge, Zeitrahmen und sowohl Lightning- als auch Liquid-Adressen
+explanation: |
+  Taproot organisiert die Bedingungen von HTLC in einer Merkle-Baumstruktur, die eine selektive Offenlegung ermöglicht. Wenn die Zusammenarbeit scheitert, wird nur der spezifische Zweig offengelegt, der zum Nachweis des Rechts auf Rückforderung von Geldern erforderlich ist, während andere Vertragsdetails verborgen bleiben. Dies unterscheidet sich von früheren HTLCs, bei denen vollständige Skripte offengelegt wurden, und von kooperativen Fällen, bei denen überhaupt keine Skriptdetails offengelegt werden.

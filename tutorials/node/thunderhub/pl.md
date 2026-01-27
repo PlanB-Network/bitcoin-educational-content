@@ -38,7 +38,7 @@ Jeśli nie masz jeszcze węzła Lightning, zalecamy skorzystanie z naszego samou
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Instalacja
 
@@ -136,7 +136,7 @@ Dla użytkowników spoza Umbrel (np. na osobistym serwerze, Raspberry Pi z Raspi
 
 
 
-**1. Pobierz kod ThunderHub:** Sklonuj repozytorium GitHub projektu zgodnie z opisem w [dokumentacji instalacyjnej] (https://docs.thunderhub.io/installation):
+**1. Pobierz kod ThunderHub:** Sklonuj repozytorium GitHub projektu zgodnie z opisem w [dokumentacji instalacyjnej](https://docs.thunderhub.io/installation):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Główny plik konfiguracyjny:** Utwórz plik `.env.local` w katalogu głównym folderu ThunderHub, aby dostosować konfigurację (zapobiegnie to nadpisywaniu ustawień podczas aktualizacji). Główne zmienne zgodnie z [dokumentacją konfiguracji] (https://docs.thunderhub.io/setup):
+**1. Główny plik konfiguracyjny:** Utwórz plik `.env.local` w katalogu głównym folderu ThunderHub, aby dostosować konfigurację (zapobiegnie to nadpisywaniu ustawień podczas aktualizacji). Główne zmienne zgodnie z [dokumentacją konfiguracji](https://docs.thunderhub.io/setup):
 
 
 

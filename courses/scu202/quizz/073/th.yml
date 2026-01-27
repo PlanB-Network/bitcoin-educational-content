@@ -1,0 +1,9 @@
+question: ส่วนประกอบใดของ Android ที่ยังคงเป็นโอเพ่นซอร์สและสามารถตรวจสอบได้โดยชุมชน?
+answer: AOSP
+wrong_answers:
+  - Google Mobile Services
+  - เพลย์สโตร์
+  - The iOSP
+explanation: |
+  เฉพาะฐาน AOSP ของ Android เท่านั้นที่ฟรี บริการมือถือของ Google ที่ใช้กันอย่างแพร่หลายเป็นกรรมสิทธิ์และไม่สามารถตรวจสอบได้
+reviewed: false

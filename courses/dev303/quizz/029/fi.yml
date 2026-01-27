@@ -1,0 +1,8 @@
+question: Mitkä ovat Rust:n Result-luettelon kaksi vaihtoehtoa, joita käytetään palautettavien virheiden käsittelyyn?
+answer: Ok(T) onnistuneille operaatioille ja Err(E) epäonnistuneille operaatioille
+wrong_answers:
+  - Success(T) onnistuneille operaatioille ja Failure(E) epäonnistuneille operaatioille
+  - Some(T) onnistuneille operaatioille ja None epäonnistuneille operaatioille
+  - Pass(T) onnistuneille operaatioille ja Panic(E) epäonnistumisille
+explanation: |
+  Rust:n Result-luokituksella on täsmälleen kaksi vaihtoehtoa: Tämä muotoilu pakottaa kehittäjät käsittelemään sekä onnistumis- että epäonnistumistapaukset yksiselitteisesti. Muut vaihtoehdot ovat virheellisiä - Success/Failure eivät ole Result-muunnoksia, Some/None kuuluvat Option-luetteloon nolla-arvojen käsittelyä varten, ja Pass/Panic eivät ole Rust:n vakiomuotoisia virheenkäsittelyn muunnoksia.

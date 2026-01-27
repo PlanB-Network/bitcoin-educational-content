@@ -344,7 +344,7 @@ Machankura no es sólo una Wallet. Puedes Exchange tus satoshis por bienes y ser
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 También dispone de la función "**Clan**", que le permite gestionar un sistema cooperativo multi-firma: los miembros del clan deben aprobar cada gasto, y usted puede distribuir automáticamente los fondos entre ellos.
 
@@ -439,13 +439,13 @@ Machankura te permite enviar tus bitcoins a través de diferentes opciones:
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura permite la interoperabilidad entre diferentes monederos Lightning. En esta demostración, enviamos bitcoins desde nuestro WhatsApp Machankura Wallet a un Wallet de Satoshi Wallet.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Para enviar, introduzca el número 1, correspondiente a la opción "ENVIAR BTC". A continuación, seleccione la opción de envío "Lightning Address", luego introduzca el Address al que se enviarán los bitcoins. Por último, seleccione la medida de valor "Sats", indique el número de satoshis que desea enviar y confirme el envío.
 
@@ -577,9 +577,9 @@ Además, Machankura hace posible que cualquier persona que desee enviarle bitcoi
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### Comprobación de saldo
 

@@ -46,7 +46,7 @@ Anslut din Ledger till din dator och lås upp den.
 
 
 
-För att installera applikationen, öppna programvaran [Ledger Live] (https://www.Ledger.com/Ledger-live) och gå sedan till fliken "*My Ledger*". Leta reda på applikationen "*Security Key*" och installera den på din enhet.
+För att installera applikationen, öppna programvaran [Ledger Live](https://www.Ledger.com/Ledger-live) och gå sedan till fliken "*My Ledger*". Leta reda på applikationen "*Security Key*" och installera den på din enhet.
 
 
 
@@ -180,4 +180,4 @@ Jag skulle också rekommendera den här andra handledningen, där vi tittar på 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

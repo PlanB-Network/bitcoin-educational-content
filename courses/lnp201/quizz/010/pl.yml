@@ -6,4 +6,4 @@ wrong_answers:
   - Podpisanie transakcji wypłaty przed wymianą kluczy publicznych
 explanation: |
   Otwarcie kanału rozpoczyna się od wymiany wiadomości między dwiema stronami, w których dzielą się one kwotami, które chcą przelać, oraz swoimi kluczami publicznymi.
-reviewed: false
+reviewed: true

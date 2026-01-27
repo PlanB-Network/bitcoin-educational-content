@@ -10,7 +10,7 @@ Heutzutage ist die Zwei-Faktor-Authentifizierung (2FA) unerlässlich geworden, u
 
 In einem anderen Tutorial habe ich erklärt, wie man eine TOTP 2FA-Anwendung einrichtet und verwendet:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Hier werden wir sehen, wie man einen physischen Sicherheitsschlüssel als zweiten Faktor der Authentifizierung für alle Ihre Konten verwendet.
 

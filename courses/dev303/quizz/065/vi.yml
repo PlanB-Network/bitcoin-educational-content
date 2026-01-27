@@ -1,0 +1,8 @@
+question: Tại sao triết lý "hành động nhanh và phá vỡ mọi thứ" lại đặc biệt không phù hợp với việc phát triển Bitcoin so với phát triển phần mềm truyền thống?
+answer: Các giao dịch Bitcoin là không thể đảo ngược và không có cơ quan trung ương nào để thu hồi tiền từ các sai sót.
+wrong_answers:
+  - Việc phát triển Bitcoin đòi hỏi chu kỳ lặp lại nhanh hơn so với các ứng dụng web truyền thống.
+  - "Trình biên dịch của Rust cản trở quá trình tạo mẫu nhanh cần thiết cho sự đổi mới công nghệ blockchain."
+  - "Bản chất mã nguồn mở của Bitcoin khiến việc sửa lỗi sau khi triển khai trở nên khó khăn hơn."
+explanation: |
+  Câu trả lời đúng nêu bật đặc điểm cơ bản của Bitcoin: bản chất phi tập trung của nó có nghĩa là không có cơ quan nào để khiếu nại nhằm thu hồi tiền một khi giao dịch đã được phát tán. Không giống như các hệ thống tài chính truyền thống với các biện pháp bảo vệ pháp lý và cơ chế hoàn trả, sai sót trong Bitcoin là vĩnh viễn và không thể đảo ngược. Các câu trả lời sai hiểu sai vấn đề cốt lõi - nó không phải về tốc độ phát triển, hạn chế của trình biên dịch hay những thách thức của mã nguồn mở, mà là về bản chất không thể đảo ngược của các hoạt động tài chính trong một hệ thống phi tập trung, nơi tiền của người dùng luôn gặp rủi ro.

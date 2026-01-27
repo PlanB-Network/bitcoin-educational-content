@@ -195,8 +195,8 @@ Verilerin şifresini çözmeniz gerekiyorsa, bu şifrelemekten daha karmaşık d
 
 
 
-Verileri korumak için güçlü parolalar kullandığınızdan emin olun ve bir anahtar dosyası kullanıyorsanız, bunu yedeklemeyi unutmamalısınız, aksi takdirde Picocrypt tarafından oluşturulan PCV konteynerinin şifresini artık çözemezsiniz. Son olarak, Picocrypt'i komut satırından çalıştırmanıza izin veren [bir CLI sürümü] (https://github.com/Picocrypt/CLI) (daha az özelliğe sahip) olduğunu bilmelisiniz: burada yine Picocrypt yeni olasılıklara kapı açıyor.
+Verileri korumak için güçlü parolalar kullandığınızdan emin olun ve bir anahtar dosyası kullanıyorsanız, bunu yedeklemeyi unutmamalısınız, aksi takdirde Picocrypt tarafından oluşturulan PCV konteynerinin şifresini artık çözemezsiniz. Son olarak, Picocrypt'i komut satırından çalıştırmanıza izin veren [bir CLI sürümü](https://github.com/Picocrypt/CLI) (daha az özelliğe sahip) olduğunu bilmelisiniz: burada yine Picocrypt yeni olasılıklara kapı açıyor.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

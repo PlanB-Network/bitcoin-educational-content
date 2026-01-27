@@ -1,0 +1,28 @@
+id: 804a4123-ee9b-465b-88a0-2c340761c6d4
+start_date: 2026-01-30 01:00:00
+end_date: 2026-01-30 04:00:00
+timezone: America/El_Salvador
+address_city_country: San Salvador, El Salvador
+address_line_2: Cowboy Steakhouse
+name: El Meetup Hispánico
+type: meetup
+description: |
+ Un espacio para conectar, aprender y construir al rededor de Bitcoin,
+ compartir ideas, experiencias y salir con contactos y claridad para el próximo
+ año.
+
+  📍 Comunidad hispana
+
+  ⚡ Bitcoin-only
+
+  🤝 Networking real, no humo
+
+  Si estás construyendo, aprendiendo o simplemente quieres estar donde pasan
+  las cosas… este meetup es para ti
+language:
+  - es
+links:
+  website: https://www.satlantis.io/events/1569/El-Meetup-Hisp%C3%A1nico---Rumbo-a-Plan-%E2%82%BF-Forum-El-Salvador-2026
+tags:
+  - proof-of-work
+  - adoption

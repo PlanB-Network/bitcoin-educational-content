@@ -34,7 +34,7 @@ Jinými slovy, díky této implementaci můžete :
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Proč mít vlastní uzel Lightning?
 
@@ -64,7 +64,7 @@ V tomto smyslu zvyšuje provoz uzlu Lightning bezpečnost a integritu vašich da
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Pro spuštění instance implementace LND na našem počítači máte dvě možnosti. Buď můžeme prostředí nastavit na vlastním počítači, aby běželo lokálně, nebo můžeme LND nainstalovat z kontejneru Docker. Zde se zaměříme na první možnost a v některém z dalších tutoriálů se podíváme, jak postupovat s Dockerem.
@@ -665,4 +665,4 @@ Dostali jste se na konec tohoto návodu. Pokud se chcete dozvědět více o syst
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

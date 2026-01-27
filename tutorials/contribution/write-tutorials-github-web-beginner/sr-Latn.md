@@ -1,6 +1,6 @@
 ---
 name: Doprinos - GitHub Web vodič (početnik)
-description: Potpuni vodič za Plan ₿ Network tutorijale sa GitHub Web
+description: Potpuni vodič za Plan ₿ Academy tutorijale sa GitHub Web
 ---
 ![cover](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Potpuni vodič za Plan ₿ Network tutorijale sa GitHub Web
 Pre nego što pratite ovaj vodič o dodavanju novog vodiča, potrebno je da završite nekoliko preliminarnih koraka. Ako to već niste učinili, molimo vas da prvo pogledate ovaj uvodni vodič, a zatim se vratite ovde:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Već imate:
 
@@ -16,11 +16,11 @@ Već imate:
 
 
 - Izaberite temu za vaš vodič;
-- Kontaktirao sam Plan ₿ Network tim putem [Telegram grupe](https://t.me/PlanBNetwork_ContentBuilder) ili paolo@planb.network ;
+- Kontaktirao sam Plan ₿ Academy tim putem [Telegram grupe](https://t.me/PlanBNetwork_ContentBuilder) ili paolo@planb.network ;
 - Izaberite alate za doprinos.
 
 
-U ovom vodiču ćemo pogledati kako da dodate svoj vodič u Plan ₿ Network koristeći web verziju GitHub-a. Ako ste već savladali Git, ovaj veoma detaljan vodič možda neće biti potreban za vas. Umesto toga, preporučujem da pogledate jedan od ova druga 2 vodiča, gde detaljno opisujem smernice koje treba pratiti i korake za pravljenje izmena sa lokalnog:
+U ovom vodiču ćemo pogledati kako da dodate svoj vodič u Plan ₿ Academy koristeći web verziju GitHub-a. Ako ste već savladali Git, ovaj veoma detaljan vodič možda neće biti potreban za vas. Umesto toga, preporučujem da pogledate jedan od ova druga 2 vodiča, gde detaljno opisujem smernice koje treba pratiti i korake za pravljenje izmena sa lokalnog:
 
 
 
@@ -28,13 +28,13 @@ U ovom vodiču ćemo pogledati kako da dodate svoj vodič u Plan ₿ Network kor
 - **Iskusni korisnici**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
 - **Srednji nivo (GitHub Desktop)**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## Preduslovi
 
@@ -45,27 +45,27 @@ Preduslovi pre početka tutorijala:
 
 
 - Imate [GitHub nalog](https://github.com/signup);
-- Imate Fork iz [Plan ₿ Network izvornog repozitorijuma](https://github.com/PlanB-Network/Bitcoin-educational-content);
-- Imajte [profil nastavnika na Plan ₿ Network](https://planb.network/professors) (samo ako nudite kompletan tutorijal).
+- Imate Fork iz [Plan ₿ Academy izvornog repozitorijuma](https://github.com/PlanB-Network/Bitcoin-educational-content);
+- Imajte [profil nastavnika na Plan ₿ Academy](https://planb.academy/professors) (samo ako nudite kompletan tutorijal).
 
 
 Ako vam treba pomoć oko dobijanja ovih preduslova, moji drugi tutorijali će pomoći:
 
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Kada je sve na svom mestu i imate svoj Fork iz Plan ₿ Network repozitorijuma, možete početi sa dodavanjem tutorijala.
+Kada je sve na svom mestu i imate svoj Fork iz Plan ₿ Academy repozitorijuma, možete početi sa dodavanjem tutorijala.
 
 
 ## 1 - Kreiraj novu granu
 
 
-Otvorite svoj pregledač i idite na svoju Fork stranicu u Plan ₿ Network repozitorijumu. Ovo je Fork koji ste uspostavili na GitHub-u. URL vaše Fork stranice treba da izgleda ovako: `https://github.com/[vaše-korisničko-ime]/Bitcoin-educational-content`:
+Otvorite svoj pregledač i idite na svoju Fork stranicu u Plan ₿ Academy repozitorijumu. Ovo je Fork koji ste uspostavili na GitHub-u. URL vaše Fork stranice treba da izgleda ovako: `https://github.com/[vaše-korisničko-ime]/Bitcoin-educational-content`:
 
 
 ![GITHUB](assets/fr/01.webp)
@@ -104,7 +104,7 @@ Grana u Gitu predstavlja paralelnu verziju projekta, omogućavajući vam da radi
 Sada kada je radna grana kreirana, vreme je da integrišete vaš novi tutorijal.
 
 
-U okviru vaših datoteka grane, potrebno je pronaći odgovarajući podfolder za postavljanje vašeg tutorijala. Organizacija foldera odražava različite sekcije Plan ₿ Network vebsajta. U našem primeru, pošto dodajemo tutorijal na Green Wallet, idite na sledeću putanju: `Bitcoin-educational-content\tutorials\Wallet` koja odgovara `Wallet` sekciji vebsajta:
+U okviru vaših datoteka grane, potrebno je pronaći odgovarajući podfolder za postavljanje vašeg tutorijala. Organizacija foldera odražava različite sekcije Plan ₿ Academy vebsajta. U našem primeru, pošto dodajemo tutorijal na Green Wallet, idite na sledeću putanju: `Bitcoin-educational-content\tutorials\Wallet` koja odgovara `Wallet` sekciji vebsajta:
 
 
 ![GITHUB](assets/fr/05.webp)
@@ -197,15 +197,15 @@ Evo potrebna polja:
 
 
 
-- **project_id**: The UUID kompanije ili organizacije iza alata predstavljenog u vodiču [sa liste projekata](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate vodič o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećem fajlu: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u vaš YAML fajl vodiča jer Plan ₿ Network održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim vodičem, kreirate vezu između dva Elements;
+- **project_id**: The UUID kompanije ili organizacije iza alata predstavljenog u vodiču [sa liste projekata](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate vodič o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećem fajlu: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u vaš YAML fajl vodiča jer Plan ₿ Academy održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim vodičem, kreirate vezu između dva Elements;
 
 
 
-- **tagovi**: 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [iz Plan ₿ Network liste tagova](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tagovi**: 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [iz Plan ₿ Academy liste tagova](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- **kategorija**: Podkategorija koja odgovara sadržaju tutorijala, prema strukturi vebsajta Plan ₿ Network (na primer, za novčanike: `desktop`, `hardware`, `mobile`, `backup`);
+- **kategorija**: Podkategorija koja odgovara sadržaju tutorijala, prema strukturi vebsajta Plan ₿ Academy (na primer, za novčanike: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
@@ -236,7 +236,7 @@ Evo potrebna polja:
 Za više detalja o vašem ID-u nastavnika, pogledajte odgovarajući vodič:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -474,7 +474,7 @@ Uzvičnik na početku označava sliku. Alternativni tekst, koji pomaže pristupa
 ![GITHUB](assets/fr/35.webp)
 
 
-Ako želite da kreirate sopstvene šeme, obavezno pratite Plan ₿ Network grafičke smernice kako biste osigurali vizuelnu doslednost:
+Ako želite da kreirate sopstvene šeme, obavezno pratite Plan ₿ Academy grafičke smernice kako biste osigurali vizuelnu doslednost:
 
 
 
@@ -486,7 +486,7 @@ Ako želite da kreirate sopstvene šeme, obavezno pratite Plan ₿ Network grafi
  - Bela: #FFFFFF
 
 
-**Važno je da svi vizuali integrisani u vaše tutorijale budu bez autorskih prava ili da poštuju licencu izvornog fajla**. Stoga su svi dijagrami objavljeni na Plan ₿ Network dostupni pod CC-BY-SA licencom, na isti način kao i tekst.
+**Važno je da svi vizuali integrisani u vaše tutorijale budu bez autorskih prava ili da poštuju licencu izvornog fajla**. Stoga su svi dijagrami objavljeni na Plan ₿ Academy dostupni pod CC-BY-SA licencom, na isti način kao i tekst.
 
 
 **-> Savet:** Kada delite datoteke javno, kao što su slike, važno je ukloniti suvišne metapodatke. Oni mogu sadržati osetljive informacije, kao što su podaci o lokaciji, datumi kreiranja i detalji o autoru. Da biste zaštitili svoju privatnost, dobra je ideja ukloniti ove metapodatke. Da biste pojednostavili ovu operaciju, možete koristiti specijalizovane alate kao što je [Exif Cleaner](https://exifcleaner.com/), koji vam omogućava da očistite metapodatke dokumenta jednostavnim prevlačenjem i ispuštanjem.
@@ -504,7 +504,7 @@ Da biste nastavili sa Pull Request-om, nakon što sačuvate sve svoje izmene, kl
 ![GITHUB](assets/fr/36.webp)
 
 
-Zahtev za povlačenje je zahtev za integraciju izmena iz vaše grane u glavnu granu repozitorijuma Plan ₿ Network, što omogućava pregled i diskusiju o izmenama pre nego što budu spojene.
+Zahtev za povlačenje je zahtev za integraciju izmena iz vaše grane u glavnu granu repozitorijuma Plan ₿ Academy, što omogućava pregled i diskusiju o izmenama pre nego što budu spojene.
 
 
 Pre nego što nastavite, pažljivo proverite na dnu Interface da li su ove promene ono što ste očekivali:
@@ -513,7 +513,7 @@ Pre nego što nastavite, pažljivo proverite na dnu Interface da li su ove prome
 ![GITHUB](assets/fr/37.webp)
 
 
-Uverite se da je, na vrhu Interface, vaša radna grana spojena na `dev` granu repozitorijuma Plan ₿ Network (koja je glavna grana).
+Uverite se da je, na vrhu Interface, vaša radna grana spojena na `dev` granu repozitorijuma Plan ₿ Academy (koja je glavna grana).
 
 
 Unesite naslov koji ukratko rezimira izmene koje želite da spojite sa izvornim repozitorijumom. Dodajte kratak komentar koji opisuje ove izmene (ako imate broj problema povezan sa kreiranjem vašeg tutorijala, ne zaboravite da navedete `Closes #{issue number}` kao komentar), zatim kliknite na Green dugme "*Create pull request*" da potvrdite zahtev za spajanje:
@@ -522,7 +522,7 @@ Unesite naslov koji ukratko rezimira izmene koje želite da spojite sa izvornim 
 ![GITHUB](assets/fr/38.webp)
 
 
-Vaš PR će tada biti vidljiv na kartici "*Pull Request*" glavnog repozitorijuma Plan ₿ Network. Sve što sada treba da uradite je da sačekate da vas administrator kontaktira kako bi potvrdio da je vaš doprinos spojen, ili da zatraži bilo kakve dodatne izmene.
+Vaš PR će tada biti vidljiv na kartici "*Pull Request*" glavnog repozitorijuma Plan ₿ Academy. Sve što sada treba da uradite je da sačekate da vas administrator kontaktira kako bi potvrdio da je vaš doprinos spojen, ili da zatraži bilo kakve dodatne izmene.
 
 
 ![GITHUB](assets/fr/39.webp)
@@ -540,7 +540,7 @@ Ako želite da izvršite izmene u svom doprinosu nakon što ste već poslali svo
 
 
 - Ako je vaš PR još uvek otvoren i nije spojen, napravite izmene na istoj radnoj grani. Izmene u commitu će biti dodate vašem još uvek otvorenom PR-u;
-- U slučaju da je vaš PR već spojen sa glavnom granom, moraćete da ponovite proces od početka kreiranjem nove grane, a zatim podnošenjem novog PR-a. Uverite se da je vaš Fork sinhronizovan sa Plan ₿ Network izvornim repozitorijumom na `dev` grani pre nego što nastavite.
+- U slučaju da je vaš PR već spojen sa glavnom granom, moraćete da ponovite proces od početka kreiranjem nove grane, a zatim podnošenjem novog PR-a. Uverite se da je vaš Fork sinhronizovan sa Plan ₿ Academy izvornim repozitorijumom na `dev` grani pre nego što nastavite.
 
 
 Ako imate tehničkih poteškoća sa slanjem vašeg tutorijala, slobodno zatražite pomoć na [našoj posvećenoj Telegram grupi za doprinose](https://t.me/PlanBNetwork_ContentBuilder). Hvala vam puno!

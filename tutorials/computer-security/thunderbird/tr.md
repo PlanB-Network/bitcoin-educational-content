@@ -42,7 +42,7 @@ Thunderbird'ü yüklemek için yazılımı [resmi site](https://www.thunderbird.
 
 
 
-Thunderbird'ün belirli bir sürümünü indirmek için [bu sayfa] (https://www.thunderbird.net/an/thunderbird/all/) adresine gidin. Dilinizi, hedef işletim sisteminizi ve işlemci mimarinizi seçin, ardından indirmeyi başlatın.
+Thunderbird'ün belirli bir sürümünü indirmek için [bu sayfa](https://www.thunderbird.net/an/thunderbird/all/) adresine gidin. Dilinizi, hedef işletim sisteminizi ve işlemci mimarinizi seçin, ardından indirmeyi başlatın.
 
 
 
@@ -213,4 +213,4 @@ Uçtan uca şifrelenmiş bir mesajlaşma çözümü olan Proton Mail hakkındaki
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

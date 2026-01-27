@@ -30,7 +30,7 @@ Ili kudhibiti Wallet yako salama kwenye Passport, una chaguo kadhaa. Hardware Wa
 Ikiwa wewe ni mwanzilishi, chaguo rahisi zaidi ni kutumia Passport yako na ombi asili la Mjumbe, lililotengenezwa na Foundation. Ili kujua jinsi ya kutumia Mjumbe na Passport yako, angalia mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Kuondoa Passport
 
@@ -201,7 +201,7 @@ Ili kufanya hivyo, tumia kadi ya MicroSD iliyojumuishwa kwenye sanduku la Passpo
 Kabla ya kuiweka kwenye kifaa chako, tunakushauri sana uangalie uhalisi na uadilifu wa firmware iliyopakuliwa. Ikiwa unahitaji msaada kwa hili, soma mafunzo haya:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Baada ya kuangalia faili ya `.bin`, iweke kwenye MicroSD yako, kisha uiweke kwenye Passport. Kichunguzi cha faili ya Passport kitafungua. Chagua faili `vN.N.N-passport.bin`.
 
@@ -299,7 +299,7 @@ Bofya kwenye kitufe cha uthibitishaji ili kuona maneno yako ya Mnemonic.
 Kwa maelezo zaidi kuhusu njia sahihi ya kuhifadhi na kudhibiti maneno yako ya Mnemonic, ninapendekeza sana kufuata mafunzo haya mengine, hasa ikiwa wewe ni mwanzilishi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 bila shaka, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama ninavyofanya katika mafunzo haya. Sampuli hii ya Wallet itatumika kwenye Testnet pekee na itafutwa mwishoni mwa mafunzo.
 
@@ -428,7 +428,7 @@ Kabla ya kuendelea, ikiwa ungependa, unaweza kuongeza BIP39 passphrase. BIP39 pa
 Kabla ya kusanidi chaguo hili kwenye Passport yako, inashauriwa sana kusoma nakala hii ili kuelewa kikamilifu utendakazi wa kinadharia wa passphrase na epuka makosa ambayo yanaweza kusababisha upotezaji wa bitcoins zako:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Ili kuiwasha, nenda kwenye menyu ya "*Zaidi*" na ubofye "*Ingiza passphrase*".
 
@@ -460,7 +460,7 @@ Kila wakati unapofungua, baada ya kuandika passphrase, angalia kwenye skrini hii
 Kabla ya kupokea bitcoins zako za kwanza kwenye Wallet yako, **Ninakushauri sana ufanye jaribio tupu la uokoaji **. Andika taarifa fulani ya marejeleo, kama vile xpub yako au kwanza kupokea Address, kisha ufute Wallet yako kwenye Pasipoti ikiwa bado tupu (`Mipangilio -> Kina -> Futa Pasipoti`). Kisha jaribu kurejesha Wallet yako kwa kutumia nakala zako za karatasi za maneno ya Mnemonic na passphrase yoyote. Hakikisha kuwa maelezo ya kidakuzi yaliyotolewa baada ya kurejesha yanalingana na uliyoandika awali. Ikiwa inafanya hivyo, unaweza kuwa na uhakika kwamba nakala zako za karatasi ni za kuaminika. Ili kujua zaidi kuhusu jinsi ya kufanya urejeshaji wa jaribio, tafadhali soma mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -480,7 +480,7 @@ Anza kwa kupakua na kusakinisha Sparrow Wallet [kutoka tovuti rasmi](https://spa
 Hakikisha kuangalia uhalisi na uadilifu wa programu kabla ya usakinishaji. Ikiwa hujui jinsi ya kufanya hivyo, tafadhali soma mafunzo haya:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Mara Sparrow Wallet imefunguliwa, bofya kwenye kichupo cha "*Faili*", kisha kwenye "*Mpya Wallet*".
 
@@ -710,4 +710,4 @@ Hongera, sasa unajua jinsi ya kusanidi na kutumia Passport. Ikiwa umepata mafunz
 Kwa habari zaidi, angalia mafunzo yetu juu ya programu ya Liana:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

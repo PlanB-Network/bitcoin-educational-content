@@ -42,7 +42,7 @@ Um Thunderbird zu installieren, müssen Sie die Software von der [offiziellen We
 
 
 
-Um eine bestimmte Version von Thunderbird herunterzuladen, gehen Sie auf [diese Seite] (https://www.thunderbird.net/an/thunderbird/all/). Wählen Sie Ihre Sprache, das Zielbetriebssystem und die Prozessorarchitektur aus und starten Sie dann den Download.
+Um eine bestimmte Version von Thunderbird herunterzuladen, gehen Sie auf [diese Seite](https://www.thunderbird.net/an/thunderbird/all/). Wählen Sie Ihre Sprache, das Zielbetriebssystem und die Prozessorarchitektur aus und starten Sie dann den Download.
 
 
 
@@ -213,4 +213,4 @@ Entdecken Sie unser Tutorial zu Proton Mail, einer verschlüsselten End-to-End M
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

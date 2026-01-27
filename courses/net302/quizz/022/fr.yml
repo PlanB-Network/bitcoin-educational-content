@@ -6,4 +6,4 @@ wrong_answers:
   - À identifier le port de service utilisé
 explanation: |
   Le flag ACK, lorsqu’il est activé, indique que le segment reçu a été bien pris en compte, et précise le numéro de séquence suivant attendu.
-reviewed: false
+reviewed: true 

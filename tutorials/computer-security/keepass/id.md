@@ -16,7 +16,7 @@ Menerapkan kedua prinsip keamanan kata sandi ini (keunikan dan kekuatan) bisa ja
 
 Pengelola kata sandi akan menghasilkan dan menyimpan kata sandi yang kuat secara aman, memungkinkan Anda mengakses semua akun online tanpa perlu mengingatnya satu per satu. Anda hanya perlu mengingat satu kata sandi, yaitu kata sandi utama (master password), yang memberi Anda akses ke semua kata sandi yang tersimpan di pengelola. Menggunakan pengelola kata sandi meningkatkan keamanan online Anda karena mencegah penggunaan kembali kata sandi dan secara sistematis menghasilkan kata sandi acak. Namun, ini juga menyederhanakan penggunaan akun Anda sehari-hari dengan memusatkan akses ke informasi sensitif Anda.
 
-Dalam tutorial ini, kita akan mempelajari cara mengatur dan menggunakan pengelola kata sandi lokal untuk meningkatkan keamanan online Anda. Di sini, saya akan memperkenalkan Anda pada KeePass. Namun, jika Anda adalah pemula dan ingin memiliki pengelola kata sandi online yang mampu melakukan sinkronisasi di berbagai perangkat, saya merekomendasikan untuk mengikuti tutorial kami tentang Bitwarden: https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+Dalam tutorial ini, kita akan mempelajari cara mengatur dan menggunakan pengelola kata sandi lokal untuk meningkatkan keamanan online Anda. Di sini, saya akan memperkenalkan Anda pada KeePass. Namun, jika Anda adalah pemula dan ingin memiliki pengelola kata sandi online yang mampu melakukan sinkronisasi di berbagai perangkat, saya merekomendasikan untuk mengikuti tutorial kami tentang Bitwarden: https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -125,7 +125,7 @@ Perangkat lunak akan membuat database baru tempat kata sandi Anda akan disimpan.
 
 Setelahnya, Anda sebaiknya memikirkan untuk secara rutin mencadangkan folder ini untuk menghindari kehilangan kredensial Anda jika komputer hilang, rusak, atau dicuri. Sebagai contoh, Anda dapat menyalin basis data ke USB stick setiap minggu. File yang berisi database Anda bernama `Database.kdbx` (dokumen ini dienkripsi dengan kata sandi utama Anda). Untuk saran lebih lanjut mengenai praktik pencadangan terbaik, saya juga merekomendasikan untuk melihat tutorial ini:
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Selanjutnya adalah pembuatan master password Anda.
 ![KEEPASS](assets/notext/17.webp)
@@ -227,4 +227,4 @@ Itu tadi adalah fitur-fitur dasar KeePass. Tentu saja, tutorial yang ditujukan u
 
 Jika Anda tertarik untuk mempelajari cara meningkatkan keamanan akun online Anda secara lebih dalam guna menghindari peretasan dengan 2FA, saya juga merekomendasikan untuk melihat tutorial lain ini:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

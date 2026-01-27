@@ -1,22 +1,19 @@
 ---
 name: 企業向けビットコイン
 goal: ビットコインを導入するための決済と財務の基本を学ぶ
-objectives: 
-
-  - 新興通貨とビジネスツールとしてのビットコイン
-  - 企業がビットコインを保管したり、支払いに使用したりする理由と方法を理解する。
-  - ビットコイン決済の具体的な方法を考える
-  - 財務および会計上の要件を管理するための準備
-
+objectives:
+- 新興通貨およびビジネスツールとしてのビットコインを発見する
+- 企業がなぜ、どのようにビットコインを資金として保有したり、支払いに使用したりできるかを理解する
+- 実際にビットコイン決済を受け入れる方法について具体的なアイデアを持つ
+- 税務および会計要件の管理に備える
 ---
-# ビットコインネットワークであなたの会社をスタートさせよう
+# ビットコインネットワークでの企業の旅を始めましょう
 
-ビットコインとライトニングネットワークの実用的な機能を発見し、インターネットと同様に、それらがどのように**あなたのビジネス業務を変革**することができるかを探ります。デジタル資本から高速で経済的でスケーラブルな支払いまで、ビットコインはビジネスにおける**使用例**の広大なスペクトルを提供します。
+ビットコインとライトニングネットワークの実用的な機能を発見し、インターネットと同様に、それらがどのようにビジネス運営を変革できるかを探求してください。財務管理から高速で経済的かつスケーラブルな決済まで、ビットコインは企業向けに幅広いユースケースを提供します。
 
-このガイドを通して、グローバル、ユニバーサル、インターネットネイティブな通貨ネットワークとしてのビットコインを理解する方法を学びます。そのユニークな基本的特性により、**ビットコインは従来の通貨ネットワーク**を大幅に改善します。資本貯蔵や支払いシステムなどの古典的な金融ユースケースにビットコインを活用する理由と方法を発見するでしょう。さらに、このガイドでは、関連する会計および財務要件を含むビットコインの取得および保有、ならびに単純または大規模なビットコイン決済ソリューションの実装について説明します。
+このコース全体を通して、ビットコインをグローバルで普遍的、そしてインターネットネイティブな通貨ネットワークとして理解する方法を学びます。その独自の基本的特性により、ビットコインは従来の通貨に比べて大幅な改善を提供します。資本保管や決済システムなどの古典的な金融ユースケースにビットコインを活用する理由と方法を発見します。さらに、このコースでは、関連する会計および税務要件を含むビットコインの取得と保有、およびシンプルまたは大規模なビットコイン決済ソリューションの実装についても取り上げます。
 
-中小企業であろうと大企業であろうと、ビットコインを日常業務に組み込むことで、あなたの会社はより**弾力的で、生産的で、競争力のある**会社になります。すべてのインターネットベースの企業は、ビットコイン指向の企業になるでしょう。このコースでは、ビットコインの基本的な操作方法について学びますので、初心者の方でも基礎知識を身につけることができます。BIZ101に飛び込む前でも後でも、サトシの発明の基礎を学ぶことは常に良いアイデアです。
-
+小規模ビジネスでも大企業でも、日常業務にビットコインを統合することで、企業をより回復力があり、生産的で競争力のあるものにすることができます。すべてのインターネットベースの企業はビットコイン志向の企業になり、このコースはあなたが準備できていることを保証します。
 +++
 # はじめに
 
@@ -37,7 +34,7 @@ BIZ101コースへようこそ！
 
 ビジネス向けのビットコインの世界に飛び込む準備はできましたか？さあ、始めましょう！
 
-**注記**: コース中に馴染みのない用語に出会った場合は、定義について[用語集](https://planb.network/resources/glossary)をご参照ください。
+**注記**: コース中に馴染みのない用語に出会った場合は、定義について[用語集](https://planb.academy/resources/glossary)をご参照ください。
 
 # 通貨、決済システム、ビットコイン
 
@@ -206,7 +203,7 @@ BIZ101コースへようこそ！
 
 ![BIZ101](assets/ja/003.webp)
 
-ビットコインの通貨政策は固定されており、**上限は2100万ビットコイン**で、そのうち~1980万ビットコインがすでに配布されている。このため、**デフレ**であり、ユーザーが貯蓄や生産性の向上をビットコインに蓄えることで、その価値は時間とともに上昇する。
+ビットコインは、**最大2,100万ビットコイン**という固定された金融政策を持っており、そのうち約1,980万（2024年）ビットコインがすでにマイニングされています。これにより、利用者が貯蓄や生産性の向上をビットコインに保存するため、時間の経過とともに価値が上昇する**デフレ的**な性質を持ちます。
 
 その技術的特徴は金とドルを合わせたものを凌駕しており、これまでに作られた金融資産の中で最も難しいものとなっている。ビットコインは価値の貯蔵であり、交換媒体でもある。仲介者なしに、最小限のコストで、不正行為なしに、24時間365日、第三者を介さずに、ある企業の財務から別の企業へ迅速に価値を移転することを想像してみてほしい。
 
@@ -218,7 +215,7 @@ BIZ101コースへようこそ！
 
 ビットコインは、お金の本質そのものを再考することを私たちに求めています。お金とは何なのか、説明していただけますか？サラリーマンや起業家は、人生の5万時間から10万時間をお金を稼ぐために費やすかもしれない。ビットコインは、私たちがお金を必要とする根本的な理由と、私たちの時間的な視点を問い直すよう促している。お金は目先の贅沢のためなのか、それとも長期的な回復力のためなのか。もし私たちが、買い物を遅らせることを可能にする評価資産を持っていたら、どのような選択をするだろうか？20年後、30年後の自分自身とどんな会話をしたいだろうか？
 
-**ビットコインIDカード**
+**ビットコインの身分証明書（2024年）**
 
 
 - 年齢：**15歳（2009年1月3日）**
@@ -244,7 +241,7 @@ BIZ101コースへようこそ！
 
 ビットコイン、その歴史、仕組み、使用方法についての詳細は、この他の包括的なコースに従うこともお勧めする：
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## ライトニング・ネットワークの紹介
 
@@ -303,7 +300,7 @@ Lightningは、インターネットを基盤とするすべてのビジネス�
 - 最終的な支払い: **一度Lightning上で支払いが行われると、その支払いは最終的なものとなります。第三者によるチャージバックや詐欺関連の紛争が発生する可能性はありません。**
 - **手数料:** ライトニングネットワークの取引手数料は最低限で、加盟店ではなくユーザーが支払う。マーチャントが手数料を負担するのは、後にビットコインを他のネットワークやサービスに移行する必要が生じた場合のみである。
 
-**稲妻のIDカード**
+**ライトニングの身分証明書（2024年）**
 
 
 - **発明:** 2015
@@ -326,7 +323,7 @@ Lightningは、インターネットを基盤とするすべてのビジネス�
 
 ライトニング・ネットワークの技術的な仕組みについては、この他の包括的なコースも参考にしてほしい：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 # 国庫のビットコイン
 
@@ -446,11 +443,11 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 このトピックに関する詳細はこちら：
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## ビットコインを国庫で保有する
 
@@ -603,7 +600,7 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 これには、マイニングマシンを操作して報酬を得ることが含まれる。特化したビジネスでない場合、これは比較的小規模なものにとどまる。マイニングマシン、ネットワーク、メンテナンスを販売またはレンタルする仲介業者を通じて参加することができます。マシンを所有する場合は、減価償却資産として計上できる。この市場は競争が激しく、コスト（特に電気代）を十分に見込んでおく必要があるため、大規模な場合は投資収益率を慎重に計算する必要がある。
 
-採掘方法については、チュートリアルの「採掘」セクションを参照してください](https://planb.network/tutorials/mining)。
+採掘方法については、チュートリアルの「採掘」セクションを参照してください](https://planb.academy/tutorials/mining)。
 
 
 - ビットコインの購入
@@ -612,11 +609,11 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ビジネスアカウントを開設し、それを使ってビットコインを売買、送金する方法を学ぶには、KrakenとBitfinexの法人向けプラットフォームを扱った、ビジネス向けに特別にデザインされた2つのチュートリアルをご覧ください：
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-取引所やピア・ツー・ピアでビットコインを取得する方法については、[チュートリアルの「取引所」のセクションを参照してください](https://planb.network/tutorials/exchange)。
+取引所やピア・ツー・ピアでビットコインを取得する方法については、[チュートリアルの「取引所」のセクションを参照してください](https://planb.academy/tutorials/exchange)。
 
 ![BIZ101](assets/ja/012.webp)
 
@@ -875,21 +872,21 @@ Starter プロファイルは、大規模なリソースや専門知識を投入
 
 *自己完結型LNウォレット／ノード：*
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **LNウォレット：**。
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## エッセンシャル
 
@@ -921,15 +918,15 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 あなたのプロフィールに最も適したハイブリッド・ソリューションは、スイス・ビットコイン・ペイだろう：
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 もう一つの導入が簡単なソリューションだが、100％カストディアンであるという欠点がある：
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 もしあなたが自分の手を汚さず、プロセスを完全にコントロールしたいのであれば、BTCPay Serverソフトウェアは優れた選択肢です。しかし、BTCPayサーバーの主な欠点は、そのセットアップと管理に時間がかかり、一定レベルの技術的専門知識を必要とすることです：
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 最後に、物理的なPOSを補完するものとして、[Bitcoinize PoS](https://bitcoinize.com/)の設置を検討することができる。
 
@@ -967,7 +964,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 BTC Pay Server の実装の詳細と実践的な設定については、次のコースを参照してください：
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 ## エンタープライズ
 
@@ -1218,7 +1215,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 ビットコインを自己保管する人にとって、UTXO（*Unspent Transaction Outputs*）の管理は重要なステップです。適切なUTXOのラベリングは、各BTCフラグメントの出所を追跡し、専門的な活動に関連するトランザクションと個人的な経費のためのトランザクションを区別し、法的または税務目的のためのトレーサビリティを容易にするのに役立ちます。ほとんどの優れたビットコインウォレットソフトウェアでは、バックアップファイル（またはセットアップによってはxpub）を使用してウォレットをインポートし、その起源または目的地に基づいてUTXOにタグを付けることができます。このチュートリアルをご覧ください：
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 最後に、あなたが小さな商人であろうと、より確立されたビジネスであろうと、**ビットコイン**で請求書を決済することは可能です。重要なのは、取引を適切に文書化することです。セルフカストディのウォレットから支払う場合、ラベルに請求書番号と支払いの目的を記載したトランザクションを生成するのが理想的です。取引所経由で請求書を決済したい場合は、領収書や取引履歴をエクスポートして会計記録に含めるオプションもあります。この透明性により、すべてのBTC業務の追跡と報告が簡素化されます。
 

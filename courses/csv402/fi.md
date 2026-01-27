@@ -1,13 +1,11 @@
 ---
-name: RGB-protokolla teoriasta käytäntöön
+name: RGB-ohjelmointi
 goal: Hankkia tarvittavat taidot RGB:n ymmärtämiseen ja käyttöön
-objectives: 
-
-  - RGB-protokollan peruskäsitteiden ymmärtäminen
-  - Hallitse asiakaspuolen validoinnin ja Bitcoin-sitoumusten periaatteet
-  - Opi luomaan, hallinnoimaan ja siirtämään RGB-sopimuksia
-  - RGB-yhteensopivan Lightning-solmun käyttäminen
-
+objectives:
+- RGB-protokollan peruskäsitteiden ymmärtäminen
+- Hallitse asiakaspuolen validoinnin ja Bitcoin-sitoumusten periaatteet
+- Opi luomaan, hallinnoimaan ja siirtämään RGB-sopimuksia
+- RGB-yhteensopivan Lightning-solmun käyttäminen
 ---
 # RGB-protokollan löytäminen
 
@@ -43,9 +41,9 @@ Toisessa jaksossa keskitytään jaksossa 1 esitettyjen teoreettisten käsitteide
 Viimeisessä osiossa muut puhujat esittelevät konkreettisia RGB-pohjaisia sovelluksia, jotka tuovat esiin tosielämän käyttötapauksia.
 
 ---
-Tämä kurssi syntyi alun perin Viareggiossa, Toscanassa järjestetystä kahden viikon pituisesta kehittyneen kehityksen bootcampista, jonka järjesti [Fulgur'Ventures] (https://fulgur.ventures/). Ensimmäinen viikko, joka keskittyi Rustiin ja SDK:hon, löytyy tästä toisesta kurssista:
+Tämä kurssi syntyi alun perin Viareggiossa, Toscanassa järjestetystä kahden viikon pituisesta kehittyneen kehityksen bootcampista, jonka järjesti [Fulgur'Ventures](https://fulgur.ventures/). Ensimmäinen viikko, joka keskittyi Rustiin ja SDK:hon, löytyy tästä toisesta kurssista:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 Tällä kurssilla keskitymme bootcampin toiseen viikkoon, joka keskittyy RGB:hen.
 
@@ -347,11 +345,11 @@ Kertakäyttöiset tiivisteet toimivat kolmessa päävaiheessa:
 Prosessi voidaan tiivistää seuraavasti:
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -625,7 +623,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-Viimeinen vaihtoehto on **Taproot** (otettu käyttöön BIP341:ssä) ja *Tapret*-järjestelmä. *Tapret* on monimutkaisempi deterministisen sitoutumisen muoto, joka tuo parannuksia lohkoketjun jalanjälkeen ja sopimustoimintojen luottamuksellisuuteen. Pääidea on piilottaa sitoutuminen [taproot-tapahtuman] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` -osaan.
+Viimeinen vaihtoehto on **Taproot** (otettu käyttöön BIP341:ssä) ja *Tapret*-järjestelmä. *Tapret* on monimutkaisempi deterministisen sitoutumisen muoto, joka tuo parannuksia lohkoketjun jalanjälkeen ja sopimustoimintojen luottamuksellisuuteen. Pääidea on piilottaa sitoutuminen [taproot-tapahtuman](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` -osaan.
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
@@ -811,7 +809,7 @@ Konkreettisesti kukin _siirtonippu_ kuuluu tiettyyn sopimukseen. Kaikki nämä t
 
 #### MPC Root Hash
 
-Ketjuun (`Opret`- tai `Tapret`-ohjelmassa) kirjoitettua arvoa kutsutaan nimellä `mpc::Commitment`. Se lasketaan muodossa [BIP-341] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) kaavan mukaisesti:
+Ketjuun (`Opret`- tai `Tapret`-ohjelmassa) kirjoitettua arvoa kutsutaan nimellä `mpc::Commitment`. Se lasketaan muodossa [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) kaavan mukaisesti:
 
 ```txt
 mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofactor || mpc::Root )
@@ -848,7 +846,7 @@ jossa `kertoimen` on kokonaisluku, joka lisää todennäköisyyttä saada eri ka
 - Kokeilemme erilaisia "kertoimia" (enintään "w/2" tai suorituskyvyn vuoksi enintään 500);
 - Jos kaikkia sopimuksia ei saada sijoitettua ilman törmäyksiä, kasvatetaan arvoa `d` ja aloitetaan alusta.
 
-Tavoitteena on välttää liian korkeita puita ja pitää törmäysriski mahdollisimman pienenä. Huomaa, että törmäysilmiö noudattaa satunnaisjakauman logiikkaa, joka liittyy [vuosipäiväparadoksiin] (https://en.wikipedia.org/wiki/Birthday_problem).
+Tavoitteena on välttää liian korkeita puita ja pitää törmäysriski mahdollisimman pienenä. Huomaa, että törmäysilmiö noudattaa satunnaisjakauman logiikkaa, joka liittyy [vuosipäiväparadoksiin](https://en.wikipedia.org/wiki/Birthday_problem).
 
 #### Asuttuja lehtiä
 
@@ -1823,7 +1821,7 @@ Salamaverkko on Bitcoinin maksukanavien (tai _tilakanavien_) hajautettu verkko, 
 
 Jos haluat lisätietoja Lightningin toiminnasta, suosittelen tätä toista kurssia:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Moniprotokollasitoumus - MPC
 
@@ -3032,8 +3030,8 @@ Tässä on esimerkki luotavasta YAML-tiedostosta:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3077,7 +3075,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Seuraavalla komennolla näytetään sitten globaalit tilat (nimi, ticker, tarjonta...) ja luettelo Owned States eli allokaatiot (esimerkiksi 1 miljoona `PBN`-merkkiä, jotka on määritelty UTXO:ssa `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Seuraavalla komennolla näytetään sitten globaalit tilat (nimi, ticker, tarjonta...) ja luettelo Owned States eli allokaatiot (esimerkiksi 1 miljoona `Plan ₿ Academy`-merkkiä, jotka on määritelty UTXO:ssa `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3171,7 +3169,7 @@ Se voidaan lähettää Bobille mitä tahansa kanavaa (tekstiä, QR-koodia jne.) 
 Siirtääksesi tästä laskusta :
 
 
-- Bobilla (joka pitää rahakkeita kätköissään) on Bitcoin-lompakko. Hänen on valmisteltava Bitcoin-tapahtuma (PSBT:n muodossa, esim. `tx.psbt`), jossa kulutetaan UTXO:t, joissa tarvittavat RGB-tavaramerkit sijaitsevat, sekä yksi UTXO valuuttaa (vaihtoa) varten;
+- Bobilla (joka säilyttää tokenit stashissaan) on Bitcoin-lompakko. Hänen on valmisteltava Bitcoin-siirto (PSBT-muodossa, esim. `tx.psbt`), joka kuluttaa ne UTXO:t, joissa tarvittavat RGB-tokenit sijaitsevat, sekä yhden UTXO:n vaihtorahaa varten (change);
 - Bob suorittaa seuraavan komennon:
 
 ```bash
@@ -3260,7 +3258,7 @@ Todellisuudessa Lightning-verkko mahdollistaa maksujen välittämisen useiden ka
 
 RGB:n toimintaa Lightning-verkossa on siis tarkasteltava rinnakkain itse Lightning-verkon toiminnan kanssa. Jos haluat syventyä tähän aiheeseen, suosittelen lämpimästi tutustumaan tähän toiseen kattavaan koulutukseen:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB-koodikartta
 
@@ -3440,7 +3438,7 @@ Noin vuodesta 2022 lähtien Bitfinexin RGB-tiimi on keskittynyt kehittämään t
 
 - Osallistuminen lähdekoodin ja protokollan määrittelyyn, mukaan lukien parannusehdotusten kirjoittaminen, virheiden korjaaminen jne;
 - Työkalut kehittäjille, jotka voivat yksinkertaistaa RGB:n integrointia sovelluksiinsa;
-- Suunnitellaan [Iris] (https://iriswallet.com/) -niminen mobiililompakko, jolla kokeillaan ja havainnollistetaan RGB:n käytön parhaita käytäntöjä;
+- Suunnitellaan [Iris](https://iriswallet.com/) -niminen mobiililompakko, jolla kokeillaan ja havainnollistetaan RGB:n käytön parhaita käytäntöjä;
 - Räätälöidyn Lightning-solmun luominen, jolla voidaan hallita kanavia, joissa on RGB-varoja;
 - Tuetaan muita ryhmiä, jotka rakentavat ratkaisuja RGB:hen, jotta edistetään monimuotoisuutta ja vahvaa ekosysteemiä.
 
@@ -3757,7 +3755,7 @@ Voit tietenkin mukauttaa järjestystä. Vahvistaaksemme tapahtuman, me kaivamme 
 ./regtest.sh mine 1
 ```
 
-Voimme nyt luoda RGB-varannon. Komento riippuu siitä, minkä tyyppisen assetin haluat luoda ja sen parametreista. Tässä luon NIA-merkin (*Non Inflatable Asset*) nimeltä "PBN", jonka tarjonta on 1000 yksikköä. `precision`:n avulla voit määrittää yksiköiden jaettavuuden.
+Voimme nyt luoda RGB-varannon. Komento riippuu siitä, minkä tyyppisen assetin haluat luoda ja sen parametreista. Tässä luon NIA-merkin (*Non Inflatable Asset*) nimeltä "Plan ₿ Academy", jonka tarjonta on 1000 yksikköä. `precision`:n avulla voit määrittää yksiköiden jaettavuuden.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3765,8 +3763,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3802,7 +3800,7 @@ Komento palauttaa solmuni nro 2 julkisen avaimen:
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Seuraavaksi avaamme kanavan määrittelemällä kyseisen omaisuuserän (`PBN`). `/openchannel`-komennolla voit määrittää kanavan koon satoshina ja valita, otatko mukaan RGB-varannon. Se riippuu siitä, mitä haluat luoda, mutta minun tapauksessani komento on :
+Seuraavaksi avaamme kanavan määrittelemällä kyseisen omaisuuserän (`Plan ₿ Academy`). `/openchannel`-komennolla voit määrittää kanavan koon satoshina ja valita, otatko mukaan RGB-varannon. Se riippuu siitä, mitä haluat luoda, mutta minun tapauksessani komento on :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3841,7 +3839,7 @@ Tapahtuman vahvistamiseksi louhitaan 6 lohkoa:
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Lightning-kanava on nyt auki, ja se sisältää myös 500 `PBN`-tunnusta solmun nro 1 puolella. Jos solmu nro 2 haluaa vastaanottaa `PBN`-tunnuksia, sen on luotava lasku. Näin se tehdään:
+Lightning-kanava on nyt auki, ja se sisältää myös 500 `Plan ₿ Academy`-tunnusta solmun nro 1 puolella. Jos solmu nro 2 haluaa vastaanottaa `Plan ₿ Academy`-tunnuksia, sen on luotava lasku. Näin se tehdään:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3870,7 +3868,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-Maksamme nyt tämän laskun ensimmäisestä solmusta, jossa on tarvittava käteisvaratunnus "PBN":
+Maksamme nyt tämän laskun ensimmäisestä solmusta, jossa on tarvittava käteisvaratunnus "Plan ₿ Academy":
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

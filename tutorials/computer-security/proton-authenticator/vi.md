@@ -194,7 +194,7 @@ Trước hết, bạn có thể tham khảo hướng dẫn sử dụng ProtonMai
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 Đăng nhập vào tài khoản ProtonMail của bạn và vào phần cài đặt bảo mật. Tìm tùy chọn "Xác thực hai yếu tố" và kích hoạt.
 
@@ -495,7 +495,7 @@ Tốt nhất, hãy sử dụng nhiều hơn một yếu tố thứ hai cho các 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Tương tự như vậy, hãy luôn giữ sẵn các mã khẩn cấp đã in sẵn.
 
@@ -545,7 +545,7 @@ Bạn sẽ tìm thấy hướng dẫn về Authy của chúng tôi bên dưới:
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Proton Authenticator là một trong những giải pháp toàn diện và an toàn nhất hiện nay: mã nguồn mở, đồng bộ hóa được mã hóa trên nhiều thiết bị, không cần theo dõi thương mại.
 

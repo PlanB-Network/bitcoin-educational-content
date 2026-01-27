@@ -348,7 +348,7 @@ Các bước cấu hình:
 
 
 
-**Lưu ý:** Bạn phải có tài khoản doanh nghiệp PayPal để sử dụng generate các mã định danh này. Bạn có thể lấy mã định danh này thông qua cổng thông tin [developer] (https://developer.paypal.com)
+**Lưu ý:** Bạn phải có tài khoản doanh nghiệp PayPal để sử dụng generate các mã định danh này. Bạn có thể lấy mã định danh này thông qua cổng thông tin [developer](https://developer.paypal.com)
 
 
 

@@ -1,0 +1,8 @@
+question: 在 Bitcoin 交易驗證中，sighash 構建程序的主要目的是什麼？
+answer: 建立原本由私密金鑰簽署的確切訊息，以進行簽署驗證
+wrong_answers:
+  - 給 generate 一個防止 double-spending 攻擊的交易唯一識別碼
+  - 將交易資料壓縮成較小的格式，以便有效率地進行網路傳輸
+  - 加密交易內容，只有收款人可以解密並使用硬幣
+explanation: |
+  sighash 結構會建立由私密金鑰簽章的精確訊息，讓 OP_CHECKSIG 可以驗證簽章的真實性。這個過程包括清空 ScriptSigs，用對應的 ScriptPubKey 取代目前輸入的 ScriptSig，並在雙重哈希之前附加一個哈希類型。其他選項是不正確的：交易 ID 可作為識別碼，壓縮會另外處理，Bitcoin 交易沒有加密，但在區塊鏈上公開可見。

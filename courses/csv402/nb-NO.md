@@ -1,13 +1,11 @@
 ---
-name: RGB-protokollen, fra teori til praksis
+name: RGB-programmering
 goal: Tilegne seg ferdighetene som trengs for å forstå og bruke RGB
-objectives: 
-
-  - Forstå de grunnleggende konseptene i RGB-protokollen
-  - Beherske prinsippene for validering på klientsiden og Bitcoin-forpliktelser
-  - Lær hvordan du oppretter, administrerer og overfører RGB-kontrakter
-  - Slik bruker du en RGB-kompatibel Lightning-node
-
+objectives:
+- Forstå de grunnleggende konseptene i RGB-protokollen
+- Beherske prinsippene for validering på klientsiden og Bitcoin-forpliktelser
+- Lær hvordan du oppretter, administrerer og overfører RGB-kontrakter
+- Slik bruker du en RGB-kompatibel Lightning-node
 ---
 # Oppdage RGB-protokollen
 
@@ -43,9 +41,9 @@ Den andre delen fokuserer på anvendelsen av de teoretiske konseptene i del 1. V
 Den siste delen ledes av andre foredragsholdere som presenterer konkrete RGB-baserte bruksområder, for å belyse reelle brukstilfeller.
 
 ---
-Dette kurset sprang opprinnelig ut av en to ukers bootcamp for avansert utvikling i Viareggio i Toscana, arrangert av [Fulgur'Ventures] (https://fulgur.ventures/). Den første uken, som fokuserte på Rust og SDK-er, finner du i dette andre kurset:
+Dette kurset sprang opprinnelig ut av en to ukers bootcamp for avansert utvikling i Viareggio i Toscana, arrangert av [Fulgur'Ventures](https://fulgur.ventures/). Den første uken, som fokuserte på Rust og SDK-er, finner du i dette andre kurset:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 I dette kurset fokuserer vi på den andre uken av bootcampen, som fokuserer på RGB.
 
@@ -68,7 +66,7 @@ Den skriftlige versjonen av dette kurset ble utarbeidet ved hjelp av to hovedres
 
 
 - Videoer av Maxim Orlovsky, Hunter Trujilo og Frederico Tengas seminar på Lightning Bootcamp ;
-- RGB-dokumentasjonen, hvis produksjon ble sponset av [Bitfinex] (https://www.bitfinex.com/).
+- RGB-dokumentasjonen, hvis produksjon ble sponset av [Bitfinex](https://www.bitfinex.com/).
 
 Klar til å dykke ned i den komplekse og fascinerende verdenen av RGB? La oss gå!
 
@@ -347,11 +345,11 @@ Single-use Seals fungerer i tre hovedfaser:
 Prosessen kan oppsummeres som følger:
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -624,7 +622,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-Det siste alternativet er bruk av **Taproot** (introdusert med BIP341) med *Tapret*-ordningen. *Tapret* er en mer kompleks form for deterministisk forpliktelse, som gir forbedringer når det gjelder fotavtrykk på blokkjeden og konfidensialitet for kontraktsoperasjoner. Hovedideen er å skjule forpliktelsen i `Script Path Spend`-delen av en [taproot-transaksjon] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
+Det siste alternativet er bruk av **Taproot** (introdusert med BIP341) med *Tapret*-ordningen. *Tapret* er en mer kompleks form for deterministisk forpliktelse, som gir forbedringer når det gjelder fotavtrykk på blokkjeden og konfidensialitet for kontraktsoperasjoner. Hovedideen er å skjule forpliktelsen i `Script Path Spend`-delen av en [taproot-transaksjon](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
@@ -662,7 +660,7 @@ I dette første tilfellet tar vi utgangspunkt i en taproot-utgangsnøkkel (*Tapr
 
 - p: den interne offentlige nøkkelen for _Key Path Spend_.
 - `G`: det genererende punktet til den elliptiske kurven [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
-- t = tH_TWEAK(P)` er tweak-faktoren, beregnet via en _tagged hash_ (f.eks. `SHA-256(SHA-256(TapTweak) || P)`), i henhold til [BIP86] (https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Dette beviser at det ikke finnes noe skjult skript.
+- t = tH_TWEAK(P)` er tweak-faktoren, beregnet via en _tagged hash_ (f.eks. `SHA-256(SHA-256(TapTweak) || P)`), i henhold til [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Dette beviser at det ikke finnes noe skjult skript.
 
 For å inkludere en **Tapret**-forpliktelse må du legge til et **Script Path Spend** med et **unikt script**, på følgende måte:
 
@@ -819,7 +817,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 hvor :
 
 
-- `mpc_tag` er en tag: `urn:ubideco:mpc:commitment#2024-01-31`, valgt i henhold til [RGB tagging conventions] (https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
+- `mpc_tag` er en tag: `urn:ubideco:mpc:commitment#2024-01-31`, valgt i henhold til [RGB tagging conventions](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
 - `depth` (1 byte) angir dybden på *MPC-treet* ;
 - cofactor` (16 bits, i Little Endian) er en parameter som brukes for å sikre at posisjonene som tildeles hver kontrakt i treet, er unike;
 - `mpc::Root` er roten til *MPC Tree*, beregnet i henhold til prosessen som beskrives i neste avsnitt.
@@ -847,7 +845,7 @@ hvor `kofaktor` er et heltall som øker sannsynligheten for å få forskjellige 
 - Vi prøver forskjellige "kofaktorer" (opp til "w/2", eller maksimalt 500 av ytelseshensyn);
 - Hvis vi ikke klarer å plassere alle kontraktene uten kollisjon, inkrementerer vi `d` og begynner på nytt.
 
-Målet er å unngå trær som er for høye, samtidig som risikoen for kollisjon holdes på et minimum. Merk at kollisjonsfenomenet følger en tilfeldig fordelingslogikk, knyttet til [Anniversary Paradox] (https://en.wikipedia.org/wiki/Birthday_problem).
+Målet er å unngå trær som er for høye, samtidig som risikoen for kollisjon holdes på et minimum. Merk at kollisjonsfenomenet følger en tilfeldig fordelingslogikk, knyttet til [Anniversary Paradox](https://en.wikipedia.org/wiki/Birthday_problem).
 
 #### Bebodde blader
 
@@ -1787,7 +1785,7 @@ Disse mekanismene definerer nøyaktig hvordan _forpliktelsen_ er kodet i utdatae
 
 En DAG (eller *Acyclic Guided Graph*) er en syklusfri graf, noe som muliggjør topologisk planlegging. Blokkjeder, som _shards_ av RGB-kontrakter, kan representeres av DAG-er.
 
-For ytterligere informasjon: [Directed Acyclic Graph] (https://en.wikipedia.org/wiki/Directed_acyclic_graph)
+For ytterligere informasjon: [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
 
 #### Gravering
 
@@ -1815,7 +1813,7 @@ Grensesnittimplementering er settet med deklarasjoner som knytter et **grensesni
 
 #### Faktura
 
-En faktura har form av en URL kodet i [base58] (https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), som inneholder dataene som er nødvendige for å opprette en **State Transition** (av betaleren). Med andre ord er det en faktura som gjør det mulig for motparten (*betaleren*) å opprette den tilsvarende overgangen for å overføre eiendelen eller oppdatere kontraktens tilstand.
+En faktura har form av en URL kodet i [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), som inneholder dataene som er nødvendige for å opprette en **State Transition** (av betaleren). Med andre ord er det en faktura som gjør det mulig for motparten (*betaleren*) å opprette den tilsvarende overgangen for å overføre eiendelen eller oppdatere kontraktens tilstand.
 
 #### Lightning Network
 
@@ -1823,7 +1821,7 @@ Lightning Network er et desentralisert nettverk av betalingskanaler (eller _stat
 
 Hvis du vil ha mer informasjon om hvordan Lightning fungerer, anbefaler jeg at du tar dette andre kurset:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multiprotokollforpliktelse - MPC
 
@@ -1897,7 +1895,7 @@ Statusovergang er en operasjon som endrer statusen til en RGB-kontrakt til en ny
 
 #### Taproot
 
-Refererer til Bitcoins Segwit v1-transaksjonsformat, introdusert av [BIP341] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) og [BIP342] (https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot forbedrer konfidensialiteten og fleksibiliteten til skript, særlig ved å gjøre transaksjoner mer kompakte og vanskeligere å skille fra hverandre.
+Refererer til Bitcoins Segwit v1-transaksjonsformat, introdusert av [BIP341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) og [BIP342](https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot forbedrer konfidensialiteten og fleksibiliteten til skript, særlig ved å gjøre transaksjoner mer kompakte og vanskeligere å skille fra hverandre.
 
 #### Terminal Consignment - Sluttpunkt for sending
 
@@ -3032,8 +3030,8 @@ Her er et eksempel på en YAML-fil som kan opprettes:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3077,7 +3075,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Deretter viser den neste kommandoen de globale tilstandene (navn, ticker, forsyning ...) og listen over Owned States, dvs. allokeringer (for eksempel 1 million `PBN`-tokens definert i UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Deretter viser den neste kommandoen de globale tilstandene (navn, ticker, forsyning ...) og listen over Owned States, dvs. allokeringer (for eksempel 1 million `Plan ₿ Academy`-tokens definert i UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3171,7 +3169,7 @@ Den kan sendes til Bob via en hvilken som helst kanal (tekst, QR-kode osv.).
 For å overføre fra denne fakturaen :
 
 
-- Bob (som har tokens i sin stash) har en Bitcoin-lommebok. Han må forberede en Bitcoin-transaksjon (i form av en PSBT, f.eks. `tx.psbt`) som bruker UTXOene der de nødvendige RGB-tokens befinner seg, pluss én UTXO for valuta (veksling);
+- Bob (som oppbevarer tokenene i sin stash) har en Bitcoin-lommebok. Han må forberede en Bitcoin-transaksjon (i form av en PSBT, f.eks. `tx.psbt`) som bruker UTXO-ene der de nødvendige RGB-tokenene befinner seg, samt én UTXO for veksel (change);
 - Bob utfører følgende kommando:
 
 ```bash
@@ -3260,7 +3258,7 @@ I virkeligheten gjør Lightning Network det mulig å dirigere betalinger via fle
 
 Driften av RGB på Lightning må derfor vurderes parallelt med driften av selve Lightning-nettverket. Hvis du ønsker å fordype deg i dette emnet, anbefaler jeg at du tar en titt på dette andre omfattende kurset:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB-kodekart
 
@@ -3393,7 +3391,7 @@ Med **RGB20** definerer vi et fungibelt token på Bitcoin. Utstederen velger en 
 
 ### Bitmask-løsningen: en lommebok for RGB
 
-For å utnytte RGBs muligheter i praksis har **DIBA**-prosjektet utviklet en lommebok kalt [Bitmask] (https://bitmask.app/). Tanken er å tilby et Taproot-basert verktøy som ikke er depotbasert, og som er tilgjengelig som en webapplikasjon eller nettleserutvidelse. Bitmask håndterer både RGB20- og RGB21-aktiva og integrerer ulike sikkerhetsmekanismer:
+For å utnytte RGBs muligheter i praksis har **DIBA**-prosjektet utviklet en lommebok kalt [Bitmask](https://bitmask.app/). Tanken er å tilby et Taproot-basert verktøy som ikke er depotbasert, og som er tilgjengelig som en webapplikasjon eller nettleserutvidelse. Bitmask håndterer både RGB20- og RGB21-aktiva og integrerer ulike sikkerhetsmekanismer:
 
 
 - Kjernekoden er skrevet i Rust, og deretter kompilert i WebAssembly for å kjøre i et JavaScript-miljø (React);
@@ -3440,7 +3438,7 @@ Siden rundt 2022 har Bitfinex RGB-teamet konsentrert seg om å utvikle teknologi
 
 - Deltakelse i kildekode- og protokollspesifikasjoner, inkludert skriving av forbedringsforslag, feilretting osv;
 - Verktøy for utviklere som forenkler integreringen av RGB i applikasjonene deres;
-- Utforming av en mobil lommebok med navnet [Iris] (https://iriswallet.com/) for å eksperimentere og illustrere beste praksis for bruk av RGB ;
+- Utforming av en mobil lommebok med navnet [Iris](https://iriswallet.com/) for å eksperimentere og illustrere beste praksis for bruk av RGB ;
 - Opprettelse av en tilpasset Lightning-node som kan håndtere kanaler med RGB-ressurser;
 - Støtte andre team som bygger løsninger på RGB, for å oppmuntre til mangfold og et sterkt økosystem.
 
@@ -3534,8 +3532,8 @@ Denne tilnærmingen er i stor grad eksperimentell og fortsetter å utvikle seg: 
 For de som ønsker å lære mer eller bidra, finnes det flere ressurser tilgjengelig, blant annet :
 
 
-- [GitHub RGB Tools repositories] (https://github.com/RGB-Tools);
-- [Et informasjonsnettsted dedikert til Iris Wallet] (https://iriswallet.com/) for å teste lommeboken på Android.
+- [GitHub RGB Tools repositories](https://github.com/RGB-Tools);
+- [Et informasjonsnettsted dedikert til Iris Wallet](https://iriswallet.com/) for å teste lommeboken på Android.
 
 I neste kapittel skal vi se nærmere på hvordan du starter en RGB Lightning-node.
 
@@ -3549,7 +3547,7 @@ I dette siste kapittelet tar Frederico Tenga deg steg for steg gjennom oppsettet
 
 Denne videoen fungerer som en veiledning, på samme måte som i et tidligere kapittel, men denne gangen fokuserer vi spesielt på Lightning!
 
-Hovedressursen for denne videoen er Github-arkivet [RGB Lightning Node] (https://github.com/RGB-Tools/rgb-lightning-node), som gjør det enkelt for deg å starte denne konfigurasjonen i Regtest.
+Hovedressursen for denne videoen er Github-arkivet [RGB Lightning Node](https://github.com/RGB-Tools/rgb-lightning-node), som gjør det enkelt for deg å starte denne konfigurasjonen i Regtest.
 
 ### Utplassering av en RGB-kompatibel Lightning-node
 
@@ -3757,7 +3755,7 @@ Du kan selvfølgelig tilpasse bestillingen. For å bekrefte transaksjonen, utvin
 ./regtest.sh mine 1
 ```
 
-Vi kan nå opprette en RGB-ressurs. Kommandoen avhenger av hvilken type eiendel du ønsker å opprette og dens parametere. Her oppretter jeg et NIA-token (*Non Inflatable Asset*) ved navn "PBN" med en forsyning på 1000 enheter. Med `precision` kan du definere delbarheten til enhetene.
+Vi kan nå opprette en RGB-ressurs. Kommandoen avhenger av hvilken type eiendel du ønsker å opprette og dens parametere. Her oppretter jeg et NIA-token (*Non Inflatable Asset*) ved navn "Plan ₿ Academy" med en forsyning på 1000 enheter. Med `precision` kan du definere delbarheten til enhetene.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3765,8 +3763,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3802,7 +3800,7 @@ Kommandoen returnerer den offentlige nøkkelen til min node nr. 2 :
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Deretter åpner vi kanalen ved å spesifisere den relevante ressursen (`PBN`). Med kommandoen `/openchannel` kan du definere størrelsen på kanalen i satoshis og velge om du vil inkludere RGB-aktivet. Det kommer an på hva du ønsker å lage, men i mitt tilfelle er kommandoen :
+Deretter åpner vi kanalen ved å spesifisere den relevante ressursen (`Plan ₿ Academy`). Med kommandoen `/openchannel` kan du definere størrelsen på kanalen i satoshis og velge om du vil inkludere RGB-aktivet. Det kommer an på hva du ønsker å lage, men i mitt tilfelle er kommandoen :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3841,7 +3839,7 @@ For å bekrefte transaksjonen utvinnes 6 blokker:
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Lightning-kanalen er nå åpen og inneholder også 500 `PBN`-tokens på node nr. 1 sin side. Hvis node nr. 2 ønsker å motta `PBN`-tokens, må den generere en faktura. Slik gjør du det:
+Lightning-kanalen er nå åpen og inneholder også 500 `Plan ₿ Academy`-tokens på node nr. 1 sin side. Hvis node nr. 2 ønsker å motta `Plan ₿ Academy`-tokens, må den generere en faktura. Slik gjør du det:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3870,7 +3868,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-Vi vil nå betale denne fakturaen fra den første noden, som har de nødvendige kontantene med `PBN`-tokenet:
+Vi vil nå betale denne fakturaen fra den første noden, som har de nødvendige kontantene med `Plan ₿ Academy`-tokenet:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

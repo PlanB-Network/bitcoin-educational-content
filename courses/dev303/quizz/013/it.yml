@@ -1,0 +1,8 @@
+question: Cosa succede quando una variabile esce dallo scope nel sistema di proprietà di Rust?
+answer: Il valore viene automaticamente eliminato e la sua memoria viene liberata
+wrong_answers:
+  - Il valore viene spostato nell'ambito globale per essere riutilizzato
+  - Il valore diventa immutabile e rimane in memoria
+  - Il valore viene copiato in una posizione di backup per sicurezza
+explanation: |
+  Nel sistema di proprietà del Rust, quando una variabile esce dallo scope (tipicamente quando l'esecuzione lascia un blocco definito da parentesi graffe), il valore viene automaticamente eliminato e la sua memoria liberata. Questa pulizia automatica è implementata attraverso il meccanismo di drop di Rust, in cui il linguaggio chiama implicitamente una funzione di drop sulle variabili che escono dallo scope. Ciò assicura una corretta gestione delle risorse senza richiedere al programmatore un codice di pulizia esplicito, seguendo il modello RAII mutuato dal C++.

@@ -6,4 +6,4 @@ wrong_answers:
   - ip neigh
 explanation: |
   nmap détecte les ports ouverts, les services exposés et parfois le type de système d'exploitation à distance.
-reviewed: false
+reviewed: true 

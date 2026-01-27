@@ -13,7 +13,7 @@ description: Um breve guia para incentivar os clientes a gastarem os seus bitcoi
 Decidiu finalmente aceitar o Bitcoin na sua empresa e tudo está pronto: o Lightning Network Wallet está configurado para receber pagamentos, os seus empregados sabem como utilizar a versão só de leitura do Wallet para receber pagamentos em seu nome, o Ponto de Venda (PdV) foi configurado com os produtos da loja e atualizado mensalmente e já sabe como gerir a contabilidade do Bitcoin dos clientes. Se não sabe como o fazer, veja este tutorial:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Qual é o problema?
 
@@ -129,7 +129,7 @@ O método de implementação é deixado ao critério do comerciante, mas, resumi
 Em qualquer caso, é sempre uma boa prática garantir que o seu negócio, se tiver um local físico, esteja presente e atualizado no [BTC Map](https://btcmap.org/map). A maioria dos usuários de bitcoin está familiarizada com esta ferramenta, e quase todos aqueles que gastaram bitcoin em lojas físicas verificaram pelo menos uma vez quais locais os aceitam. Se você quiser aprender como adicionar sua loja ao BTC Map ou quiser mais informações, assista a este tutorial:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Contabilidade de gestão
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 Se está a pensar como gerir a contabilização dos bitcoins que acabou de ganhar, quer tenha aplicado uma das políticas de desconto ou não, este é o tutorial para si:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Conclusão
 

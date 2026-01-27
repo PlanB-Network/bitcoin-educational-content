@@ -1,0 +1,9 @@
+question: Con un Lightning wallet de custodia, ¿a quién pertenecen los bitcoins?
+answer: La empresa
+wrong_answers:
+  - El usuario
+  - La red Lightning
+  - Núcleo Bitcoin
+explanation: |
+  En un modelo de custodia, la empresa tiene las llaves y controla los fondos, mientras que el usuario sólo dispone de un saldo contable.
+reviewed: false

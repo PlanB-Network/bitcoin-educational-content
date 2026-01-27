@@ -6,7 +6,7 @@ description: Creare un wallet multi-firma su Sparrow
 
 
 
-Un wallet multi-firma (spesso chiamato "*multisig*") è un contratto Bitcoin che richiede più firme crittografiche, da chiavi diverse, per autorizzare una spesa. A differenza di un wallet convenzionale ("*singlesig*"), dove una singola chiave privata è sufficiente per sbloccare un [UTXO](https://planb.network/resources/glossary/utxo), il multisig si basa su un modello **m-di-n**: delle _n_ chiavi associate al wallet, _m_ devono imperativamente co-firmare ogni transazione.
+Un wallet multi-firma (spesso chiamato "*multisig*") è un contratto Bitcoin che richiede più firme crittografiche, da chiavi diverse, per autorizzare una spesa. A differenza di un wallet convenzionale ("*singlesig*"), dove una singola chiave privata è sufficiente per sbloccare un [UTXO](https://planb.academy/resources/glossary/utxo), il multisig si basa su un modello **m-di-n**: delle _n_ chiavi associate al wallet, _m_ devono imperativamente co-firmare ogni transazione.
 
 
 
@@ -36,7 +36,7 @@ In sintesi, per recuperare un wallet multisig, è necessario:
 
 
 
-La gestione dei backup del wallet multisig è facilitata dagli *[Output Script Descriptors](https://planb.network/resources/glossary/output-script-descriptors)*, che raggruppano tutti i dati pubblici necessari per accedere ai fondi. Tuttavia, questa funzionalità non è ancora implementata in tutti i software di gestione del wallet.
+La gestione dei backup del wallet multisig è facilitata dagli *[Output Script Descriptors](https://planb.academy/resources/glossary/output-script-descriptors)*, che raggruppano tutti i dati pubblici necessari per accedere ai fondi. Tuttavia, questa funzionalità non è ancora implementata in tutti i software di gestione del wallet.
 
 
 
@@ -44,11 +44,11 @@ Un wallet multisig è particolarmente adatto ai bitcoiners che cercano una maggi
 
 
 
-In questa esercitazione imparerai a creare e utilizzare un classico wallet a più firme con **Sparrow**. Se desideri creare un wallet multi-firma personalizzato con [timelocks](https://planb.network/resources/glossary/timelock), ti consiglio di utilizzare Liana:
+In questa esercitazione imparerai a creare e utilizzare un classico wallet a più firme con **Sparrow**. Se desideri creare un wallet multi-firma personalizzato con [timelocks](https://planb.academy/resources/glossary/timelock), ti consiglio di utilizzare Liana:
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 ## Prerequisiti
 
@@ -58,7 +58,7 @@ In questa esercitazione ti mostrerò come creare un multisig con [Sparrow](https
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Per configurare un wallet multi-firma, sono necessari diversi hardware wallet. Per un multisig 2-di-3, ad esempio, si possono utilizzare:
 
@@ -101,11 +101,11 @@ Prima di configurare il multisig wallet, assicurati che ogni Hardware wallet sia
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Come vedrai più avanti in questo tutorial, è anche possibile integrare nella configurazione del multisig un fattore che non è associato a un Hardware wallet, ma le cui chiavi private sono memorizzate sul tuo PC. Questo metodo è ovviamente meno sicuro dell'uso esclusivo con Hardware wallet, ma può essere rilevante in alcuni casi. Ad esempio, per un multisig 2-di-3, si potrebbe optare per due Hardware wallet e un Software wallet.
 
@@ -374,7 +374,7 @@ Oltre a salvare il *Descriptor*, non dimenticare di prestare particolare attenzi
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Quando ancora non hai ricevuto fondi sul multisig, **ti consiglio vivamente di eseguire un test di ripristino con il wallet vuoto**. Annota alcune informazioni di riferimento, come il primo indirizzo di ricezione, quindi ripristina gli Hardware wallet mentre il wallet è ancora vuoto. Successivamente, prova a ripristinare il multisig sugli Hardware wallet utilizzando i backup cartacei della frasi mnemoniche, mentre su Sparrow fai la stessa cosa utilizzando il *Descriptor*. Verifica che il primo indirizzo di ricezione generato dopo il ripristino corrisponda a quello scritto originariamente. Se così fosse, puoi essere certo che i backup cartacei sono affidabili.
 
@@ -384,7 +384,7 @@ Per saperne di più su come eseguire un test di ripristino, ti suggerisco di con
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Ricevere bitcoin sul tuo multisig
 
@@ -618,4 +618,4 @@ Per andare avanti, ti consiglio di consultare questo tutorial su un altro metodo
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

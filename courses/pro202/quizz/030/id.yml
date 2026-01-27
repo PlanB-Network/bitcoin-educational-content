@@ -1,0 +1,8 @@
+question: Apa tujuan utama dari proses konstruksi sighash dalam validasi transaksi Bitcoin?
+answer: Untuk membuat pesan yang sama persis dengan pesan yang awalnya ditandatangani oleh kunci privat untuk verifikasi tanda tangan
+wrong_answers:
+  - Untuk generate, pengidentifikasi unik untuk transaksi yang mencegah serangan double-spending
+  - Untuk mengompresi data transaksi ke dalam format yang lebih kecil untuk transmisi jaringan yang efisien
+  - Untuk mengenkripsi isi transaksi sehingga hanya penerima yang dapat mendekripsi dan membelanjakan koin
+explanation: |
+  Konstruksi sighash menciptakan pesan yang tepat yang ditandatangani oleh kunci privat, memungkinkan OP_CHECKSIG untuk memverifikasi keaslian tanda tangan. Proses ini melibatkan pengosongan ScriptSig, mengganti ScriptSig input saat ini dengan ScriptPubKey yang sesuai, dan menambahkan tipe hash sebelum melakukan hashing ganda. Opsi lainnya tidak benar: ID transaksi berfungsi sebagai pengenal, kompresi ditangani secara terpisah, dan transaksi Bitcoin tidak dienkripsi tetapi dapat dilihat oleh publik di blockchain.

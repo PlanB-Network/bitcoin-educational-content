@@ -1,7 +1,7 @@
 question: Khái niệm tự quản có ý nghĩa gì trong thế giới Bitcoin?
 answer: Tự giữ chìa khóa riêng của bạn
 wrong_answers:
-  - Giao phó chìa khóa của bạn cho nền tảng Exchange chuyên dụng
+  - Giao phó chìa khóa của bạn cho nền tảng giao dịch công nghệ chuyên dụng
   - Giao phó chìa khóa của bạn cho một ngân hàng đầu tư
   - Tự giữ khóa công khai của bạn
 explanation: |

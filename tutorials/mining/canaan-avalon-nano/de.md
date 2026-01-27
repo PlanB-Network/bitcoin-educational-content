@@ -23,7 +23,7 @@ Diese Geräte werden entweder als Zusatzheizung im Falle des **Avalon Nano 3S (1
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
 
 Bitte beachten Sie, dass der Preisunterschied zu herkömmlichen Heizgeräten mit gleicher Leistung in den allermeisten Fällen keinen finanziellen Gewinn ermöglicht. Die durch die Tätigkeit von Mining erzeugten Satoshis werden diesen Preisunterschied niemals ausgleichen, es sei denn, Sie haben Zugang zu kostenlosem (überschüssigem) oder sehr billigem Strom.
 
@@ -207,9 +207,9 @@ Weitere Einzelheiten zur Verbindung mit einem Mining pool finden Sie in diesen A
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Zusammenfassend brauchen wir
 
@@ -358,4 +358,4 @@ Weitere Informationen finden Sie in unserem Tutorial über die bessere Version d
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7

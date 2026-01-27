@@ -1,0 +1,9 @@
+question: Jina la umbizo la seed mahususi kwa LND ni lipi?
+answer: imesisimka
+wrong_answers:
+  - BIP39
+  - mbegu iliyopandwa
+  - BIP32
+explanation: |
+  LND hutumia seed maalum inayoitwa aezeed, tofauti na BIP39 seed ya kawaida.
+reviewed: false

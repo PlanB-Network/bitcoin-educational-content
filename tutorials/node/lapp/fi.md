@@ -21,7 +21,7 @@ Salamaverkko-sovelluksemme rakentamiseen käytämme seuraavia teknologioita:
 - Express web-palvelimellemme
 - Pug-mallit + bootstrap käyttöliittymällemme
 
-https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Käyttöjärjestelmä
 

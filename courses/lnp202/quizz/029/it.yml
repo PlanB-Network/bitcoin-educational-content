@@ -1,0 +1,9 @@
+question: Qual è il rischio principale che una watchtower mira a prevenire?
+answer: Tradimento con il vecchio stato
+wrong_answers:
+  - attacco del 51%
+  - Furto del seed
+  - Barare con il nuovo stato
+explanation: |
+  Una watchtower protegge dalla pubblicazione di un vecchio canale statale finalizzato all'appropriazione indebita di fondi.
+reviewed: false

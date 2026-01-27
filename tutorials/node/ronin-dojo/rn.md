@@ -14,7 +14,7 @@ _Iyi nyigisho itangwa ku ntumbero y'inyigisho n'amakuru gusa. Ntidushigikira can
 
 _Iyi nyigisho ni iyo gushiramwo RoninDojo v1. Kugira ngo wungukire ku bintu bishasha vyashizweho n’ibindi bishasha, ndagusavye cane kuraba inyigisho yacu yerekeye gushiramwo RoninDojo v2 kuri Raspberry Pi yawe:_
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

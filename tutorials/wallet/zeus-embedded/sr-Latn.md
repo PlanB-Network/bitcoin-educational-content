@@ -17,7 +17,7 @@ Ali aplikacija takođe ima funkciju "Embedded node".
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Podsećamo, Lightning je mreža koja radi paralelno sa Bitcoin, omogućavajući razmenu bitcoina bez potrebe za sistematskim sprovođenjem On-Chain transakcija. Rezultat su gotovo trenutne transakcije, bez potrebe za čekanjem od 10 minuta da se blok validira. Ovo je posebno korisno kada se plaća trgovcu u fizičkom svetu. Štaviše, Lightning pruža izuzetan nivo **poverljivosti** koji Bitcoin mreža nema u svojoj osnovi.*
 
@@ -200,7 +200,7 @@ Za više informacija o pravilnom načinu čuvanja i upravljanja vašom Mnemonic 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -345,7 +345,7 @@ Zeus vam zatim omogućava da dodate belešku kako biste označili vašu uplatu, 
 
 
 
-Imajte na umu da za razliku od Wallet kao što je [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), sa Zeusom se ruta izračunava lokalno i nije delegirana trećoj strani (ACINQ u slučaju Phoenixa). Tako da ste vi jedini koji zna primaoca uplate. Gubimo malo na efikasnosti (uplate traju malo duže da se završe, ali dobijamo mnogo u smislu privatnosti).
+Imajte na umu da za razliku od Wallet kao što je [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), sa Zeusom se ruta izračunava lokalno i nije delegirana trećoj strani (ACINQ u slučaju Phoenixa). Tako da ste vi jedini koji zna primaoca uplate. Gubimo malo na efikasnosti (uplate traju malo duže da se završe, ali dobijamo mnogo u smislu privatnosti).
 
 
 
@@ -422,8 +422,8 @@ Dakle, 10,000 Satoshi u plaćenim naknadama pokrivaju: trošak otvaranja kanala 
 
 
 
-Da biste saznali više o tehničkom radu Lightning Network, možete pronaći odličnu besplatnu obuku Plan ₿ Network od Fanisa Michalakisa:
+Da biste saznali više o tehničkom radu Lightning Network, možete pronaći odličnu besplatnu obuku Plan ₿ Academy od Fanisa Michalakisa:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

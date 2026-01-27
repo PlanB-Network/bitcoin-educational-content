@@ -22,7 +22,7 @@ Deze stap-voor-stap tutorial laat je zien hoe je een bericht schrijft op de Bloc
 - Een computer (Windows, macOS of Linux).
 - Internetverbinding.
 - Een paar satoshis (Sats) of bitcoins (BTC) in je Wallet om het transactiebedrag en de kosten te dekken.
-- Een tekst-naar-hex converter (bijvoorbeeld een online site) of een speciale tool zoals [deze OP_RETURN scriptgenerator] (https://resources.davidcoen.it/opreturnelectrum/).
+- Een tekst-naar-hex converter (bijvoorbeeld een online site) of een speciale tool zoals [deze OP_RETURN scriptgenerator](https://resources.davidcoen.it/opreturnelectrum/).
 
 
 
@@ -53,7 +53,7 @@ Deze stap-voor-stap tutorial laat je zien hoe je een bericht schrijft op de Bloc
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Dit toont een ontvangst Address:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -164,7 +164,7 @@ Converteer je bericht naar hexadecimaal :
 
 
 
-- Je kunt een [online tool] (https://www.rapidtables.com/convert/number/ascii-to-hex.html) gebruiken, maar pas op dat je daar geen gevoelige gegevens verwerkt (hoewel informatie die bedoeld is voor publicatie op Blockchain Bitcoin via een OP_RETURN in principe geen vertrouwelijkheidsproblemen oplevert);
+- Je kunt een [online tool](https://www.rapidtables.com/convert/number/ascii-to-hex.html) gebruiken, maar pas op dat je daar geen gevoelige gegevens verwerkt (hoewel informatie die bedoeld is voor publicatie op Blockchain Bitcoin via een OP_RETURN in principe geen vertrouwelijkheidsproblemen oplevert);
 - Voor meer vertrouwelijkheid kun je de conversie lokaal uitvoeren met een kleine Python :
 
 
@@ -339,5 +339,5 @@ Zoek naar het OP_RETURN veld in de transactiedetails om je bericht te zien.
 
 
 - Download Electrum: [electrum.org](https://electrum.org/)
-- OP_RETURN script generator: [resources.davidcoen.it/opreturnelectrum/] (https://resources.davidcoen.it/opreturnelectrum/)
+- OP_RETURN script generator: [resources.davidcoen.it/opreturnelectrum/](https://resources.davidcoen.it/opreturnelectrum/)
 - Blockchain Verkenners: [Mempool.space](https://Mempool.space/), [blockstream.info](https://blockstream.info/)

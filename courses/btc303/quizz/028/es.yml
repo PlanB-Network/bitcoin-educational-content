@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal preocupación de los tijeretazos a las tasas cuando la subvención en bloque de Bitcoin se aproxima a cero?
+answer: A los mineros les puede resultar más rentable reescribir bloques anteriores con tasas elevadas que minando nuevos bloques
+wrong_answers:
+  - Las comisiones por transacción serán demasiado caras para que los usuarios habituales puedan permitirse transacciones Bitcoin
+  - La oferta total de Bitcoin superará los 21 millones debido al aumento de los incentivos de mineria
+  - Los mineros dejarán de utilizar mining por completo porque las comisiones por transacción no pueden cubrir por sí solas los costes de electricidad
+explanation: |
+  El recorte de comisiones se produce cuando los mineros intentan volver a minar bloques anteriores que contenían transacciones con comisiones elevadas en lugar de extender honestamente la cadena. Esto se vuelve económicamente racional cuando las comisiones de un bloque anterior superan significativamente las del mempool actual. Aunque la probabilidad de éxito es menor que en el mining honesto, la recompensa potencial puede ser mucho mayor. Este comportamiento es especialmente preocupante porque puede crear un efecto cascada en el que más mineros incurran en prácticas deshonestas, amenazando en última instancia el modelo de seguridad de Bitcoin cuando disminuyan las subvenciones por bloque.
+reviewed: false

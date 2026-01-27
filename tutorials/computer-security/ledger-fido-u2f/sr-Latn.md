@@ -46,7 +46,7 @@ Povežite svoj Ledger sa računarom i otključajte ga.
 
 
 
-Da biste instalirali aplikaciju, otvorite softver [Ledger Live] (https://www.Ledger.com/Ledger-live), zatim idite na karticu "*My Ledger*". Pronađite aplikaciju "*Security Key*" i instalirajte je na svoj uređaj.
+Da biste instalirali aplikaciju, otvorite softver [Ledger Live](https://www.Ledger.com/Ledger-live), zatim idite na karticu "*My Ledger*". Pronađite aplikaciju "*Security Key*" i instalirajte je na svoj uređaj.
 
 
 
@@ -180,4 +180,4 @@ Preporučio bih i ovaj drugi vodič, u kojem razmatramo drugo rešenje za U2F i 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

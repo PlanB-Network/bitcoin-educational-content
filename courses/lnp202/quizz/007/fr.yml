@@ -1,0 +1,9 @@
+question: Quelle propriété fondamentale de Bitcoin est perdue en custodial ?
+answer: Souveraineté monétaire
+wrong_answers:
+  - Scalabilité monétaire
+  - Rapidité des paiements
+  - Interopérabilité monétaire
+explanation: |
+  Sans contrôle des clés, l’utilisateur renonce à la souveraineté monétaire, pilier central de Bitcoin.
+reviewed: false

@@ -139,7 +139,7 @@ Du kan også kjøpe **et OPNsense rackmonterbart apparat** i nettbutikken vår.
 
 
 
-Du må ta hensyn til maskinvareressursene som kreves for å kjøre OPNsense. Dette er beskrevet på [denne dokumentasjonssiden] (https://docs.opnsense.org/manual/hardware.html).
+Du må ta hensyn til maskinvareressursene som kreves for å kjøre OPNsense. Dette er beskrevet på [denne dokumentasjonssiden](https://docs.opnsense.org/manual/hardware.html).
 
 
 
@@ -157,7 +157,7 @@ Til slutt: **Ressursbehovet ditt avhenger først og fremst av antall tilkoblinge
 
 
 
-Du trenger også OPNsense-installasjonens ISO-bilde, som du kan laste ned fra [det offisielle nettstedet] (https://opnsense.org/download/). For installasjon på en virtuell maskin velger du "**dvd**" som avbildningstype for å få et ISO-bilde (og gjør hva du vil med det ...). For installasjon via en oppstartbar USB-nøkkel velger du alternativet "**vga**" for å få en "**.img**"-fil.
+Du trenger også OPNsense-installasjonens ISO-bilde, som du kan laste ned fra [det offisielle nettstedet](https://opnsense.org/download/). For installasjon på en virtuell maskin velger du "**dvd**" som avbildningstype for å få et ISO-bilde (og gjør hva du vil med det ...). For installasjon via en oppstartbar USB-nøkkel velger du alternativet "**vga**" for å få en "**.img**"-fil.
 
 
 
@@ -213,7 +213,7 @@ Etter nedlasting får du **et arkiv som inneholder et bilde i ".img"**-format. D
 
 
 
-- [Last ned balenaEtcher] (https://etcher.balena.io/)
+- [Last ned balenaEtcher](https://etcher.balena.io/)
 
 
 

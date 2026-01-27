@@ -32,7 +32,7 @@ Może to być wykorzystane do transferu:
 
 
 - frazy **gW-0** (mistrz seed ColdCardQ lub sekrety przechowywane w [skarbcu seed] ColdCardQ (https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **poufne notatki i hasła**: może to być dowolny sekret lub cały katalog [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) w ColdCardQ.
+- **poufne notatki i hasła**: może to być dowolny sekret lub cały katalog [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) w ColdCardQ.
 - kopia zapasowa całego **ColdCardQ**: ColdCardQ odbierający tę kopię zapasową nie może mieć seed Master, aby to zadziałało.
 - gW-3 (**częściowo podpisane transakcje Bitcoin**) jako część schematu wielopodpisowego.
 
@@ -95,7 +95,7 @@ Na ekranie zostanie wygenerowany kod QR. Po raz kolejny musisz przekazać ten ko
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Obecnie posiadamy:*
 
@@ -145,7 +145,7 @@ Zostaniesz teraz poproszony o wybranie charakteru tajemnic, które mają być pr
 
 
 
-Tutaj naszym sekretem będzie krótka wiadomość poprzez wybranie **"Quick Text Message "**. Wpisz swoją wiadomość (dla nas "PlanB Network rocks"), a następnie naciśnij **"ENTER "**.
+Tutaj naszym sekretem będzie krótka wiadomość poprzez wybranie **"Quick Text Message "**. Wpisz swoją wiadomość (dla nas "Plan ₿ Academy rocks"), a następnie naciśnij **"ENTER "**.
 
 
 Następnie urządzenie wygeneruje nowe losowe hasło o nazwie **"Teleport Password "** , w przykładzie "NE XG BT SK".
@@ -190,7 +190,7 @@ Naciśnij przycisk **"QR "**, aby zeskanować kod QR przedstawiony przez urządz
 
 
 
-Dane są następnie odszyfrowywane i zrozumiałe dla urządzenia odbierającego. Otrzymana wiadomość to rzeczywiście "PlanB Network rocks". To wszystko.
+Dane są następnie odszyfrowywane i zrozumiałe dla urządzenia odbierającego. Otrzymana wiadomość to rzeczywiście "Plan ₿ Academy rocks". To wszystko.
 
 
 

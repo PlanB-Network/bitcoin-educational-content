@@ -45,7 +45,7 @@ Een RGB Contract is gestructureerd als een evolutionaire toestandsmachine. Het b
 Om meer te leren over hoe het RGB protocol werkt, raad ik je aan deze uitgebreide training te volgen:
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## RGB-compatibele installatie van Lightning-knooppunten
 
@@ -302,7 +302,7 @@ Je kunt de bestelling natuurlijk aanpassen. Om de transactie te bevestigen, mijn
 ```
 
 
-We kunnen nu een RGB bron aanmaken. Het commando hangt af van het type asset dat je wilt maken en de parameters. Hier maak ik een NIA (*Non Inflatable Asset*) token genaamd "PBN" met een Supply van 1000 eenheden. Met `precision` kun je de deelbaarheid van de eenheden bepalen.
+We kunnen nu een RGB bron aanmaken. Het commando hangt af van het type asset dat je wilt maken en de parameters. Hier maak ik een NIA (*Non Inflatable Asset*) token genaamd "Plan ₿ Academy" met een Supply van 1000 eenheden. Met `precision` kun je de deelbaarheid van de eenheden bepalen.
 
 
 ```bash
@@ -311,8 +311,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -360,7 +360,7 @@ Het commando geeft de openbare sleutel van mijn knooppunt nr. 2 :
 ![RLN](assets/fr/13.webp)
 
 
-Vervolgens openen we het kanaal door de relevante asset (`PBN`) te specificeren. Met het `/openkanaal` commando kun je de grootte van het kanaal in satoshis definiëren en ervoor kiezen om het RGB asset toe te voegen. Het hangt af van wat je wilt maken, maar in mijn geval is het commando :
+Vervolgens openen we het kanaal door de relevante asset (`Plan ₿ Academy`) te specificeren. Met het `/openkanaal` commando kun je de grootte van het kanaal in satoshis definiëren en ervoor kiezen om het RGB asset toe te voegen. Het hangt af van wat je wilt maken, maar in mijn geval is het commando :
 
 
 ```bash
@@ -408,7 +408,7 @@ Om de transactie te bevestigen, worden 6 blokken gedolven:
 ![RLN](assets/fr/15.webp)
 
 
-Het Lightning-kanaal is nu open en bevat ook 500 `PBN`-tokens aan de kant van knooppunt n°1. Als knooppunt n°2 `PBN` tokens wil ontvangen, moet het generate en Invoice. Zo doe je dat:
+Het Lightning-kanaal is nu open en bevat ook 500 `Plan ₿ Academy`-tokens aan de kant van knooppunt n°1. Als knooppunt n°2 `Plan ₿ Academy` tokens wil ontvangen, moet het generate en Invoice. Zo doe je dat:
 
 
 ```bash
@@ -445,7 +445,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RLN](assets/fr/16.webp)
 
 
-We zullen deze Invoice nu betalen vanaf het eerste knooppunt, dat het benodigde geld heeft met de `PBN` token:
+We zullen deze Invoice nu betalen vanaf het eerste knooppunt, dat het benodigde geld heeft met de `Plan ₿ Academy` token:
 
 
 ```bash
@@ -499,4 +499,4 @@ Als je deze tutorial nuttig vond, zou ik je erg dankbaar zijn als je hieronder e
 Ik raad ook deze andere tutorial aan waarin ik uitleg hoe je de RGB CLI tool, ontwikkeld door de LNP/BP vereniging, kunt gebruiken om een RGB Contract te maken:
 
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

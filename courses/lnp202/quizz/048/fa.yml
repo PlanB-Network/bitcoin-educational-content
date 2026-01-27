@@ -1,0 +1,9 @@
+question: کدام راه‌حل رایگان برای نقدینگی ورودی بر اساس همکاری است؟
+answer: LN+
+wrong_answers:
+  - ماگما
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus با ارائه کانال‌های دایره‌ای ورودی، نقدینگی ورودی را فراهم می‌کند.
+reviewed: false

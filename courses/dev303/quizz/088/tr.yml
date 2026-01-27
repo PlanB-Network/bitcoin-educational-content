@@ -1,0 +1,8 @@
+question: UniFFI, Rust kütüphaneleri ile çalışırken platformlar arası geliştirmedeki hangi temel zorluğu ele alıyor?
+answer: Rust'in düşük seviyeli FFI'sini açığa çıkarırken her hedef dil için manuel olarak özel bağlama kodu oluşturma ihtiyacı
+wrong_answers:
+  - Rust'nin birden fazla işletim sisteminde çalışabilen yerel ikili dosyalara derlenememesi
+  - Rust kodu çöp toplayan dillerle etkileşime girdiğinde bellek güvenliği garantilerinin eksikliği
+  - "Rust'ün sahiplik modelini referans sayımlı dillere çevirirken ortaya çıkan performans ek yükü"
+explanation: |
+  UniFFI özellikle her hedef dil için manuel olarak bağlayıcı kod yazma sorununu çözer. Rust ikili çıktıya derlendiğinde, düşük seviyeli ve yüksek seviyeli dillerden doğrudan kullanımı zor olan bir Yabancı Fonksiyon Interface (FFI) üretir. Geleneksel olarak, geliştiricilerin her hedef dil (Python, Swift, Kotlin, vb.) için özel bağlama kodu yazması gerekiyordu ve bu da benimsemenin önünde önemli engeller oluşturuyordu. UniFFI, UDL spesifikasyon sistemi aracılığıyla bu bağları otomatik olarak oluşturarak bu fazlalığı ortadan kaldırır.

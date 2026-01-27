@@ -51,7 +51,7 @@ In het Bitcoin protocol bestaan zaken als _rekening_ of _monetaire eenheden_ nie
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Wat je met Bitcoin verzamelt en later uitgeeft zijn kleine of grote rekeneenheden gemeten in Satoshi, vertegenwoordigd door `onuitgegeven transactie-uitgangen`, de **UTXO**, ook wel `munten` genoemd. Wanneer je UTXO's gebruikt om een transactie te creëren, worden ze volledig vernietigd en andere UTXO's worden in hun plaats gecreëerd.
 
@@ -568,7 +568,7 @@ Coin controle is een zeer effectieve praktijk voor het selecteren van je transac
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 We hebben het eerder gehad over `segregatie van resten`. Als je restanten wilt vergrendelen voor latere verwerking en privacy wilt herwinnen (swap op Layer 2), moet je ervoor zorgen dat je ze `labelt` telkens als je er een ontvangt. Van de Software Wallets die we tot nu toe hebben gezien, kleurt alleen Electrum UTXO restanten grafisch om ze in één oogopslag zichtbaar te maken. Anderen, zoals Sparrow, tonen je de keten in het afleidingspad van de individuele UTXO (`m/84'/0'/1/11`).
 

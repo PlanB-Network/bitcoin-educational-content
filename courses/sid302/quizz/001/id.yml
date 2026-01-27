@@ -1,0 +1,8 @@
+question: Berapa banyak tanda tangan fungsionaris yang diperlukan untuk memvalidasi sebuah blok dalam Liquid Network?
+answer: Setidaknya 11 dari 15 pejabat harus menandatangani
+wrong_answers:
+  - Setidaknya 8 dari 15 pejabat harus menandatangani
+  - Setidaknya 10 dari 15 pejabat harus menandatangani
+  - Setidaknya 12 dari 15 pejabat harus menandatangani
+explanation: |
+  Liquid Network membutuhkan tanda tangan dari setidaknya 11 dari 15 fungsionaris untuk memvalidasi sebuah blok, yang mewakili ambang batas dua pertiga plus satu. Persyaratan khusus ini memastikan konsensus yang kuat sekaligus mencegah kelompok kecil untuk mengendalikan jaringan. Pilihan lainnya tidak tepat: 8 tanda tangan akan terlalu sedikit untuk keamanan, 10 tidak akan memenuhi ambang batas dua pertiga, dan 12 tidak perlu dibatasi untuk operasi normal.

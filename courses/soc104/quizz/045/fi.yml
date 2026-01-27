@@ -1,0 +1,9 @@
+question: Hayekin analyysin mukaan mikä peruslähestymistapa erottaa sosialistisen ideologian liberaalista talousfilosofiasta?
+answer: Konstruktivismi - uskomus, jonka mukaan valtion tulisi aktiivisesti rakentaa ja muokata yhteiskuntaa rationaalisen suunnittelun mukaisesti
+wrong_answers:
+  - Spontaani järjestys - uskomus, jonka mukaan yhteiskunnan pitäisi kehittyä luonnollisesti yksilöiden markkinavuorovaikutuksen kautta
+  - Kollektivismi - uskomus, että kaikki yksityisomaisuus olisi välittömästi poistettava vallankumouksellisin keinoin
+  - Uudelleenjako - uskomus, jonka mukaan varallisuutta pitäisi siirtää vain vapaaehtoisten hyväntekeväisyysjärjestöjen kautta
+explanation: |
+  Hayek määritteli konstruktivismin keskeiseksi sosialistiseksi periaatteeksi, jonka mukaan valtio suunnittelee ja rakentaa yhteiskuntaa aktiivisesti suunnittelun ja väliintulon avulla,
+  vastakohtana liberaalille käsitykselle spontaanista järjestyksestä, jossa yhteiskunta kehittyy luonnollisesti yksilön toiminnan kautta. Tämä konstruktivistinen lähestymistapa kuvastaa sosialistien uskoa järkeen perustuvaan yhteiskuntasuunnitteluun ja ihmisen toiminnan valtiolliseen ohjaamiseen, kun taas markkinavoimien ja yksilön valintojen annetaan muovata yhteiskunnan tuloksia orgaanisesti.

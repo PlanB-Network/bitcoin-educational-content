@@ -1,0 +1,9 @@
+question: เครื่องมือหนึ่งสำหรับการยอมรับ Bitcoin สำหรับองค์กรขนาดใหญ่หรือผู้ที่หลงใหลใน Bitcoin คืออะไร?
+answer: BTCpay Server.
+wrong_answers:
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server เป็นเครื่องมือสำหรับการรับ Bitcoin สำหรับโครงสร้างขนาดใหญ่หรือผู้ที่หลงใหลในบิตคอยน์ โซลูชันอื่นๆ รวมถึง OpenNode สำหรับธุรกิจออนไลน์ที่เรียบง่ายและ Swiss Bitcoin Pay สำหรับพ่อค้าแม่ค้ามือสมัครเล่น
+reviewed: true

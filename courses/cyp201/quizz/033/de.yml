@@ -1,4 +1,4 @@
-question: Wofür ermöglicht die Sighash-Flagge SIGHASH_NONE?
+question: Was ermöglicht die Sighash-Flag SIGHASH_NONE?
 answer: Die Modifikation der Ausgaben nach der Signierung
 wrong_answers:
   - Die Modifikation der Eingaben nach der Signierung

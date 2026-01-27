@@ -1,0 +1,9 @@
+question: องค์ประกอบที่จำเป็นในการสร้างช่องทาง Lightning ที่ถือสินทรัพย์ RGB คืออะไร?
+answer: การระดมทุนในบิตคอยน์และการระดมทุนในสินทรัพย์ RGB
+wrong_answers:
+  - Bitcoin-only funding to start with
+  - RGB-only funding to start with
+  - ไม่ต้องการเงินทุน
+explanation: |
+  ช่องทางนี้ต้องการการระดมทุนด้วยบิทคอยน์ในรูปแบบ 2/2 multisig รวมถึงการระดมทุนด้วยสินทรัพย์ RGB เพื่อจัดสรรสินทรัพย์ในช่องทางเดียวกัน
+reviewed: false

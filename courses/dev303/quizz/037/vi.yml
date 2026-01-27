@@ -1,0 +1,8 @@
+question: Đặc điểm chính nào khiến các phương pháp đóng cửa trở nên hiệu quả trong Rust?
+answer: Khả năng thu nhận các biến số từ môi trường xung quanh của chúng.
+wrong_answers:
+  - Khả năng hoạt động nhanh hơn các chức năng thông thường của chúng
+  - Khả năng tự động xử lý việc phân bổ bộ nhớ của chúng
+  - Khả năng thực thi mã trong các luồng song song của chúng
+explanation: |
+  Đặc điểm cơ bản làm nên sức mạnh của closure là khả năng "bao trùm" môi trường của chúng, nghĩa là chúng có thể truy cập và sử dụng các biến tồn tại trong phạm vi mà closure được định nghĩa. Khả năng nắm bắt này cho phép closure duy trì trạng thái và ngữ cảnh từ môi trường tạo ra chúng, làm cho chúng linh hoạt hơn nhiều so với các hàm thông thường. Mặc dù closure có thể được tối ưu hóa về hiệu suất và sử dụng trong ngữ cảnh đa luồng, nhưng đây chỉ là những lợi ích thứ yếu - sức mạnh cốt lõi của chúng đến từ khả năng nắm bắt các biến môi trường.

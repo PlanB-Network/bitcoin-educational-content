@@ -1,0 +1,9 @@
+question: Milline on välgukanali läbilaskevõime?
+answer: Lukustatud kogusumma
+wrong_answers:
+  - Kogu olemasolev likviidsus ühes suunas
+  - Maksimaalsed tasud
+  - Võimalike maksete maksimaalne arv
+explanation: |
+  Võimsus vastab kanali multisignaaliväljundis blokeeritud sats kogusummale.
+reviewed: false

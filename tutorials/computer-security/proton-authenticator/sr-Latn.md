@@ -194,7 +194,7 @@ Prvo, možete se konsultovati sa našim vodičem za ProtonMail za više informac
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 Prijavite se na svoj ProtonMail nalog i idite na podešavanja bezbednosti. Potražite opciju "Dvofaktorska autentifikacija" i aktivirajte je.
 
@@ -495,7 +495,7 @@ Idealno je koristiti više od jednog drugog faktora na vašim kritičnim nalozim
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Isto tako, držite odštampane hitne kodove pri ruci.
 
@@ -545,7 +545,7 @@ U nastavku ćete pronaći naš vodič za Authy:
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Proton Authenticator je jedno od najopsežnijih i najsigurnijih rešenja dostupnih: otvorenog koda, sinhronizacija šifrovana na više uređaja, bez komercijalnog praćenja.
 

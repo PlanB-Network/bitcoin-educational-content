@@ -1,12 +1,11 @@
-question: Ni ibihe bikorwa vyemewe kugira ngo umuntu agire umutekano mwiza cane afise ivyemezo bikomeye?
-answer: Koresha imeyili itekanye Address n’umucungerezi w’ijambobanga, kandi wemere 2FA ukoresheje YubiKeys.
+question: Ni ibihe bikorwa uhanuriwe gukora ngo umuntu ugire umutekano ukwiye hamwe nukwemeze gukomeye?
+answer: Koresha aderese imeyiri ifise umutekano n'ubutunganyirizo bw'ijambo ry'ibanga, kandi wimenyereze gukoresha 2FA ukoresheje YubiKeys.
 wrong_answers:
   - Koresha ijambobanga rusangi kuri konti zose, kandi wirinde 2FA
   - Koresha ijambobanga ryoroshe kandi wizigire amakuru ya biometric ya 2FA
-  - Koresha imeyili itekanye Address, ariko wirinde abacungera ijambobanga na 2FA
+  - Koresha aderese imeyirii ifise umutekano, ariko wirinde ubutunganyirizo bw'ijambo ry'ibanga na 2FA
 explanation: |
-  Kugira ngo ugire umutekano mwiza, birakenewe ko ukoresha umutekano
-  email Address, umucungerezi w'ijambobanga ry'umutekano, kandi wemere 2FA
-  ukoresheje imfunguruzo za Yubi. Ni vyiza kandi kugura bibiri .
-  YubiKeys kugira ngo witege imbere y’igihe ukubura canke ubusuma.
+  Kugira ngo ugire umutekano ukwiye, uhanuwe gukoresha aderese imeyiri ifise umutekanoo, ubutunganyirizo bw'ijambo ry'ibanga
+  burinzwe, kandi wimenyereze gukoresha 2FA ukoresheje YubiKeys. 
+  Ni vyiza kandi kugura YubiKeys zibiri kugira ngo witege ko wotakaza canke ukibwa,
 reviewed: true

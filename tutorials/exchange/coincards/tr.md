@@ -42,7 +42,7 @@ Ağabeyi Bitrefill ve rakipleri (The Bitcoin Company, Coinsbee vs...) gibi Coinc
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards, perakendeden fast food'a, yayın platformlarından çevrimiçi oyunlara, e-ticaret sitelerine ve daha fazlasına kadar geniş bir seçenek yelpazesi sunuyor...
 
@@ -67,7 +67,7 @@ Bu, iyi bir gizlilik korumasının keyfini çıkarırken hediye kartları için 
 
 
 
-Ana Lightning cüzdanları (Phoenix, Breez, BitKit, Zeus...) hakkında çeşitli eğitimleri burada bulabilirsiniz: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+Ana Lightning cüzdanları (Phoenix, Breez, BitKit, Zeus...) hakkında çeşitli eğitimleri burada bulabilirsiniz: [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -75,7 +75,7 @@ Lightning Network'in nasıl çalıştığı hakkında daha fazla bilgi edinmek i
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Coincards üzerinden nasıl BTC hediye kartı satın alabilirim?
 
@@ -244,4 +244,4 @@ Bitcoin'ün yaygınlaşmasına yardımcı olmak ve bağımsız bir tüccarı bu 
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

@@ -1,0 +1,9 @@
+question: Jaký mechanismus brání uvolnění starého stavu kanálu Lightning?
+answer: Klíč odvolání
+wrong_answers:
+  - Transakční poplatky
+  - Absolutní časomíry
+  - Síťové drby
+explanation: |
+  Klíče odvolání se používají k penalizaci uzlu, který se pokusí zveřejnit starý stav kanálu.
+reviewed: false

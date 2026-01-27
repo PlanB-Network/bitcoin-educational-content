@@ -34,7 +34,7 @@ Lightning Network Daemon은 Lightning Network의 완전한 Go 구현입니다. L
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## 나만의 라이트닝 노드를 보유해야 하는 이유는 무엇인가요?
 
@@ -64,7 +64,7 @@ https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 머신에서 LND 구현 인스턴스를 실행하는 데는 두 가지 옵션이 있습니다. 로컬에서 실행하도록 자체 머신에서 환경을 설정하거나 Docker 컨테이너에서 LND을 설치할 수 있습니다. 여기서는 첫 번째 옵션에 집중하고 이후 튜토리얼에서 Docker를 진행하는 방법을 살펴보겠습니다.
@@ -665,4 +665,4 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -1,4 +1,4 @@
-question: Ni zana gani ya chanzo wazi inaweza kusimba diski kikamilifu chini ya Linux?
+question: Ni zana gani ya chanzo wazi inaweza kusimba disk kikamilifu chini ya Linux?
 answer: LUKS
 wrong_answers:
   - BitLocker
@@ -6,4 +6,4 @@ wrong_answers:
   - SuperCrypt
 explanation: |
   LUKS (Linux Unified Key Setup) ndiyo suluhisho la kawaida kwenye Linux kwa usimbaji fiche kamili wa diski wakati wa usakinishaji.
-reviewed: false
+reviewed: true

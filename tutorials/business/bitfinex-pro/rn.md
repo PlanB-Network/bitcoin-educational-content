@@ -17,7 +17,7 @@ Muri iyi nyigisho, tuzovuga ingene umuntu yokora konti y’ubudandaji kuri Bitfi
 Niba ukunda ivyerekeye gushiramwo Bitcoin mu bucuruzi bwawe, ndagusavye kandi kumenya inyigisho yacu yuzuye y’ivyigwa ku bijanye n’ico ciyumviro:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Gukora konti ya Bitfinex
 
@@ -37,12 +37,12 @@ Uzuza amakuru asabwa: shiramwo email yawe y’ubucuruzi Address n’igihugu ishi
 Ku mpanuro zo gukoresha no kurinda amajambo banga akomeye kandi yihariye, raba kandi iyi nyigisho:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ubu turiko turategura 2FA kugira ngo konti ibe nziza. Koresha porogaramu yo kwemeza kuri telefone yawe, nka Google Authenticator canke Authy nk’akarorero. Uzosanga inyigisho kuri iki gikoresho hano:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scan code ya QR ukoresheje app yawe hanyuma winjize imibare 6 yatanzwe.
 
@@ -234,7 +234,7 @@ Bitfinex kandi itanga uburyo bwo gushiramwo no gukura amahera biciye ku Lightnin
 Niba ukunda Lightning Network, turafise kandi inyigisho yuzuye kugira ngo ushobore gutahura ingene ikora:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Gugura no kugurisha amafaranga y'ibiceri kuri Bitfinex .
 
@@ -352,4 +352,4 @@ Bivanye n’intumbero n’imiterere y’ishirahamwe ryawe, ikoreshwa rya Bitfine
 Kugira ngo ubone neza iki ciyumviro, ndagusavye ko wogira iyi nyigisho yuzuye ku bijanye no gushiramwo Bitcoin mu bucuruzi, ivuga mu buryo burambuye kwongera ku bijanye n’amahera, kwemera kwishura Bitcoin, n’ugucungera amafaranga:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

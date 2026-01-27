@@ -82,7 +82,7 @@ Per aggiungere un nuovo dispositivo, basta ripetere il processo di installazione
 
 Per impostare un codice di autenticazione 2FA tramite un'app come Authy su un account, questo deve supportare tale funzionalità. Oggi, la maggior parte dei servizi online offre questa opzione 2FA, ma non è sempre così. Prendiamo l'esempio dell'account Proton mail che ho presentato in un altro tutorial:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![AUTHY 2FA](assets/notext/13.webp)
 

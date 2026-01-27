@@ -1,5 +1,5 @@
 ---
-name: スタッシュペイ
+name: StashPay
 description: ミニマリストのためのBitcoin Wallet
 ---
 
@@ -42,7 +42,7 @@ StashPayはReact Nativeで開発されたオープンソースのプロジェク
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 設定」アイコンをクリックしてStashPayの設定にアクセスし、**バックアップを作成**オプションをクリックします。次に、回復フレーズの表示を許可します。お使いの携帯電話にインストールされている他の不正アプリケーションからアクセスできる可能性があるため、回復フレーズを携帯電話のクリップボードにコピーしないでください。
 
@@ -88,7 +88,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### StashPayでビットコインを送る
 
@@ -106,7 +106,7 @@ StashPayはBreez Development KitをベースとしたWalletであるため、メ
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 しかし、Breez SDKは、メインチェーン上のAddressにビットコインを送ることができる最低額を課しています。
 
@@ -168,4 +168,4 @@ StashPayのミニマリストBitcoin Walletを使いこなしたところです�
 
 
 
-https://planb.network/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

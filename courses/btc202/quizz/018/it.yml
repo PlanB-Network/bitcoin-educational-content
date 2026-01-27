@@ -1,9 +1,9 @@
 question: Qual è l'implementazione del nodo Bitcoin più diffusa?
-answer: Bitcoin core
+answer: Bitcoin Core
 wrong_answers:
   - Bitcoin Knots
-  - Bitcoin Classico
+  - Bitcoin Classic
   - Bcoin
 explanation: |
-  Con circa 9 nodi su 10 della rete, Bitcoin core è il cliente principale.
+  Con circa 9 nodi su 10 del network, Bitcoin Core è il cliente principale.
 reviewed: true

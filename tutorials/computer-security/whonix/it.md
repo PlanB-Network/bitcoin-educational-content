@@ -48,7 +48,7 @@ Per eseguire Whonix, è necessario un **hypervisor** come VirtualBox, Qubes o KV
 
 Una volta scaricato il file, installalo come faresti con qualsiasi altro software. Accetta le opzioni predefinite, a meno che tu non abbia esigenze specifiche. Ti sei perso? Consulta la nostra guida all'uso di VirtualBox.
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 ### Importare Whonix
 
@@ -123,16 +123,16 @@ sudo apt full-upgrade
 
 **Tor Browser** è il browser Web predefinito di Whonix. Si basa sulla rete **Tor**, che reindirizza il traffico dell'utente attraverso diversi relay in tutto il mondo, rendendo praticamente impossibile l'identificazione del tuo vero indirizzo IP.
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
 **Electrum** è un Bitcoin Wallet leggero e veloce, preinstallato su Whonix per consentire di gestire le **transazioni di criptovaluta** in modo anonimo. Non scarica l'intera Blockchain, ma utilizza server remoti per ottenere le informazioni necessarie, rendendolo molto più leggero di un wallet completo.
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix è più di un semplice sistema operativo: è un vero e proprio **ambiente sicuro** progettato per proteggere l'anonimato, la privacy e le attività sensibili. Grazie alla sua architettura basata su Tor, al partizionamento intelligente tra Gateway e Workstation e a strumenti preinstallati come Tor Browser, KeePassXC ed Electrum, offre una soluzione chiavi in mano a chiunque desideri **navigare in internet in modo anonimo**, **lavorare in modo sicuro** o **gestire dati riservati**.
 
 Per rafforzare la sicurezza del tuo sistema Unix, dai un'occhiata al nostro tutorial sull'auditing del tuo computer: controlla le falle di sicurezza del tuo sistema operativo e assicurati che i tuoi dati non siano compromessi.
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

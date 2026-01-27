@@ -1,0 +1,8 @@
+question: Hvilken kritisk begrensning i økosystemene for mobilapper avslørte den opprinnelige Breez-appen som påvirket utviklingen av SDK-arkitekturen?
+answer: Mobilapper kan ikke enkelt kommunisere med hverandre, noe som tvinger utviklere til å bygge alle Lightning-funksjoner inn i enkeltapplikasjoner i stedet for å dele Lightning-infrastruktur
+wrong_answers:
+  - Mobile enheter har ikke tilstrekkelig regnekraft til å drive Lightning-noder på en pålitelig måte, og det kreves skybasert infrastruktur for å håndtere komplekse rutingsberegninger
+  - Mobile operativsystemer begrenser bakgrunnsprosessene for mye, noe som hindrer Lightning-noder i å opprettholde vedvarende tilkoblinger til nettverket
+  - App-butikker forbyr finansielle applikasjoner som ikke er depotbaserte, noe som tvinger utviklere til å implementere depotbaserte løsninger for å oppnå godkjenning i app-butikken
+explanation: |
+  Den opprinnelige Breez-appen viste at mobile økosystemer ikke legger til rette for kommunikasjon mellom apper, noe som hindrer spesialiserte applikasjoner i å utnytte felles Lightning-infrastruktur. Denne arkitektoniske begrensningen tvang all Lightning-funksjonalitet inn i monolittiske applikasjoner. De andre alternativene er feil: Mobile enheter kan kjøre Lightning-noder (som Breez beviste), bakgrunnsbegrensninger er håndterbare med riktig arkitektur, og appbutikker tillater generelt ikke-frihetsberøvende finansapper.

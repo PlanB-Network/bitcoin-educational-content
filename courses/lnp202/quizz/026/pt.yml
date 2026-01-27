@@ -1,0 +1,9 @@
+question: O que é que uma torre de vigia em funcionamento normal pode deduzir sobre o canal que está a proteger?
+answer: Com que frequência o seu estado é atualizado
+wrong_answers:
+  - Atribuição de Liquidity
+  - A sua capacidade
+  - Política de despesas
+explanation: |
+  Recebe pacotes encriptados para cada novo estado, revelando apenas a taxa normal de atividade.
+reviewed: false

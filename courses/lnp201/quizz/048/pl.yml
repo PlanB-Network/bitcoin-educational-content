@@ -6,4 +6,4 @@ wrong_answers:
   - Środki są zasilane bezpośrednio bez dodatkowych zabezpieczeń
 explanation: |
   Keysend pozwala nadawcy na wygenerowanie sekretu osadzonego w HTLC, umożliwiając odbiorcy odblokowanie środków bez wydawania faktury.
-reviewed: false
+reviewed: true

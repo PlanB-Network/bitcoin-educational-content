@@ -100,11 +100,11 @@ Para que o Manjaro funcione da melhor forma, o seu computador deve cumprir algun
 
 
 
-Para descarregar, vá ao [sítio Web oficial do Manjaro] (https://manjaro.org/) e escolha a edição que melhor se adapta às suas necessidades. Depois de ter descarregado o ficheiro, terá de criar uma chave USB de arranque com a imagem ISO do Manjaro.
+Para descarregar, vá ao [sítio Web oficial do Manjaro](https://manjaro.org/) e escolha a edição que melhor se adapta às suas necessidades. Depois de ter descarregado o ficheiro, terá de criar uma chave USB de arranque com a imagem ISO do Manjaro.
 
 
 
-Depois, vá ao sítio Web do software [Rufus] (https://rufus.ie/fr/) e descarregue-o. Execute o programa, ligue a sua chave USB, selecione a imagem ISO do Manjaro e comece a flashear. Aguarde que o processo termine antes de remover a chave. Pode então reiniciar o seu computador.
+Depois, vá ao sítio Web do software [Rufus](https://rufus.ie/fr/) e descarregue-o. Execute o programa, ligue a sua chave USB, selecione a imagem ISO do Manjaro e comece a flashear. Aguarde que o processo termine antes de remover a chave. Pode então reiniciar o seu computador.
 
 
 
@@ -322,7 +322,7 @@ Electrum permite-lhe **receber e enviar bitcoins** com facilidade, ao mesmo temp
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## Proteger o seu sistema Manjaro
 
@@ -395,4 +395,4 @@ O Manjaro combina **estabilidade, velocidade e segurança**, mantendo-se **intei
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

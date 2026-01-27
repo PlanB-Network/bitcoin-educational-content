@@ -1,0 +1,9 @@
+question: RGB ลดการมองเห็นได้อย่างไร?
+answer: Taproot (Tapret)
+wrong_answers:
+  - OP_RETURN (Opret)
+  - ปรับแต่ง Sig
+  - การปรับเปลี่ยนที่สำคัญ
+explanation: |
+  Taproot (Tapret) ช่วยให้สามารถแทรกข้อผูกพันลงในธุรกรรมได้อย่างรอบคอบและมีประสิทธิภาพ ในขณะที่ยังคงความเข้ากันได้กับมาตรฐานปัจจุบัน
+reviewed: false

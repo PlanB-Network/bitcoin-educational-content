@@ -1,0 +1,8 @@
+question: Rust'da yineleyicilerin tembel olmasının temel avantajı nedir?
+answer: Tüketilene kadar herhangi bir iş yapmazlar, bu da ara koleksiyonlar oluşturmadan verimli zincirlemeye olanak tanır
+wrong_answers:
+  - Daha iyi performans için işlemleri otomatik olarak birden fazla CPU çekirdeği üzerinde paralelleştirirler
+  - Aynı değerlerin birden fazla kez yeniden hesaplanmasını önlemek için önceki sonuçları bellekte önbelleğe alırlar
+  - Gerçek veri değerlerini kopyalamak yerine yalnızca referansları depolayarak daha az bellek kullanırlar
+explanation: |
+  Rust yineleyicilerindeki tembel değerlendirme, tüketen bir yöntem çağrılana kadar herhangi bir işlem gerçekleştirmedikleri anlamına gelir. Bu, her adım arasında ara koleksiyonlar oluşturmadan map, filter ve diğer adaptörler gibi birden fazla işlemi zincirlemenize olanak tanır. Derleyici, her aşamada geçici vektörler veya diğer koleksiyonlar oluşturmak yerine, tüm dönüşümler boyunca öğeleri birer birer işleyen verimli kodda tüm zinciri optimize edebilir.

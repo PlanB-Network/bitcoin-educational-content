@@ -1,0 +1,9 @@
+question: Selon les pratiques de divulgation responsable, quel est le principal dilemme éthique auquel sont confrontés les chercheurs en sécurité qui découvrent des vulnérabilités dans des systèmes décentralisés tels que Bitcoin ?
+answer: Trouver un équilibre entre la nécessité d'informer les parties responsables et celle d'éviter la divulgation à des acteurs potentiellement malveillants qui pourraient exploiter la vulnérabilité
+wrong_answers:
+  - Décider s'il faut tirer profit de la découverte de la vulnérabilité par le biais d'un programme de récompense des bogues ou donner l'information gratuitement à la communauté
+  - Choisir entre la déclaration aux autorités gouvernementales d'abord et la déclaration directement à l'équipe de développement de logiciels pour éviter les complications réglementaires
+  - Déterminer la compensation financière appropriée pour la découverte de vulnérabilités avant d'accepter de divulguer les informations aux développeurs
+explanation: |
+  Le principal défi éthique de la divulgation responsable est l'équilibre délicat entre la transparence et la sécurité. Les chercheurs doivent s'assurer que les vulnérabilités sont corrigées sans fournir par inadvertance une feuille de route pour une exploitation malveillante. Pour ce faire, ils doivent se coordonner soigneusement avec les développeurs, choisir le bon moment pour divulguer les informations et tenir compte de l'impact plus large sur l'écosystème. Les autres options se concentrent sur des préoccupations financières ou réglementaires qui, bien que potentiellement pertinentes, ne constituent pas le principal dilemme éthique décrit dans les pratiques de divulgation responsable.
+reviewed: false

@@ -84,7 +84,7 @@ Session visualizzerà quindi una frase Mnemonic. Copiala con cura e conservatela
 
 Questa frase funziona in modo simile alle frasi Mnemonic utilizzate nei portafogli Bitcoin. Ti consiglio quindi di consultare quest'altro tutorial, in cui spiego le migliori pratiche per salvare una frase Mnemonic:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Nota bene**: a differenza delle frasi Mnemonic utilizzate nei portafogli Bitcoin, in Session **è assolutamente necessario salvare ogni parola nella sua interezza**. Le prime 4 lettere non sono sufficienti!
 
@@ -165,4 +165,4 @@ Congratulazioni, ora hai imparato a usare la messaggistica di Session, un'ottima
 
 Ti consiglio anche quest'altro tutorial, in cui presento Threema, un'altra interessante alternativa per la tua applicazione di messaggistica:
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

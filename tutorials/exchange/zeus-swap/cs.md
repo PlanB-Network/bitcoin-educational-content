@@ -51,7 +51,7 @@ Podrobnější informace o tom, jak Lightning Network funguje, naleznete v naše
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Obchodní model
 
@@ -149,7 +149,7 @@ Další informace o tomto kompletním systému Wallet naleznete v našem výukov
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Webová konfigurace
 
@@ -390,12 +390,13 @@ Tento velmi zjednodušený přístup je dokonale vhodný pro začátečníky, al
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| Služba | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Minimální částka |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + poplatky za těžbu | 0.5% + poplatky za těžbu | 25 000 sats |
+| **Boltz** | 0.2% + poplatky za těžbu | 0.5% + poplatky za těžbu | 50 000 sats |
+| **Phoenix** | Pouze poplatky za těžbu | 0.4% fixní | 10 000 sats |
+| **Breez** | 0.25% + síťové poplatky | 0.5% + poplatky za těžbu | 50 000 sats |
 
 Zeus Swap nabízí rovnováhu mezi snadným používáním a technickou kontrolou: je přístupnější než Boltz, flexibilnější než Phoenix/Breez, s přísným neomezujícím přístupem.
 

@@ -11,7 +11,7 @@ description: Komplett guide till att använda Bisq 2 och växla bitcoins P2P
 KYC-fria peer-to-peer (P2P)-börser är viktiga för att bevara användarnas integritet och finansiella självständighet. De möjliggör direkta transaktioner mellan individer utan behov av identitetsverifiering, vilket är avgörande för dem som värdesätter integritet. För en mer djupgående förståelse av de teoretiska begreppen, ta en titt på BTC204-kursen:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Vad är Bisq 2?
 
@@ -31,7 +31,7 @@ Bisq 2 är den nya versionen av den populära decentraliserade Bisq Exchange, so
 - Rollsystem med obligatorisk deposition i BSQ
 
 
-Denna guide fokuserar uteslutande på "Bisq Easy", det enda protokoll som för närvarande är tillgängligt. Bisq Easy har utformats speciellt för nya Bitcoin-användare. Detta protokoll gör det möjligt för användare att köpa och sälja Bitcoins mot fiatvalutor på en decentraliserad peer-to-peer-plattform. Transaktioner är begränsade till motsvarande 600 USD (med ett minimum på 6 USD), och Exchange-säkerheten förlitar sig på BTC-säljarnas rykte. Bisq Easy har inga handelsavgifter eller krav på säkerhetsdeposition. Bisq Easy förväntas ersätta Bisq 1 för kontantutbyten under 600 USD (eller motsvarande).
+Denna guide fokuserar uteslutande på "Bisq Easy", det enda protokollet som för närvarande är tillgängligt. Bisq Easy har utformats speciellt för nya Bitcoin-användare. Detta protokoll gör det möjligt för användare att köpa och sälja bitcoins mot fiatvalutor på en decentraliserad peer-to-peer-plattform. Transaktioner är begränsade till motsvarande 600 USD (med ett minimum på 6 USD), och säkerheten i handeln bygger på BTC-säljares rykte. Bisq Easy har varken handelsavgifter eller krav på säkerhetsinsättning. Det är planerat att Bisq Easy ska ersätta Bisq 1 för fiat-handlar under 600 USD (eller motsvarande).
 
 
 **Huvudfunktioner:**
@@ -84,7 +84,7 @@ Denna guide fokuserar uteslutande på "Bisq Easy", det enda protokoll som för n
 - Den som skapar erbjudandet definierar villkoren för Exchange
 - När handlarna har kommit överens om villkoren (betalningsmetod och pris) börjar Exchange
 - Säljaren skickar sina bankuppgifter till köparen, och köparen skickar sina Bitcoin Address till säljaren
-- Köparen erlägger kontant betalning och meddelar säljaren
+- Köparen gör betalningen i fiatvaluta och meddelar säljaren
 - När betalningen har mottagits skickar säljaren bitcoins till köparens Address
 - Exchange är slutfört när köparen tar emot bitcoins
 
@@ -117,12 +117,12 @@ Denna guide fokuserar uteslutande på "Bisq Easy", det enda protokoll som för n
 - Verifiera äktheten för den nedladdade filen (rekommenderas starkt). För en detaljerad guide till signaturverifiering, se följande handledning:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installation enligt ditt system
 
 
-Följ de installationssteg som gäller för ditt operativsystem. Om du stöter på några problem under installationen kan du läsa den detaljerade guiden på [officiella Bisq-wiki] (https://bisq.wiki/Downloading_and_installing).
+Följ de installationssteg som gäller för ditt operativsystem. Om du stöter på några problem under installationen kan du läsa den detaljerade guiden på [officiella Bisq-wiki](https://bisq.wiki/Downloading_and_installing).
 
 
 ### 3. Första uppstarten
@@ -180,7 +180,7 @@ Att förkonfigurera betalningsmetoder är valfritt, men rekommenderas för att s
 **Säkerhetskopiering av data:**
 
 
-Till skillnad från Bisq 1 integrerar Bisq 2 för närvarande inte en Bitcoin Wallet: transaktioner utförs därför via dina egna externa plånböcker. Vi rekommenderar ändå att du regelbundet säkerhetskopierar din Bisq 2-datamapp. För att hitta din datamapp, se [officiella Bisq-wiki] (https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
+Till skillnad från Bisq 1 integrerar Bisq 2 för närvarande inte en Bitcoin Wallet: transaktioner utförs därför via dina egna externa plånböcker. Vi rekommenderar ändå att du regelbundet säkerhetskopierar din Bisq 2-datamapp. För att hitta din datamapp, se [officiella Bisq-wiki](https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
 
 
 **Identitetshantering:**
@@ -523,4 +523,4 @@ Dessa protokoll är för närvarande under utveckling och kommer successivt att 
 - Officiell webbplats: [bisq.network](https://bisq.network)
 - Dokumentation: [Bisq Wiki](https://bisq.wiki)
 - Stöd: [Forum Bisq](https://bisq.community)
-- Källkod : [GitHub] (https://github.com/bisq-network)
+- Källkod : [GitHub](https://github.com/bisq-network)

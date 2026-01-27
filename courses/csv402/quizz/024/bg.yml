@@ -1,0 +1,9 @@
+question: Кой механизъм в RGB позволява групирането на няколко прехода в една транзакция на Bitcoin?
+answer: Transition Bundle
+wrong_answers:
+  - Агрегация на Seal
+  - Дърво Multi-Commitment
+  - Консолидация на държавата
+explanation: |
+  Transition Bundle е набор от преходи в състояние RGB (принадлежащи към един и същ договор), които участват в една и съща транзакция на свидетел Bitcoin.
+reviewed: false

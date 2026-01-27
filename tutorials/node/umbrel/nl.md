@@ -222,7 +222,7 @@ Voor deze installatie heb je nodig :
 
 
 
-- Bezoek de [officiële website] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- Bezoek de [officiële website](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - Download de nieuwste versie van UmbrelOS voor Raspberry Pi 5
 
 
@@ -236,7 +236,7 @@ Voor deze installatie heb je nodig :
 
 
 
-- Download en installeer [Balena Etcher] (https://www.balena.io/etcher/) op uw computer
+- Download en installeer [Balena Etcher](https://www.balena.io/etcher/) op uw computer
 
 
 
@@ -710,7 +710,7 @@ De Tor-verbinding is nodig als je toegang wilt tot je node buiten je lokale netw
 Voor meer informatie over Sparrow wallet software hebben we een uitgebreide handleiding:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Conclusie
 
 
@@ -739,10 +739,10 @@ Uw Umbrel is nu klaar voor gebruik. U neemt actief deel aan het Bitcoin netwerk 
 
 
 
-- [Bitcoin core] (https://Bitcoin.org/fr/)
+- [Bitcoin core](https://Bitcoin.org/fr/)
 - [Electrs](https://github.com/romanz/electrs)
-- [Mempool] (https://Mempool.space)
-- [Sparrow wallet] (https://sparrowwallet.com)
+- [Mempool](https://Mempool.space)
+- [Sparrow wallet](https://sparrowwallet.com)
 
 
 

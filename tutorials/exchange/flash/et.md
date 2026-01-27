@@ -23,7 +23,7 @@ Selles õppematerjalis vaatleme Flash'i, Benini lahendust, mis võimaldab teil o
 
 
 
-Flash on Exchange platvorm, mille on välja töötanud [BlockSolut] (https://bitcoinflash.xyz) ja mis tegutseb mitmes Lääne-Aafrika riigis. Flash'i peamine ülesanne on hõlbustada Exchange omandamist, Bitcoin kasutamist ja kasutamist igapäevaelus.
+Flash on Exchange platvorm, mille on välja töötanud [BlockSolut](https://bitcoinflash.xyz) ja mis tegutseb mitmes Lääne-Aafrika riigis. Flash'i peamine ülesanne on hõlbustada Exchange omandamist, Bitcoin kasutamist ja kasutamist igapäevaelus.
 
 
 Flash tugineb Lightning Network-le, Bitcoin pealiskihile, et teostada Bitcoin tehinguid turvaliselt ja sujuvalt, näidates oma kogukonnale Bitcoin võimsust igapäevaelus.
@@ -110,7 +110,7 @@ Jätkake maksmisega, seejärel sisestage oma Lightning Address, et kinnitada oma
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Tehingu tegemine Flashiga võtab keskmiselt 5-10 minutit, et saada bitcoinid oma Lightning Wallet-sse.
 
@@ -202,4 +202,4 @@ Kui see õpetus oli teile Flashiga tutvumisel kasulik, siis andke meile Green p�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

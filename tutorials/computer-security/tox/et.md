@@ -10,25 +10,26 @@ Lõppkrüpteerimine on teenus, mida pakuvad paljud sõnumirakendused, näiteks W
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| **Tox**              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+
+| Rakendus             | E2EE 1:1       | E2EE rühmad   | Anonüümne registreerimine | Avatud lähtekoodiga kliendilitsents | Avatud lähtekoodiga serverilitsents | Detsentraliseeritud server | Loomisaasta      |
+| -------------------- | -------------- | -------------- | ------------------------ | ---------------------------------- | ----------------------------------- | ------------------------ | ---------------- |
+| WhatsApp             | ✅              | ✅              | ❌                        | ❌                                  | ❌                                   | ❌                        | 2009             |
+| WeChat               | ❌              | ❌              | ❌                        | ❌                                  | ❌                                   | ❌                        | 2011             |
+| Facebook Messenger   | ✅              | 🟡 (valikuline)| ❌                        | ❌                                  | ❌                                   | ❌                        | 2011             |
+| Telegram             | 🟡 (valikuline)| ❌              | 🟡                       | ✅                                  | ❌                                   | ❌                        | 2013             |
+| LINE                 | ✅              | ✅              | ❌                        | ❌                                  | ❌                                   | ❌                        | 2011             |
+| Signal               | ✅              | ✅              | ❌                        | ✅                                  | ✅                                   | ❌                        | 2014             |
+| Threema              | ✅              | ✅              | ✅                        | ✅                                  | ❌                                   | ❌                        | 2012             |
+| Element (Matrix)     | ✅              | ✅              | ✅                        | ✅                                  | ✅                                   | 🟡 (föderatiivne)        | 2016             |
+| Delta Chat           | ✅              | ✅              | ✅                        | ✅                                  | N/A                                  | 🟡 (e-posti kaudu)        | 2017             |
+| Conversations (XMPP) | ✅              | ✅              | ✅                        | ✅                                  | ✅                                   | 🟡 (föderatiivne)        | 2014             |
+| Session              | ✅              | ✅              | ✅                        | ✅                                  | ✅                                   | ✅                        | 2020             |
+| SimpleX              | ✅              | ✅              | ✅                        | ✅                                  | ✅                                   | ✅                        | 2021             |
+| Olvid                | ✅              | ✅              | ✅                        | ✅                                  | ❌                                   | 🟡(ilma kataloogita)     | 2019             |
+| Keet                 | ✅              | ✅              | ✅                        | ❌                                  | N/A                                  | ✅                        | 2022             |
+| Jami                 | ✅              | ✅              | ✅                        | ✅                                  | N/A                                  | ✅                        | 2005             |
+| Briar                | ✅              | ✅              | ✅                        | ✅                                  | N/A                                  | ✅                        | 2018             |
+| **Tox**              | ✅              | ✅              | ✅                        | ✅                                  | N/A                                  | ✅                        | 2013             |
 
 *E2EE = End-to-end krüpteerimine*
 
@@ -304,4 +305,4 @@ Kui sulle meeldis Toxi avastamine ja saite aru, kuidas see on kasulik teie priva
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

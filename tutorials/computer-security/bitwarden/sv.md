@@ -24,7 +24,7 @@ En lösenordshanterare genererar och lagrar starka lösenord på ett säkert sä
 
 I den här handledningen kommer vi att utforska hur man ställer in och använder en lösenordshanterare för att förbättra din online-säkerhet. Jag kommer att presentera dig för Bitwarden, och i en annan handledning kommer vi att titta på en annan lösning som heter KeePass.
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Varning: En lösenordshanterare är bra för att lagra lösenord, men **du ska aldrig lagra din Bitcoin Wallet:s Mnemonic-fras i den!** Kom ihåg att en Mnemonic-fras uteslutande ska sparas i ett fysiskt format, som en bit papper eller metall.
 
@@ -55,7 +55,7 @@ En annan funktion i Bitwarden är möjligheten att själv vara värd för din l�
 ## Hur skapar jag ett Bitwarden-konto?
 
 
-Gå till [Bitwardens webbplats] (https://bitwarden.com/) och klicka på "*Get Started*".
+Gå till [Bitwardens webbplats](https://bitwarden.com/) och klicka på "*Get Started*".
 
 ![BITWARDEN](assets/notext/03.webp)
 
@@ -117,9 +117,9 @@ Först och främst rekommenderar jag starkt att du ställer in tvåfaktorsautent
 Om du är osäker på hur du ställer in och använder dessa 2FA-enheter rekommenderar jag att du följer dessa två andra handledningar:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Detta gör du genom att gå till fliken "*Säkerhet*" i menyn "*Inställningar*".
 
@@ -177,7 +177,7 @@ I det formulär som öppnas börjar du med att bestämma vilken typ av objekt so
 
 ![BITWARDEN](assets/notext/26.webp)
 
-I fältet "*Name*" anger du ett beskrivande namn för dina inloggningsuppgifter. Detta gör det lättare att söka efter och organisera dina lösenord, särskilt om du har ett stort antal. Om du till exempel vill spara dina inloggningsuppgifter för PlanB Network-webbplatsen kan du namnge det här objektet på ett sätt som gör att du omedelbart känner igen det under dina framtida sökningar.
+I fältet "*Name*" anger du ett beskrivande namn för dina inloggningsuppgifter. Detta gör det lättare att söka efter och organisera dina lösenord, särskilt om du har ett stort antal. Om du till exempel vill spara dina inloggningsuppgifter för Plan ₿ Academy-webbplatsen kan du namnge det här objektet på ett sätt som gör att du omedelbart känner igen det under dina framtida sökningar.
 
 ![BITWARDEN](assets/notext/27.webp)
 
@@ -235,7 +235,7 @@ Din mapp visas nu i din manager.
 
 ![BITWARDEN](assets/notext/41.webp)
 
-Du kan tilldela en mapp till en identifierare när du skapar den, som vi gjorde tidigare, eller genom att ändra en befintlig identifierare. Om jag till exempel klickar på min identifierare för PlanB Network kan jag sedan välja att klassificera den i mappen "*Bitcoin*".
+Du kan tilldela en mapp till en identifierare när du skapar den, som vi gjorde tidigare, eller genom att ändra en befintlig identifierare. Om jag till exempel klickar på min identifierare för Plan ₿ Academy kan jag sedan välja att klassificera den i mappen "*Bitcoin*".
 
 ![BITWARDEN](assets/notext/42.webp)
 
@@ -256,7 +256,7 @@ Först kan du ställa in webbläsartillägget om du vill. Det här tillägget fu
 Den dagliga användningen av detta tillägg är extremt bekvämt, men det kan också öppna nya attackvektorer. Vissa cybersäkerhetsexperter avråder därför från att använda webbläsartillägg för lösenordshanterare. Men om du väljer att använda Bitwarden-tillägget, här är hur du ska gå vidare:
 
 
-Börja med att gå till [den officiella nedladdningssidan för Bitwarden] (https://bitwarden.com/download/#downloads-web-browser).
+Börja med att gå till [den officiella nedladdningssidan för Bitwarden](https://bitwarden.com/download/#downloads-web-browser).
 
 
 ![BITWARDEN](assets/notext/44.webp)
@@ -313,7 +313,7 @@ Om jag väljer den här identifieraren fyller Bitwarden i inloggningsfälten åt
 
 ![BITWARDEN](assets/notext/53.webp)
 
-Tillägget är också utformat för att upptäcka skapandet av nya konton. Till exempel, när du skapar ett nytt konto på PlanB Network, föreslår Bitwarden automatiskt att du sparar den nya identifieraren.
+Tillägget är också utformat för att upptäcka skapandet av nya konton. Till exempel, när du skapar ett nytt konto på Plan ₿ Academy, föreslår Bitwarden automatiskt att du sparar den nya identifieraren.
 
 ![BITWARDEN](assets/notext/54.webp)
 
@@ -332,7 +332,7 @@ Sedan fyller tillägget automatiskt i våra inloggningsuppgifter i lämpliga fä
 ## Hur använder man Bitwardens programvara?
 
 
-För att installera skrivbordsprogrammet Bitwarden börjar du med att gå till [nedladdningssidan] (https://bitwarden.com/download/#downloads-desktop). Välj och ladda ner den version som motsvarar ditt operativsystem.
+För att installera skrivbordsprogrammet Bitwarden börjar du med att gå till [nedladdningssidan](https://bitwarden.com/download/#downloads-desktop). Välj och ladda ner den version som motsvarar ditt operativsystem.
 
 ![BITWARDEN](assets/notext/58.webp)
 
@@ -347,7 +347,7 @@ Därefter kommer du till din chefs hemsida. Interface är nästan densamma som i
 ## Hur använder man Bitwarden-applikationen?
 
 
-För att komma åt dina lösenord från din telefon kan du installera mobilapplikationen Bitwarden. Börja med att gå till [nedladdningssidan] (https://bitwarden.com/download/#downloads-mobile) och använd din smartphone för att skanna QR-koden som motsvarar ditt operativsystem.
+För att komma åt dina lösenord från din telefon kan du installera mobilapplikationen Bitwarden. Börja med att gå till [nedladdningssidan](https://bitwarden.com/download/#downloads-mobile) och använd din smartphone för att skanna QR-koden som motsvarar ditt operativsystem.
 
 ![BITWARDEN](assets/notext/61.webp)
 

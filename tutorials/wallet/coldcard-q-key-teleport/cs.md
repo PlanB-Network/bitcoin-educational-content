@@ -32,7 +32,7 @@ To lze použít k přenosu:
 
 
 - **gW-0 fráze** (Master seed karty ColdCard Q nebo tajemství uložená v trezoru [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **důvěrné poznámky a hesla**: může to být libovolné tajemství nebo celý adresář [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) na kartě ColdCardQ.
+- **důvěrné poznámky a hesla**: může to být libovolné tajemství nebo celý adresář [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) na kartě ColdCardQ.
 - zálohu celé karty **ColdCardQ**: aby tato záloha fungovala, nesmí mít karta ColdCardQ, která ji přijímá, Master seed.
 - gW-3 (**částečně podepsané transakce Bitcoin**) jako součást schématu s více podpisy.
 
@@ -95,7 +95,7 @@ Na obrazovce se vygeneruje kód QR. Tento QR kód je opět třeba sdělit "odes�
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *V současné době máme:*
 
@@ -145,7 +145,7 @@ Nyní budete vyzváni k výběru povahy tajemství, která mají být přenáše
 
 
 
-Zde bude naším tajemstvím krátká zpráva výběrem možnosti **"Rychlá textová zpráva "**. Napište zprávu (pro nás "PlanB Network rocks") a stiskněte **"ENTER "**.
+Zde bude naším tajemstvím krátká zpráva výběrem možnosti **"Rychlá textová zpráva "**. Napište zprávu (pro nás "Plan ₿ Academy rocks") a stiskněte **"ENTER "**.
 
 
 Zařízení poté vygeneruje nové náhodné heslo nazvané **"Heslo pro teleport "** , v příkladu "NE XG BT SK".
@@ -190,7 +190,7 @@ Stisknutím tlačítka **"QR "** naskenujete kód QR, který odesílající zař
 
 
 
-Data jsou poté dešifrována a srozumitelná přijímacímu zařízení. Přijatá zpráva je skutečně "PlanB Network rocks". To je vše.
+Data jsou poté dešifrována a srozumitelná přijímacímu zařízení. Přijatá zpráva je skutečně "Plan ₿ Academy rocks". To je vše.
 
 
 

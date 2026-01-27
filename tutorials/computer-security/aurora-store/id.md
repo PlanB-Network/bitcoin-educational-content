@@ -14,7 +14,7 @@ Dalam tutorial ini, kita akan menemukan Aurora Store, sebuah alternatif yang sed
 
 
 
-# Memulai dengan Toko Aurora
+## Memulai dengan Toko Aurora
 
 
 
@@ -32,7 +32,7 @@ Aurora Store adalah salah satu toko aplikasi alternatif yang paling populer untu
 
 
 
-Anda dapat mengunduh Aurora Store dari [situs resmi] (https://auroraoss.com/aurora-store) dengan mengklik tombol "Release" pada jenis build. Pilih opsi Vanilla jika Anda menggunakan merek ponsel selain Huawei. Model ponsel Huawei terbaru memiliki Aurora Store versi mereka sendiri karena pembatasan mereka terhadap layanan Google sebagai akibat dari sanksi AS.
+Anda dapat mengunduh Aurora Store dari [situs resmi](https://auroraoss.com/aurora-store) dengan mengklik tombol "Release" pada jenis build. Pilih opsi Vanilla jika Anda menggunakan merek ponsel selain Huawei. Model ponsel Huawei terbaru memiliki Aurora Store versi mereka sendiri karena pembatasan mereka terhadap layanan Google sebagai akibat dari sanksi AS.
 
 
 
@@ -44,13 +44,13 @@ Anda juga dapat mengunduh Aurora Store dari toko aplikasi lain seperti F-Droid a
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Namun, kami menyarankan untuk mengunduh file APK langsung dari situs web resmi untuk memastikan keaslian dan integritas Aurora Store.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 File APK (Android Package Kit) adalah format paket yang digunakan oleh sistem operasi Android untuk mendistribusikan dan menginstal aplikasi. Ini setara dengan file **.exe** di Windows atau **.dmg** di macOS.
 
@@ -88,7 +88,7 @@ Dari Aurora Store, Anda dapat mengakses katalog aplikasi yang tersedia di Google
 
 
 
-## Fitur
+### Fitur
 
 
 
@@ -155,4 +155,4 @@ Lebih dari sekadar toko aplikasi, Aurora Store adalah solusi sumber terbuka yang
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

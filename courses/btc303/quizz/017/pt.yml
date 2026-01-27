@@ -1,0 +1,9 @@
+question: Qual é a principal desvantagem dos sistemas financeiros fiáveis que a conceção sem confiança da Bitcoin pretende resolver?
+answer: A impossibilidade de efetuar transacções totalmente irreversíveis devido a requisitos de mediação de litígios
+wrong_answers:
+  - O elevado consumo de energia necessário para processar pagamentos electrónicos através dos bancos
+  - O número limitado de transacções que podem ser processadas por segundo pelas instituições financeiras
+  - A obrigação de os clientes fornecerem documentos de identificação pessoal em excesso
+explanation: |
+  De acordo com Satoshi Nakamoto no whitepaper Bitcoin, os sistemas financeiros tradicionais sofrem da fraqueza fundamental de não serem possíveis transacções completamente irreversíveis porque as instituições financeiras têm de mediar disputas. Isto cria uma cascata de problemas: aumento dos custos de transação devido à mediação, eliminação de pequenas transacções casuais e a disseminação de requisitos de confiança por todo o sistema. As outras opções, embora potencialmente relevantes para os sistemas financeiros, não são a questão central que o projeto sem confiança do Bitcoin aborda especificamente. A inovação do Bitcoin é permitir a liquidação final sem exigir que um terceiro de confiança reverta as transacções.
+reviewed: false

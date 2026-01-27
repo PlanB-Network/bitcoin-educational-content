@@ -38,6 +38,8 @@ Bitcoin 生態系統正在經歷前所未有的壯觀發展。由 Satoshi Nakamo
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 歡迎來到 BTC102！如果您已經完成了 BTC101，您已經探索了 Bitcoin 這項革命性技術背後的關鍵理論概念。現在，透過 BTC102，是時候將知識付諸於行動了。本課程旨在幫助您逐步建立個人的 Bitcoin 計劃。
 
@@ -45,7 +47,7 @@ Bitcoin 生態系統正在經歷前所未有的壯觀發展。由 Satoshi Nakamo
 在接下來的章節中，我們將引導您完成實際步驟，**獲得您的第一枚 bitcoins**，**妥善保護它們**，並自信地踏出您進入這個快速成長的生態系統的第一步。
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 雖然 Bitcoin 已經存在超過 16 年，但這個產業仍然年輕、充滿活力，並且深深植根於自由之中。它的底層通訊協定是完全分散的，不受任何中央機關的控制，讓生態系統以自然有機的方式成長。
 
@@ -99,7 +101,7 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 準備好開始您的 Bitcoin 世界之旅了嗎？開始吧
 
 
-**注意**: 如果您在課程中遇到任何不熟悉的術語，請查閱[詞彙表](https://planb.network/resources/glossary)獲取定義。
+**注意**: 如果您在課程中遇到任何不熟悉的術語，請查閱[詞彙表](https://planb.academy/resources/glossary)獲取定義。
 
 # 瞭解 Bitcoin 的先決條件
 
@@ -111,6 +113,8 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
+
+:::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
 
 Bitcoin 的生態系統及其周圍環境仍相對較新，而且依國家而定，監管鬆散。雖然這種自由度帶來了廣大的機會，但也為金融詐騙、騙局和各種形式的操縱創造了肥沃的土壤。這就是第一章如此重要的原因：了解常見的陷阱將幫助您避免這些陷阱。您的財務安全是重中之重，因為糟糕的經驗不僅會影響您，還會影響整個 Bitcoin 社群。
@@ -137,9 +141,9 @@ Bitcoin 的生態系統及其周圍環境仍相對較新，而且依國家而定
 如果您想更好地瞭解 Bitcoin 從何而來，以及 Bitcoin 與其他專案的真正不同之處，我建議您稍後查閱關於 Bitcoin 歷史的免費後續課程：
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-如您所知，Plan ₿ Network 平台專門用於 Bitcoin。然而，了解與其他加密貨幣的區別將有助於您避免與無用的，有時甚至是欺詐的項目相關的陷阱。
+如您所知，Plan ₿ Academy 平台專門用於 Bitcoin。然而，了解與其他加密貨幣的區別將有助於您避免與無用的，有時甚至是欺詐的項目相關的陷阱。
 
 
 ![image](assets/zh-Hant/006.webp)
@@ -350,6 +354,8 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
+:::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
+
 
 
 當您開始使用 Bitcoin 時，您會很快意識到基本的網路安全並非可有可无，而是不可或缺。詐騙和欺詐只是冰山一角。意外的資料遺失、惡意軟體和外洩的密碼也可能造成同樣的破壞，尤其是當您要管理自己的鑰匙時。
@@ -358,10 +364,10 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 本章將介紹一些簡單實用的步驟，以提升您的數位衛生，並在空間中保護自己。
 
 
-如果您想要深入瞭解，Plan ₿ Network 的 SEC101 課程提供專為 Bitcoin 使用者設計的網路安全策略的全面細分。
+如果您想要深入瞭解，Plan ₿ Academy 的 SEC101 課程提供專為 Bitcoin 使用者設計的網路安全策略的全面細分。
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### 網路安全的重要性
 
@@ -389,7 +395,7 @@ Bitcoin 賦予您直接持有資金的權力（無需銀行），無需中介。
 另一個明智的習慣是，在您的電腦上安裝任何軟體之前，先驗證其真實性和完整性。如果您不確定如何進行驗證，別擔心，我們有專門的教學教導您：
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 最後，定期備份重要資料。外接式 Hard 硬碟機或 SSD 是備份檔案的可靠選擇，以防突然故障、駭客入侵或意外刪除。您稍後會感謝自己。
 
@@ -397,7 +403,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 如果您偏好雲端解決方案，請考慮使用 Proton Drive 之類的安全服務。只要確保您選擇的任何選項都尊重您的隱私權，並提供強大的加密功能即可。
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 廣泛推薦的備份策略是「3-2-1 法則」。其目的是保護您的資料免於意外遺失、網路攻擊甚至自然災害。
 
@@ -438,12 +444,12 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 市面上有許多密碼管理器，但我可以根據您的需求推薦兩個可靠的選擇。如果您正在尋找易於使用、可在多種裝置間無縫同步的產品，Bitwarden 是一個絕佳的選擇：
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 如果您寧願將所有內容保存在自己的本機裝置上，KeePass 是個不錯的選擇：
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ### 2FA: 雙重保護
 
@@ -457,7 +463,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 2FA 要求使用 Google Authenticator 或 Authy 等應用程式生成基於時間的一次性代碼（通常為 6 位數），從而增加了第二重保護。因此，即使有人成功取得您的密碼，但如果無法實體存取您的手機，他們仍然無法存取您的帳戶。
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ![image](assets/zh-Hant/017.webp)
 
@@ -471,7 +477,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 對於想要更進一步提升安全性的人，YubiKey 等實體鑰匙可提供更高層級的保護。
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### 保護您的隱私
 
@@ -492,12 +498,12 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 ![image](assets/zh-Hant/019.webp)
 
 
-我們在 Plan ₿ Network 上有幾個教學，可以引導您輕鬆設定 VPN。我特別推薦 IVPN 或 Mullvad：
+我們在 Plan ₿ Academy 上有幾個教學，可以引導您輕鬆設定 VPN。我特別推薦 IVPN 或 Mullvad：
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 保護您線上隱私的基本步驟還包括
 
@@ -506,21 +512,21 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 - 使用注重隱私的瀏覽器，如 Firefox、Brave 或 Tor（用於增強匿名性）；
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
 - 使用**安全信箱**，例如 ProtonMail；
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 
 
 - 使用 Bitlocker (Windows) 或 VeraCrypt (適用於多平台) 等工具加密**您的檔案**。
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### 循序漸進
 
@@ -537,7 +543,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 簡而言之：不要低估網路安全，花些時間建立基本防護，並記得一致性是關鍵。如果沒有良好的數位衛生，即使是最好的工具也幫不了您什麼。
 
 
-此外，請務必在 Plan ₿ Network 上查看 [我們的電腦安全教學](https://planb.network/tutorials/computer-security)。
+此外，請務必在 Plan ₿ Academy 上查看 [我們的電腦安全教學](https://planb.academy/tutorials/computer-security)。
 
 
 ![image](assets/zh-Hant/020.webp)
@@ -550,6 +556,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
+
+:::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
 
 
@@ -640,7 +648,7 @@ Bitcoin 對每個人都開放，但這並不表示您應該在毫無準備的情
 
 如果您仍不確定，**從學習開始**。
 
-花幾個小時探索 Bitcoin、查看 Plan ₿ Network 上的免費資源、閱讀幾本書、投進五歐元只是為了嘗試一下，並在網路上觀看一些高品質的內容。保持好奇心。您越是感到自在，就越容易重新檢視您的策略、調整您的方法，並自信地向前邁進。
+花幾個小時探索 Bitcoin、查看 Plan ₿ Academy 上的免費資源、閱讀幾本書、投進五歐元只是為了嘗試一下，並在網路上觀看一些高品質的內容。保持好奇心。您越是感到自在，就越容易重新檢視您的策略、調整您的方法，並自信地向前邁進。
 
 
 ### 瞭解 BTC 的波動性
@@ -686,7 +694,7 @@ Bitcoin 最強大（但往往被低估）的功能之一是**自我託管**。�
 如果您已準備好使用 Ownership 的 Bitcoin，並想要深入瞭解保護復原短語的最佳作法，我強烈建議您查看這篇文章：
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### 保密性和謹慎性
 
@@ -710,7 +718,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 如果您已準備好深入探討 Bitcoin 隱私權的主題，我們建議您繼續學習我們的第二年隱私權課程，在這裡您將學到更多進階技術來保護您的身份和活動安全：
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 稅務影響
 
@@ -820,6 +828,8 @@ Robert T. Kiyosaki 所著的《富爸爸，窮爸爸》（*Rich Dad, Poor Dad*�
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
+:::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
+
 
 在本課程中，主要目標是引導您獲取和保護您的第一枚比特幣。但在進入實際步驟之前（如何購買 BTC、使用哪種錢包等等），重要的是退一步瞭解 Bitcoin 究竟是什麼。掌握 Bitcoin 的深層本質將幫助您瞭解為什麼數百萬人轉向這項技術，以及為什麼在將您的積蓄投入這種新的不穩定資產之前，瞭解其基本原理至關重要。
 
@@ -885,7 +895,7 @@ Bitcoin 並非憑空出現。它是在一個非常特殊的時刻創造出來的
 為了加深您對 Bitcoin 淵源的認識，我們提供免費、全面且資料齊全的相關訓練課程：
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 ### 轉移價值的分散式網路
 
@@ -997,7 +1007,7 @@ Bitcoin 允許任何人透過在自己的電腦或伺服器上執行「節點」
 #### 彈性的跨境支付方式
 
 
-由於其分散性，Bitcoin 全天候運作，不受國界或時區的影響。在缺乏傳統銀行基礎設施的地區，Bitcoin 常常被用來作為快速、低成本的收發資金解決方案，而無需依賴昂貴的中介。雖然交易費用會因網路壅塞情況而有所不同，但通常遠低於銀行收取的國際轉帳費用。此外，Lightning Network 等 Layer-2 解決方案可讓 Bitcoin 交易更快速、更便宜。
+由於其分散性，Bitcoin 全天候運作，不受國界或時區的影響。在缺乏傳統銀行基礎設施的地區，Bitcoin 常常被用來作為快速、低成本的收發資金解決方案，而無需依賴昂貴的中介。雖然交易費用會因網路壅塞情況而有所不同，但通常遠低於銀行收取的國際轉帳費用。此外，[Lightning Network](https://planb.academy/resources/glossary/lightning-network) 等 Layer-2 解決方案可讓 Bitcoin 交易更快速、更便宜。
 
 
 #### 價值儲存
@@ -1027,10 +1037,10 @@ Bitcoin 可被視為「從零到一」： 徹底打破既有的金融模式。�
 ![image](assets/zh-Hant/040.webp)
 
 
-如果您想進一步擴展您的知識，您可以參加有關 Plan ₿ Network 的 BTC101 課程，該課程對 Bitcoin 的技術和經濟基本面進行了更深入的探討。
+如果您想進一步擴展您的知識，您可以參加有關 Plan ₿ Academy 的 BTC101 課程，該課程對 Bitcoin 的技術和經濟基本面進行了更深入的探討。
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 在介紹完 Bitcoin 之後 (可能比 5 分鐘還要久一點！)，您現在可以更好地考慮購買和保護比特幣了。在接下來的課程章節中，我們會深入探討 Bitcoin 的意義、其產業運作，以及各層次的發展。接下來，在接下來的章節中，我們將討論如何設定您的個人計畫。
 
@@ -1038,6 +1048,8 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
+
+:::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
 
 
 
@@ -1255,6 +1267,8 @@ Bitcoin 不是一個組織或政黨，但無可否認，它帶有強大的哲學
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
+:::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
+
 
 
 自 2009 年由假名創造者 Satoshi Nakamoto 推出以來，Bitcoin 已經引發了一個全新產業的崛起；現在估值已高達數千億美元。儘管歷史相對較短，這個生態系統卻經歷了爆炸性的成長，在過去十年中以指數級的速度發展。每天都有新的參與者（從機構投資者、靈活的創業公司到科技巨頭）投入大量資金和資源，在這個快速擴張的產業中爭取自己的地位。
@@ -1450,15 +1464,15 @@ KYC 平台打著安全的幌子收集您的個人資訊。這些資料可能會�
 **注意事項：** 任何實體交易，請選擇公共且安全的地點，以避免潛在詐騙。
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - 僅 Bitcoin Exchange 平台
@@ -1467,13 +1481,13 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 這些平台採用方便使用者的方式，提供簡單、透明的服務。它們僅限 Bitcoin。它們通常通過美元成本平均法 (DCA) 實施購買比特幣的解決方案，並提供自動提款到個人 Wallet 的服務。它們特別適合希望以漸進和安全的方式累積比特幣的初學者。例如：Relai, Bull Bitcoin, StackinSat, Bitstack...
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - 通用或面向交易的 **Exchange 平台**
@@ -1482,13 +1496,13 @@ https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-42
 這些平台提供的先進功能不僅僅是購買 Bitcoin，還包括槓桿和衍生工具。但是，我們強烈建議不要進行交易。相反，我們建議購買 Bitcoin 並將其轉移到您自己的 Wallet。交易是一種高風險的活動，通常不適合那些專注於長期累積的人。置身於交易遊戲之外往往是更明智的做法。
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 **Exchange 平台不是安全的錢包**。將您的比特幣留在 Exchange 上會讓您面臨相當大的風險。有幾種情況可能會導致您的資金損失：
 
@@ -1524,7 +1538,7 @@ Bitcoin Wallet 產業分為幾個類別，每個類別都迎合不同的需求�
 
 
 
-- **Hardware Wallet 製造商**：這些公司開發設計用於安全金鑰儲存的實體裝置。有些是開放原始碼，有些則提供具有不同功能和安全層級的專屬解決方案。著名的公司包括 Ledger、Trezor、Coinkite、Foundation 和 Shiftcrypto。
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) 製造商**：這些公司開發設計用於安全金鑰儲存的實體裝置。有些是開放原始碼，有些則提供具有不同功能和安全層級的專屬解決方案。著名的公司包括 Ledger、Trezor、Coinkite、Foundation 和 Shiftcrypto。
 - **Software Wallet 開發人員**：從公司到獨立開發者，他們都在開發行動和桌上型應用程式。他們提供的產品在使用者體驗、安全性和功能方面各有不同。例如 Sparrow、Wizard Sardine、Galoy、Synonym 和 Blockstream。
 - DIY (*Do It Yourself*) 錢包：這些開放原始碼解決方案專為想要完全控制並盡量減少對第三方依賴的進階使用者所設計。建立您自己的 Wallet 可減少信任依賴，並可增加您的安全姿勢。著名的 DIY 選項包括 **Seedsigner** 和 **Specter DIY**。
 
@@ -1553,7 +1567,7 @@ Mining 生態系統由幾個主要廠商組成：
 Mining 是一個獨特的世界，有許多層次需要探索；技術挑戰、經濟獎勵和能源考量都會出現。對於有興趣進一步探索這個領域並真正瞭解其運作方式的人，我們的 MIN201 課程會為您介紹您需要知道的一切。
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 #### Bitcoin 生態系統的發展
 
@@ -1589,12 +1603,14 @@ Bitcoin 的發展可以透過幾組不同的貢獻者來了解：
 值得注意的是，**Bitcoin Core 並非唯一的用戶端**。替代方案如 Bitcoin Knots 也實作 Bitcoin 通訊協定，讓使用者有更多選擇，並加強系統的分散性：
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 ## Bitcoin 的分層架構
 
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
+
+:::video id=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
 
 
 Bitcoin 是一個開放式系統，從一開始就設計為簡約、穩健和安全。為了在不改變其基礎的情況下增加功能，一般會透過增加**協定層**和補充應用程式來進行演進，以豐富生態系統，同時不影響主系統的分散性和彈性。這種彈性讓許多公司和獨立開發人員得以在 Bitcoin 周圍建立基礎架構，並針對不同的使用個案增加創新功能。
@@ -1625,7 +1641,7 @@ Lightning Network 由 Thaddeus Dryja 和 Joseph Poon 於 2016 年創造，是第
 如果您有興趣進一步瞭解 Lightning 的運作方式，我們提供優秀的二年級課程，專門教授此主題：
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 - **側鏈**：
@@ -1643,7 +1659,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 如果您想更詳細地探討 Liquid，我們會提供有關此主題的三年級進階課程：
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 - **RGB**：
@@ -1661,7 +1677,7 @@ RGB 的主要特點是使用稱為「單次使用封印」的加密技術來保�
 為了加深您對 RGB 的認識，我們提供第四年的訓練課程 (請注意，此課程具有高度技術性)：
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB 只是建立在 Bitcoin 之上的眾多通訊協定之一。雖然有些協定比其他協定獲得更廣泛的採用，但新的協定仍不斷出現。其共同點是針對特定任務優化每個 Layer 的想法，同時保留 Bitcoin 基本通訊協定的完整性和不可變性。
 
@@ -1684,17 +1700,17 @@ RGB 只是建立在 Bitcoin 之上的眾多通訊協定之一。雖然有些協�
 如果您偏好不需動手的解決方案，並希望將法定貨幣直接存入您的銀行帳戶，則 OpenNode 等託管服務可提供簡化的體驗：
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 對於技術傾向較高且希望完全控制過程的商家而言，BTCPay Server 是一個很棒的開放源碼選擇。它的主要缺點是需要時間來設定和維護，以及一些技術知識：
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 瑞士 Bitcoin Pay 介於兩者之間，是一款易於使用但功能強大的解決方案，在易用性、功能性和安全性之間取得了良好的平衡。它對小型零售商和大型企業都非常適用：
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 接受 Bitcoin 可為企業帶來多項實際和財務效益。就像現金一樣，Bitcoin 允許客戶和商家之間直接付款（不需要傳統銀行）。透過 Lightning Network 進行的付款是即時和最終的，可降低扣款的風險。當商家持有自己的 Bitcoin (自我託管)，就能獲得更大的財務自主權。
 
@@ -1714,7 +1730,7 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 如果您想探索如何將 Bitcoin 整合到您的業務中（無論是作為付款方式、庫務資產或兩者皆是），我們會針對您的需求提供初級課程：
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Bitcoin 作為 Exchange 的媒介，在各行各業的採用率越來越高。Lightning Network 讓付款更快速、更便宜，進一步增加 Bitcoin 對商家的吸引力。
 
@@ -1758,6 +1774,8 @@ Bitcoin 現在已經勢不可擋。
 
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
+
+:::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 
 現在您已經了解了 Bitcoin 的理論基礎，是時候進入實務方面了。本節將幫助您瞭解如何獲取您的第一枚比特幣、如何安全地儲存它們，以及如何根據您的個人情況量身定制您的方法。目標是幫助您辨識自己是哪一種使用者，以便採取符合您的需求與限制的策略。
@@ -1862,7 +1880,7 @@ Bitcoin 與傳統資產不同。它需要深思熟慮的方法，以及對使用
 
 
 - 長期儲蓄：您將購買 Bitcoin 作為一項投資，而且不打算在短期內使用。在這種情況下，最大的安全性和最小的存取風險是關鍵。
-- 逐步累積：您定期少量購買。Dollar Cost Averaging (DCA) 等策略搭配安全的 Wallet 效果很好。
+- 逐步累積：您定期少量購買。[Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca) 等策略搭配安全的 Wallet 效果很好。
 - 日常開支：您可以像使用金錢一樣使用 Bitcoin。使用行動版 Wallet 進行日常小額付款（也許可以使用 Lightning），並將您的大部分 Bitcoin 放在較安全的地方。
 - 準備退休或傳承您的財富：您希望日後將 Bitcoin 轉移給他人。在適當的時候，使用可讓您輕鬆安全轉移資金的工具。可制定具備時間鎖定功能的 Multisig 或特定繼承計劃等策略，以確保您的資金既不會遺失，也不會過早存取。
 
@@ -2035,7 +2053,7 @@ Wallet 和安全方法的選擇取決於您的儲存量、專業水準，以及�
 歸根結柢，安全性主要取決於您如何使用這些工具。如果您遺失、暴露或洩露 Mnemonic 短語，Hardware Wallet 對您沒有多大用處。謹慎和紀律是您避免丟失 bitcoins 的最佳保障。關於這方面的更多資訊，我強烈建議您閱讀這篇文章：
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### 取得方法與交易量
 
@@ -2094,7 +2112,7 @@ KYC 交易所最大的弊端是隱私風險，這也會影響您的個人安全�
 - P2P 平台：Bisq、RoboSats 和 Peach 等平台使用託管系統確保交易安全，無需身份驗證即可促進私人之間的交換。如果對方不合作，這些平台仍有被盜的風險，但託管服務可將風險降至最低。
 - Bitcoin 自動櫃員機 (ATM)：有些自動櫃員機（自助服務站）允許您使用現金購買 Bitcoin，但費用往往較高，有些自動櫃員機（自助服務站）還要求對較大額的交易進行身份驗證。
 - 免 KYC 的 Exchange 平台：有些平台（特別是瑞士的平台）可讓您購買少量 Bitcoin 而無需身份驗證。
-- **Mining**：個人可以開採 Bitcoin。可以使用較舊或較小型的機器，提供了一種不需 KYC 即可取得 Bitcoin 的非傳統方式。加入 Mining pool，即使只有基本設備，也能賺取定期報酬。如需更多資訊，[請查看我們的 Mining 教學](https://planb.network/tutorials/mining)。
+- **Mining**：個人可以開採 Bitcoin。可以使用較舊或較小型的機器，提供了一種不需 KYC 即可取得 Bitcoin 的非傳統方式。加入 Mining pool，即使只有基本設備，也能賺取定期報酬。如需更多資訊，[請查看我們的 Mining 教學](https://planb.academy/tutorials/mining)。
 - 以 bitcoins 付款 / 薪資：如果您是做生意的，您可以接受 Bitcoin 作為付款方式。如果您受雇於人，根據您的司法管轄區，您可以要求以 Bitcoin 支付。這些方法可以讓您在沒有 KYC 的情況下取得 Bitcoin。
 
 
@@ -2219,6 +2237,8 @@ Stacker 不注重短期投機或頻繁使用他們的 Bitcoin。他們將 Bitcoi
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
+:::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
+
 
 在 Bitcoin 社群中，「hodler」一詞是指採取長期投資方式的人。這個詞源於多年前 Bitcoin Talk 論壇上一個著名的「hold」錯誤，自此成為 Commitment 的象徵：無論如何堅持您的 Bitcoin，不為短期市場波動而緊張。
 
@@ -2258,22 +2278,22 @@ Hodlers 採取簡單、長期的方式：購買 Bitcoin，妥善保管，然後�
 以下是一些非常適合 Hodlers 的錢包教學：
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 一旦設定好 Wallet，請務必將 12 或 24 個字的復原短語備份在耐用的實體媒體上。若要瞭解更多關於為您的短語選擇何種媒體的資訊，請參閱本教學：
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 為了讓您更安心，您可以增加保護層，例如：
 
@@ -2281,13 +2301,13 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 - 具有時間鎖的多重簽章 Wallet：
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 
 - A BIP39 passphrase：
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/zh-Hant/076.webp)
 
@@ -2301,13 +2321,13 @@ Hodlers 永遠不會把他們的錢幣留在交易所。平台可能會被黑客
 由於散戶傾向於投資較大的金額，因此他們需要流動性強大的交易所。以下是幾家符合條件的交易所：
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
 ![image](assets/zh-Hant/077.webp)
 
@@ -2352,7 +2372,7 @@ Hodling 意味著玩長線遊戲。無論是在價格暴跌還是欣欣向榮的
 若要在不損害私人金鑰的情況下監控您的持有量，請考慮使用 Watch-only wallet。它可以讓您只使用公開金鑰追蹤餘額和交易。
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 hodler 的策略簡單但強大：購買、安全、忘記。真正的挑戰不是技術上的，而是心理上的。最難的部分是要克制過早賣出或在價格下跌時恐慌的衝動。但是，如果您能保持紀律，並從長遠角度考慮，囤積已被證明是一種可靠的保值方式，並可長期累積財富。
 
@@ -2388,6 +2408,8 @@ Hodling 簡單、有效且容易上手，即使是初學者也能輕鬆上手。
 
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
+
+:::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
 
 
 在 Bitcoin 生態系統中，堆疊者是指以持續、長期的方式累積 Satoshis（或稱「Sats」）（Bitcoin 的最小單位）的人。與其一次性投資一大筆錢，堆疊者會定期購買少量的 Bitcoin，不論市場狀況如何。
@@ -2434,38 +2456,38 @@ Hodling 簡單、有效且容易上手，即使是初學者也能輕鬆上手。
 - **Hot Wallet**：手機或桌上型電腦錢包是初學者的理想選擇，可讓您輕鬆接收 Sats 並進行付款。然而，它們最適合小額交易。On-Chain 錢包比 Lightning 錢包更適合堆疊使用，因為 UTXO 的管理更好。推薦軟體錢包：Green Wallet、Blue Wallet、Sparrow Wallet、Bitkit、Nunchuk、Aqua、Proton
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
+https://planb.academy/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 - **Hardware Wallet**：當您持有的 Bitcoin 越多時，使用 Cold Wallet 保護您的資金，對於降低盜竊風險是非常重要的。嚴謹的堆疊者會定期將資金從 Hot Wallet 移至 Hardware Wallet。例如Bitbox02, Trezor, Ledger, Coldcard, Jade...
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 最有效的方法是兩者並用：Hot Wallet 用於日常堆疊，Hardware Wallet 用於長期 Cold 儲存。Hot Wallet 使用起來簡單方便。它可以讓您快速擁有您的比特幣，而不是把它們留在平台上，讓它們暴露在風險中。但是，與 Hardware Wallet 相比，Hot Wallet 的安全性要低得多。因此，堆疊者必須定期將資金轉移到他的 Cold Wallet 上，以確保長期儲蓄的安全，並避免在 Hot Wallet 上保留太多資金。堆高機在轉移到 Cold 儲存庫時，會定期將 UTXO 合併；合併小量的投入，以優化未來的交易費用。
 
@@ -2493,37 +2515,37 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 DCA 平台的範例：
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 支持 DCA 的主流交易所：
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 堆疊者也可能想要加強隱私權，即使這不是他們的主要目標。在這種情況下，他們應該考慮在受監管的平台之外，使用 P2P 購買方法。與自動化的 DCA 購買不同，這些方法需要您手動管理購買策略，因此紀律是保持正軌的關鍵。
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 #### 3.提取和保護比特幣
 
@@ -2553,7 +2575,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 為了方便監控而不影響安全性，請設定 Watch-only wallet 使用公開金鑰追蹤餘額。
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### 評估您的堆高機配置文件
 
@@ -2582,6 +2604,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
+
+:::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
 
 
 成為 Bitcoin 的活躍使用者意味著超越長期投資策略。有別於以儲蓄為主而不花費的倉儲者或堆疊者，活躍使用者將 Bitcoin 視為 **Exchange** 的真正媒介。他們使用 Bitcoin 支付商品和服務，並積極參與反經濟活動。
@@ -2646,53 +2670,53 @@ Bitcoin 提供多項強大的功能，例如透過 Lightning Network 進行快�
 - A Cold Wallet (Hardware Wallet) 以確保長期儲蓄。
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 
 - 一個或多個行動 Hot 錢包，用於日常交易。一般而言，活躍使用者會同時擁有一個 On-Chain Hot Wallet 和一個 Lightning Wallet。
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
+https://planb.academy/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 這樣分開您的資金有助於降低風險，以防用於日常支付的 Wallet 遭到洩密。
 
@@ -2703,22 +2727,22 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-50
 活躍使用者通常會依據個人情況，以減少對可信第三方的依賴為目標。其中一個最有效的方法就是運行自己的 Bitcoin 節點。這可讓他們獨立使用網路，同時提高交易隱私。
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 對於那些經常使用 Lightning Network 的人來說，管理他們自己的 LND、LDK 或 Core-Lightning 節點可能是明智之舉。這能讓他們完全控制開啟和關閉通道，增加自我主權，甚至有助於降低交易費用；尤其是與 Phoenix 等自動化解決方案或更糟糕的託管式 Lightning wallets 相比。
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 #### 3.定期 Bitcoin 收購
 
@@ -2736,45 +2760,45 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 - 透過 Bitfinex 或 Bull Bitcoin 等受監管平台**進行傳統購買**（最適合為您的 Cold Wallet 充值）；
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - 透過 Peach、Robosats 或 Bitcoin ATM 等點對點服務進行**非 KYC 收購**；讓您可以在不透露個人資訊的情況下新增 Wallet。
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - 在 Bitcoin **賺錢**，成為活躍用戶不只是花 BTC，還要賺錢。如果您經營企業，請考慮接受 Bitcoin 作為付款方式。如果您是一名員工，看看您的雇主是否提供以 BTC 領取全部或部分薪水的選項。
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 ![image](assets/zh-Hant/089.webp)
 
@@ -2794,7 +2818,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 由於我們仍處於過渡階段，並非所有日常商戶都接受 BTC，因此有一些簡單但有效的變通方法。例如，使用 Bitcoin 購買禮物卡就是一個實用的解決方案，許多供應商如 Bitrefill、Coinsbee 或 The Bitcoin Company 都提供這項服務。
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 #### 5.技術意識與彈性
 
@@ -2834,6 +2858,8 @@ Bitcoin 通訊協定以及 Layer-2 系統（如 Lightning Network）和與這些
 
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
+
+:::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
 
 
 對於偏執狂 Bitcoiner 來說，隱私不是可有可无的，而是不可或缺的。在一個幾乎所有財務行動都會被追蹤的世界裡，他們認為保護自己的身份和交易歷史是使用 Bitcoin 的一個不容商量的部分。他們通常非常瞭解暴露個人資料所涉及的風險（尤其是在使用需要身份驗證的 KYC 相容交易所時）。
@@ -2883,21 +2909,21 @@ Bitcoin 通訊協定以及 Layer-2 系統（如 Lightning Network）和與這些
 - A Cold Wallet (air-gapped 和/或 DIY) 長期持有的錢包儲存於高度安全的 air-gapped 或 DIY 錢包中。這些通常是開源裝置或具有可驗證程式碼的裝置，例如 Jade、Coldcard、SeedSigner、Portal 或 Passport...只要有可能，他們就會匿名取得這些裝置；或是在實體商店支付現金或使用 Bitcoin，或是在線上訂購，並選擇謹慎的運送方式和 BTC 付款。例如，在法國，[Bitcoin Bazar](https://bitcoinbazar.fr/) 就是這樣的一家商店。您可以搜尋您所在區域的類似供應商。
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
 - 用於日常交易的 Hot Wallet，對於定期消費，偏執的用戶選擇注重隱私的錢包，如 Ashigaru、Wasabi Wallet 或 Sparrow Wallet。這些錢包支援進階功能，例如：迷你 CoinJoin 支出交易、payjoins、潛在 CoinJoin 工具、硬幣控制、UTXO 標籤或透過您自己的 Bitcoin 節點連接的能力。
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
 ![image](assets/zh-Hant/093.webp)
 
@@ -2907,23 +2933,23 @@ https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-80
 - 運行自己的 **Bitcoin 節點**是必要的。這可確保完全控制交易廣播，避免依賴第三方基礎架構。這也能保護隱私、防止審查，並讓他們獨立驗證 Bitcoin 通訊協定的規則。無論是在 Linux、Windows、macOS 上，或是透過 RaspiBlitz、myNode 或 Start9 等隨插即用的設定，偏執狂使用者都會將他們的節點視為不可妥協的主權支柱。
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 
 - 為了在**Lightning Network**上進行交易，同時保持相同程度的控制和自由裁量權，他們也操作自己的 Lightning 節點。這可讓他們直接管理通路，並以最小化監控或依賴託管服務的方式進行消費。
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 ![image](assets/zh-Hant/094.webp)
 
@@ -2931,19 +2957,19 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 安全性並不止於此。在備份 seed 語句時，偏執的使用者會使用金屬備份與防篡改密封信封。他們會定期驗證備份是否未受損害，並測試 Wallet 復原程序，為任何緊急情況做好準備。
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 當要確保儲蓄安全時，他們可能會使用更複雜的設定，例如多重簽名錢包（有或沒有時間鎖）。
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 這些配置可降低風險。在 seed 詞組中加入 BIP39 passphrase，又增加了一個 Layer 的保護，確保他們的資金存取不會因為單一的發現而受到危害。
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 一個偏執的比特幣持有者當然會為他們的比特幣有一個深思熟慮的繼承計劃。這個重要的課題將在課程的下一部分詳細講解。
 
@@ -2955,50 +2981,50 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 - 作業系統，包括手機和電腦；
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 - **驗證工具**；
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 
 - 溝通工具；
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 - 資料管理工具。
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 如果您想瞭解更多關於 IT 安全的主題，我們提供完整的第一年課程，專門針對此主題：
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 #### 2.匿名購買比特幣
 
@@ -3010,21 +3036,21 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 - P2P 購買平台，如 **Bisq、Robosat、LNP2PBot、Peach、HODL HODL** 等；
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - 當面現金交易，例如在當地的 Bitcoin 聚會；
 
 
-https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
+https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 
 - **Bitcoin ATM**；
@@ -3032,11 +3058,11 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 - Mining 比特幣。
 
 
-https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
+https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
+https://planb.academy/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
-https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
+https://planb.academy/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
 由於集中式交換所會造成隱私權、潛在審查或扣押的風險，因此我們完全避免使用集中式交換所。
 
@@ -3064,7 +3090,7 @@ https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-5
 對於想要深入瞭解 On-Chain 隱私權與監控抗性的人，我們提供 Bitcoin 隱私權實務的第二年進階訓練：
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 4.保持警覺，更新策略
 
@@ -3126,6 +3152,8 @@ Bitcoin 通訊協定、Lightning Network 及相關工具不斷演進。偏執的
 
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
+
+:::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
 
 確保您的比特幣的傳輸是一個經常被忽視的責任，但卻是至關重要的。Bitcoin 所提供的財務主權也需要謹慎的遺產管理。如果沒有這一點，您的繼承人可能會發現他們無法獲得您的 Hard 所賺取的資金。在本章中，我們將探討適用於 Bitcoin 的遺產規劃基本原則。
@@ -3434,7 +3462,7 @@ Pamela Morgan 在她的*[Cryptoasset Inheritance Planning](https://www.amazon.co
 **恭喜！** 您已完成保障 Bitcoin 財富的關鍵一步。現在您可以定期檢閱繼承計畫，並探索更先進的解決方案，例如減少 Multisig 設定的時間鎖來完善您的繼承計畫：
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 參考資料：[*Cryptoasset Inheritance Planning, A Simple Guide for Owners* - Pamela Morgan, 2018.](https://www.amazon.com/gp/product/1947910116/)
 
@@ -3448,6 +3476,8 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
+
+:::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
 
 如果您能走到這一步，您已經成為開明的少數人之一！很少有人能在 Bitcoin 上走這麼遠，您可以為自己的成就感到驕傲。也許您已經按照本訓練課程中提供的所有教程進行了操作：設定您的第一個 Hardware Wallet、確保您的復原短語、創建一美元成本平均法 (DCA) 計畫、使用或不使用 KYC 取得 Bitcoin、甚至規劃您的 Bitcoin 繼承。您所採取的每一步都是邁向真正財務主權的飛躍。
@@ -3518,39 +3548,39 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 - 若要提升您的數位安全性，請從我們的入門安全課程開始：
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 - 如果您被 Bitcoin 的經濟和哲學方面所吸引，請查看這些深入的課程：
 
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 
 - 有意將 Bitcoin 整合到公司策略中的企業主，絕對不能錯過：：
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 - 若要探索 Bitcoin 創造背後的精彩故事，以及該系統早期的發展歷程，我強烈推薦此課程：
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 - 最後，如果您對 Bitcoin 及其生態系統的技術方面感到好奇，請探索這些訓練課程：
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 3.貢獻 Bitcoin 生態系統
 
@@ -3564,7 +3594,7 @@ Bitcoin 不只是一個財務工具，更是一個運動。根據您的技能和
 - 加入當地社區：參加活動、聚會和論壇，認識其他比特幣玩家，並聽取 **Exchange** 對最新發展的意見。
 
 
-如果您想協助教育他人，Plan ₿ Network 一直在尋找貢獻者！我們所有的教育內容都是開放原始碼，並託管在 GitHub 上。我們歡迎貢獻者協助校對、將內容翻譯成各種語言；在 Exchange 為數不多的 Sats！無論是現在或是之後的 Bitcoin 旅途中，我們都歡迎您加入 Plan ₿ Network 的 [我們的撰稿人 Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder)。
+如果您想協助教育他人，Plan ₿ Academy 一直在尋找貢獻者！我們所有的教育內容都是開放原始碼，並託管在 GitHub 上。我們歡迎貢獻者協助校對、將內容翻譯成各種語言；在 Exchange 為數不多的 Sats！無論是現在或是之後的 Bitcoin 旅途中，我們都歡迎您加入 Plan ₿ Academy 的 [我們的撰稿人 Telegram 群組](https://t.me/PlanBNetwork_ContentBuilder)。
 
 
 ### 最後的話
@@ -3573,7 +3603,7 @@ Bitcoin 不只是一個財務工具，更是一個運動。根據您的技能和
 非常感謝您參加 BTC102 課程。
 
 
-我叫 Rogzy，是 Découvre Bitcoin 的創辦人，也是 Plan ₿ Network;的共同創辦人，這個平台是由我們令人難以置信的新合作夥伴 Tether 和 Fulgur Ventures，以及我們共同的使命--教育盡可能多的人認識 Bitcoin;所促成的。
+我叫 Rogzy，是 Découvre Bitcoin 的創辦人，也是 Plan ₿ Academy;的共同創辦人，這個平台是由我們令人難以置信的新合作夥伴 Tether 和 Fulgur Ventures，以及我們共同的使命--教育盡可能多的人認識 Bitcoin;所促成的。
 
 
 您的反饋意見非常寶貴。歡迎在平台上留言，讓我們知道您對這個更新版課程的看法。您的建議有助於我們持續改善內容品質。
@@ -3585,7 +3615,7 @@ Bitcoin 不只是一個財務工具，更是一個運動。根據您的技能和
 祝您好運！
 
 
-我希望很快能在 Plan ₿ Network 的另一門課程中再見到您；無論是我的課程還是社群中其他出色老師的課程。誰知道呢，也許我們還會在會議、活動或 Bitcoin 聚會中見面。
+我希望很快能在 Plan ₿ Academy 的另一門課程中再見到您；無論是我的課程還是社群中其他出色老師的課程。誰知道呢，也許我們還會在會議、活動或 Bitcoin 聚會中見面。
 
 
 再次祝賀您走了這麼遠。請記住，我的首要目標始終如一：

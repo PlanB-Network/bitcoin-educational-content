@@ -18,7 +18,7 @@ Trước khi bắt đầu hướng dẫn này, nếu bạn chưa quen với khá
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 passphrase trên Trezor được xử lý theo cách cổ điển nếu bạn đã chọn tiêu chuẩn BIP39 trong quá trình cấu hình (tôi khuyên bạn nên làm như vậy nếu bạn không cần *Sao lưu nhiều chia sẻ*). Điểm đặc biệt của Trezor là bạn có thể nhập passphrase trực tiếp trên Hardware Wallet hoặc thông qua bàn phím máy tính bằng phần mềm Trezor Suite. Tùy chọn thứ hai này kém an toàn hơn đáng kể vì máy tính có bề mặt tấn công lớn hơn nhiều so với Hardware Wallet. Tuy nhiên, việc nhập passphrase phức tạp có thể nhanh hơn trên bàn phím thông thường so với trên Hardware Wallet, điều này có thể khuyến khích sử dụng cụm mật khẩu mạnh. Vì vậy, tốt hơn hết là sử dụng passphrase, ngay cả khi phải nhập, hơn là không sử dụng. Tuy nhiên, điều quan trọng là phải luôn nhận thức được nguy cơ tấn công số tăng lên mà điều này ngụ ý.
 
@@ -36,15 +36,15 @@ Trong Trezor Suite, bạn có hai cách khác nhau để quản lý nhu cầu pa
 
 
 
-Trước khi bắt đầu hướng dẫn này, vui lòng đảm bảo rằng bạn đã khởi tạo Trezor và tạo cụm từ Mnemonic. Nếu bạn chưa làm vậy và Trezor của bạn là mới, hãy làm theo hướng dẫn dành riêng cho từng mẫu có sẵn trên Plan ₿ Network. Sau khi hoàn tất bước này, bạn có thể quay lại hướng dẫn này.
+Trước khi bắt đầu hướng dẫn này, vui lòng đảm bảo rằng bạn đã khởi tạo Trezor và tạo cụm từ Mnemonic. Nếu bạn chưa làm vậy và Trezor của bạn là mới, hãy làm theo hướng dẫn dành riêng cho từng mẫu có sẵn trên Plan ₿ Academy. Sau khi hoàn tất bước này, bạn có thể quay lại hướng dẫn này.
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 
 ## Thêm passphrase vào Safe 3 hoặc Safe 5
@@ -79,7 +79,7 @@ tất nhiên, bạn không bao giờ nên chia sẻ passphrase của mình trên
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Nếu bạn muốn nhập passphrase qua bàn phím máy tính, hãy nhập vào trường được cung cấp, sau đó nhấp vào "*Truy cập passphrase Wallet*".
 
@@ -177,7 +177,7 @@ Cửa sổ này yêu cầu bạn nhập passphrase của mình. Chọn một pas
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Nhập passphrase của bạn vào trường được cung cấp, sau đó nhấp vào nút "*Truy cập passphrase Wallet*".
 
@@ -215,6 +215,6 @@ Xin chúc mừng, giờ bạn đã nắm được cách sử dụng passphrase B
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 Nếu bạn thấy hướng dẫn này hữu ích, tôi sẽ rất biết ơn nếu bạn để lại một ngón tay cái Green bên dưới. Hãy thoải mái chia sẻ bài viết này trên mạng xã hội của bạn. Cảm ơn bạn rất nhiều!

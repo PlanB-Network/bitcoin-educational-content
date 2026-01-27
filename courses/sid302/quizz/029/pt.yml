@@ -1,0 +1,8 @@
+question: Que contrapartidas fundamentais devem os investidores aceitar quando participam nos ecossistemas de activos AMP da Blockstream em comparação com as transacções Liquid Network normais?
+answer: Visibilidade total das suas participações e histórico de transacções para o emissor de activos, apesar de manter a privacidade em relação a outros utilizadores
+wrong_answers:
+  - Taxas de transação mais elevadas devido à sobrecarga computacional adicional necessária para os mecanismos de autorização de co-assinatura
+  - Redução da velocidade das transacções porque todas as transferências têm de ser validadas através de servidores de conformidade centralizados antes da confirmação
+  - Transferência limitada de activos, uma vez que os tokens AMP só podem ser enviados para carteiras pré-aprovadas dentro da mesma jurisdição regulamentar
+explanation: |
+  A resposta correta identifica o compromisso fundamental do AMP em matéria de privacidade: enquanto o Confidential Transactions mantém a privacidade de utilizador para utilizador, os activos do AMP permitem aos emitentes uma visibilidade completa do unblinded para efeitos de conformidade regulamentar. As respostas erradas descrevem restrições operacionais (taxas, velocidade, transferibilidade) em vez do compromisso fundamental de transparência que distingue o AMP do modelo totalmente confidencial do Liquid padrão.

@@ -44,7 +44,7 @@ Bitcoin Knots 是 Bitcoin 協定的另一種實作，源自 Bitcoin Core。由 L
 在您的機器上安裝軟體之前，我們強烈建議您檢查其真實性和完整性。如果您不知道如何進行，請參閱此其他教學：
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 驗證軟體後，請依照安裝面板上指示的步驟進行安裝。
 
 
@@ -170,7 +170,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 passphrase BIP39是一個可選的密碼，您可以在Mnemonic短語之外自由選擇，以增加Wallet的安全性。在配置此功能之前，我們強烈建議您閱讀以下文章，它詳細解釋了passphrase理論上是如何工作的，以及如何避免可能導致您永久損失比特幣的錯誤：
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 如果您已啟動 passphrase 選項，請選擇穩健的選項，並小心保存在一個或多個安全的實體媒體上。
 
 
@@ -404,4 +404,4 @@ rpcpassword=my_password
 我也推薦您參考這篇教學，其中我介紹了如何建立您自己的 Lightning 節點：
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

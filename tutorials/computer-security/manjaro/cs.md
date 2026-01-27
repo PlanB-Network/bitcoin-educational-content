@@ -104,7 +104,7 @@ Pro stažení přejděte na [oficiální webové stránky Manjaro](https://manja
 
 
 
-Pak přejděte na webovou stránku softwaru [Rufus] (https://rufus.ie/fr/) a stáhněte si ji. Spusťte program, připojte klíč USB, vyberte obraz ISO Manjaro a spusťte flashování. Před vyjmutím klíče počkejte na dokončení procesu. Poté můžete restartovat počítač.
+Pak přejděte na webovou stránku softwaru [Rufus](https://rufus.ie/fr/) a stáhněte si ji. Spusťte program, připojte klíč USB, vyberte obraz ISO Manjaro a spusťte flashování. Před vyjmutím klíče počkejte na dokončení procesu. Poté můžete restartovat počítač.
 
 
 
@@ -322,7 +322,7 @@ Electrum vám umožní **snadno přijímat a odesílat bitcoiny** a zároveň na
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## Zabezpečení systému Manjaro
 
@@ -395,4 +395,4 @@ Manjaro kombinuje **stabilitu, rychlost a bezpečnost** a zároveň zůstává *
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

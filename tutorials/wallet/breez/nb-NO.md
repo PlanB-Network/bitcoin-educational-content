@@ -86,7 +86,7 @@ Følg deretter instruksjonene for å bekrefte sikkerhetskopien og koble den ekst
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **VIKTIG**: For å gi Breez Wallet en ekstra Layer av sikkerhet, kan du definere en PIN-kode og angi den for å autentisere at tilgangen til Wallet er autorisert.
 

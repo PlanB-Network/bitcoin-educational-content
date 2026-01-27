@@ -6,4 +6,4 @@ wrong_answers:
   - Multiplicar dos números primos grandes para obtener un producto
 explanation: |
   La seguridad del RSA se basa en la dificultad de factorizar un número grande (el producto de dos números primos grandes) en sus dos factores primos, una tarea que es casi imposible sin la clave privada.
-reviewed: false
+reviewed: true

@@ -156,7 +156,9 @@ La CLI è molto utile sui server senza interfaccia grafica e per lo scripting di
 
 Umbrel è una popolare piattaforma di self-hosting (utilizzata in particolare per i nodi Bitcoin/Lightning e altri servizi self-hosted, tramite il suo App Store). Per installare e configurare Umbrel, vi consigliamo di seguire il nostro tutorial dedicato:
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+
+
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 L'utilizzo congiunto di Umbrel e Tailscale è un caso d'uso particolarmente interessante, poiché Umbrel integra in modo nativo un modulo Tailscale facile da implementare. Ecco come Tailscale si integra con Umbrel e quali sono i suoi vantaggi:
 
@@ -221,7 +223,7 @@ _Elenco degli alias del server Electrum in Sparrow con Umbrel indirizzo IP Tails
 
 Leggi la nostra guida completa alla configurazione dello Sparrow wallet con il tuo nodo Bitcoin:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - **Zeus (Lightning)**: questo wallet mobile Lightning può connettersi al tuo nodo Lightning su Umbrel. Invece di configurare l'endpoint come `.onion', è sufficiente impostare l'indirizzo IP Tailscale di Umbrel e la porta API di Lightning. La connessione sarà istantanea rispetto a Tor.
 
@@ -231,11 +233,13 @@ _Configurazione di Zeus per la connessione al nodo Lightning tramite l'indirizzo
 
 Per configurare Zeus con il tuo nodo Lightning, consulta il tuo tutorial dettagliato:
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Per saperne di più sul Lightning Network e su come funziona su Umbrel, visitate:
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+
+
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ### 4.3 Vantaggi rispetto a Tor
 

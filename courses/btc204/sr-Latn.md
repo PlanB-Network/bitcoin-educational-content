@@ -38,6 +38,8 @@ Pridružite nam se kako biste unapredili svoje koršćenje Bitcoin-a i postali i
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 
 Dobrodošli na kurs BTC204!
 
@@ -69,7 +71,7 @@ Cilj ovog kursa obuke nije da vas učini potpuno anonimnim u korišćenju Bitcoi
 **Sekcija 1: Definicije i ključni koncepti**
 
 
-Za početak, razmotrićemp osnovne principe koji regulišu rad Bitcoin-a, kako bismo mirno zatim mogli pristupiti pojmovima koji se odnose na poverljivost. Neophodno je savladati nekoliko osnovnih koncepata, kao što su UTXO, adrese za prijem i programiranje skripti, pre nego što u potpunosti možete razumeti koncepte koje ćemo obraditi u narednim odeljcima. Takođe ćemo predstaviti Bitcoin-ov opšti model poverljivosti, kako ga je zamislio Satoshi Nakamoto, što će nam omogućiti da shvatimo povezane uloge i rizike.
+Za početak, razmotrićemp osnovne principe koji regulišu rad Bitcoin-a, kako bismo mirno zatim mogli pristupiti pojmovima koji se odnose na poverljivost. Neophodno je savladati nekoliko osnovnih koncepata, kao što su [UTXO](https://planb.academy/resources/glossary/utxo), adrese za prijem i programiranje skripti, pre nego što u potpunosti možete razumeti koncepte koje ćemo obraditi u narednim odeljcima. Takođe ćemo predstaviti Bitcoin-ov opšti model poverljivosti, kako ga je zamislio Satoshi Nakamoto, što će nam omogućiti da shvatimo povezane uloge i rizike.
 
 
 ![BTC204](assets/sr-Latn/001.webp)
@@ -96,7 +98,7 @@ U trećem delu našeg kursa obuke, prelazimo na suštinu: praksu! Cilj je da se 
 **Sekcija 4: Razumevanje CoinJoin transakcija**
 
 
-Kako možemo govoriti o privatnosti na Bitcoin-u bez spominjanja coinjoin-a? U odeljku 4, saznaćete sve što treba da znate o ovoj metodi mešanja UTXO-a. Naučićete šta su coinjoin-i, njihovu istoriju i ciljeve, kao i različite tipove CoinJoin-a koji postoje. Na kraju, za iskusnije korisnike, pogledaćemo šta su anonset-i i entropija, i kako ih izračunati.
+Kako možemo govoriti o privatnosti na Bitcoin-u bez spominjanja [coinjoin](https://planb.academy/resources/glossary/coinjoin)-a? U odeljku 4, saznaćete sve što treba da znate o ovoj metodi mešanja UTXO-a. Naučićete šta su coinjoin-i, njihovu istoriju i ciljeve, kao i različite tipove CoinJoin-a koji postoje. Na kraju, za iskusnije korisnike, pogledaćemo šta su anonset-i i entropija, i kako ih izračunati.
 
 
 ![BTC204](assets/sr-Latn/004.webp)
@@ -126,6 +128,8 @@ Spremni da istražimo kompleksnosti privatnosti na Bitcoin-u? Hajde da krenemo!
 
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
+
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
 
 
 
@@ -197,6 +201,8 @@ Ukupni saldo na vašem novčaniku bi bio `17 BTC`.
 
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 
@@ -323,6 +329,8 @@ Drugo, kao što je pomenuto u prethodnim odeljcima, Bitcoin novčići su u sušt
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 
 ### Novac: autentičnost, integritet i dvostruka potrošnja
@@ -428,6 +436,8 @@ Ali pošto su Bitcoin transakcije javne, i dalje je moguće uspostaviti veze izm
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
+
 
 
 ### Definicija i rad
@@ -490,9 +500,9 @@ Dakle, takođe moramo biti sposobni da se nosimo sa analizom blokčejna u našoj
 Koji je bolji način da se suprotstavite blokčejn analizi nego da naučite o metodama koje se u njoj koriste? Ako želite da znate kako da poboljšate svoju privatnost na Bitcoin-u, morate razumeti ove metode. Ovo će vam dati bolji uvid u tehnike kao što su CoinJoin ili PayJoin (tehnike koje ćemo razmotriti u završnim delovima kursa), i smanjiti greške koje biste mogli napraviti.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 U tome možemo povući analogiju sa kriptografijom i kriptoanalizom. Dobar kriptograf je pre svega dobar kriptoanalitičar. Da biste osmislili novi algoritam za šifrovanje, morate znati koje napade će pretrpeti, kao i proučiti zašto su prethodni algoritmi bili probijeni. Isti princip se primenjuje na Bitcoin privatnost. Razumevanje blokčejn metoda analize je ključ za zaštitu od njih. Zato sam uključio čitavu sekciju o blokčejn analizi u ovaj kurs obuke.
 
@@ -541,6 +551,8 @@ Videćemo šta su oni u narednim poglavljima, ali već je zanimljivo primetiti d
 
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 
@@ -733,6 +745,8 @@ Zahvaljujući ovim obrascima transakcija, već možemo interpretirati određenu 
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 
 Interna heuristika je specifična karakteristika koju identifikujemo unutar same transakcije, bez potrebe da ispitujemo njeno okruženje, i koja nam omogućava da donosimo zaključke. Za razliku od obrazaca, koji se fokusiraju na celokupnu strukturu transakcije na visokom nivou, interne heuristike se zasnivaju na skupu izdvojivih podataka. Ovo uključuje:
@@ -808,7 +822,7 @@ Izvor: [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec4a
 Na potonjem, možemo videti da ulaz br. 0 i izlaz br. 1 koriste P2WPKH skripte (SegWit V0), dok izlaz br. 0 koristi drugačiju P2PKH skriptu (Legacy).
 
 
-Početkom 2010-ih, ova heuristika zasnovana na verzionisanju skripti bila je relativno neupotrebljiva zbog ograničenih tipova dostupnih skripti. Međutim, tokom vremena i sa sukcesivnim Bitcoin ažuriranjima, uvedena je sve veća raznolikost tipova skripti. Ova heuristika stoga postaje sve relevantnija, jer sa širim spektrom tipova skripti, korisnici se dele u manje grupe, čime se povećavaju šanse za primenu ove interne heuristike ponovne upotrebe verzionisanja. Iz tog razloga, isključivo iz perspektive poverljivosti, preporučljivo je da se odlučite za najčešći tip skripte. Na primer, dok pišem ove redove, Taproot skripte (`bc1p`) se ređe koriste od SegWit V0 skripti (`bc1q`). Iako prve nude ekonomske i prednosti u pogledu privatnosti u određenim specifičnim kontekstima, za tradicionalnije upotrebe sa jednim potpisom, može imati smisla pridržavati se starijeg standarda iz razloga privatnosti, sve dok novi standard ne bude šire prihvaćen.
+Početkom 2010-ih, ova heuristika zasnovana na verzionisanju skripti bila je relativno neupotrebljiva zbog ograničenih tipova dostupnih skripti. Međutim, tokom vremena i sa sukcesivnim Bitcoin ažuriranjima, uvedena je sve veća raznolikost tipova skripti. Ova heuristika stoga postaje sve relevantnija, jer sa širim spektrom tipova skripti, korisnici se dele u manje grupe, čime se povećavaju šanse za primenu ove interne heuristike ponovne upotrebe verzionisanja. Iz tog razloga, isključivo iz perspektive poverljivosti, preporučljivo je da se odlučite za najčešći tip skripte. Na primer, dok pišem ove redove, [Taproot](https://planb.academy/resources/glossary/taproot) skripte (`bc1p`) se ređe koriste od SegWit V0 skripti (`bc1q`). Iako prve nude ekonomske i prednosti u pogledu privatnosti u određenim specifičnim kontekstima, za tradicionalnije upotrebe sa jednim potpisom, može imati smisla pridržavati se starijeg standarda iz razloga privatnosti, sve dok novi standard ne bude šire prihvaćen.
 
 
 ### Plaćanja zaokruženih iznosa
@@ -892,6 +906,8 @@ Izvor: [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c
 
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 
@@ -1481,6 +1497,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 
 Nakon što smo proučili tehnike koje mogu narušiti vašu privatnost na Bitcoin-u, u ovom trećem delu ćemo sada pogledati najbolje prakse koje treba usvojiti kako biste se zaštitili. Cilj ovog dela nije istraživanje metoda za poboljšanje privatnosti, tema koja će biti obrađena kasnije, već razumevanje kako pravilno komunicirati sa Bitcoin-om kako biste zadržali poverljivost koju prirodno nudi, bez pribegavanja dodatnim tehnikama.
@@ -1652,6 +1670,8 @@ Ako vam je potreban statički identifikator za primanje uplata, kao što su dona
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 
 Kao što smo otkrili u odeljku o analizi stringova, postoji mnoštvo heuristika i obrazaca koji se mogu koristiti za izvođenje informacija o transakciji. Kao korisnik, važno je biti svestan ovih tehnika kako biste se bolje zaštitili od njih.
@@ -1802,12 +1822,14 @@ Sve ove automatske metode selekcije UTXO mogu biti efikasne u smanjenju troškov
 Ako želite da saznate kako da označite svoje UTXO-e, napravili smo sveobuhvatan vodič o glavnom Bitcoin softver novčaniku koji postoji:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC i identifikacija ključeva
 
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
+
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
 
 
 
@@ -1960,6 +1982,8 @@ U zaključku, kada se bitkoini razmenjuju za druga sredstva, bilo da je to kupov
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
+
 
 
 Nakon čitanja prethodnog poglavlja, možda se pitate kako možete kupiti ili prodati Bitcoin bez potrebe za postupkom verifikacije identiteta, kako biste izbegli rizike povezane sa KYC-ijem. Postoji nekoliko načina za trgovinu bitkoinima.
@@ -2037,7 +2061,7 @@ Još jednom, još jedan nedostatak P2P kupovine je taj što je cena često viša
 -> Pogledajte naš Bisq vodič.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Za jednostavniju opciju, možete probati [Peach](https://peachbitcoin.com/), mobilnu aplikaciju koja povezuje kupce i prodavce sa ugrađenim sistemom za rešavanje konflikata. Proces je intuitivniji od Bisq-ovog.
 
@@ -2045,7 +2069,7 @@ Za jednostavniju opciju, možete probati [Peach](https://peachbitcoin.com/), mob
 -> Pogledajte naš vodič za Peach.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 Još jedna opcija na mreži je [HodlHodl](https://hodlhodl.com/), dobro uspostavljena platforma koja nudi dobru likvidnost, iako je lično nisam testirao.
 
@@ -2053,7 +2077,7 @@ Još jedna opcija na mreži je [HodlHodl](https://hodlhodl.com/), dobro uspostav
 -> Pogledajte naš HodlHodl vodič.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Za rešenja zasnovana na Lightning mreži, probajte [RoboSats](https://learn.robosats.com/) i [LNP2PBot](https://lnp2pbot.com/). RoboSats je dostupan putem vebsajta i relativno je jednostavan za korišćenje. LNP2PBot je neobičniji, jer radi putem sistema za razmenu na Telegram aplikaciji za razmenu poruka.
 
@@ -2064,9 +2088,9 @@ Za rešenja zasnovana na Lightning mreži, probajte [RoboSats](https://learn.rob
 -> Pogledajte naš LNP2PBot vodič.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/sr-Latn/096.webp)
 
@@ -2080,7 +2104,7 @@ U zavisnosti od zemlje u kojoj živite, možda imate pristup regulisanim platfor
 -> Pogledajte naš vodič o Relai-u.
 
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 Kao što smo videli u prethodnom poglavlju, ovaj tip platforme vas štiti od rizika povezanih sa KYC procedurama, ali istovremeno nosi viši nivo rizika za identifikaciju ključeva. Što se tiče poverljivosti Bitcoin-a, ove platforme nude bolju zaštitu od metoda kupovine sa KYC-ijem, ali su i dalje manje privlačne od P2P razmene.
 
@@ -2115,7 +2139,7 @@ Najbolji način da potrošite BTC je, naravno, korišćenje Bitcoin-a ili direkt
 Nekoliko platformi koje ne zahtevaju KYC procedure nude mogućnost razmene bitkoina za poklon kartice koje se mogu koristiti kod velikih trgovaca. To uključuje [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) i [Bitrefill](https://www.bitrefill.com/). Ove platforme znatno olakšavaju svakodnevno korišćenje bitkoina, omogućavajući vam pristup širokom spektru proizvoda i usluga bez potrebe za njihovom konverzijom u fiat valutu.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/sr-Latn/098.webp)
 
@@ -2128,13 +2152,15 @@ Drugi načini za sticanje bitkoina uz zaštitu vaše privatnosti uključuju, nar
 Drugi metod je da radite u zamenu za bitkoine. Ovaj metod sticanja može biti zanimljiv, ali stepen potrebne identifikacije znatno varira u zavisnosti od okolnosti.
 
 
-*Da napišem ovo poglavlje, koristio sam BTC205 kurs obuke koji drži* [@pivi___](https://x.com/pivi___) *na Plan ₿ Network (trenutno dostupan samo na francuskom)*
+*Da napišem ovo poglavlje, koristio sam BTC205 kurs obuke koji drži* [@pivi___](https://x.com/pivi___) *na Plan ₿ Academy (trenutno dostupan samo na francuskom)*
 
 
 ## Konsolidacija, UTXO menadžment i CIOH
 
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
+
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
 
 
 
@@ -2256,6 +2282,8 @@ U svakom slučaju, ne zaboravite da svaka konsolidacija neizbežno podrazumeva g
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 
 Hajde da pogledamo nekoliko drugih najboljih praksi za optimizaciju vaše privatnosti na Bitcoin-u.
@@ -2337,6 +2365,8 @@ Pored svih ovih dobrih praksi koje treba primenjivati svakodnevno, postoje i jo�
 
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 
@@ -2487,6 +2517,8 @@ Današnji korisnici stoga preferiraju CoinJoin, jer im omogućava da zadrže pot
 
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 
@@ -2663,9 +2695,10 @@ Trenutno je Whirlpool jedina implementacija CoinJoin-a koja rigorozno primenjuje
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*U 2024. godini, svedočimo velikim promenama u alatima dostupnim korisnicima koji žele da prave coinjoin-ove na Bitcoin-u. Trenutno smo na prekretnici, a tržište CoinJoin-a prolazi kroz veliko restruktuiranje. Ovo poglavlje će sigurno biti ažurirano tokom vremena*
+
 
 
 Za sada postoje uglavnom 3 različite implementacije CoinJoin-a na Bitcoin-u:
@@ -2677,6 +2710,10 @@ Za sada postoje uglavnom 3 različite implementacije CoinJoin-a na Bitcoin-u:
 - Wabisabi;
 - JoinMarket.
 
+
+Pored ove tri istorijske implementacije, nedavno se pojavila nova: Joinstr. Neću je obrađivati u ovom poglavlju, ali sve informacije o njoj možete pronaći u ovom posebnom vodiču:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 Svaka od ovih implementacija ima za cilj da prekine istoriju UTXO-a putem CoinJoin transakcija. Međutim, njihovi mehanizmi se znatno razlikuju. Stoga je neophodno razumeti kako svaka funkcioniše, kako biste mogli izabrati opciju koja najbolje odgovara vašim potrebama.
 
@@ -2711,6 +2748,8 @@ Uprkos svom inovativnom P2P modelu povezivanja za coinjoinere, JoinMarket ima ne
 
 Konačno, iako je koncept JoinMarket-a zanimljiv, posebno za one koji su zainteresovani za dinamično tržište likvidnosti, njegove strukturne slabosti i tehnička složenost ga čine, po mom mišljenju, manje zanimljivim za početnike i stručnjake koji traže CoinJoin implementaciju.
 
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### Wabisabi
 
@@ -2779,10 +2818,16 @@ Još zabrinjavajući je princip filtriranja, koji je u radikalnom kontrastu sa f
 Kao što ste do sada već shvatili, moj izbor je definitivno Whirlpool model na Bitcoin-u za coinjoins. Ovaj sistem se ističe svojom rigoroznošću i nudi superiorne garancije poverljivosti. Takođe je jedini koji nudi miks koji se smatra savršenim u matematičkom kontekstu. Po mom mišljenju, ovaj model predstavlja budućnost coinjoins-a na Bitcoin-u. Pozivam vas da istražite ovaj model detaljnije u narednom poglavlju.
 
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Kako Whirlpool funkcioniše
 
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 
@@ -3064,7 +3109,7 @@ Takođe nije preporučljivo prebacivati svoje postmix UTXO-e na novčanik korist
 Kao i kod svake Bitcoin transakcije, takođe je važno ne koristiti ponovo prijemnu adresu. Svaka nova transakcija mora biti primljena na novu, praznu adresu.
 
 
-Najjednostavnije i najsigurnije rešenje je da ostavite svoje izmešane UTXO-ove u mirovanju na njihovom **postmix** računu, dopuštajući im da se ponovo mešaju i koristeći ih samo za trošenje. Samurai i Sparrow novčanici imaju dodatne zaštite protiv svih ovih rizika analize lanca. Ove zaštite vam pomažu da izbegnete pravljenje grešaka.
+Najjednostavnije i najsigurnije rešenje jeste da ostavite svoje izmešane UTXO-e da miruju na **postmix** nalogu, da ih pustite da se nastave remiksovati i da ih dodirujete samo prilikom trošenja. Novčanici Samourai (a sada i Ashigaru) i Sparrow imaju dodatne zaštite protiv svih ovih rizika vezanih za analizu lanca. Ove zaštite vam pomažu da izbegnete greške.
 
 
 ### Kako upravljati toksičnim kusurima?
@@ -3082,31 +3127,34 @@ Evo nekoliko strategija za njihovo korišćenje:
 - **Označite ih kao "nepotrošive":** Drugi pristup je da ih prestanete koristiti, označite ih kao "nepotrošive" na njihovom posebnom računu, i samo HODL. Ovo osigurava da ih slučajno ne potrošite. Ako vrednost Bitcoin poraste, mogu se pojaviti novi bazeni koji su pogodniji za vaše toksične UTXO-e;
 - **Donirajte:** Razmislite o donacijama, koliko god skromne bile, programerima koji rade na Bitcoin-u i srodnom softveru. Takođe možete donirati udruženjima koja prihvataju BTC. Ako vam se čini da je upravljanje vašim toksičnim UTXO-ima previše komplikovano, jednostavno ih se možete rešiti i napraviti donaciju;
 - **Kupite poklon kartice:** Platforme kao što je [Bitrefill](https://www.bitrefill.com/) omogućavaju vam da za razmenite bitkoine za poklon kartice koje se mogu koristiti kod različitih trgovaca. Ovo može biti način da se oslobodite svojih toksičnih UTXO-a bez gubitka povezane vrednosti;
-- **Konsolidujte ih na Monero:** Samourai novčanik nudi uslugu atomskih zamena između BTC i XMR. Ovo je idealno za upravljanje toksičnim UTXO-ima konsolidovanjem ih na Monero-u, bez ugrožavanja vaše poverljivosti putem CIOH, pre nego što ih pošaljete nazad na Bitcoin. Međutim, ova opcija može biti skupa u smislu rudarskih naknada i premije zbog ograničenja likvidnosti;
+- **Konsolidovanje putem Monera:** Samourai Wallet je ranije nudio uslugu atomske zamene između BTC i XMR, ali ona više nije dostupna nakon hapšenja. Ovaj pristup je omogućavao obradu toksičnih UTXO-a konsolidovanjem na Moneru bez narušavanja privatnosti preko CIOH-a, pre nego što se pošalju nazad na Bitcoin. Ako se ponovo pojavi slična usluga, može predstavljati zanimljivu opciju. Ipak, imajte na umu da ovaj metod može postati skup, kako zbog troškova rudarenja tako i zbog premije povezane sa ograničenom likvidnošću tokom obrnute konverzije u bitkoine.
 - **Pošalji ih na Lightning mrežu:** Prebacivanje ovih UTXO-a na Lightning mrežu radi smanjenja troškova transakcija može biti privlačna opcija. Međutim, ova metoda može otkriti određene informacije u zavisnosti od toga kako koristite Lightning, te bi stoga trebalo da se koristi s oprezom.
 
 
 ### Kako da koristim Whirlpool?
 
 
-Nakon hapšenja osnivača Samourai novčanika i zaplene njihovih servera 24. aprila 2024. godine, Whirlpool alat više ne radi, čak ni za one sa sopstvenim Dojo-om. Prethodno je bio dostupan za Samourai novčanik i Sparrow novčanik.
+Nakon hapšenja osnivača Samourai Walleta i zaplene njihovih servera 24. aprila 2024, alat Whirlpool više nije dostupan na Samourai Walletu i Sparrow Walletu.
 
 
 ![BTC204](assets/sr-Latn/155.webp)
 
 
-Međutim, ostaje mogućnost da će ovaj alat biti ponovo aktiviran u narednim nedeljama, u zavisnosti od ishoda ispitivanja, ili ponovo pokrenut na drugačiji način. U svakom slučaju, ne mislim da će tržište Bitcoin CoinJoin-a dugo biti bez ponude, jer potražnja postoji. Štaviše, pošto je Whirlpool model najnapredniji u smislu poverljivosti, sigurno će biti model izbora za druge implementacije u budućnosti.
 
 
-Pažljivo pratimo ovaj slučaj i razvoj povezanih alata. Budite sigurni da ćemo ažurirati ovaj kurs obuke čim nove informacije budu dostupne.
 
+
+Od sada je Whirlpool ponovo dostupan u mobilnoj aplikaciji Ashigaru, forku Samourai Walleta, zahvaljujući softveru Ashigaru Terminal.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Suština funkcionisanja Whirlpool-a ostaje nepromenjena, ali ipak postoje određene razlike u odnosu na korišćenje na Samourai-u: 2025. godine, na Ashigaru, dostupna su samo dva poola, u iznosima od `0.25 BTC` i `0.025 BTC`, sa odgovarajućim ulaznim naknadama od `0.0125 BTC` i `0.00125 BTC`.
 
 U sledećem poglavlju saznaćemo šta su "anonsets", kako se ovi indikatori izračunavaju i kako nam mogu pomoći da procenimo efikasnost CoinJoin ciklusa.
 
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -3115,9 +3163,11 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
 
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
 
 
-Proučivši kako coinjoin-ovi funkcionišu i probleme koji su uključeni u efikasno mešanje, sada ćemo saznati kako meriti njihovu efikasnost. Kako možemo odrediti da li je coinjoining proces bio efikasan i koji stepen anonimnosti je UTXO deo stekao? To je ono što ćemo saznati u ovom poglavlju sa skupovima anonimnosti ili ["anonsetovima"](https://planb.network/resources/glossary/anonsets-anonymity-sets).
+
+Proučivši kako coinjoin-ovi funkcionišu i probleme koji su uključeni u efikasno mešanje, sada ćemo saznati kako meriti njihovu efikasnost. Kako možemo odrediti da li je coinjoining proces bio efikasan i koji stepen anonimnosti je UTXO deo stekao? To je ono što ćemo saznati u ovom poglavlju sa skupovima anonimnosti ili ["anonsetovima"](https://planb.academy/resources/glossary/anonsets-anonymity-sets).
 
 
 ### Podsetnik o korisnosti CoinJoin-a
@@ -3225,6 +3275,8 @@ Kao što smo videli u ovom poglavlju, anonseti se mogu izračunati samo ako post
 
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 
@@ -3534,7 +3586,7 @@ Nažalost, nakon hapšenja osnivača Samourai-a, ovi alati više nisu operativni
 Sada kada smo detaljno obradili coinjoin-e, pogledaćemo druge tehnike privatnosti dostupne na Bitcoin-u u poslednjem delu našeg kursa. Pogledaćemo payjoin-e, specifične pseudo-CoinJoin tipove transakcija, protokole statičnih adresa, kao i mere za jačanje poverljivosti ne na nivou samih transakcija, već na nivou mreže čvorova.
 
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Razumevanje izazova drugih naprednih tehnika poverljivosti
 
@@ -3546,6 +3598,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
+
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
 
 
 
@@ -3661,8 +3715,11 @@ Dobro poznati softverski novčanici koji podržavaju PayJoin uključuju Sparrow 
 ![BTC204](assets/sr-Latn/177.webp)
 
 
-Najnaprednija PayJoin implementacija bila je Stowaway na Samourai Wallet-u. Međutim, od hapšenja osnivača softvera, ovaj alat je sada samo delimično funkcionalan. Prednost Stowaway-a je što je to sveobuhvatan, jednostavan za korišćenje protokol, koji podržava i primanje i slanje payjoin-a. Delimično potpisane transakcije mogu se razmenjivati ručno skeniranjem nekoliko QR kodova, ili automatski putem Tor-a preko Soroban-a. Ova druga opcija komunikacije trenutno nije u funkciji.
 
+
+Najnaprednija implementacija payjoin-a svakako je Stowaway, koji su osmislili programeri Samourai Walleta. Od hapšenja osnivača softvera, ovaj alat na Samouraiju funkcioniše samo delimično. Međutim, ponovo je pokrenut u aplikaciji Ashigaru.
+
+Prednost Stowaway-a je u tome što je to potpun i veoma jednostavan protokol koji podržava i prijem i slanje payjoin-a. Delimično potpisane transakcije mogu se razmenjivati ručno skeniranjem više QR kodova ili automatski putem Tor-a preko Soroban-a.
 
 ![BTC204](assets/sr-Latn/178.webp)
 
@@ -3675,12 +3732,14 @@ Jedno rešenje bi bilo korišćenje struktura transakcija koje uvode nejasnoće 
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## Mini-CoinJoin plaćanja
 
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 
@@ -3839,13 +3898,12 @@ Logika bi trebala biti sledeća kada želite da koristite alat za poverljivost p
 ### Kako da koristim Stonewall i Stonewall x2 transakcije?
 
 
-Transakcije Stonewall i Stonewall x2 dostupne su na aplikaciji Samourai Wallet i softveru Sparrow Wallet.
+Stonewall transakcije dostupne su na Sparrow Walletu kao i na Ashigaru, dok Stonewall x2 za sada podržava samo Ashigaru.
 
 
 ![BTC204](assets/sr-Latn/189.webp)
 
 
-Međutim, kao i sa payjoins, nakon hapšenja osnivača Samourai-a, Stonewall x2 transakcije sada funkcionišu samo ručnim razmenjivanjem PSBT-ova između uključenih strana. Nažalost, automatska razmena putem Soroban-a više nije dostupna.
 
 
 Takođe je moguće izvršiti ovu vrstu transakcije ručno iz bilo kog Bitcoin novčanik softvera.
@@ -3854,14 +3912,18 @@ Takođe je moguće izvršiti ovu vrstu transakcije ručno iz bilo kog Bitcoin no
 U sledećem poglavlju, pogledaćemo još jednu tehniku poverljivosti koja je relativno nepoznata, ali koja je veoma korisna kao dopuna onome što smo već proučili.
 
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## Rikošet
 
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
+
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
 
 
 
@@ -3874,7 +3936,7 @@ U zavisnosti od toga kako planirate da koristite svoj deo nakon CoinJoin ciklusa
 ![BTC204](assets/sr-Latn/190.webp)
 
 
-Ono što nam je potrebno da bismo to izbegli jeste alat sposoban da zamagli tragove prošlosti Bitcoin novčića, kako bismo povratili neki oblik zamenljivosti ([eng. fungibility] (https://planb.network/resources/glossary/fungibility)). Upravo je to svrha rikošeta.
+Ono što nam je potrebno da bismo to izbegli jeste alat sposoban da zamagli tragove prošlosti Bitcoin novčića, kako bismo povratili neki oblik zamenljivosti ([eng. fungibility](https://planb.academy/resources/glossary/fungibility)). Upravo je to svrha rikošeta.
 
 
 ![BTC204](assets/sr-Latn/191.webp)
@@ -3883,7 +3945,7 @@ Ono što nam je potrebno da bismo to izbegli jeste alat sposoban da zamagli trag
 ### Šta je (Rikošet)?
 
 
-[Rikošet](https://planb.network/resources/glossary/ricochet) je tehnika koja se sastoji od izvođenja nekoliko fiktivnih transakcija prema sebi (sweep) kako bi se simulirao transfer Bitcoin vlasništva. Ovaj alat se razlikuje od drugih struktura transakcija o kojima smo razgovarali, jer se ne dobija buduća anonimnost, već oblik retrospektivne anonimnosti. U stvari, rikošet zamagljuje specifičnosti koje mogu ugroziti zamenljivost Bitcoin novčića zbog njegove prošlosti.
+[Rikošet](https://planb.academy/resources/glossary/ricochet) je tehnika koja se sastoji od izvođenja nekoliko fiktivnih transakcija prema sebi (sweep) kako bi se simulirao transfer Bitcoin vlasništva. Ovaj alat se razlikuje od drugih struktura transakcija o kojima smo razgovarali, jer se ne dobija buduća anonimnost, već oblik retrospektivne anonimnosti. U stvari, rikošet zamagljuje specifičnosti koje mogu ugroziti zamenljivost Bitcoin novčića zbog njegove prošlosti.
 
 
 Da bi se ublažio trag koji je prethodni događaj ostavio na novčiću, kao što su CoinJoin ciklusi, rikošet izvršava četiri uzastopne transakcije u kojima korisnik prenosi sredstva sebi na različite adrese.
@@ -3934,18 +3996,18 @@ Najčešći slučaj upotrebe rikošeta javlja se kada je potrebno prikriti preth
 Ova metoda je efikasna ne samo za coinjoin-e, već i za bilo koji drugi znak koji bi mogao ugroziti fungibilnost UTXO dela.
 
 
-Ideja za rikošet metodu prvobitno je došla od timova Samourai Wallet-a, koji su je integrisali u svoju aplikaciju kako bi automatizovali proces. Usluga nije besplatna na Samourai, jer rikošet uključuje naknadu za uslugu od 100.000 Sats, plus troškove rudarenja. Njena upotreba se stoga preporučuje za transfere značajnih iznosa.
+Ideja ove ricochet metode potiče prvobitno od timova Samourai Wallet-a, koji su je integrisali u svoju aplikaciju kako bi automatizovali njen rad. Usluga je na Samourai-ju bila naplaćivana, jer je svaki ricochet nosio fiksni trošak od 100.000 sats za servisne takse, uz dodatak rudarskih naknada. Isto važi i danas na Ashigaru. Zbog toga se upotreba ove metode preporučuje uglavnom za transfere velikih iznosa.
 
 
 ![BTC204](assets/sr-Latn/196.webp)
 
 
-Samurai aplikacija nudi dve varijante rikošeta:
+Aplikacija Ashigaru nudi dve varijante ricochet-a (iste one koje smo ranije imali na Samourai):
 
 
 
 
-- Ojačani rikošet, ili "isporuka u fazama", koja nudi prednost raspodele troškova Samurai usluge preko pet uzastopnih transakcija. Ova opcija takođe osigurava da se svaka transakcija emituje u različito vreme i zabeleži u različitom bloku, imitirajući što je moguće bliže ponašanje promene vlasnika. Iako sporija, ova metoda je poželjna za one koji nisu u žurbi, jer maksimizira efikasnost rikošeta jačanjem njegove otpornosti na analizu lanca;
+- Pojačani ricochet, ili „postepna isporuka“, nudi prednost raspodele Naknada za Ashigaru uslugu na pet uzastopnih transakcija. Ova opcija takođe obezbeđuje da svaka transakcija bude emitovana u različito vreme i upisana u različit blok, što omogućava da se što vernije imitira ponašanje promene vlasništva. Iako je sporija, ova metoda je bolja za one koji ne žure, jer maksimizuje efikasnost ricocheta jačanjem njegove otpornosti na analizu lanca;
 
 
 ![BTC204](assets/sr-Latn/197.webp)
@@ -3965,19 +4027,21 @@ Rikošetiranje jednostavno znači slanje bitkoina sebi. Potpuno je moguće ručn
 U sledećem poglavlju, razmatramo različite tehnike za tajne prenose vlasništva. Ove metode se radikalno razlikuju od onih koje smo do sada ispitali, kako u pogledu operacije, tako i rezultata.
 
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Tajni prenos vlasništva
 
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
 
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
+
 
 
 Još jedna od tehnika poverljivosti je tajni prenos vlasništva. Ova metoda ima za cilj prenos vlasništva nad bitkoinima sa jedne osobe na drugu, i obrnuto, bez da transakcija bude eksplicitno vidljiva na blokčejnu. Pogledajmo različite dostupne tehnike, zajedno sa njihovim prednostima i nedostacima.
 
 
-### [Coinswap](https://planb.network/resources/glossary/coinswap) (zamena novčića)
+### [Coinswap](https://planb.academy/resources/glossary/coinswap) (zamena novčića)
 
 
 Coinswap se zasniva na relativno jednostavnom konceptu: koristi pametne ugovore za olakšavanje prenosa vlasništva nad bitkoinima između dva korisnika, bez potrebe za poverenjem i bez da ovaj prenos bude eksplicitno vidljiv na blokčejnu.
@@ -4004,10 +4068,10 @@ Nadalje, nema garancije da će Alisa dobiti Bobov privatni ključ, niti da će z
 ![BTC204](assets/sr-Latn/202.webp)
 
 
-Da bismo rešili ove probleme i omogućili razmene između strana koje ne veruju jedna drugoj, umesto toga ćemo koristiti sisteme pametnih ugovora (eng. [smart contract](https://planb.network/resources/glossary/smart-contract)). Smart contract je program koji se automatski izvršava kada su ispunjeni unapred definisani uslovi. U našem slučaju, ovo osigurava da se razmena svojine odvija automatski, bez potrebe za međusobnim poverenjem.
+Da bismo rešili ove probleme i omogućili razmene između strana koje ne veruju jedna drugoj, umesto toga ćemo koristiti sisteme pametnih ugovora (eng. [smart contract](https://planb.academy/resources/glossary/smart-contract)). Smart contract je program koji se automatski izvršava kada su ispunjeni unapred definisani uslovi. U našem slučaju, ovo osigurava da se razmena svojine odvija automatski, bez potrebe za međusobnim poverenjem.
 
 
-Ovo se može postići korišćenjem [HTLC](https://planb.network/resources/glossary/htlc) (*Hash Time-Locked Contracts*) ili PTLC (*Point Time-Locked Contracts*). Ova dva protokola funkcionišu na sličan način, koristeći sistem vremenskog zaključavanja koji osigurava da se razmena ili uspešno završi ili potpuno otkaže, čime se štiti integritet sredstava obe strane. Glavna razlika između HTLC i PTLC je u tome što HTLC koristi hešove i preimage (ulazna vrednost) za obezbeđivanje transakcije, dok PTLC koristi adaptor potpise ([engl. adaptor signatures](https://planb.network/resources/glossary/adaptor-signature)). 
+Ovo se može postići korišćenjem [HTLC](https://planb.academy/resources/glossary/htlc) (*Hash Time-Locked Contracts*) ili PTLC (*Point Time-Locked Contracts*). Ova dva protokola funkcionišu na sličan način, koristeći sistem vremenskog zaključavanja koji osigurava da se razmena ili uspešno završi ili potpuno otkaže, čime se štiti integritet sredstava obe strane. Glavna razlika između HTLC i PTLC je u tome što HTLC koristi hešove i preimage (ulazna vrednost) za obezbeđivanje transakcije, dok PTLC koristi adaptor potpise ([engl. adaptor signatures](https://planb.academy/resources/glossary/adaptor-signature)). 
 
 
 U scenariju zamene novčića koristeći HTLC ili PTLC između Alise i Boba, razmena se odvija sigurno: ili uspeva i svako dobija BTC onog drugog, ili ne uspeva i svaki zadržava svoj BTC. Ovo onemogućava bilo kojoj strani da prevari ili ukrade BTC onog drugog.
@@ -4028,7 +4092,7 @@ U coinswap-u, upotreba Adaptor potpisa omogućava simultano otkrivanje dva dela 
 
 
 
-- Alis pokreće razmenu kreiranjem transakcije $m_A$ koja šalje 1 BTC Bobu. Ona generiše $s_A$ potpis, koji validira ovu transakciju, koristeći svoj privatni ključ $p_A$ ($P_A = p_A \cdot G$), [Nonce](https://planb.network/resources/glossary/nonce) $n_A$ ($N_A = n_A \cdot G$) i tajnu $t$ ($T = t \cdot G$):
+- Alis pokreće razmenu kreiranjem transakcije $m_A$ koja šalje 1 BTC Bobu. Ona generiše $s_A$ potpis, koji validira ovu transakciju, koristeći svoj privatni ključ $p_A$ ($P_A = p_A \cdot G$), [Nonce](https://planb.academy/resources/glossary/nonce) $n_A$ ($N_A = n_A \cdot G$) i tajnu $t$ ($T = t \cdot G$):
 
 
 $$s_A = n_A + t + H(N_A + T \parallel P_A \parallel m_A) \cdot p_A$$
@@ -4098,7 +4162,7 @@ Imajte na umu da je coinswaps prvi predložio [Gregory Maxwell u oktobru 2013. n
 ### Atomska razmena
 
 
-Na sličan način kao coinswap, i koristeći iste tipove pametnih ugovora, moguće je izvršiti i atomske razmene. Atomska razmena ([eng. atomic swap](https://planb.network/resources/glossary/atomic-swap)) omogućava direktnu razmenu različitih kriptovaluta, kao što su BTC i XMR, između dva korisnika bez potrebe za poverenjem ili intervencijom posrednika. Ove razmene se nazivaju "atomske" jer imaju samo dva moguća ishoda: ili je zamena uspešna i obe strane su zadovoljne, ili ne uspe i svaka zadržava svoje originalne kriptovalute, eliminišući potrebu za poverenjem drugoj strani.
+Na sličan način kao coinswap, i koristeći iste tipove pametnih ugovora, moguće je izvršiti i atomske razmene. Atomska razmena ([eng. atomic swap](https://planb.academy/resources/glossary/atomic-swap)) omogućava direktnu razmenu različitih kriptovaluta, kao što su BTC i XMR, između dva korisnika bez potrebe za poverenjem ili intervencijom posrednika. Ove razmene se nazivaju "atomske" jer imaju samo dva moguća ishoda: ili je zamena uspešna i obe strane su zadovoljne, ili ne uspe i svaka zadržava svoje originalne kriptovalute, eliminišući potrebu za poverenjem drugoj strani.
 
 
 ![BTC204](assets/sr-Latn/203.webp)
@@ -4157,6 +4221,8 @@ Do sada smo uglavnom proučavali metode poverljivosti na nivou samih transakcija
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 
 U Delu 4, razgovarali smo o važnosti korišćenja kompletnog čvora za zaštitu poverljivosti vaših transakcija. Međutim, važno je razumeti da i vaš čvor može biti podložan napadima koji pokušavaju da izvuku informacije o vašim aktivnostima. Stoga ćemo u ovom poglavlju razmotriti različite mere koje možete preduzeti za zaštitu vaše privatnosti, ne na nivou samih transakcija ili Bitcoin tokova, već na nivou mreže.
@@ -4165,7 +4231,7 @@ U Delu 4, razgovarali smo o važnosti korišćenja kompletnog čvora za zaštitu
 ### Maslačak (eng. Dandelion)
 
 
-Jedan od načina da se izbegnu razni napadi de-anonimizacije je korišćenje [Dandelion]((https://planb.network/resources/glossary/dandelion) predloga. Ovaj protokol emitovanja je formalizovan u BIP156, ali nikada nije implementiran na Bitcoin-u.
+Jedan od načina da se izbegnu razni napadi de-anonimizacije je korišćenje [Dandelion]((https://planb.academy/resources/glossary/dandelion) predloga. Ovaj protokol emitovanja je formalizovan u BIP156, ali nikada nije implementiran na Bitcoin-u.
 
 
 Ideja iza Dandelion-a je poboljšanje poverljivosti usmeravanja transakcija u Bitcoin mreži kako bi se suprotstavilo raznim oblicima napada. Njegov glavni cilj je sakriti izvorni čvor koji je inicijalno emitovao transakciju na mreži. Otkrivanje ovog čvora moglo bi omogućiti povezivanje Bitcoin transakcije sa specifičnim IP adrese (ako čvor radi na clearnet-u), što bi moglo pružiti ulaznu tačku za analizu lanca.
@@ -4236,7 +4302,7 @@ P2P transport V2 je još jedan mrežni protokol predstavljen u BIP324. To je nov
 Ovo poboljšanje je dizajnirano da reši nekoliko problema sa osnovnom verzijom P2P protokola. S jedne strane, čini podatke koji se razmenjuju neprepoznatljivim od drugih tipova podataka koji kruže Internetom za pasivnog posmatrača. Glavni cilj je sprečiti vlade, ISP-ove i VPN provajdere da masovno nadgledaju korisnike Bitcoin-a. Ovo takođe otežava ovim entitetima da utvrde da li je korisnik Interneta takođe korisnik Bitcoin-a, tj. da li upravlja kompletnim čvorom.
 
 
-P2P V2 takođe pomaže u smanjenju rizika od cenzure i napada detektovanjem specifičnih obrazaca u paketima podataka. To komplikuje i čini skupljim izvršenje različitih tipova [Sybil napada](https://planb.network/resources/glossary/sybil-attack) na nivou mreže. Sybil napad se dešava kada akter kreira više lažnih identiteta kako bi stekao nepravednu prednost. U kontekstu Bitcoin mreže, ovo se često manifestuje kao akter koji kontroliše veliki broj kompletnih čvorova i agresivno ih koristi za umnožavanje konekcija. Sybil napadi mogu biti pasivni, za prikupljanje informacija i kompromitovanje korisničke poverljivosti, ili aktivni, u obliku [Eclipse napada](https://planb.network/resources/glossary/eclipse-attack). Ovi poslednji izoluju specifičan čvor od ostatka mreže, bilo cenzurišući korisnika ili menjajući podatke koje prima. Na kraju, P2P V2 takođe čini *Man-In-The-Middle* (MITM) napade skupljim i lakšim za detekciju.
+P2P V2 takođe pomaže u smanjenju rizika od cenzure i napada detektovanjem specifičnih obrazaca u paketima podataka. To komplikuje i čini skupljim izvršenje različitih tipova [Sybil napada](https://planb.academy/resources/glossary/sybil-attack) na nivou mreže. Sybil napad se dešava kada akter kreira više lažnih identiteta kako bi stekao nepravednu prednost. U kontekstu Bitcoin mreže, ovo se često manifestuje kao akter koji kontroliše veliki broj kompletnih čvorova i agresivno ih koristi za umnožavanje konekcija. Sybil napadi mogu biti pasivni, za prikupljanje informacija i kompromitovanje korisničke poverljivosti, ili aktivni, u obliku [Eclipse napada](https://planb.academy/resources/glossary/eclipse-attack). Ovi poslednji izoluju specifičan čvor od ostatka mreže, bilo cenzurišući korisnika ili menjajući podatke koje prima. Na kraju, P2P V2 takođe čini *Man-In-The-Middle* (MITM) napade skupljim i lakšim za detekciju.
 
 
 Šifrovanje koje koristi P2P V2 ne uključuje autentifikaciju, kako bi se izbegla nepotrebna složenost i sačuvala činjenica da je povezivanje na mrežu i dalje moguće bez dozvole (eng. permissionless). Ipak, ovaj novi P2P transportni protokol nudi bolju sigurnost protiv pasivnih napada i čini aktivne napade znatno skupljim i lakše uočljivim. Uvođenje pseudo-slučajnog toka podataka u mrežne poruke otežava napadačima cenzurisanje ili manipulaciju komunikacijama.
@@ -4248,7 +4314,7 @@ P2P V2 transport je uključen kao opcija (podrazumevano onemogućena) u Bitcoin 
 ### Tor
 
 
-Još jedno jednostavno rešenje za izbegavanje rizika od gubitka poverljivosti za mrežni čvor je da ga u potpunosti pokrenete pod [Tor-om](https://planb.network/resources/glossary/tor-the-onion-router).
+Još jedno jednostavno rešenje za izbegavanje rizika od gubitka poverljivosti za mrežni čvor je da ga u potpunosti pokrenete pod [Tor-om](https://planb.academy/resources/glossary/tor-the-onion-router).
 
 
 Tor je mreža relej servera (čvorova) koja anonimizuje poreklo TCP konekcija na Internetu. Radi tako što enkapsulira podatke u nekoliko slojeva enkripcije. Svaki relej čvor uklanja sloj kako bi otkrio adresu sledećeg čvora, sve dok se ne dostigne konačno odredište. Tor mreža obezbeđuje anonimnost sprečavanjem posredničkih čvorova da znaju i poreklo i odredište podataka, što posmatraču čini veoma teškim praćenje aktivnosti korisnika.
@@ -4273,6 +4339,8 @@ Nakon što smo istražili različite metode poverljivosti na mrežnom nivou, u n
 
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
+
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
 
 
 
@@ -4318,13 +4386,13 @@ Cilj BIP47 je omogućiti primanje velikog broja uplata bez ponovnog korišćenja
 Korisnik stoga može deliti svoj platni kod u potpunoj slobodi, bilo na društvenim mrežama ili na svojoj veb stranici, bez rizika od gubitka poverljivosti, za razliku od konvencionalne adrese za primanje ili javnog ključa.
 
 
-Da bi se izvršila transakcija, obe strane treba da imaju Bitcoin novčanik sa BIP47 implementacijom, kao što je PayNym na Samurai Wallet-u ili Sparrow Wallet. Zajednička upotreba njihovih platnih kodova stvara tajni kanal između njih. Da bi se ovaj kanal efikasno uspostavio, izdavalac mora izvršiti specifičnu transakciju na Bitcoin blokčejnu, poznatu kao "notifikaciona transakcija" (više o tome kasnije).
+Da bi se izvršila transakcija, obe strane moraju posedovati Bitcoin novčanik sa implementacijom BIP47, kao što je PayNym na Ashigaru ili Sparrow Wallet. Zajednička upotreba njihovih platnih kodova stvara tajni kanal između njih. Da bi se ovaj kanal efikasno uspostavio, pošiljalac mora izvršiti posebnu transakciju na Bitcoin blokčejnu, poznatu kao „notifikaciona transakcija“ (detalje ću vam dati kasnije).
 
 
 Kombinovanjem kodova plaćanja dva korisnika generišu se zajedničke tajne, koje zauzvrat stvaraju veliki broj jedinstvenih Bitcoin adresa za primanje (tačno 2^32, ili oko 4 milijarde). Na ovaj način, uplate izvršene putem BIP47 nisu zapravo adresirane na sam kod plaćanja, već na klasične adrese za prijem izvedene iz kodova plaćanja uključenih korisnika.
 
 
-Kod plaćanja tako služi kao virtuelni identifikator izveden iz seed novčanika. U hijerarhijskoj strukturi derivacije novčanika, kod plaćanja je pozicioniran [na nivou 3, tj. na nivou računa](https://planb.network/resources/glossary/account).
+Kod plaćanja tako služi kao virtuelni identifikator izveden iz seed novčanika. U hijerarhijskoj strukturi derivacije novčanika, kod plaćanja je pozicioniran [na nivou 3, tj. na nivou računa](https://planb.academy/resources/glossary/account).
 
 
 ![BTC204](assets/sr-Latn/220.webp)
@@ -4349,7 +4417,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 Ovaj kod se takođe može kodirati kao QR kod, kako bi se olakšala komunikacija, baš kao konvencionalna prijemna adresa.
 
 
-Što se tiče PayNym Botova, robota koji se ponekad viđaju na Twitteru, oni su vizuelne reprezentacije koda za plaćanje, kreiranog od strane Samourai Wallet-a. Generišu se korišćenjem Hash funkcije, što im daje skoro jedinstvenost. Imaju oblik malog niza karaktera koji počinje sa `+`:
+Što se tiče PayNym Botova, onih robota koji se povremeno mogu videti na X (Twitteru), oni predstavljaju vizuelne prikaze platnog koda koje je kreirao Samourai Wallet. Sada sa Ashigarujem izgledaju nešto drugačije, ali princip ostaje isti. Generišu se putem heš funkcije, što im daje gotovo potpunu jedinstvenost. Pojavljuju se kao mali niz znakova koji počinje sa `+` :
 
 
 ```plaintext
@@ -4369,10 +4437,10 @@ Iako ovi roboti nemaju specifičnu tehničku funkcionalnost unutar BIP47 okvira,
 
 
 ---
-*U sledećim odeljcima ovog poglavlja posvećenog BIP47, detaljno ćemo razmotriti kako funkcioniše, sa posebnim naglaskom na korišćene kriptografske metode. Da biste u potpunosti razumeli ova donekle tehnička objašnjenja, neophodno je prvo razumeti strukturu HD novčanika, procedure izvođenja ključeva i osnove eliptičke kriptografije. Ako želite da se dublje upustite u ove pojmove, dostupan je još jedan besplatan kurs obuke na Plan ₿ Network:*
+*U sledećim odeljcima ovog poglavlja posvećenog BIP47, detaljno ćemo razmotriti kako funkcioniše, sa posebnim naglaskom na korišćene kriptografske metode. Da biste u potpunosti razumeli ova donekle tehnička objašnjenja, neophodno je prvo razumeti strukturu HD novčanika, procedure izvođenja ključeva i osnove eliptičke kriptografije. Ako želite da se dublje upustite u ove pojmove, dostupan je još jedan besplatan kurs obuke na Plan ₿ Academy:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *I dalje bih vam savetovao da ih pratite, jer će vam razumevanje tehničkog funkcionisanja BIP47 znatno olakšati razumevanje drugih, sličnih predloga, o kojima ćemo diskutovati u narednim poglavljima*
 
@@ -4381,7 +4449,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ### [Ponovno upotrebljivi kod za plaćanje]
 
 
-Kao što je ranije pomenuto, višekratni kod za plaćanje ([eng. reusable payment code] (https://planb.network/resources/glossary/reusable-payment-code) se nalazi na dubini 3 HD novčanika, što ga čini uporedivim sa `xpub`, kako u smislu njegove pozicije u strukturi novčanika, tako i u smislu njegove uloge.
+Kao što je ranije pomenuto, višekratni kod za plaćanje ([eng. reusable payment code](https://planb.academy/resources/glossary/reusable-payment-code) se nalazi na dubini 3 HD novčanika, što ga čini uporedivim sa `xpub`, kako u smislu njegove pozicije u strukturi novčanika, tako i u smislu njegove uloge.
 
 Kod za plaćanje od 80 bajtova se može razlažiti na sledeći način:
 
@@ -4389,7 +4457,7 @@ Kod za plaćanje od 80 bajtova se može razlažiti na sledeći način:
 - **Bajt `1`: Polje bita**. Ovaj prostor je rezervisan za integrisanje dodatnih indikacija za specifične namene. Za klasičnu upotrebu PayNym-a, ovaj bajt je postavljen na `0x00`;
 - **Bajt `2`: Paritet `y`**. Ovaj bajt je `0x02` ili `0x03`, što označava da li je ordinata javnog ključa parna ili neparna, jer se koristi kompresovani javni ključ;
 - **Od bajta `3` do bajta `34`: Vrednost `x`**. Ovi bajtovi predstavljaju apscisu javnog ključa. Konkatenacija `x` i pariteta `y` formira kompletan kompresovani javni ključ;
-- **Od bajta `35` do bajta `66`: [Kod lanca (chain code)](https://planb.network/resources/glossary/chain-code)**. Ovaj prostor sadrži kod lanca povezan sa javnim ključem;
+- **Od bajta `35` do bajta `66`: [Kod lanca (chain code)](https://planb.academy/resources/glossary/chain-code)**. Ovaj prostor sadrži kod lanca povezan sa javnim ključem;
 - **Od bajta `67` do bajta `79`: popuna (padding)**. Ovaj prostor je namenjen mogućim budućim razvojnim pravcima. U trenutnoj verziji jednostavno se popunjava nulama kako bi se dostigla veličina od 80 bajtova, koja je potrebna za OP_RETURN izlaz.
 
 
@@ -4448,7 +4516,7 @@ U konkretnim terminima, za generisanje kompresovanog javnog ključa i lanca koda
 ### Diffie-Hellman razmena ključeva na eliptičkim krivama (ECDH)
 
 
-Kriptografski protokol u srcu BIP47 poznat je pod akronimom ECDH, za *Elliptic-Curve Diffie-Hellman*. Ova metoda je varijanta originalnog [Diffie-Hellman algoritma za razmenu ključa](https://planb.network/resources/glossary/diffiehellman).
+Kriptografski protokol u srcu BIP47 poznat je pod akronimom ECDH, za *Elliptic-Curve Diffie-Hellman*. Ova metoda je varijanta originalnog [Diffie-Hellman algoritma za razmenu ključa](https://planb.academy/resources/glossary/diffiehellman).
 
 
 Uveden 1976. godine, Diffie-Hellman je protokol za dogovor o ključu koji omogućava dvema stranama, od kojih svaka ima par ključeva (javni i privatni), da se dogovore o zajedničkoj tajni, čak i kada komuniciraju samo putem javnog, nesigurnog kanala.
@@ -4855,7 +4923,7 @@ $$ c' = c \oplus f2 $$
 **4-** Alisa trenutno ima svoj platni kod sa šifrovanim sadržajem. Ona će konstruisati i emitovati transakciju koja uključuje njen javni ključ $A$ kao ulaz, izlaz ka Bobovoj adresi notifikacije, i `OP_RETURN` izlaz koji se sastoji od njenog platnog koda sa šifrovanim sadržajem. **Ova transakcija je transakcija notifikacije**.
 
 
-[`OP_RETURN`](https://planb.network/resources/glossary/op-return-0x6a) je operativni kod koji označava izlaz Bitcoin transakcije kao nevažeći. Danas se koristi za emitovanje ili usidravanje informacija na Bitcoin blokčejnu. Može da skladišti do 80 bajtova podataka, koji se zatim upisuju u lanac i vidljivi su svim ostalim korisnicima.
+[`OP_RETURN`](https://planb.academy/resources/glossary/op-return-0x6a) je operativni kod koji označava izlaz Bitcoin transakcije kao nevažeći. Danas se koristi za emitovanje ili usidravanje informacija na Bitcoin blokčejnu. Može da skladišti do 80 bajtova podataka, koji se zatim upisuju u lanac i vidljivi su svim ostalim korisnicima.
 
 
 Kao što smo videli u prethodnim odeljcima, ECDH se koristi za generisanje zajedničke tajne između dva korisnika koji komuniciraju preko nesigurne mreže, i potencijalno su posmatrani od strane napadača. U BIP47, ECDH se koristi za komunikaciju na Bitcoin mreži, koja je po svojoj prirodi transparentna komunikaciona mreža, i posmatrana je od strane mnogih napadača. Zajednička tajna izračunata putem ECDH razmene ključa se zatim koristi za šifrovanje tajnih informacija koje treba preneti: kod plaćanja pošiljaoca (Alise).
@@ -5441,12 +5509,14 @@ Bob može tada nadoknaditi Alisi na isti način na koji mu je ona slala uplate. 
 *Mnogo hvala [Fanis Michalakis](https://x.com/FanisMichalakis) za lekturu i stručne savete o članku koji je inspirisao pisanje ovog poglavlja!*
 
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## Diskretna plaćanja (eng. Silent Payments)
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 

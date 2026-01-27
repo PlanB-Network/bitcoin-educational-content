@@ -36,7 +36,7 @@ Ninja SAFU-metoden har flere fordeler:
 
 
 
-- **Pålitelighet**: Metoden har blitt testet siden 2020 og er utprøvd og testet av sikkerhetseksperter som [Jameson Lopp] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), som har utsatt den for strenge stresstester (ekstrem varme, korrosjon, mekanisk trykk).
+- **Pålitelighet**: Metoden har blitt testet siden 2020 og er utprøvd og testet av sikkerhetseksperter som [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), som har utsatt den for strenge stresstester (ekstrem varme, korrosjon, mekanisk trykk).
 
 
 
@@ -329,19 +329,19 @@ Selv om sikkerhetskopien er godt lagret, må den **kontrolleres regelmessig**:
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### A.2 Forståelse av passphrase BIP39
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ### A.3 Hvordan Bitcoin-porteføljer fungerer
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### A.4 Klassifisering av Ninja SAFU-metoden
@@ -354,7 +354,7 @@ Ifølge Jameson Lopp
 
 
 
-- [Rapport] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) om Ninja SAFU-metoden
+- [Rapport](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) om Ninja SAFU-metoden
 
 
 
@@ -380,9 +380,9 @@ Ifølge Jameson Lopp
 
 
 - **Skiver** for
- - [Titan] (https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
+ - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
 - Skiver + mutter + **beskyttelsesetui** (for skiver)
- - [Titan] (https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
+ - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Stansesett
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
@@ -391,8 +391,8 @@ Ifølge Jameson Lopp
 - **Tappeinnretning** (guide)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Forseglingsenhet
- - [Forseglet pose] (https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
- - [Tetningslister] (https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
+ - [Forseglet pose](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
+ - [Tetningslister](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
 - **Komplett** sett
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)

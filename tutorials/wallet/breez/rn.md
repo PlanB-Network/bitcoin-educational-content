@@ -86,7 +86,7 @@ Hanyuma ukurikize amabwirizwa kugira ngo wemeze ububiko bwawe maze uhuze konti y
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **IGIHARURWA**: Kugira ngo wongereko Layer y’umutekano ku Breez Wallet yawe, urashobora gusobanura PIN code maze ukayishiraho kugira ngo yemeze ko gushika kuri Wallet vyemewe.
 

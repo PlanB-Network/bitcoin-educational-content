@@ -32,7 +32,7 @@ Esto se puede utilizar para transferir:
 
 
 - frases **gW-0** (el maestro seed de ColdCard Q o los secretos almacenados en la [Bóveda seed] de ColdCardQ(https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **notas confidenciales y contraseñas**: puede ser cualquier secreto o todo el directorio [Notas confidenciales y contraseñas] (https://coldcard.com/docs/secure_notes/) de su ColdCardQ.
+- **notas confidenciales y contraseñas**: puede ser cualquier secreto o todo el directorio [Notas confidenciales y contraseñas](https://coldcard.com/docs/secure_notes/) de su ColdCardQ.
 - una copia de seguridad de toda su **ColdCardQ**: la ColdCardQ que reciba esta copia de seguridad no debe tener una seed Master para que esto funcione.
 - gW-3 (**Transacciones Bitcoin parcialmente firmadas**) como parte de un esquema de firma múltiple.
 
@@ -95,7 +95,7 @@ Se genera un código QR en la pantalla. Una vez más, tendrá que comunicar este
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Actualmente tenemos:*
 
@@ -145,7 +145,7 @@ Ahora se le pide que elija la naturaleza de los secretos que se transmitirán en
 
 
 
-Aquí nuestro secreto será un mensaje corto eligiendo **"Mensaje de Texto Rápido "**. Escribe tu mensaje (para nosotros "PlanB Network rocks") y pulsa **"ENTER "**.
+Aquí nuestro secreto será un mensaje corto eligiendo **"Mensaje de Texto Rápido "**. Escribe tu mensaje (para nosotros "Plan ₿ Academy rocks") y pulsa **"ENTER "**.
 
 
 A continuación, el dispositivo genera una nueva contraseña aleatoria denominada **"Contraseña de teletransporte "** , en el ejemplo "NE XG BT SK".
@@ -190,7 +190,7 @@ Pulse el botón **"QR "** para escanear el código QR presentado por el disposit
 
 
 
-A continuación, los datos se descifran y se hacen inteligibles para el dispositivo receptor. El mensaje recibido es, en efecto, "PlanB Network rocks". Y eso es todo.
+A continuación, los datos se descifran y se hacen inteligibles para el dispositivo receptor. El mensaje recibido es, en efecto, "Plan ₿ Academy rocks". Y eso es todo.
 
 
 

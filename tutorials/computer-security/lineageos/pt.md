@@ -149,8 +149,8 @@ De acordo com as estatísticas oficiais, os modelos mais utilizados incluem uma 
 
 
 
-- Ferramenta Android Flash**: Utilize a ferramenta oficial da Google [flash.android.com] (https://flash.android.com) para restaurar facilmente o seu dispositivo Pixel para o Android original a partir do seu navegador Web (é necessário o Chrome/Edge)
-- Alternativa**: Imagens de fábrica manualmente a partir de [developers.google.com/android/images] (https://developers.google.com/android/images)
+- Ferramenta Android Flash**: Utilize a ferramenta oficial da Google [flash.android.com](https://flash.android.com) para restaurar facilmente o seu dispositivo Pixel para o Android original a partir do seu navegador Web (é necessário o Chrome/Edge)
+- Alternativa**: Imagens de fábrica manualmente a partir de [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -176,7 +176,7 @@ De acordo com as estatísticas oficiais, os modelos mais utilizados incluem uma 
 
 
 
-**Ferramentas ADB e Fastboot:** Siga o [guia oficial do LineageOS] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) para instalar as ferramentas da plataforma Android SDK. Verifique a instalação com `adb version` e `fastboot --version`.
+**Ferramentas ADB e Fastboot:** Siga o [guia oficial do LineageOS](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) para instalar as ferramentas da plataforma Android SDK. Verifique a instalação com `adb version` e `fastboot --version`.
 
 
 
@@ -738,4 +738,4 @@ O LineageOS oferece uma alternativa madura para recuperar o controlo do seu smar
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

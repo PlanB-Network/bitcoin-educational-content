@@ -51,7 +51,7 @@ W protokole Bitcoin elementy takie jak _konto_ czy _jednostki monetarne_ nie ist
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Z Bitcoin to, co gromadzisz, a później wydajesz, to małe lub duże jednostki konta mierzone w Satoshi, reprezentowane przez "niewydane wyniki transakcji", **UTXO**, zwane również "monetami". Kiedy używasz UTXO do tworzenia transakcji, są one całkowicie niszczone, a na ich miejsce tworzone są inne UTXO.
 
@@ -568,7 +568,7 @@ Kontrola Coin jest bardzo skuteczną praktyką wyboru danych wejściowych transa
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Rozmawialiśmy wcześniej o `segregacji pozostałości`. Jeśli chcesz zablokować resztki do późniejszego przetworzenia i odzyskać prywatność (swap na Layer 2), musisz zadbać o ich `oznakowanie` za każdym razem, gdy je otrzymasz. Spośród dotychczasowych portfeli programowych tylko Electrum graficznie koloruje resztki UTXO, aby były widoczne na pierwszy rzut oka. Inne, takie jak Sparrow, pokazują łańcuch w ścieżce wyprowadzania poszczególnych UTXO (`m/84'/0'/0'/1/11`).
 

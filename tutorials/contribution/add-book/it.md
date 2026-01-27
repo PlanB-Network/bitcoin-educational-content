@@ -1,21 +1,21 @@
 ---
-name: Aggiungere un libro su Plan ₿ Network
-description: Come aggiungere un nuovo libro su Plan ₿ Network?
+name: Aggiungere un libro su Plan ₿ Academy
+description: Come aggiungere un nuovo libro su Plan ₿ Academy?
 ---
 ![book](assets/cover.webp)
 
-La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e gestiti su GitHub, permettendo a chiunque di contribuire all'arricchimento della piattaforma.
+La missione di Plan ₿ Academy è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e gestiti su GitHub, permettendo a chiunque di contribuire all'arricchimento della piattaforma.
 
-**Vuoi aggiungere un libro relativo a Bitcoin su Plan ₿ Network e aumentare la visibilità del tuo lavoro, ma non sai come fare? Questo tutorial è per te!**
+**Vuoi aggiungere un libro relativo a Bitcoin su Plan ₿ Academy e aumentare la visibilità del tuo lavoro, ma non sai come fare? Questo tutorial è per te!**
 
 ![book](assets/01.webp)
 
 - Prima di tutto, devi avere un account GitHub. Se non sai come crearne uno, abbiamo scritto un tutorial dettagliato per guidarti.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) nella sezione `resources/books/`:
+- Vai al [repository GitHub di Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) nella sezione `resources/books/`:
 
 ![book](assets/02.webp)
 
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![book](assets/03.webp)
 
-- Se non hai mai aggiunto contenuti su Plan ₿ Network, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, permettendoti di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
+- Se non hai mai aggiunto contenuti su Plan ₿ Academy, dovrai creare il tuo fork del repository originale. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, permettendoti di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
 
 ![book](assets/04.webp)
 
@@ -99,7 +99,7 @@ tags:
 
 ![book](assets/14.webp)
 
-- Seleziona il tuo fork del repository Plan ₿ Network:
+- Seleziona il tuo fork del repository Plan ₿ Academy:
 
 ![book](assets/15.webp)
 
@@ -143,7 +143,7 @@ tags:
 
 ![book](assets/25.webp)
 
-- Si aprirà una nuova pagina. Trascina e rilascia l'immagine di copertina del tuo libro nell'area. Questa immagine verrà visualizzata sul sito Plan ₿ Network:
+- Si aprirà una nuova pagina. Trascina e rilascia l'immagine di copertina del tuo libro nell'area. Questa immagine verrà visualizzata sul sito Plan ₿ Academy:
 
 ![book](assets/26.webp)
 
@@ -252,8 +252,8 @@ contributors:
 
 ![libro](assets/44.webp)
 
-Congratulazioni! La tua PR è stata creata con successo. Un coordinatore la esaminerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo libro sul sito web qualche giorno dopo.
+Congratulazioni! La tua PR è stata creata con successo. Un coordinatore la esaminerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Academy. Dovresti vedere apparire il tuo libro sul sito web qualche giorno dopo.
 
-Tieni monitorata la tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fintanto che la tua PR non è validata, puoi visualizzarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network.
+Tieni monitorata la tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fintanto che la tua PR non è validata, puoi visualizzarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Academy.
 
 Grazie mille per il tuo prezioso aiuto! :)

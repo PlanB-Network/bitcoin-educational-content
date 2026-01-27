@@ -1,0 +1,8 @@
+question: Hva er den primære fordelen med å bruke Taproot med MuSig2 for bytter på tvers av lag sammenlignet med eldre SegWit v0 HTLC-er?
+answer: Samarbeidsbytter fremstår som standard transaksjoner med én signatur, noe som gir fullstendig personvern og minimal bruk av blokkplass
+wrong_answers:
+  - Taproot eliminerer behovet for tidslåsing, noe som gjør byttene raskere og mer effektive enn eldre HTLC-er
+  - MuSig2 gjør det mulig å bruke flere hashlåser samtidig, noe som muliggjør mer komplekse bytteordninger med flere parter
+  - Taproot-bytter kan gjennomføres uten å avsløre noen kryptografiske hemmeligheter, i motsetning til eldre HTLC-er som alltid avslører forhåndsbilder
+explanation: |
+  Taproot med MuSig2 revolusjonerer HTLC-personvernet gjennom nøkkelaggregering. I den kooperative "happy path" kombinerer begge parter nøklene sine til én enkelt aggregert offentlig nøkkel og signerer transaksjonen sammen. Dette gjør at byttet ikke kan skilles fra en vanlig betaling, bruker minimalt med blokkplass og avslører ingen byttebetingelser. Eldre SegWit v0 HTLC-er krevde publisering av hele skriptlogikken on-chain, noe som gjorde dem lett identifiserbare og dyrere. De andre alternativene er feil: tidslåser er fortsatt avgjørende for sikkerheten, flere hash-låser er ikke den viktigste innovasjonen, og forhåndsbilder avsløres fortsatt når du gjør krav på midler.

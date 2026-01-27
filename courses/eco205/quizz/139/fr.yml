@@ -1,0 +1,8 @@
+question: Selon l'analyse présentée, pourquoi les trois mécanismes de manipulation monétaire (taux directeurs, assouplissement quantitatif, prêt direct) produisent-ils le même effet négatif sur l'économie?
+answer: Ils créent tous de la monnaie ex nihilo et faussent les signaux de prix essentiels au fonctionnement du marché
+wrong_answers:
+  - "Ils augmentent tous directement l'inflation sans stimuler la croissance économique réelle"
+  - "Ils réduisent tous la capacité d'épargne des ménages en dévaluant leurs avoirs monétaires"
+  - Ils concentrent tous le pouvoir économique entre les mains des grandes institutions financières
+explanation: |
+  La réponse correcte identifie le problème fondamental selon la théorie autrichienne : ces trois mécanismes créent artificiellement de la monnaie et déforment les signaux de prix qui coordonnent normalement l'épargne et l'investissement. Les autres réponses, bien que décrivant des effets possibles, ne saisissent pas l'essence du dysfonctionnement : la création monétaire artificielle qui déconnecte les signaux économiques de la réalité, provoquant une mauvaise allocation des ressources.

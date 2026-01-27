@@ -1,0 +1,9 @@
+question: Milline neist kriteeriumidest on kõige olulisem vastastikuse ühenduvuse puhul?
+answer: Keskne positsioon graafikus
+wrong_answers:
+  - Sõlme nimi graafis
+  - Sõlme värvus graafikus
+  - Sõnumite arv graafikus
+explanation: |
+  Hästi paigutatud sõlm Lightning-graafis hõlbustab marsruutimist paljudesse sihtkohtadesse.
+reviewed: false

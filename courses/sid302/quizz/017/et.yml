@@ -1,0 +1,8 @@
+question: Milline on Liquid föderatiivse konsensuse mudelis minimaalne arv funktsionaalseid allkirju, mis on vajalik ploki valideerimiseks, ja milline on maksimaalne arv sõlmede tõrkeid, mida võrk suudab taluda?
+answer: 11 vajalikku allkirja, talub kuni 4 sõlme rikkeid
+wrong_answers:
+  - vajalik 8 allkirja, talub kuni 7 sõlme rikkeid
+  - nõutav 15 allkirja, talub kuni 2 sõlme rikkeid
+  - vajalik 9 allkirja, talub kuni 6 sõlme rikkeid
+explanation: |
+  Liquid kasutab 11-15 künnise süsteemi, mille kohaselt peab iga plokk olema allkirjastatud vähemalt 11 ametnikku 15st, et see oleks kehtiv. Selline ülesehitus võimaldab võrgul jätkata tööd isegi siis, kui kuni 4 sõlme ei tööta (15 - 11 = 4). Teised variandid annavad kas valed allkirjastamise künnised või arvutavad valesti veatolerantsi, mis on alati sõlmede koguarv miinus nõutavad allkirjad.

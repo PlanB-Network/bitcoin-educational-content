@@ -11,7 +11,7 @@ A proteção das informações pessoais na era digital é uma prioridade máxima
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Introdução ao PureOS
 
@@ -64,11 +64,11 @@ A instalação e configuração do PureOS no seu computador exigirá as seguinte
 
 
 
-Aceda ao [sítio Web oficial do PureOS] (https://pureos.net/) e transfira a imagem ISO do sistema operativo de acordo com a arquitetura da sua máquina.
+Aceda ao [sítio Web oficial do PureOS](https://pureos.net/) e transfira a imagem ISO do sistema operativo de acordo com a arquitetura da sua máquina.
 
 
 
-Para iniciar a instalação do PureOS, é necessário criar uma chave USB de arranque utilizando um software flash como o [Balena Etcher] (https://www.balena.io/etcher).
+Para iniciar a instalação do PureOS, é necessário criar uma chave USB de arranque utilizando um software flash como o [Balena Etcher](https://www.balena.io/etcher).
 
 
 
@@ -353,4 +353,4 @@ Descubra o nosso curso sobre como reforçar a sua segurança e proteger a sua pr
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

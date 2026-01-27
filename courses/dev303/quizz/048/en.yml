@@ -1,0 +1,8 @@
+question: What is the primary purpose of combining RC with RefCell in Rust programming?
+answer: To enable multiple owners to share and mutate the same data with runtime borrowing checks
+wrong_answers:
+  - To move borrowing rule enforcement from runtime back to compile time for better performance
+  - To create immutable shared data that can be safely accessed across multiple threads
+  - To prevent reference cycles and memory leaks when sharing data between multiple owners
+explanation: |
+  RC<RefCell<T>> combines reference counting for shared ownership with interior mutability for runtime-checked mutations. RC allows multiple parts of code to own the same data, while RefCell enables mutation through immutable references by checking borrowing rules at runtime. The other options are incorrect: this pattern actually moves checks to runtime (not compile time), creates mutable (not immutable) shared data, and can actually cause reference cycles rather than prevent them.

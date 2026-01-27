@@ -1,0 +1,8 @@
+question: Tofauti kuu ya usanifu kati ya Blockstream AMP Toleo la 1 na Toleo la 2 kuhusu ujenzi wa miamala na mahitaji ya nodi ni ipi?
+answer: Toleo la 2 huhamisha ugumu kwenye seva ambayo hushughulikia ujenzi wa miamala na kuwapa watoa huduma PSET, na kuondoa hitaji la usawazishaji wa full node.
+wrong_answers:
+  - Toleo la 2 linahitaji watoaji kuendesha nodi nyingi za Elements zilizosawazishwa kwa ajili ya urejeshaji huku Toleo la 1 likihitaji muunganisho mmoja tu wa nodi.
+  - Toleo la 2 huhamisha shughuli zote za kriptografia hadi kwenye pochi za vifaa za upande wa mteja huku Toleo la 1 likifanya shughuli zote za kusaini kwenye miundombinu ya seva.
+  - Toleo la 2 huondoa kabisa hitaji la kusaini pamoja na kuruhusu uhamisho wa moja kwa moja kutoka kwa rika hadi rika huku Toleo la 1 likihitaji idhini ya seva kwa kila muamala.
+explanation: |
+  Mabadiliko kutoka Toleo la 1 la AMP hadi Toleo la 2 yanawakilisha mabadiliko ya msingi kutoka kwa mfumo wa 'mteja mahiri, miundombinu tata' hadi mbinu ya 'seva mahiri, mteja aliyerahisishwa'. Toleo la 1 liliwahitaji watoa huduma kudumisha nodi za Elements zilizosawazishwa kikamilifu na kutegemea sana SDK ya Green ya monolithic, na kuunda vikwazo vya hali ya juu vya kiufundi. Toleo la 2 husogeza upande wa ugumu wa seva, ambapo seva ya AMP hushughulikia ujenzi wa miamala, uteuzi wa UTXO, na hesabu ya ada, kisha huwapa watoa huduma Miamala ya Elements Iliyosainiwa kwa Sehemu (PSET) ambayo inahitaji tu sahihi. Hii huondoa hitaji la nodi kamili na kuwezesha ujumuishaji wa kawaida wa wallet.

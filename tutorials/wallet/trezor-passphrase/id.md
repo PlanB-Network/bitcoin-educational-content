@@ -18,7 +18,7 @@ Sebelum memulai tutorial ini, jika Anda belum terbiasa dengan konsep passphrase,
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 passphrase pada Trezor ditangani dengan cara klasik jika Anda memilih standar BIP39 selama konfigurasi (yang saya sarankan jika Anda tidak memerlukan *Cadangan Multi-Bagi*). Yang istimewa dari Trezor adalah Anda bisa memasukkan passphrase secara langsung ke Hardware Wallet, atau melalui keyboard komputer Anda menggunakan perangkat lunak Trezor Suite. Pilihan kedua ini jauh lebih tidak aman, karena komputer memiliki permukaan serangan yang jauh lebih besar daripada Hardware Wallet. Akan tetapi, mengetik passphrase yang rumit mungkin lebih cepat pada keyboard konvensional dibandingkan dengan Hardware Wallet, yang dapat mendorong penggunaan kata sandi yang kuat. Jadi selalu lebih baik menggunakan passphrase, bahkan jika harus diketik, daripada tidak menggunakannya sama sekali. Namun demikian, penting untuk tetap waspada terhadap peningkatan risiko serangan numerik yang diimplikasikan oleh hal ini.
 
@@ -36,15 +36,15 @@ Di Trezor Suite, Anda memiliki dua cara berbeda untuk mengelola permintaan passp
 
 
 
-Sebelum memulai tutorial ini, pastikan Anda sudah menginisialisasi Trezor Anda dan membuat frasa Mnemonic. Jika belum, dan Trezor Anda masih baru, ikuti tutorial khusus model yang tersedia di Plan ₿ Network. Setelah Anda menyelesaikan langkah ini, Anda dapat kembali ke tutorial ini.
+Sebelum memulai tutorial ini, pastikan Anda sudah menginisialisasi Trezor Anda dan membuat frasa Mnemonic. Jika belum, dan Trezor Anda masih baru, ikuti tutorial khusus model yang tersedia di Plan ₿ Academy. Setelah Anda menyelesaikan langkah ini, Anda dapat kembali ke tutorial ini.
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 
 ## Menambahkan passphrase ke Safe 3 atau Safe 5
@@ -79,7 +79,7 @@ Untuk rekomendasi yang lebih spesifik mengenai cara memilih passphrase, saya men
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Jika Anda ingin memasukkan passphrase melalui keyboard komputer Anda, masukkan di kolom yang tersedia, lalu klik "*Akses passphrase Wallet*".
 
@@ -177,7 +177,7 @@ Untuk rekomendasi yang lebih spesifik mengenai cara memilih passphrase, saya men
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Masukkan passphrase Anda pada kolom yang tersedia, lalu klik tombol "*Akses passphrase Wallet*".
 
@@ -215,6 +215,6 @@ Selamat, Anda sekarang sudah siap untuk menggunakan passphrase BIP39 pada dompet
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 Jika Anda merasa tutorial ini bermanfaat, saya akan berterima kasih jika Anda memberikan jempol Green di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih banyak!

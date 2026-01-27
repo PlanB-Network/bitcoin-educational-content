@@ -14,7 +14,7 @@ Lightning wallets worden, net als alle mobiele wallets, beschouwd als "Hot" wall
 Als je meer wilt leren over de Lightning Network en wilt begrijpen hoe het technisch werkt, raad ik je aan deze cursus te volgen:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 In deze tutorial bekijken we **Lipa**, een eenvoudige en effectieve Lightning Wallet, ontwikkeld in Zwitserland.
 
@@ -131,7 +131,7 @@ Om een back-up te maken van uw Wallet, gaat u naar het tabblad "Instellingen" en
 Voor meer informatie over hoe je op de juiste manier een back-up maakt en je herstelzin beheert, raad ik je ten zeerste aan deze andere tutorial te volgen, vooral als je een beginner bent:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Bitcoins ontvangen
 

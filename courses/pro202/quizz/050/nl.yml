@@ -1,0 +1,8 @@
+question: Wanneer een Bitcoin node bootstraps maakt en voor de eerste keer toetreedt tot het netwerk, wat is dan het primaire mechanisme dat het gebruikt om actieve peers te ontdekken?
+answer: Neemt contact op met hardcoded DNS seeds die worden onderhouden door kernontwikkelaars om IP's van actieve peers te ontvangen
+wrong_answers:
+  - Zendt een zoekbericht uit naar alle IP-adressen in vooraf gedefinieerde subnetbereiken
+  - Maakt verbinding met een centrale registerserver die een lijst van alle actieve knooppunten bijhoudt
+  - Gebruikt DHT (Distributed Hash Table) protocol om peers te vinden via hash-gebaseerde routering
+explanation: |
+  Bitcoin gebruikt hardcoded DNS seeds als bootstrap mechanisme omdat het een gedecentraliseerde manier biedt voor nieuwe nodes om het netwerk binnen te komen zonder afhankelijk te zijn van een centrale autoriteit. De DNS seeds worden onderhouden door kernontwikkelaars en geven IP-adressen van momenteel actieve peers. Eenmaal verbonden, kunnen knooppunten het getaddr commando gebruiken om bijkomende peers te ontdekken. De foute antwoorden beschrijven gecentraliseerde benaderingen of protocollen die niet gebruikt worden door Bitcoin - er is geen centraal register, geen subnet broadcasting en geen DHT-gebaseerde peer discovery in het Bitcoin ontwerp.

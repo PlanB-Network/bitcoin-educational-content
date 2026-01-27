@@ -1,0 +1,9 @@
+question: Hva er hovedproblemet med å bedømme sosialpolitikk ut fra dens erklærte intensjoner snarere enn dens faktiske resultater, ifølge Friedmans perspektiv?
+answer: Velmenende politikk skaper ofte utilsiktede konsekvenser som økonomisk avhengighet og markedsvridninger som er i strid med de opprinnelige målene
+wrong_answers:
+  - Intensjoner er for vanskelige å måle objektivt sammenlignet med en enkel vurdering av utfall og resultater av politikken
+  - Politikerne villeder bevisst offentligheten om sine egentlige intensjoner, noe som gjør intensjonsbasert evaluering grunnleggende upålitelig og villedende
+  - Intensjonene endres for ofte under implementeringen av politikken, noe som gjør dem til et ustabilt grunnlag for langsiktig evaluering av politikken
+explanation: |
+  Friedman hevder at en politikk med sjenerøse intensjoner kan ha uheldige virkninger som går på tvers av målsettingene, for eksempel ved å skape avhengighet blant dem den skal hjelpe
+  de som skal hjelpes. Problemet er ikke målevansker, politisk bedrag eller skiftende intensjoner, men snarere at gode intensjoner ikke garanterer positive resultater. Derfor er strukturelle definisjoner som fokuserer på observerbare egenskaper og målbare resultater, å foretrekke fremfor intensjonelle definisjoner som baserer seg på uttalte motivasjoner.

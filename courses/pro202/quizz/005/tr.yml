@@ -1,0 +1,8 @@
+question: F(p) asal cismindeki her sıfır olmayan elemanın çarpımsal bir tersinin olmasını sağlayan matematiksel özellik nedir?
+answer: Alan bir p asal sayısı ile tanımlanır
+wrong_answers:
+  - Alan tam olarak p-1 eleman içerir
+  - Alan modüler aritmetik işlemleri kullanır
+  - Alan toplama ve çarpma işlemlerini destekler
+explanation: |
+  Sonlu bir F(p) alanı, sıfır olmayan her elemanın çarpımsal bir tersinin olmasını sağlamak için bir p asal sayısı ile tanımlanmalıdır. Bu, alan teorisinin temel bir gereksinimidir - p asal olduğunda, p modülündeki tamsayılar bölmenin her zaman mümkün olduğu (sıfır hariç) bir alan oluşturur. Eğer p bileşik olsaydı, bazı sıfır olmayan elemanların tersleri olmazdı ve alan yapısı bozulurdu. Diğer seçenekler sonlu cisimlerin özelliklerini tanımlarken, yalnızca p'nin asallığı sıfır olmayan tüm elemanlar için çarpımsal terslerin varlığını garanti eder.

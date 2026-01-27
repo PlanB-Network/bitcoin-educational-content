@@ -6,4 +6,4 @@ wrong_answers:
   - Musi poczekać na wygaśnięcie blokady czasowej przed odzyskaniem środków.
 explanation: |
   Aby otrzymać środki w kontrakcie HTLC, odbiorca musi podać określony sekret, który umożliwia odblokowanie płatności zabezpieczonej przez hasz.
-reviewed: false
+reviewed: true

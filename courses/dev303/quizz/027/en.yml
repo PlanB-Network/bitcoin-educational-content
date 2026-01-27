@@ -1,0 +1,8 @@
+question: What does the struct update syntax allow you to do when creating new structure instances in Rust?
+answer: Create a new instance by specifying only changed fields while copying remaining fields from an existing instance
+wrong_answers:
+  - Modify existing structure fields in place without creating a new instance
+  - Automatically generate default values for unspecified fields using the Default trait
+  - Merge multiple structure instances together into a single combined instance
+explanation: |
+  The struct update syntax in Rust allows you to create a new structure instance by specifying only the fields you want to change, while automatically copying all other fields from an existing instance. This is done using the `..existing_instance` syntax. The other options are incorrect: struct update syntax always creates a new instance rather than modifying existing ones, it doesn't generate default values but copies from existing instances, and it works with one source instance rather than merging multiple instances together.

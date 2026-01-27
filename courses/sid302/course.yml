@@ -15,139 +15,150 @@ original_language: en
 
 proofreading:
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
-    reward: 2.26
+      - 2raj2raj
+    reward: 2.33
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 6.95
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 4.67
   - language: es
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - lutxoitalico
-    reward: 1.13
+    reward: 2.33
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 6.95
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 6.95
   - language: fr
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - ElSombrero13
-    reward: 1.13
+    reward: 2.33
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.7
+    reward: 9.23
   - language: it
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - glrq
-    reward: 1.13
+    reward: 2.33
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.43
+    reward: 11.51
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 6.95
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 4.67
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 6.95
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.43
+    reward: 11.51
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.7
+    reward: 9.23
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 6.95
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.15
+    reward: 11.51
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 9.23
   - language: sw
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 1.49
+    reward: 3.47
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.7
+    reward: 9.23
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 6.95
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 4.67
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 6.95
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.7
+    reward: 9.23
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 9.23
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.43
+    reward: 11.51
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.95
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.23
 tags:
   - sidechains
   - technical-analysis
@@ -156,21 +167,35 @@ videos:
   - id: ff6899d2-b47f-4c3d-983d-3bd66d2be59d
     youtube:
       - en: QCyWXVWkcAM
+    peertube:
+      - en: fAHoZBmNNJERLNGfaaLzyU
   - id: 5652dcb2-4303-484c-8be5-d98063b39c1c
     youtube:
       - en: 9Yu0dPAJSek
+    peertube:
+      - en: 9yncc4RVei6YE3KBvHLhph
   - id: 31368c02-b979-44d7-b217-ceed96c7ca5c
     youtube:
       - en: zFvv0bn4ZWY
+    peertube:
+      - en: 3oYJW5JiYLpfnDCy2WNXKv
   - id: 0bac0a62-90f2-41da-ac7c-330c0604bc61
     youtube:
       - en: 6wNeHQBlhA4
+    peertube:
+      - en: mqvqoJUpMb53AcUBWLgxeW
   - id: 07e0b82f-2d60-4eb3-9b5d-2ccb7ad06e8a
     youtube:
       - en: IAdOxZyx7-Y
+    peertube:
+      - en: acQm2Ghw8hvQ5ubDpLYesT
   - id: f00822b4-dc1a-46ff-adfc-ff7c97a0024d
     youtube:
       - en: AnMiD9amSUg
+    peertube:
+      - en: 982WYFS8NL9QcSecP1V6oW
   - id: 1a6289b5-fdae-4320-b5b1-41925150108c
     youtube:
       - en: ucc3a-udbgo
+    peertube:
+      - en: daUkaSwee2YDnBoYUnZpuu

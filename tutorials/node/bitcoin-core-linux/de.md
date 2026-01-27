@@ -216,9 +216,9 @@ Um die Logs deines Bitcoin-Knotens zu sehen, die sich speziell auf seine Interak
 **Tipp💡:** Hier sind einige interessante Links:
 
 
-- [Wiki-Seite, die Tor und seine Beziehung zu Bitcoin erklärt] (https://en.Bitcoin.it/wiki/Tor)
+- [Wiki-Seite, die Tor und seine Beziehung zu Bitcoin erklärt](https://en.Bitcoin.it/wiki/Tor)
 - [Bitcoin core Konfigurationsdatei-Generator von Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
-- [Tor-Konfigurationsanleitung von Jon Atack] (https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
+- [Tor-Konfigurationsanleitung von Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 
 Wie immer, wenn Sie Fragen haben, können Sie diese gerne mit der Agora256 Gemeinschaft teilen. Wir lernen gemeinsam, um morgen besser zu sein als heute!

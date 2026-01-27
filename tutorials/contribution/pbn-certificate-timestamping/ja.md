@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ Network 卒業証書のタイムスタンプ
+name: Plan ₿ Academy 卒業証書のタイムスタンプ
 description: Plan ₿ ネットワークがあなたの証明書と卒業証書に検証可能な証明を発行する方法を理解する
 ---
 
@@ -9,7 +9,7 @@ description: Plan ₿ ネットワークがあなたの証明書と卒業証書�
 
 このチュートリアルでは、Plan B NetworkがあなたのBitcoin証明書や任意のコース修了証に対して検証可能なものをどのように発行するかを見ていきます。次に、これらの証明の真正性をどのように検証するかを見ていきます。
 
-# Plan B Networkの証明メカニズム
+## Plan B Networkの証明メカニズム
 
 Plan ₿ Networkでは、私たちが暗号的に署名し、Timechain（つまりBitcoinブロックチェーン）にタイムスタンプを押した証明書と卒業証書を提供しています。これを実現するために、2つの暗号操作に依存する証明メカニズムを考え出しました：
 
@@ -23,7 +23,7 @@ Plan ₿ Networkでは、私たちが暗号的に署名し、Timechain（つま�
 
 この証明メカニズムのおかげで、証明書や卒業証書の最小の詳細を変更しようとすると、署名されたファイルのsha256ハッシュが完全に異なるものになり、署名とタイムスタンプがもはや有効でないため、改ざんが即座に明らかになります。さらに、誰かが悪意を持ってPlan B Networkを代表して証明書や卒業証書を偽造しようとした場合、署名の検証だけで詐欺が明らかになります。
 
-## GPG署名はどのように機能するのか？
+### GPG署名はどのように機能するのか？
 
 GPG署名は、GNU Private Guardというオープンソースソフトウェアを使用して取得されます。このソフトウェアは、誰でも簡単にプライベートキーを作成し、署名と検証、ファイルの暗号化と復号化を行うことができます。このチュートリアルの範囲では、Plan B NetworkがGPGを使用してプライベート/パブリックキーを作成し、Bitcoin証明書やコース修了証を署名することを知っておいてください。
 
@@ -31,14 +31,14 @@ GPG署名は、GNU Private Guardというオープンソースソフトウェア
 
 この素晴らしいソフトウェアについてもっと知りたいと思う方は、["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)を参照してください。
 
-## タイムスタンプはどのように機能するのか？
+### タイムスタンプはどのように機能するのか？
 
 誰でもOpenTimestampsを使用してファイルにタイムスタンプを押し、ファイルの存在の検証可能な証明を得ることができます。言い換えると、ファイルが作成された時ではなく、特定の時点より前に存在していた証明を提供します。
 OpenTimestampsは、Bitcoin Blockchainにこのような証明を格納する非常に効率的な方法のおかげで、このサービスを無料で提供することができます。ファイルのsha256ハッシュをファイルのユニークな識別子として使用し、他のユーザーから提出されたファイルのハッシュと一緒にマークルツリーを構築し、OpReturnトランザクションにマークルツリー構造のハッシュのみをアンカーします。
 このトランザクションがあるブロック内にある一度、初期ファイルとそれに関連する `.ots` ファイルを持つ人は誰でも、タイムスタンプの真正性を検証できます。チュートリアルの第二部では、ターミナルとOpenTimestampsのウェブサイトを通じたグラフィカルインターフェースを使用して、あなたのBitcoin証明書や任意のコース完了証明書をどのように検証するかを見ていきます。
-# Plan B Network証明書または卒業証明書の検証方法
+## Plan B Network証明書または卒業証明書の検証方法
 
-## ステップ 1. あなたの証明書または卒業証明書をダウンロードする
+### ステップ 1. あなたの証明書または卒業証明書をダウンロードする
 
 個人のPBNダッシュボードにログインしてください。
 
@@ -58,7 +58,7 @@ zipファイルをダウンロードしてください。
 - Open timestamp（OTS）ファイル（例：certificate.txt.ots）
 - PDF証明書（例：certificate.pdf）
 
-## ステップ 2: テキストファイルの署名を検証する
+### ステップ 2: テキストファイルの署名を検証する
 
 まず、ファイルがあるフォルダでターミナルを開きます（フォルダウィンドウを右クリックして「ターミナルで開く」をクリック）。次に、以下の指示に従ってください
 
@@ -71,7 +71,7 @@ curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/pl
 PGPキーを正常にインポートした場合、以下のようなメッセージが表示されます
 
 ```
-gpg: key 8F12D0C63B1A606E: public key "PlanB Network (used for PBN platform) <admin@planb.network>" imported
+gpg: key 8F12D0C63B1A606E: public key "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" imported
 gpg: Total number processed: 1
 gpg:               imported: 1
 ```
@@ -86,7 +86,7 @@ gpg --verify certificate.txt
 
 このコマンドは、署名に関する詳細を表示します。これには以下が含まれます：
 
-- 誰が署名したか（Plan ₿ Network）
+- 誰が署名したか（Plan ₿ Academy）
 - いつ署名されたか
 - 署名が有効かどうか
 
@@ -96,14 +96,14 @@ gpg --verify certificate.txt
 gpg: Signature made lun 11 nov 2024, 00:39:04 CET
 gpg:                using RSA key 5720CD577E7894C98DBD580E8F12D0C63B1A606E
 gpg:                issuer "admin@planb.network"
-gpg: Good signature from "PlanB Network (used for PBN platform) <admin@planb.network>" [unknown]
+gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" [unknown]
 ```
 
 「BAD signature」というメッセージが表示された場合、ファイルが改ざんされています。
 
-## ステップ 3: Open Timestampを検証する
+### ステップ 3: Open Timestampを検証する
 
-### グラフィカルインターフェースを通じて検証する
+#### グラフィカルインターフェースを通じて検証する
 
 1. OpenTimestampsのウェブサイトを訪れます：https://opentimestamps.org/
 2. 「Stamp & Verify」タブをクリックします。
@@ -113,7 +113,7 @@ gpg: Good signature from "PlanB Network (used for PBN platform) <admin@planb.net
 
 以下のようなメッセージが表示された場合、あなたのタイムスタンプは有効です：
 ![cover](assets/opentimestamp_wegui_verified.webp)
-### CLIメソッド
+#### CLIメソッド
 
 注意：この手順は**ローカルのBitcoinノードが稼働していることが必要です**
 
@@ -137,7 +137,7 @@ ots verify certificate.txt.ots
 - ファイルがタイムスタンプされた正確な時刻を表示します
 - タイムスタンプの真正性を確認します
 
-### 最終結果
+#### 最終結果
 
 以下の**両方の**メッセージが表示された場合、検証は成功です：
 

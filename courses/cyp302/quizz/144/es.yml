@@ -6,4 +6,4 @@ wrong_answers:
   - 256 bits en total
 explanation: |
   En criptosistemas modernos como RSA, los números primos elegidos son típicamente de 1024 bits cada uno, haciendo la factorización extremadamente difícil y mejorando la seguridad.
-reviewed: false
+reviewed: true

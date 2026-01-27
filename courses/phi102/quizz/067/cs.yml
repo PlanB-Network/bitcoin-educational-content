@@ -1,0 +1,8 @@
+question: Jaký paradox podle textu existuje mezi bezpečností a hospodářským pokrokem?
+answer: Bezpečnost je předpokladem rozvoje a zároveň jeho důsledkem
+wrong_answers:
+  - Bezpečnost přichází vždy až po dosažení hospodářského rozvoje
+  - Hospodářský pokrok přirozeně eliminuje potřebu bezpečnostních opatření
+  - Bezpečnost a hospodářský pokrok jsou na sobě zcela nezávislé
+explanation: |
+  Kapitola vysvětluje, že bezpečnost a hospodářský pokrok vytvářejí paradoxní vztah: bezpečnost je nutná, aby mohlo dojít k rozvoji (bez ní nelze dlouhodobě inovovat ani investovat), ale zároveň je třeba ekonomický přebytek z výroby, aby bylo možné financovat instituce, které bezpečnost zajišťují. To vytváří obtížný koloběh, který se však po zahájení sám posiluje. Ostatní odpovědi jsou špatné, protože naznačují jednoduchý jednosměrný vztah nebo nezávislost, nikoli tuto komplexní vzájemnou závislost.

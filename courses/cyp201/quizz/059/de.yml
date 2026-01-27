@@ -6,4 +6,4 @@ wrong_answers:
   - Gewährleistet die Vertraulichkeit der Transaktion
 explanation: |
   Der Seed ist eine 512-Bit-Sequenz, die aus der mnemonischen Phrase und dem Passwort abgeleitet wird. Er bildet die Grundlage aller Schlüssel im Wallet.
-reviewed: false
+reviewed: true

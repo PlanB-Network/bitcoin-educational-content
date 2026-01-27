@@ -6,4 +6,4 @@ wrong_answers:
   - base64
 explanation: |
   SegWit v0-Adressen, wie sie für P2WPKH und P2WSH verwendet werden, nutzen die mit SegWit eingeführte bech32-Kodierung.
-reviewed: false
+reviewed: true

@@ -708,7 +708,7 @@ Sparrow 提供三種連接模式：
 如需 Sparrow Wallet 軟體的詳細資訊，我們有完整的教學：
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## 總結
 
 

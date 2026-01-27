@@ -53,7 +53,7 @@ Hướng dẫn từng bước này sẽ chỉ cho bạn cách viết tin nhắn 
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Nếu cần, hãy chuyển BTC hoặc Sats để nạp vào Wallet của bạn. 
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -218,7 +218,7 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-Mẹo: Sử dụng công cụ [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) để tự động generate tập lệnh. Ngay cả khi công cụ này đề xuất nhập số tiền bằng BTC, hãy giữ nguyên đơn vị được cấu hình trong Electrum.
+Mẹo: Sử dụng công cụ [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) để tự động generate tập lệnh. Ngay cả khi công cụ này đề xuất nhập số tiền bằng BTC, hãy giữ nguyên đơn vị được cấu hình trong Electrum.
 
 
 

@@ -1,0 +1,8 @@
+question: P2PKH işlem doğrulamasında, ScriptPubKey harcama koşullarını doğrulamak için hangi özel işlem dizisini gerçekleştirir?
+answer: Açık anahtarı çoğaltır, hashler, işlenen hash ile karşılaştırır, ardından imzayı doğrular
+wrong_answers:
+  - İmzayı karma hale getirir, açık anahtar karmasıyla karşılaştırır ve ardından taahhüt edilen değerle doğrular
+  - Önce imzayı doğrular, ardından açık anahtarı kareler ve taahhüt edilen kareyle karşılaştırır
+  - İmzayı ve açık anahtarı birleştirir, sonucu hashler, ardından taahhüt edilen hash ile karşılaştırır
+explanation: |
+  P2PKH'nin ScriptPubKey'i belirli bir sırayı takip eder: OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. Bu, sağlanan açık anahtarı çoğaltır, SHA256 ve ardından RIPEMD160 hashing uygular, sonucun taahhüt edilen hash ile eşleştiğini doğrular ve son olarak imzayı kontrol eder. Diğer seçenekler işlem sırasını yanlış tanımlar veya doğrulama mantığını bozacak şekilde açık anahtarlar yerine imzaları karma yapmayı önerir.

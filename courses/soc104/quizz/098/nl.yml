@@ -1,0 +1,9 @@
+question: Volgens het Cypherpunk Manifest van Eric Hughes, welk fundamenteel principe onderscheidt cypherpunks van degenen die alleen maar hopen op privacybescherming?
+answer: Cypherpunks schrijven actief code om anonieme systemen te bouwen in plaats van te wachten tot instellingen privacy bieden
+wrong_answers:
+  - Cypherpunks richten zich op politieke lobby en wettelijke hervormingen om privacyrechten vast te leggen via democratische processen
+  - Cypherpunks geloven in het werken binnen bestaande financiële instellingen om hun privacybescherming geleidelijk te verbeteren
+  - Cypherpunks geven prioriteit aan het voorlichten van het publiek over privacyrisico's in plaats van het ontwikkelen van technische oplossingen
+explanation: |
+  Het manifest stelt expliciet 'Cypherpunks schrijven code' en benadrukt dat ze geen troost vinden in hoop en wensen maar actief ingrijpen in gebeurtenissen.
+  Hughes stelde dat mensen niet van overheden, bedrijven of andere grote organisaties kunnen verwachten dat ze privacy garanderen, dus moeten cypherpunks zelf cryptografische systemen bouwen. Deze actieve, technische benadering door middel van het ontwikkelen van code onderscheidt hen van passieve benaderingen zoals lobbyen, werken binnen bestaande systemen of alleen maar anderen voorlichten zonder concrete technologische oplossingen te creëren.

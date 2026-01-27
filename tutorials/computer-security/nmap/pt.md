@@ -165,7 +165,7 @@ Nesta secção, vamos dar uma vista de olhos às principais utilizações da fer
 
 
 
-O Nmap pode ser usado para diagnóstico de rede e, mais amplamente, para monitoramento. Da mesma forma que um ping pode ser usado para determinar se dois hosts estão se comunicando, o Nmap pode ser usado para determinar rapidamente se um host está ativo, ou se um serviço em particular está operacional. Graças ao [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap"), podemos obter dados precisos sobre o tempo de resposta de um hospedeiro, o caminho percorrido pelos pacotes, a resposta dada por um serviço específico, etc.
+O Nmap pode ser usado para diagnóstico de rede e, mais amplamente, para monitoramento. Da mesma forma que um ping pode ser usado para determinar se dois hosts estão se comunicando, o Nmap pode ser usado para determinar rapidamente se um host está ativo, ou se um serviço em particular está operacional. Graças ao [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap"), podemos obter dados precisos sobre o tempo de resposta de um hospedeiro, o caminho percorrido pelos pacotes, a resposta dada por um serviço específico, etc.
 
 
 
@@ -312,7 +312,7 @@ Nesta secção, vamos aprender como instalar a ferramenta de scan de rede Nmap n
 
 
 
-O Nmap foi originalmente concebido para correr em sistemas operativos GNU/Linux. Como resultado, e graças à sua longevidade e popularidade, você vai encontrá-lo em todos os repositórios oficiais das maiores distribuições Unix. Neste tutorial, vou usar um sistema operativo baseado em Debian [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Mas pode usá-lo exatamente da mesma forma a partir de um Debian clássico, CentOS, Red Hat ou qualquer outro!
+O Nmap foi originalmente concebido para correr em sistemas operativos GNU/Linux. Como resultado, e graças à sua longevidade e popularidade, você vai encontrá-lo em todos os repositórios oficiais das maiores distribuições Unix. Neste tutorial, vou usar um sistema operativo baseado em Debian [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Mas pode usá-lo exatamente da mesma forma a partir de um Debian clássico, CentOS, Red Hat ou qualquer outro!
 
 
 
@@ -433,7 +433,7 @@ Esta é a biblioteca na qual o Nmap se baseia para gerir as comunicações de re
 
 
 
-Tal como no Linux, pode validar se o Nmap está instalado abrindo uma Prompt de Comando ou um terminal [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") e escrevendo o seguinte comando:
+Tal como no Linux, pode validar se o Nmap está instalado abrindo uma Prompt de Comando ou um terminal [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") e escrevendo o seguinte comando:
 
 
 
@@ -551,7 +551,7 @@ A partir de agora, lembre-se de verificar apenas os anfitriões num ambiente con
 
 
 
-- Para recordar: [Código Penal: Capítulo III: Ataques a sistemas automatizados de processamento de dados] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Para recordar: [Código Penal: Capítulo III: Ataques a sistemas automatizados de processamento de dados](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -901,7 +901,7 @@ transmissão de pacotes uDP e receção de ICMP (porta inalcançável) durante a
 
 
 
-Podemos ver na imagem de ecrã acima que o Nmap envia um grande número de pacotes UDP e recebe, para a maioria deles, um pacote ICMP "Destination unreachable (Port unreachable)" em resposta. Isso é normal, pois é a resposta apropriada definida pela [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") quando uma porta UDP está inacessível:
+Podemos ver na imagem de ecrã acima que o Nmap envia um grande número de pacotes UDP e recebe, para a maioria deles, um pacote ICMP "Destination unreachable (Port unreachable)" em resposta. Isso é normal, pois é a resposta apropriada definida pela [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") quando uma porta UDP está inacessível:
 
 
 
@@ -2198,7 +2198,7 @@ Então é importante entender o que o Nmap faz e não faz, e da mesma forma sabe
 
 
 
-Quer seja um administrador de sistemas de rede, um engenheiro de segurança ou mesmo um CISO, a utilização do Nmap dá-lhe uma visão geral do estado de segurança de um sistema de informação. Este é um primeiro passo importante para proteger um sistema, que pode ser realizado regularmente pela equipa de TI. No entanto, não deve substituir a intervenção e o aconselhamento de peritos [em cibersegurança] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), que poderão descobrir pontos fracos de forma muito mais abrangente do que o Nmap.
+Quer seja um administrador de sistemas de rede, um engenheiro de segurança ou mesmo um CISO, a utilização do Nmap dá-lhe uma visão geral do estado de segurança de um sistema de informação. Este é um primeiro passo importante para proteger um sistema, que pode ser realizado regularmente pela equipa de TI. No entanto, não deve substituir a intervenção e o aconselhamento de peritos [em cibersegurança](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), que poderão descobrir pontos fracos de forma muito mais abrangente do que o Nmap.
 
 
 
@@ -2973,7 +2973,7 @@ A capacidade de guardar os resultados das análises do Nmap em XML torna os dado
 
 
 
-Vou mencionar algumas ferramentas ofensivas sem explicar em pormenor como são utilizadas ou como funcionam. Vou partir do princípio de que o leitor está familiarizado com a sua utilização básica e que já estão operacionais. Esta secção será de particular interesse para profissionais [de cibersegurança] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), pessoas em formação ou que tenham decidido aprofundar o assunto.
+Vou mencionar algumas ferramentas ofensivas sem explicar em pormenor como são utilizadas ou como funcionam. Vou partir do princípio de que o leitor está familiarizado com a sua utilização básica e que já estão operacionais. Esta secção será de particular interesse para profissionais [de cibersegurança](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), pessoas em formação ou que tenham decidido aprofundar o assunto.
 
 
 
@@ -3062,7 +3062,7 @@ lista de serviços importados do ficheiro XML para a base de dados do Metasploit
 
 
 
-Finalmente, podemos rápida e facilmente reutilizar esses dados em um módulo graças à opção `-R`, que irá "converter" a lista de serviços obtidos como entrada para a diretiva `RHOSTS`, que é usada para especificar os alvos do ataque a ser realizado. Eis um exemplo com o módulo `ssh_login`, que permite efetuar um ataque de força bruta aos serviços [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
+Finalmente, podemos rápida e facilmente reutilizar esses dados em um módulo graças à opção `-R`, que irá "converter" a lista de serviços obtidos como entrada para a diretiva `RHOSTS`, que é usada para especificar os alvos do ataque a ser realizado. Eis um exemplo com o módulo `ssh_login`, que permite efetuar um ataque de força bruta aos serviços [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 
 
@@ -3385,7 +3385,7 @@ Antes de analisar uma rede ou sistema, certifique-se de ter obtido as autorizaç
 
 
 
-- Para recordar: [Código Penal: Capítulo III: Ataques a sistemas automatizados de processamento de dados] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Para recordar: [Código Penal: Capítulo III: Ataques a sistemas automatizados de processamento de dados](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -3394,7 +3394,7 @@ Antes de analisar uma rede ou sistema, certifique-se de ter obtido as autorizaç
 
 
 
-Os resultados produzidos pelo Nmap podem ser considerados sensíveis, particularmente quando contêm informações sobre fraquezas no sistema de informação que poderiam ser exploradas por um atacante. Mas também quando dizem respeito a sistemas que não são acessíveis a toda a gente (por exemplo, sistemas de informação sensíveis, industriais, de cuidados de saúde ou [de salvaguarda] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
+Os resultados produzidos pelo Nmap podem ser considerados sensíveis, particularmente quando contêm informações sobre fraquezas no sistema de informação que poderiam ser exploradas por um atacante. Mas também quando dizem respeito a sistemas que não são acessíveis a toda a gente (por exemplo, sistemas de informação sensíveis, industriais, de cuidados de saúde ou [de salvaguarda](https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
 
 
 

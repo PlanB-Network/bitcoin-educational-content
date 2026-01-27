@@ -1,0 +1,9 @@
+question: Кое алтернативно решение на Swiss Bitcoin Pay за приемане на плащания Bitcoin е 100% попечителско?
+answer: Open Node
+wrong_answers:
+  - BTCPay server
+  - Bitcoinize PoS
+  - Phoenix Wallet
+explanation: |
+  Open Node се характеризира като изцяло попечителско решение, различаващо се от хибридния характер на Swiss Bitcoin Pay.
+reviewed: true

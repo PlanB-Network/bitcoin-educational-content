@@ -1,0 +1,8 @@
+question: ¿Cuál es el objetivo principal de combinar RC con RefCell en la programación de Rust?
+answer: Permitir que varios propietarios compartan y muten los mismos datos con comprobaciones de préstamo en tiempo de ejecución
+wrong_answers:
+  - Trasladar la aplicación de las reglas de préstamo del tiempo de ejecución al tiempo de compilación para mejorar el rendimiento
+  - Para crear datos compartidos inmutables a los que se pueda acceder de forma segura a través de múltiples subprocesos
+  - Para evitar ciclos de referencia y fugas de memoria al compartir datos entre varios propietarios
+explanation: |
+  RC<RefCell<T>> combina el recuento de referencias para la propiedad compartida con la mutabilidad interior para las mutaciones comprobadas en tiempo de ejecución. RC permite que múltiples partes de código posean los mismos datos, mientras que RefCell permite la mutación a través de referencias inmutables comprobando las reglas de préstamo en tiempo de ejecución. Las otras opciones son incorrectas: este patrón traslada las comprobaciones al tiempo de ejecución (no al tiempo de compilación), crea datos compartidos mutables (no inmutables) y puede provocar ciclos de referencia en lugar de evitarlos.

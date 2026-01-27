@@ -1,9 +1,9 @@
-question: Ni izihe ziri mu nzira za Bitcoin?
-answer: Liquid n'Imizi
+question: Ni izihe ari sidechains za Bitcoin?
+answer: Liquid et Rootstock
 wrong_answers:
-  - Polygon na Arbitrum
-  - Yupiteri na Fantom
-  - Bitcoin Amahera na Bitcoin Satoshi Iyerekwa
+  - Polygon et Arbitrum
+  - Jupiter et Fantom
+  - Bitcoin Cash et Bitcoin Satoshi Vision
 explanation: |
-  Liquid na RSK ni imirongo y'inyuma ifise urudodo rw'inzira 2 na Bitcoin. Ayandi mahitamwo si ama sidechains, canke nta 2WP na Bitcoin Blockchain.
+  Liquid na RSK ni sidechains zifise inzira 2(ubuhinga bwo guhuza mu nzira zibiri) na Bitcoin. Ayandi mahitamwo si ama sidechains, canke nta 2WP na Bitcoin Blockchain.
 reviewed: false

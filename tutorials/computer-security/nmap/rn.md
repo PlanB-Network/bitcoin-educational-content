@@ -433,7 +433,7 @@ Iryo ni ryo soko Nmap yizigira mu gucunga itumanaho ry’urubuga, ni ukuvuga kwu
 
 
 
-Nk'uko biri kuri Linux, ushobora kwemeza ko Nmap ishizweho mu gufungura Itegeko canke Itegeko [Powershell] (https:
+Nk'uko biri kuri Linux, ushobora kwemeza ko Nmap ishizweho mu gufungura Itegeko canke Itegeko [Powershell](https:
 
 
 
@@ -2198,7 +2198,7 @@ Ni ngombwa rero gutahura ivyo Nmap ikora n’ivyo idakora, kandi nk’uko nyene 
 
 
 
-Waba uri umuyobozi w’umurongo w’urubuga, umuhinga mu vy’umutekano canke mbere CISO, gukoresha Nmap biguha icegeranyo c’ingene umutekano w’umurongo w’amakuru uri. Iyi ni intambwe ya mbere ihambaye mu gucungera ubuhinga, bushobora gukorwa ubudasiba n’umugwi w’abahinga mu vy’ubuhinga bwa none. Ariko rero, ntibikwiye gusubirira ubufasha n’impanuro z’abahinga [mu vy’umutekano wo kuri interineti] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), bazoshobora guhishura intege nke mu buryo burambuye cane kuruta Nmap.
+Waba uri umuyobozi w’umurongo w’urubuga, umuhinga mu vy’umutekano canke mbere CISO, gukoresha Nmap biguha icegeranyo c’ingene umutekano w’umurongo w’amakuru uri. Iyi ni intambwe ya mbere ihambaye mu gucungera ubuhinga, bushobora gukorwa ubudasiba n’umugwi w’abahinga mu vy’ubuhinga bwa none. Ariko rero, ntibikwiye gusubirira ubufasha n’impanuro z’abahinga [mu vy’umutekano wo kuri interineti](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), bazoshobora guhishura intege nke mu buryo burambuye cane kuruta Nmap.
 
 
 
@@ -3062,7 +3062,7 @@ Urutonde rw'ibikorwa vyazanywe bivuye muri dosiye ya XML mu bubiko bw'amakuru bw
 
 
 
-Ubwa nyuma, turashobora gusubira gukoresha ayo makuru mu buryo bwihuse kandi bworoshe mu kiganiro biciye ku mahitamwo ya `-R`, azohindura urutonde rw'ibikorwa vyaronswe nk'inyungu y'amabwirizwa ya `RHOSTS`, akoreshwa mu kugaragaza intumbero z'igitero kizokorwa. Aha ni akarorero n'umurongo wa `ssh_login`, ushoboza gukora igitero c'inguvu z'agahomerabunwa ku bikorwa vya [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
+Ubwa nyuma, turashobora gusubira gukoresha ayo makuru mu buryo bwihuse kandi bworoshe mu kiganiro biciye ku mahitamwo ya `-R`, azohindura urutonde rw'ibikorwa vyaronswe nk'inyungu y'amabwirizwa ya `RHOSTS`, akoreshwa mu kugaragaza intumbero z'igitero kizokorwa. Aha ni akarorero n'umurongo wa `ssh_login`, ushoboza gukora igitero c'inguvu z'agahomerabunwa ku bikorwa vya [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 
 

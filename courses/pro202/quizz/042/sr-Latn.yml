@@ -1,0 +1,8 @@
+question: Ako mehanizam za prilagođavanje težine Bitcoin naiđe na situaciju gde je prethodnih 2016 blokova bilo potrebno tačno 6 nedelja za rudarenje umesto očekivane 2 nedelje, koji faktor prilagođavanja bi bio primenjen?
+answer: Težina bi bila smanjena za faktor 4 (maksimalno dozvoljeno smanjenje)
+wrong_answers:
+  - Težina bi bila smanjena za faktor 3 (6 nedelja ÷ 2 nedelje)
+  - Težina bi bila smanjena za faktor 2.5 kako bi se sprečila prekomerna korekcija
+  - Težina bi bila smanjena za faktor 6 na osnovu vremenskog odnosa
+explanation: |
+  Teškoća Bitcoin ima ugrađena ograničenja koja ograničavaju promene na faktor četiri u bilo kom pravcu. Iako 6 nedelja ÷ 2 nedelje = 3, što sugeriše smanjenje od 3x, protokol ograničava prilagođavanja na 4x kako bi se sprečila ekstremna volatilnost. Ovaj sigurnosni mehanizam osigurava stabilnost mreže tokom velikih promena u stopi heširanja, kao što su zabrane mining ili kvarovi opreme, sprečavajući prekomernu korekciju koja bi mogla destabilizovati vreme blokiranja.

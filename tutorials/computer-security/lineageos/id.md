@@ -176,7 +176,7 @@ Menurut statistik resmi, model yang paling banyak digunakan mencakup berbagai pe
 
 
 
-**Alat ADB dan Fastboot:** Ikuti [panduan resmi LineageOS] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) untuk menginstal Android SDK Platform Tools. Verifikasi instalasi dengan `adb version` dan `fastboot --version`.
+**Alat ADB dan Fastboot:** Ikuti [panduan resmi LineageOS](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) untuk menginstal Android SDK Platform Tools. Verifikasi instalasi dengan `adb version` dan `fastboot --version`.
 
 
 
@@ -738,4 +738,4 @@ LineageOS menawarkan alternatif yang matang untuk mendapatkan kembali kendali at
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

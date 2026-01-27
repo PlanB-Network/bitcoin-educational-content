@@ -98,7 +98,7 @@ Katika dirisha linalotokea, utapata sehemu za "kujaza": chagua kitufe cha _Vinja
 Unaweza kupata mwongozo wa Sparrow wallet ili kupakua Software Wallet hii
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Kisha unaweza kuhamisha faili ya `.apk` kutoka kwa kompyuta yako hadi kwa simu yako
 
@@ -276,7 +276,7 @@ Taja ufunguo wako na ubonyeze _Endelea_.
 
 
 
-Mwishoni mwa hatua hizi, utaulizwa ikiwa uongeze [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) kwenye maneno yako ya Mnemonic. Iwapo huna ufahamu unaohitajika wa jinsi ya kutumia passphrase, panga nakala yake, au jinsi inavyofanya kazi, ninapendekeza uchague _Sihitaji neno la siri_.
+Mwishoni mwa hatua hizi, utaulizwa ikiwa uongeze [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) kwenye maneno yako ya Mnemonic. Iwapo huna ufahamu unaohitajika wa jinsi ya kutumia passphrase, panga nakala yake, au jinsi inavyofanya kazi, ninapendekeza uchague _Sihitaji neno la siri_.
 
 
 
@@ -394,7 +394,7 @@ Uko _Home_, ambapo unaonyeshwa Wallet iliyoundwa upya ikiripoti salio na hali ya
 
 
 - Aikoni ya lenzi katika kona ya juu kulia hukuruhusu kufanya utafutaji wa shughuli;
-- `Angalia usanidi wa Wallet` inatoa ufikiaji wa menyu ya usanidi, ambapo unaweza kuhariri jina la Wallet na kuwezesha chaguo za kina, juu kulia (ambazo huwezi kupata picha za skrini). Hapa unaweza kuhamisha usanidi wa Wallet, lebo, kubadilisha funguo, kubadilisha [pengo kikomo](https://planb.network/en/resources/glossary/gap-limit) na zaidi.
+- `Angalia usanidi wa Wallet` inatoa ufikiaji wa menyu ya usanidi, ambapo unaweza kuhariri jina la Wallet na kuwezesha chaguo za kina, juu kulia (ambazo huwezi kupata picha za skrini). Hapa unaweza kuhamisha usanidi wa Wallet, lebo, kubadilisha funguo, kubadilisha [pengo kikomo](https://planb.academy/en/resources/glossary/gap-limit) na zaidi.
 
 
 

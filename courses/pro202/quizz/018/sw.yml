@@ -1,0 +1,8 @@
+question: Katika umbizo la usimbaji wa DER kwa sahihi za ECDSA, ni ongezeko gani la kawaida la ukubwa kutoka kwa data ghafi ya sahihi hadi sahihi ya mwisho iliyosimbwa?
+answer: Kuanzia baiti 64 hadi takriban baiti 71-72 kutokana na matumizi ya juu ya umbizo la DER
+wrong_answers:
+  - Kuanzia baiti 32 hadi takriban baiti 64 kutokana na usimbaji wa vipengele vya R na S
+  - Kuanzia baiti 64 hadi baiti 128 haswa kutokana na usimbaji maradufu wa vipengele vya sahihi
+  - Kutoka baiti 71 hadi takriban baiti 64 kutokana na kubanwa kwa alama za mfuatano
+explanation: |
+  Usimbaji wa DER huongeza gharama za uendeshaji wa kimuundo kwa sahihi za ECDSA kupitia alama za mfuatano (0x30), baiti za urefu, na viambishi awali vya vipengele (0x02). Saini ghafi ya ECDSA ina thamani mbili za baiti 32 (R na S) zenye jumla ya baiti 64, lakini umbizo la DER hupanua hii hadi takriban baiti 71-72. Utovu huu wa ufanisi ulikuwa sababu moja ambayo Bitcoin baadaye ilipitisha sahihi za Schnorr katika Taproot, ambazo hutumia sahihi za baiti 64 zisizobadilika bila gharama za uendeshaji wa kisimbo.

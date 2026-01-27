@@ -8,7 +8,7 @@ description: Bitcoins kopen en verkopen via de Bitstack-toepassing
 Bitstack is een Frans Bitcoin investeringsplatform, PSAN gereguleerd door de AMF. Het biedt een app die beschikbaar is op Android en iOS voor het eenvoudig kopen en verkopen van Bitcoin.
 
 
-Wat Bitstack onderscheidt is het automatische afrondingssysteem, dat de bankrekening van de gebruiker synchroniseert om het verschil tussen het afgeschreven bedrag tijdens de dagelijkse uitgaven en de eerstvolgende hogere euro direct om te zetten in bitcoins. Deze methode vergemakkelijkt de toepassing van *Dollar Cost Averaging* (DCA), wat een geleidelijke, pijnloze accumulatie van satoshis mogelijk maakt. Naast deze originele functie biedt het platform ook een klassiek DCA-systeem met automatische investeringen, evenals spot kopen en verkopen.
+Wat Bitstack onderscheidt, is het automatische afrondingssysteem dat de bankrekening van de gebruiker synchroniseert om het verschil tussen het bedrag dat bij dagelijkse uitgaven wordt afgeschreven en het hogere eurobedrag direct om te zetten in bitcoins. Deze methode vergemakkelijkt de toepassing van *Dollar Cost Averaging* (DCA) door een geleidelijke en pijnloze accumulatie van satoshi’s mogelijk te maken. Naast deze originele functie biedt het platform ook een klassiek DCA-systeem met automatische investeringen, evenals eenmalige aankopen en verkopen.
 
 
 ![Image](assets/fr/01.webp)
@@ -73,10 +73,10 @@ Kies een sterk wachtwoord om de toegang tot je account te beveiligen en klik ver
 ![Image](assets/fr/06.webp)
 
 
-Voor veilig wachtwoordbeheer op dagelijkse basis wordt het gebruik van een wachtwoordmanager sterk aanbevolen. Op Plan ₿ Network vind je verschillende tutorials over de beste bestaande oplossingen, zoals Bitwarden:
+Voor veilig wachtwoordbeheer op dagelijkse basis wordt het gebruik van een wachtwoordmanager sterk aanbevolen. Op Plan ₿ Academy vind je verschillende tutorials over de beste bestaande oplossingen, zoals Bitwarden:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Vervolgens wordt u gevraagd om uw identiteit te verifiëren (KYC). In overeenstemming met de Franse regelgeving wordt u gevraagd om uw persoonlijke gegevens en identiteitsbewijs te verstrekken. Vul in de vakjes uw achternaam, voornaam en geboortedatum in.
 
@@ -160,7 +160,7 @@ Zoals vermeld in de inleiding, biedt Bitstack 3 methodes om te investeren in Bit
 - Het gebruik van automatische afronding op uitgaven.
 
 
-### Kopen met contant geld
+### Een eenmalige aankoop doen
 
 
 Om een eenmalige aankoop van bitcoins tegen de marktprijs te doen, klik je gewoon op "*Koop*".
@@ -271,7 +271,7 @@ Bepaal de prioriteit van de transactie. Voor een opname zonder kosten kies je "*
 ![Image](assets/fr/32.webp)
 
 
-Als je niet weet hoe een Wallet met zelfbevestiging werkt, bieden we tutorials over de meeste beschikbare oplossingen [op Plan ₿ Network in de "*Wallet*" sectie] (https://planb.network/tutorials/wallet).
+Als je niet weet hoe een Wallet met zelfbevestiging werkt, bieden we tutorials over de meeste beschikbare oplossingen [op Plan ₿ Academy in de "*Wallet*" sectie](https://planb.academy/tutorials/wallet).
 
 
 ## Bitcoin verkopen

@@ -8,6 +8,7 @@ wrong_answers:
   - La taille du groupe d'UTXOs identiques dans lequel se cache une pièce.
 
 explanation: |
-  L'entropie permet de mesurer le manque de connaissance des analystes sur la configuration exacte de la transaction. Autrement dit, plus l'entropie est élevée, plus la tâche d'identification des flux de bitcoins entre les inputs et outputs devient difficile pour les analystes.
+  L'entropie permet de mesurer le manque de connaissance des analystes sur la configuration exacte de la transaction. 
+  Autrement dit, plus l'entropie est élevée, plus la tâche d'identification des flux de bitcoins entre les inputs et outputs devient difficile pour les analystes.
 
-reviewed: false
+reviewed: true 

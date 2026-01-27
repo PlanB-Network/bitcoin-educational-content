@@ -1,0 +1,9 @@
+question: Eric Hughesin Cypherpunk-manifestin mukaan mikä on ensisijainen vastuu yksityisyyden puolustamisesta avoimessa sähköisessä yhteiskunnassa?
+answer: Yksilöiden on aktiivisesti puolustettava omaa yksityisyyttään sen sijaan, että he luottavat siihen, että hallitukset tai yritykset huolehtivat siitä
+wrong_answers:
+  - Hallitusten olisi laadittava kattavat yksityisyyden suojaa koskevat säännökset kansalaisten suojelemiseksi yritysten valvonnalta
+  - Yritysten on otettava käyttöön vapaaehtoisia yksityisyydensuojastandardeja ja säänneltävä itse tiedonkeruukäytäntöjään
+  - Kansainvälisten järjestöjen olisi luotava sitovia sopimuksia, jotka velvoittavat yksityisyyden suojaa kaikissa valtioissa
+explanation: |
+  Eric Hughes totesi Cypherpunk-manifestissa nimenomaisesti, että "emme voi odottaa hallitusten, yritysten tai muiden suurten anonyymien organisaatioiden takaavan meille luottamuksellisuutta...". Tärkein tavoitteeni Cypherpunksissa on saada ihmiset puolustamaan luottamuksellisuuttaan sen sijaan, että he luottaisivat siihen, että joku muu takaa sen
+  Tämä filosofia korostaa yksilön vastuuta ja omatoimisuutta kryptografisten työkalujen avulla ja hylkää riippuvuuden ulkoisista instituutioista yksityisyyden suojaamiseksi, minkä vuoksi cypherpunksit kehittivät hajautettuja kryptografisia järjestelmiä.

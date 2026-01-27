@@ -1,0 +1,9 @@
+question: ที่มาของคำว่า hodler คืออะไร?
+answer: การสะกดคำผิดของ hold
+wrong_answers:
+  - คำย่อของ hold
+  - ตัวย่อของ hot wallet
+  - การหดตัวของโฮดลเชน
+explanation: |
+  คำว่า "hodler" มาจากการพิมพ์ผิดใน Bitcoin Talk ซึ่ง "hold" ถูกพิมพ์ผิดเป็น "hodl" เพื่อแสดงถึงการถือครองระยะยาว
+reviewed: false

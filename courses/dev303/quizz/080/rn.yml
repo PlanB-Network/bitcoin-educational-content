@@ -1,0 +1,8 @@
+question: Ni akamaro akahe gakomeye ko gukoresha ubwoko bw’Ibisubizo n’Ihitamwo ku bijanye n’ubwoba bwo gufata amakosa mu gukora kode ya Rust?
+answer: Bihatira kwemera mu buryo butomoye ivyo bishobora kunanirwa kandi bikaba bishoboza gusubirana amakosa
+wrong_answers:
+  - Bitanga ibikorwa vyiza mu kwirinda gufungura ikirundo mu gihe c'amakosa
+  - Bihindura ubwavyo ubwoko bwose bw'amakosa mu butumwa bw'urudodo kugira ngo bishobore gukosorwa vyoroshe
+  - Bikuraho ivy’ugukwiragiza amakosa mu gufata amakosa ku ntumbero y’ukunanirwa .
+explanation: |
+  Ubwoko bw'Igisubizo n'Ihitamwo butuma gutorera umuti amakosa bigaragara kandi bishobora gusubirwamwo mu guhatira abahinguzi kwemera ko ibikorwa bishobora kunanirwa no gutanga uburyo bwo gutorera umuti neza ivyo binanirwa. Mu buryo butandukanye n’ubwoba, buca buhagarika gukora, ubwo bwoko buratuma porogarama zikomeza gukora kandi zigasubiza neza iyo habaye amakosa. Inyishu zitari zo zigaragaza nabi ubushobozi bwazo: ubushobozi si co kintu nyamukuru kibafasha, ntizihindura amakosa mu mirongo (ivyo ni vyo biranga), kandi mu vy’ukuri zirosha aho gukuraho ukwiragira kw’amakosa biciye ku bakoresha nka ?.

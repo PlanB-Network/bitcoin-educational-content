@@ -1,9 +1,9 @@
-question: Thiết bị nào được khuyến nghị để bảo đảm tiền tích lũy lâu dài?
-answer: Hardware Wallet
+question: Thiết bị lưu trữ (ví lạnh) nào được khuyến nghị để bảo đảm cho việc tích lũy lâu dài?
+answer: Ví lạnh/cứng (Hardware Wallet)
 wrong_answers:
-  - Hot Wallet
-  - Tia sét Wallet
-  - Nền tảng Exchange
+  - Ví nóng
+  - Ví hỗ trợ Lightning Network
+  - Ví lưu ký bởi bên thứ ba
 explanation: |
-  Hardware Wallet lưu trữ khóa riêng ngoại tuyến, cung cấp khả năng bảo mật nâng cao cho số lượng lớn dữ liệu trong thời gian dài.
+  Ví lạnh/cứng (Hardware Wallet) lưu trữ khóa riêng ngoại tuyến, cung cấp khả năng bảo mật nâng cao cho số lượng lớn dữ liệu trong thời gian dài.
 reviewed: false

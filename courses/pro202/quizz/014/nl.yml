@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel van het dubbel-en-toevoegen-algoritme voor scalaire vermenigvuldiging in cryptografie met elliptische krommen?
+answer: Het vermindert de rekencomplexiteit van O(n) naar O(log n) bewerkingen
+wrong_answers:
+  - Het elimineert de noodzaak voor modulair rekenen in eindige velden
+  - Het zet het discrete logaritmeprobleem om in een polynoomtijdoplossing
+  - Het staat directe berekening van privésleutels uit publieke sleutels toe
+explanation: |
+  Het double-and-add algoritme verbetert de efficiëntie aanzienlijk door de rekencomplexiteit terug te brengen van O(n) lineaire optellingen naar O(log n) bewerkingen. Dit werkt door de binaire representatie van de scalair te scannen, het punt bij elke stap te verdubbelen en het generatorpunt alleen toe te voegen als het bit 1 is. De andere opties zijn onjuist: modulair rekenen is nog steeds vereist in eindige velden, het discrete logaritme probleem blijft rekenkundig onuitvoerbaar (wat essentieel is voor de veiligheid) en private sleutels kunnen niet worden berekend uit publieke sleutels, ongeacht het gebruikte vermenigvuldigingsalgoritme.

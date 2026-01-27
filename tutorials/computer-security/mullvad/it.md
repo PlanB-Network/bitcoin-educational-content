@@ -150,6 +150,6 @@ Infine, il menu "*Split tunneling*" ti permette di selezionare applicazioni spec
 Per avere una panoramica del tuo account Mullvad e gestire i vari dispositivi connessi, puoi cliccare sul menu "*Dispositivi*" sul sito web.
 Ecco fatto, ora sei completamente attrezzato per goderti appieno Mullvad VPN. Se sei interessato a scoprire un altro fornitore di VPN simile a Mullvad, sia per quanto riguarda le funzionalità che i prezzi, ti consiglio anche di dare un'occhiata al nostro tutorial su IVPN:
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-Se ti interessa sapere di più sulle VPN guarda il nostro corso SCU101 su PlanB Accademy o [qui](https://planb.academy/it/courses/99c46148-7080-4915-a7e0-9df0e145cd47/vpn-e-connessione-internet-5aac83f4-a685-54b0-9759-d71bea7eeed2)”
+Se ti interessa sapere di più sulle VPN guarda il nostro corso SCU101 su Plan ₿ Accademy o [qui](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/5aac83f4-a685-54b0-9759-d71bea7eeed2)

@@ -1,0 +1,9 @@
+question: Miksi Lightningin reitityksestä on vaikea tehdä kannattavaa?
+answer: Kustannukset ja kilpailu
+wrong_answers:
+  - Kanavaraja
+  - Ei pyyntöä
+  - Maailmanlaajuisen likviditeetin puute
+explanation: |
+  Ketjukustannukset, kilpailu ja toiminnalliset vaatimukset tekevät reititysliiketoiminnan kannattavuudesta epävarmaa.
+reviewed: false

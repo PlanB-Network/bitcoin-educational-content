@@ -1,22 +1,19 @@
 ---
 name: 適用於企業的 Bitcoin
 goal: 學習支付和財務基本知識，讓您的公司加入 Bitcoin
-objectives: 
-
-  - Bitcoin 作為一種新興貨幣和商業工具
-  - 瞭解企業為何及如何將 Bitcoin 儲存在財務部門或用於付款
-  - 具體了解如何在實踐中接受 Bitcoin 付款
-  - 為管理財務和會計需求做好準備
-
+objectives:
+- 發現比特幣作為新興貨幣和商業工具
+- 了解企業為何以及如何在資金中持有比特幣或將其用於支付
+- 對如何在實踐中接受比特幣支付有具體的想法
+- 為管理財務和會計要求做好準備
 ---
-# 啟動貴公司在 Bitcoin 網路上的旅程
+# 啟動您公司在比特幣網絡上的旅程
 
-了解 Bitcoin 和 Lightning Network 的實用功能，並探索它們如何像網際網路一樣，**改變您的企業營運。從數位資本到快速、經濟且可擴充的付款，Bitcoin 為企業提供廣泛的**使用案例。
+探索比特幣和閃電網絡的實用功能,並了解它們如何像互聯網一樣改變您的業務運營。從資金管理到快速、經濟且可擴展的支付,比特幣為企業提供了廣泛的應用場景。
 
-在本指南中，您將學習如何理解 Bitcoin 作為一個全球性、通用性和互聯網原生的貨幣網路。憑藉其獨特的基本特性，**Bitcoin 比傳統的貨幣網路**有顯著的改進。您將發現為何以及如何將 Bitcoin 應用於經典的金融用例，例如資金儲存和支付系統。此外，本指南還將涵蓋獲取和持有 Bitcoin，包括相關的會計和財務要求，以及實施簡單或大規模的 Bitcoin 支付解決方案。
+在本課程中,您將學習如何理解比特幣作為一個全球性、通用性和互聯網原生的貨幣網絡。憑藉其獨特的基本特性,比特幣相較於傳統貨幣提供了顯著的改進。您將了解為什麼以及如何利用比特幣來實現經典的金融應用場景,例如資本儲存和支付系統。此外,本課程還將涵蓋比特幣的獲取和持有,包括相關的會計和財務要求,以及實施簡單或大規模的比特幣支付解決方案。
 
-無論您是**小企業還是大企業**，將 Bitcoin 整合到您的日常營運中，都能讓您的公司更具**彈性、生產力和競爭力**。每家網際網路公司都將成為以 Bitcoin 為導向的公司，本課程可確保您做好準備。最初的章節重溫了 Bitcoin 的基本操作，因此即使您是初學者，也能獲得繼續學習所需的基礎知識。學習 Satoshi 發明的基礎知識始終是個好主意，無論是在深入學習 BIZ101 之前或之後。
-
+無論您是小型企業還是大型公司,將比特幣整合到日常運營中都可以使您的公司更具韌性、生產力和競爭力。每一家基於互聯網的公司都將成為以比特幣為導向的公司,而本課程確保您做好準備。
 +++
 # 簡介
 
@@ -36,7 +33,7 @@ objectives:
 
 準備好進入比特幣商業世界了嗎？我們出發吧！
 
-**注意**: 如果您在課程中遇到任何不熟悉的術語，請查閱[詞彙表](https://planb.network/resources/glossary)獲取定義。
+**注意**: 如果您在課程中遇到任何不熟悉的術語，請查閱[詞彙表](https://planb.academy/resources/glossary)獲取定義。
 
 # 貨幣、支付系統和 Bitcoin
 
@@ -205,7 +202,7 @@ Bitcoin 是**點對點數位貨幣 Exchange 系統**（電子現金）。Bitcoin
 
 ![BIZ101](assets/zh-Hant/003.webp)
 
-Bitcoin 採用固定貨幣政策，**上限為 2,100 萬個比特幣**，其中約 1,980 萬個已經分發。這使得它具有**通縮性**，當使用者將儲蓄和生產力增益儲存在其中時，它的價值會隨時間增加。
+比特幣具有固定的貨幣政策，**最高限額為 2100 萬枚**，其中約 1980 萬枚（2024 年）已被開採。這使其具有**通縮性**，隨著用戶在其中存儲儲蓄和生產力收益，其價值會隨著時間的推移而增加。
 
 其技術特性超越黃金和美元的總和，使其成為有史以來最堅硬的金融資產。Bitcoin 既是儲值工具，也是 Exchange 的媒介，是一種正在形成中的貨幣。試想一下，將價值從一家公司的金庫迅速轉移到另一家公司的金庫，沒有中介、成本最低、沒有欺詐、全天候、不涉及任何第三方。
 
@@ -217,7 +214,7 @@ Bitcoin 具有破壞性，因為它鼓勵我們學習數學、加密學、經濟
 
 Bitcoin 挑戰我們重新思考金錢本身的本質。您能解釋何謂真正的金錢嗎？一個受薪工人或企業家一生可能要花費 50,000 到 100,000 個小時賺錢，但有多少人會花費 100 個小時來更好地了解金錢**並保存金錢**呢？Bitcoin 鼓勵我們質疑我們對金錢需求背後的根本原因，以及我們的時間觀點。金錢是為了眼前的奢華，還是長期的抗逆力？如果我們擁有升值的資產，讓我們可以延遲購買，我們會做出什麼選擇？我們希望與 20 或 30 年後的自己進行哪些對話？
 
-**Bitcoin 身份證**
+**比特幣身份證（2024年）**
 
 
 - 年齡：**15 歲（2009 年 1 月 3 日）**
@@ -243,7 +240,7 @@ Bitcoin 挑戰我們重新思考金錢本身的本質。您能解釋何謂真正
 
 如需更多關於 Bitcoin、其歷史、工作原理和使用方法的資訊，我也建議您關注這另一個全面的課程：
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 ## Lightning Network 簡介
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -301,7 +298,7 @@ Lightning 讓我們瞥見未來所有以網際網路為基礎的企業也將以 
 - 終局性：**一旦在 Lightning 上付款，即為終局付款。不可能出現第三方扣款或與欺詐相關的爭議。**
 - 費用：**Lightning Network 的交易費用極低，由使用者而非商家支付。商家只有在日後將 Bitcoin 轉移到其他網路或服務時，才會產生手續費。**
 
-**閃電身份證**
+**Lightning 身份證（2024年）**
 
 
 - 發明：**2015 年**
@@ -324,7 +321,7 @@ Lightning 讓我們瞥見未來所有以網際網路為基礎的企業也將以 
 
 如需更多關於 Lightning Network 技術運作的資訊，我也建議您參考這另一個全面的課程：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 # Bitcoin 入庫
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -443,9 +440,9 @@ Bitcoin 提供了一種長期累積和保存資本的方式，而不會受到貨
 
 如需更多相關資訊：
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 ## 庫存中持有 Bitcoin
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -597,7 +594,7 @@ Bitcoin 在美國日益普及，也影響了世界其他地方的心態，尤其
 
 這涉及從操作 Mining 機器賺取報酬。對於非專業企業而言，這仍是相對邊緣的。您可以透過中間人參與，他們會向您出售或出租計算機、網路和維護。如果您擁有這些機器，您可以將它們列為折舊資產。在大規模的情況下，您需要仔細計算投資報酬率，因為市場競爭激烈，需要很好地預測成本，尤其是電費。
 
-若要進一步瞭解 Mining 方法，您可以 [參考我們教學中的 "Mining" 章節](https://planb.network/tutorials/mining)。
+若要進一步瞭解 Mining 方法，您可以 [參考我們教學中的 "Mining" 章節](https://planb.academy/tutorials/mining)。
 
 
 - 購買 Bitcoin:
@@ -606,9 +603,9 @@ Bitcoin 在美國日益普及，也影響了世界其他地方的心態，尤其
 
 若要學習如何開立企業帳戶，並使用該帳戶購買、出售和轉移比特幣，您可以查看這兩個專為企業設計的教程，涵蓋 Kraken 和 Bitfinex 平台的企業版本：
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-要瞭解更多關於透過 Exchange 或點對點取得比特幣的方法，您可以 [參考我們教學中的 "Exchange" 章節](https://planb.network/tutorials/exchange)。
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+要瞭解更多關於透過 Exchange 或點對點取得比特幣的方法，您可以 [參考我們教學中的 "Exchange" 章節](https://planb.academy/tutorials/exchange)。
 
 ![BIZ101](assets/zh-Hant/012.webp)
 
@@ -868,15 +865,15 @@ Starter 解決方案兼顧使用者友善的工具、最低的硬體需求，以
 
 **自保管 LN 錢包/節點：**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 **Custodial LN 皮夾：**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 ## 必備
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
@@ -907,13 +904,13 @@ Essential 方法的另一個主要優點是強調快速部署和最小干擾。�
 
 最適合您的混合型解決方案可能是瑞士 Bitcoin Pay：
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 Open Node 是另一個容易實作的解決方案，但缺點是必須 100% 保管：
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 如果您已準備好動手，並希望完全控制整個過程，BTCPay Server 軟體是一個很好的選擇。然而，BTCPay Server 的主要缺點是其安裝和管理非常耗時，需要一定的專業技術知識，但您可以按照我們的指南進行操作：
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 最後，作為實體銷售點的補充，您可以考慮建立 [Bitcoinize PoS](https://bitcoinize.com/)。
 
 ## 專業人士
@@ -950,7 +947,7 @@ Professional profile 針對的企業已超越偶爾或少量的 Bitcoin 付款�
 
 若要深入瞭解實施的具體細節，並探索 BTC Pay Server 的實際配置，請參考以下課程：
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 ## 企業
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
@@ -1200,7 +1197,7 @@ Bitcoin 在財務報表中的分類因司法管轄區而異，並取決於其在
 
 對於那些自行保管 Bitcoin 的人來說，管理 UTXOs（*未使用的交易輸出*）是一個重要的步驟。適當的 UTXO 標籤有助於追蹤每個 BTC 片段的來源，區分與專業活動相關的交易和用於個人開支的交易，並有助於法律或稅務目的的追蹤。大多數好的 Bitcoin Wallet 軟體允許您使用備份檔案（或您的 xpub，取決於您的設定）匯入您的 Wallet，並根據其來源或目的地標記 UTXO。為了協助您，這裡有一個完整的教程，專門介紹這種做法：
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 最後，不論您是小商家或較成熟的企業，都有可能**在 Bitcoin 中**結算 Invoice。關鍵是要正確記錄交易。如果您使用自行保管的 Wallet 付款，最理想的做法是 generate 交易，在您的標籤上註明 Invoice 號碼和付款目的。如果您偏好透過 Exchange 結算 Invoice，您也可以選擇匯出收據或交易記錄，以納入您的會計記錄中。這種透明度將簡化您所有 BTC 作業的追蹤和報告。
 
 ## 實用 Bitcoin 會計範例

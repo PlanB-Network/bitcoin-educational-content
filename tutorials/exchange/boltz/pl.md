@@ -54,7 +54,7 @@ W ten sposób zachowujesz stałą kontrolę nad swoimi bitcoinami, a Exchange ni
 
 
 
-Atomowy Exchange współpracuje z inteligentnymi kontraktami [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). W tym typie Contract kwota jest "blokowana" w kanale dwukierunkowym i wprowadzane jest ograniczenie czasowe, tak że jeśli transakcja nie zostanie zakończona w określonym czasie, saldo powraca do deponenta. Jest to mechanizm wykorzystywany przez platformę Boltz.
+Atomowy Exchange współpracuje z inteligentnymi kontraktami [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Timelock Contract*). W tym typie Contract kwota jest "blokowana" w kanale dwukierunkowym i wprowadzane jest ograniczenie czasowe, tak że jeśli transakcja nie zostanie zakończona w określonym czasie, saldo powraca do deponenta. Jest to mechanizm wykorzystywany przez platformę Boltz.
 
 
 
@@ -116,9 +116,9 @@ Po ukończeniu podstawowych konfiguracji wprowadź kwotę swojego atomowego Exch
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -152,9 +152,9 @@ Następnie kliknij przycisk **Utwórz atomowy Exchange** i dokonaj płatności w
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 Po dokonaniu i potwierdzeniu płatności, automatycznie otrzymasz jej równowartość na konto Lightning Wallet.
 
@@ -188,6 +188,6 @@ Boltz oferuje wysoki poziom poufności dzięki dostępowi przez łącze `.onion`
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Na pewno znasz już Boltz, unikalną platformę Exchange, która umożliwia interoperacyjność między różnymi warstwami ekosystemu Bitcoin.

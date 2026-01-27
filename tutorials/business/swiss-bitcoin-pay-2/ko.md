@@ -11,12 +11,12 @@ description: Bitcoin 결제를 쉽게 수락하는 방법은 무엇인가요?
 번거롭지 않고 은행 계좌로 직접 법정화폐로 자금을 받는 것을 선호하는 분들을 위해 Open Node와 같은 커스터디 솔루션을 사용할 수 있습니다:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 직접 손을 더럽힐 준비가 되어 있고 프로세스를 완전히 제어하려는 판매자에게는 BTCPay 서버 소프트웨어가 훌륭한 옵션입니다. 하지만 BTCPay 서버의 가장 큰 단점은 설정 및 관리에 시간이 걸리고 기술적인 전문 지식이 필요하다는 점입니다:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 이 모든 솔루션 중에서 스위스 Bitcoin Pay는 사용 편의성, 기능 및 보안을 결합한 매우 흥미로운 절충안인 것 같습니다. 이 솔루션은 소규모 비즈니스와 대규모 비즈니스 모두에 적합합니다. 이 튜토리얼에서는 스위스 Bitcoin Pay를 사용하여 비즈니스에서 Bitcoin를 쉽게 수락하는 방법을 알아보세요.
 
@@ -224,4 +224,4 @@ Invoice이 결제되면 PoS가 결제 성공을 확인합니다.
 
 마지막으로 "*설정*" 탭에서 출금 방법 및 Bitcoin과 법정화폐 간의 분배를 포함하여 등록 시 제공한 정보를 수정할 수 있는 옵션이 있습니다. ![스위스 Bitcoin 페이](assets/notext/50.webp)
 
-축하합니다! 이제 비즈니스에서 Bitcoin를 수락하는 결제 프로세서 시스템을 설정하셨습니다. 더 고급스럽고 복잡한 솔루션인 BTCPay 서버도 살펴보고 싶으시다면, 이 소프트웨어 전용 교육인 [BTC305](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)를 참고하시기 바랍니다.
+축하합니다! 이제 비즈니스에서 Bitcoin를 수락하는 결제 프로세서 시스템을 설정하셨습니다. 더 고급스럽고 복잡한 솔루션인 BTCPay 서버도 살펴보고 싶으시다면, 이 소프트웨어 전용 교육인 [BTC305](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1)를 참고하시기 바랍니다.

@@ -1,0 +1,8 @@
+question: Jaký kritický bezpečnostní požadavek musí být splněn při generování nonce K při vytváření podpisu ECDSA?
+answer: K musí být pro každý podpis jedinečný a nepředvídatelný, aby se zabránilo kompromitaci soukromého klíče
+wrong_answers:
+  - K musí být odvozen z veřejného klíče, aby ověření podpisu fungovalo správně
+  - K musí být stejný pro více podpisů, aby byla zachována konzistence procesu podepisování
+  - K se musí pro matematickou správnost rovnat soukromému klíči vynásobenému hashem zprávy
+explanation: |
+  Nonce K musí být pro každý podpis jedinečná a nepředvídatelná, protože opakované použití K nebo jeho předvídatelnost umožňuje útočníkům obnovit soukromý klíč. Pokud je stejný K použit dvakrát s různými zprávami, může jednoduchá algebra odhalit soukromý klíč. Moderní implementace používají deterministické generování K (RFC 6979), aby se zabránilo selhání generátoru náhodných čísel a zároveň byla zajištěna jedinečnost. Ostatní možnosti jsou nesprávné: K by nikdy nemělo být odvozeno z veřejného klíče, nikdy by nemělo být použito opakovaně a nikdy by se nemělo rovnat hash soukromého klíče krát zpráva.

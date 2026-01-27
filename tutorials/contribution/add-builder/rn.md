@@ -1,6 +1,6 @@
 ---
 name: Kwongerako umugambi
-description: Ni gute twotanga iciyumviro co kwongerako umugambi mushasha kuri PlanB Network?
+description: Ni gute twotanga iciyumviro co kwongerako umugambi mushasha kuri Plan ₿ Academy?
 ---
 ![project](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Ni gute twotanga iciyumviro co kwongerako umugambi mushasha kuri Pl
 Intumbero ya PlanB ni ugutanga ibikoresho vy’inyigisho vyo ku rwego rwo hejuru ku Bitcoin, mu ndimi nyinshi zishoboka. Ibintu vyose bisohoka kuri uru rubuga ni open-source kandi bishirwa kuri GitHub, ivyo bikaba bituma umuntu wese agira uruhara mu gutunganya urubuga.
 
 
-Woba ushaka kwongerako "umugambi" mushasha wa Bitcoin ku rubuga rwa PlanB Network maze ugatanga visibilité ku sosiyete yawe canke kuri software yawe, ariko ntuzi ingene? Iyi nyigisho ni iyawe!
+Woba ushaka kwongerako "umugambi" mushasha wa Bitcoin ku rubuga rwa Plan ₿ Academy maze ugatanga visibilité ku sosiyete yawe canke kuri software yawe, ariko ntuzi ingene? Iyi nyigisho ni iyawe!
 
 ![project](assets/01.webp)
 
@@ -16,7 +16,7 @@ Woba ushaka kwongerako "umugambi" mushasha wa Bitcoin ku rubuga rwa PlanB Networ
 - Ubwa mbere, ukeneye kugira konti ya GitHub. Niba utazi uko wokora konti, twakoze inyigisho ido n’ido kugira ngo ikuyobore.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![project](assets/03.webp)
 
 
-- Niba utigeze utanga umusanzu ku birimwo PlanB Network mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Forking a repository bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, ivyo bikaba bigufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
+- Niba utigeze utanga umusanzu ku birimwo Plan ₿ Academy mbere, uzokenera gukora Fork yawe y’ububiko bw’intango. Forking a repository bisigura gukora kopi y'ubwo bubiko kuri konti yawe ya GitHub, ivyo bikaba bigufasha gukora ku mugambi ataco uhinduye ku bubiko bw'intango. Fyonda kuri buto ya `Fork ubu bubiko`:
 
 ![project](assets/04.webp)
 
@@ -215,7 +215,7 @@ category: education
 ![project](assets/25.webp)
 
 
-- Paje nshasha izofunguka. Kurura ushire ishusho y’ishirahamwe ryawe canke porogarama yawe muri ako karere. Iyi shusho izogaragara ku rubuga rwa PlanB Network:
+- Paje nshasha izofunguka. Kurura ushire ishusho y’ishirahamwe ryawe canke porogarama yawe muri ako karere. Iyi shusho izogaragara ku rubuga rwa Plan ₿ Academy:
 
 ![project](assets/26.webp)
 
@@ -329,7 +329,7 @@ contributors:
 
 ![project](assets/44.webp)
 
-Urakoze cane! PR yawe yararemwe neza. Ubu umuyobozi azoyisubiramwo, nimba vyose biri ku rutonde, ayishire mu bubiko nyamukuru bwa PlanB Network. Ushobora kubona urutonde rw’umugambi wawe ruboneka ku rubuga haciye imisi mikeyi.
+Urakoze cane! PR yawe yararemwe neza. Ubu umuyobozi azoyisubiramwo, nimba vyose biri ku rutonde, ayishire mu bubiko nyamukuru bwa Plan ₿ Academy. Ushobora kubona urutonde rw’umugambi wawe ruboneka ku rubuga haciye imisi mikeyi.
 
 
 Raba neza ko ukurikirana ingene PR yawe itera imbere. Umuyobozi ashobora gusiga amajambo asaba ibindi bisobanuro. Igihe cose PR yawe itaremejwe, ushobora kuyibona mu `Ibisabwa vyo gukura` ku bubiko bwa GitHub bw'urubuga rwa PlanB:

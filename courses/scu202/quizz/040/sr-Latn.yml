@@ -6,4 +6,4 @@ wrong_answers:
   - 7-Zip
 explanation: |
   GnuPG (gpg) je referentni alat za verifikaciju digitalnog potpisa i upravljanje javnim ključevima.
-reviewed: false
+reviewed: true

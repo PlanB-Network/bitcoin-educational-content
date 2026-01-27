@@ -6,4 +6,4 @@ wrong_answers:
   - Ceo broj koji je veći od drugog
 explanation: |
   Ceo broj je međusobno prost sa drugim ako je njihov najveći zajednički delilac 1, što znači da ne dele nijedan drugi zajednički faktor.
-reviewed: false
+reviewed: true

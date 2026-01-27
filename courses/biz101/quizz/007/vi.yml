@@ -1,9 +1,9 @@
-question: Which of the following best describes how Bitcoin transactions achieve finality?
-answer: Once recorded on the blockchain, transactions are immutable and cannot be altered.
+question: Câu nào sau đây mô tả tốt nhất cách giao dịch Bitcoin đạt được tính cuối cùng?
+answer: Một khi đã được ghi lại trên blockchain, các giao dịch sẽ không thể thay đổi và không thể bị sửa đổi.
 wrong_answers:
-  - Transactions can be reversed by banks if a dispute arises.
-  - Users must gain approval from multiple government entities to finalize a transaction.
-  - Any participant can edit past transactions at will, if they have a special code.
+  - Các giao dịch có thể bị ngân hàng đảo ngược nếu có tranh chấp phát sinh.
+  - Người dùng phải có được sự chấp thuận từ nhiều cơ quan chính phủ để hoàn tất giao dịch.
+  - Bất kỳ người tham gia nào cũng có thể chỉnh sửa các giao dịch trước đó theo ý muốn nếu họ có mã đặc biệt.
 explanation: |
-  Bitcoin s blockchain is a tamper-proof ledger. Once a transaction is confirmed and included in a block, it becomes part of the permanent record, ensuring finality.
-reviewed: false
+  Blockchain của Bitcoin là một sổ cái chống giả mạo. Một khi giao dịch được xác nhận và đưa vào một khối, nó sẽ trở thành một phần của hồ sơ vĩnh viễn, đảm bảo tính cuối cùng.
+reviewed: true

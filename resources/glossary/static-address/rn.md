@@ -1,5 +1,5 @@
 ---
-term: GUHAGAZA Address.
+term: GUHAGAZA Address
 ---
 
 Mu bijanye n’Ivyishyurwa Bicereje, vyerekeye ikimenyetso kidasanzwe gishobora kwakira ivyishyurwa ata Address isubira gukoreshwa, ata gukorana, kandi ata n’ihuriro riboneka rya On-Chain hagati y’ivyishyurwa bitandukanye na Address idahinduka. Ubwo buryo burakuraho ivy’uko umuntu akeneye gutanga amaderesi mashasha, atakoreshwa yo kwakira generate ku bijanye n’ugucuruza kwose, gutyo hakaba umuntu yirinda imigenderanire isanzwe muri Bitcoin aho uwuronka ategerezwa gutanga Address nshasha ku muntu ariha. Ni nk'uko bingana n'itegeko ry'ukwishura rishobora gusubirwamwo mu bijanye na BIP47.

@@ -17,7 +17,7 @@ Bull Bitcoin, gizli ücretler olmadan şeffaf bir hizmet sunmayı taahhüt eder.
 ## Bull Bitcoin'ye kaydolun
 
 
-Yeni bir hesap oluşturmak için Bull Bitcoin'un [kayıt sayfasına] (https://accounts.bullbitcoin.com/en/registration) gidin. Address e-postanızı girin ve güçlü bir şifre seçin. Ardından "*Kaydol*" tuşuna basın.
+Yeni bir hesap oluşturmak için Bull Bitcoin'un [kayıt sayfasına](https://accounts.bullbitcoin.com/en/registration) gidin. Address e-postanızı girin ve güçlü bir şifre seçin. Ardından "*Kaydol*" tuşuna basın.
 
 
 ![BULL](assets/fr/01.webp)
@@ -71,7 +71,7 @@ Kimlik doğrulama uygulamanızla QR kodunu tarayın, 6 haneli kodu girin ve "*Ac
 2FA için kimlik doğrulama uygulamalarını kullanmaya aşina değilseniz, Authy uygulaması hakkındaki bu eğitime göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Onaylamak için şifrenizi girin.
 
@@ -184,9 +184,9 @@ Satın almak istediğiniz tutarı girin. Sats'nızı nasıl çekmek istediğiniz
 Bitcoin, Lightning veya Liquid cüzdanlarını kullanmaya aşina değilseniz, özel eğitim kursumuzu almanızı öneririm:
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Ayrıca [en iyi Bitcoin cüzdanları hakkındaki ayrıntılı eğitimlerimizi] (https://planb.network/tutorials/wallet) keşfedebilirsiniz.
+Ayrıca [en iyi Bitcoin cüzdanları hakkındaki ayrıntılı eğitimlerimizi](https://planb.academy/tutorials/wallet) keşfedebilirsiniz.
 
 
 Ardından "*Satın Almayı Onayla*" butonuna tıklayarak satın alma işleminizi onaylayın.
@@ -289,10 +289,18 @@ Tüm işlemlerinizi takip etmek için "*En son işlemler*" menüsündeki geçmi�
 ![BULL](assets/fr/36.webp)
 
 
+## Otomatik tekrarlayan satın alma başlat (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Limit emri oluştur
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Artık Bull Bitcoin ile nasıl kolayca Bitcoin alıp satacağınızı biliyorsunuz. Bu öğreticiyi yararlı bulduysanız, aşağıya bir Green başparmağı koyarsanız çok minnettar olurum. Bu makaleyi sosyal ağlarınızda paylaşmaktan çekinmeyin. Çok teşekkür ederim!
 
 
 Mnemonic ifadenizi doğru şekilde nasıl yöneteceğinizi öğrenmek için bu diğer kapsamlı eğitime de göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

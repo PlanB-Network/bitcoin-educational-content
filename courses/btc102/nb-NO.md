@@ -38,6 +38,8 @@ Dette kurset er utformet for å gi deg full kontroll over hvordan du lærer, sli
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 Velkommen til BTC102! Hvis du allerede har fullført BTC101, har du utforsket de viktigste teoretiske konseptene bak hvorfor Bitcoin er en så revolusjonerende teknologi. Nå, med BTC102, er det på tide å sette denne kunnskapen ut i livet. Dette kurset er designet for å hjelpe deg med å bygge din personlige Bitcoin-plan, trinn for trinn.
 
@@ -45,7 +47,7 @@ Velkommen til BTC102! Hvis du allerede har fullført BTC101, har du utforsket de
 I kapitlene som følger, vil vi veilede deg gjennom de praktiske trinnene for å **skaffe dine første bitcoins**, **sikre** dem på riktig måte og ta dine første skritt inn i dette raskt voksende økosystemet.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Selv om Bitcoin har eksistert i over 16 år, er bransjen fortsatt ung, dynamisk og dypt forankret i frihet. Den underliggende protokollen er fullstendig desentralisert og motstandsdyktig mot kontroll fra en sentral myndighet, noe som gjør at økosystemet kan vokse på en naturlig og organisk måte.
 
@@ -99,7 +101,7 @@ Etter dette kurset vil du ha alle de praktiske verktøyene du trenger for å nav
 Er du klar til å begynne din reise inn i Bitcoins verden? Da setter vi i gang!
 
 
-**Merk**: Hvis du støter på ukjente begreper i løpet av kurset, vennligst se [ordlisten](https://planb.network/resources/glossary) for definisjoner.
+**Merk**: Hvis du støter på ukjente begreper i løpet av kurset, vennligst se [ordlisten](https://planb.academy/resources/glossary) for definisjoner.
 
 # Forutsetninger for å forstå Bitcoin
 
@@ -111,6 +113,8 @@ Er du klar til å begynne din reise inn i Bitcoins verden? Da setter vi i gang!
 
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
+
+:::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
 
 Bitcoin-økosystemet og miljøet rundt er fortsatt relativt ungt og løst regulert, avhengig av land. Denne friheten åpner for enorme muligheter, men den skaper også grobunn for økonomisk svindel, svindelforsøk og ulike former for manipulasjon. Det er derfor det første kapittelet er så viktig: Hvis du forstår de vanligste fallgruvene, kan du unngå dem. Din økonomiske sikkerhet er en prioritet, for en dårlig opplevelse påvirker ikke bare deg, den påvirker hele Bitcoin-samfunnet.
@@ -137,9 +141,9 @@ Før vi går videre, er det viktig å skille klart mellom to fundamentalt forskj
 Hvis du ønsker å forstå bedre hvor Bitcoin kommer fra og hva som virkelig skiller det fra andre prosjekter, anbefaler jeg at du tar en titt på dette gratis oppfølgingskurset om Bitcoins historie senere:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Som du vet er Plan ₿ Network-plattformen utelukkende dedikert til Bitcoin. Å forstå skillet med andre kryptovalutaer vil imidlertid hjelpe deg med å unngå fallgruvene forbundet med ubrukelige og noen ganger til og med falske prosjekter.
+Som du vet er Plan ₿ Academy-plattformen utelukkende dedikert til Bitcoin. Å forstå skillet med andre kryptovalutaer vil imidlertid hjelpe deg med å unngå fallgruvene forbundet med ubrukelige og noen ganger til og med falske prosjekter.
 
 
 ![image](assets/nb-NO/006.webp)
@@ -350,6 +354,8 @@ Til syvende og sist er det beste forsvaret ditt personlig utdannelse, sunn skeps
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
+:::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
+
 
 
 Så snart du begynner å jobbe med Bitcoin, vil du raskt innse at grunnleggende cybersikkerhet ikke er valgfritt - det er helt avgjørende. Svindel og bedrageri er bare toppen av isfjellet. Utilsiktet tap av data, skadevare og kompromitterte passord kan være like ødeleggende, spesielt når du administrerer dine egne nøkler.
@@ -361,7 +367,7 @@ I dette kapittelet går vi gjennom noen enkle, praktiske trinn for å forbedre d
 Hvis du ønsker å gå dypere, tilbyr Plan ₿ Networks SEC101-kurs en omfattende gjennomgang av cybersikkerhetsstrategier som er spesielt utviklet for Bitcoin-brukere.
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Hvorfor cybersikkerhet er viktig
 
@@ -389,7 +395,7 @@ Utover systemoppdateringer og antivirusbeskyttelse, bør du være svært forsikt
 En annen smart vane er å verifisere ektheten og integriteten til all programvare før du installerer den på datamaskinen din. Hvis du ikke er sikker på hvordan du gjør det, har vi en egen veiledning som hjelper deg gjennom prosessen:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Til slutt bør du ta regelmessige sikkerhetskopier av viktige data. En ekstern Hard-stasjon eller SSD er et godt alternativ for å ta vare på en kopi av filene dine i tilfelle plutselig feil, hacking eller utilsiktet sletting. Du vil takke deg selv senere.
 
@@ -397,7 +403,7 @@ Til slutt bør du ta regelmessige sikkerhetskopier av viktige data. En ekstern H
 Hvis du foretrekker skyløsninger, kan du vurdere å bruke en sikker tjeneste som Proton Drive. Bare sørg for at det alternativet du velger, respekterer personvernet ditt og tilbyr sterk kryptering.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 En mye anbefalt strategi for sikkerhetskopiering er "3-2-1-regelen". Den er utformet for å beskytte dataene dine mot utilsiktet tap, cyberangrep eller til og med naturkatastrofer.
 
@@ -438,12 +444,12 @@ Med en passordadministrator trenger du aldri mer å klikke på "Glemt passord" e
 Det finnes mange passordadministratorer der ute, men jeg kan anbefale to solide alternativer avhengig av dine behov. Hvis du er ute etter noe som er enkelt å bruke og som synkroniseres sømløst på tvers av flere enheter, er Bitwarden et utmerket valg:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Hvis du heller vil oppbevare alt lokalt på din egen enhet, er KeePass et godt alternativ:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ### 2FA: dobbel beskyttelse
 
@@ -457,7 +463,7 @@ I Bitcoin er du din egen bank. Det betyr at du også er ditt eget sikkerhetsteam
 2FA legger til en ekstra Layer av beskyttelse ved å kreve en tidsbasert engangskode (vanligvis seks sifre) som genereres av en app som Google Authenticator eller Authy. Så selv om noen klarer å få tak i passordet ditt, kan de likevel ikke få tilgang til kontoen din uten fysisk tilgang til telefonen din.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ![image](assets/nb-NO/017.webp)
 
@@ -471,7 +477,7 @@ Når du aktiverer 2FA, må du sørge for å lagre gjenopprettingsnøkkelen for a
 For de som ønsker å ta sikkerheten et skritt videre, gir fysiske nøkler som YubiKey et enda høyere beskyttelsesnivå.
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Beskyttelse av personvernet ditt
 
@@ -492,12 +498,12 @@ Nøkkelen er å velge en pålitelig VPN-leverandør som:
 ![image](assets/nb-NO/019.webp)
 
 
-Vi har flere veiledninger tilgjengelig på Plan ₿ Network som kan veilede deg gjennom å sette opp et VPN på en enkel måte. Jeg anbefaler spesielt IVPN eller Mullvad:
+Vi har flere veiledninger tilgjengelig på Plan ₿ Academy som kan veilede deg gjennom å sette opp et VPN på en enkel måte. Jeg anbefaler spesielt IVPN eller Mullvad:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Viktige tiltak for å beskytte personvernet ditt på nettet omfatter også
 
@@ -506,21 +512,21 @@ Viktige tiltak for å beskytte personvernet ditt på nettet omfatter også
 - Bruk av personvernfokuserte nettlesere som Firefox, Brave eller Tor (for økt anonymitet);
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
 - Bruk av en **sikker postkasse**, for eksempel ProtonMail;
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 
 
 - **Kryptere** filene dine med verktøy som Bitlocker (for Windows) eller VeraCrypt (tilgjengelig på flere plattformer).
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Trinnvis progresjon
 
@@ -537,7 +543,7 @@ Etter hvert som du dykker dypere inn i Bitcoin-verdenen, vil du legge merke til 
 Kort sagt: Ikke undervurder cybersikkerhet, ta deg tid til å sette opp det grunnleggende, og husk at konsistens er nøkkelen. Uten god digital hygiene vil selv de beste verktøyene ikke hjelpe deg stort.
 
 
-Ta også en titt på [våre veiledninger om datasikkerhet] (https://planb.network/tutorials/computer-security) på Plan ₿ Network.
+Ta også en titt på [våre veiledninger om datasikkerhet](https://planb.academy/tutorials/computer-security) på Plan ₿ Academy.
 
 
 ![image](assets/nb-NO/020.webp)
@@ -550,6 +556,8 @@ I neste kapittel vil jeg dele noen flere tips for å hjelpe deg med å komme try
 
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
+
+:::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
 
 
@@ -627,7 +635,7 @@ En slik tilnærming sikrer at du ikke setter den økonomiske velferden din på s
 ![image](assets/nb-NO/023.webp)
 
 
-Når budsjettet ditt er definert, kan du tenke på hvordan du vil investere. En av de mest nybegynnervennlige og anbefalte metodene er Dollar Cost Averaging (DCA), der du kjøper en fast mengde Bitcoin med jevne mellomrom (ukentlig, månedlig osv.). Denne strategien bidrar til å jevne ut den gjennomsnittlige inngangsprisen over tid og reduserer den følelsesmessige effekten av prissvingninger. Det er en smart tilnærming for de fleste, spesielt nykommere.
+Når budsjettet ditt er definert, kan du tenke på hvordan du vil investere. En av de mest nybegynnervennlige og anbefalte metodene er [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), der du kjøper en fast mengde Bitcoin med jevne mellomrom (ukentlig, månedlig osv.). Denne strategien bidrar til å jevne ut den gjennomsnittlige inngangsprisen over tid og reduserer den følelsesmessige effekten av prissvingninger. Det er en smart tilnærming for de fleste, spesielt nykommere.
 
 
 Så spør deg selv: Hva er tidshorisonten min?
@@ -640,7 +648,7 @@ Det viktigste er at du ikke tar investeringsbeslutninger basert på følelser el
 
 Hvis du fortsatt er usikker, **start med å lære.**
 
-Bruk noen timer på å utforske Bitcoin, sjekk ut gratisressursene på Plan ₿ Network, les et par bøker, kast inn fem euro bare for å prøve det ut, og se litt kvalitetsinnhold på nettet. Hold deg nysgjerrig. Jo mer komfortabel du blir, jo lettere blir det å revurdere strategien din, justere tilnærmingen din og gå videre med selvtillit.
+Bruk noen timer på å utforske Bitcoin, sjekk ut gratisressursene på Plan ₿ Academy, les et par bøker, kast inn fem euro bare for å prøve det ut, og se litt kvalitetsinnhold på nettet. Hold deg nysgjerrig. Jo mer komfortabel du blir, jo lettere blir det å revurdere strategien din, justere tilnærmingen din og gå videre med selvtillit.
 
 
 ### Forstå BTCs volatilitet
@@ -686,7 +694,7 @@ For å unngå denne risikoen anbefales det på det sterkeste å sette opp din **
 Hvis du er klar til å ta Ownership av Bitcoin og ønsker å dykke dypere inn i beste praksis for å sikre gjenopprettingsfrasen din, anbefaler jeg på det sterkeste å sjekke ut denne artikkelen:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Konfidensialitet og diskresjon
 
@@ -710,7 +718,7 @@ Det er også lurt å **dele opp nettaktivitetene**. For eksempel:
 Hvis du er klar til å gå dypere inn i temaet personvern i Bitcoin, anbefaler vi at du fortsetter med vårt Year 2 Privacy Course, der du lærer mer avanserte teknikker for å holde identiteten og aktiviteten din sikker:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Skattemessige konsekvenser
 
@@ -820,6 +828,8 @@ Ved å følge disse prinsippene vil du kunne nærme deg Bitcoin-investeringer me
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
+:::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
+
 
 I dette kurset er det primære målet å veilede deg gjennom anskaffelse og sikring av dine første bitcoins. Men før du dykker ned i de praktiske trinnene (hvordan du kjøper BTC, hvilke lommebøker du skal bruke og så videre), er det viktig å ta et skritt tilbake og forstå hva Bitcoin egentlig er. Ved å forstå den dypere naturen til Bitcoin vil du se hvorfor millioner av mennesker vender seg til denne teknologien, og hvorfor det er avgjørende å forstå det grunnleggende før du setter sparepengene dine i en så ny og ustabil eiendel.
 
@@ -885,7 +895,7 @@ Mange tolker dette som Bitcoins mål: å tilby en måte å overføre verdier på
 For å gi deg mer kunnskap om Bitcoins opprinnelse tilbyr vi et gratis, omfattende og veldokumentert opplæringskurs om emnet:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 ### Et desentralisert nettverk for verdioverføring
 
@@ -968,7 +978,7 @@ En av Bitcoins mest undervurderte styrker er dens delbarhet. Hver Bitcoin kan de
 #### En offentlig protokoll, verifiserbar av alle
 
 
-Bitcoin kjører på en offentlig protokoll med **åpen kildekode** (særlig gjennom [Bitcoin Core] (https://github.com/Bitcoin/Bitcoin)). Dette betyr at koden er fritt tilgjengelig for alle som ønsker å inspisere, revidere og forbedre den. Det finnes ingen skjulte mekanismer eller lukkede systemer; alt om hvordan Bitcoin fungerer er åpent tilgjengelig.
+Bitcoin kjører på en offentlig protokoll med **åpen kildekode** (særlig gjennom [Bitcoin Core](https://github.com/Bitcoin/Bitcoin)). Dette betyr at koden er fritt tilgjengelig for alle som ønsker å inspisere, revidere og forbedre den. Det finnes ingen skjulte mekanismer eller lukkede systemer; alt om hvordan Bitcoin fungerer er åpent tilgjengelig.
 
 Denne åpenheten gjør det utrolig vanskelig å innføre bakdører eller gjøre hemmelige endringer. Alle med teknisk kompetanse kan drive en node, bidra til utviklingen eller bygge kompatible verktøy. I Bitcoin oppnås tillit gjennom kode og konsensus, ikke gjennom sentralisert kontroll.
 
@@ -997,7 +1007,7 @@ Selv om denne tilnærmingen er mer teknisk, gir den de mest krevende brukerne mu
 #### En motstandsdyktig betalingsmetode på tvers av landegrensene
 
 
-På grunn av sin desentraliserte natur fungerer Bitcoin døgnet rundt, uavhengig av landegrenser eller tidssoner. I regioner der tradisjonell bankinfrastruktur mangler, brukes Bitcoin ofte som en rask og rimelig løsning for å sende eller motta penger uten å være avhengig av dyre mellomledd. Selv om transaksjonsgebyrene kan variere avhengig av overbelastning i nettverket, er de generelt mye lavere enn gebyrene bankene tar for internasjonale overføringer. I tillegg gir Layer-2-løsninger som Lightning Network mulighet for enda raskere og billigere Bitcoin-transaksjoner.
+På grunn av sin desentraliserte natur fungerer Bitcoin døgnet rundt, uavhengig av landegrenser eller tidssoner. I regioner der tradisjonell bankinfrastruktur mangler, brukes Bitcoin ofte som en rask og rimelig løsning for å sende eller motta penger uten å være avhengig av dyre mellomledd. Selv om transaksjonsgebyrene kan variere avhengig av overbelastning i nettverket, er de generelt mye lavere enn gebyrene bankene tar for internasjonale overføringer. I tillegg gir Layer-2-løsninger som [Lightning Network](https://planb.academy/resources/glossary/lightning-network) mulighet for enda raskere og billigere Bitcoin-transaksjoner.
 
 
 #### Et verdioppbevaringsmiddel
@@ -1027,10 +1037,10 @@ Likevel, etter mer enn ti års eksistens, fortsetter Bitcoin å vekke debatt og 
 ![image](assets/nb-NO/040.webp)
 
 
-Hvis du ønsker å utvide kunnskapen din ytterligere, kan du ta BTC101-kurset om Plan ₿ Network, som tilbyr en mer dyptgående utforskning av Bitcoins tekniske og økonomiske grunnlag.
+Hvis du ønsker å utvide kunnskapen din ytterligere, kan du ta BTC101-kurset om Plan ₿ Academy, som tilbyr en mer dyptgående utforskning av Bitcoins tekniske og økonomiske grunnlag.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Etter denne introduksjonen til Bitcoin (som kanskje tok litt lenger tid enn 5 minutter!), er du nå bedre rustet til å vurdere å kjøpe og sikre bitcoins. I de følgende kapitlene i kurset vil vi dykke dypere inn i betydningen av Bitcoin, hvordan bransjen fungerer og utviklingen av de ulike lagene. Deretter, i den kommende delen, vil vi diskutere hvordan du kan sette opp din egen personlige plan.
 
@@ -1038,6 +1048,8 @@ Etter denne introduksjonen til Bitcoin (som kanskje tok litt lenger tid enn 5 mi
 
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
+
+:::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
 
 
 
@@ -1255,6 +1267,8 @@ Nå som vi har utforsket den dyptgripende betydningen av Satoshi Nakamotos oppfi
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
+:::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
+
 
 
 Siden lanseringen i 2009 av den pseudonyme skaperen Satoshi Nakamoto, har Bitcoin utløst fremveksten av en helt ny industri, som nå er verdsatt til hundrevis av milliarder dollar. Til tross for sin relativt korte historie har dette økosystemet opplevd en eksplosiv vekst og utviklet seg i eksponentielt tempo det siste tiåret. Hver dag investerer nye aktører (alt fra institusjonelle investorer og smidige oppstartsbedrifter til teknologigiganter) betydelig kapital og ressurser i å hevde seg i denne raskt voksende sektoren.
@@ -1415,7 +1429,7 @@ Børsene spiller en viktig rolle i Bitcoin-økosystemet, og fungerer som broer m
 - enkelt, gratis uttak av bitcoins til en personlig Wallet.
 
 
-Børsene som overholder lokale forskrifter, må vanligvis følge strenge **"Know Your Customer"** (KYC)-protokoller, som krever at brukerne fremlegger identifikasjonsdokumenter før de får tilgang til tjenestene. Selv om disse prosessene er utformet for å forhindre ulovlig aktivitet, kan de gå på bekostning av personvernet som Bitcoin i seg selv tilbyr.
+Børsene som overholder lokale forskrifter, må vanligvis følge strenge **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer)"** (KYC)-protokoller, som krever at brukerne fremlegger identifikasjonsdokumenter før de får tilgang til tjenestene. Selv om disse prosessene er utformet for å forhindre ulovlig aktivitet, kan de gå på bekostning av personvernet som Bitcoin i seg selv tilbyr.
 
 
 ![image](assets/nb-NO/058.webp)
@@ -1450,15 +1464,15 @@ Disse plattformene lar brukerne kjøpe og selge bitcoins direkte med hverandre, 
 **Forsiktig: ** Ved fysiske transaksjoner bør du velge et offentlig og sikkert sted for å unngå potensielle svindelforsøk.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - Kun Bitcoin Exchange-plattformer
@@ -1467,13 +1481,13 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 Disse plattformene har en brukervennlig tilnærming og tilbyr en enkel og transparent tjeneste. De er kun Bitcoin. De implementerer ofte løsninger for kjøp av bitcoins gjennom Dollar-Cost Averaging (DCA) og tilbyr automatiske uttak til en personlig Wallet. De er spesielt egnet for nybegynnere som ønsker å akkumulere bitcoins på en progressiv og sikker måte. Eksempler: Relai, Bull Bitcoin, StackinSat, Bitstack...
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - **Exchange-plattformer for generelle formål eller handelsorienterte plattformer**
@@ -1482,13 +1496,13 @@ https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-42
 Disse plattformene tilbyr avanserte funksjoner utover bare å kjøpe Bitcoin, inkludert gearing og derivater. Vi fraråder imidlertid handel på det sterkeste. I stedet anbefaler vi å kjøpe Bitcoin og flytte det til din egen Wallet. Trading er en høyrisikoaktivitet og egner seg generelt ikke for de som fokuserer på langsiktig akkumulering. Det er ofte smartere å holde seg utenfor trading.
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 **Exchange-plattformer er ikke sikre lommebøker**. Hvis du etterlater bitcoinsene dine på en Exchange, utsetter du deg for betydelig risiko. Flere scenarier kan føre til tap av pengene dine:
 
@@ -1524,7 +1538,7 @@ Bitcoin Wallet-bransjen er delt inn i flere kategorier, som hver for seg dekker 
 
 
 
-- **Produsenter av Hardware Wallet**: Disse selskapene utvikler fysiske enheter for sikker lagring av nøkler. Noen har åpen kildekode, mens andre tilbyr proprietære løsninger med varierende funksjoner og sikkerhetsnivåer. Blant kjente navn finner vi Ledger, Trezor, Coinkite, Foundation og Shiftcrypto.
+- **Produsenter av [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Disse selskapene utvikler fysiske enheter for sikker lagring av nøkler. Noen har åpen kildekode, mens andre tilbyr proprietære løsninger med varierende funksjoner og sikkerhetsnivåer. Blant kjente navn finner vi Ledger, Trezor, Coinkite, Foundation og Shiftcrypto.
 - **Software Wallet Utviklere**: Dette er alt fra selskaper til uavhengige utviklere som lager mobil- og skrivebordsapplikasjoner. Tilbudene deres varierer når det gjelder brukeropplevelse, sikkerhet og funksjoner. Eksempler inkluderer Sparrow, Wizard Sardine, Galoy, Synonym og Blockstream.
 - DIY-lommebøker (*Do It Yourself*): Disse åpen kildekode-løsningene er utviklet for avanserte brukere som ønsker full kontroll og minimal avhengighet av tredjeparter. Ved å bygge din egen Wallet reduserer du avhengigheten av tredjeparter og kan øke sikkerheten din. Blant de mest kjente alternativene er Seedsigner og Specter DIY.
 
@@ -1553,7 +1567,7 @@ Mining-økosystemet består av flere store aktører:
 Mining er en verden for seg selv, med mange lag å utforske; tekniske utfordringer, økonomiske insentiver og energihensyn spiller alle inn. For de som er interessert i å utforske dette området nærmere og virkelig forstå hvordan det fungerer, tar MIN201-kurset vårt deg gjennom alt du trenger å vite.
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 #### Utviklingen i økosystemet Bitcoin
 
@@ -1589,12 +1603,14 @@ Selv om en vedlikeholder godkjente en kontroversiell endring, ville det ikke på
 Det er også verdt å merke seg at **Bitcoin Core ikke er den eneste klienten**. Alternativer som Bitcoin Knots implementerer også Bitcoin-protokollen, noe som gir brukerne flere valgmuligheter og forsterker systemets desentralisering:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 ## Den lagdelte arkitekturen til Bitcoin
 
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
+
+:::video id=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
 
 
 Bitcoin er et åpent system som er designet for å være minimalistisk, robust og sikkert fra starten av. For å legge til funksjonalitet uten å endre grunnlaget, skjer utviklingen vanligvis ved å legge til **protokolllag** og supplerende applikasjoner som beriker økosystemet uten at det går på bekostning av desentraliseringen og robustheten til hovedsystemet. Denne fleksibiliteten har gjort det mulig for en rekke selskaper og uavhengige utviklere å bygge en infrastruktur rundt Bitcoin, og legge til innovasjoner tilpasset ulike bruksområder.
@@ -1625,7 +1641,7 @@ La oss si at du kjøper en kaffe med Bitcoin ved hjelp av basen Layer. For at be
 Hvis du er interessert i å lære mer om hvordan Lightning fungerer, tilbyr vi et utmerket kurs på andre året som er dedikert til dette temaet:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 - **Sidekjeder**:
@@ -1643,7 +1659,7 @@ Konseptet med sidekjeder ble introdusert i 2014 av Adam Back, Matt Corallo, Luke
 Hvis du ønsker å utforske Liquid mer i detalj, tilbyr vi et avansert tredjeårskurs om emnet:
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 - **RGB**:
@@ -1661,7 +1677,7 @@ En viktig egenskap ved RGB er beskyttelsen mot Double-spending, som oppnås ved 
 For å utdype kunnskapen din om RGB tilbyr vi et fjerdeårskurs (vær oppmerksom på at det er svært teknisk):
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB er bare én av mange protokoller som bygger på Bitcoin. Noen er mer utbredt enn andre, men det dukker stadig opp nye. Den røde tråden er ideen om å optimalisere hver Layer for en spesifikk oppgave, samtidig som integriteten og uforanderligheten til Bitcoins basisprotokoll bevares.
 
@@ -1684,17 +1700,17 @@ I dag finnes det mange verktøy tilgjengelig for selgere som ønsker å aksepter
 Hvis du foretrekker en "hands-off"-løsning og ønsker å motta fiat-valuta direkte til bankkontoen din, kan depottjenester som OpenNode tilby en strømlinjeformet opplevelse:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 For selgere som er mer teknisk interesserte og ønsker full kontroll over prosessen, er BTCPay Server et fantastisk alternativ med åpen kildekode. Den største ulempen er at det krever tid å sette opp og vedlikeholde, sammen med litt teknisk kunnskap:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Et sted midt imellom finner du Swiss Bitcoin Pay, en brukervennlig, men likevel kraftig løsning som har en god balanse mellom brukervennlighet, funksjonalitet og sikkerhet. Den fungerer godt for både små forhandlere og større bedrifter:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Å akseptere Bitcoin kan gi flere praktiske og økonomiske fordeler for en bedrift. På samme måte som kontanter gir Bitcoin mulighet for direkte betaling mellom kunden og forhandleren (uten behov for en tradisjonell bank). Betalinger som gjøres via Lightning Network er umiddelbare og endelige, noe som reduserer risikoen for tilbakeføringer. Og når kjøpmennene har sin egen Bitcoin (selvforvaring), får de større økonomisk selvstendighet.
 
@@ -1714,7 +1730,7 @@ I tillegg kan det være et smart markedsføringsgrep å akseptere Bitcoin. Det v
 Hvis du ønsker å utforske hvordan Bitcoin kan integreres i virksomheten din (enten som en betalingsmetode, en finansressurs eller begge deler), tilbyr vi et kurs på nybegynnernivå som er skreddersydd for dette behovet:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Bitcoin vinner terreng som et medium for Exchange, med økende bruk i mange bransjer. Lightning Network har gjort betalinger raskere og billigere, noe som ytterligere øker Bitcoins appell for selgere.
 
@@ -1758,6 +1774,8 @@ Neste steg i kurset: Vi går over til det praktiske og hjelper deg med å define
 
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
+
+:::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 
 Nå som du har lært det teoretiske grunnlaget for Bitcoin, er det på tide å gå over til den praktiske siden. Denne delen vil hjelpe deg å forstå hvordan du skaffer deg dine første bitcoins, hvordan du lagrer dem på en sikker måte, og hvordan du kan skreddersy din tilnærming basert på din personlige situasjon. Målet er å hjelpe deg med å identifisere hvilken type bruker du er, slik at du kan velge en strategi som samsvarer med dine behov og begrensninger.
@@ -2035,7 +2053,7 @@ Hvis Hot Wallet samler for mange bitcoins, kan du overføre noen til Cold-lagere
 Til syvende og sist avhenger sikkerheten i stor grad av hvordan du bruker verktøyene. En Hardware Wallet hjelper deg ikke mye hvis du mister, avslører eller kompromitterer Mnemonic-frasen. Forsiktighet og disiplin er din beste beskyttelse mot å miste bitcoins. For mer informasjon om dette, anbefaler jeg å lese denne artikkelen:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Anskaffelsesmetoder og transaksjonsvolum
 
@@ -2094,7 +2112,7 @@ Det er derfor viktig å forstå at det å gå gjennom KYC ikke bare er et mindre
 - **P2P-plattformer**: Plattformer som Bisq, RoboSats og Peach legger til rette for utveksling mellom privatpersoner uten behov for identitetsverifisering, og bruker escrow-systemer for å sikre transaksjoner. Disse plattformene innebærer fortsatt en risiko for tyveri hvis den andre parten ikke samarbeider, men risikoen minimeres ved hjelp av escrow-tjenester.
 - **Bitcoin i minibanker (Automated Teller Machines)**: Noen minibanker (kiosker) lar deg kjøpe Bitcoin med kontanter, men gebyrene har en tendens til å være høye, og noen krever ID-verifisering for større transaksjoner.
 - **KYC-frie Exchange-plattformer**: Noen plattformer, særlig i Sveits, lar deg kjøpe små mengder Bitcoin uten å kreve ID-verifisering.
-- **Mining**: Privatpersoner kan utvinne Bitcoin. Eldre eller mindre maskiner er tilgjengelige, noe som gir en utradisjonell måte å anskaffe Bitcoin på uten KYC. Ved å bli med i en Mining pool kan du tjene regelmessige utbetalinger, selv med grunnleggende utstyr. For mer informasjon, [sjekk ut våre Mining-veiledninger] (https://planb.network/tutorials/mining).
+- **Mining**: Privatpersoner kan utvinne Bitcoin. Eldre eller mindre maskiner er tilgjengelige, noe som gir en utradisjonell måte å anskaffe Bitcoin på uten KYC. Ved å bli med i en Mining pool kan du tjene regelmessige utbetalinger, selv med grunnleggende utstyr. For mer informasjon, [sjekk ut våre Mining-veiledninger](https://planb.academy/tutorials/mining).
 - **Betalinger / Lønn i bitcoins**: Hvis du driver en bedrift, kan du akseptere Bitcoin som betaling. Hvis du er ansatt, kan du, avhengig av jurisdiksjonen din, be om å få betalt i Bitcoin. Disse metodene lar deg anskaffe Bitcoin uten KYC.
 
 
@@ -2219,6 +2237,8 @@ I de neste kapitlene går vi nærmere inn på hver av disse profilene, slik at d
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
+:::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
+
 
 I Bitcoin-fellesskapet refererer begrepet "hodler" til noen som har en langsiktig investeringstilnærming. Ordet stammer fra en berømt skrivefeil av "hold" på Bitcoin Talk-forumet for mange år siden, og har siden blitt et symbol på Commitment: hold fast på Bitcoin uansett hva som skjer, uten å stresse over kortsiktige markedssvingninger.
 
@@ -2258,22 +2278,22 @@ Det viktigste først: sikkerhet. En Hardware Wallet er et must. Den lagrer de pr
 Her er noen veiledninger for lommebøker som er gode for hodlere:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Når Wallet er konfigurert, må du sørge for å sikkerhetskopiere gjenopprettingsfrasen på 12 eller 24 ord på et varig fysisk medium. Følg denne veiledningen for å finne ut mer om hvilket medium du skal velge for frasen din:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 For ekstra trygghet kan du legge til flere lag med beskyttelse, for eksempel
 
@@ -2281,13 +2301,13 @@ For ekstra trygghet kan du legge til flere lag med beskyttelse, for eksempel
 - En multisignatur Wallet med tidslås:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 
 - A BIP39 passphrase:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/nb-NO/076.webp)
 
@@ -2301,13 +2321,13 @@ Hodlere lar aldri myntene sine ligge på børser. Plattformer kan bli hacket, g�
 Fordi hodlere har en tendens til å investere større beløp, trenger de børser med sterk likviditet. Her er noen få som passer til dette:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
 ![image](assets/nb-NO/077.webp)
 
@@ -2352,7 +2372,7 @@ Noen beste fremgangsmåter:
 Hvis du vil overvåke beholdningen din uten å kompromittere de private nøklene dine, bør du vurdere å bruke en Watch-only wallet. Med den kan du spore saldoer og transaksjoner kun ved hjelp av de offentlige nøklene dine.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Hodlerens strategi er enkel, men effektiv: kjøp, sikre og glem. Den virkelige utfordringen er ikke teknisk; den er psykologisk. Det vanskeligste er å motstå trangen til å selge for tidlig eller få panikk under kursfall. Men hvis du er disiplinert og tenker langsiktig, har hodling vist seg å være en pålitelig måte å bevare verdi og bygge formue på over tid.
 
@@ -2388,6 +2408,8 @@ I neste kapittel skal vi se nærmere på en lignende, men mer aktiv profil: stab
 
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
+
+:::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
 
 
 I Bitcoin-økosystemet er en stacker en person som har en konsekvent, langsiktig tilnærming til å akkumulere satoshier (eller "Sats"), den minste enheten av Bitcoin. I stedet for å investere en stor sum på én gang, kjøper en stacker regelmessig små mengder Bitcoin, uavhengig av markedsforholdene.
@@ -2434,38 +2456,38 @@ En stabler trenger et Wallet-oppsett som balanserer brukervennlighet med langsik
 - **Hot Wallet**: Ideell for nybegynnere, mobile eller stasjonære lommebøker lar deg enkelt motta Sats og foreta betalinger. De egner seg imidlertid best for små beløp. On-Chain-lommebøker foretrekkes for stabling fremfor Lightning-lommebøker på grunn av bedre UTXO-håndtering. Anbefalte programvarelommebøker: Green Wallet, Blue Wallet, Sparrow Wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
+https://planb.academy/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 - **Hardware Wallet**: Etter hvert som Bitcoin-beholdningen din vokser, er det viktig å sikre midlene dine med en Cold Wallet for å minimere risikoen for tyveri. En seriøs stabler flytter regelmessig midler fra Hot Wallet til en Hardware Wallet. Eksempler på dette: Bitbox02, Trezor, Ledger, Coldcard, Jade...
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Den mest effektive tilnærmingen er å bruke begge: en Hot Wallet for daglig stabling og en Hardware Wallet for langtidslagring Cold. Hot Wallet er enkel og praktisk å bruke. Den lar deg raskt ta bitcoinsene dine i besittelse, i stedet for å la dem ligge på plattformen der de kan være utsatt for risiko. Sammenlignet med en Hardware Wallet tilbyr Hot Wallet imidlertid mye mindre sikkerhet. Stackeren må derfor regelmessig overføre midlene sine til sin Cold Wallet for å sikre sine langsiktige besparelser og unngå å ha for mange midler i Hot Wallet. Med jevne mellomrom konsoliderer stableren UTXO-er ved overføring til Cold-lageret, og slår sammen små innganger for å optimalisere fremtidige transaksjonsgebyrer.
 
@@ -2493,37 +2515,37 @@ Deretter har du to alternativer for å sette opp DCA: automatisere det eller adm
 Eksempler på DCA-plattformer:
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 Vanlige børser som støtter DCA:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 Stackere kan også ønske å forbedre personvernet sitt, selv om det ikke er deres primære mål. I dette tilfellet bør de vurdere å bruke en P2P anskaffelsesmetode, utenfor regulerte plattformer. I motsetning til automatiserte DCA-kjøp krever disse metodene at du administrerer kjøpsstrategien din manuelt, så disiplin er nøkkelen til å holde deg på sporet.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 #### 3. Uttak og sikring av bitcoins
 
@@ -2553,7 +2575,7 @@ Nøkkelvaner:
 For enkel overvåking uten at det går på bekostning av sikkerheten, kan du sette opp en Watch-only wallet for å spore saldoer ved hjelp av en offentlig nøkkel.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Evaluer stablerprofilen din
 
@@ -2582,6 +2604,8 @@ Nå skal vi utforske en radikalt annerledes bitcoinerprofil: den aktive brukeren
 
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
+
+:::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
 
 
 Å bli en aktiv Bitcoin-bruker betyr å gå utover langsiktige investeringsstrategier. I motsetning til hodleren eller stableren, som først og fremst sparer uten å bruke penger, behandler den aktive brukeren Bitcoin som et reelt medium for **Exchange**. De bruker det til å betale for varer og tjenester og deltar aktivt i motøkonomien.
@@ -2642,53 +2666,53 @@ Aktive brukere bør bruke to ulike typer lommebøker for å balansere sikkerhet 
 - A Cold Wallet (Hardware Wallet) for å sikre langsiktige besparelser.
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 
 - En eller flere mobile Hot-lommebøker for daglige transaksjoner. Vanligvis vil en aktiv bruker ha både en On-Chain Hot Wallet og en Lightning Wallet.
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
+https://planb.academy/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 Ved å skille midlene dine på denne måten reduserer du risikoen i tilfelle Wallet som brukes til daglige betalinger, blir kompromittert.
 
@@ -2699,22 +2723,22 @@ Ved å skille midlene dine på denne måten reduserer du risikoen i tilfelle Wal
 Aktive brukere har ofte som mål å redusere avhengigheten av betrodde tredjeparter, avhengig av deres personlige omstendigheter. En av de mest effektive måtene å oppnå dette på er ved å drive sin egen Bitcoin-node. På den måten kan de bruke nettverket på egen hånd, samtidig som personvernet i forbindelse med transaksjonene forbedres.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 For de som regelmessig bruker Lightning Network, kan det være et smart trekk å administrere sin egen LND, LDK eller Core-Lightning-node. Det gir dem full kontroll over åpning og lukking av kanaler, øker selvsuvereniteten og kan til og med bidra til lavere transaksjonsgebyrer; spesielt sammenlignet med automatiserte løsninger som Phoenix, eller enda verre, depotbaserte Lightning-lommebøker.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 #### 3. Vanlig anskaffelse av Bitcoin
 
@@ -2732,45 +2756,45 @@ Det finnes flere måter å anskaffe Bitcoin på, avhengig av hvilket nivå av pe
 - Tradisjonelt kjøp gjennom regulerte plattformer som Bitfinex eller Bull Bitcoin (ideelt for å fylle på Cold Wallet);
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - Anskaffelse uten kjennskap til kunden via peer-to-peer-tjenester som Peach, Robosats eller Bitcoin-minibanker, slik at du kan legge til Wallet uten å oppgi personlig informasjon.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - **Å tjene i Bitcoin**. Å være en aktiv bruker handler ikke bare om å bruke BTC; det handler også om å tjene det. Hvis du driver en bedrift, bør du vurdere å godta Bitcoin som betaling. Hvis du er ansatt, kan du se om arbeidsgiveren din tilbyr muligheten til å motta hele eller deler av lønnen din i BTC.
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 ![image](assets/nb-NO/089.webp)
 
@@ -2784,13 +2808,13 @@ Valget av å bruke bitcoins er ofte gjenstand for kritikk. Noen Bitcoin-brukere 
 En mer logisk tilnærming er "Bruk og erstatt"-metoden. Dette betyr at du bruker Bitcoin av alle de grunnene som er nevnt tidligere, og i stedet for å la sparepengene dine krympe, erstatter du de brukte Sats ved å kjøpe nye Sats med fiat-valuta.
 
 
-For å gjøre det enklere å bruke Bitcoin finnes det mange tilgjengelige verktøy, for eksempel [BTC Map] (https://btcmap.org/), som viser deg kjøpmenn over hele verden som godtar Bitcoin. Noen av disse forhandlerne lar deg til og med bestille på nettet og få produktene levert.
+For å gjøre det enklere å bruke Bitcoin finnes det mange tilgjengelige verktøy, for eksempel [BTC Map](https://btcmap.org/), som viser deg kjøpmenn over hele verden som godtar Bitcoin. Noen av disse forhandlerne lar deg til og med bestille på nettet og få produktene levert.
 
 
 Siden vi fortsatt er i en overgangsfase der ikke alle dagligvarebutikker godtar BTC, finnes det noen enkle, men effektive løsninger. For eksempel er det en praktisk løsning å kjøpe gavekort med Bitcoin, og mange leverandører som Bitrefill, Coinsbee eller The Bitcoin Company tilbyr denne tjenesten.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 #### 5. Teknologisk bevissthet og fleksibilitet
 
@@ -2830,6 +2854,8 @@ I neste kapittel skal vi se nærmere på den siste og kanskje mest spennende Bit
 
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
+
+:::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
 
 
 For den paranoide Bitcoiner er personvern ikke valgfritt; det er essensielt. I en verden der nesten alle økonomiske bevegelser spores, ser de på det å beskytte identiteten sin og transaksjonshistorikken sin som en ikke-forhandlingsbar del av det å bruke Bitcoin. De er vanligvis veldig klar over risikoen som er involvert i å eksponere personopplysninger (spesielt når de bruker KYC-kompatible børser som krever ID-verifisering).
@@ -2876,24 +2902,24 @@ Den paranoide brukeren blander aldri midler basert på opprinnelse eller bruk. I
 
 
 
-- En Cold Wallet (luftgapet og/eller DIY) **Langsiktige beholdninger lagres i svært sikre, luftgapede eller DIY-lommebøker.** Dette er vanligvis åpen kildekode-enheter eller enheter med verifiserbar kode, for eksempel Jade, Coldcard, SeedSigner, Portal eller Passport... Når det er mulig, skaffer de seg disse enhetene anonymt; enten ved å betale kontant eller bruke Bitcoin i en fysisk butikk, eller ved å bestille på nettet med diskrete fraktalternativer og BTC-betalinger. I Frankrike er for eksempel [Bitcoin Bazar] (https://bitcoinbazar.fr/) en slik butikk. Du kan søke etter lignende leverandører i din region.
+- En Cold Wallet (luftgapet og/eller DIY) **Langsiktige beholdninger lagres i svært sikre, luftgapede eller DIY-lommebøker.** Dette er vanligvis åpen kildekode-enheter eller enheter med verifiserbar kode, for eksempel Jade, Coldcard, SeedSigner, Portal eller Passport... Når det er mulig, skaffer de seg disse enhetene anonymt; enten ved å betale kontant eller bruke Bitcoin i en fysisk butikk, eller ved å bestille på nettet med diskrete fraktalternativer og BTC-betalinger. I Frankrike er for eksempel [Bitcoin Bazar](https://bitcoinbazar.fr/) en slik butikk. Du kan søke etter lignende leverandører i din region.
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
 - En Hot Wallet for hverdagstransaksjoner: For vanlige utgifter velger paranoide brukere personvernfokuserte lommebøker som Ashigaru, Wasabi Wallet eller Sparrow Wallet. Disse lommebøkene støtter avanserte funksjoner som: mini-CoinJoin-forbrukstransaksjoner, payjoins, potensielt CoinJoin-verktøy, myntkontroll, UTXO-tagging eller muligheten til å koble til via din egen Bitcoin-node.
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
 ![image](assets/nb-NO/093.webp)
 
@@ -2903,23 +2929,23 @@ https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-80
 - Det er avgjørende å kjøre sin egen **Bitcoin-node**. Det sikrer full kontroll over transaksjonssendingen og gjør at de unngår å være avhengige av tredjeparts infrastruktur. Det beskytter også personvernet, forhindrer sensur og lar dem uavhengig verifisere reglene i Bitcoin-protokollen. Enten det er på Linux, Windows, macOS eller via plug-and-play-oppsett som RaspiBlitz, myNode eller Start9, behandler den paranoide brukeren noden sin som en ikke-forhandlingsbar søyle av suverenitet.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 
 - For å kunne gjennomføre transaksjoner over **Lightning Network** og samtidig beholde samme grad av kontroll og diskresjon, driver de også sin egen Lightning-node. Dette gjør at de kan administrere kanaler direkte og bruke penger på en måte som minimerer overvåking eller avhengighet av depottjenester.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 ![image](assets/nb-NO/094.webp)
 
@@ -2927,19 +2953,19 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 Sikkerheten stopper ikke der. For sikkerhetskopiering av seed-fraser bruker den paranoide brukeren sikkerhetskopier i metall kombinert med forseglede konvolutter med sabotasjesikkerhet. De kontrollerer jevnlig at sikkerhetskopiene ikke er kompromittert, og tester Wallet-gjenopprettingsprosedyrer for å være forberedt på alle eventualiteter.
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Når det gjelder å sikre sparepengene, kan de implementere mer sofistikerte oppsett, for eksempel lommebøker med flere signaturer (med eller uten tidslås).
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Disse konfigurasjonene reduserer risikoen. Ved å legge til en BIP39 passphrase i seed-setningen får man enda en Layer med beskyttelse og sikrer at tilgangen til midlene ikke kan kompromitteres av en enkelt oppdagelse.
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 En paranoid Bitcoiner vil selvfølgelig ha en gjennomtenkt arveplan for sine bitcoins. Dette viktige temaet vil bli dekket i detalj i neste del av kurset.
 
@@ -2951,50 +2977,50 @@ Mer generelt har denne typen brukere en avansert, personvernbevisst tilnærming 
 - **Operativsystemer**, både på telefonen og datamaskinen;
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 - **Autentiseringsverktøy**;
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 
 - **Kommunikasjonsverktøy**;
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 - **Verktøy for datahåndtering**.
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 Hvis du ønsker å lære mer om IT-sikkerhet, tilbyr vi et komplett førsteårskurs som er dedikert til dette temaet:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 #### 2. Kjøpe bitcoins anonymt
 
@@ -3006,21 +3032,21 @@ Et kjerneprinsipp for den paranoide investoren er å skaffe seg Bitcoin uten å 
 - **P2P kjøper plattformer** som Bisq, Robosat, LNP2PBot, Peach, HODL HODL, etc. ;
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - **Personlige kontanthandler**, for eksempel på lokale Bitcoin-møter;
 
 
-https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
+https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 
 - **Bitcoin minibanker**;
@@ -3028,11 +3054,11 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 - Mining bitcoins.
 
 
-https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
+https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
+https://planb.academy/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
-https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
+https://planb.academy/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
 Sentraliserte børser unngås helt på grunn av risikoen de utgjør, både for personvernet og for potensiell sensur eller beslagleggelse.
 
@@ -3060,7 +3086,7 @@ De er også kjent med det grunnleggende i Blockchain-overvåking og vet hvordan 
 For de som ønsker å gå dypere inn i On-Chain Personvern og overvåkningsmotstand, tilbyr vi en avansert andreårsopplæring i Bitcoin Personvernpraksis:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 4. Være årvåken og oppdatere strategien sin
 
@@ -3123,6 +3149,8 @@ I neste del av kurset diskuterer vi et viktig tema som ofte blir oversett: hvord
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 
+:::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
+
 
 Å sikre overføringen av bitcoins er et ansvar som ofte blir oversett, men som er avgjørende. Den økonomiske suvereniteten som Bitcoin tilbyr, kommer også med behovet for nøye boforvaltning. Uten dette kan arvingene dine bli ute av stand til å få tilgang til dine Hard-opptjente midler. I dette kapittelet skal vi se nærmere på de grunnleggende prinsippene for arveplanlegging når det gjelder Bitcoin.
 
@@ -3147,7 +3175,7 @@ Du har da to alternativer:
 ### Målene med en Bitcoin-etterfølgerplan
 
 
-Pamela Morgan skisserer i sin bok *[Cryptoasset Inheritance Planning] (https://www.amazon.com/gp/product/1947910116/)* fire viktige mål for en solid arveplan:
+Pamela Morgan skisserer i sin bok *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)* fire viktige mål for en solid arveplan:
 
 
 
@@ -3160,7 +3188,7 @@ Pamela Morgan skisserer i sin bok *[Cryptoasset Inheritance Planning] (https://w
 En gjennomtenkt plan handler ikke bare om å overføre formue, men også om å beskytte dine nærmeste mot vanlige feil og potensielle trusler.
 
 
-Dette kapittelet er inspirert av arbeidet til [Pamela Morgan] (https://x.com/pamelawjd). [Hennes bok](https://www.amazon.com/gp/product/1947910116/), og selv om boken hennes tilbyr en detaljert og ekspertvalidert metode for å lage en Bitcoin-arvplan, **utgjør ikke dette innholdet juridisk rådgivning**.  Det er en velprøvd tilnærming, men hver person bør gjøre sine egne undersøkelser og tilpasse anbefalingene til sin personlige situasjon og jurisdiksjon.
+Dette kapittelet er inspirert av arbeidet til [Pamela Morgan](https://x.com/pamelawjd). [Hennes bok](https://www.amazon.com/gp/product/1947910116/), og selv om boken hennes tilbyr en detaljert og ekspertvalidert metode for å lage en Bitcoin-arvplan, **utgjør ikke dette innholdet juridisk rådgivning**.  Det er en velprøvd tilnærming, men hver person bør gjøre sine egne undersøkelser og tilpasse anbefalingene til sin personlige situasjon og jurisdiksjon.
 
 
 [Pamela Morgan](https://x.com/pamelawjd) har generøst autorisert bruken av [hennes arbeid](https://www.amazon.com/gp/product/1947910116/) til dette kurset, og vi vil følge hennes tilnærming for å lage en konkret Bitcoin-arvplan. I dette kapittelet fokuserer vi på den første delen av boken hennes.
@@ -3430,12 +3458,12 @@ Ved behov kan du rådføre deg med en advokat eller notarius publicus for å int
 **Gratulerer! Du har fullført et viktig steg i å sikre din Bitcoin formue. Du kan nå forbedre arveplanen din ved å gå gjennom den med jevne mellomrom og utforske mer avanserte løsninger som å redusere Multisig-oppsett med tidslås:**
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
-Referanse: [*Planlegging av arv etter kryptoaktiva, en enkel veiledning for eiere* - Pamela Morgan, 2018] (https://www.amazon.com/gp/product/1947910116/)
+Referanse: [*Planlegging av arv etter kryptoaktiva, en enkel veiledning for eiere* - Pamela Morgan, 2018](https://www.amazon.com/gp/product/1947910116/)
 
 
-En spesiell takk til [Pamela Morgan] (https://x.com/pamelawjd) for hennes arbeid og for å ha tillatt at dette innholdet ble tilpasset.
+En spesiell takk til [Pamela Morgan](https://x.com/pamelawjd) for hennes arbeid og for å ha tillatt at dette innholdet ble tilpasset.
 
 
 
@@ -3444,6 +3472,8 @@ En spesiell takk til [Pamela Morgan] (https://x.com/pamelawjd) for hennes arbeid
 
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
+
+:::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
 
 Hvis du har kommet så langt, er du nå en del av en opplyst minoritet! Det er svært få som kommer så langt med Bitcoin, og du kan være stolt av hvor langt du har kommet. Kanskje har du fulgt alle veiledningene i dette opplæringskurset: Satt opp din første Hardware Wallet, sikret deg gjenvinningsfrasen, laget en DCA-plan (dollar-cost averaging), anskaffet Bitcoin med og uten KYC, og til og med planlagt arven etter Bitcoin. Hvert skritt du har tatt er et sprang mot ekte økonomisk suverenitet.
@@ -3514,39 +3544,39 @@ Reisen din slutter ikke her. Bitcoin er en verden i stadig utvikling, og det er 
 - For å forbedre den digitale sikkerheten din kan du starte med vårt introduksjonskurs i sikkerhet:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 - Hvis du er tiltrukket av den økonomiske og filosofiske siden av Bitcoin, kan du ta en titt på disse fordypningskursene:
 
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 
 - Bedriftseiere som er interessert i å integrere Bitcoin i sin bedriftsstrategi, bør ikke gå glipp av::
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 - Hvis du vil lære mer om den fascinerende historien bak etableringen av Bitcoin og systemets tidlige år, anbefaler jeg dette kurset på det varmeste:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 - Hvis du er nysgjerrig på de tekniske aspektene ved Bitcoin og økosystemet, kan du utforske disse opplæringskursene:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 3. Bidra til Bitcoin-økosystemet
 
@@ -3560,7 +3590,7 @@ Bitcoin er mer enn bare et økonomisk verktøy; det er en bevegelse. Avhengig av
 - **Bli med i et lokalt fellesskap**: Delta i arrangementer, møter og fora for å møte andre bitcoinere og Exchange synspunkter på den siste utviklingen.
 
 
-Hvis du vil bidra til å utdanne andre, er Plan ₿ Network alltid på utkikk etter bidragsytere! Alt vårt pedagogiske innhold er åpen kildekode og ligger på GitHub. Vi ønsker bidragsytere velkommen til å hjelpe oss med å korrekturlese og oversette innhold til ulike språk; i Exchange for noen få Sats! Enten det er nå eller senere i din Bitcoin-reise, er du invitert til å bli med i [vår Telegram-gruppe for bidragsytere] (https://t.me/PlanBNetwork_ContentBuilder) i Plan ₿ Network.
+Hvis du vil bidra til å utdanne andre, er Plan ₿ Academy alltid på utkikk etter bidragsytere! Alt vårt pedagogiske innhold er åpen kildekode og ligger på GitHub. Vi ønsker bidragsytere velkommen til å hjelpe oss med å korrekturlese og oversette innhold til ulike språk; i Exchange for noen få Sats! Enten det er nå eller senere i din Bitcoin-reise, er du invitert til å bli med i [vår Telegram-gruppe for bidragsytere](https://t.me/PlanBNetwork_ContentBuilder) i Plan ₿ Academy.
 
 
 ### Siste ord
@@ -3569,7 +3599,7 @@ Hvis du vil bidra til å utdanne andre, er Plan ₿ Network alltid på utkikk et
 Tusen takk for at du tok BTC102-kurset.
 
 
-Mitt navn er Rogzy, grunnlegger av Découvre Bitcoin og medgrunnlegger av Plan ₿ Network; en plattform som er muliggjort av våre utrolige nye partnere, Tether og Fulgur Ventures, og av vårt felles oppdrag om å utdanne så mange mennesker som mulig om Bitcoin.
+Mitt navn er Rogzy, grunnlegger av Découvre Bitcoin og medgrunnlegger av Plan ₿ Academy; en plattform som er muliggjort av våre utrolige nye partnere, Tether og Fulgur Ventures, og av vårt felles oppdrag om å utdanne så mange mennesker som mulig om Bitcoin.
 
 
 Tilbakemeldingene dine er utrolig verdifulle. Legg gjerne igjen kommentarer på plattformen og fortell oss hva du synes om denne oppdaterte versjonen av kurset. Dine forslag hjelper oss med å forbedre kvaliteten på innholdet vårt.
@@ -3581,7 +3611,7 @@ Du er nå klar til å ta den avsluttende eksamenen, en test med 40 spørsmål so
 Lykke til!
 
 
-Jeg håper å se deg igjen snart i et annet kurs på Plan ₿ Network; enten det er et av mine eller et fra en annen fantastisk lærer i samfunnet. Og hvem vet, kanskje vi til og med møtes personlig på en konferanse, et arrangement eller et Bitcoin-møte.
+Jeg håper å se deg igjen snart i et annet kurs på Plan ₿ Academy; enten det er et av mine eller et fra en annen fantastisk lærer i samfunnet. Og hvem vet, kanskje vi til og med møtes personlig på en konferanse, et arrangement eller et Bitcoin-møte.
 
 
 Nok en gang, gratulerer med hvor langt du har kommet. Og husk; mitt primære mål vil alltid forbli det samme:

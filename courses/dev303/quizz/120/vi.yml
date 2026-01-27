@@ -1,0 +1,8 @@
+question: Đâu là sự đánh đổi đáng kể nhất về quyền riêng tư khi chuyển đổi từ triển khai LDK tự quản lý sang kiến trúc dựa trên đám mây của Breez SDK?
+answer: Greenlight có được khả năng theo dõi các điểm đến thanh toán và hoạt động tạo hóa đơn thông qua định tuyến dựa trên đám mây.
+wrong_answers:
+  - "Khóa riêng tư được lưu trữ trên máy chủ của Blockstream thay vì lưu trữ cục bộ trên thiết bị của người dùng."
+  - Thông tin về trạng thái kênh được hiển thị công khai trên đồ thị Lightning Network thông qua các nút Greenlight.
+  - Các dịch vụ LSP hiện có thể giám sát tất cả các giao dịch on-chain và liên kết chúng với các mô hình thanh toán Lightning.
+explanation: |
+  Câu trả lời đúng chỉ ra sự suy giảm quyền riêng tư chính: định tuyến dựa trên đám mây cho phép Greenlight có khả năng quan sát các điểm đến thanh toán, trong khi việc tạo hóa đơn trên đám mây mở rộng phạm vi tiếp xúc thông tin vượt ra ngoài những gì kiến trúc chỉ dành cho nhà cung cấp dịch vụ hậu cần (LSP) truyền thống đã tiết lộ. Các câu trả lời sai là không chính xác vì: khóa riêng tư vẫn nằm dưới sự kiểm soát của người dùng bất chấp kiến trúc đám mây; trạng thái kênh không được công khai thông qua định tuyến; và các LSP không có thêm khả năng giám sát giao dịch on-chain thông qua sự thay đổi kiến trúc này.

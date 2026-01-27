@@ -1,0 +1,9 @@
+question: Thách thức chính khiến việc phát hành bản vá lỗ hổng bảo mật cho Bitcoin trở nên đặc biệt phức tạp so với các hệ thống phần mềm tập trung truyền thống là gì?
+answer: Bản thân mã vá có thể tiết lộ lỗ hổng cho những kẻ tấn công tiềm năng phân tích các thay đổi
+wrong_answers:
+  - Bản chất phi tập trung có nghĩa là không có cơ quan trung ương nào để điều phối thời gian triển khai bản vá
+  - "Cơ chế đồng thuận của Bitcoin yêu cầu sự chấp thuận của đa số trước khi bất kỳ bản vá bảo mật nào có thể được triển khai"
+  - Bản chất mã nguồn mở có nghĩa là tất cả các lỗ hổng phải được tiết lộ công khai trước khi các bản vá được phát triển
+explanation: |
+  Văn bản đặc biệt nhấn mạnh rằng các nhà phát triển phải cực kỳ cẩn thận khi phát hành bản vá vì "bản vá có thể tiết lộ lỗ hổng". Điều này tạo ra một thách thức đặc biệt khi giải pháp có thể vô tình phơi bày vấn đề. Điểm thứ tư mô tả cách các nhà phát triển Bitcoin kiểm tra xem bản vá đã được "ngụy trang đủ tốt" hay chưa bằng cách để các nhà phát triển giàu kinh nghiệm xem xét mà không cần biết lỗ hổng cụ thể. Nếu các chuyên gia này không thể xác định lỗ hổng từ bản vá, thì việc triển khai được coi là an toàn. Các lựa chọn khác là không chính xác: có sự phối hợp thông qua nhóm bảo trì Bitcoin Core, không yêu cầu sự đồng thuận cho các bản vá, và các lỗ hổng được giữ kín trong quá trình tiết lộ có trách nhiệm.
+reviewed: false

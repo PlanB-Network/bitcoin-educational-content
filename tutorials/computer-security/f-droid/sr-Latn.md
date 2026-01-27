@@ -100,7 +100,7 @@ Saznajte više u našem vodiču za Thunderbird:
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid vam daje sve informacije koje su vam potrebne da odlučite da li korišćenje aplikacije štiti vaše podatke i poboljšava vašu privatnost. Skenirajte sve aplikacije koje želite da koristite, zatim kliknite na dugme **Install** da preuzmete i instalirate vašu aplikaciju.
 
@@ -187,4 +187,4 @@ Ako vam se dopao ovaj vodič, saznajte više o našem kursu IT bezbednosti i upr
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

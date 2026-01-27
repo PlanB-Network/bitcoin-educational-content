@@ -11,7 +11,7 @@ BIP39 passphrase 是一個可選的密碼，當與您的 Mnemonic 短語結合�
 在開始本教學之前，如果您不熟悉 passphrase 的概念、它的運作方式，以及它對您的 Bitcoin Wallet 的影響，我強烈建議您參考這篇我解釋一切的其他理論文章：
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## passphrase 在 Ledger 上的功能如何？
 
@@ -41,14 +41,14 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 **注意：** 如果您在啟動 passphrase 之前已經在您的 Ledger 上接收了比特幣，您需要通過 Bitcoin 交易來轉移它們。passphrase 會產生一組新的金鑰，從而創建一個完全獨立於您初始 Wallet 的 Wallet。新增 passphrase 時，您將會有一個新的 Wallet，這個 Wallet 將會是空的。但是，這不會刪除您第一個沒有 passphrase 的 Wallet。您仍然可以存取它，可以直接透過 Ledger 而不需輸入 passphrase，或是透過其他軟體使用您的 24 字短語。
 
 
-開始本教學之前，請確認您已初始化 Ledger 並產生 Mnemonic 樂句。如果不是這樣，而且您的 Ledger 是新的，請遵循 PlanB Network 上針對您的機型所提供的特定教學。完成此步驟後，您可以返回本教學。
+開始本教學之前，請確認您已初始化 Ledger 並產生 Mnemonic 樂句。如果不是這樣，而且您的 Ledger 是新的，請遵循 Plan ₿ Academy 上針對您的機型所提供的特定教學。完成此步驟後，您可以返回本教學。
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 ## 如何使用 Ledger 設定臨時 passphrase？
 
@@ -274,4 +274,4 @@ https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-c
 我也建議您參考這份完整的教學，瞭解如何使用 Ledger Flex：
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

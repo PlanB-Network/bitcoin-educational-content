@@ -10,7 +10,7 @@ Selles õpetuses käsitleme Krakeni ärikonto loomise protsessi, bitcoinide ostm
 
 Kui olete huvitatud bitcoini integreerimisest oma ettevõttesse, siis soovitan ka meie täielikku teoreetilist koolituskursust sel teemal:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Krakeni ettevõtte konto loomine
 
@@ -78,7 +78,7 @@ Mine oma konto ikoonile ja klõpsa "*Turvalisus*".
 
 Lisateavet selle seadmetüübi kasutamise kohta leiate meie spetsiaalsest juhendmaterjalist:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Teine võimalus on kasutada autentimisrakendust, näiteks Google Authenticator või Authy. Need rakendused genereerivad dünaamilise 6-kohalise koodi, mille peate sisestama iga kord, kui logite sisse.
 
@@ -90,7 +90,7 @@ Selle meetodi aktiveerimiseks skaneerige QR-kood oma valitud rakendusega nutitel
 
 Lisateavet autentimisrakenduste kohta saate ka sellest juhendmaterjalist:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Selle all on juurdepääs ka täiustatud seadetele, sealhulgas võimalus määrata mitmeid erinevaid 2FAsid. Kraken pakub 2FA kaudu täiustatud turvalisuse delegeerimist. See funktsioon võimaldab teil luua erinevaid 2FA-tasemeid erinevate toimingute jaoks, näiteks sisselogimise, tellimuse kinnitamise ja raha väljavõtmise jaoks. See võimaldab näiteks anda raamatupidajale juurdepääsu teatud funktsioonidele, ilma et ta saaks raha välja võtta. Siin on valikuvõimalused:
 
@@ -219,4 +219,4 @@ Sõltuvalt teie ettevõtte eesmärkidest ja struktuurist võib Krakeni kasutamin
 
 Sest põhjalikumalt vaadelda seda teemat, Soovitan seda põhjalikku koolituse integreerimise Bitcoin arvesse ettevõtete, mis hõlmab üksikasjalikult lisades rahavoogude, vastuvõtva Bitcoin maksete, ja raamatupidamine:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

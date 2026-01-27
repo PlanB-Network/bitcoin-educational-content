@@ -10,7 +10,7 @@ A 2FA introduz uma camada adicional de segurança ao exigir uma segunda forma de
 
 Em outro tutorial, expliquei como configurar e usar um aplicativo de 2FA TOTP:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Aqui, veremos como usar uma chave de segurança física como um segundo fator de autenticação para todas as suas contas.
 

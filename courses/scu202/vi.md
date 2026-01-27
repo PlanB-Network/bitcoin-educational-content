@@ -156,7 +156,7 @@ Bạn đã sẵn sàng kiểm soát hoàn toàn bảo mật CNTT, củng cố ch
 
 
 
-*Lưu ý: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.network/resources/glossary) để biết định nghĩa*
+*Lưu ý: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa*
 
 
 
@@ -179,7 +179,7 @@ Khóa học SCU101 là khóa học nhập môn được thiết kế nhằm xây
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Duyệt web an toàn trực tuyến
 
@@ -974,7 +974,7 @@ Phương pháp này dựa trên mô hình *phát hành liên tục*, trong đó 
 
 Arch Linux chủ yếu hướng đến người dùng nâng cao, những người muốn kiểm soát toàn bộ môi trường của mình, đồng thời chấp nhận một số phức tạp nhất định trong việc cài đặt và bảo trì. Yêu cầu kỹ thuật này đã dẫn đến sự ra đời của một số bản phân phối phái sinh nhằm mục đích dân chủ hóa việc sử dụng nó.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Nổi tiếng nhất là Manjaro, vẫn giữ nguyên nền tảng kỹ thuật của Arch trong khi cung cấp quá trình cài đặt đơn giản, môi trường máy tính để bàn được cấu hình sẵn và chu kỳ phát hành chậm hơn một chút để ổn định các bản cập nhật.
 
@@ -1062,7 +1062,7 @@ Việc lựa chọn bản phân phối Linux phụ thuộc vào nhu cầu cụ t
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ Ra mắt năm 2006, Linux Mint là một bản phân phối bắt nguồn từ U
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint nổi bật nhờ tính đơn giản, mặc định tích hợp sẵn codec đa phương tiện và công cụ cập nhật được thiết kế tốt. Mặt khác, nó phụ thuộc rất nhiều vào cơ sở hạ tầng của Ubuntu, khiến nó phụ thuộc vào các lựa chọn kỹ thuật của Ubuntu (đặc biệt là ở cấp độ kernel và kho lưu trữ). Mint đặc biệt phù hợp với người dùng không chuyên về kỹ thuật hoặc những người muốn có một hệ thống sẵn sàng sử dụng mà không cần quá nhiều kiến thức.
 
@@ -1108,7 +1108,7 @@ Quá trình cài đặt diễn ra suôn sẻ, các phần mềm thiết yếu đ
 
 Ra mắt năm 2011, Elementary OS là một bản phân phối dựa trên Ubuntu, tập trung chủ yếu vào thiết kế và tính nhất quán của Interface. Môi trường desktop Pantheon của nó, lấy cảm hứng từ macOS, mang phong cách tối giản, thanh lịch và mượt mà. Tuy nhiên, hệ thống vẫn còn ít tùy chỉnh hơn so với các bản phân phối khác, và một số người dùng nâng cao có thể cảm thấy bị giới hạn bởi các lựa chọn của Interface và cấu trúc cố định của nó. Nó rất phù hợp với những người dùng yêu thích thẩm mỹ, đang tìm kiếm một hệ thống đơn giản, mạch lạc cho nhu cầu sử dụng hàng ngày.
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1151,7 +1151,7 @@ Fedora là một bản phân phối được Red Hat hỗ trợ, hướng đến
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
 - **openSUSE** (Tumbleweed hoặc Leap):
@@ -1179,7 +1179,7 @@ Debian tồn tại ở nhiều nhánh, bao gồm *Ổn định* (phần mềm r�
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
 - **Manjaro**:
@@ -1208,7 +1208,7 @@ Arch Linux là một bản phân phối tối giản, có thể cập nhật li�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Phân phối chuyên biệt
 
@@ -1246,7 +1246,7 @@ Tails là một bản phân phối trực tiếp dựa trên Debian, tập trung
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Lưu ý:** Bản phân phối trực tiếp là hệ điều hành Linux có thể sử dụng trực tiếp từ ổ USB hoặc CD mà không cần cài đặt trên đĩa Hard.
 
@@ -1300,7 +1300,7 @@ PureOS là một bản phân phối dựa trên Debian do Purism phát triển, 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 - **Hệ điều hành Raspberry Pi**:
 
@@ -1326,7 +1326,7 @@ Whonix kết hợp Debian với mạng Tor trong kiến trúc hai máy ảo (gat
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Toàn cảnh này cung cấp cho bạn cái nhìn tổng quan về hệ sinh thái phân phối Linux hiện tại, cho phép bạn lựa chọn bản phân phối phù hợp nhất với mục tiêu và hồ sơ kỹ thuật của mình.
 
@@ -1938,7 +1938,7 @@ Sau đó, bạn sẽ được yêu cầu thiết lập tài khoản người dù
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Sau khi cài đặt hoàn tất, hãy rút USB khi được nhắc, sau đó khởi động lại. Ubuntu sẽ được cài đặt và sẵn sàng sử dụng trên máy của bạn.
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Bộ ứng dụng văn phòng
 
 
@@ -3114,13 +3114,13 @@ Ngoài một số công cụ cơ bản này, tôi cũng khuyên bạn nên cài 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Cuối cùng, để kết thúc chương này, sau đây là một số phương pháp hay nhất cần thực hiện hàng ngày:
 
@@ -3212,9 +3212,9 @@ Mật khẩu phức tạp chắc chắn sẽ khó nhớ. Do đó, tôi khuyên b
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Cuối cùng, hãy thay đổi mật khẩu này thường xuyên—mỗi 3 đến 6 tháng—đặc biệt nếu máy của bạn được sử dụng trong môi trường dùng chung hoặc di động.
 
@@ -3314,13 +3314,13 @@ Cuối cùng, một trong những biện pháp quan trọng nhất bạn có th�
 - Các bản phân phối Linux không tự động mã hóa ổ đĩa, trừ khi tùy chọn này được chọn trong quá trình cài đặt. Bạn có thể sử dụng LUKS để mã hóa ổ đĩa.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Trong mọi trường hợp, mật khẩu giải mã phải mạnh, khác biệt với mật khẩu hệ thống và được lưu trữ trong trình quản lý mật khẩu an toàn. Nếu bạn đang sử dụng ổ đĩa ngoài hoặc khóa USB chứa dữ liệu nhạy cảm, hãy cân nhắc mã hóa từng dữ liệu bằng các công cụ như VeraCrypt.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Nguyên tắc đặc quyền tối thiểu
 
@@ -3417,7 +3417,7 @@ Công nghệ này dựa trên trình quản lý ảo hóa (hypervisor), một ch
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 Về mặt bảo mật CNTT, một trong những lợi thế lớn của máy ảo là khả năng phân vùng. Máy ảo (VM) không chia sẻ tệp, quy trình hoặc quyền truy cập mạng với hệ thống máy chủ, trừ khi bạn cấu hình rõ ràng các trao đổi này. Vì vậy, nếu máy ảo bị nhiễm phần mềm độc hại, hoặc nếu bạn kiểm tra phần mềm nhạy cảm bên trong, tác động sẽ chỉ giới hạn ở máy ảo đó: hệ thống chính của bạn vẫn nguyên vẹn, miễn là các thông số cô lập được tuân thủ (không có thư mục dùng chung, không có thiết bị USB nào được truyền đến VM...).
 
@@ -3953,7 +3953,7 @@ Trên một máy Linux được bảo trì tốt và sử dụng cho mục đíc
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### Trên macOS
 
@@ -4061,11 +4061,11 @@ Hệ thống này dựa trên mật mã bất đối xứng và các công cụ 
 
 
 
-Để tìm hiểu thêm về chức năng mã hóa Hash và chữ ký số, tôi mời bạn tham gia khóa học CYP 201 miễn phí được cung cấp trên Plan ₿ Network:
+Để tìm hiểu thêm về chức năng mã hóa Hash và chữ ký số, tôi mời bạn tham gia khóa học CYP 201 miễn phí được cung cấp trên Plan ₿ Academy:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Xác minh tính toàn vẹn và tính xác thực của phần mềm
 
@@ -4469,7 +4469,7 @@ Với cấu hình này, Alice đã được bảo vệ khỏi nhiều mối đe 
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Do đó, Alice tuân thủ quy tắc 3-2-1: có 3 bản sao tệp (máy tính, ổ USB, đám mây), được lưu trữ trên ít nhất 2 phương tiện khác nhau (đĩa trong, ổ USB, máy chủ từ xa), với ít nhất 1 bản sao ngoài máy chủ đám mây.
 
@@ -4556,7 +4556,7 @@ Mã hóa toàn bộ giống như một ổ khóa: chừng nào mật khẩu chư
 Trên Linux, giải pháp tiêu chuẩn là LUKS (*Linux Unified Key Setup*). LUKS là một hệ thống quản lý ổ đĩa được mã hóa, tích hợp trong hầu hết các bản phân phối. Khi hệ thống được cài đặt lần đầu, bạn thường sẽ được nhắc mã hóa toàn bộ ổ đĩa máy tính. Tất nhiên, tôi thực sự khuyên bạn nên kích hoạt tùy chọn này. Sau khi mã hóa được bật, hệ thống sẽ yêu cầu mật khẩu mỗi khi khởi động, ngay cả trước khi hệ điều hành tải. Điều này đảm bảo rằng việc truy cập vật lý vào ổ đĩa không thể vượt qua được cơ chế bảo mật.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Nếu bạn muốn mã hóa ổ đĩa ngoài hoặc USB, bạn cũng có thể thực hiện việc này từ dòng lệnh hoặc thông qua giao diện đồ họa Interface. Ổ đĩa sẽ phải được định dạng, do đó tất cả dữ liệu hiện có sẽ bị mất nếu không được sao lưu trước.
 
@@ -4832,7 +4832,7 @@ Nếu bạn đang sử dụng tài khoản cục bộ hoặc nếu máy tính c�
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4877,7 +4877,7 @@ Giao thức này hoàn hảo để trao đổi các tệp nhạy cảm một cá
 
 Một lựa chọn thay thế tuyệt vời là Cryptomator. Phần mềm mã nguồn mở này cho phép bạn tạo một "ổ khóa" an toàn: một thư mục đặc biệt, trong đó tất cả các tệp được lưu trữ đều được mã hóa tự động. Ổ khóa này có thể được đồng bộ hóa với các dịch vụ đám mây như Dropbox, Google Drive hoặc Nextcloud mà không cần nhà cung cấp phải truy cập vào dữ liệu chưa được mã hóa. Ứng dụng có sẵn trên tất cả các hệ điều hành, bao gồm Android và iOS, và không yêu cầu kỹ năng chuyên môn đặc biệt nào để sử dụng.
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4885,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Cuối cùng, bạn cũng có thể sử dụng VeraCrypt ở chế độ chứa, chế độ này tạo ra một tệp hoạt động như một kho lưu trữ được mã hóa, có thể gắn kết như một đĩa.
 
@@ -4943,18 +4943,18 @@ Gói này cài đặt `exiftool`, sau đó bạn có thể sử dụng trực ti
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Thay thế `name.jpg` bằng tên thật của tệp. Đồng thời, hãy đảm bảo bạn đang ở trong thư mục chứa hình ảnh này. Ví dụ: nếu tôi có ảnh bức tượng Nakamoto Satoshi trong thư mục `/Downloads`, tôi có thể hiển thị siêu dữ liệu của nó bằng cách chạy lệnh sau:
+Thay thế `name.webp` bằng tên thật của tệp. Đồng thời, hãy đảm bảo bạn đang ở trong thư mục chứa hình ảnh này. Ví dụ: nếu tôi có ảnh bức tượng Nakamoto Satoshi trong thư mục `/Downloads`, tôi có thể hiển thị siêu dữ liệu của nó bằng cách chạy lệnh sau:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ Sau đó, bạn sẽ thấy một danh sách dài các thuộc tính, có thể 
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ Nếu bạn không muốn giữ lại bản gốc, bạn có thể xóa nó bằ
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ Nếu bạn có nhiều tệp để xử lý trong cùng một thư mục, bạn
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Thao tác này sẽ xóa siêu dữ liệu của tất cả các tệp JPEG trong thư mục hiện tại. Bạn có thể điều chỉnh phần mở rộng cho phù hợp với nhu cầu của mình (`*.png`, `*.pdf`...).
+Thao tác này sẽ xóa siêu dữ liệu của tất cả các tệp JPEG trong thư mục hiện tại. Bạn có thể điều chỉnh phần mở rộng cho phù hợp với nhu cầu của mình (`*.webp`, `*.pdf`...).
 
 
 
@@ -5580,9 +5580,9 @@ Vì vậy, tôi không khuyến khích sử dụng Google Chrome, dù là cá nh
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Can đảm
 
@@ -5742,7 +5742,7 @@ Firefox vẫn là chuẩn mực về bảo mật và quyền riêng tư, mặc d
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Trình duyệt Tor
 
 
@@ -5751,7 +5751,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Nhược điểm là hiệu suất giảm đáng kể (độ trễ cao) và khả năng tương thích hạn chế với một số trang web. Tor Browser lý tưởng cho các hoạt động nhạy cảm (báo chí, hoạt động xã hội...), nhưng ít phù hợp với nhu cầu sử dụng hàng ngày.
 
@@ -5765,11 +5765,11 @@ Nhược điểm là hiệu suất giảm đáng kể (độ trễ cao) và kh�
 
 [Trình duyệt Mullvad](https://mullvad.net/en/browser) là kết quả hợp tác giữa Tor Foundation và Mullvad VPN. Trình duyệt này dựa trên trình duyệt Tor, vốn cũng được phát triển từ Firefox ESR. Mullvad Browser được thiết kế để tối đa hóa quyền riêng tư của người dùng. Theo mặc định, trình duyệt này bao gồm các tính năng bảo vệ nâng cao chống lại dấu vân tay, trình theo dõi và tập lệnh của bên thứ ba.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Trình duyệt này sở hữu hầu hết các tính năng bảo mật và quyền riêng tư mà Tor Browser cung cấp, với một điểm khác biệt: nó không chuyển hướng lưu lượng truy cập qua mạng Tor. Để tránh rò rỉ IP Address, bạn có thể sử dụng kết hợp với VPN (lý tưởng nhất là Mullvad VPN).
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Trình duyệt Mullvad là giải pháp tuyệt vời nếu bạn quan tâm đến quyền riêng tư của mình, cho dù bạn là người mới bắt đầu hay người dùng chuyên nghiệp.
 
@@ -5795,7 +5795,7 @@ Theo mặc định, LibreWolf kích hoạt các thiết lập bảo mật nâng 
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Trình duyệt Zen
 
@@ -5813,7 +5813,7 @@ Về mặt bảo mật và quyền riêng tư, Zen có tính năng chặn trình
 
 Zen Browser là một lựa chọn thay thế thú vị nếu bạn đang tìm kiếm một môi trường duyệt web Gecko miễn phí, sáng tạo, gọn gàng và tôn trọng quyền riêng tư của bạn.
 
-https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Trình duyệt dựa trên WebKit
 
@@ -5855,7 +5855,7 @@ Orion được phát triển hoàn toàn bởi đội ngũ Kagi (nổi tiếng v
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Trình duyệt không có công cụ kết xuất
 
 
@@ -6035,9 +6035,9 @@ Trình quản lý mật khẩu tạo và lưu trữ mật khẩu mạnh một c�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Sử dụng trình quản lý mật khẩu có một số lợi thế: nó đơn giản hóa cuộc sống hàng ngày của bạn bằng cách loại bỏ nhu cầu ghi nhớ nhiều mật khẩu và giảm thiểu điểm yếu xác thực chính: chính người dùng.
 
@@ -6047,13 +6047,13 @@ Khi nói đến xác thực, việc sử dụng trình quản lý mật khẩu p
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Sử dụng VPN
 
@@ -6087,11 +6087,11 @@ Một VPN tốt nên có chính sách không ghi nhật ký rõ ràng, cung cấ
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Nên tránh các VPN nổi tiếng. Mặc dù được tiếp thị rầm rộ, chúng vẫn là các dịch vụ thương mại tập trung, thường đặt tại các khu vực pháp lý ít được bảo vệ hơn và hiếm khi minh bạch về hoạt động kỹ thuật thực tế của mình.
 
@@ -6308,7 +6308,7 @@ Mục đích rất đơn giản: ngăn chặn sự cố liên quan đến một 
 
 
 
-- **Sử dụng container tích hợp**: Firefox cung cấp tiện ích mở rộng [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), cho phép bạn mở các tab riêng biệt, mỗi tab có thông tin đăng nhập và cookie riêng. Bạn cũng có thể tự động gán một số trang web nhất định vào một container cụ thể để giữ chúng tách biệt mỗi khi mở.
+- **Sử dụng container tích hợp**: Firefox cung cấp tiện ích mở rộng [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), cho phép bạn mở các tab riêng biệt, mỗi tab có thông tin đăng nhập và cookie riêng. Bạn cũng có thể tự động gán một số trang web nhất định vào một container cụ thể để giữ chúng tách biệt mỗi khi mở.
 
 
 
@@ -6626,7 +6626,7 @@ GrapheneOS không tích hợp bất kỳ thành phần độc quyền nào. Bạ
 Graphene chỉ tương thích với các mẫu Google Pixel mới nhất (Pixel 6, 7, 8 và 9).
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6842,11 +6842,11 @@ Mạng Wi-Fi công cộng, chẳng hạn như ở quán cà phê, khách sạn h
 Để bảo vệ bản thân, chỉ cần tránh sử dụng các mạng công cộng này hoặc sử dụng VPN, dịch vụ này sẽ tạo một đường hầm được mã hóa giữa thiết bị của bạn và máy chủ từ xa. Đường hầm này sẽ đóng gói dữ liệu của bạn, khiến việc đánh cắp hoặc sửa đổi trở nên cực kỳ khó khăn.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Đối với mạng Wi-Fi tại nhà, chúng ta sẽ nói về điều đó trong phần cuối của khóa học SCU 202.
 
@@ -6921,7 +6921,7 @@ Việc sao lưu dữ liệu điện thoại thông minh thường xuyên rất q
 Để đạt được điều này, bạn nên sử dụng các giải pháp cục bộ được mã hóa, chẳng hạn như ổ đĩa ngoài hoặc khóa USB được mã hóa (ví dụ: với Veracrypt). Nếu không, các giải pháp đám mây tự lưu trữ như *Syncthing* hoặc *Nextcloud* cho phép bạn sao lưu dữ liệu trên máy chủ cá nhân, đồng thời vẫn giữ được toàn quyền kiểm soát quyền truy cập và tính bảo mật. Không giống như các dịch vụ đám mây thương mại (Google Drive, iCloud...), các giải pháp này hạn chế đáng kể việc thông tin của bạn bị tiết lộ cho bên thứ ba.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Xóa từ xa
 
@@ -7019,7 +7019,7 @@ Tuy nhiên, Signal có một điểm yếu về tính ẩn danh: ứng dụng y�
 Tóm lại, Signal là một giải pháp nhắn tin rất tốt, nhưng tiếc là nó yêu cầu phải kết nối từ số điện thoại.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7042,7 +7042,7 @@ Telegram là một dịch vụ nhắn tin rất phổ biến nhờ tính tiện 
 Do đó, về mặt kỹ thuật, Telegram có thể truy cập nội dung của phần lớn các cuộc trò chuyện không được bảo vệ rõ ràng. Ngay cả khi công ty có lập trường cứng rắn đối với các cơ quan chính phủ, Telegram vẫn không phải là giải pháp tối ưu cho các trao đổi bí mật hoặc nhạy cảm, trừ khi bạn sử dụng rõ ràng "trao đổi bí mật" của họ, vốn kém thực tế hơn nhiều trong cuộc sống hàng ngày.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7065,7 +7065,7 @@ Một khía cạnh quan trọng khác của Threema là mô hình kinh doanh: �
 Tôi nghĩ giải pháp nhắn tin này rất tuyệt vời, nhưng nhược điểm chính của nó là mã nguồn cho máy chủ vẫn là độc quyền.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### Trò chuyện SimpleX
 
@@ -7088,7 +7088,7 @@ Danh bạ được thêm thông qua liên kết tạm thời hoặc địa chỉ
 Về mặt bảo mật và bảo mật, SimpleX vượt trội hơn hầu hết các hệ thống nhắn tin hiện có, hạn chế tối đa siêu dữ liệu và loại bỏ mọi sự phụ thuộc vào thư mục trung tâm hoặc mã định danh duy nhất. Tuy nhiên, kiến trúc này cũng đặt ra một số hạn chế về tính thân thiện với người dùng: đôi khi kém trực quan, cần có một chút thời gian làm quen ban đầu và phụ thuộc vào tính khả dụng của máy chủ chuyển tiếp.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### Phiên họp
 
@@ -7105,7 +7105,7 @@ Về mặt kỹ thuật, Session triển khai mã hóa đầu cuối cho tin nh�
 Máy khách và máy chủ Session là mã nguồn mở. Phần mềm có sẵn trên Android, iOS, Windows, macOS và Linux, với tùy chọn đồng bộ hóa giữa các thiết bị thông qua cụm từ Mnemonic tương tự như cụm từ được sử dụng trong ví Bitcoin. Cụm từ này trao cho người dùng quyền kiểm soát độc quyền đối với dữ liệu của mình, nhưng cũng đặt ra trách nhiệm đáng kể về mặt sao lưu.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
@@ -7125,7 +7125,7 @@ Mặt khác, mặc dù một số thành phần (mã hóa và mạng) được c
 Keet có sẵn trên Android, iOS, Windows, macOS và Linux và có thể đồng bộ hóa giữa các thiết bị bằng cụm từ Mnemonic.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -7162,7 +7162,7 @@ Olvid cung cấp hai phiên bản:
 Olvid tương thích với Android, iOS, Windows, macOS và Linux. Thiết kế công thái học của ứng dụng vẫn đơn giản và dễ sử dụng. Ứng dụng cũng có hệ thống sao lưu được mã hóa cho khóa và danh bạ, giúp bạn có thể khôi phục tài khoản trên thiết bị mới.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Các ứng dụng nhắn tin cần tránh
 
@@ -7260,7 +7260,7 @@ Thunderbird Mobile là phiên bản di động của ứng dụng email mã ngu�
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7502,7 +7502,7 @@ Bitwarden là một trong những trình quản lý mật khẩu nguồn mở to
 Bạn có thể sử dụng máy chủ của Bitwarden hoặc tự lưu trữ nếu muốn để kiểm soát toàn diện. Thiết bị di động Interface của Bitwarden có giao diện rõ ràng và mượt mà, tích hợp liền mạch với hệ điều hành Android hoặc iOS.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7517,7 +7517,7 @@ KeePass là trình quản lý mật khẩu lịch sử dựa trên các tệp c�
 Ngoài ra còn có [KeePassium](https://keepassium.com/) dành cho iOS, một ứng dụng tích hợp tốt trong hệ sinh thái Apple, tương thích với định dạng KeePass và là mã nguồn mở. Một lựa chọn thay thế khác cho KeePass trên iOS là Strongbox, nhưng phần mềm này đã không còn là mã nguồn mở trong nhiều năm.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Proton Pass](https://proton.me/pass)
@@ -7548,7 +7548,7 @@ Tuy nhiên, không phải tất cả VPN đều được tạo ra như nhau. Cá
 Mullvad là một trong những VPN tốt nhất về bảo vệ quyền riêng tư. Không yêu cầu email hay mật khẩu: Tài khoản của bạn được liên kết với một số ngẫu nhiên đơn giản. Bạn có thể thanh toán bằng bitcoin hoặc tiền mặt. Ứng dụng di động Mullvad là mã nguồn mở, dễ sử dụng và mạnh mẽ. Mullvad không lưu trữ nhật ký, không theo dõi người dùng và thường xuyên công bố các báo cáo kiểm tra bảo mật độc lập.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7557,7 +7557,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN là một giải pháp thay thế tuyệt vời khác tập trung vào quyền riêng tư. Nó cung cấp một Interface di động đơn giản và hiệu quả, không thu thập nhật ký và cho phép đăng ký ẩn danh. Bạn cũng có thể thanh toán bằng bitcoin. Ứng dụng tích hợp tường lửa chặn mọi lưu lượng truy cập không phải VPN, rất hữu ích trên điện thoại thông minh. Các máy khách đều là mã nguồn mở.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN](https://protonvpn.com/)
@@ -7595,7 +7595,7 @@ Aegis là một ứng dụng mã nguồn mở toàn diện. Ứng dụng này m�
 Ente Auth là một giải pháp hiện đại, mã nguồn mở, đa nền tảng với các bản sao lưu được mã hóa đầu cuối. Giải pháp này cho phép bạn đồng bộ hóa mã 2FA một cách an toàn trên thiết bị di động, máy tính để bàn và web. Bạn cũng có thể sử dụng ngoại tuyến, không cần sao lưu đám mây hoặc tạo tài khoản.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth cung cấp nhiều tính năng bổ sung: Sắp xếp theo thẻ, biểu tượng tùy chỉnh cho từng dịch vụ, ghi chú, mục yêu thích, tìm kiếm tích hợp, chia sẻ mã nhóm an toàn.
 
 
@@ -7609,13 +7609,13 @@ Ente Auth cung cấp nhiều tính năng bổ sung: Sắp xếp theo thẻ, bi�
 Authy cung cấp tính năng đồng bộ hóa 2FA trên nhiều thiết bị, rất tiện lợi, nhưng ứng dụng này không phải là mã nguồn mở và yêu cầu số điện thoại để đăng ký. Tuy nhiên, đối với người mới bắt đầu, Authy hoàn thiện hơn Google Authenticator, đặc biệt là nhờ chức năng sao lưu đám mây.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Nếu bạn muốn tìm hiểu thêm về trình quản lý mật khẩu, xác thực 2FA và VPN, tôi khuyên bạn nên đọc các chương chuyên sâu trong khóa học SCU-101:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Thời tiết
 
@@ -8267,7 +8267,7 @@ Như chúng ta đã khám phá ở chương trước, việc bảo mật mạng 
 Sau khi xem xét những kiến thức cơ bản về lý thuyết, chương này sẽ hướng dẫn bạn các bước rõ ràng, thiết thực và hiệu quả để tăng cường bảo mật cho mạng cục bộ của bạn.
 
 
-*Xin lưu ý: Thông tin được cung cấp ở đây chỉ mang tính chung chung, vì Plan ₿ Network hướng đến đối tượng khách hàng quốc tế. Tùy thuộc vào hoàn cảnh địa phương và nhà cung cấp dịch vụ Internet (ISP) của bạn, một số phương pháp tối ưu nhất có thể không được đề cập ở đây hoặc có thể áp dụng theo cách khác.*
+*Xin lưu ý: Thông tin được cung cấp ở đây chỉ mang tính chung chung, vì Plan ₿ Academy hướng đến đối tượng khách hàng quốc tế. Tùy thuộc vào hoàn cảnh địa phương và nhà cung cấp dịch vụ Internet (ISP) của bạn, một số phương pháp tối ưu nhất có thể không được đề cập ở đây hoặc có thể áp dụng theo cách khác.*
 
 
 ### Lựa chọn và bảo mật thiết bị mạng của bạn
@@ -8305,9 +8305,9 @@ Nếu router của bạn không còn được duy trì nhưng vẫn hoạt độ
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Các hệ thống này cho phép kiểm soát tốt hơn các quy tắc tường lửa, kết nối đi và đến, phân đoạn mạng (VLAN) và quản lý DNS, nhưng hướng đến người dùng nâng cao hơn.
 
@@ -8344,9 +8344,9 @@ Do đó, điều bắt buộc là bạn phải thay đổi mã định danh ngay
 Mật khẩu này phải dài (40 ký tự), phức tạp (bao gồm số, chữ thường, chữ hoa và ký hiệu), duy nhất (không được sử dụng lại ở nơi khác) và ngẫu nhiên. Tôi khuyến nghị bạn nên sử dụng trình quản lý mật khẩu cho generate và lưu trữ thông tin đăng nhập này một cách an toàn.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Cảnh báo: đừng nhầm lẫn mật khẩu quản trị của bộ định tuyến (bảo vệ quyền truy cập vào cấu hình của bộ định tuyến) với mật khẩu Wi-Fi (cho phép bạn kết nối với mạng không dây). Đây là hai Elements khác nhau và cả hai đều cần được thay đổi.
 
@@ -8384,7 +8384,7 @@ Ban đầu được thiết kế để đơn giản hóa việc kết nối thi�
 Một số bộ định tuyến cho phép bạn kết nối với bộ quản trị Interface từ bên ngoài, thông qua Internet. Tính năng này làm tăng đáng kể nguy cơ tấn công vào bộ định tuyến của bạn. Hãy tắt hoàn toàn tính năng này, trừ khi bạn có nhu cầu cụ thể về quản lý từ xa. Ngay cả khi đó, hãy luôn sử dụng VPN.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - **Giao thức lỗi thời hoặc không an toàn**:
@@ -8505,7 +8505,7 @@ Trên thực tế, mã hóa DNS và chuyển đổi máy chủ có thể đượ
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Ở cấp độ hệ điều hành: Một số hệ điều hành tích hợp sẵn hỗ trợ DNS được mã hóa (DoT hoặc DoH), giúp bảo mật tất cả các yêu cầu DNS đi qua ngăn xếp mạng của hệ thống. Tuy nhiên, điều này không bảo mật toàn bộ máy tính hoặc điện thoại: Các ứng dụng có thể bỏ qua cài đặt này nếu chúng được cấu hình để sử dụng trình phân giải DNS hoặc giao thức khác.
 
 
@@ -8520,7 +8520,7 @@ Ngoài ra, bộ định tuyến modem do ISP cung cấp không phải lúc nào 
 Để tiến xa hơn nữa, bạn cũng có thể thiết lập giải pháp lọc DNS cục bộ như Pi-hole hoặc AdGuard Home.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Các công cụ này hoạt động như một máy chủ DNS nhỏ bên trong mạng của bạn, chặn các yêu cầu đến các tên miền được biết là lưu trữ quảng cáo, trình theo dõi trình duyệt, lừa đảo hoặc các trang web độc hại. Các công cụ này cũng cho phép bạn tạo danh sách chặn của riêng mình hoặc tùy chỉnh bộ lọc theo các thiết bị được kết nối.
 
@@ -8541,19 +8541,19 @@ Hai giải pháp chính dành cho khách hàng cá nhân là:
 - WireGuard: Hiện đại, nhanh và nhẹ
 - OpenVPN: Cũ hơn nhưng rất hoàn thiện và có thể cấu hình được
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Sau đây là hướng dẫn đầy đủ về Tailscale, một giải pháp VPN dễ cấu hình sử dụng WireGuard:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Bạn có thể lưu trữ VPN này trực tiếp trên bộ định tuyến tương thích, trên máy tính nhỏ (như Raspberry Pi) hoặc trên máy chủ chuyên dụng tại nhà. Bạn cũng có thể cài đặt nó dưới dạng máy khách trực tiếp trên bất kỳ thiết bị nào.
 
 Nhưng VPN không chỉ dành cho truy cập từ xa. Bạn cũng có thể sử dụng máy khách VPN cổ điển trên thiết bị của mình để mã hóa toàn bộ lưu lượng truy cập ra, ngay cả khi bạn đang ở xa nhà (Wi-Fi công cộng, khách sạn, trường đại học, v.v.). Trong trường hợp này, thiết bị của bạn sẽ kết nối với máy chủ VPN của bên thứ ba (thương mại hoặc tự lưu trữ), sau đó chuyển tiếp kết nối của bạn lên Internet. Điều này sẽ ẩn địa chỉ IP thực Address của bạn khỏi ISP, bảo vệ dữ liệu của bạn khỏi bị theo dõi cục bộ và tránh một số hình thức kiểm duyệt.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 Cuối cùng, bạn cũng có thể thiết lập VPN trực tiếp trên bộ định tuyến, cho phép bạn bảo vệ tất cả các thiết bị trong nhà mà không cần phải cài đặt ứng dụng VPN trên từng thiết bị.
 
@@ -8563,17 +8563,17 @@ Sau khi mạng của bạn đã được cấu hình và phân đoạn đúng c�
 
 Bước đầu tiên là tập trung hóa nhật ký bảo mật. Mỗi thiết bị được kết nối với mạng đều tạo ra nhật ký chứa thông tin về kết nối, lỗi hoặc hoạt động đáng ngờ. Thay vì xem từng nhật ký riêng lẻ, tôi khuyên bạn nên gửi chúng đến một máy chủ có khả năng nhóm, sắp xếp và phân tích. Các giải pháp như Graylog hoặc Elastic Stack (ELK) cho phép bạn tổng hợp các nhật ký này thành một giao diện đồ họa Interface, nơi bạn có thể tìm kiếm các sự kiện cụ thể, tạo cảnh báo hoặc trực quan hóa hoạt động mạng.
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Tiếp theo, hãy thường xuyên quét mạng cục bộ của bạn, ví dụ như bằng Nmap. Thao tác này sẽ cung cấp cho bạn cái nhìn tổng quan về tất cả các thiết bị trong mạng và các cổng mà chúng đã mở. Nếu bạn phát hiện một thiết bị không xác định hoặc một dịch vụ bất thường, đây có thể là dấu hiệu của một cuộc tấn công.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Để tiến xa hơn nữa, bạn có thể cài đặt IDS (Hệ thống Phát hiện Xâm nhập) hoặc thậm chí IPS (Hệ thống Phòng chống Xâm nhập). Các công cụ này, chẳng hạn như Suricata hoặc Snort, giám sát luồng mạng theo thời gian thực và phát hiện dấu hiệu của các cuộc tấn công đã biết (quét cổng, chèn mã độc, kết nối đáng ngờ, v.v.). IDS sẽ cảnh báo, trong khi IPS có thể tự động chặn một số hành động nhất định.
 
 Cuối cùng, việc theo dõi mức tiêu thụ băng thông cũng là một chỉ báo tốt về hoạt động bất thường. Nếu một thiết bị đột nhiên tiêu thụ nhiều dữ liệu mà không có lý do rõ ràng, điều này có thể cho thấy một hoạt động tải xuống trái phép, rò rỉ dữ liệu, hoặc thậm chí là một thiết bị bị xâm nhập. Các công cụ như ntopng hoặc vnStat cho phép bạn xem các luồng dữ liệu đến và đi theo từng thiết bị.
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Sao lưu và phục hồi
 

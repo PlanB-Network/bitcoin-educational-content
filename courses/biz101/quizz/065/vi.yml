@@ -1,9 +1,9 @@
-question: What is the primary payment solution recommended for Essential profile businesses?
+question: Giải pháp thanh toán chính được khuyến nghị cho các doanh nghiệp sử dụng hồ sơ Essential là gì?
 answer: Swiss Bitcoin Pay
 wrong_answers:
-  - Open Node
-  - BTCPay Server
+  - Nút mở
+  - Máy chủ BTCPay
   - Bitcoinize PoS
 explanation: |
-  We highlights Swiss Bitcoin Pay as the recommended solution for an Essential profile, balancing simplicity and security.
-reviewed: false
+  Chúng tôi nhấn mạnh Swiss Bitcoin Pay là giải pháp được đề xuất cho hồ sơ Essential, cân bằng giữa tính đơn giản và tính bảo mật.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Milline Bitcoin põhiline omadus on kadunud eestkostel?
+answer: Rahaline suveräänsus
+wrong_answers:
+  - Rahaline skaleeritavus
+  - Kiire makse
+  - Rahaline koostalitlusvõime
+explanation: |
+  Ilma võtmekontrollita loobub kasutaja rahapoliitilisest suveräänsusest, mis on Bitcoin keskne tugisammas.
+reviewed: false

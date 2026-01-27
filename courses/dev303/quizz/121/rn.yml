@@ -1,0 +1,8 @@
+question: Ni ubuhe buryo nyamukuru ubuhinga bwa zero-channel reserves bwa Breez SDK bukoresha mu gutuma habaho ingorane z’inyongera zitegerezwa gufatwa n’Abatanga Serivisi z’Imiravyo?
+answer: LSPs zitegerezwa kwemera ingorane z’abakoresha zo gukoresha uburinganire bwabo bwose bw’imirongo, zigakuraho uburinzi bw’umutekano busanzwe burinda gufunga inguvu z’imirongo .
+wrong_answers:
+  - LSPs zica zijejwe kubungabunga uguhuza kw'imirongo y'urubuga ku bikoresho vyinshi vy'abakoresha ata ndishi y'amahera ashingiye ku bubiko bwa kera
+  - LSPs zitegerezwa gutanga uburenganzira bwo kwishura ubwo nyene ata n'umusego w'amahera utanga kugira ngo ushobore guhangana n'ibibazo vy'uguhagarara kw'urubuga
+  - LSPs zifata uruhara ku kunanirwa kw’uguhindura on-chain igihe abakoresha bagerageza guhindura umubare wabo wose wa Lightning ukawugira Bitcoin mu bihe vy’amahera menshi
+explanation: |
+  Zero-channel reserves zituma abakoresha bashobora gukoresha amahera yabo yose yerekanwa, ariko ivyo bikuraho uburinzi bwa kera burinda Abatanga Serivisi z’Imiravyo mu gihe imirongo ipfutse. Ivy’ububiko bw’imirongo mu bisanzwe bituma amahera amwamwe aguma yugarijwe kugira ngo ashobore kwishura amahera yo gufunga no gutanga umutekano ku nyifato mbi. Mu gukuraho izo nzira z’ububiko kugira ngo abakoresha bashobore kumenya neza, amashirahamwe y’ubuhinga bwa none (LSPs) ategerezwa gufata ingorane z’inyongera z’ibikorwa n’ivy’amahera izo nzira z’ububiko zagenewe kugabanya, bikaba bigereranya uguhuza gutomoye aho ubuhinga n’ingorane biva ku bakoresha bikaja ku batanga ibikorwa.

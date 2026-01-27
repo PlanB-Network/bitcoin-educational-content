@@ -14,7 +14,7 @@ description: 下载 Android 应用程序的 Play Store 免费替代软件
 
 
 
-# 开始使用极光商店
+## 开始使用极光商店
 
 
 
@@ -44,13 +44,13 @@ Aurora Store 是安卓平台上 Google Play Store 之外最受欢迎的替代应
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 不过，我们建议直接从官方网站下载 APK 文件，以确保极光商店的真实性和完整性。
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 APK（安卓软件包）文件是安卓操作系统用于分发和安装应用程序的软件包格式。它相当于 Windows 上的**.exe**文件或 macOS 上的**.dmg**文件。
 
@@ -88,7 +88,7 @@ APK（安卓软件包）文件是安卓操作系统用于分发和安装应用�
 
 
 
-## 特点
+### 特点
 
 
 
@@ -155,4 +155,4 @@ Aurora Store 不仅仅是一个应用程序商店，它还是一个开源解决�
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

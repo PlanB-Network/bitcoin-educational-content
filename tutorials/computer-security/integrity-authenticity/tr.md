@@ -70,7 +70,7 @@ Başlamak için çeşitli belgelere ihtiyacımız olacak. "*Download*" bölümü
 ![GnuPG](assets/notext/02.webp)
 
 
-Ayrıca [projenin GitHub deposuna] (https://github.com/sparrowwallet/Sparrow/releases) da gidebilirsiniz.
+Ayrıca [projenin GitHub deposuna](https://github.com/sparrowwallet/Sparrow/releases) da gidebilirsiniz.
 
 
 ![GnuPG](assets/notext/03.webp)
@@ -234,4 +234,4 @@ Eğer bu yazıyı faydalı bulduysanız, aşağıda beğeninizi belirtmenizden m
 Ayrıca depolama aygıtlarını şifrelemenize ve şifrelerini çözmenize olanak tanıyan bir yazılım olan VeraCrypt hakkındaki bu diğer eğitime de göz atmanızı tavsiye ederim.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

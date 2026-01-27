@@ -1,0 +1,8 @@
+question: Když makro používá ve své definici vzor `$($x:expr),*`, čeho tento vzor dosahuje?
+answer: Shoduje se s nulou nebo více výrazy oddělenými čárkami, což umožňuje vytvářet seznamy argumentů s proměnnou délkou
+wrong_answers:
+  - Odpovídá přesně jednomu výrazu a opakuje expanzi makra vícekrát
+  - Při generování kódu odpovídá libovolnému počtu definic typů oddělených středníky
+  - Vytvoří smyčku, která za běhu provede makro s různými hodnotami výrazů
+explanation: |
+  Vzor `$($x:expr),*` používá syntaxi opakování maker Rust, kde kvantifikátor `*` znamená 'nula nebo více', `$x:expr` zachycuje každý výraz a čárka určuje oddělovač mezi výrazy. To umožňuje makrům jako `vec!` přijímat libovolný počet argumentů: `vec![1, 2, 3]` nebo `vec![]`. Ostatní možnosti jsou nesprávné, protože: vzor zpracovává více výrazů, nikoli pouze jeden, specificky odpovídá výrazům, nikoli definicím typů, a používá čárky, nikoli středníky, a makra se provádějí v době kompilace při generování kódu, nikoli za běhu.

@@ -77,8 +77,8 @@ Debian предлагает несколько окружений рабочег
 
 
 
-- **AMD64**: загрузите "живое гибридное" издание из списка [download] (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- **ARM64**: получите образ DVD с официального сайта [Debian] (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
+- **AMD64**: загрузите "живое гибридное" издание из списка [download](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: получите образ DVD с официального сайта [Debian](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
 - **Другие архитектуры**: найдите ISO, соответствующий вашей архитектуре [здесь](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
@@ -426,7 +426,7 @@ sudo apt install ./name.deb
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 Теперь ваша система Debian установлена и готова к использованию для выполнения повседневных задач.
 
@@ -443,4 +443,4 @@ https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

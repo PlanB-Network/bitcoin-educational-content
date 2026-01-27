@@ -13,7 +13,7 @@ objectives:
 
 In this course, we will explain the basics of Bitcoin in 25 chapters, so that you can understand this technology in a simple and effective way. The course explores the basics of the industry as a whole, including topics like mining, wallets, buying/selling platforms, and more. Additional educational material will be available throughout the journey, and we also invite you to check the "21 Posters" in the resources section after you finish this course.
 
-You don't need any specific knowledge to get started. In fact, the following content is accessible to students of all levels, and it should take approximately 15 hours to finish.
+No prior knowledge is required to begin this course. BTC 101 was designed to be accessible to everyone, regardless of your level of experience.
 
 +++
 
@@ -29,7 +29,7 @@ Welcome to the BTC101 course!
 
 Bitcoin is a technological and a monetary revolution, capable of making us question our relationship with money and society. In fact, Bitcoin (referred to as BTC) is a **neutral** and **decentralized** currency, which means that it is not controlled by any entity or institution. It is an innovation that goes beyond a mere "internet currency": it is both a computer protocol (Bitcoin) and a monetary unit (bitcoin).
 
-The Bitcoin protocol uses underlying technologies such as cryptography, network communication, and the famous "blockchain", while the bitcoin unit serves as the necessary currency for the proper functioning of this protocol. In everyday life, Salvadorians and bitcoiners around the world use the bitcoin currency to buy and sell goods and services, relying on this technology to make their lives better.
+The Bitcoin protocol uses underlying technologies such as cryptography, network communication, and the famous "[blockchain](https://planb.academy/resources/glossary/blockchain)", while the bitcoin unit serves as the necessary currency for the proper functioning of this protocol. In everyday life, Salvadorians and bitcoiners around the world use the bitcoin currency to buy and sell goods and services, relying on this technology to make their lives better.
 
 **A comprehensive yet accessible curriculum:**
 
@@ -38,40 +38,6 @@ In this course, we will discuss some monetary aspects of Bitcoin, including how 
 ![image](assets/en/001.webp)
 
 It is essential to understand that Bitcoin is a new monetary system that completely changes our relationship with money, so learning how to use it is a necessary skill for anyone who wants to be in control of their own funds.
-
-**Section 1 - Introduction**  
-- Chapter 1 - Course Overview  
-- Chapter 2 - The Prehistory of Bitcoin  
-
-**Section 2 - Money**  
-- Chapter 3 - Money Throughout History  
-- Chapter 4 - Fiat Currencies  
-- Chapter 5 - Hyperinflation  
-- Chapter 6 - 21 Million Bitcoins  
-
-**Section 3 - Bitcoin Wallets**  
-- Chapter 7 - What is a Bitcoin Wallet?  
-- Chapter 8 - Bitcoin Wallets and Security  
-- Chapter 9 - Setting Up a Wallet  
-- Chapter 10 - Standing the Test of Time  
-
-**Section 4 - The Technical Aspects of Bitcoin**  
-- Chapter 11 - Launching Bitcoin  
-- Chapter 12 - Bitcoin Transactions  
-- Chapter 13 - Bitcoin Nodes  
-- Chapter 14 - Miners  
-- Chapter 15 - Bitcoin and Ecology  
-
-**Section 5 - How to Obtain Bitcoins?**  
-- Chapter 16 - Bitcoin Never Sleeps!  
-- Chapter 17 - Earning Bitcoins Through Work  
-- Chapter 18 - Saving with Bitcoin  
-- Chapter 19 - Hyperbitcoinization  
-
-**Section 6 - The Future of Bitcoin: The Lightning Network**  
-- Chapter 20 - A Brief Introduction to the Lightning Network  
-- Chapter 21 - Lightning Network Use Cases  
-- Chapter 22 - Red Pill or Blue Pill?  
 
 Before introducing the definition of money and its function in society (Chapter 1), we should start from the genesis of Bitcoin. Launched in 2009, Bitcoin is a relatively new technology unlike anything else. It is therefore normal not to understand everything about it, all at once. In fact, just like when learning how to use the Internet or to drive a car, you don’t need to know all the technical details right away: you can start by learning how to receive, pay, and secure your funds, and then take small steps to study it more deeply.
 
@@ -83,7 +49,6 @@ The important point here is to understand this new technology in a general way, 
 
 Ready to dive into the fascinating world of Bitcoin and understand all its inner workings? Let's go!
 
-**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.network/resources/glossary) for definitions.
 
 ## The Prehistory of Bitcoin
 
@@ -105,13 +70,16 @@ Iconic figures such as Julian Assange, Wei Dai, Tim May, and David Chaum played 
 The cypherpunk movement, deeply rooted in digital activism and cryptography, drew upon several foundational texts to articulate its principles and vision for the future. Among these writings, three stand out in particular:
 
 - "A Cypherpunk's Manifesto":
-  written by Eric Hughes in 1993, asserts that privacy is a fundamental right. The author argues that the ability to communicate freely and confidentially is essential for a free society. The manifesto states: "We cannot expect governments, corporations, or other large, faceless organizations to grant us privacy [...]. We must defend our own privacy if we expect to have any".
+
+written by Eric Hughes in 1993, asserts that privacy is a fundamental right. The author argues that the ability to communicate freely and confidentially is essential for a free society. The manifesto states: "We cannot expect governments, corporations, or other large, faceless organizations to grant us privacy [...]. We must defend our own privacy if we expect to have any".
 
 - "The Crypto Anarchist Manifesto":
-  written by Timothy C. May in 1992, this document explains how the use of cryptography could lead to an era of cryptographic anarchy where governments would be powerless to interfere in the private affairs of citizens. May envisioned a future where people anonymously exchange information and money without the intervention of a third party.
+
+written by Timothy C. May in 1992, this document explains how the use of cryptography could lead to an era of cryptographic anarchy where governments would be powerless to interfere in the private affairs of citizens. May envisioned a future where people anonymously exchange information and money without the intervention of a third party.
 
 - "A Declaration of the Independence of Cyberspace":
-  although not exclusively cypherpunk, this text reflects the sentiments of many participants in the movement. Written in 1996 by John Perry Barlow, it is a response to the increasing regulation of the Internet by governments. The declaration asserts that cyberspace is a distinct realm from the physical sphere and should not be subject to the same laws. As it states, "We have no elected government, nor are we likely to have one".
+
+although not exclusively cypherpunk, this text reflects the sentiments of many participants in the movement. Written in 1996 by John Perry Barlow, it is a response to the increasing regulation of the Internet by governments. The declaration asserts that cyberspace is a distinct realm from the physical sphere and should not be subject to the same laws. As it states, "We have no elected government, nor are we likely to have one".
 
 ### The predecessors of Bitcoin
 
@@ -123,7 +91,7 @@ The image below clearly illustrates the development of the movement through its 
 
 ![image](assets/en/005.webp)
 
-It was in this fertile environment that the mysterious Satoshi Nakamoto published the Bitcoin whitepaper in 2008. In this document, he combined several ideas from the cypherpunk movement, such as proof of work and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
+It was in this fertile environment that the mysterious Satoshi Nakamoto published the Bitcoin whitepaper in 2008. In this document, he combined several ideas from the cypherpunk movement, such as [proof of work](https://planb.academy/resources/glossary/proof-of-work) and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
 
 However, Bitcoin was more than just that: it represented the achievement of the cypherpunk ideals. Beyond its technology, it symbolized a revolution against traditional financial systems and offered an alternative based on transparency, decentralization, and individual sovereignty.
 
@@ -137,7 +105,7 @@ However, is Bitcoin a "real" currency? To understand this, we first need to unde
 
 If you want to explore Bitcoin's history in more details, we highly recommend our HIS 201 course, where you will discover the origins and the slow emergence of Bitcoin, as well as the beginnings of its history and community. This course is fully documented and sourced, with, of course, many anecdotes:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Money
 
@@ -200,7 +168,7 @@ In order to meet these criteria, currency has historically evolved by taking dif
 
 Currencies are still evolving to this day, adapting their forms to meet different use cases. As we said, while gold is an excellent store of value, it is no longer suitable for the current globalized economy. Similarly, fiduciary currencies such as the dollar and the euro are very liquid and easily transportable because they are now mostly digital, but their value is constantly lowered by monetary inflation.
 
-On the other hand, Bitcoin presents new possibilities. Its properties, such as the strictly limited supply, make it an excellent store of value. Moreover, as a neutral internet currency, it serves as a viable **medium of exchange** that transcends borders. However, it is still not widely accepted in commerce today, despite its [constant adoption](https://btcmap.org/map).
+On the other hand, Bitcoin opens up new perspectives. Its properties, notably a strictly limited supply, make it an excellent store of value. Likewise, as a neutral internet currency, it constitutes a viable **medium of exchange**, capable of transcending borders. However, despite ongoing adoption (as illustrated by [the BTCmap map](https://btcmap.org/map)), it is not yet widely accepted in commerce today.
 
 ## Fiduciary currencies
 
@@ -256,13 +224,13 @@ We can conclude this chapter with the quote from the Nobel Prize winner F.A Haye
 
 To learn more about economic fallacies and freedom, we invite you to discover our ECO 102 course, which traces the life and ideas of Frédéric Bastiat, a 19th-century French thinker who would surely have appreciated the emergence of Bitcoin:
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hyperinflation
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
-Hyperinflation is a monetary phenomenon that is specific to fiat currencies: it is charterized by a complete loss of confidence in a currency and a drastic increase in inflation due to monetary printing by authorities. As a result, the savings accumulated by individuals can dissipate in a relatively short period of time, pushing the country on the brink of economic, social, and political collapse.
+Hyperinflation is a monetary phenomenon that is specific to fiat currencies: it is characterized by a complete loss of confidence in a currency and a drastic increase in inflation due to monetary printing by authorities. As a result, the savings accumulated by individuals can dissipate in a relatively short period of time, pushing the country on the brink of economic, social, and political collapse.
 
 ### Inflation running wild!
 
@@ -343,7 +311,7 @@ A currency that relies on a trusted third party like a financial institution is,
 
 To delve deeper into the subject of hyperinflation, we recommend David St-Onge's ECO 204 course, where you will learn what hyperinflationary cycles are and their real impacts on our lives. You will also discover the similarities between these cycles and, most importantly, how to protect yourself from them.
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 million bitcoins
 
@@ -363,7 +331,7 @@ The creation of new bitcoins is the result of the mining process. In a nutshell,
 
 ![image](assets/en/022.webp)
 
-After successfully performing this task, miners get rewarded with the issuance of new bitcoins every ten minutes. This reward is programmed to halve every 210,000 blocks, which is approximately every four years (an event known as "halving"), giving the monetary issuance curve a stair-like shape. Due to this mechanism, it can be mathematically predicted that the creation of new bitcoins will cease arount the year 2140, when the total number reaches its limit of 21 million.
+After successfully performing this task, miners get rewarded with the issuance of new bitcoins every ten minutes. This reward is programmed to halve every 210,000 blocks, which is approximately every four years (an event known as "[halving](https://planb.academy/resources/glossary/halving)"), giving the monetary issuance curve a stair-like shape. Due to this mechanism, it can be mathematically predicted that the creation of new bitcoins will cease arount the year 2140, when the total number reaches its limit of 21 million.
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -388,7 +356,7 @@ After successfully performing this task, miners get rewarded with the issuance o
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-We will revisit the concept of mining in more details in the [miner chapter](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+We will revisit the concept of mining in more details in the [miner chapter](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Guaranteeing digital scarcity
 
@@ -416,7 +384,7 @@ The idea of devaluing the currency goes against the fundamental philosophy of Bi
 
 The scarcity of Bitcoin is a major asset, and the maximum quantity of 21 million bitcoins in circulation is public and verifiable by anyone.
 
-In fact, anyone can do this through a Bitcoin node (i.e. a transaction validator) by simply entering the following command: `bitcoin-cli gettxoutsetinfo`. This transparency strengthens trust in the Bitcoin system, which is not based on central institutions or individuals, but rather on the mathematical and cryptographic guarantees inherent in its protocol (You will learn how to do this easily in LNP201).
+In fact, anyone can do this through a Bitcoin [node](https://planb.academy/resources/glossary/node) (i.e. a transaction validator) by simply entering the following command: `bitcoin-cli gettxoutsetinfo`. This transparency strengthens trust in the Bitcoin system, which is not based on central institutions or individuals, but rather on the mathematical and cryptographic guarantees inherent in its protocol (You will learn how to do this easily in LNP201).
 
 ```json
 {
@@ -468,7 +436,7 @@ Whether it's your Bitcoin "banker" or yourself, the vast majority of Bitcoin wal
 
   When initializing a wallet, a secret recovery phrase, also known as a mnemonic phrase (private key), is generated and presented to you in the form of 12 or 24 words.
 
-  The private key is fundamental because it constitutes the ownership of the bitcoins and therefore the right to use or send them. Therefore, the holder of the private key is the true owner of the bitcoins. As the popularized statement goes, “Not your keys, not your coins.”
+  The [private key](https://planb.academy/resources/glossary/private-key) is fundamental because it constitutes the ownership of the bitcoins and therefore the right to use or send them. Therefore, the holder of the private key is the true owner of the bitcoins. As the popularized statement goes, “Not your keys, not your coins.”
 
   This key must be kept secret and well protected, as it unlocks your fortune!
 
@@ -498,11 +466,11 @@ What if someone accidentally guesses our list of 12 or 24 words? The short answe
 
 Thus, the probability of hacking your Bitcoin wallet is astronomically low if you follow the good security practices that we will detail in the next section.
 
-Keep in mind to choose the right wallet for your needs and usage: detailed tutorials on managing and securing different wallets are available in the [tutorial section of our university](https://planb.network/tutorials/wallet).
+Keep in mind to choose the right wallet for your needs and usage: detailed tutorials on managing and securing different wallets are available in the [tutorial section of our university](https://planb.academy/tutorials/wallet).
 
 If, during your journey down the rabbit hole, you want to learn more about building a Bitcoin wallet, from entropy to receiving addresses, we recommend the CYP 201 course dedicated to this topic:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Bitcoin Wallets and Security
 
@@ -533,17 +501,17 @@ Here below, we will define several levels of security:
 
 For example, you can use Sparrow Wallet as a hot wallet:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - **Level 2**, you use a physical wallet, and you have secured your list of 12/24 words. It is often referred to as "cold wallet" because your keys are stored on a device that is not connected to the internet. In this case, you will always need to sign every transaction with your device, which makes your funds less accessible on a daily basis.
 
 For example, you could use a Ledger, a Satochip, or a Tapsigner:
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/en/031.webp)
 
@@ -551,7 +519,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 To learn more about the use and functioning of the BIP39 passphrase:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/en/032.webp)
 
@@ -577,7 +545,7 @@ The security of your bitcoins has crucial importance, and a simple mistake can h
 
 Please note that the BTC102 course will guide you through this step.
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### This step is no joke!
 
@@ -612,7 +580,7 @@ Both 'cold' and 'hot' wallets use the word list method as the standard for backi
 
 If you wish to discover, step by step, how to set up your own wallet and get your first bitcoins, we recommend taking this other course:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Passing the Test of Time
 
@@ -624,7 +592,7 @@ Like any form of wealth, your bitcoins must be protected against loss, theft, an
 
 One method to secure your bitcoins in the long term is to engrave your mnemonic phrase on an extremely durable material like steel. Doing this creates a physical backup of your keys that is resistant to both water and fire damage.
 
-Various solutions are available: some of them are low-cost, such as the "Blockmit", while others may require more specialized equipment. You can explore this topic further in the [tutorials](https://planb.network/en/tutorials/wallet) section of our academy.
+Various solutions are available: some of them are low-cost, such as the "Blockmit", while others may require more specialized equipment. You can explore this topic further in the [tutorials](https://planb.academy/en/tutorials/wallet) section of our academy.
 
 ![image](assets/en/036.webp)
 
@@ -632,7 +600,7 @@ Various solutions are available: some of them are low-cost, such as the "Blockmi
 
 Alongside this first practice, creating an inheritance plan is a crucial step to ensure that your bitcoins are properly managed after your death. This plan involves handwriting a letter where you outline the nature of your assets, their access methods, and the contact information of the trusted individuals who have responsibility over them. It’s also important to discuss the inheritance of bitcoins with an accountant and/or estate attorney to ensure tax compliance, even if this person should never be entrusted directly with the management of your bitcoins.
 
-If you wish to further explore the subject of the inheritance plan for your bitcoins, we recommend reading Pamela Morgan's book [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) or enrolling in the BTC102 course, where we provide guidance on creating your plan.
+If you wish to further explore the subject of the inheritance plan for your bitcoins, we recommend reading Pamela Morgan's book [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) or enrolling in the BTC102 course, where we provide guidance on creating your plan.
 
 ![image](assets/en/037.webp)
 
@@ -674,7 +642,7 @@ Now that we have covered the basics of Bitcoin wallets and the best practices fo
 
 ![image](assets/en/038.webp)
 
-October 31, 2008 marks the birth of the new financial technology that is Bitcoin. On this day, the anonymous Satoshi Nakamoto presented his innovation to the world through an email sent to the mailing list of the cypherpunks, a community of cryptography enthusiasts dedicated to promoting privacy on the internet. This email contained a document called "White Paper", which presented how Bitcoin worked.
+October 31, 2008 marks the birth of the new financial technology that is Bitcoin. On this day, the anonymous Satoshi Nakamoto presented his innovation to the world through an email sent to the mailing list of the cypherpunks, a community of cryptography enthusiasts dedicated to promoting privacy on the internet. This email contained a document called "[White Paper](https://planb.academy/resources/glossary/white-paper)", which presented how Bitcoin worked.
 
 This initiative did not immediately generate enthusiasm, probably because of the previous failures in the attempts to create a digital cash systems. Nevertheless, this White Paper eventually became a reference for Bitcoin users and has been the subject of many debates in the Bitcoin ecosystem through the years.
 
@@ -714,7 +682,7 @@ Despite Satoshi's absence, Bitcoin continued to be developed: the history of Bit
 
 For some, Bitcoin is a defined as fungal entity like a [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), while others describe it as a [black hole](https://dergigi.com/). Love it or hate it, Bitcoin continues to exist, with its constant rhythm of 10 minutes per block, like the heartbeat of a new monetary system.
 
-To learn more about Satoshi Nakamoto's writings, we recommend reading ["The Book of Satoshi"](https://planb.network/en/resources/books/98) by Phil Champagne or the ARTE documentary "Le mystaire Satoshi".
+To delve deeper into the writings of Satoshi Nakamoto, I recommend reading [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) by Phil Champagne, which brings together and contextualizes his main texts, as well as the ARTE documentary [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), which offers an accessible and well-documented investigation into his identity and legacy.
 
 ![image](assets/en/044.webp)
 
@@ -832,7 +800,7 @@ Following this victory, the nodes activated an update called SegWit, paving the 
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners secure the network and add transactions to the blocks. They use electricity through ASIC machines to solve the Bitcoin proof of work.**
+**Miners secure the network and add transactions to the blocks. They use electricity through [ASIC](https://planb.academy/resources/glossary/asic) machines to solve the Bitcoin proof of work.**
 
 ![image](assets/en/054.webp)
 
@@ -906,7 +874,7 @@ The game theory applied to Bitcoin eliminates dishonest miners, who use ASIC mac
 
 If you want to delve deeper into the specific topic of Bitcoin mining, you can consult our MIN 201 course. You will discover the workings and role of Proof-of-Work, as well as the mechanics of the mining industry. We also explain how to convert an ASIC into a heater, allowing you to mine your first satoshis while heating your home!
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin and Ecology
 
@@ -1033,11 +1001,13 @@ Today, Bitcoin continues to survive and grow even more by being integrated more 
 
 Bitcoin can be seen as the tool to create a parallel economy to fiat currencies, because it is possible to sell goods or services and be paid in bitcoin. Transactions can be made directly in Bitcoin, without the need to go through an exchange platform, but simply going from a Bitcoin wallet to another.
 
-The Bitcoin economy exists and is developing in certain regions of the world, like in El Salvador, where Bitcoin became a legal tender in 2021. Unfortunately, on January 2025, the assembly passed a new law that stripped Bitcoin of the "legal tender" title, allegedly after receiving some pressure from the International Monetary Found. Under the new law, people are not obliged to accept Bitcoin in their businesses anymore, and can no longer pay taxes using it. Acceptance remains voluntary.
+The Bitcoin economy exists and is developing in certain regions of the world, like in El Salvador, where Bitcoin became a legal tender in 2021. Unfortunately, on January 2025, the assembly passed a new law that stripped Bitcoin of the "legal tender" title, allegedly after receiving some pressure from the International Monetary Fund. Under the new law, people are not obliged to accept Bitcoin in their businesses anymore, and can no longer pay taxes using it. Acceptance remains voluntary.
 
 Nonetheless, in El Salvador and in other parts of the world, there are more and more individuals, businesses, and organizations that accept Bitcoin as a means of payment for their products or services.
 
-![image](assets/en/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Source : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 In addition, an open-source and collaborative project has been launched, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), to facilitate the use of Bitcoin in everyday transactions. This platform lists all the merchants that accept Bitcoin, as well as the different Bitcoin communities around the world, so you can visit their website to discover the Bitcoin ecosystem around you. Thus, despite the difficulties and the hesitations, there are initiatives like BTCMap that contribute to making the Bitcoin economy more accessible and convenient for everyone.
 
@@ -1057,17 +1027,17 @@ We will cover this topic in detail in another course, but to keep it simple, we 
 
 - Simple online solution: OpenNode
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Solution for amateur merchants: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solution for large organizations or passionate bitcoiners: BTCpay Server
 
 To further explore this topic, we recommend our BIZ101 course! Discover how to effectively integrate bitcoin into your company's treasury, accept bitcoin as a means of payment according to your organization's profile, and understand the related tax and accounting requirements:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Saving with Bitcoin
 
@@ -1082,7 +1052,7 @@ Bitcoin has become a major financial asset, mainly due to its limited supply and
 - Past performance is not a reliable indicator of future performance.
 - Contact your financial advisor if needed.
 
-**Plan ₿ Network does not provide any investment advice, and nothing stated here should be considered as such**
+**Plan ₿ Academy does not provide any investment advice, and nothing stated here should be considered as such**
 
 ### Mini Checklist before taking the plunge
 
@@ -1110,7 +1080,7 @@ This gradual strategy involves recurring purchases, meaning buying small amounts
 
 **Beware of UTXOs**: Remember to consolidate your UTXOs in your wallets from time to time. This practice is essential for effectively managing your bitcoins and avoiding unnecessary fees during transactions.
 
-An [UTXO](https://planb.network/en/resources/glossary/utxo) is an output of a transaction that has not yet been spent, meaning it was not used as an input for a new transaction. Consolidating them means combining several small UTXOs into one larger one, in order to decrease the "weight" of the transaction, and thus pay lower fees.
+An [UTXO](https://planb.academy/en/resources/glossary/utxo) is an output of a transaction that has not yet been spent, meaning it was not used as an input for a new transaction. Consolidating them means combining several small UTXOs into one larger one, in order to decrease the "weight" of the transaction, and thus pay lower fees.
 
 - Spontaneous purchase
 
@@ -1124,7 +1094,7 @@ There are several ways to acquire bitcoins, each subject to its own set of regul
 
 - DCA platforms
 
-As we introduced above, a common method to accumulate bitcoins is the Dollar Cost Averaging (DCA), which involves regularly buying small amounts. Several platforms offer this service, such as those listed on our [dedicated page](https://planb.network/tutorials/exchange). In addition to the simplicity of setting up a DCA, withdrawals to your wallet are generally automatic, meaning you will always have control over your assets.
+As we introduced above, a common method to accumulate bitcoins is the Dollar Cost Averaging (DCA), which involves regularly buying small amounts. Several platforms offer this service, such as those listed on our [dedicated page](https://planb.academy/tutorials/exchange). In addition to the simplicity of setting up a DCA, withdrawals to your wallet are generally automatic, meaning you will always have control over your assets.
 
 Today, almost all DCA solutions are relatively efficient and have almost similar fees, so the choice will depend more on availability in your country.
 
@@ -1149,7 +1119,7 @@ It is essential to recognize that KYC is a significant topic of discussion in th
 
 ### Non-KYC solutions
 
-In addition, there are several [marketplaces](https://planb.network/tutorials/exchange) where to buy and sell bitcoins in a peer-to-peer exchange. In general, you may consider the following:
+In addition, there are several [marketplaces](https://planb.academy/tutorials/exchange) where to buy and sell bitcoins in a peer-to-peer exchange. In general, you may consider the following:
 
 - Bitcoin ATMs
 - Physical meetings with other bitcoin enthusiasts
@@ -1160,6 +1130,10 @@ In addition, there are several [marketplaces](https://planb.network/tutorials/ex
 ![image](assets/en/076.webp)
 
 Finally, it is important to note that tax obligations may vary depending on the jurisdiction, so we strongly encourage you to consult the regulations in your country before taking any actions that could put you at risk.
+
+If you wish to deepen your knowledge of strategies for purchasing, using, and securing your bitcoins, I strongly recommend taking the **BTC 102** course after this one. There you will discover, among other things, tool recommendations suited to your profile, needs, and personal goals:
+
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-bitcoinization
 
@@ -1181,89 +1155,202 @@ In the end, we invite you to reflect on this new monetary revolution. There is s
 
 ![image](assets/en/079.webp)
 
-If you want to broaden your knowledge about Bitcoin, this is the right time: a large number of authors, thinkers, and essayists have created educational content about Bitcoin. For the past few years, we have been listing and categorizing these works to offer a [library of resources](https://planb.network/resources) to the most curious among you. In that section, You will find the best podcasts, websites, articles, tutorials, books, and other content.
+If you want to broaden your knowledge about Bitcoin, this is the right time: a large number of authors, thinkers, and essayists have created educational content about Bitcoin. For the past few years, we have been listing and categorizing these works to offer a [library of resources](https://planb.academy/resources) to the most curious among you. In that section, You will find the best podcasts, websites, articles, tutorials, books, and other content.
 
 > "I think that the Internet is going to be one of the major forces for reducing the role of government. The one thing that's missing, but that will soon be developed, is a reliable e-cash - a method whereby on the Internet you can transfer funds from A to B without A knowing B or B knowing A." - Milton Friedman prediction in 1999
 
-# The Future of Bitcoin: The Lightning Network
+# The Future of Bitcoin
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## A Brief Introduction to the Lightning Network
+## The Lightning Network: paying in bitcoin quickly, with low fees
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Now that we have the basics of the Bitcoin protocol, we will introduce a payment network that uses the Bitcoin protocol to enable lightning-fast transactions: the Lightning Network!
+Now that you are familiar with the basics of the Bitcoin protocol, we can introduce the main payment network built on top of Bitcoin: the Lightning Network (often abbreviated as "LN"). Its goal is simple: enable BTC payments with near-instant finality, without congesting the blockchain, and with generally very low fees.
 
-Be aware that the following is only a general description, so, if you want to understand it in deeper details, we invite you to take our LNP201 course.
+### The blockchain cannot do everything
 
-### In a nutshell
-
-The Lightning Network is a revolutionary technology that has profoundly changed our perception of Bitcoin, as it addresses the scalability issue of Bitcoin.
-
-To fully grasp the Lightning Network, it is crucial to understand how Bitcoin evolves and develops in infrastructure layers: the first layer is the blockchain, and the second one is the Lightning Network.
-
-![image](assets/en/080.webp)
-
-### A Blockchain cannot grow indefinitely
-
-The Lightning Network was validated and implemented in 2017 to solve the scalability problem of Bitcoin, as it allows for instant, low-cost Bitcoin transactions.
-
-The scalability problem refers to the challenge of implementing a monetary system capable of providing an ever-increasing number of transactions per second in response to increasing adoption. This issue relates to the blockchain trilemma. Imagine a triangle with decentralization, security, and scalability as its vertices.
+The Bitcoin blockchain is designed to be verifiable by as many people as possible, without permission and without trust. This requirement implies structural limits: the blockchain cannot process an unlimited number of transactions, because blocks must remain reasonable in size to download, store, and verify by independent nodes, without requiring expensive hardware. This trade-off is often summarized by the trilemma: decentralization, security, scalability. A blockchain-based system cannot maximize all three properties at the same time. Bitcoin prioritizes decentralization and security, which naturally limits the possible onchain transaction throughput.
 
 ![image](assets/en/081.webp)
 
-According to it, a protocol based on a blockchain can only satisfy two out of these three features. Within the Bitcoin protocol, developers have made choices to favor decentralization and security. On the one hand, the block size of 1MB and the time between two blocks (on average 10 minutes) allow for running a Bitcoin node at a lower cost, favoring decentralization. On the other hand, the production of blocks through Proof-of-Work makes fraud within the protocol extremely costly, while facilitating verification by network nodes and favoring security. However, these choices impose a limit on the average number of transactions in a block, roughly corresponding to a few transactions per second. This number is ridiculous when compared to the computational capacity of payment processors like VISA (1700/s), but this limit is necessary in order to transact with Bitcoin in a censorship-resistant and trustless manner. Nevertheless, those developing on Bitcoin have been thinking about this problem since the beginning.
+On Bitcoin, developers have made deliberate choices to favor these properties. On the one hand, the block size limit of 1 MB and the average time of 10 minutes between blocks make it possible to run a Bitcoin node at low cost, which supports network decentralization. On the other hand, block production through proof of work makes any attempt at fraud extremely costly, while also making verification by nodes easier and strengthening the overall security of the protocol.
 
-### Lightning as a layer on top
+These choices nevertheless introduce an important constraint: the number of transactions that can be included in each block is limited. This corresponds to only a few transactions per second. This figure is negligible compared to the capacities of centralized payment systems such as VISA (which has a theoretical maximum capacity of around 65,000 transactions per second), but this limitation is the price to pay to enable censorship-resistant transactions without trusted third parties.
 
-After years of consideration and multiple attempts, the Lightning protocol emerged. Using a certain number of specifications, this protocol constructs a peer-to-peer payment network by leveraging the security and programmability of Bitcoin's transaction protocol. The Lightning Network acts as a network of payment channels, enabling instant transactions with low fees for the sender, and it even creates exchange routes between individuals who do not have a direct channel connection.
+Concretely, this means two very important things for the daily use of Bitcoin:
+* when demand for block space increases, onchain fees can rise very high;
+* onchain payments require confirmations, which is not always suitable for everyday purchases.
 
-![image](assets/en/082.webp)
+The Lightning Network is precisely a response to these issues. The idea behind Lightning follows a layered approach: Bitcoin remains the base layer (the settlement layer, robust and highly secure), while Lightning acts as a fast payment layer on top.
 
-Traditional money transfer services such as Western Union, central banks, Visa, and Mastercard could disappear if they do not adopt the Lightning Network technology, which is more efficient and cost-effective than current payment systems. In fact, the Lightning Network enables nearly unlimited transactions between two peers sharing a channel, incurring only the energy costs associated with the transaction to announce the creation of the channel, rather than on each individual transaction.
+![image](assets/en/080.webp)
+
+### Payment channels anchored to Bitcoin
+
+Lightning relies on bidirectional payment channels. A channel is a technical relationship between two participants that allows them to exchange sats offchain, meaning without recording every payment on the blockchain.
+
+From Bitcoin’s (onchain) perspective, opening a channel means locking funds in a special transaction. This can be seen as an escrow: the funds are locked in such a way that only a valid channel closure can redistribute them.
+
+From Lightning’s perspective, this same mechanism becomes a channel in which both parties can update the distribution state of the sats as many times as they want, almost instantly, and without having to record each payment on the main blockchain.
+
+The mechanism therefore works as follows:
+* opening and closing a Lightning channel are Bitcoin transactions (and thus published onchain);
+* payments between opening and closing are offchain updates, which are not visible on the main blockchain.
 
 ![image](assets/en/083.webp)
 
-Transactions are secured through cryptography and indirectly through the energy consumed by miners on Bitcoin. They can be made instantly, without geographical limitations, with extremely low fees (often less than 0.5%).
+As a result, two people who share a Lightning channel can make a very large number of payments without performing an onchain transaction each time. Here we see the scalability logic again: the blockchain is reserved for rare and important operations (opening and closing channels, i.e., final settlement), while the many small intermediate payments are moved to a more efficient layer.
 
-In summary, the Lightning Network is a promising attempt to deploy an efficient payment system to buy and sell in Bitcoin. There are already numerous Lightning wallets available, which you can discover in our tutorial section or through our Lightning Network courses.
+### A network of interconnected channels
 
-If you want to go beyond this introduction and understand all the workings of the Lightning Network, we recommend taking this excellent course by Fanis Michalakis on the subject:
+Lightning is not just a collection of isolated channels. It is a network: thousands of nodes are connected to each other through channels, forming a graph of connections.
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+![image](assets/en/082.webp)
 
-## Lightning Network Use Cases
+Thanks to this network, you can pay a recipient even if you do not have a direct channel with them, as long as there is a path of channels that allows the payment to be routed. The payment then passes through several intermediate nodes, hop by hop.
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+This is where an important Lightning concept appears: liquidity. The capacity of a channel corresponds to the total amount of funds locked in that channel, and liquidity refers to how those funds are distributed between the two sides of the channel, and therefore the direction in which sats can flow. In other words, a channel can have a large capacity while being unusable in a given direction if the liquidity is on the wrong side. Successful payments therefore depend not only on the existence of a path, but also on the available liquidity along the entire path.
 
-As we have just seen, the Bitcoin protocol, although revolutionary, faces significant challenges in terms of the scalability needed to handle all of our daily transactions. To solve these problems, the Lightning Network was proposed and has since developed into several different implementations, all of which are interoperable:
+### Routing a payment without trusting intermediaries
 
-- Core-lightning by Blockstream
-- Eclair by Acinq
-- LND by Lightning strike
+Lightning was designed to allow payments through intermediaries without trusting them. To achieve this, the protocol uses smart contracts called HTLCs (*Hashed Time-Locked Contracts*). Without going into all the details, the general mechanism is as follows:
+* the payment is conditioned on the revelation of a secret (a preimage);
+* if the final recipient reveals this secret, they receive the funds, and intermediaries can in turn claim what they are owed;
+* if the payment fails, the time locks expire and everyone recovers their funds.
 
-This peer-to-peer network aims to facilitate micro-transactions (with very low value) that would otherwise be impractical due to high fees and long confirmation times on the Bitcoin blockchain.
+This design provides an essential property: the payment is atomic. Either it succeeds entirely, or it fails without intermediate loss.
 
-### What are the use cases of the network?
+Finally, Lightning includes a penalty mechanism: if one of the participants tries to cheat by publishing an old channel state (which no longer reflects reality), the other can punish them and recover all the funds. This rule strongly incentivizes honest behavior, even in adversarial environments.
 
-This technology opens the door to a wide range of potential applications for Bitcoin that were previously out of reach because of the necessary constraints to ensure the security and decentralization of Bitcoin. Among these everyday use cases, we can mention instant billing in both physical and online commerce, streaming money for real-time payments, and micro-donations for content creators. By enabling a network of nearly instant, secure, and low-cost transactions (averaging less than 0.5%), many previously unimaginable business models can be realized. This is made possible because the Lightning Network operates using satoshis (sats), the smallest unit of Bitcoin.
+### Lightning node, Lightning wallet: what this means
 
-![image](assets/en/084.webp)
+On Bitcoin onchain, a wallet is software that manages keys and constructs transactions. On Lightning, the situation is more ambiguous, because true non-custodial usage relies on a Lightning node (even if that node is hidden behind a simple interface).
 
-The video game industry offers a particularly interesting example of how the Lightning Network can be used to transform existing business models. The concept of "skin in the game" is an idea that has recently gained popularity in this context. It essentially involves having a financial stake in the outcome of a game. In fact, the Lightning Network allows players to wager very small amounts of money when playing games, such as a few satoshis (about a fraction of a euro cent) to establish a stake that stimulates competition while significantly increasing the cost of using bots.
+In practice, there are two main categories of applications for using Lightning:
+* Custodial services: the application shows you a balance, but the funds are controlled by a service provider. Your balance is an accounting entry in their system, similar to an exchange;
+* Non-custodial solutions: you truly control the keys and the ability to recover your funds. This can be an application that embeds a node with minimal management, simplifying the user experience (for example Phoenix, Zeus...), or a full Lightning node that you manage entirely yourself.
+
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+There are also today self-custodial wallets capable of supporting Lightning payments indirectly, by relying on atomic swaps triggered on demand for each incoming or outgoing payment (for example Bull Bitcoin Wallet, Aqua…). These wallets generally use the Liquid sidechain as their settlement layer (we will see what this corresponds to in the next chapter).
+
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
+
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+### Concrete use cases: what Lightning finally makes possible
+
+Lightning unlocks a range of use cases that were previously impractical or even impossible with onchain Bitcoin alone.
+
+- **Everyday payments (online and in person)**
+
+For checkout payments or online purchases, Lightning enables near-instant finality with generally low fees. This makes bitcoin usable for small amounts, even when the main blockchain is congested.
+
+- **Micropayments and streaming money**
+
+The ability to send very small amounts opens up new economic models: pay-per-use, pay-per-minute, recurring donations, tips... This is the idea of "streaming money": paying as you consume a piece of content or a service, rather than through a flat subscription.
+
+- **Content creators, podcasts, and donations**
+
+Lightning is often used for micro-donations or reward mechanisms. Applications like Fountain or Rumble illustrate this logic well: payments become granular and native to the experience, instead of being a heavy, occasional action. We have also integrated this logic into Plan ₿ Academy, since you can easily send small donations to your favorite instructors to thank them.
+
+- **Games and digital economies**
+
+Video games and digital environments naturally lend themselves to microtransactions: small stakes, rewards, virtual items... Introducing a minimal monetary incentive can also increase the cost of spam and certain abuses (bots), while remaining accessible.
 
 ![image](assets/en/085.webp)
 
-In summary, the future of micro-transactions with Bitcoin looks promising thanks to innovations like Lightning Network. As these technologies continue to develop and mature, we can expect to see new and exciting applications emerge in the near future.
+### Main Lightning implementations
 
-![image](assets/en/086.webp)
+As with Bitcoin, Lightning is a protocol, not a single piece of software. Several implementations coexist and remain interoperable thanks to shared specifications (the BOLTs):
+* LND (Lightning Labs);
+* Core Lightning (Blockstream);
+* Éclair (ACINQ);
+* LDK (Spiral/Block);
+* etc.
 
-Another example could be "money streaming": through the Lightning Network, we can make micro-transactions every minute (potentially without a trusted third party), which opens the door to experimenting with economic models where consumers pay for content based on their actual consumption. It is even conceivable to use this system for renting goods. In such a system, money is automatically divided, based on a predefined percentage, among the different contributors to a service or product. This could revolutionize the way we think about payment models: instead of paying a monthly subscription for a service, users could be charged per minute, or even per second, for the time they spend using the service. Such an economic model could have profound implications for content creators, who would be incentivized to produce quality content to keep users' attention.
+### Lightning as part of Bitcoin’s evolution
 
-![image](assets/en/087.webp)
+Lightning does not replace the Bitcoin blockchain: it complements it. The blockchain remains the final settlement layer, slow but extremely robust. Lightning is the fast payment layer, designed for frequent use and small amounts.
 
-In conclusion, the Lightning Network opens up a multitude of exciting use cases for Bitcoin users. The resulting economic models and business opportunities are numerous and varied, and we encourage you to check for yourself by trying the podcast application [Fountain](https://www.fountain.fm/), which allows you to be rewarded with a few sats for listening to your favorite podcasts!
+In 2025, Lightning is more accessible than in its early days, thanks to wallets and services that hide part of the complexity. However, it still involves trade-offs: liquidity, onchain costs for channels, and sometimes compromises between simplicity, sovereignty, and privacy.
+
+If you want to understand Lightning in depth (channels, liquidity, routing, risk management), I recommend the complete theoretical course LNP 201 by Fanis Michalakis:
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+And if you want to embark on the adventure of running your own Lightning node, we also offer the practical course LNP 202, specifically dedicated to this topic:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+
+## Beyond Lightning: other protocols to scale Bitcoin
+
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+
+As we have seen in previous chapters, Bitcoin was designed as an extremely robust base layer: a public ledger, simple, secure, but naturally limited in speed, programmability, and payment throughput. Rather than forcing this layer to do everything (as is done on Ethereum, for example), the Bitcoin ecosystem has gradually adopted a layered approach: the blockchain serves as the foundation (final settlement), while higher layers add new properties, such as faster payments, more privacy, or the issuance of assets (stablecoins, tokenized securities...).
+
+Bitcoin does not evolve only by modifying its base protocol. It also evolves by building on top of it, with solutions that make different trade-offs depending on the desired objective. Some aim for payment scalability, others for programmability (in a broad sense) and asset issuance, and others try to combine both.
+
+In this chapter, we introduce four important protocols that each offer new possibilities on Bitcoin: sidechains (including Liquid), Ark, RGB, and Taproot Assets.
+
+### Sidechains: parallel blockchains connected to Bitcoin
+
+A sidechain is a blockchain distinct from Bitcoin’s, designed to operate in parallel, with its own rules and its own consensus mechanism. It is connected to Bitcoin through a two-way peg mechanism (*2WP*), which in practice allows bitcoins to be used on the sidechain in a representative form (often a bitcoin locked on Bitcoin and recreated on the sidechain), and then later returned to the main chain.
+
+The interest of a sidechain lies in offering functionalities that are difficult to achieve directly on Bitcoin: faster transactions, asset features, enhanced privacy, or greater development flexibility. In return, a sidechain always makes compromises compared to Bitcoin, particularly in terms of the trust model or decentralization.
+
+The most well-known sidechain on Bitcoin is probably **Liquid**, developed by Blockstream. It is designed in particular to accelerate certain use cases: fast transfers between platforms, more frequent settlements, and asset issuance (stablecoins, securities...), with enhanced privacy. On Liquid, the bitcoins used are called L-BTC: they are designed to be pegged 1-to-1 to BTC through a two-way peg mechanism.
+
+![image](assets/en/088.webp)
+
+The major difference compared to Bitcoin lies in the security and decentralization model: Liquid does not rely on Bitcoin’s proof of work, but on a federation of operators (an identified group) that ensures block production and the operation of bridges between BTC and L-BTC.
+
+https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
+
+### Ark: sharing UTXOs to reduce costs and improve the experience
+
+Ark refers to a family of proposals and implementations aimed at improving Bitcoin’s scalability by grouping many user operations into a reduced number of Bitcoin transactions. The idea is fairly simple: instead of creating one onchain transaction per user, a single onchain transaction is created that represents a batch, and then each participant’s rights evolve mainly offchain, until final settlement on Bitcoin is desired.
+
+This second-layer protocol idea was unveiled by Burak in May 2023. Like the Lightning Network, Ark is a system deployed on top of Bitcoin’s main chain. It would allow bitcoin payments to be made offchain in a fast, anonymous, and low-fee manner. Compared to Lightning, Ark does not require inbound liquidity to receive payments, which significantly improves the user experience. In addition, it provides a level of privacy close to coinjoin transactions. Ark could also be non-interactive if covenants are added to Bitcoin.
+
+Burak often criticizes Lightning’s ability to scale due to its dependence on the main chain and suggests that Ark could theoretically onboard the entire world’s population in self-custody. Even if Ark can be seen as a competing protocol to the Lightning Network, the two can in fact coexist. They could even be complementary.
+
+Ark remains a very active but still young field: the objective is promising (drastically reducing the onchain footprint per user), but it must be kept in mind that this is a more complex architecture, with assumptions and risks different from those of Bitcoin and Lightning.
+
+### RGB: contracts and assets with client-side validation
+
+RGB is a system of smart contracts and assets on Bitcoin that adopts a radically different approach from general-purpose blockchains. Its core idea is client-side validation: instead of publishing the full state of a contract on a global blockchain, participants store and validate locally the histories that matter to them, while the Bitcoin blockchain only serves to anchor cryptographic commitments and prevent double spending.
+
+In other words:
+* the Bitcoin blockchain acts as a timestamping base and a minimal arbiter;
+* detailed data (contract rules, states, transitions) circulate offchain between the relevant parties;
+* verification is done locally, which improves scalability and can enhance privacy, since there is no global registry of all RGB activity visible to everyone.
+
+![image](assets/en/089.webp)
+
+RGB could serve as a foundation for issuing and managing a wide variety of assets: tokens (including stablecoins), NFTs, or digital securities, and even for building more elaborate contract logic, all without burdening the base layer.
+
+The downside is data management: if you must validate on the client side, you must also properly store and back up the data that proves your rights.
+
+RGB is a protocol that has been under development for many years. Progress is gradual, but today there are already concrete applications that make use of RGB. To go further, we offer an expert-level course on Plan ₿ Academy that explores this protocol in depth:
+
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+### Taproot Assets: issuing assets on Bitcoin and moving them over Lightning
+
+Taproot Assets (formerly "Taro") is a protocol led by Lightning Labs, which aims to enable the issuance of assets on Bitcoin, with the possibility of transferring them later via the Lightning Network for fast and low-cost exchanges.
+
+It is often cited as a building block in the narrative of "programmable money" on Bitcoin: not because Bitcoin becomes a global computer, but because financial instruments (assets) can be layered on top of the Bitcoin base, and then circulated efficiently via Lightning.
+
+### Bitcoin grows stronger by letting upper layers innovate
+
+Today, the most accurate image of the Bitcoin ecosystem is neither that of a frozen protocol, nor that of a super blockchain that does everything, as with Ethereum. Rather, it is a deliberately conservative foundation, surrounded by layers and protocols that experiment and enable innovation with minimal risk.
+
 
 ## Red Pill or Blue Pill?
 

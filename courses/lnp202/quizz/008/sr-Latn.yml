@@ -1,0 +1,9 @@
+question: Sa kustodijalnim Lightning wallet, ko poseduje bitkoine?
+answer: Kompanija
+wrong_answers:
+  - Korisnik
+  - Mrežа Lightning
+  - Bitcoin Core
+explanation: |
+  U kustodijalnom modelu, kompanija drži ključeve i kontroliše sredstva, dok korisnik ima samo računovodstveni saldo.
+reviewed: false

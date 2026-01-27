@@ -1,0 +1,9 @@
+question: ¿Qué solución gratuita para la liquidez entrante se basa en la cooperación?
+answer: LN+
+wrong_answers:
+  - Magma
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus proporciona liquidez entrante a través de aberturas de canal circulares.
+reviewed: false

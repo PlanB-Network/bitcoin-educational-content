@@ -1,0 +1,8 @@
+question: Mikä on suurin hyöty Rust:n funktionaalisen ohjelmoinnin ominaisuuksista, joilla ylläpidetään nollakustannusabstraktioita?
+answer: Ne tuottavat tehokasta konekoodia, joka on verrattavissa perinteisiin silmukoihin perustuviin lähestymistapoihin suorituskyvyn kärsimättä
+wrong_answers:
+  - Ne käsittelevät automaattisesti muistin allokointia ja poistoa, jotta vältetään ajoaikaiset ylikuormitukset kokonaan
+  - Ne poistavat tarpeen tyyppitarkistukselle kääntämisaikana säilyttäen samalla turvallisuustakeet
+  - Ne tarjoavat roskienkeräystoiminnon, joka toimii vaikuttamatta ohjelman suoritusnopeuteen
+explanation: |
+  Rust:n funktionaalisen ohjelmoinnin ominaisuuksiin sisältyvät kustannuksettomat abstraktiot tarkoittavat, että sulkujen ja iteraattoreiden käyttö ei uhraa suorituskykyä ilmaisuvoiman kustannuksella. Rust-kääntäjä optimoi nämä korkean tason konstruktiot tuottaakseen konekoodia, joka toimii yhtä hyvin kuin käsin kirjoitetut perinteiset silmukat. Näin kehittäjät voivat kirjoittaa ilmaisuvoimaisempaa ja luettavampaa koodia ilman, että suorituskyky kärsii, mikä on Rust:n suunnittelufilosofian keskeinen periaate.

@@ -1,0 +1,8 @@
+question: Rust, kapsam dışına çıktıklarında değişkenleri ve kaynaklarını otomatik olarak temizlemek için hangi mekanizmayı kullanır?
+answer: Değişkenler üzerinde bırakma işlevlerini çağıran bırakma mekanizması
+wrong_answers:
+  - Kullanılmayan belleği periyodik olarak tarayan bir çöp toplayıcı
+  - Açık free() işlevi çağrıları aracılığıyla manuel bellek ayırma
+  - Her bir değere kaç işaretçinin referans verdiğini izleyen referans sayma
+explanation: |
+  Rust, değişkenler kapsam dışına çıktığında kaynakları otomatik olarak temizlemek için drop mekanizmasını kullanır. Bu sistem, kapsam dışına çıktıkça her değişken üzerinde dolaylı olarak bir drop işlevi çağırır, belleği yeniden kullanılabilir olarak işaretler ve dosya tutamaçlarını kapatmak gibi gerekli temizleme işlemlerini gerçekleştirir. C++'ın RAII modelinden ödünç alınan bu yaklaşım, çöp toplama, manuel bellek yönetimi veya diğer diller tarafından kullanılan referans sayma sistemlerine gerek kalmadan otomatik kaynak yönetimi sağlar.

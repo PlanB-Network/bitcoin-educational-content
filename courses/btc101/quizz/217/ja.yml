@@ -1,9 +1,9 @@
-question: Lightning Networkは何を可能にしますか？
-answer: 即時で低コストのBitcoin取引。
+question: Lightning Network の主な目的は何ですか？
+answer: 高速かつ低コストなオフチェーン決済を可能にすること
 wrong_answers:
-  - 即時で高コストのBitcoin取引。
-  - 遅延した低コストのBitcoin取引。
-  - 遅延した高コストのBitcoin取引。
-explanation: >-
-  Lightning Networkは即時で低コストのBitcoin取引を可能にし、Bitcoinのスケーラビリティ問題を解決します。
-  レビュー済み: true
+  - ビットコインのブロックチェーンのブロックサイズを拡大すること
+  - ビットコインのブロックチェーンをより高性能なシステムに段階的に置き換えること
+  - マイニングファームを非常に裕福にすること
+explanation: |
+  Lightning Network は、メインのブロックチェーンに負荷をかけることなく、低手数料でほぼ即時のビットコイン決済を可能にすることを目的としています。
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - IIP
 explanation: |
   Les RFC (Request For Comments) sont les documents de référence qui consignent les spécifications des protocoles TCP/IP.
-reviewed: false
+reviewed: true 

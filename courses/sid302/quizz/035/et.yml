@@ -1,0 +1,8 @@
+question: Mis on Breez SDK arendajaliidese kolmeastmelise protsessi Connect, Prepare ja Execute peamine eesmärk?
+answer: Standardiseerida keerulisi finantsvooge, sünkroonides rahakotte, arvutades eelnevalt kõik tasud ja seejärel tehinguid konstrueerides
+wrong_answers:
+  - Enne aatomioperatsioonide algatamist luua redundantsed varukoopiaühendused mitme swap-teenuse pakkuja vahel
+  - Luua eraldi krüptograafilised allkirjad igale võrgustikule, mis on seotud ahelaüleste allveevahetustehingutega
+  - Valideerida makse-eelarved tähtajaliste lepingute suhtes enne vahendite vabastamist tingdeponeerimismehhanismidest
+explanation: |
+  Connect, Prepare, Execute muster lihtsustab arendamist, jagades keerulised toimingud juhitavateks etappideks: Connect initsialiseerib rahakotid ja loob seireühendused, Prepare arvutab ja kuvab kõik kulud läbipaistvalt kasutajatele ning Execute tegeleb tegeliku tehingu koostamise ja edastamisega. Selline standardiseerimine abstraheerib allveevahetuste ja ahelateüleste operatsioonide aluseks oleva keerukuse, muutes arendajatele Bitcoin funktsionaalsuse integreerimise lihtsamaks, ilma et nad peaksid haldama madala taseme üksikasju.

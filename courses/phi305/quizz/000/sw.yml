@@ -1,4 +1,4 @@
-question: Spinoza ni balozi gani wa kifalsafa?
+question: Spinoza ni balozi gani ya kifalsafa?
 answer: Rationalism.
 wrong_answers:
   - Harakati za kimapenzi.
@@ -6,4 +6,4 @@ wrong_answers:
   - Miundo.
 explanation: |
   Spinoza inachukuliwa kuwa mmoja wa watetezi wakuu wa busara wa karne ya 17, pamoja na Descartes na Leibniz. Alianzisha falsafa yenye msingi wa akili na mantiki, akitafuta kuelewa ulimwengu kupitia kanuni za busara badala ya imani au mapokeo.
-reviewed: false
+reviewed: true

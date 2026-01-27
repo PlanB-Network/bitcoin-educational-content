@@ -1,5 +1,5 @@
 ---
-name: मचानकुरा
+name: Machankura
 description: किसी भी फोन पर, बिना इंटरनेट के Bitcoin का उपयोग करें।
 ---
 
@@ -344,7 +344,7 @@ description: किसी भी फोन पर, बिना इंटरन�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 आपके पास "**कबीला**" फ़ंक्शन भी है, जो आपको एक सहकारी बहु-हस्ताक्षर प्रणाली का प्रबंधन करने की अनुमति देता है: कबीले के सदस्यों को प्रत्येक व्यय को अनुमोदित करना होगा, और आप स्वचालित रूप से उनके बीच धन वितरित कर सकते हैं।
 
@@ -439,13 +439,13 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura विभिन्न लाइटनिंग वॉलेट्स के बीच इंटरऑपरेबिलिटी को सक्षम बनाता है। इस प्रदर्शन में, हम अपने Machankura WhatsApp Wallet से Satoshi Wallet को बिटकॉइन भेजते हैं।
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 भेजने के लिए, कृपया "SEND BTC" विकल्प के अनुरूप संख्या 1 दर्ज करें। इसके बाद, "लाइटनिंग Address" भेजने का विकल्प चुनें, फिर वह Address दर्ज करें जिस पर बिटकॉइन भेजे जाने हैं। अंत में, "Sats" मान माप चुनें, भेजे जाने वाले सातोशी की संख्या बताएँ और शिपमेंट की पुष्टि करें।
 
@@ -577,9 +577,9 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### शेष राशि की जाँच
 

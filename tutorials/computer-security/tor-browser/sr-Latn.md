@@ -218,4 +218,4 @@ Na kraju, u kartici "*Connection*", pronaći ćete sva podešavanja vezana za po
 I eto ga, sada ste spremni da pretražujete Internet na bezbedniji i privatniji način! Ako vas tema online privatnosti zanima, takođe preporučujem da otkrijete ovaj drugi vodič o Mullvad VPN:
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

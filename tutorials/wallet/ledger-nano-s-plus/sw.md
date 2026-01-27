@@ -77,7 +77,7 @@ Kwa mafunzo haya, utahitaji programu 2 za programu: Ledger Live ili kuanzisha Le
 
 Kwa programu hizi mbili za programu, ninapendekeza sana kuangalia uhalisi wao (na GnuPG) na uadilifu wao (kupitia Hash) kabla ya kuzisakinisha kwenye mashine yako. Ikiwa huna uhakika jinsi ya kufanya hivyo, unaweza kufuata mafunzo haya mengine:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Jinsi ya Kuanzisha Ledger Nano?
 
@@ -228,7 +228,7 @@ Passphrase haipaswi kuchanganyikiwa na msimbo wa PIN. Inachukua jukumu katika ku
 passphrase ni zana yenye nguvu sana ya kuimarisha usalama wa bitcoins zako. Hata hivyo, ni muhimu sana kuelewa jinsi inavyofanya kazi kabla ya kuitekeleza, ili kuepuka kupoteza ufikiaji wa Wallet yako. Hii ndiyo sababu nakushauri kushauriana na mafunzo haya mengine yaliyotolewa ikiwa ungependa kusanidi passphrase kwenye Ledger yako:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Menyu ya "*kifunga PIN*" hukuruhusu kusanidi na kuamilisha ufungaji kiotomatiki wa Ledger yako baada ya muda fulani wa kutofanya kazi.
 
@@ -371,7 +371,7 @@ Kabla ya kupokea bitcoins zako za kwanza kwenye Wallet yako, **Ninakushauri sana
 Ili kupata maelezo zaidi kuhusu jinsi ya kufanya jaribio la urejeshi, nakushauri usome mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Jinsi ya kupokea bitcoins na Ledger Nano?
 
@@ -416,7 +416,7 @@ Unaweza kuongeza "*Lebo*" ili kuelezea chanzo cha bitcoins ambazo zitalindwa na 
 Kwa habari zaidi juu ya kuweka lebo, nakushauri pia uangalie mafunzo haya mengine:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Kisha unaweza kutumia Address kupokea bitcoins.
 
@@ -518,4 +518,4 @@ Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru ikiwa unaweza kuacha do
 Pia ninapendekeza uangalie mafunzo haya kamili kwenye Ledger Flex:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

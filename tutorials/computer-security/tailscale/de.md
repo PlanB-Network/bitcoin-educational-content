@@ -72,7 +72,7 @@ Diese Architektur ist jedoch von Tailscale Inc. für die Netzwerkkoordination ab
 
 
 
-**Für eine detaillierte Erklärung der inneren Funktionsweise von Tailscale, einschließlich Control-Plane-Management, NAT-Traversal und DERP-Relais, empfehlen wir den ausgezeichneten Artikel** [How Tailscale Works] (https://tailscale.com/blog/how-tailscale-works) **auf dem offiziellen Blog. Dieser Artikel erklärt ausführlich die technischen Konzepte, die Tailscale so leistungsfähig machen.**
+**Für eine detaillierte Erklärung der inneren Funktionsweise von Tailscale, einschließlich Control-Plane-Management, NAT-Traversal und DERP-Relais, empfehlen wir den ausgezeichneten Artikel** [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) **auf dem offiziellen Blog. Dieser Artikel erklärt ausführlich die technischen Konzepte, die Tailscale so leistungsfähig machen.**
 
 
 
@@ -169,7 +169,7 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-Dieses Skript wird das offizielle Tailscale-Repository hinzufügen und das Paket installieren. Sie können auch [manuell das APT-Repository hinzufügen] (https://pkgs.tailscale.com) oder normale Snap- oder apt-Pakete verwenden. Nach der Installation wird daemon `tailscaled` im Hintergrund laufen. Sie müssen dann den Knoten **authentifizieren** (siehe Interface CLI vs. Web unten). Bei anderen Distributionen (Fedora, Arch...) ist das Paket auch über die Standard-Repositories oder das universelle Installationsskript verfügbar. Für einen Headless-Server verwenden Sie CLI: zum Beispiel `sudo tailscale up --auth-key <key>`, wenn Sie einen vorgenerierten Authentifizierungsschlüssel verwenden, oder einfach `tailscale up` für eine interaktive Anmeldung (die eine URL zur Authentifizierung des Geräts bereitstellt).
+Dieses Skript wird das offizielle Tailscale-Repository hinzufügen und das Paket installieren. Sie können auch [manuell das APT-Repository hinzufügen](https://pkgs.tailscale.com) oder normale Snap- oder apt-Pakete verwenden. Nach der Installation wird daemon `tailscaled` im Hintergrund laufen. Sie müssen dann den Knoten **authentifizieren** (siehe Interface CLI vs. Web unten). Bei anderen Distributionen (Fedora, Arch...) ist das Paket auch über die Standard-Repositories oder das universelle Installationsskript verfügbar. Für einen Headless-Server verwenden Sie CLI: zum Beispiel `sudo tailscale up --auth-key <key>`, wenn Sie einen vorgenerierten Authentifizierungsschlüssel verwenden, oder einfach `tailscale up` für eine interaktive Anmeldung (die eine URL zur Authentifizierung des Geräts bereitstellt).
 
 
 
@@ -293,7 +293,7 @@ Umbrel ist eine beliebte Self-Hosting-Plattform (vor allem für Bitcoin/Lightnin
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Der gemeinsame Einsatz von Umbrel und Tailscale ist ein besonders interessanter Anwendungsfall, da Umbrel nativ ein einfach zu implementierendes Tailscale-Modul integriert. Hier erfahren Sie, wie sich Tailscale in Umbrel integriert und was es bringt:
 
@@ -419,7 +419,7 @@ Lesen Sie unsere vollständige Anleitung zur Konfiguration von Sparrow wallet mi
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
@@ -439,13 +439,13 @@ Wie Sie Zeus mit Ihrem Lightning-Knoten konfigurieren, erfahren Sie in unserem a
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Um mehr über das Lightning Network und seine Funktionsweise bei Umbrel zu erfahren, besuchen Sie die Website:
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 
@@ -635,4 +635,4 @@ Tailscale ist dank seiner Einfachheit und Effizienz ein unverzichtbares Werkzeug
 
 
 
-Tailscale bietet regelmäßig neue Inhalte und Funktionen. Besuchen Sie den [offiziellen Blog] (https://tailscale.com/blog/) für die neuesten Nachrichten und Fallstudien.
+Tailscale bietet regelmäßig neue Inhalte und Funktionen. Besuchen Sie den [offiziellen Blog](https://tailscale.com/blog/) für die neuesten Nachrichten und Fallstudien.

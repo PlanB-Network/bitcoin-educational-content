@@ -1,0 +1,8 @@
+question: Miks nõuab BIP34 ploki kõrguse lisamist Coinbase'i tehingu scriptSig väljale?
+answer: Tagamaks, et iga Coinbase transaction ID on kõikides plokkides unikaalne
+wrong_answers:
+  - Et pakkuda kaevuritele täiendavat entroopiat, kui nonce-ruum on ammendunud
+  - Võimaldamaks kergklientidel kontrollida plokkide järjestust ilma täielikke plokke alla laadimata
+  - Et takistada kaevandajatel nõuda plokkide toetusi, mis on suuremad kui lubatud summa
+explanation: |
+  BIP34 kohustab bloki kõrguse lisamist Coinbase scriptSig'ile, et tagada iga Coinbase transaction ID unikaalsus. Ilma selle nõudeta võiks teoreetiliselt kahel eri kõrgusega plokil olla identsed Coinbase'i tehingud, mis tekitaks topelt txid, mis rikuks Bitcoin tehingu unikaalsuse eeldusi ja potentsiaalselt põhjustaks andmebaasi konflikte rakendustes, mis indekseerivad txid järgi.

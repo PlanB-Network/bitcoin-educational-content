@@ -665,7 +665,7 @@ Inyuma yo gutunganya, gerageza gutunganya kwawe:
 
 
 
-### Ibindi bishobora gukoreshwa kuri Plan ₿ Network
+### Ibindi bishobora gukoreshwa kuri Plan ₿ Academy
 
 
 Kugira ngo ukingirwe cane, raba abandi barongozi bacu:
@@ -679,8 +679,8 @@ Kugira ngo ukingirwe cane, raba abandi barongozi bacu:
 
 
 
-Niba wifuza kumenya vyinshi ku bijanye n’amateka n’ingene ama browser akora, hamwe n’ibintu nyamukuru vy’ubuhinga bwa none mu buzima bwawe bwa misi yose, ndagutumiye kumenya inyigisho yacu nshasha y’ubuntu SCU 202, iboneka kuri Plan ₿ Network:
+Niba wifuza kumenya vyinshi ku bijanye n’amateka n’ingene ama browser akora, hamwe n’ibintu nyamukuru vy’ubuhinga bwa none mu buzima bwawe bwa misi yose, ndagutumiye kumenya inyigisho yacu nshasha y’ubuntu SCU 202, iboneka kuri Plan ₿ Academy:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

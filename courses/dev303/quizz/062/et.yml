@@ -1,0 +1,8 @@
+question: Mis on peamine eelis käsu `cargo expand` kasutamisel, kui Rust-s arendatakse keerulisi makrosid?
+answer: See kuvab täielikult laiendatud koodi, mis on genereeritud makroülesannetega, võimaldades arendajatel kontrollida genereeritud väljundit ja tuvastada probleeme
+wrong_answers:
+  - See optimeerib automaatselt makrode jõudlust, vähendades kompileerimisaega ja kõrvaldades üleliigsed mustri sobitamise harud
+  - See valideerib makrode süntaksit täitmise ajal ja pakub reaalajas veakontrolli dünaamiliste makroargumentide valideerimiseks
+  - See teisendab funktsioonilaadsed makrod automaatselt tuletatud makrodeks, parandades koodi taaskasutatavust ja tunnuste rakendamise tõhusust
+explanation: |
+  Käsk `cargo expand` on makrode arendamisel hindamatu väärtusega, sest see paljastab tegeliku koodi, mida makros generate kompileerimise ajal kasutab. Kuna makrod toimivad kompileerimise ajal ja muudavad sisendmustrid genereeritud koodiks, peavad arendajad nägema seda laiendatud väljundit, et veenduda, et nende makrod töötavad õigesti. See on eriti oluline, kui makroga genereeritud kood sisaldab vigu, sest laiendatud väljund aitab kindlaks teha, kas probleemid tulenevad makrodefinitsioonist või genereeritud koodi struktuurist. Teised valikud on valed, sest `cargo expand` on puhtalt silumis- ja kontrollivahend - see ei optimeeri jõudlust, ei valideeri käitumist tööajal ega konverteeri automaatselt makrotüüpide vahel.

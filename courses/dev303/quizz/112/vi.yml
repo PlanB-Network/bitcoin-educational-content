@@ -1,0 +1,8 @@
+question: Nhận định cơ bản nào về việc áp dụng Lightning đã dẫn đến việc Breez chuyển từ việc xây dựng một ứng dụng di động duy nhất sang phát triển kiến trúc SDK?
+answer: Hệ sinh thái ứng dụng di động không tạo điều kiện thuận lợi cho việc giao tiếp dễ dàng giữa các ứng dụng, ngăn cản các ứng dụng chuyên biệt tận dụng cơ sở hạ tầng Lightning dùng chung.
+wrong_answers:
+  - Các thiết bị di động thiếu sức mạnh tính toán cần thiết để vận hành các nút Lightning một cách đáng tin cậy, do đó cần có cơ sở hạ tầng dựa trên đám mây để hoạt động đúng cách.
+  - Việc tuân thủ quy định yêu cầu chức năng Lightning phải được tập trung hóa trong SDK thay vì phân tán trên các ứng dụng di động riêng lẻ.
+  - Nghiên cứu trải nghiệm người dùng cho thấy người tiêu dùng thích việc quản lý thanh toán Lightning thông qua các dịch vụ của bên thứ ba hơn là các ứng dụng riêng lẻ.
+explanation: |
+  Câu trả lời đúng đã chỉ ra hạn chế kiến trúc quan trọng được phát hiện thông qua ứng dụng Breez ban đầu: hệ sinh thái di động không cho phép giao tiếp dễ dàng giữa các ứng dụng, buộc các nhà phát triển phải tích hợp tất cả các tính năng Lightning vào các ứng dụng duy nhất thay vì tạo ra các ứng dụng chuyên biệt chia sẻ cơ sở hạ tầng Lightning. Nhận thức này đã dẫn đến phương pháp SDK cho phép nhiều ứng dụng kết nối với cùng một nút Lightning. Các câu trả lời sai tập trung vào các hạn chế kỹ thuật, vấn đề quy định hoặc sở thích người dùng, nhưng đây không phải là nhận thức kiến trúc cơ bản đã thúc đẩy sự chuyển đổi chiến lược sang mô hình SDK.

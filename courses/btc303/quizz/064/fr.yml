@@ -1,0 +1,9 @@
+question: Selon le compromis entre débit et décentralisation évoqué par Gregory Maxwell, que se passe-t-il lorsque l'utilisation des ressources de la blockchain Bitcoin devient trop importante par rapport à la technologie disponible ?
+answer: Le Bitcoin perd ses avantages concurrentiels par rapport aux systèmes existants parce que la validation devient trop coûteuse, ce qui exclut de nombreux utilisateurs et oblige à rétablir la confiance dans le système
+wrong_answers:
+  - Bitcoin devient plus sûr car seuls les utilisateurs les plus dévoués disposant d'un matériel puissant peuvent participer à la validation, ce qui crée un réseau plus solide
+  - Bitcoin ajuste automatiquement son algorithme de difficulté pour réduire les besoins en ressources et maintenir le même niveau de décentralisation entre tous les participants
+  - Bitcoin se divise en plusieurs chaînes parallèles afin de répartir la charge de calcul tout en maintenant les mêmes garanties de sécurité pour tous les utilisateurs
+explanation: |
+  Maxwell a identifié un compromis fondamental où les exigences excessives en matière de ressources poussent les utilisateurs à recourir à des tiers de confiance plutôt qu'à une validation indépendante. Lorsque les coûts de validation deviennent prohibitifs, les utilisateurs ne peuvent pas se permettre d'exploiter des nœuds complets et doivent s'en remettre à d'autres, ce qui compromet la nature sans confiance du Bitcoin. Les mauvaises réponses suggèrent à tort des résultats bénéfiques (sécurité accrue, ajustements automatiques ou garanties maintenues) alors qu'une utilisation élevée des ressources oblige en fait à une centralisation et à des dépendances de confiance.
+reviewed: false

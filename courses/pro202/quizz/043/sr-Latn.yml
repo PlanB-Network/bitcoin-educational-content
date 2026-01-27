@@ -1,0 +1,8 @@
+question: Kada se heševi Bitcoin blokova interpretiraju kao mali-endijan celi brojevi za poređenje sa ciljem, zašto validni blokovi obično prikazuju mnogo završnih nula u njihovoj heksadecimalnoj reprezentaciji?
+answer: Zato što tumačenje u little-endian formatu znači da desni bajtovi u heksadecimalnom zapisu odgovaraju najznačajnijim bitovima celobrojne vrednosti
+wrong_answers:
+  - Zbog toga što algoritam SHA-256 prirodno proizvodi završne nule kada ulaz sadrži podatke o transakcijama sa ponovljenim obrascima
+  - Zato što rudari namerno popunjavaju zaglavlje bloka nulama kako bi učinili računanje heša efikasnijim za ASIC hardver
+  - Zbog toga što se polje nonce povećava od nule naviše, uzrokujući da hash funkcija generiše generate obrasce sa završnim nulama
+explanation: |
+  U interpretaciji malog-endijana, bajtovi se čitaju obrnutim redosledom, tako da desni bajtovi u heksadecimalnom obliku postaju najznačajniji deo celog broja. Da bi heš bio ispod cilja (mali broj), njegovi najznačajniji bitovi moraju biti nula, što se pojavljuje kao nule na kraju u heksadecimalnom prikazu. Ovo je isključivo artefakt prikaza konverzije endijanosti, a ne osobina SHA-256 ili mining hardvera.

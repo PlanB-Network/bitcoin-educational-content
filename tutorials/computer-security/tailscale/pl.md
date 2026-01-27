@@ -293,7 +293,7 @@ Umbrel to popularna platforma do samodzielnego hostingu (używana zwłaszcza w p
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Używanie Umbrel i Tailscale razem jest szczególnie interesującym przypadkiem użycia, ponieważ Umbrel natywnie integruje łatwy do wdrożenia moduł Tailscale. Oto jak Tailscale integruje się z Umbrel i co to daje:
 
@@ -419,7 +419,7 @@ Przeczytaj nasz kompletny przewodnik dotyczący konfiguracji Sparrow wallet z w�
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
@@ -439,13 +439,13 @@ Aby skonfigurować Zeus z węzłem Lightning, zapoznaj się z naszym szczegóło
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Aby dowiedzieć się więcej o Lightning Network i jego działaniu w Umbrel, odwiedź:
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 
@@ -635,4 +635,4 @@ Tailscale jest niezbędnym narzędziem do samodzielnego hostingu, dzięki swojej
 
 
 
-Tailscale regularnie udostępnia nowe treści i funkcje. Sprawdź ich [oficjalny blog] (https://tailscale.com/blog/), aby uzyskać najnowsze wiadomości i studia przypadków.
+Tailscale regularnie udostępnia nowe treści i funkcje. Sprawdź ich [oficjalny blog](https://tailscale.com/blog/), aby uzyskać najnowsze wiadomości i studia przypadków.

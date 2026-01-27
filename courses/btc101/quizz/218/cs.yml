@@ -1,10 +1,9 @@
-question: Kdy byla Lightning Network poprvé ověřena a implementována?
-answer: 2017
+question: Proč může být Lightning kanál v jednom směru nepoužitelný?
+answer: Nedostatečná likvidita
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
+  - Příliš nový blok
+  - Vypršený HTLC
+  - Nesynchronizovaný uzel
 explanation: |
-  Lightning Network byla poprvé ověřena a implementována
-  v roce 2017.
-reviewed: true
+  I při velké kapacitě umožňuje kanál platbu pouze tehdy, pokud je na správné straně dostatečná likvidita.
+reviewed: false

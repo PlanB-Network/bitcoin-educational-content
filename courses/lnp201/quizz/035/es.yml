@@ -6,4 +6,4 @@ wrong_answers:
   - Establecer conexiones directas entre todos los nodos de la red con su confianza
 explanation: |
   Los HTLCs (Hashed Time-Locked Contracts) aseguran que cada nodo intermediario transferirá el pago sin retener los fondos, ya que solo puede desbloquearlos completando la transacción hasta el destinatario final.
-reviewed: false
+reviewed: true

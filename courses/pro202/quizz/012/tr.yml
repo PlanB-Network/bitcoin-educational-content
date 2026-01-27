@@ -1,0 +1,8 @@
+question: Eliptik eğri noktalarının kriptografik işlemlerde tutarlı ve öngörülebilir bir şekilde bir araya getirilebilmesini sağlayan matematiksel özellik nedir?
+answer: Noktalar kapanış, birliktelik, özdeşlik ve tersleri olan matematiksel bir grup oluşturur
+wrong_answers:
+  - Noktalar, geometrik ilişkileri koruyan sürekli düzgün eğrileri korur
+  - Noktalar, öngörülebilir diziler oluşturan doğrusal ilerleme modellerini takip eder
+  - Puanlar, hesaplama hatalarını otomatik olarak önleyen modüler aritmetik kullanır
+explanation: |
+  Eliptik eğri noktaları toplama işlemi altında matematiksel bir grup oluşturur, bu da dört temel özelliği karşıladıkları anlamına gelir: kapanış (iki nokta eklemek eğri üzerinde başka bir nokta verir), birliktelik (işlem sırası önemli değildir), özdeşlik (sonsuzdaki nokta sıfır gibi davranır) ve tersler (her noktanın onu iptal eden bir yansıması vardır). Bu grup özellikleri eliptik eğri kriptografisinin güvenilir bir şekilde çalışmasını ve skaler çarpma gibi işlemlerin düzgün gerçek eğriler veya ayrık sonlu alan noktaları ile çalışıp çalışmadığımıza bakılmaksızın tutarlı bir şekilde davranmasını sağlar.

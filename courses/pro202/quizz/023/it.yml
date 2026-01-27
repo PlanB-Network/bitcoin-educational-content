@@ -1,0 +1,8 @@
+question: Qual è lo scopo principale del campo numero di sequenza negli input delle transazioni Bitcoin?
+answer: Per abilitare i timelocks e la funzionalità Replace-by-Fee (RBF)
+wrong_answers:
+  - Per specificare l'ordine in cui gli input devono essere elaborati dai minatori
+  - Per prevenire il double-spending, creare un identificatore unico per ogni input
+  - Indicare il livello di priorità della transazione per il calcolo delle commissioni
+explanation: |
+  Il campo del numero di sequenza negli input delle transazioni Bitcoin ha due scopi principali: implementare i timelock (che ritardano il momento in cui una transazione può essere confermata) e abilitare la funzionalità Replace-by-Fee (RBF) (che consente agli utenti di aumentare le commissioni sulle transazioni non confermate). Le altre opzioni non sono corrette perché: gli input non devono essere elaborati in un ordine specifico dai minatori, la prevenzione double-spending è gestita dal modello UTXO e dal consenso della blockchain piuttosto che dai numeri di sequenza, e la priorità delle transazioni è determinata dalle tariffe piuttosto che dai numeri di sequenza.

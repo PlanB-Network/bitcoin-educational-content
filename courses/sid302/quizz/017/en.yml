@@ -1,0 +1,8 @@
+question: In Liquid's federated consensus model, what is the minimum number of functionary signatures required to validate a block, and what is the maximum number of node failures the network can tolerate?
+answer: 11 signatures required, can tolerate up to 4 node failures
+wrong_answers:
+  - 8 signatures required, can tolerate up to 7 node failures
+  - 15 signatures required, can tolerate up to 2 node failures
+  - 9 signatures required, can tolerate up to 6 node failures
+explanation: |
+  Liquid uses an 11-of-15 threshold system where at least 11 out of 15 functionaries must sign each block for it to be valid. This design allows the network to continue operating even if up to 4 nodes fail (15 - 11 = 4). The other options either provide incorrect signature thresholds or miscalculate the fault tolerance, which is always the total nodes minus the required signatures.

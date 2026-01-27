@@ -22,7 +22,7 @@ Selles õpetuses, mis on mõeldud algajatele ja edasijõudnutele, tutvustame, ku
 
 Kui olete edasijõudnud kasutaja ja soovite uurida keerulisemaid funktsioone, siis soovitan vaadata seda teist õpetust, kus me konfigureerime Passport'i koos Sparrow Wallet'iga :
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Passi lahtipakkimine
 
@@ -170,7 +170,7 @@ Selleks kasutage oma Passport'i karbis sisalduvat MicroSD-kaarti (või mõnda mu
 
 Enne seadmesse paigaldamist soovitame tungivalt kontrollida allalaetud püsivara autentsust ja terviklikkust. Kui vajate selleks abi, vaadake seda õpetust :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Rakendusega Envoy
 
@@ -254,7 +254,7 @@ Klõpsake kinnituse nupule, et näha oma mälulause.
 
 Lisateavet selle kohta, kuidas oma mnemofraasi õigesti salvestada ja hallata, soovitan kindlasti jälgida seda teist õpetust, eriti kui olete algaja:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 loomulikult ei tohi te neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus.
 
@@ -457,4 +457,4 @@ Palju õnne, te teate nüüd, kuidas seadistada ja kasutada passi koos Envoy rak
 
 Lisateavet leiate meie Liana tarkvara juhendmaterjalist:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

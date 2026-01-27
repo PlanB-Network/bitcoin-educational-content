@@ -6,7 +6,7 @@ description: Mining einfach von zu Hause aus herstellen.
 
 
 
-### Einführung
+## Einführung
 
 
 
@@ -14,11 +14,11 @@ Der Mini Miner braiins BMM 100 ist ein Produkt von Mining pool Braiins. Dieses G
 
 
 
-Viele weitere wichtige Informationen finden Sie auch in der vollständigen Anleitung direkt auf der [Herstellerseite] (https://braiins.com/hardware/mini-Miner-bmm-100).
+Viele weitere wichtige Informationen finden Sie auch in der vollständigen Anleitung direkt auf der [Herstellerseite](https://braiins.com/hardware/mini-Miner-bmm-100).
 
 
 
-### Überblick über BMM 100
+## Überblick über BMM 100
 
 
 
@@ -46,7 +46,7 @@ auf der Rückseite befinden sich: die Öffnung für den Stromanschluss, Platz f�
 
 
 
-### Anschließen des Mini Miner
+## Anschließen des Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Sie müssen das Gerät über Ethernet mit dem Internet verbinden. Beachten Sie, 
 
 
 
-### Konfiguration
+## Konfiguration
 
 
 
@@ -74,7 +74,7 @@ Um sich anzumelden, müssen Sie `root` als Benutzernamen eingeben, während Sie 
 
 
 
-### Allgemeine Einstellungen
+## Allgemeine Einstellungen
 
 
 
@@ -110,7 +110,7 @@ Wenn Sie die Änderungen vorgenommen haben, klicken Sie auf "Änderungen speiche
 
 
 
-### Anschluss an Mining pool
+## Anschluss an Mining pool
 
 
 
@@ -134,15 +134,15 @@ Hier müssen wir entscheiden, welchen Pool wir verwenden wollen. In diesem Tutor
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Die zweite Möglichkeit besteht darin, uns mit einem Mining pool zu verbinden, der im Alleingang mina, wie Public Pool, folgen Sie diesem Leitfaden zu tun:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Braiins Pool
+### Braiins Pool
 
 
 
@@ -150,7 +150,7 @@ Um sich mit diesem Pool zu verbinden, müssen wir ein Konto erstellen. Dieser Po
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Sobald dies geschehen ist, befinden wir uns im Dashboard des Braiins-Pools. Wir müssen dem Pool mitteilen, dass wir eine Verbindung mit einem unserer Miner herstellen wollen, daher finden Sie auf der linken Seite des Bildschirms eine Reihe von Einträgen. Wir müssen auf "Arbeiter" gehen
 
@@ -168,7 +168,7 @@ und wir müssen auf die violette Schaltfläche auf der rechten Seite klicken, au
 
 
 
-Hier erscheint das Fenster mit den Informationen, die wir benötigen, um unseren Mini-Miner an den Pool anzuschließen. Die einzige Änderung, die wir hier vornehmen können, ist die Auswahl von Stratum V2. Um herauszufinden, was Stratum v2 ist, lesen Sie diesen Eintrag im [Glossar] (https://planb.network/en/resources/glossary/stratum-v2).
+Hier erscheint das Fenster mit den Informationen, die wir benötigen, um unseren Mini-Miner an den Pool anzuschließen. Die einzige Änderung, die wir hier vornehmen können, ist die Auswahl von Stratum V2. Um herauszufinden, was Stratum v2 ist, lesen Sie diesen Eintrag im [Glossar](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 
@@ -236,7 +236,7 @@ wenn Sie zurück zum Dashboard gehen, sollten Sie anfangen, Bewegung auf dem Dia
 
 
 
-#### Öffentliches Schwimmbad
+### Öffentliches Schwimmbad
 
 
 

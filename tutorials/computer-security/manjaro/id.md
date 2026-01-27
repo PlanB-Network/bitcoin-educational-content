@@ -104,7 +104,7 @@ Untuk mengunduh, kunjungi [situs web resmi Manjaro](https://manjaro.org/) dan pi
 
 
 
-Kemudian kunjungi situs web perangkat lunak [Rufus] (https://rufus.ie/fr/) dan unduh. Jalankan program, colokkan kunci USB Anda, pilih image ISO Manjaro dan mulai flashing. Tunggu hingga prosesnya selesai sebelum melepas kunci. Anda kemudian dapat memulai ulang komputer Anda.
+Kemudian kunjungi situs web perangkat lunak [Rufus](https://rufus.ie/fr/) dan unduh. Jalankan program, colokkan kunci USB Anda, pilih image ISO Manjaro dan mulai flashing. Tunggu hingga prosesnya selesai sebelum melepas kunci. Anda kemudian dapat memulai ulang komputer Anda.
 
 
 
@@ -322,7 +322,7 @@ Electrum memungkinkan Anda untuk **menerima dan mengirim bitcoin** dengan mudah,
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## Mengamankan sistem Manjaro Anda
 
@@ -395,4 +395,4 @@ Manjaro menggabungkan **stabilitas, kecepatan, dan keamanan**, namun tetap **sep
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

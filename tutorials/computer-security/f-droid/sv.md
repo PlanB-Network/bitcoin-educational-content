@@ -27,7 +27,7 @@ Tyvärr är F-Droid inte en applikation som är tillgänglig på iOS och innehå
 
 
 
-Du kan ladda ner F-droid från [den officiella webbplatsen] (https://f-droid.org/) i APK-format och installera det manuellt på din Android-telefon.
+Du kan ladda ner F-droid från [den officiella webbplatsen](https://f-droid.org/) i APK-format och installera det manuellt på din Android-telefon.
 
 
 
@@ -100,7 +100,7 @@ Läs mer i vår Thunderbird-handledning:
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid ger dig all information du behöver för att avgöra om användningen av en applikation skyddar dina data och förbättrar din integritet. Skanna alla applikationer som du vill använda och klicka sedan på **Install**-knappen för att ladda ner och installera din applikation.
 
@@ -163,7 +163,7 @@ F-Droid är ett Open Source-projekt som uppmuntrar bidrag till applikationer som
 Din applikation måste vara öppen källkod, med källkoden offentligt tillgänglig på till exempel GitHub eller GitLab.
 
 
-Du måste sedan förbereda en YAML-fil (metadata) som beskriver din applikation, inklusive all information och alla behörigheter som krävs för dess användning, enligt [metadatamallen] (https://f-droid.org/docs/Build_Metadata_Reference/) som föreslagits av F-Droid.
+Du måste sedan förbereda en YAML-fil (metadata) som beskriver din applikation, inklusive all information och alla behörigheter som krävs för dess användning, enligt [metadatamallen](https://f-droid.org/docs/Build_Metadata_Reference/) som föreslagits av F-Droid.
 
 
 
@@ -187,4 +187,4 @@ Om du gillade den här handledningen kan du läsa mer om vår kurs i IT-säkerhe
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

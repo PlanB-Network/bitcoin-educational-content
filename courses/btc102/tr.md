@@ -38,6 +38,8 @@ Bu kurs, ilgi alanlarınıza ve hedeflerinize en uygun yolu izleyerek Bitcoin'y�
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 BTC102'ye hoş geldiniz! BTC101'i zaten tamamladıysanız, Bitcoin'nin neden bu kadar devrimci bir teknoloji olduğunun arkasındaki temel teorik kavramları keşfettiniz. Şimdi BTC102 ile bu bilgileri eyleme dökme zamanı. Bu kurs, kişisel Bitcoin planınızı adım adım oluşturmanıza yardımcı olmak için tasarlanmıştır.
 
@@ -45,7 +47,7 @@ BTC102'ye hoş geldiniz! BTC101'i zaten tamamladıysanız, Bitcoin'nin neden bu 
 Önümüzdeki bölümlerde, **ilk bitcoinlerinizi** almanız, **doğru bir şekilde güvence altına almanız** ve hızla büyüyen bu ekosisteme ilk adımlarınızı güvenle atmanız için pratik adımlar konusunda size rehberlik edeceğiz.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Bitcoin 16 yılı aşkın bir süredir var olmasına rağmen, endüstri hala genç, dinamik ve kökleri özgürlüğe dayanmaktadır. Temel protokolü tamamen merkezi olmayan ve herhangi bir merkezi otorite tarafından kontrol edilmeye karşı dirençli olup, ekosistemin doğal ve organik bir şekilde büyümesine izin vermektedir.
 
@@ -99,7 +101,7 @@ Bu eğitimin sonunda, Bitcoin ekosisteminde güvenle gezinmek ve en gelişmiş k
 Bitcoin dünyasına yolculuğunuza başlamaya hazır mısınız? Hadi başlayalım!
 
 
-**N.B.**: Kurs sırasında bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımlar için [sözlüğe] (https://planb.network/resources/glossary) başvurunuz.
+**N.B.**: Kurs sırasında bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımlar için [sözlüğe](https://planb.academy/resources/glossary) başvurunuz.
 
 
 # Bitcoin'yi anlamak için ön koşullar
@@ -140,9 +142,9 @@ Daha ileri gitmeden önce, temelde farklı olan iki dünya arasında net bir ayr
 Bitcoin'in nereden geldiğini ve onu diğer projelerden gerçekten farklı kılan şeyin ne olduğunu daha iyi anlamak istiyorsanız, daha sonra Bitcoin'in tarihçesi hakkındaki bu ücretsiz takip kursuna göz atmanızı tavsiye ederim:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Bildiğiniz gibi, Plan ₿ Network platformu yalnızca Bitcoin'ye adanmıştır. Bununla birlikte, diğer kripto para birimleriyle olan farkı anlamak, yararsız ve hatta bazen hileli projelerle ilişkili tuzaklardan kaçınmanıza yardımcı olacaktır.
+Bildiğiniz gibi, Plan ₿ Academy platformu yalnızca Bitcoin'ye adanmıştır. Bununla birlikte, diğer kripto para birimleriyle olan farkı anlamak, yararsız ve hatta bazen hileli projelerle ilişkili tuzaklardan kaçınmanıza yardımcı olacaktır.
 
 
 ![BTC102-Bitcoin](assets/tr/002.webp)
@@ -363,10 +365,10 @@ Bitcoin'a girmeye başlar başlamaz, temel siber güvenliğin isteğe bağlı ol
 Bu bölüm, dijital hijyeninizi yükseltmek ve kendinizi bu alanda korumak için bazı basit ve pratik adımlar konusunda size yol gösteriyor.
 
 
-Daha derine inmek istiyorsanız, Plan ₿ Network'nin SEC101 kursu, özellikle Bitcoin kullanıcıları için tasarlanmış siber güvenlik stratejilerinin kapsamlı bir dökümünü sunar.
+Daha derine inmek istiyorsanız, Plan ₿ Academy'nin SEC101 kursu, özellikle Bitcoin kullanıcıları için tasarlanmış siber güvenlik stratejilerinin kapsamlı bir dökümünü sunar.
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Siber Güvenlik Neden Önemlidir?
 
@@ -394,7 +396,7 @@ Sistem güncellemeleri ve antivirüs korumasının ötesinde, şüpheli web site
 Bir başka akıllıca alışkanlık da herhangi bir yazılımı makinenize yüklemeden önce gerçekliğini ve bütünlüğünü doğrulamaktır. Bunu nasıl yapacağınızdan emin değilseniz, endişelenmeyin, süreç boyunca size yol gösterecek özel bir eğitimimiz var:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Son olarak, önemli verilerinizin düzenli yedeklerini alın. Harici bir Hard sürücü veya SSD, ani arıza, bilgisayar korsanlığı veya kazara silme durumlarına karşı dosyalarınızın bir kopyasını saklamak için sağlam bir seçenektir. Daha sonra kendinize teşekkür edeceksiniz.
 
@@ -402,7 +404,7 @@ Son olarak, önemli verilerinizin düzenli yedeklerini alın. Harici bir Hard s�
 Bulut çözümlerini tercih ediyorsanız, Proton Drive gibi güvenli bir hizmet kullanmayı düşünün. Seçtiğiniz seçeneğin gizliliğinize saygı duyduğundan ve güçlü şifreleme sunduğundan emin olun.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Yaygın olarak önerilen bir yedekleme stratejisi "3-2-1 kuralı "dır. Verilerinizi kazara kayıplara, siber saldırılara ve hatta doğal afetlere karşı korumak için tasarlanmıştır.
 
@@ -443,12 +445,12 @@ Bir parola yöneticisi ile bir daha asla "Parolamı unuttum" seçeneğine tıkla
 Piyasada birçok şifre yöneticisi var, ancak ihtiyaçlarınıza bağlı olarak iki sağlam seçenek önerebilirim. Birden fazla cihazda sorunsuz bir şekilde senkronize olan, kullanımı kolay bir şey arıyorsanız Bitwarden mükemmel bir seçimdir:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Her şeyi yerel olarak kendi cihazınızda tutmayı tercih ediyorsanız, KeePass harika bir seçenektir:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ### 2FA: çift koruma
 
@@ -462,7 +464,7 @@ Bitcoin'da kendi bankanızsınız. Bu, aynı zamanda kendi güvenlik ekibiniz ol
 2FA, Google Authenticator veya Authy gibi bir uygulama tarafından oluşturulan zamana dayalı tek seferlik bir kod (genellikle 6 basamaklı) gerektirerek ikinci bir Layer koruması ekler. Yani birisi şifrenizi ele geçirmeyi başarsa bile, telefonunuza fiziksel erişim olmadan hesabınıza erişemez.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ![BTC102-Bitcoin](assets/tr/009.webp)
 
@@ -476,7 +478,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 Güvenliği bir adım öteye taşımak isteyenler için YubiKey gibi fiziksel anahtarlar daha da yüksek düzeyde koruma sağlar.
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Gizliliğinizi korumak
 
@@ -497,12 +499,12 @@ Anahtar, güvenilir bir VPN sağlayıcısı seçmektir:
 ![BTC102-Bitcoin](assets/tr/015.webp)
 
 
-Plan ₿ Network'de VPN'i kolayca kurmanız için size rehberlik edebilecek çeşitli eğitimlerimiz mevcut. Özellikle IVPN veya Mullvad'ı tavsiye ederim:
+Plan ₿ Academy'de VPN'i kolayca kurmanız için size rehberlik edebilecek çeşitli eğitimlerimiz mevcut. Özellikle IVPN veya Mullvad'ı tavsiye ederim:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Çevrimiçi gizliliğinizi korumak için gerekli adımlar arasında şunlar da yer almaktadır:
 
@@ -511,21 +513,21 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 - Firefox, Brave veya Tor (gelişmiş anonimlik için) gibi gizlilik odaklı tarayıcılar kullanmak;
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
 - ProtonMail gibi bir **güvenli posta kutusu** kullanmak;
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 
 
 - Dosyalarınızı Bitlocker (Windows için) veya VeraCrypt (çoklu platformda kullanılabilir) gibi araçlarla şifrelemek**.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Adım adım ilerleme
 
@@ -542,7 +544,7 @@ Bitcoin dünyasının derinliklerine daldıkça, Wallet'ünüzün değeri arttı
 Kısacası: siber güvenliği hafife almayın, temelleri kurmak için zaman ayırın ve tutarlılığın anahtar olduğunu unutmayın. İyi bir dijital hijyen olmadan, en iyi araçlar bile sizin için fazla bir şey yapmayacaktır.
 
 
-Ayrıca Plan ₿ Network'teki [bilgisayar güvenliği eğitimlerimize] (https://planb.network/tutorials/computer-security) göz attığınızdan emin olun.
+Ayrıca Plan ₿ Academy'teki [bilgisayar güvenliği eğitimlerimize](https://planb.academy/tutorials/computer-security) göz attığınızdan emin olun.
 
 
 ![BTC102-Bitcoin](assets/tr/016.webp)
@@ -647,7 +649,7 @@ En önemlisi, yatırım kararlarınızı duygulara veya korkuya dayalı olarak v
 
 Hala emin değilseniz, **öğrenerek başlayın.**
 
-Bitcoin'u keşfetmek için birkaç saat harcayın, Plan ₿ Network'deki ücretsiz kaynaklara göz atın, birkaç kitap okuyun, sadece denemek için beş avro atın ve çevrimiçi olarak bazı kaliteli içerikler izleyin. Meraklı kalın. Ne kadar rahat olursanız, stratejinizi yeniden gözden geçirmek, yaklaşımınızı değiştirmek ve güvenle ilerlemek o kadar kolay olacaktır.
+Bitcoin'u keşfetmek için birkaç saat harcayın, Plan ₿ Academy'deki ücretsiz kaynaklara göz atın, birkaç kitap okuyun, sadece denemek için beş avro atın ve çevrimiçi olarak bazı kaliteli içerikler izleyin. Meraklı kalın. Ne kadar rahat olursanız, stratejinizi yeniden gözden geçirmek, yaklaşımınızı değiştirmek ve güvenle ilerlemek o kadar kolay olacaktır.
 
 
 ### BTC'nin oynaklığını anlamak
@@ -693,7 +695,7 @@ Bu riskten kaçınmak için, kurtarma ifadesine yalnızca sizin erişebileceğin
 Ownership'inizin Bitcoin'sini almaya hazırsanız ve kurtarma ifadenizin güvenliğini sağlamaya yönelik en iyi uygulamaları daha derinlemesine incelemek istiyorsanız, bu makaleye göz atmanızı şiddetle tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Gizlilik ve sağduyu
 
@@ -717,7 +719,7 @@ Dünya genelinde büyük miktarlarda BTC'ye sahip olduğu bilinen kişilerin ka�
 Bitcoin gizlilik konusunu daha derinlemesine incelemeye hazırsanız, kimliğinizi ve faaliyetlerinizi güvende tutmak için daha gelişmiş teknikler öğreneceğiniz 2. Yıl Gizlilik Kursumuza devam etmenizi öneririz:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Vergi etkileri
 
@@ -895,7 +897,7 @@ Birçok kişi bunu Bitcoin'un amacı olarak yorumluyor: aracılara ihtiyaç duym
 Bitcoin'in kökenleri hakkındaki bilgilerinizi derinleştirmek için konuyla ilgili ücretsiz, kapsamlı ve iyi belgelenmiş bir eğitim kursu sunuyoruz:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 ### Değer aktarımı için merkezi olmayan bir ağ
 
@@ -1007,7 +1009,7 @@ Bu yaklaşım daha teknik olmasına rağmen, en talepkar kullanıcılara üçün
 #### Esnek, Sınır Ötesi Bir Ödeme Yöntemi
 
 
-Merkezi olmayan yapısı nedeniyle Bitcoin, sınırlardan veya saat dilimlerinden etkilenmeden 7/24 çalışır. Geleneksel bankacılık altyapısının eksik olduğu bölgelerde, Bitcoin genellikle pahalı aracılara güvenmeden para göndermek veya almak için hızlı, düşük maliyetli bir çözüm olarak kullanılır. İşlem ücretleri ağ tıkanıklığına bağlı olarak değişebilmekle birlikte, genellikle uluslararası transferler için bankalar tarafından alınan ücretlerden çok daha düşüktür. Ayrıca, Layer gibi Lightning Network-2 çözümleri daha da hızlı ve ucuz Bitcoin işlemlerine olanak sağlar.
+Merkezi olmayan yapısı nedeniyle Bitcoin, sınırlardan veya saat dilimlerinden etkilenmeden 7/24 çalışır. Geleneksel bankacılık altyapısının eksik olduğu bölgelerde, Bitcoin genellikle pahalı aracılara güvenmeden para göndermek veya almak için hızlı, düşük maliyetli bir çözüm olarak kullanılır. İşlem ücretleri ağ tıkanıklığına bağlı olarak değişebilmekle birlikte, genellikle uluslararası transferler için bankalar tarafından alınan ücretlerden çok daha düşüktür. Ayrıca, Layer gibi [Lightning Network](https://planb.academy/resources/glossary/lightning-network)-2 çözümleri daha da hızlı ve ucuz Bitcoin işlemlerine olanak sağlar.
 
 
 #### Bir değer deposu
@@ -1037,10 +1039,10 @@ Bununla birlikte, on yılı aşkın bir süredir varlığını sürdüren Bitcoi
 ![BTC102-Bitcoin](assets/tr/028.webp)
 
 
-Bilginizi daha da genişletmek isterseniz, Bitcoin'in teknik ve ekonomik temellerini daha derinlemesine inceleyen BTC101 Plan ₿ Network kursuna katılabilirsiniz.
+Bilginizi daha da genişletmek isterseniz, Bitcoin'in teknik ve ekonomik temellerini daha derinlemesine inceleyen BTC101 Plan ₿ Academy kursuna katılabilirsiniz.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Bitcoin'e bu girişten sonra (5 dakikadan biraz daha uzun sürmüş olabilir!), artık bitcoin satın almayı ve güvenliğini sağlamayı düşünmek için daha donanımlısınız. Kursun ilerleyen bölümlerinde, Bitcoin'in önemini, endüstrisinin işleyişini ve çeşitli katmanlarının gelişimini daha derinlemesine inceleyeceğiz. Bir sonraki bölümde ise kendi kişisel planınızı nasıl oluşturacağınızı tartışacağız.
 
@@ -1464,15 +1466,15 @@ Bu platformlar, kullanıcıların merkezi bir aracı olmadan doğrudan birbirler
 **Dikkat:** Herhangi bir fiziksel işlemde, olası dolandırıcılıklardan kaçınmak için halka açık ve güvenli bir yer seçin.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - Yalnızca Bitcoin Exchange platformları**
@@ -1481,13 +1483,13 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 Bu platformlar basit ve şeffaf bir hizmet sunarak kullanıcı dostu bir yaklaşım benimsemektedir. Yalnızca Bitcoin'dirler. Genellikle Dolar-Maliyet Ortalaması (DCA) yoluyla bitcoin satın almak için çözümler uygularlar ve kişisel bir Wallet'a otomatik para çekme imkanı sunarlar. Özellikle aşamalı ve güvenli bir şekilde bitcoin biriktirmek isteyen yeni başlayanlar için uygundurlar. Örnekler: Relai, Bull Bitcoin, StackinSat, Bitstack...
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - Genel Amaçlı veya Ticaret Odaklı Exchange Platformları**
@@ -1496,13 +1498,13 @@ https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-42
 Bu platformlar, kaldıraç ve türevler dahil olmak üzere sadece Bitcoin satın almanın ötesinde gelişmiş özellikler sunar. Ancak, ticarete karşı şiddetle tavsiye ediyoruz. Bunun yerine, Bitcoin satın almanızı ve kendi Wallet'nize taşımanızı öneririz. Alım satım yüksek riskli bir faaliyettir ve genellikle uzun vadeli birikime odaklananlar için uygun değildir. Ticaret oyununun dışında kalmak genellikle daha akıllıca bir yoldur.
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 **Exchange platformları güvenli cüzdanlar değildir**. Bitcoinlerinizi bir Exchange'te bırakmak sizi önemli risklere maruz bırakır. Çeşitli senaryolar paranızın kaybolmasına neden olabilir:
 
@@ -1538,7 +1540,7 @@ Bitcoin Wallet endüstrisi, her biri farklı ihtiyaçlara ve teknik uzmanlık se
 
 
 
-- Hardware Wallet Üreticileri**: Bu şirketler güvenli anahtar depolama için tasarlanmış fiziksel cihazlar geliştirmektedir. Bazıları açık kaynaklıdır, diğerleri ise çeşitli özelliklere ve güvenlik seviyelerine sahip tescilli çözümler sunar. Önemli isimler arasında Ledger, Trezor, Coinkite, Foundation ve Shiftcrypto bulunmaktadır.
+- [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Üreticileri**: Bu şirketler güvenli anahtar depolama için tasarlanmış fiziksel cihazlar geliştirmektedir. Bazıları açık kaynaklıdır, diğerleri ise çeşitli özelliklere ve güvenlik seviyelerine sahip tescilli çözümler sunar. Önemli isimler arasında Ledger, Trezor, Coinkite, Foundation ve Shiftcrypto bulunmaktadır.
 - Software Wallet Geliştiriciler**: Bunlar, mobil ve masaüstü uygulamalar yaratan şirketlerden bağımsız geliştiricilere kadar uzanmaktadır. Sundukları teklifler kullanıcı deneyimi, güvenlik ve özellikler açısından farklılık gösterir. Örnekler arasında Sparrow, Wizard Sardine, Galoy, Synonym ve Blockstream bulunmaktadır.
 - DIY (*Kendin Yap*) Cüzdanlar**: Bu açık kaynaklı çözümler, tam kontrol ve üçüncü taraflara minimum bağımlılık isteyen ileri düzey kullanıcılar için tasarlanmıştır. Kendi Wallet'nizi oluşturmak güven bağımlılıklarını azaltır ve güvenlik duruşunuzu artırabilir. Önemli DIY seçenekleri arasında Seedsigner ve Specter DIY bulunmaktadır.
 
@@ -1567,7 +1569,7 @@ Mining ekosistemi birkaç büyük oyuncudan oluşmaktadır:
 Mining, keşfedilecek birçok katmanı olan kendi başına bir dünyadır; teknik zorluklar, ekonomik teşvikler ve enerji hususlarının tümü devreye girer. Bu alanı daha fazla keşfetmek ve nasıl çalıştığını gerçekten anlamak isteyenler için MIN201 kursumuz bilmeniz gereken her şeyi size sunuyor.
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 #### Bitcoin ekosisteminde gelişim
 
@@ -1603,7 +1605,7 @@ Bir bakımcı tartışmalı bir değişikliği onaylasa bile, **node'lar (kullan
 Ayrıca **Bitcoin core'nin tek istemci olmadığını** da belirtmek gerekir. Bitcoin Knots gibi alternatifler de Bitcoin protokolünü uygulayarak kullanıcılara daha fazla seçenek sunar ve sistemin ademi merkeziyetini güçlendirir:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 ## Bitcoin'nin Katmanlı Mimarisi
 
@@ -1642,7 +1644,7 @@ Diyelim ki Bitcoin ile Layer tabanını kullanarak bir kahve satın alıyorsunuz
 Lightning'in nasıl çalıştığı hakkında daha fazla bilgi edinmek istiyorsanız, bu konuya adanmış mükemmel bir ikinci yıl kursu sunuyoruz:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 - Yan zincirler**:
@@ -1660,7 +1662,7 @@ Yan zincir kavramı 2014 yılında Adam Back, Matt Corallo, Luke Dashjr, Mark Fr
 Liquid'ü daha ayrıntılı olarak incelemek isterseniz, konuyla ilgili ileri düzey bir üçüncü sınıf kursu sunuyoruz:
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 - RGB**:
@@ -1678,7 +1680,7 @@ RGB'nın önemli bir özelliği, Tek Kullanımlık Mühürler adı verilen bir k
 RGB hakkındaki bilgilerinizi derinleştirmek için dördüncü yıl eğitim kursu sunuyoruz (lütfen oldukça teknik olduğunu unutmayın):
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB, Bitcoin'in üzerine inşa edilen birçok protokolden sadece biridir. Bazıları diğerlerinden daha yaygın olarak benimsenmiş olsa da yenileri ortaya çıkmaya devam etmektedir. Ortak nokta, Bitcoin'in temel protokolünün bütünlüğünü ve değişmezliğini korurken, her bir Layer'u belirli bir görev için optimize etme fikridir.
 
@@ -1701,17 +1703,17 @@ Günümüzde, Bitcoin'yi bir ödeme şekli olarak kabul etmek isteyen tüccarlar
 Uygulamadan bağımsız bir çözümü tercih ediyor ve itibari para birimini doğrudan banka hesabınıza almak istiyorsanız OpenNode gibi saklama hizmetleri kolaylaştırılmış bir deneyim sunar:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Teknik açıdan daha yatkın olan ve süreç üzerinde tam kontrol sahibi olmak isteyen tüccarlar için BTCPay Server harika bir açık kaynak seçeneğidir. Ana dezavantajı, bazı teknik bilgilerle birlikte kurulum ve bakım için zaman gerektirmesidir:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Bu ikisinin arasında bir yerde, kullanım kolaylığı, işlevsellik ve güvenlik arasında iyi bir denge kuran, kullanıcı dostu ancak güçlü bir çözüm olan Swiss Bitcoin Pay'i bulacaksınız. Hem küçük perakendeciler hem de daha büyük işletmeler için iyi çalışır:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Bitcoin'yi kabul etmek bir işletmeye çeşitli pratik ve finansal faydalar sağlayabilir. Tıpkı nakit para gibi, Bitcoin de müşteri ile satıcı arasında doğrudan ödeme yapılmasına olanak tanır (geleneksel bir bankaya gerek yoktur). Lightning Network aracılığıyla yapılan ödemeler anında ve nihaidir, bu da ters ibraz riskini azaltır. Ve tüccarlar kendi Bitcoin'lerini tuttuklarında (öz saklama), daha fazla finansal özerklik kazanırlar.
 
@@ -1731,7 +1733,7 @@ Bunun da ötesinde, Bitcoin'yı kabul etmek akıllı bir pazarlama hamlesi olabi
 Bitcoin'nin işletmenize nasıl entegre edilebileceğini (bir ödeme yöntemi, bir hazine varlığı veya her ikisi olarak) keşfetmek istiyorsanız, bu ihtiyaca göre uyarlanmış başlangıç düzeyinde bir kurs sunuyoruz:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Bitcoin, birçok sektörde artan benimseme ile Exchange'un bir aracı olarak zemin kazanıyor. Lightning Network ödemeleri daha hızlı ve daha ucuz hale getirerek Bitcoin'in tüccarlar için cazibesini daha da artırdı.
 
@@ -2055,7 +2057,7 @@ Hot Wallet'unuzda çok fazla bitcoin birikirse, bir kısmını Cold deponuza akt
 Sonuç olarak, güvenlik büyük ölçüde araçları nasıl kullandığınıza bağlıdır. Mnemonic ifadesini kaybederseniz, ifşa ederseniz veya tehlikeye atarsanız Hardware Wallet'nin size pek bir faydası olmaz. Dikkat ve disiplin, bitcoin kaybetmeye karşı en iyi korumanızdır. Bu konuda daha fazla bilgi için bu makaleyi okumanızı şiddetle tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Edinim Yöntemleri ve İşlem Hacimleri
 
@@ -2114,7 +2116,7 @@ Kimliğinizi açıklamadan Bitcoin satın almak, gizliliğe öncelik verenler i�
 - P2P Platformları**: Bisq, RoboSats ve Peach gibi platformlar, işlemleri güvence altına almak için emanet sistemleri kullanarak kimlik doğrulamasına gerek kalmadan özel kişiler arasında alışverişi kolaylaştırır. Bu platformlar, karşı tarafın işbirliği yapmaması halinde hırsızlık riskini hala taşımaktadır, ancak risk emanet hizmetleri ile en aza indirilmiştir.
 - Bitcoin Otomatik Vezne Makineleri (ATM'ler)**: Bazı ATM'ler (kiosklar) nakit para ile Bitcoin satın almanıza izin verir, ancak ücretler yüksek olma eğilimindedir ve bazıları daha büyük işlemler için kimlik doğrulaması gerektirir.
 - KYC içermeyen Exchange platformları**: Özellikle İsviçre'deki bazı platformlar, kimlik doğrulaması gerektirmeden küçük miktarlarda Bitcoin satın almanıza izin verir.
-- Mining**: Bireyler Bitcoin madenciliği yapabilir. Daha eski veya daha küçük makinelere erişilebilir ve KYC olmadan Bitcoin elde etmek için geleneksel olmayan bir yol sağlar. Bir Mining pool'e katılarak, temel ekipmanlarla bile düzenli ödemeler kazanabilirsiniz. Daha fazla bilgi için [Mining eğitimlerimize göz atın] (https://planb.network/tutorials/Mining).
+- Mining**: Bireyler Bitcoin madenciliği yapabilir. Daha eski veya daha küçük makinelere erişilebilir ve KYC olmadan Bitcoin elde etmek için geleneksel olmayan bir yol sağlar. Bir Mining pool'e katılarak, temel ekipmanlarla bile düzenli ödemeler kazanabilirsiniz. Daha fazla bilgi için [Mining eğitimlerimize göz atın](https://planb.academy/tutorials/mining).
 - Ödemeler / Maaş bitcoin olarak**: Eğer bir işletme işletiyorsanız, ödeme olarak Bitcoin kabul edebilirsiniz. Çalışıyorsanız, yargı alanınıza bağlı olarak, Bitcoin ile ödeme yapılmasını isteyebilirsiniz. Bu yöntemler KYC olmadan Bitcoin elde etmenizi sağlar.
 
 
@@ -2281,22 +2283,22 @@ Her şeyden önce güvenlik. Bir Hardware Wallet şarttır. Özel anahtarların�
 İşte hodlers için harika olan cüzdanlar için bazı öğreticiler:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Wallet'iniz kurulduktan sonra, 12 veya 24 kelimelik kurtarma ifadenizi dayanıklı bir fiziksel ortama yedeklediğinizden emin olun. İfadeniz için hangi ortamı seçeceğiniz hakkında daha fazla bilgi edinmek için bu eğitimi izleyin:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Daha fazla gönül rahatlığı için, aşağıdaki gibi koruma katmanları ekleyebilirsiniz:
 
@@ -2304,13 +2306,13 @@ Daha fazla gönül rahatlığı için, aşağıdaki gibi koruma katmanları ekle
 - Zaman kilitli çoklu-imzalı bir Wallet:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 
 - BIR BIP39 passphrase:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![BTC102-Bitcoin](assets/tr/073.webp)
 
@@ -2324,13 +2326,13 @@ Hodlerlar coinlerini asla borsalarda bırakmazlar. Platformlar saldırıya uğra
 Hodlerlar daha büyük miktarlarda yatırım yapma eğiliminde olduklarından, güçlü likiditeye sahip borsalara ihtiyaç duyarlar. İşte faturaya uyan birkaç tanesi:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
 ![BTC102-Bitcoin](assets/tr/074.webp)
 
@@ -2375,7 +2377,7 @@ Birkaç en iyi uygulama:
 Özel anahtarlarınızdan ödün vermeden varlıklarınızı izlemek için bir Watch-only wallet kullanmayı düşünün. Yalnızca açık anahtarlarınızı kullanarak bakiyeleri ve işlemleri izlemenizi sağlar.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Hodler'ın stratejisi basit ama güçlüdür: satın al, güvenceye al ve unut. Asıl zorluk teknik değil; psikolojiktir. En zor kısım, çok erken satma veya fiyat düşüşleri sırasında panik yapma dürtüsüne direnmektir. Ancak disiplinli kalır ve uzun vadeli düşünürseniz, hodling'in değeri korumanın ve zaman içinde servet oluşturmanın güvenilir bir yolu olduğu kanıtlanmıştır.
 
@@ -2460,38 +2462,38 @@ Bir istifleyici, kullanım kolaylığı ile uzun vadeli güvenliği dengeleyen b
 - Hot Wallet**: Yeni başlayanlar için ideal olan mobil veya masaüstü cüzdanlar, kolayca Sats almanıza ve ödeme yapmanıza olanak tanır. Ancak, küçük miktarlar için en uygun olanlardır. On-Chain cüzdanları, daha iyi UTXO yönetimi nedeniyle Lightning cüzdanlarına göre istifleme için tercih edilir. Önerilen yazılım cüzdanları: Green Wallet, Blue Wallet, Sparrow wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
+https://planb.academy/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 - Hardware Wallet**: Bitcoin varlıklarınız arttıkça, hırsızlık riskini en aza indirmek için fonlarınızı bir Cold Wallet ile güvence altına almak çok önemlidir. Ciddi bir istifleyici fonlarını düzenli olarak Hot Wallet'ten Hardware Wallet'ye taşır. Örnekler: Bitbox02, Trezor, Ledger, Coldcard, Jade...
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 En etkili yaklaşım her ikisini de kullanmaktır: günlük istifleme için bir Hot Wallet ve uzun süreli Cold depolama için bir Hardware Wallet. Hot Wallet'un kullanımı kolay ve rahattır. Bitcoinlerinizi riske maruz kalabilecekleri platformda bırakmak yerine hızlı bir şekilde sahiplenmenizi sağlar. Ancak, Hardware Wallet ile karşılaştırıldığında, Hot Wallet çok daha az güvenlik sunar. Bu nedenle istifleyici, uzun vadeli birikimlerini güvence altına almak ve Hot Wallet'da çok fazla fon tutmaktan kaçınmak için fonlarını düzenli olarak Cold Wallet'a aktarmalıdır. İstifleyici, Cold deposuna transfer yaparken periyodik olarak UTXO'ları birleştirir; gelecekteki işlem ücretlerini optimize etmek için küçük girdileri birleştirir.
 
@@ -2519,37 +2521,37 @@ Ardından, DCA'nızı ayarlamak için iki seçeneğiniz vardır: otomatikleştir
 DCA platformlarına örnekler:
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 DCA'yı destekleyen ana akım borsalar:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 İstifleyiciler, birincil amaçları bu olmasa bile gizliliklerini artırmak da isteyebilirler. Bu durumda, düzenlenmiş platformların dışında bir P2P satın alma yöntemi kullanmayı düşünmelidirler. Otomatik DCA alımlarının aksine, bu yöntemler satın alma stratejinizi manuel olarak yönetmenizi gerektirir, bu nedenle disiplin, yolda kalmanın anahtarıdır.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 #### 3. Bitcoinlerin çekilmesi ve güvence altına alınması
 
@@ -2579,7 +2581,7 @@ Anahtar alışkanlıklar:
 Güvenlikten ödün vermeden kolay izleme için, açık anahtar kullanarak bakiyeleri izlemek üzere bir Watch-only wallet kurun.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### İstifleyici profilinizi değerlendirin
 
@@ -2671,53 +2673,53 @@ Aktif kullanıcılar, güvenlik ve rahatlığı dengelemek için iki farklı cü
 - Uzun vadeli tasarruf sağlamak için bir Cold Wallet (Hardware Wallet).
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 
 - Günlük işlemler için bir veya daha fazla mobil Hot cüzdanı. Tipik olarak, aktif bir kullanıcı hem bir On-Chain Hot Wallet hem de bir Lightning Wallet'ya sahip olacaktır.
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
+https://planb.academy/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 Fonlarınızı bu şekilde ayırmak, günlük ödemeler için kullanılan Wallet'in tehlikeye girmesi durumunda riski azaltmaya yardımcı olur.
 
@@ -2728,22 +2730,22 @@ Fonlarınızı bu şekilde ayırmak, günlük ödemeler için kullanılan Wallet
 Aktif kullanıcılar genellikle kişisel durumlarına bağlı olarak güvenilir üçüncü taraflara olan bağımlılıklarını azaltmayı hedefler. Bunu başarmanın en etkili yollarından biri kendi Bitcoin düğümlerini çalıştırmaktır. Bu, işlemlerinin gizliliğini artırırken ağı bağımsız olarak kullanmalarına olanak tanır.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 Lightning Network'i düzenli olarak kullananlar için kendi LND, LDK veya Core-Lightning düğümlerini yönetmek akıllıca bir hareket olabilir. Bu onlara kanalların açılması ve kapatılması üzerinde tam kontrol sağlar, kendi egemenliklerini artırır ve hatta işlem ücretlerinin düşürülmesine yardımcı olabilir; özellikle Phoenix gibi otomatik çözümlerle veya daha kötüsü emanet Lightning cüzdanlarıyla karşılaştırıldığında.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 #### 3. Düzenli Bitcoin Alımı
 
@@ -2761,45 +2763,45 @@ Aradığınız gizlilik düzeyine bağlı olarak Bitcoin'ü edinmenin birkaç yo
 - Bitfinex veya Bull Bitcoin gibi düzenlenmiş platformlar** aracılığıyla geleneksel satın alma (Cold Wallet'nızı doldurmak için ideal);
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - Peach, Robosats veya Bitcoin ATM'leri gibi eşler arası hizmetler aracılığıyla KYC dışı edinim**; kişisel bilgilerinizi açıklamadan Wallet'unuza ekleme yapmanıza olanak tanır.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - Bitcoin'da Kazanç**, Aktif bir kullanıcı olmak sadece BTC harcamakla ilgili değildir; aynı zamanda onu kazanmakla da ilgilidir. Bir işletme işletiyorsanız, Bitcoin'ı ödeme olarak kabul etmeyi düşünün. Eğer bir çalışansanız, işvereninizin maaşınızın tamamını veya bir kısmını BTC olarak alma seçeneği sunup sunmadığına bakın.
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 ![BTC102-Bitcoin](assets/tr/081.webp)
 
@@ -2813,13 +2815,13 @@ Bitcoin harcama tercihi sıklıkla eleştiri konusu olmaktadır. Bazı Bitcoin k
 Daha mantıklı bir yaklaşım "Harca ve Değiştir" yöntemidir. Bu, daha önce bahsedilen tüm nedenlerle Bitcoin harcamak ve ardından Bitcoin birikimlerinizin azalmasına izin vermek yerine, fiat para birimi ile yenilerini satın alarak harcanan Sats'ü değiştirmek anlamına gelir.
 
 
-Bitcoin harcamalarını kolaylaştırmak için, dünya çapında Bitcoin kabul eden tüccarları gösteren [BTC Map] (https://btcmap.org/) gibi birçok araç mevcuttur. Bu tüccarlardan bazıları çevrimiçi sipariş vermenize ve ürünlerin teslim edilmesine bile izin verir.
+Bitcoin harcamalarını kolaylaştırmak için, dünya çapında Bitcoin kabul eden tüccarları gösteren [BTC Map](https://btcmap.org/) gibi birçok araç mevcuttur. Bu tüccarlardan bazıları çevrimiçi sipariş vermenize ve ürünlerin teslim edilmesine bile izin verir.
 
 
 Hala tüm günlük tüccarların BTC'yi kabul etmediği bir geçiş aşamasında olduğumuz için, bazı basit ama etkili geçici çözümler var. Örneğin, Bitcoin ile hediye kartları satın almak pratik bir çözümdür ve Bitrefill, Coinsbee veya The Bitcoin Company gibi birçok sağlayıcı bu hizmeti sunmaktadır.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 #### 5. Teknolojik Farkındalık ve Esneklik
 
@@ -2908,24 +2910,24 @@ Paranoyak kullanıcı fonları asla kaynağına veya kullanımına göre karış
 
 
 
-- Bir Cold Wallet (hava boşluklu ve/veya kendin yap)** Uzun vadeli varlıklar yüksek güvenlikli, hava boşluklu veya kendin yap cüzdanlarda saklanır. Bunlar genellikle açık kaynaklı cihazlar veya Jade, Coldcard, SeedSigner, Portal veya Passport gibi doğrulanabilir koda sahip cihazlardır... Mümkün olduğunda, bu cihazları anonim olarak edinecekler; ya nakit ödeme yaparak ya da fiziksel bir mağazada Bitcoin kullanarak ya da gizli nakliye seçenekleri ve BTC ödemeleri ile çevrimiçi sipariş vererek. Örneğin Fransa'da [Bitcoin Bazar] (https://bitcoinbazar.fr/) böyle bir mağaza. Bölgenizdeki benzer sağlayıcıları arayabilirsiniz.
+- Bir Cold Wallet (hava boşluklu ve/veya kendin yap)** Uzun vadeli varlıklar yüksek güvenlikli, hava boşluklu veya kendin yap cüzdanlarda saklanır. Bunlar genellikle açık kaynaklı cihazlar veya Jade, Coldcard, SeedSigner, Portal veya Passport gibi doğrulanabilir koda sahip cihazlardır... Mümkün olduğunda, bu cihazları anonim olarak edinecekler; ya nakit ödeme yaparak ya da fiziksel bir mağazada Bitcoin kullanarak ya da gizli nakliye seçenekleri ve BTC ödemeleri ile çevrimiçi sipariş vererek. Örneğin Fransa'da [Bitcoin Bazar](https://bitcoinbazar.fr/) böyle bir mağaza. Bölgenizdeki benzer sağlayıcıları arayabilirsiniz.
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
 - Günlük işlemler için bir Hot Wallet**, Düzenli harcamalar için paranoyak kullanıcılar Ashigaru, Wasabi Wallet veya Sparrow wallet gibi gizlilik odaklı cüzdanları tercih eder. Bu cüzdanlar, mini CoinJoin harcama işlemleri, payjoins, potansiyel CoinJoin araçları, Coin kontrolü, UTXO etiketleme veya kendi Bitcoin düğümünüz üzerinden bağlanma yeteneği gibi gelişmiş özellikleri destekler.
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
 ![BTC102-Bitcoin](assets/tr/089.webp)
 
@@ -2935,23 +2937,23 @@ https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-80
 - Kendi **Bitcoin düğümlerini** çalıştırmak esastır. İşlem yayını üzerinde tam kontrol sağlar ve üçüncü taraf altyapısına bağımlılığı önler. Ayrıca gizliliği korur, sansürü önler ve Bitcoin protokolünün kurallarını bağımsız olarak doğrulamalarını sağlar. İster Linux, Windows, macOS üzerinde ister RaspiBlitz, myNode veya Start9 gibi tak ve çalıştır kurulumlar aracılığıyla olsun, paranoyak kullanıcı kendi düğümünü egemenliğin tartışılmaz bir sütunu olarak görür.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 
 - Aynı düzeyde kontrol ve takdir yetkisini koruyarak **Lightning Network** üzerinden işlem yapmak için kendi Lightning düğümlerini de işletirler. Bu, kanalları doğrudan yönetmelerine ve gözetimi veya saklama hizmetlerine bağımlılığı en aza indirecek şekilde harcama yapmalarına olanak tanır.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 ![BTC102-Bitcoin](assets/tr/090.webp)
 
@@ -2959,19 +2961,19 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 Güvenlik bununla da bitmiyor. Paranoyak kullanıcılar seed cümlelerini yedeklemek için kurcalanmaya karşı korumalı mühürlü zarflarla birleştirilmiş metal yedekler kullanır. Yedeklerin tehlikesiz kaldığını düzenli olarak doğrular ve her türlü olasılığa hazır olmak için Wallet kurtarma prosedürlerini test ederler.
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Tasarrufların güvence altına alınması söz konusu olduğunda, çoklu imza cüzdanları (zaman kilitli veya kilitsiz) gibi daha sofistike kurulumlar uygulayabilirler.
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Bu yapılandırmalar riskleri azaltır. seed ifadesine bir BIP39 passphrase eklemek, bir Layer koruması daha ekler ve fonlarına erişimin tek bir keşifle tehlikeye atılmamasını sağlar.
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Paranoyak bir Bitcoin kullanıcısı elbette bitcoinleri için iyi düşünülmüş bir miras planına sahip olacaktır. Bu önemli konu, kursun bir sonraki bölümünde ayrıntılı olarak ele alınacaktır.
 
@@ -2983,50 +2985,50 @@ Daha geniş anlamda, bu tür kullanıcılar bir bütün olarak bilişime gelişm
 - Hem telefonlarındaki hem de bilgisayarlarındaki işletim sistemleri**;
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 - Kimlik doğrulama araçları**;
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 
 - İletişim araçları**;
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 - Veri yönetim araçları**.
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 BT güvenliği konusu hakkında daha fazla bilgi edinmek isterseniz, bu konuya adanmış eksiksiz bir birinci yıl kursu sunuyoruz:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 #### 2. Anonim olarak bitcoin satın alma
 
@@ -3038,21 +3040,21 @@ Paranoyak yatırımcılar için temel ilke, Bitcoin'yı gerçek dünyadaki kimli
 - Bisq, Robosat, LNP2PBot, Peach, HODL HODL, vb. gibi P2P satın alma platformları**;
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - Yüz yüze nakit takası**, örneğin yerel Bitcoin buluşmalarında;
 
 
-https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
+https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 
 - Bitcoin ATM'ler**;
@@ -3060,11 +3062,11 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 - Mining bitcoins**.
 
 
-https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
+https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
+https://planb.academy/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
-https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
+https://planb.academy/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
 Hem gizlilik hem de potansiyel sansür veya el koyma riskleri nedeniyle merkezi borsalardan tamamen kaçınılmaktadır.
 
@@ -3092,7 +3094,7 @@ Ayrıca Blockchain gözetiminin temellerine aşinadırlar ve şirketlerin faaliy
 On-Chain gizlilik ve gözetim direnci konusunda daha derinlere inmek isteyenler için, Bitcoin gizlilik uygulamaları konusunda ileri düzey bir ikinci yıl eğitimi sunuyoruz:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 4. Tetikte olmak ve stratejilerini güncellemek
 
@@ -3182,7 +3184,7 @@ Miras planı için sadece 15 dakika ila bir saat harcamak büyük fark yaratabil
 ### Bitcoin Yedekleme Planının Hedefleri
 
 
-Pamela Morgan, *[Cryptoasset Inheritance Planning] (https://www.amazon.com/gp/product/1947910116/)* adlı kitabında, sağlam bir miras planı için dört temel hedefin ana hatlarını çizmektedir:
+Pamela Morgan, *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)* adlı kitabında, sağlam bir miras planı için dört temel hedefin ana hatlarını çizmektedir:
 
 
 
@@ -3465,7 +3467,7 @@ Gerekirse, planınızı resmi olarak yasal bir çerçeveye entegre etmek için b
 **Tebrikler!** Bitcoin servetinizi güvence altına almak için kritik bir adımı tamamladınız. Artık miras planınızı periyodik olarak gözden geçirerek ve zaman kilitli Multisig kurulumlarını azaltmak gibi daha gelişmiş çözümleri keşfederek iyileştirebilirsiniz:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Referans: [*Kripto Varlık Miras Planlaması, Sahipler için Basit Bir Kılavuz* - Pamela Morgan, 2018.](https://www.amazon.com/gp/product/1947910116/)
 
@@ -3552,39 +3554,39 @@ Yolculuğunuz burada bitmiyor. Bitcoin sürekli gelişen bir dünyadır ve her z
 - Dijital güvenliğinizi bir üst seviyeye taşımak için giriş seviyesindeki güvenlik kursumuzla başlayın:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 - Bitcoin'un ekonomik ve felsefi yönü ilginizi çekiyorsa, bu derinlemesine kurslara göz atın:
 
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 
 - Bitcoin'i şirket stratejilerine entegre etmek isteyen işletme sahipleri kaçırmamalı:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 - Bitcoin'nin yaratılışının ve sistemin ilk yıllarının ardındaki büyüleyici hikayeyi keşfetmek için bu kursu şiddetle tavsiye ediyorum:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 - Son olarak, Bitcoin ve ekosisteminin teknik yönlerini merak ediyorsanız, bu eğitim kurslarını keşfedin:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 3. Bitcoin Ekosistemine Katkıda Bulunun
 
@@ -3598,7 +3600,7 @@ Bitcoin finansal bir araçtan daha fazlasıdır; bu bir harekettir. Becerilerini
 - Yerel bir topluluğa katılın**: Diğer bitcoin kullanıcılarıyla tanışmak ve en son gelişmeler hakkında Exchange görüşlerini almak için etkinliklere, buluşmalara ve forumlara katılın.
 
 
-Başkalarını eğitmeye yardımcı olmak isterseniz, Plan ₿ Network her zaman katkıda bulunacak kişiler arıyor! Tüm eğitim içeriğimiz açık kaynaklıdır ve GitHub'da barındırılmaktadır. İçeriği düzeltmeye ve çeşitli dillere çevirmeye yardımcı olacak katılımcıları bekliyoruz; birkaç Sats için Exchange'da! İster şimdi ister daha sonra Bitcoin yolculuğunuzda, Plan ₿ Network'un [katkıda bulunanlar için Telegram grubumuza] (https://t.me/PlanBNetwork_ContentBuilder) katılmaya davetlisiniz.
+Başkalarını eğitmeye yardımcı olmak isterseniz, Plan ₿ Academy her zaman katkıda bulunacak kişiler arıyor! Tüm eğitim içeriğimiz açık kaynaklıdır ve GitHub'da barındırılmaktadır. İçeriği düzeltmeye ve çeşitli dillere çevirmeye yardımcı olacak katılımcıları bekliyoruz; birkaç Sats için Exchange'da! İster şimdi ister daha sonra Bitcoin yolculuğunuzda, Plan ₿ Academy'un [katkıda bulunanlar için Telegram grubumuza](https://t.me/PlanBNetwork_ContentBuilder) katılmaya davetlisiniz.
 
 
 ### Son Sözler
@@ -3607,7 +3609,7 @@ Başkalarını eğitmeye yardımcı olmak isterseniz, Plan ₿ Network her zaman
 BTC102 kursunu aldığınız için çok teşekkür ederiz.
 
 
-Adım Rogzy, Découvre Bitcoin'ün kurucusu ve Plan ₿ Network'ün kurucu ortağıyım; inanılmaz yeni ortaklarımız Tether ve Fulgur Ventures tarafından ve Bitcoin hakkında mümkün olduğunca çok insanı eğitme ortak misyonumuzla mümkün kılınan bir platform.
+Adım Rogzy, Découvre Bitcoin'ün kurucusu ve Plan ₿ Academy'ün kurucu ortağıyım; inanılmaz yeni ortaklarımız Tether ve Fulgur Ventures tarafından ve Bitcoin hakkında mümkün olduğunca çok insanı eğitme ortak misyonumuzla mümkün kılınan bir platform.
 
 
 Geri bildirimleriniz son derece değerli. Platforma yorum bırakmaktan çekinmeyin ve kursun bu güncellenmiş versiyonu hakkında ne düşündüğünüzü bize bildirin. Önerileriniz, içeriğimizin kalitesini geliştirmeye devam etmemize yardımcı oluyor.
@@ -3619,7 +3621,7 @@ Artık final sınavına girmeye hazırsınız; anladığınızı doğrulayacak v
 İyi şanslar!
 
 
-Umarım yakında Plan ₿ Network ile ilgili başka bir kursta tekrar görüşürüz; ister benim kursum olsun, ister topluluktaki başka bir harika öğretmenin kursu olsun. Ve kim bilir, belki bir konferansta, etkinlikte veya Bitcoin buluşmasında yüz yüze bile tanışırız.
+Umarım yakında Plan ₿ Academy ile ilgili başka bir kursta tekrar görüşürüz; ister benim kursum olsun, ister topluluktaki başka bir harika öğretmenin kursu olsun. Ve kim bilir, belki bir konferansta, etkinlikte veya Bitcoin buluşmasında yüz yüze bile tanışırız.
 
 
 Geldiğiniz nokta için bir kez daha tebrikler. Ve unutmayın; öncelikli hedefim her zaman aynı kalacaktır:

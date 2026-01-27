@@ -1,0 +1,9 @@
+question: Hva er den primære bekymringen med avgiftssniping når Bitcoins blokktilskudd nærmer seg null?
+answer: Utvinnere kan finne det mer lønnsomt å omskrive tidligere blokker med høye avgifter i stedet for mining nye blokker
+wrong_answers:
+  - Transaksjonsgebyrene vil bli for dyre til at vanlige brukere har råd til Bitcoin-transaksjoner
+  - Den totale tilførselen av Bitcoin vil overstige 21 millioner på grunn av økte mining-insentiver
+  - Gruvearbeidere vil slutte helt med mining fordi transaksjonsgebyrene alene ikke kan dekke strømkostnadene
+explanation: |
+  Avgiftssniping oppstår når utvinnere forsøker å utvinne tidligere blokker som inneholdt transaksjoner med høye avgifter, i stedet for å utvide kjeden på ærlig vis. Dette blir økonomisk rasjonelt når avgiftene i en tidligere blokk er betydelig høyere enn i den nåværende mempoolen. Selv om sannsynligheten for å lykkes er lavere enn ved ærlig mining, kan den potensielle belønningen være mye høyere. Denne atferden er spesielt bekymringsfull fordi den kan skape en kaskadeeffekt der flere utvinnere engasjerer seg i uærlig praksis, noe som til slutt truer Bitcoins sikkerhetsmodell når blokksubsidiene reduseres.
+reviewed: false

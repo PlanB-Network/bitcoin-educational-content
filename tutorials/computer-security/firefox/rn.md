@@ -563,7 +563,7 @@ Ibikorwa vyiza
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
@@ -571,7 +571,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 
 
@@ -599,7 +599,7 @@ Mu gukurikiza iyi ntambwe ku yindi, warahinduye Firefox iba igihome nyaco co kur
 
 
 
-### Plan ₿ Network.
+### Plan ₿ Academy.
 
 
 
@@ -608,7 +608,7 @@ Mu gukurikiza iyi ntambwe ku yindi, warahinduye Firefox iba igihome nyaco co kur
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Inyandiko za Mozilla
 
@@ -627,7 +627,7 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [Wiki n'ubuyobozi bwo gushiramwo](wiki): Inyandiko z'umugambi wa Arkenfox zishitse
-- [Ibiziga n'ibisohoka] (https://github.com/arkenfox/user.js): Gukuraho dosiye y'user.js maze ukurikirane ivyagezwe
+- [Ibiziga n'ibisohoka](https://github.com/arkenfox/user.js): Gukuraho dosiye y'user.js maze ukurikirane ivyagezwe
 
 
 
@@ -651,5 +651,5 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 - [Igerageza ry'ugusohoka kwa DNS](https://www.dnsleaktest.com/): Igerageza ry'ugusohoka kwa DNS n'ubushobozi bwa DoH
 - [Ivyasohotse mu mucukumbuzi](https://ivyasohotse mu mucukumbuzi.com/): Ivyagezwe vyuzuye (WebRTC, Igitambaro, Imyandikire, n'ibindi)
 - [BadSSL]( https://badssl.com/): Igerageza ryo kwemeza icemezo ca SSL/TLS
-- [CreepJS] (https: Abrahamjuliot.github.io/creepjs/): Isesengura ry'imbere ry'ibimenyetso vy'intoke 50+
+- [CreepJS](https: Abrahamjuliot.github.io/creepjs/): Isesengura ry'imbere ry'ibimenyetso vy'intoke 50+
 - [Igerageza rya DNS ry'Igicu](https://1.1.1.1/imfashanyo): Kugenzura ko DoH y'Igicu ikora neza

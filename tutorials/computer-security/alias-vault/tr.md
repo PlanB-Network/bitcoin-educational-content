@@ -1,5 +1,5 @@
 ---
-name: Takma Ad Kasası
+name: Alias Vault
 description: Parolaları, iki faktörlü kimlik doğrulamayı ve takma adları yönetmek için güçlü bir araç (yerleşik e-posta sunucusu ile) - Ayrıca kendi kendine barındırılır!
 ---
 
@@ -51,7 +51,7 @@ Bu güçlü aracın keşfinde yeni gelenlere eşlik edecek kapsamlı ve eksiksiz
 
 
 
-Her zaman olduğu gibi [aliasvault.net] (aliasvault.net) web sitesinden başlar. Belirtildiği gibi, Alias Vault kişinin kendi sunucusunda veya kendi kendine barındırılan çözüme geçmeden önce onu tanımak için geliştiricinin bulutundan kullanılabilir.
+Her zaman olduğu gibi [aliasvault.net](aliasvault.net) web sitesinden başlar. Belirtildiği gibi, Alias Vault kişinin kendi sunucusunda veya kendi kendine barındırılan çözüme geçmeden önce onu tanımak için geliştiricinin bulutundan kullanılabilir.
 
 
 
@@ -185,7 +185,7 @@ Bu e-postayı bir oturum açma hizmeti için kullanmadan önce, kendi Address'ni
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Test olarak oluşturduğunuz bir takma adı silmek için tek yapmanız gereken `Ev`, ardından `Kimlik Bilgileri` bölümüne giriş yapmak ve silmek istediğiniz kimliğe tıklamaktır. Devam edebilmeniz için sağ üst köşede _Delete_ komutu görünecektir.
 
@@ -433,7 +433,7 @@ Alias Vault _Beta_ aşamasında olduğundan, ana şifreyi değiştirirseniz/gün
 
 
 
-Alias Vault tarafından benimsenen mimari ve güvenliği tam olarak anlamak için, işleyişinin altında yatan kriptografinin ayrıntılarını içeren [bu sayfaya] (https://docs.aliasvault.net/architecture/) başvurmanızı şiddetle tavsiye ederim.
+Alias Vault tarafından benimsenen mimari ve güvenliği tam olarak anlamak için, işleyişinin altında yatan kriptografinin ayrıntılarını içeren [bu sayfaya](https://docs.aliasvault.net/architecture/) başvurmanızı şiddetle tavsiye ederim.
 
 
 

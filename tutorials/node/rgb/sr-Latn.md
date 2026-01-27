@@ -12,7 +12,7 @@ description: Uvod i kreiranje sredstava na RGB-u
 Dana 3. januara 2009. Satoshi Nakamoto je pokrenuo prvi Bitcoin čvor, od tog trenutka novi čvorovi su se pridružili i Bitcoin je počeo da se ponaša kao da je novi oblik života, oblik života koji nije prestao da evoluira, malo po malo postao je najsigurnija mreža na svetu kao rezultat svog jedinstvenog dizajna, veoma dobro osmišljenog od strane Satoshija jer, kroz ekonomske podsticaje, privlači korisnike koji se obično nazivaju rudarima da ulažu u energiju i računarsku snagu što doprinosi sigurnosti mreže.
 
 
-Kako Bitcoin nastavlja svoj rast i usvajanje, suočava se sa problemima skalabilnosti, Bitcoin mreža omogućava da se novi blok sa transakcijama iskopa za približno 10 minuta, pod pretpostavkom da imamo 144 bloka dnevno sa maksimalnim vrednostima od 2700 transakcija po bloku, Bitcoin bi omogućio samo 4,5 transakcija po sekundi, Satoshi je bio svestan ovog ograničenja, to možemo videti u emailu poslatom Mike Hearn-u u martu 2011. gde objašnjava kako ono što danas znamo kao platni kanal funkcioniše. mikroplaćanja brzo i sigurno bez čekanja na potvrde. Tu dolaze [off-chain](https://planb.network/resources/glossary/offchain) protokoli.
+Kako Bitcoin nastavlja svoj rast i usvajanje, suočava se sa problemima skalabilnosti, Bitcoin mreža omogućava da se novi blok sa transakcijama iskopa za približno 10 minuta, pod pretpostavkom da imamo 144 bloka dnevno sa maksimalnim vrednostima od 2700 transakcija po bloku, Bitcoin bi omogućio samo 4,5 transakcija po sekundi, Satoshi je bio svestan ovog ograničenja, to možemo videti u emailu poslatom Mike Hearn-u u martu 2011. gde objašnjava kako ono što danas znamo kao platni kanal funkcioniše. mikroplaćanja brzo i sigurno bez čekanja na potvrde. Tu dolaze [off-chain](https://planb.academy/resources/glossary/offchain) protokoli.
 
 
 Prema Christian Deckeru off-chain protokoli su obično sistemi u kojima korisnici koriste podatke iz Blockchain-a i upravljaju njima bez dodirivanja samog Blockchain-a do poslednjeg trenutka. Na osnovu ovog koncepta, nastala je Lightning mreža, mreža koja koristi off-chain protokole kako bi omogućila da se Bitcoin plaćanja izvrše gotovo trenutno i pošto sve ove operacije nisu zapisane na blokčejnu, omogućava hiljade transakcija po sekundi i Bitcoin skaliranje.
@@ -49,7 +49,7 @@ Pametni ugovor u RGB-u je usmeren aciklični graf (DAG) promena stanja, pri čem
 ## Zamenljiva sredstva
 
 
-[Zamenljiva sredstva](https://planb.network/resources/glossary/fungibility) u RGB-u prate specifikaciju LNPBP RGB-20, kada je RGB-20 definisan, podaci o sredstvima poznati kao "početni podaci (genesis)" distribuiraju se kroz Lightning mrežu, koji sadrže ono što je potrebno za korišćenje sredstva. Najosnovniji oblik sredstava ne dozvoljava sekundarno izdavanje, spaljivanje tokena, preimenovanje ili zamenu.
+[Zamenljiva sredstva](https://planb.academy/resources/glossary/fungibility) u RGB-u prate specifikaciju LNPBP RGB-20, kada je RGB-20 definisan, podaci o sredstvima poznati kao "početni podaci (genesis)" distribuiraju se kroz Lightning mrežu, koji sadrže ono što je potrebno za korišćenje sredstva. Najosnovniji oblik sredstava ne dozvoljava sekundarno izdavanje, spaljivanje tokena, preimenovanje ili zamenu.
 
 
 Ponekad će izdavalac morati da izda više tokena u budućnosti, tj. stablecoins kao što je USDT, koji održava vrednost svakog tokena vezanu za vrednost inflatorne valute kao što je USD. Da bi se postigla ova složenija RGB-20 šema, pored početnih (genesis) podataka, zahteva se od izdavaoca da kreira consignmente (pošiljke), koji će takođe cirkulisati na Lightning mreži; sa ovim informacijama možemo znati ukupnu količinu sredstava u opticaju. Isto važi i za uništavanje (burning) sredstava ili promenu njihovog imena.
@@ -109,16 +109,16 @@ RGB ima svoju zečiju rupu unutar Bitcoin zečije rupe, dok padam kroz njih obja
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
 
-# Tutorijal o RGB-čvoru 
+## Tutorijal o RGB-čvoru 
 
 
-## Uvod
+### Uvod
 
 
 U ovom vodiču objašnjavamo kako koristiti RGB-čvor za kreiranje zamenjivih tokena i kako ig preneti, ovaj dokument se zasniva na RGB-node demo i razlikuje se u tome što ovaj vodič koristi stvarne Testnet podatke i zbog toga, moramo izgraditi sopstvenu delimično potpisanu transakciju, na engleskom Partially Signed Bitcoin Transaction, PSBT od sada nadalje.
 
 
-## Zahtevi
+### Zahtevi
 
 
 Preporučuje se korišćenje Linux distribucije, ovaj vodič je napisan koristeći Pop!OS, koji je zasnovan na Ubuntu i biće vam potrebno:
@@ -296,7 +296,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
 
-## Izdavanje
+### Izdavanje
 
 
 Da bismo izdali sredstvo, pokrećemo rgb0-CLI sa podkomandama za izdavanje zamenjivih sredstva, zatim argumente, oznaku USDT, ime "USD Tether" i u alokaciji ćemo koristiti iznos izdavanja i issuance_utxo kao što vidimo ispod:
@@ -354,7 +354,7 @@ ticker: USDT
 ```
 
 
-## Generiši zaslepljeni (eng. blinded) UTXO
+### Generiši zaslepljeni (eng. blinded) UTXO
 
 
 Da bi primio novi USDT, RGB-node-1 treba da generiše zaslepljeni UTXO koji odgovara receive_utxo kako bi držao sredstvo.
@@ -371,7 +371,7 @@ Outpoint blinding secret: 1679197189805229975
 Da bismo mogli prihvatiti transfere vezane za ovaj UTXO, biće nam potrebni originalni receive_utxo i blinding_factor.
 
 
-## Prenos
+### Prenos
 
 
 Da bismo preneli određeni iznos imovine na RGB-node-1, potrebno je poslati ga na zaslepljeni UTXO, RGB-node-0 treba da kreira Consignment i objavu, i da je unese u Bitcoin transakciju. Zatim će nam biti potreban PSBT koji ćemo modifikovati da uključuje unos. Pored toga, opcije -i i -a omogućavaju nam da obezbedimo ulaznu tačku koja bi bila poreklo imovine i alokaciju gde ćemo primiti kusur, moramo to naznačiti na sledeći način @<change_utxo>.
@@ -388,7 +388,7 @@ Consignment data to share:consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2yv46ycudwy
 Ovo će upisati tri nova fajla: consignment, disclosure i psbt koji uključuje izmenu (tweak). Ovaj psbt se naziva witness transakcija, a consignment se šalje ka rgb-node-1.
 
 
-## Svedok transakcija (eng. witness transaction)
+### Svedok transakcija (eng. witness transaction)
 
 
 Witness Transaction treba potpisati i emitovati, za to je moramo ponovo kodirati u base64.
@@ -425,7 +425,7 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 ```
 
 
-## Emitovanje
+### Emitovanje
 
 
 Emitujte to koristeći podkomandu sendrawtransaction da bi bilo potvrđeno u Blockchain-u.
@@ -437,7 +437,7 @@ $ bcli sendrawtransaction "02000000000101eda9c9d4f406a7cae6704274149b9b75bfbcd28
 ```
 
 
-## Prihvati
+### Prihvati
 
 
 Da bi prihvatio dolazni transfer, rgb-node-1 treba da je dobio fajl consignment od rgb-node-0, kao i receive_utxo i odgovarajući blinding_factor koji su generisani tokom procesa zaslepljivanja (eng. blinding) UTXO-a.
@@ -568,7 +568,7 @@ blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ```
 
 
-## Zaključci
+### Zaključci
 
 
 Uspešno smo kreirali potpuno zamenljivo sredstvo i premestili ga iz jedne transakcije u drugu na privatan način. Ako proverimo potvrđenu transakciju u block explorer-u, ne bismo primetili ništa drugačije u odnosu na običnu transakciju, zahvaljujući tome što RGB koristi jednokratne pečate (single-use seals) za izmenu (tweak) transakcija. U ovom tekstu dajem uvod u način na koji RGB funkcioniše.

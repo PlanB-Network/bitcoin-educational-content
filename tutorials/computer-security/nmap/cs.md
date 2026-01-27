@@ -433,7 +433,7 @@ Jedná se o knihovnu, na kterou se Nmap spoléhá při správě síťové komuni
 
 
 
-Stejně jako v Linuxu můžete ověřit, zda je Nmap nainstalován, otevřením příkazového řádku nebo terminálu [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") a zadáním následujícího příkazu:
+Stejně jako v Linuxu můžete ověřit, zda je Nmap nainstalován, otevřením příkazového řádku nebo terminálu [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") a zadáním následujícího příkazu:
 
 
 
@@ -2198,7 +2198,7 @@ Proto je důležité pochopit, co Nmap dělá a nedělá, a stejně tak vědět,
 
 
 
-Ať už jste správce síťového systému, bezpečnostní inženýr nebo dokonce CISO, pomocí nástroje Nmap získáte přehled o stavu zabezpečení informačního systému. Jedná se o důležitý první krok k zabezpečení systému, který může tým IT provádět pravidelně. Neměl by však nahradit zásah a rady odborníků [na kybernetickou bezpečnost] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), kteří budou schopni odhalit slabá místa mnohem komplexněji než Nmap.
+Ať už jste správce síťového systému, bezpečnostní inženýr nebo dokonce CISO, pomocí nástroje Nmap získáte přehled o stavu zabezpečení informačního systému. Jedná se o důležitý první krok k zabezpečení systému, který může tým IT provádět pravidelně. Neměl by však nahradit zásah a rady odborníků [na kybernetickou bezpečnost](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), kteří budou schopni odhalit slabá místa mnohem komplexněji než Nmap.
 
 
 
@@ -2973,7 +2973,7 @@ Díky možnosti ukládat výsledky skenování Nmap ve formátu XML jsou data ko
 
 
 
-Zmíním se o několika útočných nástrojích, aniž bych podrobně popsal, jak se používají a jak fungují. Budu předpokládat, že čtenář je seznámen s jejich základním použitím a že jsou již funkční. Tato část bude zajímavá zejména pro profesionály [v oblasti kybernetické bezpečnosti] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), lidi ve výcviku nebo pro ty, kteří se rozhodli do této problematiky hlouběji ponořit.
+Zmíním se o několika útočných nástrojích, aniž bych podrobně popsal, jak se používají a jak fungují. Budu předpokládat, že čtenář je seznámen s jejich základním použitím a že jsou již funkční. Tato část bude zajímavá zejména pro profesionály [v oblasti kybernetické bezpečnosti](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), lidi ve výcviku nebo pro ty, kteří se rozhodli do této problematiky hlouběji ponořit.
 
 
 
@@ -3062,7 +3062,7 @@ seznam služeb importovaných ze souboru XML do databáze Metasploitu
 
 
 
-Nakonec můžeme tato data snadno a rychle znovu použít v modulu díky volbě `-R`, která "převede" seznam služeb získaný jako vstup pro direktivu `RHOSTS`, která slouží k určení cílů prováděného útoku. Zde je příklad s modulem `ssh_login`, který umožňuje provést útok hrubou silou na služby [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
+Nakonec můžeme tato data snadno a rychle znovu použít v modulu díky volbě `-R`, která "převede" seznam služeb získaný jako vstup pro direktivu `RHOSTS`, která slouží k určení cílů prováděného útoku. Zde je příklad s modulem `ssh_login`, který umožňuje provést útok hrubou silou na služby [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 
 

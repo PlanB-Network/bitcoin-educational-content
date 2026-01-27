@@ -1,0 +1,8 @@
+question: Mikä on elliptisen käyrän ryhmän identtinen elementti, jota käytetään pisteiden yhteenlaskuoperaatioissa?
+answer: Piste äärettömässä
+wrong_answers:
+  - Alkupiste (0,0)
+  - Generaattoripiste G
+  - Käyrän parametri a
+explanation: |
+  Äärettömyyspiste toimii elliptisten käyräryhmien identiteettielementtinä, mikä tarkoittaa, että minkä tahansa pisteen P lisääminen äärettömyyspisteeseen palauttaa P:n muuttumattomana. Tämä on analoginen tapa, jolla nollan lisääminen toimii tavallisessa aritmeettisessa laskutoimituksessa. Alkupiste (0,0) ei välttämättä ole käyrällä, generaattoripistettä G käytetään julkisten avainten luomiseen, ja käyrän parametri a on vain kerroin käyrän yhtälössä, ei identiteettielementti.

@@ -51,7 +51,7 @@ You can write it down on paper, or for greater security, engrave it on a stainle
 
 To learn more about best practices for backing up and managing a mnemonic phrase, I strongly recommend checking out this tutorial, especially if you’re new to Bitcoin:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Once your backup is complete, click "*Done! I've properly saved my Seed Phrase*".
 
@@ -255,4 +255,4 @@ You now know everything about Rumble Wallet!
 
 Owning a self-custodial wallet like Rumble Wallet is an essential step, but it’s only the beginning of your Bitcoin journey. To go further, gain independence, actively participate in the network, and strengthen your privacy, you should also run your own Bitcoin node. Not sure where to start? We’ve prepared a complete and free course that guides you step by step — from choosing your hardware and software to maintaining your first Bitcoin node.
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426

@@ -149,4 +149,4 @@ Selamat, Anda kini telah menguasai penggunaan *Keet messaging*, sebuah alternati
 
 Saya juga merekomendasikan tutorial lain, di mana saya memperkenalkan Anda pada Proton Mail, sebuah alternatif yang jauh lebih mengutamakan privasi daripada Gmail:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

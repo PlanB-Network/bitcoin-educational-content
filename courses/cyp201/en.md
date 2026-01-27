@@ -1,11 +1,11 @@
 ---
-name: The Inner Workings of Bitcoin Wallets
+name: Bitcoin Wallet Architecture
 goal: Dive into the cryptographic principles that power Bitcoin wallets.
 objectives:
-  - Define the theoretical notions necessary for understanding the cryptographic algorithms used in Bitcoin.
-  - Fully understand the construction of a deterministic and hierarchical wallet.
-  - Know how to identify and reduce the risks associated with managing a wallet.
-  - Understand the principles of hash functions, cryptographic keys, and digital signatures.
+- Define the theoretical notions necessary for understanding the cryptographic algorithms used in Bitcoin.
+- Fully understand the construction of a deterministic and hierarchical wallet.
+- Know how to identify and reduce the risks associated with managing a wallet.
+- Understand the principles of hash functions, cryptographic keys, and digital signatures.
 ---
 
 # A Journey into the Heart of Bitcoin Wallets
@@ -27,6 +27,8 @@ With clear pedagogy, over 60 explanatory diagrams, and concrete examples, CYP201
 ## Course Introduction
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
+
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
 
 Welcome to the CYP201 course, where we will explore in depth the workings of HD Bitcoin wallets. This course is designed for anyone who wants to understand the technical basics of using Bitcoin, whether they are casual users, enlightened enthusiasts, or future experts.
 
@@ -91,6 +93,8 @@ This table provides you with a translation of the main English terms used, to he
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
+
 The first type of cryptographic algorithms used in Bitcoin encompasses hash functions. They play an essential role at different levels of the protocol, but also within Bitcoin wallets. Let's discover together what a hash function is and what it's used for in Bitcoin.
 
 ### Definition and Principle of Hashing
@@ -98,7 +102,7 @@ The first type of cryptographic algorithms used in Bitcoin encompasses hash func
 Hashing is a process that transforms information of arbitrary length into another piece of information of fixed length through a cryptographic hash function. In other words, a hash function takes an input of any size and converts it into a fixed-size fingerprint, called a "hash".
 The hash can also sometimes be referred to as "digest", "condensate", "condensed", or "hashed".
 
-For example, the SHA256 hash function produces a hash of a fixed length of 256 bits. Thus, if we use the input "_PlanB_", a message of arbitrary length, the generated hash will be the following 256-bit fingerprint:
+For example, the [SHA256](https://planb.academy/resources/glossary/sha256) hash function produces a hash of a fixed length of 256 bits. Thus, if we use the input "_PlanB_", a message of arbitrary length, the generated hash will be the following 256-bit fingerprint:
 
 ```text
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -203,6 +207,8 @@ You now know the essential basics about hashing functions for what follows. In t
 ## The Inner Workings of SHA256
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
 
 We have previously seen that hashing functions possess important characteristics that justify their use in Bitcoin. Let's now examine the internal mechanisms of these hashing functions that give them these properties, and to do this, I propose to dissect the operation of SHA256.
 
@@ -580,6 +586,8 @@ Now that we have looked in detail at the workings of hash functions, particularl
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 In Bitcoin at the application level, in addition to hash functions, cryptographic derivation algorithms are used to generate secure data from initial inputs. Although these algorithms rely on hash functions, they serve different purposes, especially in terms of authentication and key generation. These algorithms retain some of the characteristics of hash functions, such as irreversibility, tamper resistance, and collision resistance.
 
 In Bitcoin wallets, mainly 2 derivation algorithms are used:
@@ -676,6 +684,8 @@ In this chapter, we have explored the HMAC-SHA512 and PBKDF2 functions, which us
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
 
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
+
 The second cryptographic method used in Bitcoin involves digital signature algorithms. Let's explore what this entails and how it works.
 
 ### Bitcoins, UTXOs, and Spending Conditions
@@ -690,12 +700,12 @@ A user who wishes to make a Bitcoin transaction must therefore create a digital 
 
 As a result, a user who owns bitcoins locked with a public key must find a way to securely store what allows unlocking their funds: the private key. A Bitcoin wallet is precisely a device that will allow you to easily keep all your keys without other people having access to them. It is therefore more like a keychain than a wallet.
 
-The mathematical link between a public key and a private key, as well as the ability to perform a signature to prove the possession of a private key without revealing it, are made possible by a digital signature algorithm. In the Bitcoin protocol, two signature algorithms are used: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) and the **Schnorr signature scheme**. ECDSA is the digital signature protocol used in Bitcoin from its beginnings. Schnorr is more recent in Bitcoin, as it was introduced in November 2021 with the Taproot update.
+The mathematical link between a public key and a private key, as well as the ability to perform a signature to prove the possession of a private key without revealing it, are made possible by a digital signature algorithm. In the Bitcoin protocol, two signature algorithms are used: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_Elliptic Curve Digital Signature Algorithm_) and the **Schnorr signature scheme**. ECDSA is the digital signature protocol used in Bitcoin from its beginnings. Schnorr is more recent in Bitcoin, as it was introduced in November 2021 with the Taproot update.
 These two algorithms are quite similar in their mechanisms. They are both based on elliptic curve cryptography. The major difference between these two protocols lies in the structure of the signature and some specific mathematical properties. We will therefore study the functioning of these algorithms, starting with the oldest: ECDSA.
 
 ### Elliptic Curve Cryptography
 
-Elliptic Curve Cryptography (ECC) is a set of algorithms that use an elliptic curve for its various mathematical and geometric properties for cryptographic purposes. The security of these algorithms relies on the difficulty of the discrete logarithm problem on elliptic curves. Elliptic curves are notably used for key exchanges, asymmetric encryption, or for creating digital signatures.
+[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Cryptography (ECC) is a set of algorithms that use an elliptic curve for its various mathematical and geometric properties for cryptographic purposes. The security of these algorithms relies on the difficulty of the discrete logarithm problem on elliptic curves. Elliptic curves are notably used for key exchanges, asymmetric encryption, or for creating digital signatures.
 
 An important property of these curves is that they are symmetric with respect to the x-axis. Thus, any non-vertical line cutting the curve at two distinct points will always intersect the curve at a third point. Moreover, any tangent to the curve at a non-singular point will intersect the curve at another point. These properties will be useful for defining operations on the curve.
 
@@ -767,13 +777,16 @@ We use a finite field of integers modulo $p$ to ensure the accuracy of operation
 
 The mathematics of elliptic curves over finite fields are analogous to those over the field of real numbers, with the adaptation that all operations are performed modulo $p$. To simplify explanations, we will continue in the following chapters to illustrate concepts using a curve defined over real numbers, while keeping in mind that, in practice, the curve is defined over a finite field.
 
-If you wish to learn more about the mathematical foundations of modern cryptography, I also recommend consulting this other course on Plan ₿ Network:
+If you wish to learn more about the mathematical foundations of modern cryptography, I also recommend consulting this other course on Plan ₿ Academy:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Calculating the Public Key from the Private Key
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
+
 As previously seen, the digital signature algorithms in Bitcoin are based on a pair of private and public keys that are mathematically linked. Let's explore together what this mathematical link is and how they are generated.
 
 ### The Private Key
@@ -907,6 +920,8 @@ Of course, in this simplified example with $k = 4$, it would be possible to find
 ## Signing with the Private Key
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 Now that you know how to derive a public key from a private key, you can already receive bitcoins by using this pair of keys as a spending condition. But how to spend them? To spend bitcoins, you will need to unlock the _scriptPubKey_ attached to your UTXO to prove that you are indeed its legitimate owner. To do this, you must produce a signature $s$ that matches the public key $K$ present in the _scriptPubKey_ using the private key $k$ that was initially used to calculate $K$. The digital signature is thus irrefutable proof that you are in possession of the private key associated with the public key you claim.
 
@@ -1128,6 +1143,8 @@ Well, we don't really know why Satoshi didn't choose it, but a likely hypothesis
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
 
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
+
 As we have seen in previous chapters, digital signatures are often used to unlock the script of an input. In the signing process, it is necessary to include the signed data in the calculation, designated in our examples by the message $m$. This data, once signed, cannot be modified without rendering the signature invalid. Indeed, whether for ECDSA or Schnorr, the signature verifier must include in their calculation the same message $m$. If it differs from the message $m$ initially used by the signer, the result will be incorrect and the signature will be deemed invalid. It is then said that a signature covers certain data and protects it, in a way, against unauthorized modifications.
 
 ### What is a sighash flag?
@@ -1184,7 +1201,7 @@ If this sighash flag is integrated into Bitcoin, it will enable the use of coven
 
 To deepen your knowledge of the Lightning Network, after the CYP201 course, I highly recommend the LNP201 course by Fanis Michalakis, which covers the topic in detail:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 In the next part, I propose to discover how the mnemonic phrase at the base of your Bitcoin wallet works.
 
@@ -1195,6 +1212,8 @@ In the next part, I propose to discover how the mnemonic phrase at the base of y
 ## Evolution of Bitcoin wallets
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
+
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
 
 Now that we have explored the workings of hash functions and digital signatures, we can study how Bitcoin wallets function. The goal will be to describe how a wallet in Bitcoin is constructed, how it is decomposed, and what the different pieces of information that constitute it are used for. This understanding of the wallet mechanisms will allow you to improve your use of Bitcoin in terms of security and privacy.
 
@@ -1217,9 +1236,9 @@ If one wished to use multiple private keys, it was then necessary to make as man
 
 This constraint stems from Bitcoin's privacy model. By reusing the same address, it makes it easier for external observers to trace Bitcoin transactions. That's why reusing a receiving address is strongly discouraged. However, to have multiple addresses and publicly separate our transactions, it is necessary to manage multiple private keys. In the case of JBOK wallets, this implies creating as many backups as there are new pairs of keys, a task that can quickly become complex and difficult to maintain for users.
 
-To learn more about Bitcoin's privacy model and discover methods to protect your privacy, I also recommend following my BTC204 course on Plan ₿ Network:
+To learn more about Bitcoin's privacy model and discover methods to protect your privacy, I also recommend following my BTC204 course on Plan ₿ Academy:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Wallets
 
@@ -1231,7 +1250,7 @@ In HD wallets, key derivation is performed according to a hierarchical structure
 
 ### The BIP39 Standard: The Mnemonic Phrase
 
-In addition to BIP32, BIP39 standardizes the seed format as a mnemonic phrase, to facilitate backup and readability by users. The mnemonic phrase, also called a recovery phrase or 24-word phrase, is a sequence of words drawn from a predefined list that securely encodes the wallet's seed.
+In addition to BIP32, [BIP39](https://planb.academy/resources/glossary/bip0039) standardizes the seed format as a mnemonic phrase, to facilitate backup and readability by users. The mnemonic phrase, also called a recovery phrase or 24-word phrase, is a sequence of words drawn from a predefined list that securely encodes the wallet's seed.
 
 The mnemonic phrase greatly simplifies backup for the user. In case of loss, damage, or theft of the device hosting the wallet, simply knowing this mnemonic phrase allows for the recreation of the wallet and recovery of access to all the funds secured by it.
 
@@ -1240,7 +1259,10 @@ In the upcoming chapters, we will explore the internal workings of HD wallets, i
 ## Entropy and Random Numbers
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
-Modern HD wallets rely on a single initial piece of information called "entropy" to deterministically generate the entire set of wallet keys. This entropy is a pseudo-random number that partly determines the security of the wallet.
+
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
+
+Modern HD wallets rely on a single initial piece of information called "[entropy](https://planb.academy/resources/glossary/entropy)" to deterministically generate the entire set of wallet keys. This entropy is a pseudo-random number that partly determines the security of the wallet.
 
 ### Definition of Entropy
 
@@ -1266,6 +1288,9 @@ In the next chapter, we will see how we go from a random number to a mnemonic ph
 ## The Mnemonic Phrase
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
+
 The mnemonic phrase, also called "seed phrase", "recovery phrase", "secret phrase", or "24-word phrase", is a sequence usually composed of 12 or 24 words, which is generated from entropy. It is used to deterministically derive all the keys of an HD wallet. This means that from this phrase, it is possible to deterministically generate and recreate all the private and public keys of the Bitcoin wallet, and consequently access the funds that are protected with it. The purpose of the mnemonic phrase is to provide a means of backup and recovery of bitcoins that is both secure and easy to use. It was introduced in 2013 with the BIP39 standard.
 
 Let's discover together how to go from entropy to a mnemonic phrase.
@@ -1318,7 +1343,7 @@ For example, for a 256-bit entropy, the result $\text{ENT} \Vert \text{CS}$ is 2
 
 ### Conversion of the Binary Sequence into a Mnemonic Phrase
 
-The bit sequence $\text{ENT} \Vert \text{CS}$ is then divided into segments of 11 bits. Each 11-bit segment, once converted to decimal, corresponds to a number between 0 and 2047, which designates the position of a word [in a list of 2048 words standardized by BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+The bit sequence $\text{ENT} \Vert \text{CS}$ is then divided into segments of 11 bits. Each 11-bit segment, once converted to decimal, corresponds to a number between 0 and 2047, which designates the position of a word [in a list of 2048 words standardized by BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 ![CYP201](assets/en/042.webp)
 
@@ -1363,13 +1388,15 @@ A 12-word phrase, which also offers 128 bits of security, is therefore currently
 
 To go further and learn concretely how to manually generate a test mnemonic phrase, I advise you to discover this tutorial:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Before continuing with the derivation of the wallet from this mnemonic phrase, I will introduce you, in the following chapter, to the BIP39 passphrase, as it plays a role in the derivation process, and it is at the same level as the mnemonic phrase.
 
 ## The passphrase
 
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
+
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
 As we have just seen, HD wallets are generated from a mnemonic phrase typically consisting of 12 or 24 words. This phrase is very important because it allows for the restoration of all the keys of a wallet in case its physical device (like a hardware wallet, for example) is lost. However, it constitutes a single point of failure, because if it is compromised, an attacker could steal all the bitcoins. This is where the BIP39 passphrase comes into play.
 
@@ -1407,6 +1434,8 @@ In the following section, we will discover how these two elements at the base of
 ## Creation of the Seed and Master Key
 
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
+
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
 Once the mnemonic phrase and the optional passphrase are generated, the process of deriving a Bitcoin HD wallet can begin. The mnemonic phrase is first converted into a seed which constitutes the base of all the keys of the wallet.
 
@@ -1482,6 +1511,8 @@ Before continuing with the derivation of the HD wallet with the following elemen
 
 ## Extended Keys
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
+
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 An extended key is simply the concatenation of a key (whether private or public) and its associated chain code. This chain code is essential for the derivation of child keys because, without it, it is impossible to derive child keys from a parent key, but we will discover this process more precisely in the next chapter. These extended keys thus allow aggregating all the necessary information to derive child keys, thereby simplifying account management within an HD wallet.
 
@@ -1602,6 +1633,8 @@ In this chapter, we discovered that there are two different types of child keys.
 
 ## Derivation of Child Key Pairs
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
+
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
 The derivation of child key pairs in Bitcoin HD wallets relies on a hierarchical structure that allows generating a large number of keys, while organizing these pairs into different groups through branches. Each child pair derived from a parent pair can be used either directly in a *scriptPubKey* to lock bitcoins, or as a starting point to generate more child keys, and so on, to create a tree of keys.
 
@@ -1790,6 +1823,8 @@ So far you have learned to create the basic elements of an HD wallet: the mnemon
 ## Wallet Structure and Derivation Paths
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
+
 The hierarchical structure of HD wallets in Bitcoin allows for the organization of key pairs in various ways. The idea is to derive, from the master private key and master chain code, several levels of depth. Each added level corresponds to the derivation of a child key pair from a parent key pair.
 
 Over time, different BIPs have introduced standards for these derivation paths, aiming to standardize their use across different software. So, in this chapter, we will discover the meaning of each level of derivation in HD wallets, according to these standards.
@@ -1798,7 +1833,7 @@ Over time, different BIPs have introduced standards for these derivation paths, 
 
 Derivation paths are organized into layers of depth, ranging from depth 0, which represents the master key and master chain code, to layers of sub-levels for deriving addresses used to lock UTXOs. The BIPs (*Bitcoin Improvement Proposals*) define the standards for each layer, which helps to harmonize practices across different wallet management software.
 
-A derivation path, therefore, refers to the sequence of indices used to derive child keys from a master key.
+A [derivation path](https://planb.academy/resources/glossary/derivation-path), therefore, refers to the sequence of indices used to derive child keys from a master key.
 
 **Depth 0: Master Key (BIP32)**
 
@@ -1882,6 +1917,9 @@ In the next chapter, we will discover what "*output script descriptors*" are, a 
 
 ## Output script descriptors
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
+
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 You are often told that the mnemonic phrase alone is sufficient to recover access to a wallet. In reality, things are a bit more complex. In the previous chapter, we looked at the derivation structure of the HD wallet, and you may have noticed that this process is quite complex. Derivation paths tell software which direction to follow to derive the user's keys. However, when recovering a Bitcoin wallet, if one does not know these paths, the mnemonic phrase alone is not enough. It allows obtaining the master key and the master chain code, but it is then necessary to know the indexes used to reach the child keys.
 
 Theoretically, it would be necessary to save not only the mnemonic phrase of our wallet but also the paths to the accounts we use. In practice, it is often possible to regain access to the child keys without this information, provided that the standards have been followed. By testing each standard one by one, it is generally possible to regain access to the bitcoins. However, this is not guaranteed and it's especially complicated for beginners. Also, with the diversification of script types and the emergence of more complex configurations, this information could become difficult to extrapolate, thus turning this data into private information and difficult to recover by brute force. This is why an innovation has recently been introduced and is starting to be integrated into your favorite wallet software: the *output script descriptors*.
@@ -1927,6 +1965,8 @@ You now know everything about the operation of HD wallets in Bitcoin and the pro
 ## Receiving Addresses
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
+
 Receiving addresses are pieces of information embedded in *scriptPubKey* to lock newly created UTXOs. Simply put, an address serves to receive bitcoins. Let's explore their operation in connection with what we have studied in the previous chapters.
 
 ### The Role of Bitcoin Addresses in Scripts
@@ -1939,19 +1979,21 @@ When a user receives bitcoins, the sender creates a UTXO and locks it with a *sc
 
 It is precisely in the *scriptPubKey* that the receiving addresses are found. However, their use varies depending on the script standard adopted. Here is a summary table of the information contained in the *scriptPubKey* according to the standard used, as well as the information expected in the *scriptSig* to unlock the *scriptPubKey*.
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Arbitrary data     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*Source: Bitcoin Core PR review club, July 7, 2021 - Gloria Zhao*
+
+| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Arbitrary data | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Source: Bitcoin Core PR review club of July 7, 2021 – Gloria Zhao_
 
 The opcodes used in a script are designed to manipulate information, and, if necessary, to compare or test it. Let's take the example of a P2PKH script, which is as follows:
 
@@ -2049,6 +2091,8 @@ Now that we have covered the theory, let's move on to practice! In the following
 
 ## Address Derivation
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 Let's explore together how to generate a receiving address from a pair of keys located, for example, at depth 5 of an HD wallet. This address can then be used in a wallet software to lock a UTXO.
 

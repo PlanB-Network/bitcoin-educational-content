@@ -165,7 +165,7 @@ In diesem Abschnitt werfen wir einen Blick auf die Hauptanwendungen des Netzwerk
 
 
 
-Nmap kann für die Netzwerkdiagnose und - im weiteren Sinne - für die Überwachung verwendet werden. Genauso wie man mit einem Ping feststellen kann, ob zwei Hosts miteinander kommunizieren, kann man mit Nmap schnell feststellen, ob ein Host aktiv ist oder ob ein bestimmter Dienst in Betrieb ist. Dank [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") kann man genaue Daten über die Antwortzeit eines Hosts, den Weg, den die Pakete nehmen, die Antwort eines bestimmten Dienstes usw. erhalten.
+Nmap kann für die Netzwerkdiagnose und - im weiteren Sinne - für die Überwachung verwendet werden. Genauso wie man mit einem Ping feststellen kann, ob zwei Hosts miteinander kommunizieren, kann man mit Nmap schnell feststellen, ob ein Host aktiv ist oder ob ein bestimmter Dienst in Betrieb ist. Dank [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") kann man genaue Daten über die Antwortzeit eines Hosts, den Weg, den die Pakete nehmen, die Antwort eines bestimmten Dienstes usw. erhalten.
 
 
 
@@ -312,7 +312,7 @@ In diesem Abschnitt lernen wir, wie man das Netzwerk-Scan-Tool Nmap unter Linux 
 
 
 
-Nmap wurde ursprünglich für den Einsatz auf GNU/Linux-Betriebssystemen entwickelt. Daher und dank seiner Langlebigkeit und Beliebtheit finden Sie es in allen offiziellen Repositories der großen Unix-Distributionen. In diesem Tutorial verwende ich ein Debian-basiertes Betriebssystem [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Aber Sie können es auf genau die gleiche Weise von einem klassischen Debian, CentOS, Red Hat oder was auch immer verwenden!
+Nmap wurde ursprünglich für den Einsatz auf GNU/Linux-Betriebssystemen entwickelt. Daher und dank seiner Langlebigkeit und Beliebtheit finden Sie es in allen offiziellen Repositories der großen Unix-Distributionen. In diesem Tutorial verwende ich ein Debian-basiertes Betriebssystem [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Aber Sie können es auf genau die gleiche Weise von einem klassischen Debian, CentOS, Red Hat oder was auch immer verwenden!
 
 
 
@@ -901,7 +901,7 @@ Der einzige wirkliche Unterschied beim Scannen von UDP ist, dass Nmap nicht auf 
 
 
 
-Auf dem obigen Screenshot ist zu sehen, dass Nmap eine große Anzahl von UDP-Paketen sendet und für die meisten von ihnen ein ICMP-Paket "Destination unreachable (Port unreachable)" als Antwort erhält. Das ist normal, denn es ist die angemessene Antwort, die in [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") definiert ist, wenn ein UDP-Port unerreichbar ist:
+Auf dem obigen Screenshot ist zu sehen, dass Nmap eine große Anzahl von UDP-Paketen sendet und für die meisten von ihnen ein ICMP-Paket "Destination unreachable (Port unreachable)" als Antwort erhält. Das ist normal, denn es ist die angemessene Antwort, die in [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") definiert ist, wenn ein UDP-Port unerreichbar ist:
 
 
 
@@ -2989,7 +2989,7 @@ Metasploit ist ein Exploit- und Angriffs-Framework. Es ist eine kostenlose Lösu
 
 
 
-Insbesondere kann dieses bekannte und weit verbreitete Betriebssystem mit einer postgreSQL [Datenbank] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) arbeiten, in der Hosts, Ports, Dienste, Authentifizierungsinformationen und mehr gespeichert werden.
+Insbesondere kann dieses bekannte und weit verbreitete Betriebssystem mit einer postgreSQL [Datenbank](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) arbeiten, in der Hosts, Ports, Dienste, Authentifizierungsinformationen und mehr gespeichert werden.
 
 
 
@@ -3398,7 +3398,7 @@ Die von Nmap erzeugten Ergebnisse können als sensibel angesehen werden, insbeso
 
 
 
-Wir haben auch gesehen, dass die NSE-Scanergebnisse von [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) je nach den verwendeten NSE-Skripten auch Identifikatoren enthalten können.
+Wir haben auch gesehen, dass die NSE-Scanergebnisse von [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) je nach den verwendeten NSE-Skripten auch Identifikatoren enthalten können.
 
 
 
@@ -3437,7 +3437,7 @@ Wie wir in diesem Lernprogramm gesehen haben, kann Nmap auf Netzwerkebene sehr a
 
 
 
-Um Zwischenfälle zu vermeiden, müssen Sie das Verhalten von Nmap beherrschen und wissen, wie Sie es mit Hilfe der verschiedenen Optionen, die in diesem Tutorial besprochen werden, an den Kontext anpassen können, in dem es benutzt wird. Wir werden Nmap in einem Informationssystem mit industrieller [Hardware] (https://www.it-connect.fr/actualites/actu-materiel/) nicht unbedingt auf dieselbe Weise einsetzen wie in einem Benutzernetz, das aus Windows-Systemen besteht, die durch eine lokale Firewall geschützt sind, oder in einem Netzwerkkern.
+Um Zwischenfälle zu vermeiden, müssen Sie das Verhalten von Nmap beherrschen und wissen, wie Sie es mit Hilfe der verschiedenen Optionen, die in diesem Tutorial besprochen werden, an den Kontext anpassen können, in dem es benutzt wird. Wir werden Nmap in einem Informationssystem mit industrieller [Hardware](https://www.it-connect.fr/actualites/actu-materiel/) nicht unbedingt auf dieselbe Weise einsetzen wie in einem Benutzernetz, das aus Windows-Systemen besteht, die durch eine lokale Firewall geschützt sind, oder in einem Netzwerkkern.
 
 
 

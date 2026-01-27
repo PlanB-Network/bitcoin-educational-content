@@ -1,9 +1,9 @@
-question: Ni imvo nyamukuru iyihe ituma umuntu adashobora kwishura abasuma kubera ransomware canke ibindi bitero?
-answer: Kwishura incungu ntibituma amakuru yawe azosubira kuronka kandi birashobora gutuma abagizi ba nabi bo kuri Internet babandanya ibikorwa vyabo bibi.
+question: Ni imvo nyamukuru iyihe ituma umuntu aba adakwiye kuriha abamwinjiriye mu gihe habayeho igitero cy’incungu (ransomware) canke ubundi bwoko bw’ibitero?
+answer: Kuriha iyo ncungu ntibituma amakuru yawe usubira kuyaronka kandi birashobora gutuma abagizi ba nabi bo kuri interineti babandanya ibikorwa vyabo bibi.
 wrong_answers:
-  - Kwishura iyo ncungu ni ikintu kitemewe n’amategeko kandi birashobora gutuma abagizi ba nabi bo kuri Internet babandanya ibikorwa vyabo vy’ububisha.
-  - Kwishura incungu ntivyemeza ko amakuru yawe azosubira kuronka ariko birashobora gutuma abasuma batera abandi bantu.
-  - Kwishura incungu birashobora gutuma abakora ivy’ubugizi bwa nabi bo kuri Internet babandanya ibikorwa vyabo vy’ububisha kubera ko uburyo bwo kwishura akenshi butashobora gukurikirana.
+  - Kwishura iyo ncungu ni ikintu kitemewe n’amategeko kandi birashobora gutuma abagizi ba nabi bo kuri interneti babandanya ibikorwa vyabo vy’ububisha.
+  - Kwishura incungu ntivyemeza ko amakuru yawe uzosubira kuyaronka ariko birashobora gutuma abakwinjiriye batera abandi bantu.
+  - Kwishura incungu birashobora gutuma abakora ivy’ubugizi bwa nabi bo kuri interneti babandanya ibikorwa vyabo vy’ububisha kubera ko uburyo bwo kwishura akenshi butashobora gukurikiranwa.
 explanation: |
-  Kwishura incungu ntivyemeza ko uzosubira kuronka amakuru yawe. Ikindi kandi, riremesha abagizi ba nabi bo kuri Internet kubandanya ibikorwa vyabo vy’ububisha kuko babona ko ari igikorwa kizana inyungu.
+  Kwishura incungu ntibituma amakuru yawe usubira kuyaronka. Ikindi kandi, biremesha abagizi ba nabi bo kuri interineti bigatuma babandanya ibikorwa vyabo bibi kuko babona ko ari igikorwa kizana inyungu.
 reviewed: true

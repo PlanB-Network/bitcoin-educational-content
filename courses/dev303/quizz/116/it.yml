@@ -1,0 +1,8 @@
+question: Qual è il vantaggio principale della funzione di interoperabilità dell'SDK Breez che consente a più applicazioni di connettersi allo stesso nodo Lightning utilizzando la stessa frase seed?
+answer: Gli utenti possono mantenere un unico bilancio Lightning per diverse applicazioni specializzate, evitando la complessità della gestione di più nodi Lightning
+wrong_answers:
+  - Le applicazioni possono condividere le chiavi private direttamente tra loro, consentendo la firma delle transazioni cross-app senza l'intervento dell'utente
+  - Più applicazioni possono mettere insieme la loro liquidità per creare canali Lightning più grandi con una maggiore capacità di routing per la rete
+  - Gli sviluppatori possono accedere all'infrastruttura Lightning condivisa senza implementare la gestione dei propri nodi, riducendo i costi e la complessità dello sviluppo
+explanation: |
+  L'interoperabilità dell'SDK consente agli utenti di accedere allo stesso nodo Lightning e ai fondi da più app specializzate (come un wallet generico e un'app di podcasting) senza dover gestire saldi o nodi separati. Le risposte sbagliate travisano l'architettura: le chiavi private non lasciano mai il dispositivo dell'utente e non vengono condivise tra le app, il pooling della liquidità non è il modo in cui funziona il sistema e, sebbene gli sviluppatori beneficino di un'infrastruttura semplificata, il vantaggio principale descritto è l'esperienza utente unificata tra le applicazioni.

@@ -1,0 +1,10 @@
+question: On which subreddit could users publish nude photos of themselves for bitcoin tips from March 2012?
+answer: r/GirlsGoneBitcoin
+wrong_answers:
+  - r/GoneWild
+  - r/CryptoPorn
+  - r/Bitcoin
+explanation: |
+ r/GirlsGoneBitcoin was opened on March 26, 2012 by Julian Tosh, aka Tuxavant, a Linux and privacy advocate living in Las Vegas. The subreddit had nearly 
+ 2,000 members by the end of the year.
+reviewed: true

@@ -21,7 +21,7 @@ Pravděpodobně znáte pořekadlo "Ne vaše klíče, ne vaše mince", které nab
 
 
 
-BTC 202 je přístupný kurz, který vás naučí spřádat vlastní uzel Bitcoin, i když nejste technický expert. Začneme tím, že si definujeme, co je to uzel Bitcoin, k čemu slouží a proč je naprosto nezbytné, abyste si ho sami upředli. Poté vás krok za krokem provedu výběrem hardwaru, instalací potřebného softwaru, připojením uzlu Wallet a provedením prvních možných optimalizací, které vás posunou dále.
+BTC 202 je přístupné školení navržené tak, aby vás naučilo, jak provozovat vlastní uzel Bitcoin, i když nejste technický expert. Začneme definováním, co je uzel Bitcoin, k čemu slouží a proč je naprosto zásadní provozovat ho sám. Poté vás krok za krokem provedu výběrem hardwaru, instalací potřebného softwaru, připojením vašeho peněženkového softwaru a prvními možnými optimalizacemi pro další pokrok.
 
 
 
@@ -118,7 +118,7 @@ Poté se budeme věnovat některým teoretickým poznatkům z dřívějších č
 
 
 
-Stejně jako u všech kurzů Plan ₿ Network najdete v závěrečné části závěrečný test, který prověří vaše znalosti uzlů Bitcoin.
+Stejně jako u všech kurzů Plan ₿ Academy najdete v závěrečné části závěrečný test, který prověří vaše znalosti uzlů Bitcoin.
 
 
 
@@ -328,7 +328,7 @@ K interakci se sítí potřebuje uzel Miner uzel Bitcoin.
 
 
 
-Úloha Miner se také někdy odlišuje od úlohy vrtulníku. Sekáček je stroj, jehož úkolem je Hash šablonovat bloky dodané serverem poolu a hledat hashe, které splňují cíl obtížnosti definovaný pro sdílení, a nikoliv pro Bitcoin. Zbytek procesu Mining, který zahrnuje vlastní konstrukci bloků, výběr transakcí nebo vyhledávání Proof-of-Work podle vlastní obtížnosti Bitcoin a také distribuci, provádí přímo pooly.
+Úloha Miner se také někdy odlišuje od úlohy grind. Grind je stroj, jehož úkolem je Hash šablonovat bloky dodané serverem poolu a hledat hashe, které splňují cíl obtížnosti definovaný pro sdílení, a nikoliv pro Bitcoin. Zbytek procesu Mining, který zahrnuje vlastní konstrukci bloků, výběr transakcí nebo vyhledávání Proof-of-Work podle vlastní obtížnosti Bitcoin a také distribuci, provádí přímo pooly.
 
 
 
@@ -410,7 +410,7 @@ Jinými slovy, přibližně 9 z 10 veřejných uzlů používá Bitcoin core. Zb
 
 
 
-Bitcoin core je napsán v jazyce C++. Je to také projekt s otevřeným zdrojovým kódem, o který se stará komunita vývojářů, kteří pracují jako dobrovolníci nebo jsou placeni různými subjekty (často společnostmi v ekosystému, které mají na vývoji jádra zájem). [Kód je umístěn na serveru GitHub](https://github.com/Bitcoin/Bitcoin) a vývoj probíhá podle přísného:
+Bitcoin Core je software napsaný v jazyce C++. Je to také open source projekt, který je udržován komunitou vývojářů, dobrovolníků nebo placených různými subjekty (často společnostmi z ekosystému, které mají zájem na tom, aby vývoj Core probíhal příznivě). [Kód je hostován na GitHubu](https://github.com/bitcoin/bitcoin) a vývoj se řídí přísným modelem:
 
 
 
@@ -448,7 +448,7 @@ Můžeme také zmínit:
 
 - Libbitcoin**: modulární knihovna C++, kterou vyvinul Amir Taaki a udržuje Eric Voskuil;
 - Bcoin**: implementace v jazyce JavaScript, která již není aktivně udržována;
-- BTCD/btcsuit**e: implementace v jazyce Go.
+- **BTCD/btcsuite** : implementace v jazyce Go.
 
 
 
@@ -481,7 +481,7 @@ Jak si řekneme později v tomto kurzu, jsou to uzly, které podle své ekonomic
 
 
 
-## Proč si zamotávat vlastní uzel?
+## Proč provozovat vlastní uzel?
 
 
 <chapterId>39c0cd19-67f9-4c64-bfb3-dbd6eec0bf42</chapterId>
@@ -492,7 +492,7 @@ Všeobecně panuje přesvědčení, že provozování uzlu Bitcoin je čistě al
 
 
 
-Jak jsme zdůraznili v předchozích kapitolách, spřádání uzlu nepřináší žádný přímý finanční zisk. Mohlo by se tedy zdát, že na tom není žádný osobní zájem. Přesto provozování vlastního uzlu přináší mnoho individuálních výhod. Abych vás o tom přesvědčil, uvedu v této kapitole všechny důvody, jak technické, tak strategické, proč byste si měli nainstalovat a používat vlastní uzel Bitcoin.
+Jak jsme již zdůraznili v předchozích kapitolách, provozování uzlu nepřináší přímý finanční zisk. Mohlo by se tedy zdát, že nemá smysl to dělat. Přesto provozování vlastního uzlu přináší mnoho individuálních výhod. Abych vás o tom přesvědčil, představím v této kapitole všechny důvody, technické i strategické, které by vás měly motivovat k instalaci a používání vlastního Bitcoin uzlu.
 
 
 
@@ -516,7 +516,7 @@ Pomocí vlastního uzlu vysíláte své transakce přímo do sítě, čímž obc
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Transakce, které nepodléhají cenzuře
 
@@ -576,7 +576,7 @@ Instalace zařízení Full node není triviální. Zahrnuje instalaci softwaru, 
 
 
 
-Získání těchto znalostí posílí vaši důvěru v nástroj a může snížit riziko chyby nebo vystavení podvodům. Spřádání vlastního uzlu je také formou učení.
+Získání těchto znalostí posiluje vaši důvěru v nástroj a může snížit riziko chyb nebo vystavení podvodům. Provozovat vlastní uzel znamená také učit se.
 
 
 
@@ -692,7 +692,7 @@ Nezáleží tedy na počtu uzlů, ale na významu hospodářské činnosti, kter
 
 
 
-> Ne váš uzel, ne vaše pravidla.
+> Není to tvůj uzel, nejsou to tvoje pravidla.
 
 
 ## Různé typy uzlů Bitcoin
@@ -706,7 +706,7 @@ Uzel Bitcoin je tedy počítač s implementací protokolu Bitcoin. Za touto spol
 
 
 
-### Kompletní uzel
+### Úplný uzel
 
 
 
@@ -730,7 +730,7 @@ V závislosti na svých potřebách můžete do systému Full node přidat index
 
 
 
-### Uzel pruned
+### Ořezaný uzel
 
 
 
@@ -849,7 +849,7 @@ Jedná se o nejsugestivnější a nejpružnější přístup: přesně víte, co
 
 
 
-#### Bitcoin core (zákazník s nadpoloviční většinou)
+#### Bitcoin Core (převládající klient)
 
 
 
@@ -865,11 +865,11 @@ Jedná se o nejsugestivnější a nejpružnější přístup: přesně víte, co
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-#### Bitcoin Knots (hlavní alternativní zákazník)
+#### Bitcoin Knots (hlavní alternativní klient)
 
 
 
@@ -886,7 +886,7 @@ Existují 2 možné důvody, proč se rozhodnout pro uzly místo jádra:
 - Zásady**: Někteří lidé dávají přednost používání alternativních klientů, jako je Knots, z netechnických důvodů, zejména proto, aby podpořili alternativu k jádru a omezili tak jeho monopol. Pokud by někdy došlo k ohrožení jádra, bylo by užitečné mít nejen solidní a dobře udržované alternativní klienty, ale také vědět, jak je efektivně využívat. Jiní používají Knots z protestních důvodů, protože ztratili důvěru ve vývojáře Core nebo nesouhlasí s většinou vedení klienta.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Osobně doporučuji zvolit jádro, a to hlavně proto, abyste mohli rychleji využívat bezpečnostní záplaty. Některé zranitelnosti objevené v Knots jsou totiž opravovány se zpožděním. Obecněji řečeno, proces vývoje Core je pevně strukturovaný a podporovaný velkým počtem přispěvatelů, zatímco Knots je udržován jedinou osobou a má mnohem menší komunitu. Na druhou stranu pravidla relay mají dnes tendenci ztrácet svou užitečnost, zejména pokud je aplikuje jen malá část sítě (jako perkolační teorie).
 
@@ -942,7 +942,7 @@ Nebudu zde podrobněji popisovat, jak funguje a jaké jsou jeho specifické vlas
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ### Start9 (StartOS)
 
@@ -968,7 +968,7 @@ Stručně řečeno, pokud potřebujete pouze základní aplikace pro Bitcoin, ne
 
 
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 ### MyNode
 
@@ -986,7 +986,7 @@ V praxi MyNode sdružuje všechny základní stavební prvky potřebné k provoz
 
 
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
 ### RaspiBlitz
 
@@ -1004,7 +1004,7 @@ Pokud vlastníte Raspberry Pi, je to vynikající volba, protože kompletnějš�
 
 
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
 ### RoninDojo
 
@@ -1026,7 +1026,7 @@ Projekt dříve nabízel předkonfigurovaný stroj Tanto, který však v součas
 
 
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ### Nodl
 
@@ -1521,7 +1521,7 @@ Jednou z klíčových výhod společnosti Umbrel oproti konkurenci je rozsáhlá
 
 
 
-Kód Umbrelu je veřejně dostupný (můžete si ho prohlížet, Fork a upravovat), ale není pod skutečnou open-source licencí. Ve skutečnosti je umbrelOS šířen pod licencí [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), ačkoli některé související vývojové nástroje jsou k dispozici pod licencí MIT.
+Kód Umbrelu je veřejně dostupný (můžete si ho prohlížet, Fork a upravovat), ale není pod skutečnou open-source licencí. Ve skutečnosti je umbrelOS šířen pod licencí [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), ačkoli některé související vývojové nástroje jsou k dispozici pod licencí MIT.
 
 
 
@@ -1565,7 +1565,7 @@ Pokud jste se rozhodli pro Raspberry Pi 5 (tuto možnost nedoporučuji, jak je u
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Jak je uvedeno v předchozí části, rozhodl jsem se tento výukový program spustit na malém repasovaném počítači, který jsem našel za dobrou cenu: *Lenovo ThinkCentre M900 Tiny* s procesorem Intel Core i7 a 16 GB RAM. Jedná se o velmi pohodlnou konfiguraci pro běh Umbrelu, zejména pro uzel Bitcoin. Tuto konfiguraci jsem však zvolil proto, že chci později nainstalovat uzel Lightning a další náročnější aplikace. Do svého ThinkCentra jsem také přidal 2TB SSD, abych zachoval plný výkon Blockchain a stále měl pohodlnou rezervu. Při této konfiguraci jsou celkové náklady 270 eur včetně všech výdajů.
 
@@ -1822,7 +1822,7 @@ K identifikaci zařízení Umbrel IP Address existuje několik metod, od nejjedn
 
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 
 
@@ -1864,9 +1864,9 @@ Zvolte si silné heslo a zajistěte si alespoň jednu zálohu (doporučujeme pou
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Po zadání hesla klikněte na tlačítko "*Vytvořit*".
 
@@ -1944,7 +1944,7 @@ V první řadě důrazně doporučuji zapnout dvoufaktorové ověřování (2FA)
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 To provedete kliknutím na příslušné políčko v nastavení.
 
@@ -2435,7 +2435,7 @@ Jak již bylo zmíněno, průzkumník může být umístěn online na webové st
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Navíc váš poskytovatel internetových služeb (ISP) může vědět, že si určitou transakci prohlížíte prostřednictvím webu Block explorer. To s sebou nese i otázku důvěryhodnosti: musíte se spoléhat na to, že vám online služba poskytne přesné informace o vašich transakcích, aniž byste si jejich pravdivost mohli sami ověřit.
 
@@ -2472,7 +2472,7 @@ Chcete-li se dozvědět více o používání průzkumníka Mempool.Space, dopor
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Uzel Lightning
 
@@ -2492,15 +2492,15 @@ Společnost Umbrel nabízí řadu aplikací, které vám pomohou uzel Lightning 
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 Svůj uzel pak můžete spravovat z hlavního okna Interface nebo si pro ještě větší funkčnost a pokročilé možnosti nainstalovat *Ride The Lightning* nebo *ThunderHub*. Tyto nástroje vám poskytnou mnohem komplexnější webový systém správy uzlu Interface.
 
 
 
-https://planb.network/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
 
-https://planb.network/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
 
 ![Image](assets/fr/088.webp)
 
@@ -2514,9 +2514,11 @@ Nakonec doporučuji aplikaci *Lightning Network+*, která umožňuje vyhledat pa
 
 
 
-Díky Umbrelu se správa osobního uzlu Lightning výrazně zjednodušila, ale stále je poměrně složitá. Z tohoto důvodu se tomuto tématu budeme blíže věnovat v některém z budoucích kurzů, který bude celý věnován tomuto využití.
+Díky Umbrelu je správa osobního Lightning uzlu zjednodušená, nicméně stále zůstává poměrně složitá. Proto vám doporučuji absolvovat kurz LNP 202, který je logickým pokračováním kurzu BTC 202 a ve kterém vás krok za krokem provedu nastavením a správou vašeho Lightning uzlu na Umbrelu.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Stupnice ocasu
 
@@ -2564,7 +2566,7 @@ Postup instalace a konfigurace Tailscale v systému Umbrel naleznete v tomto ná
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Nostr
 
@@ -2590,7 +2592,7 @@ Klienti Nostr ***noStrudel*** nebo ***Snort*** jsou také k dispozici na Umbrel.
 
 
 
-A konečně je tu aplikace ***Nostr Wallet Connect*** na platformě Umbrel, která umožňuje nativní platby Lightning v aplikaci Nostr. Konkrétně můžete propojit svůj budoucí uzel Lightning se zákazníky Nostr a posílat mikroplatby, tzv *zaps*, za odměnu za obsah nebo monetizovanou interakci, aniž byste museli procházet službou třetí strany. Tyto platby jsou odesílány přímo z vašeho osobního uzlu prostřednictvím vašich kanálů.
+Nakonec je zde aplikace ***Nostr Wallet Connect*** na Umbrelu, která umožňuje provádět nativní Lightning platby v rámci Nostr. Konkrétně můžete propojit svůj budoucí Lightning uzel s klienty Nostr, abyste mohli odesílat mikropožadavky zvané „*zaps*“ za účelem odměňování obsahu nebo interakce způsobem s finančním zázemím, aniž byste museli používat službu třetí strany. Tyto platby odcházejí přímo z vašeho osobního uzlu prostřednictvím vašich kanálů.
 
 
 
@@ -2598,7 +2600,7 @@ Chcete-li zjistit, jak všechny tyto aplikace používat, doporučuji vám podí
 
 
 
-https://planb.network/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
+https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b-17c2ea1e08fd
 
 ### Server BTCPay
 
@@ -2626,7 +2628,7 @@ Pokud vlastníte firmu a chcete přijímat platby Bitcoin přímo prostřednictv
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
@@ -2634,7 +2636,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
@@ -2642,7 +2644,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 # Pokročilé koncepty a osvědčené postupy
@@ -2652,7 +2654,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-## Údržba deštníkového uzlu
+## Údržba svého uzlu Umbrel
 
 
 <chapterId>06d77d09-bf24-4555-b2ba-c08bbda477c7</chapterId>
@@ -2751,7 +2753,7 @@ Chcete-li prohloubit své znalosti o počítačové bezpečnosti obecně, doporu
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Diagnostika a svépomoc
 
@@ -2929,7 +2931,7 @@ Pokud váš uzel naslouchá na otevřeném portu (ve výchozím nastavení 8333)
 
 
 
-## Anatomie uzlu Bitcoin
+## Anatomie vašeho Bitcoinového uzlu
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,7 +2943,7 @@ Po dokončení počáteční synchronizace uzel lokálně uloží několik dopl�
 
 
 
-- gW-402 **bloky** uložené na disku,
+- **bloky** blockchainu uložené na disku,
 - sada **UTXO** vedená v databázi klíč-hodnota,
 - a **Mempool** se ukládá do paměti RAM a pravidelně se serializuje.
 
@@ -3077,9 +3079,9 @@ Růst souboru UTXO vychází také ze struktury jednoduchých platebních transa
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Vzhledem k tomu, že část z nich musí být uchovávána v paměti RAM, aby bylo možné ověřit transakce v přiměřeném čase, může sada UTXO postupně způsobit, že provoz Full node bude příliš nákladný. K řešení tohoto problému již existuje několik návrhů, zejména [Utreexo](https://planb.network/resources/glossary/utreexo).
+Vzhledem k tomu, že část z nich musí být uchovávána v paměti RAM, aby bylo možné ověřit transakce v přiměřeném čase, může sada UTXO postupně způsobit, že provoz Full node bude příliš nákladný. K řešení tohoto problému již existuje několik návrhů, zejména [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3093,7 +3095,7 @@ Mempool je místní soubor platných transakcí, které byly přijaty, ale ješt
 
 
 - velikost přidělená Mempool pomocí parametru `maxmempool`: uzel s větším Mempool bude schopen pojmout více transakcí než uzel s menším Mempool (pokud se tento nevyprázdní);
-- pravidla gW-433: jsou podmnožinou pravidel přenosu uzlu a definují vlastnosti, které musí nepotvrzená transakce splňovat, aby byla přijata v Mempool;
+- pravidla mempoolu: tvoří podmnožinu pravidel přeposílání uzlu a určují vlastnosti, které musí nespotvrzená transakce splňovat, aby byla přijata do mempoolu;
 - pronikání transakcí: v důsledku různých faktorů může být daná transakce distribuována do jedné části sítě, ale do jiné ještě nedorazila.
 
 
@@ -3135,10 +3137,10 @@ Na správném fungování se podílí několik dalších souborů na stejné úr
 - Když je uzel vypnutý, soubor `anchors.dat` uloží adresy odchozích partnerů, abyste se s nimi mohli při příštím spuštění znovu rychle spojit.
 - `banlist.json` obsahuje lokální zákazy, o kterých rozhodl operátor nebo uzel (opakované neplatné chování), aby se uzlu zabránilo v opětovném připojení nebo přijímání připojení od těchto konkrétních peerů.
 - v souboru `fee_estimates.dat` jsou uloženy statistiky pozorovaných potvrzení v časovém horizontu, které odhadce poplatků používá k navrhování sazeb poplatků v souladu s cíli zpoždění zvolenými při vytváření transakce.
-- gW-446.conf` obsahuje konfigurační parametry uzlu. Zde můžete upravit pravidla přenosu. Více se o tom dozvíte v další kapitole.
+- `bitcoin.conf` obsahuje konfigurační parametry vašeho uzlu. Právě v tomto souboru lze mimo jiné upravit pravidla přeposílání. Více o tom budu hovořit v následující kapitole;
 - `settings.json` obsahuje další parametry souboru `Bitcoin.conf`.
 - `debug.log` je diagnostický textový protokol, který lze použít k pochopení činnosti uzlu v případě chyby.
-- gW-448.pid` ukládá identifikátor procesu za běhu, což umožňuje jiným aplikacím nebo skriptům snadno identifikovat bitcoind (*Bitcoin daemon*) a v případě potřeby s ním komunikovat. Vytváří se při spuštění uzlu a odstraňuje se při vypnutí.
+- `bitcoind.pid` zaznamenává identifikátor procesu během běhu, což umožňuje jiným aplikacím nebo skriptům snadno identifikovat Bitcoind (*Bitcoin Daemon*) a v případě potřeby s ním komunikovat. Je vytvořen při spuštění uzlu a odstraněn při jeho vypnutí;
 - `ip_asn.map` je mapovací tabulka IP → ASN (samostatný systém) používaná pro bucketing a diverzifikaci peerů (volba `-asmap`).
 - `onion_v3_private_key` ukládá soukromý klíč služby Tor v3, když je povolena volba `-listenonion`, aby bylo možné udržet stabilní cibuli Address mezi restarty.
 - `i2p_private_key` ukládá soukromý klíč I2P, pokud je použito `-i2psam=`, k navázání odchozích a případně i příchozích spojení na I2P.
@@ -3154,9 +3156,9 @@ Jak jsme viděli v prvních částech tohoto kurzu BTC 202, Bitcoin core je jak 
 
 
 
-- `wallets/` je výchozí adresář, který hostí jeden nebo více adresářů;
+- `wallets/` je výchozí adresář, který obsahuje jednu nebo více peněženek;
 - `wallets/<název>/Wallet.dat` je databáze SQLite Wallet (klíče, deskriptory, metadata transakcí atd.);
-- wallets/<name>/Wallet.dat-journal` je protokol SQLite rollback.
+- `wallets/<name>/wallet.dat-journal` je rollbackový žurnál SQLite.
 
 
 
@@ -3335,10 +3337,10 @@ Na úrovni sítě máme také:
 
 
 - `addnode`: přidá přátelského partnera ke kontaktu navíc k obvyklému zjišťování (lze zadat několikrát).
-- connect`: striktně omezuje připojení na poskytnutý server Address (lze zadat několikrát). Jádro se nepřipojí k žádnému jinému uzlu.
+- `connect`: přísně omezuje připojení na zadanou adresu (lze zadat vícekrát). Core se nepřipojí k žádnému jinému uzlu;
 - `seednode`: slouží pouze k vyplnění knihy-Address při připojení k uzlu, poté se odpojí.
 - `maxconnections`: definuje globální strop pro příchozí + odchozí spojení. Ve výchozím nastavení je tento parametr nastaven na 125, což znamená, že váš uzel nikdy nepřijme více než 125 spojení.
-- maxuploadtarget`: omezuje nahrávání na šířku pásma v klouzavém 24hodinovém okně. Tento limit neobětuje šíření zásadních nedávných Elements.
+- `maxuploadtarget` : omezuje nahrávání, aby se omezila šířka pásma v klouzavém 24hodinovém okně. Tento limit neobětuje šíření nezbytných nedávných prvků;
 - `onlynet`: omezuje odchozí připojení pouze na vybrané sítě (`ipv4`, `ipv6`, `onion`, `i2p`, `cjdns`). Pokud například chcete, aby se váš uzel připojoval k síti Bitcoin pouze přes Tor, můžete povolit parametr `onlynet=onion` a zakázat příchozí připojení (nebo povolit připojení také pouze přes Tor).
 - `dnsseed`: povoluje nebo zakazuje _DNS seed_ vyžádat si peery, když je váš místní fond Address nízký (výchozí: `1`, pokud `-connect` nebo `-maxconnections=0`).
 - `forcednsseed`: vynucuje vyžádání _DNS seed_ při spuštění, i když již máte adresy na skladě (výchozí: `0`).
@@ -3362,7 +3364,7 @@ Chcete-li plně podporovat Tor, musíte Bitcoin core přinutit používat pouze 
 - `torcontrol=127.0.0.1:9051`,
 - `proxyrandomize=1`,
 - `listen=1`,
-- bind=127.0.0.1`,
+- `bind=127.0.0.1`,
 - `upnp=0`,
 - `natpmp=0`.
 
@@ -3418,7 +3420,7 @@ Zde jsou uvedeny základní parametry, které můžete upravit v souboru `Bitcoi
 
 
 
-- bloky=1`: Zakáže přijímání a opakované zasílání nepotvrzených transakcí přijatých od partnerů (pokud nejsou udělena zvláštní oprávnění). Uzel nyní odesílá a inzeruje pouze bloky. Transakce vytvořené lokálně lze stále vysílat (pro použití uzlu se softwarem Wallet). To výrazně snižuje nároky na šířku pásma a paměť RAM, i když za cenu menší užitečnosti pro relay a naprosté neznalosti Mempool.
+- `blocksonly=1` : Deaktivuje přijímání a přeposílání nepotvrzených transakcí přijatých od peerů (s výjimkou zvláštních oprávnění). Uzluje stahuje a oznamuje pouze bloky. Lokálně vytvořené transakce mohou být stále vysílány (pro použití vašeho uzlu s peněženkovými programy). To výrazně snižuje šířku pásma a potřebu paměti RAM za cenu nižší užitečnosti pro přeposílání a úplné neznalosti mempoolu.
 
 
 
@@ -3448,7 +3450,7 @@ Zde jsou uvedena pokročilá nastavení pro Mempool a zásady přenosu. Pokud js
 
 
 
-- datacarrier=1`: Umožňuje předávání a (v případě Mining přes uzel) zahrnutí transakcí nesoucích nefinanční data prostřednictvím výstupu `OP_RETURN` (výchozí: `1`). Deaktivace tohoto parametru mírně zmenšuje plochu pro spam nefinančních dat za cenu snížené kompatibility s některými způsoby použití. Ve všech případech je nutné akceptovat vytěžené `OP_RETURN`.
+- `datacarrier=1` : Povolit přeposílání a (v případě těžby přes uzel) zahrnutí transakcí nesoucích nefinanční data prostřednictvím výstupu `OP_RETURN` (výchozí: `1`). Deaktivace tohoto parametru mírně snižuje riziko spamu nefinančními daty za cenu nižší kompatibility s některými použitími. Ve všech případech musíte přijímat vytěžené `OP_RETURN`.
 
 
 
@@ -3490,13 +3492,13 @@ Zde jsou uvedena pokročilá nastavení pro Mempool a zásady přenosu. Pokud js
 
 
 
-- peerbloomfilters=1`: (výchozí: `0`). Upozornění: Tím se zvýší zatížení zdrojů.
+- `peerbloomfilters=1` : Aktivuje podporu Bloom filtrů (BIP37) pro poskytování filtrovaných bloků/transakcí lehkým klientům (výchozí: `0`). Pozor, zvyšuje to zátěž vašich zdrojů.
 
 
 
 
 
-- peerblockfilters=1`: (*Neutrino*) kompaktní filtry pro peery (výchozí: `0`).
+- `peerblockfilters=1` : Poskytuje kompaktní filtry BIP157 (*Neutrino*) peerům (výchozí: `0`).
 
 
 
@@ -3520,7 +3522,7 @@ Způsob správy peněženek můžete také upravit v souboru `Bitcoin.conf`. Pok
 
 
 
-- addresstype=<legacy|P2SH-SegWit|bech32|bech32m>`: Definuje formát adres generovaných Wallet pro příjem.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Určuje formát adres generovaných peněženkou pro příjem.
 
 
 
@@ -3568,7 +3570,7 @@ Způsob správy peněženek můžete také upravit v souboru `Bitcoin.conf`. Pok
 
 
 
-- fallbackfee=<amt>`: (BTC/kvB) použitá v případě, že estimátoru dojdou data (výchozí: `0,00`). Nastavení na 0 zcela vypne fallback.
+- `fallbackfee=<amt>` : Záložní poplatek (BTC/kvB) použitý, pokud odhadce nemá dostatek dat (výchozí: `0.00`). Nastavení na 0 zcela vypne záložní poplatek.
 
 
 
@@ -3660,7 +3662,7 @@ Konfigurační soubor také umožňuje upravit parametry týkající se vašeho 
 
 
 
-- txindex=1`: Vytváří a udržuje globální index potvrzených transakcí. Nezbytné pro některé dotazy (`getrawtransaction` non-Wallet) a pro účely průzkumu, ale výrazně zvyšuje diskovou stopu. Nekompatibilní s režimem pruned.
+- `txindex=1` : Vytváří a udržuje globální index potvrzených transakcí. Nezbytné pro některé dotazy (`getrawtransaction` mimo peněženku) a pro účely průzkumu, ale výrazně zvyšuje využití disku. Nekompatibilní s ořezaným režimem.
 
 
 
@@ -3894,15 +3896,17 @@ Nyní můžete přejít k závěrečné části kurzu, kde si budete moci vyhodn
 
 
 
-Nyní máte několik možností. Dalším logickým krokem je zřízení vlastního uzlu Lightning, který vám umožní být plně nezávislý na transakcích off-chain. To bude předmětem připravovaného kurzu, který bude zveřejněn na podzim tohoto roku 2025 na téma Plan ₿ Network.
+Nyní se vám nabízí několik cest. Dalším logickým krokem je nastavení vlastního Lightning uzlu, abyste byli plně nezávislí při svých off-chain transakcích. Právě tomu se věnuje další kurz na Plan ₿ Academy:
 
 
 
-Mezitím vás zvu na školení BTC 204, které vám umožní pochopit a osvojit si zásady ochrany soukromí při používání systému Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Rovněž vás zvu k objevení kurzu BTC 204, který vám umožní porozumět a zvládnout principy ochrany soukromí při používání Bitcoinu:
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 # Závěrečná část

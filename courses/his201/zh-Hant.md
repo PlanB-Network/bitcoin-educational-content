@@ -25,11 +25,13 @@ objectives:
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
 這門課旨在以您從未讀過的方式講述 Bitcoin 的創造歷史。雖然它充滿了引人入勝的細節，卻常常被忽略。我們將努力描述其所有複雜性，從中本聰的構思到他早期的消失以及社群的接管。
 
 ### 簡介
 
-Bitcoin 是由一位使用化名中本聰的個人（或一群人）設計的。2008 年 10 月 31 日，他通過一個鮮為人知的電子郵件論壇共享了一份描述其模型的白皮書。2009 年 1 月 8 日，他通過發布軟體的原始碼並挖掘區塊鏈的第一個區塊來實現他的概念。為了吸引大量使用者，他在各種渠道推廣自己的創作。
+比特幣由一名個人（或一個團體）在使用中本聰這一化名的情況下設計而成。2008年10月31日，此人透過網際網路上一個相對不為人知的電子郵件列表分享了一份描述其模型的白皮書。2009年1月8日，他藉由發布軟體原始碼並透過挖掘區塊鏈的首批區塊來啟動網路，從而將其概念付諸實施。為了吸引達到臨界規模的使用者，他透過多種通訊管道推廣了自己的創作。
 
 經歷了艱難的開始，系統的啟動最終於 2009 年 10 月發生，當時 Bitcoin 開始獲得價格。第一家商業服務於 2010 年出現，首先是與美元對接的交易。大約在這個時候，使用顯卡進行挖礦的更高效方法最初被實施，並且第一次用 Bitcoin 交換實體商品，特別是披薩，這是 Laszlo Hanyecz 做出的壯舉。
 
@@ -47,13 +49,12 @@ Bitcoin 是由一位使用化名中本聰的個人（或一群人）設計的。
 
 Bitcoin 是在特定的背景下出現的：美國聯邦政府關閉私人貨幣系統，包括 2008 年的數位黃金貨幣 e-gold 和 2013 年的 Liberty Reserve 系統。藉由依賴一個將風險分散給參與者的模型，類似於 BitTorrent 等點對點共享系統，中本聰創造了一個堅固的數位貨幣模型，可以抵擋來自國家的直接攻擊。
 
-Bitcoin 的創造同樣發生在私人貨幣系統如 e-gold 和 Liberty Reserve 被國家關閉的背景下。Bitcoin 構成了一個堅固的數位貨幣模型，能抵擋來自美國聯邦政府的直接攻擊。它通過將風險散佈在所有參與者之間，確保了其生存。
 
 最後，Bitcoin 專案是密碼龐克（cypherpunk）運動精神的繼承者，這是一群90年代反叛的密碼學家，旨在透過積極使用密碼學來維護互聯網上人們的隱私和自由。Bitcoin 與這些人在90年代末和2000年代初想像的 b-money、bit gold 或 RPOW 等專案一致。雖然中本聰提到過它們，但在設計 Bitcoin 之前他對它們並不熟悉，也可能並未參與原始運動。
 
 ### 課程大綱
 
-本課程分為四個部分，分別著重於 Bitcoin 的起源 (3 章)、其緩慢興起 (3 章)、其初步崛起 (3 章)，以及其社群的形成 (4 章)。本課程共計 13 章，內容如下（並註明相關時期）：
+本課程分為四個部分，分別探討比特幣的起源（3章）、其緩慢出現（3章）、最初的興起（3章）及其社群的形成（4章）。全書共含13章，如下所示（並標明相關時期）：
 
 
 - ecash：Chaumian 數位現金（1976–1998）
@@ -93,6 +94,8 @@ Bitcoin 的創造同樣發生在私人貨幣系統如 e-gold 和 Liberty Reserve
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
 
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
+
 在深入探討中本聰創造 Bitcoin 的實際故事之前，我們應該先討論一下之前的故事。我們將分三個階段討論這個主題：首先，我們將介紹通常稱為 *eCash* 的 Chaumian 數位現金概念；然後，我們將談論基於中央系統的私人貨幣，例如 e-gold；最後，我們將說明在實現 Bitcoin 這個強大的分散式系統之前所想像的技術模型。
 
 eCash 源自 David Chaum 的作品，他是一位美國電腦科學家和密碼學家，出生于 1955 年，被認為是匿名通訊領域的先驅和密碼龐克（cypherpunk）的先驅。他在 1980 年代對密碼學的發展貢獻良多。他同時發展了他的數位現金模型（稱為「Chaumian」），並在 1990 年代透過他的公司 DigiCash 嘗試實現。
@@ -111,18 +114,18 @@ David Chaum 的行動是在一場概念革命之後：Whitfield Diffie 和 Marti
 
 這種加密方式可同時執行加密演算法和簽章程序。非對稱加密涉及使用公鑰作為加密密鑰，私有密鑰作為解密密鑰。用戶生成一對密鑰，保留私有密鑰，並與其通信者分享公鑰，以便他們可以發送消息。這種加密類似於收件人用來接收信件的郵箱，只有他們擁有密鑰。
 
-![Asymmetric encryption](assets/en/001.webp)
+![Asymmetric encryption](assets/zh-Hant/001.webp)
 
 數位簽章則依賴使用私密金鑰做為簽章金鑰，公開金鑰做為驗證金鑰。使用者產生一對金鑰，用私人金鑰簽署訊息，然後傳送給對方，對方可以用公開金鑰驗證其真偽。因此，他們永遠不需要知道私密金鑰。
 
-![Digital signature](assets/en/002.webp)
+![Digital signature](assets/zh-Hant/002.webp)
 
-非對稱密碼學是在 1970 年代由幾位研究人員獨立發現的。然而，最先提出他們的發現的是 Whitfield Diffie 和 Martin Hellman，兩位來自史丹福大學的密碼學家。1976 年 11 月，他們在 *IEEE Transactions on Information Theory* 期刊上發表了一篇題為「[密碼學的新方向](https://ee.stanford.edu/~hellman/publications/24.pdf)」的論文，其中描述了一種金鑰交換演算法 (用於傳送對稱加密的秘密金鑰) 以及數位簽章程序。在這篇論文的引言中，他們寫道：
+非對稱密碼學在 1970 年代由多個研究團隊各自獨立發現。然而，最早公布其研究成果的是史丹佛大學的兩位密碼學家——Whitfield Diffie 與 Martin Hellman。1976 年 11 月，他們在期刊 *IEEE Transactions on Information Theory* 上發表了一篇題為「 [New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf) 」的論文，文中描述了一種金鑰交換演算法（用於傳輸對稱加密所需的祕密金鑰）以及一種數位簽章方法。在該論文的引言中，他們寫道：
 
 > "今天，我們正站在加密技術革命的邊緣。廉價數位硬體的發展使其擺脫了機械運算的設計限制，並使高級加密裝置的成本降低到可以用於商業應用的程度，例如遠端出鈔機和電腦終端機。反過來，這樣的應用也創造了對新型加密系統的需求，這些系統可以將安全金鑰分發通道的必要性降到最低，並提供了相當於書面簽名的東西。與此同時，資訊理論和電腦科學的理論發展顯示有希望提供可證明安全的密碼系統，將這門古老的藝術變為一門科學"。
 這裡有一張 1977 年的照片，由 Chuck Painter 為史丹佛大學新聞服務部 (Stanford News Service) 所拍攝，您可以看到 Whitfield Diffie (在右邊) 和 Martin Hellman (在中間)。左邊的人是密碼學家 Ralph Merkle，他當時也快要做出同樣的發現。
 
-![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/003.webp)
+![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/zh-Hant/003.webp)
 
 Diffie 和 Hellman 的文章為許多創新鋪平了道路。其中之一是 [RSA 密碼系統](https://people.csail.mit.edu/rivest/Rsapaper.pdf)，它是由密碼學家 Ronald Rivest、Adi Shamir 和 Leonard Adleman (他們為此命名) 於 1977 年設計，並於 1983 年由麻省理工學院取得專利。由於金鑰角色的互換，這個系統可以同時加密和簽署訊息。RSA 於 1977 年 8 月在《科學美國人》雜誌上發表的一篇[Martin Gardner 撰寫的文章](https://simson.net/ref/1977/Gardner_RSA.pdf)中首次公開介紹，該文章的標題是*「數學遊戲」：一種需要數百萬年才能破解的新型密碼*。
 
@@ -131,14 +134,14 @@ Diffie 和 Hellman 的文章為許多創新鋪平了道路。其中之一是 [RS
 Bitcoin 的基本密碼學元素源於這些研究。允許授權花費傳統交易的 ECDSA 簽署方案是在 1992 年為 NIST 創造的。在協定中多處使用的 SHA-256 Hash 函式，於 2001 年發表，是 NSA 公開的 SHA-2 演算法套件的一部分。如需更多相關資訊，您可以參考 Loïc Morel 主講的課程 CYP201。
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### 盲簽名與電子現金
 
 這場加密領域的革命也啟發了年輕的 David Chaum，他是來自西岸的電腦科學家，當時是柏克萊大學的博士生。他迅速對隱私保護產生了熱情，並非常關注在一個日益數位化的社會中，未來的自由和保密性。
 
-![David Chaum in the 90s](assets/en/004.webp)
+![David Chaum in the 90s](assets/zh-Hant/004.webp)
 
 90 年代的 David Chaum (來源：[Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
@@ -158,7 +161,7 @@ eCash 模式是一種數位貨幣概念，可讓客戶進行相對保密的付�
 
 以下是創建和更換 Chaumian 鈔票的不同步驟的說明（摘自 *L'Élégance de Bitcoin*）：
 
-![Creation and replacement of a Chaumian note](assets/en/005.webp)
+![Creation and replacement of a Chaumian note](assets/zh-Hant/005.webp)
 
 動作（每個動作對應於一個數學運算或一個資訊傳輸）如下：
 
@@ -190,19 +193,19 @@ eCash 模式是一種數位貨幣概念，可讓客戶進行相對保密的付�
 
 1990 年，David Chaum 成立了自己的公司 DigiCash B.V.，以實現他的電子現金構想。這家公司位於荷蘭阿姆斯特丹，擁有他的發明專利。當時網際網路仍處於起步階段 (Web 仍在開發中)，電子商務也不存在；因此，eCash 模型構成了一個巨大的機會。
 
-![DigiCash Logo](assets/en/006.webp)
+![DigiCash Logo](assets/zh-Hant/006.webp)
 
 然而，並非 David Chaum 的公司首先測試了該模型：而是率先實施它的是密碼龐克（cypherpunk）在不考慮專利且未徵求許可的情況下實現了該模型。因此，1994 年 2 月 4 日，一位匿名的開發者以 Pr0duct Cypher 為名，在 cypherpunks 郵件論壇上 [提出](https://cypherpunks.venona.com/date/1994/02/msg00247.html) 了一個名為 Magic Money 的協定。此協定允許透過操作電子郵件伺服器來創造自己的貨幣，而伺服器則可作為電子現金的鑄幣廠。密碼龐克們玩得不亦樂乎，他們創造了各式各樣的帳戶單位，例如 Tacky Tokens、GhostMarks、DigiFrancs 和 NexusBucks。然而，這些代幣的效用微乎其微，兌換也非常罕見。
 
 在 DigiCash 方面，經過幾年的發展，於 1994 年 5 月在日內瓦歐洲核子研究中心舉行的第一次萬維網國際會議上 [展示](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) 了一個原型。該公司隨後於同年 10 月 19 日開始試發行稱為「CyberBucks」的單位，這種單位沒有任何其他貨幣的支持。各種商家接受 CyberBucks 作為此次實驗的一部分。密碼龐克們也使用它進行實際交易，從而使 CyberBucks 在市場上獲得了價值。然而，當 eCash 被部署到傳統銀行系統時，價值隨之崩潰。
 
-![Photo (blurry) of the DigiCash team in 1995](assets/en/007.webp)
+![Photo (blurry) of the DigiCash team in 1995](assets/zh-Hant/007.webp)
 
 1995 年 DigiCash 團隊的照片（模糊）：最左邊的是 David Chaum (來源：[Chaum.com]()[Chaum.com](https://chaum.com/ecash/))
 
 1995 年 10 月，DigiCash 開始與密蘇里州的一家小型銀行 Mark Twain Bank 合作，將 eCash 引進銀行系統。與 CyberBucks 的浮動匯率不同，帳戶單位是由美元所支持。1996 年到 1998 年間，有六間銀行跟隨 Mark Twain Bank：芬蘭的 Merita Bank、德國的 Deutsche Bank、澳洲的 Advance Bank、奧地利的 Bank Austria、挪威的 Den norske Bank 以及瑞士的 Credit Suisse。媒體對此系統的未來充滿了希望。
 
-然而，事與願違。由於生性頑固多疑，David Chaum 希望保持對公司的控制，因此拒絕與 ING 和 ABN AMRO、Visa、Netscape 和 Microsoft 等主要金融業者合作。他於 1997 年離職，同年公司總部遷往加州。1998 年間，合作銀行宣佈放棄 eCash。DigiCash 最後在 1998 年 11 月破產，結束了這次 Chaumian 電子現金的實施。
+然而，並非一切都按計劃進行。由於他固執和多疑的性格，David Chaum希望保持對他公司的控制權，並拒絕與ING、ABN AMRO、Visa、Netscape和Microsoft等主要參與者建立合作關係。他於1997年離職，同年公司將總部遷至加利福尼亞。在1998年期間，合作銀行宣布放棄eCash。DigiCash最終於1998年11月破產，從而結束了這種查姆式的電子現金的實施。
 
 ### David Chaum 模型的遺產
 
@@ -214,7 +217,7 @@ eCash 模式是一種數位貨幣概念，可讓客戶進行相對保密的付�
 
 之後，eCash 啟發了密碼龐克（cypherpunk），他們開發了自己的模型，例如 b-money、bit gold 和 RPOW。他們新增了工作量證明和其他後來在 Bitcoin 中也有的元素，。我們將在第 3 章研究這些概念。
 
-最後，David Chaum 的模型對中本聰的影響深遠。這從[白皮書](assets/pdf/Bitcoin-20090324.pdf)中的多處引用（標題、第 2 節中對問題的描述、2008 年 8 月[發送](https://gwern.net/doc/Bitcoin/2008-nakamoto)給 Wei Dai 的 PDF 名稱），以及他私下和公開的發言可以得到證明。在這個意義上，eCash 是 Bitcoin 的主要前身，即使它不是唯一的前身。
+最後，David Chaum 的模型對中本聰的影響深遠。這從[白皮書](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf)中的多處引用（標題、第 2 節中對問題的描述、2008 年 8 月[發送](https://gwern.net/doc/Bitcoin/2008-nakamoto)給 Wei Dai 的 PDF 名稱），以及他私下和公開的發言可以得到證明。在這個意義上，eCash 是 Bitcoin 的主要前身，即使它不是唯一的前身。
 
 藉由 Bitcoin，中本聰創造了一個強大且保密的數位貨幣，也就是真正的電子現金。這樣一來，他就實現了諾貝爾經濟學獎得主、芝加哥學派創始人 Milton Friedman 的 [預言](https://www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)，他在 1999 年接受全國納稅人聯合基金會 (National Taxpayers Union Foundation) 訪談時曾說：
 
@@ -222,6 +225,8 @@ eCash 模式是一種數位貨幣概念，可讓客戶進行相對保密的付�
 ## 私人數位貨幣
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
+
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
 
 在上一章中，我們探討了因網際網路和現代加密技術的出現而出現的第一種電子現金形式：David Chaum 的電子現金模型。這個模型對中本聰有著深遠的影響，並且是在通往 Bitcoin 的路上關鍵的里程碑。然而，加密貨幣的起源故事並不僅止於 ecash；它還包括在1990年代末期開展的私人貨幣在互聯網上進行的實驗。
 
@@ -243,7 +248,7 @@ eCash 模式是一種數位貨幣概念，可讓客戶進行相對保密的付�
 
 隨著金銀持有禁令的撤回以及1970年代互聯網的發展，部署私人貨幣的想法再度浮現。這就是 Bernard von NotHaus 的情況，他於1998年推出了自由美元（Liberty Dollar），這是一種基於黃金和白銀的貨幣，以白銀硬幣和代表性鈔票兩種方式流通。該系統由一個名為NORFED（全名為全國聯盟為廢除聯邦儲備和內部稅法） 的非營利組織管理。自2003年起，自由美元也以數位形式提供，通過類似於 e-gold 的帳戶系統（見下一節）。該系統在一定程度上取得了成功。除了流通中的硬幣外，NORFED 的金庫中還儲存了約800萬美元的貴金屬，以確保貨幣的可兌換性，其中600萬美元是為了支持數位單位的發行。
 
-![2003 Silver Liberty Dollar](assets/en/008.webp)
+![2003 Silver Liberty Dollar](assets/zh-Hant/008.webp)
 
 2003 年的自由銀幣（10 美元）（資料來源：[Numista]()[Numista](https://en.numista.com/catalogue/exonumia242820.html))
 
@@ -257,7 +262,7 @@ eCash 模式是一種數位貨幣概念，可讓客戶進行相對保密的付�
 
 e-gold 系統利用了新生的網路，特別是最新的 Netscape 瀏覽器。每位客戶都可以從網站上存取自己的帳戶，而不必操作專用軟體。就當時而言，該平台的性能非常高，靈感來自於銀行間轉賬的即時結算系統。以下是 2005 年發送 e-gold 的樣子（圖片來自當時的 [教學](https://www.geocities.ws/rizuan_mahrol/setpbystep.html)）：
 
-![Sending on e-gold in 2005](assets/en/009.webp)
+![Sending on e-gold in 2005](assets/zh-Hant/009.webp)
 
 e-gold 系統取得了巨大成功：在 2006 年的高峰期，它 [保證](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) 了 3.6 噸黃金，價值超過 8,000 萬美元，每天 [處理](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) 75,000 宗交易，年交易量達 30 億美元，並管理超過 270 萬個帳戶。
 
@@ -269,7 +274,7 @@ e-gold 系統取得了巨大成功：在 2006 年的高峰期，它 [保證](htt
 
 另一個集中式私人貨幣系統的例子是 Liberty Reserve，它允許使用者持有和轉移與美元、歐元或黃金掛鉤的電子貨幣。這個系統是由烏克蘭裔美國人 Arthur Budovsky 和來自聖彼得堡的俄羅斯移民 Vladimir Kats 共同創建。2006 年，Arthur Budovsky 遷居當時被視為避稅天堂的哥斯達黎加，並在那裡註冊了他的公司 Liberty Reserve S.A.。
 
-![Liberty Reserve logo in 2009](assets/en/010.webp)
+![Liberty Reserve logo in 2009](assets/zh-Hant/010.webp)
 
 2009 年的 Liberty Reserve 標誌 (來源：[Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
 
@@ -290,7 +295,7 @@ PayPal 於 1999 年 10 月由該公司的工程師創立。它允許在電子郵
 PayPal 最初的願景是革命性的，符合 Peter Thiel 的自由主義願景。以下是他在 1999 年秋天所說的話，由 Eric Jackson 於 2012 年在《*PayPal 戰爭*》中報導：
 
 > "當然，我們對美國使用者所說的「便利」，對發展中國家來說將是革命性的。許多這些國家的政府對於他們的貨幣玩弄於股掌之間。他們利用通貨膨脹，有時甚至是全面性的貨幣貶值，就像我們去年在俄羅斯和幾個東南亞國家所看到的，從他們的國民手中奪走財富。那裡的大多數普通人從來沒有機會開設離岸帳戶，也沒有機會拿到超過幾張美元等穩定貨幣的鈔票。最終，PayPal 將能改變這種情況。未來，當我們的服務在美國以外的地區提供時，隨著互聯網滲透率不斷擴大到所有經濟階層的人，PayPal將讓全球公民比以前更直接地控制他們的貨幣。屆時，腐敗的政府幾乎不可能透過舊有的手段從人民手中竊取財富，因為如果他們嘗試這樣做，人民就會轉用美元、英鎊或日圓，實際上就是拋棄毫無價值的當地貨幣，轉用更安全的貨幣。
-![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/011.webp)
+![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/zh-Hant/011.webp)
 
 1999 年 10 月 20 日，Peter Thiel 在加州奧克蘭為獨立研究所演講時（資料來源：[Youtube]()[Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 
@@ -308,6 +313,8 @@ PayPal 最初的願景是革命性的，符合 Peter Thiel 的自由主義願景
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
+
 Bitcoin 代表了數位貨幣的去中心化模式。藉此避免了對於需要信任的第三方的依賴，因為第三方在系統中會形成單一故障點。正如 eCash、數位黃金貨幣和 Liberty Reserve 的例子所顯示的，一個意圖成為現有系統替代品的集中化必然會以各種方式導致其關閉。
 
 然而，Bitcoin 並不是第一個被提出的去中心化貨幣概念。自 1990 年代後期起，密碼龐克（cypherpunks）就曾描述過這種模式，他們著迷於網際網路上個人的自由與隱私，並相信（就像 David Chaum 一樣）受監控的系統會導致一個反烏托邦的未來。他們[呼籲](https://cypherpunks.venona.com/date/1993/03/msg00392.html)「寫程式碼」，並認為「電子貨幣」是他們理想的重要元素。(*原文："Cypherpunks寫代碼。(...)我們以密碼學、匿名郵件轉寄系統、數位簽名和電子貨幣來捍衛我們的隱私。"*)
@@ -318,7 +325,7 @@ Bitcoin 代表了數位貨幣的去中心化模式。藉此避免了對於需要
 
 隨著 20 世紀 50 年代電腦的出現，出現了將電腦互相連接的可能性。第一批電腦網路就是這樣形成的，並在 1970 年代發展出網際網路這個「網中之網」。網路的基礎設施問題必然會引發思考。這就是為什麼波蘭裔美國電腦科學家 Paul Baran 在他 1964 年的奠基性文章 (描述封包交換) 中列出了三種類型的網路：集中式網路，依賴於單一節點；分散式網路，每個點都是一個節點；去中心化 (非分散式) 網路，依賴於多節點的分散式網路。
 
-![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/012.webp)
+![Centralized, decentralized, and distributed networks according to Paul Baran](assets/zh-Hant/012.webp)
 
 從這些考量可衍生出兩種純模式：客戶端伺服器模式，即中央伺服器回應客戶端的要求；以及點對點模式，即每個節點在系統中都扮演相同的角色。後一種模式在 2000 年代對檔案分享特別有用，BitTorrent 和其他類似的通訊協定也因此而生。Tor 網路是去中心化的，但不是純粹的點對點。
 
@@ -326,11 +333,11 @@ Bitcoin 代表了數位貨幣的去中心化模式。藉此避免了對於需要
 
 問題以比喻方式陳述，涉及拜占庭帝國的軍隊將領，他們帶著軍隊圍攻敵人的城市，打算攻擊，但只能通過信使傳達計畫。目標是找到一個策略（即算法），可以應付叛徒的存在，並確保所有忠誠的將軍在戰鬥計畫上達成一致，以便攻擊成功。這裡是一個插圖（來源：*L'Élégance de Bitcoin*）：
 
-![The Byzantine Generals Problem](assets/en/013.webp)
+![The Byzantine Generals Problem](assets/zh-Hant/013.webp)
 
 解決這個問題對會管理帳戶單位的分散式系統很重要。這樣的系統需要參與者達成共識，即誰擁有什麼資產。
 
-在 Bitcoin 之前，這個問題完全由所謂的「經典」演算法解決，這些演算法要求事先知道節點，而且其中兩個節點必須誠實。其中最著名的可能是共識演算法 [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf)（Practical Byzantine Fault Tolerance 的縮寫，即實用拜占庭容錯），它是由 Miguel Castro 和 Barbara Liskov 在 1999 年開發的，可讓一定數量的參與者透過管理每秒數以千計的請求達成協議，且延遲時間少於一毫秒。
+在比特幣出現之前，這個問題是透過所謂的「經典」演算法以絕對方式解決的，這些演算法要求節點事先已知，並且其中三分之二必須是誠實的。其中最著名的大概是 [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) 共識演算法（*Practical Byzantine Fault Tolerance* 的首字母縮略詞），它由 Miguel Castro 和 Barbara Liskov 於 1999 年開發，允許給定數量的參與者透過處理每秒數千個請求並在不到一毫秒的延遲內達成一致。
 
 透過 Bitcoin 共識演算法，中本聰以概率方式解決了這個問題，允許透過犧牲交易的嚴格終局性來移除某些限制。2008 年 11 月 13 日，他 [寫道](https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html) 「工作量證明（proof-of-work）鏈是拜占庭大將問題的解決方案」。
 
@@ -342,13 +349,13 @@ Bitcoin 代表了數位貨幣的去中心化模式。藉此避免了對於需要
 
 1991 年，Stuart Haber 和 Scott Stornetta 這兩位為位於新澤西州的研發財團 Bell Communications Research Inc.（一般稱為「Bellcore」）工作的研究人員提出了保密且安全的時間戳技術。在 [他們的論文](http://www.staroceans.org/e-book/Haber_Stornetta.pdf)，題為「如何為數位文件加上時間戳記」，他們描述了認證的時間戳記服務如何使用單向函數 (例如 MD4 哈希函數) 和簽章演算法來增加客戶端文件的機密性和認證的可靠性。特別是，他們的想法是在應用單向函數時，讓之前的時間戳記參與其中，將資訊串連。
 
-![Example of certified timestamping](assets/en/014.webp)
+![Example of certified timestamping](assets/zh-Hant/014.webp)
 
 經認證的時間戳範例 (來源：[Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
 Haber 和 Stornetta 從 1992 年開始在《紐約時報》的分類廣告中刊登加密指紋（從有用數據的哈希運算中得出），實現了他們的想法。之後，他們在 1994 年創立了自己的公司 Surety Technologies，目的是全心投入這項活動。他們因創造了第一個時間戳鏈而因此 [文明](https://www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain) ，在計算要刊登在報紙上的新指紋時，會將之前的指紋考慮在內，這也是 Bitcoin 區塊鏈的前身。
 
-中本聰在 [Bitcoin 白皮書](assets/pdf/Bitcoin-20090324.pdf) 中引用了 Haber 和 Stornetta 的三篇論文：之前提到的 1991 年的論文、1993 年的一篇 [論文](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf)，這篇論文改進了之前論文中提出的協定，特別是通過使用 Merkle 樹，以及 1997 年的一篇 [論文](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf)，這篇論文提出了一種使用單向函數普遍命名檔案的方法。此外，Henri Massias、Xavier Serret-Avila 和 Jean-Jacques Quisquater 這三人在比利時天主教魯汶大學 (Catholic University of Louvain) 的密碼學研究小組工作，他們在 1999 年寫了一篇 [論文](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)，描述了一個新的時間戳系統。
+中本聰在 [Bitcoin 白皮書](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf) 中引用了 Haber 和 Stornetta 的三篇論文：之前提到的 1991 年的論文、1993 年的一篇 [論文](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf)，這篇論文改進了之前論文中提出的協定，特別是通過使用 Merkle 樹，以及 1997 年的一篇 [論文](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf)，這篇論文提出了一種使用單向函數普遍命名檔案的方法。此外，Henri Massias、Xavier Serret-Avila 和 Jean-Jacques Quisquater 這三人在比利時天主教魯汶大學 (Catholic University of Louvain) 的密碼學研究小組工作，他們在 1999 年寫了一篇 [論文](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)，描述了一個新的時間戳系統。
 
 ### 工作量證明和 Hashcash
 
@@ -358,7 +365,7 @@ Haber 和 Stornetta 從 1992 年開始在《紐約時報》的分類廣告中刊
 
 隨著 1990 年代網際網路的普及，垃圾郵件問題變得越來越緊迫，包括在密碼龐克的郵件論壇中。這就是為什麼 Dwork 和 Naor 的概念在 1997 年由年輕的英國密碼龐克 Adam Back 以 Hashcash [實作](https://cypherpunks.venona.com/date/1997/03/msg00774.html)，一個使用 Hash 函數產生簡單工作量證明的演算法。更明確地說，它涉及到尋找所考慮的 Hash 函數的部分碰撞，也就是取得兩條足跡以相同資料位元開始的訊息 (註：從 2002 年發佈的 1.0 版本開始，它涉及到發現零列印的部分碰撞，也就是尋找足跡以確定的二進位零數開始的預影像)。由於 Hash 功能是單向的，因此這樣的成就只能透過逐一測試不同的可能性來實現，而這需要消耗能量。
 
-![Adam Back in 2001](assets/en/015.webp)
+![Adam Back in 2001](assets/zh-Hant/015.webp)
 
 2001 年的 Adam Back（資料來源：[archive of Adam Back's personal page](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
@@ -380,15 +387,15 @@ Wei Dai 提出的 b-money 概念雖然相當巧妙，但並非完全實用。因
 
 b-money 在論壇上發表之後，引起了密碼龐克的關注，尤其是 [Adam Back](https://cypherpunks.venona.com/date/1998/12/msg00203.html) 的注意。然而，Wei Dai 從來沒有實現他的模型，不僅因為它功能不完善，也因為密碼學家對密碼無政府主義的[幻滅](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d)。儘管如此，b-money 最後被引用在 Bitcoin 白皮書中，成為其先驅之一。
 
-![Citation of b-money in the Bitcoin white paper](assets/en/016.webp)
+![Citation of b-money in the Bitcoin white paper](assets/zh-Hant/016.webp)
 
 ### bit gold：比 Bitcoin 更早的數字黃金
 
-第二個從密碼龐克的創意中衍生出來的模型是 Nick Szabo 在 1998 年提出的 bit gold 。他是一位來自匈牙利的美國電腦科學家，曾擔任 DigiCash 的顧問六個月。他是一位 Cypherpunk，因在 1995 年正式提出智能合約的概念而聞名。
+從密碼龐克（cypherpunks）的想法中誕生的第二個模型是 Nick Szabo 在 1998 年構想的 bit gold（比特黃金）概念。後者是一位匈牙利裔美國計算機科學家，他曾在 DigiCash 擔任顧問六個月。作為一名密碼龐克，他以在 1995 年將 *smart contract*（智能合約）的概念正式化而聞名。
 
 1994 年，Nick Szabo 創建了一個名為 libtech-l 的私人郵件論壇，顧名思義，這個論壇的目的是主持有關自由技術的討論，保護個人自由免受權威的攻擊。密碼龐克如 Wei Dai 和 Hal Finney，以及經濟學家 Larry White 和 George Selgin，哈耶克貨幣競爭和自由銀行的支持者，都可以進入這個論壇。
 
-![Nick Szabo in 1997](assets/en/017.webp)
+![Nick Szabo in 1997](assets/zh-Hant/017.webp)
 
 Nick Szabo 於 1997 年 (資料來源：[Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
@@ -396,11 +403,11 @@ Nick Szabo 最初是在 libtech-l 論壇上描述他的概念，之後於 1999 �
 
 該協定應該用來管理稱為 bit gold 的虛擬資源的創建和交換。不同於以實體黃金為擔保的 e-gold，或理論上與某一貨物籃子指數掛勾的 b-money ，bit gold 不被任何其他資產支持，但由於其內在的，不可偽造的稀缺性構成了一種純粹的數字黃金。
 
-bit gold 的位元透過電腦的計算能力創造，而每個答案都是從另一個答案創造出來的，形成了一個工作量證明的鏈條。這些工作量證明的生產時間和日期通過多個時間戳服務器得到認證。系統依賴於一個公開財產登記冊，參考用戶的物品和交易，被它們的公鑰識別並通過其私鑰授權交易。登記冊由稱為「財產俱樂部」的伺服器核實和維護，並由一個經典的共識算法 [Byzantine Quorum System] (https://dahliamalkhi.wordpress.com/wp-content/uploads/2015/12/byzquorums-distcomputing1998.pdf) 協調。
+bit gold 的位元透過電腦的計算能力創造，而每個答案都是從另一個答案創造出來的，形成了一個工作量證明的鏈條。這些工作量證明的生產時間和日期通過多個時間戳服務器得到認證。系統依賴於一個公開財產登記冊，參考用戶的物品和交易，被它們的公鑰識別並通過其私鑰授權交易。登記冊由稱為「財產俱樂部」的伺服器核實和維護，並由一個經典的共識算法 [Byzantine Quorum System](https://dahliamalkhi.wordpress.com/wp-content/uploads/2015/12/byzquorums-distcomputing1998.pdf) 協調。
 
 bit gold 與 Bitcoin 的相似性非常顯著。該系統的三個組成部分 (工作量證明的產生、其時間戳記，以及財產登記冊的管理)，在 bit gold 中是分開的，但在 Bitcoin 中卻被發現是單一的概念：區塊鏈。這就是為什麼很多人將其視為 Bitcoin 的草稿，並猜想 Nick Szabo 可能就是中本聰。
 
-然而，兩人的願景並不一致。在 bit gold 中，數位黃金的生產方式意味著它們是不可替代的（not fungible），這意味著它們不能相互混合：它們必須在系統的外部市場上進行評估，以作為真正的同質計量單位的基礎。因此，bit gold 模式被構思為一個管理稀有儲備貨幣的結算系統，在此之上，如果可能的話，將使用 Chaumian 模型建立一個自由銀行經濟。因此，在 2008 年 4 月，Nick Szabo 在其部落格上的 [評論中](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269)，仍在尋求協助來實現他的概念。然而，實作從未發生。
+然而，兩人的願景存在分歧。在 bit gold 中，數字黃金碎片的生產方式意味著它們是不可替代的（non-fungible），即它們不能相互混合：因此，它們必須在系統外部的市場進行估值，才能作為真正的同質記賬單位（homogeneous unit of account）的基礎。因此，bit gold 模型被設想為一個結算系統，允許管理一種稀有的儲備貨幣，並在此之上建立一個自由的銀行經濟，如果可能的話，使用查姆模型。因此，在 2008 年 4 月，在他的部落格上的一篇[評論](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269)中，尼克·薩博仍在尋求幫助以實現他的概念。然而，這種實現從未發生過。
 
 ### RPOW：可重複使用的工作證明
 
@@ -411,7 +418,7 @@ bit gold 與 Bitcoin 的相似性非常顯著。該系統的三個組成部分 (
 伺服器管理可重複使用的工作量證明代幣，並負責使用 RSA 加密技術對其進行簽名。這些代幣是透過 Hashcash 生成的工作量證明或者是來自先前的 RPOW 代幣創建的。付款過程中，發件人將其 RPOW 代幣移交給接收者，接收者立即與伺服器聯繫，以接收一個或多個新的代幣，這些代幣的總值等同於輸入值。RPOW 的運作類似於 eCash 。
 這是 Hal Finney 親自 [設計](https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) 的插圖：
 
-![Exchange in RPOW](assets/en/018.webp)
+![Exchange in RPOW](assets/zh-Hant/018.webp)
 
 Hal Finney 不僅設計了這個模型，還親自實作。2004 年 8 月 15 日，他在密碼龐克郵件論壇上 [宣布](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) 推出 RPOW 系統，此外還在專用網站 (rpow.net) 上記錄其運作。之後，他在舊金山舉行的 CodeCon 2005 會議上 [發表](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)，討論工作量證明代幣的潛在用途，即：價值轉移、垃圾郵件規範、電子遊戲中的商業、撲克等線上賭博，以及 BitTorrent 等檔案分享協定上的反吸血（anti-leeching）。
 
@@ -427,7 +434,7 @@ Hal Finney 不僅設計了這個模型，還親自實作。2004 年 8 月 15 日
 
 另一個不太知名但在這裡意義重大的 Bitcoin 前身模型，是 Ripple 的分布式信用協議，由加拿大開發者 Ryan Fugger 在 2004 年設計的。這位年輕的加拿大人在設計協議之前，受到了到 [地方交易系統](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS) 概念的啟發，在設計他的協議之前，他在溫哥華已經體驗過這個概念。他在 2004 年 4 月 14 日發表了 Ripple [白皮書](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf)，然後透過一個名為 RipplePay 的概念驗證來實作，它在中央伺服器上運作，使用者只需透過電子郵件地址即可連線。
 
-![Ryan Fugger circa 2010](assets/en/019.webp)
+![Ryan Fugger circa 2010](assets/zh-Hant/019.webp)
 
 Ryan Fugger 約於 2010 年 (資料來源：[Crunchbase]()[Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
@@ -459,6 +466,8 @@ Bitcoin 因此成為了網路貨幣的代表，一種完全存在於網際網路
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 在了解 Bitcoin 的由來之後，我們現在將專注於它的歷史本身。多年來，這已經成為無數文章、播客和影片的主題，以至於幾乎成為某種創始神話。正如我們所見，Bitcoin 與它的創建背景密不可分，它誕生初期發生的事件也塑造了現今的樣貌。
 
 Bitcoin 是由一名不知名、聲稱是日本人的中本聰所創立，他花時間謹慎地設計此系統，然後才向公眾公開。隨後，他竭盡所能地確保 Bitcoin 在最佳條件下推出，並在討論中被妥善呈現，以吸引更多人使用它。最終，創建者的努力不僅在於系統的設計，還在於其初期經濟啟動。
@@ -479,7 +488,7 @@ Bitcoin 是由一名不知名、聲稱是日本人的中本聰所創立，他花
 
 8 月 20 日，Bitcoin 的創造者 [聯絡](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) Adam Back，寄了一封電子郵件給他，請求他建議如何在白皮書中引用他有關 Hashcash 的論文。這似乎是確保 Hashcash 的發明者認識這個新系統的一個藉口。
 
-![Adam Back in 2012](assets/en/020.webp)
+![Adam Back in 2012](assets/zh-Hant/020.webp)
 
 2012 年的 Adam Back（資料來源：[Adam Back 的個人頁面](http://www.cypherspace.org/adam/)
 
@@ -495,7 +504,7 @@ Bitcoin 是由一名不知名、聲稱是日本人的中本聰所創立，他花
 
 ### 白皮書的出版
 
-2008 年 10 月 31 日，中本聰在一個名為「Cryptography mailing list」的加密郵件論壇上發佈了[白皮書的第一個版本](assets/pdf/Bitcoin-20081003.pdf)。論壇自 1996 年 [創建](https://cypherpunks.venona.com/date/1996/12/msg00102.html) 以來，此清單一直由開發人員 Perry Metzger 管理，並自 [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) 以來一直寄存在他的個人網站 Metdowd.com。它是密碼龐克（cypherpunk）論壇的繼承者，不同之處在於它受到嚴格的管理。2008 年，仍有幾位前密碼龐克（cypherpunk）參與，例如 John Gilmore、Hal Finney 和 Len Sassaman。
+2008 年 10 月 31 日，中本聰在一個名為「Cryptography mailing list」的加密郵件論壇上發佈了[白皮書的第一個版本](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf)。論壇自 1996 年 [創建](https://cypherpunks.venona.com/date/1996/12/msg00102.html) 以來，此清單一直由開發人員 Perry Metzger 管理，並自 [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) 以來一直寄存在他的個人網站 Metdowd.com。它是密碼龐克（cypherpunk）論壇的繼承者，不同之處在於它受到嚴格的管理。2008 年，仍有幾位前密碼龐克（cypherpunk）參與，例如 John Gilmore、Hal Finney 和 Len Sassaman。
 
 在他給論壇發的第一封 [電子郵件](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html)中，中本聰寫道：
 
@@ -511,7 +520,7 @@ Bitcoin 是由一名不知名、聲稱是日本人的中本聰所創立，他花
 
 在他的電子郵件中，他附上了一個連結指向已經託管於 Bitcoin.org 的白皮書。這份簡短的 9 頁文件以一篇科學論文的形式呈現，描述了 Bitcoin 的技術運作，側重於線上支付問題。
 
-![Title and summary of the first version of the white paper (October 2008)](assets/en/021.webp)
+![Title and summary of the first version of the white paper (October 2008)](assets/zh-Hant/021.webp)
 
 在這項宣佈之後，中本聰收到了幾個回覆，但大多數人持懷疑態度。尤其有三點被批評：
 
@@ -522,7 +531,7 @@ Bitcoin 是由一名不知名、聲稱是日本人的中本聰所創立，他花
 
 儘管郵件論壇上普遍持懷疑態度，但並非所有訂閱者都這樣看待。特別的是，有一位表現出極大熱情：Hal Finney。他對未來持樂觀態度，儘管90年代數位現金的失敗，他從未放棄電子現金的理念。在此方面他多年後[表示](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833)在這個問題上，加密學的灰鬍子（年長的專家）往往會變得憤世嫉俗」，而他「更為理想主義」因為他「一直熱愛密碼學，那其中的神秘和矛盾」。（*原創："我注意到密碼學界的灰袍老頭（我已經 50 多歲了）傾向於變得玩世不恭。我比較理想主義；我一直都很喜歡密碼學，喜歡它的神秘和弔詭。「*）因此，11 月 7 日，他在寄給郵件論壇的[電子郵件](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) 中寫道：」Bitcoin 似乎是個很有前途的想法"，並將中本聰的模型與 Nick Szabo 的 bit gold 相比。(*原文：「Bitcoin 似乎是個非常有前途的想法。」*)
 
-![Hal Finney in 2007](assets/en/022.webp)
+![Hal Finney in 2007](assets/zh-Hant/022.webp)
 
 Hal Finney 於 2007 年
 
@@ -532,7 +541,7 @@ Bitcoin 使用了一種分布式共識演算法，使所有網絡節點對帳本
 
 這種共識機制允許在系統中實施各種規則和激勵措施（套用白皮書的最後一句話）。由於 Bitcoin 構成分散式時間戳記服務，因此這些規則也有可能與時間產生互動。因此，難度調整演算法開始發揮作用，用來調節新區塊的生產以及與之相關的 Bitcoin: 如果在特定時期內生產的區塊數量過多，那麼生產的難度就會增加；反之，難度就會降低。Bitcoin 因此不同於 RPOW，在 RPOW 中，工作憑證本身構成了記帳單位。
 
-憑藉這一難度調整，Bitcoin 可以擁有貨幣政策，發行的新單位數量可以預先確定。最初的計劃是使貨幣發行保持恆定，以鼓勵生產節點將計算能力貢獻給網絡，並且沒有交易費用。正如中本聰在[白皮書](assets/pdf/Bitcoin-20081003.pdf) 的「獎勵」部分所寫的一樣：
+憑藉這一難度調整，Bitcoin 可以擁有貨幣政策，發行的新單位數量可以預先確定。最初的計劃是使貨幣發行保持恆定，以鼓勵生產節點將計算能力貢獻給網絡，並且沒有交易費用。正如中本聰在[白皮書](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf) 的「獎勵」部分所寫的一樣：
 
 > 「新硬幣數量的穩定增加，就好比黃金開採者耗費資源增加黃金流通量」。
 中本聰[在郵件論壇上](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) 和 [在他的私人信件中](https://mmalmi.github.io/Satoshi/#email-3) 所確認的這項屬性，並沒有逃過 James A. Donald 的眼睛。11月9日，他[批評](https://www.metzdowd.com/pipermail/cryptography/2008-November/014837.html)這個「追蹤誰擁有什麼的工作」（也就是挖礦）是「由鑄幣稅支付」的，需要「通貨膨脹」，即便他注意到「可預測的通貨膨脹比時不時對它進行刪減以將財富從一個投票集團轉移到另一個投票集團要少引人反感」。(*原文："在建議的系統中，追蹤誰擁有什麼硬幣的工作是由seigniorage來支付的，而seigniorage需要通貨膨脹。這並非不可容忍的缺點--可預測的通貨膨脹比起為了將財富從一個投票區塊轉移到另一個投票區塊而不時擺動的通貨膨脹更不令人反感。」*）此外，他[指出](https://www.metzdowd.com/pipermail/cryptography/2008-November/014841.html)如果一個挖礦節點「忽略掉所有它不關心的消費」，它不會「遭受任何不利後果」，指出了審查問題。(*原文：「如果一個節點忽略所有它不關心的花費，它就不會遭受任何不良後果。」*)
@@ -576,7 +585,7 @@ return nSubsidy + nFees;
 
 Hal Finney 並不是當時唯一嘗試 Bitcoin 的人。Dustin D. Trammell 也是如此，他是一位美國電腦安全研究員，當時對數位貨幣（尤其是電子版的自由幣）很感興趣，他透過郵件論壇發現了 Bitcoin。1 月 11 日，他在自己的一台工作機器上執行該軟體（但由於技術問題，他直到 13 日才挖出第一個 [區塊](https://Mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e)）。在 1 月 11 日至 12 日的夜間，他與中本聰取得聯繫，並在接下來的幾天與中本聰進行了廣泛的 [溝通](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip)。1 月 15 日，Dustin Trammell [收到](https://Mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) 他寄來的 25 個 bitcoins。
 
-![Dustin Trammell](assets/en/023.webp)
+![Dustin Trammell](assets/zh-Hant/023.webp)
 
 Dustin Trammell (來源：[Dustin Trammell 的部落格檔案](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/)
 
@@ -593,6 +602,8 @@ Dustin Trammell (來源：[Dustin Trammell 的部落格檔案](https://web.archi
 ## 向世界展示
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
+
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
 
 在檢視過 Bitcoin 是如何由中本聰設計與推出之後，讓我們重點看看它是如何公開展示的。Bitcoin 於 2009 年初推出後，網路開始運作，但節點很少 (中本聰挖出絕大多數的區塊)，活動幾乎不存在 (1 月份實際交易 32 次)。該專案只有一個基本的網站和一個供下載軟體的 SourceForge 頁面。此外，關於 Bitcoin 的溝通也僅限於 Metzdowd Cryptography 郵件論壇，最多只有幾百個熱衷於密碼學的人關注。
 
@@ -616,7 +627,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 - 一方面，因為中本聰不可能在報紙發行之前知道這篇文章標題，因此可以證明系統不可能在 1 月 3 日之前啟動，從而防止追溯網路啟動的時間；
 - 另一方面，它象徵性地指出 Bitcoin 所反對的是當時的貨幣與金融環境。
 
-![The Times: Chancellor on brink of second bailout for banks](assets/en/024.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/zh-Hant/024.webp)
 
 當時，全球確實感受到自 2007 年美國次貸泡沫爆破開始的金融危機所帶來的全面衝擊。在投資銀行雷曼兄弟於 2008 年 9 月 15 日倒閉後，各國政府為了防止金融機構進一步破產而對其進行救助，各國央行也透過向金融市場注入流動資金的方式實行量化寬鬆政策。這種運用公共資金所創造出來的場合，讓許多公民感到不安，他們意識到銀行體系實際上是一個私人獲利、社會化虧損的體系。
 
@@ -639,7 +650,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 > &nbsp;It's based on open market competition, and there will probably always be nodes willing to process transactions for free."。
 幾天之後，Hal Finney 針對這一貨幣政策在郵件論壇上[正面回應](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) 這項貨幣政策，他對於 「系統可以被設定為只允許某個最大數量的單位產生 」感到興奮。在他的電子郵件中，他估計如果 Bitcoin 成為「全球使用的主要支付系統」，那麼每個單位的「價值約為 1,000 萬美元」。他在結論中寫道：「今天用幾美分的計算時間就能產生單位的可能性 」可能是 「一個非常好的賭注」。即使這個估算值得商榷（因為它是基於相當於全球財富總額的 Bitcoin 估值），其推理也是合理的。
 
-1 月 16 日，中本聰在他與郵件論壇的信中重提了這一「長期投資」的想法，他在郵件中描述了潛在的使用案例。他 [表示](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) 當時表示，「如果它流行起來，買一些也許是有道理的。如果有足夠的人有相同的想法，那就會成為一個自我實現的預言"。一個月之後，他[重申](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) 這種說法，並解釋說，數量有限很可能會造成「正反饋循環」，也就是「使用者越多，價值就越高，這可能會吸引更多想要從價值增加中獲益的使用者」。因此，投機元素從一開始就存在，目的是啟動系統。
+1月16日，中本聰在發送給郵件列表的一封電子郵件中重申了「長期投資」的理念，他在其中描述了比特幣的潛在用例。他當時[聲明](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html)，「如果它能流行起來，擁有一些可能是審慎的」，並且「如果有足夠多的人有相同的想法，那就會成為一個自我實現的預言」。一個月後，他[重申](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562)了這一斷言，解釋說有限的單位數量很可能創造一個「積極的反饋循環」，即「用戶越多，價值增加越多，這可能會吸引更多渴望從不斷增長的價值中受益的用戶」。因此，投機因素從一開始就存在，目的是啟動該系統。
 
 ### 監管、殭屍網絡和生態學
 
@@ -653,7 +664,7 @@ Hal Finney 對這個問題很感興趣，他在 1 月 21 日寫了一則 [推文
 
 最後，最後一則評論來自 John Gilmore，他是密碼龐克的創始成員，也是 1992 年至 1997 年間該運動首個郵件論壇的管理者。在 1 月 25 日寄出的電子郵件中，他強調 Bitcoin 應有的生態後果，並 [寫道](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) 「我們最不需要的就是部署一個系統來消耗所有的可用運算能力，耗費電能並產生二氧化碳，以產生少量的 bitbux 來讓電子郵件或垃圾郵件通過」。中本聰 [回覆](https://mmalmi.github.io/Satoshi/#email-3) 私下對他說，「如果要在經濟自由和環境保護之間做選擇，那真是諷刺」。他補充說，「工作量證明是 [他] 找到的唯一能讓點對點電子現金系統正常運作的解決方案」，而且即使要消耗大量能源，「它的浪費還是會比它要取代的勞動力和資源密集的傳統銀行活動少」。
 
-![John Gilmore in 2007](assets/en/025.webp)
+![John Gilmore in 2007](assets/zh-Hant/025.webp)
 
 John Gilmore 於 2007 年 (來源：[Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
 
@@ -673,7 +684,7 @@ John Gilmore 於 2007 年 (來源：[Flickr](https://www.flickr.com/photos/35034
 > "傳統貨幣的根本問題在於它需要信任才能運作。我們必須信任中央銀行不會貶值貨幣，但法定貨幣的歷史充滿了違反信任的情況。我們必須相信銀行會持有我們的錢並透過電子方式轉移，但他們卻在一波波的信貸泡沫中把錢借出去，而且幾乎沒有任何儲備。我們必須相信銀行會保護我們的隱私，不會讓身份盜用者掏空我們的帳戶。銀行高昂的間接成本使得小額支付成為不可能"。
 在他的 [個人資料](https://p2pfoundation.ning.com/profile/SatoshiNakamoto)，他聲稱自己是日本人，但這並非全部。2011 年的介面更新顯示了他的年齡：35 歲，這表示他在 2009 年是 32 或 33 歲。之後，在 2014 年，有人 [發現](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/) 他表示了特定的出生日期：1975 年 4 月 5 日。這個日期看似無關緊要，但很可能是綜合參考了美國在 1933 年至 1975 年間禁止美國公民擁有黃金的規定。4 月 5 日與 1933 年 4 月 5 日富蘭克林-德拉諾-羅斯福總統簽署的[行政命令 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates)所規定的禁止日期有關，而 1975 年則與[公法 93-373](https://www.govtrack.us/congress/bills/93/s2665/text)的頒布廢除日期相符。這個細節非常重要，因為這項禁令終止了古典金本位制（在古典金本位制下，人們可用代表性票據獲得黃金），允許美元貶值（通過 1934 年的《黃金儲備法》），並促進了浮動匯率貨幣制度的建立，而我們所知道的浮動匯率貨幣制度是在 1971 年尼克松震盪之後建立的。
 
-![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/026.webp)
+![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/zh-Hant/026.webp)
 
 2011 年 3 月 17 日，中本聰在 P2P 基金會論壇上的簡介（資料來源：Satoshi 基金會論壇[forum capture](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
 
@@ -689,25 +700,25 @@ John Gilmore 於 2007 年 (來源：[Flickr](https://www.flickr.com/photos/35034
 
 ### Mike Hearn 和 2100 萬
 
-中本聰的溝通策略漸見成效。2009 年 4 月，其他人開始對他的發明感興趣。其中包括 Mike Hearn，一位在瑞士 Google 工作的英國開發人員，他的空閒時間都花在開放原始碼軟體上。之後，他開始對數位支付系統感興趣，尤其是 Ryan Fugger 的專案 Ripple。他正是在 Ripple Google Group 上，透過美國年輕電腦科學家兼企業家 Charles N. Wyble 在 3 月所建立的 [討論主題](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14)，聽說了 Bitcoin。
+中本聰的溝通策略正逐步取得成效。2009 年 4 月，其他人開始對他的發明產生興趣。其中之一是 Mike Hearn，一位 24 歲的英國開發人員，在瑞士為谷歌工作，並在業餘時間致力於自由軟體。他當時對數字支付系統感興趣，特別是 Ryan Fugger 的項目 Ripple。正是在 Ripple 的 Google Group 上，他透過年輕的美國計算機科學家和企業家 Charles N. Wyble 在三月份創建的一個[討論串](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14)聽說了比特幣。
 
 4 月 12 日，Mike Hearn 向中本聰發送了一封 [電子郵件](https://plan99.net/~mike/Satoshi-emails/thread1.html)，其中他提出了一系列關於 Bitcoin 的問題。他指出，「遇到真正革命性的想法是很罕見的」，並且不忘提到 Ripple。
 
-![Mike Hearn](assets/en/027.webp)
+![Mike Hearn](assets/zh-Hant/027.webp)
 
 Mike Hearn 和中本聰討論了 Bitcoin 的各個方面，例如縮放、微額支付、軟體如何運作以及沒有扣款。其中，Mike Hearn 問中本聰為何選擇「2,400 萬」（*sic*）這個數量作為 Bitcoin 的總量，以及是否可以再細分。中本聰隨後作了如下解釋：
 
 > "我對硬幣數量和發行時間表的選擇是經過深思熟慮的猜測。這是一個困難的選擇，因為一旦網路開始運作，它就會被鎖定，我們就會被它困住。我想挑一個能讓價格與現有貨幣相近的貨幣，但在不知道未來的情況下，這是非常Hard的。我最後選擇了中間的某個值。如果 Bitcoin 仍然是小眾貨幣，它的單位價值就會比現有貨幣低。如果您想像它被用於世界貿易的某個部分，那麼全世界只會有 2,100 萬個硬幣，所以它的單位價值會高很多。價值是有 8 位小數的 64 位元整數，因此 1 個硬幣在內部表示為 100000000。如果典型的價格變得很小，就有足夠的細緻度。例如，如果 0.001 值 1 歐元，那麼改變小數點的顯示位置可能會更容易，所以如果您有 1 Bitcoin，現在就顯示為 1000，而 0.001 則顯示為 1。
 他後來向 Mike Hearn 解釋，他「想過 100 BTC [每個區塊] 和 4,200 萬，」但他覺得 4,200 萬似乎很高。(「我考慮過 100 BTC 和 4,200 萬，但 4,200 萬看起來很高。」)
 
-與中本聰聯繫之後，Mike Hearn 開始在他的個人電腦上使用該軟體。他挖出了一些區塊，包括 [block 11,157] (https://Mempool.space/block/00000000a630e2695d98b11707d053b12c583f58976f8b4ae6a6f289ee32797b)。在討論的同時，兩人也進行了一些金錢上的交換。4 月 18 日，Mike Hearn 向中本聰發送了 32.51  Bitcoin ，中本聰在同一天將其退回。他們還彼此寄送了各自挖礦的50 Bitcoin。
+與中本聰聯繫之後，Mike Hearn 開始在他的個人電腦上使用該軟體。他挖出了一些區塊，包括 [block 11,157](https://Mempool.space/block/00000000a630e2695d98b11707d053b12c583f58976f8b4ae6a6f289ee32797b)。在討論的同時，兩人也進行了一些金錢上的交換。4 月 18 日，Mike Hearn 向中本聰發送了 32.51  Bitcoin ，中本聰在同一天將其退回。他們還彼此寄送了各自挖礦的50 Bitcoin。
 
 ### Martti Malmi 與 Bitcoin 簡報會
 
 中本聰的溝通策略同樣引起了一位年輕的芬蘭計算機科學學生 Martti Malmi 的關注。他在四月初透過 P2P 基金會論壇上的文字發現了 Bitcoin。9 日，他開始使用該軟體，並挖出了他的第一個區塊（區塊 10,351）。晚上，他寫了一篇簡短的 Bitcoin 簡報，他在簡報中支持無政府主義者的假設：「P2P 貨幣能讓政府滅亡？」他以 Trickster(n) 的筆名在兩個不同敏感度的自由主義論壇上發表了他的文章：anti-state.com (ASC) 和 Freedomain Radio (anarcho-capitalist Stefan Molyneux 的媒體) 的論壇。Martti 寫道
 
 > "這個系統是匿名的，沒有政府可以徵稅或阻止交易。也沒有中央銀行可以無限制地創造新錢來貶低貨幣。這種系統的廣泛採用似乎會對國家搾取公民血汗的能力造成毀滅性的影響"。
-![Martti Malmi in 2013](assets/en/028.webp)
+![Martti Malmi in 2013](assets/zh-Hant/028.webp)
 
 2013 年的 Martti Malmi（資料來源：Martti Malmi[Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
@@ -742,7 +753,7 @@ Martti Malmi 也設立了論壇和 wiki，這些還保留在 SourceForge 頁面�
 
 第一批使用者在下個月初開始註冊。12 月 9 日，由除中本聰之外的人發表的 [第一則訊息](https://bitcointalk.org/index.php?topic=12.msg40#msg40) 出現，真正拉開了討論的序幕。以下是 2010 年 5 月 29 日論壇的 [截圖](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/)，以資說明：
 
-![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/029.webp)
+![Screenshot of the Bitcoin forum from May 29, 2010](assets/zh-Hant/029.webp)
 
 新論壇的推出是一個契機，讓中本聰和 Martti Malmi 幾個月來努力開發的軟體 [0.2 版](https://bitcointalk.org/index.php?topic=16.msg73#msg73)，在 12 月 16 日完成發佈。這個版本包含了一些改進，例如最小化到工作列、啟動時自動啟動，或是挖礦的多執行緒。由於 Malmi 的貢獻以及新加入的 NewLibertyStandard 所進行的測試 (其個案將在下一章中討論)，軟體也針對 Linux 進行了適配。
 
@@ -759,6 +770,8 @@ Bitcoin 的宣傳也經歷了幾個階段：首先，中本聰著重於線上支
 ## 加密貨幣的啟動
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
+
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
 
 在之前的章節中，我們觀察到中本聰如何實現他的想法，以及他如何傳達這個想法，將 Bitcoin 介紹給全世界。然而，並非一切都取決於他：還需要人們為 Bitcoin 賦予價值。由於這樣可以透過交易費用賺取礦工的報酬，並透過自然通縮獎勵商人，因此這種升值對於系統的安全性至關重要。
 
@@ -795,14 +808,14 @@ Bitcoin 的這種經濟引導作用從一開始就隨著挖礦的活動逐漸發
 
 2009 年 9 月底，一位化名為 NewLibertyStandard (我們簡稱為 NLS) 的人發現 Bitcoin。他試用該軟體，並開始挖礦。他產生的第一個區塊是 [block 23,940](https://Mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50)。他是 Linux 使用者，因此使用「模擬器」Wine 來執行軟體。他對政治自由和貴金屬很感興趣，從他在論壇上的 [頭像](https://bitcointalk.org/index.php?action=profile;u=26)可以看出，他的頭像是刻有「自由」字樣的美國鷹。因此，他將 Bitcoin 視為等同於數位世界中的黃金：在他的 [個人頁面](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/)，他將中本聰的創造稱為「經濟革命」和「數位貨幣的黃金標準」。
 
-![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/030.webp)
+![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/zh-Hant/030.webp)
 
 2009 年 10 月，第一個貨幣兌換服務成立，讓人們可以將美元兌換成 Bitcoin，再將 Bitcoin 兌回美元。創造者在 SourceForge 上的 Bitcoin 專屬論壇註冊，並在那裡宣佈開通服務。為了估算匯率，他以取得一個單位所需的能源成本為基礎，並考慮到他所在地的電力價格和他個人生產的頻率。在他的頁面上，他 [寫道](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate)：
 
 > 「我們的匯率是通過將 1.00 美元除以一個高耗電量的計算機每年所需的平均電力量，1331.5 千瓦時，乘以美國上一年度的平均住宅電價，0.1136 美元，然後除以 12 個月，最後除以過去 30 天內我的電腦生成的 Bitcoin 數量。」
 以下是 NLS 服務的指導性匯率，也公布在 NLS 的個人頁面上：
 
-![Indicative exchange rates of the NLS service](assets/en/031.webp)
+![Indicative exchange rates of the NLS service](assets/zh-Hant/031.webp)
 
 交易透過 newlibertystandard@gmail.com 電子郵件結算。美元轉帳完全透過 PayPal 進行，並收取操作費用。
 
@@ -825,7 +838,7 @@ Bitcoin 的這種經濟引導作用從一開始就隨著挖礦的活動逐漸發
 
 2 月 5 日，NLS [建議](https://bitcointalk.org/index.php?topic=41.msg238#msg238)，Bitcoin 應像在外匯市場交易的貨幣一樣，採用股票代號 BTC 和泰銖的代號 (฿)。在此之前，並沒有既定的做法：例如，中本聰和 Martti 在 [通信](https://mmalmi.github.io/Satoshi/#email-119) 中使用字母 `bc` 來描述單位。BTC 符號的使用很快成為標準。2 月 24 日，中本聰[設計](https://bitcointalk.org/index.php?topic=64.msg504#msg504) 了貨幣符號 (大寫的 B 由兩條垂直橫條交叉)，隨後他創造了第一個真正的 Bitcoin 標誌。
 
-![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/032.webp)
+![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/zh-Hant/032.webp)
 
 漸漸地，人們開始接受 Bitcoin。2009年12月的用戶 SmokeTooMuch 就是這樣，他[報導](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65)了一個名為BTC 2 PSC的paysafecard禮物卡銷售服務。該服務後來在2010年2月4日被中本聰[提及](https://mmalmi.github.io/Satoshi/#email-141)。NLS的情況也是如此，他在2月9日[開設](https://bitcointalk.org/index.php?topic=30.msg305#msg305)了自己的線上商店Liberty Swap Variety Shop，提供郵票和貼紙銷售。
 
@@ -836,7 +849,7 @@ Bitcoin 的這種經濟引導作用從一開始就隨著挖礦的活動逐漸發
 - BitcoinExchange (bitcoinexchange.com)，Martti Malmi 的平台，其獨特之處在於通過考慮用戶存款的歐元和 Bitcoin 來[衡量](https://mmalmi.github.io/Satoshi/#email-25) 供給和需求，並於 2010 年 3 月 2 日[向公眾開放](https://bitcointalk.org/index.php?topic=68.msg591#msg591)；
 - Bitcoin Market (bitcoinmarket.com)，這是一個使用 PayPal 的點對點市場，由一個叫 dwdollar 的人在 3 月 16 日 [推出](https://bitcointalk.org/index.php?topic=20.msg726#msg726)，在 7 月 Mt. Gox 出現之前，看到顯著的成功。
 
-![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/033.webp)
+![Later capture of the Bitcoin Market interface, August 26, 2011](assets/zh-Hant/033.webp)
 
 [Capture](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) of Bitcoin Market Interface later on (August 2011)
 
@@ -846,7 +859,7 @@ Bitcoin 的這種經濟引導作用從一開始就隨著挖礦的活動逐漸發
 
 第一個專門的 Bitcoin 託管服務也出現了，它就是 MyBitcoin，這是一個網路應用程式，可讓您輕鬆、安靜地使用加密貨幣，尤其是在行動裝置上。有了這項服務，使用者確實不需要下載完整的鏈資料來傳送和接收交易，也不需要自己儲存私密金鑰來保管 Bitcoin。
 
-![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/034.webp)
+![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/zh-Hant/034.webp)
 
 當時，輕量級錢包（稱為「SPV」）並不存在，因此中本聰自己認為使用這種類型的軟體是可以接受的，儘管這種使用違反了 Bitcoin 核心的去中介化原則。2010 年 5 月 18 日，他在論壇上[寫道](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149)：
 
@@ -884,6 +897,8 @@ Bitcoin 價值的起源問題一直是許多人努力想要解釋的。這種價
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 在上一部分，我們探討了 Bitcoin 如何出現、如何介紹給大眾，以及如何在經濟上發起。2010 年春天，當 Bitcoin 的商業活動剛開始盛行時，中本聰及其支持者決心要讓這個火種持續燃燒。幸運的是，其他人也加入了行列，特別是 Miner Laszlo Hanyecz 和開發人員 Gavin Andresen，他們的行動尤其突出。
 
 在本章中，我們將探討利用顯示卡（GPU）進行挖礦的首次部署、中本聰累積的財富、首次使用 Bitcoin 購買實物、建立免費發放 Bitcoin 單位的「比特幣水龍頭（bitcoin faucet）」以及在 Slashdot 效應之前的軟體和網路的演變。
@@ -893,7 +908,7 @@ Bitcoin 價值的起源問題一直是許多人努力想要解釋的。這種價
 
 中本聰對這種難度的增加深感擔憂，並從 2010 年 2 月開始在論壇上維護 [history](https://bitcointalk.org/index.php?topic=43.msg249#msg249)。下面是它的樣子：
 
-![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/035.webp)
+![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/zh-Hant/035.webp)
 
 儘管對於網絡中計算能力增強感到興奮，但中本聰仍希望減緩挖礦專業化的速度以促進單位的分配。在此之前，礦工一直使用中央處理器 (CPU) 來挖新的 Bitcoin。然而，事實證明這些處理器在執行重複性運算時並不有效率，相較之下，圖形處理器 (GPU) 則更適合這種重複性計算。因此，當時每個人都知道這種演進是不可避免的，包括中本聰本人。2009 年 12 月 19 日，他[聲明](https://bitcointalk.org/index.php?topic=12.msg54#msg54) 如下：
 
@@ -901,7 +916,7 @@ Bitcoin 價值的起源問題一直是許多人努力想要解釋的。這種價
 
 然而，幾個月後，潘朵拉的盒子被打開了。麻煩製造者是 Laszlo Hanyecz，一位 28 歲的美國開發人員，原籍匈牙利，住在佛羅里達州。他在 2010 年 4 月發現 Bitcoin。9 日，他以約 20 美元的價格從 NLS [取得](https://Mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3,300 個 Bitcoin，然後透過數次轉帳測試系統。18 日，他試圖從他的[公用地址](https://Mempool.space/Address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4) 的展開多筆交易來擁塞網路，但網路撐住了。
 
-![Laszlo Hanyecz with his son in May 2018](assets/en/036.webp)
+![Laszlo Hanyecz with his son in May 2018](assets/zh-Hant/036.webp)
 
 2018 年 5 月，Laszlo Hanyecz 與他的兒子（資料來源：Laszlo Hanyecz）：[The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
@@ -918,7 +933,7 @@ Laszlo 並未真正注意到這項警告，並繼續使用他的顯示卡挖礦�
 
 中本聰的挖礦活動有一個明顯的模式，使得我們可以識別出他可能發現的區塊，儘管有少數的誤判。開發人員 Sergio Lerner 在 2013 年強調這種挖礦模式，並將其命名為 Patoshi 模式。
 
-![Patoshi Pattern between blocks 0 and 50,000](assets/en/037.webp)
+![Patoshi Pattern between blocks 0 and 50,000](assets/zh-Hant/037.webp)
 
 從網站 [satoshiblocks.info](http://satoshiblocks.info/) 觀察到的區塊 0 到 50,000 之間的 Patoshi 模式：每個點對應一個區塊，藍線由中本聰的區塊組成，其他線代表其他礦工的輸出。
 
@@ -926,11 +941,11 @@ Laszlo 並未真正注意到這項警告，並繼續使用他的顯示卡挖礦�
 
 隨著 2009 年秋季運算能力的提升，中本聰的運算能力相對於總網路能力的比例逐漸下降。它從 2009 年 3 月的 75% 降到 9 月的 60%，然後在 12 月降到 15%，並在 5 月達到 0%。以下是 [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html) 在 2014 年製作的圖表：
 
-![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/038.webp)
+![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/zh-Hant/038.webp)
 
 此外，中本聰挖礦主導地位的減少並不僅僅是被動的：他自己在同一時期也放慢了生產速度。事實上，中本聰定目標是讓每個人都參與其中：他挖礦並非為了獲得經濟利益，而是為了確保網路的運作，直到獎勵措施生效為止。因此，在這段挖礦期間，他將哈希速率（每秒執行的計算次數）降低了三次：第一次在 2009 年 6 月從 4.5 MH/s 降為 2.5 MH/s，第二次在 10 月從 2.5 MH/s 降為 1 MH/s，第三次在 2010 年 5 月從 1 MH/s 降為 0 MH/s。以下是他在這段期間的哈希速率演變圖（[Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)）：
 
-![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/039.webp)
+![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/zh-Hant/039.webp)
 
 因此，中本聰的挖礦確實是無私的，正如 [Jameson Lopp 指出](https://blog.lopp.net/was-Satoshi-a-greedy-Miner/)。當他在 2010 年 5 月 3 日停止挖礦時（他的最後一個區塊是 [block 54,316](https://Mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e) ），就構成了 Bitcoin 在緩慢發展中的另一項成就：經濟行為者接管交易確認。
 
@@ -941,13 +956,13 @@ Laszlo 並未真正注意到這項警告，並繼續使用他的顯示卡挖礦�
 > "我願意花 10,000 Bitcoin 買幾個披薩......可能是兩個大的，這樣我就可以剩一些第二天吃。我喜歡吃剩下的披薩，以後再啃。你可以自己做披薩送到我家，或者從外賣店代我訂，但我的目標是用 Bitcoin 獲得外賣食物，我不需要自己訂餐或準備食物，有點像在旅館或其他地方訂「早餐拼盤」，他們只要送點東西給你吃，你就滿意了！(......)如果您有興趣，請讓我知道，我們可以達成協議"。
 這項提議在四天後被接受。是一位年輕的加州人 Jeremy Sturdivant 在 IRC 即時通訊服務上接受了交易。
 
-![Jeremy Sturdivant in May 2018](assets/en/040.webp)
+![Jeremy Sturdivant in May 2018](assets/zh-Hant/040.webp)
 
 Jeremy Sturdivant 於 2018 年 5 月（資料來源：Jeremy Sturdivant[The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
 5 月 22 日，他從 Papa John's 訂購了兩個披薩，並送到了佛羅里達州杰克遜維爾的 Laszlo 手中。他 [收到](https://Mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10,000 個 Bitcoin，以 Bitcoin 市價計算，價值約 44 美元。以下是這兩個披薩的照片，由 Laszlo 本人 [分享](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/)：
 
-![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/041.webp)
+![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/zh-Hant/041.webp)
 
 這是第一次用 Bitcoin 購買實物，即使是間接購買。Laszlo 得到了[Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196)的祝賀，他寫道：「邁出了一大步」。NLS 也就此事添加了[正面評論](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197)。
 
@@ -962,7 +977,7 @@ Jeremy Sturdivant 於 2018 年 5 月（資料來源：Jeremy Sturdivant[The Tele
 
 這段期間也見證了 Bitcoin 歷史上一位關鍵人物的到來：Gavin Andresen 是一位 44 歲的開發人員，出生於澳洲，2004 年 [取得](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) 美國國籍，當時住在馬薩諸塞州的 Amherst。他從澳洲旅行回來後暫時失業，5 月底透過 Neil McAllister 在 InfoWorld 上發表的一篇 [文章](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3)，發現了 Bitcoin。這篇文章將中本聰的專案介紹為一項「開源創新」。
 
-![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/042.webp)
+![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/zh-Hant/042.webp)
 
 Gavin Andresen 在澳洲昆士蘭州湯斯維爾 (資料來源：[CIO archive](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/))
 
@@ -986,6 +1001,8 @@ Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code
 ## Slashdot 效應
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
+
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
 
 在 2010 年夏季初期，儘管有一些令人鼓舞的初步發展，Bitcoin 仍然建立在不穩固的基礎上。除了中本聰之外，該軟體幾乎沒有其他開發者。挖礦者都是在個人電腦上進行的業餘活動。與 Bitcoin 相關的服務約有二十個，而實際的交易所則同樣稀少。然而，事情將在年下半年發生劇變。
 
@@ -1027,7 +1044,7 @@ Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code
 2010 年 7 月 11 日，Teppy 撰寫的 Bitcoin 簡報修訂版在 Slashdot [發表](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03)。內容如下：
 
 > "這項顛覆性的技術如何？Bitcoin 是一種點對點、以網路為基礎的數位貨幣，沒有中央銀行，也沒有交易費用。使用工作量證明概念，節點會消耗 CPU 週期搜尋一捆捆的硬幣，並將搜尋結果廣播至網路。能源使用分析顯示，Bitcoin 的市場價值已經高於生成它們所需的能量價值，顯示出健康的需求。社群希望該貨幣能夠保持在任何政府的可控範圍之外。」
-![Slashdot Logo in 2010](assets/en/043.webp)
+![Slashdot Logo in 2010](assets/zh-Hant/043.webp)
 
 這篇刊物受到關注，幾天內就有近 500 則留言。對 Bitcoin 而言，這次成功讓大量訪客湧入網站和論壇。區塊鏈的使用量猛增：網路上進行的交易數量從 7 月 10 日的 42 次增加到 12 日的 1,641 次，14 日達到 5,554 次，創下歷史新高。儘管負荷增加，系統仍能維持運作。14 日，開發人員 Gavin Andresen 在論壇上 [寫道](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745)：
 
@@ -1040,13 +1057,13 @@ Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code
 
 在透過 Slashdot 發現 Bitcoin 的人當中，有一位 35 歲的美國企業家兼程式設計師 Jed McCaleb，他因在 2000 年代共同創立並開發點對點檔案分享軟體 eDonkey2000 而聞名。他意識到很難用美元換取 Bitcoin，於是 「心血來潮 」決定創造一個有效率的市場。為此，他重新利用了他在 2007 年開發的一個舊專案：Magic The Gathering Online Exchange (MTGOX)，這是一個允許買賣線上遊戲 *Magic: The Gathering Online* 卡牌的網站。他重新使用這個專案的網域名稱 (mtgox.com)，這也成為新平台的名稱：Mt.Gox，讀作「Mount Gox」。
 
-![Jed McCaleb in 2013](assets/en/044.webp)
+![Jed McCaleb in 2013](assets/zh-Hant/044.webp)
 
 2013 年的 Jed McCaleb（資料來源：Ariel Zambelich for [Wired]()Ariel Zambelich for [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
 一週後，也就是 7 月 18 日，Jed McCaleb 推出了他的交易平台，並在論壇上 [宣布](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866)。由於他的專業知識，他確保該平台能以自動化市場的方式運作，類似於現代的線上交易所。[據他說](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891)，它從 Bitcoin 市場中脫穎而出，因為它 「始終在線，自動化」，「網站速度更快，有專用主機」，「介面對用戶來說更友好」。因此，Mt. Gox 很快成為獲取 Bitcoin 的主要途徑，奠定了自己作為美元報價基準的地位。
 
-![Interface of the Mt. Gox platform in February 2011](assets/en/045.webp)
+![Interface of the Mt. Gox platform in February 2011](assets/zh-Hant/045.webp)
 
 2011年2月Mt. Gox 平台的介面（資料來源：Mt：[Mt. Gox archive](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
@@ -1062,6 +1079,8 @@ Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
 
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
+
 如上一章所述，2010 年 7 月 11 日來自 Slashdot 的大量使用者湧入，引起了人們對中本聰專案的巨大興趣。網路的使用呈爆炸性成長；幣價十倍上漲，算力也是如此。因此，Bitcoin 在夏天經歷了前所未有的成長。
 
 然而，在成功的同時也出現了技術問題，軟體中發現了許多漏洞。更高的知名度確實意味著有更多的人在檢查程式碼，也更有可能發生操作上的異常。這正是 8 月 15 日發生的值溢出事件，也是 Bitcoin 歷史上第一次「故障」，持續了約 15 小時。這段期間自然是軟體的改良，以預測各種威脅，並盡可能修正瑕疵。
@@ -1074,13 +1093,13 @@ Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code
 
 最後，我們可以提到 Jeff Garzik (在論壇上使用 jgarzik 這個假名)，他是一位美國開發人員，自由軟體世界的貢獻者，特別是 Red Hat 發行版的貢獻者，也是奧地利經濟學派的自由主義追隨者。他透過 Slashdot 發表的文章發現了 Bitcoin，並幾乎立即參與 Bitcoin。
 
-![Jeff Garzik in 2013](assets/en/046.webp)
+![Jeff Garzik in 2013](assets/zh-Hant/046.webp)
 
 Jeff Garzik 於 2013 年（資料來源：Jeff Garzik[Benson Samuel](https://bensonsamuel.com/Bitcoin-3/talking-Bitcoin-with-jeff-garzik/))
 
 中本聰的首要目標是讓軟體和通訊協定更安全，以因應最近使用量的增加。他們與 Gavin Andresen 一起考慮可能發生的各種攻擊 (包括拒絕服務攻擊)，並努力修正發現的漏洞。就這樣，在 7 月 17 日加入了檢查點系統 ([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807))，防止鏈在某個日期之前被重寫，並在 7 月 25 日整合了工作的概念 ([v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707))，以完善節點選擇正確鏈的機制。
 
-Gavin 和中本聰也修正了幾個 bug。其中最主要的是 "1 RETURN bug"，這是腳本系統中的一個漏洞，使用特定腳本便可以從任何地址花費 Bitcoin 。ArtForz 在 7 月 28 日報告了這個漏洞，他沒有利用這個漏洞悄悄地賺錢，而是選擇與中本聰和 Gavin 分享他的發現。中本聰很快就在軟體中加入修補程式 ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451))，並建議所有使用者升級。因此，Bitcoin 從潛在的災難性情況中獲救。此漏洞後來以 [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141) 的標識符記錄在 MITRE 中。
+Gavin 和中本聰也修復了幾個錯誤。其中主要的錯誤是「*1 RETURN bug*」，這是腳本系統中的一個漏洞，它使得透過一個特定的腳本可以從任何地址花費比特幣。這個漏洞由 ArtForz 在 7 月 28 日報告，他沒有選擇利用這個缺陷並悄悄致富，而是選擇與中本聰和 Gavin 分享他的發現。中本聰急忙將修復程序包含在軟體 ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)) 中，並建議所有用戶進行升級。比特幣因此避免了最壞的情況。此漏洞稍後將以識別符 [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141) 註冊到 MITRE 公司。
 
 第二個目標是改善系統的效能。在內部腳本系統中加入`OP_NOP`操作代碼就屬於這一類，由中本聰在 7 月 29 日（v0.3.6）低調進行，唯一的[評論](https://sourceforge.net/p/Bitcoin/code/119/) 是 「擴充」 一詞。這些操作代碼是無聲指令，如果出現在腳本中則沒有任何效果，但也不會使交易失效。因此，我們可以修改這些指令的行為，而不會使腳本與舊版本的通訊協定不相容，這就是中本聰的註解。這些操作代碼在 2015 年和 2016 年會允許所謂的「軟分叉」，方法是將指令 `OP_NOP2` 和 `OP_NOP3` 分別轉換為「OP_CHECKLOCKTIMEVERIFY」和「OP_CHECKSEQUENCEVERIFY」。
 
@@ -1117,7 +1136,7 @@ Gavin 和中本聰也修正了幾個 bug。其中最主要的是 "1 RETURN bug"�
 
 最後，這個參數的存在影響到 Jeff Garzik，他 [宣稱](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) 「比起政府關閉，更關心可擴展性」，他 [詢問](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) 「如何可能將 Bitcoin 銷售給嚴肅的投資人，內建的限制像是每分鐘 463 次的交易限制」。因此，10 月 3 日，他在論壇上提出一個修補程式，將區塊大小限制增加到 7.168 MB，以「符合 PayPal 的平均交易率」。Theymos 回應說，「套用這個修補程式會讓您與其他 Bitcoin 用戶端不相容」。這個訊息得到中本聰的認可，他 [建議](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) 不要使用這個修補程式，並表示：「如果我們需要變更，我們可以稍後逐步進行變更」。後者在隔天[澄清](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) 他的想法，提供如何進行這樣的通訊協定變更的指引。
 
-![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/047.webp)
+![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/zh-Hant/047.webp)
 
 這場討論標誌著關於可擴展性的爭論的開始，而這場爭論最終會在 2015 年到 2017 年之間引發一場真正的內戰，也就是所謂的區塊大小戰爭 (blockize war)。
 
@@ -1147,6 +1166,8 @@ Gavin 和中本聰也修正了幾個 bug。其中最主要的是 "1 RETURN bug"�
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 在上一部分中，我們研究了 Bitcoin 的簡報在 Slashdot 上發表 (slashdotting) 所造成的影響，以及中本聰和他的助手如何處理初期的技術麻煩。到夏天結束時，專案已經度過了風浪，並準備好迎接越來越多的人。因此，2010 年秋天標誌著 Bitcoin 的成功時期。
 
 這段期間尤其是挖礦的黃金時代，隨著第一批 GPU 礦場和第一家合作公司的出現，挖礦有了顯著的進步。部署的資源越來越多，專用演算法的效能也不斷提升。正如當時的一位博客作者（化名 jimbobway）[寫道](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html)，這多少有點像「數位淘金熱」，他指出「成千上萬的網際網路使用者」都在挖礦「希望發財」，其中許多人試圖「開發軟硬體工具以更有效率地開採 Bitcoin」，希望能成為富人。
@@ -1155,7 +1176,7 @@ Gavin 和中本聰也修正了幾個 bug。其中最主要的是 "1 RETURN bug"�
 
 在 2010 年 7 月 Bitcoin 被 slashdotted 之後，價格上漲所帶來的高報酬以及未來成長的可能性，鼓勵了個人更密集地投入 Bitcoin 的產生。這就是為什麼網路的 [Hash rate](https://bitinfocharts.com/comparison/Bitcoin-Hashrate.html#alltime) 在 7 月 11 日為 0.22 GH/s，在 17 日上升到 2.78 GH/s，然後在 8 月 15 日上升到 5.79 GH/s，最後在 9 月 19 日達到 9.94 GH/s，最後在 9 月 29 日達到 12.58 GH/s。
 
-![Total network hash rate from July 11 to October 5, 2010](assets/en/048.webp)
+![Total network hash rate from July 11 to October 5, 2010](assets/zh-Hant/048.webp)
 
 2010 年 7 月 11 日至 10 月 5 日的總網路 Hash 率（資料來源：[CoinWarz]()[CoinWarz](https://www.coinwarz.com/Mining/Bitcoin/Hashrate-chart))
 
@@ -1163,7 +1184,7 @@ Gavin 和中本聰也修正了幾個 bug。其中最主要的是 "1 RETURN bug"�
 
 他在 7 月 19 日開始挖 Bitcoin 。7 月 25 日，在一個調查使用者持有 Bitcoin 量的討論串中，ArtForz [表示](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) 他在 6 天內產生了 1,700 個 Bitcoin ，相當於 Hash 速率的 4%，或 80 MH/s。漸漸地，他建立了一個大型的礦場，也就是後來的 "ArtFarm"。在 8 月，他的[包括](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-Bitcoin-Mining/) 6 台 ATI Radeon HD 5770，讓他的速度從 8 月 9 日的 76 MH/s，增加到 13 日的約 450 MH/s。
 
-![ArtForz's mining production between August and October 2010](assets/en/049.webp)
+![ArtForz's mining production between August and October 2010](assets/zh-Hant/049.webp)
 
 ArtForz 2010 年 8 月至 10 月的挖礦產量 (資料來源：ArtForz：Blackburn 等人，「[Cooperation among an anonymous group protected Bitcoin during failures of decentralization](https://arxiv.org/pdf/2206.02871)」)
 
@@ -1179,7 +1200,7 @@ ArtForz 2010 年 8 月至 10 月的挖礦產量 (資料來源：ArtForz：Blackb
 
 9月6日，在一位論壇成員的建議下，他[表示](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107)，如果他收到 「大筆捐款」，他 「也許願意將程式碼開源」。15日，Jeff Garzik就此提出了一個[要約](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921)，建議給puddinpop 10,000 Bitcoin ，當時大約是600美元。Puddinpop 接受了：交易在 18 日[發生](https://Mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea)，演算法也在不久之後，由 puddinpop 以自由授權的方式[發表](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135)。
 
-其他演算法也在同一時間公開。9 月 9 日，一位名叫 nelisky 的論壇成員 [分享](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) 了他們自己使用 CUDA 的挖礦演算法。10 月 1 日，一位名叫 m0mchil 的人 [發表](https://web.archive.org/web/20101206143359/http://www.Bitcoin.org/smf/index.php?topic=1334.0) 了他們的演算法 (POCLBM)，並將其描述為「大眾的 OpenCL Miner」。
+其他演算法也同時公開。9月9日，一位自稱 nelisky 的論壇成員[分享](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264)了他使用 CUDA 的自己的挖礦演算法。10月1日，一位名叫 Momchil Georgiev 的人士（他於 2 月加入論壇並使用化名 m0mchil）[發布](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0)了他的演算法 (POCLBM)，稱之為「面向大眾的 OpenCL 礦工」。
 
 這種改進讓技術最精湛的人可以大量生產 Bitcoin。除了 ArtForz 之外，Nils Schneider (tcatm) 也成為這段期間的主要礦工之一。2010 年 10 月 3 日，他 [宣稱](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111) 由 3 個顯示卡可以產生 983 MH/s 的散列速率。這個數字讓中本聰也[驚為天人](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112) 。
 
@@ -1187,7 +1208,7 @@ ArtForz 2010 年 8 月至 10 月的挖礦產量 (資料來源：ArtForz：Blackb
 
 由於挖礦專業化導致 Hash 率的大量增加，使得使用中央處理器挖 Bitcoin 變得越來越困難，而中央處理器的價格也越來越低。事實上，產生 Bitcoin 的可能性變得更依賴於差異，有些人永遠無法產生一個區塊。解決這個問題的方法是合作式挖礦。
 
-10 月 1 日，m0mchil [發表](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) 修改版 API，允許客戶端節點通過一個名為 `getwork` 的新函數擷取一個候選區塊，並在找到解決方案時返回工作量證明。他寫道，這個修正「為外部 Bitcoin 礦工開闢了道路」，「允許為一個客戶端設置多個礦工」。
+10 月 1 日，Momchil [發布了](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840)一項 API 修改，允許客戶端節點通過一個名為 `getwork` 的新功能檢索候選區塊，並在找到解決方案時返回工作量證明。他寫道，此修復程序「為外部比特幣礦工開闢了道路」，並「允許為一個客戶端安裝多個礦工」。
 
 同一天，一位論壇成員在題為「如何推翻 GPU 寡頭」的論題中，首次 [提到](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838) 「集體挖礦」的想法。10 月 13 日，puddinpop [提出](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906) 一款此類型的機型。礦工的算力是使用元 Hash 來測量的，元 Hash 是緩衝區的印記，包括每個區塊 Hash 的第一個位元組。伺服器就可以定期驗證用戶端是否按照定義執行計算。這個模型很複雜，而且 [不允許出錯](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015)。
 
@@ -1197,19 +1218,19 @@ ArtForz 2010 年 8 月至 10 月的挖礦產量 (資料來源：ArtForz：Blackb
 
 11 月 27 日，一位名叫 Marek Palatinus 的捷克年輕開發者使用化名 slush 在論壇上 [發表](https://web.archive.org/web/20101206144824/http://www.Bitcoin.org/smf/index.php?topic=1976.0) 了「合作式挖礦」的描述，這是一種利用「getwork」和 Jeff Garzik 邏輯的模式。這個模式是以礦工製作的部分工作證明為基礎 (按份付費)。第二天，中本聰[同意](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) 了這個概念。
 
-![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/050.webp)
+![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/zh-Hant/050.webp)
 
 Marek Palatinus (slush) 於 2013 年 5 月 11 日在布拉格舉行的 Z-DAY 會議上
 
-兩種評估模型在 12 月時實施。首先是 puddinpop 的概念，由用戶 doubled 於 12 月 1 日 應用，他 [邀請](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) 人們連線到他的礦池。這個群組在 12 月 4 日 [產生](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) 了第一個區塊 (95,420)。在幾天後又生產了一個區塊之後，doublec 的伺服器於 15 日 [關閉](https://bluishcoder.co.nz/Bitcoin-pool/)。由於出現了效率更高的礦池 Bitcoin.cz Mining 該服務於 17 日永久關閉：.
+這兩種估算模型於 12 月實施。首先，puddinpop 的概念於 12 月 1 日由用戶 doublec 應用，他[邀請](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)人們連接到他的分組挖礦伺服器。由此形成的分組於 12 月 4 日[產生了](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688)它的第一個區塊（95,420）。在幾天後產生了另一個額外的區塊後，doublec 的伺服器於 15 日[停止](https://bluishcoder.co.nz/bitcoin-pool/)運行。由於出現了一個效率更高的合作社：BitcoinCZ Mining，該服務於 17 日永久關閉。
 
-在調查論壇後，Marek Palatinus 決定實作他的挖礦合作模式，並在測試網路上進行測試。他也確保 CPU 礦工 (使用 Jeff Garzik 的軟體) 和 GPU 礦工 (使用 m0mchil 和 puddinpop 的用戶端) 都能存取伺服器。
+在對論壇進行調查後，Marek Palatinus 決定實施他的挖礦合作社模型，並特別在測試網絡上進行測試。他還確保伺服器可以同時供 CPU 礦工（使用 Jeff Garzik 的軟體）和 GPU 礦工（使用 Momchil 和 puddinpop 的客戶端）訪問。
 
 在 12 月 15 日至 16 日的夜間，合作模型終於由 Marek Palatinus 在主網路上 [推出](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520)。第一個區塊在 16 日早上被 [發現](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834)。隨後，產生了許多其他區塊。最初的挖礦取得成功：在幾天之內，其 Hash 速率就達到 4 GH/s，佔網路總功率的 3.5%。
 
-該合作將成為 Bitcoin 挖礦的基準。多年來，它[使用](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) 了好幾個名字：Bitcoin Pooled Mining (BPM)、Bitcoin.cz Mining，最終改名為 Slush Pool，以創建者的名字命名。它在 2022 年 9 月成為 Braiins Pool。
+該合作社將成為比特幣挖礦領域的參考。多年來，它[將擁有](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history)多個名稱：Bitcoin Pooled Mining (BPM)、BitcoinCZ Mining，以及最後是 Slush Pool，以紀念其創建者。它將於 2022 年 9 月成為 Braiins Pool。
 
-![Logo of Slush's cooperative in September 2011](assets/en/051.webp)
+![Logo of Slush's cooperative in September 2011](assets/zh-Hant/051.webp)
 
 2011 年 9 月 Slush 礦池的標誌 (來源：該網站的 [archive](https://web.archive.org/web/20110923151034/http://Mining.Bitcoin.cz:80/))
 
@@ -1222,6 +1243,8 @@ Marek Palatinus (slush) 於 2013 年 5 月 11 日在布拉格舉行的 Z-DAY 會
 ## 生態系統的綻放
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
+
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 在前一章中，我們探討了 2010 下半年挖礦的發展。到了秋季，這一進展已經相當穩固。然而，挖礦並不是 Bitcoin 唯一成功的面向：其生態系統也獲得了成功。
 
@@ -1238,13 +1261,13 @@ Bitcoin 是一個國際性的專案，因此必須讓盡可能多的英語圈以
 > 「天啊，我睡不著！我不斷在想這個了不起的東西。對我來說，Bitcoin 就是「網路空間的黃金」。真是讓人驚豔。"
 幾天之後，在 30 日，他在 LinuxFr.org (DLFP) 上以法文發表了一篇 [新聞稿](https://linuxfr.org/news/connaissez-vous-les-bitcoins)。這篇新聞稿的標題是 「您知道 Bitcoin 嗎？」，這可能是第一篇以法語撰寫的 Bitcoin 介紹。這篇文章觸及了許多人，有將近 350 個評論。以下是當時 [出現](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) 的第一段：
 
-![Do you know about bitcoins?](assets/en/052.webp)
+![Do you know about bitcoins?](assets/zh-Hant/052.webp)
 
 > **文章：您知道 Bitcoin 嗎？**  Bitcoin 是一種電子貨幣，由一位名叫中本聰的人在2009年設計。這種貨幣不同於其他電子貨幣，它完全去中心化，以點對點的方式運作，並巧妙地運用了基本的密碼學概念。它依賴於一款用 C++ 編寫的軟體，並在MIT自由許可證下發佈。
 
 尤其是，這篇發文引起了某位 Ploum（真名 Lionel Dricot）的注意，他是一位 29 歲的比利時部落客，也是自由軟體的倡導者。10 月 25 日，他在自己的部落格 [發表](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) 一篇題為「Geek Currency, Monkey Money?」的文章，提倡去中心化並支持 Bitcoin 的原則。許多講法語的網民都是透過這個途徑聽到 Bitcoin，包括 [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/)，也就是在 2017 年繼續創造 Bitcoin Cash 的開發者。
 
-![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/053.webp)
+![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/zh-Hant/053.webp)
 
 2012 年，Lionel Dricot (Ploum)，當時是打著海盜黨旗號參加比利時市鎮和省級選舉的候選人（資料來源：[Framablog]()[Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
@@ -1254,17 +1277,17 @@ Bitcoin 是一個國際性的專案，因此必須讓盡可能多的英語圈以
 
 除了語言社群的發展，Bitcoin 的對外宣傳方式也有一定的創新。10 月 4 日，一位 38 歲的澳大利亞人用化名 noagendamarket [發起](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) 了一個名為 BitcoinMedia 的活動。其目的是通過創建各種內容並在可能吸引受眾的地方進行廣告宣傳來推廣 Bitcoin。儘管這個計畫並沒有達到預期的成功，但它的優點是製作了第一批談論 Bitcoin 的影片。10 月 5 日 [發佈](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461)，該頻道的第一個影片是 Google 搜索故事（見下圖截圖），使用 Youtube 工具製作而成 (請參閱以下截圖)。其他影片將使用 Xtranormal 製作，這是一種簡易的工具，可從一套預先設計的角色和設定中建立影片序列。
 
-![First video on Bitcoin (Google Search Story)](assets/en/054.webp)
+![First video on Bitcoin (Google Search Story)](assets/zh-Hant/054.webp)
 
 在這段期間，有關 Bitcoin 的部落格文章激增。Jon Matonis 的情況尤其顯著，他經營的部落格 *The Monetary Future* 討論與數位貨幣、自由銀行和密碼學相關的主題。他於 3 月發現了 Bitcoin 並 [與中本聰交流](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-Satoshi/#entry514)，之後就開始撰寫相關文章。10 月，他發表了 [第三篇文章](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html)，其中他談到了價格上漲，並詳細介紹了生態系統的新奇之處。
 
-![Profile picture of Jon Matonis in 2011](assets/en/055.webp)
+![Profile picture of Jon Matonis in 2011](assets/zh-Hant/055.webp)
 
 Jon Matonis 2011 年的個人照片（資料來源：[福布斯]()[Forbes](https://www.forbes.com/sites/jonmatonis/))
 
 也是在這個時候，提出了新的 Bitcoin 標誌。11 月 1 日，一位化名 bitboy 的論壇成員 [發表](https://bitcointalk.org/index.php?topic=1631.0) 圖形 Elements，以突顯加密貨幣。其中一個 Elements 是一個橙色的標誌，B 被劃掉並稍有傾斜：
 
-![Bitcoin logo designed by bitboy, November 2010](assets/en/056.webp)
+![Bitcoin logo designed by bitboy, November 2010](assets/zh-Hant/056.webp)
 
 ### 經濟的成長
 
@@ -1272,7 +1295,7 @@ Jon Matonis 2011 年的個人照片（資料來源：[福布斯]()[Forbes](https
 
 所有這些因素導致價格大幅上升。雖然自八月以來價格穩定在 6 美分左右，但在十月初開始上漲。它上升到 10 美分，並在月底達到 20 美分。在 11 月 6 日，它甚至超過了 50 美分，這不禁令論壇成員[興奮](https://bitcointalk.org/index.php?topic=1681.0)。
 
-![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/057.webp)
+![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/zh-Hant/057.webp)
 
 2010年7月18日至10月18日 Mt. Gox 上的BTC價格 (來源：[*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html))
 
@@ -1289,9 +1312,9 @@ Bitcoin 的崛起意味著事物開始被衡量，無論是價格、鏈上的活
 
 ### 電子前線基金會接受 Bitcoin
 
-2010 年底的一件大事是電子前線基金會 (Electronic Frontier Foundation) 接受 Bitcoin，這是一個保護網際網路自由的國際組織，由 Mitch Kapor、John Gilmore 和 John Perry Barlow 於 1900 年共同創立。這對於 Bitcoin 的早期採用者來說尤其重要，因為他們骨子裡都是密碼龐克。他們非常希望 Bitcoin 能被接受。
+2010 年底的一個重要事件是 *Electronic Frontier Foundation*（一個致力於保護互聯網自由的國際組織，由 Mitch Kapor、John Gilmore 和 John Perry Barlow 於 1990 年共同創立）接受了比特幣。該組織深受第一批比特幣追隨者（他們本質上是密碼龐克 cypherpunks）的喜愛。因此，他們非常希望它能接受比特幣。
 
-![Logo of the Electronic Frontier Foundation](assets/en/058.webp)
+![Logo of the Electronic Frontier Foundation](assets/zh-Hant/058.webp)
 
 2010年8月13日，一位名叫 Kiba 的論壇成員主動[提出](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021)聯繫EFF，並建議他們接受社區的捐款，[收集](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578)。為此，他在 MyBitcoin 上建立了一個[賬戶](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt)，在那裡他收集了資金，並希望轉移給EFF。他草擬了一封電子郵件，並於 8 月底寄出。
 
@@ -1328,6 +1351,8 @@ EFF 花了一些時間才開始接受大眾捐款。經過協商後，社群說�
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
 
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
+
 我們看到 Bitcoin 在 2010 年 7 月於 Slashdot 上發布文章後，是如何高速成長的。到了秋天，隨著軟體、挖礦以及經濟上的各種進展，大家覺得這個計畫終於走上了正軌。這也是為什麼這段時間正好是中本聰逐漸退出的時期。
 
 Bitcoin 的創建者的離去有兩個原因：一方面，他的地位受到越來越多的挑戰，要求更多的去中心化和共識管理；另一方面，他對國家機構幾乎偏執的恐懼。後者的動機在 2010 年 12 月維基解密被金融封鎖的情況下特別明顯的表現出來，因為維基解密無法再通過傳統方式獲得資金，而 Bitcoin 為其提供了相關的替代方式。在本章中，我們將詳細描述這場消失事件的發展。
@@ -1343,7 +1368,7 @@ Bitcoin 的創建者的離去有兩個原因：一方面，他的地位受到越
 不過，Bitcoin 的原始碼仍然是自由的，因此任何人都可以複製和修改，這可以防止通訊協定的演進完全隨意。如 Jeff Garzik 於 11 月 19 日 [表示](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-19.html#l-1538)：
 
 > "中本聰憑空提出了神奇的數字，我們共同支持這個方向。[...]當中本聰做出不受社群支持的瘋狂舉動時，就是協定/程式碼基礎真正分叉的時刻。
-因此，中本聰身為領導者的角色並不妨礙批評的發生。這就是為什麼從七月開始，社群中會逐漸出現緊張氣氛的原因。舉例來說，在八月警報系統的 [部署](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745) 或十一月 m0mchil `getwork` 功能的 [修改](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) 時，就會出現反對意見。對於這種獨裁決策的挫折感有時候會在 IRC 上 [更公開地](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-24.html#l-384) 表達出來。
+因此，中本聰的領導作用並不能阻止批評的發生。這就是為什麼從七月開始，社區中的緊張局勢逐漸顯現。例如，在八月 [部署](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745)警報系統或十一月 [修改](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) Momchil 的 `getwork` 函數時，都出現了反對意見。對這種獨裁決策的不滿有時在 IRC 上[更加公開地](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384)表達。
 
 Gavin 與中本聰關係密切，但也會與其他開發人員討論，他清楚地看到這種情況所造成的問題。2010 年 9 月 27 日，在 IRC 上，Gavin [聲明](https://buildingbitcoin.org/Bitcoin-dev/log-2010-09-27.html#l-522) 他希望 「能夠說服中本聰轉換成更具協作性的開發模式」。(**原文：**「十月，Gavin [獲得](https://sourceforge.net/p/Bitcoin/code/165/) 了 SourceForge 上版本庫的寫入權限，情況有所改善。而在 12 月，隨著維基解密（WikiLeaks）事件的爆發，中本聰的突然退出，問題也隨之解決。」)
 
@@ -1351,13 +1376,13 @@ Gavin 與中本聰關係密切，但也會與其他開發人員討論，他清�
 
 中本聰離職的導火索是維基解密事件。維基解密是一個由密碼龐克 Julian Assange 於 2006 年創立的非政府組織，旨在為吹哨者和資訊洩露者發聲，同時保護他們的消息來源。2010 年，該非政府組織揭露的機密文件經各大媒體轉載後，引起輿論轟動。這些文件特別涉及美國軍方在阿富汗（阿富汗戰爭日誌）和伊拉克（伊拉克戰爭日誌）的過度行動，如平民傷亡和酷刑行為。
 
-![WikiLeaks logo in November 2010](assets/en/059.webp)
+![WikiLeaks logo in November 2010](assets/zh-Hant/059.webp)
 
-維基解密的資金主要來自公眾捐款，因此該組織依賴支付處理商接收線上付款。然而，在這些揭露發生之後，這些中介公司受到壓力，他們害怕監管機構的反應。這就是線上付款公司 Moneybookers 在 10 月 14 日 [凍結](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) 該 NGO 帳戶的原因。
+維基解密的資金主要依賴公眾捐款，因此該組織依賴支付處理商來接收線上付款。然而，在這些爆料之後，監管機構反應的擔憂給這些第三方帶來了壓力。這就是線上支付公司 Moneybookers 在 10 月 14 日[凍結](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked)該非政府組織帳戶的原因。
 
 這種情況為 Bitcoin 的使用開闢了一條王道，Bitcoin 不需要依賴任何可信賴的第三方，而且可以更好地抵制金融審查。這個假設是由 Amir Taaki 於 11 月在論壇上開啟的，他是一位 22 歲的伊朗裔英國人，使用的假名是 genjix。
 
-![Amir Taaki in December 2012 in Bratislava](assets/en/060.webp)
+![Amir Taaki in December 2012 in Bratislava](assets/zh-Hant/060.webp)
 
 Amir Taaki 於 2012 年 12 月在布拉迪斯拉發（資料來源：[Mitch Altman]()[Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/))
 
@@ -1447,6 +1472,8 @@ Amir Taaki 於 2012 年 12 月在布拉迪斯拉發（資料來源：[Mitch Altm
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
+
 中本聰離開後，必須在沒有他的情況下繼續進行。幸運的是，Bitcoin 是一個開放式專案，任何人都可以貢獻心力，因此創辦人的失蹤對它來說並非致命的。正如開發人員 Jeff Garzik 在 2010 年 7 月所寫的（關於創始人不在的可能性）：
 
 > "人們非常擔心規則和規則的制定。但是，在這裏不需要任何政府持續運作計畫。只要開放原始碼就足夠了。只要有需要，只要有足夠的興趣，社群就會提供。請相信社群。
@@ -1476,25 +1503,25 @@ Amir Taaki 於 2012 年 12 月在布拉迪斯拉發（資料來源：[Mitch Altm
 
 它的外觀也發生了變化。2010 年 12 月，網站仍保有中本聰時代的樣貌。以下是 12 月 5 日的 [快照](https://web.archive.org/web/20101110005546/http://www.Bitcoin.org/)：
 
-![Snapshot of Bitcoin.org from December 5, 2010](assets/en/061.webp)
+![Snapshot of Bitcoin.org from December 5, 2010](assets/zh-Hant/061.webp)
 
 因此，在 2011 年初 [新增](https://web.archive.org/web/20110216125441/http://www.Bitcoin.org/)了一抹色彩：
 
-![Snapshot of Bitcoin.org from February 16, 2011](assets/en/062.webp)
+![Snapshot of Bitcoin.org from February 16, 2011](assets/zh-Hant/062.webp)
 
 四月，在社群 [組織](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) 重新設計之後，網站的版面有所改變。以下是當時的 [外觀](https://web.archive.org/web/20110411071904/http://www.Bitcoin.org/)：
 
-![Snapshot of Bitcoin.org from April 11, 2011](assets/en/063.webp)
+![Snapshot of Bitcoin.org from April 11, 2011](assets/zh-Hant/063.webp)
 
 最後，在 2011 年 9 月，Nils Schneider [做出](https://buildingbitcoin.org/Bitcoin-dev/log-2011-08-31.html#l-691) 了新的變更。新的 GitHub 倉庫也為此而 [建立](https://github.com/Bitcoin/Bitcoin.org)。這個設計沿用較久：直到 2013 年才改變。在這裡（請注意，Bitcoin-the-software 當時被描述為「社群驅動的開放原始碼專案」）：
 
-![Snapshot of Bitcoin.org from September 23, 2011](assets/en/064.webp)
+![Snapshot of Bitcoin.org from September 23, 2011](assets/zh-Hant/064.webp)
 
 關於 wiki，最初是以 DokuWiki 為基礎，這是一個整合在網站上的免費引擎。然而，2010 年 12 月，居住在日本的法國開發人員 Mark Karpelès（在論壇上使用筆名 MagicalTux）在 Address Bitcoin.it 創建了一個新的 wiki。這個 wiki 是以 MediaWiki 引擎為基礎，他認為 MediaWiki 更優雅、更容易使用。最初的構想並不是要取代現有的文件，而是如 Mark [在 IRC 上表達](https://buildingbitcoin.org/Bitcoin-dev/log-2010-12-16.html#l-2848)，要開發「一個不那麼正式、更以社群為導向的 wiki」。
 
 這個新的維基吸引了[Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873)和[Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535)，所以他們很快就考慮讓它成為主維基。以下是5月21日拍攝的[快照](https://web.archive.org/web/20110521044430/https://en.Bitcoin.it/wiki/Main_Page)：
 
-![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/en/065.webp)
+![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/zh-Hant/065.webp)
 
 推出數天後，Bitcoin.org 首頁標題為 "wiki "的連結[指向](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872)Bitcoin.it。內容逐漸從 DokuWiki 版本轉移過來。1 月 31 日，Martti 在論壇上 [指出](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) 這是新的 wiki。
 
@@ -1514,13 +1541,13 @@ Amir Taaki 於 2012 年 12 月在布拉迪斯拉發（資料來源：[Mitch Altm
 
 儘管首批活動在美國舉行，法國社群也不甘落後。5 月 25 日，為了紀念 Gavin Andresen 訪問巴黎，在 La Défense 區舉辦了一場午餐會，Lucien Grondin、David François 和 Jon Matonis (他也正在訪問) 等知名人士都出席了。
 
-![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/en/066.webp)
+![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/zh-Hant/066.webp)
 
 在巴黎 La Défense 與 Gavin Andresen 會面，穿著粉紅色襯衫 (來源：[論壇存檔](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
 
 一個月後的 6 月 15 日，Bitcoin 首次以法語公開發表[(https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831)]，地點同樣是在巴黎。發表會由一年前發現 Bitcoin 的年輕網路安全專家 Renaud Lifchitz (nono2357) 主持。所呈現的 [內容](https://prezi.com/tikwkjt9ouey/Bitcoin-une-monnaie-electronique-pour-tous/) 質素非常高，觀眾的反應非常好，會場座無虛席。
 
-![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/en/067.webp)
+![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/zh-Hant/067.webp)
 
 Renaud Lifchitz 於 2011 年 6 月 15 日所作的 Bitcoin 簡報 (來源：[論壇存檔](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
@@ -1542,7 +1569,7 @@ Renaud Lifchitz 於 2011 年 6 月 15 日所作的 Bitcoin 簡報 (來源：[論
 
 四月，主要的主流媒體如 [大西洋月刊](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/)、[時代雜誌](https://techland.time.com/2011/04/16/online-cash-Bitcoin-could-challenge-governments/)、[福布斯](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html)都報導了數位貨幣的話題。5 月，這場運動的勢頭越來越猛，Bitcoin 幾乎處處被提及，特別是在 [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/Bitcoin-P2P-currency) 、[Slate](https://slate.com/business/2011/05/Bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html)、[Gizmodo](https://gizmodo.com/what-is-Bitcoin-5803124) 和 [TechCrunch](https://techcrunch.com/2011/05/20/Bitcoin-ven-and-the-end-of-currency/) 上。
 
-![Gavin Andresen in Forbes in April 2011](assets/en/068.webp)
+![Gavin Andresen in Forbes in April 2011](assets/zh-Hant/068.webp)
 
 Gavin Andresen 於 2011 年 4 月在《福布斯》發表的文章 (資料來源：[福布斯存檔]()[Forbes archive](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
@@ -1554,13 +1581,13 @@ Gavin Andresen 於 2011 年 4 月在《福布斯》發表的文章 (資料來源
 
 Bitcoin 的普及意味著其價格大幅提升。雖然在 2010 年 12 月已跌至 20 美分，但在 2011 年 2 月 9 日已達到與美元平價。當時，Hal Finney [表示](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) 社群成員「真的很幸運，正處於一個可能爆炸性的新現象的開始」。他的直覺很準，因為接下來發生的事情快如閃電。
 
-![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/069.webp)
+![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/zh-Hant/069.webp)
 
 jimbobway 在論壇上發表的照片與美元平價的日子（源：[Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
 事實上，春季的媒體狂熱結果是逐漸形成了前所未有的投機現象。在 1 美元附近停滯了幾個月之後，價格開始上漲，並在 4 月底達到 3 美元。最後，在 6 月 8 日，Bitcoin 的價格在 Mt. Gox 達到 32 美元的歷史高點！這個漲幅相當於在 6 個月內漲價 160 倍。
 
-![Average price of BTC between January 1 and June 30, 2011](assets/en/070.webp)
+![Average price of BTC between January 1 and June 30, 2011](assets/zh-Hant/070.webp)
 
 2011 年 1 月 1 日至 6 月 30 日的 BTC 平均價格（資料來源：[Bitbo.io]()[Bitbo.io](https://calendar.bitbo.io/price/))
 

@@ -1,0 +1,8 @@
+question: What is the key difference between how borrowing violations are handled with regular Rust references versus RefCell?
+answer: Regular references cause compile-time errors while RefCell causes runtime panics
+wrong_answers:
+  - Regular references cause runtime panics while RefCell causes compile-time errors
+  - Regular references allow multiple mutable borrows while RefCell enforces single mutable access
+  - Regular references require explicit lifetime annotations while RefCell uses automatic cleanup
+explanation: |
+  RefCell moves Rust's borrowing rule enforcement from compile time to runtime. While the compiler statically analyzes regular references and prevents borrowing violations before the program runs, RefCell performs these same safety checks during program execution. This allows RefCell to bypass the compiler's conservative restrictions in cases where the programmer knows the code is safe, but violations result in runtime panics instead of compilation failures.

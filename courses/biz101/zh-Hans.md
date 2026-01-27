@@ -1,22 +1,19 @@
 ---
 name: 比特币的商业应用
 goal: 理解支付和财务基础知识，将您的公司带进比特币世界
-objectives: 
-
-  - 比特币作为一种新兴货币和商业工具
-  - 了解企业为何以及如何将比特币存入金库或用于支付
-  - 具体了解如何在实践中接受比特币付款
-  - 做好准备以应对财务和会计要求
-
+objectives:
+- 发现比特币作为新兴货币和商业工具
+- 了解企业为何以及如何在资金中持有比特币或将其用于支付
+- 对如何在实践中接受比特币支付有具体的想法
+- 为管理财务和会计要求做好准备
 ---
-# 让您的公司踏上在比特币世界的旅程
+# 启动您的公司在比特币网络上的旅程
 
-了解比特币和闪电网络的实用功能，并探索它们如何像互联网一样**改变您的业务运营方式**。从数字资本到快速、廉价、可扩展的支付，**比特币为企业提供了广泛的用例**。
+探索比特币和闪电网络的实用功能，并了解它们如何像互联网一样改变您的业务运营。从资金管理到快速、经济且可扩展的支付，比特币为企业提供了广泛的用例。
 
-在本课程中，您将学习如何理解比特币作为一种全球性、通用性和互联网原生货币网络的概念。凭借其独特的基本特征，**比特币在许多方面优于传统的货币网络**。您将了解使用比特币进行传统金融操作（如价值储存和支付系统）的原因和做法。此外，本课程还涵盖获取和持有比特币的主题，包括相关的会计和财务要求，以及实施简单或大规模的比特币支付解决方案。
+在本课程中，您将学习如何将比特币理解为一个全球性、通用性和互联网原生的货币网络。凭借其独特的基本特征，比特币相比传统货币提供了显著的改进。您将了解为什么以及如何利用比特币进行经典的金融用例，例如资本存储和支付系统。此外，本课程还将涵盖获取和持有比特币，包括相关的会计和财务要求，以及实施简单或大规模的比特币支付解决方案。
 
-无论是**小企业还是大型公司**，将比特币融入日常运营都能使您的公司更具**弹性、生产力和竞争力**。每一家互联网公司都将成为一个以比特币为导向的公司，本课程将帮助您为此做好准备。最初的章节将重述了比特币的基本操作。所以，即使您是初学者，您还会获得继续学习所需的基础知识。无论是在学习BIZ101课程之前还是之后，学习关于中本聪发明的基础知识总是值得的。
-
+无论您是小型企业还是大型公司，将比特币整合到日常运营中都可以使您的公司更具韧性、生产力和竞争力。每个基于互联网的公司都将成为以比特币为导向的公司，本课程确保您做好准备。
 +++
 # 前言
 
@@ -37,7 +34,7 @@ objectives:
 
 准备好探索企业的比特币世界了吗？让我们开始吧！
 
-**注意**: 如果您在课程中遇到任何不熟悉的术语，请查阅[词汇表](https://planb.network/resources/glossary)获取定义。
+**注意**: 如果您在课程中遇到任何不熟悉的术语，请查阅[词汇表](https://planb.academy/resources/glossary)获取定义。
 
 # 货币、支付系统和比特币
 
@@ -201,7 +198,7 @@ objectives:
 
 ![BIZ101](assets/zh-Hans/003.webp)
 
-比特币有固定的货币政策，其**上限为2100万枚比特币，其中约1980万枚已进入流通中**。这使它具有**通缩性质**，随着用户将储蓄和生产力增长存储其中，其价值随时间增加。
+比特币具有固定的货币政策，**最高限额为 2100 万枚**，其中约 1980 万枚（2024 年）已被开采。这使其具有**通缩性**，随着用户在其中存储储蓄和生产力收益，其价值会随着时间的推移而增加。
 
 比特币的技术特性超越了黄金和美元的所有优势，使其成为有史以来最坚硬的金融资产。比特币既能保值，又能用来交易，是一种正在发展的货币形态。想象一下，将价值从一家公司的金库迅速转移到另一家公司的金库，没有中间商，成本极低，没有欺诈风险，全天候可以运行，也无需依赖任何第三方机构。
 
@@ -213,7 +210,7 @@ objectives:
 
 比特币让我们重新思考货币的本质。您能解释一下什么是真正的金钱吗？一个工薪族或企业家一生可能要花费 50,000 到 100,000 个小时来挣钱，但其中有多少人愿意抽出仅100个小时来**更好地理解金钱和保护金钱价值的方法呢**？比特币促使我们质疑我们对金钱需求背后的根本原因以及我们的时间视角。金钱是为了用来获得眼前的奢侈，还是为了实现长期的抗风险能力？如果我们拥有一种一直升值资产，其可以让我们推迟消费，我们会做出怎样的选择？二三十年后的自己，会希望当下的我们如何思考、如何决定呢？
 
-**比特币身份证**
+**比特币身份证（2024年）**
 
 - **年龄：** 15 岁（出生于 2009 年 1 月 3 日）
 - **每日兑换价值：** 100 亿美元（大于CAC40）
@@ -237,7 +234,7 @@ objectives:
 
 关于比特币的更多信息，包括其历史、工作原理和使用方法，我还建议您参加以下另一门综合课程：
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## 闪电网络简介
 
@@ -295,7 +292,7 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 - **交易不可逆性：** 付款一旦在 "闪电 "平台上完成，即为终局。不可能出现第三方扣款或与欺诈相关的争议。
 - **费用：** 闪电网络的交易费用极低，由用户而不是由商家支付的。商家只在需要将比特币转移到其他网络或服务时才会需要付费。
 
-**闪电网络身份证**
+**Lightning 身份证（2024年）**
 
 - **发明年份：** 2015 年
 - **启动时间：** 2016 年
@@ -317,7 +314,7 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 如需了解有关的闪电网络技术运作的更多信息，我还建议您学习以下另一门综合课程：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 # 资金库中的比特币
 
@@ -429,11 +426,11 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 关于该主题的更多信息的课程：
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## 将比特币存入金库
 
@@ -581,7 +578,7 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 这包括通过运行矿机赚取比特币。对于非专业企业来说，它不是一个常见的做法。您可以通过中间商参与其中，他们会向您出售或出租计算器、网络和维护。如果您拥有这些机器，您可以将其作为折旧资产入账。如果规模较大，您需要仔细计算投资回报，因为市场竞争激烈，需要对成本（尤其是电费）有很好的预期。
 
-如果您想要了解更多的挖矿方法，可以[查阅我们教程中的“挖矿”部分](https://planb.network/tutorials/mining)。
+如果您想要了解更多的挖矿方法，可以[查阅我们教程中的“挖矿”部分](https://planb.academy/tutorials/mining)。
 
 - **购买比特币：**
 
@@ -589,11 +586,11 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 如果您想要了解如何开立企业账户并用它来购买、出售和转移比特币，您可以查看这两份专门为企业设计的教程，其中涵盖了企业版的 Kraken 和 Bitfinex 平台：
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-为了进一步了解如何通过交易所或点对点方式获取比特币，您可以[查阅我们教程中的 “交易所”部分](https://planb.network/tutorials/exchange)。
+为了进一步了解如何通过交易所或点对点方式获取比特币，您可以[查阅我们教程中的 “交易所”部分](https://planb.academy/tutorials/exchange)。
 
 ![BIZ101](assets/zh-Hans/012.webp)
 
@@ -829,21 +826,21 @@ https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 **非托管的闪电网络钱包/节点：**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **托管闪电网络钱包：**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## 基本用户档案
 
@@ -875,15 +872,15 @@ https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20
 
 最可能适合您的混合解决方案是 Swiss Bitcoin Pay：
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 另一个易于实施的解决方案是 Open Node，但缺点在于它是 100% 托管的：
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 如果您愿意自己动手操作、亲自设置，并希望完全掌控整个流程，BTCPay Server软件是一个极佳的方案选择。不过，BTCPay Server的主要缺点是设置和管理比较耗时，需要一定的专业技术，但您可以按照我们的指南进行操作：
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 最后，作为对实体销售点的补充，您可以考虑建立 [Bitcoinize PoS](https://bitcoinize.com/)。
 
@@ -921,7 +918,7 @@ https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 如果您想要深入了解 BTCPay Server 的具体实施情况并探索 BTCPay Server 的实际配置，请参阅以下课程：
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 ## 企业档案
 
@@ -1149,7 +1146,7 @@ https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 对于自我保管比特币的人来说，管理 UTXO（*未花费的交易输出*）是一个不可错过的步骤。正当的UTXO标签有助于追踪每个比特币“片段”的来源，区分与专业活动相关的交易和用于个人支出的交易，并为法律或税务目的的可追溯性带来了便利。大多数很好的比特币钱包软件都允许您使用备份文件（或 xpub，取决于您的设置）导入钱包，并根据其来源或目的地标记UTXO。为了帮助您，下面有一个专门介绍这种做法的完整教程：
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 最后，无论您是小商户还是成熟企业，都可以**用**比特币结算发票。关键是要正确记录交易。如果您使用自我保管的钱包付款，最好在标签中注明发票号码和付款目的。如果您希望通过交易所结算发票，您还可以选择导出收据或交易历史记录，以便纳入会计记录。这种透明度将简化您对所有 BTC 业务的跟踪和报告。
 

@@ -348,7 +348,7 @@ Configuratiestappen:
 
 
 
-**Noot:** U moet een zakelijke PayPal-rekening hebben om generate te kunnen gebruiken. U kunt ze verkrijgen via de portal [ontwikkelaar] (https://developer.paypal.com)
+**Noot:** U moet een zakelijke PayPal-rekening hebben om generate te kunnen gebruiken. U kunt ze verkrijgen via de portal [ontwikkelaar](https://developer.paypal.com)
 
 
 

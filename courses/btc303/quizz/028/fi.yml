@@ -1,0 +1,9 @@
+question: Mikä on ensisijainen huolenaihe maksujen sniputtamisessa, kun Bitcoin:n lohkotuki lähestyy nollaa?
+answer: Louhijat saattavat pitää kannattavampana kirjoittaa aiempia lohkoja uudelleen korkeilla maksuilla kuin mining uusia lohkoja
+wrong_answers:
+  - Transaktiomaksut tulevat tavallisille käyttäjille liian kalliiksi, jotta heillä olisi varaa Bitcoin-transaktioihin
+  - Bitcoin:n kokonaistarjonta ylittää 21 miljoonaa mining:n lisääntyneiden kannustimien vuoksi
+  - Louhijat lopettavat mining:n kokonaan, koska pelkät transaktiomaksut eivät riitä kattamaan sähkökustannuksia
+explanation: |
+  Fee sniping tapahtuu, kun louhijat yrittävät louhia uudelleen aiempia lohkoja, jotka sisälsivät korkean maksun transaktioita, sen sijaan että laajentaisivat ketjua rehellisesti. Tästä tulee taloudellisesti järkevää, kun edellisen lohkon maksut ylittävät huomattavasti nykyisen mempoolin maksut. Vaikka onnistumisen todennäköisyys on pienempi kuin rehellisellä mining:llä, mahdollinen palkkio voi olla paljon suurempi. Tämä käyttäytyminen on erityisen huolestuttavaa, koska se voi luoda kaskadivaikutuksen, jossa useammat louhijat harjoittavat epärehellisiä käytäntöjä, mikä lopulta uhkaa Bitcoin:n turvallisuusmallia, kun lohkotuet vähenevät.
+reviewed: false

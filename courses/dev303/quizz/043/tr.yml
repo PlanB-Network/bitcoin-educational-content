@@ -1,0 +1,8 @@
+question: Bir kapanışı, yakalanan değişkenleri ödünç almak yerine sahipliğini almaya zorlamak için hangi anahtar sözcük kullanılır?
+answer: hareket et
+wrong_answers:
+  - kendi
+  - yakalama
+  - al
+explanation: |
+  Move` anahtar sözcüğü, closure parametrelerinden önce closure'u ortamından yakalanan tüm değişkenlerin sahipliğini almaya zorlamak için kullanılır. Bu, iş parçacıkları oluştururken olduğu gibi, kapanışın değişkenlerin orijinal olarak tanımlandığı kapsamı aşabileceği durumlarda çok önemlidir. Move` olmadan, kapanışlar tipik olarak en az kısıtlayıcı yöntemle (değişmez referans, sonra değişebilir referans, sonra sahiplik) yakalar, ancak `move` sahiplik transferini sağlamak için bu otomatik davranışı geçersiz kılar. Diğer seçenekler (`own`, `capture`, `take`) bu amaç için geçerli Rust anahtar sözcükleri değildir.

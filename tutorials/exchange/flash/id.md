@@ -23,7 +23,7 @@ Dalam tutorial ini, kita akan melihat Flash, sebuah solusi dari Beninese yang me
 
 
 
-Flash adalah platform Exchange yang dikembangkan oleh [BlockSolut] (https://bitcoinflash.xyz) yang beroperasi di beberapa negara Afrika Barat. Misi utama Flash adalah memfasilitasi akuisisi, Exchange, dan penggunaan Bitcoin dalam kehidupan sehari-hari.
+Flash adalah platform Exchange yang dikembangkan oleh [BlockSolut](https://bitcoinflash.xyz) yang beroperasi di beberapa negara Afrika Barat. Misi utama Flash adalah memfasilitasi akuisisi, Exchange, dan penggunaan Bitcoin dalam kehidupan sehari-hari.
 
 
 Flash mengandalkan Lightning Network, sebuah overlay Bitcoin, untuk melakukan transaksi Bitcoin dengan aman dan lancar, menunjukkan kepada komunitasnya kekuatan Bitcoin dalam kehidupan sehari-hari.
@@ -110,7 +110,7 @@ Lanjutkan ke pembayaran, lalu masukkan Lightning Address Anda untuk memvalidasi 
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Melakukan transaksi di Flash akan memakan waktu rata-rata 5 hingga 10 menit untuk menerima bitcoin Anda di Lightning Wallet.
 
@@ -202,4 +202,4 @@ Jika Anda merasa tutorial ini bermanfaat dalam memahami Flash, silakan beri kami
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

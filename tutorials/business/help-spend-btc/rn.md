@@ -13,7 +13,7 @@ description: Inyigisho ngufi yo gutera intege abakiriya gukoresha amafaranga yab
 Amaherezo warafashe ingingo yo kwemera Bitcoin mu bucuruzi bwawe, kandi vyose birateguwe: Lightning Network Wallet yashizweho kugira ngo ushobore kwakira amahera, abakozi bawe barazi gukoresha verisiyo y’ugusoma gusa ya Wallet kugira ngo baronke amahera mu izina ryawe, Point of Sale (PoS) yaratunganijwe n’ingene ububiko bw’ibintu vy’ukwezi kwose bumenyerewe kandi bumenye Bitcoin ivy’ubuhinga bw’ivy’ubuhinga buva ku bakiriya. Niba utazi uko wobikora, raba iyi nyigisho:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Ikibazo ni ikihe
 
@@ -136,7 +136,7 @@ Uburyo bwo kubishira mu ngiro burasigazwa n’umucuruzi, ariko muri make, ng’u
 Uko biri kwose, ni akamenyero keza ko ubucuruzi bwawe, nimba bufise ahantu nyabwo, buriho kandi bujanye n’igihe kuri [Ikarita ya BTC](https://btcmap.org/map). Abenshi mu bakoresha Bitcoin barazi neza ico gikoresho, kandi hafi bose bakoresheje Bitcoin mu maduka y’umubiri barasuzumye n’imiburiburi rimwe kugira ngo barabe ibibanza vyemera. Niba ushaka kwiga ingene wokwongera iduka ryawe kuri BTC Map canke ushaka ibindi bisobanuro, raba iyi nyigisho:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Gucungera ibara ry'amafaranga
 
@@ -144,7 +144,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 Niba wibaza ingene wocungera ubuhinga bwo gucungera amafaranga y’ama bitcoins uherutse kuronka, waba warashize mu ngiro imwe mu ngingo ngenderwako zo gugabanya amafaranga canke atarivyo, iyi ni inyigisho kuri wewe:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Iciyumviro
 

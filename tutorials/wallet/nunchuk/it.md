@@ -48,7 +48,7 @@ Nella finestra che si apre in pop-up, trovi dei campi da "compilare": scegli il 
 **N.B. lo screenshot è tratto da un PC Windows, la stessa pratica si può usare per qualsiasi sistema operativo del tuo computer, basta avere Sparrow Wallet installato. E verificato!**
 
 Puoi trovare la guida a Sparrow wallet per scaricare questo software wallet
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Puoi quindi trasferire il file `.apk` dal computer al cellulare
 
@@ -136,7 +136,7 @@ Dai un nome alla tua chiave e premi _Continue_.
 
 ![image](assets/en/27.webp)
 
-Al termine di queste fasi, ti verrà chiesto se aggiungere alla tua frase mnemonica una [Passphrase](https://planb.network/en/resources/glossary/passphrase-bip39). Se non hai la necessaria consapevolezza di come usare la passphrase, predisporne il backup o di come funziona, ti consiglio di scegliere _I don't need a passphrase_.
+Al termine di queste fasi, ti verrà chiesto se aggiungere alla tua frase mnemonica una [Passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39). Se non hai la necessaria consapevolezza di come usare la passphrase, predisporne il backup o di come funziona, ti consiglio di scegliere _I don't need a passphrase_.
 
 ![image](assets/en/28.webp)
 
@@ -194,7 +194,7 @@ Sei in _Home_, dove ti viene mostrato il wallet appena creato che riporta il sal
 ![image](assets/en/37.webp)
 
 - L'icona della lente in alto a destra ti permette di fare la ricerca di una transazione;
-- `View wallet config` da accesso al menu di configurazione, dove puoi editare il nome del wallet e attivare delle opzioni avanzate, in alto a destra (di cui non è possibile avere screenshot). Qui potrai esportare la configurazione del wallet, le labels, sostituire le keys, cambiare il [gap limit](https://planb.network/en/resources/glossary/gap-limit) ed altro.
+- `View wallet config` da accesso al menu di configurazione, dove puoi editare il nome del wallet e attivare delle opzioni avanzate, in alto a destra (di cui non è possibile avere screenshot). Qui potrai esportare la configurazione del wallet, le labels, sostituire le keys, cambiare il [gap limit](https://planb.academy/en/resources/glossary/gap-limit) ed altro.
 
 ## Transazioni con Nunchuk
 

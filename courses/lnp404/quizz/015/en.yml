@@ -1,0 +1,8 @@
+question: How does Terminal Web calculate the Net Profit metric for Lightning Network node operators?
+answer: By automatically synthesizing Earned Satoshis (routing revenue) minus Spent Satoshis (operational costs)
+wrong_answers:
+  - By multiplying the total channel capacity by the average fee rate across all active channels
+  - By dividing the total forwarded volume by the number of successful routing events over time
+  - By comparing the current channel balances against the initial capital investment in each channel
+explanation: |
+  Terminal Web calculates Net Profit by automatically synthesizing the difference between Earned Satoshis and Spent Satoshis. Earned Satoshis tracks revenue from forwarding payments, while Spent Satoshis aggregates operational costs like on-chain fees and rebalancing expenses. The other options describe different calculations: fee rate calculations, routing efficiency metrics, or balance comparisons, none of which represent how Net Profit is actually computed in the system.

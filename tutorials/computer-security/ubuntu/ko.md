@@ -328,4 +328,4 @@ sudo apt install vlc
 디지털 생활의 보안을 한 단계 더 강화하려면 개인 정보 보호에 완벽하게 적합하고 우분투 설치를 보완하는 암호화 메시징 서비스를 살펴볼 것을 권장합니다:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

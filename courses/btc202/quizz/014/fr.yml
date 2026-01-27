@@ -6,4 +6,4 @@ wrong_answers:
   - Mineur et pool de minage
 explanation: |
   Le logiciel Bitcoin initial intégrait les fonctions de portefeuille, de nœud et de mineur dans un seul programme.
-reviewed: false
+reviewed: true 

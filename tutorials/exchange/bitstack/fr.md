@@ -6,7 +6,7 @@ description: Acheter et vendre des bitcoins sur l'application Bitstack
 
 Bitstack est une plateforme française d’investissement en bitcoin, régulée PSAN par l’AMF. Elle propose une application disponible sur Android et iOS pour acheter et vendre du bitcoin de manière simple.
 
-Ce qui distingue Bitstack est son système d’arrondi automatique, qui synchronise le compte bancaire de l’utilisateur pour convertir l’écart entre le montant débité lors des dépenses quotidiennes et l’euro supérieur, directement en bitcoins. Cette méthode facilite l’application du *Dollar Cost Averaging* (DCA) en permettant une accumulation progressive de satoshis de manière indolore. En plus de cette fonctionnalité originale, la plateforme propose également un système de DCA classique avec des investissements automatiques, ainsi que des achats et ventes au comptant.
+Ce qui distingue Bitstack est son système d’arrondi automatique, qui synchronise le compte bancaire de l’utilisateur pour convertir l’écart entre le montant débité lors des dépenses quotidiennes et l’euro supérieur, directement en bitcoins. Cette méthode facilite l’application du *Dollar Cost Averaging* (DCA) en permettant une accumulation progressive de satoshis de manière indolore. En plus de cette fonctionnalité originale, la plateforme propose également un système de DCA classique avec des investissements automatiques, ainsi que des achats et ventes ponctuels.
 
 ![Image](assets/fr/01.webp)
 
@@ -19,7 +19,7 @@ Les frais appliqués par Bitstack sur les transactions varient en fonction du vo
 - 250 000 € - 500 000 € : 0,59 %
 - Plus de 500 000 € : 0,49 %
 
-Toutes les autres opérations sur la plateforme sont gratuites, y compris les retraits de bitcoins (avec un minimum de retrait fixé à 100 000 sats). Ainsi, contrairement à d'autres plateformes d'échange, retirer par exemple 0.01 BTC de l'application pour le transférer en self-custody ne générerait aucuns frais de service ou de minage, ce qui vous permettrait de recevoir effectivement 0.01 BTC sur votre adresse de réception.
+Toutes les autres opérations sur la plateforme sont gratuites, y compris les retraits de bitcoins (avec un minimum de retrait fixé à 100 000 sats). Ainsi, contrairement à d'autres plateformes d'échange, retirer par exemple 0.01 BTC de l'application pour le transférer en self-custody ne générerait aucun frais de service ou de minage, ce qui vous permettrait de recevoir effectivement 0.01 BTC sur votre adresse de réception.
 
 ## Télécharger l'application
 
@@ -47,9 +47,9 @@ Choisissez un mot de passe fort pour sécuriser l'accès à votre compte, puis c
 
 ![Image](assets/fr/06.webp)
 
-Pour une gestion sécurisée de vos mots de passe au quotidien, l'utilisation d'un gestionnaire de mots de passe est vivement recommandée. Sur Plan ₿ Network, vous trouverez plusieurs tutoriels sur les meilleures solutions existantes, comme par exemple Bitwarden :
+Pour une gestion sécurisée de vos mots de passe au quotidien, l'utilisation d'un gestionnaire de mots de passe est vivement recommandée. Sur Plan ₿ Academy, vous trouverez plusieurs tutoriels sur les meilleures solutions existantes, comme Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ensuite, vous devrez procéder à la vérification d'identité (KYC). Conformément aux réglementations françaises, vous serez invité à fournir vos informations personnelles et une pièce d'identité. Complétez les cases avec votre nom, prénom et date de naissance.
 
@@ -104,7 +104,7 @@ Comme mentionné dans l'introduction, Bitstack propose 3 méthodes pour investir
 - La configuration d'achats récurrents (DCA) ;
 - L'utilisation de l'arrondi automatique sur les dépenses.
 
-### Acheter au comptant
+### Faire un achat ponctuel
 
 Pour effectuer un achat ponctuel de bitcoins au prix du marché, cliquez simplement sur "*Acheter*".
 
@@ -178,7 +178,7 @@ Déterminez la priorité de la transaction. Pour un retrait sans frais, choisiss
 
 ![Image](assets/fr/32.webp)
 
-Si vous ne connaissez pas le fonctionnement d'un portefeuille en self-custody, nous proposons des tutoriels sur la plupart des solutions disponibles [sur Plan ₿ Network dans la section "*Wallet*"](https://planb.network/tutorials/wallet).
+Si vous ne connaissez pas le fonctionnement d'un portefeuille en self-custody, nous proposons des tutoriels sur la plupart des solutions disponibles [sur Plan ₿ Academy dans la section "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 ## Vendre du bitcoin
 

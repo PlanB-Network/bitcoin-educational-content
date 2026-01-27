@@ -137,7 +137,7 @@ La console d'administration web vous permet de visualiser et gérer tous vos app
 
 Umbrel est une plate-forme populaire d'auto-hébergement (notamment utilisée pour des nœuds Bitcoin/Lightning et d'autres services auto-hébergés, via son App Store). Pour installer et configurer Umbrel, nous vous recommandons de suivre notre tutoriel dédié : 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 L'utilisation conjointe d'Umbrel et Tailscale est un cas d'usage particulièrement intéressant car Umbrel intègre nativement un module Tailscale facile à déployer. Voici comment Tailscale s'intègre à Umbrel et ce que cela apporte :
 
@@ -197,7 +197,7 @@ Tailscale permet également à vos wallets Bitcoin et Lightning installés sur d
 
 Découvrez notre guide complet sur la configuration de Sparrow Wallet avec votre nœud Bitcoin :
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 **Zeus (Lightning)** : Ce wallet mobile Lightning peut se connecter à votre nœud Lightning sur Umbrel. Au lieu de configurer l'endpoint en `.onion`, mettez simplement l'IP Tailscale de votre Umbrel et le port de l'API Lightning. La connexion sera instantanée comparée à Tor.
@@ -207,11 +207,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 Pour configurer Zeus avec votre nœud Lightning, consultez notre tutoriel détaillé :
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Si vous souhaitez en savoir plus sur le Lightning Network et son fonctionnement sur Umbrel, consultez :
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 

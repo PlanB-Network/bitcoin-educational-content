@@ -1,7 +1,7 @@
 question: Je, ni ipi njia rahisi zaidi ya kuunganisha simu ya mkononi ya Wallet kwa Electrs kupitia Umbrel?
 answer: Changanua msimbo wa Tor QR
 wrong_answers:
-  - Pakua faili ya kuki
+  - Pakua faili ya cookie
   - Ingiza ufunguo wa kibinafsi
   - Nakili faili ya Wallet.dat
 explanation: |

@@ -79,7 +79,7 @@ Navigation on the device is fairly intuitive:
 For this tutorial, I'm going to show you how to use the Trezor Safe 5 with [Sparrow Wallet wallet management software](https://sparrowwallet.com/download/). If you haven't yet installed this software, please do so now. If you need help, we also have a detailed tutorial on configuring Sparrow Wallet :
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 You'll also need the Trezor Suite software to configure the Safe 5, check its authenticity and install the firmware. We'll only be using this software for that, and afterwards it will only be needed for firmware updates. For day-to-day management of the wallet, we'll be using Sparrow Wallet exclusively, as it's optimized for Bitcoin and easy to use, even for beginners (Sparrow only supports Bitcoin, not altcoins).
 
@@ -93,7 +93,7 @@ You'll also need the Trezor Suite software to configure the Safe 5, check its au
 For both these programs, I strongly recommend that you check both their authenticity (with GnuPG) and their integrity (via Hash) before installing them on your machine. If you don't know how to do this, you can follow this other tutorial :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Starting up Trezor Safe 5
 
@@ -167,7 +167,7 @@ To create a standard BIP39 wallet, start by selecting "*Legacy Wallet backup typ
 If you would like to learn more about the other backup options available on Trezor, including *Multi-share Backup*, I recommend you also consult this tutorial :
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 
 ![Image](assets/fr/14.webp)
@@ -218,7 +218,7 @@ Safe 5 will create your mnemonic phrase using its random number generator. Make 
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/19.webp)
 
@@ -304,7 +304,7 @@ Start by downloading and installing Sparrow Wallet [from the official website](h
 Once you've opened Sparrow Wallet, make sure that the software is connected to a Bitcoin node, which is indicated by the tick in the bottom right-hand corner of Interface. If you're having trouble connecting Sparrow, I recommend that you consult the beginning of this tutorial:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Click on the "*File*" tab, then on "*New Wallet*".
 
@@ -366,7 +366,7 @@ Before you receive your first bitcoins in your wallet, **I strongly advise you t
 To learn more about how to perform a recovery test, I suggest you consult this other tutorial:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## How can I receive bitcoins with Trezor Safe 5?
 
@@ -485,6 +485,6 @@ You can find it in the "*Transactions*" tab of Sparrow Wallet.
 Congratulations, you're now up to speed on the basic use of the Trezor Safe 5 with Sparrow Wallet! To take things a step further, I recommend this comprehensive tutorial on using a Trezor Hardware Wallet with a passphrase BIP39 to enhance your safety:
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 If you found this tutorial useful, I'd be grateful if you'd leave a green thumb below. Feel free to share this article on your social networks. Thank you very much!

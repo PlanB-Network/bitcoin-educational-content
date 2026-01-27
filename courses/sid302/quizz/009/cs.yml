@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel závazků Pedersen v Elements' Confidential Transactions?
+answer: Nahrazení viditelných částek transakcí kryptografickými závazky, které lze ověřit bez odhalení skutečných hodnot
+wrong_answers:
+  - Do generate unikátní 64znakové hexadecimální identifikátory pro nově vydaná aktiva v blockchainu Elements
+  - Zabránit double-spending vytvořením matematických důkazů, že skryté hodnoty jsou kladná celá čísla v platných rozmezích
+  - Umožnit převod Bitcoin z hlavního řetězce do vedlejších řetězců Elements prostřednictvím kryptografických mechanismů peggingu
+explanation: |
+  Pedersenovy závazky jsou základním kryptografickým mechanismem, který v systému Confidential Transactions zajišťuje soukromí tím, že nahrazuje viditelné částky matematickými závazky. Díky jejich homomorfním vlastnostem mohou validátory ověřit, že vstupy se rovnají výstupům plus poplatky, aniž by viděly skutečné hodnoty. Důkazy rozsahu zabraňují záporným částkám, ID aktiv identifikují tokeny a mechanismy peggingu řeší převody mezi řetězci, ale žádná z těchto funkcí není konkrétně funkcí Pedersenových závazků.

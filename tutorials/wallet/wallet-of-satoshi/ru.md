@@ -4,6 +4,12 @@ description: Простейшая опекунская Wallet для начал�
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Внимание: с начала 2026 года Wallet of Satoshi в кастодиальном режиме (как представлено в этом руководстве) больше недоступен на территории Европейского союза. Если вы проживаете в этом регионе и хотите продолжить использование данного инструмента, вам потребуется использовать VPN, расположенный за пределами ЕС. Другой вариант — использовать Wallet of Satoshi в режиме self-custodial. Специальное руководство будет опубликовано в ближайшее время на Plan ₿ Academy.*
+
+---
+
 этот учебник написан_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
@@ -12,7 +18,7 @@ description: Простейшая опекунская Wallet для начал�
 
 Wallet из Satoshi - это Lightning Network Wallet, хранительский и очень простой в использовании.
 
-Для целей курса [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) он используется для ваучеров Redeem Lightning Network.
+Для целей курса [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) он используется для ваучеров Redeem Lightning Network.
 
 
 **Всегда помните: _не ключи, не монеты_**

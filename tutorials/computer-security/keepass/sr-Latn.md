@@ -24,7 +24,7 @@ Menadžer lozinki generiše i sigurno čuva jake lozinke, omogućavajući vam pr
 
 U ovom vodiču ćemo naučiti kako postaviti i koristiti lokalni menadžer lozinki kako bismo poboljšali vašu online sigurnost. Ovdje ću vas upoznati sa KeePass-om. Međutim, ako ste početnik i želite imati online menadžer lozinki sposoban za sinhronizaciju na više uređaja, preporučujem da pratite naš vodič o Bitwardenu:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 

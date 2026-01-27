@@ -1,0 +1,8 @@
+question: Ni igiki struct update syntax iguha uburenganzira bwo gukora igihe urema instances nshasha z'imiterere muri Rust?
+answer: Rema urugero rushasha mu kugaragaza gusa imirima yahinduwe mu gihe ukopa imirima isigaye kuva ku rugero ruriho
+wrong_answers:
+  - Guhindura imiterere iriho ata kurema urugero rushasha
+  - Ubwo nyene generate mburabuzi agaciro k'imirima itasobanuwe hakoreshejwe akaranga mburabuzi
+  - Gufatanya ingero nyinshi z'imiterere hamwe mu nkuru imwe ihuriweko
+explanation: |
+  Inyuguti y'ivugurura ry'imiterere muri Rust iragufasha kurema urugero rushasha rw'imiterere mu kugaragaza gusa ivyicaro ushaka guhindura, mu gihe ushobora gukopa ibindi bice vyose biva ku nkuru iriho. Ibi bikorwa hakoreshejwe `..instance_iriho`. Ayandi mahitamwo ntabwo ari meza: struct update syntax yama irema instance nshasha aho guhindura izo zisanzweho, ntikora generate default values ​​ariko ikora kopi zivuye mu instances zisanzweho, kandi ikora n'instance imwe y'inkomoko aho gufatanya instances nyinshi hamwe.

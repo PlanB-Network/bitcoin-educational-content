@@ -38,7 +38,7 @@ Debian hutoa mazingira kadhaa ya eneo-kazi kutosheleza mahitaji yako:
 - **GNOME**: ya kisasa, angavu Interface, bora kwa wanaoanza. Inatoa menyu ya picha, ambayo ni rahisi kutumia kwa kupata programu.
 - **XFCE**: nyepesi na ya haraka, kamili kwa mashine zenye nguvu kidogo.
 - **KDE Plasma**: inaweza kubinafsishwa sana, na mwonekano unaofanana na Windows.
-- **Mdalasini**: rahisi, kifahari Interface, iliyoongozwa na Windows.
+- **Cinnamon**: rahisi, kifahari Interface, iliyoongozwa na Windows.
 - **LXDE / LXQt**: mwanga mwingi, unaofaa kwa kompyuta za zamani.
 - **MATE**: rahisi na ya kisasa, karibu na GNOME ya zamani.
 
@@ -61,8 +61,8 @@ Kabla ya kuanza usakinishaji, tafadhali hakikisha kuwa una vifaa vifuatavyo:
 
 
 
-- **Kitufe cha USB**: Kima cha chini cha GB 8 ili kushikilia picha ya ISO inayoweza kuwashwa.
-- **Kumbukumbu ya Ufikiaji Nasibu (RAM)**: GB 4 kwa usakinishaji na uendeshaji laini.
+- **USB drive**: Kima cha chini cha GB 8 ili kushikilia picha ya ISO inayoweza kuwashwa.
+- **Random Access Memory (RAM)**: GB 4 kwa usakinishaji na uendeshaji laini.
 - **Nafasi ya diski**: angalau GB 15 ya nafasi ya bure kwa mfumo na masasisho.
 
 
@@ -77,7 +77,7 @@ Chaguo la picha ya Debian inategemea usanifu wa processor yako:
 
 
 
-- **AMD64**: pakua toleo la "mseto wa moja kwa moja" kutoka kwa orodha [ya kupakua] (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **AMD64**: pakua toleo la "mseto wa moja kwa moja" kutoka kwa orodha [ya kupakua](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
 - **ARM64**: pata picha ya DVD kutoka kwa tovuti rasmi ya [Debian](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
 - **Usanifu mwingine**: pata ISO inayolingana na usanifu wako [hapa](https://debian.obspm.fr/debian-cd/12.11.0/).
 
@@ -426,7 +426,7 @@ sudo apt install ./name.deb
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 Mfumo wako wa Debian sasa umesakinishwa na uko tayari kutumika kwa kazi zako za kila siku.
 
@@ -443,4 +443,4 @@ Ili kujifunza zaidi kuhusu Debian, na kwa ujumla zaidi kuhusu usambazaji wa GNU/
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -101,7 +101,7 @@ Qubes OS kandi itanga uguserukira abantu bose no kugenzura ibidukikije vyawe vy�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Aho kurondera kurema uburyo butashobora guca, Qubes OS yibanda ku kwihangana: ipfuka ivyonona iyo habaye ugusenyuka, igabanura ingorane ku buryo busigaye. Ubu buryo bushingiye ku vy’ukuri butuma Qubes OS iba ihitamwo ryiza ku bakoresha bafise ivyipfuzo vyinshi vy’umutekano, canke bipfuza kuguma bafise ububasha bwinshi ku buzima bwabo bwa digitale.
 
@@ -126,7 +126,7 @@ Kugira ngo ushiremwo Qubes OS, fungura ishusho ya ISO yemewe kuri Qubes OS [urub
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
@@ -327,4 +327,4 @@ Waba ukeneye guca ku rubuga mu mutekano, kurinda amakuru y’agaciro canke gukor
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

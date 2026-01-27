@@ -191,7 +191,7 @@ console.log(16, 8, 1993)
 變數就像是我們用來儲存資料的命名方塊。它們允許我們將一項資料與特定名稱相關聯，以便稍後能夠使用該名稱來擷取資料。
 
 
-### `let` 聲明
+### let 聲明
 
 
 要在 JavaScript 中宣告變數，我們可以使用 `let` 關鍵字。
@@ -355,7 +355,7 @@ Bob
 如您所見，`score` 和 `player` 都被變更了。
 
 
-### `const` 聲明
+### const 聲明
 
 
 但大多數情況下，我們不希望變數在建立後改變。為此，我們使用 `const`。
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### `null`以及如何處理它
+### null以及如何處理它
 
 
 `null`也是一個特殊的值。它的意思是 「這裡什麼都沒有，我故意這樣做的」。
@@ -1075,7 +1075,7 @@ ReferenceError: message is not defined
 以區塊來組織程式碼，也讓我們可以結構化程式的執行，使用控制流程的結構，例如 `if
 
 
-### `if`, `else`
+### if, else
 
 
 有時候，我們只想在某些事情為真的情況下執行程式碼。這就是 `if` 語句的作用。
@@ -1282,7 +1282,7 @@ console.log(number) // Print the number
 因為當數字是 `3` 時，`continue` 會使程式跳過列印數字的那一行。
 
 
-### `為...的...`
+### 為...的...
 
 
 如果您有一個陣列，並且想要對陣列中的每個項目做一些事情，您可以使用 `for ... of ...{...}`.
@@ -1312,7 +1312,7 @@ cherry
 這裡的 `fruit` 是一個新變數，可以取得陣列中每個項目的值，以便在區塊中對其進行操作。
 
 
-### 為...在...`
+### 為...在...
 
 
 您可以使用 `for ... in` 來循環陣列的 key (索引)：
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### return`（函式的輸出）
+### return（函式的輸出）
 
 
 函數也可以**返回**值。這表示它們會將值傳回函式被呼叫的地方。
@@ -2252,7 +2252,7 @@ JavaScript 可以讓您自由地重塑物件，但在使用類別時，最好事
 
 
 
-### 使用`extends`和`super()`繼承
+### 使用extends和super()繼承
 
 
 有時候，您想要建立一個與其他類別**幾乎一樣**的類別，但卻有一些額外的功能。
@@ -2374,7 +2374,7 @@ Toyota Corolla is ready to drive!
 當您有幾個相似的東西（如汽車、卡車和腳踏車），而您希望它們共用程式碼，但仍以各自的方式運作時，這將很有幫助。
 
 
-### `instanceof`
+### instanceof
 
 
 `instanceof` 關鍵字會檢查物件是否由某個類別所建立。
@@ -2439,7 +2439,7 @@ console.log(ourAdmin instanceof User)    // true
 如果我們沒有正確處理這些錯誤，我們的程式可能會當機或出現不可預測的行為。JavaScript 提供了偵測和管理這些錯誤的工具，讓我們可以更優雅地處理這些錯誤。
 
 
-### 常見錯誤：在 `undefined` 上存取值
+### 常見錯誤：在 undefined 上存取值
 
 
 以下是導致錯誤的常見情況：
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 第二次呼叫會導致錯誤，因為在此範例中不允許除以 0。
 
 
-### 使用 `try...catch` 捕捉錯誤
+### 使用 try...catch 捕捉錯誤
 
 
 如果您不希望程式在發生錯誤時當機，您可以使用「try...catch」區塊來捕獲錯誤。當您希望您的程式在發生錯誤時仍能**繼續運行**時，這將會很有幫助。
@@ -2589,7 +2589,7 @@ This will run no matter what.
 本章介紹 JavaScript 中一些最常見的陷阱，以及如何避免這些陷阱。
 
 
-### `var`和 Assignment 無聲明
+### var和 Assignment 無聲明
 
 
 在較舊的 JavaScript 程式碼中，變數通常使用 `var` 關鍵字來宣告。與您已經學過的 `let` 和 `const` 不同，`var` 可能會有混亂的行為。
@@ -2650,7 +2650,7 @@ console.log(null + 1)   // 1
 意識到 JavaScript 的弱類型系統是很重要的。當事情開始變得奇怪時，可能是因為意外的類型強制。
 
 
-### `「嚴格使用」`
+### 「嚴格使用」
 
 
 您可以啟用更嚴格的模式，將一些無聲的錯誤變成真正的錯誤，並阻止您使用一些較危險的語言功能。
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 當沒有傳入任何資料時，會使用預設值 `"friend"`。
 
 
-### 展開參數 (`...`)
+### 展開參數 (...)
 
 
 如果您的函數需要靈活的參數數目呢？
@@ -3030,7 +3030,7 @@ greetBob() // Hi, Bob
 這種模式非常強大，因為它允許您在函數中留下「洞」，讓您稍後可以用所需的行為來填補。
 
 
-### map()`、`filter()`、`reduce()`。
+### map()、filter()、reduce()。
 
 
 JavaScript 提供了一些有用的內建方法來使用陣列。
@@ -3149,7 +3149,7 @@ console.log(alice.#age)      // ❌ Error! You can't access private properties d
 當您想要防止意外變更時，私有屬性很有幫助。
 
 
-### `static` 屬性
+### static 屬性
 
 
 有時候，您希望某個屬性屬於這個類別本身，而不是屬於您從這個類別所建立的每個物件。這就是 `static` 的用途。`static` 屬性包含在類別中，該類別的所有物件都會引用它。
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 這對於儲存共享資料和方法很有用，這些資料和方法適用於整組物件，而不只是其中一個。
 
 
-### `get`和`set`。
+### get和set。
 
 
 在 JavaScript 中，`get` 和`set` 可以讓您建立 *look* 像一般變數的屬性，但實際上會在背景執行特殊的程式碼。
@@ -4046,7 +4046,7 @@ console.log(num)
 現在，我們的 `Range` 類別就像陣列一樣運作，我們可以在任何需要可迭代的循環中使用它。
 
 
-### 產生器函數和 `yield
+### 產生器函數和 yield
 
 
 為了讓您更容易建立迭代器，JavaScript 提供了**產生器函數**，使用 `function*` 關鍵字（就是 `function` 後面加了一個 `*`）和 `yield` 關鍵字。
@@ -4105,7 +4105,7 @@ console.log(num)
 在本章中，我們將介紹一個新的概念： **並發**。它允許我們操控事情完成的順序。這在處理像是計時器、使用者輸入或從磁碟讀取檔案時非常有用。JavaScript 提供了不同的並發工具。
 
 
-### `setTimeout`
+### setTimeout
 
 
 函數 `setTimeout` 可讓您在經過一段時間後，**稍後執行函數**。
@@ -4253,7 +4253,7 @@ resolve("It worked!") // This means everything went OK
 在上面的範例中，我們只需立即解決，並傳送訊息 `「成功了！」`。
 
 
-### `.then()`
+### .then()
 
 
 要在承諾完成之後**做某些事情，我們使用** `.then()`：
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### 拒絕()`
+### 拒絕()
 
 
 讓我們創造一個**失敗的承諾**：
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### 使用 `Promise`s 進行連鎖操作
+### 使用 Promises 進行連鎖操作
 
 
 
@@ -4551,7 +4551,7 @@ Final result after all steps: 10
 每個 `.then()` 都會等待之前的步驟完成。因此，我們可以建立一個沒有嵌套的**動作鏈**。這讓程式碼更易於閱讀，也更容易除錯。
 
 
-## 與 `async`/`await` 並發
+## 與 async/await 並發
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4562,7 +4562,7 @@ Final result after all steps: 10
 這就是 `async` 和 `await` 的用處。它們讓我們寫出看起來像同步程式碼**的非同步程式碼**，這讓我們更容易理解。
 
 
-### 什麼是 `async`?
+### 什麼是 async?
 
 
 當您在函數前寫入關鍵字 `async` 時，JavaScript 會自動將函數的回傳值包裝成 Promise。
@@ -4606,7 +4606,7 @@ greet().then( result => console.log(result) ) // prints "hello"
 或者您可以使用 `await`...
 
 
-### 什麼是 `await`?
+### 什麼是 await?
 
 
 關鍵字 `await` 告訴 JavaScript：「等待這個 Promise 完成，然後給我結果」。
@@ -4638,7 +4638,7 @@ greetAndLog() // prints "hello"
 現在讓我們來做一些更有用的事情。
 
 
-### 使用 `await` 模擬延遲
+### 使用 await 模擬延遲
 
 
 我們將建立一個簡單的 `wait` 函式，以毫秒數作為參數，並在毫秒數後解決問題，而不做其他任何事情：
@@ -4881,7 +4881,7 @@ run()
 舉例來說，如果您要從聊天伺服器逐一載入訊息，或是分塊下載大型檔案，async iterators 會提供您一種方法，讓您可以寫出可處理延遲資料的 `for` 環路。
 
 
-### 符號.asyncIterator`符號.asyncIterator`迭代器
+### 符號.asyncIterator符號.asyncIterator迭代器
 
 
 我們也可以在自訂類別中使用 async iterators。
@@ -5307,7 +5307,7 @@ console.log(process.platform)
 這會列印作業系統平台，如 `win32`、`linux` 或 `darwin` (Mac)。
 
 
-### `進程.argv`。
+### 進程.argv。
 
 
 當您從終端執行 NodeJS 程式時，您可以在腳本名稱後傳入額外的文字 (參數)。這些會儲存在 `process.argv`。
@@ -5881,7 +5881,7 @@ package.json
 ```
 
 
-### `package.json`。
+### package.json。
 
 
 `package.json` 檔案只是儲存專案相關元資料的 JSON 檔案。
@@ -5960,7 +5960,7 @@ NPM 做了什麼？
 什麼是 `package-lock.json` ?
 
 
-### `package-lock.json`。
+### package-lock.json。
 
 
 NPM 會自動建立此檔案。
@@ -6023,7 +6023,7 @@ NodeJS 常常被用作後端的語言：您可以將腳本變成伺服器，也�
 在本章中，我們將介紹一些基本的網路功能，讓您可以做到這一點。
 
 
-### 撷取()`
+### 撷取()
 
 
 如果您希望您的程式從網站或 API 下載資料，您需要提出 **HTTP 請求**。
@@ -6141,7 +6141,7 @@ JSON.parse("not json") // ❌ Error!
 因此請確定字串格式正確。
 
 
-### `http`伺服器
+### http伺服器
 
 
 NodeJS 可讓您在不安裝任何其他東西的情況下建立網頁伺服器。
@@ -6521,36 +6521,36 @@ console.error("Error reading file:", err)
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 事情是這樣的
 
 
-1.`fs.createWriteStream()`會建立一個可寫的串流。
+1. `fs.createWriteStream()` 建立一個可寫入串流。
 
-2.我們使用 `.write()` 寫入一些文字。
+2. 我們為 `error` 與 `finish` 事件註冊處理常式。
 
-3.完成後，我們呼叫 `.end()` 關閉串流。
+3. 我們使用 `.write()` 向其寫入一些文字。
 
-4.當所有資料都寫完後，就會發佈 `finish` 事件。
+4. 完成後，我們呼叫 `.end()` 來關閉串流。
 
-5.如果出錯，就會觸發 `error` 事件。
+5. 一旦所有緩衝數據都被清除並寫入，就會觸發 `finish` 事件。如果發生錯誤，則會觸發 `error` 事件。
 
 
 就像可讀取串流一樣，可寫入串流也很適合大數據，因為它們不需要一次將所有東西都保存在記憶體中。

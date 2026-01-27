@@ -74,9 +74,9 @@ Once your transaction has been confirmed, pay the associated Lightning invoice. 
 ![payment](assets/fr/10.webp)
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ### M-Pesa in Kenya
 
@@ -149,4 +149,4 @@ You can now use Bitcoin on a daily basis in countries served by BitSpenda.
 Many other initiatives and solutions like BitSpenda are emerging in African communities: we invite you to discover Banxaas, a Senegalese solution for using Bitcoin on a daily basis.
 
 
-https://planb.network/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c
+https://planb.academy/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c

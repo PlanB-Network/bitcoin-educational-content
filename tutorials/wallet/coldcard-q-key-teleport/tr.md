@@ -38,7 +38,7 @@ Bu aktarım için kullanılabilir:
 
 
 
-Bu, [cihaz donanım yazılımınızı v1.3.2Q] (https://coldcard.com/docs/upgrade/) veya daha yüksek bir sürüme yükseltmiş olmanızı gerektirir.
+Bu, [cihaz donanım yazılımınızı v1.3.2Q](https://coldcard.com/docs/upgrade/) veya daha yüksek bir sürüme yükseltmiş olmanızı gerektirir.
 
 
 
@@ -95,7 +95,7 @@ Ekranda bir QR kodu oluşturulur. Bir kez daha, bu QR kodunu ColdCardQ "gönderi
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Şu anda sahip olduklarımız:*
 
@@ -145,7 +145,7 @@ Gönderen cihazdan, alıcı cihaz tarafından size gönderilen QR kodunu taramak
 
 
 
-Burada sırrımız **"Hızlı Metin Mesajı "** seçerek kısa bir mesaj olacaktır. Mesajınızı yazın (bizim için "PlanB Network rocks") ve ardından **"ENTER "** tuşuna basın.
+Burada sırrımız **"Hızlı Metin Mesajı "** seçerek kısa bir mesaj olacaktır. Mesajınızı yazın (bizim için "Plan ₿ Academy rocks") ve ardından **"ENTER "** tuşuna basın.
 
 
 Cihaz daha sonra "NE XG BT SK" örneğinde olduğu gibi **"Teleport Şifresi "** adında yeni bir rastgele şifre oluşturur.
@@ -190,7 +190,7 @@ Gönderen cihaz tarafından sunulan QR kodunu visio kanalı üzerinden taramak i
 
 
 
-Daha sonra verilerin şifresi çözülür ve alıcı cihaz tarafından anlaşılabilir hale getirilir. Alınan mesaj gerçekten de "PlanB Network rocks". Hepsi bu kadar.
+Daha sonra verilerin şifresi çözülür ve alıcı cihaz tarafından anlaşılabilir hale getirilir. Alınan mesaj gerçekten de "Plan ₿ Academy rocks". Hepsi bu kadar.
 
 
 
@@ -214,7 +214,7 @@ Daha sonra verilerin şifresi çözülür ve alıcı cihaz tarafından anlaşıl
 
 
 
-Bu, Wallet Multisig'inizin zaten oluşturulmuş olduğunu ve ColdCardQ cihazınızın çoklu imza işlemlerini gerçekleştirebilmek için önceden ayarlanmış olduğunu varsayar. Eğer durum böyle değilse, Coinkite web sitesinde [burada] (https://coldcard.com/docs/Multisig/) açıklamalar mevcuttur.
+Bu, Wallet Multisig'inizin zaten oluşturulmuş olduğunu ve ColdCardQ cihazınızın çoklu imza işlemlerini gerçekleştirebilmek için önceden ayarlanmış olduğunu varsayar. Eğer durum böyle değilse, Coinkite web sitesinde [burada](https://coldcard.com/docs/Multisig/) açıklamalar mevcuttur.
 
 
 

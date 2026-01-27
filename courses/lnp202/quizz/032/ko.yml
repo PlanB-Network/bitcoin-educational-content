@@ -1,0 +1,9 @@
+question: 첫 번째 채널에 매우 큰 노드를 피하는 이유는 무엇인가요?
+answer: 제한 정책
+wrong_answers:
+  - 낮은 연결성
+  - 너무 낮은 비용
+  - 유동성 부족
+explanation: |
+  매우 큰 노드는 종종 높은 최소 금액을 부과하고 작은 채널을 쉽게 닫습니다.
+reviewed: false

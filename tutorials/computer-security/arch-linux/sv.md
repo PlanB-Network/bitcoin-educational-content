@@ -20,7 +20,7 @@ Arch Linux är en distribution som är känd för sin robusthet, prestanda och a
 - **Fri och öppen källkod**: Som de flesta Linux-distributioner är Arch Linux helt gratis. Det finns inga licensavgifter, vilket gör det till ett utmärkt val för studenter, frilansare eller entusiaster.
 - **KISS** filosofi: Arch är utformat för att vara enkelt, lätt och effektivt. Den innehåller bara det viktigaste, så att du kan bygga din miljö à la carte.
 - **Pacman** är en pakethanterare: Pacman är en snabb, pålitlig och väldesignad pakethanterare. Den möjliggör effektiv installation och uppdatering av programvara och hanterar beroenden med precision.
-- **Omfattande dokumentation och en aktiv gemenskap**: [Arch Wiki] (https://wiki.archlinux.org) är förmodligen en av de bästa tekniska dokumentationerna i Linux-världen. Det är en guldgruva för att förstå vad du gör. Communityt, som mestadels består av erfarna profiler, är mycket aktivt och kan hjälpa dig om du kör fast, förutsatt att du har gjort lite efterforskningar i förväg.
+- **Omfattande dokumentation och en aktiv gemenskap**: [Arch Wiki](https://wiki.archlinux.org) är förmodligen en av de bästa tekniska dokumentationerna i Linux-världen. Det är en guldgruva för att förstå vad du gör. Communityt, som mestadels består av erfarna profiler, är mycket aktivt och kan hjälpa dig om du kör fast, förutsatt att du har gjort lite efterforskningar i förväg.
 
 
 
@@ -58,7 +58,7 @@ Sedan 2017 har Arch Linux inte längre stöd för 32-bitarsarkitekturer. Endast 
 
 
 
-- Besök [den officiella webbplatsen] (https://mir.archlinux.fr/iso/latest/) för att ladda ner den senaste officiella versionen av ISO-bilden.
+- Besök [den officiella webbplatsen](https://mir.archlinux.fr/iso/latest/) för att ladda ner den senaste officiella versionen av ISO-bilden.
 
 
 
@@ -778,6 +778,6 @@ Om du tyckte om att komma igång med Arch Linux kommer du att älska vår handle
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

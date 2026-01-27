@@ -1,0 +1,9 @@
+question: Mitkä ovat ne kaksi lohkoketjujen yksityisyyden suojan pääongelmaa, jotka Satoshi Nakamoto määritteli Bitcoin-selvityksessä?
+answer: Address:n uudelleenkäyttö ja osoiteklusterointi
+wrong_answers:
+  - Transaktiomaksut ja vahvistusviiveet
+  - Kaksinkertaiset menot ja hash-kolarit
+  - Verkon ruuhkautuminen ja mining:n keskittäminen
+explanation: |
+  Satoshi Nakamoto määritteli Bitcoin:n whitepaperin kohdassa 7 osoitteiden uudelleenkäytön ja osoitteiden ryhmittelyn tärkeimmiksi lohkoketjujen yksityisyyden suojaan liittyviksi ongelmiksi. Address uudelleenkäyttöä tapahtuu, kun samaa osoitetta käytetään useita kertoja, jolloin transaktiot on helppo yhdistää samaan käyttäjään. Address:n klusterointi viittaa mahdollisuuteen määrittää, että eri osoitteet kuuluvat samalle omistajalle, erityisesti usean syötteen transaktioiden avulla, jotka paljastavat, että kaikki syötteet ovat saman henkilön hallinnassa. Muut vaihtoehdot ovat Bitcoin:n teknisiä tai toiminnallisia haasteita, mutta ne eivät ole valkoisessa kirjassa erityisesti Satoshi:n yhteydessä käsiteltyjä yksityisyyden suojaan liittyviä kysymyksiä.
+reviewed: false

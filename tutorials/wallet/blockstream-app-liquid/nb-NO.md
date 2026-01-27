@@ -124,7 +124,7 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 
-- **Blockstream App** er en mobilapplikasjon (iOS, Android) og skrivebordsapplikasjon for å administrere Bitcoin-lommebøker og eiendeler på Liquid Network. Den ble kjøpt opp av [Blockstream] (https://blockstream.com/) i 2016, og het tidligere *Green Address* og deretter *Blockstream Green*.
+- **Blockstream App** er en mobilapplikasjon (iOS, Android) og skrivebordsapplikasjon for å administrere Bitcoin-lommebøker og eiendeler på Liquid Network. Den ble kjøpt opp av [Blockstream](https://blockstream.com/) i 2016, og het tidligere *Green Address* og deretter *Blockstream Green*.
 - **Viktige funksjoner**:
 - Onchain-transaksjoner på **Blockchain Bitcoin**.
     - Transaksjoner på **Liquid**-nettverket (Sidechain for raske, konfidensielle utvekslinger).
@@ -149,10 +149,10 @@ Liquid er avhengig av en **føderasjon** av betrodde deltakere (børser, anerkje
 
 
 - For **Android**:
-    - Last ned [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) fra Google Play Store.
-    - Alternativ: Installer via APK-filen som er tilgjengelig på [Blockstreams offisielle GitHub] (https://github.com/Blockstream/green_android).
+    - Last ned [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) fra Google Play Store.
+    - Alternativ: Installer via APK-filen som er tilgjengelig på [Blockstreams offisielle GitHub](https://github.com/Blockstream/green_android).
 - For **iOS**:
-    - Last ned [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) fra App Store.
+    - Last ned [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) fra App Store.
 - **Merk**: Sørg for å laste ned fra offisielle kilder for å unngå falske applikasjoner.
 
 
@@ -329,9 +329,9 @@ seed-frasen på 12 ord vises slik at du kan lagre den.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 4.3. Sjekk seed setning
 
@@ -346,7 +346,7 @@ For å gjøre dette skriver vi ned en referanse, sletter Wallet, gjenoppretter d
 
 
 
-- På startskjermen til Wallet klikker du på fanen "Settings" (Innstillinger) og deretter på "Wallet Details" (Wallet-detaljer), og kopierer zPub ([extended public key](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
+- På startskjermen til Wallet klikker du på fanen "Settings" (Innstillinger) og deretter på "Wallet Details" (Wallet-detaljer), og kopierer zPub ([extended public key](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 
@@ -370,7 +370,7 @@ Merk: En zpub Address kan importeres til Blockstream-applikasjonen for "Watch On
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ### 4.4. Sikre tilgang til applikasjonen
 
@@ -408,7 +408,7 @@ For å motta Liquid-Bitcoins (L-BTC) er flere alternativer tilgjengelige. Du kan
 
 
 
-Alternativt kan du Exchange dine bitcoins på kjeden eller via Lightning Network for L-BTC ved hjelp av [en bro som Boltz] (https://boltz.Exchange/): skriv inn din Liquid som mottar Address, foreta betaling som du foretrekker, og motta din L-BTC.
+Alternativt kan du Exchange dine bitcoins på kjeden eller via Lightning Network for L-BTC ved hjelp av [en bro som Boltz](https://boltz.Exchange/): skriv inn din Liquid som mottar Address, foreta betaling som du foretrekker, og motta din L-BTC.
 
 
 
@@ -521,19 +521,19 @@ Bruk av Onchain-nettverket
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Importere og spore en Wallet i "Watch Only"-modus
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Skrivebordsversjon
 
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 
@@ -552,9 +552,9 @@ Følg disse anbefalingene for å bruke **Blockstream App** sikkert og effektivt.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
@@ -629,32 +629,32 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Læring og veiledning:** ** **[Plan ₿ Network](https://planb.network/)** :
+- Læring og veiledning:** ** **[Plan ₿ Academy](https://planb.academy/)** :
  - Sikre gjenopprettingsfrasen din
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
 - **Liquid Network** :
-- [Ordliste](https://planb.network/fr/resources/glossary/liquid-network)
+- [Ordliste](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 
 - **Lightning Network**:
-- [Ordliste](https://planb.network/fr/resources/glossary/lightning-network)
+- [Ordliste](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

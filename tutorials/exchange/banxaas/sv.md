@@ -20,7 +20,7 @@ I denna handledning upptäcker vi **Banxaas**, en bytesplattform som för senega
 
 
 
-Banxaas kommer från den senegalesiska dialekten (Wolof) och betyder en gren. Ideologiskt kan vi se Banxaas som en gren som knyter senegaleser till användningen av Bitcoin. En filial som du kan lita på för att skydda dina besparingar från inflation och censur. [Banxaas] (https://banxaas.com) har utvecklats av ett senegalesiskt startup-företag (Yité Technologies) och erbjuder en omedelbar Exchange-tjänst mellan Bitcoin och CFA-franc (XOF) och vice versa, tack vare kraften i Lightning Network. Banxaas kommer med en ovanlig strategi för Exchange-plattformar i den västafrikanska subregionen.
+Banxaas kommer från den senegalesiska dialekten (Wolof) och betyder en gren. Ideologiskt kan vi se Banxaas som en gren som knyter senegaleser till användningen av Bitcoin. En filial som du kan lita på för att skydda dina besparingar från inflation och censur. [Banxaas](https://banxaas.com) har utvecklats av ett senegalesiskt startup-företag (Yité Technologies) och erbjuder en omedelbar Exchange-tjänst mellan Bitcoin och CFA-franc (XOF) och vice versa, tack vare kraften i Lightning Network. Banxaas kommer med en ovanlig strategi för Exchange-plattformar i den västafrikanska subregionen.
 
 
 
@@ -29,7 +29,7 @@ Banxaas kommer från den senegalesiska dialekten (Wolof) och betyder en gren. Id
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 
 
@@ -37,13 +37,13 @@ https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Handel för första gången med Banxaas
 
 
 
-Det första du ska göra på [banxaas] (https://banxaas.com) är att definiera riktningen för din Exchange:
+Det första du ska göra på [banxaas](https://banxaas.com) är att definiera riktningen för din Exchange:
 
 
 
@@ -92,9 +92,9 @@ När du initierar en konvertering från CFA-franc till Bitcoin lägger du till d
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 Banxaas låter dig kontrollera riktigheten i din Bitcoin-mottagning Address genom att klicka på knappen **Validera destination**.
 
@@ -172,10 +172,10 @@ Banxaas team står till ditt förfogande för att hjälpa dig med alla problem d
 
 
 
-- [X] (https://x.com/banxaas_sn)
-- [Telegram] (https://t.me/banxaas_app)
-- [Whatsapp] (https://chat.whatsapp.com/JOjCpBoHXow2ljOJFBMVnX)
-- [Nostr] (https://iris.to/npub1glle49lugnkrqwjwhlt5rjz9p6gypatxwy409nc3rfmn9gfzj2psrhh7zy)
+- [X](https://x.com/banxaas_sn)
+- [Telegram](https://t.me/banxaas_app)
+- [Whatsapp](https://chat.whatsapp.com/JOjCpBoHXow2ljOJFBMVnX)
+- [Nostr](https://iris.to/npub1glle49lugnkrqwjwhlt5rjz9p6gypatxwy409nc3rfmn9gfzj2psrhh7zy)
 
 
 
@@ -190,4 +190,4 @@ Kolla också in vår handledning om Peach, en peer-to-peer Exchange-plattform so
 
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874

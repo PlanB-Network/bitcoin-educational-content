@@ -1,0 +1,9 @@
+question: ที่อยู่ประเภทใดที่ขึ้นต้นด้วย 1 และเป็นของมาตรฐาน Legacy?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  ที่อยู่ P2PKH ที่เข้ารหัสใน base58check มาจากมาตรฐาน Legacy และเริ่มต้นด้วยตัวเลข `1`
+reviewed: false

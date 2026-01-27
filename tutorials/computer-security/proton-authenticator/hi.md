@@ -194,7 +194,7 @@ description: मैं अपने खातों को 2FA से सुर�
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 अपने प्रोटॉनमेल खाते में लॉग इन करें और सुरक्षा सेटिंग्स में जाएँ। "दो-कारक प्रमाणीकरण" विकल्प देखें और उसे सक्रिय करें।
 
@@ -495,7 +495,7 @@ TOTPs को भी संग्रहीत करने वाले पास
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 इसी तरह, मुद्रित आपातकालीन कोड भी अपने पास रखें।
 
@@ -545,7 +545,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 प्रोटॉन ऑथेंटिकेटर उपलब्ध सबसे व्यापक और सुरक्षित समाधानों में से एक है: ओपन सोर्स, मल्टी-डिवाइस एन्क्रिप्टेड सिंक्रोनाइजेशन, कोई वाणिज्यिक अनुवर्ती नहीं।
 

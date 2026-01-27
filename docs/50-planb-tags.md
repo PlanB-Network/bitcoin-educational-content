@@ -1,4 +1,4 @@
-#### List of PBN tags with description
+#### List of Plan ₿ Academy tags with description
 
  1. proof-of-work: referring to all things needed to prove some job has been done
  2. software: regarding programs, services you use after being installed on servers, PCs and smartphones

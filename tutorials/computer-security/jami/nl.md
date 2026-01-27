@@ -82,7 +82,7 @@ De applicatie is direct beschikbaar in de App Store of Play Store. Zoek ernaar i
 
 
 
-Om Jami op je apparaat te installeren, moet je eerst de officiële Jami website bezoeken. Standaard toont de site de software die overeenkomt met het besturingssysteem van je apparaat en je kunt direct op de downloadknop klikken om het te starten. Je kunt het Windows-besturingsprogramma echter ook rechtstreeks downloaden van de [downloadpagina] (https://jami.net/download-jami-windows/).
+Om Jami op je apparaat te installeren, moet je eerst de officiële Jami website bezoeken. Standaard toont de site de software die overeenkomt met het besturingssysteem van je apparaat en je kunt direct op de downloadknop klikken om het te starten. Je kunt het Windows-besturingsprogramma echter ook rechtstreeks downloaden van de [downloadpagina](https://jami.net/download-jami-windows/).
 
 
 
@@ -90,7 +90,7 @@ Om Jami op je apparaat te installeren, moet je eerst de officiële Jami website 
 
 
 
-Voor macOS-gebruikers is het bestand ook beschikbaar op [macOS downloadpagina] (https://jami.net/download-jami-macos/).
+Voor macOS-gebruikers is het bestand ook beschikbaar op [macOS downloadpagina](https://jami.net/download-jami-macos/).
 
 
 
@@ -118,7 +118,7 @@ Om Jami op Linux te installeren, kun je het beste de opdrachtregel gebruiken. He
 
 
 
-Zodra je je distributie hebt gekozen, kun je het systeem installeren. Je moet de afhankelijkheden installeren die nodig zijn om Jami op je Linux OS te draaien. De commando's zijn direct beschikbaar op [deze pagina] (https://jami.net/download-jami-linux/).
+Zodra je je distributie hebt gekozen, kun je het systeem installeren. Je moet de afhankelijkheden installeren die nodig zijn om Jami op je Linux OS te draaien. De commando's zijn direct beschikbaar op [deze pagina](https://jami.net/download-jami-linux/).
 
 
 
@@ -140,7 +140,7 @@ Dit commando installeert de gereedschappen die nodig zijn om GPG-sleutels (gnupg
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -312,7 +312,7 @@ Zodra het wachtwoord is ingevoerd, zal het apparaat automatisch verbinding maken
 
 
 
-Een interessante eigenschap van Jami is de mogelijkheid om nieuwe opties te integreren via extensies (plugins). Plugins zijn native modules (C/C++); de SDK biedt tools en scripts (met name in Python) om ze te helpen maken. Sommige plugins zijn direct beschikbaar [hier] (https://jami.net/extensions/).
+Een interessante eigenschap van Jami is de mogelijkheid om nieuwe opties te integreren via extensies (plugins). Plugins zijn native modules (C/C++); de SDK biedt tools en scripts (met name in Python) om ze te helpen maken. Sommige plugins zijn direct beschikbaar [hier](https://jami.net/extensions/).
 
 
 
@@ -360,4 +360,4 @@ Ontdek Tox, een gedecentraliseerd protocol dat end-to-end encryptie (E2E), publi
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

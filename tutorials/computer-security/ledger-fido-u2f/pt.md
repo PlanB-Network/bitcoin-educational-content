@@ -46,7 +46,7 @@ Ligue o Ledger ao seu computador e desbloqueie-o.
 
 
 
-Para instalar a aplicação, abra o software [Ledger Live] (https://www.Ledger.com/Ledger-live) e, em seguida, aceda ao separador "*My Ledger*". Procure a aplicação "*Security Key*" e instale-a no seu dispositivo.
+Para instalar a aplicação, abra o software [Ledger Live](https://www.Ledger.com/Ledger-live) e, em seguida, aceda ao separador "*My Ledger*". Procure a aplicação "*Security Key*" e instale-a no seu dispositivo.
 
 
 
@@ -180,4 +180,4 @@ Também recomendo este outro tutorial, no qual analisamos outra solução para a
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

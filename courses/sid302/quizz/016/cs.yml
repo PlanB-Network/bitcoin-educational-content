@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel čekací doby 102 potvrzení během procesu peg-in z Bitcoin na Liquid?
+answer: Ochrana proti reorganizaci blockchainu Bitcoin před ražbou L-BTC
+wrong_answers:
+  - Poskytnout federaci dostatek času na ověření totožnosti uživatele a souladu s předpisy
+  - Zajištění dostatečné kapacity sítě Liquid pro zpracování příchozí transakce
+  - Poskytnout čas na autorizaci 11 z 15 vícepodpisů členů federace
+explanation: |
+  Čekací doba 102 potvrzení (přibližně 17 hodin) je speciálně navržena tak, aby chránila před reorganizací blockchainu Bitcoin. Jelikož Bitcoin funguje na principu pravděpodobnostní konečnosti, vždy existuje malá šance, že by bloky mohly být reorganizovány, což by mohlo vést ke zneplatnění transakcí. Tím, že systém čeká na 102 potvrzení, zajišťuje, že transakce Bitcoin odesílající prostředky na adresu federace je hluboko pohřbena a je velmi nepravděpodobné, že by mohla být zrušena. Tím se zabrání scénáři, kdy je L-BTC vyraženo na Liquid, ale podkladová transakce Bitcoin je zrušena v důsledku reorganizace. Ostatní možnosti jsou nesprávné, protože: ověření identity není součástí automatizovaného procesu peg-in, kapacita sítě není omezujícím faktorem vyžadujícím takové zpoždění a multisig autorizace 11 z 15 se používá pro peg-outs, nikoli peg-in.

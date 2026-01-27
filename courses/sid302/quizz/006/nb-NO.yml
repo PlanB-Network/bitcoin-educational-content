@@ -1,0 +1,8 @@
+question: Hvilken kryptografisk teknikk bruker Elements for å skjule transaksjonsbeløp samtidig som nettverksvalidering er mulig?
+answer: Pedersen Forpliktelser
+wrong_answers:
+  - Merkle Tree Hashing
+  - Elliptiske kurvesignaturer
+  - SHA-256-kryptering
+explanation: |
+  Pedersen-forpliktelser er den spesifikke kryptografiske teknikken som brukes i Elements' Confidential Transactions for å skjule transaksjonsbeløp. Disse forpliktelsene erstatter synlige beløp med kryptografiske forpliktelser som fortsatt kan verifiseres matematisk av validatorer uten å avsløre de faktiske verdiene. Merkle Tree Hashing brukes til å organisere transaksjonsdata i blokker, Elliptic Curve Signatures brukes til transaksjonsautorisasjon, og SHA-256 er en hashing-algoritme, men ingen av disse skjuler transaksjonsbeløp samtidig som valideringsevnen opprettholdes, slik Pedersen Commitments gjør.

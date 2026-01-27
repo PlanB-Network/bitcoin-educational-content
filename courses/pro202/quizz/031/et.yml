@@ -1,0 +1,8 @@
+question: Mis juhtub kõigi sisendite ScriptSig-väljadega sighash-konstrueerimise protsessi ajal ECDSA-allkirja kontrollimisel?
+answer: Kõik ScriptSig-väljad tühjendatakse, seejärel asendatakse praeguse sisendi ScriptSig vastava ScriptPubKey-ga
+wrong_answers:
+  - Kõik ScriptSig väljad jäävad muutumatuks ja sisalduvad sighash-arvutuses algsel kujul
+  - "Ainult praeguse sisendi ScriptSig säilitatakse, samas kui kõigi teiste sisendite ScriptSig väljad eemaldatakse tehingust"
+  - Kõik ScriptSig-väljad asendatakse viidatud väljundite vastavate ScriptPubKey-väärtustega
+explanation: |
+  Vanade tehingute puhul tühjendab protsess kõigepealt kõik ScriptSig väljad ja asendab seejärel ainult praeguse valideeritava sisendi vastava ScriptPubKey väljundi väljaga, mida ta kulutab. Sellega tagatakse, et allkiri on seotud kulutustingimustega, ilma et tekiksid ringikujulised sõltuvused, kus allkirjad peaksid ise alla kirjutama. Teised võimalused on valed, sest need kas jätavad allkirjad alles (tekitades loogilisi võimatusi) või muudavad kõiki sisendeid ühtlaselt (mis ei isoleeriks korralikult praeguse sisendi valideerimiskonteksti).

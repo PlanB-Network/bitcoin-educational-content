@@ -10,7 +10,7 @@ Lightning-lompakoita, kuten kaikkia mobiililompakoita, pidetään "kuumina" lomp
 
 Jos haluat oppia lisää Lightning-verkosta ja ymmärtää, miten se toimii teknisesti, suosittelen osallistumaan tälle kurssille:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Tässä oppaassa tutustumme **Lipaan**, yksinkertaiseen ja tehokkaaseen Sveitsissä kehitettyyn Lightning-lompakkoon.
 
@@ -91,7 +91,7 @@ Jos haluat varmuuskopioida lompakkosi, siirry "Asetukset"-välilehdelle ja valit
 
 Jos haluat lisätietoja siitä, miten varmuuskopioida ja hallita palautuslausetta oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Vastaanottaa bitcoineja
 

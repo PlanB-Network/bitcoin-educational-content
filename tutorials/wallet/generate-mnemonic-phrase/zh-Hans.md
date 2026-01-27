@@ -30,7 +30,7 @@ description: 如何用骰子生成你自己的恢复短语？
 - 一张纸；
 - 一支笔或铅笔，理想情况下使用不同颜色以便组织；
 - 几个骰子，以最小化由不平衡的骰子引起的偏差风险；
-- 打印出来的[2048 个 BIP39 单词列表](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)。
+- 打印出来的[2048 个 BIP39 单词列表](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/wallet/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)。
 
 随后，将需要使用带有终端的计算机来计算校验和。正是出于这个原因，我不建议手动生成助记词短语。我认为，即使在本教程中提到的预防措施下，计算机的介入显著增加了钱包的脆弱性。
 在关于“虚构钱包”的实验方法中，您可以使用常规电脑及其终端。然而，为了更严格地限制泄露您的短语的风险，理想的做法是使用一台与互联网断开连接的电脑（最好没有 wifi 组件或 RJ45 有线连接），配备最少的外设（所有外设都应通过电缆连接，以避免使用蓝牙），最重要的是，运行一个如[Tails](https://tails.boum.org/index.fr.html)这样的失忆型 Linux 发行版，从一个可移动介质启动。
@@ -65,7 +65,7 @@ description: 如何用骰子生成你自己的恢复短语？
 
 ![mnemonic](assets/notext/5.webp)
 
-最后，十进制数告诉我们对应词在[2048 个 BIP39 词的列表](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)中的位置。剩下的就是选择这些词来组成我们钱包的恢复短语。
+最后，十进制数告诉我们对应词在[2048 个 BIP39 词的列表](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/wallet/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)中的位置。剩下的就是选择这些词来组成我们钱包的恢复短语。
 
 ![mnemonic](assets/notext/6.webp)
 
@@ -86,7 +86,7 @@ description: 如何用骰子生成你自己的恢复短语？
 
 ## 步骤 2：计算校验和
 
-这一步是手动生成助记词短语中最关键的一步，因为它需要使用计算机。如前所述，校验和对应于从熵生成的 SHA256 哈希的开始部分。尽管理论上可能手工计算 128 或 256 比特输入的 SHA256，但这项任务可能需要整整一周的时间。此外，手工计算中的任何错误只能在过程结束时被发现，迫使您从头开始。因此，仅用一张纸和一支笔来完成这一步是难以想象的。使用计算机几乎是必须的。如果您仍然想学习如何手工做 SHA256，我们在[CRYPTO301 课程](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)中解释了如何做。
+这一步是手动生成助记词短语中最关键的一步，因为它需要使用计算机。如前所述，校验和对应于从熵生成的 SHA256 哈希的开始部分。尽管理论上可能手工计算 128 或 256 比特输入的 SHA256，但这项任务可能需要整整一周的时间。此外，手工计算中的任何错误只能在过程结束时被发现，迫使您从头开始。因此，仅用一张纸和一支笔来完成这一步是难以想象的。使用计算机几乎是必须的。如果您仍然想学习如何手工做 SHA256，我们在[CRYPTO301 课程](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)中解释了如何做。
 
 因此，我强烈建议不要为实际的钱包创建手工短语。我认为，在这个阶段使用计算机，即使采取了所有必要的预防措施，也不合理地增加了钱包的攻击面。
 为了在尽可能少留痕迹的情况下计算校验和，我们将使用一个名为**Tails**的可遗忘 Linux 发行版，它通过可移动驱动器启动。这个操作系统从 USB 棒启动，并完全在计算机的 RAM 上运行，不与硬盘交互。因此，理论上，它在计算机关闭后不会在计算机上留下任何痕迹。请注意，Tails 只与 x86_64 类型的处理器兼容，不适用于 ARM 类型的处理器。
@@ -222,7 +222,7 @@ a27abf1aff70311917a59a43ce86fa45a62723a00dd2f9d3d059aeac9b4b13d8
 
 ![助记词](assets/notext/24.webp)
 在此调整之后，你将得到列表中每个单词的排名。剩下的就是通过它们的编号来识别每个单词。显然，与所有其他步骤一样，你不能使用计算机来执行这一转换。因此，请确保你事先已经打印出了列表。
-[**-> 以 A4 格式打印 BIP39 列表。**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/others/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
+[**-> 以 A4 格式打印 BIP39 列表。**](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/tutorials/wallet/generate-mnemonic-phrase/assets/BIP39-WORDLIST.pdf)
 
 例如，如果从第一行得到的数字是 1721，对应的单词将是列表中的第 1721 个：
 

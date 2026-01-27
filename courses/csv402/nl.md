@@ -1,14 +1,11 @@
 ---
-name: Het RGB protocol, van theorie naar praktijk
+name: RGB-programmering
 goal: De vaardigheden verwerven die nodig zijn om RGB te begrijpen en te gebruiken
-objectives: 
-
-  - De fundamentele concepten van het RGB protocol begrijpen
-  - De principes van Client-side Validation en Bitcoin verplichtingen beheersen
-  - Leren hoe je RGB contracten aanmaakt, beheert en overdraagt
-  - Hoe een RGB-compatibel Lightning-knooppunt te bedienen
-
-
+objectives:
+- De fundamentele concepten van het RGB protocol begrijpen
+- De principes van Client-side Validation en Bitcoin verplichtingen beheersen
+- Leren hoe je RGB contracten aanmaakt, beheert en overdraagt
+- Hoe een RGB-compatibel Lightning-knooppunt te bedienen
 ---
 # Het RGB protocol ontdekken
 
@@ -63,7 +60,7 @@ Het laatste deel wordt geleid door andere sprekers die concrete toepassingen op 
 Deze training kwam oorspronkelijk voort uit een twee weken durend bootcamp voor geavanceerde ontwikkeling in Viareggio, Toscane, georganiseerd door [Fulgur'Ventures](https://fulgur.ventures/). De eerste week, gericht op Rust en SDK's, is te vinden in deze andere cursus:
 
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 In deze cursus richten we ons op de tweede week van het bootcamp, waarin RGB centraal staat.
 
@@ -918,13 +915,13 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 ### Tapret
 
 
-De laatste optie is het gebruik van **Taproot** (geïntroduceerd met BIP341) met het *Tapret* schema. *Tapret* is een complexere vorm van deterministische Commitment, die verbeteringen brengt in termen van footprint op de Blockchain en vertrouwelijkheid voor Contract operaties. Het hoofdidee is om de Commitment te verbergen in het `Script Path Spend` gedeelte van een [Taproot transactie] (https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki).
+De laatste optie is het gebruik van **Taproot** (geïntroduceerd met BIP341) met het *Tapret* schema. *Tapret* is een complexere vorm van deterministische Commitment, die verbeteringen brengt in termen van footprint op de Blockchain en vertrouwelijkheid voor Contract operaties. Het hoofdidee is om de Commitment te verbergen in het `Script Path Spend` gedeelte van een [Taproot transactie](https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
 
-Voordat we beschrijven hoe de Commitment wordt ingevoegd in een Taproot transactie, kijken we naar de **exacte vorm** van de Commitment, die **imperatief** moet overeenkomen met een 64-byte string [geconstrueerd] (https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) als volgt:
+Voordat we beschrijven hoe de Commitment wordt ingevoegd in een Taproot transactie, kijken we naar de **exacte vorm** van de Commitment, die **imperatief** moet overeenkomen met een 64-byte string [geconstrueerd](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) als volgt:
 
 
 ```txt
@@ -1181,7 +1178,7 @@ waar:
 
 
 
-- `mpc_tag` is een tag: `urn:ubideco:mpc:Commitment#2024-01-31`, gekozen volgens [RGB tagging conventions] (https://github.com/RGB-WG/RGB-core/blob/master/doc/Commitments.md);
+- `mpc_tag` is een tag: `urn:ubideco:mpc:Commitment#2024-01-31`, gekozen volgens [RGB tagging conventions](https://github.com/RGB-WG/RGB-core/blob/master/doc/Commitments.md);
 - `depth` (1 byte) geeft de diepte van de *MPC Tree* aan;
 - cofactor` (16 bits, in Little Endian) is een parameter die gebruikt wordt om de uniciteit van de posities toegewezen aan elke Contract in de boom te bevorderen;
 - `mpc::Root` is de wortel van *MPC Tree*, berekend volgens het proces dat in de volgende sectie wordt beschreven.
@@ -1220,7 +1217,7 @@ waarbij `cofactor` een geheel getal is dat de kans op het verkrijgen van verschi
 - Als het niet lukt om alle contracten zonder botsing te positioneren, verhogen we `d` en beginnen we opnieuw.
 
 
-Het doel is om te hoge bomen te vermijden en het risico op botsingen zo klein mogelijk te houden. Merk op dat het botsingsfenomeen een willekeurige distributielogica volgt, gekoppeld aan de [Anniversary Paradox] (https://en.wikipedia.org/wiki/Birthday_problem).
+Het doel is om te hoge bomen te vermijden en het risico op botsingen zo klein mogelijk te houden. Merk op dat het botsingsfenomeen een willekeurige distributielogica volgt, gekoppeld aan de [Anniversary Paradox](https://en.wikipedia.org/wiki/Birthday_problem).
 
 
 #### Bewoonde bladeren
@@ -2543,7 +2540,7 @@ Deze mechanismen definiëren precies hoe de _commitment_ wordt gecodeerd in de u
 Een DAG (of *Acyclic Guided Graph*) is een cyclusvrije grafiek, die topologische planning mogelijk maakt. Blockchains, zoals de _shards_ van RGB contracten, kunnen worden weergegeven door DAG's.
 
 
-Voor meer informatie: [Directed Acyclic Graph] (https://en.wikipedia.org/wiki/Directed_acyclic_graph)
+Voor meer informatie: [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
 
 
 #### Graveren
@@ -2585,7 +2582,7 @@ Interface Implementation is de verzameling declaraties die een **Interface** ver
 #### Invoice
 
 
-Een Invoice heeft de vorm van een URL gecodeerd in [base58] (https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), die de gegevens bevat die nodig zijn voor de constructie van een **State Transition** (door de betaler). Met andere woorden, het is een Invoice die de tegenpartij (*betaler*) in staat stelt de bijbehorende overgang te creëren om het activum over te dragen of de status van de Contract bij te werken.
+Een Invoice heeft de vorm van een URL gecodeerd in [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), die de gegevens bevat die nodig zijn voor de constructie van een **State Transition** (door de betaler). Met andere woorden, het is een Invoice die de tegenpartij (*betaler*) in staat stelt de bijbehorende overgang te creëren om het activum over te dragen of de status van de Contract bij te werken.
 
 
 #### Lightning Network
@@ -2597,7 +2594,7 @@ De Lightning Network is een gedecentraliseerd netwerk van betaalkanalen (of _sta
 Voor meer informatie over hoe Lightning werkt, raad ik je aan deze andere cursus te volgen:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -2623,7 +2620,7 @@ Ownership verwijst naar de mogelijkheid om een UTXO waarnaar een Seal Definition
 Een PSBT (_Partially Signed Bitcoin Transaction_) is een Bitcoin transactie die nog niet volledig ondertekend is. Het kan gedeeld worden tussen verschillende entiteiten, die elk bepaalde Elements (handtekeningen, scripts...) kunnen toevoegen of verifiëren, totdat de transactie klaar geacht wordt voor On-Chain distributie.
 
 
-Voor meer informatie: [BIP-0174] (https://github.com/Bitcoin/bips/blob/master/bip-0174.mediawiki)
+Voor meer informatie: [BIP-0174](https://github.com/Bitcoin/bips/blob/master/bip-0174.mediawiki)
 
 
 #### Pedersen commitment
@@ -4242,8 +4239,8 @@ interface: RGB20Fixed
 
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -4300,7 +4297,7 @@ rgb contracts
 ![RGB-Bitcoin](assets/en/087.webp)
 
 
-Dan toont het volgende commando de globale toestanden (naam, ticker, Supply...) en de lijst van Owned States, d.w.z. toewijzingen (bijvoorbeeld 1 miljoen `PBN` tokens gedefinieerd in UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Dan toont het volgende commando de globale toestanden (naam, ticker, Supply...) en de lijst van Owned States, d.w.z. toewijzingen (bijvoorbeeld 1 miljoen `Plan ₿ Academy` tokens gedefinieerd in UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 
 ```bash
@@ -4431,7 +4428,7 @@ Om over te stappen van deze Invoice:
 
 
 
-- Bob (die de tokens in zijn Stash heeft) heeft een Bitcoin Wallet. Hij moet een Bitcoin transactie voorbereiden (in de vorm van een PSBT, bijvoorbeeld `tx.PSBT`) die de UTXO's uitgeeft waar de benodigde RGB tokens zich bevinden, plus één UTXO voor valuta (Exchange);
+- Bob (die de tokens in zijn stash bewaart) beschikt over een Bitcoin-wallet. Hij moet een Bitcoin-transactie voorbereiden (in de vorm van een PSBT, bijv. `tx.psbt`) die de UTXO’s uitgeeft waarin de benodigde RGB-tokens zich bevinden, plus één UTXO voor wisselgeld (change);
 - Bob voert het volgende commando uit:
 
 
@@ -4559,7 +4556,7 @@ In werkelijkheid maakt de Lightning Network het mogelijk om betalingen via meerd
 De werking van de RGB op Lightning moet daarom parallel worden bekeken met die van de Lightning Network zelf. Als je dieper op dit onderwerp wilt ingaan, raad ik je van harte aan om deze andere uitgebreide training te bekijken:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB code kaart
 
@@ -4827,7 +4824,7 @@ Sinds ongeveer 2022 concentreert het RGB-team van Bitfinex zich op de ontwikkeli
 
 - Deelname aan broncode en protocolspecificaties, inclusief het schrijven van verbetervoorstellen, oplossen van bugs, etc;
 - Tools voor ontwikkelaars om de integratie van RGB in hun toepassingen te vereenvoudigen;
-- Ontwerp van een mobiele Wallet met de naam [Iris] (https://iriswallet.com/) om te experimenteren en best practices voor het gebruik van RGB te illustreren;
+- Ontwerp van een mobiele Wallet met de naam [Iris](https://iriswallet.com/) om te experimenteren en best practices voor het gebruik van RGB te illustreren;
 - Creatie van een aangepast Lightning-knooppunt dat kanalen met RGB-activa kan beheren;
 - Ondersteunen van andere teams die oplossingen bouwen voor RGB, om diversiteit en een sterk ecosysteem aan te moedigen.
 
@@ -4986,7 +4983,7 @@ In dit laatste hoofdstuk neemt Frederico Tenga je stap-voor-stap mee door het op
 Deze video dient als een tutorial, vergelijkbaar met wat we in een vorig hoofdstuk hebben behandeld, maar deze keer specifiek gericht op Lightning!
 
 
-De belangrijkste bron voor deze video is de Github-repository [RGB Lightning Node] (https://github.com/RGB-Tools/RGB-lightning-node), die het je gemakkelijk maakt om deze configuratie in Regtest te starten.
+De belangrijkste bron voor deze video is de Github-repository [RGB Lightning Node](https://github.com/RGB-Tools/RGB-lightning-node), die het je gemakkelijk maakt om deze configuratie in Regtest te starten.
 
 
 ### Een RGB-compatibel Lightning knooppunt inzetten
@@ -5273,7 +5270,7 @@ Je kunt de bestelling natuurlijk aanpassen. Om de transactie te bevestigen, mijn
 ```
 
 
-We kunnen nu een RGB asset aanmaken. Het commando hangt af van het type asset dat je wilt maken en de parameters. Hier maak ik een NIA (*Non Inflatable Asset*) token genaamd "PBN" met een Supply van 1000 eenheden. Met `precision` kun je de deelbaarheid van de eenheden bepalen.
+We kunnen nu een RGB asset aanmaken. Het commando hangt af van het type asset dat je wilt maken en de parameters. Hier maak ik een NIA (*Non Inflatable Asset*) token genaamd "Plan ₿ Academy" met een Supply van 1000 eenheden. Met `precision` kun je de deelbaarheid van de eenheden bepalen.
 
 
 ```bash
@@ -5282,8 +5279,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -5331,7 +5328,7 @@ Het commando geeft de openbare sleutel van mijn knooppunt nr. 2:
 ![RGB-Bitcoin](assets/en/110.webp)
 
 
-Vervolgens openen we het kanaal door de relevante asset (`PBN`) te specificeren. Met het `/openchannel` commando kun je de grootte van het kanaal in satoshis bepalen en ervoor kiezen om de RGB asset toe te voegen. Het hangt af van wat je wilt maken, maar in mijn geval is het commando:
+Vervolgens openen we het kanaal door de relevante asset (`Plan ₿ Academy`) te specificeren. Met het `/openchannel` commando kun je de grootte van het kanaal in satoshis bepalen en ervoor kiezen om de RGB asset toe te voegen. Het hangt af van wat je wilt maken, maar in mijn geval is het commando:
 
 
 ```bash
@@ -5379,7 +5376,7 @@ Om de transactie te bevestigen, worden 6 blokken gedolven:
 ![RGB-Bitcoin](assets/en/112.webp)
 
 
-Het Lightning-kanaal is nu open en bevat ook 500 `PBN`-tokens aan de kant van knooppunt n°1. Als knooppunt n°2 `PBN` tokens wil ontvangen, moet het generate en Invoice. Zo doe je dat:
+Het Lightning-kanaal is nu open en bevat ook 500 `Plan ₿ Academy`-tokens aan de kant van knooppunt n°1. Als knooppunt n°2 `Plan ₿ Academy` tokens wil ontvangen, moet het generate en Invoice. Zo doe je dat:
 
 
 ```bash
@@ -5416,7 +5413,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RGB-Bitcoin](assets/en/113.webp)
 
 
-We betalen deze Invoice nu vanaf het eerste knooppunt, dat het benodigde geld heeft met de `PBN` token:
+We betalen deze Invoice nu vanaf het eerste knooppunt, dat het benodigde geld heeft met de `Plan ₿ Academy` token:
 
 
 ```bash

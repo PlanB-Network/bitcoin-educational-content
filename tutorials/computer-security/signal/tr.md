@@ -69,7 +69,7 @@ Android'de [APK ile yüklemek](https://github.com/signalapp/Signal-Android/relea
 
 
 
-Bu eğitimde mobil versiyona odaklanacağız, ancak [masaüstü versiyonlarının da mevcut olduğunu] (https://signal.org/fr/download/) (MacOS, Linux ve Windows) lütfen unutmayın. Ancak hesabınızı masaüstü sürümüyle senkronize etmeden önce mobil uygulamayı kurmanız gerekecektir.
+Bu eğitimde mobil versiyona odaklanacağız, ancak [masaüstü versiyonlarının da mevcut olduğunu](https://signal.org/fr/download/) (MacOS, Linux ve Windows) lütfen unutmayın. Ancak hesabınızı masaüstü sürümüyle senkronize etmeden önce mobil uygulamayı kurmanız gerekecektir.
 
 
 
@@ -273,4 +273,4 @@ Size Gmail'e çok daha gizlilik dostu bir alternatif olan Proton Mail'i tanıtt�
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

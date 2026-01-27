@@ -71,7 +71,7 @@ Avgifterna varierar från 0% till 2% beroende på vilken blockmall som väljs.
 All information om poolen är transparent, inklusive alla användardata. Låt oss ta ett exempel för att förstå den här punkten:
 
 
-[På Ocean-instrumentpanelen] (https://ocean.xyz/dashboard) har du många informationsbitar som Hashrate under de senaste sex månaderna, antalet deltagare i poolen, det totala antalet bitcoins som utvunnits etc.
+[På Ocean-instrumentpanelen](https://ocean.xyz/dashboard) har du många informationsbitar som Hashrate under de senaste sex månaderna, antalet deltagare i poolen, det totala antalet bitcoins som utvunnits etc.
 
 
 Vi kommer att fokusera på avsnittet "Contributors". Du kan se listan över alla bidragsgivare med deras genomsnittliga Hashrate under de senaste tre timmarna samt andelen **"aktier"** och **"Hash"** i förhållande till resten av poolen.

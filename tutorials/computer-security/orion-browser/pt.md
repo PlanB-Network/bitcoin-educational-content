@@ -665,7 +665,7 @@ Após a configuração, teste a sua instalação:
 
 
 
-### Alternativas ao Plan ₿ Network
+### Alternativas ao Plan ₿ Academy
 
 
 Para uma proteção máxima, consulte os nossos outros guias:
@@ -673,14 +673,14 @@ Para uma proteção máxima, consulte os nossos outros guias:
 
 
 
-- [Firefox reforçado](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Configuração avançada multiplataforma
-- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Anonimato total na rede
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Máxima proteção das impressões digitais
+- [Firefox reforçado](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Configuração avançada multiplataforma
+- [Tor Browser](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Anonimato total na rede
+- [Mullvad Browser](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Máxima proteção das impressões digitais
 
 
 
-Se quiser saber mais sobre a história e o funcionamento dos navegadores, bem como sobre os principais objectos digitais da sua vida quotidiana, convido-o a descobrir o nosso novo curso de formação gratuito SCU 202, disponível em Plan ₿ Network:
+Se quiser saber mais sobre a história e o funcionamento dos navegadores, bem como sobre os principais objectos digitais da sua vida quotidiana, convido-o a descobrir o nosso novo curso de formação gratuito SCU 202, disponível em Plan ₿ Academy:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

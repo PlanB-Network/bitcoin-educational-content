@@ -1,0 +1,8 @@
+question: What causes the off-by-one bug in OP_CHECKMULTISIG that requires an extra OP_0 in bare multisig ScriptSigs?
+answer: OP_CHECKMULTISIG consumes an additional stack element beyond the expected signatures and public keys
+wrong_answers:
+  - The signature verification process requires an extra byte for proper ECDSA validation to function correctly
+  - "Bitcoin's stack implementation has a boundary check that needs a padding element for memory alignment"
+  - The multisig threshold counting starts at zero instead of one, requiring an offset placeholder value
+explanation: |
+  The OP_CHECKMULTISIG opcode has an implementation bug where it pops one more item from the stack than it should during execution. This means that in addition to the required m signatures and n public keys, it consumes an extra stack element. To prevent the operation from failing, bare multisig ScriptSigs must include an initial OP_0 (which pushes an empty byte array) to satisfy this unexpected stack consumption. The other options describe plausible-sounding technical issues but are not the actual cause of this well-known Bitcoin quirk.

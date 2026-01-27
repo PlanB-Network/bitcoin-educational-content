@@ -18,7 +18,7 @@ Applicare questi due principi di sicurezza delle password (unicità e robustezza
 Un gestore di password genera e memorizza in modo sicuro password forti, permettendoti di accedere a tutti i tuoi account online senza la necessità di memorizzarli individualmente. È necessario ricordare solo una password, la password principale, che ti dà accesso a tutte le tue password salvate nel gestore. Utilizzare un gestore di password migliora la tua sicurezza online perché impedisce il riutilizzo delle password e genera sistematicamente password casuali. Ma semplifica anche l'uso quotidiano dei tuoi account centralizzando l'accesso alle tue informazioni sensibili.
 In questo tutorial, esploreremo come configurare e utilizzare un gestore di password per migliorare la tua sicurezza online. Ti presenterò Bitwarden, e in un altro tutorial, esamineremo un'altra soluzione chiamata KeePass.
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 **_Attenzione_**: un gestore di password è ottimo per memorizzare le password, ma **non ci dovresti mai memorizzare la frase mnemonica del tuo portafoglio Bitcoin!** Ricorda, una frase mnemonica dovrebbe essere salvata esclusivamente in un formato fisico, come un pezzo di carta o metallo.
 
@@ -101,9 +101,9 @@ Prima di tutto, ti consiglio vivamente di impostare l'autenticazione a due fatto
 
 Se non sei sicuro di come configurare e utilizzare questi dispositivi 2FA, ti consiglio di seguire questi altri 2 tutorial:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Per fare ciò, vai alla scheda "*Sicurezza*" nel menu "*Impostazioni*".
 
@@ -162,7 +162,7 @@ Nel modulo che si apre, inizia determinando la natura dell'elemento da salvare. 
 
 ![BITWARDEN](assets/notext/26.webp)
 
-Nel campo "_Name_", inserisci un nome descrittivo per le tue credenziali. Questo renderà più facile cercare e organizzare le tue password, specialmente se ne hai un gran numero. Ad esempio, se vuoi salvare le tue credenziali per il sito del PlanB Network, puoi nominare questo elemento in modo che sia immediatamente riconoscibile durante le tue future ricerche.
+Nel campo "_Name_", inserisci un nome descrittivo per le tue credenziali. Questo renderà più facile cercare e organizzare le tue password, specialmente se ne hai un gran numero. Ad esempio, se vuoi salvare le tue credenziali per il sito del Plan ₿ Academy, puoi nominare questo elemento in modo che sia immediatamente riconoscibile durante le tue future ricerche.
 
 ![BITWARDEN](assets/notext/27.webp)
 
@@ -222,7 +222,7 @@ La tua cartella ora appare nel tuo gestore.
 
 ![BITWARDEN](assets/notext/41.webp)
 
-Puoi assegnare una cartella a un identificativo quando lo crei, come abbiamo fatto precedentemente, o modificando un identificativo esistente. Ad esempio, cliccando sul mio identificativo per PlanB Network, posso poi scegliere di classificarlo nella cartella "_Bitcoin_".
+Puoi assegnare una cartella a un identificativo quando lo crei, come abbiamo fatto precedentemente, o modificando un identificativo esistente. Ad esempio, cliccando sul mio identificativo per Plan ₿ Academy, posso poi scegliere di classificarlo nella cartella "_Bitcoin_".
 
 ![BITWARDEN](assets/notext/42.webp)
 
@@ -270,7 +270,7 @@ Ora sei connesso al tuo gestore Bitwarden tramite l'estensione per browser.
 
 ![BITWARDEN](assets/notext/51.webp)
 
-Ad esempio, se torno sul sito di PlanB Network e provo ad accedere al mio account, puoi vedere che l'estensione Bitwarden integrata nel browser riconosce i campi di login e mi offre automaticamente di selezionare l'identificativo che avevo precedentemente salvato.
+Ad esempio, se torno sul sito di Plan ₿ Academy e provo ad accedere al mio account, puoi vedere che l'estensione Bitwarden integrata nel browser riconosce i campi di login e mi offre automaticamente di selezionare l'identificativo che avevo precedentemente salvato.
 
 ![BITWARDEN](assets/notext/52.webp)
 
@@ -278,7 +278,7 @@ Se seleziono questo identificativo, Bitwarden compila automaticamente i campi di
 
 ![BITWARDEN](assets/notext/53.webp)
 
-L'estensione è progettata anche per rilevare la creazione di nuovi account. Ad esempio, quando creo un nuovo account su PlanB Network, Bitwarden suggerisce automaticamente di salvare il nuovo identificativo.
+L'estensione è progettata anche per rilevare la creazione di nuovi account. Ad esempio, quando creo un nuovo account su Plan ₿ Academy, Bitwarden suggerisce automaticamente di salvare il nuovo identificativo.
 
 ![BITWARDEN](assets/notext/54.webp)
 

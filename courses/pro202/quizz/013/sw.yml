@@ -1,0 +1,8 @@
+question: Ni aina gani ya muundo wa hisabati ambao nukta za mviringo huunda chini ya operesheni ya kuongeza?
+answer: Kundi la hisabati lenye ufungamano, ushirika, utambulisho, na kinyume chake
+wrong_answers:
+  - Sehemu yenye kikomo yenye shughuli za kuzidisha na kugawanya zilizofafanuliwa
+  - Nafasi ya vekta yenye kuzidisha kwa scalar na michanganyiko ya mstari
+  - Muundo wa pete wenye shughuli zote mbili za kujumlisha na kuzidisha
+explanation: |
+  Pointi za mkunjo wa duaradufu huunda kundi la hisabati chini ya kuongezwa, kumaanisha kuwa zinakidhi sifa nne muhimu: kufungwa (kuongeza pointi mbili hutoa nukta nyingine kwenye mkunjo), ushirika (mpangilio wa shughuli haujalishi), utambulisho (nukta katika infinity hufanya kama sifuri), na kinyume chake (kila nukta ina tafakari kwenye mhimili wa x unaoifuta). Muundo huu wa kikundi ni msingi wa usimbaji wa mkunjo wa duaradufu kwa sababu unahakikisha kwamba shughuli kama vile kuzidisha kwa scalar (kuongeza nukta yenyewe mara kwa mara) zinafafanuliwa vizuri na kutabirika, kuwezesha itifaki salama za usimbaji duaradufu kama zile zinazotumika katika Bitcoin.

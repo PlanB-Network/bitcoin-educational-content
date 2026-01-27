@@ -11,7 +11,7 @@ Lightning Network은 각 거래의 처리 속도를 높여 일상적인 Bitcoin 
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 메인 체인에서와 마찬가지로, 노드 간의 연결을 촉진하고 네트워크에서 일반적으로 발생하는 유동성 문제를 최소화하기 위해 사용자가 네트워크의 정보와 상태를 알 수 있도록 하는 것이 중요해졌습니다. 실제로 Lightning Network에서는 Bitcoin 메인 체인에서 거래할 때보다 상대적으로 적은 금액의 소액 결제를 권장합니다.
 
@@ -34,7 +34,7 @@ Bitcoin 프로토콜의 메인 체인에 대한 유용한 정보를 제공하는
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 이 튜토리얼에서는 Lightning Network 사용자, 노드를 연결하여 네트워크를 확장하려는 사용자 등을 위한 필수 리소스인 이 플랫폼에 대해 안내해드리겠습니다.
 
@@ -57,7 +57,7 @@ Amboss 플랫폼의 목표 중 하나는 네트워크의 다양한 노드가 서
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 홈 페이지에서 에 따라 분류된 노드도 찾을 수 있습니다:
 
@@ -147,7 +147,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 - 수신 비율**: 선택한 채널에 따라 노드가 100만 Satoshi을 수신할 때마다 청구하는 금액입니다.
 - 비율(백만분의 1)**: 채널 중 하나를 통해 결제하기로 결정했을 때 노드가 청구하는 백만 단위당 Satoshi의 수를 나타냅니다. Ppm 비율이 '500 Sats'인 채널을 통해 '10_000 Sats'을 결제하기로 결정했다고 가정하면 노드에 '10_000 * 500 / 1_000_000' 사토시를 지불해야 하며, 이는 '5 Sats'에 해당하는 금액입니다.
-- HTLC](https://planb.network/resources/glossary/HTLC) 최대** : 이 노드가 이 채널 중 하나를 통해 전송할 수 있는 최대 금액입니다.
+- HTLC](https://planb.academy/resources/glossary/htlc) 최대** : 이 노드가 이 채널 중 하나를 통해 전송할 수 있는 최대 금액입니다.
 
 
 
@@ -304,4 +304,4 @@ Amboss는 네트워크 구성원 정보뿐만 아니라 네트워크 자체의 �
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

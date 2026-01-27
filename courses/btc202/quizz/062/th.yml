@@ -1,0 +1,9 @@
+question: แอปพลิเคชัน Umbrel ใดที่ให้คุณจัดการโหนด Lightning ของคุณด้วย Interface ขั้นสูง?
+answer: ขี่สายฟ้า
+wrong_answers:
+  - BTCPay Lightning
+  - Nostr Relay
+  - บิทฟีด
+explanation: |
+  Ride The Lightning และ ThunderHub เสนอ Interface ที่ครบถ้วนบนเว็บสำหรับการจัดการโหนด Lightning
+reviewed: true

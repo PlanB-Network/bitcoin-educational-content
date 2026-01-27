@@ -20,7 +20,7 @@ RGB Contract को एक विकासवादी राज्य मशी
 RGB प्रोटोकॉल कैसे काम करता है, इसके बारे में अधिक जानने के लिए, मैं आपको यह व्यापक प्रशिक्षण पाठ्यक्रम लेने की सलाह देता हूं:
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB का आंतरिक तर्क Rust लाइब्रेरी पर आधारित है जिसे आप, डेवलपर्स के रूप में, *Client-side Validation* भाग को प्रबंधित करने के लिए अपनी परियोजनाओं में आयात कर सकते हैं। इसके अलावा, LNP/BP टीम अन्य भाषाओं के लिए बाइंडिंग पर काम कर रही है, लेकिन इसे अभी तक अंतिम रूप नहीं दिया गया है। इसके अलावा, बिटफ़ाइनेक्स जैसी अन्य संस्थाएँ अपने स्वयं के एकीकरण स्टैक विकसित कर रही हैं, लेकिन हम इनके बारे में किसी अन्य ट्यूटोरियल में बात करेंगे। फिलहाल, `RGB` CLI आधिकारिक संदर्भ है, भले ही यह अपेक्षाकृत अपरिष्कृत हो।
 
@@ -186,8 +186,8 @@ rgb schemata
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -243,7 +243,7 @@ rgb contracts
 ![RGB-CLI](assets/fr/07.webp)
 
 
-फिर, अगला आदेश वैश्विक स्थितियाँ (नाम, टिकर, Supply...) और स्वामित्व वाली स्थितियों की सूची, यानी आवंटन (उदाहरण के लिए, UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` में परिभाषित 1 मिलियन `PBN` टोकन) प्रदर्शित करता है।
+फिर, अगला आदेश वैश्विक स्थितियाँ (नाम, टिकर, Supply...) और स्वामित्व वाली स्थितियों की सूची, यानी आवंटन (उदाहरण के लिए, UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` में परिभाषित 1 मिलियन `Plan ₿ Academy` टोकन) प्रदर्शित करता है।
 
 
 ```bash
@@ -421,4 +421,4 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 मैं इस अन्य ट्यूटोरियल की भी अनुशंसा करता हूं जिसमें मैं समझाता हूं कि RGB-संगत लाइटनिंग नोड को लगभग तुरंत Exchange टोकन में कैसे लॉन्च किया जाए:
 
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

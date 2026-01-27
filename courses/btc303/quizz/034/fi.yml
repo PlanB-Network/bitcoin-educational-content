@@ -1,0 +1,9 @@
+question: Mikä on tärkein syy siihen, että Bitcoin:n todellinen kiertävä tarjonta on huomattavasti pienempi kuin noin 21 miljoonan BTC:n teoreettinen enimmäismäärä?
+answer: Kadonneet yksityiset avaimet, wallet-varkaudet ja vääriin osoitteisiin lähetetyt kolikot poistavat bitcoinit pysyvästi kierrosta
+wrong_answers:
+  - Mining vaikeussäädöt vähentävät automaattisesti kokonaistarjontaa niukkuuden säilyttämiseksi ajan mittaan
+  - Transaktiomaksut poltetaan käsittelyn aikana, mikä vähentää vähitellen käytettävissä olevaa bitcoin-tarjontaa
+  - "Bitcoin-protokolla lukitsee automaattisesti kolikot, jotka eivät ole liikkuneet pitkään aikaan, inflaation estämiseksi"
+explanation: |
+  Vaikka teoreettinen enimmäismäärä on 20 999 999.9769 BTC, todellinen käytettävissä oleva tarjonta on huomattavasti pienempi inhimillisten virheiden ja menetysten vuoksi. Kadonneet yksityiset avaimet tekevät bitcoineista pysyvästi saavuttamattomia, lompakot varastetaan tai unohdetaan, ja kolikoita lähetetään joskus virheellisiin osoitteisiin. Nämä tekijät johtavat tarjonnan pysyvään vähenemiseen, josta jäljelle jääneet omistajat hyötyvät, kuten Satoshi totesi: kadonneet kolikot lisäävät muiden kolikoiden arvoa.
+reviewed: false

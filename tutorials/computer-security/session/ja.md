@@ -145,7 +145,7 @@ Androidでは、[APK経由でインストール](https://github.com/session-foun
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **ご注意ください：Bitcoinのポートフォリオで使用されるMnemonicのフレーズとは異なり、セッションでは、各単語を完全に保存する必要があります**。最初の4文字だけでは不十分です！
 
@@ -299,4 +299,4 @@ Notification*"メニューでは、"*Fast Mode*"と "*Slow Mode*"が選択でき
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

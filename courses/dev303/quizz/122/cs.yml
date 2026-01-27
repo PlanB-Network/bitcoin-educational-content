@@ -1,0 +1,8 @@
+question: Jaký je nejzávažnější problém s obnovou, kterému uživatelé čelí, když jsou jejich prostředky spravovány prostřednictvím cloudové architektury uzlu Lightning společnosti Greenlight?
+answer: Uživatelé by potřebovali technické znalosti, aby mohli roztočit nezávislé uzly Core Lightning a obnovit stavy kanálů bez infrastruktury Greenlight
+wrong_answers:
+  - "Uživatelé ztratí přístup ke svým soukromým klíčům, které jsou uloženy výhradně na serverech společnosti Blockstream"
+  - "Stavy kanálů jsou zašifrovány pomocí vlastních klíčů společnosti Greenlight, takže obnovení prostředků je matematicky nemožné."
+  - "Kanály Lightning automaticky vyprší po 30 dnech bez služeb nepřetržité údržby Greenlight"
+explanation: |
+  Správná odpověď poukazuje na skutečnou technickou složitost obnovy prostředků v architektuře Greenlight. Uživatelé si sice ponechávají své soukromé klíče, ale přístup k prostředkům bez služby Greenlight vyžaduje spuštění uzlů Core Lightning a ruční obnovení stavů kanálů - což je proces, který je nad možnosti většiny uživatelů. Nesprávné odpovědi jsou nesprávné, protože: uživatelé mají pod kontrolou své soukromé klíče (nejsou uloženy na serverech), stavy kanálů používají standardní protokoly Lightning (nikoli proprietární šifrování) a kanály Lightning nemají automatické časovače vypršení platnosti vázané na poskytovatele služeb.

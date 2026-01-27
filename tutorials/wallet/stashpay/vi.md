@@ -42,7 +42,7 @@ Sau khi cài đặt ứng dụng, StashPay sẽ tạo một Bitcoin Wallet ban �
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Truy cập cài đặt StashPay bằng cách nhấp vào biểu tượng "Cài đặt", sau đó nhấp vào tùy chọn **Tạo bản sao lưu**. Sau đó, cho phép hiển thị cụm từ khôi phục. Không sao chép cụm từ khôi phục vào bộ nhớ tạm của điện thoại, vì chúng có thể bị các ứng dụng gian lận khác cài đặt trên thiết bị di động của bạn truy cập.
 
@@ -88,7 +88,7 @@ Bạn sẽ nhận thấy rằng để nhận satoshi, bạn sẽ phải trả ph
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### Gửi bitcoin với StashPay
 
@@ -106,7 +106,7 @@ Vì StashPay là Wallet dựa trên Bộ công cụ Phát triển Breez, nên n�
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Tuy nhiên, Breez SDK áp đặt số tiền tối thiểu mà bạn có thể gửi bitcoin đến Address trên chuỗi chính.
 
@@ -168,4 +168,4 @@ Bạn vừa làm quen với Bitcoin Wallet tối giản của StashPay. Nếu b�
 
 
 
-https://planb.network/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

@@ -1,0 +1,9 @@
+question: Hvordan kan en motstander mest effektivt forstyrre Bitcoins åpne utviklingsprosess, i henhold til taktikken i Simple Sabotage Field Manual?
+answer: Ved å infiltrere diskusjoner for å hindre fremgang gjennom endeløse bekymringer om irrelevante spørsmål og oppramsing av avgjorte debatter
+wrong_answers:
+  - "Ved å iverksette distribuerte tjenestenektangrep mot Bitcoin Core-utviklernes personlige datamaskiner og servere"
+  - Ved å bestikke mining-pooler til å avvise programvareoppdateringer og opprettholde eldre versjoner av protokollen på ubestemt tid
+  - Ved å skape konkurrerende kryptovalutaer som tilbyr bedre funksjoner for å trekke utviklere bort fra Bitcoin-prosjekter
+explanation: |
+  I Simple Sabotage Field Manual skisseres infiltrasjonstaktikker for å forstyrre organisasjoner innenfra, blant annet ved å stanse fremdriften gjennom irrelevante bekymringer og oppramsing av diskusjoner som allerede er avgjort. Siden Bitcoin-utviklingen er åpen for alle, utgjør disse sosial manipuleringstaktikkene en reell trussel. De andre alternativene representerer eksterne angrep snarere enn de interne sabotasjemetodene som er beskrevet i håndboken, som fokuserer på å utnytte den åpne, samarbeidende karakteren til Bitcoins utviklingsprosess.
+reviewed: false

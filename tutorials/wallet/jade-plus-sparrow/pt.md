@@ -36,7 +36,7 @@ electrum | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 |
 
 Neste tutorial, vamos definir uma configuração avançada do Jade Plus com o software Sparrow Wallet de secretária no modo de códigos QR. Esta configuração é ideal para utilizadores intermédios ou experientes. Se procura uma abordagem mais simples para principiantes, recomendo que dê uma vista de olhos a este tutorial onde utilizamos o Jade Plus com a Green Wallet através de uma ligação Bluetooth:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## O modelo de segurança Jade Plus
 
@@ -111,7 +111,7 @@ Pode gravá-lo no cartão fornecido na caixa ou, para maior segurança, recomend
 
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 é claro que nunca deve partilhar estas palavras na Internet, como eu estou a fazer neste tutorial. Este exemplo de portefólio será utilizado apenas na Testnet e será eliminado no final do tutorial
 
@@ -195,7 +195,7 @@ Introduza o seu código PIN.
 
 ![Image](assets/fr/39.webp)
 
-Em seguida, aceda ao [sítio Web da Blockstream] (https://jadefw.blockstream.com/pinqr/qrpin.html) para trocar códigos QR com o oráculo.
+Em seguida, aceda ao [sítio Web da Blockstream](https://jadefw.blockstream.com/pinqr/qrpin.html) para trocar códigos QR com o oráculo.
 
 ![Image](assets/fr/40.webp)
 
@@ -213,7 +213,7 @@ Clique em "*Iniciar*".
 
 ![Image](assets/fr/15.webp)
 
-Pode utilizar a base de código QR fornecida na caixa Jade Plus. Selecione a caixa adequada, consoante tenha optado por uma frase de 12 ou 24 palavras. Também pode [imprimir o modelo a partir do sítio Web da Blockstream] (https://help.blockstream.com/hc/article_attachments/41928319071769).
+Pode utilizar a base de código QR fornecida na caixa Jade Plus. Selecione a caixa adequada, consoante tenha optado por uma frase de 12 ou 24 palavras. Também pode [imprimir o modelo a partir do sítio Web da Blockstream](https://help.blockstream.com/hc/article_attachments/41928319071769).
 
 O seu Jade Plus apresentará cada zona do seu código QR.
 
@@ -269,7 +269,7 @@ Uma frase-passe BIP39 é uma palavra-passe opcional que pode escolher livremente
 
 Antes de configurar esta opção no teu Jade Plus, recomenda-se vivamente que leias este artigo para compreenderes o funcionamento teórico da frase-chave e evitares erros que possam levar à perda dos teus bitcoins:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Com o seu Jade ainda bloqueado (a frase-chave só pode ser introduzida quando o aparelho não está desbloqueado), aceda ao menu "*Opções*".
 
@@ -314,7 +314,7 @@ Se a frase-chave for válida, confirme.
 
 Tenha em atenção que as frases-passe BIP39 são sensíveis a maiúsculas e minúsculas. Se introduzir uma frase-chave ligeiramente diferente da inicialmente configurada, o Jade não comunicará um erro, mas obterá outro conjunto de chaves criptográficas que não serão as da sua carteira inicial.
 
-Por isso, é importante, ao configurar, tomar nota da impressão digital da chave mestra, que pode ser encontrada no canto inferior direito do ecrã. Por exemplo, com a minha frase-passe `PBN`, a impressão digital da minha chave-mestra é `3AD1AE65`.
+Por isso, é importante, ao configurar, tomar nota da impressão digital da chave mestra, que pode ser encontrada no canto inferior direito do ecrã. Por exemplo, com a minha frase-passe `Plan ₿ Academy`, a impressão digital da minha chave-mestra é `3AD1AE65`.
 
 ![Image](assets/fr/49.webp)
 
@@ -322,19 +322,19 @@ Sempre que desbloquear o seu Jade com a sua frase-passe, verifique se a impress�
 
 Antes de receberes os teus primeiros bitcoins na tua carteira, **aconselho-te vivamente a fazeres um teste de recuperação vazio**. Tome nota de algumas informações de referência, como o seu xpub ou o primeiro endereço de receção, depois apague a sua carteira no Jade Plus enquanto ainda está vazia (`Opções -> Dispositivo -> Factory Reset`). Em seguida, tente restaurar a sua carteira utilizando as suas cópias de segurança em papel da frase mnemónica e de qualquer frase-chave. Verifica se a informação do cookie gerada após o restauro corresponde à que escreveste originalmente. Se corresponder, pode ter a certeza de que as suas cópias de segurança em papel são fiáveis. Para saber mais sobre como efetuar uma recuperação de teste, consulte este outro tutorial:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Configurar a carteira na Sparrow Wallet
 
 Neste tutorial, apresento um uso avançado do Jade Plus usando a Sparrow Wallet. No entanto, esta carteira de hardware é compatível com muitos outros programas, como o Liana, Nunchuk, Specter, Green e Keeper. Estas compatibilidades variam em termos de ligações: USB, Bluetooth ou código QR (ver tabela na introdução para mais pormenores).
 
-Comece por descarregar e instalar a Sparrow Wallet [a partir do site oficial] (https://sparrowwallet.com/) no seu computador, caso ainda não o tenha feito.
+Comece por descarregar e instalar a Sparrow Wallet [a partir do site oficial](https://sparrowwallet.com/) no seu computador, caso ainda não o tenha feito.
 
 ![Image](assets/fr/50.webp)
 
 Certifique-se de que verifica a autenticidade e a integridade do software antes da instalação. Se não souber como o fazer, consulte este tutorial:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Quando a Sparrow Wallet estiver aberta, clique no separador "*Arquivo*" e depois em "*Nova carteira*".
 
@@ -452,4 +452,4 @@ Parabéns, agora já sabe como configurar e utilizar o Jade Plus no modo QR. Se 
 
 Para ir mais longe, recomendo este outro tutorial sobre o Jade Plus, onde o configuramos via Bluetooth com a aplicação móvel Green:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0

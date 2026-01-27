@@ -19,7 +19,7 @@ Umbrel - это платформа с открытым исходным кодо
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Введение в Nostr
 
@@ -137,7 +137,7 @@ Umbrel предлагает целую экосистему интегриров
 
 
 
-**Подключение:** NoStrudel предлагает вам несколько вариантов подключения. В нашем случае мы выберем "Private Key" и вставим сгенерированный ранее приватный ключ Nostr. Если у вас еще нет ключа, вы можете установить расширение [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj), чтобы создать и/или сохранить ключи Nostr и таким образом более безопасно взаимодействовать с различными приложениями Nostr.
+**Подключение:** NoStrudel предлагает вам несколько вариантов подключения. В нашем случае мы выберем "Private Key" и вставим сгенерированный ранее приватный ключ Nostr. Если у вас еще нет ключа, вы можете установить расширение [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj), чтобы создать и/или сохранить ключи Nostr и таким образом более безопасно взаимодействовать с различными приложениями Nostr.
 
 
 
@@ -306,7 +306,7 @@ Interface от _Snort_ предлагает :
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Расширенная конфигурация и безопасность
 

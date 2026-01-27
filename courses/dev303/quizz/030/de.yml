@@ -1,0 +1,8 @@
+question: Was ist der Hauptzweck des Fragezeichenoperators (?) von Rust, wenn er mit Ergebnistypen verwendet wird?
+answer: Um erfolgreiche Werte automatisch zu entpacken und Fehler sofort aus der aktuellen Funktion zurückzugeben
+wrong_answers:
+  - Konvertierung aller Ergebnistypen in Optionstypen zur einfacheren Handhabung von Nullen
+  - Automatische Panik mit einer benutzerdefinierten Meldung beim Auftreten eines Fehlers
+  - Um erfolgreiche Werte in eine zusätzliche Ergebnisebene für zusätzliche Sicherheit zu verpacken
+explanation: |
+  Der Fragezeichenoperator (?) ist speziell für die Fehlerfortpflanzung in Rust konzipiert. Wenn er auf ein Ergebnis angewendet wird, extrahiert er den Erfolgswert, wenn die Operation erfolgreich war, so dass der Code mit diesem Wert fortgesetzt werden kann. Wenn jedoch ein Fehler aufgetreten ist, gibt der ? Operator diesen Fehler sofort aus der aktuellen Funktion zurück, indem er ihn effektiv auf dem Aufrufstapel nach oben weitergibt. Dadurch entfällt die Notwendigkeit für ausführliche Übereinstimmungsausdrücke, während eine explizite Fehlerbehandlungssemantik erhalten bleibt. Der Operator kann nur in Funktionen verwendet werden, die Ergebnistypen zurückgeben, wodurch die korrekten Fehlerfortpflanzungsmuster sichergestellt werden.

@@ -1,0 +1,8 @@
+question: Koliko je potpisa funkcionera potrebno za validaciju bloka u Liquid Network?
+answer: Najmanje 11 od 15 funkcionera mora potpisati
+wrong_answers:
+  - Najmanje 8 od 15 funkcionera mora potpisati
+  - Najmanje 10 od 15 funkcionera mora potpisati
+  - Najmanje 12 od 15 funkcionera mora potpisati
+explanation: |
+  Liquid Network zahteva potpise od najmanje 11 od 15 funkcionera da bi se blok validirao, što predstavlja prag od dve trećine plus jedan. Ovaj specifičan zahtev osigurava snažan konsenzus dok sprečava bilo koju malu grupu da kontroliše mrežu. Ostale opcije su netačne: 8 potpisa bi bilo premalo za sigurnost, 10 ne bi ispunilo prag od dve trećine, a 12 bi bilo nepotrebno restriktivno za normalne operacije.

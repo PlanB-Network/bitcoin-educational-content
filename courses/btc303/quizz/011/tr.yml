@@ -1,0 +1,9 @@
+question: Pieter Wuille'in tanımına göre, dağıtık sistemler bağlamında 'güvensiz' ne anlama gelmektedir?
+answer: Doğru çalışması için herhangi bir güvenilir taraf gerektirmeyen bir sistem
+wrong_answers:
+  - Kullanıcıların herhangi bir katılımcıya veya doğrulayıcıya güvenemediği bir sistem
+  - Yazılım ve donanım dahil her türlü güveni ortadan kaldıran bir sistem
+  - İşlemlerin hiç kimse tarafından geri alınamadığı veya itiraz edilemediği bir sistem
+explanation: |
+  Trustless özellikle dağıtık bir sistemin herhangi bir güvenilir tarafa ihtiyaç duymadan doğru bir şekilde çalışabildiği teknik bir özelliği ifade eder. Bu, tüm güveni ortadan kaldırmaktan (yazılımınıza/donanımınıza hala güvenirsiniz) veya tersine çevirmeleri önlemekten (Bitcoin işlemleri zincirin yeniden yazılması yoluyla tersine çevrilebilir) farklıdır. Bu terim aynı zamanda kullanıcıların katılımcılara güvenemeyeceği anlamına gelmez - daha ziyade sistemin doğruluğunun onlara güvenmeye bağlı olmadığı anlamına gelir.
+reviewed: false

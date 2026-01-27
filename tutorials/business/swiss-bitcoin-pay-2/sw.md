@@ -11,12 +11,12 @@ Leo, kuna suluhu nyingi kwa wafanyabiashara wanaotaka kukubali Bitcoin kama njia
 Kwa wale ambao hawapendi kujisumbua na kupokea pesa kwa sarafu ya fiat moja kwa moja kwenye akaunti yao ya benki, suluhu za uhifadhi kama vile Open Node zinapatikana:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Kwa wafanyabiashara walio tayari kuchafua mikono yao na wanaotaka kudhibiti mchakato kikamilifu, programu ya Seva ya BTPay ni chaguo bora. Walakini, shida kuu ya Seva ya BTCPay ni kwamba usanidi na usimamizi wake huchukua muda na kuhitaji utaalamu fulani wa kiufundi:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Miongoni mwa suluhu hizi zote, swiss-bitcoin-pay-2 inaonekana kuwa maelewano ya kuvutia sana kuchanganya urahisi wa matumizi, vipengele, na usalama. Suluhisho hili linafaa kwa biashara ndogo sana na miundo mikubwa. Katika somo hili, utagundua jinsi ya kutumia kwa urahisi Swiss Bitcoin Pay kukubali Bitcoin katika biashara yako.
 
@@ -224,4 +224,4 @@ Bofya kwenye sehemu ya juu kulia ya skrini kwenye kitufe cha "*Dashibodi*", kish
 
 Hatimaye, katika kichupo cha "*Mipangilio*", una chaguo la kurekebisha maelezo uliyotoa wakati wa usajili, ikiwa ni pamoja na mbinu za uondoaji na usambazaji kati ya Bitcoin na fiat. ![SWISS Bitcoin PAY](mali/notext/50.webp)
 
-Hongera! Sasa umeweka mfumo wa kuchakata malipo ili kukubali Bitcoin katika biashara yako. Iwapo ungependa pia kuchunguza Seva ya BTCPay, suluhisho la hali ya juu zaidi na changamano, ninapendekeza ufuate mafunzo yetu kamili yaliyotolewa mahususi kwa programu hii: [BTC305](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).
+Hongera! Sasa umeweka mfumo wa kuchakata malipo ili kukubali Bitcoin katika biashara yako. Iwapo ungependa pia kuchunguza Seva ya BTCPay, suluhisho la hali ya juu zaidi na changamano, ninapendekeza ufuate mafunzo yetu kamili yaliyotolewa mahususi kwa programu hii: [BTC305](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).

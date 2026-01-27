@@ -1,0 +1,8 @@
+question: Ni igikorwa ikihe c’imibare gikoreshwa kugira ngo umuntu aronke akarongo P + Q ku nzira y’umurongo w’uruzitiro?
+answer: Guca umurongo uca mu ntumbero P na Q, urondere ahantu ha gatatu h’amasanganzira R, hanyuma ugaragaze R ujabutse x-axis .
+wrong_answers:
+  - Wongereko x-coordinates na y-coordinates za P na Q ukoresheje imibare y'ibice
+  - Gukubita ama coordinates ya P na Q hamwe hanyuma ukoreshe ingano y'umurongo kugira uronke igisubizo
+  - Harura akarongo hagati ka P na Q hanyuma ukoreshe uburyo bw'umurongo w'uburebure kugira ngo ubone umubare
+explanation: |
+  Kwongera kw’intonde y’umurongo w’uruzitiro gukurikira itegeko ry’ubuhinga bw’ubuhinga bw’ubuhinga: guca umurongo uca mu ntumbero zibiri P na Q, zica umurongo ku ntumbero ya gatatu R, hanyuma ugaca ugaragaza R ujabuka umurongo wa x kugira ngo ubone P + Q. Ico gikorwa c’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga bw’ubuhinga. Ayandi mahitamwo adondora uburyo butari bwo butakurikiza itegeko ry'umugwi ryashinzwe ku bigobe vy'imirongo.

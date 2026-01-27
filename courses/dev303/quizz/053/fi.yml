@@ -1,0 +1,8 @@
+question: Mikä on se perusmekanismi, jonka avulla RC voi sallia usean omistajan käytön säilyttäen samalla muistin turvallisuuden?
+answer: Sisäinen laskuri, joka seuraa viittauksia ja vapauttaa muistin vasta, kun laskuri saavuttaa nollan
+wrong_answers:
+  - Käännösaikainen analyysi, joka tarkistaa kaikki viittausmallit ennen ohjelman suorittamista
+  - Roskienkerääjä, joka tarkistaa ja siivoaa ajoittain saavuttamattomat muistinvarannot
+  - Lukituspohjainen järjestelmä, joka synkronoi pääsyn saman tiedon useiden omistajien välillä
+explanation: |
+  RC ylläpitää sisäistä viittauslaskuria, joka kasvaa kloonattaessa ja pienenee pudotettaessa, jolloin varmistetaan, että muisti vapautetaan vasta, kun viittauksia ei ole jäljellä. Tämä eroaa kääntämisaikaisesta analyysistä (jota Box käyttää), roskienkeruusta (jota Rust ei käytä) tai lukitusmekanismeista (joita käytetään säikeiden synkronointiin, ei omistajuuden seurantaan). Laskuripohjainen lähestymistapa mahdollistaa turvallisen jaetun omistajuuden ilman roskienkeräyksen aiheuttamia yleiskustannuksia tai yksittäisen omistajuuden rajoituksia.

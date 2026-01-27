@@ -1,0 +1,8 @@
+question: Which political family would most likely support a policy combining universal healthcare access with private sector innovation and efficiency mechanisms?
+answer: Centristes, who favor mixed systems balancing public guarantees with private sector contributions
+wrong_answers:
+  - Socialistes, who prioritize universal access through exclusively public healthcare systems
+  - Libertariens, who advocate for complete privatization and individual choice in healthcare markets
+  - Conservateurs, who prefer private markets with minimal state intervention for the most vulnerable
+explanation: |
+  Centristes explicitly advocate for mixed healthcare systems that guarantee universal access through state involvement while incorporating private sector elements for innovation and efficiency. Socialistes reject private involvement, viewing healthcare as a fundamental right requiring public provision. Libertariens oppose government involvement entirely, preferring market-based solutions. Conservateurs favor predominantly private systems with minimal state roles, not balanced mixed approaches.

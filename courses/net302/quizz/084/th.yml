@@ -1,0 +1,9 @@
+question: คำสั่งทางประวัติศาสตร์ใดที่สามารถใช้เพื่อปรึกษาแคช ARP บนระบบส่วนใหญ่?
+answer: arp
+wrong_answers:
+  - ขุด
+  - nslookup
+  - ปิง
+explanation: |
+  คำสั่ง arp ช่วยให้คุณดูหรือแก้ไขแคช ARP ซึ่งเก็บการจับคู่ IP/MAC ไว้ในเครื่องท้องถิ่น
+reviewed: false

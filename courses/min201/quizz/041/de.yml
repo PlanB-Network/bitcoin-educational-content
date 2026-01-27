@@ -1,11 +1,11 @@
-question: Was ist die Debatte innerhalb der Bitcoin-Gemeinschaft bezüglich des Minings?
+question: Was ist die Debatte innerhalb der Bitcoin-Community bezüglich des Minings?
 answer: Das Gleichgewicht zwischen der Suche nach Gewinn und dem Beitrag zur Sicherheit und Verteilung des Bitcoin-Netzwerks
 wrong_answers:
-  - Das Gleichgewicht zwischen der Erhöhung der Hashrate und der Verringerung der Anzahl aktiver Knoten
+  - Das Gleichgewicht zwischen der Erhöhung der Hashrate und der Verringerung der Anzahl aktiver Nodes
   - Das Gleichgewicht zwischen der Erhöhung des Preises und der Verringerung der Kosten
   - Das Gleichgewicht zwischen der Erhöhung der Anzahl von Transaktionen und der Verringerung des Energieverbrauchs
 explanation: |
-  Die Debatte innerhalb der Bitcoin-Gemeinschaft bezüglich des Minings
+  Die Debatte innerhalb der Bitcoin-Community bezüglich des Minings
   dreht sich um das Gleichgewicht zwischen der Suche nach Gewinn und
   dem Beitrag zur Sicherheit und Verteilung des Bitcoin-Netzwerks. Es gibt starke Argumente auf beiden Seiten
   der Debatte.

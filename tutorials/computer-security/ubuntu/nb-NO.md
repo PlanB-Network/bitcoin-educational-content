@@ -32,7 +32,7 @@ Et operativsystem (OS) er den viktigste programvaren som administrerer alle data
 ### 2. Last ned
 
 
-- Gå til [ubuntu.com/download] (https://ubuntu.com/download)
+- Gå til [ubuntu.com/download](https://ubuntu.com/download)
 - Velg den stabile versjonen (LTS anbefales)
 - Last ned ISO-bilde
 
@@ -45,7 +45,7 @@ Et operativsystem (OS) er den viktigste programvaren som administrerer alle data
 Du kan bruke flere verktøy, for eksempel Balena Etcher:
 
 
-- Last ned og installer [Balena Etcher] (https://etcher.balena.io/)
+- Last ned og installer [Balena Etcher](https://etcher.balena.io/)
 
 ![Page de téléchargement Balena Etcher](assets/fr/03.webp)
 
@@ -225,4 +225,4 @@ Nå er du klar til å bruke Ubuntu til daglig: sikre systemet ditt, surfe, gjør
 
 For å ta sikkerheten i ditt digitale liv et skritt videre, anbefaler vi at du tar en titt på vår krypterte meldingstjeneste, som er perfekt egnet til å beskytte personvernet ditt og utfyller din Ubuntu-installasjon:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

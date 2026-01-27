@@ -101,7 +101,7 @@ Machankura pakt dit probleem echter aan door de functionaliteit uit te breiden v
 
 
 
-Raadpleeg regelmatig hun [website] (https://8333.mobi) om op de hoogte te blijven van nieuwe landen waar de service beschikbaar zal zijn.
+Raadpleeg regelmatig hun [website](https://8333.mobi) om op de hoogte te blijven van nieuwe landen waar de service beschikbaar zal zijn.
 
 
 
@@ -344,7 +344,7 @@ Machankura is niet alleen een Wallet. Je kunt je satoshis Exchange voor goederen
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Je hebt ook de functie "**Clan**", waarmee je een coöperatief systeem met meerdere handtekeningen kunt beheren: clanleden moeten elke uitgave goedkeuren en je kunt het geld automatisch onder hen verdelen.
 
@@ -370,7 +370,7 @@ De tweede, die een logische uitbreiding is van de eerste, is een inclusieve en l
 
 
 
-Om te beginnen moet je een bericht schrijven naar Machankura's WhatsApp-bot (een simpel "Hoi" is meer dan genoeg). Zijn WhatsApp-nummer is [+27 73 762 5720] (https://wa.me/+27737625720).
+Om te beginnen moet je een bericht schrijven naar Machankura's WhatsApp-bot (een simpel "Hoi" is meer dan genoeg). Zijn WhatsApp-nummer is [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 
@@ -439,13 +439,13 @@ Met Machankura kun je je bitcoins via verschillende opties versturen:
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura maakt interoperabiliteit tussen verschillende Lightning-wallets mogelijk. In deze demonstratie sturen we bitcoins van onze Machankura WhatsApp Wallet naar een Wallet van Satoshi Wallet.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Om te verzenden, voer je het nummer 1 in, dat overeenkomt met de optie "SEND BTC". Selecteer vervolgens de verzendoptie "Lightning Address" en voer de Address in waarnaar de bitcoins moeten worden verzonden. Selecteer ten slotte de "Sats" waarde maat, geef het aantal satoshi's aan dat moet worden verzonden en bevestig de verzending.
 
@@ -577,9 +577,9 @@ Bovendien maakt Machankura het mogelijk voor iedereen die je bitcoins wil sturen
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### Balans controleren
 

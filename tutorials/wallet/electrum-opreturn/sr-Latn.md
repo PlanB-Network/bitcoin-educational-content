@@ -53,7 +53,7 @@ Ovaj vodič korak po korak pokazuje vam kako da napišete poruku na Blockchain B
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Ovo će prikazati prijem Address:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -218,7 +218,7 @@ koji se sastoji od :
 
 
 
-Savet: Koristite alat [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) da automatski generate skriptu. Čak i ako ovaj alat predlaže unos iznosa u BTC, zadržite jedinicu podešenu u Electrum.
+Savet: Koristite alat [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) da automatski generate skriptu. Čak i ako ovaj alat predlaže unos iznosa u BTC, zadržite jedinicu podešenu u Electrum.
 
 
 

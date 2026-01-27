@@ -1,9 +1,9 @@
-question: What advantage does Lightning offer merchants regarding payment finality?
-answer: Payments on Lightning finalize almost instantly, reducing the risk of reversals or fraud.
+question: Lightning mang lại lợi thế gì cho các thương gia về tính xác thực của thanh toán?
+answer: Thanh toán trên Lightning được hoàn tất gần như ngay lập tức, giúp giảm thiểu nguy cơ đảo ngược hoặc gian lận.
 wrong_answers:
-  - It requires 24 hours of waiting before funds are spendable.
-  - It allows customers to reclaim their payment at any time.
-  - It makes transactions fully reversible for up to 90 days.
+  - Phải chờ 24 giờ trước khi có thể chi tiêu tiền.
+  - Cho phép khách hàng đòi lại khoản thanh toán của mình bất cứ lúc nào.
+  - Nó cho phép các giao dịch có thể đảo ngược hoàn toàn trong tối đa 90 ngày.
 explanation: |
-  With Lightning, once a payment is routed and settled through the network, it’s final. This eliminates the chargeback scenarios seen with traditional payment systems.
-reviewed: false
+  Với Lightning, một khi khoản thanh toán được định tuyến và giải quyết thông qua mạng lưới, nó sẽ được hoàn tất. Điều này loại bỏ tình trạng hoàn trả thường thấy ở các hệ thống thanh toán truyền thống.
+reviewed: true

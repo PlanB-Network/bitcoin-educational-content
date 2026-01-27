@@ -32,7 +32,7 @@ Um sistema operativo (SO) é o software principal que gere todos os recursos do 
 ### 2. Descarregar
 
 
-- Aceder a [ubuntu.com/download] (https://ubuntu.com/download)
+- Aceder a [ubuntu.com/download](https://ubuntu.com/download)
 - Escolha a versão estável (LTS recomendada)
 - Transferir imagem ISO
 
@@ -45,7 +45,7 @@ Um sistema operativo (SO) é o software principal que gere todos os recursos do 
 É possível utilizar várias ferramentas, como o Balena Etcher:
 
 
-- Transferir e instalar [Balena Etcher] (https://etcher.balena.io/)
+- Transferir e instalar [Balena Etcher](https://etcher.balena.io/)
 
 ![Page de téléchargement Balena Etcher](assets/fr/03.webp)
 
@@ -225,4 +225,4 @@ Agora está pronto para utilizar o Ubuntu diariamente: proteja o seu sistema, na
 
 Para levar a segurança da sua vida digital um passo mais além, recomendamos que dê uma vista de olhos ao nosso serviço de mensagens encriptadas, que é perfeitamente adequado para proteger a sua privacidade e complementa a sua instalação Ubuntu:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

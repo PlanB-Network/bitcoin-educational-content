@@ -54,7 +54,7 @@ Na ovaj način, zadržavate trajno samostalno staranje nad svojim bitcoinima, a 
 
 
 
-An atomic Exchange radi sa pametnim ugovorima [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). U ovoj vrsti Contract, iznos je "zaključan" u dvosmernom kanalu i uvodi se vremensko ograničenje, tako da ako transakcija nije završena u određenom vremenu, saldo se vraća deponentu. Ovo je mehanizam koji koristi Boltz platforma.
+An atomic Exchange radi sa pametnim ugovorima [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Timelock Contract*). U ovoj vrsti Contract, iznos je "zaključan" u dvosmernom kanalu i uvodi se vremensko ograničenje, tako da ako transakcija nije završena u određenom vremenu, saldo se vraća deponentu. Ovo je mehanizam koji koristi Boltz platforma.
 
 
 
@@ -116,9 +116,9 @@ Jednom kada završite osnovne konfiguracije, unesite iznos vašeg atomskog Excha
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -152,9 +152,9 @@ Zatim kliknite na dugme **Create atomic Exchange** i nastavite sa plaćanjem naz
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 Jednom kada vaša uplata bude izvršena i potvrđena, automatski ćete primiti ekvivalentan iznos na vaš Lightning Wallet.
 
@@ -188,6 +188,6 @@ Boltz vam nudi visok nivo poverljivosti zahvaljujući pristupu putem `.onion` li
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Do sada ste upoznati sa Boltzom, jedinstvenom Exchange platformom koja omogućava interoperabilnost između različitih slojeva Bitcoin ekosistema.

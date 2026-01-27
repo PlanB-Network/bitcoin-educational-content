@@ -32,7 +32,7 @@ Muri iyi nyigisho, igenewe abatangura n’abakoresha hagati, turaza kumenya inge
 Niba uri umukoresha ateye imbere kandi ushaka gutohoza ibintu bikomeye, ndagusavye urabe iyi yindi nyigisho aho dutunganya Passport na Sparrow wallet :
 
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Gufungura pasiporo
 
@@ -246,7 +246,7 @@ Kugira ngo ubikore, nukoreshe ikarata MicroSD iri mu gasandugu kawe ka Passport 
 Imbere y’uko uyishira ku gikoresho cawe, turaguhanura cane ko wobanza kugenzura neza ko iyo porogarama yashizwe kuri interineti ari iyo ukuri be n’uko ataco ihinduye. Niba ukeneye gufashwa muri ivyo, raba iyi nyigisho :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Na ubusabe bw'intumwa
 
@@ -371,7 +371,7 @@ Fyonda kuri buto yo kwemeza kugira ngo ubone ijambo ryawe rya Mnemonic.
 Kugira ngo uronke ibindi bisobanuro ku buryo bwiza bwo kubika no gucunga ijambo ryawe rya Mnemonic, ndagusavye cane gukurikira iyi yindi nyigisho, cane cane nimba uri umutanguzi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 n’ukuri, ntushobora kwigera usangira aya majambo kuri internet, nk’uko ndiko ndabikora muri iyi nyigisho. Ico kigereranyo ca Wallet kizokoreshwa gusa kuri Testnet kandi kizokurwaho ku mpera y’inyigisho.
 
@@ -674,4 +674,4 @@ Urakoze cane, ubu urazi gushinga no gukoresha Passport ukoresheje porogarama ya 
 Ushaka kumenya vyinshi, raba inyigisho yacu kuri porogarama ya Liana:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

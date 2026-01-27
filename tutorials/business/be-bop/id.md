@@ -50,7 +50,7 @@ be-BOP menggunakan sistem penyimpanan untuk mengelola file (seperti gambar produ
 
 
 
-- [MinIO] (https://min.io/) dihosting sendiri
+- [MinIO](https://min.io/) dihosting sendiri
 - Amazon S3 (AWS)
 - Penyimpanan Objek Scaleway
 
@@ -348,7 +348,7 @@ Langkah-langkah konfigurasi:
 
 
 
-**Catatan:** Anda harus memiliki rekening bisnis PayPal untuk mendapatkan pengenal ini. Anda dapat memperolehnya melalui portal [pengembang] (https://developer.paypal.com)
+**Catatan:** Anda harus memiliki rekening bisnis PayPal untuk mendapatkan pengenal ini. Anda dapat memperolehnya melalui portal [pengembang](https://developer.paypal.com)
 
 
 

@@ -7,7 +7,7 @@ description: Sanidi LN VPN na Lightning kwa VPN isiyojulikana na ya kubinafsishw
 ![image](assets/cover.webp)
 
 
-LN VPN ni huduma ya VPN inayoweza kubinafsishwa ambayo inakubali malipo ya umeme pekee. Leo, nitakuonyesha jinsi ya kuitumia na kuacha alama chache wakati wa kuvinjari miingiliano.
+LN VPN ni huduma ya VPN inayoweza kubinafsishwa ambayo inakubali malipo ya Lightning pekee. Leo, nitakuonyesha jinsi ya kuitumia na kuacha alama chache wakati wa kuvinjari miingiliano.
 
 
 Kuna watoa huduma wengi wa ubora wa VPN, na tumefanya mapitio ya kina katika makala hii (hyperlink). Hata hivyo, LN VPN ni ya kipekee, na hatukuweza kukosa fursa ya kuitambulisha kwako.
@@ -16,7 +16,7 @@ Kuna watoa huduma wengi wa ubora wa VPN, na tumefanya mapitio ya kina katika mak
 Watoa huduma wengi wa VPN kama ProtonVPN na Mullvad hutoa chaguo la kulipa kwa bitcoins lakini wanahitaji kuunda akaunti na kununua mpango kwa muda mrefu au mfupi, ambao unaweza kutoshea bajeti ya kila mtu.
 
 
-LN VPN huwezesha matumizi ya VPN unapohitaji kwa muda wa saa moja, kutokana na utekelezaji wake wa malipo ya Bitcoin kupitia Lightning Network. Malipo ya papo hapo na yasiyojulikana, ya umeme hufungua ulimwengu wa uwezekano wa malipo madogo.
+LN VPN huwezesha matumizi ya VPN unapohitaji kwa muda wa saa moja, kutokana na utekelezaji wake wa malipo ya Bitcoin kupitia Lightning Network. Malipo ya papo hapo na yasiyojulikana, ya Lightning hufungua ulimwengu wa uwezekano wa malipo madogo.
 
 
 Kumbuka💡: **Mwongozo huu unaeleza jinsi ya kutumia LN VPN kutoka kwa mfumo wa Linux Ubuntu 22.04 LTS.**
@@ -38,7 +38,7 @@ $ sudo apt install wireguard
 ```
 
 
-## Mahitaji: Umeme Bitcoin Wallet
+## Mahitaji: Lightning Bitcoin Wallet
 
 
 Ikiwa bado huna Lightning Bitcoin Wallet, hakuna wasiwasi, tumekuundia mwongozo rahisi sana hapa. (sehemu ya mafunzo ya LN inaweza kukusaidia)
@@ -47,13 +47,13 @@ Ikiwa bado huna Lightning Bitcoin Wallet, hakuna wasiwasi, tumekuundia mwongozo 
 ## Hatua ya 1: Contract ya Kukodisha
 
 
-Kutoka https://lnvpn.com, utahitaji kuchagua nchi ya kuondoka kwa IP ya handaki ya VPN na muda. Mara tu vigezo hivi vimewekwa, bofya Lipa kwa umeme.
+Kutoka https://lnvpn.com, utahitaji kuchagua nchi ya kuondoka kwa IP ya handaki ya VPN na muda. Mara tu vigezo hivi vimewekwa, bofya Lipa kwa Lightning.
 
 
 ![image](assets/1.webp)
 
 
-Invoice ya umeme itaonyeshwa, na unahitaji tu kuichanganua kwa umeme wako wa Wallet.
+Invoice ya Lightning itaonyeshwa, na unahitaji tu kuichanganua kwa Lightning wako wa Wallet.
 
 
 Mara baada ya Invoice kulipwa, utahitaji kusubiri kwa sekunde chache hadi dakika mbili ili mipangilio yako ya usanidi ya Wireguard itengenezwe. Ikichukua muda mrefu zaidi, usiogope, tumefanya utaratibu huu mara kadhaa, na wakati mwingine inachukua muda mrefu zaidi.

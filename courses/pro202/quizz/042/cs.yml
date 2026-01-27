@@ -1,0 +1,8 @@
+question: Pokud se mechanismus úpravy obtížnosti Bitcoin setká se scénářem, kdy těžba předchozích bloků z roku 2016 trvala přesně 6 týdnů místo očekávaných 2 týdnů, jaký koeficient úpravy se použije?
+answer: Obtížnost by se snížila o 4násobek (maximální povolené snížení)
+wrong_answers:
+  - Obtížnost by se snížila 3krát (6 týdnů ÷ 2 týdny)
+  - Obtížnost by se snížila o faktor 2,5, aby se zabránilo nadměrné korekci
+  - Obtížnost by se snížila šestinásobně na základě poměru času
+explanation: |
+  Nastavení obtížnosti Bitcoin má vestavěné limity, které omezují změny na čtyřnásobek v obou směrech. Přestože 6 týdnů ÷ 2 týdny = 3, což naznačuje trojnásobné snížení, protokol omezuje úpravy na čtyřnásobek, aby se zabránilo extrémním výkyvům. Tento bezpečnostní mechanismus zajišťuje stabilitu sítě při velkých změnách rychlosti hašování, jako jsou zákazy mining nebo poruchy zařízení, tím, že zabraňuje nadměrné korekci, která by mohla destabilizovat časování bloků.

@@ -64,7 +64,7 @@ Para más información sobre cómo elegir tu equipo, te recomiendo que sigas est
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Equipamiento recomendado
 
@@ -192,7 +192,7 @@ Para más detalles sobre el proceso de instalación de Ubuntu, consulte nuestro 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. actualización del sistema
 
@@ -428,7 +428,7 @@ El sistema le pedirá que introduzca la contraseña elegida y que la confirme un
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Autorizar al usuario a utilizar Docker
 
@@ -1068,7 +1068,7 @@ Para profundizar en sus conocimientos sobre la EII y, más en general, sobre el 
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Supervisión de la sincronización

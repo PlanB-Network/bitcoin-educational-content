@@ -1,0 +1,8 @@
+question: Co by se stalo s celkovou nabídkou Bitcoin, kdyby těžaři důsledně požadovali pouze 90 % povolené blokové dotace ve všech blocích?
+answer: Celková nabídka by se trvale snížila pod 21 milionů BTC, protože nevyzvednuté dotace by byly navždy ztraceny
+wrong_answers:
+  - Zbývajících 10 % by se shromažďovalo v rezervním fondu pro budoucí těžaře, kteří by si je mohli nárokovat v obdobích nízkých poplatků
+  - Mechanismus úpravy obtížnosti by se kompenzoval zvýšením budoucích odměn za bloky, aby se zachoval strop 21 milionů
+  - Nevyzvednuté dotace by byly v následujících blocích poměrně přerozděleny mezi příjemce transakčních poplatků
+explanation: |
+  Protokol Bitcoin umožňuje těžařům požádat o nižší než maximální povolenou dotaci, ale jakákoli nevyžádaná částka je trvale ztracena - neexistuje žádný mechanismus, jak ji později přerozdělit nebo získat zpět. Vzorec pro výpočet dotace a harmonogram půlení určují teoretické maximum ~21 milionů BTC, ale skutečná nabídka závisí na tom, zda těžaři uplatní svůj plný nárok. Na rozdíl od úpravy obtížnosti, která reaguje na podmínky mining, neexistuje žádný kompenzační mechanismus pro nevyzvednuté odměny, takže celková nabídka je potenciálně deflační, pokud těžaři důsledně nevyzvedávají odměny.

@@ -100,7 +100,7 @@ For at Manjaro skal fungere optimalt, må datamaskinen din oppfylle noen minimum
 
 
 
-For å laste ned, gå til [det offisielle Manjaro-nettsiden] (https://manjaro.org/) og velg den utgaven som passer best til dine behov. Når du har lastet ned filen, må du opprette en oppstartbar USB-nøkkel med Manjaro ISO-bildet.
+For å laste ned, gå til [det offisielle Manjaro-nettsiden](https://manjaro.org/) og velg den utgaven som passer best til dine behov. Når du har lastet ned filen, må du opprette en oppstartbar USB-nøkkel med Manjaro ISO-bildet.
 
 
 
@@ -322,7 +322,7 @@ Electrum lar deg **motta og sende bitcoins** på en enkel måte, samtidig som de
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## Sikring av Manjaro-systemet ditt
 
@@ -395,4 +395,4 @@ Manjaro kombinerer **stabilitet, hastighet og sikkerhet**, samtidig som det er *
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

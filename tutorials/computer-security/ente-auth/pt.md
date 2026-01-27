@@ -14,7 +14,7 @@ No entanto, a escolha da aplicação de autenticação correta não é trivial. 
 
 
 
-*o *Ente Auth** destaca-se como uma alternativa moderna e segura. Esta aplicação gratuita, de código aberto e multiplataforma, desenvolvida pela equipa responsável pelo [Ente Photos] (https://ente.io), oferece cópias de segurança encriptadas de ponta a ponta na nuvem e uma sincronização perfeita entre todos os seus dispositivos. Ao contrário das soluções proprietárias, o Ente Auth dá-lhe controlo total sobre os seus códigos de autenticação sem comprometer a sua privacidade.
+*o *Ente Auth** destaca-se como uma alternativa moderna e segura. Esta aplicação gratuita, de código aberto e multiplataforma, desenvolvida pela equipa responsável pelo [Ente Photos](https://ente.io), oferece cópias de segurança encriptadas de ponta a ponta na nuvem e uma sincronização perfeita entre todos os seus dispositivos. Ao contrário das soluções proprietárias, o Ente Auth dá-lhe controlo total sobre os seus códigos de autenticação sem comprometer a sua privacidade.
 
 
 
@@ -87,7 +87,7 @@ O Ente Auth foi desenvolvido pela equipa responsável pelo Ente Photos, um servi
 
 
 
-O Ente Auth está disponível nas plataformas mais populares. Pode descarregar a aplicação a partir do [sítio Web oficial] (https://ente.io/auth) ou das lojas oficiais.
+O Ente Auth está disponível nas plataformas mais populares. Pode descarregar a aplicação a partir do [sítio Web oficial](https://ente.io/auth) ou das lojas oficiais.
 
 
 
@@ -142,7 +142,7 @@ O Ente Auth oferece aplicações de ambiente de trabalho nativas. Visite [ente.i
 ### Interface Web
 
 
-Sem instalação, pode aceder aos seus códigos através de [auth.ente.io] (https://auth.ente.io) a partir de qualquer navegador. O Interface web limita-se à visualização dos códigos (útil para a resolução de problemas), uma vez que a adição de contas requer a aplicação móvel ou de computador por razões de segurança.
+Sem instalação, pode aceder aos seus códigos através de [auth.ente.io](https://auth.ente.io) a partir de qualquer navegador. O Interface web limita-se à visualização dos códigos (útil para a resolução de problemas), uma vez que a adição de contas requer a aplicação móvel ou de computador por razões de segurança.
 
 
 
@@ -350,7 +350,7 @@ O Ente Auth oferece várias funcionalidades práticas:
 
 
 
-**Ícones automáticos**: Cada entrada pode ser ilustrada com o logótipo do serviço, graças à integração do pacote de ícones [Simple Icons] (https://simpleicons.org/).
+**Ícones automáticos**: Cada entrada pode ser ilustrada com o logótipo do serviço, graças à integração do pacote de ícones [Simple Icons](https://simpleicons.org/).
 
 
 
@@ -510,7 +510,7 @@ O Ente Auth baseia-se numa encriptação robusta de ponta a ponta com uma arquit
 
 
 
-Como o código é [open source] (https://github.com/ente-io/auth), a comunidade pode verificar a ausência de backdoors. A Ente foi objeto de [múltiplas auditorias externas](https://ente.io/blog/cryptography-audit/) para validar a segurança da sua implementação:
+Como o código é [open source](https://github.com/ente-io/auth), a comunidade pode verificar a ausência de backdoors. A Ente foi objeto de [múltiplas auditorias externas](https://ente.io/blog/cryptography-audit/) para validar a segurança da sua implementação:
 
 
 
@@ -530,7 +530,7 @@ Estas auditorias independentes, efectuadas por empresas reconhecidas, garantem q
 
 
 
-A Ente Auth aplica uma [política de privacidade exemplar] (https://ente.io/privacy/) baseada na recolha mínima de dados. Apenas são conservadas as informações estritamente necessárias para o funcionamento do serviço: o seu e-mail Address para autenticação e recuperação da conta.
+A Ente Auth aplica uma [política de privacidade exemplar](https://ente.io/privacy/) baseada na recolha mínima de dados. Apenas são conservadas as informações estritamente necessárias para o funcionamento do serviço: o seu e-mail Address para autenticação e recuperação da conta.
 
 
 

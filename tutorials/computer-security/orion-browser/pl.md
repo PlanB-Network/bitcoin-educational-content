@@ -665,7 +665,7 @@ Po skonfigurowaniu przetestuj swoją konfigurację:
 
 
 
-### Alternatywy dla Plan ₿ Network
+### Alternatywy dla Plan ₿ Academy
 
 
 Aby uzyskać maksymalną ochronę, zapoznaj się z naszymi innymi przewodnikami:
@@ -673,14 +673,14 @@ Aby uzyskać maksymalną ochronę, zapoznaj się z naszymi innymi przewodnikami:
 
 
 
-- [Firefox hardened](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Zaawansowana konfiguracja wieloplatformowa
-- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Pełna anonimowość w sieci
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maksymalna ochrona przed odciskami palców
+- [Firefox hardened](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Zaawansowana konfiguracja wieloplatformowa
+- [Tor Browser](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Pełna anonimowość w sieci
+- [Mullvad Browser](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maksymalna ochrona przed odciskami palców
 
 
 
-Jeśli chcesz dowiedzieć się więcej o historii i działaniu przeglądarek, a także o głównych obiektach cyfrowych w codziennym życiu, zapraszam do odkrycia naszego nowego bezpłatnego szkolenia SCU 202, dostępnego na Plan ₿ Network:
+Jeśli chcesz dowiedzieć się więcej o historii i działaniu przeglądarek, a także o głównych obiektach cyfrowych w codziennym życiu, zapraszam do odkrycia naszego nowego bezpłatnego szkolenia SCU 202, dostępnego na Plan ₿ Academy:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

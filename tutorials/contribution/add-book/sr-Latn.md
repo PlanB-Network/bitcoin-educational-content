@@ -1,6 +1,6 @@
 ---
 name: Dodavanje knjige u PlanB mrežu
-description: Kako dodati novu knjigu na PlanB Network?
+description: Kako dodati novu knjigu na Plan ₿ Academy?
 ---
 ![book](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Kako dodati novu knjigu na PlanB Network?
 Misija PlanB-a je da obezbedi vrhunske obrazovne resurse o Bitcoin na što više jezika. Sav sadržaj objavljen na sajtu je otvorenog koda i hostovan na GitHub-u, omogućavajući svakome da doprinese obogaćivanju platforme.
 
 
-**Želite li dodati knjigu vezanu za Bitcoin na sajt PlanB Network i povećati vidljivost svog rada, ali ne znate kako? Ovaj vodič je za vas!**
+**Želite li dodati knjigu vezanu za Bitcoin na sajt Plan ₿ Academy i povećati vidljivost svog rada, ali ne znate kako? Ovaj vodič je za vas!**
 
 ![book](assets/01.webp)
 
@@ -16,7 +16,7 @@ Misija PlanB-a je da obezbedi vrhunske obrazovne resurse o Bitcoin na što više
 - Prvo, potrebno je da imate GitHub nalog. Ako ne znate kako da kreirate nalog, napravili smo detaljan vodič da vas uputimo.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![book](assets/03.webp)
 
 
-- Ako nikada ranije niste doprineli sadržaju PlanB Network-a, biće potrebno da kreirate svoj Fork originalnog repozitorijuma. Forkovanje repozitorijuma znači kreiranje kopije tog repozitorijuma na vašem GitHub nalogu, što vam omogućava da radite na projektu bez uticaja na originalni repozitorijum. Kliknite na dugme `Fork this repository`:
+- Ako nikada ranije niste doprineli sadržaju Plan ₿ Academy-a, biće potrebno da kreirate svoj Fork originalnog repozitorijuma. Forkovanje repozitorijuma znači kreiranje kopije tog repozitorijuma na vašem GitHub nalogu, što vam omogućava da radite na projektu bez uticaja na originalni repozitorijum. Kliknite na dugme `Fork this repository`:
 
 ![book](assets/04.webp)
 
@@ -123,7 +123,7 @@ tags:
 ![book](assets/14.webp)
 
 
-- Odaberite svoj Fork iz PlanB Network repozitorijuma:
+- Odaberite svoj Fork iz Plan ₿ Academy repozitorijuma:
 
 ![book](assets/15.webp)
 
@@ -178,7 +178,7 @@ tags:
 ![book](assets/25.webp)
 
 
-- Otvorit će se nova stranica. Prevucite i otpustite naslovnu sliku vaše knjige u područje. Ova slika će biti prikazana na PlanB Network sajtu:
+- Otvorit će se nova stranica. Prevucite i otpustite naslovnu sliku vaše knjige u područje. Ova slika će biti prikazana na Plan ₿ Academy sajtu:
 
 ![book](assets/26.webp)
 

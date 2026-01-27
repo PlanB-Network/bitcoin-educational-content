@@ -1,0 +1,9 @@
+question: ระบบใดที่ช่วยให้การทำธุรกรรมบน Bitcoin รวดเร็วและมีต้นทุนต่ำ?
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - เครือข่าย Ripple
+  - RGB
+explanation: |
+  Lightning Network เป็นโซลูชันชั้นที่สองที่ช่วยให้การชำระเงินรวดเร็วและลดต้นทุนของการทำธุรกรรม BTC
+reviewed: false

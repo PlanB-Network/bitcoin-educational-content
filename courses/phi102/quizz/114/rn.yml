@@ -1,0 +1,8 @@
+question: Dushingiye ku ciyumviro c’ubutunzi bw’isoko ry’uburenganzira, bigenda gute iyo abashoramare biteze imbere y’igihe ivyo abaguzi basaba ku bijanye n’ubuhinga bushasha butarabaho?
+answer: Kuba ata nyungu bafise mu bisanzwe birababuza kubandanya kandi bikabuza abandi gukurikira akarorero kabo .
+wrong_answers:
+  - Ingingo za Leta zihindura utwigoro twabo tuja ku migambi y'inyungu ku kibano biciye mu nfashanyo .
+  - Bakomeza gushiramwo amahera gushika ivyo abaguzi bakunda bihuye n’ivyo bari baravuze mu ntango .
+  - Amategeko agenga isoko abahatira guheba imigambi yabo kugira ngo ntibasesagure ubutunzi .
+explanation: |
+  Mu nzira y’isoko ry’uburenganzira, inyungu zikora nk’ibimenyetso bihambaye vyerekana ivyo abaguzi basaba vy’ukuri. Iyo abacuruzi baciriye urubanza nabi igihe c’isoko kandi bakitega ko ivyo basaba bitabaho, barananirwa inyungu za generate, ivyo bikaba bica intege abandi gushiramwo amahera muri iyo nzira. Ubwo buryo bwo kwikosora burabuza ubutunzi gusesagura ibintu bishasha bitarashika. Ayandi mahitamwo atanga iciyumviro kitari co co gufasha abava hanze canke gukomeza gushiramwo amahera naho hari ibimenyetso vy’isoko, ivyo bikaba bivuguruza ivyo ikigabane gishimikiyeko ku kuntu ibimenyetso vy’inyungu biyobora ingingo zifatwa mu vy’ubutunzi zishingiye ku vyiyumviro.

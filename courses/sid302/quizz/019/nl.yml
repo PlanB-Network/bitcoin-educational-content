@@ -1,0 +1,8 @@
+question: Wat onderscheidt gereguleerde activa van niet-gereguleerde activa in het native asset-systeem van Liquid?
+answer: Gereguleerde activa vereisen een tweede handtekening van een autorisatieserver voordat ze kunnen worden verplaatst, zodat KYC/AML kan worden nageleefd
+wrong_answers:
+  - Gereguleerde activa gebruiken smart contracts terwijl ongereguleerde activa eenvoudige RPC oproepen gebruiken voor uitgifte
+  - Gereguleerde activa worden ondersteund door Bitcoin reserves, terwijl ongereguleerde activa alleen bestaan op de sidechain
+  - Gereguleerde activa vereisen goedkeuring van een functionaris voor creatie, terwijl ongereguleerde activa zonder toestemming kunnen worden uitgegeven
+explanation: |
+  In de architectuur van Liquid kunnen zowel gereguleerde als ongereguleerde activa zonder toestemming worden uitgegeven met behulp van eenvoudige RPC-oproepen zonder smart contracts. Het belangrijkste verschil zit in hun beweging: gereguleerde activa maken gebruik van Blockstream's Asset Management Platform (AMP) om naleving af te dwingen door een extra autorisatiehandtekening te vereisen voor overdrachten, terwijl ongereguleerde activa vrij kunnen bewegen zonder dergelijke beperkingen.

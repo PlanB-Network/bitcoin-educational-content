@@ -1,0 +1,9 @@
+question: Cosa può ripristinare il LND seed da solo?
+answer: Il wallet on-chain
+wrong_answers:
+  - Canali aperti
+  - Stati del canale
+  - Nulla
+explanation: |
+  Il seed recupera il Bitcoin sul wallet on-chain, ma non i canali Lightning attivi.
+reviewed: false

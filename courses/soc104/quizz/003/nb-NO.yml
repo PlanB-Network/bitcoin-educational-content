@@ -1,0 +1,12 @@
+question: Hva er, ifølge teksten, hovedproblemet med det tradisjonelle politiske venstre-høyre-spekteret?
+answer: Det gir ingen plass til klassisk liberal tenkning, som verken passer med venstresidens egalitarisme eller høyresidens nasjonalisme
+wrong_answers:
+  - Den overforenkler politikken ved bare å ha to ytterpunkter uten noen moderate eller sentrumsorienterte alternativer
+  - Det er feil å anta at venstresiden alltid er reformistisk, mens høyresiden alltid er konservativ i moderne tid
+  - Den tar ikke hensyn til at de fleste mennesker ofte skifter politisk ståsted over tid
+explanation: |
+  I teksten står det spesifikt at "Problemet med venstre-høyre-aksen er at den ikke gir rom for klassisk liberal tenkning, som verken kan
+  verken kan settes i bås med venstresidens egalitarisme eller høyresidens nasjonalisme" Dette illustreres gjennom eksempler som Frédéric Bastiat,
+  som stemte noen ganger med venstresiden og noen ganger med høyresiden, avhengig av den konkrete saken, og Bitcoin, som tiltrekker seg tilhengere fra ulike
+  politisk bakgrunn. Den klassiske liberale tradisjonen, som går inn for maksimal økonomisk og personlig frihet med minimal statlig inngripen, passer rett og slett
+  passer rett og slett ikke inn i det tradisjonelle venstre-høyre-kategoriseringssystemet.

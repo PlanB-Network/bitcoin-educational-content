@@ -1,0 +1,9 @@
+question: När sker kryptering på applikationssidan i NWC-flödet?
+answer: Före publicering på reläet
+wrong_answers:
+  - Efter att ha läst noden
+  - Efter publicering på reläet
+  - Aldrig
+explanation: |
+  Applikationen serialiserar begäran, krypterar den och publicerar den sedan som en händelse på ett Nostr-relä.
+reviewed: false

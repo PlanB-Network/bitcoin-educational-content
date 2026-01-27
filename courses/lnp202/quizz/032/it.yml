@@ -1,0 +1,9 @@
+question: Perché evitare nodi molto grandi per un primo canale?
+answer: Politiche restrittive
+wrong_answers:
+  - Bassa connettività
+  - Costi troppo bassi
+  - Mancanza di liquidità
+explanation: |
+  I nodi molto grandi spesso impongono importi minimi elevati e chiudono facilmente i piccoli canali.
+reviewed: false

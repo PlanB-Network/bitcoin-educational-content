@@ -1,0 +1,8 @@
+question: Cơ chế cơ bản nào cho phép SegWit tăng dung lượng khối trong khi vẫn duy trì khả năng tương thích ngược với các node trước SegWit?
+answer: Hệ thống trọng số khối, trong đó dữ liệu chứng thực được giảm 75% trong các tính toán dung lượng, cho phép tổng dung lượng dữ liệu lên đến 4MB trong khi các nút cũ chỉ thấy ≤1MB.
+wrong_answers:
+  - Các thuật toán nén giúp giảm kích thước dữ liệu chứng thực xuống 75% trước khi truyền, giữ cho các khối dữ liệu có kích thước dưới 1MB cho tất cả các nút.
+  - Điều chỉnh kích thước khối động, tăng giới hạn dựa trên tỷ lệ giao dịch SegWit trong mỗi khối.
+  - Các khối chứng thực riêng biệt chỉ được truyền đến các nút đã được nâng cấp, trong khi các nút cũ nhận các khối 1MB truyền thống.
+explanation: |
+  SegWit sử dụng đơn vị trọng lượng khối, trong đó dữ liệu giao dịch cơ bản được tính là 4 đơn vị trọng lượng trên mỗi byte, trong khi dữ liệu chứng thực được tính là 1 đơn vị trọng lượng trên mỗi byte. Mức giảm giá 75% này cho phép các khối có trọng lượng lên đến 4 triệu đơn vị trọng lượng (có thể lên đến 4MB với tất cả dữ liệu chứng thực) đồng thời đảm bảo các nút cũ không bao giờ thấy nhiều hơn 1MB dữ liệu giao dịch cơ bản. Các tùy chọn khác mô tả các cơ chế không tồn tại - không có nén, không có định cỡ động và không có truyền khối riêng biệt.

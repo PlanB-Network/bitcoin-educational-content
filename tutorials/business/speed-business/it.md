@@ -94,13 +94,13 @@ Quando si disattiva la modalità di prova, è necessario configurare il portafog
 
 
 
-Se non possedete ancora un Bitcoin e/o un Lightning Wallet, vi consigliamo di dare un'occhiata ai nostri tutorial sui [portafogli mobili](https://planb.network/tutorials/wallet).
+Se non possedete ancora un Bitcoin e/o un Lightning Wallet, vi consigliamo di dare un'occhiata ai nostri tutorial sui [portafogli mobili](https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **IMPORTANTE**: Quando configurate il vostro portafoglio, scegliete il tipo **BTC (On-Chain)** quando ricevete grandi importi, dell'ordine di migliaia di euro, per garantire una conferma affidabile su Bitcoin, e il tipo **LN Address** quando desiderate ricevere micropagamenti istantanei nella vostra attività.
 
@@ -435,4 +435,4 @@ Dopo aver acquisito una buona padronanza di Speed, integrate il Bitcoin nella vo
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

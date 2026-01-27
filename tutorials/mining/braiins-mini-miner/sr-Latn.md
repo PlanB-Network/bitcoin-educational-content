@@ -6,7 +6,7 @@ description: Pravljenje Mining lako od kuće.
 
 
 
-### Uvod
+## Uvod
 
 
 
@@ -18,7 +18,7 @@ Takođe možete pronaći mnogo važnije informacije pregledom kompletnog vodiča
 
 
 
-### Pregled BMM 100
+## Pregled BMM 100
 
 
 
@@ -46,7 +46,7 @@ dok na zadnjoj strani imamo: otvor za napajanje, prostor za SD karticu (koja mo�
 
 
 
-### Povezivanje Mini Miner
+## Povezivanje Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Moraćete da povežete uređaj na internet putem ethernet-a, imajte na umu da sa
 
 
 
-### Konfiguracija
+## Konfiguracija
 
 
 
@@ -74,7 +74,7 @@ Da biste se prijavili, moraćete da unesete `root` kao svoje korisničko ime, do
 
 
 
-### Opšta podešavanja
+## Opšta podešavanja
 
 
 
@@ -110,7 +110,7 @@ Kada izvršite izmene, kliknite na `Save Changes` i videćete izmene na ekranu v
 
 
 
-### Povezivanje sa Mining pool
+## Povezivanje sa Mining pool
 
 
 
@@ -134,15 +134,15 @@ Ovde ćemo morati da odlučimo koji bazen da koristimo. U ovom vodiču pokazaću
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Druga opcija je da nas povežete sa Mining pool koji mina solo, kao Public Pool, pratite ovaj vodič da to uradite:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Braiins pool
+### Braiins pool
 
 
 
@@ -150,7 +150,7 @@ Da bismo se povezali na ovaj bazen, potrebno je da napravimo nalog. ovaj bazen t
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Jednom kada je to urađeno, nalazimo se na Braiins pool kontrolnoj tabli. Ono što treba da uradimo je da kažemo pool-u da želimo da se povežemo sa jednim od naših Minera, tako da ćete na levoj strani ekrana pronaći nekoliko unosa. Treba da odemo na "workers."
 
@@ -168,7 +168,7 @@ i treba da kliknemo na ljubičasto dugme sa desne strane koje kaže "Connect wor
 
 
 
-Evo dolazi prozor sa informacijama koje su nam potrebne da povežemo naš mini Miner na bazen. Ovde jedina promena koju možemo napraviti je da izaberemo Stratum V2. Da biste saznali šta je Stratum v2 pogledajte ovaj unos u [glosaru](https://planb.network/en/resources/glossary/stratum-v2).
+Evo dolazi prozor sa informacijama koje su nam potrebne da povežemo naš mini Miner na bazen. Ovde jedina promena koju možemo napraviti je da izaberemo Stratum V2. Da biste saznali šta je Stratum v2 pogledajte ovaj unos u [glosaru](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 
@@ -236,7 +236,7 @@ ako se vratite na kontrolnu tablu, trebali biste početi da primećujete kretanj
 
 
 
-#### Javni bazen
+### Javni bazen
 
 
 

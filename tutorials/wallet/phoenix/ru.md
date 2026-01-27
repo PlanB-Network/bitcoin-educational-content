@@ -27,7 +27,7 @@ Phoenix работает как полноценный узел Lightning, вс�
 
 
 - В [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
-- В [App Store] (https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB).
+- В [App Store](https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB).
 
 ![Image](assets/fr/02.webp)
 
@@ -59,7 +59,7 @@ Phoenix работает как полноценный узел Lightning, вс�
 
 Для получения более подробной информации о том, как правильно сохранять и управлять мнемоническими фразами, я настоятельно рекомендую ознакомиться с другими уроками, особенно если вы новичок:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Нажмите на сообщение, отображаемое в верхней части интерфейса "*Сохраните свой кошелек...*".
 
@@ -175,8 +175,8 @@ Phoenix генерирует счет-фактуру Lightning. Вы может�
 
 Чтобы сделать еще один шаг вперед, ознакомьтесь с этим руководством по Alby Hub, еще одним инновационным и простым в использовании решением для запуска собственного узла Lightning:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-А чтобы узнать больше о технической работе сети Lightning Network, вы можете найти отличный бесплатный тренинг Фаниса Михалакиса по Plan ₿ Network :
+А чтобы узнать больше о технической работе сети Lightning Network, вы можете найти отличный бесплатный тренинг Фаниса Михалакиса по Plan ₿ Academy :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

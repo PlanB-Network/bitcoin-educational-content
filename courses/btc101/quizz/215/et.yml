@@ -1,9 +1,9 @@
-question: Mis on Bitcoini skaleeritavuse probleem?
-answer: Väljakutse rakendada rahandussüsteemi, mis suudab pakkuda üha suurenevat arvu tehinguid sekundis, kui see omaks võetakse.
+question: Milline mehhanism muudab Lightningi maksed atomaarseks?
+answer: HTLC
 wrong_answers:
-  - Raskused uute Bitcoinide kaevandamisel.
-  - Bitcoini hinna volatiilsus.
-  - Bitcoini regulatsiooni puudumine.
-explanation: >-
-  Skaleeritavuse probleem viitab väljakutsele rakendada rahandussüsteemi, mis on võimeline pakkuma üha suurenevat arvu tehinguid sekundis, kui see omaks võetakse.
+  - Multiallkiri
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC-d seovad makse saladuse avaldamisega, tagades täieliku õnnestumise või ebaõnnestumise ilma kaotuseta.
 reviewed: false

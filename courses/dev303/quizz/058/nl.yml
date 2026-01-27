@@ -1,0 +1,8 @@
+question: Bij het maken van een aangepaste functie-achtige macro die verschillende aantallen invoerargumenten moet verwerken, welke combinatie van fragmentspecificatie en herhalingspatroon zou dan het meest geschikt zijn?
+answer: Gebruik $($x:expr),* om overeen te komen met nul of meer uitdrukkingen, gescheiden door komma's
+wrong_answers:
+  - Gebruik $($x:ident)+ om overeen te komen met een of meer identifiers zonder scheidingstekens
+  - Gebruik $($x:ty);* om overeen te komen met nul of meer types, gescheiden door puntkomma's
+  - Gebruik $($x:expr)? om overeen te komen met een optionele enkelvoudige uitdrukking zonder herhaling
+explanation: |
+  Het patroon $($x:expr),* is speciaal ontworpen voor macro's met variabele argumenten, waarbij expr overeenkomt met een willekeurige uitdrukking en de syntaxis ,* nul of meer herhalingen, gescheiden door komma's, aankan. Dit is precies wat nodig is voor macro's zoals vec! die verschillende aantallen argumenten kunnen accepteren. De andere opties zijn onjuist omdat: ident alleen overeenkomt met identifiers (niet met volledige uitdrukkingen), ty overeenkomt met types (niet met waarden) en ? overeenkomt met optionele afzonderlijke items in plaats van herhalingen van variabelen.

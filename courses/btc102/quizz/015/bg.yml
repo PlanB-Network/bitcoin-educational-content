@@ -1,0 +1,9 @@
+question: Коя система позволява бързи и евтини транзакции в Bitcoin?
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - Мрежата Ripple
+  - RGB
+explanation: |
+  Lightning Network е решение на второ ниво, което позволява бърз сетълмент и намалява разходите за транзакции с BTC.
+reviewed: false

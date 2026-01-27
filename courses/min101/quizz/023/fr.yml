@@ -1,0 +1,9 @@
+question: Si les blocs ont été trouvés trop vite sur la dernière période, que se passe-t-il ?
+answer: La cible baisse
+wrong_answers:
+  - La cible monte
+  - La cible reste identique
+  - La taille de bloc augmente
+explanation: |
+  Des blocs trouvés trop rapidement indiquent un hashrate plus élevé, donc Bitcoin durcit la condition en abaissant la cible.
+reviewed: false

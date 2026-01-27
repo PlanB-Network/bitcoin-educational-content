@@ -1,0 +1,8 @@
+question: Breez SDK mimarisinde bir ters denizaltı takası başarısız olduğunda veya zaman aşımına uğradığında ne olur?
+answer: SDK, fonları kullanıcının wallet'ine iade etmek için otomatik olarak bir iade işlemi oluşturur ve yayınlar
+wrong_answers:
+  - Takas sağlayıcısı, 24 saat içinde kullanıcı müdahalesi gerektiren bir kurtarma sürecini manuel olarak başlatır
+  - Lightning Network bağlantısı yeniden kurulana kadar fonlar kalıcı olarak kilitli kalır
+  - Kullanıcı bir federated peg-out işlemini manuel olarak tetiklemek için Boltz desteğiyle iletişime geçmelidir
+explanation: |
+  Breez SDK, kritik bir güvenlik mekanizması olarak Otomatik Geri Ödeme Yönetimi uygular. Takaslar başarısız olduğunda veya zaman aşımına uğradığında, SDK tüm takas durumlarını izler ve kullanıcı müdahalesi olmadan kurtarma işlemini otomatik olarak gerçekleştirir. Bu, zaman kilitli sözleşmelerin karmaşıklığını ortadan kaldırır ve fonların asla kalıcı olarak kaybedilmemesini sağlar. Diğer seçenekler yanlıştır çünkü ya manuel müdahale gerektirirler, ya kalıcı fon kaybı varsayarlar ya da otomatik sistemde mevcut olmayan süreçleri içerirler.

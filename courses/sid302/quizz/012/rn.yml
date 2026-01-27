@@ -1,0 +1,8 @@
+question: Ni akamaro akahe k’intango ko gukoresha Taproot na MuSig2 ku guhinduranya ibice vy’umusaraba ugereranyije n’ivy’iragi SegWit v0 HTLCs?
+answer: Uguhinduranya kw'ubufatanye kugaragara nk'uguhinduranya kw'umukono umwe, gutanga ubuzima bwite bushitse n'ugukoresha umwanya mutoyi
+wrong_answers:
+  - Taproot irakuraho ivy’ugufunga umwanya, ituma guhinduranya vyihuta kandi bikaba vyiza kuruta HTLCs za kera .
+  - MuSig2 iremeza ko hash locks nyinshi zikoreshwa icarimwe, bikaba bishoboka ko habaho intunganyo zikomeye cane zo guhinduranya imigwi myinshi
+  - Taproot swaps zishobora kurangira ata mabanga y’ubuhinga bwo gukingira amakuru, bitandukanye n’ivya kera vya HTLC vyama bigaragaza amashusho y’imbere y’igihe .
+explanation: |
+  Taproot na MuSig2 ihindura cane ubuzima bwite bwa HTLC biciye mu gukoranya urufunguzo. Mu ‘nzira y’umunezero’ y’ubufatanye, abo bompi barahuza imfunguruzo zabo mu rufunguzo rumwe rwa bose rwo gukorana maze bagashira umukono ku bijanye n’ugucuruza. Ivyo bituma uguhinduranya bidashobora gutandukanywa n’ukwishura gusanzwe, bifata umwanya mutoyi w’amabarabara kandi ntibigaragaza ivyangombwa vy’uguhinduranya. Ivyuma vya kera vya SegWit v0 HTLCs vyasaba gusohora inyandiko yose on-chain, ivyo bikaba vyatuma bimenyekana bitagoranye kandi bikaba bizimvye cane. Ayandi mahitamwo ntabwo ari meza: igihe co gufunga kiguma ari ngirakamaro kugira ngo umuntu agire umutekano, hash nyinshi si co kintu nyamukuru gishasha, kandi amashusho y’imbere y’igihe aracariho igihe umuntu asaba amahera.

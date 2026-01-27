@@ -32,12 +32,12 @@ Gerekli bilgileri tamamlayın: e-posta adresinizi Address ve ikamet ettiğiniz �
 Güçlü, benzersiz parolaların kullanımı ve korunmasına ilişkin ipuçları için bu eğitime de bakın:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Şimdi hesabı güvence altına almak için 2FA'yı yapılandıracağız. Akıllı telefonunuzda Google Authenticator veya Authy gibi bir kimlik doğrulama uygulaması kullanın. Bu araçla ilgili bir öğreticiyi burada bulabilirsiniz:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 QR kodunu uygulamanızla tarayın ve verilen 6 haneyi girin.
 
@@ -245,9 +245,9 @@ Bitfinex ayrıca Lightning Network üzerinden para yatırma ve çekme seçenekle
 Lightning Network ile ilgileniyorsanız, nasıl çalıştığını anlamanıza yardımcı olacak eksiksiz bir eğitim kursumuz da var:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-İlk bitcoinlerinizi satın aldıktan sonra, elbette bunları platformda bırakma seçeneğiniz var, ancak bunları kendi Wallet'inize aktarmanızı şiddetle tavsiye ederim. Henüz bir Bitcoin Wallet'i nasıl kullanacağınızı bilmiyorsanız, sizi [Plan ₿ Network'daki "Wallet" bölümünü] (https://planb.network/tutorials/wallet) keşfetmeye davet ediyorum.
+İlk bitcoinlerinizi satın aldıktan sonra, elbette bunları platformda bırakma seçeneğiniz var, ancak bunları kendi Wallet'inize aktarmanızı şiddetle tavsiye ederim. Henüz bir Bitcoin Wallet'i nasıl kullanacağınızı bilmiyorsanız, sizi [Plan ₿ Academy'daki "Wallet" bölümünü](https://planb.academy/tutorials/wallet) keşfetmeye davet ediyorum.
 
 
 ## 6 - Bitfinex'te bitcoin alım satımı

@@ -28,17 +28,17 @@ Fedi Wallet is a Bitcoin wallet that comes with a new approach to saving your ke
 - **Custodials**: You decide to place your trust in an external entity, the wallet developer, who will keep the recovery words for your wallet for you. You have neither access nor the ability to export your Bitcoin wallet.
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 - **Self-custodial**: The application gives you access to recovery words as soon as you create your wallet. So you can freely export your bitcoins to the wallet that suits you best.
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Instead, Fedi Wallet offers the federation approach, which lets you join a group of people you trust to manage your wallet keys. You can join a popular federation suggested by Fedi, or join the local federation in your community by scanning a QR code or pasting the federation's invitation code.
 
@@ -58,7 +58,7 @@ Once you've created your wallet and joined a federation, in your profile informa
 Find out more about our recovery word backup recommendations:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 For each federation you join, Fedi distinguishes your bitcoins by creating separate wallets.
 
@@ -107,7 +107,7 @@ Your recipient will need to scan the generated QR code to claim the satoshis.
 ![claim](assets/fr/07.webp)
 
 
-Offline payments are mainly made using [e-cash](https://planb.network/resources/glossary/ecash-david-chaum). The transaction is stored in your phone, and as soon as you access the Internet, confirmation of the transaction becomes automatic. You can also confirm the payment manually by clicking on **Confirm transaction**.
+Offline payments are mainly made using [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). The transaction is stored in your phone, and as soon as you access the Internet, confirmation of the transaction becomes automatic. You can also confirm the payment manually by clicking on **Confirm transaction**.
 
 
 ![confirm](assets/fr/08.webp)
@@ -144,7 +144,7 @@ In the **Mods** menu, you will find applications such as :
 - Bitrefill
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 - BTC Map: Discover local businesses that accept bitcoins.
@@ -174,4 +174,4 @@ Click on the **Create a Federation** module, then begin the process of creating 
 You've just taken the Fedi Wallet tour, you're now in a position to harness the full potential of this wallet in your community. If you enjoyed this tutorial, we're sure you'll enjoy our tutorial on Blink (formerly Bitcoin Beach), a Bitcoin wallet initiative originally designed to build and develop a circular economy on Bitcoin in El Salvador.
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

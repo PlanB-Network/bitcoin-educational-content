@@ -18,7 +18,7 @@ Innan du börjar denna handledning, om du inte är bekant med passphrase-koncept
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 passphrase på Trezor hanteras på det klassiska sättet om du har valt BIP39-standarden under konfigurationen (vilket jag rekommenderar om du inte behöver *Multi-share Backup*). Det som är speciellt med Trezor är att du antingen kan ange passphrase direkt på Hardware Wallet eller via datorns tangentbord med hjälp av Trezor Suite-programvaran. Det andra alternativet är betydligt mindre säkert, eftersom datorn har en oerhört mycket större attackyta än Hardware Wallet. Det kan dock gå snabbare att skriva en komplex passphrase på ett vanligt tangentbord än på Hardware Wallet, vilket kan uppmuntra till användning av starka lösenfraser. Så det är alltid bättre att använda en passphrase, även om den måste skrivas, än att inte använda någon alls. Det är dock viktigt att vara medveten om den ökade risken för numeriska attacker som detta innebär.
 
@@ -36,15 +36,15 @@ I Trezor Suite har du två olika sätt att hantera passphrase-behov. Du kan akti
 
 
 
-Innan du påbörjar denna handledning bör du kontrollera att du redan har initialiserat din Trezor och genererat din Mnemonic-fras. Om du inte har gjort det och din Trezor är ny, följ den modellspecifika handledningen som finns på Plan ₿ Network. När du har slutfört detta steg kan du återgå till denna handledning.
+Innan du påbörjar denna handledning bör du kontrollera att du redan har initialiserat din Trezor och genererat din Mnemonic-fras. Om du inte har gjort det och din Trezor är ny, följ den modellspecifika handledningen som finns på Plan ₿ Academy. När du har slutfört detta steg kan du återgå till denna handledning.
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 
 ## Lägga till en passphrase till ett Safe 3 eller Safe 5
@@ -79,7 +79,7 @@ För mer specifika rekommendationer om hur du väljer din passphrase uppmanar ja
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Om du vill ange din passphrase via datorns tangentbord skriver du in den i det angivna fältet och klickar sedan på "*Access passphrase Wallet*".
 
@@ -177,7 +177,7 @@ För mer specifika rekommendationer om hur du väljer din passphrase, uppmanar j
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Ange din passphrase i det angivna fältet och klicka sedan på knappen "*Access passphrase Wallet*".
 
@@ -215,6 +215,6 @@ Gratulerar, du har nu kommit igång med att använda passphrase BIP39 på Trezor
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 Om du tyckte att den här handledningen var användbar skulle jag vara tacksam om du lämnar en Green-tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack så mycket!

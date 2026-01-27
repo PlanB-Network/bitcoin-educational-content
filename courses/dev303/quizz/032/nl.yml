@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste verschil tussen herstelbare en niet-herstelbare fouten in Rust's systeem voor foutenbehandeling?
+answer: Herstelbare fouten kunnen netjes worden afgehandeld zodat programma's door kunnen gaan, terwijl onherstelbare fouten het programma beëindigen
+wrong_answers:
+  - Herstelbare fouten gebruiken de panic! macro terwijl onherstelbare fouten het Result enum gebruiken voor een goed foutenbeheer
+  - Herstelbare fouten treden op tijdens het compileren, terwijl onherstelbare fouten alleen optreden tijdens de uitvoering van het programma
+  - Herstelbare fouten vereisen het afwikkelen van de stack, terwijl onherstelbare fouten genegeerd kunnen worden door de aanroepende code
+explanation: |
+  Rust categoriseert fouten op basis van of programma's er redelijkerwijs van kunnen herstellen. Herstelbare fouten vertegenwoordigen verwachte foutcondities zoals ontbrekende bestanden of netwerkproblemen die programma's netjes kunnen afhandelen met behulp van Result Types, waardoor de uitvoering door kan gaan met de juiste foutafhandeling. Onherstelbare fouten duiden op fundamentele problemen zoals schendingen van de geheugenveiligheid of logische fouten waar het programma niet veilig mee verder kan gaan, wat paniek veroorzaakt die de uitvoering beëindigt om verdere corruptie te voorkomen.

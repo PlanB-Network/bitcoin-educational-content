@@ -1,0 +1,8 @@
+question: Коя държава е обявила Bitcoin за законно платежно средство?
+answer: Ел Салвадор.
+wrong_answers:
+  - Съединени щати.
+  - Китай.
+  - Индия.
+explanation: >-
+reviewed: true

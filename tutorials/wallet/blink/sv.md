@@ -62,7 +62,7 @@ Här är vad som chockade många användare: Det går snabbare att starta Blink 
 
 - Ladda ner Blink Wallet
  - Sök efter "Blink Wallet" på [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) eller [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei), beroende på din enhet.
- - Du kan också ladda ner den direkt från [Blink Wallet webbplats] (https://blink.sv).
+ - Du kan också ladda ner den direkt från [Blink Wallet webbplats](https://blink.sv).
 - Skapa en Wallet
  - Tryck på "Skapa ny Wallet"
  - Godkänn villkor och bestämmelser
@@ -79,7 +79,7 @@ Här är vad som chockade många användare: Det går snabbare att starta Blink 
 ![image](assets/fr/02.webp)
 
 
-När du öppnar [Blink Wallet] (https://blink.sv/) för första gången kommer du att se något uppfriskande rent. Inga diagram som skriker åt dig, inga blinkande siffror, bara ditt saldo och några enkla knappar.
+När du öppnar [Blink Wallet](https://blink.sv/) för första gången kommer du att se något uppfriskande rent. Inga diagram som skriker åt dig, inga blinkande siffror, bara ditt saldo och några enkla knappar.
 
 
 ### Översikt över huvudskärmen
@@ -269,7 +269,7 @@ Få tillgång till avancerade verktyg för handlare i Inställningar → Sätt a
  - Inget belopp anges - kunderna väljer själva hur mycket de vill dricksa/betala
 
 
-Få mer information om [Blink POS] (https://www.blink.sv/blog/transform-your-payment-experience-with-the-blink-pos) och utforska värdefulla resurser för handlare i [Blink Branding and Onboarding resources] (https://www.blink.sv/en/brand).
+Få mer information om [Blink POS](https://www.blink.sv/blog/transform-your-payment-experience-with-the-blink-pos) och utforska värdefulla resurser för handlare i [Blink Branding and Onboarding resources](https://www.blink.sv/en/brand).
 
 
 ## Att lära sig och tjäna Bitcoin blev enkelt med Blink
@@ -305,7 +305,7 @@ Blink är en depå Wallet, vilket innebär att de förvarar och förvaltar dina 
 
 
 - Fördelar: Enkel installation, användarvänlig Interface, tillgänglig kundsupport
-- Nackdelar: Du kontrollerar inte dina [privata nycklar] (https://www.blink.sv/blog/not-your-keys-not-your-coins), vilket innebär att du förlitar dig på Blink för att hantera dina medel
+- Nackdelar: Du kontrollerar inte dina [privata nycklar](https://www.blink.sv/blog/not-your-keys-not-your-coins), vilket innebär att du förlitar dig på Blink för att hantera dina medel
 
 
 ### Transaktionsgränser
@@ -356,10 +356,10 @@ Blink är en depå Wallet, vilket innebär att de förvarar och förvaltar dina 
 
 
 
-- Kontrollera Blinks dokumentation och [FAQ] (https://faq.blink.sv/)
+- Kontrollera Blinks dokumentation och [FAQ](https://faq.blink.sv/)
 - Kontakta kundtjänst via appen
-- Kontrollera [Blink support page] (https://www.blink.sv/en/support)
-- Gå med i [Blink Telegram community] (https://t.me/blinkbtc) för allmänna frågor
+- Kontrollera [Blink support page](https://www.blink.sv/en/support)
+- Gå med i [Blink Telegram community](https://t.me/blinkbtc) för allmänna frågor
 
 
 ### Förbättra din Bitcoin resa:

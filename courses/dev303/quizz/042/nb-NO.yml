@@ -1,0 +1,8 @@
+question: Hva er den største fordelen med at iteratorer er late i Rust?
+answer: De utfører ikke noe arbeid før de blir brukt, noe som muliggjør effektiv kjeding uten å skape mellomliggende samlinger
+wrong_answers:
+  - De parallelliserer automatisk operasjoner over flere CPU-kjerner for bedre ytelse
+  - De lagrer tidligere resultater i minnet for å unngå å regne ut de samme verdiene flere ganger
+  - De bruker mindre minne ved å lagre kun referanser i stedet for å kopiere faktiske dataværdier
+explanation: |
+  Lazy evaluation i Rust-iteratorer betyr at de ikke utfører noen prosessering før en forbruksmetode blir kalt. Dette gjør at du kan kjede flere operasjoner som map, filter og andre adaptorer sammen uten å opprette mellomliggende samlinger mellom hvert trinn. Kompilatoren kan optimalisere hele kjeden til effektiv kode som behandler elementer ett om gangen gjennom alle transformasjoner, i stedet for å opprette midlertidige vektorer eller andre samlinger på hvert trinn.

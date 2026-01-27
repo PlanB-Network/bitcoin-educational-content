@@ -1,0 +1,8 @@
+question: Milline on põhimõtteline erinevus makrode ja funktsioonide töötlemise vahel Rust-s?
+answer: Makros laiendatakse kompilaatori poolt kompileerimise ajal enne kompileerimise algust, samas kui funktsioonid kutsutakse välja tööajal
+wrong_answers:
+  - Makros kasutavad tüübi kontrollimiseks mustri sobitamist, samas kui funktsioonid kasutavad staatilist analüüsi kontrollimise ajal valideerimiseks
+  - Makros generate optimeeritud assemblerikood otse, samas kui funktsioone tõlgendab Rust virtuaalmasin
+  - Makros salvestatakse täitmise ajal mällu, samas kui funktsioonid laaditakse kõvakettalt, kui neid kutsutakse
+explanation: |
+  Õige vastus toob välja peamise ajalise erinevuse: makros toimivad kompileerimise ajal koodi laiendamise kaudu, samas kui funktsioonid täidetakse programmi täitmise ajal. Valed vastused ajavad erinevaid programmeerimise mõisteid segi - Rust ei kasuta virtuaalmasinat, nii makrod kui ka funktsioonid läbivad tüübikontrolli (kuid eri etappides) ning ei funktsioone ega makrosid ei laadita kirjeldatud viisil täitmise ajal kettalt.

@@ -185,7 +185,7 @@ Før du bruker denne e-posten til en påloggingstjeneste, kan du teste funksjona
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 For å slette et alias du har opprettet som en test, trenger du bare å logge deg inn på `Home`, deretter `Credentials` og klikke på identiteten du vil slette. Kommandoen _Delete_ vises i øvre høyre hjørne, og du kan gå videre.
 
@@ -227,7 +227,7 @@ Den eneste forsiktighetsregelen er å kontrollere at Alias Vault er aktivt. Prog
 
 
 
-Som alle apper av denne typen med respekt for seg selv har Alias Vault en versjon for mobile enheter, både i Android- og iOS-miljøer. For Android kan du laste ned appen fra [F-Droid] (https://f-droid.org/packages/net.aliasvault.app/).
+Som alle apper av denne typen med respekt for seg selv har Alias Vault en versjon for mobile enheter, både i Android- og iOS-miljøer. For Android kan du laste ned appen fra [F-Droid](https://f-droid.org/packages/net.aliasvault.app/).
 
 
 
@@ -287,7 +287,7 @@ Muligheten er unik: **Slutt å være avhengig av eksterne tjenesteleverandører 
 
 
 
-Det er på tide å gå til [documentation] (https://docs.aliasvault.net/installation/) for å finne ut hvordan du går frem for å hoste Alias Vault selv.
+Det er på tide å gå til [documentation](https://docs.aliasvault.net/installation/) for å finne ut hvordan du går frem for å hoste Alias Vault selv.
 
 
 
@@ -433,7 +433,7 @@ Siden Alias Vault er i _Beta_-stadiet, kan du få problemer med å få tilgang h
 
 
 
-For å få en fullstendig forståelse av arkitekturen og sikkerheten i Alias Vault, anbefaler jeg på det sterkeste at du leser [denne siden] (https://docs.aliasvault.net/architecture/), som inneholder detaljer om kryptografien som ligger til grunn for driften.
+For å få en fullstendig forståelse av arkitekturen og sikkerheten i Alias Vault, anbefaler jeg på det sterkeste at du leser [denne siden](https://docs.aliasvault.net/architecture/), som inneholder detaljer om kryptografien som ligger til grunn for driften.
 
 
 

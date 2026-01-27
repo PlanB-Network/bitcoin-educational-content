@@ -1,22 +1,17 @@
 ---
-name: 形式密码学入门
+name: 现代密码学基础
 goal: 深入浅出地介绍密码学的科学与实践。
 objectives:
-
-  - 探索 Beale 密码和现代密码方法，了解密码学的基本和历史概念。
-  - 深入研究数论、群和场，掌握密码学的关键数学概念。
-  - 学习 RC4 流密码和 128 位密钥的 AES，了解对称加密算法。
-  - 研究 RSA 密码系统、密钥分配和散列函数，探索非对称密码学。
-
+- 探索 Beale 密码和现代密码方法，了解密码学的基本和历史概念。
+- 深入研究数论、群和场，掌握密码学的关键数学概念。
+- 学习 RC4 流密码和 128 位密钥的 AES，了解对称加密算法。
+- 研究 RSA 密码系统、密钥分配和散列函数，探索非对称密码学。
 ---
-# 深入了解密码学
+# 深入探讨现代密码学
 
-在密码学教育中，很难找到许多能提供良好中间立场的教材。
+在本课程中,我们将以清晰易懂的方式介绍现代密码学的基本要素,无需深厚的数学背景。在各个章节中,您将学习核心概念,如对称加密和公钥加密、哈希函数、数字签名、密钥交换以及实际协议。在此过程中,我们将把这些知识点与实际应用联系起来,例如安全消息传递、TLS、密码存储和身份验证。
 
-一方面，有一些冗长、正式的论文，只有那些在数学、逻辑学或其他正式学科方面有深厚背景的人才能读懂。另一方面，也有一些非常高层次的介绍，对于任何至少有点好奇心的人来说，确实隐藏了太多的细节。
-
-这本密码学入门书试图抓住中间地带。虽然它对任何刚接触密码学的人来说都具有一定的挑战性和详尽性，但它并不是典型的基础性论文。
-
+本课程材料专为各个水平的学习者设计,在直觉理解和技术深度之间取得平衡,足以满足好奇心。期待一段专注而引人入胜的学习之旅。学完本课程后,您将理解现代密码学的工作原理和原因,以及如何负责任地使用它。
 +++
 # 导言
 
@@ -122,7 +117,7 @@ objectives:
 
 *图 1：Beale 密码 No.2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 例如，第二个密码文本的第一个数字是 115。独立宣言》的第 115 个单词是 "instituted"，因此明文的第一个字母是 "i"。密码文本没有直接显示单词间距和大小写。但在解密前几个单词后，可以顺理成章地推断出明文的第一个单词就是 "I"。(明文开头是 "我在贝德福德郡存款"）。
 
@@ -285,7 +280,7 @@ $$
 
 *图 1：随机变量 X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 图 1 中的宽条形显然并不意味着随机变量 $X$ 实际上是连续的。相反，把条形图做得宽一些是为了在视觉上更吸引人（只用一条直线直上，视觉效果不那么直观）。
 
@@ -323,7 +318,7 @@ $$
 
 *图 2：随机变量 Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 最后一个例子是随机变量 Z，它的结果集为 {1,3,7,11,12}，概率分布如下：
 
@@ -351,7 +346,7 @@ $$
 
 *图 3：随机变量 Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### 条件概率
 
@@ -475,16 +470,16 @@ $$
 
 移位密码中的模运算符可确保字母环绕，从而定义所有密码文本字母。为了说明这一点，请考虑在单词 "DOG "上应用移位密码。
 
-假设你统一选择了一个键值为 17 的键。字母 "O "等于 15。如果不进行模运算，将这个明文数字与密钥相加就会得到 32 的密文数字。但是，由于英语字母表只有 26 个字母，因此该密码文数字无法转化为密码文字母。模运算确保了密文数字实际上是 6（$32 \mod 26$ 的结果），相当于密文字母 "G"。
+假设你均匀地选取了一个取值为 $17$ 的密钥。字母“O”等于 $14$。如果没有取模运算，将此明文数字与密钥相加会得到密文数字 $31$。然而，这个数字无法转换为密文字母，因为英文字母只有 $26$ 个。取模运算确保密文数字实际上是 $5$（$31 \mod 26$ 的结果），对应的密文字母是“F”。
 
 密钥值为 17 的单词 "DOG "的整个加密过程如下：
 
 
-- 信息 = DOG = D,O,G = 3,15,6
+**消息 = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 每个人都能直观地理解移位密码的工作原理，并可能自己使用它。不过，要想提高密码学知识水平，就必须开始更加适应形式化，因为方案会变得更加困难。因此，移位密码的步骤被形式化了。
 
@@ -1001,11 +996,11 @@ ___
 
 *图 1：跨空间保密*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 *图 2：跨时空保密*
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## 举个例子移位密码
 
@@ -1106,7 +1101,7 @@ ___
 
 *图 3：XOR 流密码*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 请注意，加密方案通常是采用相同核心算法的加密模板，而不是精确的规范。推而广之，流密码通常是一种加密模板，可以使用不同长度的密钥。虽然密钥长度会影响方案的一些小细节，但不会影响其基本形式。
 
@@ -1189,7 +1184,7 @@ ___
 
 *图 4：区块密码*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 区块密码本身并不是一种加密方案。但是，区块密码可以与各种**操作模式**一起使用，从而产生不同的加密方案。操作模式只是在区块密码之外增加了一些额外的操作。
 
@@ -1197,7 +1192,7 @@ ___
 
 *图 5：采用 ECB 模式*的分块密码
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 使用块密码进行电子密码本加密的过程如下。看看能否将明文信息分成 128 位的块。如果不能，则在信息中添加 ** 填充**，使结果能被 128 位的块大小平均分割。这就是加密过程中使用的数据。
 
@@ -1213,7 +1208,7 @@ ___
 
 *图 6：采用 CBC 模式*的分块密码
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 假设区块大小也是 128 比特。因此，开始时，您需要再次确保原始明文信息得到必要的填充。
 
@@ -1229,7 +1224,7 @@ ___
 
 *图 7：采用 OFB 模式的块密码* 图 8：采用 OFB 模式的块密码
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 在 OFB 模式下，你也可以选择一个初始化向量。但在这里，对于第一个区块，初始化向量会与密钥一起直接插入到区块密码中。由此产生的 128 位密钥将被视为密钥流。该密钥流与明文进行 XOR，生成该加密块的密文。对于后续区块，则使用前一个区块的密钥流作为输入到区块密码中，然后重复上述步骤。
 
@@ -1275,7 +1270,7 @@ Rijndael 密码可以在不同的密钥长度和区块大小规格以及不同�
 
 *图 8：对称加密方案概述*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## 信息验证码
 
@@ -1299,7 +1294,7 @@ Rijndael 密码可以在不同的密钥长度和区块大小规格以及不同�
 
 *图 9：对称加密方案概览*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 由于**存在的不可伪造性**，攻击者无法以任何方式更改信息 $M$，也无法用有效标记创建自己的信息。即使攻击者观察到鲍勃和爱丽丝之间使用相同私人密钥的许多信息的标记，情况也是如此。攻击者最多只能阻止爱丽丝接收信息 $M$（这是密码学无法解决的问题）。
 
@@ -1331,7 +1326,7 @@ MAC 可保证信息确实是由鲍勃创建的。这种真实性自动意味着�
 
 *图 10：验证加密方案*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 如何创建 MAC？虽然可以通过多种方法创建 MAC，但创建 MAC 的常用高效方法是**加密散列函数**。
 
@@ -1343,7 +1338,7 @@ MAC 可保证信息确实是由鲍勃创建的。这种真实性自动意味着�
 
 *图 11：HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **注：**
 
@@ -1381,7 +1376,7 @@ MAC 可保证信息确实是由鲍勃创建的。这种真实性自动意味着�
 
 *图 12：安全通信会话*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 和 AES
 
@@ -1518,7 +1513,7 @@ Rijndael 密码是一种**块密码**，这意味着它有一个核心算法，�
 
 *图 1：使用 128 位密钥的 AES-ECB*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 在 Rijndael 加密算法中，每个 128 位的文本块都要经过十轮加密。这就要求每一轮（$K_1$ 到 $K_{10}$）都有一个单独的轮次密钥。这些密钥是使用**密钥扩展算法**，从最初的 128 位密钥 $K_0$ 生成的。因此，对于要加密的每个文本块，我们将使用原始密钥 $K_0$ 和 10 个独立的轮次密钥。请注意，这 11 个密钥同样用于需要加密的每个 128 位明文块。
 
@@ -1794,7 +1789,7 @@ Diffie 和 Helmann 在 1976 年的论文中提出的解决密钥分发和管理�
 
 *图 1：非对称加密 *
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 任何监听鲍勃和爱丽丝通信的对手都可以观察到 $C$。她还知道 $K_P$ 和加密算法 $E(\cdot)$。但重要的是，这些信息并不能让攻击者解密密文 $C$。解密特别需要 $K_S$，而攻击者并不掌握这些信息。
 
@@ -1818,7 +1813,7 @@ Diffie 和 Helmann 在 1976 年的论文中提出的解决密钥分发和管理�
 
 *图 2：非对称身份验证 *
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 与非对称加密一样，我们可以看到数字签名与信息验证码之间的有趣对比。就后者而言，验证算法只能由参与安全通信的其中一方使用。这是因为它需要私人密钥。然而，在非对称设置中，任何人都可以验证鲍勃所做的数字签名 $S$。
 

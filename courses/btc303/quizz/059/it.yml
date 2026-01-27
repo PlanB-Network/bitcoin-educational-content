@@ -1,0 +1,9 @@
+question: Qual è la conseguenza principale quando le richieste di pull di Bitcoin Core richiedono molto tempo prima di essere unite al repository dai manutentori?
+answer: Indica la mancanza di revisori disponibili a valutare le modifiche al codice proposte
+wrong_answers:
+  - "Dimostra che i manutentori stanno deliberatamente rallentando il processo di sviluppo di Bitcoin"
+  - "Dimostra che le modifiche proposte sono fondamentalmente incompatibili con le regole di consenso del Bitcoin"
+  - "Rivela che la piattaforma GitHub ha dei limiti tecnici per gestire la base di codice di Bitcoin"
+explanation: |
+  Secondo il contenuto del capitolo, le richieste di pull richiedono molto tempo per essere unite, principalmente a causa della mancanza di revisione, che deriva da un numero insufficiente di revisori piuttosto che dall'ostruzione dei manutentori o da problemi tecnici. Il processo di revisione è cruciale per la sicurezza di Bitcoin, in quanto garantisce la qualità del codice e previene modifiche dannose. Questo collo di bottiglia esiste perché la revisione di codice crittografico complesso richiede competenze e tempo, rendendo i revisori qualificati una risorsa scarsa nel processo di sviluppo.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Ni kuki gushiramwo amakuru yose canke urufunguzo rwa USB ari ngirakamaro ku bijanye n’umutekano w’amakuru yawe?
-answer: Bibuza umuntu kuronka amadosiye ata wemerewe
+question: Ni kuki kunyegeza amakuru yose ari kuri disk canke urufunguzo rwa USB ari ngirakamaro ku bijanye n’umutekano w’amakuru yawe?
+answer: Bibuza gushika ku madosiye mu buryo butemewe
 wrong_answers:
   - Kwihutisha gusoma no kwandika dosiye
-  - Irinda gusenyuka kw'ibikoresho
-  - Bituma gusangira disiki vyoroha
+  - Birinda ibikoresho kwononekara
+  - Bituma gusangira disk vyoroha
 explanation: |
-  Ugushiramwo amakuru yuzuye bituma amakuru adashobora gukoreshwa ata rufunguzo canke ijambobanga, naho uwutera yoba afise iyo disiki ku mubiri.
-reviewed: false
+  Kunyegeza amakuru yose ari kuri disk bituma amakuru adashobora gukoreshwa ata rufunguzo canke ijambo ry'ibanga, naho uwutera yoba afise iyo disk mu ntoki.
+reviewed: true

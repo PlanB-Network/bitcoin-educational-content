@@ -13,7 +13,7 @@ objectives:
 
 Tällä kurssilla selitämme Bitcoinin perusteet 25 luvussa, jotta voit ymmärtää tämän teknologian yksinkertaisella ja tehokkaalla tavalla. Kurssilla käsitellään koko alan perusteita, mukaan lukien aiheet kuten louhinta, lompakot, osto-/myyntialustat ja paljon muuta. Lisäkoulutusmateriaalia on saatavilla koko matkan ajan, ja pyydämme sinua myös tutustumaan "21 julistetta" -osion resursseihin tämän kurssin päätyttyä.
 
-Alkuun pääsemiseksi ei tarvita mitään erityisiä tietoja. Itse asiassa seuraava sisältö sopii kaikentasoisille opiskelijoille, ja sen läpikäymiseen pitäisi kulua noin 15 tuntia.
+Tämän kurssin aloittamiseen ei tarvita aiempaa tietämystä. BTC 101 on suunniteltu olemaan kaikkien saatavilla kokemustasosta riippumatta.
 
 +++
 
@@ -39,39 +39,11 @@ Tällä kurssilla keskustelemme Bitcoinin rahapoliittisista näkökohdista, kute
 
 On tärkeää ymmärtää, että Bitcoin on uusi rahajärjestelmä, joka muuttaa täysin suhteemme rahaan, joten sen käytön oppiminen on välttämätön taito kaikille, jotka haluavat hallita omia varojaan.
 
-**Osio 1 - Johdanto**  
-- Luku 1 - Kurssin yleiskatsaus  
-- Luku 2 - Bitcoinin esihistoria  
 
-**Osio 2 - Raha**  
-- Luku 3 - Raha historian aikana  
-- Luku 4 - Fiat-valuutat  
-- Luku 5 - Hyperinflaatio  
-- Luku 6 - 21 miljoonaa bitcoinia  
 
-**Osio 3 - Bitcoin-lompakot**  
-- Luku 7 - Mikä on Bitcoin-lompakko?  
-- Luku 8 - Bitcoin-lompakot ja turvallisuus  
-- Luku 9 - Lompakon käyttöönotto  
-- Luku 10 - Ajan testin läpäiseminen  
 
-**Osio 4 - Bitcoinin tekniset näkökohdat**  
-- Luku 11 - Bitcoinin käynnistäminen  
-- Luku 12 - Bitcoin-tapahtumat  
-- Luku 13 - Bitcoin-solmut  
-- Luku 14 - Louhijat  
-- Luku 15 - Bitcoin ja ekologia  
 
-**Osio 5 - Miten hankkia bitcoineja?**  
-- Luku 16 - Bitcoin ei koskaan nuku!  
-- Luku 17 - Bitcoinien ansaitseminen työn kautta  
-- Luku 18 - Säästäminen Bitcoinilla  
-- Luku 19 - Hyperbitcoinisaatio  
 
-**Osio 6 - Bitcoinin tulevaisuus: Lightning Network**  
-- Luku 20 - Lyhyt johdanto Lightning Networkiin  
-- Luku 21 - Lightning Network -käyttötapaukset  
-- Luku 22 - Punainen pilleri vai sininen pilleri?  
 
 Ennen kuin esitellään rahan määritelmä ja sen tehtävä yhteiskunnassa (luku 1), on syytä aloittaa Bitcoinin synnystä. Vuonna 2009 lanseerattu Bitcoin on suhteellisen uusi teknologia, joka eroaa kaikesta muusta. Siksi on normaalia, ettei siitä ymmärrä kaikkea kerralla. Itse asiassa, aivan kuten internetin käytön tai auton ajamisen opettelun yhteydessä, sinun ei tarvitse tietää kaikkia teknisiä yksityiskohtia heti: voit aloittaa opettelemalla, miten varoja vastaanotetaan, maksetaan ja turvataan, ja tutkia sitä sitten pienin askelin syvällisemmin.
 
@@ -83,7 +55,6 @@ Tärkeintä on ymmärtää tätä uutta teknologiaa yleisellä tasolla, joten to
 
 Oletko valmis sukeltamaan Bitcoinin kiehtovaan maailmaan ja ymmärtämään sen kaikki toimintamekanismit? Lähdetään liikkeelle!
 
-**Huom.**: Jos kohtaat kurssilla tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.network/resources/glossary).
 
 ## Bitcoinin esihistoria
 
@@ -141,7 +112,7 @@ Onko Bitcoin kuitenkin "oikea" valuutta? Tämän ymmärtämiseksi meidän on ens
 
 Jos haluat tutustua Bitcoinin historiaan tarkemmin, suosittelemme lämpimästi HIS 201 -kurssia, jossa tutustut Bitcoinin alkuperään ja hitaaseen syntyyn sekä sen historian ja yhteisön alkuihin. Tämä kurssi on täysin dokumentoitu ja varustettu lähteillä, ja siinä on tietenkin paljon anekdootteja:
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 # Raha
 
@@ -206,7 +177,7 @@ Näiden kriteerien täyttämiseksi valuutta on historiallisesti kehittynyt eri v
 
 Valuutat kehittyvät edelleen tähän päivään asti, ja niiden muotoja mukautetaan eri käyttötarkoituksiin. Kuten sanoimme, vaikka kulta on erinomainen arvovaluutta, se ei enää sovi nykyiseen globalisoituneeseen talouteen. Vastaavasti dollarin ja euron kaltaiset fiduciary-valuutat ovat erittäin likvidejä ja helposti kuljetettavia, koska ne ovat nykyään enimmäkseen digitaalisia, mutta niiden arvoa laskee jatkuvasti rahan inflaatio.
 
-Toisaalta Bitcoin tarjoaa uusia mahdollisuuksia. Sen ominaisuudet, kuten tiukasti rajoitettu tarjonta, tekevät siitä erinomaisen arvosäilön. Neutraalina internet-valuuttana se toimii lisäksi elinkelpoisena **vaihtovälineenä**, joka ylittää rajat. Sitä ei kuitenkaan vielä nykyäänkään hyväksytä laajasti kaupankäynnissä, vaikka se [otetaan jatkuvasti käyttöön] (https://btcmap.org/map).
+Toisaalta Bitcoin avaa uusia näkymiä. Sen ominaisuudet, erityisesti tiukasti rajattu tarjonta, tekevät siitä erinomaisen arvonsäilyttäjän. Lisäksi neutraalina internet-valuuttana se muodostaa elinkelpoisen **vaihdon välineen**, joka kykenee ylittämään rajat. Siitä huolimatta, jatkuvasta käyttöönotosta huolimatta (kuten [BTCmap-kartta](https://btcmap.org/map) osoittaa), sitä ei vielä laajalti hyväksytä kaupankäynnissä.
 
 ## Fiduciary valuutat
 
@@ -261,7 +232,7 @@ Voimme päättää tämän luvun lainaukseen, jonka Nobel-palkinnon voittaja F. 
 > "En usko, että meillä pitäisi olla enää koskaan kunnon rahaa, ennen kuin otamme asian pois hallituksen käsistä. Jos emme voi ottaa niitä väkivaltaisesti pois hallituksen käsistä, voimme vain ottaa käyttöön jollakin ovelalla tai kiertoteitse jotain, mitä he eivät voi estää."
 > Jos haluat oppia lisää taloudellisista virheistä ja vapaudesta, kutsumme sinut tutustumaan ECO 102 -kurssillemme, jossa käydään läpi 1800-luvun ranskalaisen ajattelijan Frédéric Bastiat'n elämää ja ajatuksia, ja hän olisi varmasti arvostanut Bitcoinin syntyä:
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Hyperinflaatio
 
@@ -350,7 +321,7 @@ Valuutta, joka on riippuvainen luotetusta kolmannesta osapuolesta, kuten rahoitu
 
 Jos haluat syventyä hyperinflaatioihin, suosittelemme David St-Ongen ECO 204 -kurssia, jossa opit, mitä hyperinflaatiosyklit ovat ja mitä todellisia vaikutuksia niillä on elämäämme. Saat myös selville näiden syklien väliset yhtäläisyydet ja, mikä tärkeintä, miten voit suojautua niiltä.
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 ## 21 miljoonaa bitcoinia
 
@@ -395,7 +366,7 @@ Kun louhijat ovat suorittaneet tämän tehtävän onnistuneesti, heidät palkita
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Käymme kaivostoiminnan käsitettä tarkemmin läpi [kaivostoimintaa koskevassa luvussa] (https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Käymme kaivostoiminnan käsitettä tarkemmin läpi [kaivostoimintaa koskevassa luvussa](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Digitaalisen niukkuuden takaaminen
 
@@ -503,11 +474,11 @@ Entä jos joku vahingossa arvaa 12 tai 24 sanan listamme? Lyhyt vastaus on, ett�
 
 Bitcoin-lompakkosi hakkeroinnin todennäköisyys on siis tähtitieteellisen pieni, jos noudatat hyviä turvallisuuskäytäntöjä, joista kerromme tarkemmin seuraavassa osassa.
 
-Muista valita tarpeisiisi ja käyttötarkoituksiisi sopiva lompakko: yksityiskohtaisia ohjeita eri lompakoiden hallinnasta ja suojaamisesta on saatavilla [yliopistomme opetusosiossa](https://planb.network/tutorials/wallet).
+Muista valita tarpeisiisi ja käyttötarkoituksiisi sopiva lompakko: yksityiskohtaisia ohjeita eri lompakoiden hallinnasta ja suojaamisesta on saatavilla [yliopistomme opetusosiossa](https://planb.academy/tutorials/wallet).
 
 Jos haluat matkasi aikana oppia lisää Bitcoin-lompakon rakentamisesta entropiasta osoitteiden vastaanottamiseen, suosittelemme CYP 201 -kurssia, joka on omistettu tälle aiheelle:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ## Bitcoin-lompakot ja turvallisuus
 
@@ -538,17 +509,17 @@ Seuraavassa määritellään useita turvallisuustasoja:
 
 Voit esimerkiksi käyttää Sparrow-lompakkoa kuumana lompakkona:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Taso 2\*\*, käytät fyysistä lompakkoa ja olet varmistanut 12/24 sanan luettelon. Sitä kutsutaan usein "kylmäksi lompakoksi", koska avaimesi on tallennettu laitteeseen, joka ei ole yhteydessä internetiin. Tässä tapauksessa sinun on aina allekirjoitettava jokainen maksutapahtuma laitteellasi, jolloin varojesi päivittäinen saatavuus heikkenee.
 
 Voit käyttää esimerkiksi Ledgeriä, Satochipiä tai Tapsigneria:
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 ![image](assets/fi/031.webp)
 
@@ -556,7 +527,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 Saat lisätietoja BIP39-salasanan käytöstä ja toiminnasta:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/fi/032.webp)
 
@@ -582,7 +553,7 @@ Bitcoineidesi turvallisuudella on ratkaiseva merkitys, ja yksinkertaisella virhe
 
 Huomaa, että BTC102-kurssi opastaa sinua tässä vaiheessa.
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ### Tämä vaihe ei ole vitsi!
 
@@ -617,7 +588,7 @@ Sekä "kylmät" että "kuumat" lompakot käyttävät sanaluettelomenetelmää yk
 
 Jos sitten haluat selvittää askel askeleelta, miten perustat oman lompakon ja saat ensimmäiset bitcoinisi, suosittelemme myös tämän toisen kurssin käymistä:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Ajan testin läpäiseminen
 
@@ -629,7 +600,7 @@ Kuten mitä tahansa varallisuutta, bitcoinisi on suojattava katoamiselta, varkau
 
 Yksi tapa turvata bitcoinit pitkällä aikavälillä on kaivertaa muistisana kestävään materiaaliin, kuten teräkseen, luomalla avaimista fyysinen varmuuskopio, joka kestää sekä vesi- että palovahinkoja.
 
-Saatavilla on erilaisia ratkaisuja: jotkut niistä ovat edullisia, kuten "Blockmit", kun taas toiset saattavat vaatia erikoisempia laitteita. Voit tutustua aiheeseen tarkemmin akatemiamme [tutorials](https://planb.network/en/tutorials/wallet) -osiossa.
+Saatavilla on erilaisia ratkaisuja: jotkut niistä ovat edullisia, kuten "Blockmit", kun taas toiset saattavat vaatia erikoisempia laitteita. Voit tutustua aiheeseen tarkemmin akatemiamme [tutorials](https://planb.academy/en/tutorials/wallet) -osiossa.
 
 ![image](assets/fi/036.webp)
 
@@ -637,7 +608,7 @@ Saatavilla on erilaisia ratkaisuja: jotkut niistä ovat edullisia, kuten "Blockm
 
 Tämän ensimmäisen käytännön ohella perintösuunnitelman laatiminen on ratkaiseva askel sen varmistamiseksi, että bitcoinisi ovat asianmukaisesti hallinnassa kuolemasi jälkeen. Tähän suunnitelmaan kuuluu kirjeen kirjoittaminen käsin, jossa hahmotat omaisuutesi luonteen, niiden käyttötavat ja niiden luotettavien henkilöiden yhteystiedot, joilla on vastuu niistä. On myös tärkeää keskustella bitcoinien perinnöstä notaarin kanssa verosäännösten noudattamisen varmistamiseksi, vaikka tälle henkilölle ei pitäisi koskaan uskoa suoraan bitcoiniesi hallintaa.
 
-Jos haluat perehtyä tarkemmin bitcoinien perintösuunnitelmaan, suosittelemme lukemaan Pamela Morganin kirjan [Cryptoasset Inheritance Plan] (https://planb.network/resources/books/28) tai ilmoittautumaan BTC102-kurssille, jossa annamme ohjeita suunnitelman laatimiseen.
+Jos haluat perehtyä tarkemmin bitcoinien perintösuunnitelmaan, suosittelemme lukemaan Pamela Morganin kirjan [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) tai ilmoittautumaan BTC102-kurssille, jossa annamme ohjeita suunnitelman laatimiseen.
 
 ![image](assets/fi/037.webp)
 
@@ -679,7 +650,7 @@ Nyt kun olemme käsitelleet Bitcoin-lompakoiden perusteita ja parhaita käytänt
 
 ![image](assets/fi/038.webp)
 
-Lokakuun 31. päivänä 2008 syntyi uusi rahoitusteknologia eli Bitcoin. Tänä päivänä nimettömänä esiintynyt Satoshi Nakamoto esitteli innovaationsa maailmalle sähköpostilla, joka lähetettiin cypherpunksin postituslistalle. Kyseessä on salakirjoituksen harrastajien yhteisö, joka on omistautunut edistämään yksityisyyden suojaa internetissä. Sähköpostiviesti sisälsi asiakirjan nimeltä "White Paper", jossa esiteltiin Bitcoinin toimintaa.
+Lokakuun 31. päivänä 2008 syntyi uusi rahoitusteknologia eli Bitcoin. Tänä päivänä nimettömänä esiintynyt Satoshi Nakamoto esitteli innovaationsa maailmalle sähköpostilla, joka lähetettiin cypherpunksin postituslistalle. Kyseessä on salakirjoituksen harrastajien yhteisö, joka on omistautunut edistämään yksityisyyden suojaa internetissä. Sähköpostiviesti sisälsi asiakirjan nimeltä "[White Paper](https://planb.academy/resources/glossary/white-paper)", jossa esiteltiin Bitcoinin toimintaa.
 
 Tämä aloite ei heti herättänyt innostusta, mikä johtui luultavasti siitä, että aiemmat yritykset luoda digitaalinen käteisrahajärjestelmä ovat epäonnistuneet. Valkoisesta kirjasta tuli kuitenkin lopulta Bitcoin-käyttäjien viitekehys, ja siitä on vuosien mittaan käyty monia keskusteluja Bitcoin-ekosysteemissä.
 
@@ -714,11 +685,11 @@ Vuonna 2010, kun Bitcoin alkoi herättää huomiota tiedotusvälineissä, Satosh
 > "Hallitukset ovat hyviä katkaisemaan keskitetysti toimivan
 > napsterin kaltaiset valvotut verkot, mutta puhtaat P2P-verkot, kuten
 > Gnutella ja Tor näyttävät pitävän pintansa." - Satoshi Nakamoto
-> Satoshin poissaolosta huolimatta Bitcoinia kehitettiin edelleen: Bitcoinin historiaa kirjoitetaan 10 minuutin välein, ja protokolla toimii tänäkin päivänä tarkoitetulla tavalla. Kaikesta pelosta, epävarmuudesta tai epäilystä huolimatta Bitcoin jatkaa eteenpäin, ja sen saatavuus verkossa on erittäin vahva. Itse asiassa tämän [verkkosivuston] (https://bitcoinuptime.com/) mukaan Bitcoin on ollut toimiva ja toiminut ilman massiivisia ongelmia 99,988 prosenttia ajasta sen luomisesta lähtien.
+> Satoshin poissaolosta huolimatta Bitcoinia kehitettiin edelleen: Bitcoinin historiaa kirjoitetaan 10 minuutin välein, ja protokolla toimii tänäkin päivänä tarkoitetulla tavalla. Kaikesta pelosta, epävarmuudesta tai epäilystä huolimatta Bitcoin jatkaa eteenpäin, ja sen saatavuus verkossa on erittäin vahva. Itse asiassa tämän [verkkosivuston](https://bitcoinuptime.com/) mukaan Bitcoin on ollut toimiva ja toiminut ilman massiivisia ongelmia 99,988 prosenttia ajasta sen luomisesta lähtien.
 
 Joidenkin mielestä Bitcoin on määritelty sienimäiseksi kokonaisuudeksi, kuten [myseeli](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), kun taas toiset kuvaavat sitä [mustaksi aukoksi](https://dergigi.com/). Rakastetaan sitä tai vihataan sitä, Bitcoin jatkaa olemassaoloaan, ja sen jatkuva rytmi on 10 minuuttia lohkoa kohden kuin uuden rahajärjestelmän sydämen syke.
 
-Jos haluat lisätietoja Satoshi Nakamoton kirjoituksista, suosittelemme lukemaan Phil Champagnen kirjoittaman ["The Book of Satoshi"](https://planb.network/en/resources/books/98) tai ARTE:n dokumentin "Le mystaire Satoshi".
+Satoshi Nakamoton kirjoituksiin syventymiseksi suosittelen Phil Champagnen teosta [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30), joka kokoaa ja kontekstualisoi hänen keskeiset tekstinsä, sekä ARTE:n dokumenttia [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), joka tarjoaa helposti lähestyttävän ja hyvin dokumentoidun tutkinnan hänen identiteetistään ja perinnöstään.
 
 ![image](assets/fi/044.webp)
 
@@ -753,7 +724,7 @@ Tässä vaiheessa transaktio on luotu, ja Bobin lompakko jakaa sen Bitcoin-verko
 
 Vaikka tämä transaktio on kaikkien tiedossa (Mempool-nimisen työkalun kautta), sitä ei voida pitää vahvistettuna ennen kuin louhija lisää sen lohkoon, sillä vain louhija vahvistaa transaktiot sisällyttämällä ne lohkoketjuun.
 
-Itse asiassa louhijoiden tehtävänä on kerätä kelvollisia ja vahvistamattomia transaktioita ja koota ne lohkoksi. Lyhyesti sanottuna heidän on ratkaistava kryptografinen pulma prosessissa nimeltä "proof of work", jotta heidän lohkonsa olisi seuraava lohko Bitcoin-lohkoketjussa.
+Itse asiassa louhijoiden tehtävänä on kerätä kelvollisia ja vahvistamattomia transaktioita ja koota ne lohkoksi. Lyhyesti sanottuna heidän on ratkaistava kryptografinen pulma prosessissa nimeltä "[proof of work](https://planb.academy/resources/glossary/proof-of-work)", jotta heidän lohkonsa olisi seuraava lohko Bitcoin-lohkoketjussa.
 
 ![image](assets/fi/047.webp)
 
@@ -836,7 +807,7 @@ Tämän voiton jälkeen solmut aktivoivat SegWit-nimisen päivityksen, joka taso
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Minerit turvaavat verkon ja lisäävät transaktioita lohkoihin. He käyttävät sähköä ASIC-koneiden avulla ratkaistakseen Bitcoin-työstötodistuksen.**
+**Minerit turvaavat verkon ja lisäävät transaktioita lohkoihin. He käyttävät sähköä [ASIC](https://planb.academy/resources/glossary/asic)-koneiden avulla ratkaistakseen Bitcoin-työstötodistuksen.**
 
 ![image](assets/fi/054.webp)
 
@@ -911,7 +882,7 @@ Bitcoiniin sovellettu peliteoria eliminoi epärehelliset louhijat, jotka käytt�
 
 Jos haluat syventyä tarkemmin Bitcoin-louhinnan aiheeseen, voit tutustua MIN 201 -kurssillemme. Tutustut Proof-of-Workin toimintaan ja rooliin sekä louhintateollisuuden mekaniikkaan. Selitämme myös, miten ASIC muunnetaan lämmittimeksi, jolloin voit louhia ensimmäiset satoshisi samalla kun lämmität kotiasi!
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ## Bitcoin ja ekologia
 
@@ -1043,9 +1014,11 @@ Bitcoin-taloustiede on olemassa ja kehittyy tietyillä alueilla maailmassa, kute
 
 Siitä huolimatta El Salvadorissa ja muualla maailmassa yhä useammat yksilöt, yritykset ja organisaatiot hyväksyvät Bitcoinin maksuvälineenä tuotteidensa tai palveluidensa maksamiseen.
 
-![image](assets/fi/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
-Lisäksi on käynnistetty avoimen lähdekoodin ja yhteistyön hanke [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), jonka tarkoituksena on helpottaa Bitcoinin käyttöä jokapäiväisissä liiketoimissa. Tällä alustalla luetellaan kaikki kauppiaat, jotka hyväksyvät Bitcoinin, sekä erilaiset Bitcoin-yhteisöt eri puolilla maailmaa, joten voit vierailla heidän verkkosivustollaan tutustuaksesi ympärilläsi olevaan Bitcoin-ekosysteemiin. Vaikeuksista ja epäröinnistä huolimatta on siis olemassa BTCMapin kaltaisia aloitteita, jotka osaltaan tekevät Bitcoin-taloudesta helpommin lähestyttävää ja kätevämpää kaikille.
+*Lähde : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
+Lisäksi on käynnistetty avoimen lähdekoodin ja yhteistyön hanke [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), jonka tarkoituksena on helpottaa Bitcoinin käyttöä jokapäiväisissä liiketoimissa. Tällä alustalla luetellaan kaikki kauppiaat, jotka hyväksyvät Bitcoinin, sekä erilaiset Bitcoin-yhteisöt eri puolilla maailmaa, joten voit vierailla heidän verkkosivustollaan tutustuaksesi ympärilläsi olevaan Bitcoin-ekosysteemiin. Vaikeuksista ja epäröinnistä huolimatta on siis olemassa BTCMapin kaltaisia aloitteita, jotka osaltaan tekevät Bitcoin-taloudesta helpommin lähestyttävää ja kätevämpää kaikille.
 
 ### Miksi meidän pitäisi hyväksyä Bitcoin sen sijaan, että ostaisimme sitä?
 
@@ -1063,17 +1036,17 @@ Käsittelemme tätä aihetta yksityiskohtaisesti toisella kurssilla, mutta yksin
 
 - Yksinkertainen online-ratkaisu: OpenNode
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Ratkaisu amatöörikauppiaille: Bitcoin Pay
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Ratkaisu suurille rakenteille tai intohimoisille bitcoin-asiakkaille: BTCpay Server
 
 Tämän aiheen syvällisempään ymmärtämiseen suosittelemme koulutustamme BIZ101! Opi, kuinka voit tehokkaasti integroida bitcoinit yrityksesi kassavirtaan, hyväksyä bitcoin maksutapana organisaatiosi profiilin mukaan ja ymmärtää asiaan liittyvät vero- ja kirjanpitovaatimukset:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Säästäminen Bitcoinilla
 
@@ -1088,7 +1061,7 @@ Bitcoinista on tullut merkittävä rahoitusvarallisuus, mikä johtuu pääasiass
 - Aiempi suorituskyky ei ole luotettava indikaattori tulevasta suorituskyvystä.
 - Ota tarvittaessa yhteyttä rahoitusneuvojaan.
 
-**Plan ₿ Network ei tarjoa sijoitusneuvontaa, eikä mitään tässä ilmoitettua tule pitää sellaisena**
+**Plan ₿ Academy ei tarjoa sijoitusneuvontaa, eikä mitään tässä ilmoitettua tule pitää sellaisena**
 
 ### Minitarkistuslista ennen käyttöönottoa
 
@@ -1116,7 +1089,7 @@ Asteittaiseen strategiaan kuuluu toistuvat ostot, eli pienten Bitcoin-määrien 
 
 **Varokaa UTXO:ta**: Muista aika ajoin konsolidoida UTXO:t lompakkoihisi. Tämä käytäntö on välttämätön, jotta voit hallita bitcoinejasi tehokkaasti ja välttää turhat maksut transaktioiden aikana.
 
-[UTXO](https://planb.network/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) on transaktion ulosmeno, jota ei ole vielä käytetty, mikä tarkoittaa, että sitä ei ole käytetty uuden transaktion sisäänmenona. UTXOjen konsolidointi tarkoittaa useiden pienten UTXOjen yhdistämistä yhdeksi suuremmaksi, jotta transaktion "painoa" voidaan vähentää ja siten maksaa alhaisempia maksuja.
+[UTXO](https://planb.academy/resources/glossary/utxo#:~:text=utxo) (Unspent Transaction Output) on transaktion ulosmeno, jota ei ole vielä käytetty, mikä tarkoittaa, että sitä ei ole käytetty uuden transaktion sisäänmenona. UTXOjen konsolidointi tarkoittaa useiden pienten UTXOjen yhdistämistä yhdeksi suuremmaksi, jotta transaktion "painoa" voidaan vähentää ja siten maksaa alhaisempia maksuja.
 
 - Spontaani osto
 
@@ -1130,7 +1103,7 @@ Bitcoineja voi hankkia useilla eri tavoilla, joista jokaiseen sovelletaan omia s
 
 - DCA-alustat
 
-Kuten edellä esiteltiin, yleinen tapa kerätä bitcoineja on Dollar Cost Averaging (DCA), jossa ostetaan säännöllisesti pieniä määriä. Useat alustat tarjoavat tätä palvelua, kuten [oma sivu](https://planb.network/tutorials/exchange). Sen lisäksi, että DCA:n perustaminen on yksinkertaista, kotiutukset lompakkoosi ovat yleensä automaattisia, mikä tarkoittaa, että voit aina hallita varojasi.
+Kuten edellä esiteltiin, yleinen tapa kerätä bitcoineja on Dollar Cost Averaging (DCA), jossa ostetaan säännöllisesti pieniä määriä. Useat alustat tarjoavat tätä palvelua, kuten [oma sivu](https://planb.academy/tutorials/exchange). Sen lisäksi, että DCA:n perustaminen on yksinkertaista, kotiutukset lompakkoosi ovat yleensä automaattisia, mikä tarkoittaa, että voit aina hallita varojasi.
 
 Nykyään lähes kaikki DCA-ratkaisut ovat suhteellisen tehokkaita ja niiden maksut ovat lähes samanlaiset, joten valinta riippuu enemmänkin saatavuudesta maassasi.
 
@@ -1158,7 +1131,7 @@ On tärkeää tunnustaa, että KYC on merkittävä keskustelunaihe Bitcoin-alall
 
 ### Non-KYC-ratkaisut
 
-Lisäksi on olemassa useita [markkinapaikkoja](https://planb.network/tutorials/exchange), joilla voi ostaa ja myydä bitcoineja vertaisverkkopörssissä. Yleisesti ottaen sinun mau harkita seuraavia:
+Lisäksi on olemassa useita [markkinapaikkoja](https://planb.academy/tutorials/exchange), joilla voi ostaa ja myydä bitcoineja vertaisverkkopörssissä. Yleisesti ottaen sinun mau harkita seuraavia:
 
 - Bitcoin-automaatit
 - Fyysiset tapaamiset muiden Bitcoin-harrastajien kanssa
@@ -1169,6 +1142,10 @@ Lisäksi on olemassa useita [markkinapaikkoja](https://planb.network/tutorials/e
 ![image](assets/fi/076.webp)
 
 Lopuksi on tärkeää huomata, että verovelvoitteet voivat vaihdella lainkäyttöalueesta riippuen, joten kehotamme sinua tutustumaan oman maasi säännöksiin ennen kuin ryhdyt mihinkään toimiin, jotka voivat aiheuttaa sinulle riskejä.
+
+Jos haluat syventää tietämystäsi bitcoinien osto-, käyttö- ja suojausstrategioista, suosittelen lämpimästi jatkamaan kurssille **BTC 102** tämän jälkeen. Siellä löydät muun muassa suosituksia työkaluista, jotka sopivat profiiliisi, tarpeisiisi ja henkilökohtaisiin tavoitteisiisi:
+
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ## Hyper-bitcoinization
 
@@ -1190,89 +1167,202 @@ Lopuksi pyydämme teitä pohtimaan tätä uutta rahapoliittista vallankumousta. 
 
 ![image](assets/fi/079.webp)
 
-Jos haluat laajentaa tietämystäsi Bitcoinista, nyt on oikea hetki: monet kirjailijat, ajattelijat ja esseistit ovat luoneet opetussisältöä Bitcoinista. Viime vuosien aikana olemme listanneet ja luokitelleet näitä teoksia tarjotaksemme [resurssikirjaston](https://planb.network/resources) uteliaimmille teistä. Tästä osiosta löydät parhaat podcastit, verkkosivustot, artikkelit, opetusohjelmat, kirjat ja muun sisällön.
+Jos haluat laajentaa tietämystäsi Bitcoinista, nyt on oikea hetki: monet kirjailijat, ajattelijat ja esseistit ovat luoneet opetussisältöä Bitcoinista. Viime vuosien aikana olemme listanneet ja luokitelleet näitä teoksia tarjotaksemme [resurssikirjaston](https://planb.academy/resources) uteliaimmille teistä. Tästä osiosta löydät parhaat podcastit, verkkosivustot, artikkelit, opetusohjelmat, kirjat ja muun sisällön.
 
 > "Uskon, että Internet tulee olemaan yksi tärkeimmistä voimista, jotka vähentävät hallituksen roolia. Ainoa asia, joka vielä puuttuu, mutta joka pian kehitetään, on luotettava sähköinen käteisraha - menetelmä, jolla Internetissä voi siirtää varoja A:lta B:lle ilman, että A tietää B:tä tai B tietää A:ta." - Milton Friedmanin ennustus vuonna 1999
 
-# Bitcoinin tulevaisuus: Salamaverkko
+
+# Bitcoinin tulevaisuus
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Lyhyt esittely salamaverkosta
+## Lightning-verkko: bitcoin-maksut nopeasti ja alhaisilla kuluilla
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Nyt kun meillä on Bitcoin-protokollan perusteet, esittelemme maksuverkon, joka käyttää Bitcoin-protokollaa salamannopeiden maksutapahtumien mahdollistamiseksi: Lightning Network!
+Nyt kun tunnet Bitcoin-protokollan perusteet, esittelemme tärkeimmän Bitcoinin päälle rakennetun maksuverkon: Lightning Networkin (usein lyhennettynä "LN"). Sen tavoite on yksinkertainen: mahdollistaa BTC-maksut lähes välittömällä lopullisuudella, ilman että lohkoketju ylikuormittuu, ja yleensä hyvin alhaisilla kuluilla.
 
-Huomaa, että seuraava on vain yleinen kuvaus, joten jos haluat ymmärtää sen tarkemmin, pyydämme sinua tutustumaan LNP201-kurssiimme.
+### Lohkoketju ei voi tehdä kaikkea
 
-### Pähkinänkuoressa
-
-Salamaverkko on vallankumouksellinen teknologia, joka on muuttanut perusteellisesti käsitystämme Bitcoinista, sillä se ratkaisee Bitcoinin skaalautuvuusongelman.
-
-Lightning Networkin ymmärtämiseksi on tärkeää ymmärtää, miten Bitcoin kehittyy ja kehittyy infrastruktuurin kerroksissa: ensimmäinen kerros on lohkoketju ja toinen Lightning Network.
-
-![image](assets/fi/080.webp)
-
-### Lohkoketju ei voi kasvaa loputtomiin
-
-Salamaverkko validoitiin ja otettiin käyttöön vuonna 2017 Bitcoinin skaalautuvuusongelman ratkaisemiseksi, sillä se mahdollistaa välittömät ja edulliset Bitcoin-tapahtumat.
-
-Skaalautuvuusongelmalla tarkoitetaan haastetta, joka liittyy sellaisen rahajärjestelmän toteuttamiseen, joka kykenee tarjoamaan yhä suuremman määrän transaktioita sekunnissa, jotta voidaan vastata kasvavaan hyväksyntään. Tämä ongelma liittyy lohkoketjun trilemmaan. Kuvitellaan kolmio, jonka kärkipisteinä ovat hajautus, turvallisuus ja skaalautuvuus.
+Bitcoin-lohkoketju on suunniteltu siten, että mahdollisimman moni voi varmentaa sen toiminnan ilman lupaa ja ilman luottamusta. Tämä vaatimus tuo mukanaan rakenteellisia rajoitteita: lohkoketju ei voi käsitellä rajatonta määrää transaktioita, koska lohkojen on pysyttävä kohtuullisen kokoisina ladattavaksi, tallennettavaksi ja varmennettavaksi riippumattomien solmujen toimesta, ilman että tarvitaan kallista laitteistoa. Tämä kompromissi tiivistetään usein niin sanottuun trilemmaan: hajautus, turvallisuus ja skaalautuvuus. Lohkoketjuun perustuva järjestelmä ei voi maksimoida näitä kolmea ominaisuutta samanaikaisesti. Bitcoin asettaa etusijalle hajautuksen ja turvallisuuden, mikä rajoittaa luonnollisesti onchain-transaktioiden läpimenokykyä.
 
 ![image](assets/fi/081.webp)
 
-Sen mukaan lohkoketjuun perustuva protokolla voi täyttää vain kaksi näistä kolmesta ominaisuudesta. Bitcoin-protokollan kehittäjät ovat tehneet valintoja hajauttamisen ja turvallisuuden hyväksi. Toisaalta lohkokoko 1MB ja kahden lohkon välinen aika (keskimäärin 10 minuuttia) mahdollistavat Bitcoin-solmun käyttämisen pienemmillä kustannuksilla, mikä suosii hajauttamista. Toisaalta lohkojen tuottaminen Proof-of-Work -toiminnolla tekee protokollassa tapahtuvista petoksista erittäin kalliita, mutta helpottaa samalla verkon solmujen suorittamaa todentamista ja suosii turvallisuutta. Nämä valinnat rajoittavat kuitenkin lohkon keskimääräistä transaktioiden määrää, joka vastaa noin muutamaa transaktiota sekunnissa. Tämä määrä on naurettava, kun sitä verrataan VISAn kaltaisten maksuprosessorien laskentakapasiteettiin (1700/s), mutta tämä raja on välttämätön, jotta Bitcoinin avulla voidaan tehdä liiketoimia sensuurin kestävästi ja luotettavasti. Bitcoinin kehittäjät ovat kuitenkin pohtineet tätä ongelmaa alusta asti.
+Bitcoinissa kehittäjät ovat tehneet tietoisia valintoja näiden periaatteiden säilyttämiseksi. Yhtäältä lohkokoon rajaaminen 1 megatavuun ja keskimääräinen 10 minuutin aika lohkojen välillä mahdollistavat Bitcoin-solmun ajamisen alhaisin kustannuksin, mikä edistää verkon hajautusta. Toisaalta lohkojen tuottaminen proof-of-work-menetelmällä tekee kaikista vilpillisen toiminnan yrityksistä äärimmäisen kalliita, samalla kun se helpottaa solmujen tekemää varmennusta ja vahvistaa koko protokollan turvallisuutta.
 
-### Salama kerroksen päälle
+Näillä valinnoilla on kuitenkin merkittävä seuraus: kuhunkin lohkoon sisällytettävien transaktioiden määrä on rajallinen. Tämä vastaa vain muutamaa transaktiota sekunnissa. Luku on mitätön verrattuna keskitettyihin maksujärjestelmiin kuten VISAan (jonka teoreettinen maksimikapasiteetti on noin 65 000 transaktiota sekunnissa), mutta tämä rajoitus on hinta, joka maksetaan sensuroimattomista ja luottamusta vailla olevista transaktioista.
 
-Vuosien harkinnan ja useiden yritysten jälkeen syntyi Lightning-protokolla. Käyttämällä tiettyä määrää eritelmiä tämä protokolla rakentaa vertaisverkkomaksamisverkon hyödyntämällä Bitcoinin transaktioprotokollan turvallisuutta ja ohjelmoitavuutta. Lightning-verkko toimii maksukanavien verkostona, joka mahdollistaa välittömät maksutapahtumat lähettäjälle alhaisilla maksuilla, ja se luo jopa vaihtoreittejä sellaisten henkilöiden välille, joilla ei ole suoraa kanavayhteyttä.
+Käytännössä tämä tarkoittaa kahta hyvin tärkeää asiaa Bitcoinin arkikäytön kannalta:
+* kun lohkotilan kysyntä kasvaa, onchain-kulut voivat nousta erittäin korkeiksi;
+* onchain-maksut vaativat vahvistuksia, mikä ei aina sovi päivittäisiin ostoksiin.
 
-![image](assets/fi/082.webp)
+Lightning Network on juuri vastaus näihin ongelmiin. Lightningin ajatus perustuu kerrokselliseen lähestymistapaan: Bitcoin säilyy peruskerroksena (selvityskerros, vahva ja erittäin turvallinen), kun taas Lightning toimii sen päällä nopeana maksukerroksena.
 
-Perinteiset rahansiirtopalvelut, kuten Western Union, keskuspankit, Visa ja Mastercard, voivat kadota, jos ne eivät ota käyttöön Lightning Network -tekniikkaa, joka on nykyisiä maksujärjestelmiä tehokkaampi ja kustannustehokkaampi. Lightning Network mahdollistaa itse asiassa lähes rajattomat maksutapahtumat kahden vertaisverkon välillä, jotka jakavat kanavan, ja niistä aiheutuu vain maksutapahtumaan liittyvät energiakustannukset, jotka liittyvät kanavan luomisen ilmoittamiseen, eikä jokaisesta yksittäisestä maksutapahtumasta.
+![image](assets/fi/080.webp)
+
+### Bitcoinin varaan ankkuroituvat maksukanavat
+
+Lightning perustuu kaksisuuntaisiin maksukanaviin. Kanava on tekninen suhde kahden osapuolen välillä, jonka avulla he voivat siirtää satseja offchain, eli ilman että jokainen maksu kirjataan lohkoketjuun.
+
+Bitcoinin näkökulmasta (onchain) kanavan avaaminen tarkoittaa varojen lukitsemista erityiseen transaktioon. Tätä voi ajatella eräänlaisena talletuksena: varat lukitaan siten, että vain kanavan pätevä sulkeminen voi jakaa ne uudelleen.
+
+Lightningin näkökulmasta sama mekanismi muodostaa kanavan, jossa molemmat osapuolet voivat päivittää satien jakautumistilaa niin monta kertaa kuin haluavat, lähes välittömästi ja ilman että jokaista maksua tarvitsee kirjata päälohkoketjuun.
+
+Mekanismi toimii siis seuraavasti:
+* Lightning-kanavan avaaminen ja sulkeminen ovat Bitcoin-transaktioita (ja siten julkaistaan onchain);
+* maksut avaamisen ja sulkemisen välillä ovat offchain-päivityksiä, jotka eivät näy päälohkoketjussa.
 
 ![image](assets/fi/083.webp)
 
-Transaktiot suojataan kryptografian avulla ja epäsuorasti Bitcoinin louhijoiden kuluttaman energian avulla. Ne voidaan tehdä välittömästi, ilman maantieteellisiä rajoituksia ja erittäin alhaisilla maksuilla (usein alle 0,5 %).
+Näin kaksi Lightning-kanavan jakavaa henkilöä voivat suorittaa erittäin suuren määrän maksuja ilman, että joka kerta tehdään onchain-transaktio. Tässä näkyy jälleen skaalautuvuuden logiikka: lohkoketju varataan harvinaisille ja tärkeille operaatioille (kanavan avaaminen ja sulkeminen eli lopullinen selvitys), ja pienet välivaiheen maksut siirretään tehokkaampaan kerrokseen.
 
-Yhteenvetona voidaan todeta, että Lightning Network on lupaava yritys ottaa käyttöön tehokas maksujärjestelmä Bitcoinin ostamista ja myymistä varten. Saatavilla on jo lukuisia Lightning-lompakoita, joihin voit tutustua tutoriaaliosastollamme tai Lightning Network -kursseillamme.
+### Toisiinsa kytkeytynyt kanavaverkko
 
-Jos haluat mennä tätä johdantoa pidemmälle ja ymmärtää Lightning-verkon kaikki toiminnot, suosittelemme Fanis Michalakisin erinomaista kurssia aiheesta:
+Lightning ei ole vain joukko erillisiä kanavia. Se on verkko: tuhannet solmut on yhdistetty toisiinsa kanavien kautta, muodostaen yhteyksien graafin.
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+![image](assets/fi/082.webp)
 
-## Salamaverkon käyttötapaukset
+Tämän verkon ansiosta voit maksaa vastaanottajalle, vaikka sinulla ei olisi suoraa kanavaa hänen kanssaan, kunhan on olemassa kanavapolku, jota pitkin maksu voidaan reitittää. Maksu kulkee tällöin useiden välisolmujen kautta, hyppy kerrallaan.
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+Tässä kohtaa esiin nousee Lightningin keskeinen käsite: likviditeetti. Kanavan kapasiteetti vastaa siihen lukittujen varojen kokonaismäärää, ja likviditeetti tarkoittaa näiden varojen jakautumista kanavan molemmille puolille, eli sitä suuntaa, johon satseja voidaan siirtää. Toisin sanoen kanavalla voi olla suuri kapasiteetti, mutta se voi olla käyttökelvoton tietyssä suunnassa, jos likviditeetti on väärällä puolella. Maksujen onnistuminen riippuu siis sekä polun olemassaolosta että käytettävissä olevasta likviditeetistä koko polun varrella.
 
-Kuten juuri näimme, Bitcoin-protokolla on vallankumouksellinen, mutta sen skaalautuvuuteen liittyy huomattavia haasteita, joita tarvitaan kaikkien päivittäisten transaktioidemme käsittelyyn. Näiden ongelmien ratkaisemiseksi ehdotettiin Lightning Network -verkostoa, josta on sittemmin kehitetty useita erilaisia toteutuksia, jotka kaikki ovat yhteentoimivia:
+### Maksun reitittäminen ilman luottamusta välittäjiin
 
-- Blockstreamin Core-lightning
-- Acinqin Eclair
-- LND salamanisku
+Lightning on suunniteltu mahdollistamaan maksut välittäjien kautta ilman, että heihin tarvitsee luottaa. Tätä varten protokolla käyttää älysopimuksia nimeltä HTLC (*Hashed Time-Locked Contracts*). Kaikkiin yksityiskohtiin menemättä, perusmekanismi on seuraava:
+* maksu on ehdollinen salaisuuden (esi-kuvan) paljastamiselle;
+* jos lopullinen vastaanottaja paljastaa tämän salaisuuden, hän saa varat ja välittäjät voivat puolestaan lunastaa heille kuuluvat osuudet;
+* jos maksu epäonnistuu, aikarajat umpeutuvat ja kukin saa omat varansa takaisin.
 
-Tämän vertaisverkon tarkoituksena on helpottaa (hyvin arvoltaan vähäisiä) mikrotransaktioita, jotka olisivat muuten epäkäytännöllisiä korkeiden maksujen ja pitkien vahvistusaikojen vuoksi Bitcoin-lohkoketjussa.
+Tämä toiminta antaa olennaisen ominaisuuden: maksu on atominen. Se joko onnistuu kokonaan tai epäonnistuu ilman välihäviöitä.
 
-### Mitkä ovat verkon käyttötapaukset?
+Lopuksi Lightning sisältää rangaistusmekanismin: jos jompikumpi osapuolista yrittää huijata julkaisemalla vanhan kanavatilan (joka ei enää vastaa todellisuutta), toinen voi rangaista häntä ja ottaa haltuunsa kaikki varat. Tämä sääntö kannustaa voimakkaasti rehellisyyteen myös vihamielisessä ympäristössä.
 
-Tämä teknologia avaa oven monenlaisille mahdollisille Bitcoinin sovelluksille, jotka olivat aiemmin saavuttamattomissa, koska Bitcoinin turvallisuuden ja hajauttamisen varmistamiseksi tarvittavien rajoitusten vuoksi. Näistä jokapäiväisistä käyttötapauksista voidaan mainita välitön laskutus sekä fyysisessä että verkkokaupassa, streaming-rahoitus reaaliaikaisia maksuja varten ja mikrolahjoitukset sisällöntuottajille. Kun mahdollistetaan lähes välittömien, turvallisten ja edullisten (keskimäärin alle 0,5 %) transaktioiden verkko, voidaan toteuttaa monia aiemmin käsittämättömiä liiketoimintamalleja. Tämä on mahdollista, koska Salamaverkko toimii satosheilla (sats), jotka ovat Bitcoinin pienin yksikkö.
+### Lightning-solmu, Lightning-lompakko: mitä tämä tarkoittaa
 
-![image](assets/fi/084.webp)
+Bitcoinin onchain-maailmassa lompakko on ohjelmisto, joka hallinnoi avaimia ja rakentaa transaktioita. Lightningissa tilanne on moniselitteisempi, sillä aidosti ei-holhoava käyttö perustuu Lightning-solmuun (vaikka solmu olisi piilotettu yksinkertaisen käyttöliittymän taakse).
 
-Videopeliteollisuus on erityisen mielenkiintoinen esimerkki siitä, miten Lightning Networkin avulla voidaan muuttaa nykyisiä liiketoimintamalleja. "Pelissä mukana olemisen" käsite on ajatus, joka on viime aikoina saavuttanut suosiota tässä yhteydessä. Kyse on lähinnä siitä, että pelaajalla on taloudellinen panos pelin lopputuloksesta. Itse asiassa Lightning Network mahdollistaa sen, että pelaajat voivat panostaa hyvin pieniä rahasummia pelatessaan pelejä, kuten muutaman satoshin (noin eurosentin murto-osan), ja luoda näin panoksen, joka stimuloi kilpailua ja lisää samalla merkittävästi bottien käyttökustannuksia.
+Käytännössä Lightningin käyttöön on kaksi pääasiallista sovellustyyppiä:
+* holhoavat palvelut: sovellus näyttää saldon, mutta varoja hallinnoi palveluntarjoaja. Saldo on kirjanpitomerkintä heidän järjestelmässään, kuten pörssissä;
+* ei-holhoavat ratkaisut: hallitset itse avaimia ja kykyä palauttaa varasi. Tämä voi olla sovellus, joka sisältää minimaalisesti hallitun solmun ja yksinkertaistaa käyttökokemusta (esimerkiksi Phoenix, Zeus...), tai täysimittainen Lightning-solmu, jota hallinnoit kokonaan itse.
+
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+Nykyään on myös itsehallittavia lompakoita, jotka tukevat Lightning-maksuja epäsuorasti hyödyntämällä atomisia swappeja, jotka käynnistetään tarpeen mukaan jokaiselle sisään- tai ulosmaksulle (esimerkiksi Bull Bitcoin Wallet, Aqua...). Nämä lompakot käyttävät yleensä Liquid-sivuketjua selvityskerroksena (näemme seuraavassa luvussa, mitä tämä tarkoittaa).
+
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
+
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+### Konkreettiset käyttötapaukset: mitä Lightning viimein mahdollistaa
+
+Lightning avaa joukon käyttötapoja, jotka olivat aiemmin epäkäytännöllisiä tai jopa mahdottomia pelkällä onchain-Bitcoinilla.
+
+- **Päivittäiset maksut (verkossa ja fyysisesti)**
+
+Kassalla tai verkkokaupassa Lightning mahdollistaa lähes välittömän lopullisuuden ja yleensä alhaiset kulut. Tämä tekee bitcoinista käyttökelpoisen pienille summille, myös silloin kun päälohkoketju on ruuhkainen.
+
+- **Mikromaksut ja streaming money**
+
+Mahdollisuus lähettää hyvin pieniä summia avaa uusia taloudellisia malleja: käytön mukaan maksaminen, minuuttihinnoittelu, toistuvat lahjoitukset, juomarahat... Tämä on "streaming money" -ajatus: maksaminen todellisen kulutuksen mukaan, eikä kiinteällä tilauksella.
+
+- **Sisällöntuottajat, podcastit ja lahjoitukset**
+
+Lightningia käytetään usein mikrolahjoituksiin tai palkitsemismekanismeihin. Sovellukset kuten Fountain tai Rumble havainnollistavat tätä hyvin: maksuista tulee osa käyttökokemusta, eikä raskas ja satunnainen toimenpide. Olemme ottaneet tämän logiikan käyttöön myös Plan ₿ Academyssa, jossa voit helposti lähettää pieniä lahjoituksia suosikkiopettajillesi kiitokseksi.
+
+- **Pelit ja digitaaliset taloudet**
+
+Videopelit ja digitaaliset ympäristöt soveltuvat luontevasti mikromaksuihin: pienet panokset, palkinnot, virtuaaliset esineet... Pienen rahallisen panoksen lisääminen voi myös nostaa roskapostin ja tiettyjen väärinkäytösten (botit) kustannuksia, säilyttäen silti saavutettavuuden.
 
 ![image](assets/fi/085.webp)
 
-Yhteenvetona voidaan todeta, että mikrotransaktioiden tulevaisuus Bitcoinilla näyttää lupaavalta Lightning Networkin kaltaisten innovaatioiden ansiosta. Kun nämä teknologiat kehittyvät ja kypsyvät edelleen, voimme odottaa näkevämme lähitulevaisuudessa uusia ja jännittäviä sovelluksia.
+### Lightningin tärkeimmät toteutukset
 
-![image](assets/fi/086.webp)
+Kuten Bitcoinissa, Lightning on protokolla, ei yksi ainoa ohjelmisto. Useita toteutuksia on rinnakkain, ja ne ovat yhteensopivia yhteisten määritysten (BOLT) ansiosta:
+* LND (Lightning Labs);
+* Core Lightning (Blockstream);
+* Éclair (ACINQ);
+* LDK (Spiral/Block);
+* jne.
 
-Toinen esimerkki voisi olla "rahan suoratoisto": Lightning Networkin kautta voimme tehdä mikrotransaktioita joka minuutti (mahdollisesti ilman luotettavaa kolmatta osapuolta), mikä avaa mahdollisuuden kokeilla taloudellisia malleja, joissa kuluttajat maksavat sisällöstä todellisen kulutuksen perusteella. On jopa mahdollista käyttää tätä järjestelmää tavaroiden vuokraamiseen. Tällaisessa järjestelmässä raha jaetaan automaattisesti ennalta määritellyn prosenttiosuuden perusteella palvelun tai tuotteen eri tuottajien kesken. Tämä voisi mullistaa tapamme ajatella maksumalleja: sen sijaan, että käyttäjä maksaisi palvelusta kuukausitilauksen, häneltä voitaisiin veloittaa minuutti- tai jopa sekuntipalkkio palvelua käyttämästään ajasta. Tällaisella taloudellisella mallilla voisi olla syvällisiä vaikutuksia sisällöntuottajiin, joita kannustettaisiin tuottamaan laadukasta sisältöä, jotta käyttäjien huomio säilyisi.
+### Lightning osana Bitcoinin kehitystä
 
-![image](assets/fi/087.webp)
+Lightning ei korvaa Bitcoin-lohkoketjua, vaan täydentää sitä. Lohkoketju säilyy lopullisena selvityskerroksena, hitaana mutta erittäin vahvana. Lightning on nopea maksukerros, joka on suunniteltu toistuviin käyttötapauksiin ja pieniin summiin.
 
-Yhteenvetona voidaan todeta, että Lightning Network avaa Bitcoin-käyttäjille lukuisia mielenkiintoisia käyttötapoja. Tuloksena syntyvät taloudelliset mallit ja liiketoimintamahdollisuudet ovat lukuisia ja monipuolisia, ja kehotamme sinua tarkistamaan asian itse kokeilemalla podcast-sovellusta [Fountain](https://www.fountain.fm/), jonka avulla sinut voidaan palkita muutamalla satsilla suosikkipodcastien kuuntelemisesta!
+Vuonna 2025 Lightning on helpommin lähestyttävä kuin alkuaikoinaan, kiitos lompakoiden ja palveluiden, jotka piilottavat osan monimutkaisuudesta. Se säilyttää kuitenkin kompromisseja: likviditeetti, kanavien onchain-kustannukset ja toisinaan valinnat helppokäyttöisyyden, suvereniteetin ja yksityisyyden välillä.
+
+Jos haluat ymmärtää Lightningia syvällisesti (kanavat, likviditeetti, reititys, riskienhallinta), suosittelen Fanis Michalakisin kattavaa teoreettista kurssia LNP 201:
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+Ja jos haluat ryhtyä operoimaan omaa Lightning-solmuasi, tarjoamme myös käytännöllisen kurssin LNP 202, joka on omistettu juuri tälle aiheelle:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+
+## Lightningin tuolla puolen: muut protokollat Bitcoinin kehittämiseksi
+
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+
+Kuten aiemmissa luvuissa on nähty, Bitcoin on suunniteltu erittäin vahvaksi peruskerrokseksi: julkiseksi, yksinkertaiseksi ja turvalliseksi rekisteriksi, mutta luonnostaan rajoitetuksi nopeuden, ohjelmoitavuuden ja maksujen läpimenon osalta. Sen sijaan, että tätä kerrosta pakotettaisiin tekemään kaikkea (kuten esimerkiksi Ethereumissa), Bitcoin-ekosysteemi on vähitellen omaksunut kerroksellisen lähestymistavan: lohkoketju toimii perustana (lopullinen selvitys), ja ylemmät kerrokset lisäävät uusia ominaisuuksia, kuten nopeammat maksut, parempi yksityisyys tai omaisuuserien liikkeeseenlasku (stablecoinit, tokenisoidut arvopaperit...).
+
+Bitcoin ei kehity ainoastaan muuttamalla perusprotokollaansa. Se kehittyy myös rakentamalla sen päälle ratkaisuja, jotka tekevät erilaisia kompromisseja tavoitteen mukaan. Osa tavoittelee maksujen skaalautuvuutta, osa ohjelmoitavuutta (laajassa merkityksessä) ja omaisuuserien liikkeeseenlaskua, ja osa pyrkii yhdistämään molemmat.
+
+Tässä luvussa esittelemme neljä tärkeää protokollaa, jotka tuovat uusia mahdollisuuksia Bitcoinin päälle: sivuketjut (erityisesti Liquid), Ark, RGB ja Taproot Assets.
+
+### Sivuketjut: rinnakkaiset lohkoketjut, jotka on yhdistetty Bitcoiniin
+
+Sivuketju on Bitcoinista erillinen lohkoketju, joka on suunniteltu toimimaan rinnakkain omilla säännöillään ja omalla konsensusmekanismillaan. Se on yhdistetty Bitcoiniin kaksisuuntaisen ankkurointimekanismin (*2WP*) avulla, joka käytännössä mahdollistaa bitcoinien käytön sivuketjussa edustavassa muodossa (yleensä bitcoin lukitaan Bitcoinissa ja luodaan uudelleen sivuketjussa), ja sen jälkeen paluun takaisin pääketjuun.
+
+Sivuketjun etuna on mahdollisuus tarjota toiminnallisuuksia, joita on vaikea saavuttaa itse Bitcoinissa: nopeammat transaktiot, omaisuuserätoiminnot, parempi yksityisyys tai suurempi kehitysjoustavuus. Vastineeksi sivuketju tekee aina kompromisseja suhteessa Bitcoiniin, erityisesti luottamusmallin tai hajautuksen osalta.
+
+Tunnetuin Bitcoinin sivuketju on todennäköisesti **Liquid**, jonka on kehittänyt Blockstream. Se on suunniteltu erityisesti nopeuttamaan tiettyjä käyttötapauksia: nopeat siirrot alustojen välillä, tiheämmät selvitykset ja omaisuuserien liikkeeseenlasku (stablecoinit, arvopaperit...), parannetulla yksityisyydellä. Liquidissa käytettävät bitcoinit ovat nimeltään L-BTC, ja niiden on tarkoitus olla sidottuja 1:1 BTC:hen kaksisuuntaisen ankkurointimekanismin kautta.
+
+![image](assets/fi/088.webp)
+
+Suurin ero Bitcoiniin verrattuna liittyy turvallisuus- ja hajautusmalliin: Liquid ei perustu Bitcoinin proof-of-workiin, vaan operaattorifederaatioon (tunnistettu ryhmä), joka vastaa lohkojen tuotannosta ja BTC:n ja L-BTC:n välisten siltojen toiminnasta.
+
+https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
+
+### Ark: UTXOjen jakaminen kustannusten pienentämiseksi ja käyttökokemuksen parantamiseksi
+
+Ark viittaa ehdotusten ja toteutusten perheeseen, jonka tavoitteena on parantaa Bitcoinin skaalautuvuutta yhdistämällä suuri määrä käyttäjätoimintoja pieneen määrään Bitcoin-transaktioita. Ajatus on melko yksinkertainen: sen sijaan, että jokaiselle käyttäjälle luotaisiin oma onchain-transaktio, luodaan yksi onchain-transaktio, joka edustaa erää, ja tämän jälkeen kunkin oikeudet kehittyvät pääosin ketjun ulkopuolella, kunnes lopullinen selvitys halutaan tehdä Bitcoinissa.
+
+Tämän toisen kerroksen protokollan idean esitteli Burak toukokuussa 2023. Lightning Networkin tavoin Ark on järjestelmä, joka toimii Bitcoinin pääketjun päällä. Se mahdollistaisi bitcoin-maksut ketjun ulkopuolella nopeasti, anonyymisti ja alhaisin kuluin. Lightningiin verrattuna Ark ei vaadi saapuvaa likviditeettiä maksujen vastaanottamiseen, mikä parantaa merkittävästi käyttökokemusta. Lisäksi se tarjoaa yksityisyyden tason, joka lähestyy coinjoin-transaktioita. Ark voisi olla myös ei-interaktiivinen, jos Bitcoiniin lisätään covenantit.
+
+Burak kritisoi usein Lightningin kykyä skaalautua sen riippuvuuden vuoksi pääketjusta ja ehdottaa, että Ark voisi teoriassa ottaa koko maailman väestön mukaan itsehallintaan. Vaikka Arkia voidaan pitää Lightning Networkin kilpailijana, molemmat voivat todellisuudessa toimia rinnakkain ja jopa täydentää toisiaan.
+
+Ark on edelleen hyvin aktiivinen mutta nuori alue: tavoite on lupaava (onchain-jäljen radikaali pienentäminen käyttäjää kohden), mutta on syytä muistaa, että kyseessä on monimutkaisempi arkkitehtuuri, jossa on erilaisia oletuksia ja riskejä kuin Bitcoinissa ja Lightningissa.
+
+### RGB: sopimuksia ja omaisuuseriä asiakaspuolen validoinnilla
+
+RGB on Bitcoinin päälle rakennettu älysopimus- ja omaisuuseräjärjestelmä, joka omaksuu radikaalisti erilaisen lähestymistavan kuin yleiskäyttöiset lohkoketjut. Sen keskeinen idea on asiakaspuolen validointi: sen sijaan, että sopimuksen koko tila julkaistaisiin globaalissa lohkoketjussa, osallistujat säilyttävät ja validoivat paikallisesti ne historiat, jotka koskevat heitä, kun taas Bitcoin-lohkoketju toimii vain kryptografisten sitoumusten ankkurina ja kaksoiskäytön estäjänä.
+
+Toisin sanoen:
+* Bitcoin-lohkoketju toimii aikaleimauksen perustana ja minimaalisena välimiehenä;
+* yksityiskohtaiset tiedot (sopimuksen säännöt, tilat, siirtymät) kulkevat ketjun ulkopuolella asianosaisten välillä;
+* validointi tapahtuu paikallisesti, mikä parantaa skaalautuvuutta ja voi parantaa yksityisyyttä, koska kaikkien nähtävissä olevaa RGB-toiminnan globaalia rekisteriä ei ole.
+
+![image](assets/fi/089.webp)
+
+RGB voi toimia perustana monenlaisten omaisuuserien liikkeeseenlaskulle ja hallinnalle: tokenit (mukaan lukien stablecoinit), NFT:t tai digitaaliset arvopaperit, tai jopa monimutkaisempien sopimuslogiikoiden rakentamiselle, ilman että peruskerrosta kuormitetaan.
+
+Tämän lähestymistavan kääntöpuoli on tiedonhallinta: jos validoit asiakaspuolella, sinun on myös säilytettävä ja varmuuskopioitava huolellisesti ne tiedot, jotka todistavat oikeutesi.
+
+RGB on protokolla, jota on kehitetty jo useiden vuosien ajan. Edistyminen on ollut asteittaista, mutta nykyään on jo olemassa konkreettisia sovelluksia, jotka hyödyntävät RGB:tä. Jos haluat mennä syvemmälle, tarjoamme Plan ₿ Academyssa asiantuntijatason kurssin, joka käsittelee tämän protokollan toimintaa perusteellisesti:
+
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+### Taproot Assets: omaisuuserien liikkeeseenlasku Bitcoinissa ja niiden siirto Lightningissa
+
+Taproot Assets (aiemmin "Taro") on Lightning Labsin kehittämä protokolla, jonka tavoitteena on mahdollistaa omaisuuserien liikkeeseenlasku Bitcoinissa ja niiden siirtäminen Lightning-verkon kautta nopeaa ja edullista vaihtoa varten.
+
+Se on usein mainittu osana Bitcoinin "programmable money" -kertomusta: ei siksi, että Bitcoinista tulisi globaali tietokone, vaan siksi, että rahoitusinstrumentteja (omaisuuseriä) voidaan rakentaa Bitcoinin perustan päälle ja saada ne liikkumaan tehokkaasti Lightningin kautta.
+
+### Bitcoin vahvistuu, kun ylemmät kerrokset innovoivat
+
+Nykyään tarkin kuva Bitcoin-ekosysteemistä ei ole muuttumaton protokolla eikä superlohkoketju, joka tekisi kaiken kuten Ethereum. Se on pikemminkin tarkoituksella konservatiivinen perusta, jota ympäröivät kerrokset ja protokollat, jotka kokeilevat ja mahdollistavat innovaation minimaalisella riskillä.
 
 ## Punainen vai sininen pilleri?
 

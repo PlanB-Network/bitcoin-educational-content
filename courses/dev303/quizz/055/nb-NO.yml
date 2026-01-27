@@ -1,0 +1,8 @@
+question: Hva skjer i løpet av kompileringsprosessen når Rust-kompilatoren støter på en makrooppkalling?
+answer: Kompilatoren sammenligner inndataene med definerte mønstre og erstatter makroanropet med generert kode før typekontrollen finner sted
+wrong_answers:
+  - Kompilatoren utsetter makroutvidelsen til etter typekontroll og optimalisering for å sikre at koden er gyldig
+  - Kompilatoren lagrer makroanropet som bytekode og utvider det dynamisk under kjøring
+  - Kompilatoren validerer makrosyntaksen, men overlater den faktiske utvidelsen til linkeren å håndtere
+explanation: |
+  Makroer utvides under kompilering før typekontroll og optimalisering finner sted. Når kompilatoren støter på en makrokalling, sammenligner den umiddelbart inndataene med makroens definerte mønstre og erstatter hele makrokallet med den genererte koden. Denne utvidede koden gjennomgår deretter normale kompileringsprosesser, inkludert typekontroll. De andre alternativene er feil fordi makroer opererer ved kompileringstid, ikke kjøretid, og utvidelsen må skje før typekontrollen, siden den genererte koden må valideres for korrekthet.

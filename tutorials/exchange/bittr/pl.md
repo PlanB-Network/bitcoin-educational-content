@@ -21,7 +21,7 @@ Przyjrzyjmy się, jak łatwo jest rozpocząć układanie Sats za pomocą Bittr.
 ## Rozpoczęcie pracy z Bittr
 
 
-- Na stronie internetowej lub telefonie komórkowym przejdź do [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) i kliknij "Kup Bitcoin"
+- Na stronie internetowej lub telefonie komórkowym przejdź do [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) i kliknij "Kup Bitcoin"
 
 
 

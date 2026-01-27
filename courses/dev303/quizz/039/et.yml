@@ -1,0 +1,8 @@
+question: Milline tunnus esindab sulgemisi, mida saab kutsuda mitu korda ilma nende hõivatud keskkonda muutmata?
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn on kõige piiravam sulgemise tunnus, mis esindab sulgemisi, mida saab kutsuda mitu korda, ilma et nende hõivatud keskkonda muudetaks. Need sulgemised haaravad ainult muutumatu viitega ja neid saab turvaliselt samaaegselt kutsuda. FnOnce esindab sulgemisi, mida saab kutsuda ainult üks kord, samas kui FnMut esindab sulgemisi, mida saab kutsuda mitu korda, kuid mis võivad muuta nende hõivatud keskkonda. FnCapture ei ole tõeline Rust tunnus.

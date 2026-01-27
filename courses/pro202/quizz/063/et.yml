@@ -1,0 +1,8 @@
+question: Milline on peamine krüptograafiline omadus, mis võimaldab kompaktsete plokkfiltrite (BIP158) abil tagada kergete klientide privaatsus, säilitades samal ajal täiusliku täpsuse?
+answer: Nad võivad anda valepositiivseid tulemusi, kuid mitte kunagi valenegatiivseid tulemusi tehingute sobitamisel
+wrong_answers:
+  - Nad kasutavad null-teadmiste tõendeid, et varjata, milliseid aadresse sõlmedest küsitakse
+  - "Nad krüpteerivad kõik filtriandmed kliendi avaliku võtme abil, et vältida pealtkuulamist"
+  - Nad muudavad tehingu hashide järjekorra juhuslikuks, et varjata vaatlejate eest kulutuste mustreid
+explanation: |
+  Kompaktsed plokkfiltrid kasutavad tõenäosuslikke andmestruktuure, mis võivad valesti näidata kokkulangevust (valepositiivne), kuid ei jäta kunagi tegelikku kokkulangevust märkimata (valenegatiivne). See asümmeetriline omadus on väga oluline: valepositiivsed tulemused põhjustavad ainult tarbetuid plokkide allalaadimisi, samas kui valenegatiivsed tulemused põhjustaksid, et rahakotid jätavad maksed täielikult tegemata. Ebakindlusest tuleneb kasu privaatsusele - vaatlejad ei suuda eristada tõelisi kokkulangevusi ja valepositiivseid, mis muudab ebaselgeks, millised tehingud tegelikult kuuluvad päringu tegijale wallet.

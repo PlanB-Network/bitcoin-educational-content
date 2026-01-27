@@ -1,0 +1,8 @@
+question: Tính chất toán học nào đảm bảo rằng mọi phần tử khác 0 trong trường số nguyên tố F(p) đều có nghịch đảo phép nhân?
+answer: Trường này được xác định bởi một số nguyên tố p
+wrong_answers:
+  - Trường này chứa chính xác p-1 phần tử
+  - Lĩnh vực này sử dụng các phép toán số học modulo.
+  - Trường này hỗ trợ phép cộng và phép nhân.
+explanation: |
+  Một trường hữu hạn F(p) phải được xác định bởi một số nguyên tố p để đảm bảo mọi phần tử khác 0 đều có nghịch đảo phép nhân. Đây là một yêu cầu cơ bản của lý thuyết trường - khi p là số nguyên tố, các số nguyên modulo p tạo thành một trường mà phép chia luôn luôn khả thi (ngoại trừ chia cho 0). Nếu p là số hợp số, một số phần tử khác 0 sẽ không có nghịch đảo, phá vỡ cấu trúc trường. Trong khi các lựa chọn khác mô tả các thuộc tính của trường hữu hạn, chỉ có tính nguyên tố của p mới đảm bảo sự tồn tại của nghịch đảo phép nhân cho tất cả các phần tử khác 0.

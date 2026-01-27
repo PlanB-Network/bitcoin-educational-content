@@ -18,7 +18,7 @@ Pokud nejste obeznámeni s konceptem passphrase, jeho fungováním a důsledky p
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 passphrase na Trezoru je řešen klasickým způsobem, pokud jste se při konfiguraci rozhodli pro standard BIP39 (což doporučuji, pokud nepotřebujete *Multi-share Backup*). Zvláštností Trezoru je, že passphrase můžete zadávat buď přímo na Hardware Wallet, nebo prostřednictvím klávesnice počítače pomocí softwaru Trezor Suite. Tato druhá možnost je podstatně méně bezpečná, protože počítač má nesmírně větší plochu pro útoky než Hardware Wallet. Zadávání složitého kódu passphrase však může být na běžné klávesnici rychlejší než na počítači Hardware Wallet, což by mohlo podpořit používání silných přístupových frází. Vždy je tedy lepší používat heslo passphrase, i když se musí zadávat, než ho nepoužívat vůbec. Je však důležité si i nadále uvědomovat zvýšené riziko číselných útoků, které z toho vyplývá.
 
@@ -36,15 +36,15 @@ V sadě Trezor Suite máte k dispozici dva různé způsoby správy poptávky pa
 
 
 
-Před zahájením tohoto návodu se ujistěte, že jste již inicializovali zařízení Trezor a vygenerovali frázi Mnemonic. Pokud jste tak neučinili a váš Trezor je nový, postupujte podle návodu pro konkrétní model, který je k dispozici na stránce Plan ₿ Network. Po dokončení tohoto kroku se můžete vrátit k tomuto návodu.
+Před zahájením tohoto návodu se ujistěte, že jste již inicializovali zařízení Trezor a vygenerovali frázi Mnemonic. Pokud jste tak neučinili a váš Trezor je nový, postupujte podle návodu pro konkrétní model, který je k dispozici na stránce Plan ₿ Academy. Po dokončení tohoto kroku se můžete vrátit k tomuto návodu.
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 
 ## Přidání zařízení passphrase do trezoru 3 nebo 5
@@ -79,7 +79,7 @@ Konkrétnější doporučení pro výběr passphrase najdete v tomto dalším č
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Pokud chcete zadat číslo passphrase pomocí klávesnice počítače, zadejte jej do příslušného pole a klikněte na "*Přístup passphrase Wallet*".
 
@@ -177,7 +177,7 @@ Konkrétnější doporučení pro výběr passphrase najdete v tomto dalším č
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Do příslušného pole zadejte svůj přístroj passphrase a poté klikněte na tlačítko "*Přístup passphrase Wallet*".
 
@@ -215,6 +215,6 @@ Gratulujeme, nyní jste se seznámili s používáním passphrase BIP39 v hardwa
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 Pokud vám tento návod přišel užitečný, budu vám vděčný, když mi níže zanecháte palec Green. Neváhejte tento článek sdílet na svých sociálních sítích. Děkuji vám!

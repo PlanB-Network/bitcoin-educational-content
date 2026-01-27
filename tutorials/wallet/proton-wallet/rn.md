@@ -20,7 +20,7 @@ Ikintu kidasanzwe muri iyi Wallet ni ubushobozi bwo kohereza ama bitcoins hakore
 Kugira ngo ukoreshe Proton Wallet, ukeneye konti ya Proton. Ushobora gukora imwe ku buntu ukurikije intambwe za mbere z'iyi nyigisho yihariye gukora ubusandugu bw'ubutumwa bwa Proton (igice ca "*Gukora konti ya Proton*" gusa). Konti yawe imaze gutegurwa, urashobora kubandanya n’ibindi bice vy’iyi nyigisho.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Huza na porotoni Wallet
 
@@ -100,7 +100,7 @@ Ushobora kuvyandika ku mpapuro, canke kugira ngo wongere umutekano, ndagusavye k
 Kugira ngo umenye vyinshi ku buryo bwiza bwo kubika no gucunga ijambo ryawe rya Mnemonic, ndagusavye cane gukurikira iyi yindi nyigisho, cane cane nimba uri umutanguzi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 _**Ego cane, ntukwiye kwigera ufata ifoto y'aya majambo, bitandukanye n'ivyo nkora muri iyi nyigisho.**_
 
@@ -141,7 +141,7 @@ Aha niho ushobora kwongerako BIP39 passphrase ku Wallet nshasha.
 Kugira ngo urushirize kumenya neza passphrase, ndagusavye iyi nyigisho:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Kwakira ama bitcoins
 
@@ -239,4 +239,4 @@ Urakoze cane, ubu urazi gushinga no gukoresha Proton Wallet. Niwaba wabonye ko i
 Kugira ngo ugende kure, ndababwira iyi nyigisho ku Jade Plus, Hardware Wallet ya Blockstream:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

@@ -101,7 +101,7 @@ Qubes OS ayrıca dijital ortamınız üzerinde tam şeffaflık ve kontrol sunar.
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Qubes OS, aşılmaz bir sistem yaratmaya çalışmak yerine, esnekliğe odaklanır: tehlikeye girme durumunda hasarı kapsülleyerek sistemin geri kalanı için riski azaltır. Bu pragmatik yaklaşım, Qubes OS'yi yüksek güvenlik ihtiyaçları olan veya dijital yaşamları üzerinde maksimum kontrolü elinde tutmak isteyen kullanıcılar için tercih edilen bir seçenek haline getirmektedir.
 
@@ -122,11 +122,11 @@ Qubes OS'yi kurmadan önce, sistem qubes'i izole etmek için sanallaştırmaya d
 
 
 
-Qubes OS'yi kurmak için, Qubes OS [resmi sitesi] (https://www.qubes-os.org/downloads/) adresinden resmi ISO görüntüsünü indirin. Dosyanın tahrif edilmediğinden ve indirme işleminin güvenli olduğundan emin olmak için sağlanan GPG imzalarını kullanarak ISO'nun bütünlüğünü kontrol etmek önemlidir.
+Qubes OS'yi kurmak için, Qubes OS [resmi sitesi](https://www.qubes-os.org/downloads/) adresinden resmi ISO görüntüsünü indirin. Dosyanın tahrif edilmediğinden ve indirme işleminin güvenli olduğundan emin olmak için sağlanan GPG imzalarını kullanarak ISO'nun bütünlüğünü kontrol etmek önemlidir.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
@@ -327,4 +327,4 @@ Sonuç olarak, Qubes OS sıradan bir işletim sistemi değil, kişisel bilgisaya
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

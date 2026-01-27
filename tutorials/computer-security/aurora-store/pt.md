@@ -14,7 +14,7 @@ Neste tutorial, descobrimos a Aurora Store, uma alternativa simples, de código 
 
 
 
-# Começar a utilizar o Aurora Store
+## Começar a utilizar o Aurora Store
 
 
 
@@ -32,7 +32,7 @@ A Aurora Store é uma das mais populares lojas de aplicações alternativas à G
 
 
 
-Pode transferir a Aurora Store a partir do [site oficial] (https://auroraoss.com/aurora-store) clicando no botão "Release" nos tipos de compilação. Selecione a opção Vanilla se estiver a utilizar uma marca de telemóvel que não seja a Huawei. Os modelos recentes de telemóveis Huawei têm a sua própria versão da Aurora Store devido às restrições impostas aos serviços Google em resultado das sanções impostas pelos EUA.
+Pode transferir a Aurora Store a partir do [site oficial](https://auroraoss.com/aurora-store) clicando no botão "Release" nos tipos de compilação. Selecione a opção Vanilla se estiver a utilizar uma marca de telemóvel que não seja a Huawei. Os modelos recentes de telemóveis Huawei têm a sua própria versão da Aurora Store devido às restrições impostas aos serviços Google em resultado das sanções impostas pelos EUA.
 
 
 
@@ -44,13 +44,13 @@ Também pode descarregar a Aurora Store de outras lojas de aplicações, como a 
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 No entanto, recomendamos que você baixe o arquivo APK diretamente do site oficial para garantir a autenticidade e integridade da Aurora Store.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Um ficheiro APK (Android Package Kit) é o formato de pacote utilizado pelo sistema operativo Android para distribuir e instalar aplicações. É o equivalente aos ficheiros **.exe** no Windows ou **.dmg** no macOS.
 
@@ -88,7 +88,7 @@ A partir da Aurora Store, pode aceder ao catálogo de aplicações disponíveis 
 
 
 
-## Caraterísticas
+### Caraterísticas
 
 
 
@@ -155,4 +155,4 @@ Mais do que uma simples loja de aplicações, a Aurora Store é uma solução de
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

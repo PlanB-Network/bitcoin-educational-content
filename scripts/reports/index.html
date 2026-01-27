@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Reports - Bitcoin Educational Content</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background-color: #f8f9fa;
+            color: #212529;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #212529;
+            color: #ffffff;
+            padding: 40px 30px;
+            border-bottom: 4px solid #f7931a;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 15px;
+            color: #adb5bd;
+            margin: 0;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .intro {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .intro h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #212529;
+        }
+
+        .intro p {
+            color: #6c757d;
+            font-size: 15px;
+        }
+
+        .reports-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .report-card {
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            padding: 25px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            background-color: #ffffff;
+        }
+
+        .report-card:hover {
+            border-color: #f7931a;
+            box-shadow: 0 4px 12px rgba(247, 147, 26, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .report-card-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .report-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #f8f9fa;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 20px;
+            border: 1px solid #dee2e6;
+        }
+
+        .report-card h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #212529;
+            margin: 0;
+        }
+
+        .report-card p {
+            color: #6c757d;
+            font-size: 14px;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .report-card-footer {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #f8f9fa;
+            font-size: 13px;
+            color: #adb5bd;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            padding: 25px 30px;
+            text-align: center;
+            border-top: 1px solid #dee2e6;
+        }
+
+        .footer p {
+            color: #6c757d;
+            font-size: 13px;
+            margin: 5px 0;
+        }
+
+        .footer a {
+            color: #f7931a;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 0;
+                border-radius: 0;
+            }
+
+            .header {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Translation Reports</h1>
+            <p>Bitcoin Educational Content - Progress Overview</p>
+        </div>
+
+        <div class="content">
+            <div class="intro">
+                <h2>Overview</h2>
+                <p>
+                    These reports provide comprehensive insights into the translation progress
+                    across all educational courses. Select a report below to view detailed
+                    statistics and status information.
+                </p>
+            </div>
+
+            <div class="reports-grid">
+                <a href="https://surfer.planb.network/translation_report/video_deployment_overview.html" class="report-card">
+                    <div class="report-card-header">
+                        <div class="report-icon">🎥</div>
+                        <h3>Video Deployment Overview</h3>
+                    </div>
+                    <p>
+                        Track video availability across YouTube and PeerTube platforms for all
+                        courses and supported languages. Shows deployment status and provider coverage.
+                    </p>
+                    <div class="report-card-footer">
+                        Languages: en, fr, es, it, de, ru, zh-Hant
+                    </div>
+                </a>
+
+                <a href="https://surfer.planb.network/translation_report/image_translation_overview.html" class="report-card">
+                    <div class="report-card-header">
+                        <div class="report-icon">🖼️</div>
+                        <h3>Image Translation Overview</h3>
+                    </div>
+                    <p>
+                        Monitor image translation progress by analyzing language-specific image paths.
+                        Displays translated vs. untranslated image counts with completion percentages.
+                    </p>
+                    <div class="report-card-footer">
+                        Languages: en, fr, es, it, de, ru, zh-Hant
+                    </div>
+                </a>
+
+                <a href="https://surfer.planb.network/translation_report/md_translation_overview.html" class="report-card">
+                    <div class="report-card-header">
+                        <div class="report-icon">📝</div>
+                        <h3>Markdown Translation Overview</h3>
+                    </div>
+                    <p>
+                        View markdown file availability across all supported languages.
+                        Shows which course translations exist with word count statistics.
+                    </p>
+                    <div class="report-card-footer">
+                        Languages: All 27 supported languages
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>
+                <strong>Last updated:</strong> Auto-generated reports
+            </p>
+            <p>
+                For questions or support, visit
+                <a href="https://planb.network" target="_blank">planb.network</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

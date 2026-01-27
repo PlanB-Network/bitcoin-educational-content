@@ -98,7 +98,7 @@ description: Wallet موبایل مناسب برای همه
 می‌توانید راهنمای Sparrow wallet را برای دانلود این Software Wallet پیدا کنید.
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 سپس می‌توانید فایل `.apk` را از رایانه خود به گوشی‌تان منتقل کنید.
 
@@ -276,7 +276,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-در پایان این مراحل، از شما پرسیده می‌شود که آیا می‌خواهید یک [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) به عبارت Mnemonic خود اضافه کنید یا خیر. اگر آگاهی لازم در مورد نحوه استفاده از passphrase، ترتیب پشتیبان‌گیری از آن، یا نحوه کارکرد آن را ندارید، توصیه می‌کنم گزینه _I don't need a passphrase_ را انتخاب کنید.
+در پایان این مراحل، از شما پرسیده می‌شود که آیا می‌خواهید یک [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) به عبارت Mnemonic خود اضافه کنید یا خیر. اگر آگاهی لازم در مورد نحوه استفاده از passphrase، ترتیب پشتیبان‌گیری از آن، یا نحوه کارکرد آن را ندارید، توصیه می‌کنم گزینه _I don't need a passphrase_ را انتخاب کنید.
 
 
 
@@ -394,7 +394,7 @@ Wallet ایجاد شده است و شما می‌توانید فایل [.BSMS](h
 
 
 - نماد لنز در گوشه بالا سمت راست به شما امکان می‌دهد تا جستجوی تراکنش انجام دهید؛
-- دستور `View Wallet config` دسترسی به منوی پیکربندی را فراهم می‌کند، جایی که می‌توانید نام Wallet را ویرایش کرده و گزینه‌های پیشرفته را در بالا سمت راست فعال کنید (که نمی‌توانید از آن‌ها اسکرین‌شات بگیرید). در اینجا می‌توانید پیکربندی Wallet، برچسب‌ها را صادر کنید، کلیدها را جایگزین کنید، [محدودیت فاصله](https://planb.network/en/resources/glossary/gap-limit) را تغییر دهید و موارد دیگر.
+- دستور `View Wallet config` دسترسی به منوی پیکربندی را فراهم می‌کند، جایی که می‌توانید نام Wallet را ویرایش کرده و گزینه‌های پیشرفته را در بالا سمت راست فعال کنید (که نمی‌توانید از آن‌ها اسکرین‌شات بگیرید). در اینجا می‌توانید پیکربندی Wallet، برچسب‌ها را صادر کنید، کلیدها را جایگزین کنید، [محدودیت فاصله](https://planb.academy/en/resources/glossary/gap-limit) را تغییر دهید و موارد دیگر.
 
 
 

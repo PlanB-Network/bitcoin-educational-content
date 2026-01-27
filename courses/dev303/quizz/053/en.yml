@@ -1,0 +1,8 @@
+question: What is the fundamental mechanism that enables RC to allow multiple ownership while maintaining memory safety?
+answer: An internal counter that tracks references and frees memory only when the counter reaches zero
+wrong_answers:
+  - A compile-time analysis that verifies all reference patterns before program execution
+  - A garbage collector that periodically scans and cleans up unreachable memory allocations
+  - A lock-based system that synchronizes access between multiple owners of the same data
+explanation: |
+  RC maintains an internal reference counter that increments when cloned and decrements when dropped, ensuring memory is only freed when no references remain. This differs from compile-time analysis (which Box uses), garbage collection (which Rust doesn't employ), or locking mechanisms (which are used for thread synchronization, not ownership tracking). The counter-based approach allows safe shared ownership without runtime overhead of garbage collection or the restrictions of single ownership.

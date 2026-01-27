@@ -1,0 +1,16 @@
+title: "Proof of reserves and non-double spends for Chaumian Mints"
+original_language: en
+authors:
+  - Cyril Grunspan
+  - Ricardo Perez-Marco
+abstract: |
+  E-cash was invented in 1982 by David Chaum as an anonymous cryptographic electronic cash system based on blind signatures. It is not a decentralized form of money as Bitcoin. It requires trust on the server or Mint issuing the e-cash tokens and validating the transactions for preventing double spends. Moreover, the users also need to trust the Mint to not debase the value of e-cash tokens by Minting an uncontrolled number. In particular, this is critical for e-cash tokens representing a note of another asset as a currency, or bitcoin, or another cryptocurrency. Thus it would be suitable to implement a public auditing system providing a proof of reserves that ensures that the Mint is not engaging into a fractional reserve system. In this article we describe how to implement a proof of reserves system for Chaumian Mints. The protocol also provides a proof of non-double spends.
+publication_date: 2023-06-22
+paper_type: pre-print
+source: arXiv
+topics:
+  - Anonymous Transaction Systems
+  - Double-Spending Prevention
+  - Blind Signatures
+pdf_url: https://www.researchgate.net/publication/371786423_Proof_of_reserves_and_non-double_spends_for_Chaumian_Mints
+id: 3d70969c-4e92-4e56-afe2-8810783af02e

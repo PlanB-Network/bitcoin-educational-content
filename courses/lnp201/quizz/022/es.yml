@@ -6,3 +6,4 @@ wrong_answers:
   - Prevenir cualquier transacción futura en el canal
 explanation: |
   La clave de revocación permite a la parte agraviada recuperar todos los fondos en el evento de un intento de trampa por la otra parte.
+reviewed: true

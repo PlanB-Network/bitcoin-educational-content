@@ -433,7 +433,7 @@ Esta es la biblioteca en la que se basa Nmap para gestionar las comunicaciones d
 
 
 
-Al igual que con Linux, puede validar que Nmap está instalado abriendo un símbolo del sistema o un terminal [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") y escribiendo el siguiente comando:
+Al igual que con Linux, puede validar que Nmap está instalado abriendo un símbolo del sistema o un terminal [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") y escribiendo el siguiente comando:
 
 
 
@@ -2198,7 +2198,7 @@ Así que es importante entender qué hace y qué no hace Nmap, y del mismo modo 
 
 
 
-Tanto si eres administrador de sistemas de red, ingeniero de seguridad o incluso CISO, el uso de Nmap te ofrece una visión general del estado de seguridad de un sistema de información. Se trata de un primer paso importante para asegurar un sistema, que el equipo informático puede llevar a cabo con regularidad. Sin embargo, no debe sustituir la intervención y el asesoramiento de expertos en [ciberseguridad] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), que podrán descubrir los puntos débiles de forma mucho más exhaustiva que Nmap.
+Tanto si eres administrador de sistemas de red, ingeniero de seguridad o incluso CISO, el uso de Nmap te ofrece una visión general del estado de seguridad de un sistema de información. Se trata de un primer paso importante para asegurar un sistema, que el equipo informático puede llevar a cabo con regularidad. Sin embargo, no debe sustituir la intervención y el asesoramiento de expertos en [ciberseguridad](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), que podrán descubrir los puntos débiles de forma mucho más exhaustiva que Nmap.
 
 
 
@@ -2973,7 +2973,7 @@ La posibilidad de guardar los resultados de los análisis de Nmap en XML hace qu
 
 
 
-Voy a mencionar algunas herramientas ofensivas sin detallar realmente cómo se utilizan o cómo funcionan. Asumiré que el lector está familiarizado con su uso básico y que ya están operativas. Esta sección interesará especialmente a los profesionales [de la ciberseguridad] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), a las personas en formación o a quienes hayan decidido profundizar en el tema.
+Voy a mencionar algunas herramientas ofensivas sin detallar realmente cómo se utilizan o cómo funcionan. Asumiré que el lector está familiarizado con su uso básico y que ya están operativas. Esta sección interesará especialmente a los profesionales [de la ciberseguridad](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), a las personas en formación o a quienes hayan decidido profundizar en el tema.
 
 
 
@@ -3062,7 +3062,7 @@ lista de servicios importados desde el archivo XML a la base de datos de Metaspl
 
 
 
-Por último, podemos reutilizar rápida y fácilmente estos datos en un módulo gracias a la opción `-R`, que "convertirá" la lista de servicios obtenida como entrada para la directiva `RHOSTS`, que se utiliza para especificar los objetivos del ataque a realizar. He aquí un ejemplo con el módulo `ssh_login`, que permite realizar un ataque de fuerza bruta a los servicios [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
+Por último, podemos reutilizar rápida y fácilmente estos datos en un módulo gracias a la opción `-R`, que "convertirá" la lista de servicios obtenida como entrada para la directiva `RHOSTS`, que se utiliza para especificar los objetivos del ataque a realizar. He aquí un ejemplo con el módulo `ssh_login`, que permite realizar un ataque de fuerza bruta a los servicios [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 
 
@@ -3394,7 +3394,7 @@ Antes de escanear una red o un sistema, asegúrese de haber obtenido las autoriz
 
 
 
-Los resultados producidos por Nmap pueden considerarse sensibles, sobre todo cuando contienen información sobre puntos débiles del sistema de información que podrían ser explotados por un atacante. Pero también cuando se refieren a sistemas que no son accesibles a todo el mundo (por ejemplo, sistemas de información sensibles, industriales, sanitarios o [de copia de seguridad] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
+Los resultados producidos por Nmap pueden considerarse sensibles, sobre todo cuando contienen información sobre puntos débiles del sistema de información que podrían ser explotados por un atacante. Pero también cuando se refieren a sistemas que no son accesibles a todo el mundo (por ejemplo, sistemas de información sensibles, industriales, sanitarios o [de copia de seguridad](https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
 
 
 

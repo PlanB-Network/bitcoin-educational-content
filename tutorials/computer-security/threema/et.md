@@ -64,8 +64,8 @@ Threema on saadaval kõigil platvormidel. Rakenduse saate alla laadida otse oma 
 
 
 - [Google Play](https://play.google.com/store/apps/details?id=ch.threema.app);
-- [F-Cold] (https://f-droid.org/en/packages/ch.threema.app.libre/);
-- [Huawei AppGallery] (https://appgallery.huawei.com/#/app/C103713829);
+- [F-Cold](https://f-droid.org/en/packages/ch.threema.app.libre/);
+- [Huawei AppGallery](https://appgallery.huawei.com/#/app/C103713829);
 - [App Store](https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578).
 
 
@@ -440,4 +440,4 @@ Soovitan ka seda teist õpetust, kus ma tutvustan teile Proton Maili, mis on pal
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

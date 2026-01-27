@@ -64,7 +64,7 @@ Jos haluat lisätietoja laitteiden valinnasta, suosittelen tätä kurssia:
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Suositellut varusteet
 
@@ -140,7 +140,7 @@ Lataa jo toimivalta tietokoneelta (tavalliselta koneeltasi) Ubuntu LTS ISO-kuva 
 
 
 
-Aseta vähintään 8 Gt:n USB-levy tähän tietokoneeseen ja luo käynnistyskelpoinen levy esimerkiksi [Balena Etcher] (https://etcher.balena.io/) -ohjelmalla. Valitse juuri lataamasi Ubuntu-ISO-kuva, valitse USB-tikku kohdelaitteeksi ja käynnistä sitten luomisprosessi (ole kärsivällinen, se voi kestää useita minuutteja).
+Aseta vähintään 8 Gt:n USB-levy tähän tietokoneeseen ja luo käynnistyskelpoinen levy esimerkiksi [Balena Etcher](https://etcher.balena.io/) -ohjelmalla. Valitse juuri lataamasi Ubuntu-ISO-kuva, valitse USB-tikku kohdelaitteeksi ja käynnistä sitten luomisprosessi (ole kärsivällinen, se voi kestää useita minuutteja).
 
 
 
@@ -192,7 +192,7 @@ Lisätietoja Ubuntun asennusprosessista on erillisessä opetusohjelmassamme :
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. järjestelmän päivitys
 
@@ -428,7 +428,7 @@ Tämän jälkeen järjestelmä pyytää sinua syöttämään valitsemasi salasan
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Käyttäjän valtuuttaminen Dockerin käyttöön
 
@@ -1068,7 +1068,7 @@ Jos haluat syventää tietämystäsi IBD:stä ja yleisemmin Bitcoin-solmun toimi
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Synkronoinnin valvonta

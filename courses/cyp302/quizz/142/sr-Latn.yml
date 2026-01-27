@@ -1,4 +1,4 @@
-question: Jednosmerna funkcija
+question: Kako se zove problem kod kojeg je lako izračunati rezultat u jednom smeru, ali je gotovo nemoguće obrnuti ga?
 answer: Jednosmerna funkcija
 wrong_answers:
   - Linearna funkcija
@@ -6,4 +6,4 @@ wrong_answers:
   - Reverzibilna funkcija
 explanation: |
   Jednosmerne funkcije omogućavaju brzo računanje u jednom pravcu, ali čine inverzno rešavanje praktično nemogućim, što ih čini korisnim u kriptografiji.
-reviewed: false
+reviewed: true

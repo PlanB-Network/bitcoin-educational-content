@@ -11,7 +11,7 @@ Ochrona danych osobowych w erze cyfrowej jest najwyższym priorytetem dla każde
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Rozpoczęcie pracy z PureOS
 
@@ -64,7 +64,7 @@ Instalacja i konfiguracja PureOS na komputerze będzie wymagać następujących 
 
 
 
-Przejdź do [oficjalnej strony PureOS] (https://pureos.net/), a następnie pobierz obraz ISO systemu operacyjnego zgodnie z architekturą swojego komputera.
+Przejdź do [oficjalnej strony PureOS](https://pureos.net/), a następnie pobierz obraz ISO systemu operacyjnego zgodnie z architekturą swojego komputera.
 
 
 
@@ -353,4 +353,4 @@ Odkryj nasz kurs na temat wzmacniania bezpieczeństwa i ochrony prywatności cyf
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

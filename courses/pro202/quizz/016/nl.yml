@@ -1,0 +1,8 @@
+question: Wat gebeurt er met het verschil tussen invoer- en uitvoerbedragen in een Bitcoin transactie?
+answer: Het verschil wordt automatisch de transactievergoeding die aan miners wordt betaald
+wrong_answers:
+  - "Het verschil wordt als wisselgeld teruggestuurd naar het oorspronkelijke adres van de afzender"
+  - Het verschil wordt verbrand en permanent uit de circulatie gehaald
+  - Het verschil wordt in escrow gehouden totdat de transactie is bevestigd
+explanation: |
+  In het vergoedingensysteem van Bitcoin worden vergoedingen impliciet berekend als het verschil tussen de totale invoerbedragen en de totale uitvoerbedragen (vergoeding = som(invoer) - som(uitvoer)). Elke waarde die niet expliciet aan een uitvoer wordt toegekend, wordt automatisch de vergoeding voor de mijnwerker. Daarom is het maken van de juiste veranderingsoutputs cruciaal - als je vergeet een veranderingsoutput op te nemen wanneer je een grote UTXO uitgeeft, wordt het hele restant een dure vergoeding voor de mijnwerker. De andere opties zijn onjuist, omdat Bitcoin niet automatisch wisseluitgangen aanmaakt, niet-toegewezen waarde niet verbrandt en geen escrow mechanismen gebruikt voor transactieverschillen.

@@ -348,7 +348,7 @@ Pasos de configuración:
 
 
 
-**Nota:** Debe tener una cuenta PayPal Business para generate estos identificadores. Puede obtenerlos a través del portal [desarrollador] (https://developer.paypal.com)
+**Nota:** Debe tener una cuenta PayPal Business para generate estos identificadores. Puede obtenerlos a través del portal [desarrollador](https://developer.paypal.com)
 
 
 

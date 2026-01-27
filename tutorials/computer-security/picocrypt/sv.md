@@ -40,7 +40,7 @@ För att följa Picocrypt-projektet finns det bara en Address:
 
 
 
-- [Picocrypt på GitHub] (https://github.com/Picocrypt/Picocrypt)
+- [Picocrypt på GitHub](https://github.com/Picocrypt/Picocrypt)
 
 
 
@@ -74,7 +74,7 @@ Krypteringsprogrammet **Picocrypt** presenterar sig som **ett alternativ** till 
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Källa: [Github.com] (https://github.com/Picocrypt/Picocrypt)
+Källa: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
@@ -199,4 +199,4 @@ Se till att använda starka lösenord för att skydda data, och om du använder 
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

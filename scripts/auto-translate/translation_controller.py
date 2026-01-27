@@ -16,7 +16,7 @@ def get_language_from_filename(filepath: Union[str, Path]) -> str:
 def create_cache_name(input_path: Union[str, Path]) -> str:
     """Create a cache filename from input path."""
     path = Path(input_path)
-    parts = [part for part in path.parts if part != '.' and part != '..']
+    parts = [part for part in path.parts if part not in ('.', '..', '/')]
     return '_'.join(parts)
 
 def translate_content(input_path: Union[str, Path], 

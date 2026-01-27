@@ -1,0 +1,9 @@
+question: ¿Cuál es el papel de la torre de vigilancia cuando detecta un intento de engaño?
+answer: Publicar la transacción sancionadora
+wrong_answers:
+  - Cerrar el canal de forma cooperativa
+  - Congelar fondos
+  - Informe paritario a Bitcoin Core
+explanation: |
+  La torre de vigilancia difunde automáticamente la transacción de sanción en nombre del usuario.
+reviewed: false

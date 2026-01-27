@@ -10,7 +10,7 @@ As carteiras Lightning, tal como todas as carteiras móveis, são consideradas c
 
 Se quiser saber mais sobre a rede Lightning e perceber como funciona tecnicamente, recomendo que faça este curso:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Neste tutorial, vamos dar uma olhada na **Lipa**, uma carteira Lightning simples e eficaz desenvolvida na Suíça.
 
@@ -91,7 +91,7 @@ Para fazer uma cópia de segurança da sua carteira, vá ao separador "Definiç�
 
 Para obter mais informações sobre como fazer cópias de segurança e gerir corretamente a sua frase de recuperação, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Receber bitcoins
 

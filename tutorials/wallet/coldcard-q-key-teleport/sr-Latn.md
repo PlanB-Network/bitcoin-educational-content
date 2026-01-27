@@ -32,7 +32,7 @@ Ovo se može koristiti za prenos:
 
 
 - gW-0 fraze (ColdCard Q-ova seed master ili tajne pohranjene u ColdCardQ-ovom [seed Vault-u](https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **poverljive beleške i lozinke**: ovo može biti bilo koja tajna ili čitav direktorijum [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) na vašem ColdCardQ.
+- **poverljive beleške i lozinke**: ovo može biti bilo koja tajna ili čitav direktorijum [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) na vašem ColdCardQ.
 - rezervna kopija celog vašeg **ColdCardQ**: ColdCardQ koji prima ovu rezervnu kopiju ne sme imati seed Master da bi ovo funkcionisalo.
 - gW-3 (**Delimično potpisane Bitcoin transakcije**) kao deo šeme sa više potpisa.
 
@@ -95,7 +95,7 @@ QR kod se generiše na ekranu. Još jednom, potrebno je da ovaj QR kod prenesete
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Trenutno imamo:*
 
@@ -145,7 +145,7 @@ Sada se od vas traži da izaberete prirodu tajni koje će se prenositi između 2
 
 
 
-Ovde će naša tajna biti kratka poruka izborom **"Brza tekstualna poruka "**. Ukucajte vašu poruku (za nas "PlanB Network rocks") zatim pritisnite **"ENTER "**.
+Ovde će naša tajna biti kratka poruka izborom **"Brza tekstualna poruka "**. Ukucajte vašu poruku (za nas "Plan ₿ Academy rocks") zatim pritisnite **"ENTER "**.
 
 
 Uređaj zatim generiše novu nasumičnu lozinku nazvanu **"Teleport Password "**, u primeru "NE XG BT SK".
@@ -190,7 +190,7 @@ Pritisnite dugme **"QR "** da biste skenirali QR kod koji je predstavljen od str
 
 
 
-Podaci se zatim dešifruju i postaju razumljivi za uređaj koji ih prima. Poruka koja je primljena je zaista "PlanB Network rocks". To je sve.
+Podaci se zatim dešifruju i postaju razumljivi za uređaj koji ih prima. Poruka koja je primljena je zaista "Plan ₿ Academy rocks". To je sve.
 
 
 

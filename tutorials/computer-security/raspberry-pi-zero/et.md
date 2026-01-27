@@ -6,7 +6,7 @@ description: Kuidas ehitada minimaalne, õhuga eraldatud ja odav arvuti, kasutad
 
 
 
-Kui te olete Plan ₿ Network lehekülgedel juba mõnda aega käinud, siis olete juba teada saanud, et üks kõige enam propageeritud turvaeeskirju, peaaegu kohustuslik, **on rahaliste vahendite haldamine oma privaatvõtmete offline-salvestamise teel**.
+Kui te olete Plan ₿ Academy lehekülgedel juba mõnda aega käinud, siis olete juba teada saanud, et üks kõige enam propageeritud turvaeeskirju, peaaegu kohustuslik, **on rahaliste vahendite haldamine oma privaatvõtmete offline-salvestamise teel**.
 
 
 
@@ -14,7 +14,7 @@ Kui te ei ole seda veel avastanud, leiate kogu selle õpetuse vältel lingid ava
 
 
 
-Privaatvõtmete offline haldamiseks on seega vaja seadmest, mis on püsivalt võrgust lahti ühendatud, olgu selleks [riistvaraline rahakott](https://planb.network/resources/glossary/hardware-wallet) või airgap-arvuti, mis on pühendatud just sellele funktsioonile.
+Privaatvõtmete offline haldamiseks on seega vaja seadmest, mis on püsivalt võrgust lahti ühendatud, olgu selleks [riistvaraline rahakott](https://planb.academy/resources/glossary/hardware-wallet) või airgap-arvuti, mis on pühendatud just sellele funktsioonile.
 
 
 
@@ -500,7 +500,7 @@ Minu teadaolevatest rahakottidest on ainus, mis pakub 32-bitist versiooni, Elect
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Järeldused
 

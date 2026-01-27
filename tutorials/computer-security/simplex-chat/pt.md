@@ -69,7 +69,7 @@ O SimpleX Chat está disponível em todas as plataformas. Pode descarregar a apl
 
 
 
-No Android, também é possível [instalar via APK] (https://github.com/simplex-chat/simplex-chat/releases).
+No Android, também é possível [instalar via APK](https://github.com/simplex-chat/simplex-chat/releases).
 
 
 
@@ -397,4 +397,4 @@ Recomendo também este outro tutorial, no qual apresento o Threema, outra altern
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

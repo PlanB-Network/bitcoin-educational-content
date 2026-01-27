@@ -100,7 +100,7 @@ F-Droid предоставляет исчерпывающую информаци
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid предоставляет вам всю необходимую информацию, чтобы решить, защищает ли то или иное приложение ваши данные и повышает ли оно вашу конфиденциальность. Отсканируйте все приложения, которые вы хотите использовать, затем нажмите на кнопку **Install**, чтобы загрузить и установить приложение.
 
@@ -187,4 +187,4 @@ F-Droid компилирует приложения на собственных 
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

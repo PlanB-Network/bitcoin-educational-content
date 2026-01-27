@@ -6,4 +6,4 @@ wrong_answers:
   - Aumentan la duración de la batería
 explanation: |
   El software antivirus para móviles no ofrece protección contra el phishing o las autorizaciones incorrectas, y sólo una seguridad limitada contra las principales amenazas.
-reviewed: false
+reviewed: true

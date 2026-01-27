@@ -1,13 +1,11 @@
 ---
-name: RGB 協定，從理論到實踐
+name: RGB編程
 goal: 獲得瞭解和使用 RGB 所需的技能
-objectives: 
-
-  - 瞭解 RGB 通訊協定的基本概念
-  - 掌握 Client-side Validation 和 Bitcoin 承諾的原則
-  - 學習如何建立、管理和轉移 RGB 合約
-  - 如何操作與 RGB 相容的 Lightning 節點
-
+objectives:
+- 瞭解 RGB 通訊協定的基本概念
+- 掌握 Client-side Validation 和 Bitcoin 承諾的原則
+- 學習如何建立、管理和轉移 RGB 合約
+- 如何操作與 RGB 相容的 Lightning 節點
 ---
 # 發現 RGB 通訊協定
 
@@ -45,7 +43,7 @@ objectives:
 ---
 本訓練課程最初源自於 [Fulgur'Ventures](https://fulgur.ventures/) 在托斯卡尼 Viareggio 舉辦的為期兩週的進階開發開發營。第一週的課程著重於 Rust 和 SDK，您可以在其他課程中找到：
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 在本課程中，我們將專注於 RGB 訓練營的第二週。
 
 **Week 1 - LNP402:**
@@ -347,11 +345,11 @@ Blockchain 非常適合扮演這個角色：只要交易被包含在區塊中，
 此流程可概述如下：
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -630,7 +628,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-最後一個選項是使用 **Taproot**（BIP341 引進）與 *Tapret* 方案。 *Tapret* 是確定性 Commitment 的更複雜形式，在 Blockchain 的佔用空間和 Contract 作業的保密性方面帶來改善。主要的構想是將 Commitment 隱藏在 [Taproot 交易] (https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki) 的「腳本路徑支出」部分。
+最後一個選項是使用 **Taproot**（BIP341 引進）與 *Tapret* 方案。 *Tapret* 是確定性 Commitment 的更複雜形式，在 Blockchain 的佔用空間和 Contract 作業的保密性方面帶來改善。主要的構想是將 Commitment 隱藏在 [Taproot 交易](https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki) 的「腳本路徑支出」部分。
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
@@ -850,7 +848,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 其中 ：
 
 
-- `mpc_tag` 是一個標籤：`urn:ubideco:mpc:Commitment#2024-01-31`，根據 [RGB 標籤慣例] (https://github.com/RGB-WG/RGB-core/blob/master/doc/Commitments.md) 選擇；
+- `mpc_tag` 是一個標籤：`urn:ubideco:mpc:Commitment#2024-01-31`，根據 [RGB 標籤慣例](https://github.com/RGB-WG/RGB-core/blob/master/doc/Commitments.md) 選擇；
 - `depth` (1 位元組) 表示 *MPC Tree* 的深度；
 - cofactor`（16 位元，以 Little Endian 表示）是一個參數，用來提升分配給樹狀結構中每個 Contract 的位置的唯一性；
 - `mpc::Root` 是 *MPC Tree* 的根，根據下一節所述的程序計算。
@@ -1869,7 +1867,7 @@ Lightning Network 是 Bitcoin 上支付通道（或稱 _state 通道_）的分�
 
 如需更多關於 Lightning 如何運作的資訊，我建議您修讀此其他課程：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 #### Multi Protocol Commitment - MPC
 
 Multi Protocol Commitment (MPC) 是指在 RGB 中使用的 Merkle Tree 結構，在單一 Bitcoin 交易中包含來自不同合約的多個**過渡包**。其目的是在單一 Anchor 點組合數個承諾 (可能對應不同的合約或不同的資產)，以最佳化區塊空間的佔用。
@@ -3081,8 +3079,8 @@ rgb schemata
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3126,7 +3124,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-接著，下一個指令會顯示全局狀態 (名稱、股票、Supply...) 和 Owned 狀態清單，也就是分配 (例如，在 UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` 中定義的 100 萬個 `PBN` 代幣)。
+接著，下一個指令會顯示全局狀態 (名稱、股票、Supply...) 和 Owned 狀態清單，也就是分配 (例如，在 UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` 中定義的 100 萬個 `Plan ₿ Academy` 代幣)。
 
 ```bash
 rgb state '<ContractId>'
@@ -3220,7 +3218,7 @@ rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-..
 要從此 Invoice ：
 
 
-- 鮑勃（在他的 Stash 中持有代幣）有一個 Bitcoin Wallet。他需要準備一個 Bitcoin 交易（以 PSBT 的形式，例如 `tx.PSBT`），花掉所需的 RGB 代幣所在的 UTXO，再加上一個 UTXO 作為貨幣 (Exchange) ；
+- Bob（在其stash中持有代幣）擁有一個比特幣錢包。他必須準備一筆比特幣交易（以PSBT形式，例如`tx.psbt`），該交易花費包含所需RGB代幣的UTXO，並另外加入一個用於找零的UTXO（change）；
 - Bob 執行下列指令：
 
 ```bash
@@ -3309,7 +3307,7 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 因此，RGB 在 Lightning 上的操作必須與 Lightning Network 本身的操作同步考慮。如果您想深入瞭解這個主題，我強烈建議您看看這另一個全面的訓練課程：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ### RGB 代碼地圖
 
 最後，在進入下一節之前，我想先為您介紹一下 RGB 所使用的程式碼。協定是基於一套 Rust 函式庫和開放原始碼規格。以下是主要儲存庫和 crates 的概觀：
@@ -3805,7 +3803,7 @@ http://localhost:3001/createutxos
 ./regtest.sh mine 1
 ```
 
-現在我們可以建立 RGB 資產。命令將取決於您想要建立的資產類型及其參數。這裡我要建立一個 NIA (*Non Inflatable Asset*) 符記，名稱為 "PBN"，Supply 為 1000 個單位。精確度」允許您定義單位的可分割性。
+現在我們可以建立 RGB 資產。命令將取決於您想要建立的資產類型及其參數。這裡我要建立一個 NIA (*Non Inflatable Asset*) 符記，名稱為 "Plan ₿ Academy"，Supply 為 1000 個單位。精確度」允許您定義單位的可分割性。
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3813,8 +3811,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -3850,7 +3848,7 @@ curl -X 'GET' \
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-接下來，我們將透過指定相關資產 (`PBN`)來開啟通道。`/openchannel` 指令可讓您以 satoshis 為單位定義通道的大小，並選擇包含 RGB 資產。這取決於您想要建立什麼，但在我的情況下，命令是 ：
+接下來，我們將透過指定相關資產 (`Plan ₿ Academy`)來開啟通道。`/openchannel` 指令可讓您以 satoshis 為單位定義通道的大小，並選擇包含 RGB 資產。這取決於您想要建立什麼，但在我的情況下，命令是 ：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3889,7 +3887,7 @@ http://localhost:3001/openchannel
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-Lightning 通道現在打開，節點 n°1 一邊也包含 500 `PBN` 代幣。如果節點 n°2 希望接收 `PBN` 代幣，它必須 generate 和 Invoice。以下是操作方法：
+Lightning 通道現在打開，節點 n°1 一邊也包含 500 `Plan ₿ Academy` 代幣。如果節點 n°2 希望接收 `Plan ₿ Academy` 代幣，它必須 generate 和 Invoice。以下是操作方法：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3918,7 +3916,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-現在我們將從第一個節點支付這筆 Invoice，該節點持有必要的現金與 `PBN` 代幣：
+現在我們將從第一個節點支付這筆 Invoice，該節點持有必要的現金與 `Plan ₿ Academy` 代幣：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

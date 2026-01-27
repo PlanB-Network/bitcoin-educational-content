@@ -14,7 +14,7 @@ Pochi za umeme, kama vile pochi zote za rununu, huchukuliwa kuwa pochi za "Hot" 
 Ikiwa ungependa kujifunza zaidi kuhusu Lightning Network na kuelewa jinsi inavyofanya kazi kiufundi, ninapendekeza usome kozi hii:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Katika somo hili, tutakuwa tukiangalia **Lipa**, Radi ya Wallet rahisi na bora iliyotengenezwa nchini Uswizi.
 
@@ -131,7 +131,7 @@ Ili kuhifadhi nakala ya Wallet yako, nenda kwenye kichupo cha "Mipangilio" na uc
 Kwa maelezo zaidi kuhusu jinsi ya kuweka nakala na kudhibiti kifungu chako cha urejeshaji ipasavyo, ninapendekeza sana kufuata mafunzo haya mengine, haswa ikiwa wewe ni mwanzilishi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Pokea bitcoins
 

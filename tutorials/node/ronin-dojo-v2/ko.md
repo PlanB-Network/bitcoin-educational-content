@@ -20,7 +20,7 @@ description: 라즈베리파이에 RoninDojo v2 Bitcoin 노드 설치하기
 
 이전 튜토리얼에서 이미 RoninDojo v1 설치 및 사용 절차에 대해 설명했습니다. 그러나 작년에 RoninDojo 팀은 소프트웨어 아키텍처에 중요한 전환점이 된 버전 2를 출시했습니다. 실제로 그들은 리눅스 만자로 배포판에서 벗어나 데비안으로 전환했습니다. 그 결과, 더 이상 라즈베리파이에 자동 설치를 위한 사전 구성된 이미지를 제공하지 않습니다. 그러나 수동 설치를 진행하는 방법은 여전히 있습니다. 이것이 제가 제 노드에 사용한 방법이며, 그 이후로 RoninDojo v2는 제 라즈베리파이 4에서 훌륭하게 작동하고 있습니다. 따라서 라즈베리 파이에 RoninDojo v2를 수동으로 설치하는 방법에 대한 새로운 튜토리얼을 제공합니다.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## 목차:
 
@@ -333,7 +333,7 @@ RoninUI 홈페이지에 들어가면 설정을 시작하라는 메시지가 표�
 ![lets start](assets/notext/25.webp)
 
 
-이 단계에서 RoninUI가 '루트' 비밀번호를 제공합니다. 안전하게 보관하는 것이 중요합니다. 물리적 백업을 선택하거나 종이에 저장하거나 [비밀번호 관리자](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)에 저장할 수 있습니다.
+이 단계에서 RoninUI가 '루트' 비밀번호를 제공합니다. 안전하게 보관하는 것이 중요합니다. 물리적 백업을 선택하거나 종이에 저장하거나 [비밀번호 관리자](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)에 저장할 수 있습니다.
 
 
 ![root password](assets/notext/26.webp)
@@ -543,7 +543,7 @@ Whirlpool로 코인 조인을 수행한 후에는 혼합 UTXO에 대해 달성�
 이러한 익명 집합의 계산 메커니즘을 더 깊이 이해하려면 해당 문서를 읽어보시기 바랍니다: 이러한 인덱스의 기능에 대해 자세히 설명하는 REMIX - Whirlpool 문서를 읽어보시기 바랍니다.
 
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

@@ -53,7 +53,7 @@ Tämä vaiheittainen opetusohjelma näyttää, miten kirjoitat viestin Blockchai
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Tämä näyttää vastaanoton Address:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -164,7 +164,7 @@ Muunna viestisi heksadesimaaliksi :
 
 
 
-- Voit käyttää [online-työkalua] (https://www.rapidtables.com/convert/number/ascii-to-hex.html), mutta varo käsittelemästä arkaluonteisia tietoja siellä (vaikka periaatteessa Blockchain Bitcoin:ssä OP_RETURN:n kautta julkaistavaksi tarkoitetut tiedot eivät aiheuta luottamuksellisuusongelmia);
+- Voit käyttää [online-työkalua](https://www.rapidtables.com/convert/number/ascii-to-hex.html), mutta varo käsittelemästä arkaluonteisia tietoja siellä (vaikka periaatteessa Blockchain Bitcoin:ssä OP_RETURN:n kautta julkaistavaksi tarkoitetut tiedot eivät aiheuta luottamuksellisuusongelmia);
 - Suuremman luottamuksellisuuden vuoksi voit suorittaa muunnoksen paikallisesti pienellä Python :
 
 

@@ -1,0 +1,9 @@
+question: Mis eristab Bitcoin turvalisuse eeldusi traditsiooniliste füüsiliste turvasüsteemide, näiteks hoonete turvalisuse eeldustest?
+answer: Bitcoin peab tegelema kõigi teadaolevate nõrkustega, sest veebivastased on anonüümsed ja kasutavad ära iga haavatavust
+wrong_answers:
+  - Bitcoin tugineb matemaatilistele tõenditele, samas kui hooned sõltuvad füüsilistest tõketest ja õiguskaitsest
+  - "Bitcoin turvalisus põhineb majanduslikel stiimulitel, samas kui hooned kasutavad heidutust nähtavate turvameetmete kaudu"
+  - Bitcoin kasutab kaitseks krüptograafilisi allkirju, samas kui hooned tuginevad juurdepääsukontrolli- ja seiresüsteemidele
+explanation: |
+  Peamine erinevus seisneb selles, et Bitcoin-sugused veebipõhised süsteemid seisavad silmitsi anonüümsete vastastega, kes paratamatult kasutavad ära kõiki teadaolevaid nõrkusi, erinevalt füüsilistest süsteemidest, kus me võime aktsepteerida teatavat riski, sest kurjategijad on tuvastatavad ja neid saab vastutusele võtta. Nagu Andrew Poelstra märkis, ei ole meil internetis õiguskaitse hirmutamise luksust - kui süsteemile on võimalik kahju tekitada, teevad seda anonüümsed osalejad. See sunnib Bitcoin tegelema kõigi haavatavustega, selle asemel et leppida arvestatud riskidega.
+reviewed: false

@@ -145,7 +145,7 @@ Session 適用於所有平台。您可以直接從手機的應用程式商店下
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **請注意**：與 Bitcoin 作品集上使用的 Mnemonic 短語不同，在 Session 上，**您絕對必須完整保存每個單詞**。前 4 個字母是不夠的！
 
@@ -299,4 +299,4 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

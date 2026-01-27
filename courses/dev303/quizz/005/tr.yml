@@ -1,0 +1,8 @@
+question: Clippy'nin Rust geliştirme ekosistemindeki birincil işlevi nedir?
+answer: Kodu analiz eden ve daha iyi Rust deyimleri için iyileştirmeler öneren gelişmiş bir linter
+wrong_answers:
+  - Bağımlılık çözümlemesini ve proje derlemelerini yöneten bir paket yöneticisi
+  - Rust kaynak kodunu çalıştırılabilir ikili dosyalara dönüştüren bir derleyici aracı
+  - API referans materyallerini otomatik olarak oluşturan bir dokümantasyon oluşturucu
+explanation: |
+  Clippy, Rust kodunuzu analiz etmek ve iyileştirmeler için öneriler sunmak için temel sözdizimi denetiminin ötesine geçen gelişmiş bir linterdir. Basit sözdizimi denetleyicilerinin aksine Clippy, Rust deyimlerini anlar ve belirli görevleri yerine getirmek için daha verimli veya deyimsel yollar önerebilir. Diğer seçenekler farklı araçları tanımlamaktadır: Cargo bağımlılıkları ve derlemeleri yöneten paket yöneticisi, rustc kaynak kodu çalıştırılabilir dosyalara dönüştüren derleyici ve rustdoc dokümantasyon oluşturucudur. Clippy özellikle kod kalitesi analizine odaklanır ve en iyi uygulamaları önererek geliştiricilerin daha iyi, daha sürdürülebilir Rust kodu yazmalarına yardımcı olur.

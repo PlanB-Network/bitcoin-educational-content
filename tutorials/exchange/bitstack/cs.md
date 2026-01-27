@@ -6,7 +6,7 @@ description: Nákup a prodej bitcoinů v aplikaci Bitstack
 
 Bitstack je francouzská investiční platforma pro bitcoiny, regulovaná AMF. Nabízí aplikaci dostupnou pro systémy Android a iOS pro snadný nákup a prodej bitcoinů.
 
-Bitstack se odlišuje automatickým systémem zaokrouhlování, který synchronizuje bankovní účet uživatele a převádí rozdíl mezi částkou strženou během denní útraty a nejbližším vyšším eurem přímo na bitcoiny. Tato metoda usnadňuje aplikaci *Dollar Cost Averaging* (DCA), což umožňuje postupné a bezbolestné hromadění satošů. Kromě této originální funkce nabízí platforma také klasický systém DCA s automatickými investicemi a spotový nákup a prodej.
+To, co odlišuje Bitstack, je jeho systém automatického zaokrouhlování, který synchronizuje bankovní účet uživatele, aby převedl rozdíl mezi částkou odepsanou při každodenních výdajích a nejbližším vyšším eurem přímo na bitcoiny. Tato metoda usnadňuje použití strategie *Dollar Cost Averaging* (DCA) tím, že umožňuje postupné a bezbolestné hromadění satoshi. Kromě této originální funkce platforma také nabízí klasický systém DCA s automatickými investicemi a jednorázovými nákupy a prodeji.
 
 ![Image](assets/fr/01.webp)
 
@@ -51,9 +51,9 @@ Zvolte si silné heslo pro zabezpečení přístupu k účtu a klikněte na tla�
 
 ![Image](assets/fr/06.webp)
 
-Pro bezpečnou každodenní správu hesel se doporučuje používat správce hesel. Na webu Plan ₿ Network najdete několik návodů na nejlepší existující řešení, například Bitwarden :
+Pro bezpečnou každodenní správu hesel se doporučuje používat správce hesel. Na webu Plan ₿ Academy najdete několik návodů na nejlepší existující řešení, například Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Poté budete požádáni o ověření své totožnosti (KYC). V souladu s francouzskými předpisy budete požádáni o poskytnutí osobních údajů a dokladu totožnosti. Do kolonek vyplňte své příjmení, jméno a datum narození.
 
@@ -110,7 +110,7 @@ Jak bylo zmíněno v úvodu, Bitstack nabízí tři způsoby investování do Bi
 - Konfigurace opakovaného nákupu (RPC) ;
 - Používání automatického zaokrouhlování výdajů.
 
-### Nákup za hotovost
+### Provést jednorázový nákup
 
 Chcete-li provést jednorázový nákup bitcoinů za tržní cenu, jednoduše klikněte na "*Koupit*".
 
@@ -184,7 +184,7 @@ Určete prioritu transakce. Pro výběr bez poplatků zvolte prioritu "*Standard
 
 ![Image](assets/fr/32.webp)
 
-Pokud nejste obeznámeni s fungováním portfolia s vlastní úschovou, nabízíme výukové programy k většině dostupných řešení [na síti Plan ₿ v sekci "*Peněženka*"](https://planb.network/tutorials/wallet).
+Pokud nejste obeznámeni s fungováním portfolia s vlastní úschovou, nabízíme výukové programy k většině dostupných řešení [na síti Plan ₿ v sekci "*Peněženka*"](https://planb.academy/tutorials/wallet).
 
 ## Prodej bitcoinů
 

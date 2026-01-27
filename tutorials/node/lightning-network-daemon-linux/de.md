@@ -34,7 +34,7 @@ Mit anderen Worten: Mit dieser Implementierung können Sie :
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Warum ein eigener Lightning-Knoten?
 
@@ -64,7 +64,7 @@ In diesem Sinne erhöht der Betrieb eines Lightning-Knotens die Sicherheit und I
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Sie haben zwei Möglichkeiten, eine Instanz der LND-Implementierung auf unserem Rechner auszuführen. Wir können entweder die Umgebung auf unserem eigenen Rechner einrichten, um sie lokal auszuführen, oder LND über einen Docker-Container installieren. Hier konzentrieren wir uns auf die erste Option und sehen in einem späteren Tutorial, wie wir mit Docker vorgehen.
@@ -665,4 +665,4 @@ Sie sind also am Ende dieses Tutorials angelangt. Wenn Sie mehr über Lightning 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

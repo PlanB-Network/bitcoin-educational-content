@@ -14,7 +14,7 @@ _本教程仅供教育和信息目的使用。我们不支持或鼓励使用这�
 
 > 使用比特币时保护隐私。
 
-在[之前的教程](https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0)中，我们已经解释了安装和使用RoninDojo v1的过程。然而，在过去的一年里，RoninDojo团队推出了他们的第二版实现，这标志着软件架构的重大转折点。事实上，他们放弃了Linux Manjaro发行版，转而采用Debian。因此，他们不再提供预配置的镜像以便在树莓派上自动安装。但仍有一种手动安装的方法。这就是我用于我自己的节点的方法，自那以后，RoninDojo v2在我的树莓派4上运行得非常好。因此，我提供了一个新的教程，关于如何在树莓派上手动安装RoninDojo v2。
+在[之前的教程](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0)中，我们已经解释了安装和使用RoninDojo v1的过程。然而，在过去的一年里，RoninDojo团队推出了他们的第二版实现，这标志着软件架构的重大转折点。事实上，他们放弃了Linux Manjaro发行版，转而采用Debian。因此，他们不再提供预配置的镜像以便在树莓派上自动安装。但仍有一种手动安装的方法。这就是我用于我自己的节点的方法，自那以后，RoninDojo v2在我的树莓派4上运行得非常好。因此，我提供了一个新的教程，关于如何在树莓派上手动安装RoninDojo v2。
 
 ## 目录：
 - 什么是RoninDojo？
@@ -208,7 +208,7 @@ RoninDojo 提供了一个用于在 [RockPro64](https://ronindojo.io/en/download)
 
 ![lets start](assets/notext/25.webp)
 
-在这个阶段，RoninUI会向您展示您的 `root` 密码。保管好它是至关重要的。您可以选择物理备份，比如纸质备份，或者保存在[密码管理器](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)中。
+在这个阶段，RoninUI会向您展示您的 `root` 密码。保管好它是至关重要的。您可以选择物理备份，比如纸质备份，或者保存在[密码管理器](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)中。
 
 ![root password](assets/notext/26.webp)
 
@@ -323,7 +323,7 @@ RoninDojo 提供了一个用于在 [RockPro64](https://ronindojo.io/en/download)
 
 在使用Whirlpool进行coinjoins之后，准确评估你的混合UTXOs所达到的隐私级别是有用的。为此，你可以使用Python工具*Whirlpool Stat Tool*。这个工具允许你测量你的UTXOs的前瞻性和回顾性分数，同时分析它们在池中的扩散率。
 
-为了深入理解这些匿名集的计算机制，我推荐阅读文章：[REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)，它详细介绍了这些指标的功能。
+为了深入理解这些匿名集的计算机制，我推荐阅读文章：[REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)，它详细介绍了这些指标的功能。
 
 要访问WST工具，请转到RoninCLI。为此，在你的个人电脑上打开一个终端，并使用以下命令与你的节点建立SSH连接：
 `SSH ronindojo@[IP]`

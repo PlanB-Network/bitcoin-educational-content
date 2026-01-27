@@ -1,35 +1,18 @@
 ---
 name: Spinoza và Bitcoin
 goal: Khám phá mối liên hệ triết học giữa tư tưởng của Spinoza và Bitcoin như những công cụ tự do qua nhiều thế kỷ.
-objectives: 
-
-
-  - Hiểu về triết lý thực tiễn của Spinoza và hành trình tìm kiếm tự do của ông.
-  - Khám phá các khái niệm của Spinoza về thuyết quyết định luận và ảo tưởng của con người.
-  - Phân tích điểm tương đồng giữa cuộc cách mạng tư tưởng của Spinoza và cuộc cách mạng công nghệ của Bitcoin.
-
-
-
+objectives:
+- Hiểu triết học thực tiễn của Spinoza và hành trình tìm kiếm tự do của ông.
+- Khám phá các khái niệm Spinoza về chủ nghĩa quyết định luận và ảo tưởng của con người.
+- Phân tích sự tương đồng giữa cuộc cách mạng tư tưởng của Spinoza và cuộc cách mạng công nghệ của Bitcoin.
+- Áp dụng lý thuyết cảm xúc để nhận biết và chống lại sự thao túng trong các hệ thống chính trị.
 ---
+# Khi Spinoza Gặp Satoshi
 
-# Khám phá triết học về tự do thông qua Spinoza và Bitcoin
+Khám phá cách những ý tưởng cấp tiến của triết gia thế kỷ 17 Baruch de Spinoza về tự do, lý trí và quyền lực báo trước cuộc cách mạng phi tập trung của Bitcoin. Khóa học này tiết lộ những điểm tương đồng nổi bật: cả hai đều từ chối đức tin mù quáng và quyền lực trung ương, cả hai đều sử dụng tính chặt chẽ toán học để giải phóng. Spinoza giải phóng tâm trí khỏi giáo điều tôn giáo, Bitcoin giải phóng tiền tệ khỏi sự kiểm soát của nhà nước.
 
-
-
-Khóa học này khám phá mối liên hệ sâu sắc giữa triết học cách mạng của Baruch de Spinoza (1632-1677) và Bitcoin, hai công cụ tự do cách nhau hàng thế kỷ nhưng lại thống nhất bởi cùng một mục tiêu: giải phóng con người khỏi ách nô lệ.
-
-
-
-Chúng ta sẽ khám phá cách Spinoza, cha đẻ của triết học Khai sáng lý trí, đã phát triển một đạo đức thực tiễn để giải thoát chúng ta khỏi những ảo tưởng giam cầm chúng ta - ý chí tự do, chủ nghĩa duy tâm và mê tín thần học. Phương pháp hình học và lý thuyết về cảm xúc của ông chỉ cho chúng ta cách hiểu vị trí của mình trong thế giới và hướng sự tồn tại của mình đến những gì làm tăng sức mạnh hành động.
-
-
-
-Khóa học sau đó sẽ chỉ ra những điểm tương đồng thú vị giữa cuộc cách mạng tư tưởng Copernicus này và Bitcoin: hai hệ thống không đòi hỏi đức tin mù quáng hay quyền lực trung ương, mà chỉ cần vận dụng lý trí. Cũng như chủ nghĩa Spinoza đã giải phóng tư tưởng khỏi giáo điều tôn giáo, Bitcoin giải phóng tiền tệ khỏi sự kiểm soát của nhà nước, mang đến một hình thức tự do kinh tế mới bắt nguồn từ toán học và mật mã.
-
-
-
+Học các công cụ thực tế từ đạo đức học của Spinoza để hiểu nền tảng triết học của bitcoin và tăng quyền tự chủ của bạn. Sẵn sàng khám phá hai trong số những công cụ giải phóng con người vĩ đại nhất trong lịch sử chưa?
 +++
-
 # Giới thiệu
 
 
@@ -52,7 +35,7 @@ Trong khóa học này, tôi rất vui mừng được giới thiệu triết h�
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/vi/001.webp)
 
 
 Chân dung Spinoza
@@ -87,7 +70,7 @@ Và đặc biệt là ở khía cạnh triết học, khiến chúng ta phải s
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/vi/002.webp)
 
 
 Chân dung Spinoza
@@ -110,7 +93,7 @@ Chúng ta cũng sẽ xem xét hai tác phẩm chính của Spinoza, bắt đầu
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/vi/003.webp)
 
 
 
@@ -118,7 +101,7 @@ Sau đó, chúng ta sẽ xem xét cuốn Traité théologico-Politique, được
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/vi/004.webp)
 
 
 
@@ -130,7 +113,7 @@ Nhờ lý thuyết về cảm xúc được phát triển theo cách của các 
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/vi/005.webp)
 
 
 
@@ -166,7 +149,7 @@ Theo đạo Do Thái, ông là thành viên của cộng đồng người Sephar
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/vi/006.webp)
 
 
 
@@ -174,7 +157,6 @@ Trên thực tế, ngay từ khi còn nhỏ, ông đã thể hiện tinh thần 
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -186,7 +168,7 @@ Là người kế thừa, giống như những người cùng thời với ông 
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/vi/007.webp)
 
 
 
@@ -206,10 +188,10 @@ Và chính cách tiếp cận này đã gắn kết Spinoza với triết học 
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/vi/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/vi/009.webp)
 
 
 
@@ -225,7 +207,7 @@ Tuy nhiên, sự giàu có không gắn liền với tài nguyên thiên nhiên,
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/vi/010.webp)
 
 
 
@@ -272,7 +254,6 @@ Trong chương này, tôi đề xuất chúng ta hãy chuyển sang tác phẩm 
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -284,7 +265,7 @@ Tại sao lại là sau khi ông mất? Bởi vì những tư tưởng của ôn
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/vi/011.webp)
 
 
 
@@ -296,7 +277,7 @@ Tôi muốn chỉ ra rằng khi bạn mở cuốn Đạo đức học, bạn nê
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/vi/012.webp)
 
 
 
@@ -328,7 +309,7 @@ Thứ nhất, nếu đối với Spinoza, cơ hội không tồn tại, đó là
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/vi/013.webp)
 
 
 
@@ -348,7 +329,7 @@ Theo Gilles Deleuze (1925-1995), giáo sư triết học nổi tiếng và chuy�
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/vi/014.webp)
 
 
 
@@ -384,7 +365,7 @@ Sau Đạo đức học, tôi muốn giới thiệu với bạn một tác phẩ
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/vi/015.webp)
 
 
 
@@ -395,7 +376,7 @@ Như chúng ta đã thấy, khái niệm về Chúa của Spinoza là chủ đ�
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/vi/016.webp)
 
 
 
@@ -407,7 +388,7 @@ Và vì các khái niệm của Spinoza nhìn chung khá khó nắm bắt, nên 
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/vi/017.webp)
 
 
 
@@ -444,7 +425,7 @@ Trận động đất khét tiếng ở Lisbon vào ngày 1 tháng 11 năm 1755 
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/vi/018.webp)
 
 
 
@@ -456,7 +437,7 @@ Một vở kịch khơi gợi lại câu hỏi mà nhà triết học và toán 
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/vi/019.webp)
 
 
 
@@ -464,7 +445,7 @@ Vượt xa hơn cả việc lên án bàn tay của Chúa, Jean-Jacques Rousseau
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/vi/020.webp)
 
 
 
@@ -491,6 +472,8 @@ Và tất nhiên, vấn đề không phải là ngăn ngừa động đất, v�
 
 <chapterId>3e6599e3-5b29-50a8-a67d-d0386da5d65d</chapterId>
 
+:::video id=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
+
 
 
 :::id video=b6d2c035-8848-4da6-9da9-be3b70be0f38:::
@@ -509,10 +492,9 @@ Cũng như Nicolas Copernicus (1473-1543) đã khẳng định rằng Trái Đ�
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/vi/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -524,7 +506,7 @@ Trước ông, triết học Hy Lạp cổ điển đã đề xuất một tầm
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/vi/022.webp)
 
 
 
@@ -536,10 +518,9 @@ Nhưng với vật lý học mới của Copernicus (1473-1543) vào thế kỷ 
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/vi/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -547,7 +528,7 @@ Nhưng để hiểu đầy đủ về chủ nghĩa Spinoza, chúng ta cũng cầ
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/vi/024.webp)
 
 
 
@@ -555,7 +536,7 @@ Bất chấp những rủi ro và sự lên án của Giordano Bruno (1548-1600)
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/vi/025.webp)
 
 
 
@@ -585,6 +566,8 @@ Nói cách khác, họ được ban cho ý chí tự do, một niềm tin ảo t
 
 <chapterId>f147a914-cb64-5927-b305-26691930bca3</chapterId>
 
+:::video id=b59da795-ba19-4643-9672-36c9e7953a42:::
+
 
 
 :::id video=b59da795-ba19-4643-9672-36c9e7953a42:::
@@ -599,7 +582,7 @@ Như chúng ta đã thấy, Spinoza (1632-1677) nổi tiếng với việc coi �
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/vi/026.webp)
 
 
 
@@ -623,7 +606,7 @@ Trong hành trình cuộc đời, bởi vì ông không chịu sự chi phối c
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/vi/027.webp)
 
 
 
@@ -639,7 +622,7 @@ Ngược lại, Spinoza cho rằng thế giới của chúng ta hoàn toàn mạ
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/vi/028.webp)
 
 
 
@@ -667,7 +650,7 @@ Cách tiếp cận này đối với tự do như một năng lực hành độn
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/vi/029.webp)
 
 
 
@@ -692,10 +675,9 @@ Cuối cùng, điều đáng lưu ý là trong khi phong trào tự do mà chún
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/vi/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -726,7 +708,7 @@ Nhưng đối với Spinoza (1632-1677), con người không phải là "một �
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/vi/031.webp)
 
 
 
@@ -750,7 +732,7 @@ Và đó là lý do tại sao các căn bệnh mới như AIDS vào những năm
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/vi/032.webp)
 
 
 
@@ -766,7 +748,7 @@ Và đây chính xác là điều mà nhà tự nhiên học người Pháp Jean
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/vi/033.webp)
 
 
 
@@ -774,7 +756,7 @@ Nhưng như Spinoza đã nói, "ảo tưởng của con người không dừng l
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/vi/034.webp)
 
 
 
@@ -790,7 +772,7 @@ Tuy nhiên, cách diễn giải thiên lệch về lạm phát này khiến chú
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/vi/035.webp)
 
 
 
@@ -816,6 +798,8 @@ Cảm ơn sự chú ý của bạn và hẹn gặp lại ở chương tiếp the
 
 <chapterId>93554156-5e62-526d-9b71-49c47be916af</chapterId>
 
+:::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
+
 
 
 :::id video=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
@@ -826,7 +810,7 @@ Trong chương cuối cùng này về quan điểm Copernicus mới về các ý
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/vi/036.webp)
 
 
 
@@ -850,7 +834,7 @@ Nói cách khác, một ông già râu bạc ẩn sau đám mây, người đư�
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/vi/037.webp)
 
 
 
@@ -862,7 +846,7 @@ Nhưng bất chấp niềm kiêu hãnh của chúng ta khi tin rằng mình cao 
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/vi/038.webp)
 
 
 
@@ -882,7 +866,7 @@ Nói cách khác, theo Voltaire (1694-1778), "kẻ khét tiếng", người mà 
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/vi/039.webp)
 
 
 
@@ -894,7 +878,7 @@ Dưới vỏ bọc giải thoát chúng ta, cho phép chúng ta tưởng tượn
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/vi/040.webp)
 
 
 
@@ -902,7 +886,7 @@ Và đây chính là điều Spinoza một lần nữa chứng minh trong Luận
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/vi/041.webp)
 
 
 
@@ -937,6 +921,8 @@ Nói cách khác, trên thực tế, nhà nước sẽ lo sợ nhiều hơn về
 
 <chapterId>1ce64576-2688-5757-a119-57cc3a1076c0</chapterId>
 
+:::video id=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
+
 
 
 :::id video=9c490cc1-3d29-4ca7-9464-1a701bb91ba7:::
@@ -962,7 +948,7 @@ Các triết gia cổ đại tin rằng cái ác không tồn tại trong tự n
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/vi/042.webp)
 
 
 
@@ -970,7 +956,7 @@ Nhưng truyền thống kinh viện, đặc biệt là truyền thống của Th
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/vi/043.webp)
 
 
 
@@ -987,7 +973,7 @@ Spinoza viết trong cuốn Đạo đức học rằng "Không có điều gì x
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/vi/044.webp)
 
 
 
@@ -1010,7 +996,7 @@ Rõ ràng, hành vi của tội phạm luôn gắn liền với yếu tố quy�
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/vi/045.webp)
 
 
 
@@ -1050,7 +1036,7 @@ Theo Spinoza, tự do là một khái niệm cần được khám phá, một co
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/vi/046.webp)
 
 
 
@@ -1074,7 +1060,7 @@ Chúng ta nói về chế độ nô lệ, hay tình trạng phục tùng, một 
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/vi/047.webp)
 
 
 
@@ -1090,7 +1076,7 @@ Nói cách khác, nếu chúng ta ghét một người nước ngoài, đó là 
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/vi/048.webp)
 
 
 
@@ -1110,7 +1096,7 @@ Nhưng nếu cái gọi là lý thuyết về tình cảm này áp dụng cho "v
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/vi/049.webp)
 
 
 
@@ -1130,7 +1116,7 @@ Và trong trường hợp này, chúng ta cần bảo vệ bản thân khỏi s�
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/vi/050.webp)
 
 
 
@@ -1168,14 +1154,13 @@ Cuối cùng, sự sáng suốt này có nghĩa là không còn sống trong ch�
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 Đây chính xác là nội dung của triết học lý trí Khai sáng, đặc biệt là nhờ Immanuel Kant (1724-1804), người mà chỉ có cá nhân có học thức, dưới sự hướng dẫn của lý trí, mới có thể tự mình suy nghĩ và xác định, về mặt đạo đức, điều gì là "đúng" hay "tốt", và điều gì là độc hại.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/vi/051.webp)
 
 
 
@@ -1186,7 +1171,7 @@ Nói cách khác, ông nói, nếu chúng ta tự suy nghĩ, nếu chúng ta lý
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/vi/052.webp)
 
 
 
@@ -1194,7 +1179,7 @@ Ví dụ, Menger và Mises đã khẳng định rằng mọi kiến thức phả
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/vi/053.webp)
 
 
 
@@ -1215,7 +1200,7 @@ Là một người theo chủ nghĩa Spinoza, Hayek giải thích trong một vi
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/vi/054.webp)
 
 
 
@@ -1223,7 +1208,7 @@ Là một người theo chủ nghĩa Spinoza, Hayek giải thích trong một vi
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/vi/055.webp)
 
 
 
@@ -1231,7 +1216,7 @@ Là một người theo chủ nghĩa Spinoza, Hayek giải thích trong một vi
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/vi/056.webp)
 
 
 

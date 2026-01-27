@@ -1,14 +1,11 @@
 ---
-name: RGB-protokollet, från teori till praktik
+name: RGB-programmering
 goal: Förvärva de färdigheter som krävs för att förstå och använda RGB
-objectives: 
-
-  - Förstå de grundläggande begreppen i RGB-protokollet
-  - Behärska principerna för Client-side Validation- och Bitcoin-åtaganden
-  - Lär dig hur du skapar, hanterar och överför RGB-kontrakt
-  - Hur man använder en RGB-kompatibel Lightning-nod
-
-
+objectives:
+- Förstå de grundläggande begreppen i RGB-protokollet
+- Behärska principerna för Client-side Validation- och Bitcoin-åtaganden
+- Lär dig hur du skapar, hanterar och överför RGB-kontrakt
+- Hur man använder en RGB-kompatibel Lightning-nod
 ---
 # Upptäcka RGB-protokollet
 
@@ -60,10 +57,10 @@ Det sista avsnittet leds av andra talare som presenterar konkreta RGB-baserade a
 
 
 ---
-Denna utbildningskurs växte ursprungligen fram ur ett tvåveckors bootcamp för avancerad utveckling i Viareggio, Toscana, organiserat av [Fulgur'Ventures] (https://fulgur.ventures/). Den första veckan, som fokuserade på Rust och SDK:er, finns i denna andra kurs:
+Denna utbildningskurs växte ursprungligen fram ur ett tvåveckors bootcamp för avancerad utveckling i Viareggio, Toscana, organiserat av [Fulgur'Ventures](https://fulgur.ventures/). Den första veckan, som fokuserade på Rust och SDK:er, finns i denna andra kurs:
 
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 I den här kursen fokuserar vi på den andra veckan i bootcampen, som fokuserar på RGB.
 
@@ -96,7 +93,7 @@ Den skriftliga versionen av denna utbildning har utarbetats med hjälp av två h
 
 
 - Videor från Maxim Orlovsky, Hunter Trujilo och Frederico Tengas seminarium på Lightning Bootcamp;
-- RGB-dokumentationen, vars produktion sponsrades av [Bitfinex] (https://www.bitfinex.com/).
+- RGB-dokumentationen, vars produktion sponsrades av [Bitfinex](https://www.bitfinex.com/).
 
 
 Är du redo att dyka in i den komplexa och fascinerande världen av RGB? Då kör vi!
@@ -918,7 +915,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 ### Tapret
 
 
-Det sista alternativet är att använda **Taproot** (introducerad med BIP341) med *Tapret*-systemet. *Tapret* är en mer komplex form av deterministisk Commitment, som ger förbättringar när det gäller fotavtryck på Blockchain och sekretess för Contract-operationer. Huvudidén är att dölja Commitment i `Script Path Spend`-delen av en [Taproot-transaktion] (https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki).
+Det sista alternativet är att använda **Taproot** (introducerad med BIP341) med *Tapret*-systemet. *Tapret* är en mer komplex form av deterministisk Commitment, som ger förbättringar när det gäller fotavtryck på Blockchain och sekretess för Contract-operationer. Huvudidén är att dölja Commitment i `Script Path Spend`-delen av en [Taproot-transaktion](https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 
 ![RGB-Bitcoin](assets/en/036.webp)
@@ -972,7 +969,7 @@ I det här första fallet utgår vi från en Taproot-utmatningsnyckel (*Taproot 
 
 
 - "P": den interna offentliga nyckeln för _Key Path Spend_.
-- `G`: den elliptiska kurvans genereringspunkt [secp256k1] (https://en.Bitcoin.it/wiki/Secp256k1).
+- `G`: den elliptiska kurvans genereringspunkt [secp256k1](https://en.Bitcoin.it/wiki/Secp256k1).
 
 -`t = tH_TWEAK(P)` är tweakfaktorn, beräknad via en _taggad hash_ (t.ex. `SHA-256(SHA-256(TapTweak) || P)`), i enlighet med [BIP86](https://github.com/Bitcoin/bips/blob/master/bip-0086.mediawiki#Address-derivation). Detta bevisar att det inte finns något dolt skript.
 
@@ -1181,7 +1178,7 @@ var:
 
 
 
-- `mpc_tag` är en tagg: `urn:ubideco:mpc:Commitment#2024-01-31`, vald enligt [RGB tagging conventions] (https://github.com/RGB-WG/RGB-core/blob/master/doc/Commitments.md);
+- `mpc_tag` är en tagg: `urn:ubideco:mpc:Commitment#2024-01-31`, vald enligt [RGB tagging conventions](https://github.com/RGB-WG/RGB-core/blob/master/doc/Commitments.md);
 - `depth` (1 byte) anger djupet på *MPC Tree*;
 - cofactor` (16 bitar, i Little Endian) är en parameter som används för att främja unikheten i de positioner som tilldelats varje Contract i trädet;
 - `mpc::Root` är roten till *MPC Tree*, beräknad enligt den process som beskrivs i nästa avsnitt.
@@ -1220,7 +1217,7 @@ där "cofactor" är ett heltal som ökar sannolikheten för att erhålla distink
 - Om vi inte lyckas placera alla kontrakt utan kollision, inkrementerar vi `d` och börjar om.
 
 
-Målet är att undvika för höga träd och samtidigt minimera risken för kollisioner. Observera att kollisionsfenomenet följer en slumpmässig fördelningslogik, kopplad till [Anniversary Paradox] (https://en.wikipedia.org/wiki/Birthday_problem).
+Målet är att undvika för höga träd och samtidigt minimera risken för kollisioner. Observera att kollisionsfenomenet följer en slumpmässig fördelningslogik, kopplad till [Anniversary Paradox](https://en.wikipedia.org/wiki/Birthday_problem).
 
 
 #### Bebodda löv
@@ -2597,7 +2594,7 @@ Lightning Network är ett decentraliserat nätverk av betalningskanaler (eller _
 För mer information om hur Lightning fungerar rekommenderar jag att du går den här andra kursen:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -4242,8 +4239,8 @@ interface: RGB20Fixed
 
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -4300,7 +4297,7 @@ rgb contracts
 ![RGB-Bitcoin](assets/en/087.webp)
 
 
-Nästa kommando visar sedan de globala staterna (namn, ticker, Supply...) och listan över Owned States, dvs. tilldelningar (till exempel 1 miljon `PBN` tokens definierade i UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Nästa kommando visar sedan de globala staterna (namn, ticker, Supply...) och listan över Owned States, dvs. tilldelningar (till exempel 1 miljon `Plan ₿ Academy` tokens definierade i UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 
 ```bash
@@ -4431,7 +4428,7 @@ För att överföra från denna Invoice:
 
 
 
-- Bob (som innehar polletterna i sin Stash) har en Bitcoin Wallet. Han måste förbereda en Bitcoin-transaktion (i form av en PSBT, t.ex. `tx.PSBT`) som spenderar UTXO:erna där de nödvändiga RGB-tokens finns, plus en UTXO för valuta (Exchange);
+- Bob (som innehar tokenen i sin stash) har en Bitcoin-plånbok. Han måste förbereda en Bitcoin-transaktion (i form av en PSBT, t.ex. `tx.psbt`) som spenderar de UTXO:er där de nödvändiga RGB-tokenen finns, samt ytterligare en UTXO för växel (change);
 - Bob utför följande kommando:
 
 
@@ -4559,7 +4556,7 @@ I verkligheten gör Lightning Network det möjligt att dirigera betalningar via 
 Användningen av RGB på Lightning måste därför betraktas parallellt med den för Lightning Network själv. Om du vill fördjupa dig i detta ämne rekommenderar jag starkt att du tar en titt på denna andra omfattande utbildningskurs:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB kodkarta
 
@@ -4758,7 +4755,7 @@ Med **RGB20** definierar vi en fungibel token på Bitcoin. Utgivaren väljer en 
 ### Bitmask-lösningen: en Wallet för RGB
 
 
-För att utnyttja RGB:s möjligheter i praktiken har **DIBA**-projektet utformat en Wallet som kallas [Bitmask] (https://bitmask.app/). Tanken är att tillhandahålla ett icke-frihetsberövande, Taproot-baserat verktyg, tillgängligt som en webbapplikation eller ett webbläsartillägg. Bitmask hanterar både RGB20- och RGB21-tillgångar och integrerar olika säkerhetsmekanismer:
+För att utnyttja RGB:s möjligheter i praktiken har **DIBA**-projektet utformat en Wallet som kallas [Bitmask](https://bitmask.app/). Tanken är att tillhandahålla ett icke-frihetsberövande, Taproot-baserat verktyg, tillgängligt som en webbapplikation eller ett webbläsartillägg. Bitmask hanterar både RGB20- och RGB21-tillgångar och integrerar olika säkerhetsmekanismer:
 
 
 
@@ -4827,7 +4824,7 @@ Sedan omkring 2022 har Bitfinex RGB-team koncentrerat sig på att utveckla den t
 
 - Deltagande i källkods- och protokollspecifikationer, inklusive att skriva förbättringsförslag, åtgärda buggar etc;
 - Verktyg för utvecklare för att förenkla integrationen av RGB i deras applikationer;
-- Design av en mobil Wallet med namnet [Iris] (https://iriswallet.com/) för att experimentera och illustrera bästa praxis för användning av RGB;
+- Design av en mobil Wallet med namnet [Iris](https://iriswallet.com/) för att experimentera och illustrera bästa praxis för användning av RGB;
 - Skapande av en anpassad Lightning-nod som kan hantera kanaler med RGB-tillgångar;
 - Stödja andra team som bygger lösningar på RGB, för att uppmuntra mångfald och ett starkt ekosystem.
 
@@ -4964,8 +4961,8 @@ För den som vill veta mer eller bidra finns flera resurser att tillgå, bland a
 
 
 
-- [GitHub RGB Tools repositories] (https://github.com/RGB-Tools);
-- [En informationswebbplats tillägnad Iris Wallet] (https://iriswallet.com/) för att testa Wallet på Android.
+- [GitHub RGB Tools repositories](https://github.com/RGB-Tools);
+- [En informationswebbplats tillägnad Iris Wallet](https://iriswallet.com/) för att testa Wallet på Android.
 
 
 I nästa kapitel tar vi en närmare titt på hur man startar en RGB Lightning-nod.
@@ -4986,7 +4983,7 @@ I det här sista kapitlet tar Frederico Tenga dig steg för steg genom att konfi
 Den här videon fungerar som en handledning, liknande det vi gick igenom i ett tidigare kapitel, men med särskilt fokus på Lightning den här gången!
 
 
-Huvudresursen för den här videon är Github-arkivet [RGB Lightning Node] (https://github.com/RGB-Tools/RGB-lightning-node), vilket gör det enkelt för dig att starta den här konfigurationen i Regtest.
+Huvudresursen för den här videon är Github-arkivet [RGB Lightning Node](https://github.com/RGB-Tools/RGB-lightning-node), vilket gör det enkelt för dig att starta den här konfigurationen i Regtest.
 
 
 ### Driftsättning av en RGB-kompatibel Lightning-nod
@@ -5273,7 +5270,7 @@ Du kan naturligtvis anpassa beställningen. För att bekräfta transaktionen, vi
 ```
 
 
-Vi kan nu skapa en RGB-tillgång. Kommandot beror på vilken typ av tillgång du vill skapa och dess parametrar. Här skapar jag en NIA (*Non Inflatable Asset*) token med namnet "PBN" med en Supply på 1000 enheter. Med `precision` kan du definiera enheternas delbarhet.
+Vi kan nu skapa en RGB-tillgång. Kommandot beror på vilken typ av tillgång du vill skapa och dess parametrar. Här skapar jag en NIA (*Non Inflatable Asset*) token med namnet "Plan ₿ Academy" med en Supply på 1000 enheter. Med `precision` kan du definiera enheternas delbarhet.
 
 
 ```bash
@@ -5282,8 +5279,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -5331,7 +5328,7 @@ Kommandot returnerar den publika nyckeln för min nod nr 2:
 ![RGB-Bitcoin](assets/en/110.webp)
 
 
-Därefter öppnar vi kanalen genom att ange den relevanta tillgången (`PBN`). Med kommandot `/openchannel` kan du definiera kanalens storlek i satoshis och välja att inkludera RGB-tillgången. Det beror på vad du vill skapa, men i mitt fall är kommandot:
+Därefter öppnar vi kanalen genom att ange den relevanta tillgången (`Plan ₿ Academy`). Med kommandot `/openchannel` kan du definiera kanalens storlek i satoshis och välja att inkludera RGB-tillgången. Det beror på vad du vill skapa, men i mitt fall är kommandot:
 
 
 ```bash
@@ -5379,7 +5376,7 @@ För att bekräfta transaktionen bryts 6 block:
 ![RGB-Bitcoin](assets/en/112.webp)
 
 
-Lightning-kanalen är nu öppen och innehåller också 500 `PBN`-tokens på nod n°1:s sida. Om nod n°2 vill ta emot `PBN`-tokens måste den generate och Invoice. Så här gör du för att göra det:
+Lightning-kanalen är nu öppen och innehåller också 500 `Plan ₿ Academy`-tokens på nod n°1:s sida. Om nod n°2 vill ta emot `Plan ₿ Academy`-tokens måste den generate och Invoice. Så här gör du för att göra det:
 
 
 ```bash
@@ -5416,7 +5413,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RGB-Bitcoin](assets/en/113.webp)
 
 
-Vi kommer nu att betala denna Invoice från den första noden, som har de nödvändiga kontanterna med `PBN` token:
+Vi kommer nu att betala denna Invoice från den första noden, som har de nödvändiga kontanterna med `Plan ₿ Academy` token:
 
 
 ```bash

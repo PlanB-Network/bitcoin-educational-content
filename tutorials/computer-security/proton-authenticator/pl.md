@@ -194,7 +194,7 @@ Po pierwsze, możesz zapoznać się z naszym przewodnikiem po ProtonMail, aby uz
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 Zaloguj się na swoje konto ProtonMail i przejdź do ustawień bezpieczeństwa. Poszukaj opcji "Uwierzytelnianie dwuskładnikowe" i aktywuj ją.
 
@@ -495,7 +495,7 @@ Najlepiej używać więcej niż jednego drugiego czynnika na krytycznych kontach
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Podobnie, należy mieć pod ręką wydrukowane kody awaryjne.
 
@@ -545,7 +545,7 @@ Poniżej znajduje się nasz przewodnik po Authy:
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Proton Authenticator to jedno z najbardziej wszechstronnych i bezpiecznych rozwiązań dostępnych na rynku: open source, szyfrowana synchronizacja wielu urządzeń, brak komercyjnych działań następczych.
 

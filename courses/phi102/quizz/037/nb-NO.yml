@@ -1,0 +1,8 @@
+question: Hva er, ifølge Bastiats analyse, det logiske problemet med Proudhons utsagn "eiendom er tyveri"?
+answer: Hvis eiendom er tyveri, blir tyveri til eiendom, noe som skaper en logisk selvmotsigelse
+wrong_answers:
+  - Eiendom kan ikke eksistere uten statlig regulering og juridiske rammer
+  - Tyveri er moralsk galt, mens eiendom er moralsk riktig under alle omstendigheter
+  - Eiendom krever fysisk besittelse, mens tyveri innebærer midlertidig tilegnelse
+explanation: |
+  Bastiat demonstrerte den indre logiske selvmotsigelsen i Proudhons berømte setning ved å vise at hvis vi aksepterer at eiendom er det samme som tyveri, så må tyveri i logisk forlengelse være det samme som eiendom. Dette skaper et umulig sirkelresonnement der noe legitimt samtidig er illegitimt. Bastiat argumenterte i stedet for at eiendom er en naturlig følge av arbeid, selveierskap og menneskelige evner, noe som gjør den til et grunnleggende og logisk konsept snarere enn en form for tyveri.

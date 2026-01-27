@@ -8,7 +8,7 @@ description: Konfigurera en Ledger utan Ledger Live-programvara
 Om du använder en Ledger har du förmodligen upptäckt att du måste gå igenom Ledger Live-programvaran, åtminstone för den första enhetskonfigurationen, för att kontrollera dess äkthet och installera Bitcoin-applikationen på den. Efter denna konfiguration föredrar dock många bitcoiners att använda specialiserad Bitcoin Wallet-hanteringsprogramvara som Sparrow eller Liana snarare än Ledger Live. Även om Ledger producerar utmärkta hårdvaruplånböcker som snabbt inkluderar de senaste Bitcoin-funktionerna, är deras programvara inte nödvändigtvis anpassad till bitcoiners specifika behov. Ledger Live innehåller faktiskt många funktioner som är utformade för altcoins, medan alternativen för Bitcoin Wallet-hantering är begränsade. Men problemet med Sparrow och Liana (för tillfället) är att de inte tillåter dig att installera Bitcoin-applikationen på Ledger.
 
 
-För att kringgå behovet av att använda Ledger Live under den inledande konfigurationen av din Ledger kan du använda Bacca-verktyget (eller "Ledger Installer"). Med den här programvaran kan du installera och uppdatera Bitcoin-applikationen, verifiera äktheten hos din Ledger och även senare uppdatera enhetens firmware. Bacca skapades av Antoine Poinsot (Darosior), Bitcoin Core-utvecklare på Chaincode Labs, medgrundare [av Revault och Liana] (https://wizardsardine.com/) och Pythcoiner.
+För att kringgå behovet av att använda Ledger Live under den inledande konfigurationen av din Ledger kan du använda Bacca-verktyget (eller "Ledger Installer"). Med den här programvaran kan du installera och uppdatera Bitcoin-applikationen, verifiera äktheten hos din Ledger och även senare uppdatera enhetens firmware. Bacca skapades av Antoine Poinsot (Darosior), Bitcoin Core-utvecklare på Chaincode Labs, medgrundare [av Revault och Liana](https://wizardsardine.com/) och Pythcoiner.
 
 
 I den här handledningen visar jag dig hur du använder det här verktyget, så att du kan klara dig utan Ledger Live-programvara för gott och fortfarande njuta av Ledger-enheter. Det fungerar på alla enheter: Nano S Classic, Nano S Plus, Nano X, Flex och Stax.
@@ -64,13 +64,13 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 **Windows:**
 
 
-För att installera Git, gå till [projektets officiella webbplats] (https://git-scm.com/). Ladda ner programvaran och följ installationsanvisningarna.
+För att installera Git, gå till [projektets officiella webbplats](https://git-scm.com/). Ladda ner programvaran och följ installationsanvisningarna.
 
 
 ![BACCA](assets/fr/01.webp)
 
 
-Fortsätt på samma sätt för att installera Rust från [den officiella webbplatsen] (https://www.Rust-lang.org/tools/install).
+Fortsätt på samma sätt för att installera Rust från [den officiella webbplatsen](https://www.Rust-lang.org/tools/install).
 
 
 ![BACCA](assets/fr/02.webp)
@@ -137,11 +137,11 @@ Du har nu tillgång till programvaran Interface.
 Innan du börjar, om din Ledger är ny, se till att du har ställt in PIN-koden och sparat återställningsfrasen. Du behöver inte Ledger Live för dessa inledande steg. Anslut helt enkelt din Ledger via USB-kabeln för att driva den. Om du inte är säker på hur du ska gå vidare med dessa två steg kan du hänvisa till början av den handledning som är specifik för din modell:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 ## Använda Bacca
 
@@ -197,4 +197,4 @@ Om du tyckte att den här handledningen var användbar skulle jag vara tacksam o
 Jag rekommenderar också att du tar en titt på den här handledningen om GnuPG, som förklarar hur du kontrollerar integriteten och äktheten hos din programvara innan du installerar den. Detta är en viktig praxis, särskilt när du installerar Wallet-hanteringsprogramvara som Liana eller Sparrow :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc

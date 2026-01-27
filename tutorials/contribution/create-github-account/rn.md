@@ -9,7 +9,7 @@ description: Ni gute wokwikorera konti yawe kuri GitHub?
 Intumbero ya Plan ₿ ni ugutanga ibikoresho vy’inyigisho vyo ku rwego rwo hejuru ku vyerekeye Bitcoin, biboneka mu ndimi nyinshi zishoboka. Ibintu vyose bisohoka kuri uru rubuga ni ivy’inkomoko yuguruye kandi bishirwa kuri GitHub, bikaba biha umuntu wese akaryo ko gutanga umusanzu mu gutunganya urubuga. Intererano zishobora kuba mu buryo butandukanye: gukosora no gukosora ivyanditswe vyariho, guhindura mu zindi ndimi, guhindura amakuru canke guhingura inyigisho nshasha zitaraboneka ku rubuga rwacu.
 
 
-Niba wipfuza gutanga umusanzu muri Plan ₿ Network, uzokenera gukoresha Git na GitHub, rero, nimba ivyo bikoresho utamenyereye canke nimba imikorere yavyo isa n’iyiteye ubwoba, ntuhagarike umutima, iyi nkuru ni iyawe! Tuzosubiramwo hamwe ivy’ishimikiro vya Git na GitHub, hamwe n’amajambo y’ubuhinga ajanye navyo, kugira ngo ushobore kubikoresha neza inyuma.
+Niba wipfuza gutanga umusanzu muri Plan ₿ Academy, uzokenera gukoresha Git na GitHub, rero, nimba ivyo bikoresho utamenyereye canke nimba imikorere yavyo isa n’iyiteye ubwoba, ntuhagarike umutima, iyi nkuru ni iyawe! Tuzosubiramwo hamwe ivy’ishimikiro vya Git na GitHub, hamwe n’amajambo y’ubuhinga ajanye navyo, kugira ngo ushobore kubikoresha neza inyuma.
 
 
 ## Git ni iki?
@@ -27,7 +27,7 @@ Kimwe mu bintu nyamukuru biranga Git ni uburongozi bw’ishami. Ishami ni ubwoko
 
 Kimwe mu bintu bidasanzwe vya Git ni ubushobozi bwayo bwo gukora mu buryo busanzwe. Buri muhinguzi wese afise kopi yuzuye y’uwo mugambi kuri mudasobwa yiwe bwite yitwa Hard drive, ivyo bikaba bituma akora atari ku rubuga rwa interineti no gufatanya amahinduka mu nyuma iyo hariho uruja n’uruza rwa Internet. Ivyo bigabanya ingorane z’amatati kandi bikaba bituma abahinguzi benshi bakora icarimwe ku mugambi umwe ata n’umwe atera amano.
 
-Mu ntango, Git yari igenewe cane cane imigambi yo gutegura porogarama. Ariko kandi, irashobora gukoreshwa mu gucunga imigambi yo kwandika ibirimwo. Aho gukorana ku bijanye n’amakode, dukorana ku bijanye n’ivyanditswe. Kandi ni ubwo buryo nyene Plan ₿ Network yakoresheje kugira ngo icunge ibirimwo! Git ifasha mu gukorana mu kwandika amashure n’inyigisho, kuko ituma umuntu ashobora gukurikirana neza amahinduka, gucunga neza verisiyo, kandi igatuma abandi batanga umusanzu bashobora gusubiramwo no kunoza ibirimwo.
+Mu ntango, Git yari igenewe cane cane imigambi yo gutegura porogarama. Ariko kandi, irashobora gukoreshwa mu gucunga imigambi yo kwandika ibirimwo. Aho gukorana ku bijanye n’amakode, dukorana ku bijanye n’ivyanditswe. Kandi ni ubwo buryo nyene Plan ₿ Academy yakoresheje kugira ngo icunge ibirimwo! Git ifasha mu gukorana mu kwandika amashure n’inyigisho, kuko ituma umuntu ashobora gukurikirana neza amahinduka, gucunga neza verisiyo, kandi igatuma abandi batanga umusanzu bashobora gusubiramwo no kunoza ibirimwo.
 
 
 ## GitHub ni iki?
@@ -46,7 +46,7 @@ Ibaze Git nk’ubwoko bw’igitabu c’ivya kera umuhinguzi wese akoresha kuri m
 Itandukaniro ry’ishimikiro hagati ya Git na GitHub riri mu gikorwa cavyo: Git ni igikoresho gikoreshwa mu karere n’umuhinguzi wese kugira ngo ashobore gucunga verisiyo za kode zabo, mu gihe GitHub ari urubuga rwo kuri internet rwakira izo verisiyo kandi rworosha gukorana.
 
 
-GitHub ni ikintu kirenze cane igikorwa co kwakira kode gusa. Ni urubuga rwo gukorana rutuma abahinguzi bakorana neza. Kandi vy’ukuri, Plan ₿ Network ikoresha iyo nzira kugira ngo ntiyakire gusa kode yose itanga ububasha ku rubuga ariko kandi, kandi ivyo ni vyo bidushimisha, ibirimwo vyose (inyigisho, amahugurwa, ibikoresho...).
+GitHub ni ikintu kirenze cane igikorwa co kwakira kode gusa. Ni urubuga rwo gukorana rutuma abahinguzi bakorana neza. Kandi vy’ukuri, Plan ₿ Academy ikoresha iyo nzira kugira ngo ntiyakire gusa kode yose itanga ububasha ku rubuga ariko kandi, kandi ivyo ni vyo bidushimisha, ibirimwo vyose (inyigisho, amahugurwa, ibikoresho...).
 
 
 ## Amajambo amwe amwe y'ubuhinga

@@ -6,4 +6,4 @@ wrong_answers:
   - Aby umożliwić Bobowi bezpośrednie wydawanie środków
 explanation: |
   Alicja tworzy transakcję wypłaty, aby odzyskać swoje środki, jeśli wystąpi problem z Bobem, zapewniając w ten sposób bezpieczeństwo swojego depozytu.
-reviewed: false
+reviewed: true

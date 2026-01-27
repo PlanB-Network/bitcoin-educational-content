@@ -1,4 +1,4 @@
-question: Giao thức Layer thứ hai nào cho phép thanh toán gần như ngay lập tức?
+question: Giao thức lớp cơ sở hạ tầng thứ hai nào cho phép thanh toán gần như ngay lập tức?
 answer: Lightning Network
 wrong_answers:
   - Chuỗi bên

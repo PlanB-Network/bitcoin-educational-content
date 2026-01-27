@@ -3,7 +3,7 @@ answer: Faktorizacija prostih brojeva
 wrong_answers:
   - Eksponencijalno množenje celih brojeva
   - Kreiranje dugih nasumičnih brojeva
-  - Osiguraj ključ Exchange
+  - Sigurna razmene ključa
 explanation: |
   RSA se zasniva na težini faktorizacije prostih brojeva, što je računski težak zadatak koji čini kriptosistem sigurnim protiv napada.
-reviewed: false
+reviewed: true

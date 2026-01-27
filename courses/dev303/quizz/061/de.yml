@@ -1,0 +1,8 @@
+question: Was ist der grundlegende Unterschied zwischen der Verarbeitung von Makros und Funktionen in Rust?
+answer: Makros werden vom Compiler zur Kompilierzeit erweitert, bevor die Kompilierung beginnt, während Funktionen zur Laufzeit aufgerufen werden
+wrong_answers:
+  - Makros verwenden den Mustervergleich für die Typüberprüfung, während Funktionen die statische Analyse für die Validierung zur Laufzeit verwenden
+  - Makros generate optimierter Assembler-Code direkt, während Funktionen von der virtuellen Maschine Rust interpretiert werden
+  - Makros werden während der Ausführung im Speicher abgelegt, während Funktionen beim Aufruf von der Festplatte geladen werden
+explanation: |
+  Die richtige Antwort identifiziert den wichtigsten zeitlichen Unterschied: Makros arbeiten während der Kompilierung durch Codeerweiterung, während Funktionen während der Programmlaufzeit ausgeführt werden. Die falschen Antworten bringen verschiedene Programmierkonzepte durcheinander: Rust verwendet keine virtuelle Maschine, sowohl Makros als auch Funktionen werden einer Typüberprüfung unterzogen (allerdings in unterschiedlichen Phasen), und weder Funktionen noch Makros werden während der Ausführung auf die beschriebene Weise von der Festplatte geladen.

@@ -5,7 +5,7 @@ description: Hur ställer man in en BitAxe?
 ![video](https://youtu.be/tvLSK8v0MK8)
 
 
-### Inledning
+## Inledning
 
 
 BitAxe är ett öppen källkodsprojekt skapat av Skot och [finns på GitHub](https://github.com/skot/bitaxe) som möjliggör kostnadseffektiva Mining-experiment.
@@ -27,7 +27,7 @@ Det finns flera versioner av BitAxe, med olika chips och prestanda:
 I denna handledning kommer vi att använda en BitAxe Ultra 204 utrustad med ett BM1366-chip, som används för Antminer S19XP. Den här är redan monterad och flashad av återförsäljaren.
 
 
-### [Listan över återförsäljare finns på den här sidan] (https://bitaxe.org/legit.html)
+[Listan över återförsäljare finns på denna sida](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)
@@ -39,7 +39,7 @@ I allmänhet säljs strömförsörjningen Supply tillsammans med den. Om inte, m
 ![signup](assets/1.webp)
 
 
-### Konfiguration
+## Konfiguration
 
 När du först ansluter din BitAxe kommer den som standard att försöka ansluta till ett Wi-Fi-nätverk. Efter fem försök visar den namnet på sitt eget Wi-Fi-nätverk så att du kan ansluta till det och konfigurera det.
 
@@ -70,7 +70,7 @@ Ange därför SSID för Wi-Fi, det vill säga namnet på ditt nätverk, lösenor
 Som du kan se på skärmen måste du ta bort delarna `stratum+tcp://` och `:3333`, så att bara `eu.stratum.braiins.com` återstår. I fältet `Port` anger du sedan de 4 siffrorna i slutet av URL:en som ges av poolen, men utan `:`. Här är det därför `3333`.
 
 
-I den här handledningen använder vi Braiins Mining pool, men du är fri att välja en annan. Du kan hitta våra handledningar om Mining-pooler [på PlanB Network-webbplatsen] (https://planb.network/en/tutorials/mining).
+I den här handledningen använder vi Braiins Mining pool, men du är fri att välja en annan. Du kan hitta våra handledningar om Mining-pooler [på Plan ₿ Academy-webbplatsen](https://planb.academy/en/tutorials/mining).
 
 
 Därefter anger du din identifierare i `User` och sedan `Password`, vanligtvis är det `"x"` eller `"Anything123"`.
@@ -86,7 +86,7 @@ När du har angett alla inställningar korrekt klickar du på knappen "Spara" l�
 
 Om du har angett dina uppgifter korrekt ska enheten snabbt ansluta till ditt Wi-Fi och sedan till Mining pool och börja visa viss information på sin lilla skärm. Det kommer förmodligen att ta några minuter innan den visas på Mining pool:s instrumentpanel.
 
-### Instrumentpanel och skärm
+## Instrumentpanel och skärm
 
 
 Tre olika skärmar kommer att rulla igenom. På den tredje sidan ser du "IP"-informationen, som är den IP Address som gör att du kan ansluta till instrumentpanelen. Här är Address `192.168.1.19`.

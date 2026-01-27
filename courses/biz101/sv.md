@@ -1,22 +1,19 @@
 ---
 name: Bitcoin för företag
 goal: Få en praktisk och strategisk förståelse för hur ditt företag kan använda Bitcoin som betalningsmedel och finansiellt verktyg
-objectives: 
-
-  - Förståelse för Bitcoin som en växande valuta och ett affärsverktyg
-  - Förstå varför och hur ett företag kan hålla Bitcoin som tillgång eller ta emot det som betalning
-  - Få en konkret plan för hur du börjar acceptera Bitcoin-betalningar i praktiken
-  - Bli förberedd på att hantera skatte- och bokföringskrav
-
+objectives:
+- Upptäck Bitcoin som en framväxande valuta och ett affärsverktyg
+- Förstå varför och hur ett företag kan hålla bitcoin i kassan eller använda det för betalningar
+- Ha en konkret uppfattning om hur man accepterar Bitcoin-betalningar i praktiken
+- Var förberedd på att hantera skattemässiga och redovisningsmässiga krav
 ---
-# Kickstarta ditt företags resa i Bitcoin-nätverket
+# Kickstarta ditt företags resa på Bitcoin-nätverket
 
-Upptäck de praktiska möjligheterna med Bitcoin och Lightning Network, och utforska hur de, precis som internet, kan **transformera din affärsverksamhet**. Från digitalt kapital till blixtsnabba, kostnadseffektiva och skalbara betalningar, ger Bitcoin ett brett spektrum av **användningsområden för företag**.
+Upptäck de praktiska möjligheterna med Bitcoin och Lightning Network, och utforska hur de, precis som internet, kan transformera din affärsverksamhet. Från treasury till snabba, ekonomiska och skalbara betalningar erbjuder Bitcoin ett brett spektrum av användningsfall för företag.
 
-I den här guiden kommer du att lära dig att förstå Bitcoin som ett globalt, universellt och internetbaserat monetärt nätverk. Med sina unika grundläggande egenskaper erbjuder **Bitcoin betydande förbättringar jämfört med traditionella valutasystem**. Du kommer att upptäcka varför och hur du kan utnyttja Bitcoin för klassiska finansiella områden som kapitalförvaring och betalningssystem. Guiden går också igenom hur du köper och förvarar Bitcoin på ett säkert sätt, inklusive tillhörande redovisnings- och skattekrav, samt implementering av enkla eller storskaliga Bitcoin-betalningslösningar.
+Under denna kurs kommer du att lära dig hur du förstår Bitcoin som ett globalt, universellt och internetbaserat monetärt nätverk. Med sina unika grundläggande egenskaper erbjuder Bitcoin betydande förbättringar jämfört med traditionell valuta. Du kommer att upptäcka varför och hur du kan utnyttja Bitcoin för klassiska finansiella användningsfall såsom kapitallagring och betalningssystem. Dessutom kommer denna kurs att täcka förvärv och innehav av Bitcoin, inklusive tillhörande redovisnings- och skattekrav, samt implementering av enkla eller storskaliga Bitcoin-betalningslösningar.
 
-Oavsett om du driver ett **litet företag eller en större verksamhet** kan du genom att integrera Bitcoin i din dagliga drift göra ditt företag mer **motståndskraftigt, produktivt och konkurrenskraftigt**. Varje internetbaserat företag kommer att bli ett Bitcoin-orienterat företag, och den här kursen säkerställer att du är förberedd. De inledande avsnitten ger dig en översikt över hur Bitcoin fungerar, så även om du är nybörjare kommer du att få den grundläggande kunskap som behövs för att gå vidare. Att lära sig grunderna om Satoshis uppfinning är alltid en bra idé, oavsett om det är före eller efter att du dyker in i BIZ101.
-
+Oavsett om du är ett litet företag eller en stor koncern, kan integrering av Bitcoin i din dagliga verksamhet göra ditt företag mer motståndskraftigt, produktivt och konkurrenskraftigt. Varje internetbaserat företag kommer att bli ett Bitcoin-orienterat företag, och denna kurs säkerställer att du är förberedd.
 +++
 # Inledning
 
@@ -36,7 +33,7 @@ Oavsett om du representerar ett litet företag eller ett stort bolag syftar den 
 
 Är du redo att dyka ner i Bitcoin-världen för företag? Låt oss gå!
 
-**Obs**: Om du stöter på okända termer under kursen, vänligen konsultera [ordlistan](https://planb.network/resources/glossary) för definitioner.
+**Obs**: Om du stöter på okända termer under kursen, vänligen konsultera [ordlistan](https://planb.academy/resources/glossary) för definitioner.
 
 # Valuta, betalningssystem och Bitcoin
 
@@ -199,7 +196,7 @@ Tillsammans gör de Bitcoin till en **innehavartillgång** och en digital valuta
 
 ![BIZ101](assets/sv/003.webp)
 
-Bitcoin har en fast penningpolitik, med ett **tak på 21 miljoner bitcoins**, av vilka ~19,8 miljoner redan har distribuerats. Detta gör den **deflationär**, med ett värde som ökar över tid när användarna förvarar besparingar och produktivitetsvinster i den.
+Bitcoin har en fast penningpolitik, med ett **maximum på 21 miljoner bitcoins**, varav ~19,8 (2024) miljoner redan har brutits. Detta gör den **deflationär**, där dess värde ökar över tid i takt med att användare lagrar besparingar och produktivitetsvinster i den.
 
 Dess tekniska egenskaper överträffar guld och dollar tillsammans, vilket gör den till den hårdaste finansiella tillgången som någonsin skapats. Bitcoin är både en värdebevarare och ett bytesmedel, en valuta som håller på att formas. Föreställ dig att snabbt överföra värde från ett företags kassa till ett annat, utan mellanhänder, till minimal kostnad, utan bedrägeri, dygnet runt och utan att någon tredje part är inblandad.
 
@@ -211,7 +208,7 @@ Bitcoin är omvälvande eftersom det uppmuntrar oss att lära oss begrepp inom m
 
 Bitcoin får oss att tänka om kring pengars grundläggande natur. Kan du förklara vad pengar egentligen är? En löntagare eller entreprenör kan ägna 50 000 till 100 000 timmar av sitt liv åt att tjäna pengar, men hur många **ägnar ens 100 timmar åt att förstå det bättre** och bevara det? Bitcoin uppmuntrar oss att ifrågasätta de grundläggande orsakerna bakom vårt behov av pengar och vårt tidsperspektiv. Är pengar till för omedelbar lyx eller långsiktig motståndskraft? Vilka val skulle vi göra om vi hade en tillgång med värdeökning som gjorde att vi kunde skjuta upp våra inköp? Vilka samtal skulle vi vilja ha med oss själva om 20 eller 30 år?
 
-**BITCOINS IDENTITETSKORT**
+**BITCOIN IDENTITETSKORT (år 2024)**
 
 - **Ålder:** 15 år (3 januari 2009)
 - **Dagligt växlingsvärde:** 10 miljarder USD (> CAC40)
@@ -235,7 +232,7 @@ Bitcoin får oss att tänka om kring pengars grundläggande natur. Kan du förkl
 
 För mer information om Bitcoin, dess historia, hur det fungerar och hur det används, föreslår jag också att du följer denna andra omfattande kurs:
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Introduktion till Lightning Network
 
@@ -293,7 +290,7 @@ Lightning Network är idealisk för Bitcoin-betalningar i fysiska butiker eller 
 - **Finalitet:** När en betalning har gjorts på Lightning är den slutgiltig. Det finns ingen möjlighet till återbetalningar från tredje part eller bedrägerirelaterade tvister.
 - **Avgifter:** Transaktionsavgifterna på Lightning Network är minimala och betalas av användaren, inte av säljaren. Handlare drabbas endast av avgifter om de senare behöver överföra sina bitcoins till ett annat nätverk eller en annan tjänst.
 
-**LIGHTNINGS IDENTITETSKORT**
+**LIGHTNING IDENTITETSKORT (år 2024)**
 
 
 - **Uppfinning:** 2015
@@ -316,7 +313,7 @@ Lightning Network är idealisk för Bitcoin-betalningar i fysiska butiker eller 
 
 För mer information om det tekniska arbetet med Lightning Network föreslår jag också att du kollar in denna andra omfattande kurs:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 # Bitcoin i företagskassan
 
@@ -434,9 +431,9 @@ Dessa tänkare har format idén om att statliga ingripanden snedvrider marknader
 
 För mer information om detta ämne:
 
-https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Innehav av Bitcoin i företagskassan
 
@@ -599,7 +596,7 @@ Eftersom Bitcoin fungerar som ett bytesmedel är det möjligt att föreställa s
 
 Detta innebär att man tjänar belöningar på att använda mining-maskiner. För icke-specialiserade företag är detta fortfarande relativt marginellt. Du kan delta genom mellanhänder som säljer eller hyr ut datorer, nätverk och underhåll till dig. Om du äger maskinerna kan du redovisa dem som avskrivningsbara tillgångar. I stor skala måste du noggrant beräkna avkastningen på investeringen eftersom marknaden är mycket konkurrensutsatt och kräver en god framförhållning när det gäller kostnader, särskilt el.
 
-Om du vill lära dig mer om mining-metoderna kan du [läsa avsnittet "Mining" i våra handledningar] (https://planb.network/tutorials/mining).
+Om du vill lära dig mer om mining-metoderna kan du [läsa avsnittet "Mining" i våra handledningar](https://planb.academy/tutorials/mining).
 
 
 - **Köp av Bitcoin:**
@@ -608,9 +605,9 @@ Detta är den absolut vanligaste metoden och sker antingen via peer-to-peer-bör
 
 För att lära dig hur du öppnar ett företagskonto och använder det för att köpa, sälja och överföra bitcoins kan du kolla in dessa två handledningar som är speciellt utformade för företag och som innehåller plattformarna Kraken och Bitfinex i sina företagsversioner:
 
-https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
-Om du vill lära dig mer om metoder för att förvärva bitcoins via en börs eller peer-to-peer kan du [läsa avsnittet "Exchange" i våra handledningar](https://planb.network/tutorials/exchange).
+https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+Om du vill lära dig mer om metoder för att förvärva bitcoins via en börs eller peer-to-peer kan du [läsa avsnittet "Exchange" i våra handledningar](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/sv/012.webp)
 
@@ -638,7 +635,7 @@ Fastighetsbranschen upprepar ofta att "det alltid är rätt tid att köpa" och g
 
 ![BIZ101](assets/sv/013.webp)
 
-*Källa: [Bitcoin Office] (https://Bitcoin.gob.sv/)*
+*Källa: [Bitcoin Office](https://Bitcoin.gob.sv/)*
 
 ### I vilken form ska man köpa? (Metoder för förvaring)
 
@@ -859,16 +856,16 @@ För detaljerade anvisningar om rekommenderade plånböcker och grundläggande i
 
 **Non-custodial LN-plånböcker/noder:**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **Custodial LN-plånböcker:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## Det grundläggande
 
@@ -900,16 +897,16 @@ En annan viktig fördel med grundläggande-profilen är betoningen på snabb imp
 
 Den mest lämpliga hybridlösningen för din profil är sannolikt Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 En annan lösning som är enkel att implementera, men som har nackdelen att den är 100% custodial, är Open Node:
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Om du är redo att smutsa ner dina händer och vill ha full kontroll över processen är BTCPay Server-programvaran ett utmärkt alternativ. Den största nackdelen med BTCPay Server är dock att dess installation och hantering är tidskrävande och kräver en viss nivå av teknisk expertis, men du kan följa våra guider:
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
-Slutligen, som ett komplement till fysiska försäljningsställen, kan du överväga att sätta upp [en Bitcoinize PoS] (https://bitcoinize.com/).
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+Slutligen, som ett komplement till fysiska försäljningsställen, kan du överväga att sätta upp [en Bitcoinize PoS](https://bitcoinize.com/).
 
 ## Den professionella
 
@@ -929,7 +926,7 @@ När det gäller teknik och verktyg utgör lösningar som **BTC Pay Server** oft
 
 ![BIZ101-profiles](assets/sv/026.webp)
 
-Dessutom kan verktyg som [Zaprite] (https://zaprite.com/) eller [Musqet] (https://musqet.tech/) ytterligare förfina kassaupplevelsen, vilket möjliggör mer detaljerad anpassning (från varumärkesval till sofistikerade rapporteringsfunktioner). De som föredrar en allt-i-ett-miljö för detaljhandel online kan dras till [Be-BOP] (https://be-bop.io/), en e-butik lösning byggd för att underlätta Bitcoin betalningar utan att offra användarvänligheten.
+Dessutom kan verktyg som [Zaprite](https://zaprite.com/) eller [Musqet](https://musqet.tech/) ytterligare förfina kassaupplevelsen, vilket möjliggör mer detaljerad anpassning (från varumärkesval till sofistikerade rapporteringsfunktioner). De som föredrar en allt-i-ett-miljö för detaljhandel online kan dras till [Be-BOP](https://be-bop.io/), en e-butik lösning byggd för att underlätta Bitcoin betalningar utan att offra användarvänligheten.
 
 ![BIZ101-profiles](assets/sv/027.webp)
 
@@ -941,11 +938,11 @@ När det gäller exempel från verkligheten kan man tänka sig en medelstor e-ha
 
 ![BIZ101-profiles](assets/sv/028.webp)
 
-*[Källa: Bitcoin Bazar-butik i Paris, Frankrike.] (https://bitcoinbazar.fr/)*
+*[Källa: Bitcoin Bazar-butik i Paris, Frankrike.](https://bitcoinbazar.fr/)*
 
 För att gå djupare in på implementeringsdetaljer och utforska praktiska konfigurationer av BTC Pay Server, se följande kurs:
 
-https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 ## Företaget
 
@@ -1181,7 +1178,7 @@ En enkel "csv"-fil som innehåller transaktionshistoriken är dock ofta tillräc
 
 För dem som själva förvarar sina Bitcoin är hanteringen av UTXO (*Unspent Transaction Outputs*) ett viktigt steg. Korrekt UTXO-märkning hjälper till att spåra ursprunget för varje BTC-fragment, skilja transaktioner relaterade till professionell aktivitet från de för personliga utgifter och underlätta spårbarhet för juridiska eller skattemässiga ändamål. Med de flesta bra Bitcoinplånboks-program kan du importera din plånbok med hjälp av din backup-fil (eller din xpub, beroende på din inställning) och märka UTXO:er baserat på deras ursprung eller destination. För att hjälpa dig, här är en komplett handledning tillägnad denna praxis:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Slutligen, oavsett om du är en liten handlare eller ett mer etablerat företag, är det möjligt att **betala en faktura i Bitcoin**. Nyckeln är att dokumentera transaktionen korrekt. Om du betalar från en plånbok med egen förvaring är det perfekt att generera en transaktion som noterar fakturanumret och syftet med betalningen i dina etiketter. Om du föredrar att betala fakturor via en börs kommer du också att ha möjlighet att exportera ett kvitto eller en transaktionshistorik som du kan inkludera i din bokföring. Denna transparens kommer att förenkla spårningen och rapporteringen av alla dina BTC-operationer.
 

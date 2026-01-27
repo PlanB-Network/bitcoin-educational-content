@@ -31,7 +31,7 @@ An RGB contract is structured like an evolutionary state machine. It starts with
 
 To learn more about how the RGB protocol works, I recommend you take this comprehensive training course:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## RGB-compatible Lightning node installation
 
@@ -219,7 +219,7 @@ You can, of course, adapt the order. To confirm the transaction, we mine a :
 ./regtest.sh mine 1
 ```
 
-We can now create an RGB asset. The command will depend on the type of asset you wish to create and its parameters. Here I'm creating a NIA (*Non Inflatable Asset*) token named "PBN" with a supply of 1000 units. The `precision` allows you to define the divisibility of the units.
+We can now create an RGB asset. The command will depend on the type of asset you wish to create and its parameters. Here I'm creating a NIA (*Non Inflatable Asset*) token named "Plan ₿ Academy" with a supply of 1000 units. The `precision` allows you to define the divisibility of the units.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -227,8 +227,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -264,7 +264,7 @@ The command returns the public key of my node n°2 :
 
 ![RLN](assets/fr/13.webp)
 
-Next, we'll open the channel by specifying the relevant asset (`PBN`). The `/openchannel` command lets you define the size of the channel in satoshis and opt to include the RGB asset. It depends on what you want to create, but in my case, the command is :
+Next, we'll open the channel by specifying the relevant asset (`Plan ₿ Academy`). The `/openchannel` command lets you define the size of the channel in satoshis and opt to include the RGB asset. It depends on what you want to create, but in my case, the command is :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -303,7 +303,7 @@ To confirm the transaction, 6 blocks are mined:
 
 ![RLN](assets/fr/15.webp)
 
-The Lightning channel is now open and also contains 500 `PBN` tokens on node n°1's side. If node n°2 wishes to receive `PBN` tokens, it must generate an invoice. Here's how to do it:
+The Lightning channel is now open and also contains 500 `Plan ₿ Academy` tokens on node n°1's side. If node n°2 wishes to receive `Plan ₿ Academy` tokens, it must generate an invoice. Here's how to do it:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -332,7 +332,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RLN](assets/fr/16.webp)
 
-We will now pay this invoice from the first node, which holds the necessary cash with the `PBN` token:
+We will now pay this invoice from the first node, which holds the necessary cash with the `Plan ₿ Academy` token:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -372,4 +372,4 @@ If you found this tutorial useful, I'd be very grateful if you put a green thumb
 
 I also recommend this other tutorial in which I explain how to use the RGB CLI tool developed by the LNP/BP association to create an RGB contract:
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

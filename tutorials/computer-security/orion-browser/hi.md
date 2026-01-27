@@ -665,7 +665,7 @@ brew install --cask orion
 
 
 
-### Plan ₿ Network पर विकल्प
+### Plan ₿ Academy पर विकल्प
 
 
 अधिकतम सुरक्षा के लिए, हमारी अन्य मार्गदर्शिकाएँ देखें:
@@ -673,14 +673,14 @@ brew install --cask orion
 
 
 
-- [फ़ायरफ़ॉक्स को और मज़बूत बनाया गया](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - उन्नत मल्टी-प्लेटफ़ॉर्म कॉन्फ़िगरेशन
-- [टोर ब्राउज़र](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - पूर्ण नेटवर्क गुमनामी
-- [मुलवड ब्राउज़र](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - अधिकतम फ़िंगरप्रिंटिंग सुरक्षा
+- [फ़ायरफ़ॉक्स को और मज़बूत बनाया गया](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - उन्नत मल्टी-प्लेटफ़ॉर्म कॉन्फ़िगरेशन
+- [टोर ब्राउज़र](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - पूर्ण नेटवर्क गुमनामी
+- [मुलवड ब्राउज़र](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - अधिकतम फ़िंगरप्रिंटिंग सुरक्षा
 
 
 
-यदि आप ब्राउज़रों के इतिहास और संचालन के साथ-साथ अपने दैनिक जीवन में मुख्य डिजिटल वस्तुओं के बारे में अधिक जानना चाहते हैं, तो मैं आपको हमारे नए निःशुल्क प्रशिक्षण पाठ्यक्रम SCU 202 की खोज करने के लिए आमंत्रित करता हूं, जो Plan ₿ Network पर उपलब्ध है:
+यदि आप ब्राउज़रों के इतिहास और संचालन के साथ-साथ अपने दैनिक जीवन में मुख्य डिजिटल वस्तुओं के बारे में अधिक जानना चाहते हैं, तो मैं आपको हमारे नए निःशुल्क प्रशिक्षण पाठ्यक्रम SCU 202 की खोज करने के लिए आमंत्रित करता हूं, जो Plan ₿ Academy पर उपलब्ध है:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

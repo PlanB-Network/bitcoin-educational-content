@@ -1,0 +1,8 @@
+question: What critical security vulnerability does the LND Accounts architecture specifically address when multiple applications connect to a single Lightning node?
+answer: The blast radius problem where compromising one application exposes the entire node's funds to theft
+wrong_answers:
+  - The double-spending attack where multiple applications can spend the same satoshis simultaneously
+  - The channel exhaustion issue where too many applications drain all available Lightning channel capacity
+  - The private key fragmentation risk where each application generates its own cryptographic material
+explanation: |
+  LND Accounts solve the 'blast radius' problem by creating sandboxed environments with strict budget limits and granular permissions. Without this architecture, all applications typically have broad access to the node's full balance, meaning a single compromised application could drain everything. The wrong answers describe issues that either don't exist (double-spending is prevented by Lightning's cryptographic design) or aren't the primary security concern LND Accounts address (channel capacity management and key fragmentation).

@@ -14,7 +14,7 @@ En RGB-kontrakt er strukturert som en evolusjonær tilstandsmaskin. Den starter 
 
 Hvis du vil lære mer om hvordan RGB-protokollen fungerer, anbefaler jeg at du tar dette omfattende opplæringskurset:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Den interne logikken i RGB er basert på Rust-biblioteker som du som utvikler kan importere til prosjektene dine for å håndtere *Klientsidevalidering*-delen. I tillegg jobber LNP/BP-teamet med bindinger for andre språk, men dette er ennå ikke ferdigstilt. I tillegg utvikler andre enheter som Bitfinex sine egne integrasjonsstabler, men vi vil snakke om disse i en annen veiledning. Inntil videre er `rgb` CLI den offisielle referansen, selv om den fortsatt er relativt upolert.
 
@@ -135,8 +135,8 @@ Her er et eksempel på en YAML-fil som kan opprettes:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -180,7 +180,7 @@ rgb contracts
 
 ![RGB-CLI](assets/fr/07.webp)
 
-Deretter viser den neste kommandoen de globale tilstandene (navn, ticker, forsyning ...) og listen over Owned States, dvs. allokeringer (for eksempel 1 million `PBN`-tokens definert i UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Deretter viser den neste kommandoen de globale tilstandene (navn, ticker, forsyning ...) og listen over Owned States, dvs. allokeringer (for eksempel 1 million `Plan ₿ Academy`-tokens definert i UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -309,4 +309,4 @@ Du vet nå hvordan du utsteder og overfører en RGB-kontrakt. Hvis du synes denn
 
 Jeg anbefaler også denne andre veiledningen, der jeg forklarer hvordan du starter en RGB-kompatibel Lightning-node for å utveksle tokens nesten umiddelbart:
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

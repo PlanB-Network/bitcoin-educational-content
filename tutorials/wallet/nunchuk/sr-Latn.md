@@ -98,7 +98,7 @@ U prozoru koji se pojavi, pronaći ćete polja za "popunjavanje": izaberite dugm
 Možete pronaći vodič za Sparrow wallet da preuzmete ovaj Software Wallet
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Možete zatim preneti `.apk` datoteku sa svog računara na telefon.
 
@@ -276,7 +276,7 @@ Imenujte svoj ključ i pritisnite _Nastavi_.
 
 
 
-Na kraju ovih koraka, bićete upitani da li želite da dodate [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) svojoj Mnemonic frazi. Ako nemate potrebno znanje o tome kako koristiti passphrase, kako napraviti njegovu rezervnu kopiju ili kako funkcioniše, preporučujem da izaberete _Ne treba mi lozinka_.
+Na kraju ovih koraka, bićete upitani da li želite da dodate [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) svojoj Mnemonic frazi. Ako nemate potrebno znanje o tome kako koristiti passphrase, kako napraviti njegovu rezervnu kopiju ili kako funkcioniše, preporučujem da izaberete _Ne treba mi lozinka_.
 
 
 
@@ -394,7 +394,7 @@ Nalazite se u _Home_, gde vam je prikazan novokreirani Wallet koji izveštava o 
 
 
 - Ikonica sočiva u gornjem desnom uglu omogućava vam pretragu transakcija;
-- `View Wallet config` daje pristup meniju za konfiguraciju, gde možete urediti ime Wallet i omogućiti napredne opcije, gore desno (od kojih ne možete napraviti snimke ekrana). Ovde možete izvesti konfiguraciju Wallet, oznake, zameniti ključeve, promeniti [gap limit](https://planb.network/en/resources/glossary/gap-limit) i još mnogo toga.
+- `View Wallet config` daje pristup meniju za konfiguraciju, gde možete urediti ime Wallet i omogućiti napredne opcije, gore desno (od kojih ne možete napraviti snimke ekrana). Ovde možete izvesti konfiguraciju Wallet, oznake, zameniti ključeve, promeniti [gap limit](https://planb.academy/en/resources/glossary/gap-limit) i još mnogo toga.
 
 
 

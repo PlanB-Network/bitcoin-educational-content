@@ -6,7 +6,7 @@ description: Cara membangun komputer minimalis, terisolasi, dan berbiaya rendah 
 
 
 
-Jika Anda telah berada di halaman Plan ₿ Network untuk sementara waktu, Anda telah mengetahui bahwa salah satu pengaturan keamanan yang paling dianjurkan, hampir menjadi keharusan, **adalah pengelolaan dana dengan penyimpanan offline kunci pribadi Anda**.
+Jika Anda telah berada di halaman Plan ₿ Academy untuk sementara waktu, Anda telah mengetahui bahwa salah satu pengaturan keamanan yang paling dianjurkan, hampir menjadi keharusan, **adalah pengelolaan dana dengan penyimpanan offline kunci pribadi Anda**.
 
 
 
@@ -14,7 +14,7 @@ Jika Anda belum menemukannya, di sepanjang tutorial ini Anda akan menemukan taut
 
 
 
-Untuk mengelola kunci privat secara offline, diperlukan perangkat yang secara permanen terputus dari jaringan, baik itu [dompet perangkat keras](https://planb.network/resources/glossary/hardware-wallet) atau komputer airgap, yang didedikasikan untuk fungsi khusus ini.
+Untuk mengelola kunci privat secara offline, diperlukan perangkat yang secara permanen terputus dari jaringan, baik itu [dompet perangkat keras](https://planb.academy/resources/glossary/hardware-wallet) atau komputer airgap, yang didedikasikan untuk fungsi khusus ini.
 
 
 
@@ -70,7 +70,7 @@ bagian dari panduan ini akan menunjukkan kepada Anda bagaimana dan di mana melak
 
 
 
-Ketika saya memutuskan untuk melanjutkan, saya menemukan [kit ini] (https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) yang penuh dengan aksesori, untuk memanfaatkan sepenuhnya potensi PI Zero. Bahkan, kit ini berisi USB A -> micro USB power Supply, hub USB kecil, mini-HDMI -> adaptor HDMI, heatsink tembaga, dan casing luar aluminium. Kit ini juga dilengkapi dengan sekrup dan kunci pas yang diperlukan untuk memasang PI Zero di casing baru.
+Ketika saya memutuskan untuk melanjutkan, saya menemukan [kit ini](https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) yang penuh dengan aksesori, untuk memanfaatkan sepenuhnya potensi PI Zero. Bahkan, kit ini berisi USB A -> micro USB power Supply, hub USB kecil, mini-HDMI -> adaptor HDMI, heatsink tembaga, dan casing luar aluminium. Kit ini juga dilengkapi dengan sekrup dan kunci pas yang diperlukan untuk memasang PI Zero di casing baru.
 
 
 
@@ -500,7 +500,7 @@ Di antara Wallet yang saya ketahui, satu-satunya yang menyediakan rilis 32-bit a
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Kesimpulan
 

@@ -1,0 +1,9 @@
+question: Điều này có nghĩa gì khi Bitcoin được mô tả là một hệ thống giả danh thay vì một hệ thống ẩn danh?
+answer: Người dùng có thể được theo dõi thông qua các bút danh của họ, nhưng danh tính thực sự của họ không được tiết lộ trực tiếp
+wrong_answers:
+  - Người dùng không thể bị theo dõi và giao dịch của họ hoàn toàn bị ẩn khỏi tầm nhìn
+  - Người dùng phải đăng ký tên thật nhưng có thể sử dụng địa chỉ giả để giao dịch
+  - Người dùng hoàn toàn ẩn danh và không có cách nào để kết nối bất kỳ giao dịch nào với nhau
+explanation: |
+  Tính chất ẩn danh của Bitcoin đồng nghĩa với việc mặc dù người dùng hoạt động dưới danh nghĩa (địa chỉ được lấy từ khóa công khai), các giao dịch của họ vẫn có thể được theo dõi và liên kết giữa các danh nghĩa này trên blockchain. Điều này khác với ẩn danh thực sự, trong đó các giao dịch không để lại bất kỳ kết nối nào có thể theo dõi. Trong Bitcoin, bạn có thể theo dõi dòng tiền giữa các địa chỉ, nhưng danh tính thực tế đằng sau những địa chỉ đó sẽ không bị tiết lộ trực tiếp trừ khi ai đó tự nguyện tiết lộ hoặc mắc lỗi dẫn đến rò rỉ thông tin cá nhân.
+reviewed: false

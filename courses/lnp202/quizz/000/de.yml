@@ -1,0 +1,9 @@
+question: Was ist die Kapazität eines Lightning-Kanals?
+answer: Gesperrter Gesamtbetrag
+wrong_answers:
+  - Verfügbare Gesamtliquidität in einer Richtung
+  - Maximale Gebühren
+  - Höchstzahl der möglichen Zahlungen
+explanation: |
+  Die Kapazität entspricht der Gesamtsumme der im Multisig-Ausgang des Kanals blockierten sats.
+reviewed: false

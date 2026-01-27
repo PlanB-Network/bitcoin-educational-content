@@ -1,0 +1,8 @@
+question: What fundamental characteristic of LDK's component design philosophy differentiates it from monolithic Lightning node implementations like CLightning or LND?
+answer: Each component provides default implementations that can be individually replaced with custom solutions while maintaining protocol compliance
+wrong_answers:
+  - All components must be implemented from scratch by developers with no default implementations provided by the library
+  - Components are permanently locked together and cannot be modified once integrated into an application architecture
+  - The library requires all components to use identical programming languages and cannot support cross-platform language bindings
+explanation: |
+  LDK's core philosophy centers on providing modular components with working default implementations that developers can selectively replace when needed. This allows customization of specific functionality (like blockchain monitoring or transaction signing) while keeping other components unchanged. The wrong answers misrepresent LDK's approach: it provides defaults rather than requiring everything from scratch, enables component replacement rather than locking them together, and supports multiple programming languages through its binding system.

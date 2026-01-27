@@ -1,0 +1,8 @@
+question: What is the most significant advantage of using Result and Option types over panic for error handling in production Rust code?
+answer: They force explicit acknowledgment of potential failures and enable graceful error recovery
+wrong_answers:
+  - They provide better performance by avoiding stack unwinding during error conditions
+  - They automatically convert all error types to string messages for easier debugging
+  - They eliminate the need for error propagation by handling errors at the point of failure
+explanation: |
+  Result and Option types make error handling explicit and recoverable by forcing developers to acknowledge that operations can fail and providing mechanisms to handle those failures gracefully. Unlike panic, which immediately terminates execution, these types allow programs to continue running and respond appropriately to error conditions. The wrong answers misrepresent their capabilities: performance isn't their primary advantage, they don't automatically convert errors to strings (that's anyhow's feature), and they actually facilitate rather than eliminate error propagation through operators like ?.

@@ -1,5 +1,5 @@
 ---
-name: 리니지OS
+name: LineageOS
 description: 스마트폰용 무료, 접착되지 않은 안드로이드 운영 체제
 ---
 
@@ -738,4 +738,4 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

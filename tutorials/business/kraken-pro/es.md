@@ -10,7 +10,7 @@ En este tutorial, cubriremos el proceso de creación de una cuenta comercial en 
 
 Si te interesa el tema de la integración del Bitcoin en tu negocio, te recomendamos también que descubras nuestro curso completo de formación teórica sobre el tema:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Crear una cuenta corporativa de Kraken
 
@@ -78,7 +78,7 @@ En las opciones 2FA, puedes elegir utilizar una llave de seguridad física como 
 
 Para más información sobre cómo utilizar este tipo de dispositivo, consulta nuestro tutorial específico:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 La otra opción es utilizar una aplicación de autenticación como Google Authenticator o Authy. Estas aplicaciones generan un código dinámico de 6 dígitos que tendrás que introducir cada vez que te conectes.
 
@@ -90,7 +90,7 @@ Para activar este método, escanea el código QR con la aplicación de tu elecci
 
 Para más información sobre aplicaciones de autenticación, también puedes consultar este tutorial:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Debajo, también tienes acceso a la configuración avanzada, incluida la posibilidad de establecer varias 2FA diferentes. Kraken ofrece delegación de seguridad avanzada mediante 2FA. Esta función permite crear diferentes niveles de 2FA para diversas acciones, como el inicio de sesión, la validación de órdenes y la retirada de fondos. Esto hace posible, por ejemplo, dar acceso a un contador solo a ciertas funcionalidades sin permitirle retirar fondos. Estas son las opciones:
 
@@ -219,4 +219,4 @@ Dependiendo de los objetivos y la estructura de tu empresa, el uso de Kraken pue
 
 Para profundizar en este tema, recomendamos este curso completo de formación sobre la integración de Bitcoin en las empresas, que cubre en detalle la adición al flujo de caja, la aceptación de pagos Bitcoin, y la contabilidad:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

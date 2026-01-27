@@ -1,0 +1,8 @@
+question: Koji kritični problem rešava mehanizam kanala na zahtev (just-in-time) u Breez SDK-u s kojim se tradicionalne Lightning implementacije bore?
+answer: Automatski kreira nove kanale sa dovoljnim dolaznim likviditetom kada stignu uplate, eliminišući potrebu da korisnici ručno upravljaju kapacitetom kanala.
+wrong_answers:
+  - Sprečava zatvaranje kanala automatskim ponovnim balansiranjem sredstava preko više kanala kada jedan postane nereagujući ili se isključi.
+  - Smanjuje naknade za transakcije grupisanjem više malih uplata u veće operacije kanala koje se obrađuju tokom sati van špica mreže.
+  - Eliminiše potrebu za uslugama osmatračnice stvaranjem privremenih kanala koji automatski ističu nakon uspešnog završetka plaćanja
+explanation: |
+  Mehanizam kanala just-in-time specifično rešava izazov upravljanja likvidnošću u Lightning mreži gde sredstva mogu teći samo u pravcima gde postoji kapacitet. Kada korisnik treba da primi uplatu, ali nema dovoljno dolazne likvidnosti, LSP automatski otvara novi kanal u trenutku kada uplata stigne, što se dešava neprimetno bez intervencije korisnika. Pogrešni odgovori opisuju druge izazove Lightning mreže, ali ne i specifičan problem likvidnosti koji just-in-time kanali rešavaju.

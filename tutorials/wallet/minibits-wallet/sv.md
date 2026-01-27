@@ -38,7 +38,7 @@ Behandla Minibits som en vardaglig Wallet, inte som ett sparkonto, och förvara 
 ## 1️⃣ Konfigurera din Wallet
 
 
-Börja med att besöka [Minibits webbplats] (https://www.minibits.cash/) där du hittar nedladdningsalternativ för alla större plattformar. iOS-användare kan ladda ner från [App Store] (https://testflight.apple.com/join/defJQgTD), medan EU iOS-användare har det extra alternativet att installera från [Freedom Store] (https://freedomstore.io/). Android-användare kan hämta appen från [Google Play Store] (https://play.google.com/store/apps/details?id=com.minibits_wallet) eller ladda ner APK-filen direkt från sidan [GitHub Releases] (https://github.com/minibits-cash/minibits_wallet/releases).
+Börja med att besöka [Minibits webbplats](https://www.minibits.cash/) där du hittar nedladdningsalternativ för alla större plattformar. iOS-användare kan ladda ner från [App Store](https://testflight.apple.com/join/defJQgTD), medan EU iOS-användare har det extra alternativet att installera från [Freedom Store](https://freedomstore.io/). Android-användare kan hämta appen från [Google Play Store](https://play.google.com/store/apps/details?id=com.minibits_wallet) eller ladda ner APK-filen direkt från sidan [GitHub Releases](https://github.com/minibits-cash/minibits_wallet/releases).
 
 
 När du installerar Minibits kommer du att se introduktionsskärmar som förklarar de grundläggande begreppen - du kan läsa igenom dem eller hoppa över dem om du redan är bekant med tekniken. När du har slutfört dessa inledande steg uppmanas du att välja mellan:
@@ -73,7 +73,7 @@ Som standard är Minibits mint aktiverat när du startar appen. En av ecashs sty
 
 Backup är utan tvekan det mest kritiska steget i hela installationsprocessen. För att komma åt Backup-alternativen, navigera till `Settings`-> `Backup` Här hittar du två viktiga alternativ:
 
-1. "Din seed-fras" som innehåller "12 ord" som gör att du kan återställa ditt ecashsaldo vid förlust av enheten. Denna seed-fras är din huvudnyckel till alla ecash i alla myntverk som du har lagt till. Skriv ner den på ett fysiskt medium (papper eller metall) och förvara den på ett säkert sätt på flera platser. Förvara aldrig din seed-fras digitalt där den kan äventyras. Överväg att besöka denna [handledning](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) för bästa praxis för att skydda din Wallet.
+1. "Din seed-fras" som innehåller "12 ord" som gör att du kan återställa ditt ecashsaldo vid förlust av enheten. Denna seed-fras är din huvudnyckel till alla ecash i alla myntverk som du har lagt till. Skriv ner den på ett fysiskt medium (papper eller metall) och förvara den på ett säkert sätt på flera platser. Förvara aldrig din seed-fras digitalt där den kan äventyras. Överväg att besöka denna [handledning](https://planb.academy/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) för bästa praxis för att skydda din Wallet.
 
 2. `Wallet backup` som innehåller en lång backup-sträng.
 
@@ -168,9 +168,9 @@ Minibits ger en tillgänglig ingångspunkt till ecash-världen och erbjuder inte
 För ytterligare resurser, kolla in Minibits GitHub-arkivet, den officiella webbplatsen och deras Telegram-kanal där samhället aktivt diskuterar utveckling och felsöker problem
 
 
-- [Github] (https://github.com/minibits-cash/minibits_wallet)
-- [Webbplats] (https://www.minibits.cash/)
-- [Telegram] (https://t.me/MinibitsWallet)
+- [Github](https://github.com/minibits-cash/minibits_wallet)
+- [Webbplats](https://www.minibits.cash/)
+- [Telegram](https://t.me/MinibitsWallet)
 
 
 Ecash-ekosystemet är fortfarande under utveckling, men verktyg som Minibits gör denna kraftfulla integritetsteknik alltmer tillgänglig för vanliga användare.

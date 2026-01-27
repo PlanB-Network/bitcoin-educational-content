@@ -20,7 +20,7 @@ description: 在 Raspberry Pi 上安裝 RoninDojo v2 Bitcoin 節點
 
 在之前的教學中，我們已經介紹了安裝和使用 RoninDojo v1 的步驟。然而，在過去的一年中，RoninDojo 團隊推出了他們的實作版本 2，這標誌著該軟體架構的一個重要轉折點。事實上，他們捨棄了 Linux Manjaro 發行版，改用 Debian。因此，他們不再提供在 Raspberry Pi 上自動安裝的預先設定映像檔。但仍有一種手動安裝的方法。我就是用這個方法來安裝我自己的節點，從那時起，RoninDojo v2 在我的 Raspberry Pi 4 上運作得非常好。因此，我現在提供一個新的教學，說明如何在 Raspberry Pi 上手動安裝 RoninDojo v2。
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## 目錄：
 
@@ -333,7 +333,7 @@ RoninDojo 提供了在 [RockPro64](https://ronindojo.io/en/download) 上自動�
 ![lets start](assets/notext/25.webp)
 
 
-在此階段，RoninUI 向您提供您的 `root` 密碼。必須妥善保管。您可以選擇在紙張上進行實體備份，或將其保存在 [密碼管理器](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)。
+在此階段，RoninUI 向您提供您的 `root` 密碼。必須妥善保管。您可以選擇在紙張上進行實體備份，或將其保存在 [密碼管理器](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)。
 
 
 ![root password](assets/notext/26.webp)
@@ -543,7 +543,7 @@ Block explorer 將來自 Bitcoin Blockchain 的原始資訊轉換成結構化、
 為了加深您對這些指數計算機制的瞭解，我建議您閱讀這篇文章：REMIX - Whirlpool，詳細說明這些指數的運作。
 
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

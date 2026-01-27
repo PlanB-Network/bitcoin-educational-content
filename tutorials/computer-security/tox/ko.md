@@ -10,25 +10,26 @@ description: 탈중앙화 Tox 프로토콜에서 중개자 없이 대화를 시�
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| **Tox**              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+
+| 애플리케이션          | E2EE 1:1       | E2EE 그룹    | 익명 가입           | 오픈 소스 클라이언트 라이선스 | 오픈 소스 서버 라이선스 | 분산 서버             | 생성 연도        |
+| -------------------- | -------------- | -------------- | ------------------- | ---------------------------- | --------------------------- | -------------------- | ---------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                            | ❌                           | ❌                    | 2009             |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                            | ❌                           | ❌                    | 2011             |
+| Facebook Messenger   | ✅              | 🟡 (선택 사항) | ❌                 | ❌                            | ❌                           | ❌                    | 2011             |
+| Telegram             | 🟡 (선택 사항) | ❌              | 🟡                  | ✅                            | ❌                           | ❌                    | 2013             |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                            | ❌                           | ❌                    | 2011             |
+| Signal               | ✅              | ✅              | ❌                   | ✅                            | ✅                           | ❌                    | 2014             |
+| Threema              | ✅              | ✅              | ✅                   | ✅                            | ❌                           | ❌                    | 2012             |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                            | ✅                           | 🟡 (연합형)           | 2016             |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                            | N/A                         | 🟡 (이메일을 통해)    | 2017             |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                            | ✅                           | 🟡 (연합형)           | 2014             |
+| Session              | ✅              | ✅              | ✅                   | ✅                            | ✅                           | ✅                    | 2020             |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                            | ✅                           | ✅                    | 2021             |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                            | ❌                           | 🟡(디렉터리 없음)      | 2019             |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                            | N/A                         | ✅                    | 2022             |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                            | N/A                         | ✅                    | 2005             |
+| Briar                | ✅              | ✅              | ✅                   | ✅                            | N/A                         | ✅                    | 2018             |
+| **Tox**              | ✅              | ✅              | ✅                   | ✅                            | N/A                         | ✅                    | 2013             |
 
 *E2EE = 엔드투엔드 암호화*
 
@@ -304,4 +305,4 @@ Tox를 사용해보고 개인정보 보호 강화에 유용한 기능을 이해�
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

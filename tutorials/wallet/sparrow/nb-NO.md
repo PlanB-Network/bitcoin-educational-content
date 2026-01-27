@@ -124,13 +124,14 @@ server=1
 
 Når du har redigert filen, må du sørge for å lagre den i riktig mappe for operativsystemet ditt:
 
-| **macOS** | ~/Bibliotek/Applikasjonssupport/Bitcoin | | **macOS** | ~/Library/Application Support/Bitcoin
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin | %APPDATA%\Bitcoin
-
-| **Linux** | ~/.Bitcoin | ~/.Bitcoin
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Denne operasjonen kan også utføres via den grafiske Interface Bitcoin-QT Interface. Gå til menyen "*Settings*", deretter "*Options...*", og aktiver alternativet "*Enable RPC server*" ved å krysse av i den tilhørende boksen. Hvis filen `Bitcoin.conf` ikke finnes, kan du opprette den direkte fra denne Interface ved å klikke på "*Open Configuration File*".
 

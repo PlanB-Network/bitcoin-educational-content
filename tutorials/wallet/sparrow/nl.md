@@ -181,10 +181,11 @@ server=1
 Nadat je het bestand hebt bewerkt, moet je ervoor zorgen dat je het opslaat in de juiste map voor je besturingssysteem:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Deze handeling kan ook worden uitgevoerd via de grafische Interface Bitcoin-QT. Ga naar het menu "*Instellingen*", dan "*Opties...*" en activeer de optie "*RPC server inschakelen*" door het overeenkomstige vakje aan te vinken. Als het bestand `Bitcoin.conf` niet bestaat, kun je het direct vanaf deze Interface aanmaken door op "*Open Configuration File*" te klikken.
 

@@ -130,13 +130,10 @@ server=1
 
 Setelah mengedit file, pastikan Anda menyimpannya dalam folder yang sesuai untuk sistem operasi Anda:
 
-| **macOS** | ~/Perpustakaan/Dukungan Aplikasi/Bitcoin |
-
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Kamu juga bisa ngelakuin ini lewat tampilan antarmuka Bitcoin Core (Bitcoin-QT).
 Cukup buka menu "Settings", lalu pilih "Options...", dan centang kotak "Enable RPC server".

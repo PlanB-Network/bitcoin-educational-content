@@ -306,18 +306,19 @@ IP 패킷의 헤더는 필수 데이터 구조로, 패킷이 네트워크를 통
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| 버전 번호 | 프로토콜 | 버전 설명 | 참조 |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | 예약됨 | 예약됨 | |
+| 2–3 | 할당되지 않음 | 할당되지 않음 | |
+| 4 | IP | 인터넷 프로토콜 | RFC 791 |
+| **5** | **ST** | **ST 데이터그램 모드** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | 인터넷 프로토콜 버전 6 | RFC 8200 |
+| 7 | TP/IX | 차세대 인터넷 | RFC 1475 |
+| 8 | PIP | P 인터넷 프로토콜 | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | 할당되지 않음 | 할당되지 않음 | |
+| 15 | 예약됨 | 예약됨 | |
 
 이 중에는 일반인에게는 잘 알려지지 않았지만 ST(_스트림 프로토콜_)로 존재했던 IPv5가 있습니다. 1980년대에 개발된 IPv5는 당시 점점 커져가는 수요, 즉 VoIP나 멀티미디어 스트림과 같이 지속적이고 안정적인 전송이 필요한 특정 데이터 흐름에 대해 "_서비스 품질_"(QoS)을 제공하기 위해 고안되었습니다. 그 목표는 엔드투엔드 대역폭과 우선순위를 보장하는 것이었는데, 이는 오늘날 최신 라우터에서 네트워크 리소스를 동적으로 예약하기 위해 RSVP(_자원 예약 프로토콜_)가 제공하는 것과 유사한 개념입니다.
 

@@ -306,18 +306,19 @@ Başlıktaki ilk alan Sürüm olarak adlandırılır. Bu 4 bitlik değer, paketi
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Versiyon Numarası | Protokol | Versiyon Açıklaması | Referans |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Rezerve | Rezerve | |
+| 2–3 | Atanmamış | Atanmamış | |
+| 4 | IP | İnternet Protokolü | RFC 791 |
+| **5** | **ST** | **ST Datagram modu** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | İnternet Protokolü versiyon 6 | RFC 8200 |
+| 7 | TP/IX | Bir Sonraki İnternet | RFC 1475 |
+| 8 | PIP | P İnternet Protokolü | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Atanmamış | Atanmamış | |
+| 15 | Rezerve | Rezerve | |
 
 Bunlar arasında, halk tarafından büyük ölçüde bilinmemesine rağmen ST (_Stream Protocol_) olarak var olan IPv5 de bulunmaktadır. 1980'lerde geliştirilen IPv5, o dönemde giderek artan bir ihtiyaç olan Address için tasarlanmıştı: IP üzerinden Ses veya multimedya akışları gibi sürekli, istikrarlı iletim gerektiren belirli veri akışları için "_Hizmet Kalitesi_" (QoS) sağlamak. Amacı, RSVP'nin (_Resource Reservation Protocol_) bugün modern yönlendiricilerde ağ kaynaklarını dinamik olarak ayırmak için sunduğu konsepte benzer bir şekilde uçtan uca bant genişliği ve önceliği garanti etmekti.
 

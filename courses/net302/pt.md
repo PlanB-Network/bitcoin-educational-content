@@ -306,18 +306,19 @@ O primeiro campo do cabeçalho chama-se Versão. Este valor de 4 bits especifica
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Número da Versão | Protocolo | Descrição da Versão | Referência |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Reservado | Reservado | |
+| 2–3 | Não atribuído | Não atribuído | |
+| 4 | IP | Protocolo de Internet | RFC 791 |
+| **5** | **ST** | **Modo de datagrama ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Protocolo de Internet versão 6 | RFC 8200 |
+| 7 | TP/IX | A Próxima Internet | RFC 1475 |
+| 8 | PIP | O Protocolo de Internet P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Não atribuído | Não atribuído | |
+| 15 | Reservado | Reservado | |
 
 Entre eles está o IPv5, que, embora amplamente desconhecido do público, existia de facto como ST (_Stream Protocol_). Desenvolvido nos anos 80, o IPv5 foi concebido para dar resposta a uma necessidade crescente na época: proporcionar "_Qualidade de Serviço_" (QoS) a determinados fluxos de dados que requeriam uma transmissão contínua e estável, como a Voz sobre IP ou os fluxos multimédia. O seu objetivo era garantir largura de banda e prioridade de extremo a extremo, um conceito semelhante ao que o RSVP (_Resource Reservation Protocol_) oferece atualmente para reservar dinamicamente recursos de rede nos routers modernos.
 

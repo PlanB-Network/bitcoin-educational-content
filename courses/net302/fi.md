@@ -306,18 +306,19 @@ Otsikon ensimmäinen kenttä on nimeltään Version. Tämä 4-bittinen arvo mä�
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Versionumero | Protokolla | Version kuvaus | Viite |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Varattu | Varattu | |
+| 2–3 | Varaamaton | Varaamaton | |
+| 4 | IP | Internet-protokolla | RFC 791 |
+| **5** | **ST** | **ST-datagrammitila** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internet-protokolla versio 6 | RFC 8200 |
+| 7 | TP/IX | Seuraava internet | RFC 1475 |
+| 8 | PIP | P-internet-protokolla | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Varaamaton | Varaamaton | |
+| 15 | Varattu | Varattu | |
 
 Näihin kuuluu IPv5, joka oli olemassa ST-protokollana (_Stream Protocol_), vaikka se on suurelta osin tuntematon yleisölle. IPv5 kehitettiin 1980-luvulla, ja se suunniteltiin Address:n tuohon aikaan kasvavaan tarpeeseen: palvelun laadun (QoS) tarjoamiseen tietyille tietovirroille, jotka vaativat jatkuvaa ja vakaata siirtoa, kuten Voice over IP tai multimediavirrat. Sen tavoitteena oli taata päästä päähän ulottuva kaistanleveys ja prioriteetti, mikä on samankaltainen käsite kuin RSVP (_Resource Reservation Protocol_), jonka avulla verkkoresursseja voidaan nykyään varata dynaamisesti nykyaikaisissa reitittimissä.
 

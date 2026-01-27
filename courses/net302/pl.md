@@ -306,18 +306,19 @@ Pierwsze pole w nagłówku nosi nazwę Version. Ta 4-bitowa wartość określa w
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Numer wersji | Protokół | Opis wersji | Odniesienie |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Zarezerwowane | Zarezerwowane | |
+| 2–3 | Nieprzypisane | Nieprzypisane | |
+| 4 | IP | Protokół internetowy | RFC 791 |
+| **5** | **ST** | **Tryb datagramowy ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Protokół internetowy wersja 6 | RFC 8200 |
+| 7 | TP/IX | Następny internet | RFC 1475 |
+| 8 | PIP | Protokół internetowy P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Nieprzypisane | Nieprzypisane | |
+| 15 | Zarezerwowane | Zarezerwowane | |
 
 Wśród nich jest IPv5, który, choć w dużej mierze nieznany opinii publicznej, istniał jako ST (_Stream Protocol_). Opracowany w latach 80. protokół IPv5 został zaprojektowany w celu zaspokojenia rosnącej w tym czasie potrzeby Address: zapewnienia "jakości usług" (QoS) dla niektórych przepływów danych, które wymagały ciągłej, stabilnej transmisji, takich jak Voice over IP lub strumienie multimedialne. Jego celem było zagwarantowanie przepustowości i priorytetu od końca do końca, koncepcja podobna do tego, co dziś oferuje RSVP (_Resource Reservation Protocol_) do dynamicznego rezerwowania zasobów sieciowych na nowoczesnych routerach.
 

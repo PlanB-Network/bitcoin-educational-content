@@ -306,18 +306,19 @@ IP 数据包的报头是一个重要的数据结构，分为几个字段，每�
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| 版本号 | 协议 | 版本描述 | 参考 |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | 已保留 | 已保留 | |
+| 2–3 | 未分配 | 未分配 | |
+| 4 | IP | 互联网协议 | RFC 791 |
+| **5** | **ST** | **ST 数据报模式** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | 互联网协议第 6 版 | RFC 8200 |
+| 7 | TP/IX | 下一代互联网 | RFC 1475 |
+| 8 | PIP | P 互联网协议 | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | 未分配 | 未分配 | |
+| 15 | 已保留 | 已保留 | |
 
 其中包括 IPv5，虽然公众对它大多不了解，但它确实作为 ST（_流协议_）存在过。IPv5 开发于 20 世纪 80 年代，旨在满足当时日益增长的需求：为某些需要连续、稳定传输的数据流（如 IP 语音或多媒体流）提供 "服务质量"（QoS）。它的目标是保证端到端的带宽和优先级，这一概念类似于今天 RSVP（资源预留协议）提供的在现代路由器上动态预留网络资源的功能。
 

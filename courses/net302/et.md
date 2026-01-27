@@ -306,18 +306,19 @@ Kõige esimene väli päises kannab nime Version. See 4-bitine väärtus määra
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Versiooni number | Protokoll | Versiooni kirjeldus | Viide |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Reserveeritud | Reserveeritud | |
+| 2–3 | Määramata | Määramata | |
+| 4 | IP | Internetiprotokoll | RFC 791 |
+| **5** | **ST** | **ST datagrammi režiim** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internetiprotokolli versioon 6 | RFC 8200 |
+| 7 | TP/IX | Järgmine internet | RFC 1475 |
+| 8 | PIP | P internetiprotokoll | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Määramata | Määramata | |
+| 15 | Reserveeritud | Reserveeritud | |
 
 Nende hulgas on IPv5, mis on küll avalikkusele suuresti tundmatu, kuid mis oli olemas ST (_Stream Protocol_) nime all. IPv5 töötati välja 1980ndatel aastatel, et tagada "teenuse kvaliteet" (QoS) teatud andmevoogude jaoks, mis nõudsid pidevat ja stabiilset edastamist, näiteks Voice over IP või multimeediavoogude jaoks. Selle eesmärk oli tagada otsest ribalaiust ja prioriteetsust, mis on sarnane kontseptsiooniga, mida RSVP (_Resource Reservation Protocol_) pakub tänapäeval võrguressursside dünaamiliseks reserveerimiseks kaasaegsetes ruuterites.
 

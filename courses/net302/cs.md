@@ -306,18 +306,19 @@ Záhlaví paketu IP je základní datová struktura rozdělená do několika pol
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Číslo verze | Protokol | Popis verze | Reference |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Rezervováno | Rezervováno | |
+| 2–3 | Nepřiřazeno | Nepřiřazeno | |
+| 4 | IP | Internet Protocol | RFC 791 |
+| **5** | **ST** | **ST režim datagramů** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internet Protocol verze 6 | RFC 8200 |
+| 7 | TP/IX | Příští internet | RFC 1475 |
+| 8 | PIP | P Internet Protocol | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Nepřiřazeno | Nepřiřazeno | |
+| 15 | Rezervováno | Rezervováno | |
 
 Mezi ně patří IPv5, který, ačkoli je veřejnosti z velké části neznámý, existoval jako ST (_Stream Protocol_). Protokol IPv5, vyvinutý v 80. letech 20. století, byl navržen jako Address, což byla v té době rostoucí potřeba: poskytovat "_kvalitu služby_" (QoS) pro určité datové toky, které vyžadovaly nepřetržitý a stabilní přenos, jako například přenos hlasu přes IP nebo multimediální toky. Jeho cílem bylo zaručit koncovou šířku pásma a prioritu, což je podobný koncept, jaký dnes nabízí protokol RSVP (_Resource Reservation Protocol_) pro dynamické rezervování síťových zdrojů v moderních směrovačích.
 

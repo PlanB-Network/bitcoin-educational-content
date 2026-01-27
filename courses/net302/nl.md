@@ -306,18 +306,19 @@ Het allereerste veld in de header heet Version. Deze 4-bits waarde geeft aan wel
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Versienummer | Protocol | Versiebeschrijving | Referentie |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Gereserveerd | Gereserveerd | |
+| 2–3 | Niet toegewezen | Niet toegewezen | |
+| 4 | IP | Internet Protocol | RFC 791 |
+| **5** | **ST** | **ST-datagrammodus** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internet Protocol versie 6 | RFC 8200 |
+| 7 | TP/IX | Het volgende internet | RFC 1475 |
+| 8 | PIP | Het P-internetprotocol | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Niet toegewezen | Niet toegewezen | |
+| 15 | Gereserveerd | Gereserveerd | |
 
 Een daarvan is IPv5, dat, hoewel grotendeels onbekend bij het publiek, al bestond als ST (_Stream Protocol_). IPv5 werd ontwikkeld in de jaren 80 en was bedoeld om te voldoen aan een groeiende behoefte in die tijd: het bieden van "Quality of Service_" (QoS) voor bepaalde gegevensstromen die een continue, stabiele overdracht vereisten, zoals Voice over IP of multimediastromen. Het doel was om end-to-end bandbreedte en prioriteit te garanderen, een concept dat vergelijkbaar is met wat RSVP (_Resource Reservation Protocol_) tegenwoordig biedt voor het dynamisch reserveren van netwerkbronnen op moderne routers.
 

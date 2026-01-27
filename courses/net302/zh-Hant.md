@@ -304,18 +304,19 @@ IP 封包的標頭是一個重要的資料結構，分為幾個欄位，每個�
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| 版本號 | 協定 | 版本描述 | 參考 |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | 已保留 | 已保留 | |
+| 2–3 | 未分配 | 未分配 | |
+| 4 | IP | 網際網路協定 | RFC 791 |
+| **5** | **ST** | **ST 數據報模式** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | 網際網路協定第 6 版 | RFC 8200 |
+| 7 | TP/IX | 下一代網際網路 | RFC 1475 |
+| 8 | PIP | P 網際網路協定 | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | 未分配 | 未分配 | |
+| 15 | 已保留 | 已保留 | |
 
 其中包括 IPv5，雖然大多數公眾都不知道 IPv5，但它曾經以 ST（_Stream Protocol_）的形式存在。IPv5 於 1980 年代開發，其設計目的在於滿足當時日益增長的需求：為某些需要連續、穩定傳輸的資料流提供「服務品質」（QoS），例如 Voice over IP 或多媒體串流。它的目標是保證端對端的頻寬和優先順序，這個概念類似於 RSVP（_Resource Reservation Protocol_，資源預約通訊協定）現今在現代路由器上提供的動態預約網路資源。
 

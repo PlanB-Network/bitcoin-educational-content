@@ -306,18 +306,19 @@ IPパケットのヘッダーは重要なデータ構造であり、いくつか
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| バージョン番号 | プロトコル | バージョンの説明 | 参照 |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | 予約済み | 予約済み | |
+| 2–3 | 未割り当て | 未割り当て | |
+| 4 | IP | インターネット プロトコル | RFC 791 |
+| **5** | **ST** | **ST データグラム モード** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | インターネット プロトコル バージョン 6 | RFC 8200 |
+| 7 | TP/IX | 次世代インターネット | RFC 1475 |
+| 8 | PIP | P インターネット プロトコル | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | 未割り当て | 未割り当て | |
+| 15 | 予約済み | 予約済み | |
 
 このうちIPv5は、一般にはほとんど知られていないが、ST（ストリーム・プロトコル）として存在していた。1980年代に開発されたIPv5は、ボイスオーバーIPやマルチメディアストリームなど、継続的で安定した伝送を必要とする特定のデータフローに「QoS（Quality of Service）」を提供するという、当時ニーズが高まっていたAddressのために設計された。その目的は、エンド・ツー・エンドの帯域幅と優先度を保証することであり、今日のRSVP（リソース予約プロトコル）が最新のルーターでネットワーク・リソースを動的に予約するために提供しているものと同様の概念であった。
 

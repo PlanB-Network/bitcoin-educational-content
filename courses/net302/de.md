@@ -306,18 +306,19 @@ Das allererste Feld im Header heißt Version. Dieser 4-Bit-Wert gibt an, welcher
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Versionsnummer | Protokoll | Versionsbeschreibung | Referenz |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Reserviert | Reserviert | |
+| 2–3 | Nicht zugewiesen | Nicht zugewiesen | |
+| 4 | IP | Internetprotokoll | RFC 791 |
+| **5** | **ST** | **ST-Datagramm-Modus** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internetprotokoll Version 6 | RFC 8200 |
+| 7 | TP/IX | Das nächste Internet | RFC 1475 |
+| 8 | PIP | Das P-Internetprotokoll | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Nicht zugewiesen | Nicht zugewiesen | |
+| 15 | Reserviert | Reserviert | |
 
 Dazu gehört IPv5, das zwar in der Öffentlichkeit weitgehend unbekannt ist, aber bereits als ST (_Stream Protocol_) existierte. IPv5 wurde in den 1980er Jahren entwickelt, um Address einen wachsenden Bedarf zu erfüllen: die Bereitstellung von "_Quality of Service_" (QoS) für bestimmte Datenströme, die eine kontinuierliche, stabile Übertragung erfordern, wie z. B. Voice over IP oder Multimedia-Streams. Ziel war es, eine durchgängige Bandbreite und Priorität zu garantieren, ein Konzept ähnlich dem, das RSVP (_Resource Reservation Protocol_) heute für die dynamische Reservierung von Netzwerkressourcen auf modernen Routern bietet.
 

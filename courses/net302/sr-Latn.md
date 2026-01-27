@@ -304,18 +304,19 @@ Prvo polje u zaglavlju naziva se verzija. Ova 4-bitna vrednost određuje koju ve
 
 
 
-| Broj verzije   | Protokol   | Opis verzije                | Reference               |
+
+| Broj verzije | Protokol | Opis verzije | Referenca |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Rezervisano| Rezervisano                 |                         |
-| 2–3            | Nedodeljeno| Nedodeljeno                 |                         |
-| 4              | IP         | Internet protokol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol verzija 6 | RFC 8200                |
-| 7              | TP/IX      | Internet budućnosti         | RFC 1475                |
-| 8              | PIP        | P Internet protokol         | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Nedodeljeno                 |                         |
-| 15             | Rezervisano| Rezervisano                 |                         |
+| 0–1 | Rezervisano | Rezervisano | |
+| 2–3 | Nedodeljeno | Nedodeljeno | |
+| 4 | IP | Internet protokol | RFC 791 |
+| **5** | **ST** | **ST režim datagrama** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internet protokol verzija 6 | RFC 8200 |
+| 7 | TP/IX | Sledeći internet | RFC 1475 |
+| 8 | PIP | P internet protokol | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Nedodeljeno | Nedodeljeno | |
+| 15 | Rezervisano | Rezervisano | |
 
 Među njima je IPv5, koji, iako uglavnom nepoznat javnosti, jeste postojao kao ST (_Stream Protocol_). Razvijen 1980-ih, IPv5 je bio dizajniran da reši rastuću potrebu tog vremena: pružanje "_Quality of Service_" (QoS) za određene tokove podataka koji su zahtevali kontinuirani, stabilni prenos, kao što su glas preko IP (engl. Voice over IP) ili multimedijalni tokovi. Njegov cilj je bio da garantuje propusni opseg i prioritet od kraja do kraja, koncept sličan onome što RSVP (_Resource Reservation Protocol_) danas nudi za dinamičko rezervisanje mrežnih resursa na modernim ruterima.
 

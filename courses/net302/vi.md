@@ -306,18 +306,19 @@ Trường đầu tiên trong tiêu đề được gọi là Phiên bản (Versio
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Số Phiên bản | Giao thức | Mô tả Phiên bản | Tham chiếu |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Được bảo lưu | Được bảo lưu | |
+| 2–3 | Chưa được chỉ định | Chưa được chỉ định | |
+| 4 | IP | Giao thức Internet | RFC 791 |
+| **5** | **ST** | **Chế độ truyền gói tin ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Giao thức Internet phiên bản 6 | RFC 8200 |
+| 7 | TP/IX | Internet Tiếp theo | RFC 1475 |
+| 8 | PIP | Giao thức Internet P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Chưa được chỉ định | Chưa được chỉ định | |
+| 15 | Được bảo lưu | Được bảo lưu | |
 
 Trong số đó có IPv5, mặc dù phần lớn chưa được công chúng biết đến, nhưng đã tồn tại dưới dạng ST (Giao thức luồng). Được phát triển vào những năm 1980, IPv5 được thiết kế để đáp ứng nhu cầu ngày càng tăng vào thời điểm đó: cung cấp "Chất lượng Dịch vụ" (QoS) cho một số luồng dữ liệu nhất định yêu cầu truyền tải liên tục, ổn định, chẳng hạn như Thoại qua IP (VoIP) hoặc các luồng đa phương tiện. Mục tiêu của nó là đảm bảo băng thông và mức độ ưu tiên từ đầu đến cuối, một khái niệm tương tự như RSVP (Giao thức Đặt trước Tài nguyên) hiện nay, cho phép đặt trước tài nguyên mạng một cách linh hoạt trên các bộ định tuyến hiện đại.
 

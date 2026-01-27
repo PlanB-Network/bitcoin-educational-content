@@ -306,18 +306,19 @@ Igipande ca mbere nyene kiri mu mutwe citwa Version. Iyi nkuru y'ibice 4 igaraga
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Inomero y'Itohoza | Porotokole | Isiguro ry'Itohoza | Icerekezo |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Vyaziganywe | Vyaziganywe | |
+| 2–3 | Ntivyashizweko | Ntivyashizweko | |
+| 4 | IP | Porotokole ya Interineti | RFC 791 |
+| **5** | **ST** | **Uburyo bwa datagrama ya ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Porotokole ya Interineti itohoza rya 6 | RFC 8200 |
+| 7 | TP/IX | Interineti ikurikira | RFC 1475 |
+| 8 | PIP | Porotokole ya Interineti ya P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Ntivyashizweko | Ntivyashizweko | |
+| 15 | Vyaziganywe | Vyaziganywe | |
 
 Muri izo harimwo IPv5, naho ahanini itazwi na bose, yariho vy’ukuri nk’iyi ST (_Stream Protocol_). Yateguwe mu myaka ya 1980, IPv5 yari yateguwe kugira ngo Address ivyipfuzo vyariko birakura muri ico gihe: gutanga "_Quality of Service_" (QoS) ku nzira zimwe zimwe z'amakuru zari zisaba ko zikomeza, zidahinduka, nk'Ijwi kuri IP canke imirongo y'amakuru menshi. Intumbero yayo yari iyo gutuma habaho uburebure bw’uruja n’uruza n’ugushira imbere, iciyumviro gisa n’ico RSVP (_Resource Reservation Protocol_) itanga uno musi ku bijanye no kubika ibikoresho vy’urubuga ku nzira z’ubuhinga bwa none.
 

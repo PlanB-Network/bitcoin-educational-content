@@ -306,18 +306,19 @@ Sehemu ya kwanza kabisa kwenye kichwa inaitwa Toleo. Thamani hii ya 4-bit inabai
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Nambari ya Toleo | Itifaki | Maelezo ya Toleo | Marejeleo |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Imehifadhiwa | Imehifadhiwa | |
+| 2–3 | Haijagawiwa | Haijagawiwa | |
+| 4 | IP | Itifaki ya Mtandao | RFC 791 |
+| **5** | **ST** | **Modi ya datagramu ya ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Itifaki ya Mtandao toleo la 6 | RFC 8200 |
+| 7 | TP/IX | Mtandao Ujao | RFC 1475 |
+| 8 | PIP | Itifaki ya Mtandao ya P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Haijagawiwa | Haijagawiwa | |
+| 15 | Imehifadhiwa | Imehifadhiwa | |
 
 Miongoni mwa hizi ni IPv5, ambayo, ingawa haijulikani kwa umma, ilikuwepo kama ST (_Stream Protocol_). Iliyoundwa katika miaka ya 1980, IPv5 iliundwa kwa Address hitaji linalokua wakati huo: kutoa "_Ubora wa Huduma_" (QoS) kwa mtiririko fulani wa data ambao ulihitaji uwasilishaji endelevu, thabiti, kama vile mitiririko ya Voice over IP au media titika. Lengo lake lilikuwa kuhakikisha kipimo data hadi mwisho na kipaumbele, dhana sawa na kile RSVP (_Itifaki ya Uhifadhi wa Rasilimali_) inatoa leo kwa ajili ya kuhifadhi rasilimali za mtandao kwenye vipanga njia vya kisasa.
 

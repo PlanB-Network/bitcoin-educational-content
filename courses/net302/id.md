@@ -306,18 +306,19 @@ Bidang pertama dalam header disebut Versi. Nilai 4-bit ini menentukan versi prot
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Nomor Versi | Protokol | Deskripsi Versi | Referensi |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Cadangan | Cadangan | |
+| 2–3 | Tidak Ditugaskan | Tidak Ditugaskan | |
+| 4 | IP | Protokol Internet | RFC 791 |
+| **5** | **ST** | **Mode datagram ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Protokol Internet versi 6 | RFC 8200 |
+| 7 | TP/IX | Internet Berikutnya | RFC 1475 |
+| 8 | PIP | Protokol Internet P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Tidak Ditugaskan | Tidak Ditugaskan | |
+| 15 | Cadangan | Cadangan | |
 
 Di antaranya adalah IPv5, yang meskipun tidak banyak diketahui oleh publik, namun sebenarnya sudah ada sejak dulu sebagai ST (_Stream Protocol_). Dikembangkan pada tahun 1980-an, IPv5 dirancang untuk memenuhi kebutuhan yang berkembang pada saat itu: menyediakan "_Quality of Service_" (QoS) untuk aliran data tertentu yang membutuhkan transmisi yang stabil dan berkelanjutan, seperti Voice over IP atau aliran multimedia. Tujuannya adalah untuk menjamin bandwidth dan prioritas end-to-end, sebuah konsep yang mirip dengan apa yang ditawarkan RSVP (_Resource Reservation Protocol_) saat ini untuk memesan sumber daya jaringan secara dinamis pada router modern.
 

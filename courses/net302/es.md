@@ -288,18 +288,19 @@ El primer campo de la cabecera se denomina Versión. Este valor de 4 bits especi
 
 **Nota**: La gestión y asignación de las versiones de protocolos IP corresponde a la **IANA**. Un campo de 4 bits permite 16 combinaciones binarias (valores de 0 a 15). A día de hoy, su asignación es la siguiente:
 
-| Número de version | Protocolo   | Descripción de version         | Referencia               |
+
+| Número de versión | Protocolo | Descripción de la versión | Referencia |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reservado   | Reservado                    |                         |
-| 2–3            | No asignado | No asignado                  |                         |
-| 4 |IP | Protocolo de internet           | RFC 791                 |
-| **5**          | **ST**     | **Modo de datagrama ST**        | **RFC 1190** / RFC 1819 |
-| 6 | IPv6       | Protocolo de internet version 6 | RFC 8200                |
-| 7              | TP/IX      | la próximo internet           | RFC 1475                |
-| 8              | PIP        | El protocolo de internet P     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | No asignado | No asignado                  |                         |
-| 15             | Reservado   | Reservado                    |                         |
+| 0–1 | Reservado | Reservado | |
+| 2–3 | Sin asignar | Sin asignar | |
+| 4 | IP | Protocolo de Internet | RFC 791 |
+| **5** | **ST** | **Modo de datagrama ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Protocolo de Internet versión 6 | RFC 8200 |
+| 7 | TP/IX | El próximo Internet | RFC 1475 |
+| 8 | PIP | El protocolo de Internet P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Sin asignar | Sin asignar | |
+| 15 | Reservado | Reservado | |
 
 Entre ellos está IPv5, que, aunque en gran medida desconocido para el público, ya existía como ST (_Stream Protocol_). Desarrollado en los años 80, IPv5 se diseñó para abordar una necesidad creciente en aquella época: proporcionar "_Calidad de Servicio_" (QoS) a determinados flujos de datos que requerían una transmisión continua y estable, como la Voz sobre IP o los flujos multimedia. Su objetivo era garantizar ancho de banda y prioridad de extremo a extremo, un concepto similar al que hoy ofrece el RSVP (_Protocolo de Reserva de Recursos_) para reservar dinámicamente recursos de red en los routers modernos.
 

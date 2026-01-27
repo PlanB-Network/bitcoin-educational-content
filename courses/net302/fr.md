@@ -190,18 +190,19 @@ Le tout premier champ de cet en-tête se nomme "Version". Il occupe 4 bits et in
 
 **Remarque** : la gestion et l’attribution des versions de protocoles IP relèvent de l’**IANA**. Un champ de 4 bits permet 16 combinaisons binaires (valeurs 0 à 15). À ce jour, leur affectation est la suivante :
 
-| Version Number | Protocol   | Version Description         | Reference               |
-| -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+
+| Numéro de version | Protocole   | Description de la version    | Référence               |
+| ----------------- | ----------- | ---------------------------- | ----------------------- |
+| 0–1               | Réservé     | Réservé                      |                         |
+| 2–3               | Non assigné | Non assigné                  |                         |
+| 4                 | IP          | Protocole Internet           | RFC 791                 |
+| **5**             | **ST**      | **Mode datagramme ST**       | **RFC 1190** / RFC 1819 |
+| 6                 | IPv6        | Protocole Internet version 6 | RFC 8200                |
+| 7                 | TP/IX       | Le prochain Internet         | RFC 1475                |
+| 8                 | PIP         | Le protocole Internet P      | RFC 1621                |
+| 9                 | TUBA        | Tuba                         | RFC 1347                |
+| 10–14             | Non assigné | Non assigné                  |                         |
+| 15                | Réservé     | Réservé                      |                         |
 
 Parmi ces versions figure la version IPv5, qui, bien que méconnue du grand public, a bel et bien existé sous la forme du protocole ST (_Stream Protocol_). Conçu dans les années 1980, IPv5 visait principalement à répondre à un besoin émergent à l’époque : garantir une "_Quality of Service_" ou "QoS" pour certains flux de données nécessitant une transmission continue et stable, comme la voix sur IP ou les flux multimédias. L’objectif était d’offrir une bande passante et une priorité garanties de bout en bout, un concept similaire à ce que propose aujourd’hui le protocole RSVP (_Resource Reservation Protocol_) pour la réservation dynamique de ressources réseau sur les routeurs modernes.
 

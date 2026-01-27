@@ -306,18 +306,19 @@ Det aller første feltet i headeren kalles Version. Denne 4-biters verdien angir
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Versjonsnummer | Protokoll | Versjonsbeskrivelse | Referanse |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Reservert | Reservert | |
+| 2–3 | Ikke tildelt | Ikke tildelt | |
+| 4 | IP | Internett-protokoll | RFC 791 |
+| **5** | **ST** | **ST-datagrammodus** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internett-protokoll versjon 6 | RFC 8200 |
+| 7 | TP/IX | Den neste internett | RFC 1475 |
+| 8 | PIP | P-internettprotokollen | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Ikke tildelt | Ikke tildelt | |
+| 15 | Reservert | Reservert | |
 
 Blant disse er IPv5, som, selv om den stort sett er ukjent for offentligheten, eksisterte som ST (_Stream Protocol_). IPv5 ble utviklet på 1980-tallet for å dekke et voksende behov på den tiden: å tilby "_Quality of Service_" (QoS) for visse datastrømmer som krevde kontinuerlig og stabil overføring, for eksempel Voice over IP eller multimediastrømmer. Målet var å garantere båndbredde og prioritet fra ende til ende, et konsept som ligner på det RSVP (_Resource Reservation Protocol_) tilbyr i dag for dynamisk reservasjon av nettverksressurser på moderne rutere.
 

@@ -1,5 +1,5 @@
 question: Nini kinatokea kwa miundo ya Rust yenye mbinu zinazohusiana zinapochorwa kupitia UDL ya UniFFI ili kulenga lugha kama Kotlin au Swift?
-answer: Zinaonyeshwa kama violesura katika UDL na generate kama madarasa yenye mbinu katika lugha lengwa zinazolenga vitu
+answer: Zinaonyeshwa kama violesura katika UDL na kugenerate kama madarasa yenye mbinu katika lugha lengwa zinazolenga vitu
 wrong_answers:
   - Hubadilishwa kuwa kamusi rahisi bila utendakazi wowote wa mbinu katika lugha lengwa
   - Zinahitaji utekelezaji wa kila mbinu kwa mikono katika lugha lengwa kwa kutumia violesura vya kupiga simu tena.

@@ -1,8 +1,8 @@
-question: Je, muunganisho wa Mtoa Huduma wa Umeme wa Breez SDK (LSP) unatatuaje tatizo la usimamizi wa ukwasi kwa ajili ya kupokea malipo?
+question: Je, muunganisho wa Lightning Service Provider wa Breez SDK (LSP) unatatuaje tatizo la usimamizi wa ukwasi kwa ajili ya kupokea malipo?
 answer: LSP hufungua kiotomatiki njia mpya za umeme zenye ukwasi unaoingia wakati malipo yanapofika, kwa kutumia uundaji wa njia kwa wakati unaofaa.
 wrong_answers:
   - LSP hufadhili mapema njia zote za watumiaji zenye uwezo wa juu wa ukwasi na mara kwa mara husawazisha fedha katika topolojia ya mtandao.
-  - LSPs hudumisha dimbwi la ukwasi la pamoja ambalo hukopesha pesa kwa muda kwa watumiaji wakati wa kupokea malipo kabla ya suluhu kutokea.
+  - LSPs hudumisha pool la ukwasi la pamoja ambalo hukopesha pesa kwa muda kwa watumiaji wakati wa kupokea malipo kabla ya suluhu kutokea.
   - LSP huelekeza malipo kupitia njia nyingi za kati ili kupata njia zilizopo za ukwasi bila kuunda uhusiano mpya wa njia
 explanation: |
   SDK ya Breez hutekeleza njia za 'kwa wakati unaofaa' ambapo LSP hufungua kiotomatiki njia mpya za Lightning haswa wakati mtumiaji anahitaji kupokea malipo lakini hana ukwasi wa kutosha unaoingia. Hii hutokea bila uingiliaji kati wa mtumiaji, na kutatua kizuizi cha msingi cha ukwasi wa Lightning ambapo fedha zinaweza kutiririka tu katika mwelekeo ambapo uwezo wa chaneli upo. Chaguzi zingine zinaelezea mbinu tofauti ambazo hazilingani na utekelezaji halisi wa SDK wa uundaji wa chaneli zinazobadilika.

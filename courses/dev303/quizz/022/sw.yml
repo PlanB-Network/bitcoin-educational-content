@@ -1,4 +1,4 @@
-question: Kusudi kuu la aina ya enum ya Rust ya Chaguo<T> ni lipi?
+question: Kusudi kuu la aina ya enum ya Rust ya Option<T> ni lipi?
 answer: Ili kuwakilisha kwa usalama thamani ambazo zinaweza kuwa zipo au zisipo, kuzuia makosa ya null pointer
 wrong_answers:
   - Kuhifadhi aina nyingi tofauti za data katika kigezo kimoja bila kuangalia aina

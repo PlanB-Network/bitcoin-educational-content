@@ -1,7 +1,7 @@
-question: Ni mabadiliko gani muhimu zaidi ya faragha yanayoanzishwa wakati wa kuhama kutoka utekelezaji wa LDK unaojisimamia hadi usanifu unaotegemea wingu wa Breez SDK?
-answer: Greenlight inapata mwonekano unaowezekana katika maeneo ya malipo na shughuli za uzalishaji wa ankara kupitia uelekezaji wa wingu
+question: Ni mabadiliko gani muhimu zaidi ya faragha yanayoanzishwa wakati wa kuhama kutoka utekelezaji wa LDK unaojisimamia hadi usanifu unaotegemea cloud ya Breez SDK?
+answer: Greenlight inapata mwonekano unaowezekana katika maeneo ya malipo na shughuli za uzalishaji wa Invoice kupitia uelekezaji wa cloud
 wrong_answers:
-  - "Funguo za kibinafsi huhifadhiwa kwenye seva za Blockstream badala ya zile za ndani kwenye kifaa cha mtumiaji"
+  - "Funguo za kibinafsi huhifadhiwa kwenye server za Blockstream badala ya zile za ndani kwenye kifaa cha mtumiaji"
   - Taarifa kuhusu hali ya kituo huonekana hadharani kwenye grafu ya Lightning Network kupitia nodi za Greenlight
   - Huduma za LSP sasa zinaweza kufuatilia miamala yote ya on-chain na kuiunganisha na mifumo ya malipo ya Lightning
 explanation: |

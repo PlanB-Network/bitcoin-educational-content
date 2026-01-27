@@ -1,8 +1,8 @@
 question: "Quel est le défi de récupération le plus important auquel les utilisateurs sont confrontés lorsque leurs fonds sont gérés par l'architecture de nœuds Lightning de Greenlight, basée sur le cloud ?"
-answer: "Les utilisateurs auraient besoin d'une expertise technique pour créer des nœuds Core Lightning indépendants et restaurer l'état des canaux sans l'infrastructure Greenlight".
+answer: "Les utilisateurs auraient besoin d'une expertise technique pour créer des nœuds Core Lightning indépendants et restaurer l'état des canaux sans l'infrastructure Greenlight."
 wrong_answers:
-  - "Les utilisateurs perdent l'accès à leurs clés privées, qui sont stockées exclusivement sur les serveurs de Blockstream".
-  - "Les états des canaux sont cryptés à l'aide des clés propriétaires de Greenlight, ce qui rend la récupération des fonds mathématiquement impossible".
-  - "Les canaux Lightning expirent automatiquement après 30 jours sans les services de maintenance continue de Greenlight".
+  - "Les utilisateurs perdent l'accès à leurs clés privées, qui sont stockées exclusivement sur les serveurs de Blockstream."
+  - "Les états des canaux sont cryptés à l'aide des clés propriétaires de Greenlight, ce qui rend la récupération des fonds mathématiquement impossible."
+  - "Les canaux Lightning expirent automatiquement après 30 jours sans les services de maintenance continue de Greenlight."
 explanation: |
   La bonne réponse met en évidence la complexité technique réelle de la récupération des fonds dans l'architecture de Greenlight. Bien que les utilisateurs conservent leurs clés privées, l'accès aux fonds sans Greenlight nécessite l'exécution des nœuds Core Lightning et la restauration manuelle des états des canaux - un processus qui dépasse les capacités de la plupart des utilisateurs. Les mauvaises réponses sont incorrectes parce que : les utilisateurs contrôlent leurs clés privées (qui ne sont pas stockées sur des serveurs), les états des canaux utilisent des protocoles Lightning standard (pas de cryptage propriétaire), et les canaux Lightning n'ont pas de délais d'expiration automatiques liés aux fournisseurs de services.

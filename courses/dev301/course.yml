@@ -5,7 +5,7 @@ testnet_only: true
 topic: protocol
 subtopic: development
 type: theory
-level: beginner
+level: advanced
 hours: 10
 
 tags:

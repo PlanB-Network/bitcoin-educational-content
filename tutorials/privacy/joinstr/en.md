@@ -119,9 +119,9 @@ Find the IPv4 address (format `192.168.x.x` or `10.0.x.x`)
 Locate your `bitcoin.conf` file:
 
 
-- Linux**: `~/.bitcoin/bitcoin.conf
-- macOS**: `~/Library/Application Support/Bitcoin/bitcoin.conf
-- Windows**: `%APPDATA%\Bitcoin\bitcoin.conf`
+- **Linux**: ~/.bitcoin/bitcoin.conf
+- **macOS**: ~/Library/Application Support/Bitcoin/bitcoin.conf
+- **Windows**: `%APPDATA%\Bitcoin\bitcoin.conf`
 
 
 ![CONTENU BITCOIN.CONF](assets/fr/02.webp)
@@ -177,7 +177,7 @@ rpcport=8332
 **Important** :
 
 
-- Signet is highly recommended** for your first tests: the application is still in development (beta), and bugs may still exist. Signet lets you test free of charge, without risking real funds
+- Signet is highly recommended for your first tests: the application is still in development (beta), and bugs may still exist. Signet lets you test free of charge, without risking real funds
 - Replace `192.168.1.0/24` with your network subnet (e.g. if your IP is `192.168.68.57`, use `192.168.68.0/24`)
 
 
@@ -266,9 +266,9 @@ On first launch, the Joinstr application will ask for permissions to control the
 The Joinstr application is organized into three main tabs:
 
 
-- Home**: Home screen
-- Pools**: Creating and managing CoinJoin pools
-- Settings**: Application configuration
+- Home: Home screen
+- Pools: Creating and managing CoinJoin pools
+- Settings: Application configuration
 
 
 ![CONFIGURATION SETTINGS](assets/fr/13.webp)
@@ -295,7 +295,7 @@ Configure settings in the "Settings" tab:
 **3. RPC Username** : The user name configured in `rpcuser=` on your bitcoin.conf
 
 
-- Example: `satoshi
+- Example: satoshi
 
 
 **4. RPC Password** : The password set in `rpcpassword=` on your bitcoin.conf
@@ -304,8 +304,8 @@ Configure settings in the "Settings" tab:
 **5. RPC Port** : RPC port depending on network
 
 
-- Mainnet** : `8332`
-- Bookmark**: `38332`
+- **Mainnet** : `8332`
+- **Bookmark**: `38332`
 
 
 **6. Wallet**: Select the Bitcoin Core portfolio containing the UTXOs to be mixed
@@ -385,10 +385,10 @@ You can observe :
 
 
 
-- N entries**: One per participant (in our example, 2 entries)
-- N identical outputs**: exact amount of the denomination (here, 2 outputs of 0.00199800 BTC each)
-- Flow chart**: mempool.space visually displays the mix of inputs and outputs
-- Features** : The transaction can be identified as SegWit, Taproot, RBF, etc.
+- **N entries**: One per participant (in our example, 2 entries)
+- **N identical outputs**: exact amount of the denomination (here, 2 outputs of 0.00199800 BTC each)
+- **Flow chart**: mempool.space visually displays the mix of inputs and outputs
+- **Features** : The transaction can be identified as SegWit, Taproot, RBF, etc.
 
 
 As all main outputs have the same amount, it's **impossible to determine which belongs to whom**. This is the fundamental principle of CoinJoin: the indistinguishability of outputs.
@@ -418,16 +418,16 @@ Joinstr currently generates pools of **2 to 5 participants** on average. These f
 | Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
 | **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **Coordinator** | Centralized (up to 2024) | Centralized (active) | P2P maker/taker | **None (Nostr)** |
+| **Resistance to censorship** | Low | Medium | Very high | **Very high** |
+| **Coordination fees** | Percentage | Entrance fee | Paid by makers | **None** |
+| **UTXO Discrimination** | Yes (blacklists) | No | No | **No** |
 
 💡 **Other active CoinJoin solutions** :
 
 
-- Ashigaru**: Open-source implementation of the Whirlpool protocol with centralized coordinator but deployable in a decentralized way. Continues to operate after the seizure of Samourai Wallet in 2024.
-- JoinMarket**: Decentralized P2P solution with no central coordinator, based on a maker/taker business model where "makers" provide liquidity and are remunerated by "takers".
+- **Ashigaru**: Open-source implementation of the Whirlpool protocol with centralized coordinator but deployable in a decentralized way. Continues to operate after the seizure of Samourai Wallet in 2024.
+- **JoinMarket**: Decentralized P2P solution with no central coordinator, based on a maker/taker business model where "makers" provide liquidity and are remunerated by "takers".
 
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
@@ -459,9 +459,9 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- Variable liquidity**: Smaller pools, can wait for participants to come together
-- Project in progress**: Application in beta, bugs possible. Test first with small amounts on bookmark
-- Sybil attacks**: Possibility of one opponent controlling several pool participants
+- Variable liquidity: Smaller pools, can wait for participants to come together
+- Project in progress: Application in beta, bugs possible. Test first with small amounts on bookmark
+- Sybil attacks: Possibility of one opponent controlling several pool participants
 
 
 ## Best practices
@@ -485,7 +485,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 Joinstr represents a truly decentralized Bitcoin privacy solution. By using Nostr for coordination, it eliminates dependence on central coordinators while preserving user sovereignty.
 
 
-**For users who value resistance to censorship and are prepared to perform several rounds of CoinJoin to compensate for smaller pools.
+For users who value resistance to censorship and are prepared to perform several rounds of CoinJoin to compensate for smaller pools.
 
 
 Against a backdrop of increasing financial scrutiny, decentralized tools to protect privacy are becoming essential.

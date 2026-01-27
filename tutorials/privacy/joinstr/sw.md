@@ -1,4 +1,4 @@
----
+Nchi Zinazomilikiwa---
 name: Joinstr
 description: CoinJoins Zilizogatuliwa kupitia mtandao wa Nostr kwa usiri huru wa Bitcoin
 ---
@@ -27,11 +27,11 @@ Joinstr ni zana huria ambayo inabadilisha mbinu ya CoinJoins kwa kutumia itifaki
 
 
 
-**Usanifu uliogatuliwa** : Mtandao wa Nostr unachukua nafasi ya mratibu mkuu. Washiriki huunda au kujiunga na "pools" kwa kuchapisha matangazo yaliyosimbwa kwa njia fiche kupitia relay za Nostr. Taarifa hii (idadi, washiriki, anwani) bado haieleweki kwa relay, ikihakikisha kwamba hakuna huluki kuu inayoweza kufuatilia, kuhakiki au kuchuja CoinJoins.
+**Usanifu uliogatuliwa** : Mtandao wa Nostr unachukua nafasi ya mratibu mkuu. Washiriki huunda au kujiunga na "pools" kwa kuchapisha matangazo yaliyosimbwa kwa njia fiche kupitia relay za Nostr. Taarifa hii (idadi, washiriki, Address) bado haieleweki kwa relay, ikihakikisha kwamba hakuna huluki kuu inayoweza kufuatilia, kuhakiki au kuchuja CoinJoins.
 
 
 
-**SIGHASH_ALL|Mchakato wa ANYONECANPAY**: Joinstr anatumia alama hii ya sahihi ya Bitcoin, kumruhusu kila mshiriki kutia sahihi ingizo lake pekee huku akithibitisha matokeo yote. Kila mtumiaji huzalisha PSBT yake ndani ya nchi, kisha husambaza kupitia Nostr. Kila mtumiaji hutengeneza PSBT yake ndani ya nchi, hutia saini, kisha huisambaza kupitia Nostr. Bitcoins zako zitasalia chini ya udhibiti wako wa kipekee hadi saini ya mwisho.
+**SIGHASH_ALL|Mchakato wa ANYONECANPAY**: Joinstr anatumia alama hii ya sahihi ya Bitcoin, kumruhusu kila mshiriki kutia sahihi ingizo lake pekee huku akithibitisha matokeo yote. Kila mtumiaji huzalisha PSBT yake ndani ya nchi, kisha husambaza kupitia Nostr. Kila mtumiaji hutengeneza PSBT yake ndani ya nchi, hutia saini, kisha huisambaza kupitia Nostr. Bitcoin zako zitasalia chini ya udhibiti wako wa kipekee hadi saini ya mwisho.
 
 
 
@@ -43,7 +43,7 @@ Joinstr ni zana huria ambayo inabadilisha mbinu ya CoinJoins kwa kutumia itifaki
 
 
 
-**Dimbwi linalonyumbulika**: Tofauti na madhehebu yasiyobadilika, mtumiaji yeyote anaweza kuunda bwawa lenye kiasi kamili anachotaka na idadi inayolengwa ya washiriki, ili kuboresha matumizi ya UTXO bila mgawanyiko bandia.
+**Pool Inayonyumbulika**: Tofauti na madhehebu yasiyobadilika, mtumiaji yeyote anaweza kuunda pool yenye kiasi kamili anachotaka na idadi inayolengwa ya washiriki, ili kuboresha matumizi ya UTXO bila mgawanyiko bandia.
 
 
 
@@ -67,7 +67,7 @@ Mafunzo haya yanaangazia **Programu ya Android**, suluhisho pekee thabiti na lin
 
 
 
-Joinstr Android inahitaji muunganisho kwa nodi ya Bitcoin kupitia RPC. Lazima kwanza usanidi Bitcoin Core kwenye kompyuta yako ili kukubali miunganisho kutoka kwa simu yako.
+Joinstr Android inahitaji muunganisho kwa node ya Bitcoin kupitia RPC. Lazima kwanza usanidi Bitcoin Core kwenye kompyuta yako ili kukubali miunganisho kutoka kwa simu yako.
 
 
 
@@ -84,11 +84,11 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 
 
 
-#### Tafuta anwani yako ya karibu ya IP
+#### Tafuta IP address yako ya karibu
 
 
 
-Simu yako ya Android lazima iweze kufikia nodi yako ya Bitcoin kwenye mtandao wa ndani. Pata anwani ya IP ya kompyuta yako:
+Simu yako ya Android lazima iweze kufikia node yako ya Bitcoin kwenye mtandao wa ndani. Pata IP address ya kompyuta yako:
 
 
 
@@ -133,7 +133,7 @@ ipconfig
 
 
 
-Tafuta anwani ya IPv4 (umbizo `192.168.x.x` au `10.0.x.x`)
+Tafuta address ya IPv4 (umbizo `192.168.x.x` au `10.0.x.x`)
 
 
 
@@ -272,15 +272,15 @@ Mara baada ya kuoanishwa, unda kwingineko mpya kwa kubofya "Unda wallet mpya". I
 
 
 
-wallet yako sasa imeundwa na iko tayari kupokea bitcoins zilizoalamishwa kwa majaribio.
+wallet yako sasa imeundwa na iko tayari kupokea Bitcoin zilizoalamishwa kwa majaribio.
 
 
 
-#### Pata bitcoins zilizoalamishwa (jaribio)
+#### Pata Bitcoin zilizoalamishwa (jaribio)
 
 
 
-Ili kujaribu Joinstr kwenye alamisho, unahitaji bitcoins za majaribio bila malipo :
+Ili kujaribu Joinstr kwenye alamisho, unahitaji Bitcoin za majaribio bila malipo :
 
 
 
@@ -299,7 +299,7 @@ Tumia alamisho ya umma kama:
 
 
 
-Katika Bitcoin Core, generate anwani mpya ya kupokea (kichupo cha "Pokea"), nakili na ubandike kwenye fomu ya bomba. Tatua captcha ikiwa ni lazima. Utapokea bitcoins zilizoalamishwa bila malipo ndani ya sekunde chache.
+Katika Bitcoin Core, generate address mpya ya kupokea (kichupo cha "Pokea"), nakili na ubandike kwenye fomu ya bomba. Tatua captcha ikiwa ni lazima. Utapokea Bitcoin zilizoalamishwa bila malipo ndani ya sekunde chache.
 
 
 
@@ -340,9 +340,9 @@ Programu ya Joinstr imepangwa katika tabo kuu tatu:
 
 
 
-- Nyumbani**: Skrini ya nyumbani
-- Mabwawa**: Kuunda na kusimamia mabwawa ya CoinJoin
-- Mipangilio**: Usanidi wa programu
+- **Nyumbani**: Skrini ya nyumbani
+- **Pools**: Kuunda na kusimamia pools za CoinJoin
+- **Mipangilio**: Usanidi wa programu
 
 
 
@@ -354,18 +354,18 @@ Sanidi mipangilio kwenye kichupo cha "Mipangilio":
 
 
 
-**1. Nostr Relay**: Anwani ya relay ya Nostr kwa uratibu wa bwawa
+**1. Nostr Relay**: Address ya relay ya Nostr kwa uratibu wa pool
 
 
 
 
 - Mfano: `wss://relay.damus.io`
 - Reli nyingine zinazopendekezwa: `wss://nos.lol`, `wss://relay.nostr.band`, `wss://nostr.fmt.wiz.biz`
-- ⚠️ **Muhimu**: Washiriki wote lazima watumie **wilaya sawa ya Nostr** ili kuona na kujiunga na madimbwi sawa. Ikiwa unatumia relay tofauti, hutaona mabwawa yaliyoundwa kwenye relay nyingine
+- ⚠️ **Muhimu**: Washiriki wote lazima watumie **wilaya sawa ya Nostr** ili kuona na kujiunga na pools sawa. Ikiwa unatumia relay tofauti, hutaona pools zilizoundwa kwenye relay nyingine
 
 
 
-**2. URL ya nodi**: Anwani ya IP ya nodi yako ya Bitcoin (bila lango)
+**2. URL ya node**: Address ya IP ya node yako ya Bitcoin (bila lango)
 
 
 
@@ -393,8 +393,8 @@ Sanidi mipangilio kwenye kichupo cha "Mipangilio":
 
 
 
-- Mainnet** : `8332`
-- Alamisho**: `38332`
+- **Mainnet** : `8332`
+- **Alamisho**: `38332`
 
 
 
@@ -414,7 +414,7 @@ Sanidi mipangilio kwenye kichupo cha "Mipangilio":
 
 - Mfano: `(Paris) vpn07-par.riseup.net`
 - Nyingine zinazopatikana: Amsterdam, Seattle, nk.
-- ⚠️ **Muhimu**: Washiriki wote katika bwawa moja lazima watumie **Mlango sawa wa VPN** ili kushiriki katika CoinJoin. Wakati wa mzunguko wa kuchanganya, washiriki wote lazima waonekane na anwani sawa ya kutoka ya IP ili kuzuia uchanganuzi wa mtandao kutoka kwa washiriki wanaohusiana.
+- ⚠️ **Muhimu**: Washiriki wote katika pool moja lazima watumie **Mlango sawa wa VPN** ili kushiriki katika CoinJoin. Wakati wa mzunguko wa kuchanganya, washiriki wote lazima waonekane na Address sawa ya kutoka ya IP ili kuzuia uchanganuzi wa mtandao kutoka kwa washiriki wanaohusiana.
 
 
 
@@ -428,7 +428,7 @@ Programu ya Joinstr **huunganisha kwa asili** Riseup VPN, kurahisisha uratibu ka
 
 
 - Hakikisha simu na kompyuta yako ziko kwenye mtandao sawa wa WiFi wa karibu nawe
-- Muunganisho wa VPN utawashwa kiotomatiki unaposhiriki kwenye bwawa
+- Muunganisho wa VPN utawashwa kiotomatiki unaposhiriki kwenye pool
 - Bonyeza **"Hifadhi "** mara tu umeweka vigezo vyote
 
 
@@ -437,7 +437,7 @@ Programu ya Joinstr **huunganisha kwa asili** Riseup VPN, kurahisisha uratibu ka
 
 
 
-### Unda au ujiunge na bwawa
+### Unda au ujiunge na pool
 
 
 
@@ -449,31 +449,31 @@ Una chaguo mbili za kushiriki katika CoinJoin:
 
 
 
-**Chaguo la 1: Unda bwawa jipya**
+**Chaguo la 1: Unda pool mpya**
 
 
 
-Bonyeza "Unda Dimbwi Jipya" kwenye kichupo cha "Madimbwi". Bainisha dhehebu katika BTC (k.m. 0.002 BTC) na idadi inayotakiwa ya washiriki (angalau 2, iliyopendekezwa 3-5 kwa kutokujulikana zaidi). Programu basi husubiri watumiaji wengine wajiunge na dimbwi lako. Mara tu nambari inayohitajika imefikiwa, mchakato wa usajili wa towe huanza kiotomatiki, na utahitaji kuchagua UTXO yako ili kuchanganya na kubofya "Jisajili".
+Bonyeza "Unda pool mpya" kwenye kichupo cha "pools". Bainisha dhehebu katika BTC (k.m. 0.002 BTC) na idadi inayotakiwa ya washiriki (angalau 2, iliyopendekezwa 3-5 kwa kutokujulikana zaidi). Programu basi husubiri watumiaji wengine wajiunge na Node yako. Mara tu nambari inayohitajika imefikiwa, mchakato wa usajili wa towe huanza kiotomatiki, na utahitaji kuchagua UTXO yako ili kuchanganya na kubofya "Jisajili".
 
 
 
-**⏱️ Muhimu**: Muda wa kuogelea unaisha baada ya **dakika 10** ya kutokuwa na shughuli. Ikiwa idadi inayotakiwa ya washiriki haijafikiwa, bwawa litafungwa moja kwa moja.
+**⏱️ Muhimu**: Muda wa kuogelea unaisha baada ya **dakika 10** ya kutokuwa na shughuli. Ikiwa idadi inayotakiwa ya washiriki haijafikiwa, pool itafungwa moja kwa moja.
 
 
 
-**Chaguo la 2: Jiunge na bwawa lililopo**
+**Chaguo la 2: Jiunge na pool iyopo**
 
 
 
-Katika kichupo cha "Angalia Madimbwi Mengine", vinjari madimbwi yanayopatikana yaliyoundwa na watumiaji wengine. Chagua bwawa linalolingana na kiasi chako na ujiunge nayo. Hakikisha kuwa umesanidi relay ya Nostr na VPN Gateway sawa na washiriki wengine (angalia sehemu ya Usanidi).
+Katika kichupo cha "Angalia pools zingine", vinjari madimbwi yanayopatikana yaliyoundwa na watumiaji wengine. Chagua pool inaloyingana na kiasi chako na ujiunge nayo. Hakikisha kuwa umesanidi relay ya Nostr na VPN Gateway sawa na washiriki wengine (angalia sehemu ya Usanidi).
 
 
 
-**Sheria ya uteuzi ya UTXO**: UTXO yako lazima iwe juu kidogo kuliko madhehebu ya bwawa (kati ya +500 na +5000 sats ya ziada).
+**Sheria ya uteuzi ya UTXO**: UTXO yako lazima iwe juu kidogo kuliko madhehebu ya pool (kati ya +500 na +5000 sats ya ziada).
 
 
 
-**Mfano**: Kwa bwawa la 0.002 BTC (200,000 sats), tumia UTXO kati ya 200,500 na 205,000 sats.
+**Mfano**: Kwa pool ya 0.002 BTC (200,000 sats), tumia UTXO kati ya 200,500 na 205,000 sats.
 
 
 
@@ -503,10 +503,10 @@ Unaweza kutazama:
 
 
 
-- Maingizo n**: Moja kwa kila mshiriki (katika mfano wetu, maingizo 2)
-- N matokeo yanayofanana**: kiasi kamili cha dhehebu (hapa, matokeo 2 ya 0.00199800 BTC kila moja)
-- Chati ya mtiririko**: mempool.space huonyesha kwa macho mchanganyiko wa pembejeo na matokeo
-- Vipengele** : Muamala unaweza kutambuliwa kama SegWit, Taproot, RBF, nk.
+- **Maingizo n**: Moja kwa kila mshiriki (katika mfano wetu, maingizo 2)
+- **Ni matokeo yanayofanana**: kiasi kamili cha dhehebu (hapa, matokeo 2 ya 0.00199800 BTC kila moja)
+- **Chati ya mtiririko**: mempool.space huonyesha kwa macho mchanganyiko wa pembejeo na matokeo
+- **Vipengele** : Muamala unaweza kutambuliwa kama SegWit, Taproot, RBF, nk.
 
 
 
@@ -518,7 +518,7 @@ Kwa vile matokeo yote makuu yana kiasi sawa, **haiwezekani kuamua ni mali ya nan
 
 
 
-**Tafadhali kumbuka**: Ikiwa UTXO zako zilikuwa kubwa kuliko madhehebu ya bwawa, utakuwa na matokeo ya kubadilisha fedha za kigeni (ziada). UTXO hizi za kubadilishana zinaendelea kufuatiliwa na lazima zidhibitiwe kando na matokeo yako ambayo hayakutambulisha. Usiwahi kuzichanganya na matokeo yako mseto.
+**Tafadhali kumbuka**: Ikiwa UTXO zako zilikuwa kubwa kuliko madhehebu ya pool, utakuwa na matokeo ya kubadilisha fedha za kigeni (ziada). UTXO hizi za kubadilishana zinaendelea kufuatiliwa na lazima zidhibitiwe kando na matokeo yako ambayo hayakutambulisha. Usiwahi kuzichanganya na matokeo yako mseto.
 
 
 
@@ -566,7 +566,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9
 
 
 
-**Mapendekezo ya vitendo**: Ili kufidia madimbwi madogo, endesha mizunguko kadhaa mfululizo ya CoinJoin na washiriki tofauti. Angaza miduara yako na ubadilishe relay za Nostr kati ya kila raundi ili kuongeza usiri wako.
+**Mapendekezo ya vitendo**: Ili kufidia pools ndogo, endesha mizunguko kadhaa mfululizo ya CoinJoin na washiriki tofauti. Angaza miduara yako na ubadilishe relay za Nostr kati ya kila raundi ili kuongeza usiri wako.
 
 
 
@@ -598,9 +598,9 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- Ukwasi unaobadilika**: Vidimbwi vidogo, vinaweza kusubiri washiriki wakutane
-- Mradi unaendelea**: Utumaji programu katika beta, hitilafu zinawezekana. Jaribu kwanza kwa kiasi kidogo kwenye alamisho
-- Mashambulizi ya Sybil**: Uwezekano wa mpinzani mmoja kudhibiti washiriki kadhaa wa kundi
+- **Ukwasi unaobadilika**: pools ndogo, zinaweza kusubiri washiriki wakutane
+- **Mradi unaendelea**: Utumaji programu katika beta, hitilafu zinawezekana. Jaribu kwanza kwa kiasi kidogo kwenye alamisho
+- **Sybil attack**: Uwezekano wa mpinzani mmoja kudhibiti washiriki kadhaa wa kundi
 
 
 
@@ -632,7 +632,7 @@ Joinstr inawakilisha suluhisho la faragha la Bitcoin lililogatuliwa kweli. Kwa k
 
 
 
-**Kwa watumiaji wanaothamini upinzani dhidi ya udhibiti na wako tayari kutekeleza mizunguko kadhaa ya CoinJoin ili kufidia madimbwi madogo.
+**Kwa watumiaji wanaothamini upinzani dhidi ya udhibiti na wako tayari kutekeleza mizunguko kadhaa ya CoinJoin ili kufidia pools ndogo.
 
 
 
@@ -681,6 +681,6 @@ Kutokana na hali ya kuongezeka kwa uchunguzi wa kifedha, zana zilizogatuliwa kul
 
 
 
-- [Alamisho Faucet](https://signetfaucet.com) - Mtihani wa Bitcoins bila malipo
+- [Alamisho Faucet](https://signetfaucet.com) - Mtihani wa Bitcoin bila malipo
 - [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet mbadala
 - [Mempool.space](https://mempool.space) - Block explorer yenye uchanganuzi wa faragha

@@ -10,7 +10,7 @@ description: Understanding and using Ricochet transactions
 ## What's a Ricochet?
 
 
-Ricochet is a technique consisting in performing several fictitious transactions towards oneself to simulate a transfer of bitcoin ownership. This tool differs from Ashigaru's other transactions (inherited from Samurai Wallet) in that it doesn't provide prospective anonymity, but rather a form of retrospective anonymity. In fact, Ricochet blurs the specificities that can compromise the fungibility of a Bitcoin part.
+Ricochet is a technique consisting in performing several fictitious transactions towards oneself to simulate a transfer of bitcoin ownership. This tool differs from Ashigaru's other transactions (inherited from Samourai Wallet) in that it doesn't provide prospective anonymity, but rather a form of retrospective anonymity. In fact, Ricochet blurs the specificities that can compromise the fungibility of a Bitcoin part.
 
 
 For example, if you make a coinjoin, your part coming out of the mix will be identified as such. Chain analysis tools are able to detect the paterns of coinjoin transactions and assign a label to the pieces coming out of them. In effect, coinjoin aims to break a coin's historical links, but its passage through coinjoins remains detectable. By way of analogy, this phenomenon is akin to the encryption of a text: although the original text cannot be accessed in clear text, it is easy to identify that encryption has been applied.
@@ -34,7 +34,7 @@ Thus, **the most common use case for Ricochet arises when it is necessary to con
 ## How does Ricochet work on Ashigaru?
 
 
-Ricochet is simply a method of sending bitcoins to oneself, originally invented by the developers of Samurai Wallet. It is therefore perfectly possible to simulate a Ricochet manually, without the need for a specialized tool. However, for those wishing to automate the process while enjoying a more polished result, the Ricochet tool available via the Ashigaru application (which is a Samourai fork) represents a good solution.
+Ricochet is simply a method of sending bitcoins to oneself, originally invented by the developers of Samourai Wallet. It is therefore perfectly possible to simulate a Ricochet manually, without the need for a specialized tool. However, for those wishing to automate the process while enjoying a more polished result, the Ricochet tool available via the Ashigaru application (which is a Samourai fork) represents a good solution.
 
 
 Since Ashigaru charges for its service, a Ricochet costs `100,000 sats` as a service fee, plus a mining fee. Its use is therefore recommended for transfers of significant amounts.

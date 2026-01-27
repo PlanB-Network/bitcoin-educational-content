@@ -850,12 +850,13 @@ Phần này xác định **nơi** và **cách** có thể xem và mua sản ph�
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Nền tảng        | Sản phẩm Hiển thị | Có thể Thêm vào Giỏ |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (trang công khai)        | ✔️              | ✔️                  |
+| Retail POS (điểm bán hàng)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (bán hàng qua bot)  | ✔️              | ✔️                  |
 
 Chỉ chọn những kênh bạn muốn sử dụng.
 

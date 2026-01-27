@@ -850,12 +850,13 @@ In diesem Abschnitt wird festgelegt, **wo** und **wie** das Produkt angesehen un
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Plattform        | Produkt sichtbar | Zum Warenkorb hinzufügbar |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (öffentliche Website)        | ✔️              | ✔️                  |
+| Retail POS (Verkaufsstelle)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (Verkauf über Bot)  | ✔️              | ✔️                  |
 
 Überprüfen Sie nur die Kanäle, die Sie verwenden möchten.
 

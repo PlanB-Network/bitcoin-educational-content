@@ -850,12 +850,13 @@ Tässä osassa määritellään, **missä** ja **miten** tuotetta voi tarkastell
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Alusta        | Tuote näkyvissä | Lisättävä ostoskoriin |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (julkinen sivusto)        | ✔️              | ✔️                  |
+| Retail POS (myyntipiste)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (myynti botin kautta)  | ✔️              | ✔️                  |
 
 Tarkista vain ne kanavat, joita haluat käyttää.
 

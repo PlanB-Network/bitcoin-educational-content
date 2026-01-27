@@ -850,12 +850,13 @@ Tato část určuje **kde** a **jak** si lze produkt prohlédnout a zakoupit:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platforma        | Produkt viditelný | Přidatelný do košíku |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (veřejný web)        | ✔️              | ✔️                  |
+| Retail POS (pokladní systém)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (prodej přes bota)  | ✔️              | ✔️                  |
 
 Zaškrtněte pouze kanály, které chcete používat.
 

@@ -850,12 +850,13 @@ be-BOP ยังมีการผสานรวมอย่างเต็ม�
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| แพลตฟอร์ม        | สินค้าที่มองเห็น | เพิ่มได้ในตะกร้า |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (ไซต์สาธารณะ)        | ✔️              | ✔️                  |
+| Retail POS (จุดขาย)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (ขายผ่านบอต)  | ✔️              | ✔️                  |
 
 เลือกเฉพาะช่องที่คุณต้องการใช้เท่านั้น
 

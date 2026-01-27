@@ -850,12 +850,13 @@ Dit gedeelte bepaalt **waar** en **hoe** het product kan worden bekeken en gekoc
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platform        | Product Zichtbaar | Toevoegbaar aan Winkelwagen |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (openbare website)        | ✔️              | ✔️                  |
+| Retail POS (verkooppunt)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (verkoop via bot)  | ✔️              | ✔️                  |
 
 Vink alleen de kanalen aan die je wilt gebruiken.
 

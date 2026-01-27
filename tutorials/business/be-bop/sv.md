@@ -850,12 +850,13 @@ Detta avsnitt bestämmer **var** och **hur** produkten kan ses och köpas:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Plattform        | Produkt Synlig | Läggas till Varukorgen |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (offentlig webbplats)        | ✔️              | ✔️                  |
+| Retail POS (försäljningsställe)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (försäljning via bot)  | ✔️              | ✔️                  |
 
 Markera endast de kanaler som du vill använda.
 

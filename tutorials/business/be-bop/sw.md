@@ -850,12 +850,13 @@ Sehemu hii huamua **wapi** na **jinsi** bidhaa inaweza kutazamwa na kununuliwa:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Jukwaa        | Bidhaa Inayoonekana | Inaweza Kuongezwa kwenye Sebule |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (tovuti ya umma)        | ✔️              | ✔️                  |
+| Retail POS (mahali pa mauzo)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (mauzo kupitia bot)  | ✔️              | ✔️                  |
 
 Angalia tu vituo unavyotaka kutumia.
 

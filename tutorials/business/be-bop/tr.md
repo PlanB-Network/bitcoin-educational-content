@@ -850,12 +850,13 @@ Bu bölüm, ürünün **nerede** ve **nasıl** görülebileceğini ve satın al�
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platform        | Ürün Görünür | Sepete Eklenebilir |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (genel site)        | ✔️              | ✔️                  |
+| Retail POS (satış noktası)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (bot aracılığıyla satış)  | ✔️              | ✔️                  |
 
 Sadece kullanmak istediğiniz kanalları kontrol edin.
 

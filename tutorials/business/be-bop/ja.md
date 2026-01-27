@@ -850,12 +850,13 @@ Admin > Merch > Products`にアクセスして商品を追加または変更し�
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| プラットフォーム        | 製品が表示される | カートに追加可能 |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (公開サイト)        | ✔️              | ✔️                  |
+| Retail POS (販売時点)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (ボット経由での販売)  | ✔️              | ✔️                  |
 
 使用したいチャンネルのみにチェックを入れる。
 

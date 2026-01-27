@@ -850,12 +850,13 @@ Ovaj odeljak određuje **gde** i **kako** se proizvod može pregledati i kupiti:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platforma        | Proizvod Vidljiv | Moguće Dodati u Korpu |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (javna stranica)        | ✔️              | ✔️                  |
+| Retail POS (prodajno mesto)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (prodaja preko bota)  | ✔️              | ✔️                  |
 
 Označite samo kanale koje želite koristiti.
 

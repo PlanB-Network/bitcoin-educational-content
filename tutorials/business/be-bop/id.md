@@ -850,12 +850,13 @@ Bagian ini menentukan **di mana** dan **bagaimana** produk dapat dilihat dan dib
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platform        | Produk Terlihat | Dapat Ditambahkan ke Keranjang |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (situs publik)        | ✔️              | ✔️                  |
+| Retail POS (titik penjualan)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (penjualan melalui bot)  | ✔️              | ✔️                  |
 
 Centang hanya saluran yang ingin Anda gunakan.
 

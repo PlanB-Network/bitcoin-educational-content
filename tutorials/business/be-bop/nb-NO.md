@@ -850,12 +850,13 @@ Denne delen bestemmer **hvor** og **hvordan** produktet kan vises og kjøpes:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Plattform        | Produkt Synlig | Kan Legges til Kurv |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (offentlig nettsted)        | ✔️              | ✔️                  |
+| Retail POS (salgssted)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (salg via bot)  | ✔️              | ✔️                  |
 
 Kryss bare av for de kanalene du ønsker å bruke.
 

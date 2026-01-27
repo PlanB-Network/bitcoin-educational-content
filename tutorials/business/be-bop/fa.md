@@ -850,12 +850,13 @@ be-BOP همچنین ادغام کامل با **Stripe**، یکی از محبوب
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| پلتفرم        | محصول قابل مشاهده | قابل اضافه به سبد |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (سایت عمومی)        | ✔️              | ✔️                  |
+| Retail POS (نقطه فروش)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (فروش از طریق ربات)  | ✔️              | ✔️                  |
 
 فقط کانال‌هایی را که می‌خواهید استفاده کنید، انتخاب کنید.
 

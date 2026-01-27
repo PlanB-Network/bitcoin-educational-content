@@ -850,12 +850,13 @@ Navbar** 섹션에서는 일반적으로 Interface의 측면 또는 상단에 �
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| 플랫폼        | 제품 표시 | 장바구니에 추가 가능 |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (공개 사이트)        | ✔️              | ✔️                  |
+| Retail POS (판매 지점)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (봇을 통한 판매)  | ✔️              | ✔️                  |
 
 사용하려는 채널만 체크하세요.
 

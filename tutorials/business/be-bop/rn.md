@@ -850,12 +850,13 @@ Iki gice kigena **aho** n'ingene** igicuruzwa gishobora kurabwa no kugurwa:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platform        | Igicuruzwa Kiragira | Irashobora Kongeza mu Gupisiro |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (urubuga rwa popu)        | ✔️              | ✔️                  |
+| Retail POS (aho ahagurishijwe)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (kugurishwa kuva kuri bot)  | ✔️              | ✔️                  |
 
 Suzuma gusa imirongo wipfuza gukoresha.
 

@@ -850,12 +850,13 @@ Top Bar 的「連結」區段可讓您在應用程式或外部網站的重要頁
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| 平台        | 產品可見 | 可添加到購物車 |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (公開網站)        | ✔️              | ✔️                  |
+| Retail POS (銷售點)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (通過機器人銷售)  | ✔️              | ✔️                  |
 
 只勾選您想使用的頻道。
 

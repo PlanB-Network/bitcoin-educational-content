@@ -850,12 +850,13 @@ be-BOP还与**Stripe**完全集成，后者是最流行的在线支付平台之�
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| 平台        | 产品可见 | 可添加到购物车 |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (公开网站)        | ✔️              | ✔️                  |
+| Retail POS (销售点)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (通过机器人销售)  | ✔️              | ✔️                  |
 
 只选中希望使用的频道。
 

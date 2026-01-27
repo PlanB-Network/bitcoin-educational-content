@@ -850,12 +850,13 @@ Selles jaotises määratakse kindlaks, **kuidas** ja **kuidas** saab toodet vaad
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platvorm        | Toode nähtav | Ostukorvi lisamiseks sobiv |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (avalik sait)        | ✔️              | ✔️                  |
+| Retail POS (kassa)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (müük boti kaudu)  | ✔️              | ✔️                  |
 
 Märkige ainult need kanalid, mida soovite kasutada.
 

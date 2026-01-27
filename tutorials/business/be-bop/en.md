@@ -644,12 +644,13 @@ Check `The product has a physical component that will be shipped to the customer
 This section determines **where** and **how** the product can be viewed and purchased:
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platform        | Product Visible | Addable to Cart |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (public site)        | ✔️              | ✔️                  |
+| Retail POS (point of sale)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (bot sales)  | ✔️              | ✔️                  |
 
 Check only the channels you wish to use.
 

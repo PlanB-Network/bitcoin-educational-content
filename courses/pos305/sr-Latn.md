@@ -2468,21 +2468,22 @@ Osim ako ne koristite ugrađeni [novčanik](https://docs.btcpayserver.org/Wallet
 Tabela ispod navodi i opisuje standardne statuse faktura u BTCPay-u i predlaže uobičajene akcije. Akcije su samo preporuke. Na korisnicima je da definišu najbolji tok akcije za njihov slučaj upotrebe i poslovanje.
 
 
-| Status fakture             | Opis                                                                                                                             | Akcija                                                                                                                      |
+
+| Status fakture | Opis | Akcija |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Nije plaćeno, tajmer fakture još uvek nije istekao.                                                                                           | Nije potrebna                                                                                                                        |
-| New (paidPartial)          | Plaćeno, ali ne u celosti, tajmer fakture još uvek nije istekao.                                                                                  | Nije potrebna                                                                                                                        |
-| Expired                    | Nije plaćeno, tajmer fakture je istekao                                                                                                        | Nije potrebna                                                                                                                        |
-| Expired (paidPartial) \*\* | Delimično plaćeno, tajmer istekao                                                                                                   | "Kontaktirajte kupca radi dogovora o povraćaju sredstava ili da biste zatražili uplatu preostalog iznosa. Po potrebi označite fakturu kao razrešenu ili nevažeću           |
-| Expired (paidLate)         |Plaćeno u celosti, nakon što je tajmer fakture istekao                                                                               | Kontaktirajte kupca radi dogovora o povraćaju sredstava ili obradite porudžbinu ako su zakašnjele potvrde prihvatljive.                                    |
-| Settled (paidOver)         | Plaćeno više od iznosa na fakturi, razrešeno, primljen dovoljan broj potvrda.                                                 | Kontaktirajte kupca radi dogovora o povraćaju viška iznosa, ili po želji sačekajte da vas kupac kontaktira.                        |
-| Processing                 | Plaćeno u celosti, ali nije primljen dovoljan broj potvrda definisan u podešavanjima prodavnice.                                   | Kontaktirajte kupca radi dogovora o povraćaju viška iznosa, ili po želji sačekajte da vas kupac kontaktira.                         |
-| Processing (paidOver)      | Plaćeno više od iznosa fakture, ali nije primljen dovoljan broj potvrda.                                                      | Sačekajte da bude razrešeno, zatim kontaktirajte kupca radi dogovora o povraćaju viška iznosa, ili po želji sačekajte da vas kupac kontaktira. |
-| Settled                    | Plaćeno u celosti, primljen dovoljan broj potvrda u prodavnici.                                                                     | Obradite porudžbinu                                                                                                            |
-| Settled (marked)           | Status je ručno promenjen u ‘razrešeno’ sa statusa ‘u obradi’ ili ‘nevažeće’.                                                             | Administrator prodavnice je označio uplatu kao razrešenu.                                                                               |
-| Invalid                    | Plaćeno, ali nije primljen dovoljan broj potvrda u okviru vremena definisanog u podešavanjima prodavnice                              | Proverite transakciju na blockchain pregledaču, a ako je primila dovoljan broj potvrda, označite je kao razrešenu.                    |
-| Invalid (marked)           | Status je ručno promenjen u nevažeći sa statusa razrešen ili istekao.                                                                 | Administrator prodavnice je označio uplatu kao nevažeću.                                                                               |
-| Invalid (paidOver)         | Plaćeno više od iznosa fakture, ali nije primljen dovoljan broj potvrda u roku definisanom u podešavanjima prodavnice. | Proverite transakciju na blockchain pregledaču; ako je primila dovoljan broj potvrda, označite je kao razrešenu.                    |
+| New | Nije plaćeno, tajmer fakture još nije istekao | Nema |
+| New (paidPartial) | Plaćeno delimično, tajmer fakture još nije istekao | Nema |
+| Expired | Nije plaćeno, tajmer fakture je istekao | Nema |
+| Expired (paidPartial) ** | Plaćeno delimično i isteklo | Kontaktirajte kupca radi povraćaja ili tražite doplatu. Opciono označite fakturu kao settled ili invalid |
+| Expired (paidLate) | Plaćeno u celosti nakon isteka tajmera fakture | Kontaktirajte kupca radi povraćaja ili obradite porudžbinu ako su kasne potvrde prihvatljive. |
+| Settled (paidOver) | Plaćeno više od iznosa, namireno, primljeno dovoljno potvrda | Kontaktirajte kupca radi povraćaja viška ili opciono sačekajte da vas kupac kontaktira |
+| Processing | Plaćeno u celosti, ali nije primljeno dovoljno potvrda (prema podešavanjima) | Kontaktirajte kupca radi povraćaja viška ili opciono sačekajte da vas kupac kontaktira |
+| Processing (paidOver) | Plaćeno više od iznosa, nije primljeno dovoljno potvrda | Sačekajte da se namiri, pa kontaktirajte kupca za povraćaj viška ili sačekajte kontakt |
+| Settled | Plaćeno u celosti, primljeno dovoljno potvrda u prodavnici | Ispunite porudžbinu |
+| Settled (marked) | Status je ručno promenjen u settled iz statusa processing ili invalid | Administrator je označio plaćanje kao settled |
+| Invalid* | Plaćeno, ali nije primljeno dovoljno potvrda u predviđenom roku | Proverite transakciju na blockchain explorer-u; ako ima dovoljno potvrda, označite kao settled |
+| Invalid (marked) | Status je ručno promenjen u invalid iz statusa settled ili expired | Administrator je označio plaćanje kao invalid |
+| Invalid (paidOver) | Plaćeno više od iznosa, ali nije primljeno dovoljno potvrda u predviđenom roku | Proverite transakciju na blockchain explorer-u; ako ima dovoljno potvrda, označite kao settled |
 
 #### Detalji fakture
 

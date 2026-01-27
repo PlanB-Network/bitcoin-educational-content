@@ -2471,21 +2471,22 @@ BTCPay 서버의 핵심은 Bitcoin Invoice 관리 시스템으로 작동하는 �
 아래 표에는 BTCPay의 표준 Invoice 상태와 함께 권장되는 일반적인 조치가 나열되어 있으며 설명되어 있습니다. 조치는 권장 사항일 뿐입니다. 사용 사례와 비즈니스에 가장 적합한 조치를 정의하는 것은 사용자의 몫입니다.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| 송장 상태 | 설명 | 조치 |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | 결제되지 않음, 송장 타이머가 아직 만료되지 않음 | 없음 |
+| New (paidPartial) | 일부 결제됨, 송장 타이머가 아직 만료되지 않음 | 없음 |
+| Expired | 결제되지 않음, 송장 타이머 만료됨 | 없음 |
+| Expired (paidPartial) ** | 일부 결제되었으나 만료됨 | 구매자에게 연락하여 환불을 진행하거나 미납금 결제를 요청하세요. 선택적으로 송장을 settled 또는 invalid로 표시할 수 있습니다 |
+| Expired (paidLate) | 송장 타이머 만료 후 전액 결제됨 | 환불을 위해 구매자에게 연락하거나, 늦은 승인이 허용되는 경우 주문을 처리하세요. |
+| Settled (paidOver) | 송장 금액보다 많이 결제됨, 정산됨, 충분한 승인 횟수 수신됨 | 초과 금액 환불을 위해 구매자에게 연락하거나, 선택적으로 구매자의 연락을 기다리세요 |
+| Processing | 전액 결제되었으나, 상점 설정에 지정된 충분한 승인 횟수를 수신하지 못함 | 초과 금액 환불을 위해 구매자에게 연락하거나, 선택적으로 구매자의 연락을 기다리세요 |
+| Processing (paidOver) | 송장 금액보다 많이 결제되었으나, 충분한 승인 횟수를 수신하지 못함 | 정산될 때까지 기다린 후, 초과 금액 환불을 위해 연락하거나 구매자의 연락을 기다리세요 |
+| Settled | 전액 결제됨, 상점에서 충분한 승인 횟수 수신됨 | 주문 이행 |
+| Settled (marked) | 상태가 processing 또는 invalid에서 수동으로 settled로 변경됨 | 상점 관리자가 결제를 settled로 표시함 |
+| Invalid* | 결제되었으나 상점 설정에 지정된 시간 내에 충분한 승인을 받지 못함 | 블록체인 탐색기에서 트랜잭션을 확인하고, 승인이 충분하면 settled로 표시하세요 |
+| Invalid (marked) | 상태가 settled 또는 expired에서 수동으로 invalid로 변경됨 | 상점 관리자가 결제를 invalid로 표시함 |
+| Invalid (paidOver) | 송장 금액보다 많이 결제되었으나 상점 설정 시간 내에 충분한 승인을 받지 못함 | 블록체인 탐색기에서 트랜잭션을 확인하고, 승인이 충분하면 settled로 표시하세요 |
 
 #### Invoice 세부 정보
 

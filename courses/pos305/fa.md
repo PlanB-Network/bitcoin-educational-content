@@ -2486,21 +2486,22 @@ Invoice سندی است که فروشنده برای دریافت پرداخت �
 جدول زیر وضعیت‌های استاندارد Invoice در BTCPay را فهرست کرده و توصیف می‌کند و اقدامات رایج را پیشنهاد می‌دهد. اقدامات فقط توصیه‌ها هستند. تصمیم‌گیری در مورد بهترین اقدام برای استفاده و کسب‌وکار بر عهده کاربران است.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| وضعیت فاکتور | توضیحات | اقدام |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled then contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from an processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | پرداخت نشده، زمان‌سنج فاکتور هنوز منقضی نشده است | هیچ |
+| New (paidPartial) | پرداخت شده (بخشی)، زمان‌سنج فاکتور هنوز منقضی نشده است | هیچ |
+| Expired | پرداخت نشده، زمان‌سنج فاکتور منقضی شده است | هیچ |
+| Expired (paidPartial) ** | پرداخت شده (بخشی) و منقضی شده | با خریدار برای بازپرداخت هماهنگ کنید یا بخواهید مابقی را بپردازد. اختیاری: فاکتور را settled یا invalid علامت بزنید |
+| Expired (paidLate) | پرداخت شده (کامل) پس از انقضای زمان‌سنج فاکتور | برای بازپرداخت هماهنگ کنید یا اگر تأییدیه‌های دیرکرد پذیرفته است، سفارش را پردازش کنید. |
+| Settled (paidOver) | پرداخت بیش از مبلغ فاکتور، تسویه شده، دریافت تعداد کافی تأییدیه | با خریدار برای بازپرداخت مبلغ اضافی هماهنگ کنید یا منتظر تماس خریدار بمانید |
+| Processing | پرداخت کامل، اما هنوز تعداد کافی تأییدیه (مطابق تنظیمات فروشگاه) دریافت نشده است | با خریدار برای بازپرداخت مبلغ اضافی هماهنگ کنید یا منتظر تماس خریدار بمانید |
+| Processing (paidOver) | پرداخت بیش از مبلغ فاکتور، عدم دریافت تعداد کافی تأییدیه | منتظر تسویه بمانید، سپس برای بازپرداخت مبلغ اضافی با خریدار تماس بگیرید یا منتظر تماس او باشید |
+| Settled | پرداخت کامل، دریافت تعداد کافی تأییدیه در فروشگاه | سفارش را تکمیل کنید |
+| Settled (marked) | وضعیت به صورت دستی از processing یا invalid به settled تغییر یافته است | مدیر فروشگاه پرداخت را به عنوان settled علامت زده است |
+| Invalid* | پرداخت شده، اما تأییدیه‌های کافی در زمان مشخص شده دریافت نشد | تراکنش را در اکسپلورر بلاک‌چین چک کنید؛ اگر تأییدیه کافی دارد، settled علامت بزنید |
+| Invalid (marked) | وضعیت به صورت دستی از settled یا expired به invalid تغییر یافته است | مدیر فروشگاه پرداخت را به عنوان invalid علامت زده است |
+| Invalid (paidOver) | پرداخت بیش از مبلغ، اما عدم دریافت تأییدیه‌های کافی در زمان مشخص شده در تنظیمات فروشگاه | تراکنش را در اکسپلورر بلاک‌چین چک کنید؛ اگر تأییدیه کافی دارد، settled علامت بزنید |
 
 #### جزئیات Invoice
 

@@ -2471,21 +2471,22 @@ BTCPay Server'ın özü, bir Bitcoin Invoice yönetim sistemi olarak hareket etm
 Aşağıdaki tabloda BTCPay'deki standart Invoice durumları, önerilen ortak eylemlerle birlikte listelenmekte ve açıklanmaktadır. Eylemler sadece tavsiyedir. Kendi kullanım durumları ve işleri için en iyi eylem planını tanımlamak kullanıcılara bağlıdır.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Fatura Durumu | Açıklama | İşlem |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Ödenmedi, fatura zamanlayıcısı henüz dolmadı | Yok |
+| New (paidPartial) | Kısmen ödendi, fatura zamanlayıcısı henüz dolmadı | Yok |
+| Expired | Ödenmedi, fatura zamanlayıcısı doldu | Yok |
+| Expired (paidPartial) ** | Kısmen ödendi ve süresi doldu | İade ayarlamak için alıcıyla iletişime geçin veya bakiyeyi ödemesini isteyin. İsteğe bağlı olarak settled veya invalid işaretleyin |
+| Expired (paidLate) | Fatura süresi dolduktan sonra tam tutar ödendi | İade için alıcıyla iletişime geçin veya geç onaylar kabul ediliyorsa siparişi işleme alın. |
+| Settled (paidOver) | Fatura tutarından fazla ödendi, kapatıldı, yeterli onay alındı | Fazla tutarın iadesi için alıcıyla iletişime geçin veya alıcının size ulaşmasını bekleyin |
+| Processing | Tam ödendi ancak mağaza ayarlarında belirtilen onay sayısına henüz ulaşmadı | Fazla tutarın iadesi için alıcıyla iletişime geçin veya alıcının size ulaşmasını bekleyin |
+| Processing (paidOver) | Fatura tutarından fazla ödendi, yeterli onay alınmadı | settled olmasını bekleyin, sonra iade için alıcıyla iletişime geçin veya alıcının ulaşmasını bekleyin |
+| Settled | Tam ödendi, mağazada yeterli onay alındı | Siparişi tamamlayın |
+| Settled (marked) | Durum, processing veya invalid'den manuel olarak settled'a çevrildi | Mağaza yöneticisi ödemeyi settled olarak işaretledi |
+| Invalid* | Ödendi ancak mağaza ayarlarındaki süre içinde yeterli onay alınamadı | İşlemi bir blok zinciri gezgininde kontrol edin; yeterli onay varsa settled olarak işaretleyin |
+| Invalid (marked) | Durum, settled veya expired'dan manuel olarak invalid'e çevrildi | Mağaza yöneticisi ödemeyi invalid olarak işaretledi |
+| Invalid (paidOver) | Fatura tutarından fazla ödendi ancak süre içinde yeterli onay alınamadı | İşlemi bir blok zinciri gezgininde kontrol edin; yeterli onay varsa settled olarak işaretleyin |
 
 #### Invoice ayrıntıları
 

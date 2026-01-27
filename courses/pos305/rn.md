@@ -2471,21 +2471,22 @@ Keretse ukoresheje [Wallet](https://docs.btcpayserver.org/Wallet/) yubatswemwo k
 Imbonerahamwe iri musi iratanga urutonde kandi idondora ivyerekeye Invoice mu BTCPay, hamwe n’ibikorwa rusangi vyerekanwa. Ibikorwa ni impanuro gusa. Ni abakoresha gusobanura inzira nziza yo gukora ku bijanye n’ikoreshwa ryabo n’ubucuruzi bwabo.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Uko invoice imere | Ibivunzwe | Igikorwa |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Ntishuwe, igihe c'invoice ntikirarengana | Nta na kimwe |
+| New (paidPartial) | Ishuwe kumpande, igihe c'invoice ntikirarengana | Nta na kimwe |
+| Expired | Ntishuwe, igihe c'invoice cararenganye | Nta na kimwe |
+| Expired (paidPartial) ** | Ishuwe kumpande, kandi yararengeje igihe | Hamagara uwaguze muganire ivy'isubizwa ry'amahera canke umusabe kwishura ibisigaye. Hitamo kuyishira kuri settled canke invalid |
+| Expired (paidLate) | Ishuwe yose, inyuma y'uko igihe c'invoice camaze kurengana | Hamagara uwaguze muganire ivy'isubizwa ry'amahera canke utunganye komande nimba kwemeza kw'itevye kwemerwa. |
+| Settled (paidOver) | Ishuwe arenga ayari kw'invoice, yarangiye, yakiriye ivyemezo bikwiye | Hamagara uwaguze kugira umusubize ayarenze, canke urindire ko ari we aguhamagara |
+| Processing | Ishuwe yose, ariko ntiyakiriye ivyemezo bikwiye nk'uko biri mu bipimo vy'ishaka | Hamagara uwaguze kugira umusubize ayarenze, canke urindire ko ari we aguhamagara |
+| Processing (paidOver) | Ishuwe arenga ayari kw'invoice, ntiyakiriye ivyemezo bikwiye | Rindira ko ija kuri settled, ubone guhamagara uwaguze musubize ayarenze, canke urindire aguhamagare |
+| Settled | Ishuwe yose, yakiriye ivyemezo bikwiye mw'ishaka | Rungika ivyo yaguze |
+| Settled (marked) | Uko imere kwahinduwe n'intoke kuva kuri processing canke invalid uja kuri settled | Umuyobozi w'ishaka yashize amayeri ko ishuwe (settled) |
+| Invalid* | Ishuwe, ariko ntiyakiriye ivyemezo bikwiye mu gihe cashinzwe mu bipimo vy'ishaka | Raba iyo transaction kuri blockchain explorer, nimba yakiriye ivyemezo bikwiye, yishire kuri settled |
+| Invalid (marked) | Uko imere kwahinduwe n'intoke kuva kuri settled canke expired uja kuri invalid | Umuyobozi w'ishaka yashize amayeri ko ari invalid |
+| Invalid (paidOver) | Ishuwe arenga ayari kw'invoice, ariko ntiyakiriye ivyemezo bikwiye mu gihe cashinzwe | Raba iyo transaction kuri blockchain explorer, nimba yakiriye ivyemezo bikwiye, yishire kuri settled |
 
 #### Invoice ibisobanuro
 

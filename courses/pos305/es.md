@@ -2471,21 +2471,22 @@ A menos que utilice una [Wallet](https://docs.btcpayserver.org/Wallet/) incorpor
 La siguiente tabla enumera y describe los estados estándar de Invoice en BTCPay, junto con las acciones comunes sugeridas. Las acciones son sólo recomendaciones. Depende de los usuarios definir el mejor curso de acción para su caso de uso y negocio.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Estado de la factura | Descripción | Acción |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | No pagada, el temporizador de la factura aún no ha expirado | Ninguna |
+| New (paidPartial) | Pagada parcialmente, el temporizador de la factura aún no ha expirado | Ninguna |
+| Expired | No pagada, el temporizador de la factura ha expirado | Ninguna |
+| Expired (paidPartial) ** | Pagada parcialmente y expirada | Contactar al comprador para acordar un reembolso o pedirle que pague lo adeudado. Opcionalmente marcar como settled o invalid |
+| Expired (paidLate) | Pagada en su totalidad después de que el temporizador expiró | Contactar al comprador para acordar un reembolso o procesar el pedido si las confirmaciones tardías son aceptables. |
+| Settled (paidOver) | Pagado más del importe de la factura, liquidada, se recibió suficiente cantidad de confirmaciones | Contactar al comprador para acordar el reembolso del monto extra, o esperar a que el comprador le contacte |
+| Processing | Pagada íntegramente, pero no ha recibido suficientes confirmaciones según la configuración de la tienda | Contactar al comprador para acordar el reembolso del monto extra, o esperar a que el comprador le contacte |
+| Processing (paidOver) | Pagado más del importe de la factura, no se han recibido suficientes confirmaciones | Esperar a que se liquide, luego contactar al comprador para el reembolso del extra, o esperar a que le contacten |
+| Settled | Pagada en su totalidad, se recibió suficiente cantidad de confirmaciones en la tienda | Completar el pedido |
+| Settled (marked) | El estado se cambió manualmente a liquidado desde un estado de procesamiento o inválido | El administrador de la tienda ha marcado el pago como settled |
+| Invalid* | Pagada, pero no se recibieron suficientes confirmaciones en el tiempo especificado por la tienda | Verifique la transacción en un explorador de bloques; si tiene suficientes confirmaciones, márquela como settled |
+| Invalid (marked) | El estado se cambió manualmente a inválido desde un estado liquidado o expirado | El administrador de la tienda ha marcado el pago como invalid |
+| Invalid (paidOver) | Pagado más del importe, pero no se recibieron suficientes confirmaciones en el tiempo especificado | Verifique la transacción en un explorador de bloques; si tiene suficientes confirmaciones, márquela como settled |
 
 #### Invoice detalles
 

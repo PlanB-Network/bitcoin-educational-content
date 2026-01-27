@@ -1781,21 +1781,22 @@ Isipokuwa utumie [Wallet] iliyojengewa ndani (https://docs.btcpayserver.org/Wall
 
 Jedwali lililo hapa chini linaorodhesha na kufafanua hali za kawaida za Address za ununuzi katika BTCPay na kupendekeza vitendo vya kawaida. Vitendo ni mapendekezo tu. Ni juu ya watumiaji kufafanua njia bora zaidi ya matumizi ya kesi na biashara zao.
 
-| Hali ya invoice             | Maelezo                                                                                                                                | Hatua                                                                                                                      |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Mpya                       | Haijalipwa, kipima muda cha invoice bado halijamalizika                                                                                 | Hakuna                                                                                                                     |
-| Mpya (lilipiwaKiasi)       | Imelipwa, sio kwa kamili, kipima muda cha invoice bado halijamalizika                                                                   | Hakuna                                                                                                                     |
-| Imeisha muda               | Haijalipwa, kipima muda cha invoice kimemalizika                                                                                        | Hakuna                                                                                                                     |
-| Imeisha muda (lilipiwaKiasi) \*\* | Imelipwa, sio kwa kiasi kamili, na imeisha muda                                                                                   | Wasiliana na mnunuzi ili kupanga marejesho au umuombe alipe deni lake. Kwa hiari, weka invoice kama imesuluhishwa au batili |
-| Imeisha muda (lilipiwaKuchelewa) | Imelipwa, kwa kiasi kamili, baada ya kipima muda cha invoice kumalizika                                                              | Wasiliana na mnunuzi ili kupanga marejesho au shughulikia agizo ikiwa uthibitisho wa kuchelewa unakubalika                 |
-| Imesuluhishwa (lilipiwaZaidi) | Imelipwa zaidi ya kiasi cha invoice, imesuluhishwa, imepokea idadi ya kutosha ya uthibitisho                                          | Wasiliana na mnunuzi ili kupanga marejesho kwa kiasi cha ziada, au kwa hiari subiri mnunuzi awasiliane nawe                |
-| Inachakatwa                | Imelipwa kikamilifu, lakini haijapokea idadi ya kutosha ya uthibitisho iliyoainishwa katika mipangilio ya duka                         | Wasiliana na mnunuzi ili kupanga marejesho kwa kiasi cha ziada, au kwa hiari subiri mnunuzi awasiliane nawe                |
-| Inachakatwa (lilipiwaZaidi) | Imelipwa zaidi ya kiasi cha invoice, haijapokea idadi ya kutosha ya uthibitisho                                                         | Subiri isuluhishwe kisha wasiliana na mnunuzi ili kupanga marejesho kwa kiasi cha ziada, au kwa hiari subiri mnunuzi awasiliane nawe |
-| Imesuluhishwa              | Imelipwa, kikamilifu, imepokea idadi ya kutosha ya uthibitisho katika duka                                                             | Timiza agizo                                                                                                               |
-| Imesuluhishwa (imewekwa)   | Hali ilibadilishwa kimwili kuwa imesuluhishwa kutoka hali ya kuchakatwa au batili                                                      | Msimamizi wa duka ameweka malipo kama yamewekwa                                                                            |
-| Batili                   | Imelipwa, lakini imeshindwa kupokea idadi ya kutosha ya uthibitisho katika muda uliowekwa katika mipangilio ya duka                    | Angalia muamala kwenye kichunguzi cha blockchain, ikiwa imepokea uthibitisho wa kutosha, weka kama imesuluhishwa          |
-| Batili (imewekwa)          | Hali ilibadilishwa kimwili kuwa batili kutoka hali ya kusuluhishwa au kuisha muda                                                      | Msimamizi wa duka ameweka malipo kama batili                                                                               |
-| Batili (lilipiwaZaidi)     | Imelipwa zaidi ya kiasi cha invoice, lakini imeshindwa kupokea idadi ya kutosha ya uthibitisho katika muda uliowekwa katika mipangilio ya duka | Angalia muamala kwenye kichunguzi cha blockchain, ikiwa imepokea uthibitisho wa kutosha, weka kama imesuluhishwa          |
+
+| Hali ya Ankara | Maelezo | Hatua |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| New | Haijalipwa, kipima muda cha ankara bado hakijaisha | Hakuna |
+| New (paidPartial) | Imelipwa sehemu, kipima muda cha ankara bado hakijaisha | Hakuna |
+| Expired | Haijalipwa, kipima muda cha ankara kimeisha | Hakuna |
+| Expired (paidPartial) ** | Imelipwa sehemu, na muda umeisha | Wasiliana na mnunuzi kupanga urejesho au waombe walipe deni. Hiari: weka ankara kama settled au invalid |
+| Expired (paidLate) | Imelipwa kiasi chote, baada ya kipima muda cha ankara kuisha | Wasiliana na mnunuzi kupanga urejesho au shughulikia oda ikiwa uthibitisho wa kuchelewa unakubalika. |
+| Settled (paidOver) | Imelipwa zaidi ya kiasi cha ankara, imekamilika, imepata uthibitisho wa kutosha | Wasiliana na mnunuzi kupanga urejesho wa kiasi cha ziada, au hiari subiri mnunuzi awasiliane nawe |
+| Processing | Imelipwa yote, lakini haijapata uthibitisho wa kutosha kulingana na mipangilio | Wasiliana na mnunuzi kupanga urejesho wa kiasi cha ziada, au hiari subiri mnunuzi awasiliane nawe |
+| Processing (paidOver) | Imelipwa zaidi ya kiasi cha ankara, haijapata uthibitisho wa kutosha | Subiri iwe settled, kisha wasiliana na mnunuzi kurejesha ziada, au subiri mnunuzi awasiliane nawe |
+| Settled | Imelipwa yote, imepata uthibitisho wa kutosha dukani | Tekeleza oda |
+| Settled (marked) | Hali ilibadilishwa kwa mikono kuwa settled kutoka processing au invalid | Admin wa duka ameweka alama ya malipo kama settled |
+| Invalid* | Imelipwa, lakini imeshindwa kupata uthibitisho wa kutosha kwa muda uliopangwa | Angalia muamala kwenye blockchain explorer; ikipata uthibitisho wa kutosha, weka kama settled |
+| Invalid (marked) | Hali ilibadilishwa kwa mikono kuwa invalid kutoka settled au expired | Admin wa duka ameweka alama ya malipo kama invalid |
+| Invalid (paidOver) | Imelipwa zaidi ya ankara, lakini haijapata uthibitisho wa kutosha kwa muda uliowekwa | Angalia muamala kwenye blockchain explorer; ikipata uthibitisho wa kutosha, weka kama settled |
 
 #### Maelezo ya Address ya ununuzi
 

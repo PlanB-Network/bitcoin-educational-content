@@ -2471,21 +2471,22 @@ Kui te ei kasuta maksete käsitsi vastuvõtmiseks sisseehitatud [Wallet](https:/
 Alljärgnevas tabelis on loetletud ja kirjeldatud Invoice standardseisundid BTCPays koos soovitatud üldiste tegevustega. Tegevused on vaid soovitused. Kasutajad peavad ise määrama oma kasutusjuhtumi ja ettevõtte jaoks parima tegutsemisviisi.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Arve olek | Kirjeldus | Tegevus |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Tasumata, arve taimer pole veel aegunud | Puudub |
+| New (paidPartial) | Tasutud osaliselt, arve taimer pole veel aegunud | Puudub |
+| Expired | Tasumata, arve taimer on aegunud | Puudub |
+| Expired (paidPartial) ** | Tasutud osaliselt ja aegunud | Võtke ostjaga ühendust tagasimakseks või paluge tasuda võlgnevus. Valikuliselt märkige arve settled või invalid |
+| Expired (paidLate) | Tasutud täies mahus pärast arve taimeri aegumist | Võtke ostjaga ühendust tagasimakseks või töötlege tellimus, kui hilised kinnitused on aktsepteeritavad. |
+| Settled (paidOver) | Tasutud arvel olevast summast rohkem, laekunud piisav arv kinnitusi | Võtke ostjaga ühendust enamtasutud summa tagastamiseks või oodake, kuni ostja teiega ühendust võtab |
+| Processing | Tasutud täies mahus, kuid pole laekunud piisavalt kinnitusi (vastavalt poe seadetele) | Võtke ostjaga ühendust enamtasutud summa tagastamiseks või oodake, kuni ostja teiega ühendust võtab |
+| Processing (paidOver) | Tasutud arvel olevast summast rohkem, pole laekunud piisavalt kinnitusi | Oodake olekut settled, seejärel võtke ostjaga ühendust tagasimakseks või oodake ostja kontakti |
+| Settled | Tasutud täies mahus, poes on laekunud piisav arv kinnitusi | Täitke tellimus |
+| Settled (marked) | Olek muudeti käsitsi processing või invalid olekust settled olekusse | Poe administraator märkis makse olekuks settled |
+| Invalid* | Tasutud, kuid määratud aja jooksul ei laekunud piisavalt kinnitusi | Kontrollige tehingut plokiahela sirvijas; kui kinnitusi on piisavalt, märkige settled |
+| Invalid (marked) | Olek muudeti käsitsi settled või expired olekust invalid olekusse | Poe administraator märkis makse olekuks invalid |
+| Invalid (paidOver) | Tasutud arvest rohkem, kuid määratud aja jooksul ei laekunud piisavalt kinnitusi | Kontrollige tehingut plokiahela sirvijas; kui kinnitusi on piisavalt, märkige settled |
 
 #### Invoice üksikasjad
 

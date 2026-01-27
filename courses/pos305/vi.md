@@ -2469,21 +2469,22 @@ Trừ khi bạn sử dụng [Wallet](https://docs.btcpayserver.org/Wallet/) tíc
 Bảng dưới đây liệt kê và mô tả các trạng thái Invoice tiêu chuẩn trong BTCPay, cùng với các hành động phổ biến được đề xuất. Các hành động chỉ mang tính chất khuyến nghị. Người dùng tự xác định phương án hành động phù hợp nhất với trường hợp sử dụng và doanh nghiệp của mình.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Trạng thái hóa đơn | Mô tả | Hành động |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Chưa thanh toán, bộ đếm thời gian hóa đơn chưa hết hạn | Không |
+| New (paidPartial) | Đã thanh toán một phần, bộ đếm thời gian hóa đơn chưa hết hạn | Không |
+| Expired | Chưa thanh toán, bộ đếm thời gian hóa đơn đã hết hạn | Không |
+| Expired (paidPartial) ** | Đã thanh toán một phần và đã hết hạn | Liên hệ người mua để hoàn tiền hoặc yêu cầu trả nốt. Có thể đánh dấu hóa đơn là settled hoặc invalid |
+| Expired (paidLate) | Đã thanh toán đủ sau khi bộ đếm thời gian hóa đơn đã hết hạn | Liên hệ người mua để hoàn tiền hoặc xử lý đơn hàng nếu chấp nhận xác nhận muộn. |
+| Settled (paidOver) | Thanh toán nhiều hơn số tiền hóa đơn, đã tất toán, nhận đủ xác nhận | Liên hệ người mua để hoàn lại số tiền thừa, hoặc tùy chọn đợi người mua liên hệ |
+| Processing | Đã thanh toán đủ, nhưng chưa nhận đủ số lượng xác nhận trong cài đặt cửa hàng | Liên hệ người mua để hoàn lại số tiền thừa, hoặc tùy chọn đợi người mua liên hệ |
+| Processing (paidOver) | Thanh toán nhiều hơn số tiền hóa đơn, chưa nhận đủ số lượng xác nhận | Đợi đến khi tất toán, sau đó liên hệ người mua để hoàn tiền thừa, hoặc đợi người mua liên hệ |
+| Settled | Đã thanh toán đủ, đã nhận đủ số lượng xác nhận trong cửa hàng | Hoàn tất đơn hàng |
+| Settled (marked) | Trạng thái được thay đổi thủ công thành settled từ trạng thái processing hoặc invalid | Quản trị viên cửa hàng đã đánh dấu thanh toán là settled |
+| Invalid* | Đã thanh toán, nhưng không nhận đủ xác nhận trong thời gian quy định | Kiểm tra giao dịch trên blockchain explorer; nếu đủ xác nhận, đánh dấu là settled |
+| Invalid (marked) | Trạng thái được thay đổi thủ công thành invalid từ trạng thái settled hoặc expired | Quản trị viên cửa hàng đã đánh dấu thanh toán là invalid |
+| Invalid (paidOver) | Thanh toán nhiều hơn hóa đơn, nhưng không nhận đủ xác nhận trong thời gian quy định | Kiểm tra giao dịch trên blockchain explorer; nếu đủ xác nhận, đánh dấu là settled |
 
 #### Chi tiết Invoice
 

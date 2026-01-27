@@ -2471,21 +2471,22 @@ Ellet käytä sisäänrakennettua [Wallet](https://docs.btcpayserver.org/Wallet/
 Alla olevassa taulukossa luetellaan ja kuvataan BTCPayn Invoice-standarditilat sekä ehdotetut yleiset toimenpiteet. Toimenpiteet ovat vain suosituksia. Käyttäjien on itse määriteltävä omaan käyttötilanteeseensa ja liiketoimintaansa parhaiten sopiva toimintatapa.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Laskun tila | Kuvaus | Toimenpide |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Ei maksettu, laskun ajastin ei ole vielä umpeutunut | Ei mitään |
+| New (paidPartial) | Maksettu osittain, laskun ajastin ei ole vielä umpeutunut | Ei mitään |
+| Expired | Ei maksettu, laskun ajastin on umpeutunut | Ei mitään |
+| Expired (paidPartial) ** | Maksettu osittain ja umpeutunut | Ota yhteyttä ostajaan palautuksen järjestämiseksi tai pyydä maksua. Merkitse lasku valinnaisesti tilaan settled tai invalid |
+| Expired (paidLate) | Maksettu kokonaisuudessaan laskun ajastimen umpeutumisen jälkeen | Ota yhteyttä ostajaan palautuksen järjestämiseksi tai käsittele tilaus, jos myöhäiset vahvistukset hyväksytään. |
+| Settled (paidOver) | Maksettu yli laskun summan, tilitys valmis, riittävä määrä vahvistuksia saatu | Ota yhteyttä ostajaan liian suuren summan palauttamiseksi tai odota valinnaisesti ostajan yhteydenottoa |
+| Processing | Maksettu kokonaan, mutta kaupan asetuksissa määritettyä riittävää vahvistusmäärää ei ole saatu | Ota yhteyttä ostajaan liian suuren summan palauttamiseksi tai odota valinnaisesti ostajan yhteydenottoa |
+| Processing (paidOver) | Maksettu yli laskun summan, riittävää määrää vahvistuksia ei ole saatu | Odota tilitystä, ota sitten yhteyttä ostajaan palautuksen järjestämiseksi tai odota ostajan yhteydenottoa |
+| Settled | Maksettu kokonaan, riittävä määrä vahvistuksia saatu kaupassa | Toimita tilaus |
+| Settled (marked) | Tila muutettiin manuaalisesti tilasta processing tai invalid tilaan settled | Kaupan ylläpitäjä on merkinnyt maksun tilaksi settled |
+| Invalid* | Maksettu, mutta riittävää määrää vahvistuksia ei saatu kaupan asetuksissa määritetyssä ajassa | Tarkista tapahtuma lohkoketjun selaimesta; jos vahvistuksia on riittävästi, merkitse tilaksi settled |
+| Invalid (marked) | Tila muutettiin manuaalisesti tilasta settled tai expired tilaan invalid | Kaupan ylläpitäjä on merkinnyt maksun tilaksi invalid |
+| Invalid (paidOver) | Maksettu yli laskun summan, mutta riittävää määrää vahvistuksia ei saatu kaupan asetusten puitteissa | Tarkista tapahtuma lohkoketjun selaimesta; jos vahvistuksia on riittävästi, merkitse tilaksi settled |
 
 #### Invoice tiedot
 

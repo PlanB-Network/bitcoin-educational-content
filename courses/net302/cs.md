@@ -626,7 +626,9 @@ Blok /17 obsahuje 2^(32-17) adres, takže 2^15 = 32 768 celkových adres. Po ode
 Pro snazší pochopení velikosti CIDR uvádíme tabulku běžných prefixů a jejich ekvivalentních masek podsítí a použitelných adres:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Prefix CIDR | Dostupné bity hosta | Maska podsítě | Použitelné adresy hostů |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ Pro snazší pochopení velikosti CIDR uvádíme tabulku běžných prefixů a j
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (pouze point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (pouze adresa hosta)        |
 
 **POZNÁMKA**: Historicky se v RFC 950 nedoporučovalo používat podsíťovou nulu, hlavně proto, aby se předešlo zmatkům při směrování.  Toto omezení se stalo zastaralým s RFC 1878, které jeho použití plně povoluje. Staré omezení bylo způsobeno především nekompatibilitou se starším hardwarem, který neuměl správně zpracovávat CIDR. Moderní zařízení takový problém nemají.
 

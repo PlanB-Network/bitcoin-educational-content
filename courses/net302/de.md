@@ -626,7 +626,9 @@ Ein /17-Block enthält 2^(32-17) Adressen, also 2^15 = 32.768 Adressen insgesamt
 Zum besseren Verständnis der CIDR-Größenordnung finden Sie hier eine Tabelle mit gängigen Präfixen und den entsprechenden Subnetzmasken und nutzbaren Adressen:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| CIDR-Präfix | Verfügbare Host-Bits | Subnetzmaske | Nutzbare Host-Adressen |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ Zum besseren Verständnis der CIDR-Größenordnung finden Sie hier eine Tabelle 
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (nur Punkt-zu-Punkt) |
+| /32         | 0                   | 255.255.255.255 | 1 (nur Host-Adresse)          |
 
 **HINWEIS**: In der Vergangenheit wurde in RFC 950 von der Verwendung von Subnetz-Null abgeraten, hauptsächlich um Verwirrung beim Routing zu vermeiden.  Diese Einschränkung wurde mit RFC 1878 obsolet, das die Verwendung von Subnetz-Nullen vollständig erlaubt. Die alte Einschränkung war hauptsächlich auf die Unverträglichkeit mit älterer Hardware zurückzuführen, die CIDR nicht korrekt verarbeiten konnte. Moderne Geräte haben dieses Problem nicht.
 

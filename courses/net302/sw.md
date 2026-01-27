@@ -626,7 +626,9 @@ Block ya /17 ina address 2^(32-17) kwa hivyo 2^15 = jumla ya address 32,768. Kut
 Ili kurahisisha ukubwa wa CIDR kueleweka, hapa kuna jedwali la viambishi awali vya kawaida na vinyago sawa vya subnet na address zinazoweza kutumika:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Kiambishi CIDR | Biti za host zinazopatikana | Maski ya subnet | Anwani za host zinazotumika |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ Ili kurahisisha ukubwa wa CIDR kueleweka, hapa kuna jedwali la viambishi awali v
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point pekee) |
+| /32         | 0                   | 255.255.255.255 | 1 (anwani ya host pekee)     |
 
 **KUMBUKA**: Kihistoria, RFC 950 ilikataza matumizi ya subnet sufuri, hasa ili kuzuia mkanganyiko katika uelekezaji. Block hii iliondolewa na RFC 1878, ambayo inaruhusu matumizi yake kikamilifu. Block ya zamani ilitokana zaidi na kutopatana na maunzi ya zamani ambayo hayakuweza kushughulikia CIDR ipasavyo. Vifaa vya kisasa havina tatizo kama hilo.
 

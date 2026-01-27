@@ -626,7 +626,9 @@ Ett /17-block innehåller 2^(32-17) adresser, så 2^15 = 32 768 adresser totalt.
 För att göra CIDR-storleken lättare att förstå finns här en tabell över vanliga prefix och deras motsvarande subnätmasker och användbara adresser:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| CIDR-prefix | Tillgängliga värdbitar | Subnätsmask | Användbara värdadresser |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ För att göra CIDR-storleken lättare att förstå finns här en tabell över v
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (endast point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (endast värdadress)        |
 
 **ANMÄRKNING**: Historiskt sett har RFC 950 avrått från användning av subnät noll, främst för att undvika förvirring vid routning.  Denna begränsning blev föråldrad med RFC 1878, som tillåter användning fullt ut. Den gamla begränsningen berodde mest på att den inte var kompatibel med äldre maskinvara som inte kunde hantera CIDR korrekt. Modern utrustning har inga sådana problem.
 

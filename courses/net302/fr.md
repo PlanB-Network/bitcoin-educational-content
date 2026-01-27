@@ -371,21 +371,22 @@ Prenons un exemple concret : un bloc **/17** permet de disposer de 2^(32-17) a
 
 Pour faciliter la conversion et la compréhension, on utilise des tableaux de correspondance, tel que celui ci-dessous, qui présente les préfixes CIDR courants et leur équivalence en nombre d’adresses :
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Préfixe CIDR | Bits d’hôte disponibles | Masque de sous-réseau | Adresses d’hôte utilisables |
 | ----------- | ------------------- | --------------- | ----------------------------- |
-| /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
-| /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
-| /16         | 16                  | 255.255.0.0     | 2^16 - 2 = 65,534             |
-| /20         | 12                  | 255.255.240.0   | 2^12 - 2 = 4,094              |
+| /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16 777 214         |
+| /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1 048 574          |
+| /16         | 16                  | 255.255.0.0     | 2^16 - 2 = 65 534             |
+| /20         | 12                  | 255.255.240.0   | 2^12 - 2 = 4 094              |
 | /24         | 8                   | 255.255.255.0   | 2^8 - 2 = 254                 |
 | /26         | 6                   | 255.255.255.192 | 2^6 - 2 = 62                  |
 | /27         | 5                   | 255.255.255.224 | 2^5 - 2 = 30                  |
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-à-point uniquement) |
+| /32         | 0                   | 255.255.255.255 | 1 (adresse d’hôte uniquement) |
 
 **NOTE** : Historiquement, le RFC 950 considérait le sous-réseau zéro comme non standard et déconseillait son usage, principalement pour éviter des confusions lors du routage. Toutefois, cette restriction est devenue obsolète avec le RFC 1878, qui autorise pleinement son exploitation. Les anciennes réserves concernaient avant tout la compatibilité avec du matériel ancien, incapable de gérer correctement les notations CIDR. Aujourd’hui, grâce aux équipements modernes, cette limitation a disparu.
 

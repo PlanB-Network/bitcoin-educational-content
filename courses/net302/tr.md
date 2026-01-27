@@ -626,7 +626,9 @@ Bir CIDR bloğu "Address/prefix" biçiminde yazılır; burada eğik çizgiden so
 CIDR boyutlandırmasını anlamayı kolaylaştırmak için, burada yaygın öneklerin ve eşdeğer alt ağ maskelerinin ve kullanılabilir adreslerin bir tablosu bulunmaktadır:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| CIDR Öneki | Kullanılabilir ana bilgisayar bitleri | Alt ağ maskesi | Kullanılabilir ana bilgisayar adresleri |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ CIDR boyutlandırmasını anlamayı kolaylaştırmak için, burada yaygın önek
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (yalnızca point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (yalnızca ana bilgisayar adresi) |
 
 **NOT**: Tarihsel olarak, RFC 950, esas olarak yönlendirmede karışıklığı önlemek için sıfır alt ağ kullanımını önermemiştir.  Bu kısıtlama, kullanımına tamamen izin veren RFC 1878 ile geçerliliğini yitirmiştir. Eski sınırlama çoğunlukla CIDR'yi doğru şekilde işleyemeyen eski donanımlarla uyumsuzluktan kaynaklanıyordu. Modern donanımlarda böyle bir sorun yoktur.
 

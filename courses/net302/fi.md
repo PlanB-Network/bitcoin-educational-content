@@ -626,7 +626,9 @@ Esimerkki:
 Jotta CIDR:n mitoituksen ymmärtäminen olisi helpompaa, tässä on taulukko yleisimmistä etuliitteistä ja niitä vastaavista aliverkkomaskista ja käyttökelpoisista osoitteista:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| CIDR-etuliite | Käytettävissä olevat host-bitit | Aliverkon peite | Käytettävät host-osoitteet |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ Jotta CIDR:n mitoituksen ymmärtäminen olisi helpompaa, tässä on taulukko yle
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (vain point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (vain host-osoite)          |
 
 **HUOMAUTUS**: RFC 950:ssä on aiemmin kehotettu käyttämään aliverkon nollaa, lähinnä reitityksen sekaannusten välttämiseksi.  Tämä rajoitus poistui käytöstä RFC 1878:n myötä, joka sallii sen käytön täysin. Vanha rajoitus johtui lähinnä yhteensopimattomuudesta vanhempien laitteistojen kanssa, jotka eivät pystyneet käsittelemään CIDR:ää oikein. Nykyaikaisilla laitteilla ei ole tällaista ongelmaa.
 

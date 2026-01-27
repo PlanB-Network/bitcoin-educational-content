@@ -626,7 +626,9 @@ Blok /17 berisi 2^(32-17) alamat sehingga 2^15 = 32.768 alamat total. Dengan men
 Agar ukuran CIDR lebih mudah dipahami, berikut ini adalah tabel awalan umum dan subnet mask yang setara serta alamat yang dapat digunakan:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Prefiks CIDR | Bit host yang tersedia | Mask subnet | Alamat host yang dapat digunakan |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ Agar ukuran CIDR lebih mudah dipahami, berikut ini adalah tabel awalan umum dan 
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (khusus point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (hanya alamat host)         |
 
 **CATATAN**: Secara historis, RFC 950 tidak menganjurkan penggunaan subnet nol, terutama untuk menghindari kebingungan dalam perutean.  Pembatasan ini menjadi usang dengan RFC 1878, yang sepenuhnya mengizinkan penggunaannya. Batasan yang lama sebagian besar disebabkan oleh ketidakcocokan dengan perangkat keras yang lebih tua yang tidak dapat menangani CIDR dengan benar. Peralatan modern tidak memiliki masalah seperti itu.
 

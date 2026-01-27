@@ -626,7 +626,9 @@ Een /17 blok bevat 2^(32-17) adressen dus 2^15 = 32.768 adressen in totaal. Als 
 Om de grootte van CIDR begrijpelijker te maken, is hier een tabel met veelvoorkomende prefixen en hun equivalente subnetmaskers en bruikbare adressen:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| CIDR-prefix | Beschikbare hostbits | Subnetmasker | Bruikbare hostadressen |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ Om de grootte van CIDR begrijpelijker te maken, is hier een tabel met veelvoorko
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (alleen point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (alleen hostadres)          |
 
 **OPMERKING**: Historisch gezien ontmoedigde RFC 950 het gebruik van subnet nul, voornamelijk om verwarring bij het routeren te voorkomen.  Deze beperking werd verouderd met RFC 1878, die het gebruik ervan volledig toestaat. De oude beperking was vooral te wijten aan de incompatibiliteit met oudere hardware die CIDR niet correct kon verwerken. Moderne apparatuur heeft dit probleem niet.
 

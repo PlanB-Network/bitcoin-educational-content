@@ -525,7 +525,8 @@ Un bloque /17 contiene 2^(32-17) direcciones, por lo que 2^15 = 32.768 direccion
 
 Para que el dimensionamiento CIDR sea más fácil de entender, aquí tienes una tabla de prefijos comunes y sus equivalentes máscaras de subred y direcciones utilizables:
 
-| Prefijo CIDR | Bits de host disponibles | Máscara de subred    | Direcciones de host utilizables      |
+
+| Prefijo CIDR | Bits de host disponibles | Máscara de subred | Direcciones de host utilizables |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -537,8 +538,8 @@ Para que el dimensionamiento CIDR sea más fácil de entender, aquí tienes una 
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (solamente punto-a-punto) |
-| /32         | 0                   | 255.255.255.255 | 1 (solo dirección de host)         |
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (solo punto a punto) |
+| /32         | 0                   | 255.255.255.255 | 1 (solo dirección de host)   |
 
 **NOTA**: Históricamente, el RFC 950 desaconsejaba el uso de la subred cero, principalmente para evitar confusiones en el encaminamiento.  Esta restricción quedó obsoleta con el RFC 1878, que permite plenamente su uso. La antigua limitación se debía principalmente a la incompatibilidad con hardware antiguo que no podía manejar CIDR correctamente. Los equipos modernos no tienen ese problema.
 

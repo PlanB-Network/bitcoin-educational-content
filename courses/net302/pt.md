@@ -626,7 +626,9 @@ Um bloco /17 contém 2^(32-17) endereços, portanto 2^15 = 32.768 endereços tot
 Para facilitar a compreensão do dimensionamento do CIDR, aqui está uma tabela de prefixos comuns e suas máscaras de sub-rede equivalentes e endereços utilizáveis:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Prefixo CIDR | Bits de host disponíveis | Máscara de sub-rede | Endereços de host utilizáveis |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ Para facilitar a compreensão do dimensionamento do CIDR, aqui está uma tabela 
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (apenas ponto-a-ponto) |
+| /32         | 0                   | 255.255.255.255 | 1 (apenas endereço de host)  |
 
 **NOTA**: Historicamente, o RFC 950 desencorajava o uso do zero de sub-rede, principalmente para evitar confusão no roteamento.  Esta restrição tornou-se obsoleta com o RFC 1878, que permite totalmente a sua utilização. A antiga limitação devia-se sobretudo à incompatibilidade com hardware mais antigo, que não conseguia lidar corretamente com o CIDR. Os equipamentos modernos não têm esse problema.
 

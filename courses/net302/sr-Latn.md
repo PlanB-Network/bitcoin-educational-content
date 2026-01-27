@@ -624,7 +624,9 @@ Blok A /17 sadrži 2^(32-17) adresa, tako da 2^15 = 32,768 ukupnih adresa. Oduzi
 Da bi CIDR veličine bile lakše za razumevanje, evo tabele uobičajenih prefiksa i njihovih ekvivalentnih maski podmreže i upotrebljivih adresa:
 
 
-| CIDR prefiks | Raspoloživi bitovi za hostove | Subnet maska     | Broj upotrebljivih adresa za hostove         |
+
+
+| CIDR prefiks | Dostupni host bitovi | Maska podmreže | Upotrebljive host adrese |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -636,9 +638,8 @@ Da bi CIDR veličine bile lakše za razumevanje, evo tabele uobičajenih prefiks
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (samo point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (samo host adresa)         |
 
 **NAPOMENA**: Istorijski gledano, RFC 950 je obeshrabrivao korišćenje subnet nule, uglavnom da bi se izbegla konfuzija u rutiranju. Ovo ograničenje je postalo zastarelo sa RFC 1878, koji u potpunosti dozvoljava njegovo korišćenje. Staro ograničenje je uglavnom bilo zbog nekompatibilnosti sa starijim hardverom koji nije mogao pravilno da rukuje sa CIDR. Moderna oprema nema takav problem.
 

@@ -626,7 +626,9 @@ En /17-blokk inneholder 2^(32-17) adresser, så 2^15 = 32 768 adresser totalt. H
 For å gjøre CIDR-dimensjonering enklere å forstå, følger her en tabell over vanlige prefikser og deres tilsvarende nettverksmasker og brukbare adresser:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| CIDR-prefiks | Tilgjengelige vertsbiter | Subnettmaske | Brukbare vertsadresser |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ For å gjøre CIDR-dimensjonering enklere å forstå, følger her en tabell over
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (kun punkt-til-punkt) |
+| /32         | 0                   | 255.255.255.255 | 1 (kun vertsadresse)          |
 
 **MERKNAD**: Tidligere frarådet RFC 950 bruk av subnett null, hovedsakelig for å unngå forvirring i ruting.  Denne begrensningen ble foreldet med RFC 1878, som tillater bruk av subnett null fullt ut. Den gamle begrensningen skyldtes hovedsakelig manglende kompatibilitet med eldre maskinvare som ikke kunne håndtere CIDR på riktig måte. Moderne utstyr har ikke slike problemer.
 

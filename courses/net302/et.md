@@ -626,7 +626,9 @@ Näide:
 Et CIDRi suuruse määramine oleks lihtsamini arusaadav, on siin tabel tavalistest prefiksitest ja nende vastavatest alamvõrgumaskidest ja kasutatavatest aadressidest:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| CIDR-prefiks | Saadaval hosti bitid | Alamvõrgu mask | Kasutatavad hostiaadressid |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ Et CIDRi suuruse määramine oleks lihtsamini arusaadav, on siin tabel tavaliste
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (ainult point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (ainult hostiaadress)      |
 
 **MÄRKUS**: Ajalooliselt on RFC 950 takistanud alamvõrgu nullmäära kasutamist, peamiselt selleks, et vältida segadust marsruutimisel.  See piirang muutus vananenuks RFC 1878-ga, mis lubab selle kasutamist täielikult. Vana piirang oli peamiselt tingitud vanema riistvara kokkusobimatusest, mis ei suutnud CIDRi korrektselt käsitleda. Kaasaegsetel seadmetel sellist probleemi ei ole.
 

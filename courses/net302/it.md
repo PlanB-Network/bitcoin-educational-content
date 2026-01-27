@@ -626,7 +626,9 @@ Un blocco /17 contiene 2^(32-17) indirizzi, quindi 2^15 = 32.768 indirizzi total
 Per facilitare la comprensione del dimensionamento CIDR, ecco una tabella dei prefissi più comuni e delle relative maschere di sottorete e indirizzi utilizzabili equivalenti:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Prefisso CIDR | Bit host disponibili | Maschera di sottorete | Indirizzi host utilizzabili |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ Per facilitare la comprensione del dimensionamento CIDR, ecco una tabella dei pr
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (solo punto-punto)   |
+| /32         | 0                   | 255.255.255.255 | 1 (solo indirizzo host)      |
 
 **NOTA**: Storicamente, l'RFC 950 scoraggiava l'uso della subnet zero, principalmente per evitare confusione nell'instradamento.  Questa restrizione è diventata obsoleta con la RFC 1878, che ne consente pienamente l'uso. La vecchia limitazione era dovuta principalmente all'incompatibilità con l'hardware più vecchio che non poteva gestire correttamente il CIDR. Le apparecchiature moderne non hanno questo problema.
 

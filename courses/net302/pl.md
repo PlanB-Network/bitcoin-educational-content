@@ -626,7 +626,9 @@ Blok /17 zawiera 2^(32-17) adresów, więc 2^15 = 32 768 adresów ogółem. Po o
 Aby ułatwić zrozumienie rozmiaru CIDR, poniżej znajduje się tabela typowych prefiksów i odpowiadających im masek podsieci oraz adresów użytkowych:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Prefiks CIDR | Dostępne bity hosta | Maska podsieci | Użyteczne adresy hostów |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ Aby ułatwić zrozumienie rozmiaru CIDR, poniżej znajduje się tabela typowych 
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (tylko point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (tylko adres hosta)         |
 
 **UWAGA**: Historycznie, RFC 950 zniechęcał do używania podsieci zero, głównie w celu uniknięcia pomyłek w routingu.  Ograniczenie to stało się nieaktualne wraz z RFC 1878, który w pełni zezwala na jego użycie. Stare ograniczenie wynikało głównie z niekompatybilności ze starszym sprzętem, który nie mógł poprawnie obsługiwać CIDR. Nowoczesny sprzęt nie ma takich problemów.
 

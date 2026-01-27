@@ -626,7 +626,9 @@ Khối /17 chứa 2^(32-17) địa chỉ, do đó tổng cộng 2^15 = 32.768 đ
 Để giúp bạn hiểu rõ hơn về kích thước CIDR, dưới đây là bảng các tiền tố phổ biến cùng mặt nạ mạng con tương đương và địa chỉ có thể sử dụng:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Tiền tố CIDR | Số bit host khả dụng | Mặt nạ mạng con | Địa chỉ host có thể sử dụng |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -638,9 +640,8 @@ Khối /17 chứa 2^(32-17) địa chỉ, do đó tổng cộng 2^15 = 32.768 đ
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (chỉ point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (chỉ địa chỉ host)         |
 
 **LƯU Ý**: Trước đây, RFC 950 không khuyến khích sử dụng subnet zero, chủ yếu để tránh nhầm lẫn trong định tuyến. Hạn chế này đã trở nên lỗi thời với RFC 1878, phiên bản cho phép sử dụng hoàn toàn. Hạn chế cũ chủ yếu là do không tương thích với phần cứng cũ không thể xử lý CIDR chính xác. Thiết bị hiện đại không gặp vấn đề tương tự.
 

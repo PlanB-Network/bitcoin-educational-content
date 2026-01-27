@@ -896,14 +896,15 @@ Antes de la prueba final, compruebe :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Problema**                        | **Causa probable**              | **Solución**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 no se conecta            | Falta de controlador USB             | Instalar [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| El relé no hace clic                | Cableado GPIO incorrecto            | Verificar GPIO 21 → IN                                                                        |
+| La máquina de humo no responde         | Control remoto incorrectamente cableado         | Verificar NO/NC/COM                                                                           |
+| Tiempo de espera de WebSocket                   | URL incorrecta                  | Verificar wss:// y /bitcoinswitch                                                            |
+| WiFi no se conecta             | SSID/Contraseña incorrecto            | Re-grabar la configuración de WiFi                                                                    |
+| Pago recibido pero nada sucede | ESP32 no conectado a WebSocket | Verificar registros de RESET                                                                      |
 
 ## Recursos
 

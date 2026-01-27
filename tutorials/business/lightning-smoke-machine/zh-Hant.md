@@ -896,14 +896,15 @@ WiFi connection established!
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **問題**                        | **可能的原因**              | **解決方案**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32無法連接            | USB驅動程序缺失             | 安裝[CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| 繼電器無法點擊                | GPIO接線錯誤            | 檢查GPIO 21 → IN                                                                        |
+| 煙霧機無法響應         | 遙控器接線錯誤         | 檢查NO/NC/COM                                                                           |
+| WebSocket超時                   | URL不正確                  | 檢查wss://和/bitcoinswitch                                                            |
+| WiFi無法連接             | SSID/密碼錯誤            | 重新刷寫WiFi配置                                                                    |
+| 已收到付款但沒有任何反應 | ESP32未連接到WebSocket | 檢查RESET日誌                                                                      |
 
 ## 資源
 

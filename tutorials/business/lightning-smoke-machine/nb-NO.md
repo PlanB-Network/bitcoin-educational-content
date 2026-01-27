@@ -896,14 +896,15 @@ Før den endelige testen, sjekk :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Problem**                        | **Sannsynlig årsak**              | **Løsning**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 kobler ikke til            | USB-driver mangler             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Releet klikker ikke                | Feil GPIO-ledning            | Sjekk GPIO 21 → IN                                                                        |
+| Røykmaskinen reagerer ikke         | Fjernkontroll feil tilkoblet         | Sjekk NO/NC/COM                                                                           |
+| WebSocket-tidsavbrudd                   | Feil URL                  | Sjekk wss:// og /bitcoinswitch                                                            |
+| WiFi kobler ikke til             | SSID/Passord feil            | Flash WiFi-konfigurasjonen på nytt                                                                    |
+| Betaling mottatt men ingenting skjer | ESP32 ikke tilkoblet WebSocket | Sjekk RESET-logger                                                                      |
 
 ## Ressurser
 

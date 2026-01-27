@@ -896,14 +896,15 @@ Sebelum tes akhir, periksa :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Masalah**                        | **Penyebab Kemungkinan**              | **Solusi**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 tidak terhubung            | Driver USB hilang             | Pasang [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Relay tidak mengklik                | Kabel GPIO salah            | Periksa GPIO 21 → IN                                                                        |
+| Mesin asap tidak merespons         | Kontrol jarak jauh terkabel dengan salah         | Periksa NO/NC/COM                                                                           |
+| Waktu tunggu WebSocket                   | URL tidak benar                  | Periksa wss:// dan /bitcoinswitch                                                            |
+| WiFi tidak terhubung             | SSID/Password salah            | Flash ulang config WiFi                                                                    |
+| Pembayaran diterima tetapi tidak ada yang terjadi | ESP32 tidak terhubung ke WebSocket | Periksa log RESET                                                                      |
 
 ## Sumber daya
 

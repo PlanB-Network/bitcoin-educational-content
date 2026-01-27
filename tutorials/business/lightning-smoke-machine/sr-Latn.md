@@ -896,14 +896,15 @@ Pre nego što konačni test, proveri :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Problem**                        | **Verovatna uzrok**              | **Rešenje**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 se ne povezuje            | Nedostaje USB drajver             | Instalirajte [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Relej ne klikće                | Pogrešna GPIO žica            | Proverite GPIO 21 → IN                                                                        |
+| Mašina za dim ne reaguje         | Daljinski upravljač pogrešno kabliran         | Proverite NO/NC/COM                                                                           |
+| Vremenski ograničenje WebSocket                   | Neispravna URL                  | Proverite wss:// i /bitcoinswitch                                                            |
+| WiFi se ne povezuje             | SSID/Lozinka pogrešna            | Ponovo flash-uj WiFi konfiguraciju                                                                    |
+| Plaćanje primljeno ali ništa se ne dešava | ESP32 nije povezan na WebSocket | Proverite RESET logove                                                                      |
 
 ## Resursi
 

@@ -896,14 +896,15 @@ WiFi connection established!
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **問題**                        | **考えられる原因**              | **解決方法**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32が接続しない            | USBドライバーが見つかりません             | [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers)をインストール |
+| リレーがクリックしない                | GPIO配線が間違っている            | GPIO 21 → INを確認                                                                        |
+| スモークマシンが反応しない         | リモートコントロールの配線が間違っている         | NO/NC/COMを確認                                                                           |
+| WebSocketタイムアウト                   | URLが正しくない                  | wss://および/bitcoinswitchを確認                                                            |
+| WiFiが接続しない             | SSID/Passwordが間違っている            | WiFi設定を再フラッシュ                                                                    |
+| 支払いを受けたが何も起こらない | ESP32がWebSocketに接続されていない | RESETログを確認                                                                      |
 
 ## リソース
 

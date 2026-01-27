@@ -896,14 +896,15 @@ Imbere y'ikigeragezo ca nyuma, suzuma :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Ikibazo**                        | **Icyambere cy'ikibazo**              | **Igisubizo**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 itagira imibanire            | Ifunguro ry'USB ritakaza             | Injira [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Aparatile ntitameneka                | Ibigega GPIO bibi            | Reba GPIO 21 → IN                                                                        |
+| Imashini y'ubwoko ntiyifitanyije         | Iyiyohereza mu nganda yipapikanya         | Reba NO/NC/COM                                                                           |
+| Ukuzirikira kwa WebSocket                   | URL itakaza                  | Reba wss:// na /bitcoinswitch                                                            |
+| WiFi itagira imibanire             | SSID/Password itakazi            | Mpakire WiFi config nka rundi                                                                    |
+| Ubwishingizi bwaroherejwe nta kintu kibyamye | ESP32 itakabwira WebSocket | Reba inyandiko za RESET                                                                      |
 
 ## Ubutunzi
 

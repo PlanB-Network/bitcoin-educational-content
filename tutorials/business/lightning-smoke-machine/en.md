@@ -663,14 +663,15 @@ Before the final test, check :
 ### Fairness problems and solutions
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Problem**                        | **Probable Cause**              | **Solution**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 does not connect            | Missing USB driver             | Install [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Relay does not click                | Wrong GPIO wiring            | Check GPIO 21 → IN                                                                        |
+| Smoke machine does not respond         | Remote control improperly wired         | Check NO/NC/COM                                                                           |
+| WebSocket timeout                   | Incorrect URL                  | Check wss:// and /bitcoinswitch                                                            |
+| WiFi does not connect             | SSID/Password incorrect            | Re-flash WiFi config                                                                    |
+| Payment received but nothing happens | ESP32 not connected to WebSocket | Check RESET logs                                                                      |
 
 ## Resources
 

@@ -896,14 +896,15 @@ Kabla ya jaribio la mwisho, angalia:
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Shida**                        | **Sababu ya Uwezekano**              | **Suluhisho**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 haikunganishi            | Kigogo cha USB kinakosekana             | Fungua [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Relay haipiki                | Wiring ya GPIO isiyo sahihi            | Angalia GPIO 21 → IN                                                                        |
+| Mashine ya moshi haiitikii         | Mtalakaizi wa mbali umechukuliwa vibaya         | Angalia NO/NC/COM                                                                           |
+| Ukomo wa wakati wa WebSocket                   | URL isiyo sahihi                  | Angalia wss:// na /bitcoinswitch                                                            |
+| WiFi haikunganishi             | SSID/Neno la siri lisilo sahihi            | Fungua config ya WiFi upya                                                                    |
+| Malipo yalipokea lakini hakuna kinachokeyoyote | ESP32 haikunganishi kwa WebSocket | Angalia kumbukumbu ya RESET                                                                      |
 
 ## Rasilimali
 

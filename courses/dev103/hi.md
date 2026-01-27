@@ -6517,36 +6517,36 @@ console.error("Error reading file:", err)
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 यहाँ क्या होता है:
 
 
-1. `fs.createWriteStream()` एक लिखने योग्य स्ट्रीम बनाता है।
+1. `fs.createWriteStream()` एक राइटेबल स्ट्रीम बनाता है।
 
-2. हम `.write()` का उपयोग करके इसमें कुछ पाठ लिखते हैं।
+2. हम `error` और `finish` इवेंट्स के लिए हैंडलर रजिस्टर करते हैं।
 
-3. जब हमारा काम पूरा हो जाता है, तो हम स्ट्रीम को बंद करने के लिए `.end()` को कॉल करते हैं।
+3. हम `.write()` का उपयोग करके इसमें कुछ टेक्स्ट लिखते हैं।
 
-4. जब सारा डेटा लिख ​​लिया जाता है, तो `finish` इवेंट उत्सर्जित होता है।
+4. जब हमारा काम हो जाता है, तो हम स्ट्रीम को बंद करने के लिए `.end()` को कॉल करते हैं।
 
-5. यदि कुछ गलत हो जाता है, तो `error` घटना शुरू हो जाती है।
+5. एक बार जब सभी बफर किए गए डेटा को फ्लश और लिख दिया जाता है, तो `finish` इवेंट उत्सर्जित होता है। यदि कुछ गलत होता है, तो एक `error` इवेंट उत्सर्जित होता है।
 
 
 पठनीय स्ट्रीम की तरह, लेखनीय स्ट्रीम भी बड़े डेटा के लिए अच्छे होते हैं, क्योंकि उन्हें एक ही बार में सब कुछ मेमोरी में रखने की आवश्यकता नहीं होती।

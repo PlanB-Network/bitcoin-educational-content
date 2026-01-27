@@ -6520,36 +6520,36 @@ Voici un exemple d'écriture dans un fichier `target.txt` à l'aide d'un flux :
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Voici ce qu'il se passe :
 
 
-1. `fs.createWriteStream()` crée un flux inscriptible.
+1. `fs.createWriteStream()` crée un flux d'écriture.
 
-2. Nous y écrivons du texte en utilisant `.write()`.
+2. Nous enregistrons des gestionnaires pour les événements `error` et `finish`.
 
-3. Lorsque nous avons terminé, nous appelons `.end()` pour fermer le flux.
+3. Nous y écrivons du texte en utilisant `.write()`.
 
-4. Lorsque toutes les données ont été écrites, l'événement `finish` est émis.
+4. Une fois terminé, nous appelons `.end()` pour fermer le flux.
 
-5. Si quelque chose ne va pas, l'événement `error` est déclenché.
+5. Une fois que toutes les données mises en mémoire tampon ont été vidées et écrites, l'événement `finish` est émis. Si un problème survient, un événement `error` est émis.
 
 
 Tout comme les flux lisibles, les flux inscriptibles sont adaptés aux données volumineuses car ils n'ont pas besoin de tout conserver en mémoire en même temps.

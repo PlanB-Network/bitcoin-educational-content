@@ -122,16 +122,17 @@ Di bawah ini adalah tabel ringkasan spesifikasi teknis umum Mini 3:
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Fitur                                      | Nilai                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Konsumsi Daya                              | 800 W                                                     |
+| Kebisingan                                                | 35-55 dB                                                  |
+| Temperatur Udara Keluaran                       | 60-70°C (pada suhu lingkungan 25°C)                  |
+| Persyaratan Suhu Ambien untuk Penggunaan | -5° C - 40°C                                              |
+| Rentang Tegangan Input Perangkat                         | 110V-240V AC 50/60Hz                                      |
+| Ukuran Mesin                                 | Panjang: 760 mm / Kedalaman: 104 mm / Tinggi: 214.5 mm |
+| Berat Mesin                                  |  8.35 kg                                                  |
 
 ## Menghubungkan ke Mining pool
 

@@ -122,16 +122,17 @@ Nedenfor finner du en oppsummeringstabell over Mini 3s generelle tekniske spesif
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Karakteristikk                                      | Verdi                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Strømforbruk                              | 800 W                                                     |
+| Støy                                                | 35-55 dB                                                  |
+| Utgangslufttemperatur                       | 60-70°C (ved omgivelsetemperatur 25°C)                  |
+| Omgivelsetemperaturkrav for bruk | -5° C - 40°C                                              |
+| Enhetens inngangsspenningsområde                         | 110V-240V AC 50/60Hz                                      |
+| Maskinstørrelse                                 | Lengde: 760 mm / Dybde: 104 mm / Høyde: 214.5 mm |
+| Maskinvekt                                  |  8.35 kg                                                  |
 
 ## Koble til en Mining pool
 

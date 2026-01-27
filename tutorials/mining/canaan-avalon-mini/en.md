@@ -92,16 +92,17 @@ Once connected to your local network, your Mini 3 will display information such 
 Below is a summary table of the Mini 3's general technical specifications:
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Feature                                      | Value                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Power Consumption                              | 800 W                                                     |
+| Noise                                                | 35-55 dB                                                  |
+| Output Air Temperature                       | 60-70°C (at ambient temperature 25°C)                  |
+| Ambient Temperature Requirements for Use | -5° C - 40°C                                              |
+| Device Input Voltage Range                         | 110V-240V AC 50/60Hz                                      |
+| Machine Size                                 | Length: 760 mm / Depth: 104 mm / Height: 214.5 mm |
+| Machine Weight                                  |  8.35 kg                                                  |
 
 ## Connecting to a mining pool
 

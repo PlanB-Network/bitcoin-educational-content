@@ -122,16 +122,17 @@ Segue-se um quadro recapitulativo das especificações técnicas gerais do Mini 
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Característica                                      | Valor                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
-| Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Taxa de hash                                             | 37.5 Th/s +- 5%                                           |
+| Consumo de energia                              | 800 W                                                     |
+| Ruído                                                | 35-55 dB                                                  |
+| Temperatura do ar de saída                       | 60-70°C (na temperatura ambiente 25°C)                  |
+| Requisitos de temperatura ambiente para uso | -5° C - 40°C                                              |
+| Faixa de tensão de entrada do dispositivo                         | 110V-240V AC 50/60Hz                                      |
+| Tamanho da máquina                                 | Comprimento: 760 mm / Profundidade: 104 mm / Altura: 214.5 mm |
+| Peso da máquina                                  |  8.35 kg                                                  |
 
 ## Ligação a um Mining pool
 

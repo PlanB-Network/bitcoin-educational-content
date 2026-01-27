@@ -147,11 +147,12 @@ Prima di tutto, è necessario decidere dove installare OPNsense. Ci sono diverse
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Caratteristiche | Minimo | Raccomandazione |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Processore | 1 GHz - 2 core | 1.5 GHz - Multi-core |
+| RAM | 2 GB | 8 GB |
+| Spazio di archiviazione per il sistema | Disco rigido, SSD o scheda SD (4 GB) | 120 GB su SSD |
 
 Infine, i **requisiti di risorse dipendono soprattutto dal numero di connessioni da gestire**, e quindi dai **requisiti di larghezza di banda**. Inoltre, è necessario **tenere presente i servizi che verranno attivati e utilizzati** (proxy, rilevamento delle intrusioni, ecc.) in quanto possono essere affamati di CPU e/o RAM.
 

@@ -147,11 +147,12 @@ U moet rekening houden met de hardware middelen die nodig zijn om OPNsense te dr
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Kenmerken | Minimum | Aanbeveling |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Processor | 1 GHz - 2 kernen | 1.5 GHz - Multi-core |
+| RAM | 2 GB | 8 GB |
+| Opslagruimte voor het systeem | Harde schijf, SSD of SD-kaart (4 GB) | 120 GB op SSD |
 
 Tenslotte **zijn de benodigde bronnen vooral afhankelijk van het aantal te beheren verbindingen**, en dus van de benodigde **bandbreedte**. Daarnaast moet je **rekening houden met de services die worden geactiveerd en gebruikt** (proxy, inbraakdetectie, etc...) omdat ze veel CPU en/of RAM kunnen gebruiken.
 

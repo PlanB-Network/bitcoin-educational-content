@@ -147,11 +147,12 @@ Należy wziąć pod uwagę zasoby sprzętowe wymagane do uruchomienia OPNsense. 
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Cechy | Minimum | Zalecenie |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Procesor | 1 GHz - 2 rdzenie | 1.5 GHz - Wielordzeniowy |
+| RAM | 2 GB | 8 GB |
+| Przestrzeń dyskowa dla systemu | Dysk twardy, SSD lub karta SD (4 GB) | 120 GB na SSD |
 
 Wreszcie, **wymagane zasoby zależą przede wszystkim od liczby zarządzanych połączeń**, a zatem od **wymaganej przepustowości**. Ponadto należy **pamiętać o usługach, które będą aktywowane i używane** (proxy, wykrywanie włamań itp.), ponieważ mogą one wymagać dużej ilości procesora i/lub pamięci RAM.
 

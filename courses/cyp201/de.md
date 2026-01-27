@@ -1460,7 +1460,7 @@ Der Wert des Seeds wird also durch den Wert der mnemonischen Phrase und der Pass
 Jetzt, da wir unseren Seed haben, können wir mit der Ableitung unserer Bitcoin-Wallet fortfahren.
 
 ### Der Master-Schlüssel und der Master-Chain-Code
-Sobald der Seed erhalten wurde, besteht der nächste Schritt bei der Ableitung einer HD-Wallets darin, den privaten Master-Schlüssel und den Master-Chain-Code zu berechnen, welche die Tiefe 0 unserer Wallet darstellen werden.
+Sobald der Seed erhalten wurde, besteht der nächste Schritt bei der Ableitung einer HD-Wallet darin, den privaten Master-Schlüssel und den Master-Chain-Code zu berechnen, welche die Ebene (engl. depth) 0 unserer Wallet darstellen werden.
 
 Um den privaten Master-Schlüssel und den Master-Chain-Code zu erhalten, wird die HMAC-SHA512-Funktion auf den Seed angewendet, unter Verwendung eines festen Schlüssels "*Bitcoin Seed*", der für alle Bitcoin-Nutzer identisch ist. Diese Konstante wird gewählt, um sicherzustellen, dass die Schlüsselableitungen spezifisch für Bitcoin sind. Hier sind die Elemente:
 - $\text{HMAC-SHA512}$: die Ableitungsfunktion;
@@ -1533,7 +1533,7 @@ Für das Folgende werden wir die folgende Notation anwenden:
 
 Ein erweiterter Schlüssel ist wie folgt strukturiert:
 - **Version**: Versionscode zur Identifizierung der Art des Schlüssels (`xprv`, `xpub`, `yprv`, `ypub`...). Am Ende dieses Kapitels werden wir sehen, was die Buchstaben `x`, `y` und `z` entsprechen.
-- **Tiefe**: Hierarchische Ebene in der HD-Wallet relativ zum Master-Schlüssel (0 für den Master-Schlüssel).
+- **Ebene**: Hierarchische Ebene in der HD-Wallet relativ zum Master-Schlüssel (0 für den Master-Schlüssel).
 - **Eltern-Fingerabdruck**: Die ersten 4 Bytes des HASH160-Hashs des öffentlichen Eltern-Schlüssels, der zur Ableitung des im Payload vorhandenen Schlüssels verwendet wurde.
 - **Indexnummer**: Kennzeichnung des Kindes unter Geschwisterschlüsseln, das heißt, unter allen Schlüsseln auf derselben Ableitungsebene, die dieselben Elternschlüssel haben.
 - **Chain-Code**: Ein einzigartiger 32-Byte-Code zur Ableitung von Kind-Schlüsseln.
@@ -1596,9 +1596,9 @@ Dieser erweiterte Schlüssel zerfällt in mehrere unterschiedliche Elemente:
 
 Die ersten 4 Bytes sind die Version. Hier entspricht sie einem erweiterten öffentlichen Schlüssel im Mainnet mit einem Ableitungszweck von entweder *Legacy* oder *SegWit v1*.
 
-- **Tiefe**: `03`
+- **Ebene**: `03`
 
-Dieses Feld gibt die hierarchische Ebene des Schlüssels innerhalb der HD-Wallet an. In diesem Fall bedeutet eine Tiefe von `03`, dass dieser Schlüssel drei Ableitungsebenen unterhalb des Master-Schlüssels liegt.
+Dieses Feld gibt die hierarchische Ebene des Schlüssels innerhalb der HD-Wallet an. In diesem Fall bedeutet eine Ebene von `03`, dass dieser Schlüssel drei Ableitungsebenen unterhalb des Master-Schlüssels liegt.
 
 - **Eltern-Fingerabdruck**: `6D5601AD`
 
@@ -1623,7 +1623,7 @@ In diesem Kapitel haben wir gesehen, dass es zwei verschiedene Arten von Kinders
 
 Die Ableitung von Kinderschlüsselpaaren in Bitcoin HD-Wallets basiert auf einer hierarchischen Struktur, die es ermöglicht, eine große Anzahl von Schlüsseln zu generieren, während diese Paare durch Zweige in verschiedene Gruppen organisiert werden. Jedes von einem Elternpaar abgeleitete Kindpaar kann entweder direkt in einem *scriptPubKey* verwendet werden, um Bitcoin zu sperren, oder als Ausgangspunkt, um mehr Kinderschlüssel zu generieren, und so weiter, um einen Baum von Schlüsseln zu erstellen.
 
-Alle diese Ableitungen beginnen mit dem Master-Schlüssel und dem Master-Chain-Code, die die ersten Eltern auf der Tiefenebene 0 sind. Sie sind gewissermaßen die Adam und Eva der Schlüssel deiner Wallet, die gemeinsamen Vorfahren aller abgeleiteten Schlüssel.
+Alle diese Ableitungen beginnen mit dem Master-Schlüssel und dem Master-Chain-Code, die die ersten Eltern auf der Ebene 0 sind. Sie sind gewissermaßen die Adam und Eva der Schlüssel deiner Wallet, die gemeinsamen Vorfahren aller abgeleiteten Schlüssel.
 
 ![CYP201](assets/en/053.webp)
 
@@ -1816,28 +1816,28 @@ Zusammengefasst hast du bisher gelernt, die grundlegenden Elemente einer HD-Wall
 
 :::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
 
-Die hierarchische Struktur von HD-Wallets bei Bitcoin ermöglicht die Organisation von Schlüsselpaaren auf verschiedene Weisen. Die Idee besteht darin, von dem privaten Master-Schlüssel und dem Master-Chain-Code aus mehrere Tiefenebenen abzuleiten. Jede hinzugefügte Ebene entspricht der Ableitung eines Kind-Schlüsselpaares von einem Eltern-Schlüsselpaar.
+Die hierarchische Struktur von HD-Wallets bei Bitcoin ermöglicht die Organisation von Schlüsselpaaren auf verschiedene Weisen. Die Idee besteht darin, von dem privaten Master-Schlüssel und dem Master-Chain-Code aus mehrere Ebenen abzuleiten. Jede hinzugefügte Ebene entspricht der Ableitung eines Kind-Schlüsselpaares von einem Eltern-Schlüsselpaar.
 
 Im Laufe der Zeit haben verschiedene BIPs (*Bitcoin Improvement Proposals*) Standards für diese Ableitungspfade eingeführt, um deren Nutzung über verschiedene Software hinweg zu standardisieren. In diesem Kapitel werden wir also die Bedeutung jeder Ableitungsebene in HD-Wallets gemäß diesen Standards entdecken.
 
-### Die Tiefen der Ableitung eines HD-Wallets
+### Die Ebenen der Ableitung eines HD-Wallets
 
-Ableitungspfade sind in Tiefenebenen organisiert, die von Tiefe 0, die den Master-Schlüssel und den Master-Chain-Code repräsentiert, bis zu untergeordneten Ebenen für die Ableitung von Adressen reichen, die verwendet werden, um UTXOs zu sperren. Die BIPs definieren die Standards für jede Ebene, was hilft, Praktiken über verschiedene Wallet-Management-Software hinweg zu harmonisieren.
+Ableitungspfade sind in Ebenen organisiert, die von Ebene 0, die den Master-Schlüssel und den Master-Chain-Code repräsentiert, bis zu untergeordneten Ebenen für die Ableitung von Adressen reichen, die verwendet werden, um UTXOs zu sperren. Die BIPs definieren die Standards für jede Ebene, was hilft, Praktiken über verschiedene Wallet-Management-Software hinweg zu harmonisieren.
 
 Ein Ableitungspfad bezieht sich daher auf die Sequenz von Indizes, die verwendet wird, um Kind-Schlüssel von einem Master-Schlüssel abzuleiten.
 
-**Tiefe 0: Master-Schlüssel (BIP32)**
+**Ebene 0: Master-Schlüssel (BIP32)**
 
-Diese Tiefe entspricht dem privaten Master-Schlüssel und dem Master-Chain-Code der Wallet. Sie wird durch die Notation $m/$ dargestellt.
+Diese Ebene entspricht dem privaten Master-Schlüssel und dem Master-Chain-Code der Wallet. Sie wird durch die Notation $m/$ dargestellt.
 
-**Tiefe 1: Zweck (BIP43)**
+**Ebene 1: Zweck (BIP43)**
 
-Das Ziel bestimmt die logische Struktur der Ableitung. Zum Beispiel wird eine P2WPKH-Adresse auf der Tiefe 1 den Index $/84'/$ haben (gemäß BIP84), während eine P2TR-Adresse den Index $/86'/$ haben wird (gemäß BIP86). Diese Schicht erleichtert die Kompatibilität zwischen Wallets, indem sie Indexnummern angibt, die den BIP-Nummern entsprechen.
-Anders gesagt, sobald du den Master-Schlüssel und den Master-Chain-Code hast, dienen diese als Elternschlüsselpaar, um ein Kind-Schlüsselpaar abzuleiten. Der in dieser Ableitung verwendete Index kann zum Beispiel $/84'/$ sein, wenn die Wallet vorgesehen ist, SegWit v0 Typ-Skripte zu verwenden. Dieses Schlüsselpaar befindet sich dann auf Tiefe 1. Seine Rolle ist es nicht, Bitcoins zu sperren, sondern einfach als Wegpunkt in der Ableitungshierarchie zu dienen.
+Das Ziel bestimmt die logische Struktur der Ableitung. Zum Beispiel wird eine P2WPKH-Adresse auf der Ebene 1 den Index $/84'/$ haben (gemäß BIP84), während eine P2TR-Adresse den Index $/86'/$ haben wird (gemäß BIP86). Diese Schicht erleichtert die Kompatibilität zwischen Wallets, indem sie Indexnummern angibt, die den BIP-Nummern entsprechen.
+Anders gesagt, sobald du den Master-Schlüssel und den Master-Chain-Code hast, dienen diese als Elternschlüsselpaar, um ein Kind-Schlüsselpaar abzuleiten. Der in dieser Ableitung verwendete Index kann zum Beispiel $/84'/$ sein, wenn die Wallet vorgesehen ist, SegWit v0 Typ-Skripte zu verwenden. Dieses Schlüsselpaar befindet sich dann auf Ebene 1. Seine Rolle ist es nicht, Bitcoins zu sperren, sondern einfach als Wegpunkt in der Ableitungshierarchie zu dienen.
 
-**Tiefe 2: Währungstyp (BIP44)**
+**Ebene 2: Währungstyp (BIP44)**
 
-Vom Schlüsselpaar auf Tiefe 1 wird eine neue Ableitung durchgeführt, um das Schlüsselpaar auf Tiefe 2 zu erhalten. Diese Tiefe ermöglicht es, Bitcoin-Konten von anderen Kryptowährungen innerhalb derselben Wallet zu unterscheiden.
+Vom Schlüsselpaar auf Ebene 1 wird eine neue Ableitung durchgeführt, um das Schlüsselpaar auf Ebene 2 zu erhalten. Diese Ebene ermöglicht es, Bitcoin-Konten von anderen Kryptowährungen innerhalb derselben Wallet zu unterscheiden.
 
 Jede Währung hat einen einzigartigen Index, um Kompatibilität über Multi-Währungs-Wallets hinweg zu gewährleisten. Zum Beispiel ist für Bitcoin der Index $/0'/$ (oder `0x80000000` in hexadezimaler Notation). Währungsindizes werden im Bereich von $2^{31}$ bis $2^{32}-1$ gewählt, um eine gehärtete Ableitung zu gewährleisten.
 
@@ -1846,27 +1846,27 @@ Um dir andere Beispiele zu geben, hier sind die Indizes einiger Währungen:
 - $2'$ (`0x80000002`) für Litecoin;
 - $60'$ (`0x8000003c`) für Ethereum...
 
-**Tiefe 3: Konto (BIP32)**
+**Ebene 3: Konto (BIP32)**
 
-Jede Wallet kann in mehrere Konten unterteilt werden, nummeriert ab $2^{31}$, und auf Tiefe 3 durch $/0'/$ für das erste Konto, $/1'/$ für das zweite usw. dargestellt. Allgemein, wenn auf einen erweiterten Schlüssel `xpub` Bezug genommen wird, bezieht sich dies sich auf Schlüssel dieser Ableitungstiefe.
+Jede Wallet kann in mehrere Konten unterteilt werden, nummeriert ab $2^{31}$, und auf Ebene 3 durch $/0'/$ für das erste Konto, $/1'/$ für das zweite usw. dargestellt. Allgemein, wenn auf einen erweiterten Schlüssel `xpub` Bezug genommen wird, bezieht sich dies sich auf Schlüssel dieser Ableitungsebene.
 
-Diese Unterteilung in verschiedene Konten ist optional. Sie zielt darauf ab, die Organisation der Wallet für Benutzer zu vereinfachen. In der Praxis wird oft nur ein Konto verwendet, üblicherweise das erste standardmäßig. Jedoch kann es in einigen Fällen, wenn man Schlüsselpaare für unterschiedliche Verwendungen klar unterscheiden möchte, nützlich sein. Zum Beispiel ist es möglich, aus demselben Seed ein persönliches und ein berufliches Konto zu erstellen, mit völlig unterschiedlichen Schlüsselgruppen ab dieser Ableitungstiefe.
+Diese Unterteilung in verschiedene Konten ist optional. Sie zielt darauf ab, die Organisation der Wallet für Benutzer zu vereinfachen. In der Praxis wird oft nur ein Konto verwendet, üblicherweise das erste standardmäßig. Jedoch kann es in einigen Fällen, wenn man Schlüsselpaare für unterschiedliche Verwendungen klar unterscheiden möchte, nützlich sein. Zum Beispiel ist es möglich, aus demselben Seed ein persönliches und ein berufliches Konto zu erstellen, mit völlig unterschiedlichen Schlüsselgruppen ab dieser Ableitungsebene.
 
-**Tiefe 4: Kette (BIP32)**
+**Ebene 4: Kette (BIP32)**
 
-Jedes auf Tiefe 3 definierte Konto wird dann in zwei Ketten strukturiert:
+Jedes auf Ebene 3 definierte Konto wird dann in zwei Ketten strukturiert:
 - **Die externe Kette**: In dieser Kette werden sogenannte "öffentliche" Adressen abgeleitet. Diese Empfangsadressen sind dazu bestimmt, UTXOs zu sperren, die von externen Transaktionen kommen (das heißt, von der Verwendung von UTXOs, die nicht dir gehören). Einfach ausgedrückt, wird diese externe Kette immer dann verwendet, wenn man Bitcoins erhalten möchte. Wenn du in deiner Wallet-Software auf "*empfangen*" klickst, wird dir immer eine Adresse aus der externen Kette angeboten. Diese Kette wird durch ein Paar von Schlüsseln dargestellt, die mit dem Index $/0/$ abgeleitet werden.
 - **Die interne Kette (Wechselgeld)**: Diese Kette ist für Empfangsadressen reserviert, die Bitcoin sperren, die von der Verwendung von UTXOs kommen, die dir gehören, mit anderen Worten, Wechselgeldadressen. Sie wird durch den Index $/1/$ identifiziert.
 
-**Tiefe 5: Adressindex (BIP32)**
+**Ebene 5: Adressindex (BIP32)**
 
-Schließlich stellt Tiefe 5 den letzten Schritt der Ableitung in der Wallet dar. Obwohl es technisch möglich ist, unendlich fortzufahren, stoppen die aktuellen Standards hier. Auf dieser letzten Tiefe werden die Paare von Schlüsseln abgeleitet, die tatsächlich verwendet werden, um die UTXOs zu sperren und zu entsperren. Jeder Index ermöglicht die Unterscheidung zwischen Geschwisterschlüsselpaaren: so wird die erste Empfangsadresse den Index $/0/$ verwenden, die zweite den Index $/1/$ und so weiter.
+Schließlich stellt Ebene 5 den letzten Schritt der Ableitung in der Wallet dar. Obwohl es technisch möglich ist, unendlich fortzufahren, stoppen die aktuellen Standards hier. Auf dieser letzten Ebene werden die Paare von Schlüsseln abgeleitet, die tatsächlich verwendet werden, um die UTXOs zu sperren und zu entsperren. Jeder Index ermöglicht die Unterscheidung zwischen Geschwisterschlüsselpaaren: so wird die erste Empfangsadresse den Index $/0/$ verwenden, die zweite den Index $/1/$ und so weiter.
 
 ![CYP201](assets/en/058.webp)
 
 ### Notation von Ableitungspfaden
 
-Der Ableitungspfad wird geschrieben, indem jede Ebene mit einem Schrägstrich ($/$) getrennt wird. Jeder Schrägstrich zeigt somit eine Ableitung eines Elternschlüsselpaares ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) zu einem Kinderschlüsselpaar ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$) an. Die bei jeder Tiefe notierte Zahl entspricht dem Index, der verwendet wird, um diesen Schlüssel von seinen Eltern abzuleiten. Das Apostroph ($'$), das manchmal rechts vom Index platziert wird, zeigt eine gehärtete Ableitung ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$) an. Manchmal wird dieses Apostroph durch ein $h$ ersetzt. In Abwesenheit eines Apostrophs oder $h$ handelt es sich daher um eine normale Ableitung ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
+Der Ableitungspfad wird geschrieben, indem jede Ebene mit einem Schrägstrich ($/$) getrennt wird. Jeder Schrägstrich zeigt somit eine Ableitung eines Elternschlüsselpaares ($k_{\text{PAR}}$, $K_{\text{PAR}}$, $C_{\text{PAR}}$) zu einem Kinderschlüsselpaar ($k_{\text{CHD}}$, $K_{\text{CHD}}$, $C_{\text{CHD}}$) an. Die bei jeder Ebene notierte Zahl entspricht dem Index, der verwendet wird, um diesen Schlüssel von seinen Eltern abzuleiten. Das Apostroph ($'$), das manchmal rechts vom Index platziert wird, zeigt eine gehärtete Ableitung ($k_{\text{CHD}}^h$, $K_{\text{CHD}}^h$) an. Manchmal wird dieses Apostroph durch ein $h$ ersetzt. In Abwesenheit eines Apostrophs oder $h$ handelt es sich daher um eine normale Ableitung ($k_{\text{CHD}}^n$, $K_{\text{CHD}}^n$).
 Wie wir in den vorherigen Kapiteln gesehen haben, beginnen gehärtete Schlüsselindizes bei $2^{31}$ oder `0x80000000` in Hexadezimal. Daher muss, wenn ein Index in einem Ableitungspfad von einem Apostroph gefolgt wird, $2^{31}$ zu der angegebenen Zahl addiert werden, um den tatsächlichen Wert zu erhalten, der in der HMAC-SHA512-Funktion verwendet wird. Zum Beispiel, wenn der Ableitungspfad $/44'/$ angibt, wird der tatsächliche Index sein:
 $$
 
@@ -1894,7 +1894,7 @@ In diesem Beispiel:
 
 ### Zusammenfassung der Ableitungsstruktur
 
-| Tiefe | Beschreibung       | Standardbeispiel                  |
+| Ebene | Beschreibung       | Standardbeispiel                  |
 | ----- | ------------------ | --------------------------------- |
 | 0     | Master-Schlüssel   | $m/$                              |
 | 1     | Zweck              | $/86'/$ (P2TR)                    |
@@ -2081,13 +2081,13 @@ Nachdem wir die Theorie behandelt haben, gehen wir zur Praxis über! Im folgende
 
 :::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
-Lass uns gemeinsam erkunden, wie man eine Empfangsadresse aus einem Schlüsselpaar generiert, das sich beispielsweise in der Tiefe 5 einer HD-Wallet befindet. Diese Adresse kann dann in einer Wallet-Software verwendet werden, um ein UTXO zu sperren.
+Lass uns gemeinsam erkunden, wie man eine Empfangsadresse aus einem Schlüsselpaar generiert, das sich beispielsweise in der Ebene 5 einer HD-Wallet befindet. Diese Adresse kann dann in einer Wallet-Software verwendet werden, um ein UTXO zu sperren.
 
 Da der Prozess der Adressgenerierung vom angenommenen Skriptmodell abhängt, konzentrieren wir uns auf zwei spezifische Fälle: die Generierung einer SegWit v0-Adresse in P2WPKH und einer SegWit v1-Adresse in P2TR. Diese beiden Adresstypen decken heute die überwiegende Mehrheit der Anwendungen ab.
 
 ### Komprimierung des öffentlichen Schlüssels
 
-Nachdem alle Ableitungsschritte vom Master-Schlüssel bis zur Tiefe 5 unter Verwendung der entsprechenden Indizes durchgeführt wurden, erhalten wir ein Schlüsselpaar ($k$, $K$) mit $K = k \cdot G$. Obwohl es möglich ist, diesen öffentlichen Schlüssel so zu verwenden, um Mittel mit dem P2PK-Standard zu sperren, ist das nicht unser Ziel hier. Stattdessen zielen wir darauf ab, in erster Instanz eine Adresse in P2WPKH zu erstellen und dann in P2TR für ein weiteres Beispiel.
+Nachdem alle Ableitungsschritte vom Master-Schlüssel bis zur Ebene 5 unter Verwendung der entsprechenden Indizes durchgeführt wurden, erhalten wir ein Schlüsselpaar ($k$, $K$) mit $K = k \cdot G$. Obwohl es möglich ist, diesen öffentlichen Schlüssel so zu verwenden, um Mittel mit dem P2PK-Standard zu sperren, ist das nicht unser Ziel hier. Stattdessen zielen wir darauf ab, in erster Instanz eine Adresse in P2WPKH zu erstellen und dann in P2TR für ein weiteres Beispiel.
 
 Der erste Schritt ist die Komprimierung des öffentlichen Schlüssels $K$. Um diesen Prozess gut zu verstehen, erinnern wir uns zunächst an einige Grundlagen, die in Teil 3 behandelt wurden.
 Ein öffentlicher Schlüssel bei Bitcoin ist ein Punkt $K$, der sich auf einer elliptischen Kurve befindet. Er wird in der Form $(x, y)$ dargestellt, wobei $x$ und $y$ die Koordinaten des Punktes sind. In seiner unkomprimierten Form misst dieser öffentliche Schlüssel 520 Bits: 8 Bits für ein Präfix (Anfangswert von `0x04`), 256 Bits für die $x$-Koordinate und 256 Bits für die $y$-Koordinate.
@@ -2305,7 +2305,7 @@ P' = P + t \cdot G
 $$
 
 Wobei $G$ der Generator der verwendeten elliptischen Kurve ist. Diese Operation erzeugt einen neuen öffentlichen Schlüssel, der vom ursprünglichen Schlüssel abgeleitet ist, während sie kryptografische Eigenschaften beibehält, die seine Verwendung ermöglichen.
-Wenn du keine alternativen Skripte hinzufügen musst (also ausschließlich über den _key path_ ausgibst), kannst du eine Taproot-Adresse generieren, die ausschließlich auf dem öffentlichen Schlüssel basiert, der in der Tiefe 5 deiner Wallet vorhanden ist. In diesem Fall ist es notwendig, ein nicht-ausgabefähiges Skript für den _script path_ zu erstellen, um die Anforderungen der Struktur zu erfüllen. Die Anpassung $t$ wird dann berechnet, indem eine getaggte Hashfunktion, **`TapTweak`**, auf den internen öffentlichen Schlüssel $P$ angewendet wird:
+Wenn du keine alternativen Skripte hinzufügen musst (also ausschließlich über den _key path_ ausgibst), kannst du eine Taproot-Adresse generieren, die ausschließlich auf dem öffentlichen Schlüssel basiert, der in der Ebene 5 deiner Wallet vorhanden ist. In diesem Fall ist es notwendig, ein nicht-ausgabefähiges Skript für den _script path_ zu erstellen, um die Anforderungen der Struktur zu erfüllen. Die Anpassung $t$ wird dann berechnet, indem eine getaggte Hashfunktion, **`TapTweak`**, auf den internen öffentlichen Schlüssel $P$ angewendet wird:
 
 $$
 t = \text{H}_{\text{TapTweak}}(P)

@@ -47,7 +47,7 @@ Sobald wir ein gutes Verständnis dieser Elemente der Kryptografie haben, werden
 
 ![CYP201](assets/en/003.webp)
 
-Das Training wird mit dem Studium des [BIP39](https://planb.academy/resources/glossary/bip0039)-Passphrases, des Seeds (nicht zu verwechseln mit der mnemonic phrase), des Master-Chain-Codes und des Master-Keys fortgesetzt. Wir werden im Detail sehen, was diese Elemente sind, ihre jeweiligen Rollen und wie sie berechnet werden.
+Das Training wird mit dem Studium des [BIP39](https://planb.academy/resources/glossary/bip0039)-Passphrases, des Seeds (nicht zu verwechseln mit der mnemonischen Phrase), des Master-Chain-Codes und des Master-Keys fortgesetzt. Wir werden im Detail sehen, was diese Elemente sind, ihre jeweiligen Rollen und wie sie berechnet werden.
 
 ![CYP201](assets/en/004.webp)
 
@@ -664,10 +664,10 @@ HMAC wird insbesondere in Bitcoin für die Schlüsselableitung in HD (Hierarchis
 
 PBKDF2 (*Password-Based Key Derivation Function 2*) ist ein Schlüsselableitungsalgorithmus, der entwickelt wurde, um die Sicherheit von Passwörtern zu erhöhen. Der Algorithmus wendet eine Pseudozufallsfunktion (hier HMAC-SHA512) auf ein Passwort und ein kryptografisches Salt an und wiederholt diese Operation eine bestimmte Anzahl von Malen, um einen Output-Schlüssel zu erzeugen.
 
-In Bitcoin wird PBKDF2 verwendet, um den Seed einer HD-Wallet aus einer Mnemonic-Phrase und einer Passphrase zu generieren (aber wir werden dies in den kommenden Kapiteln genauer besprechen).
+In Bitcoin wird PBKDF2 verwendet, um den Seed einer HD-Wallet aus einer mnemonischen Phrase und einer Passphrase zu generieren (aber wir werden dies in den kommenden Kapiteln genauer besprechen).
 
 Der PBKDF2-Prozess ist wie folgt, mit:
-- $m$: die Mnemonic-Phrase des Benutzers;
+- $m$: die mnemonischen Phrase des Benutzers;
 - $s$: die optionale Passphrase zur Erhöhung der Sicherheit (leeres Feld, wenn keine Passphrase);
 - $n$: die Anzahl der Iterationen der Funktion, in unserem Fall sind es 2048.
 Die PBKDF2-Funktion ist iterativ definiert. Jede Iteration nimmt das Ergebnis der vorherigen, leitet es durch HMAC-SHA512 und kombiniert die aufeinanderfolgenden Ergebnisse, um den endgültigen Schlüssel zu produzieren:
@@ -805,7 +805,7 @@ In der Praxis gibt es jedoch nur $n$ unterschiedliche Punkte auf unserer ellipti
 
 Die Anzahl der Möglichkeiten für einen privaten Bitcoin-Schlüssel beträgt daher etwa $n$, was einer Zahl nahe $1.158 \times 10^{77}$ entspricht. Diese Zahl ist so groß, dass es statistisch fast unmöglich ist, zufällig auf den privaten Schlüssel eines anderen Benutzers zu stoßen, wenn du einen privaten Schlüssel zufällig wählst. Um dir eine Vorstellung von der Größenordnung zu geben, die Anzahl der möglichen privaten Schlüssel bei Bitcoin liegt in einer Größenordnung nahe der geschätzten Atome im beobachtbaren Universum.
 
-Wie wir in den kommenden Kapiteln sehen werden, werden heute die meisten privaten Schlüssel bei Bitcoin nicht zufällig generiert, sondern sind das Ergebnis einer deterministischen Ableitung aus einer Mnemonic-Phrase, die selbst pseudo-zufällig ist (dies ist die berühmte Phrase aus 12 oder 24 Wörtern). Diese Information ändert nichts an der Verwendung von Signaturalgorithmen wie ECDSA, hilft aber, unseren Popularisierungsansatz auf Bitcoin zu fokussieren.
+Wie wir in den kommenden Kapiteln sehen werden, werden heute die meisten privaten Schlüssel bei Bitcoin nicht zufällig generiert, sondern sind das Ergebnis einer deterministischen Ableitung aus einer mnemonischen Phrase, die selbst pseudo-zufällig ist (dies ist die berühmte Phrase aus 12 oder 24 Wörtern). Diese Information ändert nichts an der Verwendung von Signaturalgorithmen wie ECDSA, hilft aber, unseren Popularisierungsansatz auf Bitcoin zu fokussieren.
 
 Für die Fortsetzung der Erklärung wird der private Schlüssel durch den Kleinbuchstaben $k$ dargestellt.
 
@@ -1202,9 +1202,9 @@ Um dein Wissen über das Lightning Network zu vertiefen, empfehle ich nach dem C
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Im nächsten Teil schlage ich vor, zu entdecken, wie die Mnemonic-Phrase, die die Basis deiner Bitcoin-Wallet bildet, funktioniert.
+Im nächsten Teil schlage ich vor, zu entdecken, wie die mnemonische Phrase, die die Basis deiner Bitcoin-Wallet bildet, funktioniert.
 
-# Die Mnemonic-Phrase
+# Die mnemonische Phrase 
 
 <partId>4070af16-c8a2-58b5-9871-a22c86c07458</partId>
 
@@ -1245,10 +1245,10 @@ Um die Einschränkung von JBOK-Wallets zu adressieren, wurde später eine neue W
 
 In HD-Wallets wird die Schlüsselableitung gemäß einer hierarchischen Struktur durchgeführt, die es ermöglicht, Schlüssel in Ableitungssubräume zu organisieren, die weiter unterteilbar sind, um die Verwaltung von Mitteln und die Interoperabilität zwischen verschiedener Wallet-Softwares zu erleichtern. Heutzutage wird dieser Standard von der überwiegenden Mehrheit der Bitcoin-Benutzer angenommen. Aus diesem Grund werden wir ihn in den folgenden Kapiteln detailliert untersuchen.
 
-### Der BIP39-Standard: Die Mnemonic-Phrase
+### Der BIP39-Standard: Die mnemonische Phrase (mnemonic phrase)
 
-Neben BIP32 standardisiert BIP39 das Seed-Format als eine Mnemonic-Phrase, um die Sicherung und Lesbarkeit durch Benutzer zu erleichtern. Die Mnemonic-Phrase, auch Wiederherstellungsphrase oder 24-Word-Phrase genannt, ist eine Abfolge von Wörtern aus einer vordefinierten Liste, die den Seed der Wallet sicher kodiert.
-Die Mnemonic-Phrase vereinfacht die Sicherung für den Benutzer erheblich. Im Falle eines Verlusts, Schadens oder Diebstahls des Geräts, das die Wallet hostet, ermöglicht das einfache Wissen dieser mnemonischen Phrase die Wiederherstellung der Wallet und die Wiedererlangung des Zugriffs auf alle durch sie gesicherten Geldmittel.
+Neben BIP32 standardisiert BIP39 das Seed-Format als eine mnemonische Phrase, um die Sicherung und Lesbarkeit durch Benutzer zu erleichtern. Die mnemonische Phrase, auch Wiederherstellungsphrase oder 24-Word-Phrase genannt, ist eine Abfolge von Wörtern aus einer vordefinierten Liste, die den Seed der Wallet sicher kodiert.
+Die mnemonische Phrase vereinfacht die Sicherung für den Benutzer erheblich. Im Falle eines Verlusts, Schadens oder Diebstahls des Geräts, das die Wallet hostet, ermöglicht das einfache Wissen dieser mnemonischen Phrase die Wiederherstellung der Wallet und die Wiedererlangung des Zugriffs auf alle durch sie gesicherten Geldmittel.
 
 In den kommenden Kapiteln werden wir die internen Arbeitsweisen von HD-Wallets erforschen, einschließlich der Schlüsselableitungsmechanismen und der verschiedenen möglichen hierarchischen Strukturen. Dies wird dir helfen, die kryptografischen Grundlagen, auf denen die Sicherheit von Geldern auf Bitcoin basiert, besser zu verstehen. Und um zu beginnen, schlage ich im nächsten Kapitel vor, wir schauen uns die Rolle der Entropie anhand deiner Wallet an.
 
@@ -1264,7 +1264,7 @@ Moderne HD-Wallets (deterministisch und hierarchisch) stützen sich auf ein einz
 
 Entropie ist im Kontext der Kryptografie und Information eine quantitative Messung der Unsicherheit oder Unvorhersehbarkeit, die mit einer Datenquelle oder einem zufälligen Prozess verbunden ist. Sie spielt eine wichtige Rolle in der Sicherheit kryptografischer Systeme, insbesondere bei der Generierung von Schlüsseln und Zufallszahlen. Hohe Entropie stellt sicher, dass die generierten Schlüssel ausreichend unvorhersehbar und widerstandsfähig gegen Brute-Force-Angriffe sind, bei denen ein Angreifer alle möglichen Kombinationen ausprobiert, um den Schlüssel zu erraten.
 
-Im Kontext von Bitcoin wird Entropie verwendet, um den Seed zu generieren. Bei der Erstellung einer deterministischen und hierarchischen Wallet wird die Konstruktion der Mnemonic-Phrase aus einer Zufallszahl durchgeführt, die selbst von einer Entropiequelle abgeleitet ist. Die Phrase wird dann verwendet, um mehrere private Schlüssel auf eine deterministische und hierarchische Weise zu generieren, um Ausgabebedingungen für UTXOs zu erstellen.
+Im Kontext von Bitcoin wird Entropie verwendet, um den Seed zu generieren. Bei der Erstellung einer deterministischen und hierarchischen Wallet wird die Konstruktion der mnemonischen Phrase aus einer Zufallszahl durchgeführt, die selbst von einer Entropiequelle abgeleitet ist. Die Phrase wird dann verwendet, um mehrere private Schlüssel auf eine deterministische und hierarchische Weise zu generieren, um Ausgabebedingungen für UTXOs zu erstellen.
 
 ### Methoden zur Generierung von Entropie
 
@@ -1279,20 +1279,20 @@ In den meisten Fällen wird diese Zufallszahl automatisch von der Wallet-Softwar
 
 Eine Alternative ist die manuelle Generierung der Entropie, die eine bessere Kontrolle bietet, aber auch viel riskanter ist. Ich rate dringend davon ab, die Entropie für deine HD-Wallet selbst zu generieren.
 
-Im nächsten Kapitel werden wir sehen, wie wir von einer Zufallszahl zu einer Mnemonic-Phrase von 12 oder 24 Wörtern kommen.
+Im nächsten Kapitel werden wir sehen, wie wir von einer Zufallszahl zu einer mnemonischen Phrase von 12 oder 24 Wörtern kommen.
 
-## Die Mnemonic-Phrase
+## Die mnemonische Phrase
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
 
 :::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
-Die Mnemonic-Phrase, auch bekannt als "Seed-Phrase", "Wiederherstellungsphrase", "Geheimphrase" oder "24-Word-Phrase", ist eine Sequenz, die üblicherweise aus 12 oder 24 Wörtern besteht und aus Entropie generiert wird. Sie wird verwendet, um deterministisch alle Schlüssel einer HD-Wallet abzuleiten. Das bedeutet, dass aus dieser Phrase alle privaten und öffentlichen Schlüssel der Bitcoin-Wallet deterministisch generiert und rekonstruiert werden können und somit Zugang zu den damit geschützten Geldern ermöglicht wird. Der Zweck der Mnemonic-Phrase besteht darin, ein Mittel zur Sicherung und Wiederherstellung von Bitcoin zu bieten, das sowohl sicher als auch einfach zu verwenden ist. Sie wurde 2013 mit BIP39 in Standards eingeführt.
-Lassen du uns gemeinsam entdecken, wie man von Entropie zu einer Mnemonic-Phrase gelangt.
+Die mnemonische Phrase, auch bekannt als "Seed-Phrase", "Wiederherstellungsphrase", "Geheimphrase" oder "24-Word-Phrase", ist eine Sequenz, die üblicherweise aus 12 oder 24 Wörtern besteht und aus Entropie generiert wird. Sie wird verwendet, um deterministisch alle Schlüssel einer HD-Wallet abzuleiten. Das bedeutet, dass aus dieser Phrase alle privaten und öffentlichen Schlüssel der Bitcoin-Wallet deterministisch generiert und rekonstruiert werden können und somit Zugang zu den damit geschützten Geldern ermöglicht wird. Der Zweck der mnemonischen Phrase besteht darin, ein Mittel zur Sicherung und Wiederherstellung von Bitcoin zu bieten, das sowohl sicher als auch einfach zu verwenden ist. Sie wurde 2013 mit BIP39 in Standards eingeführt.
+Lass uns gemeinsam entdecken, wie man von Entropie zu einer mnemonischen Phrase gelangt.
 
 ### Die Prüfsumme
 
-Um Entropie in eine Mnemonic-Phrase umzuwandeln, muss zunächst eine Prüfsumme (oder "Kontrollsumme") am Ende der Entropie hinzugefügt werden. Diese Prüfsumme ist eine kurze Bitsequenz, die die Integrität der Daten sicherstellt, indem sie überprüft, ob keine zufällige Modifikation eingeführt wurde.
+Um Entropie in eine mnemonischen Phrase umzuwandeln, muss zunächst eine Prüfsumme (oder "Kontrollsumme") am Ende der Entropie hinzugefügt werden. Diese Prüfsumme ist eine kurze Bitsequenz, die die Integrität der Daten sicherstellt, indem sie überprüft, ob keine zufällige Modifikation eingeführt wurde.
 
 Um die Prüfsumme zu berechnen, wird die SHA256-Hashfunktion einmalig auf die Entropie angewendet (dies ist einer der seltenen Fälle bei Bitcoin, in denen ein einzelner SHA256-Hash anstelle eines doppelten Hashs verwendet wird). Diese Operation produziert einen 256-Bit-Hash. Die Prüfsumme besteht aus den ersten Bits dieses Hashs, und ihre Länge hängt von der Länge der Entropie ab, gemäß der folgenden Formel:
 
@@ -1312,13 +1312,13 @@ Sobald die Prüfsumme berechnet ist, wird sie mit der Entropie verkettet, um ein
 
 ![CYP201](assets/en/041.webp)
 
-### Zusammenhang zwischen der Entropie und der Mnemonic-Phrase
+### Zusammenhang zwischen der Entropie und der mnemonischen Phrase
 
-Die Anzahl der Wörter in der Mnemonic-Phrase hängt von der Größe der anfänglichen Entropie ab, wie in der folgenden Tabelle dargestellt mit:
+Die Anzahl der Wörter in der mnemonischen Phrase hängt von der Größe der anfänglichen Entropie ab, wie in der folgenden Tabelle dargestellt mit:
 
 - $\text{ENT}$: die Größe in Bits der Entropie;
 - $\text{CS}$: die Größe in Bits der Prüfsumme;
-- $w$: die Anzahl der Wörter in der endgültigen Mnemonic-Phrase.
+- $w$: die Anzahl der Wörter in der endgültigen mnemonischen Phrase.
 
 $$
 \begin{array}{|c|c|c|c|}
@@ -1334,9 +1334,9 @@ $$
 \end{array}
 $$
 
-Beispielsweise ergibt eine 256-Bit-Entropie das Ergebnis $\text{ENT} \Vert \text{CS}$ von 264 Bits und führt zu einer Mnemonic-Phrase von 24 Wörtern.
+Beispielsweise ergibt eine 256-Bit-Entropie das Ergebnis $\text{ENT} \Vert \text{CS}$ von 264 Bits und führt zu einer mnemonischen Phrase von 24 Wörtern.
 
-### Umwandlung der Binärsequenz in eine Mnemonic-Phrase
+### Umwandlung der Binärsequenz in eine mnemonischen Phrase
 
 Die Bitsequenz $\text{ENT} \Vert \text{CS}$ wird dann in Segmente von 11 Bits unterteilt. Jedes 11-Bit-Segment, einmal in Dezimal umgewandelt, entspricht einer Zahl zwischen 0 und 2047, die die Position eines Wortes [in einer Liste von 2048 durch BIP39 standardisierten Wörtern](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) bezeichnet.
 
@@ -1356,12 +1356,12 @@ Dieser Zusammenhang wird für jedes der 12 Segmente wiederholt, um eine 12-Word-
 
 ### Merkmale der BIP39-Wortliste
 
-Eine Besonderheit der BIP39-Wortliste ist, dass kein Wort die gleichen ersten vier Buchstaben in derselben Reihenfolge wie ein anderes Wort teilt. Das bedeutet, dass es ausreicht, nur die ersten vier Buchstaben jedes Wortes zu notieren, um die Mnemonic-Phrase zu speichern. Dies kann interessant sein, um Platz zu sparen, insbesondere für diejenigen, die sie auf einem Metallträger eingravieren möchten.
+Eine Besonderheit der BIP39-Wortliste ist, dass kein Wort die gleichen ersten vier Buchstaben in derselben Reihenfolge wie ein anderes Wort teilt. Das bedeutet, dass es ausreicht, nur die ersten vier Buchstaben jedes Wortes zu notieren, um die mnemonische Phrase zu speichern. Dies kann interessant sein, um Platz zu sparen, insbesondere für diejenigen, die sie auf einem Metallträger eingravieren möchten.
 
 Diese Liste von 2048 Wörtern existiert in mehreren Sprachen. Es handelt sich dabei nicht um einfache Übersetzungen, sondern um unterschiedliche Wörter für jede Sprache. Es wird jedoch dringend empfohlen, bei der englischen Version zu bleiben, da Versionen in anderen Sprachen im Allgemeinen nicht von Wallet-Software unterstützt werden.
 
-### Welche Länge sollte man für seine Mnemonic-Phrase wählen?
-Um die optimale Länge deiner Mnemonic-Phrase zu bestimmen, muss man die tatsächliche Sicherheit berücksichtigen, die sie bietet. Eine 12-Wort-Phrase gewährleistet 128 Bits an Sicherheit, während eine 24-Wort-Phrase 256 Bits bietet.
+### Welche Länge sollte man für seine mnemonische Phrase wählen?
+Um die optimale Länge deiner mnemonischen Phrase zu bestimmen, muss man die tatsächliche Sicherheit berücksichtigen, die sie bietet. Eine 12-Wort-Phrase gewährleistet 128 Bits an Sicherheit, während eine 24-Wort-Phrase 256 Bits bietet.
 
 Allerdings verbessert dieser Unterschied in der Phrasen-Sicherheit nicht die Gesamtsicherheit einer Bitcoin-Wallet, da die daraus abgeleiteten privaten Schlüssel nur von 128 Bits an Sicherheit profitieren. Tatsächlich, wie wir zuvor gesehen haben, werden private Bitcoin-Schlüssel aus Zufallszahlen (oder von einer zufälligen Quelle abgeleitet) generiert, die zwischen $1$ und $n-1$ liegen, wobei $n$ die Ordnung des Generatorpunkts $G$ der secp256k1-Kurve darstellt, eine Zahl, die etwas weniger als $2^{256}$ beträgt. Man könnte daher denken, dass diese privaten Schlüssel 256 Bits an Sicherheit bieten. Ihre Sicherheit liegt jedoch in der Schwierigkeit, einen privaten Schlüssel aus seinem zugehörigen öffentlichen Schlüssel zu finden, eine Schwierigkeit, die durch das mathematische Problem des diskreten Logarithmus auf elliptischen Kurven (*ECDLP*) festgelegt ist. Bis heute ist der bekannteste Algorithmus zur Lösung dieses Problems Pollards Rho-Algorithmus, der die Anzahl der Operationen, die benötigt werden, um einen Schlüssel zu brechen, auf die Quadratwurzel seiner Größe reduziert.
 
@@ -1378,44 +1378,44 @@ Daher wird angenommen, dass ein privater Schlüssel, der bei Bitcoin verwendet w
 
 Folglich bietet die Wahl einer 24-Word-Phrase keinen zusätzlichen Schutz für die Wallet, da 256 Bits an Sicherheit bei der Phrase sinnlos sind, wenn die daraus abgeleiteten Schlüssel nur 128 Bits an Sicherheit bieten. Um dieses Prinzip zu veranschaulichen, ist es, als hätte man ein Haus mit zwei Türen: eine alte Holztür und eine verstärkte Tür. Im Falle eines Einbruchs wäre die verstärkte Tür nutzlos, da der Eindringling durch die Holztür gehen würde. Hier liegt eine analoge Situation vor.
 Ein 12-Wort-Phrase, die auch 128 Bit an Sicherheit bietet, ist daher derzeit ausreichend, um deine Bitcoins gegen jeden Diebstahlversuch zu schützen. Solange der digitale Signaturalgorithmus nicht geändert wird, um größere Schlüssel zu verwenden oder sich auf ein anderes mathematisches Problem als das ECDLP zu stützen, bleibt eine 24-Wort-Phrase überflüssig. Darüber hinaus erhöht eine längere Phrase das Risiko eines Verlusts während der Sicherung: Eine Sicherung, die halb so lang ist, ist immer einfacher zu verwalten.
-Um weiter zu gehen und konkret zu lernen, wie man manuell eine Test-Mnemonic-Phrase generiert, rate ich dir, dieses Tutorial zu entdecken:
+Um weiter zu gehen und konkret zu lernen, wie man manuell eine mnemonische Testphrase generiert, rate ich dir, dieses Tutorial zu abzuschauen:
 
 https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
-Bevor wir mit der Ableitung der Wallet aus dieser Mnemonic-Phrase fortfahren, werde ich dir im folgenden Kapitel die BIP39-Passphrase vorstellen, da sie eine Rolle im Ableitungsprozess spielt und sie sich auf derselben Ebene wie die Mnemonic-Phrase befindet.
+Bevor wir mit der Ableitung der Wallet aus dieser mnemonischen Phrase fortfahren, werde ich dir im folgenden Kapitel die BIP39-Passphrase vorstellen, da sie eine Rolle im Ableitungsprozess spielt und sie sich auf derselben Ebene wie die mnemonische Phrase befindet.
 
 ## Die Passphrase
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
 
 :::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
-Wie wir gerade gesehen haben, werden HD-Wallets aus einer Mnemonic-Phrase generiert, die typischerweise aus 12 oder 24 Wörtern besteht. Diese Phrase ist sehr wichtig, da sie die Wiederherstellung aller Schlüssel einer Wallet ermöglicht, falls dessen physisches Gerät (wie zum Beispiel ein Hardware-Wallet) verloren geht. Allerdings stellt sie einen einzigen Ausfallpunkt dar, denn wenn sie kompromittiert wird, könnte ein Angreifer alle Bitcoin stehlen. Hier kommt die BIP39-Passphrase ins Spiel.
+Wie wir gerade gesehen haben, werden HD-Wallets aus einer mnemonischen Phrase generiert, die typischerweise aus 12 oder 24 Wörtern besteht. Diese Phrase ist sehr wichtig, da sie die Wiederherstellung aller Schlüssel einer Wallet ermöglicht, falls dessen physisches Gerät (wie zum Beispiel ein Hardware-Wallet) verloren geht. Allerdings stellt sie einen einzigen Ausfallpunkt dar, denn wenn sie kompromittiert wird, könnte ein Angreifer alle Bitcoin stehlen. Hier kommt die BIP39-Passphrase ins Spiel.
 
 ### Was ist eine BIP39-Passphrase?
 
-Die Passphrase ist ein optionales Passwort, das du frei wählen kannst, das zur Mnemonic-Phrase im Schlüsselableitungsprozess hinzugefügt wird, um die Sicherheit der Wallet zu erhöhen.
+Die Passphrase ist ein optionales Passwort, das du frei wählen kannst, das zur mnemonischen Phrase im Schlüsselableitungsprozess hinzugefügt wird, um die Sicherheit der Wallet zu erhöhen.
 
 Achte darauf, die Passphrase nicht mit dem PIN-Code deiner Hardware-Wallet oder dem Passwort zu verwechseln, das verwendet wird, um den Zugang zu deiner Wallet auf deinem Computer freizuschalten. Im Gegensatz zu all diesen Elementen spielt die Passphrase eine Rolle in der Ableitung der Schlüssel deiner Wallet. **Das bedeutet, dass du ohne sie niemals in der Lage sein wirst, deine Bitcoins wiederherzustellen.**
 
-Die Passphrase arbeitet zusammen mit der Mnemonic-Phrase und modifiziert den Seed, aus dem die Schlüssel generiert werden. So kann selbst, wenn jemand deine 12- oder 24-Wort-Phrase erhält, ohne die Passphrase nicht auf deine Gelder zugreifen. Die Verwendung einer Passphrase erstellt im Wesentlichen eine neue Wallet mit unterschiedlichen Schlüsseln. Eine Modifikation (selbst eine geringfügige) der Passphrase wird ein andere Wallet generieren.
+Die Passphrase arbeitet zusammen mit der mnemonischen Phrase und modifiziert den Seed, aus dem die Schlüssel generiert werden. So kann selbst, wenn jemand deine 12- oder 24-Wort-Phrase erhält, ohne die Passphrase nicht auf deine Gelder zugreifen. Die Verwendung einer Passphrase erstellt im Wesentlichen eine neue Wallet mit unterschiedlichen Schlüsseln. Eine Modifikation (selbst eine geringfügige) der Passphrase wird ein andere Wallet generieren.
 
 ![CYP202](assets/en/046.webp)
 
-### Warum sollten du eine Passphrase verwenden?
+### Warum solltest du eine Passphrase verwenden?
 
-Die Passphrase ist willkürlich und kann jede vom Benutzer gewählte Zeichenkombination sein. Die Verwendung einer Passphrase bietet somit mehrere Vorteile. Zunächst reduziert sie alle Risiken, die mit dem Kompromittieren der Mnemonic-Phrase verbunden sind, indem sie einen zweiten Faktor zum Zugriff auf die Gelder erfordert (Einbruch, Zugang zu Ihrem Zuhause usw.).
+Die Passphrase ist willkürlich und kann jede vom Benutzer gewählte Zeichenkombination sein. Die Verwendung einer Passphrase bietet somit mehrere Vorteile. Zunächst reduziert sie alle Risiken, die mit dem Kompromittieren der mnemonischen Phrase verbunden sind, indem sie einen zweiten Faktor zum Zugriff auf die Gelder erfordert (Einbruch, Zugang zu deinem Zuhause usw.).
 
-Weiterhin kann sie strategisch verwendet werden, um eine Köder-Wallet zu erstellen, um physischen Zwängen zum Stehlen deiner Gelder wie dem berüchtigten "_$5 Schraubenschlüssel-Angriff_" zu begegnen. In diesem Szenario besteht die Idee darin, eine Wallet ohne Passphrase zu haben, die nur eine kleine Menge an Bitcoin enthält, genug, um einen potenziellen Aggressor zufriedenzustellen, während man eine versteckte Wallet hat. Diese letztere verwendet dieselbe Mnemonic-Phrase, ist aber mit einer zusätzlichen Passphrase gesichert.
+Weiterhin kann sie strategisch verwendet werden, um eine Köder-Wallet zu erstellen, um physischen Zwängen zum Stehlen deiner Gelder wie dem berüchtigten "_$5 Schraubenschlüssel-Angriff_" zu begegnen. In diesem Szenario besteht die Idee darin, eine Wallet ohne Passphrase zu haben, die nur eine kleine Menge an Bitcoin enthält, genug, um einen potenziellen Aggressor zufriedenzustellen, während man eine versteckte Wallet hat. Diese letztere verwendet dieselbe mnemonische Phrase, ist aber mit einer zusätzlichen Passphrase gesichert.
 Schließlich ist die Verwendung einer Passphrase interessant, wenn man die Zufälligkeit der Generierung des Seeds des HD-Wallets kontrollieren möchte.
 
 ### Wie wählt man eine gute Passphrase?
 
 Damit die Passphrase wirksam ist, muss sie ausreichend lang und zufällig sein. Wie bei einem starken Passwort empfehle ich, eine Passphrase zu wählen, die so lang und zufällig wie möglich ist, mit einer Vielfalt an Buchstaben, Zahlen und Symbolen, um jeden Brute-Force-Angriff unmöglich zu machen.
-Es ist ebenfalls wichtig, diese Passphrase ordnungsgemäß zu speichern, genauso wie die Mnemonic-Phrase. **Der Verlust bedeutet den Verlust des Zugangs zu deinen Bitcoin**. Ich rate dringend davon ab, sie sich nur zu merken, da dies das Risiko eines Verlusts unangemessen erhöht. Das Ideal ist, sie auf einem physischen Medium (Papier oder Metall) getrennt von der mnemonischen Phrase niederzuschreiben. Diese Sicherungskopie muss offensichtlich an einem anderen Ort als deine Mnemonic-Phrase aufbewahrt werden, um zu verhindern, dass beide gleichzeitig kompromittiert werden.
+Es ist ebenfalls wichtig, diese Passphrase ordnungsgemäß zu speichern, genauso wie die mnemonische Phrase. **Der Verlust bedeutet den Verlust des Zugangs zu deinen Bitcoin**. Ich rate dringend davon ab, sie sich nur zu merken, da dies das Risiko eines Verlusts unangemessen erhöht. Das Ideal ist, sie auf einem physischen Medium (Papier oder Metall) getrennt von der mnemonischen Phrase niederzuschreiben. Diese Sicherungskopie muss offensichtlich an einem anderen Ort als deine mnemonische Phrase aufbewahrt werden, um zu verhindern, dass beide gleichzeitig kompromittiert werden.
 
 ![CYP201](assets/en/047.webp)
 
-Im folgenden Abschnitt werden wir entdecken, wie diese beiden Elemente an der Basis deiner Wallet – die Mnemonic-Phrase und die Passphrase – verwendet werden, um die Schlüsselpaare abzuleiten, die in dem *scriptPubKey* verwendet werden, um deine UTXOs zu sperren.
+Im folgenden Abschnitt werden wir entdecken, wie diese beiden Elemente an der Basis deiner Wallet – die mnemonische Phrase und die Passphrase – verwendet werden, um die Schlüsselpaare abzuleiten, die in dem *scriptPubKey* verwendet werden, um deine UTXOs zu sperren.
 
 # Erstellung von Bitcoin-Wallets
 <partId>9c25e767-7eae-50b8-8c5f-679d8fc83bab</partId>
@@ -1425,15 +1425,15 @@ Im folgenden Abschnitt werden wir entdecken, wie diese beiden Elemente an der Ba
 
 :::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
 
-Sobald die Mnemonic-Phrase und die optionale Passphrase generiert sind, kann der Prozess der Ableitung einer Bitcoin-HD-Wallet beginnen. Die Mnemonic-Phrase wird zunächst in einen Seed umgewandelt, der die Basis aller Schlüssel der Wallet bildet.
+Sobald die mnemonische Phrase und die optionale Passphrase generiert sind, kann der Prozess der Ableitung einer Bitcoin-HD-Wallet beginnen. Die mnemonische Phrase wird zunächst in einen Seed umgewandelt, der die Basis aller Schlüssel der Wallet bildet.
 
 ![CYP201](assets/en/048.webp)
 
 ### Der Seed einer HD-Wallet
 
-Der BIP39-Standard definiert den Seed als eine 512-Bit-Sequenz, die als Ausgangspunkt für die Ableitung aller Schlüssel einer HD-Wallet dient. Der Seed wird aus der Mnemonic-Phrase und der möglichen Passphrase unter Verwendung des **PBKDF2**-Algorithmus (*Password-Based Key Derivation Function 2*) abgeleitet, den wir bereits in Kapitel 3.3 besprochen haben. In dieser Ableitungsfunktion werden wir die folgenden Parameter verwenden:
+Der BIP39-Standard definiert den Seed als eine 512-Bit-Sequenz, die als Ausgangspunkt für die Ableitung aller Schlüssel einer HD-Wallet dient. Der Seed wird aus der mnemonischen Phrase und der möglichen Passphrase unter Verwendung des **PBKDF2**-Algorithmus (*Password-Based Key Derivation Function 2*) abgeleitet, den wir bereits in Kapitel 3.3 besprochen haben. In dieser Ableitungsfunktion werden wir die folgenden Parameter verwenden:
 
-- $m$ : die Mnemonic-Phrase;
+- $m$ : die mnemonischen Phrase;
 - $p$ : eine optionale Passphrase, die vom Benutzer gewählt wird, um die Sicherheit des Seeds zu erhöhen. Wenn keine Passphrase vorhanden ist, bleibt dieses Feld leer;
 - $\text{PBKDF2}$ : die Ableitungsfunktion mit $\text{HMAC-SHA512}$ und $2048$ Iterationen;
 - $s$: der 512-Bit-Wallet-Seed.
@@ -1442,7 +1442,7 @@ Unabhängig von der gewählten Länge der mnemonischen Phrase (132 Bits oder 264
 
 ### Seed-Ableitungsschema mit PBKDF2
 
-Die folgende Gleichung veranschaulicht die Ableitung des Seeds aus der Mnemonic-Phrase und der Passphrase:
+Die folgende Gleichung veranschaulicht die Ableitung des Seeds aus der mnemonischen Phrase und der Passphrase:
 
 
 $$
@@ -1453,9 +1453,9 @@ $$
 
 ![CYP201](assets/en/049.webp)
 
-Der Wert des Seeds wird also durch den Wert der Mnemonic-Phrase und der Passphrase beeinflusst. Durch Ändern der Passphrase wird ein anderer Seed erhalten. Jedoch wird mit derselben mnemonischen Phrase und Passphrase immer derselbe Seed generiert, da PBKDF2 eine deterministische Funktion ist. Dies stellt sicher, dass dieselben Schlüsselpaare über unsere Backups abgerufen werden können.
+Der Wert des Seeds wird also durch den Wert der mnemonischen Phrase und der Passphrase beeinflusst. Durch Ändern der Passphrase wird ein anderer Seed erhalten. Jedoch wird mit derselben mnemonischen Phrase und Passphrase immer derselbe Seed generiert, da PBKDF2 eine deterministische Funktion ist. Dies stellt sicher, dass dieselben Schlüsselpaare über unsere Backups abgerufen werden können.
 
-**Hinweis:** Im allgemeinen Sprachgebrauch bezieht sich der Begriff "Seed" oft, durch Sprachmissbrauch, auf die Mnemonic-Phrase. Tatsächlich ist in Abwesenheit einer Passphrase das eine einfach die Kodierung des anderen. Wie wir jedoch gesehen haben, sind in der technischen Realität von Wallets der Seed und die Mnemonic-Phrase tatsächlich zwei unterschiedliche Elemente.
+**Hinweis:** Im allgemeinen Sprachgebrauch bezieht sich der Begriff "Seed" oft, durch Sprachmissbrauch, auf die mnemonische Phrase. Tatsächlich ist in Abwesenheit einer Passphrase das eine einfach die Kodierung des anderen. Wie wir jedoch gesehen haben, sind in der technischen Realität von Wallets der Seed und die mnemonische Phrase tatsächlich zwei unterschiedliche Elemente.
 
 Jetzt, da wir unseren Seed haben, können wir mit der Ableitung unserer Bitcoin-Wallet fortfahren.
 
@@ -1809,7 +1809,7 @@ K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & 
 \end{array}
 $$
 
-Zusammengefasst hast du bisher gelernt, die grundlegenden Elemente einer HD-Wallet zu erstellen: die Mnemonic-Phrase, den Seed und dann den Master-Schlüssel und den Master-Chain-Code. Du hast auch entdeckt, wie man in diesem Kapitel Kind-Schlüsselpaare ableitet. Im nächsten Kapitel werden wir erforschen, wie diese Ableitungen in Bitcoin-Wallets organisiert sind und welche Struktur zu befolgen ist, um konkret die Empfangsadressen sowie die Schlüsselpaare, die im *scriptPubKey* und *scriptSig* verwendet werden, zu erhalten.
+Zusammengefasst hast du bisher gelernt, die grundlegenden Elemente einer HD-Wallet zu erstellen: die mnemonische Phrase, den Seed und dann den Master-Schlüssel und den Master-Chain-Code. Du hast auch entdeckt, wie man in diesem Kapitel Kind-Schlüsselpaare ableitet. Im nächsten Kapitel werden wir erforschen, wie diese Ableitungen in Bitcoin-Wallets organisiert sind und welche Struktur zu befolgen ist, um konkret die Empfangsadressen sowie die Schlüsselpaare, die im *scriptPubKey* und *scriptSig* verwendet werden, zu erhalten.
 
 ## Wallet-Struktur und Ableitungspfade
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
@@ -1909,9 +1909,9 @@ Im nächsten Kapitel werden wir entdecken, was "*Output Script Descriptors*" sin
 
 :::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
 
-Oft wird gesagt, dass die Mnemonic-Phrase allein ausreicht, um den Zugang zu einer Wallet wiederherzustellen. In Wirklichkeit sind die Dinge ein wenig komplexer. Im vorherigen Kapitel haben wir uns die Ableitungsstruktur einer HD-Wallet angesehen, und du hasat vielleicht bemerkt, dass dieser Prozess ziemlich komplex ist. Ableitungspfade zeigen der Software, welche Richtung sie verfolgen soll, um die Schlüssel des Benutzers abzuleiten. Wenn man jedoch eine Bitcoin-Wallet wiederherstellen möchte und diese Pfade nicht kennt, reicht die Mnemonic-Phrase allein nicht aus. Sie ermöglicht es, den Master-Schlüssel und den Master-Chain-Code zu erhalten, aber es ist dann notwendig, die Indizes zu kennen, die verwendet wurden, um die Kind-Schlüssel zu erreichen.
+Oft wird gesagt, dass die mnemonische Phrase allein ausreicht, um den Zugang zu einer Wallet wiederherzustellen. In Wirklichkeit sind die Dinge ein wenig komplexer. Im vorherigen Kapitel haben wir uns die Ableitungsstruktur einer HD-Wallet angesehen, und du hasat vielleicht bemerkt, dass dieser Prozess ziemlich komplex ist. Ableitungspfade zeigen der Software, welche Richtung sie verfolgen soll, um die Schlüssel des Benutzers abzuleiten. Wenn man jedoch eine Bitcoin-Wallet wiederherstellen möchte und diese Pfade nicht kennt, reicht die mnemonische Phrase allein nicht aus. Sie ermöglicht es, den Master-Schlüssel und den Master-Chain-Code zu erhalten, aber es ist dann notwendig, die Indizes zu kennen, die verwendet wurden, um die Kind-Schlüssel zu erreichen.
 
-Theoretisch wäre es notwendig, nicht nur die Mnemonic-Phrase unserer Wallet zu speichern, sondern auch die Pfade zu den Konten, die wir verwenden. In der Praxis ist es oft möglich, ohne diese Informationen wieder Zugang zu den Kind-Schlüsseln zu erhalten, vorausgesetzt, die Standards wurden eingehalten. Indem man jeden Standard einzeln testet, ist es im Allgemeinen möglich, wieder Zugang zu den Bitcoin zu erhalten. Dies ist jedoch nicht garantiert und besonders kompliziert für Anfänger. Auch mit der Diversifizierung der Skripttypen und dem Aufkommen komplexerer Konfigurationen könnten diese Informationen schwer zu extrapolieren sein, wodurch diese Daten zu privaten Informationen werden und schwer durch Brute-Force zu erraten sind. Deshalb wurde kürzlich eine Innovation eingeführt und beginnt, in deine bevorzugte Wallet-Software integriert zu werden: die *Output Script Descriptors*.
+Theoretisch wäre es notwendig, nicht nur die mnemonische Phrase unserer Wallet zu speichern, sondern auch die Pfade zu den Konten, die wir verwenden. In der Praxis ist es oft möglich, ohne diese Informationen wieder Zugang zu den Kind-Schlüsseln zu erhalten, vorausgesetzt, die Standards wurden eingehalten. Indem man jeden Standard einzeln testet, ist es im Allgemeinen möglich, wieder Zugang zu den Bitcoin zu erhalten. Dies ist jedoch nicht garantiert und besonders kompliziert für Anfänger. Auch mit der Diversifizierung der Skripttypen und dem Aufkommen komplexerer Konfigurationen könnten diese Informationen schwer zu extrapolieren sein, wodurch diese Daten zu privaten Informationen werden und schwer durch Brute-Force zu erraten sind. Deshalb wurde kürzlich eine Innovation eingeführt und beginnt, in deine bevorzugte Wallet-Software integriert zu werden: die *Output Script Descriptors*.
 
 ### Was ist ein "Descriptor"?
 

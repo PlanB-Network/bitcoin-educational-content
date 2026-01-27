@@ -942,20 +942,19 @@ Nel percorso verso l'adozione finale, un'idea passa di solito attraverso diverse
 - L'idea è stata formalizzata in una proposta di miglioramento di  Bitcoin (BIP).
 - Il BIP è implementato in una pull request (PR) a Bitcoin Core.
 - Vengono discussi i meccanismi di distribuzione.
-- Alcuni meccanismi di distribuzione alternativi sono stati implementati nelle pull request a Bitcoin Core.
+- Alcuni meccanismi di distribuzione sono stati implementati nelle pull request da Bitcoin Core.
 - Le pull request vengono integrate al ramo master.
 - Gli utenti scelgono se utilizzare o meno il software.
 
-In ognuna di queste fasi, persone con punti di vista e background diversi esaminano le informazioni disponibili, che si tratti del codice sorgente, di un BIP o di un'idea vagamente descritta. Le fasi di solito non vengono eseguite in modo rigoroso dall'alto verso il basso, anzi, possono verificarsi più fasi contemporaneamente e a volte si va avanti e indietro tra di esse. Chiuque può fornire feedback durante le varie fasi.
+In ciascuna di queste fasi, persone con punti di vista e competenze diverse esaminano le informazioni disponibili, che si tratti del codice sorgente, di un BIP o di un'idea ancora non ben definita. Le fasi, inoltre, non si susseguono in modo rigido o lineare: possono svolgersi in parallelo e, talvolta, si procede avanti e indietro tra di esse. Chiunque può fornire feedback nel corso delle varie fasi.
 
-Uno dei revisori di codice più prolifici di Bitcoin Core è Jon Atack. Ha scritto [un post sul suo blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) su come revisionare le pull request in Bitcoin Core. Sottolinea che un buon revisore di codice si concentra sul modo migliore per aggiungere valore.
+Uno degli revisori di codice più prolifici di Bitcoin Core è Jon Atack. Ha scritto [un post sul suo blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) su come revisionare le pull request in Bitcoin Core. Sottolinea che un buon revisore di codice si concentra sul miglior modo per aggiungere valore.
 
 > Come nuovo arrivato, l'obiettivo è cercare di aggiungere valore, con cordialità e umiltà, imparando il più possibile.
 >
+> Un buon approccio è non concentrarsi su se stessi, ma chiedersi, "Come posso essere più utile?"
 
-> Un buon approccio consiste nel far sì che non si parli di voi, ma piuttosto di "Come posso servire al meglio?"
-
-Egli sottolinea il fatto che la revisione è un fattore veramente limitante nel Bitcoin Core. Molte buone idee rimangono bloccate in un limbo in cui non avviene alcuna revisione, in attesa. Si noti che la revisione non è solo vantaggiosa per Bitcoin, ma è anche un ottimo modo per imparare a conoscere il software e allo stesso tempo fornirgli valore. La regola empirica di Atack è quella di esaminare 5-15 PR prima di fare un proprio PR. Anche in questo caso, l'attenzione deve essere rivolta a come servire al meglio la community, non a come ottenere la fusione del proprio codice. Inoltre, sottolinea l'importanza di fare la revisione al giusto livello: è il momento di fare i conti con i refusi e gli errori di battitura, o lo sviluppatore ha bisogno di una revisione più concettuale? Jon Attack aggiunge:
+Jon sottolinea il fatto che la revisione è un fattore veramente limitante in Bitcoin Core. Molte buone idee rimangono bloccate in un limbo, in attesa di essere revisionate. Va notato che la revisione non è solo utile a Bitcoin, è anche un ottimo modo per imparare a conoscere il software offrendo al contempo un contributo concreto. La regola empirica di Atack è quella di esaminare 5-15 PR prima di fare un proprio PR. Anche in questo caso, l'attenzione deve essere rivolta a come servire al meglio la community, non a come ottenere l'integrazione del proprio codice. Inoltre, sottolinea l'importanza di fare la revisione al giusto livello: è il momento di fare i conti con i refusi e gli errori di battitura, o lo sviluppatore ha bisogno di una revisione più concettuale? Jon aggiunge:
 
 > Una prima domanda utile quando si inizia una revisione può essere: "Che cosa è più necessario qui in questo momento?" Rispondere a questa domanda richiede esperienza e un contesto accumulato, ma è una domanda utile per decidere come aggiungere il massimo valore nel minor tempo possibile.
 

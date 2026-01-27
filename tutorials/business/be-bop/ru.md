@@ -1026,14 +1026,15 @@ be-BOP также предлагает полную интеграцию с **St
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Цель                 | Тег для вставки                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Отобразить продукт      | `[Product=slug?display=img-1]`        |
+| Отобразить изображение       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Интегрировать ползунок       | `[Slider=slug?autoplay=3000]`         |
+| Добавить вызов     | `[Challenge=slug]`                    |
+| Добавить обратный отсчет | `[Countdown=slug]`                 |
+| Интегрировать форму   | `[Form=slug]`                         |
 
 **Текущие параметры**:
 
@@ -1815,14 +1816,15 @@ URL `/pos/session` предназначен для **вторичного экр
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Функция                         | Описание                                             |
+|----------------------------------|---------------------------------------------------------|
+| Роль POS                         | Назначено через ARM                                         |
+| Главный интерфейс             | `/pos` или `/pos/touch`                                 |
+| Дисплей покупателя (экран 2)       | `/pos/session`                                         |
+| Платёж                         | Наличные, карта, Lightning и т.д.                         |
+| Добавление продукта                    | Псевдоним или сканирование штрих-кода                              |
+| Скидки / НДС                    | С обязательным управленческим обоснованием              |
 
 Спасибо, что внимательно следили за этим руководством.

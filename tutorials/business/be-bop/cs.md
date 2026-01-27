@@ -1026,14 +1026,15 @@ V obsahu stránek CMS používejte **šortkové kódy**:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Cíl                 | Značka k vložení                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Zobrazit produkt      | `[Product=slug?display=img-1]`        |
+| Zobrazit obrázek       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integrovat posuvník       | `[Slider=slug?autoplay=3000]`         |
+| Přidat výzvu     | `[Challenge=slug]`                    |
+| Přidat odpočet | `[Countdown=slug]`                 |
+| Integrovat formulář   | `[Form=slug]`                         |
 
 **Aktuální parametry**:
 
@@ -1815,14 +1816,15 @@ Plakát:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funkce                         | Popis                                             |
+|----------------------------------|---------------------------------------------------------|
+| Role POS                         | Přiřazeno prostřednictvím ARM                                         |
+| Hlavní rozhraní             | `/pos` nebo `/pos/touch`                                 |
+| Zobrazení klienta (obrazovka 2)       | `/pos/session`                                         |
+| Platba                         | Hotovost, karta, Lightning atd.                         |
+| Přidání produktu                    | Alias nebo skenování čárového kódu                              |
+| Slevy / DPH                    | S povinným manažerským zdůvodněním              |
 
 Děkujeme, že jste pečlivě sledovali tento návod.

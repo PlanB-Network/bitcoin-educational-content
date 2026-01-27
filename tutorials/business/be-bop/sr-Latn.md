@@ -1026,14 +1026,15 @@ Koristite **shortcodes** u sadržaju vaših CMS stranica:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Cilj                 | Oznaka za Umetanje                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Prikazivanje proizvoda      | `[Product=slug?display=img-1]`        |
+| Prikazivanje slike       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integracija klizača       | `[Slider=slug?autoplay=3000]`         |
+| Dodavanje izazova     | `[Challenge=slug]`                    |
+| Dodavanje odbrojavanje | `[Countdown=slug]`                 |
+| Integracija obriza   | `[Form=slug]`                         |
 
 **Trenutni parametri**:
 
@@ -1815,14 +1816,15 @@ Poster:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funkcija                         | Opis                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS uloga                         | Dodeljena preko ARM                                         |
+| Glavni interfejs             | `/pos` ili `/pos/touch`                                 |
+| Prikaz kupca (ekran 2)       | `/pos/session`                                         |
+| Plaćanje                         | Gotovina, kartica, Lightning itd.                         |
+| Dodavanje proizvoda                    | Alias ili skeniranje barkoda                              |
+| Popusti / PDV                    | Sa obaveznim upravljivačkim opravdanjem              |
 
 Hvala što ste pažljivo pratili ovaj vodič.

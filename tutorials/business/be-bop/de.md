@@ -1026,14 +1026,15 @@ Verwenden Sie **Shortcodes** im Inhalt Ihrer CMS-Seiten:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Ziel                 | Einzufügendes Tag                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Produkt anzeigen      | `[Product=slug?display=img-1]`        |
+| Bild anzeigen       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Schieberegler integrieren       | `[Slider=slug?autoplay=3000]`         |
+| Herausforderung hinzufügen     | `[Challenge=slug]`                    |
+| Countdown hinzufügen | `[Countdown=slug]`                 |
+| Formular integrieren   | `[Form=slug]`                         |
 
 **Aktuelle Parameter**:
 
@@ -1815,14 +1816,15 @@ Poster:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funktion                         | Beschreibung                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS-Rolle                         | Zugewiesen über ARM                                         |
+| Hauptschnittstelle             | `/pos` oder `/pos/touch`                                 |
+| Kundenanzeige (Bildschirm 2)       | `/pos/session`                                         |
+| Zahlung                         | Bargeld, Karte, Lightning usw.                         |
+| Produktzusatz                    | Alias oder Barcodescanning                              |
+| Rabatte / MwSt.                    | Mit obligatorischer Managementbegründung              |
 
 Vielen Dank, dass Sie diese Anleitung aufmerksam verfolgt haben.

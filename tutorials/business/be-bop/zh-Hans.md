@@ -1026,14 +1026,15 @@ be-BOP还与**Stripe**完全集成，后者是最流行的在线支付平台之�
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| 目标                 | 要插入的标签                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| 显示产品      | `[Product=slug?display=img-1]`        |
+| 显示图像       | `[Picture=slug width=100 height=100 fit=contain]` |
+| 集成滑块       | `[Slider=slug?autoplay=3000]`         |
+| 添加挑战     | `[Challenge=slug]`                    |
+| 添加倒计时 | `[Countdown=slug]`                 |
+| 集成表单   | `[Form=slug]`                         |
 
 **当前参数** ：
 
@@ -1815,14 +1816,15 @@ URL `/pos/session`用于**辅助屏幕**（HDMI、平板电脑......）：
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| 功能                         | 描述                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS 角色                         | 通过 ARM 分配                                         |
+| 主界面             | `/pos` 或 `/pos/touch`                                 |
+| 客户显示（屏幕 2）       | `/pos/session`                                         |
+| 付款                         | 现金、卡、Lightning 等                         |
+| 产品添加                    | 别名或条形码扫描                              |
+| 折扣 / 增值税                    | 需强制性管理理由              |
 
 感谢您仔细阅读本教程。

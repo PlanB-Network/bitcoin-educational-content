@@ -1026,14 +1026,15 @@ CMSページのコンテンツに**ショートコード**を使用してくだ�
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| 目的                 | 挿入するタグ                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| 製品を表示する      | `[Product=slug?display=img-1]`        |
+| 画像を表示する       | `[Picture=slug width=100 height=100 fit=contain]` |
+| スライダーを統合する       | `[Slider=slug?autoplay=3000]`         |
+| チャレンジを追加する     | `[Challenge=slug]`                    |
+| カウントダウンを追加する | `[Countdown=slug]`                 |
+| フォームを統合する   | `[Form=slug]`                         |
 
 **現在のパラメーター** ：
 
@@ -1815,14 +1816,15 @@ pos/session`のURLは、**セカンダリースクリーン**（HDMI、タブレ
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| 機能                         | 説明                                             |
+|----------------------------------|---------------------------------------------------------|
+| POSロール                         | ARMを通じて割り当てられる                                         |
+| メインインターフェース             | `/pos` または `/pos/touch`                                 |
+| 顧客表示（画面2）       | `/pos/session`                                         |
+| 支払い                         | 現金、カード、Lightning等                         |
+| 製品追加                    | エイリアスまたはバーコードスキャン                              |
+| 割引 / VAT                    | 必須の経営上の正当化付き              |
 
 このチュートリアルをよくお読みいただき、ありがとうございました。

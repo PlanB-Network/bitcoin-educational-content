@@ -1026,14 +1026,15 @@ be-BOP ยังมีการผสานรวมอย่างเต็ม�
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| วัตถุประสงค์                 | แท็กที่จะแทรก                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| แสดงผลิตภัณฑ์      | `[Product=slug?display=img-1]`        |
+| แสดงภาพ       | `[Picture=slug width=100 height=100 fit=contain]` |
+| รวมตัวเลื่อน       | `[Slider=slug?autoplay=3000]`         |
+| เพิ่มความท้าทาย     | `[Challenge=slug]`                    |
+| เพิ่มการนับถอยหลัง | `[Countdown=slug]`                 |
+| รวมแบบฟอร์ม   | `[Form=slug]`                         |
 
 **Current parameters**:
 
@@ -1815,14 +1816,15 @@ URL `/pos/session` ถูกออกแบบมาสำหรับ **หน�
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| ฟังก์ชัน                         | คำอธิบาย                                             |
+|----------------------------------|---------------------------------------------------------|
+| บทบาท POS                         | กำหนดผ่าน ARM                                         |
+| อินเทอร์เฟซหลัก             | `/pos` หรือ `/pos/touch`                                 |
+| จอแสดงผลลูกค้า (หน้าจอ 2)       | `/pos/session`                                         |
+| การชำระเงิน                         | เงินสด การ์ด Lightning เป็นต้น                         |
+| การเพิ่มผลิตภัณฑ์                    | นามแฝงหรือการสแกนบาร์โค้ด                              |
+| ส่วนลด / ภาษีมูลค่าเพิ่ม                    | ด้วยการพิสูจน์ทางการจัดการที่บังคับ              |
 
 ขอบคุณที่ติดตามบทแนะนำนี้อย่างรอบคอบ

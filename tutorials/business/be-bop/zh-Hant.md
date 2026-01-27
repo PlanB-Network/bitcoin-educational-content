@@ -1026,14 +1026,15 @@ CMS 頁面對 .NET 和 .NET Framework 十分重要：
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| 目標                 | 要插入的標籤                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| 顯示產品      | `[Product=slug?display=img-1]`        |
+| 顯示圖像       | `[Picture=slug width=100 height=100 fit=contain]` |
+| 集成滑塊       | `[Slider=slug?autoplay=3000]`         |
+| 添加挑戰     | `[Challenge=slug]`                    |
+| 添加倒計時 | `[Countdown=slug]`                 |
+| 集成表單   | `[Form=slug]`                         |
 
 ** 目前參數** ：
 
@@ -1815,14 +1816,15 @@ URL `/pos/session`用於**次要螢幕** (HDMI、平板電腦...)：
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| 功能                         | 描述                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS 角色                         | 通過 ARM 分配                                         |
+| 主界面             | `/pos` 或 `/pos/touch`                                 |
+| 客户显示（屏幕 2）       | `/pos/session`                                         |
+| 付款                         | 現金、卡、Lightning 等                         |
+| 產品添加                    | 別名或條形碼掃描                              |
+| 折扣 / 增值稅                    | 需強制性管理理由              |
 
 感謝您仔細閱讀本教程。

@@ -1026,14 +1026,15 @@ CMS sayfalarınızın içeriğinde **kısa kodlar** kullanın:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Amaç                 | Eklenecek Etiket                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Ürünü Göster      | `[Product=slug?display=img-1]`        |
+| Resmi Göster       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Kaydırıcı Entegrasyonu       | `[Slider=slug?autoplay=3000]`         |
+| Zorluk Ekle     | `[Challenge=slug]`                    |
+| Geri Sayımı Ekle | `[Countdown=slug]`                 |
+| Formu Entegrasyonu   | `[Form=slug]`                         |
 
 **Mevcut parametreler**:
 
@@ -1815,14 +1816,15 @@ Poster:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| İşlev                         | Açıklama                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS Rolü                         | ARM aracılığıyla Atanır                                         |
+| Ana Arayüz             | `/pos` veya `/pos/touch`                                 |
+| Müşteri Görüntüleme (Ekran 2)       | `/pos/session`                                         |
+| Ödeme                         | Nakit, kart, Lightning vb.                         |
+| Ürün Ekleme                    | Takma ad veya Barkod Tarama                              |
+| İndirimler / KDV                    | Zorunlu Yönetim Gerekçesi ile              |
 
 Bu eğitimi dikkatle takip ettiğiniz için teşekkür ederiz.

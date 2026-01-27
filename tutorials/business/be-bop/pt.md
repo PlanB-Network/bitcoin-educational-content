@@ -1026,14 +1026,15 @@ Utilize **códigos de acesso** no conteúdo das suas páginas CMS:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Objetivo                 | Tag a Inserir                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Exibir um produto      | `[Product=slug?display=img-1]`        |
+| Exibir uma imagem       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integrar um controle deslizante       | `[Slider=slug?autoplay=3000]`         |
+| Adicionar um desafio     | `[Challenge=slug]`                    |
+| Adicionar uma contagem regressiva | `[Countdown=slug]`                 |
+| Integrar um formulário   | `[Form=slug]`                         |
 
 **Parâmetros actuais**:
 
@@ -1815,14 +1816,15 @@ Cartaz:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Função                         | Descrição                                             |
+|----------------------------------|---------------------------------------------------------|
+| Papel POS                         | Atribuído via ARM                                         |
+| Interface Principal             | `/pos` ou `/pos/touch`                                 |
+| Exibição do Cliente (Tela 2)       | `/pos/session`                                         |
+| Pagamento                         | Dinheiro, cartão, Lightning, etc.                         |
+| Adição de Produto                    | Alias ou leitura de código de barras                              |
+| Descontos / IVA                    | Com justificativa gerencial obrigatória              |
 
 Obrigado por seguir cuidadosamente este tutorial.

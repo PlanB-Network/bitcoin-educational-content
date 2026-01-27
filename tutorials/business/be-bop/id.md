@@ -1026,14 +1026,15 @@ Gunakan **kode pendek** dalam konten halaman CMS Anda:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Tujuan                 | Tag untuk Disisipkan                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Menampilkan produk      | `[Product=slug?display=img-1]`        |
+| Menampilkan gambar       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Mengintegrasikan slider       | `[Slider=slug?autoplay=3000]`         |
+| Menambahkan tantangan     | `[Challenge=slug]`                    |
+| Menambahkan hitung mundur | `[Countdown=slug]`                 |
+| Mengintegrasikan formulir   | `[Form=slug]`                         |
 
 **Parameter saat ini**:
 
@@ -1815,14 +1816,15 @@ Poster:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Fungsi                         | Deskripsi                                             |
+|----------------------------------|---------------------------------------------------------|
+| Peran POS                         | Ditugaskan melalui ARM                                         |
+| Antarmuka Utama             | `/pos` atau `/pos/touch`                                 |
+| Tampilan Pelanggan (Layar 2)       | `/pos/session`                                         |
+| Pembayaran                         | Tunai, kartu, Lightning, dll.                         |
+| Penambahan Produk                    | Alias atau pemindaian kode batang                              |
+| Diskon / PPN                    | Dengan justifikasi manajerial yang wajib              |
 
 Terima kasih telah mengikuti tutorial ini dengan saksama.

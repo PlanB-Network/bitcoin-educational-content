@@ -1026,14 +1026,15 @@ be-BOP همچنین ادغام کامل با **Stripe**، یکی از محبوب
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| هدف                 | برچسب درج کردن                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| نمایش محصول      | `[Product=slug?display=img-1]`        |
+| نمایش تصویر       | `[Picture=slug width=100 height=100 fit=contain]` |
+| یکپارچه سازی لغزنده       | `[Slider=slug?autoplay=3000]`         |
+| افزودن چالش     | `[Challenge=slug]`                    |
+| افزودن شمارش معکوس | `[Countdown=slug]`                 |
+| یکپارچه سازی فرم   | `[Form=slug]`                         |
 
 **پارامترهای فعلی**:
 
@@ -1815,14 +1816,15 @@ Be-BOP یک Interface اختصاصی برای فروش فیزیکی (فروشگ�
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| عملکرد                         | توضیح                                             |
+|----------------------------------|---------------------------------------------------------|
+| نقش نقطه فروش                         | اختصاص شده از طریق ARM                                         |
+| رابط اصلی             | `/pos` یا `/pos/touch`                                 |
+| نمایشگر مشتری (صفحه 2)       | `/pos/session`                                         |
+| پرداخت                         | نقد، کارت، Lightning و غیره                         |
+| اضافه کردن محصول                    | نام مستعار یا اسکن بارکد                              |
+| تخفیفات / مالیات بر ارزش افزوده                    | با توجیه مدیریتی اجباری              |
 
 از اینکه این آموزش را با دقت دنبال کردید متشکریم.

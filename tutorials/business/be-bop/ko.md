@@ -1026,14 +1026,15 @@ CMS 페이지 콘텐츠에 **숏코드**를 사용하세요:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| 목표                 | 삽입할 태그                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| 제품 표시      | `[Product=slug?display=img-1]`        |
+| 이미지 표시       | `[Picture=slug width=100 height=100 fit=contain]` |
+| 슬라이더 통합       | `[Slider=slug?autoplay=3000]`         |
+| 챌린지 추가     | `[Challenge=slug]`                    |
+| 카운트다운 추가 | `[Countdown=slug]`                 |
+| 양식 통합   | `[Form=slug]`                         |
 
 **현재 매개변수**:
 
@@ -1815,14 +1816,15 @@ URL `/pos/session`은 **보조 화면**(HDMI, 태블릿...)을 위한 것입니�
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| 기능                         | 설명                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS 역할                         | ARM을 통해 할당됨                                         |
+| 주 인터페이스             | `/pos` 또는 `/pos/touch`                                 |
+| 고객 디스플레이 (화면 2)       | `/pos/session`                                         |
+| 결제                         | 현금, 카드, Lightning 등                         |
+| 제품 추가                    | 별칭 또는 바코드 스캔                              |
+| 할인 / VAT                    | 필수 경영상 정당화와 함께              |
 
 이 튜토리얼을 주의 깊게 따라주셔서 감사합니다.

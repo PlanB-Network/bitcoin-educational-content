@@ -1026,14 +1026,15 @@ be-BOP सबसे लोकप्रिय ऑनलाइन भुगता�
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| उद्देश्य                 | डालने के लिए टैग                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| उत्पाद प्रदर्शित करें      | `[Product=slug?display=img-1]`        |
+| छवि प्रदर्शित करें       | `[Picture=slug width=100 height=100 fit=contain]` |
+| स्लाइडर को एकीकृत करें       | `[Slider=slug?autoplay=3000]`         |
+| चुनौती जोड़ें     | `[Challenge=slug]`                    |
+| उल्टी गिनती जोड़ें | `[Countdown=slug]`                 |
+| फॉर्म को एकीकृत करें   | `[Form=slug]`                         |
 
 **वर्तमान पैरामीटर**:
 
@@ -1815,14 +1816,15 @@ URL `/pos/session` एक **द्वितीयक स्क्रीन** (HD
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| कार्य                         | विवरण                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS भूमिका                         | ARM के माध्यम से असाइन किया गया                                         |
+| मुख्य इंटरफेस             | `/pos` या `/pos/touch`                                 |
+| ग्राहक प्रदर्शन (स्क्रीन 2)       | `/pos/session`                                         |
+| भुगतान                         | नकद, कार्ड, Lightning आदि                         |
+| उत्पाद जोड़ना                    | उपनाम या बारकोड स्कैनिंग                              |
+| छूट / वैट                    | अनिवार्य प्रबंधकीय औचित्य के साथ              |
 
 इस ट्यूटोरियल का ध्यानपूर्वक पालन करने के लिए धन्यवाद।

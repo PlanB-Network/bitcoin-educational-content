@@ -1026,14 +1026,15 @@ Bruk **kortkoder** i innholdet på CMS-sidene dine:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Mål                 | Tag å Sette Inn                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Vise et produkt      | `[Product=slug?display=img-1]`        |
+| Vise et bilde       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integrere en glidebryter       | `[Slider=slug?autoplay=3000]`         |
+| Legge til en utfordring     | `[Challenge=slug]`                    |
+| Legge til en nedtelling | `[Countdown=slug]`                 |
+| Integrere et skjema   | `[Form=slug]`                         |
 
 **Gjeldende parametere**:
 
@@ -1815,14 +1816,15 @@ Plakat:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funksjon                         | Beskrivelse                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS-rolle                         | Tilordnet via ARM                                         |
+| Hovedgrensesnitt             | `/pos` eller `/pos/touch`                                 |
+| Kundedisplay (skjerm 2)       | `/pos/session`                                         |
+| Betaling                         | Kontanter, kort, Lightning osv.                         |
+| Produkttillegg                    | Alias eller strekkodeskanning                              |
+| Rabatter / mva                    | Med obligatorisk ledelsesmessig begrunnelse              |
 
 Takk for at du følger denne veiledningen nøye.

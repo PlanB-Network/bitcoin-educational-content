@@ -1026,14 +1026,15 @@ Använd **shortcodes** i innehållet på dina CMS-sidor:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Mål                 | Tagg att Infoga                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Visa en produkt      | `[Product=slug?display=img-1]`        |
+| Visa en bild       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integrera en skjutreglage       | `[Slider=slug?autoplay=3000]`         |
+| Lägg till en utmaning     | `[Challenge=slug]`                    |
+| Lägg till en nedräkning | `[Countdown=slug]`                 |
+| Integrera ett formulär   | `[Form=slug]`                         |
 
 **Aktuella parametrar**:
 
@@ -1815,14 +1816,15 @@ Poster:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funktion                         | Beskrivning                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS-roll                         | Tilldelad via ARM                                         |
+| Huvudgränssnitt             | `/pos` eller `/pos/touch`                                 |
+| Kunddisplay (skärm 2)       | `/pos/session`                                         |
+| Betalning                         | Kontanter, kort, Lightning osv.                         |
+| Produkttillägg                    | Alias eller streckkodsskanning                              |
+| Rabatter / moms                    | Med obligatorisk ledningsbegäring              |
 
 Tack för att du följer denna handledning noggrant.

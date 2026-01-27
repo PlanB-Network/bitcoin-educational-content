@@ -1026,14 +1026,15 @@ Kasutage oma CMS-lehtede sisus **shortcodes**:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Eesmärk                 | Lisatav silt                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Toote kuvamine      | `[Product=slug?display=img-1]`        |
+| Pildi kuvamine       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Liuguri integreerimine       | `[Slider=slug?autoplay=3000]`         |
+| Väljakutse lisamine     | `[Challenge=slug]`                    |
+| Taandarvu lisamine | `[Countdown=slug]`                 |
+| Vormi integreerimine   | `[Form=slug]`                         |
 
 **Parameetrid**:
 
@@ -1815,14 +1816,15 @@ Plakat:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funktsioon                         | Kirjeldus                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS roll                         | Määratud ARM-i kaudu                                         |
+| Peamine liides             | `/pos` või `/pos/touch`                                 |
+| Kliendi kuva (ekraan 2)       | `/pos/session`                                         |
+| Makse                         | Sularaha, kaart, Lightning jne.                         |
+| Toote lisamine                    | Pseudonüüm või vöötkoodi skaneerimine                              |
+| Allahindlused / käibemaks                    | Kohustusliku juhtimise põhjendusega              |
 
 Täname teid selle õpetuse hoolika jälgimise eest.

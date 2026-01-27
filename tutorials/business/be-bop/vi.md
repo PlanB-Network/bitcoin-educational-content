@@ -1026,14 +1026,15 @@ Sử dụng **mã ngắn** trong nội dung trang CMS của bạn:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Mục Tiêu                 | Thẻ để Chèn                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Hiển thị sản phẩm      | `[Product=slug?display=img-1]`        |
+| Hiển thị hình ảnh       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Tích hợp thanh trượt       | `[Slider=slug?autoplay=3000]`         |
+| Thêm thử thách     | `[Challenge=slug]`                    |
+| Thêm đếm ngược | `[Countdown=slug]`                 |
+| Tích hợp biểu mẫu   | `[Form=slug]`                         |
 
 **Thông số hiện tại**:
 
@@ -1815,14 +1816,15 @@ URL `/pos/session` dành cho **màn hình phụ** (HDMI, máy tính bảng...):
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Chức năng                         | Mô tả                                             |
+|----------------------------------|---------------------------------------------------------|
+| Vai trò POS                         | Được gán thông qua ARM                                         |
+| Giao diện chính             | `/pos` hoặc `/pos/touch`                                 |
+| Hiển thị khách hàng (Màn hình 2)       | `/pos/session`                                         |
+| Thanh toán                         | Tiền mặt, thẻ, Lightning, v.v.                         |
+| Thêm sản phẩm                    | Bí danh hoặc quét mã vạch                              |
+| Giảm giá / VAT                    | Với lý do quản lý bắt buộc              |
 
 Cảm ơn bạn đã làm theo hướng dẫn này một cách cẩn thận.

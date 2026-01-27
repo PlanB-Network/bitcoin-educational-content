@@ -1026,14 +1026,15 @@ Utilice **códigos cortos** en el contenido de sus páginas CMS:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Objetivo                 | Etiqueta a Insertar                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Mostrar un producto      | `[Product=slug?display=img-1]`        |
+| Mostrar una imagen       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integrar un deslizador       | `[Slider=slug?autoplay=3000]`         |
+| Agregar un desafío     | `[Challenge=slug]`                    |
+| Agregar una cuenta atrás | `[Countdown=slug]`                 |
+| Integrar un formulario   | `[Form=slug]`                         |
 
 **Parámetros actuales**:
 
@@ -1815,14 +1816,15 @@ Cartel:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Función                         | Descripción                                             |
+|----------------------------------|---------------------------------------------------------|
+| Rol POS                         | Asignado a través de ARM                                         |
+| Interfaz Principal             | `/pos` o `/pos/touch`                                 |
+| Pantalla del Cliente (Pantalla 2)       | `/pos/session`                                         |
+| Pago                         | Efectivo, tarjeta, Lightning, etc.                         |
+| Adición de Producto                    | Alias o escaneo de código de barras                              |
+| Descuentos / IVA                    | Con justificación gerencial obligatoria              |
 
 Gracias por seguir atentamente este tutorial.

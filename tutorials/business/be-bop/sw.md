@@ -1026,14 +1026,15 @@ Tumia **njia fupi** katika maudhui ya kurasa zako za CMS:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Lengo                 | Tagi ya Kuingiza                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Kuonyesha bidhaa      | `[Product=slug?display=img-1]`        |
+| Kuonyesha picha       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Kuunganisha kilinganisha       | `[Slider=slug?autoplay=3000]`         |
+| Kuongeza changamoto     | `[Challenge=slug]`                    |
+| Kuongeza hesabu ya chini | `[Countdown=slug]`                 |
+| Kuunganisha fomu   | `[Form=slug]`                         |
 
 **Vigezo vya sasa**:
 
@@ -1815,14 +1816,15 @@ Bango:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Kazi                         | Maelezo                                             |
+|----------------------------------|---------------------------------------------------------|
+| Jukumu la POS                         | Kutengana kupitia ARM                                         |
+| Kiolesura cha Mkuu             | `/pos` au `/pos/touch`                                 |
+| Onyesho la Mteja (Skrini 2)       | `/pos/session`                                         |
+| Malipo                         | Pesa, kadi, Lightning n.k.                         |
+| Kuongeza Bidhaa                    | Jina la jia au kusafishi barcode                              |
+| Punguzo / VAT                    | Wenye uthibitisho wa usimamizi unaohitajika              |
 
 Asante kwa kufuatilia mafunzo haya kwa makini.

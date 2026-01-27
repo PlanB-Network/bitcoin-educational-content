@@ -1026,14 +1026,15 @@ Koresha **amakode magufi** mu birimwo kuri paji zawe za CMS:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Icyo Mukama Yapaye                 | Ikirango cy'Ubwinjijwe                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Kwerekeza ibicuruzwa      | `[Product=slug?display=img-1]`        |
+| Kwerekeza ishusho       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Kwinjiza igikoresho cy'Ubwinjijwe       | `[Slider=slug?autoplay=3000]`         |
+| Kongeza ishingiro     | `[Challenge=slug]`                    |
+| Kongeza ubwayo-ubwayo | `[Countdown=slug]`                 |
+| Kwinjiza Ikirango   | `[Form=slug]`                         |
 
 **Ivyagezwe ubu**:
 
@@ -1815,14 +1816,15 @@ Icapa:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Ibikorwa                         | Insobanuro                                             |
+|----------------------------------|---------------------------------------------------------|
+| Urwego rw'ibicuruzwa                         | Rwaciye kuva kuri ARM                                         |
+| Inzira y'iyambere             | `/pos` canke `/pos/touch`                                 |
+| Igiceri cy'umukozi (Icara 2)       | `/pos/session`                                         |
+| Ikipimo                         | Amafaranga, ikarite, Lightning n'ibindi                         |
+| Kongeza ibicuruzwa                    | Izina ry'inzira canke gukurura igiceri                              |
+| Ikinini / Impitanzito                    | Hamwe n'ibyakozwe na nyir'inama              |
 
 Murakoze gukurikira neza iyi nyigisho.

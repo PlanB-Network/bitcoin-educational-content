@@ -1026,14 +1026,15 @@ Käytä CMS-sivujesi sisällössä **lyhytkoodeja**:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Tavoite                 | Lisättävä tunniste                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Tuotteen näyttäminen      | `[Product=slug?display=img-1]`        |
+| Kuvan näyttäminen       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Liukusäädin integroiminen       | `[Slider=slug?autoplay=3000]`         |
+| Haasteen lisääminen     | `[Challenge=slug]`                    |
+| Taaksepäin laskemisen lisääminen | `[Countdown=slug]`                 |
+| Lomakkeen integroiminen   | `[Form=slug]`                         |
 
 **Tämänhetkiset parametrit**:
 
@@ -1815,14 +1816,15 @@ Juliste:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Toiminto                         | Kuvaus                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS-rooli                         | Määritetty ARM-järjestelmän kautta                                         |
+| Pääliittymä             | `/pos` tai `/pos/touch`                                 |
+| Asiakkaan näyttö (näyttö 2)       | `/pos/session`                                         |
+| Maksu                         | Käteinen, kortti, Lightning jne.                         |
+| Tuotteen lisääminen                    | Alias tai viivakodin skannaus                              |
+| Alennukset / ALV                    | Pakollisella johdon perustelulla              |
 
 Kiitos, että seuraat tätä ohjetta huolellisesti.

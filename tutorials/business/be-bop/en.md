@@ -779,14 +779,15 @@ Examples of available widgets:
 Use **shortcodes** in the content of your CMS pages:
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Objective                 | Tag to Insert                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Display a product      | `[Product=slug?display=img-1]`        |
+| Display an image       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integrate a slider       | `[Slider=slug?autoplay=3000]`         |
+| Add a challenge     | `[Challenge=slug]`                    |
+| Add a countdown | `[Countdown=slug]`                 |
+| Integrate a form   | `[Form=slug]`                         |
 
 **Current parameters**:
 
@@ -1372,14 +1373,15 @@ Poster:
 ### POS summary
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Function                         | Description                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS Role                         | Assigned via ARM                                         |
+| Main Interface             | `/pos` or `/pos/touch`                                 |
+| Customer Display (Screen 2)       | `/pos/session`                                         |
+| Payment                         | Cash, card, Lightning, etc.                         |
+| Product Addition                    | Alias or barcode scanning                              |
+| Discounts / VAT                    | With mandatory managerial justification              |
 
 Thank you for following this tutorial carefully.

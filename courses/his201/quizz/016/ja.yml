@@ -1,4 +1,4 @@
-question: サトシ・ナカモトがビットコインホワイトペーパーで明示的に言及した電子マネーの概念は何ですか？
+question: サトシ・ナカモトがビットコイン・ホワイトペーパーで明示的に言及した電子マネーの概念は何ですか？
 answer: b-money (Wei Dai)
 wrong_answers:
   - bit gold (Nick Szabo)

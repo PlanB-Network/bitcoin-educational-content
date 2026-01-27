@@ -509,14 +509,15 @@ BTCPay Server comprende le seguenti funzionalità standard del wallet:
 
 Gli amministratori, nella vista delle transazioni, possono vedere le transazioni in entrata e in uscita del wallet on-chain collegato a questo specifico negozio. Ogni transazione ha una distinzione tra ricevute e invite, quelle ricevute saranno verdi e le altre saranno rosse. All'interno della vista delle transazioni di BTCPay Server, gli amministratori vedranno anche un insieme di etichette standard.
 
-| Tipo di Transazione | Descrizione                                                           |
-| ------------------- | --------------------------------------------------------------------- |
-| App                 | Il pagamento è stato ricevuto tramite un'invoice creata dall'app      |
-| invoice             | Il pagamento è stato ricevuto tramite un'invoice                      |
-| payjoin             | Non pagato, il timer dell'invoice non è ancora scaduto                |
-| payjoin-exposed     | Un UTXO è stato esposto tramite una proposta di payjoin dell'invoice  |
-| payment-request     | Il pagamento è stato ricevuto tramite una richiesta di pagamento      |
-| payout              | Il pagamento è stato inviato tramite un pagamento o un rimborso       |
+
+| Tipo di transazione | Descrizione                                     |
+| -------------------- | ----------------------------------------------- |
+| App                  | Il pagamento è stato ricevuto tramite una fattura creata da un'app |
+| Fattura              | Il pagamento è stato ricevuto tramite una fattura |
+| Payjoin              | Non pagato, il timer della fattura non è ancora scaduto |
+| Payjoin-esposto      | L'UTXO è stato esposto tramite una proposta payjoin nella fattura |
+| Richiesta di pagamento | Il pagamento è stato ricevuto tramite una richiesta di pagamento |
+| Pagamento             | Il pagamento è stato inviato tramite un pagamento o un rimborso |
 
 ### Come Inviare
 
@@ -1256,27 +1257,29 @@ Ogni tipo viene fornito con i suoi parametri da compilare. Il proprietario del n
 
 BTCPay Server consente anche di costruire moduli in codice, in paricolare in fomrato JSON. Invece di guardare l'editor, i proprietari di negozi possono cliccare sul pulsante CODICE accanto all'editor, accedendo al codice. In una definizione di campo, possono essere impostati solo i seguenti campi; i valori dei campi sono memorizzati nei metadati dell'invoice:
 
-| Campo                 | Descrizione                                                                                                                                                                                 |
-| --------------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   |
-| .fields.constant      | Se vero, il _.value_ deve essere impostato nella definizione del modulo, e l'utente non sarà in grado di cambiare il valore del campo. (esempio: la versione della definizione del modulo)  |
-| .fields.type          | Il tipo di input HTML testo, radio, checkbox, password, nascosto, pulsante, colore, data, datetime-local, mese, settimana, tempo, email, numero, intervallo, ricerca, url, selezione, tel   |
-| .fields.options       | Se _.fields.type_ è selezionato, l'elenco dei valori sarà selezionabile                                                                                                                     |
-| .fields.options.text  | Il testo visualizzato per questa opzione                                                                                                                                                    |
-| .fields.options.value | Il valore del campo se questa opzione è selezionata                                                                                                                                         |
-| .fields.type=fieldset | Crea un fieldset HTML intorno ai _.fields.fields_ figli (vedi sotto)                                                                                                                        |
-| .fields.name          | Il nome della proprietà JSON del campo come apparirà nei metadati dell'invoice                                                                                                              |
-| .fields.value         | Il valore predefinito del campo                                                                                                                                                             |
-| .fields.required      | se vero, il campo sarà obbligatorio                                                                                                                                                         |
-| .fields.label         | L'etichetta del campo                                                                                                                                                                       |
-| .fields.helpText      | Testo aggiuntivo per fornire una spiegazione per il campo                                                                                                                                   |
-| .fields.fields        | È possibile organizzare i propri campi gerarchicamente, consentendo ai campi figli di essere annidati all'interno dei metadati dell'invoice. Questa struttura può aiutarti a organizzare e gestire meglio le informazioni raccolte, rendendone più facile l'accesso e la consultazione. Ad esempio, se hai un modulo che raccoglie informazioni sui clienti, puoi raggruppare i campi sotto un campo padre chiamato cliente. All'interno di questo campo padre, potresti avere campi figli come nome, Email e indirizzo. |
+
+| Campo | Descrizione |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| .fields.constant | Se true, il .value deve essere impostato nella definizione del modulo e l'utente non potrà modificare il valore del campo. (esempio: la versione della definizione del modulo) |
+| .fields.type | Il tipo di input HTML: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Se .fields.type è select, l'elenco dei valori selezionabili |
+| .fields.options.text | Il testo visualizzato per questa opzione |
+| .fields.options.value | Il valore del campo se questa opzione è selezionata |
+| .fields.type=fieldset | Crea un fieldset HTML attorno ai figli .fields.fields (vedi sotto) |
+| .fields.name | Il nome della proprietà JSON del campo come apparirà nei metadati della fattura |
+| .fields.value | Il valore predefinito del campo |
+| .fields.required | se true, il campo sarà obbligatorio |
+| .fields.label | L'etichetta del campo |
+| .fields.helpText | Testo aggiuntivo per fornire una spiegazione per il campo. |
+| .fields.fields | Puoi organizzare i tuoi campi in una gerarchia, consentendo ai campi figli di essere annidati all'interno dei metadati della fattura. Questa struttura può aiutarti a organizzare e gestire meglio le informazioni raccolte, rendendole più facili da consultare e interpretare. Ad esempio, se hai un modulo che raccoglie informazioni sui clienti, puoi raggruppare i campi sotto un campo genitore chiamato customer. All'interno di questo campo genitore, potresti avere campi figli come name, Email e address. |
 
 Il nome del campo rappresenta il nome della proprietà JSON che memorizza il valore fornito dall'utente nei metadati dell'invoice. Alcuni nomi ben noti possono essere interpretati e modificare le impostazioni dell'invoice.
 
-| Nome del campo   | Descrizione            |
+
+| Nome campo       | Descrizione           |
 | ---------------- | ---------------------- |
-| invoice_amount   | L'importo dell'invoice |
-| invoice_currency | La valuta dell'invoice |
+| invoice_amount   | Importo della fattura |
+| invoice_currency | Valuta della fattura  |
 
 È possibile precompilare i campi di un'invoice automaticamente aggiungendo stringhe di query all'URL del modulo, come _"?your_field=value"_.
 
@@ -1589,7 +1592,8 @@ docker ps
 docker logs --tail 100 generated_btcpayserver_1
 ```
 
-| Log per      | Nome del Container                |
+
+| Registri per  | Nome del contenitore               |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -1731,21 +1735,22 @@ A meno che non si utilizzi un [Wallet](https://docs.btcpayserver.org/Wallet/) in
 
 La tabella sottostante elenca e descrive gli stati standard delle invoice in BTCPay e suggerisce azioni comuni. Le azioni sono solo raccomandazioni. Spetta agli utenti definire il miglior modo d'agire per il proprio business e i vari casi d'uso.
 
-| Stato dell'invoice                  | Descrizione                                                                                                                                          | Azione                                                                                                                                                             |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Nuova                               | Non pagata, il timer dell'invoice non è ancora scaduto                                                                                               | Nessuna                                                                                                                                                            |
-| Nuova (pagata Parziale)             | Pagata, non in pieno, il timer dell'invoice non è ancora scaduto                                                                                     | Nessuna                                                                                                                                                            |
-| Scaduta                             | Non pagata, il timer dell'invoice è scaduto                                                                                                          | Nessuna                                                                                                                                                            |
-| Scaduta (pagata Parziale) \*\*      | Pagata, non per l'intero importo, e scaduta                                                                                                          | Contattare l'acquirente per organizzare un rimborso o chiedere di saldare il dovuto. Opzionalmente, segnare l'invoice come regolata o invalida                     |
-| Scaduta (pagata Tardi)              | Pagata, per l'intero importo, dopo la scadenza del timer dell'invoice                                                                                | Contattare l'acquirente per organizzare un rimborso o processare l'ordine se le conferme tardive sono accettabili.                                                 |
-| Liquidato (pagato in eccesso)       | Pagato più dell'importo dell'invoice, liquidato, ricevuto un numero sufficiente di conferme                                                          | Contattare l'acquirente per organizzare un rimborso per l'importo extra, o, facoltativamente, attendere che l'acquirente ti contatti                               |
-| In elaborazione                     | Pagato per intero, ma non ha ricevuto un numero sufficiente di conferme specificate nelle impostazioni del negozio                                   | Contattare l'acquirente per organizzare un rimborso per l'importo extra, o, facoltativamente, attendere che l'acquirente ti contatti                               |
-| In elaborazione (pagato in eccesso) | Pagato più dell'importo dell'invoice, non ricevuto un numero sufficiente di conferme                                                                 | Attendere la liquidazione poi contattare l'acquirente per organizzare un rimborso per l'importo extra, o, facoltativamente, attendere che l'acquirente ti contatti |
-| Liquidato                           | Pagato, per intero, ricevuto un numero sufficiente di conferme nel negozio                                                                           | Eseguire l'ordine                                                                                                                                                  |
-| Liquidato (marcato)                 | Lo stato è stato cambiato manualmente in liquidato da uno stato in elaborazione o non valido                                                         | L'amministratore del negozio ha marcato il pagamento come liquidato                                                                                                |
-| Non valido                        | Pagato, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio                               | Verificare la transazione su un esploratore blockchain, se ha ricevuto conferme sufficienti, marcarlo come liquidato                                               |
-| Non valido (marcato)                | Lo stato è stato cambiato manualmente in non valido da uno stato liquidato o scaduto                                                                 | L'amministratore del negozio ha marcato il pagamento come non valido                                                                                               |
-| Non valido (pagato in eccesso)      | Pagato più dell'importo dell'invoice, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio | Verificare la transazione su un blockchain explorer, se ha ricevuto conferme sufficienti, marcarla come liquidata                                                  |
+
+| Stato Fattura | Descrizione | Azione |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| New | Non pagata, il timer della fattura non è ancora scaduto | Nessuna |
+| New (paidPartial) | Pagata parzialmente, il timer della fattura non è ancora scaduto | Nessuna |
+| Expired | Non pagata, il timer della fattura è scaduto | Nessuna |
+| Expired (paidPartial) ** | Pagata parzialmente e scaduta | Contatta l'acquirente per un rimborso o per il saldo. Opzionalmente segna la fattura come settled o invalid |
+| Expired (paidLate) | Pagata integralmente dopo la scadenza del timer della fattura | Contatta l'acquirente per un rimborso o elabora l'ordine se le conferme tardive sono accettabili. |
+| Settled (paidOver) | Pagata oltre l'importo, saldata, ricevuto un numero sufficiente di conferme | Contatta l'acquirente per rimborsare l'eccedenza, o attendi che l'acquirente ti contatti |
+| Processing | Pagata interamente, ma non ha ricevuto conferme sufficienti (secondo le impostazioni del negozio) | Contatta l'acquirente per rimborsare l'eccedenza, o attendi che l'acquirente ti contatti |
+| Processing (paidOver) | Pagata oltre l'importo, conferme insufficienti | Attendi il saldo, poi contatta l'acquirente per il rimborso dell'eccedenza, o attendi che ti contatti |
+| Settled | Pagata interamente, ricevuto un numero sufficiente di conferme nel negozio | Evadi l'ordine |
+| Settled (marked) | Lo stato è stato cambiato manualmente in settled da uno stato processing o invalid | L'amministratore ha segnato il pagamento come settled |
+| Invalid* | Pagata, ma conferme insufficienti entro il tempo specificato | Controlla la transazione su un blockchain explorer; se le conferme sono sufficienti, segna come settled |
+| Invalid (marked) | Lo stato è stato cambiato manualmente in invalid da uno stato settled o expired | L'amministratore ha segnato il pagamento come invalid |
+| Invalid (paidOver) | Pagata oltre l'importo, ma conferme insufficienti entro il tempo specificato | Controlla la transazione su un blockchain explorer; se le conferme sono sufficienti, segna come settled |
 
 #### Dettagli dell'invoice
 

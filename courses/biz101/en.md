@@ -200,7 +200,7 @@ Together, they make of Bitcoin a **bearer asset** and a digital currency **witho
 
 ![BIZ101](assets/en/003.webp)
 
-Bitcoin has a fixed monetary policy, with a **cap of 21 million bitcoins**, of which ~19.8 million have already been distributed. This makes it **deflationary**, with its value increasing over time as users store savings and productivity gains in it.
+Bitcoin has a fixed monetary policy, with a **maximum of 21 million bitcoins**, of which ~19.8 (2024) million have already been mined. This makes it **deflationary**, with its value increasing over time as users store savings and productivity gains in it.
 
 Its technical features surpass those of gold and the dollar combined, making it the hardest financial asset ever created. Bitcoin is both a store of value and a medium of exchange, a currency in the making. Imagine transferring value from one company’s treasury to another swiftly, without intermediaries, at minimal cost, without fraud, 24/7, and without any third party involved.
 
@@ -212,7 +212,7 @@ Bitcoin is disruptive because it encourages us to learn concepts in mathematics,
 
 Bitcoin challenges us to reconsider the nature of money itself. Could you explain what money truly is? A salaried worker or entrepreneur might spend 50,000 to 100,000 hours of their life earning money, yet how many **dedicate even 100 hours to understanding it better** and preserving it? Bitcoin encourages us to question the fundamental reasons behind our need for money and our temporal perspective. Is money for immediate luxury or long-term resilience? If we had an appreciating asset allowing us to delay purchases, what choices would we make? What conversations would we wish to have with ourselves 20 or 30 years from now?
 
-**BITCOIN IDENTITY CARD**
+**BITCOIN IDENTITY CARD (in 2024)**
 - **Age:** 15 years (January 3, 2009)
 - **Daily exchange value:** $10 billion (> CAC40)
 - **Market capitalization:** $1.8 trillion (> Meta, Visa, Silver ; < Apple, Google, Gold)
@@ -285,7 +285,7 @@ The Lightning Network is ideal for Bitcoin payments in physical or online stores
 - **Finality:** Once a payment is made on Lightning, it is final. There is no possibility of chargebacks by third parties or disputes related to fraud.
 - **Fees:** Transaction fees on the Lightning Network are minimal and paid by the user, not the merchant. Merchants only incur costs if they later need to transfer their Bitcoin to another network or service.
 
-**LIGHTNING IDENTITY CARD**
+**LIGHTNING IDENTITY CARD (in 2024)**
 
 - **Invention:** 2015
 - **Launch:** 2016

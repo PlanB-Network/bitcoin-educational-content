@@ -147,11 +147,12 @@ OPNsense'i çalıştırmak için gereken donanım kaynaklarını hesaba katmanı
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Özellikler | Minimum | Tavsiye |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| İşlemci | 1 GHz - 2 çekirdek | 1.5 GHz - Çok çekirdekli |
+| RAM | 2 GB | 8 GB |
+| Sistem için depolama alanı | Sabit sürücü, SSD veya SD kart (4 GB) | SSD'de 120 GB |
 
 Son olarak, **kaynak gereksinimleriniz her şeyden önce yönetilecek bağlantı sayısına** ve dolayısıyla **bant genişliği gereksinimlerinize** bağlıdır. Ayrıca, CPU ve/veya RAM'e ihtiyaç duyabilecekleri için **etkinleştirilecek ve kullanılacak hizmetleri** (proxy, saldırı tespiti, vb...) aklınızda bulundurmanız gerekir.
 

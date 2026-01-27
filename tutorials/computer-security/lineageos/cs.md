@@ -685,13 +685,14 @@ Tyto pravidelné aktualizace jsou velkým přínosem zejména pro zařízení, j
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Aspekt** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Kompatibilita** | Pouze Pixels | Stovky zařízení |
+| **Bezpečnost** | Pokročilá zmírnění | Standardní bezpečnost AOSP |
+| **Google Play** | Volitelný sandbox | Možná klasická instalace |
+| **Instalace** | Webové rozhraní + USB | Technický manuální postup |
+| **Filozofie** | Bezpečnost především | Rovnováha a svoboda volby |
 
 ### Doporučení pro použití
 

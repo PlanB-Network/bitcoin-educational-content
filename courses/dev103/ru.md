@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 Вот самые распространенные из них:
 
 
-| Operator | Meaning             |
+
+| Оператор | Значение |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | сложить и присвоить |
+| `-=` | вычесть и присвоить |
+| `*=` | умножить и присвоить |
+| `/=` | разделить и присвоить |
 
 Примеры:
 
@@ -6517,36 +6518,31 @@ console.error("Error reading file:", err)
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Вот что происходит:
 
-
-1. `fs.createWriteStream()` создает поток, пригодный для записи.
-
-2. Мы запишем на него текст с помощью `.write()`.
-
-3. Когда мы закончим, мы вызовем `.end()`, чтобы закрыть поток.
-
-4. Когда все данные будут записаны, произойдет событие `finish`.
-
-5. Если что-то идет не так, запускается событие `error`.
+1. `fs.createWriteStream()` создает поток для записи.
+2. Мы регистрируем обработчики для событий `error` и `finish`.
+3. Мы записываем в него текст с помощью `.write()`.
+4. Когда мы закончим, мы вызываем `.end()`, чтобы закрыть поток.
+5. Как только все буферизованные данные будут сброшены и записаны, генерируется событие `finish`. Если что-то пойдет не так, генерируется событие `error`.
 
 
 Как и потоки с возможностью чтения, потоки с возможностью записи хороши для работы с большими данными, поскольку им не нужно хранить в памяти все и сразу.

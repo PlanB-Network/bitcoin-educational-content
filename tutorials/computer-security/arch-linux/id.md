@@ -171,18 +171,20 @@ Pilih **GPT** jika Anda menggunakan UEFI, **DOS** jika Anda menggunakan BIOS.
 
 - **Dalam mode UEFI**
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Titik pemasangan pada sistem yang diinstal | Partisi                 | Tipe partisi       | Ukuran yang disarankan |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | Partisi Sistem EFI   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Ruang pertukaran (swap) | Setidaknya 4 GB   |
+| /                                        | /dev/root_partition       | Akar Linux x86-64 (/) | Sisa disk |
 
 - **Di BIOS**
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Titik pemasangan pada sistem yang diinstal | Partisi           | Tipe partisi       | Ukuran yang disarankan |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Ruang pertukaran (swap) | Setidaknya 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Sisa disk |
 
 ![0_10](assets/fr/10.webp)
 

@@ -1,0 +1,8 @@
+question: Quelle critique fondamentale Karl Menger adresse-t-il à la théorie de la valeur travail concernant la relation entre quantité de travail et prix des biens?
+answer: Des biens ayant nécessité une quantité de travail équivalente peuvent présenter des prix radicalement différents sur le marché
+wrong_answers:
+  - Le travail qualifié devrait être valorisé différemment du travail non qualifié dans le calcul de la valeur
+  - "La plus-value extraite du travail ne correspond pas aux profits réels observés dans l'industrie capitaliste"
+  - Les conditions matérielles de production influencent trop fortement la détermination des prix finaux
+explanation: |
+  Menger identifie un paradoxe empirique fatal à la théorie de la valeur travail : si la valeur d'un bien était réellement déterminée par la quantité de travail incorporée, alors tous les biens ayant nécessité un temps de travail similaire devraient avoir des prix comparables. Or, la réalité montre que des biens produits avec des quantités de travail équivalentes peuvent avoir des valeurs marchandes totalement différentes. Cette observation empirique démontre que le travail ne peut être l'unique déterminant de la valeur, ouvrant la voie à l'approche subjective marginaliste.

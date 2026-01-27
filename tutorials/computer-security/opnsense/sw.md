@@ -147,11 +147,12 @@ Unahitaji kuzingatia rasilimali za maunzi zinazohitajika ili kuendesha OPNsense.
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Sifa | Kiwango cha chini | Mapendekezo |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Kichakataji | 1 GHz - 2 kiini | 1.5 GHz - Kiini kingi |
+| RAM | 2 GB | 8 GB |
+| Nafasi ya kuhifadhi kwa mfumo | Drayifu ngumu, SSD au kadi ya SD (4 GB) | 120 GB kwenye SSD |
 
 Hatimaye, **mahitaji yako ya rasilimali yanategemea zaidi ya yote idadi ya miunganisho itakayodhibitiwa**, na kwa hivyo kwenye **mahitaji yako ya kipimo data**. Kwa kuongeza, unahitaji **kukumbuka huduma ambazo zitawashwa na kutumika** (proksi, ugunduzi wa kuingilia, n.k...) kwani zinaweza kuwa na CPU na/au njaa ya RAM.
 

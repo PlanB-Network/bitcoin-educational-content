@@ -212,13 +212,14 @@ Ikke glem å starte programvaren på nytt etter at du har gjort disse endringene
 
 Gå deretter til programvaren for porteføljeadministrasjon (f.eks. Sparrow Wallet eller Liana) og skriv inn banen til cookie-filen, som vanligvis ligger i samme mappe som `Bitcoin.conf`, avhengig av operativsystemet ditt:
 
-|**macOS**|~/Bibliotek/Applikasjonsstøtte/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -236,13 +237,14 @@ server=1
 
 Når du har redigert filen, må du sørge for å lagre den i riktig mappe for operativsystemet ditt:
 
+
+
+
+
 |**macOS**|~/Library/Application Support/Bitcoin|
-
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Denne operasjonen kan også utføres via Bitcoin-QTs Interface-grafikk. Gå til menyen "*Settings*", deretter "*Options...*", og aktiver alternativet "*Enable RPC server*" ved å krysse av i den tilhørende boksen. Hvis filen `Bitcoin.conf` ikke finnes, kan du opprette den direkte fra denne Interface ved å klikke på "*Open Configuration File*".
 

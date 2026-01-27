@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 以下是最常見的幾種：
 
 
-| Operator | Meaning             |
+
+| 運算子 | 含義 |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | 加並賦值 |
+| `-=` | 減並賦值 |
+| `*=` | 乘並賦值 |
+| `/=` | 除並賦值 |
 
 範例：
 
@@ -6521,36 +6522,36 @@ console.error("Error reading file:", err)
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 事情是這樣的
 
 
-1.`fs.createWriteStream()`會建立一個可寫的串流。
+1. `fs.createWriteStream()` 建立一個可寫入串流。
 
-2.我們使用 `.write()` 寫入一些文字。
+2. 我們為 `error` 與 `finish` 事件註冊處理常式。
 
-3.完成後，我們呼叫 `.end()` 關閉串流。
+3. 我們使用 `.write()` 向其寫入一些文字。
 
-4.當所有資料都寫完後，就會發佈 `finish` 事件。
+4. 完成後，我們呼叫 `.end()` 來關閉串流。
 
-5.如果出錯，就會觸發 `error` 事件。
+5. 一旦所有緩衝數據都被清除並寫入，就會觸發 `finish` 事件。如果發生錯誤，則會觸發 `error` 事件。
 
 
 就像可讀取串流一樣，可寫入串流也很適合大數據，因為它們不需要一次將所有東西都保存在記憶體中。

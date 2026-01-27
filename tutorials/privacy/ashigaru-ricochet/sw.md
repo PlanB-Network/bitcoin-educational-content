@@ -16,15 +16,15 @@ Ricochet ni mbinu inayojumuisha kufanya miamala kadhaa ya uwongo kuelekea wewe m
 
 
 
-Kwa mfano, ukitengeneza coinjoin, sehemu yako inayotoka kwenye mchanganyiko itatambuliwa kama hivyo. Zana za uchanganuzi wa mnyororo zinaweza kutambua washirika wa miamala ya sanjari na kuweka lebo kwa vipande vinavyotoka. Kwa kweli, coinjoin inalenga kuvunja viungo vya kihistoria vya sarafu, lakini upitishaji wake kupitia coinjoin bado unaweza kutambuliwa. Kwa njia ya mlinganisho, jambo hili ni sawa na usimbaji fiche wa maandishi: ingawa maandishi asilia hayawezi kupatikana kwa maandishi wazi, ni rahisi kutambua kuwa usimbaji fiche umetumika.
+Kwa mfano, ukitengeneza coinjoin, sehemu yako inayotoka kwenye mchanganyiko itatambuliwa kama hivyo. Zana za uchanganuzi wa chain zinaweza kutambua washirika wa miamala ya sanjari na kuweka lebo kwa vipande vinavyotoka. Kwa kweli, coinjoin inalenga kuvunja viungo vya kihistoria vya sarafu, lakini upitishaji wake kupitia coinjoin bado unaweza kutambuliwa. Kwa njia ya mlinganisho, jambo hili ni sawa na usimbaji fiche wa maandishi: ingawa maandishi asilia hayawezi kupatikana kwa maandishi wazi, ni rahisi kutambua kuwa usimbaji fiche umetumika.
 
 
 
-Lebo "iliyounganishwa" inaweza kuathiri fungibility ya UTXO. Huluki zinazodhibitiwa, kama vile mifumo ya kubadilishana fedha, zinaweza kukataa kupokea UTXO iliyounganishwa, au hata kudai maelezo kutoka kwa mmiliki wake, kwa hatari ya kuzuiwa kwa akaunti yako au pesa zako kusitishwa. Katika baadhi ya matukio, jukwaa linaweza hata kuripoti tabia yako kwa mamlaka za serikali.
+Lebo "coinjoined" inaweza kuathiri fungibility ya UTXO. Huluki zinazodhibitiwa, kama vile mifumo ya Exchange ya fedha, zinaweza kukataa kupokea UTXO iliyounganishwa, au hata kudai maelezo kutoka kwa mmiliki wake, kwa hatari ya kuzuiwa kwa akaunti yako au pesa zako kusitishwa. Katika baadhi ya matukio, jukwaa linaweza hata kuripoti tabia yako kwa mamlaka za serikali.
 
 
 
-Hapa ndipo mbinu ya Ricochet inapoingia. Ili kufifisha alama iliyoachwa kwa sanjari, Ricochet hutekeleza miamala minne mfululizo ambapo mtumiaji huhamisha pesa zake kwake kwa anwani tofauti. Baada ya msururu huu wa miamala, zana ya Ricochet hatimaye huelekeza bitcoins hadi mahali pa mwisho, kama vile jukwaa la kubadilishana. Kusudi ni kuunda umbali kati ya shughuli ya awali ya sainjoin na kitendo cha mwisho cha matumizi. Kwa njia hii, zana za uchambuzi wa blockchain zitadhani kuwa labda kumekuwa na uhamishaji wa umiliki baada ya sanjari, na kwa hivyo hakuna haja ya kuchukua hatua dhidi ya mtoaji.
+Hapa ndipo mbinu ya Ricochet inapoingia. Ili kufifisha alama iliyoachwa kwa sanjari, Ricochet hutekeleza miamala minne mfululizo ambapo mtumiaji huhamisha pesa zake kwake kwa address tofauti. Baada ya msururu huu wa miamala, zana ya Ricochet hatimaye huelekeza bitcoin hadi mahali pa mwisho, kama vile jukwaa la exchange. Kusudi ni kuunda umbali kati ya miamala ya awali ya sainjoin na kitendo cha mwisho cha matumizi. Kwa njia hii, zana za Blockchain analysis zitadhani kuwa labda kumekuwa na uhamishaji wa umiliki baada ya sanjari, na kwa hivyo hakuna haja ya kuchukua hatua dhidi ya mtoaji.
 
 
 
@@ -36,7 +36,7 @@ Inakabiliwa na mbinu ya Ricochet, mtu anaweza kufikiria kuwa programu ya uchambu
 
 
 
-Kwa hivyo, **kesi ya kawaida ya utumiaji wa Ricochet hutokea wakati inahitajika kuficha ushiriki wa awali katika sanjari kwenye UTXO unayomiliki.** Kwa hakika, ni vyema kuepuka kuhamisha bitcoins ambazo zimepitia sanjari kwa huluki zinazodhibitiwa. Walakini, katika tukio la kuachwa bila chaguo lingine, haswa katika hitaji la haraka la kukomesha bitcoins kwa sarafu ya serikali, Ricochet hutoa suluhisho bora.
+Kwa hivyo, **kesi ya kawaida ya utumiaji wa Ricochet hutokea wakati inahitajika kuficha ushiriki wa awali katika sanjari kwenye UTXO unayomiliki.** Kwa hakika, ni vyema kuepuka kuhamisha bitcoin ambazo zimepitia sanjari kwa huluki zinazodhibitiwa. Walakini, katika tukio la kuachwa bila chaguo lingine, haswa katika hitaji la haraka la kukomesha bitcoin kwa sarafu ya serikali, Ricochet hutoa suluhisho bora.
 
 
 
@@ -44,7 +44,7 @@ Kwa hivyo, **kesi ya kawaida ya utumiaji wa Ricochet hutokea wakati inahitajika 
 
 
 
-Ricochet ni njia rahisi ya kutuma bitcoins kwako mwenyewe, iliyovumbuliwa awali na watengenezaji wa Samurai Wallet. Kwa hivyo inawezekana kabisa kuiga Ricochet kwa mikono, bila hitaji la zana maalum. Hata hivyo, kwa wale wanaotaka kufanyia mchakato kiotomatiki huku wakifurahia matokeo yaliyong'arishwa zaidi, zana ya Ricochet inayopatikana kupitia programu ya Ashigaru (ambayo ni Samourai fork) inawakilisha suluhisho zuri.
+Ricochet ni njia rahisi ya kutuma bitcoin kwako mwenyewe, iliyovumbuliwa awali na watengenezaji wa Samurai Wallet. Kwa hivyo inawezekana kabisa kuiga Ricochet kwa mikono, bila hitaji la zana maalum. Hata hivyo, kwa wale wanaotaka kufanyia mchakato kiotomatiki huku wakifurahia matokeo yaliyong'arishwa zaidi, zana ya Ricochet inayopatikana kupitia programu ya Ashigaru (ambayo ni Samourai fork) inawakilisha suluhisho zuri.
 
 
 
@@ -58,13 +58,13 @@ Programu ya Ashigaru inatoa lahaja mbili za Ricochet:
 
 
 
-- Ricochet iliyoimarishwa, au "uwasilishaji kwa kasi", ambayo inatoa faida ya kueneza gharama za huduma za Ashigaru katika miamala mitano mfululizo. Chaguo hili pia huhakikisha kwamba kila shughuli inatangazwa kwa wakati tofauti na kurekodiwa katika kizuizi tofauti, ikiiga kwa karibu iwezekanavyo tabia ya mabadiliko ya umiliki. Ingawa ni polepole, njia hii ni bora kwa wale ambao hawana haraka, kwani huongeza ufanisi wa Ricochet kwa kuimarisha upinzani wake kwa uchambuzi wa mnyororo;
+- Ricochet iliyoimarishwa, au "uwasilishaji kwa kasi", ambayo inatoa faida ya kueneza gharama za huduma za Ashigaru katika miamala mitano mfululizo. Chaguo hili pia huhakikisha kwamba kila shughuli inatangazwa kwa wakati tofauti na kurekodiwa katika kizuizi tofauti, ikiiga kwa karibu iwezekanavyo tabia ya mabadiliko ya umiliki. Ingawa ni polepole, njia hii ni bora kwa wale ambao hawana haraka, kwani huongeza ufanisi wa Ricochet kwa kuimarisha upinzani wake kwa chain analysis;
 
 
 
 
 
-- Ricochet ya kawaida, ambayo imeundwa kutekeleza operesheni kwa kasi, ikitangaza shughuli zote kwa muda uliopunguzwa. Njia hii, kwa hiyo, inatoa usiri mdogo na upinzani mdogo kwa uchambuzi kuliko njia iliyoimarishwa. Inapaswa kutumika tu kwa usafirishaji wa haraka.
+- Ricochet ya kawaida, ambayo imeundwa kutekeleza operesheni kwa kasi, ikitangaza miamala yote kwa muda uliopunguzwa. Njia hii, kwa hiyo, inatoa usiri mdogo na upinzani mdogo kwa uchambuzi kuliko njia iliyoimarishwa. Inapaswa kutumika tu kwa usafirishaji wa haraka.
 
 
 
@@ -72,7 +72,7 @@ Programu ya Ashigaru inatoa lahaja mbili za Ricochet:
 
 
 
-Kufanya ricochet kwenye Ashigaru ni rahisi sana: tu kuamsha chaguo sambamba wakati wa kuunda shughuli ya kutuma. Ili kuanza, bofya kitufe cha `+`, kisha kwenye `Tuma`, na uchague akaunti ambayo ungependa kutuma pesa kutoka kwayo.
+Kufanya ricochet kwenye Ashigaru ni rahisi sana: tu kuamsha chaguo sambamba wakati wa kuunda miamala ya kutuma. Ili kuanza, bofya kitufe cha `+`, kisha kwenye `Tuma`, na uchague akaunti ambayo ungependa kutuma pesa kutoka kwayo.
 
 
 
@@ -80,7 +80,7 @@ Kufanya ricochet kwenye Ashigaru ni rahisi sana: tu kuamsha chaguo sambamba waka
 
 
 
-Jaza maelezo ya muamala: kiasi kitakachotumwa na anwani ya mwisho ya mpokeaji baada ya Ricochet kuruka. Kisha angalia chaguo la `Ricochet`.
+Jaza maelezo ya muamala: kiasi kitakachotumwa na address ya mwisho ya mpokeaji baada ya Ricochet kuruka. Kisha angalia chaguo la `Ricochet`.
 
 
 
@@ -88,7 +88,7 @@ Jaza maelezo ya muamala: kiasi kitakachotumwa na anwani ya mwisho ya mpokeaji ba
 
 
 
-Kisha unaweza kuchagua kati ya aina mbili za Ricochet zinazojadiliwa katika sehemu ya nadharia: ama Ricochet ya kawaida, ambapo miamala yote imejumuishwa kwenye kizuizi kimoja, au uwasilishaji wa bila mpangilio, ambayo huboresha ubora wa Ricochet kwa gharama ya kucheleweshwa kwa muda mrefu.
+Kisha unaweza kuchagua kati ya aina mbili za Ricochet zinazojadiliwa katika sehemu ya nadharia: ama Ricochet ya kawaida, ambapo miamala yote imejumuishwa kwenye block moja, au uwasilishaji wa bila mpangilio, ambayo huboresha ubora wa Ricochet kwa gharama ya kucheleweshwa kwa muda mrefu.
 
 
 

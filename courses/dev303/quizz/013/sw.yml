@@ -1,8 +1,8 @@
-question: Nini hutokea wakati kigezo kinapotoka katika mfumo wa umiliki wa Rust?
+question: Nini hutokea wakati variable inapotoka katika mfumo wa umiliki wa Rust?
 answer: Thamani hupunguzwa kiotomatiki na kumbukumbu yake huachiliwa
 wrong_answers:
   - Thamani huhamishiwa kwenye wigo wa kimataifa kwa ajili ya kutumika tena
   - Thamani inakuwa isiyobadilika na inabaki kwenye kumbukumbu
   - Thamani imenakiliwa kwenye eneo la chelezo kwa usalama
 explanation: |
-  Katika mfumo wa umiliki wa Rust, kigezo kinapotoka nje ya wigo (kawaida wakati utekelezaji huacha kizuizi kinachofafanuliwa na vibandiko vilivyopinda), thamani huachwa kiotomatiki na kumbukumbu yake huachiliwa. Usafi huu otomatiki hutekelezwa kupitia utaratibu wa kushuka wa Rust, ambapo lugha huita kitendakazi cha kushuka kwa vigezo vinavyotoka nje ya wigo. Hii inahakikisha usimamizi sahihi wa rasilimali bila kuhitaji msimbo dhahiri wa usafishaji kutoka kwa programu, kwa kufuata muundo wa RAII uliokopwa kutoka C++.
+  Katika mfumo wa umiliki wa Rust, variable inapotoka nje ya wigo (kawaida wakati utekelezaji huacha kizuizi kinachofafanuliwa na vibandiko vilivyopinda), thamani huachwa kiotomatiki na kumbukumbu yake huachiliwa. Usafi huu otomatiki hutekelezwa kupitia utaratibu wa kushuka wa Rust, ambapo lugha huita kitendakazi cha kushuka kwa vigezo vinavyotoka nje ya wigo. Hii inahakikisha usimamizi sahihi wa rasilimali bila kuhitaji msimbo dhahiri wa usafishaji kutoka kwa programu, kwa kufuata muundo wa RAII uliokopwa kutoka C++.

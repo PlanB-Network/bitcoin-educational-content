@@ -263,11 +263,12 @@ description: Запуск дымовой машины с помощью плат
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Клемма**         | **Описание**           | **Функция**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Нормально открыто)   | Цепь открыта по умолчанию | Закрывается при активации реле |
+| NC (Нормально закрыто) | Цепь закрыта по умолчанию  | Открывается при активации реле  |
+| COM (Общее)         | Центральная клемма          | Переключается между NO и NC              |
 
 ** Проводка от пульта дистанционного управления к релейному модулю:**
 
@@ -301,11 +302,12 @@ description: Запуск дымовой машины с помощью плат
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Модуль реле** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Вход)        |
 
 ** Проверка:*
 
@@ -894,14 +896,15 @@ WiFi connection established!
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Проблема**                        | **Вероятная причина**              | **Решение**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 не подключается            | Отсутствует USB-драйвер             | Установите [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Реле не щелкает                | Неправильная проводка GPIO            | Проверьте GPIO 21 → IN                                                                        |
+| Дымовая машина не реагирует         | Пульт управления подключен неправильно         | Проверьте NO/NC/COM                                                                           |
+| Тайм-аут WebSocket                   | Неверный URL                  | Проверьте wss:// и /bitcoinswitch                                                            |
+| WiFi не подключается             | SSID/Пароль неверный            | Переснимите конфигурацию WiFi                                                                    |
+| Платеж получен, но ничего не происходит | ESP32 не подключен к WebSocket | Проверьте журналы RESET                                                                      |
 
 ## Ресурсы
 

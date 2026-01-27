@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 Hier zijn de meest voorkomende:
 
 
-| Operator | Meaning             |
+
+| Operator | Betekenis |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | optellen en toewijzen |
+| `-=` | aftrekken en toewijzen |
+| `*=` | vermenigvuldigen en toewijzen |
+| `/=` | delen en toewijzen |
 
 Voorbeelden:
 
@@ -6517,36 +6518,36 @@ Hier is een voorbeeld van het schrijven naar een `target.txt` bestand met behulp
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Dit is wat er gebeurt:
 
 
-1. `fs.createWriteStream()` maakt een schrijfbare stream.
+1. `fs.createWriteStream()` maakt een beschrijfbare stream aan.
 
-2. We schrijven er tekst naartoe met `.write()`.
+2. We registreren handlers voor de `error`- en `finish`-events.
 
-3. Als we klaar zijn, roepen we `.end()` op om de stream te sluiten.
+3. We schrijven er wat tekst naar toe met behulp van `.write()`.
 
-4. Als alle gegevens zijn geschreven, wordt de `finish` gebeurtenis uitgezonden.
+4. Als we klaar zijn, roepen we `.end()` aan om de stream te sluiten.
 
-5. Als er iets fout gaat, wordt de gebeurtenis `error` geactiveerd.
+5. Zodra alle gebufferde gegevens zijn geflusht en geschreven, wordt het event `finish` verzonden. Als er iets misgaat, wordt er een event `error` verzonden.
 
 
 Net als leesbare streams zijn schrijfbare streams goed voor grote gegevens omdat ze niet alles tegelijk in het geheugen hoeven te bewaren.

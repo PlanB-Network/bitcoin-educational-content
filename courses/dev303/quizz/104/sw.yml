@@ -1,8 +1,8 @@
 question: Ni nini kinachowezesha LDK kusaidia mifumo mbalimbali ya usafiri kama vile soketi za TCP, WebSockets, na miunganisho ya serial ya USB kwa mawasiliano ya Lightning Network?
-answer: Mfumo wa usimamizi wa rika hufanya kazi bila kujali utaratibu wa usafiri wa msingi huku ukishughulikia usimbaji fiche wa itifaki ya kelele
+answer: Mfumo wa usimamizi wa rika hufanya kazi bila kujali utaratibu wa usafiri wa msingi huku ukishughulikia usimbaji fiche wa Noise protocol
 wrong_answers:
   - Kidhibiti cha chaneli huratibu na adapta nyingi za mtandao kupitia safu ya uondoaji wa soketi iliyounganishwa
-  - LDK hutekeleza viendeshaji maalum vya itifaki kwa kila aina ya usafiri ndani ya moduli yake kuu ya mtandao
+  - LDK hutekeleza viendeshaji maalum vya protocol kwa kila aina ya usafiri ndani ya moduli yake kuu ya mtandao
   - Mfumo wa tukio hugundua kiotomatiki mbinu zinazopatikana za usafiri na husanidi vidhibiti vya muunganisho vinavyofaa
 explanation: |
-  Mfumo wa usimamizi wa rika wa LDK umeundwa mahususi kushughulikia mawasiliano ya itifaki ya Umeme (ikiwa ni pamoja na usimbaji fiche wa kelele na miundo ya ujumbe) bila kujali safu halisi ya usafirishaji. Mgawanyiko huu wa usanifu huruhusu wasanidi programu kutekeleza njia yoyote ya mawasiliano ya pande mbili huku meneja rika akizingatia tu kufuata itifaki ya Umeme. Chaguzi zingine zinaonyesha kimakosa kwamba LDK hutoa utekelezaji wa usafirishaji uliojengewa ndani au ugunduzi otomatiki, wakati kwa kweli nguvu ya LDK iko katika kuondoa kabisa mifumo maalum ya usafirishaji.
+  Mfumo wa usimamizi wa rika wa LDK umeundwa mahususi kushughulikia mawasiliano ya Lightning protocol (ikiwa ni pamoja na usimbaji fiche wa noise na miundo ya ujumbe) bila kujali safu halisi ya usafirishaji. Mgawanyiko huu wa usanifu huruhusu wasanidi programu kutekeleza njia yoyote ya mawasiliano ya pande mbili huku meneja rika akizingatia tu kufuata itifaki ya Umeme. Chaguzi zingine zinaonyesha kimakosa kwamba LDK hutoa utekelezaji wa usafirishaji uliojengewa ndani au ugunduzi otomatiki, wakati kwa kweli nguvu ya LDK iko katika kuondoa kabisa mifumo maalum ya usafirishaji.

@@ -192,11 +192,12 @@ Objective: Connect the relay to the ON/OFF button on the remote control
 **Reminder: Relay terminology
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Description**           | **Function**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normally Open)   | Circuit open by default | Closes when the relay is activated |
+| NC (Normally Closed) | Circuit closed by default  | Opens when the relay is activated  |
+| COM (Common)         | Central terminal          | Switches between NO and NC              |
 
 **Wiring from remote control to relay module:**
 
@@ -221,7 +222,8 @@ When the ESP32 cuts the relay, COM and NO separate, which is equivalent to relea
 **Wiring diagram:**
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Relay Module** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
@@ -661,14 +663,15 @@ Before the final test, check :
 ### Fairness problems and solutions
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Problem**                        | **Probable Cause**              | **Solution**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 does not connect            | Missing USB driver             | Install [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Relay does not click                | Wrong GPIO wiring            | Check GPIO 21 → IN                                                                        |
+| Smoke machine does not respond         | Remote control improperly wired         | Check NO/NC/COM                                                                           |
+| WebSocket timeout                   | Incorrect URL                  | Check wss:// and /bitcoinswitch                                                            |
+| WiFi does not connect             | SSID/Password incorrect            | Re-flash WiFi config                                                                    |
+| Payment received but nothing happens | ESP32 not connected to WebSocket | Check RESET logs                                                                      |
 
 ## Resources
 

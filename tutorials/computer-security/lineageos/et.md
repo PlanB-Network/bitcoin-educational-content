@@ -685,13 +685,14 @@ Need korrapärased uuendused on suur eelis, eriti seadmete puhul, mille tootja o
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Aspekt** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Ühilduvus** | Ainult Pixels | Sadad seadmed |
+| **Turvalisus** | Täpsemad leevendused | Standardne AOSP turvalisus |
+| **Google Play** | Valikuline liivakast | Klassikaline paigaldus võimalik |
+| **Paigaldamine** | Veebiliides + USB | Tehniline käsitsi protseduur |
+| **Filosoofia** | Turvalisus kõige ees | Tasakaal ja valikuvabadus |
 
 ### Soovitused kasutamiseks
 

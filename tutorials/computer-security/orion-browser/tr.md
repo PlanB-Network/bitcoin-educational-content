@@ -522,15 +522,16 @@ Orion'u hızlı ve gizli tutmak için:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Kriter | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Telemetri** | Yok | Minimal | Kapsamlı | Orta | Minimal |
+| **Yerel Engelleme** | %99,9 etkili | Temel | Yok | Kısmi | Tam |
+| **Uzantılar** | Chrome + Firefox | Sınırlı | Sadece Chrome | Sadece Firefox | Sadece Chrome |
+| **Mac Performansı** | Mükemmel | Mükemmel | İyi | Orta | İyi |
+| **RAM Tüketimi** | Çok düşük | Düşük | Yüksek | Orta | Orta |
+| **Açık Kaynak** | Kısmi | Kısmi (WebKit) | Kısmi | Tam | Tam |
+| **Platformlar** | Mac/iOS | Mac/iOS | Tümü | Tümü | Tümü |
 
 **Safari'ye karşı**: Orion, WebKit performansını korurken gelişmiş engelleyici ve uzantı desteği ile üstün koruma sunar.
 

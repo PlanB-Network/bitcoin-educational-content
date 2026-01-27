@@ -1,4 +1,4 @@
-question: 在payjoin交易中，输入中有多少参与者？
+question: 在 Payjoin 交易中，输入中有多少参与者？
 
 answer: 2
 
@@ -8,4 +8,4 @@ wrong_answers:
   - 0
 
 explanation: |
-  有2个参与者：付款人和收款人。
+  有 2 个参与者：发送者和接收者。

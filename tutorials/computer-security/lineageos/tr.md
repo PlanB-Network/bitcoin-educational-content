@@ -685,13 +685,14 @@ Bu düzenli güncellemeler, özellikle üreticileri tarafından üretimi durduru
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Yön** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Uyumluluk** | Yalnız Pixels | Yüzlerce cihaz |
+| **Güvenlik** | Gelişmiş azaltmalar | Standart AOSP güvenliği |
+| **Google Play** | İsteğe bağlı korumalı alan | Klasik kurulum mümkün |
+| **Kurulum** | Web arayüzü + USB | Teknik manuel prosedür |
+| **Felsefe** | Güvenlik her şeyden önce | Denge ve seçim özgürlüğü |
 
 ### Kullanım için öneriler
 

@@ -1,8 +1,8 @@
-question: Wakati wa kuunda makro maalum inayofanana na kitendakazi inayohitaji kushughulikia idadi tofauti ya hoja za kuingiza, ni mchanganyiko gani wa kibainishi cha vipande na muundo wa marudio utakaofaa zaidi?
+question: Wakati wa kuunda macro maalum inayofanana na kitendakazi inayohitaji kushughulikia idadi tofauti ya hoja za kuingiza, ni mchanganyiko gani wa kibainishi cha vipande na muundo wa marudio utakaofaa zaidi?
 answer: Tumia $($x:expr),* ili kulinganisha misemo sifuri au zaidi iliyotenganishwa na koma
 wrong_answers:
   - Tumia $($x:ident)+ kulinganisha kitambulisho kimoja au zaidi bila vitenganishi
   - Tumia $($x:ty);* ili kulinganisha aina sifuri au zaidi zilizotenganishwa na nusu koloni
   - Tumia $($x:expr)? ili kulinganisha usemi mmoja wa hiari bila marudio
 explanation: |
-  Muundo $($x:expr),* umeundwa mahususi kwa ajili ya makro ya hoja inayobadilika, ambapo expr inalingana na usemi wowote na sintaksia ya ,* hushughulikia marudio sifuri au zaidi yaliyotenganishwa na koma. Hiki ndicho hasa kinachohitajika kwa makro kama vile vec! ambazo zinaweza kukubali idadi tofauti ya hoja. Chaguzi zingine si sahihi kwa sababu: ident only matches vitambulisho (sio misemo kamili), ty matches aina (sio thamani), na ? matches vipengee vya hiari vya moja badala ya marudio yanayobadilika.
+  Muundo $($x:expr),* umeundwa mahususi kwa ajili ya macro ya hoja inayobadilika, ambapo expr inalingana na usemi wowote na sintaksia ya ,* hushughulikia marudio sifuri au zaidi yaliyotenganishwa na koma. Hiki ndicho hasa kinachohitajika kwa makro kama vile vec! ambazo zinaweza kukubali idadi tofauti ya hoja. Chaguzi zingine si sahihi kwa sababu: ident only matches vitambulisho (sio misemo kamili), ty matches aina (sio thamani), na ? matches vipengee vya hiari vya moja badala ya marudio yanayobadilika.

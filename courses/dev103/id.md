@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 Berikut ini adalah yang paling umum:
 
 
-| Operator | Meaning             |
+
+| Operator | Arti |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | tambah dan tetapkan |
+| `-=` | kurang dan tetapkan |
+| `*=` | kali dan tetapkan |
+| `/=` | bagi dan tetapkan |
 
 Contoh:
 
@@ -6517,36 +6518,36 @@ Berikut ini contoh penulisan ke file `target.txt` menggunakan stream:
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Inilah yang terjadi:
 
 
-1. `fs.createWriteStream()` membuat sebuah stream yang dapat ditulis.
+1. `fs.createWriteStream()` membuat aliran yang dapat ditulis (writable stream).
 
-2. Kita menulis beberapa teks ke dalamnya dengan menggunakan `.write()`.
+2. Kami mendaftarkan handler untuk peristiwa `error` dan `finish`.
 
-3. Setelah selesai, kita panggil `.end()` untuk menutup stream.
+3. Kami menulis beberapa teks ke dalamnya menggunakan `.write()`.
 
-4. Ketika semua data telah ditulis, peristiwa `finish` dipancarkan.
+4. Setelah selesai, kami memanggil `.end()` untuk menutup aliran.
 
-5. Jika terjadi kesalahan, peristiwa `error` akan dipicu.
+5. Setelah semua data yang disangga (buffered) telah dibersihkan dan ditulis, peristiwa `finish` akan dipancarkan. Jika terjadi kesalahan, peristiwa `error` akan dipancarkan.
 
 
 Sama seperti stream yang dapat dibaca, stream yang dapat ditulis bagus untuk data besar karena tidak perlu menyimpan semuanya dalam memori sekaligus.

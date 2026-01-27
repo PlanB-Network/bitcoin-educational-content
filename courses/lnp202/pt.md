@@ -998,7 +998,7 @@ Aqui tem os dados de início de sessão:
 023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@34.216.52.158:9911
 ```
 
-Para lhes agradecer por fornecerem este serviço gratuito da Torre de Vigia, [pode fazer um donativo através do Lightning] (https://lightningnetwork.plus/donation).
+Para lhes agradecer por fornecerem este serviço gratuito da Torre de Vigia, [pode fazer um donativo através do Lightning](https://lightningnetwork.plus/donation).
 
 
 Agora que estamos a utilizar um serviço de torre de vigia altruísta, vamos ver como o configurar no nosso nó LND sob Umbrel.
@@ -1165,7 +1165,7 @@ https://planb.academy/tutorials/node/lightning-network/amboss-37044cad-0f85-41eb
 
 https://planb.academy/tutorials/node/lightning-network/1ml-37ada2ab-7a24-4473-87fd-007cb7640e7b
 
-Neste caso, no entanto, sugiro que utilize [a ferramenta Terminal Lightning da Lightning Labs] (https://terminal.lightning.engineering/), que fornece uma classificação (reconhecidamente baseada em critérios parcialmente subjectivos) dos nós Lightning considerados mais relevantes para a abertura de um canal.
+Neste caso, no entanto, sugiro que utilize [a ferramenta Terminal Lightning da Lightning Labs](https://terminal.lightning.engineering/), que fornece uma classificação (reconhecidamente baseada em critérios parcialmente subjectivos) dos nós Lightning considerados mais relevantes para a abertura de um canal.
 
 
 
@@ -1403,7 +1403,7 @@ Entre os programas de software mais conhecidos estão:
 
 
 - [Alby Hub](https://albyhub.com/);
-- [Ride The Lightning] (https://www.ridethelightning.info/);
+- [Ride The Lightning](https://www.ridethelightning.info/);
 - [ThunderHub](https://thunderhub.io/).
 
 
@@ -1581,7 +1581,7 @@ Há muitas formas de comprar liquidez de entrada. A que eu pessoalmente utilizo 
 
 
 
-Ir para [o sítio Web da Magma] (https://magma.amboss.tech/buy), na secção `Comprar canais`.
+Ir para [o sítio Web da Magma](https://magma.amboss.tech/buy), na secção `Comprar canais`.
 
 
 

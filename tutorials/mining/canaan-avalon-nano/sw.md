@@ -75,17 +75,18 @@ Lifuatalo ni jedwali linalofupisha maelezo ya jumla ya kiufundi ya Nano 3S:
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Sifa                                      | Thamani                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Kiwango cha Hash                                      | 6 Th/s +- 5%                                            |
+| Matumizi ya Umeme                               | 140 W                                                   |
+| Kelele                                                | 30 - 40 dB                                              |
+| Liwali la Joto la Hewa ya Kutoka                 | 60-70°C (kwa joto la kawaida 25°C)                |
+| Mahitaji ya Joto la Kawaida kwa Matumizi | -5 hadi 30°C                                            |
+| Liwali la Voltage ya Ingizo la Kifaa                         | 28V 5A endelevu                                          |
+| Liwali la Voltage ya Ingizo la Kibadilishaji                       | 110-240V AC 50/60Hz                                     |
+| Ukubwa wa Kifaa                                 | Urefu: 205 mm / Upana: 115 mm / Urefu: 58.5 mm |
+| Uzani wa Kifaa                                  | 0.86 kg                                                 |
 
 ## Kuwasha na kuunganisha kwenye mtandao wa ndani
 

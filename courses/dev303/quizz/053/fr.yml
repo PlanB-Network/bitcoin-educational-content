@@ -1,8 +1,8 @@
 question: Quel est le mécanisme fondamental qui permet à RC d'autoriser la propriété multiple tout en maintenant la sécurité de la mémoire ?
-answer: Un compteur interne qui suit les références et ne libère la mémoire que lorsque le compteur atteint zéro
+answer: Un compteur interne qui suit les références et ne libère la mémoire que lorsque le compteur atteint zéro.
 wrong_answers:
-  - Une analyse à la compilation qui vérifie tous les modèles de référence avant l'exécution du programme
-  - Un collecteur de déchets qui analyse et nettoie périodiquement les allocations de mémoire inaccessibles
-  - Système basé sur un verrou qui synchronise l'accès entre plusieurs propriétaires des mêmes données
+  - Une analyse à la compilation qui vérifie tous les modèles de référence avant l'exécution du programme.
+  - Un collecteur de déchets qui analyse et nettoie périodiquement les allocations de mémoire inaccessibles.
+  - Système basé sur un verrou qui synchronise l'accès entre plusieurs propriétaires des mêmes données.
 explanation: |
-  RC maintient un compteur de références interne qui s'incrémente en cas de clonage et se décrémente en cas d'abandon, ce qui garantit que la mémoire n'est libérée que lorsqu'il n'y a plus de références. Cette approche diffère de l'analyse à la compilation (utilisée par Box), du ramassage des ordures (que Rust n'utilise pas) ou des mécanismes de verrouillage (qui sont utilisés pour la synchronisation des threads, et non pour le suivi de la propriété). L'approche basée sur les compteurs permet une propriété partagée sûre sans la surcharge d'exécution du ramassage des ordures ou les restrictions de la propriété unique.
+  RC maintient un compteur de références interne qui s'incrémente en cas de clonage et se décrémente en cas d'abandon, ce qui garantit que la mémoire n'est libérée que lorsqu'il n'y a plus de références. Cette approche diffère de l'analyse à la compilation (utilisée par Box), du ramassage des ordures (que Rust n'utilise pas) ou des mécanismes de verrouillage (qui sont utilisés pour la synchronisation des threads, et non pour le suivi de la propriété). L'approche basée sur les compteurs permet une propriété partagée sûre sans la surcharge d'exécution du ramassage des ordures ni les restrictions de la propriété unique.

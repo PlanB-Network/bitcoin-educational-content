@@ -263,11 +263,12 @@ Objetivo: Ligar o relé ao botão ON/OFF do controlo remoto
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Descrição**           | **Função**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normalmente Aberto)   | Circuito aberto por padrão | Fecha quando o relé é ativado |
+| NC (Normalmente Fechado) | Circuito fechado por padrão  | Abre quando o relé é ativado  |
+| COM (Comum)         | Terminal central          | Alterna entre NO e NC              |
 
 **Cablagem do controlo remoto para o módulo de relé:**
 
@@ -301,11 +302,12 @@ Quando o ESP32 corta o relé, COM e NO separam-se, o que equivale a soltar o bot
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Módulo de Relé** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Entrada)        |
 
 **Verificação: **
 
@@ -894,14 +896,15 @@ Antes do teste final, verificar :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Problema**                        | **Causa provável**              | **Solução**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 não se conecta            | Driver USB ausente             | Instale [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Relé não clica                | Cabeamento GPIO incorreto            | Verifique GPIO 21 → IN                                                                        |
+| Máquina de fumaça não responde         | Controle remoto mal cabeado         | Verifique NO/NC/COM                                                                           |
+| Tempo limite do WebSocket                   | URL incorreta                  | Verifique wss:// e /bitcoinswitch                                                            |
+| WiFi não se conecta             | SSID/Senha incorreto            | Reflash da config WiFi                                                                    |
+| Pagamento recebido, mas nada acontece | ESP32 não conectado ao WebSocket | Verifique logs RESET                                                                      |
 
 ## Recursos
 

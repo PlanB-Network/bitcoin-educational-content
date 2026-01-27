@@ -5029,12 +5029,13 @@ counter += 1 // same as counter = counter + 1
 นี่คือสิ่งที่พบได้บ่อยที่สุด:
 
 
-| Operator | Meaning             |
+
+| ตัวดำเนินการ | ความหมาย |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | บวกและกำหนดค่า |
+| `-=` | ลบและกำหนดค่า |
+| `*=` | คูณและกำหนดค่า |
+| `/=` | หารและกำหนดค่า |
 
 ตัวอย่าง:
 
@@ -6530,36 +6531,36 @@ console.error("Error reading file:", err)
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 นี่คือสิ่งที่เกิดขึ้น:
 
 
-1. `fs.createWriteStream()` สร้างสตรีมที่สามารถเขียนได้
+1. `fs.createWriteStream()` สร้างสตรีมที่เขียนได้
 
-2. เราเขียนข้อความบางอย่างลงไปโดยใช้ `.write()`.
+2. เราลงทะเบียนตัวจัดการ (handlers) สำหรับเหตุการณ์ `error` และ `finish`
 
-3. เมื่อเราเสร็จสิ้น เราเรียกใช้ `.end()` เพื่อปิดสตรีม
+3. เราเขียนข้อความลงไปโดยใช้ `.write()`
 
-4. เมื่อข้อมูลทั้งหมดถูกเขียนแล้ว จะมีการส่งเหตุการณ์ `finish` ออกมา
+4. เมื่อเสร็จแล้ว เราจะเรียกใช้ `.end()` เพื่อปิดสตรีม
 
-5. หากมีสิ่งผิดพลาดเกิดขึ้น เหตุการณ์ `error` จะถูกกระตุ้น
+5. เมื่อข้อมูลที่บัฟเฟอร์ไว้ทั้งหมดถูกล้างและเขียนเรียบร้อยแล้ว เหตุการณ์ `finish` จะถูกส่งออกมา หากมีข้อผิดพลาดเกิดขึ้น เหตุการณ์ `error` จะถูกส่งออกมาแทน
 
 
 เช่นเดียวกับสตรีมที่อ่านได้ สตรีมที่เขียนได้ดีสำหรับข้อมูลขนาดใหญ่เพราะไม่จำเป็นต้องเก็บทุกอย่างไว้ในหน่วยความจำพร้อมกัน

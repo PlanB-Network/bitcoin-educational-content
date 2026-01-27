@@ -1,8 +1,8 @@
-question: Ni sifa gani ya msingi ya falsafa ya muundo wa vipengele vya LDK inayoitofautisha na utekelezaji wa nodi za umeme za monolithic kama vile CLightning au LND?
-answer: Kila sehemu hutoa utekelezaji chaguo-msingi ambao unaweza kubadilishwa kibinafsi na suluhisho maalum huku ukidumisha utiifu wa itifaki
+question: Ni sifa gani ya msingi ya falsafa ya muundo wa vipengele vya LDK inayoitofautisha na utekelezaji wa node za lightning za monolithic kama vile CLightning au LND?
+answer: Kila sehemu hutoa utekelezaji chaguo-msingi ambao unaweza kubadilishwa kibinafsi na suluhisho maalum huku ukidumisha utiifu wa protocol
 wrong_answers:
   - Vipengele vyote lazima vitekelezwe kuanzia mwanzo na wasanidi programu bila utekelezaji chaguo-msingi unaotolewa na maktaba.
   - Vipengele vimefungwa pamoja kabisa na haviwezi kubadilishwa mara tu vinapojumuishwa katika usanifu wa programu
   - Maktaba inahitaji vipengele vyote kutumia lugha zinazofanana za programu na haiwezi kuunga mkono miunganisho ya lugha ya mifumo mbalimbali
 explanation: |
-  Falsafa kuu ya LDK inalenga kutoa vipengele vya moduli vyenye utekelezaji chaguo-msingi unaofanya kazi ambao wasanidi programu wanaweza kubadilisha kwa hiari inapohitajika. Hii inaruhusu ubinafsishaji wa utendaji maalum (kama vile ufuatiliaji wa blockchain au utiaji saini wa miamala) huku ikiweka vipengele vingine bila kubadilika. Majibu yasiyo sahihi yanapotosha mbinu ya LDK: hutoa chaguo-msingi badala ya kuhitaji kila kitu kuanzia mwanzo, huwezesha uingizwaji wa vipengele badala ya kuvifunga pamoja, na inasaidia lugha nyingi za programu kupitia mfumo wake wa kufungamana.
+  Falsafa kuu ya LDK inalenga kutoa vipengele vya module vyenye utekelezaji chaguo-msingi unaofanya kazi ambao wasanidi programu wanaweza kubadilisha kwa hiari inapohitajika. Hii inaruhusu ubinafsishaji wa utendaji maalum (kama vile ufuatiliaji wa blockchain au utiaji saini wa miamala) huku ikiweka vipengele vingine bila kubadilika. Majibu yasiyo sahihi yanapotosha mbinu ya LDK: hutoa chaguo-msingi badala ya kuhitaji kila kitu kuanzia mwanzo, huwezesha uingizwaji wa vipengele badala ya kuvifunga pamoja, na inasaidia lugha nyingi za programu kupitia mfumo wake wa kufungamana.

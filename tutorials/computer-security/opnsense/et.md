@@ -147,11 +147,12 @@ Te peate arvestama OPNsense'i käivitamiseks vajalike riistvararessurssidega. Se
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Omadused | Miinimum | Soovitus |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Protsessor | 1 GHz - 2 tuuma | 1.5 GHz - Mitmetuumaline |
+| RAM | 2 GB | 8 GB |
+| Salvestusruum süsteemile | Kõvaketas, SSD või SD-kaart (4 GB) | 120 GB SSD-l |
 
 Lõpuks, ** teie ressursivajadused sõltuvad eelkõige hallatavate ühenduste arvust** ja seega ** teie ribalaiusevajadustest**. Lisaks sellele peate **silmas pidama aktiveeritavaid ja kasutatavaid teenuseid** (proxy, sissetungi tuvastamine jne...), kuna need võivad olla protsessori ja/või RAM-i nõudvad.
 

@@ -1165,7 +1165,7 @@ https://planb.academy/tutorials/node/lightning-network/amboss-37044cad-0f85-41eb
 
 https://planb.academy/tutorials/node/lightning-network/1ml-37ada2ab-7a24-4473-87fd-007cb7640e7b
 
-Här föreslår jag dock att du använder [Lightning Terminal-verktyget från Lightning Labs] (https://terminal.lightning.engineering/), som ger en rangordning (visserligen baserad på delvis subjektiva kriterier) av de Lightning-noder som anses vara mest relevanta för att öppna en kanal.
+Här föreslår jag dock att du använder [Lightning Terminal-verktyget från Lightning Labs](https://terminal.lightning.engineering/), som ger en rangordning (visserligen baserad på delvis subjektiva kriterier) av de Lightning-noder som anses vara mest relevanta för att öppna en kanal.
 
 
 
@@ -1402,9 +1402,9 @@ Bland de mest kända mjukvaruprogrammen är:
 
 
 
-- [Alby Hub] (https://albyhub.com/);
-- [Ride The Lightning] (https://www.ridethelightning.info/);
-- [ThunderHub] (https://thunderhub.io/).
+- [Alby Hub](https://albyhub.com/);
+- [Ride The Lightning](https://www.ridethelightning.info/);
+- [ThunderHub](https://thunderhub.io/).
 
 
 
@@ -1577,11 +1577,11 @@ Om du är ett företag eller en återförsäljare innebär det här tillvägagå
 
 
 
-Det finns många sätt att köpa inkommande likviditet. Den som jag personligen använder och rekommenderar är Amboss:s [Magma] (https://magma.amboss.tech/) plattform. Den är mycket enkel att använda, det går snabbt att öppna en kanal och priserna är i allmänhet rimliga. Magma fungerar som en marknadsplats med makers och takers, men version 2 har kraftigt förenklat upplevelsen: skapa helt enkelt en begäran, betala priset via Lightning, och Magma matchar den automatiskt med det bästa tillgängliga erbjudandet. Efter sex onchain-bekräftelser är din kanal med inkommande likviditet igång. Så här fungerar det:
+Det finns många sätt att köpa inkommande likviditet. Den som jag personligen använder och rekommenderar är Amboss:s [Magma](https://magma.amboss.tech/) plattform. Den är mycket enkel att använda, det går snabbt att öppna en kanal och priserna är i allmänhet rimliga. Magma fungerar som en marknadsplats med makers och takers, men version 2 har kraftigt förenklat upplevelsen: skapa helt enkelt en begäran, betala priset via Lightning, och Magma matchar den automatiskt med det bästa tillgängliga erbjudandet. Efter sex onchain-bekräftelser är din kanal med inkommande likviditet igång. Så här fungerar det:
 
 
 
-Gå till [Magmas webbplats] (https://magma.amboss.tech/buy), i avsnittet `Buy Channels`.
+Gå till [Magmas webbplats](https://magma.amboss.tech/buy), i avsnittet `Buy Channels`.
 
 
 
@@ -1669,7 +1669,7 @@ Om du inte är handlare, men ändå behöver lite inkommande likviditet (till ex
 
 
 
-Du kan naturligtvis ordna detta direkt med andra bitcoiners. Det finns dock en plattform som är dedikerad till denna typ av cirkulära öppningar: [Lightning Network +] (https://lightningnetwork.plus/). Principen är inte att öppna två kanaler mellan samma personer, utan att skapa cirkulära öppningar med minst tre deltagare, eller ännu fler.
+Du kan naturligtvis ordna detta direkt med andra bitcoiners. Det finns dock en plattform som är dedikerad till denna typ av cirkulära öppningar: [Lightning Network +](https://lightningnetwork.plus/). Principen är inte att öppna två kanaler mellan samma personer, utan att skapa cirkulära öppningar med minst tre deltagare, eller ännu fler.
 
 
 
@@ -2050,7 +2050,7 @@ Om du inte är övertygad om Tailscale-anslutningen, eller om det verkar för kr
 
 
 
-I det här exemplet kommer vi att använda mobilapplikationen Alby Go, som är mycket väl utformad och särskilt lätt att lära sig. Med det sagt kan du också använda Zeus eller någon annan NWC-kompatibel mobilapplikation. Du hittar en lista över kompatibla applikationer på [the `awesome-nwc` GitHub repository] (https://github.com/getAlby/awesome-nwc).
+I det här exemplet kommer vi att använda mobilapplikationen Alby Go, som är mycket väl utformad och särskilt lätt att lära sig. Med det sagt kan du också använda Zeus eller någon annan NWC-kompatibel mobilapplikation. Du hittar en lista över kompatibla applikationer på [the `awesome-nwc` GitHub repository](https://github.com/getAlby/awesome-nwc).
 
 
 
@@ -2141,9 +2141,9 @@ Installera applikationen Alby Go på din smartphone:
 
 
 
-- [Google Play Store] (https://play.google.com/store/apps/details?id=com.getalby.mobile);
-- [Apple App Store] (https://apps.apple.com/us/app/alby-go/id6471335774);
-- [Zapstore] (https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq3jhml5fvklgnq9fxpete767txn9zfzqdkc0sxfptmnchfrexje7qqfxxmmd9enk2arpd338jtndda3xjmr9pzj5tk).
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.getalby.mobile);
+- [Apple App Store](https://apps.apple.com/us/app/alby-go/id6471335774);
+- [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq3jhml5fvklgnq9fxpete767txn9zfzqdkc0sxfptmnchfrexje7qqfxxmmd9enk2arpd338jtndda3xjmr9pzj5tk).
 
 
 

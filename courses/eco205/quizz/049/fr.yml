@@ -1,0 +1,8 @@
+question: Que signifie l'irréversibilité du temps en économie selon l'approche autrichienne?
+answer: Chaque action réalisée est unique et appartient au passé, sans possibilité de reproduction identique
+wrong_answers:
+  - "Le temps s'écoule toujours à la même vitesse objective pour tous les individus"
+  - Les actions économiques peuvent être répétées exactement dans les mêmes conditions
+  - "L'avenir peut être prédit avec certitude en se basant sur les exemples historiques"
+explanation: |
+  L'irréversibilité du temps signifie que chaque action est unique et ne peut être reproduite à l'identique. Le contexte change constamment, les individus apprennent et évoluent. Cette caractéristique empêche toute prédiction certaine basée uniquement sur l'histoire et explique pourquoi les agents économiques ne peuvent vérifier qu'a posteriori si une autre action aurait été meilleure.

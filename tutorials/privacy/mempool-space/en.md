@@ -89,7 +89,7 @@ A block is mined approximately every ten minutes due to the difficulty of the pr
 ![difficulty](assets/fr/05.webp)
 
 
-The addition of a new block to the main chain entitles the miner of the validated block to a reward made up of a fixed part (halved every 210,000 blocks**, equivalent to around **4 years** during halvings) and transaction fees.
+The addition of a new block to the main chain entitles the miner of the validated block to a reward made up of a fixed part (halved every 210,000 blocks), equivalent to around **4 years** during halvings) and transaction fees.
 
 
 ![halving](assets/fr/06.webp)

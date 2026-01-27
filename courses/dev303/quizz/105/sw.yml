@@ -1,8 +1,8 @@
-question: Kuna tofauti gani muhimu kati ya muundo wa safu ya uendelevu wa LDK na usimamizi wa data wa nodi za umeme wa kitamaduni unaowezesha kubadilika kwa uwasilishaji wa mifumo mbalimbali?
+question: Kuna tofauti gani muhimu kati ya muundo wa safu ya uendelevu wa LDK na usimamizi wa data wa node za lightning wa kitamaduni unaowezesha kubadilika kwa uwasilishaji wa mifumo mbalimbali?
 answer: LDK hutoa matone ya data ya jozi dhahania kwa ajili ya kuhifadhi huku programu zikitekeleza mifumo yao ya kuhifadhi
 wrong_answers:
-  - LDK hutumia hifadhidata sanifu za SQL huku nodi za kitamaduni zikihitaji utekelezaji wa mfumo maalum wa faili
-  - LDK husawazisha data kiotomatiki katika mifumo mingi huku nodi za kitamaduni zikihifadhi data ndani ya nchi pekee
-  - LDK husimba data yote ya kuendelea kwa chaguo-msingi huku nodi za kitamaduni zikitegemea usimbaji fiche wa kiwango cha programu
+  - LDK hutumia hifadhidata sanifu za SQL huku node za kitamaduni zikihitaji utekelezaji wa mfumo maalum wa faili
+  - LDK husawazisha data kiotomatiki katika mifumo mingi huku node za kitamaduni zikihifadhi data ndani ya nchi pekee
+  - LDK husimba data yote ya kuendelea kwa chaguo-msingi huku node za kitamaduni zikitegemea usimbaji fiche wa kiwango cha programu
 explanation: |
-  Safu ya uendelevu ya LDK hufupisha hifadhi kwa kutoa programu zenye matone ya data ya jozi yaliyowekwa mfululizo ambayo lazima yahifadhiwe na kurejeshwa kwa uhakika, huku ikishughulikia ugumu wote wa kusambaza hali za chaneli za Umeme na data ya mtandao ndani. Hii inaruhusu programu kuchagua suluhisho lolote la hifadhi (mifumo ya faili, hifadhi ya wingu, hifadhidata) linalolingana na mahitaji yao ya jukwaa. Nodi za Umeme za Jadi kwa kawaida hutekeleza mifumo yao maalum ya usimamizi wa data iliyounganishwa na mifumo maalum ya hifadhi, na kuifanya iwe rahisi kubadilika katika mazingira tofauti ya uwasilishaji.
+  Safu ya uendelevu ya LDK hufupisha hifadhi kwa kutoa programu zenye matone ya data ya jozi yaliyowekwa mfululizo ambayo lazima yahifadhiwe na kurejeshwa kwa uhakika, huku ikishughulikia ugumu wote wa kusambaza hali za chaneli za lightning na data ya mtandao ndani. Hii inaruhusu programu kuchagua suluhisho lolote la hifadhi (mifumo ya faili, hifadhi ya wingu, hifadhidata) linalolingana na mahitaji yao ya jukwaa. Node za lightning za Jadi kwa kawaida hutekeleza mifumo yao maalum ya usimamizi wa data iliyounganishwa na mifumo maalum ya hifadhi, na kuifanya iwe rahisi kubadilika katika mazingira tofauti ya uwasilishaji.

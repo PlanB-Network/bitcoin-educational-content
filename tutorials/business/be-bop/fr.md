@@ -927,14 +927,14 @@ Affiche :
 
 ### Résumé POS
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
+| Fonction                   | Description                               |
+| -------------------------- | ----------------------------------------- |
+| Rôle POS                   | Assigné via ARM                           |
+| Interface principale       | `/pos` ou `/pos/touch`                    |
+| Affichage client (écran 2) | `/pos/session`                            |
+| Paiement                   | Espèces, carte, Lightning, etc.           |
+| Ajout produit              | Alias ou scan code-barres                 |
+| Remises / TVA              | Sur justification managériale obligatoire |
 
 
 Merci d'avoir suivi ce tutoriel avec attention.  

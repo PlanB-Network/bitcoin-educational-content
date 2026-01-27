@@ -1,8 +1,8 @@
-question: Ni sababu gani ya msingi kwa nini usanifu wa Breez SDK huzuia vikwazo vya udhibiti ambavyo kwa kawaida huathiri huduma za Umeme wa Kuzuia?
+question: Ni sababu gani ya msingi kwa nini usanifu wa Breez SDK huzuia vikwazo vya udhibiti ambavyo kwa kawaida huathiri huduma za lightning ya Kuzuia?
 answer: Watumiaji hudumisha udhibiti kamili wa funguo zao za kibinafsi ambazo haziondoki kwenye vifaa vyao, na kuifanya kuwa programu isiyohifadhiwa
 wrong_answers:
   - SDK inafanya kazi kupitia LSP zilizogatuliwa ambazo husambaza majukumu ya udhibiti katika mamlaka nyingi
-  - Miundombinu ya Greenlight inahifadhiwa katika maeneo rafiki kwa udhibiti ambayo hayahusishi huduma za Umeme zinazotegemea wingu
+  - Miundombinu ya Greenlight inahifadhiwa katika maeneo rafiki kwa udhibiti ambayo hayahusishi huduma za lightning zinazotegemea cloud
   - Utaratibu wa njia za malipo kwa wakati unaofaa huunda njia za malipo za muda ambazo zinaangukia nje ya kanuni za kifedha za kitamaduni
 explanation: |
   SDK ya Breez huepuka vikwazo vya udhibiti kwa sababu inadumisha kanuni zisizo za uangalizi - funguo za faragha za watumiaji haziondoki kwenye vifaa vyao na Greenlight haiwezi kufikia fedha za watumiaji au kufanya shughuli zisizoidhinishwa. Usanifu huu usio wa uangalizi unamaanisha kuwa programu haishiki fedha za wateja, tofauti na huduma za uangalizi ambazo zinakabiliwa na mahitaji makubwa ya udhibiti kwani zinadhibiti mali za watumiaji. Chaguzi zingine zinaonyesha vibaya faida za udhibiti zinatokana na vipengele vya kiufundi au mikakati ya mamlaka, wakati faida kuu ni kwamba programu isiyo ya uangalizi inakabiliwa na vikwazo vichache vya udhibiti duniani kote.

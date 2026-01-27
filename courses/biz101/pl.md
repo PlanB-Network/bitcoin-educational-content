@@ -290,7 +290,7 @@ Razem tworzą one z Bitcoin **aktywo na okaziciela** i walutę cyfrową **bez em
 ![BIZ101](assets/pl/003.webp)
 
 
-Bitcoin ma stałą politykę monetarną, z **limitem 21 milionów bitcoinów**, z czego ~19,8 miliona zostało już rozdanych. To sprawia, że jest **deflacyjny**, a jego wartość rośnie z czasem, gdy użytkownicy przechowują w nim oszczędności i zyski z produktywności.
+Bitcoin ma stałą politykę pieniężną, z **maksimum 21 milionów bitcoinów**, z czego ~19,8 (2024) miliona zostało już wydobytych. To czyni go **deflacyjnym**, a jego wartość rośnie w czasie, gdy użytkownicy przechowują w nim oszczędności i zyski z produktywności.
 
 
 Jego właściwości techniczne przewyższają złoto i dolara razem wzięte, co czyni go najtwardszym aktywem finansowym, jaki kiedykolwiek stworzono. Bitcoin jest zarówno magazynem wartości, jak i nośnikiem Exchange, waluty w trakcie tworzenia. Wyobraź sobie szybki transfer wartości ze skarbca jednej firmy do drugiej, bez pośredników, przy minimalnych kosztach, bez oszustw, 24 godziny na dobę, 7 dni w tygodniu i bez udziału osób trzecich.
@@ -308,7 +308,7 @@ Bitcoin jest przełomowy, ponieważ zachęca nas do nauki pojęć z zakresu mate
 Bitcoin wzywa nas do ponownego rozważenia natury samego pieniądza. Czy mógłbyś wyjaśnić, czym tak naprawdę są pieniądze? Pracownik najemny lub przedsiębiorca może spędzić od 50 000 do 100 000 godzin swojego życia zarabiając pieniądze, ale ilu z nich **poświęca nawet 100 godzin na ich lepsze zrozumienie** i zachowanie? Bitcoin zachęca nas do zastanowienia się nad podstawowymi przyczynami naszego zapotrzebowania na pieniądze i naszą perspektywą czasową. Czy pieniądze służą natychmiastowemu luksusowi, czy długoterminowej odporności? Gdybyśmy mieli rosnące aktywa pozwalające nam opóźnić zakupy, jakich wyborów byśmy dokonali? Jakie rozmowy chcielibyśmy przeprowadzić ze sobą za 20 lub 30 lat?
 
 
-**DOWÓD TOŻSAMOŚCI Bitcoin**
+**DOWÓD TOŻSAMOŚCI BITCOINA (w 2024 r.)**
 
 
 - **Wiek:** 15 lat (3 stycznia 2009 r.)
@@ -414,7 +414,7 @@ Lightning Network jest idealny do płatności Bitcoin w sklepach fizycznych lub 
 - **Opłaty:** Opłaty transakcyjne na Lightning Network są minimalne i płacone przez użytkownika, a nie sprzedawcę. Sprzedawcy ponoszą opłaty tylko wtedy, gdy później muszą przenieść Bitcoin do innej sieci lub usługi.
 
 
-**PIORUNUJĄCY DOWÓD TOŻSAMOŚCI**
+**DOWÓD TOŻSAMOŚCI LIGHTNING (w 2024 r.)**
 
 
 

@@ -727,14 +727,15 @@ BTCPay Server koosneb järgmistest standardsetest Wallet funktsioonidest:
 Administraatorid saavad näha selle konkreetse kauplusega ühendatud On-Chain Wallet sissetulevaid ja väljaminevaid tehinguid tehingute vaates. Iga tehingu puhul eristatakse saadud ja saadetud summad. Saadud on Green ja väljaminevad tehingud on punased. BTCPay Serveri tehingute vaates näevad administraatorid ka standardseid silte.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Tehingu tüüp | Kirjeldus                                          |
+| ------------- | -------------------------------------------------- |
+| Rakendus      | Makse saadi rakenduse loodud arve kaudu            |
+| Arve          | Makse saadi arve kaudu                             |
+| Payjoin       | Pole makstud, arve taimer ei ole veel aegunud      |
+| Payjoin-paljastatud | UTXO paljastati arve payjoin-ettepaneku kaudu |
+| Maksepäring   | Makse saadi maksepäringu kaudu                     |
+| Väljamakse    | Makse saadeti väljamakse või tagasimakse kaudu     |
 
 ### Kuidas saata
 
@@ -1805,28 +1806,30 @@ Igal tüübil on oma parameetrid, mida täita. Poe omanik saab selle seadistada 
 BTCPay Server võimaldab teil ka vormide koostamist koodis. JSON, eriti. Selle asemel, et vaadata redaktorit, saavad poeomanikud klõpsata nupule CODE otse redaktori kõrval ja pääseda oma Vormide koodi sisse. Välja määratluses saab määrata ainult järgmisi välju; väljade väärtused on salvestatud Invoice metaandmetesse:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Väli | Kirjeldus |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Kui on true, peab .value olema määratud vormi definitsioonis ja kasutaja ei saa välja väärtust muuta. (näide: vormi definitsiooni versioon) |
+| .fields.type | HTML sisenditüüp: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Kui .fields.type on select, siis valitavate väärtuste loend |
+| .fields.options.text | Selle valiku puhul kuvatav tekst |
+| .fields.options.value | Välja väärtus, kui see valik on märgitud |
+| .fields.type=fieldset | Loob HTML fieldset-i alamväljade .fields.fields ümber (vt allpool) |
+| .fields.name | Välja JSON-omaduse nimi, nagu see ilmub arve metaandmetes |
+| .fields.value | Välja vaikeväärtus |
+| .fields.required | kui on true, on väli kohustuslik |
+| .fields.label | Välja silt |
+| .fields.helpText | Täiendav tekst välja selgitamiseks. |
+| .fields.fields | Saate oma välju organiseerida hierarhiliselt, võimaldades alamväljade pesastamist arve metaandmetesse. See struktuur aitab teil kogutud teavet paremini organiseerida ja hallata, muutes sellele juurdepääsu ja tõlgendamise lihtsamaks. Näiteks kui teil on vorm, mis kogub klienditeavet, saate rühmitada väljad ülemvälja customer alla. Selle ülemvälja sees võivad olla alamväljad nagu name, Email ja address. |
 
 Välja nimi kujutab endast JSON-omaduse nime, mis salvestab kasutaja poolt antud väärtuse Invoice metaandmetes. Mõningaid tuntud nimesid saab tõlgendada ja muuta, et kohandada Invoice seadeid.
 
 
-| Field name       | Description            |
+
+| Välja nimi       | Kirjeldus             |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Arve summa            |
+| invoice_currency | Arve valuuta          |
 
 Invoice väljad saab automaatselt eeltäita, lisades vormi URL-ile päringustringid, näiteks "?your_field=value".
 
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Logid         | Konteineri nimi                    |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2467,21 +2471,22 @@ Kui te ei kasuta maksete käsitsi vastuvõtmiseks sisseehitatud [Wallet](https:/
 Alljärgnevas tabelis on loetletud ja kirjeldatud Invoice standardseisundid BTCPays koos soovitatud üldiste tegevustega. Tegevused on vaid soovitused. Kasutajad peavad ise määrama oma kasutusjuhtumi ja ettevõtte jaoks parima tegutsemisviisi.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Arve olek | Kirjeldus | Tegevus |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Tasumata, arve taimer pole veel aegunud | Puudub |
+| New (paidPartial) | Tasutud osaliselt, arve taimer pole veel aegunud | Puudub |
+| Expired | Tasumata, arve taimer on aegunud | Puudub |
+| Expired (paidPartial) ** | Tasutud osaliselt ja aegunud | Võtke ostjaga ühendust tagasimakseks või paluge tasuda võlgnevus. Valikuliselt märkige arve settled või invalid |
+| Expired (paidLate) | Tasutud täies mahus pärast arve taimeri aegumist | Võtke ostjaga ühendust tagasimakseks või töötlege tellimus, kui hilised kinnitused on aktsepteeritavad. |
+| Settled (paidOver) | Tasutud arvel olevast summast rohkem, laekunud piisav arv kinnitusi | Võtke ostjaga ühendust enamtasutud summa tagastamiseks või oodake, kuni ostja teiega ühendust võtab |
+| Processing | Tasutud täies mahus, kuid pole laekunud piisavalt kinnitusi (vastavalt poe seadetele) | Võtke ostjaga ühendust enamtasutud summa tagastamiseks või oodake, kuni ostja teiega ühendust võtab |
+| Processing (paidOver) | Tasutud arvel olevast summast rohkem, pole laekunud piisavalt kinnitusi | Oodake olekut settled, seejärel võtke ostjaga ühendust tagasimakseks või oodake ostja kontakti |
+| Settled | Tasutud täies mahus, poes on laekunud piisav arv kinnitusi | Täitke tellimus |
+| Settled (marked) | Olek muudeti käsitsi processing või invalid olekust settled olekusse | Poe administraator märkis makse olekuks settled |
+| Invalid* | Tasutud, kuid määratud aja jooksul ei laekunud piisavalt kinnitusi | Kontrollige tehingut plokiahela sirvijas; kui kinnitusi on piisavalt, märkige settled |
+| Invalid (marked) | Olek muudeti käsitsi settled või expired olekust invalid olekusse | Poe administraator märkis makse olekuks invalid |
+| Invalid (paidOver) | Tasutud arvest rohkem, kuid määratud aja jooksul ei laekunud piisavalt kinnitusi | Kontrollige tehingut plokiahela sirvijas; kui kinnitusi on piisavalt, märkige settled |
 
 #### Invoice üksikasjad
 

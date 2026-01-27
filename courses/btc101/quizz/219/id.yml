@@ -6,4 +6,4 @@ wrong_answers:
   - Eksekusi onchain yang digeneralisasi
 explanation: |
   Bitcoin mempertahankan lapisan dasar yang sederhana dan tangguh, sementara protokol tingkat atas menambahkan fungsionalitas tertentu.
-reviewed: false
+reviewed: true

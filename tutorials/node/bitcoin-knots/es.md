@@ -212,10 +212,11 @@ No olvides reiniciar el programa después de realizar estos cambios.
 
 A continuación, ve a tu software de gestión de carteras (por ejemplo, Sparrow Wallet o Liana) e introduce la ruta a tu archivo cookie, normalmente ubicado en la misma carpeta que el `Bitcoin.conf`, dependiendo de tu sistema operativo:
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -232,6 +233,7 @@ server=1
 ```
 
 Después de editar el archivo, asegúrate de guardarlo en la carpeta adecuada para tu sistema operativo:
+
 
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|

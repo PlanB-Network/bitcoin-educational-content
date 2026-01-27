@@ -2050,7 +2050,7 @@ Als je niet overtuigd bent door de Tailscale verbinding, of als het beheren van 
 
 
 
-Voor dit voorbeeld gebruiken we de Alby Go mobiele toepassing, die zeer goed ontworpen is en bijzonder eenvoudig te leren. Je kunt echter ook Zeus of een andere mobiele applicatie die compatibel is met NWC gebruiken. Je vindt een lijst met compatibele toepassingen op [de `awesome-nwc` GitHub repository] (https://github.com/getAlby/awesome-nwc).
+Voor dit voorbeeld gebruiken we de Alby Go mobiele toepassing, die zeer goed ontworpen is en bijzonder eenvoudig te leren. Je kunt echter ook Zeus of een andere mobiele applicatie die compatibel is met NWC gebruiken. Je vindt een lijst met compatibele toepassingen op [de `awesome-nwc` GitHub repository](https://github.com/getAlby/awesome-nwc).
 
 
 

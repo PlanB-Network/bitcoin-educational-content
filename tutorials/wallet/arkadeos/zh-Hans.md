@@ -372,14 +372,15 @@ Arkade 产品组合会自动管理这一过程：应用程序会持续监控 VTX
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| 准则 | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **模型** | 由服务器 (ASP) 协调的共享 UTXO | 支付通道的 P2P 网络 | 由银行 (Mint) 发行的盲代币 |
+| **托管** | **非托管** (你拥有私钥) | **非托管** (你拥有私钥) | **托管** (Mint 持有资金) |
+| **隐私** | **高** (原生 CoinJoin，对公众隐藏) | **中** (洋葱路由，但通道可见) | **极高** (甚至对 Mint 隐藏) |
+| **可扩展性** | 极佳 (大规模链上批处理) | 极佳 (无限链下交易) | 极佳 (简单的服务器签名) |
+| **体验** | 简单 (接近链上钱包) | 复杂 (通道管理、流动性) | 非常简单 (像数字现金) |
+| **主要风险** | ASP 的可用性与过期 | 通道管理与备份 | 对 Mint 的信任 (被盗风险) |
 
 **Arkade**是理想的折中方案：既有卡舒的简单和保密性，又有闪电的主权（非托管）。
 

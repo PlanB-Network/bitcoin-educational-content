@@ -1,8 +1,8 @@
-question: Faida kuu ya warudiaji kuwa wavivu katika Rust ni ipi?
+question: Faida kuu ya iterators kuwa wavivu katika Rust ni ipi?
 answer: Hawafanyi kazi yoyote hadi itumike, hivyo kuruhusu uunganishaji mzuri bila kuunda makusanyo ya kati
 wrong_answers:
   - Husawazisha kiotomatiki shughuli katika viini vingi vya CPU kwa utendaji bora
   - Huhifadhi matokeo ya awali kwenye kumbukumbu ili kuepuka kuhesabu tena thamani zile zile mara nyingi
   - Wanatumia kumbukumbu kidogo kwa kuhifadhi marejeleo pekee badala ya kunakili thamani halisi za data
 explanation: |
-  Tathmini ya uvivu katika virudiaji vya Rust inamaanisha kuwa havifanyi usindikaji wowote hadi njia ya utumiaji itakapoitwa. Hii hukuruhusu kuunganisha shughuli nyingi kama vile ramani, kichujio, na adapta zingine pamoja bila kuunda mikusanyiko ya kati kati ya kila hatua. Kikusanyaji kinaweza kuboresha mnyororo mzima kuwa msimbo mzuri unaochakata vipengele kimoja baada ya kingine kupitia mabadiliko yote, badala ya kuunda vekta za muda au mikusanyiko mingine katika kila hatua.
+  Tathmini ya uvivu katika iterators za Rust inamaanisha kuwa havifanyi usindikaji wowote hadi njia ya utumiaji itakapoitwa. Hii hukuruhusu kuunganisha shughuli nyingi kama vile ramani, kichujio, na adapta zingine pamoja bila kuunda mikusanyiko ya kati kati ya kila hatua. Kikusanyaji kinaweza kuboresha mnyororo mzima kuwa msimbo mzuri unaochakata vipengele kimoja baada ya kingine kupitia mabadiliko yote, badala ya kuunda vekta za muda au mikusanyiko mingine katika kila hatua.

@@ -372,14 +372,15 @@ Ili kuelewa vyema nafasi ya Arkade, wacha tuilinganishe na suluhisho mengine maw
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Kigezo | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Mfumo** | UTXO inayoshirikiwa ikiratibiwa na seva (ASP) | Mtandao wa P2P wa njia za malipo | Tokeni ambazo hazionekani zilizotolewa na benki (Mint) |
+| **Usimamizi wa Fedha** | **Si wa usimamizi** (una funguo) | **Si wa usimamizi** (una funguo) | **Wa usimamizi** (Mint ina fedha) |
+| **Faragha** | **Ya Juu** (CoinJoin ya asili, haionekani kwa umma) | **Ya Kati** (Uelekezaji wa vitunguu, lakini njia zinaonekana) | **Ya Juu Sana** (Haionekani hata kwa Mint) |
+| **Uwezo wa kupanuka** | Bora (Ukusanyaji mkubwa on-chain) | Bora (Miamala isiyo na kikomo off-chain) | Bora (Sahihi rahisi za seva) |
+| **Uzoefu** | Rahisi (karibu na pochi ya on-chain) | Tata (usimamizi wa njia, ukwasi) | Rahisi sana (kama pesa taslimu ya kidijitali) |
+| **Hatari kuu** | Upatikanaji wa ASP na Muda kuisha | Usimamizi wa njia na Nakala rudufu | Imani kwa Mint (hatari ya wizi) |
 
 **Arkade** ndio maelewano bora: usahili na usiri wa Cashu, lakini kwa uhuru (isiyo ya ulinzi) wa Umeme.
 

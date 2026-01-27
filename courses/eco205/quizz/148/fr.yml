@@ -1,0 +1,8 @@
+question: Dans la théorie autrichienne des cycles économiques, quel est l'impact principal de la création monétaire artificielle sur l'allocation des ressources dans l'économie?
+answer: Elle crée une illusion d'abondance de capital tout en maintenant la rareté réelle des ressources matérielles, humaines et techniques
+wrong_answers:
+  - Elle augmente effectivement la quantité de ressources disponibles en stimulant la production de biens rares
+  - "Elle redistribue équitablement les ressources existantes entre tous les secteurs de l'économie sans créer de distorsions"
+  - Elle permet une utilisation plus efficace des ressources en orientant automatiquement les investissements vers les secteurs les plus productifs
+explanation: |
+  Selon Mises, la création monétaire ne peut pas créer de véritables ressources : 'Imprimer de l'argent n'imprime pas des biens rares'. La nouvelle monnaie crée seulement une illusion d'abondance de capital qui fausse les signaux de prix, conduisant au malinvestissement. Les ressources réelles restent limitées mais sont mal allouées vers des projets non viables. Les autres options sont incorrectes car elles supposent que la création monétaire peut effectivement augmenter ou mieux répartir les ressources réelles.

@@ -196,7 +196,7 @@ Ensemble, ils font du bitcoin **un actif au porteur** et une monnaie numérique 
 
 ![BIZ101](assets/fr/003.webp)
 
-Le bitcoin a une politique monétaire fixe, avec un **cap de 21 millions de bitcoins**, dont ~19,8 millions ont déjà été distribués. Cela le rend **déflationniste**, sa valeur augmentant au fil du temps à mesure que les utilisateurs y stockent leurs économies et leurs gains de productivité.
+Le Bitcoin a une politique monétaire fixe, avec un **maximum de 21 millions de bitcoins**, dont environ 19,8 (2024) millions ont déjà été minés. Cela le rend **déflationniste**, sa valeur augmentant au fil du temps à mesure que les utilisateurs y stockent leur épargne et leurs gains de productivité.
 
 Ses caractéristiques techniques dépassent celles de l'or et du dollar réunis, ce qui en fait l'actif financier le plus "dur" jamais créé. Le bitcoin est à la fois une réserve de valeur et un moyen d'échange, une monnaie en devenir. Imaginez que vous puissiez transférer de la valeur, depuis la trésorerie d'une entreprise à une autre, rapidement, sans intermédiaire, à un coût minime, sans fraude, 24 heures sur 24, 7 jours sur 7, et sans l'intervention d'une tierce partie.
 
@@ -208,8 +208,7 @@ Le bitcoin est perturbateur parce qu'il nous encourage à apprendre des concepts
 
 Le bitcoin nous pousse à reconsidérer la nature même de l'argent. Pourriez-vous nous expliquer ce qu'est vraiment l'argent ? Un salarié ou un entrepreneur va passer 50 000 à 100 000 heures de sa vie à gagner de l'argent, mais combien **consacrent ne serait-ce que 100 heures à mieux le comprendre** et à le préserver ? Le bitcoin nous incite à nous interroger sur les raisons fondamentales de notre besoin d'argent et sur notre perspective temporelle. L'argent est-il un luxe immédiat ou une résilience à long terme ? Si nous disposions d'un actif qui s'apprécie et nous permettait de retarder nos achats, quels choix ferions-nous ? Quelles conversations souhaiterions-nous avoir avec nous-mêmes dans 20 ou 30 ans ?
 
-**CARTE D'IDENTITÉ DE BITCOIN**
-
+**CARTE D'IDENTITÉ DE BITCOIN (en 2024)**
 
 - **Âge:** 15 ans (3 janvier 2009)
 - **Valeur boursière quotidienne:** 10 milliards de dollars (> CAC40)
@@ -293,7 +292,7 @@ Le Lightning Network est idéal pour les paiements en bitcoins dans les magasins
 - **Finalité:** Une fois qu'un paiement est effectué sur Lightning, il est définitif. Il n'y a pas de possibilité de rétro-facturation par des tiers ou de litiges liés à la fraude.
 - **Frais:** Les frais de transaction sur le Lightning Network sont minimes et payés par l'utilisateur, pas par le commerçant. Les commerçants ne paient des frais que s'ils ont besoin de transférer leurs bitcoins vers un autre réseau ou service.
 
-**CARTE D'IDENTITÉ DE LIGHTNING**
+**CARTE D'IDENTITÉ DE LIGHTNING (en 2024)**
 
 
 - **Invention:** 2015

@@ -48,6 +48,17 @@ Finally, we will conclude the training by recapping the concepts covered and pav
 
 Ready to uncover the technical mechanisms of the Lightning Network? Let’s dive in!
 
+---
+*Here are some terms you will encounter in the course diagrams, along with a brief definition to help you better understand them:*
+
+| English           | Definition                                          |
+| ----------------- | --------------------------------------------------- |
+| *timelock*        | A mechanism that locks funds until a specific time  |
+| *Revocation Key*  | A cryptographic key used to revoke a previous state |
+| *invoice*         | A payment request containing amount and details     |
+| *sig* (signature) | A cryptographic proof of transaction authorization  |
+| *Preimage*        | The original value that produces a hash when hashed |
+
 # The Fundamentals
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

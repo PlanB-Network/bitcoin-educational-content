@@ -288,18 +288,19 @@ El primer campo de la cabecera se denomina Versión. Este valor de 4 bits especi
 
 **Nota**: La gestión y asignación de las versiones de protocolos IP corresponde a la **IANA**. Un campo de 4 bits permite 16 combinaciones binarias (valores de 0 a 15). A día de hoy, su asignación es la siguiente:
 
-| Número de version | Protocolo   | Descripción de version         | Referencia               |
+
+| Número de versión | Protocolo | Descripción de la versión | Referencia |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reservado   | Reservado                    |                         |
-| 2–3            | No asignado | No asignado                  |                         |
-| 4 |IP | Protocolo de internet           | RFC 791                 |
-| **5**          | **ST**     | **Modo de datagrama ST**        | **RFC 1190** / RFC 1819 |
-| 6 | IPv6       | Protocolo de internet version 6 | RFC 8200                |
-| 7              | TP/IX      | la próximo internet           | RFC 1475                |
-| 8              | PIP        | El protocolo de internet P     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | No asignado | No asignado                  |                         |
-| 15             | Reservado   | Reservado                    |                         |
+| 0–1 | Reservado | Reservado | |
+| 2–3 | Sin asignar | Sin asignar | |
+| 4 | IP | Protocolo de Internet | RFC 791 |
+| **5** | **ST** | **Modo de datagrama ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Protocolo de Internet versión 6 | RFC 8200 |
+| 7 | TP/IX | El próximo Internet | RFC 1475 |
+| 8 | PIP | El protocolo de Internet P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Sin asignar | Sin asignar | |
+| 15 | Reservado | Reservado | |
 
 Entre ellos está IPv5, que, aunque en gran medida desconocido para el público, ya existía como ST (_Stream Protocol_). Desarrollado en los años 80, IPv5 se diseñó para abordar una necesidad creciente en aquella época: proporcionar "_Calidad de Servicio_" (QoS) a determinados flujos de datos que requerían una transmisión continua y estable, como la Voz sobre IP o los flujos multimedia. Su objetivo era garantizar ancho de banda y prioridad de extremo a extremo, un concepto similar al que hoy ofrece el RSVP (_Protocolo de Reserva de Recursos_) para reservar dinámicamente recursos de red en los routers modernos.
 
@@ -422,14 +423,15 @@ Esta separación permite estructurar lógicamente la Internet global en muchas r
 
 Históricamente, el sistema IPv4 se basaba en un esquema de clases, etiquetadas de la A a la E, que definían el rango de direcciones y su uso previsto. Cada clase asignaba un número determinado de bits al _netid_ y al _hostid_, lo que afectaba directamente al número posible de redes y hosts.
 
-| **Clase** | **Rango de direcciones IPv4**            | **Uso**                    |
+
+| **Clase** | **Rango de direcciones IPv4**     | **Uso**                      |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x a 126.x.x.x              | Dirección unicast           |
-|           | (127.x.x.x Reservado para loopback) | Loopback local           |
-| B         | 128.0.x.x a 191.255.x.x          | Dirección unicast           |
-| C         | 192.0.0.x a 223.255.255.x        | Dirección unicast           |
-| D         | 224.0.0.0 a 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 a 255.255.255.255      | Reservado para experimentación |
+| A         | 1.x.x.x a 126.x.x.x               | Direcciones unicast          |
+|           | (127.x.x.x reservado para loopback)| Loopback local               |
+| B         | 128.0.x.x a 191.255.x.x           | Direcciones unicast          |
+| C         | 192.0.0.x a 223.255.255.x         | Direcciones unicast          |
+| D         | 224.0.0.0 a 239.255.255.255       | Multicast IP                 |
+| E         | 240.0.0.0 a 255.255.255.255       | Reservado para experimentación |
 
 No todos los valores posibles pueden asignarse a los hosts. Por ejemplo, en una dirección **clase C** , el último byte ofrece 8 bits (256 valores). Pero dos de ellos están reservados:
 
@@ -487,7 +489,8 @@ Queremos 4 subredes de hasta 60 hosts cada una.
 ```
 **Paso 4**: Calcular los rangos de direcciones para cada subred, variando los bits reservados para el host.
 
-| Subred ID (bits) | Dirección de subred  | Máscara de subred    | Rango de direcciones                 | Dirección de broadcast |
+
+| ID de subred (bits) | Dirección de subred | Máscara de subred | Rango de direcciones          | Dirección de broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
@@ -522,7 +525,8 @@ Un bloque /17 contiene 2^(32-17) direcciones, por lo que 2^15 = 32.768 direccion
 
 Para que el dimensionamiento CIDR sea más fácil de entender, aquí tienes una tabla de prefijos comunes y sus equivalentes máscaras de subred y direcciones utilizables:
 
-| Prefijo CIDR | Bits de host disponibles | Máscara de subred    | Direcciones de host utilizables      |
+
+| Prefijo CIDR | Bits de host disponibles | Máscara de subred | Direcciones de host utilizables |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -534,8 +538,8 @@ Para que el dimensionamiento CIDR sea más fácil de entender, aquí tienes una 
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (solamente punto-a-punto) |
-| /32         | 0                   | 255.255.255.255 | 1 (solo dirección de host)         |
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (solo punto a punto) |
+| /32         | 0                   | 255.255.255.255 | 1 (solo dirección de host)   |
 
 **NOTA**: Históricamente, el RFC 950 desaconsejaba el uso de la subred cero, principalmente para evitar confusiones en el encaminamiento.  Esta restricción quedó obsoleta con el RFC 1878, que permite plenamente su uso. La antigua limitación se debía principalmente a la incompatibilidad con hardware antiguo que no podía manejar CIDR correctamente. Los equipos modernos no tienen ese problema.
 
@@ -653,12 +657,13 @@ La arquitectura por capas sigue el principio de que cada capa procesa solo la in
 
 La siguiente tabla resume los términos para los contextos TCP y UDP:
 
-| Capa TCP/IP         | Nombre unitario (TCP) | Nombre unitario (UDP) |
+
+| Capa TCP/IP          | Nombre de unidad (TCP) | Nombre de unidad (UDP) |
 |----------------------|------------------|------------------|
-| Capa de aplicación    | Transmisión          | Mensaje         |
-| Capa de transporte     | Segmento          | Paquete           |
-| Capa de internet       | Datagrama         | Datagrama         |
-| Capa de acceso a la red | Fotograma            | Fotograma            |
+| Capa de aplicación   | Flujo            | Mensaje          |
+| Capa de transporte   | Segmento         | Paquete          |
+| Capa de Internet     | Datagrama        | Datagrama        |
+| Capa de acceso a la red | Trama         | Trama            |
 
 ### Primitivas de servicio y unidades de datos
 
@@ -709,7 +714,8 @@ Cada bit de un byte tiene un valor (o "peso"): el bit de la izquierda (el más s
 
 El cuadro siguiente ilustra esta correspondencia:
 
-| Código binario | Valores de bits activados          | Valor decimal |
+
+| Código binario | Valores de bits activados   | Valor decimal |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -724,7 +730,8 @@ El cuadro siguiente ilustra esta correspondencia:
 Para convertir binario a decimal, suma los pesos de los bits que están a 1.
 
 
-| Binary     | Decimal Value |
+
+| Binario    | Valor decimal |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -755,13 +762,14 @@ Originalmente, las redes IPv4 se dividían en cinco **clases**: (A, B, C, D y E)
 - Clase D: direcciones reservadas a la multidifusión (_multicast_)
 - Clase E: direcciones experimentales, no utilizadas para el direccionamiento convencional
 
-| Clase | Bits principales | Rango del primer bit | Máscara de subred por defecto | Propósito                          |
+
+| Clase | Bits iniciales | Rango del primer byte | Máscara de subred predeterminada | Propósito                       |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Redes muy grande              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Redes medianas           |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Redes muy grandes                |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Redes de tamaño medio            |
 | C     | 110          | 192 – 223        | 255.255.255.0       | Redes pequeñas                   |
-| D     | 1110         | 224 – 239        | N/A                 | Direcciones de multidifusión              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (no utilizado públicamente) |
+| D     | 1110         | 224 – 239        | N/A                 | Direcciones multicast            |
+| E     | 1111         | 240 – 255        | N/A                 | Experimental (no usado públicamente) |
 
 Direcciones especiales:
 
@@ -934,7 +942,8 @@ La tabla de encaminamiento, gestionada manualmente (encaminamiento estático) o 
 
 La tabla de enrutamiento actúa como una tabla de mapeo entre las direcciones IP de destino y las siguientes pasarelas. Normalmente almacena identificadores de red (_network ID_) en lugar de cada dirección de host individual, lo que reduce enormemente su tamaño.
 
-| Dirección de destino | Dirección del enrutador del siguiente salto | Interfaz |
+
+| Dirección de destino | Dirección del router de siguiente salto | Interfaz |
 | ------------------- | ----------------------- | --------- |
 
 Utilizando estas entradas, el router puede determinar rápidamente a través de qué interfaz y a qué nodo debe enviarse cada datagrama. Combinado con ARP para resolver las direcciones MAC coincidentes, esto asegura una transferencia de datos eficiente y fiable a través de la red.
@@ -984,10 +993,11 @@ Este principio de traducción dinámica se basa en una gestión precisa de la ta
 _Ejemplo de tabla de traducción NAT simplificada:_
 
 
-| IP interna   | IP Externa   | Duración (seg) | Reutilizable? |
+
+| IP interna | IP externa | Duración (seg) | ¿Reutilizable? |
 | ------------- | -------------- | -------------- | --------- |
 | 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | sí       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | sí        |
 | 10.100.0.89   | 193.48.100.46  | 0              | no        |
 
 En este ejemplo, si no ha pasado ningún paquete por la segunda entrada en más de una hora (3.600 segundos), se marca como reutilizable. Por el contrario, una duración de cero indica una comunicación activa, con el mapeo bloqueado.
@@ -1318,13 +1328,14 @@ IPv6 se diferencia de su predecesor por una amplia gama de categorías de direcc
 Una dirección IPv6 no especificada se representa mediante `::` o, más explícitamente, `::0.0.0.0`. Esta forma especial se utiliza durante la adquisición de direcciones, o como valor por defecto para indicar la ausencia de una dirección.
 
 
-| Prefijo de dirección IPv6 | Descripción                                 |
+
+| Prefijo de dirección IPv6 | Descripción                          |
 | ------------------- | ------------------------------------------- |
-|::/8                | Direcciones reservadas                          |
+|::/8                | Direcciones reservadas                      |
 | 2000::/3            | Direcciones unicast, enrutables en Internet |
-| fc00::/7            | Direcciones locales únicas (1)               |
-| fe80::/10           | Direcciones de enlace local                        |
-| ff00::/8            | Direcciones de multidifusión                         |
+| fc00::/7            | Direcciones locales únicas (1)              |
+| fe80::/10           | Direcciones de enlace local                 |
+| ff00::/8            | Direcciones multicast                       |
 
 (1): *En una LAN privada, el prefijo `fd00::/8` es preferible para asignar direcciones internas que no son enrutables en Internet.*
 
@@ -1383,11 +1394,14 @@ Por último, las direcciones locales únicas (_ULA_, por _Unique Local Addresses
 
 Conceptualmente, las direcciones IPv6 suelen representarse como una estructura binaria en la que la primera mitad (los primeros 64 bits) identifica el prefijo de red, y la segunda mitad (también de 64 bits) identifica de forma única la interfaz del dispositivo en esa red. Esta división facilita la autoconfiguración de dirección mediante mecanismos como SLAAC (_Stateless Address Autoconfiguration_), que permiten a las máquinas generar automáticamente una dirección estable basada en la dirección MAC o en un identificador pseudoaleatorio.
 
-| Campo     | Prefijo | L | ID Global | Sub red | ID de interfaz |
+
+| Campo     | Prefijo | L | ID global | Subred | ID de interfaz |
 |-----------|--------|---|-----------|--------|---------------|
 | Bits      | 7      | 1 | 40        | 16     | 64            |
 
 La arquitectura IPv6 sigue el modelo de enrutamiento global jerárquico de la Internet actual. La partición de prefijos permite a los registros regionales y a los operadores de red gestionar la asignación de dirección de forma descentralizada, garantizando al mismo tiempo la unicidad global. Dentro de este marco, el mismo host puede tener simultáneamente una dirección de unidifusión global para la comunicación por Internet y una dirección de enlace local para interacciones locales, por ejemplo, con el vecindario inmediato o para mensajes de descubrimiento de enrutadores.
+
+
 
 | Campo     | Prefijo | Cero | ID de interfaz |
 |-----------|--------|------|--------------|
@@ -1395,8 +1409,9 @@ La arquitectura IPv6 sigue el modelo de enrutamiento global jerárquico de la In
 
 **Las direcciones anycast** representan un concepto intermedio que se basa en el modelo unicast pero que puede comportarse como multicast en ciertos casos. Una dirección anycast es, en esencia, una dirección unicast asignada a varias interfaces distribuidas en diferentes nodos de red. Cuando se envía un paquete a una dirección anycast, el protocolo IPv6 intenta entregarlo a uno de los hosts que comparten esa dirección, normalmente el más cercano en términos de topología de encaminamiento. Este enfoque optimiza la velocidad de procesamiento de las consultas y mejora la resistencia de los servicios distribuidos. Un ejemplo clásico son los servidores DNS raíz, donde el direccionamiento anycast dirige automáticamente las consultas al punto de presencia más cercano.
 
-| Campo    | Prefijo | Sub red | ID de interfaz |
-|-----------|--------|--------|--------------|
+
+| Campo     | Prefijo | Subred | ID de interfaz |
+|-----------|--------|--------|______________|
 | Bits      | 48     | 16     | 64           |
 
 En IPv6, las **direcciones de multidifusión** sustituyen al mecanismo de difusión, que se consideraba demasiado costoso e inadecuado para una red de escala global. Una dirección de multidifusión identifica a un grupo de interfaces, normalmente a través de varios hosts, que desean recibir los mismos paquetes simultáneamente.
@@ -1415,7 +1430,8 @@ La estructura de una multidifusión dirección IPv6 incluye:
 - un campo _Scope_ (4 bits) define el ámbito,
 - un campo de identificación (112 bits) que identifica el número de grupo de multidifusión.
 
-| Campo     | Prefijo | Flag | Scope | ID de grupo |
+
+| Campo      | Prefijo | Marcas | Alcance | ID de grupo |
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 
@@ -1501,8 +1517,9 @@ Desde 2006, cada RIR recibe de IANA un bloque IPv6 /12, un tamaño fijo diseñad
 
 La jerarquía de asignación típica tiene este aspecto:
 
-| IANA | RIR | LIR | Cliente | Sub red | Interfaz  |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Cliente | Subred | Interfaz |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Con esta abundancia de direcciones, NAT (*Network Address Translation*), antaño esencial en IPv4 para hacer frente a la escasez de direcciones, ya no es necesario. Cada host puede tener una dirección pública, única y enrutable globalmente, lo que simplifica la conectividad de extremo a extremo y facilita el uso de protocolos como IPSec, VoIP o conexiones entrantes.

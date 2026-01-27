@@ -1,11 +1,11 @@
 ---
-name: Introducción a Bitcoin y Stablecoin
+name: Introducción a Bitcoin y Stablecoins
 goal: Una mirada profunda a Bitcoin, Stablecoins y la soberanía que conllevan
 objectives:
   - Comprender la evolución histórica del dinero y los principales problemas derivados de nuestro sistema financiero actual.
   - Desarrollar un entendimiento comprensivo de Bitcoin, diferenciándolo de las monedas fiduciarias tradicionales.
-  - Examinar el papel de los stablecoins, específicamente Tether, en la estabilidad financiera y como un puente entre Bitcoin y las monedas fiduciarias tradicionales.
-  - Identificar y desmentir los conceptos erróneos comunes en torno a Bitcoin y los stablecoins.
+  - Examinar el papel de las stablecoins, específicamente Tether, en la estabilidad financiera y como un puente entre Bitcoin y las monedas fiduciarias tradicionales.
+  - Identificar y desmentir los conceptos erróneos comunes en torno a Bitcoin y las stablecoins.
 ---
 
 ¿Alguna vez te has preguntado:
@@ -13,11 +13,11 @@ objectives:
 ¿Por qué mi costo de vida sigue aumentando?
 ¿Realmente la inflación es buena para mí?
 ¿Qué opciones están disponibles para ayudarme a protegerme contra la inflación?
-¿Cómo encajan Bitcoin o los stablecoins en todo esto?
+¿Cómo encajan Bitcoin o las stablecoins en todo esto?
 
 Si respondiste sí a alguna de estas preguntas, estás en el lugar correcto.
 
-Bienvenido a "Optando por el Cambio", donde profundizamos bajo la superficie de nuestros sistemas monetarios mientras observamos algunas herramientas disponibles para crear un cambio positivo. Mientras nuestro mundo lucha con amenazas crecientes a las libertades y escaladas de violaciones a los derechos humanos, este curso intenta ofrecer una luz guía: un sistema alternativo que devuelve el control a manos del individuo.
+Bienvenido a "Optando por el Cambio", donde profundizamos bajo la superficie de nuestros sistemas monetarios mientras observamos algunas herramientas disponibles para crear un cambio positivo. Mientras nuestro mundo lucha con amenazas crecientes a las libertades y escaladas de violaciones a los derechos humanos, este curso intenta ofrecer una luz guía: Un sistema alternativo que devuelve el control a manos del individuo.
 
 Si lo que acabas de leer ha despertado tu interés, esperamos que te unas a nosotros en este viaje educativo.
 
@@ -65,16 +65,16 @@ Con esto en mente, nuestra misión es llevarte al frente del cambio en nuestro p
 
 **Qué esperar:**
 
-**Módulo 1: El Precio del Progreso - Una Mirada Cercana a Nuestro Sistema Financiero**
+**Módulo 1: El Precio del progreso - Una mirada cercana a nuestro sistema financiero**
 Comenzamos nuestra exploración echando un vistazo detrás de las cortinas de nuestro sistema financiero actual, donde la censura financiera, la desigualdad de riqueza y la inflación azotan nuestra vida diaria. A través de una breve historia del dinero, veremos cómo llegamos a donde estamos, arrojando luz sobre algunos de los principales puntos de dolor que todos estamos experimentando.
 
 **Módulo 2: Liberación Financiera - Una Introducción a Bitcoin**
 Este módulo desmitificará Bitcoin, trascendiendo la jerga para ayudarte a entender qué diferencia a Bitcoin de las monedas fiduciarias tradicionales. Desde cómo funciona hasta cómo usarlo, te guiamos a través de la funcionalidad y formas de interactuar con Bitcoin.
 
-**Módulo 3: Estabilidad en Medio del Caos - Una Introducción a Tether & el Mundo de las Stablecoins**
+**Módulo 3: Estabilidad en medio del caos - Una introducción a Tether & el mundo de las Stablecoins**
 En este módulo, echamos un vistazo bajo el capó de la stablecoin líder, Tether, explorando cómo esta moneda digital mantiene su valor y tiene el potencial de dar libertad a aquellos que enfrentan un gobierno opresivo, falta de servicios financieros o inflación desenfrenada.
 
-**Módulo 4: Superando Dudas - Desmintiendo Conceptos Erróneos Comunes & Casos de Uso en el Mundo Real**
+**Módulo 4: Superando Dudas - Desmintiendo conceptos erróneos comunes & casos de uso en el mundo real**
 Para terminar, desafiaremos los conceptos erróneos comunes sobre Bitcoin y las stablecoins y ofreceremos casos de uso reales de individuos que ya han adoptado y se están beneficiando de estas tecnologías.
 
 Al final de este curso, no solo habrás ganado un conocimiento poderoso y herramientas invaluables para navegar nuestro complejo panorama financiero, sino que también entenderás mejor cómo Bitcoin y las stablecoins, como Tether, empoderan a los usuarios al permitirles optar por un sistema monetario alternativo— uno que prioriza al individuo, dando a cualquiera un mayor control de su situación financiera. Con este entendimiento, estarás mejor equipado para perseguir la libertad financiera, el empoderamiento personal y la liberación.
@@ -89,7 +89,7 @@ Estamos emocionados de tenerte con nosotros en este viaje hacia las profundidade
 
 <chapterId>927ad49a-d8d6-5dd3-9250-cdcadcbf425e</chapterId>
 
-El dinero es una parte fascinante y esencial de nuestras vidas diarias. Lo usamos todos los días para comprar alimentos, pagar facturas y realizar innumerables transacciones. Pero, ¿qué es realmente el dinero? En su esencia, el dinero es simplemente un medio de intercambio, una herramienta que nos permite comerciar bienes y servicios entre nosotros. Es un concepto abstracto que todos damos por sentado, pero es fundamental para nuestro sistema económico.
+El dinero es una parte fascinante y esencial de nuestras vidas diarias. Lo usamos todos los días para comprar alimentos, pagar facturas y realizar innumerables transacciones. Pero, ¿Qué es realmente el dinero? En su esencia, el dinero es simplemente un medio de intercambio, una herramienta que nos permite comerciar bienes y servicios entre nosotros. Es un concepto abstracto que todos damos por sentado, pero es fundamental para nuestro sistema económico.
 Pero no todo el dinero es creado igual. Algunas formas de dinero son mejores que otras, dependiendo de su capacidad para servir como reserva de valor, medio de intercambio y unidad de cuenta. El oro, por ejemplo, ha sido altamente valorado durante miles de años debido a su durabilidad y escasez. Por otro lado, el dinero en papel solo es tan valioso como la confianza que depositamos en las instituciones que lo emiten.
 En este módulo, exploraremos las diferentes funciones y características del dinero y qué hace que un dinero sea bueno. Ya seas un ciudadano promedio, un dueño de negocio, un inversor o simplemente alguien curioso sobre el mundo de las finanzas, nuestro objetivo es ayudarte a obtener una comprensión más profunda de este concepto abstracto pero esencial que toca todas nuestras vidas. Así que sumerjámonos…
 
@@ -112,7 +112,7 @@ Al ver el dinero como una reserva de tiempo y energía, metafóricamente habland
 
 ### ¿Qué hace al dinero excelente?
 
-Al leer la introducción, es posible que hayas notado tres términos importantes: reserva de valor, medio de intercambio y unidad de cuenta. No te preocupes si no estás familiarizado con este lenguaje. Estas tres funciones son esenciales para que el dinero proporcione valor a su poseedor y comúnmente se refieren como las funciones del dinero.
+Al leer la introducción, es posible que hayas notado tres términos importantes: Reserva de valor, medio de intercambio y unidad de cuenta. No te preocupes si no estás familiarizado con este lenguaje. Estas tres funciones son esenciales para que el dinero proporcione valor a su poseedor y comúnmente se refieren como las funciones del dinero.
 
 Echemos un vistazo a cada una:
 
@@ -122,7 +122,7 @@ Echemos un vistazo a cada una:
    Cuando estas tres funciones esenciales del dinero se cumplen en su totalidad, dicho dinero tiene la capacidad de satisfacer las rigurosas demandas del comercio. Sin estas funciones, el dinero es mucho menos confiable y digno de confianza, lo que lleva a inseguridad e incertidumbre en el comercio, lo que puede tener efectos perjudiciales tanto a nivel personal como nacional.
    Con esto en mente, cuando el dinero que usamos nos ofrece un medio confiable para almacenar valor, un método efectivo para facilitar transacciones y una medida común de valor, nos permite ahorrar y construir riqueza, comerciar con confianza y realizar transacciones con facilidad. Estas funciones juntas no solo nos asisten en nuestra capacidad para comerciar y ahorrar, sino que también sientan las bases para un sistema económico estable y eficiente, fomentando un mayor crecimiento económico y prosperidad para individuos y sociedades.
 
-Probablemente estés pensando, "Ok, entiendo que para que el dinero ofrezca valor, debe cumplir con las funciones del dinero mencionadas arriba, pero ¿cómo lo hace?"
+Probablemente estés pensando, "Ok, entiendo que para que el dinero ofrezca valor, debe cumplir con las funciones del dinero mencionadas arriba, pero ¿Cómo lo hace?"
 
 Gran pregunta...
 
@@ -155,9 +155,9 @@ Para que el dinero se use como una medida común del valor de bienes y servicios
 
 **Fungible:** Cuando se dice que el dinero es fungible, cada unidad de moneda es intercambiable con cualquier otra unidad. En términos más simples, significa que el dinero es uniforme e idéntico, independientemente de dónde provino o quién lo posee. Por ejemplo, si le debes a alguien \$10 y le das un billete de \$10, no importa si el billete vino de tu billetera o de la billetera de alguien más. Mientras sea un billete genuino de \$10, se considera que tiene igual valor. El concepto de fungibilidad es importante porque permite que el dinero funcione efectivamente como una unidad común de medición, haciendo las transacciones más simples y eficientes.
 
-Conclusión
+Conclusión.
 
-El dinero es una parte crucial y fascinante de nuestras vidas diarias. Sirve como intermediario, permitiéndonos intercambiar bienes y servicios entre nosotros. Sin embargo, no todo el dinero se crea igual. Algunas formas de dinero son superiores como reserva de valor, como la moneda de oro, mientras que otras pueden ser más efectivas como medio de intercambio, el dólar estadounidense. Sin embargo, cuando estas funciones se cumplen en su totalidad, nos permite realizar transacciones con confianza y facilidad, lo que no solo nos ayuda como individuos sino que fomenta un mayor crecimiento económico y prosperidad para nuestra economía.
+El dinero es una parte crucial y fascinante de nuestras vidas diarias. Sirve como intermediario, permitiéndonos intercambiar bienes y servicios entre nosotros. Sin embargo, no todo el dinero se crea igual. Algunas formas de dinero son superiores como reserva de valor, como la moneda de oro, mientras que otras pueden ser más efectivas como medio de intercambio, como el dólar estadounidense. Sin embargo, cuando estas funciones se cumplen en su totalidad, nos permite realizar transacciones con confianza y facilidad, lo que no solo nos ayuda como individuos sino que fomenta un mayor crecimiento económico y prosperidad para nuestra economía.
 
 En los módulos siguientes, exploraremos dos formas populares de dinero: Bitcoin y stablecoins. Al examinarlos a través del contenido discutido en esta sección, exploraremos cómo cumplen las diversas funciones de la moneda y cómo pueden beneficiar enormemente a la sociedad.
 
@@ -168,7 +168,7 @@ Desde el trueque hasta la invención de monedas y billetes, el dinero ha experim
 <chapterId>4c8ebb36-a6d5-5637-93ca-9a4a222a1c58</chapterId>
 Desde los días del trueque hasta la era moderna de las monedas digitales, el dinero ha experimentado una evolución fascinante. Nuestros antepasados utilizaban conchas, cuentas e incluso ganado como medio de intercambio. Hoy, tenemos billeteras virtuales y pagos sin contacto. Es un viaje notable que ha visto innumerables iteraciones, compensaciones y adaptaciones para satisfacer las necesidades siempre cambiantes de la sociedad.
 
-Pero, ¿cómo ha evolucionado el dinero que usamos para convertirse en la parte indispensable de nuestras vidas que es hoy? En esta sección, exploraremos la evolución del dinero, desde sus formas más tempranas hasta las modernas monedas digitales que usamos hoy. Profundizaremos en cada iteración importante del dinero, observando cómo han ayudado a dar forma a nuestra sociedad moderna.
+Pero, ¿Cómo ha evolucionado el dinero que usamos para convertirse en la parte indispensable de nuestras vidas que es hoy? En esta sección, exploraremos la evolución del dinero, desde sus formas más tempranas hasta las modernas monedas digitales que usamos hoy. Profundizaremos en cada iteración importante del dinero, observando cómo han ayudado a dar forma a nuestra sociedad moderna.
 
 _**Una nota rápida:** Es importante destacar que esta sección no es necesariamente un relato cronológico de la evolución del dinero. En cambio, es más bien un viaje educativo sobre el auge y la caída de diferentes formas de dinero. Muchos de estos medios de intercambio han existido simultáneamente, y algunos todavía existen hoy en día de alguna forma._
 
@@ -181,9 +181,9 @@ Entender este concepto de evolución monetaria es importante porque nos ayuda a 
 Con esto en mente, echemos un vistazo a las formas primarias de intercambio que se utilizan hoy en día o que se han utilizado en algún momento en el pasado.
 
 1. **Trueque:** El intercambio de bienes o servicios directamente sin el uso de dinero.
-2. **Dinero Mercancía:** El intercambio de una mercancía acordada que se considera de valor, como la sal o las conchas marinas.
-3. **Dinero Acuñado:** El uso de metales preciosos, como el oro o la plata, en forma de monedas como medio de intercambio.
-4. **Dinero de Papel Respaldado por Metal:** Dinero de papel respaldado por una mercancía física, como el oro o la plata.
+2. **Dinero mercancía:** El intercambio de una mercancía acordada que se considera de valor, como la sal o las conchas marinas.
+3. **Dinero acuñado:** El uso de metales preciosos, como el oro o la plata, en forma de monedas como medio de intercambio.
+4. **Dinero de papel respaldado por metal:** Dinero de papel respaldado por una mercancía física, como el oro o la plata.
 5. **Dinero Fiat:** Moneda que no está respaldada por una mercancía física sino que tiene valor porque un gobierno la declara como moneda de curso legal.
 6. **Criptomonedas:** Tokens digitales o virtuales que utilizan criptografía para asegurar transacciones y controlar la creación de nuevas unidades.
 
@@ -191,11 +191,11 @@ Con estos en mente, examinemos cada uno para obtener una comprensión más holí
 
 ### Trueque
 
-¡El trueque! Es un concepto simple: intercambias algo que tienes por algo que quieres o necesitas.
+¡El trueque! Es un concepto simple: Intercambias algo que tienes por algo que quieres o necesitas.
 
 ¿Pero es práctico?
 
-El problema con el trueque es que encontrar a alguien que quiera lo que tienes y tenga lo que quieres puede ser desafiante. Por ejemplo, imagina que eres un agricultor de trigo en necesidad de una camisa nueva. Podrías tener que buscar por todas partes para encontrar un fabricante de camisas dispuesto a intercambiar una camisa por tu trigo. Pero, ¿y si al fabricante de camisas no le interesa tu trigo? Este problema se conoce como la doble coincidencia de deseos. Una transacción exitosa requiere una doble coincidencia de deseos, lo que significa que ambas partes deben tener algo que la otra desea intercambiar.
+El problema con el trueque es que encontrar a alguien que quiera lo que tienes y tenga lo que quieres puede ser desafiante. Por ejemplo, imagina que eres un agricultor de trigo en necesidad de una camisa nueva. Podrías tener que buscar por todas partes para encontrar un fabricante de camisas dispuesto a intercambiar una camisa por tu trigo. Pero, ¿Y si al fabricante de camisas no le interesa tu trigo? Este problema se conoce como la doble coincidencia de deseos. Una transacción exitosa requiere una doble coincidencia de deseos, lo que significa que ambas partes deben tener algo que la otra desea intercambiar.
 Otro problema con el trueque es que puede ser impráctico para ciertos artículos. ¿Cómo dividirías una vaca viva para intercambiarla por un par de zapatos? Y sin una unidad de cuenta estandarizada, comparar el valor de bienes y servicios es difícil. ¿Vale una vaca más o menos que diez sacos de trigo o dos rollos de tela?
 Además de todo eso, muchos bienes y servicios son perecederos y pierden valor con el tiempo. Así que si dependes del trueque como medio de intercambio, debes comerciar y consumir tus bienes y servicios continuamente para evitar una pérdida de valor.
 
@@ -211,7 +211,7 @@ Lo grandioso de seleccionar un medio de intercambio predefinido era que las comu
 
 Sin embargo, a medida que los viajes se facilitaban, el mundo comenzó a abrirse, y la gente reconocía que los recursos escasos en una área eran abundantes en otras. Esto llevó a la explotación, dilución del suministro y desencadenó eventos como el comercio de esclavos. Por ejemplo, los colonizadores europeos que exploraban África vieron que las comunidades locales usaban cuentas de vidrio como forma de dinero. Sorprendidos, debido a la facilidad de producción de vidrio en Europa, los colonizadores traerían grandes cantidades de estas cuentas a África, diluyendo su valor. Algunos incluso argumentarían que esta dilución fue uno de los desencadenantes que encendió el [comercio de esclavos](https://breedlove22.medium.com/masters-and-slaves-of-money-255ecc93404f), lo que contribuyó al colapso de la economía africana.
 
-En general, el dinero commodity jugó un papel esencial en el desarrollo del comercio y el comercio, ya que proporcionó un medio de intercambio estandarizado que fue ampliamente aceptado. Sin embargo, a medida que las sociedades se volvieron más avanzadas, comenzaron a surgir otras formas de dinero que eran más convenientes y divisibles.
+En general, el dinero commodity jugó un papel esencial en el desarrollo del comercio, ya que proporcionó un medio de intercambio estandarizado que fue ampliamente aceptado. Sin embargo, a medida que las sociedades se volvieron más avanzadas, comenzaron a surgir otras formas de dinero que eran más convenientes y divisibles.
 
 Para resolver estos problemas, la gente comenzó a buscar commodities que tuvieran una escasez reconocida globalmente, lo que dio lugar al uso de metales preciosos como medio de intercambio.
 
@@ -228,7 +228,7 @@ Entra el papel moneda respaldado por metal, una solución a los considerables co
 
 Hemos recorrido un largo camino desde los días del trueque e intercambio de bienes. Con la llegada de los metales monetarios, finalmente tuvimos una reserva de valor estable que se podía usar universalmente. Pero fue la introducción de la moneda de papel respaldada por metal lo que realmente revolucionó la forma en que realizamos transacciones.
 
-Piénsalo: no más cargar pesadas bolsas de oro o preocuparse por el robo. En su lugar, las personas podían depositar su oro en un almacén y recibir un recibo que podían comerciar como si fuera oro físico. Esto mejoró la fungibilidad, divisibilidad y portabilidad del dinero, haciendo el comercio global significativamente más fácil. Estos recibos podrían entonces ser fácilmente transportados a largas distancias, haciendo posible realizar comercio internacional sin incurrir en costos de transporte significativos. Aunque tomó un poco de tiempo para que el papel moneda respaldado por metal despegara como una forma de dinero, con la expansión del Imperio Británico, rápidamente se convirtió en la norma.
+Piénsalo: No más cargar pesadas bolsas de oro o preocuparse por el robo. En su lugar, las personas podían depositar su oro en un almacén y recibir un recibo que podían comerciar como si fuera oro físico. Esto mejoró la fungibilidad, divisibilidad y portabilidad del dinero, haciendo el comercio global significativamente más fácil. Estos recibos podrían entonces ser fácilmente transportados a largas distancias, haciendo posible realizar comercio internacional sin incurrir en costos de transporte significativos. Aunque tomó un poco de tiempo para que el papel moneda respaldado por metal despegara como una forma de dinero, con la expansión del Imperio Británico, rápidamente se convirtió en la norma.
 
 Pero como con cualquier nueva tecnología, comenzaron a surgir problemas.
 
@@ -241,7 +241,7 @@ Aunque la moneda de papel respaldada por metal tuvo su parte justa de problemas,
 ### Moneda Fiduciaria
 
 Las monedas fiduciarias han sido la base de nuestro sistema monetario durante décadas. El término "fiat" es latín para "hágase" y se refiere a la autoridad del estado para declarar una moneda como moneda de curso legal. A diferencia de las monedas que alguna vez estuvieron respaldadas por oro u otros objetos de valor, el valor fiduciario proviene de la promesa del gobierno de que alguien la aceptará a cambio de bienes y servicios.
-Las monedas fiduciarias surgieron cuando los países enfrentaron frustraciones en torno a la moneda de papel respaldada por metales: los gobiernos tendrían que obtener más oro para imprimir más dinero en papel. Esto era un obstáculo, así que cada vez que un país necesitaba capital, abandonaba temporalmente este respaldo y expandía su oferta monetaria. Esta nueva moneda no estaba respaldada por nada más que la fe en el gobierno debido a que era moneda de curso legal. No solo eso, esta nueva moneda devaluaba la moneda restante en circulación al inflar la oferta de dinero, y con más dólares persiguiendo la misma cantidad de bienes, los precios subían.
+Las monedas fiduciarias surgieron cuando los países enfrentaron frustraciones en torno a la moneda de papel respaldada por metales: Los gobiernos tendrían que obtener más oro para imprimir más dinero en papel. Esto era un obstáculo, así que cada vez que un país necesitaba capital, abandonaba temporalmente este respaldo y expandía su oferta monetaria. Esta nueva moneda no estaba respaldada por nada más que la fe en el gobierno debido a que era moneda de curso legal. No solo eso, esta nueva moneda devaluaba la moneda restante en circulación al inflar la oferta de dinero, y con más dólares persiguiendo la misma cantidad de bienes, los precios subían.
 El declive de la moneda de papel respaldada por metales comenzó hacia el final de la Segunda Guerra Mundial. Con mucha fe en los EE. UU., líderes globales se reunieron en Bretton Woods, New Hampshire, y determinaron que los EE. UU. fijarían su dólar al oro y el resto del mundo fijaría su moneda al dólar. Esto significaba que la mayor parte del oro del mundo se vertía en los EE. UU. para su custodia, agotando a muchos países de sus reservas domésticas de oro.
 
 Avanzando rápidamente hasta finales de los '60 y principios de los '70, los EE. UU., sintiéndose restringidos por su respaldo al oro, comenzaron a expandir su oferta monetaria para financiar la guerra en Vietnam. Francia no estaba contenta con esto y exigió su oro de vuelta. Esto causó una corrida por el oro, y como los EE. UU. habían impreso significativamente más dólares de los que tenía en oro disponible, rápidamente abandonaron este respaldo por completo. Este evento, conocido como el Shock de Nixon, significó que individuos y países ya no podrían canjear sus dólares por oro. Desde este día, vimos la proliferación de monedas fiduciarias, una moneda que está respaldada por nada más que deuda y nuestra fe en el gobierno.
@@ -277,7 +277,7 @@ En los módulos siguientes, exploraremos Bitcoin a través de un lente alternati
 
 Mientras tanto, aunque las monedas digitales de los bancos centrales puedan ser vistas como la competencia directa de Bitcoin, muchos argumentan que no son diferentes de cualquier otra moneda fiduciaria digital excepto por las aterradoras implicaciones políticas y sociales.
 
-A medida que continuamos avanzando hacia un mundo de dinero programable, Bitcoin permanece en una liga propia. Su oferta no puede ser diluida o expandida, tiene los mayores efectos de red y base de usuarios, y su propuesta de valor y seguridad continuarán fortaleciéndose a medida que la red crezca. Y aunque puede que no sea la moneda digital más nueva, ofrece algo mucho más valioso: verdadera soberanía sobre el propio dinero.
+A medida que continuamos avanzando hacia un mundo de dinero programable, Bitcoin permanece en una liga propia. Su oferta no puede ser diluida o expandida, tiene los mayores efectos de red y base de usuarios, y su propuesta de valor y seguridad continuarán fortaleciéndose a medida que la red crezca. Y aunque puede que no sea la moneda digital más nueva, ofrece algo mucho más valioso: Verdadera soberanía sobre el propio dinero.
 
 Dicho esto, aunque las monedas digitales representan una nueva frontera en la evolución del dinero, ofreciendo un alto grado de seguridad, privacidad y conveniencia, también vienen con sus propios riesgos y desafíos, los cuales deben ser cuidadosamente considerados antes de adoptarlos como una forma de dinero.
 
@@ -289,9 +289,9 @@ A lo largo de este viaje, hemos explorado la fascinante evolución del dinero, t
 
 Sin embargo, como hemos visto, el camino de la evolución monetaria no ha estado exento de desafíos. El surgimiento del recorte de monedas y la manipulación de la moneda, el movimiento hacia la centralización y alejamiento de un medio de intercambio generalmente aceptado son solo algunos ejemplos de los obstáculos que hemos enfrentado en el camino.
 A medida que avanzamos hacia el futuro, debemos preguntarnos, **¿cómo continuará la manipulación de la moneda afectando nuestro bienestar financiero?**
-Y, aunque es claro que hemos priorizado la facilidad de uso a medida que hemos transitado del trueque a las mercancías hasta las monedas digitalizadas, **¿deberíamos replantearnos qué características valoramos más en la forma perfecta de dinero?**
+Y, aunque es claro que hemos priorizado la facilidad de uso a medida que hemos transitado del trueque a las mercancías hasta las monedas digitalizadas, **¿Deberíamos replantearnos qué características valoramos más en la forma perfecta de dinero?**
 
-Estas son preguntas complejas que requieren una consideración y reflexión cuidadosas. Sin embargo, una cosa es clara: el futuro del dinero está en nuestras manos. Tenemos el poder de dar forma a nuestro dinero, asegurando que sirva a las necesidades de la sociedad en lugar de simplemente al emisor o a nuestros gobiernos.
+Estas son preguntas complejas que requieren una consideración y reflexión cuidadosas. Sin embargo, una cosa es clara: El futuro del dinero está en nuestras manos. Tenemos el poder de dar forma a nuestro dinero, asegurando que sirva a las necesidades de la sociedad en lugar de simplemente al emisor o a nuestros gobiernos.
 
 A medida que continuamos nuestra exploración del mundo del dinero, es importante reconocer los cambios significativos que han tenido lugar desde el surgimiento de las monedas fiduciarias. Si bien estas monedas han traído un nivel de conveniencia y estabilidad, también han presentado nuevos desafíos, como la inflación, el aumento de los niveles de deuda y la desigualdad de riqueza. En la siguiente sección, profundizaremos más en estos problemas, y en los módulos siguientes, exploraremos soluciones potenciales a estos complicados problemas.
 
@@ -349,7 +349,7 @@ Con el tiempo, EE.UU. y otros gobiernos desarrollaron un apetito insalubre por l
 
 Los bancos centrales ahora se encuentran en una posición difícil. Dada la carga de la deuda, tienen pocas opciones además de suprimir artificialmente las tasas de interés en un intento de reducir la carga de la deuda. Si las tasas de interés son más bajas, los pagos del servicio de la deuda también lo son. Si las tasas aumentaran, muchos sectores de la economía probablemente serían incapaces de atender sus pagos de intereses, llevando rápidamente a la morosidad.
 
-Sin embargo, esta supresión de las tasas de interés tiene un costo: hace que el capital esté más fácilmente disponible. Como resultado, individuos, empresas y gobiernos están más inclinados a asumir deudas adicionales, exacerbando así la carga general de la deuda. Esto crea un acto de equilibrio desafiante para los bancos centrales, que deben mantener las tasas de interés lo suficientemente bajas para manejar la deuda existente mientras también previenen la acumulación de nueva deuda que podría dañar la economía a largo plazo.
+Sin embargo, esta supresión de las tasas de interés tiene un costo: Hace que el capital esté más fácilmente disponible. Como resultado, individuos, empresas y gobiernos están más inclinados a asumir deudas adicionales, exacerbando así la carga general de la deuda. Esto crea un acto de equilibrio desafiante para los bancos centrales, que deben mantener las tasas de interés lo suficientemente bajas para manejar la deuda existente mientras también previenen la acumulación de nueva deuda que podría dañar la economía a largo plazo.
 
 Este acto de equilibrio no va según lo planeado...
 
@@ -379,7 +379,7 @@ Cuando el dinero entra en la economía, tiende a acumularse en ciertas áreas: �
 
 ¿Por qué? Podrías preguntar. Cuando los bancos centrales aumentan la oferta monetaria imprimiendo nueva moneda, el valor de cada unidad individual de moneda disminuye. Esto significa que los precios de bienes y servicios tienden a aumentar con el tiempo, llevando a costos más altos para necesidades básicas como alimentos, vivienda y atención médica. Esta presión inflacionaria sobre los precios erosiona el poder adquisitivo de aquellos que dependen de salarios y sueldos para sus ingresos.
 
-Con esto en mente, ¿estás incentivado a almacenar tus ahorros en la moneda? Por supuesto que no. Si tienes la capacidad, sales y compras activos. Dada la demanda artificial por activos, su valor aumenta. Por lo tanto, aquellos que poseen activos como acciones, bonos y bienes raíces se benefician, hasta cierto punto, de la inflación ya que el valor de estos activos tiende a aumentar con la inflación. Como resultado, la inflación exacerba la desigualdad de riqueza creando una división entre aquellos que poseen activos y aquellos que dependen de salarios y sueldos, llevando a una concentración de riqueza en manos de la clase alta.
+Con esto en mente, ¿Estás incentivado a almacenar tus ahorros en la moneda? Por supuesto que no. Si tienes la capacidad, sales y compras activos. Dada la demanda artificial por activos, su valor aumenta. Por lo tanto, aquellos que poseen activos como acciones, bonos y bienes raíces se benefician, hasta cierto punto, de la inflación ya que el valor de estos activos tiende a aumentar con la inflación. Como resultado, la inflación exacerba la desigualdad de riqueza creando una división entre aquellos que poseen activos y aquellos que dependen de salarios y sueldos, llevando a una concentración de riqueza en manos de la clase alta.
 
 Usemos nuestro nuevo entendimiento para analizar el sector inmobiliario.
 
@@ -432,19 +432,19 @@ A medida que avanzamos, te alentamos a acercarte a esta nueva tecnología con un
 
 <chapterId>f25c229f-2af0-5324-bc40-e90f7668985a</chapterId>
 
-Ahora que has pasado por el Módulo "El Precio del Progreso", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has entendido las últimas secciones. Comenzaremos con varias preguntas abiertas y luego un pequeño cuestionario.
+Ahora que has pasado por el Módulo "El precio del progreso", tendrás que poner a prueba tus conocimientos recién adquiridos para asegurarte de que has entendido las últimas secciones. Comenzaremos con varias preguntas abiertas y luego un pequeño cuestionario.
 
 1. Considera la aparición de Bitcoin y las stablecoins como sistemas alternativos a la moneda fiduciaria tradicional. ¿Cuáles crees que son algunas de las ventajas y desventajas potenciales, y cómo podrían contribuir a un futuro económico más equitativo?
 2. ¿Qué información puedes recopilar de la relación deuda-PIB de Estados Unidos? ¿Cuál es la deuda respecto al PIB de tu propio país?
 3. ¿Cómo afecta la supresión de las tasas de interés a la carga total de la deuda?
 4. ¿Cómo exacerba el sistema monetario actual la desigualdad de riqueza?
-5. A la luz de la información proporcionada sobre la deuda y la inflación, ¿cuál es tu opinión sobre la sostenibilidad del sistema monetario actual? ¿Crees que nuestro sistema actual es beneficioso o perjudicial a largo plazo?
+5. A la luz de la información proporcionada sobre la deuda y la inflación, ¿Cuál es tu opinión sobre la sostenibilidad del sistema monetario actual? ¿Crees que nuestro sistema actual es beneficioso o perjudicial a largo plazo?
 
 # Liberación Financiera - Una Introducción a Bitcoin
 
 <partId>c00843b2-bde3-57bb-ae2e-8ecad6631d71</partId>
 
-## Pioneros, Innovadores y los Fundamentos de Bitcoin
+## Pioneros, innovadores y los fundamentos de Bitcoin
 
 <chapterId>37d779ce-46b5-56d1-91d8-d04442236e35</chapterId>
 
@@ -459,8 +459,8 @@ Al final de este módulo, tendrás una sólida comprensión de los orígenes, ca
 
 ### ¿Qué es esto llamado Bitcoin?
 
-Bitcoin es una moneda digital descentralizada sin confianza y sin permisos. Eso puede sonar confuso, así que permítenos explicar. Dado que ningún gobierno o institución controla Bitcoin, no tienes que confiar en terceros ni requerir permiso para usarlo. En cambio, es mantenido por una red de usuarios alrededor del mundo que validan y procesan transacciones en algo llamado blockchain.
-Piensa en el blockchain como un gran libro de contabilidad o una hoja de cálculo digital que mantiene un registro de cada transacción realizada a través de Bitcoin. Como cualquier persona en el mundo con una conexión a internet puede monitorear, validar o procesar transacciones, esto asegura que la moneda sea segura y no pueda ser falsificada.
+Bitcoin es una moneda digital descentralizada sin confianza y sin permisos. Eso puede sonar confuso, así que permítenos explicarlo. Dado que ningún gobierno o institución controla Bitcoin, no tienes que confiar en terceros ni requerir permiso para usarlo. En cambio, es mantenido por una red de usuarios alrededor del mundo que validan y procesan transacciones en algo llamado blockchain.
+Piensa en la blockchain como un gran libro de contabilidad o una hoja de cálculo digital que mantiene un registro de cada transacción realizada a través de Bitcoin. Como cualquier persona en el mundo con una conexión a internet puede monitorear, validar o procesar transacciones, esto asegura que la moneda sea segura y no pueda ser falsificada.
 
 Bitcoin también es único en que tiene un suministro limitado. Solo se crearán 21 millones de bitcoin, lo que le otorga escasez, como el oro y otros metales preciosos. Esta escasez es parte de lo que le da valor al bitcoin.
 

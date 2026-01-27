@@ -7,7 +7,7 @@ description: Potente tool per gestire password, autenticazione a due fattori e a
 
 La privacy e la sicurezza online sono un argomento che chiunque, a prescindere dalla propria attività, dovrebbe tenere in grande considerazione.
 
-Queste questioni sono, inoltre, parte di un mondo in continuo fermento: sempre più sviluppatori partecipano al tema, portando implementazioni a soluzioni già consolidate e nuovi prodotti.
+Questi temi sono, inoltre, parte di un mondo in continuo fermento: sempre più sviluppatori partecipano all'argomento, portando implementazioni a soluzioni già consolidate e nuovi prodotti.
 
 È il caso di **Leendert de Borst** e del suo `Alias Vault`, un rivoluzionario strumento (il primo nel suo genere) che consente di gestire e memorizzare le password, usare i record delle stesse per autenticarsi ai servizi web, amministrare l'autenticazione a due fattori, ma soprattutto generare veri e propri _alias_, tutto in un'unica interfaccia.
 
@@ -35,7 +35,7 @@ Il sito ha una grafica realmente accattivante e ben curata, ma il bello arriva s
 
 ![img](assets/en/01.webp)
 
-Con enorme sorpresa scoprirai che Alias Vault non chiede informazioni personali: per creare l'account basta un qualunque nickname, una parola a te familiare, purché sia disponibile. Accetta i Termini di Servizio, scegli i termini e prosegui.
+Con enorme sorpresa scoprirai che Alias Vault non chiede informazioni personali: per creare l'account basta un qualunque nickname, una parola a te familiare, purché sia disponibile. Accetta i Termini di Servizio, scegli la parola in questione e prosegui.
 
 ![img](assets/en/02.webp)
 
@@ -43,7 +43,7 @@ Imposta adesso la **`master password`** che è il dato più importante di tutto 
 
 ![img](assets/en/03.webp)
 
-Fatto: hai creato il tuo password manager e gestore di alias, ma senza dare un tuo indirizzo email di lavoro o privato.
+Fatto: hai creato il tuo password manager e gestore di alias, ma senza dare un tuo indirizzo email funzionante e privato.
 
 ![img](assets/en/04.webp)
 
@@ -117,7 +117,7 @@ L'estensione del browser è lì per facilitare le operazioni di login ai servizi
 L'unica attenzione è verificare che Alias Vault sia attivo. L'applicazione ha infatti un'impostazione di default, per cui si mette in pausa dopo un periodo di inattività. È una funzione molto utile, **quando ti devi ad esempio allontanare dal computer ed evitare che qualcun altro possa accedere ai tuoi account**. Una procedura snella ti permetterà di accedere nuovamente immettendo la `master password`, se la sessione precedente è ancora nella cache. Il tempo per la disconnessione è uno dei parametri che puoi personalizzare, accorciandolo o allungandolo a seconda delle tue preferenze.
 
 
-## Mobile App
+## App su Mobile
 
 Come tutte le applicazioni di questo genere che si rispettino, Alias Vault ha la versione per dispositivi mobili, sia in ambiente Android sia iOS. Per Android è possibile scaricare l'app da [F-Droid](https://f-droid.org/packages/net.aliasvault.app/).
 

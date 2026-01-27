@@ -1772,13 +1772,14 @@ Neodređena IPv6 adresa je predstavljena sa `::` ili, preciznije, `::0.0.0.0`. O
 
 
 
-| IPv6 Prefiks adrese | Opis                                        |
+
+| Prefiks IPv6 adrese | Opis                                  |
 | ------------------- | ------------------------------------------- |
-|::/8                 | Rezervisane adrese                          |
-| 2000::/3            | Unikast adrese, rutabilne na internetu      |
-| fc00::/7            | Jedinstvene lokalne adrse (1)               |
-| fe80::/10           | Link-lokalne adrese                         |
-| ff00::/8            | Multikast adrese                            |
+|::/8                | Rezervisane adrese                         |
+| 2000::/3            | Unicast adrese, rutabilne na Internetu     |
+| fc00::/7            | Jedinstvene lokalne adrese (1)             |
+| fe80::/10           | Link-local adrese                          |
+| ff00::/8            | Multicast adrese                           |
 
 (1): *Na privatnoj LAN mreži, prefiks `fd00::/8` je preferiran za dodelu internih adresa koje nisu rutabilne na Internetu.*
 

@@ -1776,13 +1776,14 @@ Một Address IPv6 không xác định được biểu thị bằng `::` hoặc,
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| Tiền tố địa chỉ IPv6 | Mô tả                                  |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Địa chỉ được dành riêng                   |
+| 2000::/3            | Địa chỉ unicast, có thể định tuyến trên Internet |
+| fc00::/7            | Địa chỉ cục bộ duy nhất (1)               |
+| fe80::/10           | Địa chỉ link-local                        |
+| ff00::/8            | Địa chỉ multicast                         |
 
 (1): *Trên mạng LAN riêng, tiền tố `fd00::/8` được ưu tiên để chỉ định các địa chỉ nội bộ không thể định tuyến trên Internet.*
 

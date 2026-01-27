@@ -1776,13 +1776,14 @@ IPv6 Address itamenyekanye igereranywa na `::` canke, mu buryo butomoye, `::0.0.
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| Prefix ya aderesi IPv6 | Insiguro                            |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Aderesi zabitswe                           |
+| 2000::/3            | Aderesi za unicast, zishobora kuyoborwa kuri Internet |
+| fc00::/7            | Aderesi z’imbere zidasubirwamwo (1)        |
+| fe80::/10           | Aderesi zo ku murongo w’ihuriro             |
+| ff00::/8            | Aderesi za multicast                       |
 
 (1): *Kuri LAN yigenga, intango `fd00::/8` irakundwa mu gutanga aderesi zo mu mutima zidashobora gukoreshwa kuri Internet.*
 

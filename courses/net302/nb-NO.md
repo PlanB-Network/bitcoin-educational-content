@@ -1776,13 +1776,14 @@ En uspesifisert IPv6 Address representeres av `::` eller, mer eksplisitt, `::0.0
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6-adresseprefiks | Beskrivelse                            |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Reserverte adresser                        |
+| 2000::/3            | Unicast-adresser, rutbare på Internett     |
+| fc00::/7            | Unike lokale adresser (1)                  |
+| fe80::/10           | Link-lokale adresser                       |
+| ff00::/8            | Multicast-adresser                         |
 
 (1): *På et privat LAN foretrekkes prefikset `fd00::/8` for å tildele interne adresser som ikke kan rutes på Internett*
 

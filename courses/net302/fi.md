@@ -1776,13 +1776,14 @@ Määrittelemätöntä IPv6 Address:tä edustaa `::` tai tarkemmin sanottuna `::
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6-osoitteen etuliite | Kuvaus                           |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Varatut osoitteet                           |
+| 2000::/3            | Unicast-osoitteet, reititettävissä Internetissä |
+| fc00::/7            | Yksilölliset paikalliset osoitteet (1)     |
+| fe80::/10           | Link-local-osoitteet                        |
+| ff00::/8            | Multicast-osoitteet                         |
 
 (1): *Etuliite `fd00::/8` on suositeltavampi yksityisessä lähiverkossa sellaisten sisäisten osoitteiden osoittamisessa, jotka eivät ole reititettävissä Internetiin.*
 

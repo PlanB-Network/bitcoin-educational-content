@@ -1117,13 +1117,14 @@ L’adressage IPv6 se distingue de son prédécesseur par une grande diversité 
 
 Une adresse IPv6 non spécifiée est représentée par `::` ou, sous forme plus explicite, `::0.0.0.0`. Cette forme particulière sert notamment lors de l’acquisition d’une adresse ou comme valeur par défaut pour indiquer l’absence d’adresse.
 
-| IPv6 Address Prefix | Description                                 |
+
+| Préfixe d’adresse IPv6 | Description                          |
 | ------------------- | ------------------------------------------- |
-| ::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Adresses réservées                         |
+| 2000::/3            | Adresses unicast, routables sur Internet   |
+| fc00::/7            | Adresses locales uniques (1)               |
+| fe80::/10           | Adresses link-local                        |
+| ff00::/8            | Adresses multicast                         |
 
 (1) : *Sur un réseau local privé, on privilégie le préfixe `fd00::/8` pour affecter des adresses internes non routables sur Internet.*
 

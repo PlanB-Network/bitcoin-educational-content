@@ -1780,13 +1780,14 @@ IPv6 Address yang tidak ditentukan diwakili oleh `::` atau, secara lebih eksplis
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| Prefiks Alamat IPv6 | Deskripsi                                |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Alamat yang dicadangkan                     |
+| 2000::/3            | Alamat unicast, dapat dirutekan di Internet |
+| fc00::/7            | Alamat lokal unik (1)                       |
+| fe80::/10           | Alamat link-local                           |
+| ff00::/8            | Alamat multicast                            |
 
 (1): *Pada LAN pribadi, awalan `fd00::/8` lebih disukai untuk menetapkan alamat internal yang tidak dapat dirutekan di Internet*
 

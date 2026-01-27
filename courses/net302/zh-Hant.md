@@ -1774,13 +1774,14 @@ IPv6 與其前身的不同之處在於有許多 Address 類別，每個類別都
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6 位址前綴 | 描述                                     |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | 保留位址                                  |
+| 2000::/3            | 單播位址，可於網際網路中路由              |
+| fc00::/7            | 唯一本地位址 (1)                          |
+| fe80::/10           | 連結本地位址                              |
+| ff00::/8            | 多點傳送位址                              |
 
 (1): *在私人區域網路上，「fd00::/8」前綴是分配不可在網際網路上路由的內部位址的首選。*
 

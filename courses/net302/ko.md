@@ -1776,13 +1776,14 @@ IPv6는 특정 용도에 맞게 설계된 광범위한 Address 카테고리를 �
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6 주소 접두사 | 설명                                      |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | 예약된 주소                                |
+| 2000::/3            | 유니캐스트 주소, 인터넷에서 라우팅 가능    |
+| fc00::/7            | 고유 로컬 주소 (1)                         |
+| fe80::/10           | 링크 로컬 주소                             |
+| ff00::/8            | 멀티캐스트 주소                            |
 
 (1): *사설 LAN에서는 인터넷에서 라우팅할 수 없는 내부 주소를 할당할 때 `fd00::/8` 접두사가 선호됩니다*
 

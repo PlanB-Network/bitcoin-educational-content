@@ -1776,13 +1776,14 @@ Belirtilmemiş bir IPv6 Address `::` veya daha açık bir ifadeyle `::0.0.0.0` i
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6 Adres Ön eki | Açıklama                                 |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Ayrılmış adresler                          |
+| 2000::/3            | Unicast adresler, İnternet üzerinde yönlendirilebilir |
+| fc00::/7            | Benzersiz yerel adresler (1)               |
+| fe80::/10           | Bağlantı-yerel adresler                    |
+| ff00::/8            | Multicast adresler                         |
 
 (1): *Özel bir LAN'da, `fd00::/8` öneki, İnternet üzerinde yönlendirilemeyen dahili adreslerin atanması için tercih edilir.*
 

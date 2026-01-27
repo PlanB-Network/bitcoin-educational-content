@@ -1776,13 +1776,14 @@ IPv6 Address ambayo haijabainishwa inawakilishwa na `::` au, kwa uwazi zaidi, `:
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| Kiambishi cha Anwani ya IPv6 | Maelezo               |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Anwani zilizohifadhiwa                     |
+| 2000::/3            | Anwani za unicast, zinazoweza kupitishwa kwenye Mtandao |
+| fc00::/7            | Anwani za kipekee za ndani (1)             |
+| fe80::/10           | Anwani za link-local                       |
+| ff00::/8            | Anwani za multicast                        |
 
 (1): *Kwenye LAN ya faragha, kiambishi awali cha `fd00::/8` kinapendekezwa kwa kuweka addresses za ndani ambazo haziwezi kubadilishwa kwenye Mtandao.*
 

@@ -1776,13 +1776,14 @@ Ein nicht spezifizierter IPv6-Address wird durch `::` oder, genauer gesagt, durc
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6-Adresspräfix | Beschreibung                               |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Reservierte Adressen                        |
+| 2000::/3            | Unicast-Adressen, im Internet routbar       |
+| fc00::/7            | Eindeutige lokale Adressen (1)              |
+| fe80::/10           | Link-lokale Adressen                        |
+| ff00::/8            | Multicast-Adressen                          |
 
 (1): *In einem privaten LAN wird das Präfix "fd00::/8" für die Zuweisung interner Adressen bevorzugt, die nicht über das Internet geroutet werden können*
 

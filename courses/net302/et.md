@@ -1776,13 +1776,14 @@ Täpsustamata IPv6 Address on esitatud kujul `::` või täpsemalt `::0.0.0.0.0`.
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6-aadressi prefiks | Kirjeldus                              |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Reserveeritud aadressid                     |
+| 2000::/3            | Unicast-aadressid, Internetis marsruuditavad |
+| fc00::/7            | Unikaalsed kohalikud aadressid (1)          |
+| fe80::/10           | Lingikohalikud aadressid                    |
+| ff00::/8            | Multicast-aadressid                         |
 
 (1): *Eralühenduses eelistatakse eelisliidet `fd00::/8` siseaadresside määramiseks, mis ei ole marsruutimisvõimalusega Internetis.*
 

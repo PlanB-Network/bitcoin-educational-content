@@ -1328,13 +1328,14 @@ IPv6 se diferencia de su predecesor por una amplia gama de categorías de direcc
 Una dirección IPv6 no especificada se representa mediante `::` o, más explícitamente, `::0.0.0.0`. Esta forma especial se utiliza durante la adquisición de direcciones, o como valor por defecto para indicar la ausencia de una dirección.
 
 
-| Prefijo de dirección IPv6 | Descripción                                 |
+
+| Prefijo de dirección IPv6 | Descripción                          |
 | ------------------- | ------------------------------------------- |
-|::/8                | Direcciones reservadas                          |
+|::/8                | Direcciones reservadas                      |
 | 2000::/3            | Direcciones unicast, enrutables en Internet |
-| fc00::/7            | Direcciones locales únicas (1)               |
-| fe80::/10           | Direcciones de enlace local                        |
-| ff00::/8            | Direcciones de multidifusión                         |
+| fc00::/7            | Direcciones locales únicas (1)              |
+| fe80::/10           | Direcciones de enlace local                 |
+| ff00::/8            | Direcciones multicast                       |
 
 (1): *En una LAN privada, el prefijo `fd00::/8` es preferible para asignar direcciones internas que no son enrutables en Internet.*
 

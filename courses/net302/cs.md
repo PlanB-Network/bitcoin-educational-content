@@ -1776,13 +1776,14 @@ Nespecifikovaný IPv6 Address je reprezentován znakem `::` nebo explicitněji `
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| Prefix adresy IPv6 | Popis                                     |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Rezervované adresy                          |
+| 2000::/3            | Unicast adresy, směrovatelné na Internetu   |
+| fc00::/7            | Jedinečné lokální adresy (1)                |
+| fe80::/10           | Link-local adresy                           |
+| ff00::/8            | Multicast adresy                            |
 
 (1): *V privátní síti LAN se pro přidělování interních adres, které nejsou směrovatelné v Internetu, upřednostňuje prefix `fd00::/8`*
 

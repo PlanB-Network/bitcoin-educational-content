@@ -1776,13 +1776,14 @@ IPv6 与其前身不同之处在于，IPv6 有多种 Address 类别，每一类�
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6 地址前缀 | 描述                                     |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | 保留地址                                  |
+| 2000::/3            | 单播地址，可在互联网中路由                |
+| fc00::/7            | 唯一本地地址 (1)                          |
+| fe80::/10           | 链路本地地址                              |
+| ff00::/8            | 多播地址                                  |
 
 (1): *在专用局域网中，分配不能在互联网上路由的内部地址时，首选`fd00::/8`前缀*。
 

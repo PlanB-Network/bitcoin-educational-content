@@ -1776,13 +1776,14 @@ Un Address IPv6 non specificato è rappresentato da `::` o, più esplicitamente,
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| Prefisso indirizzo IPv6 | Descrizione                       |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Indirizzi riservati                         |
+| 2000::/3            | Indirizzi unicast, instradabili su Internet |
+| fc00::/7            | Indirizzi locali univoci (1)                |
+| fe80::/10           | Indirizzi link-local                        |
+| ff00::/8            | Indirizzi multicast                         |
 
 (1): *In una LAN privata, il prefisso `fd00::/8` è preferibile per l'assegnazione di indirizzi interni che non sono instradabili su Internet.*
 

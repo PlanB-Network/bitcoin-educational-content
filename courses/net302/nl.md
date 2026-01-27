@@ -1776,13 +1776,14 @@ Een niet-gespecificeerde IPv6 Address wordt weergegeven door `::` of, expliciete
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6-adresprefiks | Beschrijving                              |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Gereserveerde adressen                     |
+| 2000::/3            | Unicast-adressen, routeerbaar op internet  |
+| fc00::/7            | Unieke lokale adressen (1)                 |
+| fe80::/10           | Link-lokale adressen                       |
+| ff00::/8            | Multicast-adressen                         |
 
 (1): *Op een privé LAN heeft het `fd00::/8` voorvoegsel de voorkeur voor het toewijzen van interne adressen die niet routeerbaar zijn op het Internet.*
 

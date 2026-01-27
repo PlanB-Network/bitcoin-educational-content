@@ -1230,7 +1230,8 @@ Imbonerahamwe y’inzira, icungiwe n’amaboko (inzira idahinduka) canke n’ing
 Imbonerahamwe y'inzira ikora nk'imbonerahamwe y'ikarita hagati y'amaderesi IP y'intumbero n'amarembo akurikira. Ubusanzwe ibika ibimenyetso vy'urubuga (_network ID_) aho kubika umushitsi wese Address, ivyo bikaba bigabanya cane ubunini bwayo.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Aderesi y’aho igenewe | Aderesi ya router y’intambwe ikurikira | Interface |
 | ------------------- | ----------------------- | --------- |
 
 Ukoresheje ivyo bintu, iyo router irashobora kumenya ningoga Interface iyihe be n’aho datagram yose ikwiye kurungikwa. Ivyo bifatanijwe na ARP yo gutorera umuti amaderesi ya MAC ahuye, bituma amakuru ashobora guhererekanwa neza kandi yizewe ku rubuga rwose.

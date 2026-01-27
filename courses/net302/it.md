@@ -1230,7 +1230,8 @@ La tabella di routing, gestita manualmente (routing statico) o dinamicamente (ro
 La tabella di routing funge da tabella di mappatura tra gli indirizzi IP di destinazione e i gateway successivi. Di solito memorizza gli identificatori di rete (_network ID_) anziché ogni singolo host Address, riducendo così notevolmente le sue dimensioni.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Indirizzo di destinazione | Indirizzo del router di next-hop | Interfaccia |
 | ------------------- | ----------------------- | --------- |
 
 Grazie a queste voci, il router può determinare rapidamente attraverso quale Interface e a quale nodo deve essere inviato ogni datagramma. In combinazione con ARP per la risoluzione degli indirizzi MAC corrispondenti, questo assicura un trasferimento efficiente e affidabile dei dati attraverso la rete.

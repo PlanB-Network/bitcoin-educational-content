@@ -942,7 +942,8 @@ La tabla de encaminamiento, gestionada manualmente (encaminamiento estático) o 
 
 La tabla de enrutamiento actúa como una tabla de mapeo entre las direcciones IP de destino y las siguientes pasarelas. Normalmente almacena identificadores de red (_network ID_) en lugar de cada dirección de host individual, lo que reduce enormemente su tamaño.
 
-| Dirección de destino | Dirección del enrutador del siguiente salto | Interfaz |
+
+| Dirección de destino | Dirección del router de siguiente salto | Interfaz |
 | ------------------- | ----------------------- | --------- |
 
 Utilizando estas entradas, el router puede determinar rápidamente a través de qué interfaz y a qué nodo debe enviarse cada datagrama. Combinado con ARP para resolver las direcciones MAC coincidentes, esto asegura una transferencia de datos eficiente y fiable a través de la red.

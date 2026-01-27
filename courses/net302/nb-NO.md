@@ -1230,7 +1230,8 @@ Rutetabellen, som enten administreres manuelt (statisk ruting) eller dynamisk (d
 Routing-tabellen fungerer som en mapping-tabell mellom IP-adresser og neste gateway. Den lagrer vanligvis nettverksidentifikatorer (_nettverks-ID_) i stedet for hver enkelt host Address, noe som reduserer størrelsen kraftig.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Destinasjonsadresse | Adresse til neste hopp-ruter | Grensesnitt |
 | ------------------- | ----------------------- | --------- |
 
 Ved hjelp av disse oppføringene kan ruteren raskt finne ut hvilken Interface og til hvilken node hvert datagram skal sendes. Kombinert med ARP for å løse de matchende MAC-adressene, sikrer dette effektiv og pålitelig dataoverføring over nettverket.

@@ -1230,7 +1230,8 @@ Die Routing-Tabelle, die entweder manuell (statisches Routing) oder dynamisch (d
 Die Routing-Tabelle dient als Zuordnungstabelle zwischen Ziel-IP-Adressen und nächsten Gateways. Sie speichert in der Regel Netzkennungen (_Netz-ID_) und nicht jeden einzelnen Host Address, was ihre Größe erheblich reduziert.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Zieladresse | Adresse des Next-Hop-Routers | Schnittstelle |
 | ------------------- | ----------------------- | --------- |
 
 Anhand dieser Einträge kann der Router schnell feststellen, über welchen Interface und an welchen Knoten jedes Datagramm gesendet werden soll. In Kombination mit ARP zur Auflösung der passenden MAC-Adressen sorgt dies für eine effiziente und zuverlässige Datenübertragung im Netz.

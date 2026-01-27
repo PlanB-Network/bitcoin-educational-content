@@ -1230,7 +1230,8 @@ Reititystaulukko, jota hallinnoidaan joko manuaalisesti (staattinen reititys) ta
 Reititystaulukko toimii kartoitustaulukkona kohde-IP-osoitteiden ja seuraavien yhdyskäytävien välillä. Siihen tallennetaan yleensä verkkotunnukset (_network ID_) eikä jokaista yksittäistä isäntää Address, mikä pienentää sen kokoa huomattavasti.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Kohdeosoite | Seuraavan hypyn reitittimen osoite | Liitäntä |
 | ------------------- | ----------------------- | --------- |
 
 Näiden merkintöjen avulla reititin voi nopeasti määrittää, minkä Interface:n kautta ja mihin solmuun kukin datagrammi on lähetettävä. Yhdessä ARP:n kanssa, joka ratkaisee vastaavat MAC-osoitteet, tämä takaa tehokkaan ja luotettavan tiedonsiirron verkossa.

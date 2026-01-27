@@ -1230,7 +1230,8 @@ Směrovací tabulka, která je spravována buď ručně (statické směrování)
 Směrovací tabulka slouží jako mapovací tabulka mezi cílovými IP adresami a dalšími branami. Obvykle jsou v ní uloženy identifikátory sítě (_network ID_), nikoli každý jednotlivý hostitel Address, což značně snižuje její velikost.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Cílová adresa | Adresa dalšího směrovače | Rozhraní |
 | ------------------- | ----------------------- | --------- |
 
 Pomocí těchto záznamů může směrovač rychle určit, přes který Interface a do kterého uzlu má být každý datagram odeslán. V kombinaci s ARP pro překlad odpovídajících adres MAC je tak zajištěn efektivní a spolehlivý přenos dat v síti.

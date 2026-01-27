@@ -1230,7 +1230,8 @@ De routeringstabel, die handmatig (statische routering) of dynamisch (dynamische
 De routeringstabel fungeert als een mapping tabel tussen doel-IP adressen en volgende gateways. Meestal worden netwerkidentifiers (_netwerk ID_) opgeslagen in plaats van elke individuele host Address, wat de grootte sterk vermindert.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Bestemmingsadres | Adres van de next-hop-router | Interface |
 | ------------------- | ----------------------- | --------- |
 
 Met behulp van deze invoer kan de router snel bepalen via welke Interface en naar welk knooppunt elk datagram moet worden gestuurd. In combinatie met ARP voor het oplossen van de overeenkomende MAC-adressen, zorgt dit voor een efficiënte en betrouwbare gegevensoverdracht over het netwerk.

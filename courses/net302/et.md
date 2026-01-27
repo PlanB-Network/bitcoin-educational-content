@@ -1230,7 +1230,8 @@ Marsruutimistabel, mida hallatakse kas käsitsi (staatiline marsruutimine) või 
 Marsruutimistabel toimib siht-IP-aadresside ja järgmiste väravate vahelise kaardistustabelina. Tavaliselt salvestatakse selles pigem võrgu identifikaatorid (_network ID_) kui iga üksiku host Address, mis vähendab oluliselt selle suurust.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Sihtaadress | Järgmise hüppe marsruuteri aadress | Liides |
 | ------------------- | ----------------------- | --------- |
 
 Nende kirjete abil saab marsruuter kiiresti kindlaks teha, millise Interface kaudu ja millisele sõlmpunktile iga andmeprogramm tuleks saata. Koos ARP-ga sobivate MAC-aadresside lahendamiseks tagab see tõhusa ja usaldusväärse andmeedastuse üle võrgu.

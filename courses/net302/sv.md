@@ -1230,7 +1230,8 @@ Routingtabellen, som hanteras antingen manuellt (statisk routing) eller dynamisk
 Routingtabellen fungerar som en mappningstabell mellan mål-IP-adresser och nästa gateway. Den lagrar vanligtvis nätverksidentifierare (_nätverks-ID_) i stället för varje enskild värd Address, vilket minskar dess storlek avsevärt.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Destinationsadress | Adress till nästa hopp-router | Gränssnitt |
 | ------------------- | ----------------------- | --------- |
 
 Med hjälp av dessa poster kan routern snabbt avgöra genom vilken Interface och till vilken nod varje datagram ska skickas. I kombination med ARP för att lösa de matchande MAC-adresserna säkerställer detta effektiv och tillförlitlig dataöverföring över nätverket.

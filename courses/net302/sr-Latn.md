@@ -1227,7 +1227,8 @@ Tabela rutiranja, kojom se upravlja ili ručno (statičko rutiranje) ili dinami�
 Tabela rutiranja deluje kao tabela mapiranja između ciljnih IP adresa i sledećih prolaza. Obično skladišti identifikatore mreže (_network ID_) umesto svake pojedinačne host adrese, što značajno smanjuje njenu veličinu.
 
 
-| Adresa odredišta    | Adresa sledećeg rutera  | Interfejs |
+
+| Odredišna adresa | Adresa rutera sledećeg skoka | Interfejs |
 | ------------------- | ----------------------- | --------- |
 
 Koristeći ove unose, ruter može brzo odrediti kroz koji interfejs i ka kojem čvoru svaki datagram treba biti poslat. U kombinaciji sa ARP-om za rešavanje odgovarajućih MAC adresa, ovo osigurava efikasan i pouzdan prenos podataka preko mreže.

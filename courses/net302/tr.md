@@ -1230,7 +1230,8 @@ Manuel (statik yönlendirme) ya da dinamik (dinamik yönlendirme) olarak yöneti
 Yönlendirme tablosu, hedef IP adresleri ve sonraki ağ geçitleri arasında bir eşleme tablosu görevi görür. Genellikle her bir ana bilgisayar Address yerine ağ tanımlayıcılarını (_network ID_) depolar, bu da boyutunu büyük ölçüde azaltır.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Hedef Adres | Sonraki Atlama Yönlendirici Adresi | Arayüz |
 | ------------------- | ----------------------- | --------- |
 
 Yönlendirici bu girdileri kullanarak her bir datagramın hangi Interface üzerinden ve hangi düğüme gönderilmesi gerektiğini hızlı bir şekilde belirleyebilir. Eşleşen MAC adreslerini çözümlemek için ARP ile birleştirildiğinde, bu, ağ üzerinden verimli ve güvenilir veri aktarımı sağlar.

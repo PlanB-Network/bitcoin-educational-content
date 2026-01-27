@@ -1231,7 +1231,8 @@ Jedwali la uelekezaji, linalodhibitiwa na mtu (uelekezaji tuli) au kwa nguvu (ue
 Jedwali la uelekezaji hufanya kama jedwali la ramani kati ya anwani za IP lengwa na lango zinazofuata. Kwa kawaida huhifadhi vitambulishi vya mtandao (_network ID_) badala ya kila seva pangishi Address, ambayo hupunguza ukubwa wake kwa kiasi kikubwa.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Anwani ya Lengwa | Anwani ya Ruta ya Hatua Inayofuata | Kiolesura |
 | ------------------- | ----------------------- | --------- |
 
 Kutumia maingizo haya, router inaweza kuamua haraka kupitia Interface na kwa nodi gani kila datagram inapaswa kutumwa. Ikiunganishwa na ARP kwa ajili ya kusuluhisha anwani za MAC zinazolingana, hii inahakikisha uhamishaji bora na wa kuaminika wa data kwenye mtandao.

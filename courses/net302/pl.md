@@ -1234,7 +1234,8 @@ Tablica routingu, zarządzana ręcznie (routing statyczny) lub dynamicznie (rout
 Tabela routingu działa jako tabela mapowania między docelowymi adresami IP i następnymi bramami. Zwykle przechowuje ona identyfikatory sieci (_network ID_), a nie każdego hosta Address, co znacznie zmniejsza jej rozmiar.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Adres docelowy | Adres routera następnego skoku | Interfejs |
 | ------------------- | ----------------------- | --------- |
 
 Korzystając z tych wpisów, router może szybko określić, przez który Interface i do którego węzła powinien zostać wysłany każdy datagram. W połączeniu z ARP do rozwiązywania pasujących adresów MAC, zapewnia to wydajny i niezawodny transfer danych w sieci.

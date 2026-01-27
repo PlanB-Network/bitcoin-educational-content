@@ -1234,7 +1234,8 @@ Tabel perutean, yang dikelola secara manual (perutean statis) atau dinamis (peru
 Tabel perutean bertindak sebagai tabel pemetaan antara alamat IP target dan gateway berikutnya. Tabel ini biasanya menyimpan pengenal jaringan (_network ID_) daripada setiap host Address, yang sangat mengurangi ukurannya.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Alamat Tujuan | Alamat Router Hop Berikutnya | Antarmuka |
 | ------------------- | ----------------------- | --------- |
 
 Dengan menggunakan entri ini, router dapat dengan cepat menentukan melalui Interface mana dan ke node mana setiap datagram harus dikirim. Dikombinasikan dengan ARP untuk menyelesaikan alamat MAC yang cocok, hal ini memastikan transfer data yang efisien dan dapat diandalkan di seluruh jaringan.

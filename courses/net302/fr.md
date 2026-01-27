@@ -729,7 +729,8 @@ La table de routage, administrée soit manuellement (routage statique), soit dyn
 
 La table de routage agit comme un tableau de correspondance entre les adresses IP cibles et les passerelles suivantes. Elle ne conserve généralement pas toutes les adresses hôtes mais seulement l’identifiant du réseau (_network ID_), ce qui allège considérablement son volume.
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Adresse de destination | Adresse du routeur de saut suivant | Interface |
 | ------------------- | ----------------------- | --------- |
 
 Grâce à ces entrées, le routeur peut déterminer rapidement via quelle interface et vers quel nœud il doit transmettre chaque datagramme. Cette logique d’acheminement, combinée au protocole ARP pour résoudre les adresses MAC correspondantes, garantit l’efficacité et la fiabilité du transfert de données sur l’ensemble du réseau.

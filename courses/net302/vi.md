@@ -1230,7 +1230,8 @@ Bảng định tuyến, được quản lý thủ công (định tuyến tĩnh) 
 Bảng định tuyến hoạt động như một bảng ánh xạ giữa các địa chỉ IP đích và các cổng tiếp theo. Nó thường lưu trữ mã định danh mạng (_network ID_) thay vì từng máy chủ Address riêng lẻ, giúp giảm đáng kể kích thước của nó.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Địa chỉ đích | Địa chỉ bộ định tuyến bước nhảy tiếp theo | Giao diện |
 | ------------------- | ----------------------- | --------- |
 
 Sử dụng các mục nhập này, bộ định tuyến có thể nhanh chóng xác định Interface nào và nút nào mà mỗi gói dữ liệu nên được gửi. Kết hợp với ARP để phân giải các địa chỉ MAC trùng khớp, điều này đảm bảo truyền dữ liệu hiệu quả và đáng tin cậy trên toàn mạng.

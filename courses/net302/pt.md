@@ -1234,7 +1234,8 @@ A tabela de encaminhamento, gerida manualmente (encaminhamento estático) ou din
 A tabela de encaminhamento funciona como uma tabela de mapeamento entre os endereços IP de destino e os gateways seguintes. Normalmente, armazena identificadores de rede (_identificador de rede_) em vez de cada anfitrião individual Address, o que reduz bastante o seu tamanho.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Endereço de destino | Endereço do roteador de próximo salto | Interface |
 | ------------------- | ----------------------- | --------- |
 
 Utilizando estas entradas, o router pode determinar rapidamente através de que Interface e para que nó cada datagrama deve ser enviado. Em combinação com o ARP para resolver os endereços MAC correspondentes, isto assegura uma transferência de dados eficiente e fiável através da rede.

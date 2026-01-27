@@ -1825,10 +1825,11 @@ O BTCPay Server também lhe permite criar formulários em código. JSON, em part
 O nome do campo representa o nome da propriedade JSON que armazena o valor fornecido pelo utilizador nos metadados do Invoice. Alguns nomes conhecidos podem ser interpretados e modificados para ajustar as definições do Invoice.
 
 
-| Field name       | Description            |
+
+| Nome do campo    | Descrição             |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Valor da fatura       |
+| invoice_currency | Moeda da fatura       |
 
 Pode preencher automaticamente os campos de um Invoice adicionando cadeias de consulta ao URL do formulário, como "?your_field=value".
 

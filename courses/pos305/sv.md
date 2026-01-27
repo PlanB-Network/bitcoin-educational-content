@@ -1825,10 +1825,11 @@ BTCPay Server låter dig också bygga formulär i kod. JSON, i synnerhet. Istäl
 Fältnamnet representerar det JSON-egenskapsnamn som lagrar det användartillhandahållna värdet i Invoice:s metadata. Vissa välkända namn kan tolkas och modifieras för att justera Invoice:s inställningar.
 
 
-| Field name       | Description            |
+
+| Fältnamn         | Beskrivning           |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Fakturabelopp         |
+| invoice_currency | Fakturavaluta         |
 
 Du kan förfylla fälten i en Invoice automatiskt genom att lägga till frågesträngar i formulärets URL, t.ex. "?your_field=value".
 

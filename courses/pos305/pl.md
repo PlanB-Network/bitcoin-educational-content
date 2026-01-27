@@ -1828,10 +1828,11 @@ BTCPay Server umożliwia również tworzenie formularzy w kodzie. W szczególno�
 Nazwa pola reprezentuje nazwę właściwości JSON, która przechowuje wartość dostarczoną przez użytkownika w metadanych Invoice. Niektóre dobrze znane nazwy mogą być interpretowane i modyfikować ustawienia Invoice.
 
 
-| Field name       | Description            |
+
+| Nazwa pola       | Opis                  |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Kwota faktury         |
+| invoice_currency | Waluta faktury        |
 
 Możesz automatycznie wstępnie wypełnić pola Invoice, dodając ciągi zapytań do adresu URL formularza, takie jak "?your_field=value".
 

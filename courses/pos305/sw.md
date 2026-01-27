@@ -1308,10 +1308,11 @@ BTCPay Server pia hukuruhusu kuunda Fomu kwa nambari. JSON, haswa. Badala ya kua
 
 Jina la sehemu hiyo linawakilisha jina la sifa ya JSON ambalo huhifadhi thamani iliyotolewa na mtumiaji katika metadata ya Address ya ununuzi. Majina mengine yanayojulikana yanaweza kufasiriwa na kurekebisha mipangilio ya Address ya ununuzi.
 
-| Jina la Sehemu    | Maelezo                |
-| ----------------- | ---------------------- |
-| invoice_amount    | Kiasi cha invoice       |
-| invoice_currency  | Sarafu ya invoice       |
+
+| Jina la sehemu   | Maelezo               |
+| ---------------- | ---------------------- |
+| invoice_amount   | Kiasi cha ankara      |
+| invoice_currency | Sarafu ya ankara      |
 
 Unaweza kujaza mapema sehemu za Address ya ununuzi kiotomatiki kwa kuongeza mifuatano ya hoja kwenye URL ya fomu, kama vile "?wako_uwanja=thamani".
 

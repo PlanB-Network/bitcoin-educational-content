@@ -1825,10 +1825,11 @@ BTCPay Server lar deg også bygge skjemaer i kode. JSON, spesielt. I stedet for 
 Feltnavnet representerer JSON-egenskapsnavnet som lagrer den brukerdefinerte verdien i Invoices metadata. Noen velkjente navn kan tolkes og endres for å justere Invoices innstillinger.
 
 
-| Field name       | Description            |
+
+| Feltnavn         | Beskrivelse           |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Fakturabeløp          |
+| invoice_currency | Fakturavaluta         |
 
 Du kan forhåndsutfylle feltene i et Invoice-skjema automatisk ved å legge til spørringsstrenger i skjemaets URL-adresse, for eksempel "?your_field=value".
 

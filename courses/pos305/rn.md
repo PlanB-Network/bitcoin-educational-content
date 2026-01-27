@@ -1825,10 +1825,11 @@ BTCPay Server nayo iragufasha kwubaka amafomu muri kode. JSON, cane cane. Aho ku
 Izina ry’umurima rigereranya izina ry’umutungo wa JSON ribika agaciro katanzwe n’ukoresha mu makuru ya Invoice. Amazina amwe amwe azwi cane arashobora gusobanurwamwo no guhindurwa kugira ngo ahindure imiterere ya Invoice.
 
 
-| Field name       | Description            |
+
+| Izina ry’umwanya | Insiguro              |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Igiciro ya fagitire   |
+| invoice_currency | Ifaranga rya fagitire |
 
 Ushobora kwuzuza mbere ivyicaro vya Invoice ubwo nyene wongeyeko imirongo y'ibibazo kuri URL y'ifomu, nka "?your_field=value".
 

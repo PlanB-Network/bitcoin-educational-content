@@ -1825,10 +1825,11 @@ BTCPay Server ayrıca kod içinde Formlar oluşturmanıza da olanak tanır. Öze
 Alan adı, kullanıcı tarafından sağlanan değeri Invoice'nın meta verilerinde saklayan JSON özellik adını temsil eder. Bazı iyi bilinen isimler yorumlanabilir ve Invoice'nın ayarlarını yapmak için değiştirilebilir.
 
 
-| Field name       | Description            |
+
+| Alan adı         | Açıklama              |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Fatura tutarı         |
+| invoice_currency | Fatura para birimi    |
 
 Formun URL'sine "?your_field=value" gibi sorgu dizeleri ekleyerek bir Invoice'nin alanlarını otomatik olarak önceden doldurabilirsiniz.
 

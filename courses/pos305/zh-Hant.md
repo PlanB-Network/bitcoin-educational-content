@@ -1330,13 +1330,14 @@ BTCPay Server 也允許您在程式碼中建立表單。尤其是 JSON。店主�
 
 | 欄位名稱 | 描述
 
+
+
+
+
+| 欄位名稱         | 說明                  |
 | ---------------- | ---------------------- |
-
-| invoice_amount | Invoice 的金額 | invoice_amount | Invoice 的金額
-
-| invoice_currency | Invoice 的貨幣 | invoice_currency | Invoice 的貨幣 | invoice_currency | Invoice 的貨幣
-
-您可以在表單的 URL 中加入查詢字串，例如「?your_field=value」，以自動預先填入 Invoice 的欄位。
+| invoice_amount   | 發票金額              |
+| invoice_currency | 發票幣別              |
 
 以下是此功能的一些使用案例：
 

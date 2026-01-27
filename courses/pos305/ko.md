@@ -1825,10 +1825,11 @@ BTCPay 서버를 사용하면 코드에서 양식을 작성할 수도 있습니�
 필드 이름은 Invoice의 메타데이터에 사용자가 제공한 값을 저장하는 JSON 속성 이름을 나타냅니다. 일부 잘 알려진 이름을 해석하고 수정하여 Invoice의 설정을 조정할 수 있습니다.
 
 
-| Field name       | Description            |
+
+| 필드 이름         | 설명                  |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | 청구서 금액           |
+| invoice_currency | 청구서 통화           |
 
 양식의 URL에 "?your_field=value"와 같은 쿼리 문자열을 추가하여 Invoice의 필드를 자동으로 미리 채울 수 있습니다.
 

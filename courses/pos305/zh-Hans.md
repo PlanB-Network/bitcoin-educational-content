@@ -1825,10 +1825,11 @@ BTCPay Server 还允许您用代码构建表单。特别是 JSON。店主可以�
 字段名称表示在 Invoice 元数据中存储用户提供值的 JSON 属性名称。一些众所周知的名称可以通过解释和修改来调整 Invoice 的设置。
 
 
-| Field name       | Description            |
+
+| 字段名称         | 描述                  |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | 发票金额              |
+| invoice_currency | 发票币种              |
 
 您可以在表单的 URL 中添加查询字符串，如"?your_field=value"，从而自动预填 Invoice 的字段。
 

@@ -1825,10 +1825,11 @@ Met BTCPay Server kunt u ook formulieren in code bouwen. JSON, in het bijzonder.
 De veldnaam staat voor de JSON eigenschapsnaam die de door de gebruiker opgegeven waarde opslaat in de metadata van de Invoice. Sommige bekende namen kunnen worden geïnterpreteerd en aangepast om de instellingen van de Invoice aan te passen.
 
 
-| Field name       | Description            |
+
+| Veldnaam         | Beschrijving          |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Factuurbedrag         |
+| invoice_currency | Factuurvaluta         |
 
 Je kunt de velden van een Invoice automatisch voorvullen door query strings toe te voegen aan de URL van het formulier, zoals "?your_field=value".
 

@@ -1825,10 +1825,11 @@ BTCPay Serverin avulla voit myös rakentaa lomakkeita koodilla. Erityisesti JSON
 Kentän nimi edustaa JSON-ominaisuuden nimeä, joka tallentaa käyttäjän antaman arvon Invoice:n metatietoihin. Joitakin tunnettuja nimiä voidaan tulkita ja muuttaa Invoice:n asetusten mukauttamiseksi.
 
 
-| Field name       | Description            |
+
+| Kentän nimi      | Kuvaus                |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Laskun summa          |
+| invoice_currency | Laskun valuutta       |
 
 Voit esitäyttää Invoice-lomakkeen kentät automaattisesti lisäämällä lomakkeen URL-osoitteeseen kyselymerkkijonoja, kuten "?your_field=value".
 

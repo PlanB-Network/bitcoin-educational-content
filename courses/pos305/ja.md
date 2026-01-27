@@ -1825,10 +1825,11 @@ BTCPay Serverでは、コードでフォームを構築することもできま�
 フィールド名は、Invoice のメタデータにユーザー提供値を格納する JSON プロパティ名を表します。よく知られている名前は、Invoice の設定を調整するために解釈し、変更することができます。
 
 
-| Field name       | Description            |
+
+| フィールド名       | 説明                  |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | 請求書の金額          |
+| invoice_currency | 請求書の通貨          |
 
 フォームのURLに"?your_field=value "のようなクエリー文字列を追加することで、Invoiceのフィールドを自動的にプリフィルすることができます。
 

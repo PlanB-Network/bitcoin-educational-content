@@ -1824,10 +1824,11 @@ BTCPay Server takođe omogućava kreiranje obrazaca u kodu. Posebno u JSON forma
 Naziv polja predstavlja naziv JSON svojstva koje čuva vrednost koju je korisnik uneo u metapodacima fakture. Neka dobro poznata imena mogu se interpretirati i modifikovati postavke fakture.
 
 
-| Naziv polja      | Opis                   |
+
+| Naziv polja      | Opis                  |
 | ---------------- | ---------------------- |
-| invoice_amount   | Iznos fakture          |
-| invoice_currency | Valura fakture         |
+| invoice_amount   | Iznos fakture         |
+| invoice_currency | Valuta fakture        |
 
 Možete unapred popuniti polja fakture automatski dodavanjem niza upita u URL obrasca, kao što je "?your_field=value".
 

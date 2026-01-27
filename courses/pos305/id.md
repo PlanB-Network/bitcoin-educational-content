@@ -1825,10 +1825,11 @@ BTCPay Server juga memungkinkan Anda untuk membuat Formulir dalam kode. JSON, kh
 Nama bidang mewakili nama properti JSON yang menyimpan nilai yang diberikan pengguna dalam metadata Invoice. Beberapa nama yang terkenal dapat ditafsirkan dan dimodifikasi untuk menyesuaikan pengaturan Invoice.
 
 
-| Field name       | Description            |
+
+| Nama bidang      | Deskripsi             |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Jumlah faktur         |
+| invoice_currency | Mata uang faktur      |
 
 Anda dapat mengisi bidang Invoice secara otomatis dengan menambahkan string kueri ke URL formulir, seperti "?your_field=value".
 

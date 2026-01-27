@@ -1825,10 +1825,11 @@ BTCPay Server võimaldab teil ka vormide koostamist koodis. JSON, eriti. Selle a
 Välja nimi kujutab endast JSON-omaduse nime, mis salvestab kasutaja poolt antud väärtuse Invoice metaandmetes. Mõningaid tuntud nimesid saab tõlgendada ja muuta, et kohandada Invoice seadeid.
 
 
-| Field name       | Description            |
+
+| Välja nimi       | Kirjeldus             |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Arve summa            |
+| invoice_currency | Arve valuuta          |
 
 Invoice väljad saab automaatselt eeltäita, lisades vormi URL-ile päringustringid, näiteks "?your_field=value".
 

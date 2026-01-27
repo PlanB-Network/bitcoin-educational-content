@@ -1275,10 +1275,11 @@ BTCPay Server consente anche di costruire moduli in codice, in paricolare in fom
 
 Il nome del campo rappresenta il nome della proprietà JSON che memorizza il valore fornito dall'utente nei metadati dell'invoice. Alcuni nomi ben noti possono essere interpretati e modificare le impostazioni dell'invoice.
 
-| Nome del campo   | Descrizione            |
+
+| Nome campo       | Descrizione           |
 | ---------------- | ---------------------- |
-| invoice_amount   | L'importo dell'invoice |
-| invoice_currency | La valuta dell'invoice |
+| invoice_amount   | Importo della fattura |
+| invoice_currency | Valuta della fattura  |
 
 È possibile precompilare i campi di un'invoice automaticamente aggiungendo stringhe di query all'URL del modulo, come _"?your_field=value"_.
 

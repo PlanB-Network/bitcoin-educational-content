@@ -1840,10 +1840,11 @@ BTCPay Server به اطلاعات اتصال نیاز دارد؛ راه‌حل �
 نام فیلد نشان‌دهنده نام خاصیت JSON است که مقدار ارائه‌شده توسط کاربر را در متادیتای Invoice ذخیره می‌کند. برخی از نام‌های شناخته‌شده می‌توانند تفسیر شوند و تنظیمات Invoice را تغییر دهند.
 
 
-| Field name       | Description            |
+
+| نام فیلد         | توضیحات               |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | مبلغ فاکتور           |
+| invoice_currency | ارز فاکتور            |
 
 می‌توانید فیلدهای فرم Invoice را به‌طور خودکار با افزودن رشته‌های پرس‌وجو به URL فرم، مانند "?your_field=value" پیش‌پر کنید.
 

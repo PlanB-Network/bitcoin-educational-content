@@ -1825,10 +1825,11 @@ Mit BTCPay Server können Sie auch Formulare im Code erstellen. JSON, insbesonde
 Der Feldname stellt den JSON-Eigenschaftsnamen dar, der den vom Benutzer bereitgestellten Wert in den Metadaten des Invoice speichert. Einige bekannte Namen können interpretiert und geändert werden, um die Einstellungen des Invoice anzupassen.
 
 
-| Field name       | Description            |
+
+| Feldname         | Beschreibung          |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Betrag der Rechnung   |
+| invoice_currency | Währung der Rechnung  |
 
 Sie können die Felder eines Invoice automatisch ausfüllen, indem Sie Abfragezeichenfolgen zur URL des Formulars hinzufügen, z. B. "?your_field=value".
 

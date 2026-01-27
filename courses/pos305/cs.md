@@ -1825,10 +1825,11 @@ BTCPay Server také umožňuje vytvářet formuláře v kódu. Zejména JSON. M�
 Název pole představuje název vlastnosti JSON, která ukládá hodnotu zadanou uživatelem do metadat modulu Invoice. Některé dobře známé názvy lze interpretovat a upravit tak, aby bylo možné upravit nastavení zařízení Invoice.
 
 
-| Field name       | Description            |
+
+| Název pole       | Popis                 |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Částka faktury        |
+| invoice_currency | Měna faktury          |
 
 Pole formuláře Invoice můžete předvyplnit automaticky přidáním řetězců dotazů do adresy URL formuláře, například "?your_field=value".
 

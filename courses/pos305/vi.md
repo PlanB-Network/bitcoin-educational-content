@@ -1823,10 +1823,11 @@ Máy chủ BTCPay cũng cho phép bạn xây dựng Biểu mẫu bằng mã, đ�
 Tên trường đại diện cho tên thuộc tính JSON lưu trữ giá trị do người dùng cung cấp trong siêu dữ liệu của Invoice. Một số tên phổ biến có thể được diễn giải và sửa đổi để điều chỉnh cài đặt của Invoice.
 
 
-| Field name       | Description            |
+
+| Tên trường       | Mô tả                 |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Số tiền hóa đơn       |
+| invoice_currency | Tiền tệ của hóa đơn   |
 
 Bạn có thể tự động điền trước các trường của Invoice bằng cách thêm chuỗi truy vấn vào URL của biểu mẫu, chẳng hạn như "?your_field=value".
 

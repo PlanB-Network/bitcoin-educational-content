@@ -1,10 +1,10 @@
 question: Wat is het nadeel van Silent Payments in vergelijking met BIP47?
-answer: De ontvanger moet bijna de hele Blockchain scannen.
+answer: De ontvanger moet bijna de hele blockchain scannen.
 wrong_answers:
-  - Ze generate hogere transactiekosten voor de verzender.
+  - Ze genereren hogere transactiekosten voor de verzender.
   - Ze beperken het aantal mogelijke transacties.
   - Ze zijn minder anoniem.
 explanation: |
-  In Exchange voor het afzien van de meldingstransactie, moet de ontvanger alle Bitcoin transacties die voldoen aan de standaard scannen in een poging betalingen te vinden die aan hen zijn geadresseerd.
+  In ruil voor het opgeven van de kennisgevingstransactie, moet de ontvanger alle Bitcoin-transacties die voldoen aan de standaard scannen in een poging betalingen te vinden die aan hen zijn geadresseerd.
   
 reviewed: false

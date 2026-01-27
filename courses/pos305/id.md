@@ -727,14 +727,15 @@ BTCPay Server terdiri dari fitur-fitur standar Wallet berikut ini:
 Administrator dapat melihat transaksi masuk dan keluar untuk On-Chain Wallet yang terhubung ke toko khusus ini dalam tampilan transaksi. Setiap transaksi memiliki perbedaan antara jumlah yang diterima dan jumlah yang dikirim. Transaksi yang diterima akan berwarna Green, dan transaksi yang dikirim akan berwarna merah. Dalam tampilan transaksi BTCPay Server, administrator juga akan melihat serangkaian label standar.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Jenis Transaksi | Deskripsi                                         |
+| ---------------- | ------------------------------------------------- |
+| Aplikasi         | Pembayaran diterima melalui faktur yang dibuat oleh aplikasi |
+| Faktur           | Pembayaran diterima melalui faktur                |
+| Payjoin          | Belum dibayar, pengatur waktu faktur belum kedaluwarsa |
+| Payjoin-terekspos | UTXO terekspos melalui proposal payjoin pada faktur |
+| Permintaan pembayaran | Pembayaran diterima melalui permintaan pembayaran |
+| Pembayaran       | Pembayaran dikirim melalui pembayaran atau pengembalian dana |
 
 ### Bagaimana cara mengirim
 

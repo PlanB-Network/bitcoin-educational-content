@@ -727,14 +727,15 @@ BTCPay Server koosneb järgmistest standardsetest Wallet funktsioonidest:
 Administraatorid saavad näha selle konkreetse kauplusega ühendatud On-Chain Wallet sissetulevaid ja väljaminevaid tehinguid tehingute vaates. Iga tehingu puhul eristatakse saadud ja saadetud summad. Saadud on Green ja väljaminevad tehingud on punased. BTCPay Serveri tehingute vaates näevad administraatorid ka standardseid silte.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Tehingu tüüp | Kirjeldus                                          |
+| ------------- | -------------------------------------------------- |
+| Rakendus      | Makse saadi rakenduse loodud arve kaudu            |
+| Arve          | Makse saadi arve kaudu                             |
+| Payjoin       | Pole makstud, arve taimer ei ole veel aegunud      |
+| Payjoin-paljastatud | UTXO paljastati arve payjoin-ettepaneku kaudu |
+| Maksepäring   | Makse saadi maksepäringu kaudu                     |
+| Väljamakse    | Makse saadeti väljamakse või tagasimakse kaudu     |
 
 ### Kuidas saata
 

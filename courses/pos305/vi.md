@@ -726,14 +726,15 @@ Máy chủ BTCPay bao gồm các tính năng Wallet tiêu chuẩn sau:
 Quản trị viên có thể xem các giao dịch đến và đi của On-Chain và Wallet được kết nối với cửa hàng cụ thể này trong chế độ xem giao dịch. Mỗi giao dịch có sự phân biệt giữa số tiền đã nhận và đã gửi. Giao dịch đã nhận sẽ là Green, và giao dịch đã gửi sẽ có màu đỏ. Trong chế độ xem giao dịch của Máy chủ BTCPay, quản trị viên cũng sẽ thấy một bộ nhãn tiêu chuẩn.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Loại giao dịch | Mô tả                                             |
+| -------------- | ------------------------------------------------- |
+| Ứng dụng        | Thanh toán được nhận thông qua hóa đơn do ứng dụng tạo |
+| Hóa đơn         | Thanh toán được nhận thông qua hóa đơn            |
+| Payjoin         | Chưa thanh toán, bộ đếm thời gian hóa đơn vẫn chưa hết hạn |
+| Payjoin-bị lộ   | UTXO bị lộ thông qua đề xuất payjoin trong hóa đơn |
+| Yêu cầu thanh toán | Thanh toán được nhận thông qua yêu cầu thanh toán |
+| Thanh toán      | Thanh toán được gửi thông qua thanh toán hoặc hoàn tiền |
 
 ### Cách gửi
 

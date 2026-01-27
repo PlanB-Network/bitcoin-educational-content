@@ -731,14 +731,15 @@ Address ได้มาจาก Public key ผ่าน “hashing algorithm”
 ผู้ดูแลระบบสามารถดูธุรกรรมที่เข้ามาและออกไปสำหรับ on-chain wallet ที่เชื่อมต่อกับร้านค้านี้ในมุมมองธุรกรรม แต่ละธุรกรรมจะมีความแตกต่างระหว่างจำนวนที่ได้รับและจำนวนที่ส่งออก จำนวนที่ได้รับจะเป็นสีเขียว และธุรกรรมที่ออกไปจะเป็นสีแดง ภายในมุมมองธุรกรรมของ BTCPay Server ผู้ดูแลระบบจะเห็นชุดของป้ายกำกับมาตรฐานด้วย
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| ประเภทธุรกรรม | คำอธิบาย                                         |
+| --------------- | ------------------------------------------------ |
+| แอป              | ได้รับการชำระเงินผ่านใบแจ้งหนี้ที่สร้างโดยแอป    |
+| ใบแจ้งหนี้       | ได้รับการชำระเงินผ่านใบแจ้งหนี้                 |
+| Payjoin          | ยังไม่ได้ชำระเงิน ตัวจับเวลาของใบแจ้งหนี้ยังไม่หมดอายุ |
+| Payjoin-เปิดเผย | UTXO ถูกเปิดเผยผ่านข้อเสนอ Payjoin ในใบแจ้งหนี้ |
+| คำขอชำระเงิน    | ได้รับการชำระเงินผ่านคำขอชำระเงิน               |
+| การจ่ายเงิน      | การชำระเงินถูกส่งผ่านการจ่ายเงินหรือการคืนเงิน |
 
 ### วิธีการส่ง
 

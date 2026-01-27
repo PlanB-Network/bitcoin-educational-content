@@ -509,14 +509,15 @@ BTCPay Server comprende le seguenti funzionalità standard del wallet:
 
 Gli amministratori, nella vista delle transazioni, possono vedere le transazioni in entrata e in uscita del wallet on-chain collegato a questo specifico negozio. Ogni transazione ha una distinzione tra ricevute e invite, quelle ricevute saranno verdi e le altre saranno rosse. All'interno della vista delle transazioni di BTCPay Server, gli amministratori vedranno anche un insieme di etichette standard.
 
-| Tipo di Transazione | Descrizione                                                           |
-| ------------------- | --------------------------------------------------------------------- |
-| App                 | Il pagamento è stato ricevuto tramite un'invoice creata dall'app      |
-| invoice             | Il pagamento è stato ricevuto tramite un'invoice                      |
-| payjoin             | Non pagato, il timer dell'invoice non è ancora scaduto                |
-| payjoin-exposed     | Un UTXO è stato esposto tramite una proposta di payjoin dell'invoice  |
-| payment-request     | Il pagamento è stato ricevuto tramite una richiesta di pagamento      |
-| payout              | Il pagamento è stato inviato tramite un pagamento o un rimborso       |
+
+| Tipo di transazione | Descrizione                                     |
+| -------------------- | ----------------------------------------------- |
+| App                  | Il pagamento è stato ricevuto tramite una fattura creata da un'app |
+| Fattura              | Il pagamento è stato ricevuto tramite una fattura |
+| Payjoin              | Non pagato, il timer della fattura non è ancora scaduto |
+| Payjoin-esposto      | L'UTXO è stato esposto tramite una proposta payjoin nella fattura |
+| Richiesta di pagamento | Il pagamento è stato ricevuto tramite una richiesta di pagamento |
+| Pagamento             | Il pagamento è stato inviato tramite un pagamento o un rimborso |
 
 ### Come Inviare
 

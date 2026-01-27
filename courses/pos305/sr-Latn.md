@@ -724,14 +724,15 @@ BTCPay Server se sastoji od sledećih standardnih funkcija novčanika:
 Administratori mogu videti dolazne i odlazne transakcije za On-Chain novčanik povezane sa ovom specifičnom prodavnicom u prikazu transakcija. Svaka transakcija ima razliku između primljenih i poslatih iznosa. Primljene će biti označene zelenom bojom, a odlazne transakcije će biti crvene. U okviru prikaza transakcija na BTCPay Server-u, administratori će takođe videti skup standardnih oznaka.
 
 
-| Tip transakcije  | Opis                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Uplata je primljena putem fakture kreirane u aplikaciji |
-| invoice          | Uplata je primljena putem fakture                    |
-| payjoin          | Plaćanje još nije obavljeno – vreme za uplatu još uvek traje        |
-| payjoin-exposed  | UTXO je otkriven putem Payjoin predloga u fakturi |
-| payment-request  | Uplata je primljena putem zahteva za plaćanje       |
-| payout           | Isplata je izvršena putem isplate ili povraćaja novca          |
+
+| Tip transakcije | Opis                                             |
+| ---------------- | ------------------------------------------------ |
+| Aplikacija       | Plaćanje je primljeno putem fakture kreirane od strane aplikacije |
+| Faktura          | Plaćanje je primljeno putem fakture              |
+| Payjoin          | Nije plaćeno, tajmer fakture još uvek nije istekao |
+| Payjoin-otkriven | UTXO je otkriven putem payjoin predloga u fakturi |
+| Zahtev za plaćanje | Plaćanje je primljeno putem zahteva za plaćanje |
+| Isplata          | Plaćanje je poslato putem isplate ili povraćaja  |
 
 ### Kako poslati
 

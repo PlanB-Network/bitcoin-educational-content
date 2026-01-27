@@ -727,14 +727,15 @@ BTCPay Server består av følgende standard Wallet-funksjoner:
 Administratorer kan se innkommende og utgående transaksjoner for On-Chain Wallet som er koblet til denne spesifikke butikken i transaksjonsvisningen. Hver transaksjon har et skille mellom mottatte og sendte beløp. Mottatte vil være Green, og utgående transaksjoner vil være røde. I BTCPay Server-transaksjonsvisningen vil administratorer også se et sett med standardetiketter.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Transaksjonstype | Beskrivelse                                      |
+| ----------------- | ------------------------------------------------ |
+| App               | Betaling ble mottatt via en app-opprettet faktura |
+| Faktura           | Betaling ble mottatt via en faktura               |
+| Payjoin           | Ikke betalt, fakturatimeren har ennå ikke utløpt  |
+| Payjoin-eksponert | UTXO ble eksponert via et payjoin-forslag i en faktura |
+| Betalingsforespørsel | Betaling ble mottatt via en betalingsforespørsel |
+| Utbetaling        | Betaling ble sendt via en utbetaling eller refusjon |
 
 ### Hvordan sende
 

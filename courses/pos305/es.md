@@ -727,14 +727,15 @@ BTCPay Server consta de las siguientes características estándar de Wallet:
 Los administradores pueden ver las transacciones entrantes y salientes de los On-Chain Wallet conectados a este almacén específico en la vista de transacciones. Cada transacción tiene una distinción entre las cantidades recibidas y enviadas. Recibido será Green, y las transacciones salientes serán de color rojo. Dentro de la vista de transacciones del servidor BTCPay, los administradores también verán un conjunto de etiquetas estándar.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Tipo de transacción | Descripción                                      |
+| ------------------- | ------------------------------------------------- |
+| App                 | El pago se recibió a través de una factura creada por una aplicación |
+| Factura             | El pago se recibió a través de una factura        |
+| Payjoin             | No pagado, el temporizador de la factura aún no ha expirado |
+| Payjoin-expuesto    | El UTXO fue expuesto a través de una propuesta de payjoin en una factura |
+| Solicitud de pago   | El pago se recibió a través de una solicitud de pago |
+| Pago                | El pago se envió a través de un pago o un reembolso |
 
 ### Cómo enviar
 

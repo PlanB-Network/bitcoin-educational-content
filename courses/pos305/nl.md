@@ -727,14 +727,15 @@ BTCPay Server bestaat uit de volgende standaard Wallet functies:
 Beheerders kunnen de inkomende en uitgaande transacties voor de On-Chain Wallet die verbonden zijn met deze specifieke winkel zien in het transacties overzicht. Elke transactie heeft een onderscheid tussen de ontvangen en verzonden bedragen. Ontvangen is Green en uitgaande transacties zijn rood. In het BTCPay Server transactieweergave, zullen beheerders ook een set standaard labels zien.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Transactietype | Beschrijving                                      |
+| --------------- | ------------------------------------------------- |
+| App              | Betaling is ontvangen via een door een app aangemaakte factuur |
+| Factuur          | Betaling is ontvangen via een factuur             |
+| Payjoin          | Niet betaald, de factuurtimer is nog niet verlopen |
+| Payjoin-blootgesteld | UTXO is blootgesteld via een payjoin-voorstel in een factuur |
+| Betalingsverzoek | Betaling is ontvangen via een betalingsverzoek    |
+| Uitbetaling      | Betaling is verzonden via een uitbetaling of terugbetaling |
 
 ### Hoe verzenden
 

@@ -727,14 +727,15 @@ BTCPay 서버는 다음과 같은 표준 Wallet 기능으로 구성됩니다:
 관리자는 트랜잭션 보기에서 이 특정 스토어에 연결된 On-Chain Wallet의 수신 및 발신 트랜잭션을 확인할 수 있습니다. 각 거래에는 수신 금액과 발신 금액이 구분되어 있습니다. 수신된 트랜잭션은 Green, 발신 트랜잭션은 빨간색으로 표시됩니다. BTCPay 서버 거래 보기에서 관리자는 일련의 표준 레이블도 볼 수 있습니다.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| 거래 유형 | 설명                                               |
+| --------- | -------------------------------------------------- |
+| 앱        | 앱에서 생성된 인보이스를 통해 결제가 수신되었습니다 |
+| 인보이스  | 인보이스를 통해 결제가 수신되었습니다              |
+| Payjoin   | 미결제, 인보이스 타이머가 아직 만료되지 않았습니다 |
+| Payjoin-노출 | 인보이스 Payjoin 제안을 통해 UTXO가 노출되었습니다 |
+| 결제 요청 | 결제 요청을 통해 결제가 수신되었습니다            |
+| 지급      | 지급 또는 환불을 통해 결제가 전송되었습니다        |
 
 ### 보내는 방법
 

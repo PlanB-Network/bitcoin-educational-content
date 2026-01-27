@@ -727,14 +727,15 @@ BTCPay 服务器包含以下标准 Wallet 功能：
 管理员可在交易视图中查看与该特定存储连接的 On-Chain Wallet 的收发交易。每笔交易都有收到和发出金额的区别。收到的交易金额为 Green，发出的交易金额为红色。在 BTCPay 服务器交易视图中，管理员还将看到一组标准标签。
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| 交易类型 | 描述                                               |
+| -------- | -------------------------------------------------- |
+| 应用     | 通过应用创建的发票收到付款                        |
+| 发票     | 通过发票收到付款                                  |
+| Payjoin  | 未付款，发票计时器尚未过期                        |
+| Payjoin-暴露 | 通过发票中的 Payjoin 提案暴露了 UTXO          |
+| 支付请求 | 通过支付请求收到付款                              |
+| 支付     | 通过付款或退款发送了付款                          |
 
 ### 如何发送
 

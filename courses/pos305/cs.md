@@ -727,14 +727,15 @@ BTCPay Server obsahuje následující standardní funkce Wallet:
 Správci mohou v zobrazení transakcí zobrazit příchozí a odchozí transakce pro On-Chain Wallet připojené k tomuto konkrétnímu úložišti. U každé transakce jsou rozlišeny přijaté a odeslané částky. Přijaté budou mít barvu Green a odeslané transakce budou mít červenou barvu. V rámci zobrazení transakcí serveru BTCPay uvidí správci také sadu standardních štítků.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Typ transakce | Popis                                                |
+| -------------- | ---------------------------------------------------- |
+| Aplikace       | Platba byla přijata prostřednictvím faktury vytvořené aplikací |
+| Faktura        | Platba byla přijata prostřednictvím faktury          |
+| Payjoin        | Nezaplaceno, časovač faktury dosud nevypršel         |
+| Payjoin-odhalen| UTXO bylo odhaleno prostřednictvím návrhu payjoin ve faktuře |
+| Žádost o platbu| Platba byla přijata prostřednictvím žádosti o platbu |
+| Výplata        | Platba byla odeslána prostřednictvím výplaty nebo vrácení peněz |
 
 ### Jak odeslat
 

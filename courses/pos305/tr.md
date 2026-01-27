@@ -727,14 +727,15 @@ BTCPay Sunucusu aşağıdaki standart Wallet özelliklerinden oluşur:
 Yöneticiler, işlemler görünümünde bu belirli mağazaya bağlı On-Chain Wallet için gelen ve giden işlemleri görebilir. Her işlemde alınan ve gönderilen tutarlar arasında bir ayrım vardır. Alınan Green ve giden işlemler kırmızı olacaktır. BTCPay Server işlem görünümünde, yöneticiler bir dizi standart etiket de göreceklerdir.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| İşlem Türü | Açıklama                                           |
+| ----------- | -------------------------------------------------- |
+| Uygulama    | Ödeme, uygulama tarafından oluşturulan bir fatura aracılığıyla alındı |
+| Fatura      | Ödeme bir fatura aracılığıyla alındı               |
+| Payjoin     | Ödenmedi, fatura zamanlayıcısı henüz dolmadı       |
+| Payjoin-açığa çıkarıldı | UTXO, faturadaki bir payjoin teklifi aracılığıyla açığa çıkarıldı |
+| Ödeme talebi | Ödeme bir ödeme talebi aracılığıyla alındı        |
+| Ödeme       | Ödeme bir ödeme veya iade yoluyla gönderildi      |
 
 ### Nasıl Gönderilir
 

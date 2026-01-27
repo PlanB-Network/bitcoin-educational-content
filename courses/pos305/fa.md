@@ -739,14 +739,15 @@ https://Mainnet.demo.btcpayserver.org/login.
 مدیران می‌توانند تراکنش‌های ورودی و خروجی برای On-Chain Wallet متصل به این فروشگاه خاص را در نمای تراکنش‌ها مشاهده کنند. هر تراکنش تفاوتی بین دریافت شده و ارسال شده دارد. دریافت شده به صورت Green و تراکنش‌های خروجی به رنگ قرمز خواهند بود. در نمای تراکنش BTCPay Server، مدیران همچنین مجموعه‌ای از برچسب‌های استاندارد را مشاهده خواهند کرد.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| نوع تراکنش | توضیحات                                            |
+| ------------ | -------------------------------------------------- |
+| برنامه        | پرداخت از طریق فاکتور ایجادشده توسط برنامه دریافت شد |
+| فاکتور        | پرداخت از طریق فاکتور دریافت شد                   |
+| پی‌جوین       | پرداخت نشده، زمان‌سنج فاکتور هنوز منقضی نشده است |
+| پی‌جوین-افشا  | UTXO از طریق پیشنهاد پی‌جوین در فاکتور افشا شد    |
+| درخواست پرداخت | پرداخت از طریق درخواست پرداخت دریافت شد          |
+| پرداخت        | پرداخت از طریق تسویه یا بازپرداخت ارسال شد       |
 
 ### چگونه ارسال کنیم
 

@@ -512,14 +512,15 @@ BTCPay Server ina vipengele vifuatavyo vya kawaida vya  Wallet:
 
 Wasimamizi wanaweza kuona miamala ya ndani na inayotoka ya  Wallet ya On-Chain iliyounganishwa kwenye duka hili mahususi katika mwonekano wa miamala. Kila muamala una tofauti kati ya kupokewa na kutumwa. Itakayopokelewa itakuwa Kijani na miamala inayotoka itakuwa nyekundu. Ndani ya mwonekano wa muamala wa BTCPay Server, wasimamizi pia wataona seti ya lebo za kawaida.
 
-| Aina ya Muamala | Maelezo                                                     |
-| --------------- | ----------------------------------------------------------- |
-| Programu        | Malipo yalipokelewa kupitia invoice iliyotengenezwa na programu |
-| invoice          | Malipo yalipokelewa kupitia invoice                          |
-| payjoin         | Haijalipwa, kipima muda cha invoice bado halijamalizika      |
-| payjoin-exposed | UTXO ilifunuliwa kupitia pendekezo la payjoin la invoice     |
-| ombi-la-malipo  | Malipo yalipokelewa kupitia ombi la malipo                  |
-| malipo-nje      | Malipo yalitumwa kupitia malipo-nje au marejesho            |
+
+| Aina ya Muamala | Maelezo                                          |
+| ---------------- | ------------------------------------------------ |
+| Programu         | Malipo yalipokelewa kupitia ankara iliyoundwa na programu |
+| Ankara           | Malipo yalipokelewa kupitia ankara               |
+| Payjoin          | Haijalipwa, kipima muda cha ankara bado hakijaisha |
+| Payjoin-imefunuliwa | UTXO ilifunuliwa kupitia pendekezo la payjoin kwenye ankara |
+| Ombi la malipo   | Malipo yalipokelewa kupitia ombi la malipo       |
+| Malipo           | Malipo yalitumwa kupitia malipo au kurejeshewa   |
 
 ### Jinsi ya Kutuma
 

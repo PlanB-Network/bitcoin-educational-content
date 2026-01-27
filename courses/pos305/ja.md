@@ -727,14 +727,15 @@ BTCPayサーバーは、以下のWallet標準機能で構成されています�
 管理者は、トランザクションビューで、この特定のストアに接続されている On-Chain Wallet の送受信トランザクションを確認できます。各トランザクションには、受信金額と送信金額の区別があります。受信トランザクションは Green となり、送信トランザクションは赤色となります。BTCPay サーバーのトランザクション・ビューでは、管理者は標準ラベルのセットも見ることができます。
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| 取引タイプ | 説明                                               |
+| ------------ | -------------------------------------------------- |
+| アプリ        | アプリで作成された請求書を通じて支払いが受領されました |
+| 請求書        | 請求書を通じて支払いが受領されました               |
+| Payjoin       | 未払い、請求書のタイマーはまだ期限切れではありません |
+| Payjoin公開   | 請求書のPayjoin提案を通じてUTXOが公開されました    |
+| 支払いリクエスト | 支払いリクエストを通じて支払いが受領されました |
+| 支払い        | 支払いまたは返金を通じて支払いが送信されました     |
 
 ### 送信方法
 

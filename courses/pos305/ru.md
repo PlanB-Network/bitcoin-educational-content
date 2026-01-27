@@ -727,14 +727,15 @@ BTCPay Server включает в себя следующие стандартн
 Администраторы могут видеть входящие и исходящие транзакции для On-Chain Wallet, подключенных к данному конкретному магазину, в представлении транзакций. Каждая транзакция имеет различие между полученными и отправленными суммами. Полученные суммы будут обозначаться Green, а исходящие транзакции - красным цветом. В представлении транзакций BTCPay Server администраторы также увидят набор стандартных меток.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Тип транзакции | Описание                                         |
+| --------------- | ------------------------------------------------ |
+| Приложение      | Платёж был получен через счёт, созданный приложением |
+| Счёт            | Платёж был получен через счёт                    |
+| Payjoin         | Не оплачено, таймер счёта ещё не истёк           |
+| Payjoin-раскрыт | UTXO был раскрыт через предложение payjoin в счёте |
+| Запрос платежа  | Платёж был получен через запрос платежа          |
+| Выплата         | Платёж был отправлен через выплату или возврат   |
 
 ### Как отправить
 

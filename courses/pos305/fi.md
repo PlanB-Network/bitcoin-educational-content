@@ -727,14 +727,15 @@ BTCPay Server sisältää seuraavat Wallet:n vakio-ominaisuudet:
 Järjestelmänvalvojat näkevät tapahtumanäkymässä kyseiseen varastoon liitettyjen On-Chain Wallet:n saapuvat ja lähtevät tapahtumat. Jokaisessa tapahtumassa on eroteltu vastaanotetut ja lähetetyt summat. Vastaanotetut tapahtumat ovat Green, ja lähtevät tapahtumat ovat punaisia. BTCPay-palvelimen tapahtumanäkymässä ylläpitäjät näkevät myös joukon vakiotarroja.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Tapahtumatyyppi | Kuvaus                                           |
+| ---------------- | ------------------------------------------------- |
+| Sovellus         | Maksu vastaanotettiin sovelluksen luoman laskun kautta |
+| Lasku            | Maksu vastaanotettiin laskun kautta               |
+| Payjoin          | Ei maksettu, laskun ajastin ei ole vielä umpeutunut |
+| Payjoin-paljastettu | UTXO paljastettiin laskun payjoin-ehdotuksen kautta |
+| Maksupyyntö      | Maksu vastaanotettiin maksupyynnön kautta         |
+| Maksu            | Maksu lähetettiin maksun tai hyvityksen kautta    |
 
 ### Kuinka lähettää
 

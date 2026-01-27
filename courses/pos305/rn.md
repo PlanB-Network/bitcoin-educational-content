@@ -727,14 +727,15 @@ BTCPay Server igizwe n'ibi bikurikira bimenyerewe Wallet:
 Abarongozi barashobora kubona amafaranga yinjira n’asohoka ya On-Chain Wallet ihuye n’iri duka ryihariye mu mbonerahamwe y’amafaranga. Igicuruzwa cose gifise itandukaniro hagati y’amahera yakiriwe n’ayoherejwe. Ivyo bizokwakirwa ni Green, kandi amahera azosohoka azoba ari umutuku. Mu mbonerahamwe y'ibikorwa vya BTCPay Server, abarongozi bazobona kandi urutonde rw'ibimenyetso bimenyerewe.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Ubwoko bw'ikorwa | Insobanuro                                      |
+| ----------------- | ----------------------------------------------- |
+| Porogaramu        | Ubwishyu bwakiriwe binyuze kuri fagitire yakozwe na porogaramu |
+| Fagitire          | Ubwishyu bwakiriwe binyuze kuri fagitire         |
+| Payjoin           | Ntabwo yishyuwe, igihe ntarengwa cya fagitire ntikirarangira |
+| Payjoin-yagaragajwe | UTXO yagaragajwe binyuze mu gitekerezo cya payjoin muri fagitire |
+| Gusaba kwishyura  | Ubwishyu bwakiriwe binyuze mu gusaba kwishyura  |
+| Kwishyura         | Ubwishyu bwoherejwe binyuze mu kwishyura cyangwa gusubizwa |
 
 ### Uko worungika
 

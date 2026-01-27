@@ -265,20 +265,22 @@ Kies **GPT** als je in UEFI zit, **DOS** als je in BIOS zit.
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Koppelingspunt op het geïnstalleerde systeem | Partitie                 | Partitietype       | Aanbevolen grootte |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI-systeempartitie   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Wisselgeheugen (swap) | Minstens 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 root (/) | Rest van schijf |
 
 - In BIOS
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Koppelingspunt op het geïnstalleerde systeem | Partitie           | Partitietype       | Aanbevolen grootte |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Wisselgeheugen (swap) | Minstens 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Rest van schijf |
 
 ![0_10](assets/fr/10.webp)
 

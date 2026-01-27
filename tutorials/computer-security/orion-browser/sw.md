@@ -522,15 +522,16 @@ Ili kuweka Orion haraka na ya faragha:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Kigezo | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Telemetry** | Hakuna | Kidogo | Kubwa | Ya kawaida | Kidogo |
+| **Kizuizi cha asili** | 99.9% inayofanya kazi | Msingi | Hamna | Sehemu | Kamili |
+| **Matangazo** | Chrome + Firefox | Ndogo | Chrome tu | Firefox tu | Chrome tu |
+| **Utendaji wa Mac** | Kamili | Kamili | Nzuri | Kawaida | Nzuri |
+| **Matumizi ya RAM** | Chini sana | Chini | Juu | Kawaida | Kawaida |
+| **Chanzo Huria** | Sehemu | Sehemu (WebKit) | Sehemu | Kamili | Kamili |
+| **Majukwaa** | Mac/iOS | Mac/iOS | Yote | Yote | Yote |
 
 **Dhidi ya Safari**: Orion inatoa ulinzi wa hali ya juu kwa kutumia block yake ya hali ya juu na usaidizi wa kiendelezi, huku ikidumisha utendakazi wa WebKit.
 

@@ -212,13 +212,14 @@ Muista käynnistää ohjelmisto uudelleen näiden muutosten tekemisen jälkeen.
 
 Siirry sitten portfolionhallintaohjelmistoon (esim. Sparrow Wallet tai Liana) ja syötä polku evästetiedostoon, joka sijaitsee yleensä samassa kansiossa kuin `Bitcoin.conf`, käyttöjärjestelmästäsi riippuen:
 
-|**macOS**|~/Library/Application Support/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -236,13 +237,14 @@ server=1
 
 Kun olet muokannut tiedostoa, varmista, että tallennat sen käyttöjärjestelmääsi sopivaan kansioon:
 
-|**macOS**|~/Library/Application Support/Bitcoin||
 
+
+
+
+|**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Tämä toiminto voidaan suorittaa myös Bitcoin-QT:n Interface-grafiikan avulla. Siirry "*Settings*"-valikkoon, sitten "*Options...*" ja aktivoi "*Enable RPC server*"-vaihtoehto merkitsemällä vastaava ruutu. Jos `Bitcoin.conf`-tiedostoa ei ole olemassa, voit luoda sen suoraan tästä Interface:stä klikkaamalla "*Open Configuration File*".
 

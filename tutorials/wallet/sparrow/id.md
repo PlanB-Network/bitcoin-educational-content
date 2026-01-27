@@ -100,13 +100,12 @@ Jangan lupa untuk memulai ulang perangkat lunak setelah melakukan perubahan ini.
 Setelah itu, balik lagi ke Sparrow Wallet dan masukin jalur (path) ke file cookie kamu.
 File ini biasanya ada di folder yang sama dengan bitcoin.conf, tapi letaknya bisa beda-beda tergantung sistem operasi yang kamu pakai:
 
-| **macOS** | ~/Perpustakaan/Dukungan Aplikasi/Bitcoin |
 
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin |
 
 ![Image](assets/fr/09.webp)
 
@@ -131,13 +130,10 @@ server=1
 
 Setelah mengedit file, pastikan Anda menyimpannya dalam folder yang sesuai untuk sistem operasi Anda:
 
-| **macOS** | ~/Perpustakaan/Dukungan Aplikasi/Bitcoin |
-
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Kamu juga bisa ngelakuin ini lewat tampilan antarmuka Bitcoin Core (Bitcoin-QT).
 Cukup buka menu "Settings", lalu pilih "Options...", dan centang kotak "Enable RPC server".

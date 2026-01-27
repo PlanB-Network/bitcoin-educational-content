@@ -542,13 +542,14 @@ Joinstr kwa sasa inazalisha vikundi vya washiriki 2 hadi 5 ** kwa wastani. Takwi
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| Kengezaji | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **Washiriki kwa kila deb** | 50-100 | 5-10 | Inayobadilika (P2P) | **2-5** |
+| **Mtaalam wa uratibu** | Inayoongezwa katikati (iliyofungwa 2024) | Inayoongezwa katikati (inayofanya) | P2P maker/taker | **Hakuna (Nostr)** |
+| **Upinzani wa ufadhaili** | Dhaifu | Wastani | Juu sana | **Juu sana** |
+| **Ada za uratibu** | Asilimia | Ada ya kuingia | Inayolipwa kwa waundaji | **Hakuna** |
+| **UTXO Ubaguzi** | Ndiyo (madawati meusi) | Hapana | Hapana | **Hapana** |
 
 💡 **Suluhisho zingine zinazotumika za CoinJoin** :
 

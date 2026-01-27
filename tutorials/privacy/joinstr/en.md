@@ -415,13 +415,14 @@ Joinstr currently generates pools of **2 to 5 participants** on average. These f
 ### Joinstr vs. other CoinJoins
 
 
+
 | Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinator** | Centralized (up to 2024) | Centralized (active) | P2P maker/taker | **None (Nostr)** |
-| **Resistance to censorship** | Low | Medium | Very high | **Very high** |
-| **Coordination fees** | Percentage | Entrance fee | Paid by makers | **None** |
-| **UTXO Discrimination** | Yes (blacklists) | No | No | **No** |
+| **Participants per pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
+| **Coordinator** | Centralized (closed 2024) | Centralized (active) | P2P maker/taker | **None (Nostr)** |
+| **Censorship resistance** | Weak | Medium | Very high | **Very high** |
+| **Coordination fees** | Percentage | Entry fee | Paid to makers | **None** |
+| **UTXO discrimination** | Yes (blacklists) | No | No | **No** |
 
 💡 **Other active CoinJoin solutions** :
 

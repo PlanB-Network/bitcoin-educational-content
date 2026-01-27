@@ -415,7 +415,7 @@ Der große Vorteil dieses Ansatzes im Vergleich zu einem konventionellen Lightni
 
 
 
-Die meisten Portfolios, die diese Art von Funktionalität anbieten, stützen sich auf [Boltz] (https://boltz.exchange/) für den technischen Teil des Swaps.
+Die meisten Portfolios, die diese Art von Funktionalität anbieten, stützen sich auf [Boltz](https://boltz.exchange/) für den technischen Teil des Swaps.
 
 
 
@@ -998,7 +998,7 @@ Hier finden Sie die Anmeldedaten:
 023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@34.216.52.158:9911
 ```
 
-Als Dankeschön für die Bereitstellung dieses kostenlosen Wachtturm-Dienstes [können Sie über Lightning eine Spende tätigen] (https://lightningnetwork.plus/donation).
+Als Dankeschön für die Bereitstellung dieses kostenlosen Wachtturm-Dienstes [können Sie über Lightning eine Spende tätigen](https://lightningnetwork.plus/donation).
 
 
 Da wir nun einen altruistischen Wachturmdienst verwenden, wollen wir sehen, wie wir ihn auf unserem LND-Knoten unter Umbrel konfigurieren.
@@ -1165,7 +1165,7 @@ https://planb.academy/tutorials/node/lightning-network/amboss-37044cad-0f85-41eb
 
 https://planb.academy/tutorials/node/lightning-network/1ml-37ada2ab-7a24-4473-87fd-007cb7640e7b
 
-Hier empfehle ich Ihnen jedoch [das Lightning-Terminal-Tool von Lightning Labs] (https://terminal.lightning.engineering/), das eine (zugegebenermaßen auf teilweise subjektiven Kriterien basierende) Rangliste der Lightning-Knoten erstellt, die für die Eröffnung eines Kanals als besonders relevant erachtet werden.
+Hier empfehle ich Ihnen jedoch [das Lightning-Terminal-Tool von Lightning Labs](https://terminal.lightning.engineering/), das eine (zugegebenermaßen auf teilweise subjektiven Kriterien basierende) Rangliste der Lightning-Knoten erstellt, die für die Eröffnung eines Kanals als besonders relevant erachtet werden.
 
 
 
@@ -1402,9 +1402,9 @@ Zu den bekanntesten Softwareprogrammen gehören:
 
 
 
-- [Alby Hub] (https://albyhub.com/);
-- [Ride The Lightning] (https://www.ridethelightning.info/);
-- [ThunderHub] (https://thunderhub.io/).
+- [Alby Hub](https://albyhub.com/);
+- [Ride The Lightning](https://www.ridethelightning.info/);
+- [ThunderHub](https://thunderhub.io/).
 
 
 
@@ -1581,7 +1581,7 @@ Es gibt viele Möglichkeiten, Inbound-Liquidität zu kaufen. Ich persönlich ver
 
 
 
-Gehen Sie auf [die Magma-Website] (https://magma.amboss.tech/buy), in den Abschnitt "Kanäle kaufen".
+Gehen Sie auf [die Magma-Website](https://magma.amboss.tech/buy), in den Abschnitt "Kanäle kaufen".
 
 
 
@@ -2142,8 +2142,8 @@ Installieren Sie auf Ihrem Smartphone die Anwendung Alby Go:
 
 
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.getalby.mobile);
-- [Apple App Store] (https://apps.apple.com/us/app/alby-go/id6471335774);
-- [Zapstore] (https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq3jhml5fvklgnq9fxpete767txn9zfzqdkc0sxfptmnchfrexje7qqfxxmmd9enk2arpd338jtndda3xjmr9pzj5tk).
+- [Apple App Store](https://apps.apple.com/us/app/alby-go/id6471335774);
+- [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq3jhml5fvklgnq9fxpete767txn9zfzqdkc0sxfptmnchfrexje7qqfxxmmd9enk2arpd338jtndda3xjmr9pzj5tk).
 
 
 

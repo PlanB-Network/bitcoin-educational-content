@@ -255,12 +255,13 @@ be-BOP lar deg ta imot Bitcoin-betalinger direkte på Blockchain (On-Chain), enk
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Felt                  | Beskrivelse                                               | Eksempel å Bruke                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Typen av adressering som brukes                               | BIP84 (for adresser i bech32-format som begynner med `bc1`) |
+| **Utvidet Offentlig Nøkkel** | Din Zpub (eller Xpub avhengig av brukt lommebok)        | `zpub...` (hentet fra din Bitcoin-lommebok) |
+| **Derivation Index**   | Startindeksen for adressegenerering         | `1`                                              |
+| **Mempool URL**        | URL-en til mempool-tjenesten som brukes til å spore transaksjoner | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -849,12 +850,13 @@ Denne delen bestemmer **hvor** og **hvordan** produktet kan vises og kjøpes:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Plattform        | Produkt Synlig | Kan Legges til Kurv |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (offentlig nettsted)        | ✔️              | ✔️                  |
+| Retail POS (salgssted)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (salg via bot)  | ✔️              | ✔️                  |
 
 Kryss bare av for de kanalene du ønsker å bruke.
 
@@ -1024,14 +1026,15 @@ Bruk **kortkoder** i innholdet på CMS-sidene dine:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Mål                 | Tag å Sette Inn                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Vise et produkt      | `[Product=slug?display=img-1]`        |
+| Vise et bilde       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integrere en glidebryter       | `[Slider=slug?autoplay=3000]`         |
+| Legge til en utfordring     | `[Challenge=slug]`                    |
+| Legge til en nedtelling | `[Countdown=slug]`                 |
+| Integrere et skjema   | `[Form=slug]`                         |
 
 **Gjeldende parametere**:
 
@@ -1813,14 +1816,15 @@ Plakat:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funksjon                         | Beskrivelse                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS-rolle                         | Tilordnet via ARM                                         |
+| Hovedgrensesnitt             | `/pos` eller `/pos/touch`                                 |
+| Kundedisplay (skjerm 2)       | `/pos/session`                                         |
+| Betaling                         | Kontanter, kort, Lightning osv.                         |
+| Produkttillegg                    | Alias eller strekkodeskanning                              |
+| Rabatter / mva                    | Med obligatorisk ledelsesmessig begrunnelse              |
 
 Takk for at du følger denne veiledningen nøye.

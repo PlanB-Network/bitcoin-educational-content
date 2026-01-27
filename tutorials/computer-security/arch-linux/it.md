@@ -143,18 +143,24 @@ Scegli **GPT** se sei in UEFI, **DOS** se sei in BIOS.
 
 - In modalità **UEFI**
 
-| Punto di montaggio sul sistema installato | Partizione                | Tipo di partizione       | Dimensioni suggerite |
-| ----------------------------------------- | ------------------------- | :----------------------: | :------------------: |
-| /boot1                                    | /dev/efi_system_partition | Partizione sistema EFI   | 1 GB                 |
-| [SWAP]                                    | /dev/swap_partition       | Spazio di scambio (swap) | Almeno 4 GB          |
-| /                                         | /dev/root_partition       | Radice Linux x86-64 (/)  | Resto del disco      |
+
+
+
+| Punto di montaggio nel sistema installato | Partizione                 | Tipo di partizione       | Dimensione suggerita |
+| ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
+| /boot1                                   | /dev/efi_system_partition | Partizione di sistema EFI   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Spazio di scambio (swap) | Almeno 4 GB   |
+| /                                        | /dev/root_partition       | Radice Linux x86-64 (/) | Resto del disco |
 
 - Nel BIOS
 
-| Punto di montaggio sul sistema installato | Partizione                | Tipo di partizione       | Dimensioni suggerite |
-| ----------------------------------------- | ------------------------- | :----------------------: | :------------------: |
-| [SWAP]                                    | /dev/swap_partition       | Spazio di scambio (swap) | Almeno 4 GB          |
-| /                                         | /dev/root_partition       | Linux                    | Resto del disco      |
+
+
+
+| Punto di montaggio nel sistema installato | Partizione           | Tipo di partizione       | Dimensione suggerita |
+| ---------------------------------------- | ------------------- | ----------------------- | --------------- |
+| [SWAP]                                   | /dev/swap_partition | Spazio di scambio (swap) | Almeno 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Resto del disco |
 
 ![0_10](assets/fr/10.webp)
 

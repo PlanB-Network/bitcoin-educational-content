@@ -304,18 +304,19 @@ Prvo polje u zaglavlju naziva se verzija. Ova 4-bitna vrednost određuje koju ve
 
 
 
-| Broj verzije   | Protokol   | Opis verzije                | Reference               |
+
+| Broj verzije | Protokol | Opis verzije | Referenca |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Rezervisano| Rezervisano                 |                         |
-| 2–3            | Nedodeljeno| Nedodeljeno                 |                         |
-| 4              | IP         | Internet protokol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol verzija 6 | RFC 8200                |
-| 7              | TP/IX      | Internet budućnosti         | RFC 1475                |
-| 8              | PIP        | P Internet protokol         | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Nedodeljeno                 |                         |
-| 15             | Rezervisano| Rezervisano                 |                         |
+| 0–1 | Rezervisano | Rezervisano | |
+| 2–3 | Nedodeljeno | Nedodeljeno | |
+| 4 | IP | Internet protokol | RFC 791 |
+| **5** | **ST** | **ST režim datagrama** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internet protokol verzija 6 | RFC 8200 |
+| 7 | TP/IX | Sledeći internet | RFC 1475 |
+| 8 | PIP | P internet protokol | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Nedodeljeno | Nedodeljeno | |
+| 15 | Rezervisano | Rezervisano | |
 
 Među njima je IPv5, koji, iako uglavnom nepoznat javnosti, jeste postojao kao ST (_Stream Protocol_). Razvijen 1980-ih, IPv5 je bio dizajniran da reši rastuću potrebu tog vremena: pružanje "_Quality of Service_" (QoS) za određene tokove podataka koji su zahtevali kontinuirani, stabilni prenos, kao što su glas preko IP (engl. Voice over IP) ili multimedijalni tokovi. Njegov cilj je bio da garantuje propusni opseg i prioritet od kraja do kraja, koncept sličan onome što RSVP (_Resource Reservation Protocol_) danas nudi za dinamičko rezervisanje mrežnih resursa na modernim ruterima.
 
@@ -483,14 +484,15 @@ Istorijski gledano, IPv4 sistem se oslanjao na šemu zasnovanu na klasama, ozna�
 
 
 
-| **Class** | **IPv4 opseg adresa **            | **Upotreba**                 |
+
+| **Klasa** | **Opseg IPv4 adresa**            | **Namena**                  |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast adrese               |
-|           | (127.x.x.x rezervisana za loopback)| Lokalna petlja (engl. local loopback)|
-| B         | 128.0.x.x to 191.255.x.x          | Unicast adrese               |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast adrese               |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Rezervisano za eksperimentisanje |
+| A         | 1.x.x.x do 126.x.x.x              | Unicast adrese               |
+|           | (127.x.x.x rezervisano za loopback)| Lokalni loopback          |
+| B         | 128.0.x.x do 191.255.x.x          | Unicast adrese               |
+| C         | 192.0.0.x do 223.255.255.x        | Unicast adrese               |
+| D         | 224.0.0.0 do 239.255.255.255      | IP Multicast                 |
+| E         | 240.0.0.0 do 255.255.255.255      | Rezervisano za eksperimentisanje |
 
 Nije moguće dodeliti sve moguće vrednosti hostovima. Na primer, u **klasi C** adresa, poslednji bajt nudi 8 bita (256 vrednosti). Ali dve od njih su rezervisane:
 
@@ -571,13 +573,14 @@ Mreža **klase C**: 192.168.1.0/24 sa podrazumevanom maskom 255.255.255.0.
 
 
 
-| Subnet ID (bits) | Subnet adresa    | Subnet maska    | Opseg adresa                  | Broadcast adresa  |
+
+
+| ID podmreže (bitovi) | Adresa podmreže | Maska podmreže | Opseg adresa              | Broadcast adresa |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Korak 5**: Ovo kreira četiri podmreže, od kojih svaka podržava do 62 mašine, dok se celokupna šema adresiranja održava efikasnom. Deo _hostid_ je podeljen na deo _subnetid_ i deo za host.
 
@@ -621,7 +624,9 @@ Blok A /17 sadrži 2^(32-17) adresa, tako da 2^15 = 32,768 ukupnih adresa. Oduzi
 Da bi CIDR veličine bile lakše za razumevanje, evo tabele uobičajenih prefiksa i njihovih ekvivalentnih maski podmreže i upotrebljivih adresa:
 
 
-| CIDR prefiks | Raspoloživi bitovi za hostove | Subnet maska     | Broj upotrebljivih adresa za hostove         |
+
+
+| CIDR prefiks | Dostupni host bitovi | Maska podmreže | Upotrebljive host adrese |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -633,9 +638,8 @@ Da bi CIDR veličine bile lakše za razumevanje, evo tabele uobičajenih prefiks
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (samo point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (samo host adresa)         |
 
 **NAPOMENA**: Istorijski gledano, RFC 950 je obeshrabrivao korišćenje subnet nule, uglavnom da bi se izbegla konfuzija u rutiranju. Ovo ograničenje je postalo zastarelo sa RFC 1878, koji u potpunosti dozvoljava njegovo korišćenje. Staro ograničenje je uglavnom bilo zbog nekompatibilnosti sa starijim hardverom koji nije mogao pravilno da rukuje sa CIDR. Moderna oprema nema takav problem.
 
@@ -817,12 +821,13 @@ Slojevita arhitektura prati princip da svaki sloj obrađuje samo informacije unu
 Tabela ispod rezimira termine za TCP i UDP kontekste:
 
 
+
 | TCP/IP sloj          | Naziv jedinice (TCP) | Naziv jedinice (UDP) |
 |----------------------|------------------|------------------|
-| Aplikativni sloj     | Stream           | Message          |
-| Transportni sloj     | Segment          | Packet           |
-| Mrežni sloj          | Datagram         | Datagram         |
-| Sloj pristupa mreži  | Frame            | Frame            |
+| Aplikacioni sloj     | Tok              | Poruka           |
+| Transportni sloj     | Segment          | Paket            |
+| Internet sloj        | Datagram         | Datagram         |
+| Sloj mrežnog pristupa | Okvir           | Okvir            |
 
 ### Servisni primitivi i jedinice podataka
 
@@ -905,7 +910,8 @@ Tabela ispod ilustruje ovu korespondenciju:
 
 
 
-| Binarni kod |Postavljene vrednosti bitova   | Decimalna vrednost |
+
+| Binarni kod | Aktivirane vrednosti bitova   | Decimalna vrednost |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -920,7 +926,8 @@ Tabela ispod ilustruje ovu korespondenciju:
 Da biste konvertovali binarni u decimalni broj, saberite težine bitova koji su postavljeni na 1.
 
 
-| Binarana   | Decimalna vrednost |
+
+| Binarni    | Decimalna vrednost |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -959,13 +966,14 @@ Prvobitno su IPv4 mreže bile podeljene u pet **klasa**: (A, B, C, D i E). Svaka
 
 
 
-| Klasa | Vodeći bitovi| Raspon prvog bajta | Podrazumevana Subnet Maska | Svrha                   |
+
+| Klasa | Vodeći bitovi | Opseg prvog bajta | Podrazumevana maska podmreže | Svrha                         |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
 | A     | 0            | 0 – 127          | 255.0.0.0           | Veoma velike mreže               |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Srednje mreže                    |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Mreže srednje veličine           |
 | C     | 110          | 192 – 223        | 255.255.255.0       | Male mreže                       |
 | D     | 1110         | 224 – 239        | N/A                 | Multicast adrese                 |
-| E     | 1111         | 240 – 255        | N/A                 | Eksperimentalne (nije u javnoj upotrebi) |
+| E     | 1111         | 240 – 255        | N/A                 | Eksperimentalno (ne koristi se javno) |
 
 Specijalne adrese:
 
@@ -1219,7 +1227,8 @@ Tabela rutiranja, kojom se upravlja ili ručno (statičko rutiranje) ili dinami�
 Tabela rutiranja deluje kao tabela mapiranja između ciljnih IP adresa i sledećih prolaza. Obično skladišti identifikatore mreže (_network ID_) umesto svake pojedinačne host adrese, što značajno smanjuje njenu veličinu.
 
 
-| Adresa odredišta    | Adresa sledećeg rutera  | Interfejs |
+
+| Odredišna adresa | Adresa rutera sledećeg skoka | Interfejs |
 | ------------------- | ----------------------- | --------- |
 
 Koristeći ove unose, ruter može brzo odrediti kroz koji interfejs i ka kojem čvoru svaki datagram treba biti poslat. U kombinaciji sa ARP-om za rešavanje odgovarajućih MAC adresa, ovo osigurava efikasan i pouzdan prenos podataka preko mreže.
@@ -1294,10 +1303,11 @@ Ovaj dinamički princip prevođenja oslanja se na precizno upravljanje tabelama:
 _Primer pojednostavljene NAT tabele prevođenja:_
 
 
-| Interna  IP   | Eksterna IP    | Trajanje (sec) | Ponovo upotrebljiv? |
+
+| Interna IP | Eksterna IP | Trajanje (sek) | Ponovno upotrebljivo? |
 | ------------- | -------------- | -------------- | --------- |
 | 10.101.10.20  | 193.48.100.174 | 1,200          | ne        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | da       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | da        |
 | 10.100.0.89   | 193.48.100.46  | 0              | ne        |
 
 U ovom primeru, ako nijedan paket nije prošao kroz drugi unos duže od sat vremena (3.600 sekundi), označava se kao ponovo upotrebljiv. Suprotno tome, trajanje od nula označava aktivnu komunikaciju, sa zaključanim mapiranjem.
@@ -1762,13 +1772,14 @@ Neodređena IPv6 adresa je predstavljena sa `::` ili, preciznije, `::0.0.0.0`. O
 
 
 
-| IPv6 Prefiks adrese | Opis                                        |
+
+| Prefiks IPv6 adrese | Opis                                  |
 | ------------------- | ------------------------------------------- |
-|::/8                 | Rezervisane adrese                          |
-| 2000::/3            | Unikast adrese, rutabilne na internetu      |
-| fc00::/7            | Jedinstvene lokalne adrse (1)               |
-| fe80::/10           | Link-lokalne adrese                         |
-| ff00::/8            | Multikast adrese                            |
+|::/8                | Rezervisane adrese                         |
+| 2000::/3            | Unicast adrese, rutabilne na Internetu     |
+| fc00::/7            | Jedinstvene lokalne adrese (1)             |
+| fe80::/10           | Link-local adrese                          |
+| ff00::/8            | Multicast adrese                           |
 
 (1): *Na privatnoj LAN mreži, prefiks `fd00::/8` je preferiran za dodelu internih adresa koje nisu rutabilne na Internetu.*
 
@@ -1850,24 +1861,28 @@ Konačno, jedinstvene lokalne adrese (_ULA_, za _Unique Local Addresses_) su int
 Konceptualno, IPv6 adrese se često predstavljaju kao binarna struktura gde prva polovina (prvih 64 bita) identifikuje mrežni prefiks, a druga polovina (takođe 64 bita) jedinstveno identifikuje interfejs uređaja na toj mreži. Ova podela olakšava autokonfiguraciju adresa kroz mehanizme kao što je SLAAC (_Stateless Address Autoconfiguration_), koji omogućavaju mašinama da automatski generišu stabilnu adresu na osnovu MAC adrese ili pseudo-slučajnog identifikatora.
 
 
-| polje     | Prefiks | L | Globalni ID | Subnet | Interfejs ID |
+
+| Polje     | Prefiks | L | Globalni ID | Podmreža | ID interfejsa |
 |-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+| Bitovi    | 7      | 1 | 40        | 16     | 64            |
 
 IPv6 arhitektura prati hijerarhijski model globalnog rutiranja današnjeg interneta. Podela prefiksa omogućava regionalnim registrima i mrežnim operatorima da upravljaju dodelom adresa na decentralizovan način, uz obezbeđivanje globalne jedinstvenosti. U okviru ovog okvira, isti host može istovremeno imati globalnu unicast adresu za internet komunikaciju i link-lokalnu adresu za lokalne interakcije, npr. sa neposrednim susedstvom ili za poruke otkrivanja rutera.
 
 
-| polje     | Prefiks | Zero | Interfejs ID |
+
+
+| Polje     | Prefiks | Nula | ID interfejsa |
 |-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Bitovi    | 10     | 54   | 64           |
 
 **Anycast adrese** predstavljaju posredni koncept koji se nadovezuje na unicast model, ali se u određenim slučajevima može ponašati kao multicast. Anycast adresa je, u suštini, unicast adresa dodeljena na nekoliko interfejsa raspoređenih preko različitih mrežnih čvorova. Kada se paket pošalje na anycast adresu, IPv6 protokol ima za cilj da ga isporuči jednom od domaćina koji dele tu adresu, obično onom najbližem u smislu rutirajuće topologije. Ovaj pristup optimizuje brzinu obrade upita i poboljšava otpornost distribuiranih servisa. Klasičan primer su root DNS serveri, gde anycast adresiranje automatski usmerava upite na najbližu tačku prisustva.
 
 
 
-| polje     | Prefiks | Subnet | Interfejs ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+
+| Polje     | Prefiks | Podstiica | ID interfejsa |
+|-----------|--------|--------|______________|
+| Bitovi      | 48     | 16     | 64           |
 
 U IPv6, **multicast adrese** zamenjuju mehanizam emitovanja, koji se smatrao previše skupim i nepodesnim za mrežu globalnog obima. Multicast adresa identifikuje grupu interfejsa, obično na više hostova, koji žele da istovremeno prime iste pakete.
 
@@ -1889,9 +1904,10 @@ Struktura IPv6 multicast adresa uključuje:
 - polje za identifikaciju (112 bita) koje identifikuje broj multicast grupe.
 
 
-| polje      | Prefiks | Zastavice | Opseg | Grupni ID |
+
+| Polje      | Prefiks | Zastavice | Opseg | ID grupe |
 |------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Bitovi       | 8      | 4      | 4      | 112      |
 
 Poznat primer IPv6 multicast-a u akciji je _Neighbor Discovery Protocol_ (NDP). Umesto korišćenja ARP kao u IPv4, NDP se oslanja na multicast adrese kao što je `ff02::1:ff00:0/104` za emitovanje zahteva za otkrivanje lokalnih uređaja, ciljajući samo relevantne uređaje na istoj mrežnoj vezi.
 
@@ -2009,8 +2025,9 @@ Od 2006. godine, svaki RIR je dobio IPv6 blok veličine /12 od IANA, fiksna veli
 Tipična hijerarhija alokacije izgleda ovako:
 
 
-| IANA | RIR | LIR | Klijent  | Podmreža | Interfejs |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Klijent | Podstiica | Interfejs |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Sa ovom obiljem adresa, NAT (*Network Address Translation*), nekada neophodan u IPv4 za rešavanje nedostatka adresa, više nije potreban. Svaki host može imati jedinstvenu, globalno rutabilnu javnu adresu, što pojednostavljuje end-to-end povezivanje i olakšava korišćenje protokola kao što su IPSec, VoIP ili dolazne konekcije.

@@ -372,14 +372,15 @@ Et paremini mõista Arkade'i positsiooni, võrdleme seda kahe teise suurema skal
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Kriteerium | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Mudel** | Serveri (ASP) poolt koordineeritud jagatud UTXO | Maksekanalite P2P-võrk | Panga (Mint) väljastatud pimemärgid |
+| **Haldus** | **Mitte-halduslik** (võtmed on teil) | **Mitte-halduslik** (võtmed on teil) | **Halduslik** (vahendid on Mindi käes) |
+| **Privaatsus** | **Kõrge** (Natiivne CoinJoin, avalikkusele pime) | **Keskmine** (Sibulruutimine, kuid kanalid nähtavad) | **Väga kõrge** (Pime isegi Mindi jaoks) |
+| **Skaleeritavus** | Suurepärane (Massiivne on-chain batching) | Suurepärane (Lõputud off-chain tehingud) | Suurepärane (Lihtsad serveriallkirjad) |
+| **Kogemus** | Lihtne (lähedane on-chain rahakotile) | Keeruline (kanalite haldus, likviidsus) | Väga lihtne (nagu digitaalne sularaha) |
+| **Peamine risk** | ASP kättesaadavus ja aegumine | Kanalite haldus ja varukoopiad | Usaldus Mindi vastu (varguse oht) |
 
 **Arkade** on ideaalne kompromiss: Cashu lihtsus ja konfidentsiaalsus, kuid Lightning'i suveräänsus (mittehooldus).
 

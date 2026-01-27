@@ -451,24 +451,25 @@ Pop!OS menawarkan berbagai macam perangkat lunak melalui Pop!Shop, tetapi banyak
 
 
 
-| Outil                        | Description                                | Commande d’installation                         |
+
+| Alat | Deskripsi | Perintah Instalasi |
 | ---------------------------- | ------------------------------------------ | ----------------------------------------------- |
-| Firefox                      | Navigateur web libre et populaire          | `sudo apt install firefox`                      |
-| Brave                        | Navigateur web axé sur la confidentialité  | Installation via Pop!_Shop ou site officiel     |
-| Visual Studio Code (VS Code) | Éditeur de code puissant pour développeurs | `flatpak install flathub com.visualstudio.code` |
-| Git                          | Gestionnaire de versions                   | `sudo apt install git`                          |
-| Flatpak                      | Gestionnaire de paquets alternatif         | `sudo apt install flatpak`                      |
-| VLC                          | Lecteur multimédia polyvalent              | `sudo apt install vlc`                          |
-| GNOME Terminal               | Terminal par défaut                        | Préinstallé sur Pop!OS                          |
-| Curl                         | Outil de transfert de données en ligne     | `sudo apt install curl`                         |
-| Wget                         | Téléchargement de fichiers via HTTP/FTP    | `sudo apt install wget`                         |
-| Docker                       | Conteneurisation d’applications            | Installation via script officiel ou `apt`       |
-| Node.js                      | Environnement JavaScript côté serveur      | Installation via `apt` ou NodeSource            |
-| Python3                      | Langage de programmation                   | `sudo apt install python3 python3-pip`          |
-| GIMP                         | Éditeur d’image avancé                     | `sudo apt install gimp`                         |
-| Thunderbird                  | Client mail                                | `sudo apt install thunderbird`                  |
-| Transmission                 | Client BitTorrent léger                    | `sudo apt install transmission-gtk`             |
-| Htop                         | Moniteur de système interactif             | `sudo apt install htop`                         |
+| Firefox | Peramban web gratis dan populer | `sudo apt install firefox` |
+| Brave | Peramban web yang fokus pada privasi | Instalasi via Pop!_Shop atau situs resmi |
+| Visual Studio Code (VS Code) | Editor kode yang kuat untuk pengembang | `flatpak install flathub com.visualstudio.code` |
+| Git | Pengelola versi | `sudo apt install git` |
+| Flatpak | Pengelola paket alternatif | `sudo apt install flatpak` |
+| VLC | Pemutar multimedia serbaguna | `sudo apt install vlc` |
+| GNOME Terminal | Terminal default | Sudah terinstal di Pop!OS |
+| Curl | Alat transfer data online | `sudo apt install curl` |
+| Wget | Pengunduhan file via HTTP/FTP | `sudo apt install wget` |
+| Docker | Kontainerisasi aplikasi | Instalasi via skrip resmi atau `apt` |
+| Node.js | Lingkungan JavaScript sisi server | Instalasi via `apt` atau NodeSource |
+| Python3 | Bahasa pemrograman | `sudo apt install python3 python3-pip` |
+| GIMP | Editor gambar tingkat lanjut | `sudo apt install gimp` |
+| Thunderbird | Klien email | `sudo apt install thunderbird` |
+| Transmission | Klien BitTorrent ringan | `sudo apt install transmission-gtk` |
+| Htop | Monitor sistem interaktif | `sudo apt install htop` |
 
 ### Instalasi melalui Pop! Shop (antarmuka grafis)
 

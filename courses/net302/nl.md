@@ -306,18 +306,19 @@ Het allereerste veld in de header heet Version. Deze 4-bits waarde geeft aan wel
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Versienummer | Protocol | Versiebeschrijving | Referentie |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Gereserveerd | Gereserveerd | |
+| 2–3 | Niet toegewezen | Niet toegewezen | |
+| 4 | IP | Internet Protocol | RFC 791 |
+| **5** | **ST** | **ST-datagrammodus** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Internet Protocol versie 6 | RFC 8200 |
+| 7 | TP/IX | Het volgende internet | RFC 1475 |
+| 8 | PIP | Het P-internetprotocol | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Niet toegewezen | Niet toegewezen | |
+| 15 | Gereserveerd | Gereserveerd | |
 
 Een daarvan is IPv5, dat, hoewel grotendeels onbekend bij het publiek, al bestond als ST (_Stream Protocol_). IPv5 werd ontwikkeld in de jaren 80 en was bedoeld om te voldoen aan een groeiende behoefte in die tijd: het bieden van "Quality of Service_" (QoS) voor bepaalde gegevensstromen die een continue, stabiele overdracht vereisten, zoals Voice over IP of multimediastromen. Het doel was om end-to-end bandbreedte en prioriteit te garanderen, een concept dat vergelijkbaar is met wat RSVP (_Resource Reservation Protocol_) tegenwoordig biedt voor het dynamisch reserveren van netwerkbronnen op moderne routers.
 
@@ -485,14 +486,15 @@ Historisch gezien was het IPv4-systeem gebaseerd op een op klassen gebaseerd sch
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Klasse** | **IPv4-adresbereik**            | **Gebruik**                 |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x tot 126.x.x.x             | Unicast-adressen             |
+|           | (127.x.x.x gereserveerd voor loopback)| Lokale loopback         |
+| B         | 128.0.x.x tot 191.255.x.x         | Unicast-adressen             |
+| C         | 192.0.0.x tot 223.255.255.x       | Unicast-adressen             |
+| D         | 224.0.0.0 tot 239.255.255.255     | IP Multicast                 |
+| E         | 240.0.0.0 tot 255.255.255.255     | Gereserveerd voor experimenten |
 
 Niet alle mogelijke waarden kunnen aan hosts worden toegewezen. Bijvoorbeeld, in een **klasse C** Address biedt de laatste byte 8 bits (256 waarden). Maar twee daarvan zijn gereserveerd:
 
@@ -573,13 +575,14 @@ We willen 4 subnetten van elk maximaal 60 hosts.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Subnet-ID (bits) | Subnetadres | Subnetmasker | Adresbereik               | Broadcastadres |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **stap 5**: Dit creëert vier subnetwerken, die elk tot 62 machines ondersteunen, terwijl het algehele adresseringsschema efficiënt blijft. Het _hostid_ gedeelte wordt gesplitst in een _subnetid_ gedeelte en een host gedeelte.
 
@@ -623,7 +626,9 @@ Een /17 blok bevat 2^(32-17) adressen dus 2^15 = 32.768 adressen in totaal. Als 
 Om de grootte van CIDR begrijpelijker te maken, is hier een tabel met veelvoorkomende prefixen en hun equivalente subnetmaskers en bruikbare adressen:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| CIDR-prefix | Beschikbare hostbits | Subnetmasker | Bruikbare hostadressen |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -635,9 +640,8 @@ Om de grootte van CIDR begrijpelijker te maken, is hier een tabel met veelvoorko
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (alleen point-to-point) |
+| /32         | 0                   | 255.255.255.255 | 1 (alleen hostadres)          |
 
 **OPMERKING**: Historisch gezien ontmoedigde RFC 950 het gebruik van subnet nul, voornamelijk om verwarring bij het routeren te voorkomen.  Deze beperking werd verouderd met RFC 1878, die het gebruik ervan volledig toestaat. De oude beperking was vooral te wijten aan de incompatibiliteit met oudere hardware die CIDR niet correct kon verwerken. Moderne apparatuur heeft dit probleem niet.
 
@@ -819,12 +823,13 @@ De gelaagde architectuur volgt het principe dat elke Layer alleen de informatie 
 De onderstaande tabel vat de termen voor TCP- en UDP-contexten samen:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP-laag          | Eenheidsnaam (TCP) | Eenheidsnaam (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Applicatielaag       | Stroom           | Bericht          |
+| Transportlaag        | Segment          | Pakket           |
+| Internetlaag         | Datagram         | Datagram         |
+| Netwerktoegangslaag  | Frame            | Frame            |
 
 ### Serviceprimitieven en data-eenheden
 
@@ -907,7 +912,8 @@ De onderstaande tabel illustreert deze correspondentie:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Binaire code | Geactiveerde bitwaarden      | Decimale waarde |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -922,7 +928,8 @@ De onderstaande tabel illustreert deze correspondentie:
 Om binair naar decimaal om te zetten, tel je de gewichten op van de bits die op 1 zijn gezet.
 
 
-| Binary     | Decimal Value |
+
+| Binair     | Decimale waarde |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -961,13 +968,14 @@ Oorspronkelijk waren IPv4-netwerken onderverdeeld in vijf **klassen**: (A, B, C,
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Klasse | Leidende bits | Bereik van eerste byte | Standaard subnetmasker | Doel                           |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Zeer grote netwerken             |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Middelgrote netwerken            |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Kleine netwerken                 |
+| D     | 1110         | 224 – 239        | N.v.t.              | Multicast-adressen               |
+| E     | 1111         | 240 – 255        | N.v.t.              | Experimenteel (niet openbaar gebruikt) |
 
 Speciale adressen:
 
@@ -1222,7 +1230,8 @@ De routeringstabel, die handmatig (statische routering) of dynamisch (dynamische
 De routeringstabel fungeert als een mapping tabel tussen doel-IP adressen en volgende gateways. Meestal worden netwerkidentifiers (_netwerk ID_) opgeslagen in plaats van elke individuele host Address, wat de grootte sterk vermindert.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Bestemmingsadres | Adres van de next-hop-router | Interface |
 | ------------------- | ----------------------- | --------- |
 
 Met behulp van deze invoer kan de router snel bepalen via welke Interface en naar welk knooppunt elk datagram moet worden gestuurd. In combinatie met ARP voor het oplossen van de overeenkomende MAC-adressen, zorgt dit voor een efficiënte en betrouwbare gegevensoverdracht over het netwerk.
@@ -1298,11 +1307,12 @@ Dit dynamische vertalingsprincipe berust op nauwkeurig tabelbeheer: elk item bli
 voorbeeld van een vereenvoudigde NAT-vertaaltabel:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| Interne IP | Externe IP | Duur (sec) | Herbruikbaar? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | nee       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | ja        |
+| 10.100.0.89   | 193.48.100.46  | 0              | nee       |
 
 In dit voorbeeld, als er voor het tweede item in meer dan een uur (3600 seconden) geen pakket is doorgegeven, wordt het gemarkeerd als herbruikbaar. Omgekeerd duidt een duur van nul op een actieve communicatie, waarbij de toewijzing is vergrendeld.
 
@@ -1766,13 +1776,14 @@ Een niet-gespecificeerde IPv6 Address wordt weergegeven door `::` of, expliciete
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| IPv6-adresprefiks | Beschrijving                              |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Gereserveerde adressen                     |
+| 2000::/3            | Unicast-adressen, routeerbaar op internet  |
+| fc00::/7            | Unieke lokale adressen (1)                 |
+| fe80::/10           | Link-lokale adressen                       |
+| ff00::/8            | Multicast-adressen                         |
 
 (1): *Op een privé LAN heeft het `fd00::/8` voorvoegsel de voorkeur voor het toewijzen van interne adressen die niet routeerbaar zijn op het Internet.*
 
@@ -1854,14 +1865,17 @@ Tenslotte zijn unieke lokale adressen (_ULA_, voor _Unique Local Addresses_) int
 Conceptueel worden IPv6-adressen vaak voorgesteld als een binaire structuur waarbij de eerste helft (de eerste 64 bits) de netwerkprefix identificeert en de tweede helft (ook 64 bits) uniek de Interface van het apparaat op dat netwerk identificeert. Deze splitsing maakt Address autoconfiguratie eenvoudiger door mechanismen zoals SLAAC (_Stateless Address Autoconfiguration_), die machines in staat stellen om automatisch generate een stabiele Address te kiezen op basis van het MAC Address of een pseudo-willekeurige identificatiecode.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Veld      | Prefix | L | Globale ID | Subnet | Interface-ID |
 |-----------|--------|---|-----------|--------|---------------|
 | Bits      | 7      | 1 | 40        | 16     | 64            |
 
 De IPv6-architectuur volgt het hiërarchische globale routeringsmodel van het huidige internet. Prefix-partitionering stelt regionale registers en netwerkoperators in staat om de Address toewijzing op een gedecentraliseerde manier te beheren, terwijl globale uniciteit gewaarborgd blijft. Binnen dit kader kan dezelfde host tegelijkertijd een globale unicast Address hebben voor internetcommunicatie en een link-lokale Address voor lokale interacties, bijvoorbeeld met de directe omgeving of voor routerzoekberichten.
 
 
-| Field     | Prefix | Zero | Interface ID |
+
+
+| Veld      | Prefix | Nul | Interface-ID |
 |-----------|--------|------|--------------|
 | Bits      | 10     | 54   | 64           |
 
@@ -1869,8 +1883,9 @@ De IPv6-architectuur volgt het hiërarchische globale routeringsmodel van het hu
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
+
+| Veld     | Voorvoegsel | Subnet | Interface-ID |
+|-----------|--------|--------|______________|
 | Bits      | 48     | 16     | 64           |
 
 In IPv6 vervangen **multicast-adressen** het broadcast-mechanisme, dat te duur en ongeschikt werd geacht voor een wereldwijd netwerk. Een multicast Address identificeert een groep interfaces, typisch over meerdere hosts, die dezelfde pakketten tegelijkertijd willen ontvangen.
@@ -1893,7 +1908,8 @@ De structuur van een IPv6 multicast Address omvat:
 - een identificatieveld (112 bits) dat het multicastgroepnummer identificeert.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Veld      | Voorvoegsel | Vlaggen | Bereik | Groeps-ID |
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 
@@ -2013,8 +2029,9 @@ Sinds 2006 ontvangt elke RIR een IPv6 /12-blok van IANA, een vaste grootte die i
 De typische toewijzingshiërarchie ziet er als volgt uit:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Klant | Subnet | Interface |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Met deze overvloed aan adressen is NAT (*Network Address Translation*), ooit essentieel in IPv4 om Address tekorten op te vangen, niet langer nodig. Elke host kan een unieke, wereldwijd routeerbare publieke Address hebben, wat end-to-end connectiviteit vereenvoudigt en het gebruik van protocollen zoals IPSec, VoIP of inkomende verbindingen makkelijker maakt.

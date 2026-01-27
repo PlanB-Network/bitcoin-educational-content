@@ -554,13 +554,14 @@ Ente Auth применяет [образцовую политику конфид
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Приложение              | Открытый исходный код | Облачное резервное копирование | E2EE | Синхронизация между устройствами | Платформы                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (без E2EE)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(приложения для ПК удалены август 2024)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(недавний, менее устоявшийся)*              |
 
 Ente Auth - одно из немногих решений, сочетающих в себе все преимущества: прозрачность исходного кода, шифрованное резервное копирование в облаке и кроссплатформенную синхронизацию.
 

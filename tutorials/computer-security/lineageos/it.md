@@ -348,13 +348,16 @@ Questi aggiornamenti regolari sono una risorsa importante, soprattutto per i dis
 
 ### Confronto tecnico
 
-|    **Aspect**     | **GrapheneOS**       | **LineageOS**                   |
-|-------------------|:--------------------:|:-------------------------------:|
-| **Compatibilité** | Pixels uniquement    | Centaines d'appareils           |
-| **Sécurité**      | Mitigations avancées | Sécurité AOSP standard          |
-| **Google Play**   | Sandboxé optionnel   | Installation classique possible |
-| **Installation**  | Interface web + USB  | Procédure manuelle technique    |
-| **Philosophie**   | Sécurité avant tout  | Équilibre et liberté de choix   |
+
+
+
+| **Aspetto** | **GrapheneOS** | **LineageOS** |
+|------------|----------------|---------------|
+| **Compatibilità** | Solo Pixels | Centinaia di dispositivi |
+| **Sicurezza** | Mitigazioni avanzate | Sicurezza AOSP standard |
+| **Google Play** | Sandbox opzionale | Installazione classica possibile |
+| **Installazione** | Interfaccia web + USB | Procedura manuale tecnica |
+| **Filosofia** | Sicurezza soprattutto | Equilibrio e libertà di scelta |
 
 ### Raccomandazioni per l'uso
 

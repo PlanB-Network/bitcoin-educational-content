@@ -5023,12 +5023,13 @@ counter += 1 // same as counter = counter + 1
 Hapa kuna zile za kawaida zaidi:
 
 
-| Operator | Meaning             |
+
+| Opereta | Maana |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | jumlisha kisha kabidhi |
+| `-=` | toa kisha kabidhi |
+| `*=` | zidisha kisha kabidhi |
+| `/=` | gawa kisha kabidhi |
 
 Mifano:
 

@@ -263,11 +263,12 @@ Intumbero: Huza iyo relay n'ubuto ON/OFF buri ku gikoresho co gukoresha kure
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Icara**         | **Insobanuro**           | **Ibikorwa**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Zahabu mu buhe)   | Ikirango kigwire mu mahoro | Gifungira iyo aparatile yinjira mu mibare |
+| NC (Zahabu mu mbarizo) | Ikirango kigwire mu mahoro  | Kigwire iyo aparatile yinjira mu mibare  |
+| COM (Ubwiyunge)         | Icara cy'ubwiyunge          | Kuhindukirako hagati ya NO na NC              |
 
 **Ugushiramwo amawaya kuva ku gikoresho co kure gushika ku gikoresho co gutanga amakuru:**
 
@@ -301,11 +302,12 @@ Iyo ESP32 ikata relay, COM na NO biratandukana, ivyo bikaba bingana no kurekura 
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Igikoresho cy'aparatile** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Inyinjira)        |
 
 **Igenzura:**
 
@@ -894,14 +896,15 @@ Imbere y'ikigeragezo ca nyuma, suzuma :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Ikibazo**                        | **Icyambere cy'ikibazo**              | **Igisubizo**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 itagira imibanire            | Ifunguro ry'USB ritakaza             | Injira [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Aparatile ntitameneka                | Ibigega GPIO bibi            | Reba GPIO 21 → IN                                                                        |
+| Imashini y'ubwoko ntiyifitanyije         | Iyiyohereza mu nganda yipapikanya         | Reba NO/NC/COM                                                                           |
+| Ukuzirikira kwa WebSocket                   | URL itakaza                  | Reba wss:// na /bitcoinswitch                                                            |
+| WiFi itagira imibanire             | SSID/Password itakazi            | Mpakire WiFi config nka rundi                                                                    |
+| Ubwishingizi bwaroherejwe nta kintu kibyamye | ESP32 itakabwira WebSocket | Reba inyandiko za RESET                                                                      |
 
 ## Ubutunzi
 

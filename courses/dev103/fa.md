@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 در اینجا رایج‌ترین‌ها آورده شده است:
 
 
-| Operator | Meaning             |
+
+| عملگر | مفهوم |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | جمع و مقداردهی |
+| `-=` | تفریق و مقداردهی |
+| `*=` | ضرب و مقداردهی |
+| `/=` | تقسیم و مقداردهی |
 
 مثال‌ها:
 

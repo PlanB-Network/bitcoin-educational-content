@@ -685,13 +685,14 @@ Säännölliset päivitykset ovat merkittävä etu erityisesti laitteille, joide
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Näkökohta** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Yhteensopivuus** | Vain Pixels | Satoja laitteita |
+| **Turvallisuus** | Kehittyneet lievennyskeinot | Vakio AOSP-turvallisuus |
+| **Google Play** | Valinnainen hiekkalaatikko | Klassinen asennus mahdollinen |
+| **Asennus** | Verkkoliittymä + USB | Tekninen manuaalinen menettely |
+| **Filosofia** | Turvallisuus kaikkea edelle | Tasapainoistelu ja valinnanvapaus |
 
 ### Käyttösuositukset
 

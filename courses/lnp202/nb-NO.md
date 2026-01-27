@@ -415,7 +415,7 @@ Den største fordelen med denne tilnærmingen, sammenlignet med en konvensjonell
 
 
 
-De fleste porteføljer som tilbyr denne typen funksjonalitet, er avhengige av [Boltz] (https://boltz.exchange/) for den tekniske delen av byttehandelen.
+De fleste porteføljer som tilbyr denne typen funksjonalitet, er avhengige av [Boltz](https://boltz.exchange/) for den tekniske delen av byttehandelen.
 
 
 
@@ -998,7 +998,7 @@ Her har du påloggingsinformasjonen:
 023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@34.216.52.158:9911
 ```
 
-For å takke dem for at de tilbyr denne gratis vakttårntjenesten, [du kan gi en donasjon via Lightning] (https://lightningnetwork.plus/donation).
+For å takke dem for at de tilbyr denne gratis vakttårntjenesten, [du kan gi en donasjon via Lightning](https://lightningnetwork.plus/donation).
 
 
 Nå som vi bruker en altruistisk vakttårntjeneste, skal vi se hvordan vi konfigurerer den på LND-noden vår under Umbrel.
@@ -1165,7 +1165,7 @@ https://planb.academy/tutorials/node/lightning-network/amboss-37044cad-0f85-41eb
 
 https://planb.academy/tutorials/node/lightning-network/1ml-37ada2ab-7a24-4473-87fd-007cb7640e7b
 
-Her foreslår jeg imidlertid at du bruker [Lightning Terminal-verktøyet fra Lightning Labs] (https://terminal.lightning.engineering/), som gir en rangering (riktignok basert på delvis subjektive kriterier) av de Lightning-nodene som anses som mest relevante for å åpne en kanal.
+Her foreslår jeg imidlertid at du bruker [Lightning Terminal-verktøyet fra Lightning Labs](https://terminal.lightning.engineering/), som gir en rangering (riktignok basert på delvis subjektive kriterier) av de Lightning-nodene som anses som mest relevante for å åpne en kanal.
 
 
 
@@ -1402,9 +1402,9 @@ Blant de mest kjente programvarene er:
 
 
 
-- [Alby Hub] (https://albyhub.com/);
-- [Ride The Lightning] (https://www.ridethelightning.info/);
-- [ThunderHub] (https://thunderhub.io/).
+- [Alby Hub](https://albyhub.com/);
+- [Ride The Lightning](https://www.ridethelightning.info/);
+- [ThunderHub](https://thunderhub.io/).
 
 
 
@@ -1577,11 +1577,11 @@ Hvis du er en bedrift eller forhandler, betyr denne tilnærmingen at du raskt ka
 
 
 
-Det finnes mange måter å kjøpe inngående likviditet på. Den jeg personlig bruker og anbefaler er Ambosss [Magma] (https://magma.amboss.tech/) plattform. Den er veldig enkel å bruke, det går raskt å åpne en kanal, og prisene er generelt rimelige. Magma fungerer som en markedsplass med tilbydere og etterspørrere, men versjon 2 har forenklet opplevelsen betraktelig: Du oppretter ganske enkelt en forespørsel, betaler prisen via Lightning, og Magma matcher den automatisk med det beste tilgjengelige tilbudet. Etter seks bekreftelser i kjeden er kanalen din med innkommende likviditet oppe og går. Slik fungerer det:
+Det finnes mange måter å kjøpe inngående likviditet på. Den jeg personlig bruker og anbefaler er Ambosss [Magma](https://magma.amboss.tech/) plattform. Den er veldig enkel å bruke, det går raskt å åpne en kanal, og prisene er generelt rimelige. Magma fungerer som en markedsplass med tilbydere og etterspørrere, men versjon 2 har forenklet opplevelsen betraktelig: Du oppretter ganske enkelt en forespørsel, betaler prisen via Lightning, og Magma matcher den automatisk med det beste tilgjengelige tilbudet. Etter seks bekreftelser i kjeden er kanalen din med innkommende likviditet oppe og går. Slik fungerer det:
 
 
 
-Gå til [Magma-nettstedet] (https://magma.amboss.tech/buy), i `Buy Channels`-delen.
+Gå til [Magma-nettstedet](https://magma.amboss.tech/buy), i `Buy Channels`-delen.
 
 
 
@@ -1669,7 +1669,7 @@ Hvis du ikke er trader, men likevel trenger innkommende likviditet (for eksempel
 
 
 
-Du kan selvfølgelig ordne dette direkte med andre bitcoinere. Det finnes imidlertid en plattform dedikert til denne typen sirkulære åpninger: [Lightning Network +] (https://lightningnetwork.plus/). Prinsippet er ikke å åpne to kanaler mellom de samme personene, men å sette opp sirkulære åpninger som involverer minst tre deltakere, eller enda flere.
+Du kan selvfølgelig ordne dette direkte med andre bitcoinere. Det finnes imidlertid en plattform dedikert til denne typen sirkulære åpninger: [Lightning Network +](https://lightningnetwork.plus/). Prinsippet er ikke å åpne to kanaler mellom de samme personene, men å sette opp sirkulære åpninger som involverer minst tre deltakere, eller enda flere.
 
 
 
@@ -1703,7 +1703,7 @@ For å bruke Lightning Network+ har du to alternativer: enten bruke applikasjone
 
 
 
-Gå til nettstedet [Lightning Network +] (https://lightningnetwork.plus/) og klikk på "Logg inn"-knappen øverst til høyre i grensesnittet.
+Gå til nettstedet [Lightning Network +](https://lightningnetwork.plus/) og klikk på "Logg inn"-knappen øverst til høyre i grensesnittet.
 
 
 
@@ -2050,7 +2050,7 @@ Hvis du ikke er overbevist av Tailscale-tilkoblingen, eller hvis det virker for 
 
 
 
-I dette eksemplet bruker vi mobilapplikasjonen Alby Go, som er svært godt utformet og spesielt enkel å lære seg. Når det er sagt, kan du også bruke Zeus eller en annen NWC-kompatibel mobilapplikasjon. Du finner en liste over kompatible applikasjoner på [the `awesome-nwc` GitHub repository] (https://github.com/getAlby/awesome-nwc).
+I dette eksemplet bruker vi mobilapplikasjonen Alby Go, som er svært godt utformet og spesielt enkel å lære seg. Når det er sagt, kan du også bruke Zeus eller en annen NWC-kompatibel mobilapplikasjon. Du finner en liste over kompatible applikasjoner på [the `awesome-nwc` GitHub repository](https://github.com/getAlby/awesome-nwc).
 
 
 
@@ -2141,9 +2141,9 @@ Installer Alby Go-applikasjonen på smarttelefonen din:
 
 
 
-- [Google Play Store] (https://play.google.com/store/apps/details?id=com.getalby.mobile);
-- [Apple App Store] (https://apps.apple.com/us/app/alby-go/id6471335774);
-- [Zapstore] (https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq3jhml5fvklgnq9fxpete767txn9zfzqdkc0sxfptmnchfrexje7qqfxxmmd9enk2arpd338jtndda3xjmr9pzj5tk).
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.getalby.mobile);
+- [Apple App Store](https://apps.apple.com/us/app/alby-go/id6471335774);
+- [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq3jhml5fvklgnq9fxpete767txn9zfzqdkc0sxfptmnchfrexje7qqfxxmmd9enk2arpd338jtndda3xjmr9pzj5tk).
 
 
 

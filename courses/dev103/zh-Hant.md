@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 以下是最常見的幾種：
 
 
-| Operator | Meaning             |
+
+| 運算子 | 含義 |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | 加並賦值 |
+| `-=` | 減並賦值 |
+| `*=` | 乘並賦值 |
+| `/=` | 除並賦值 |
 
 範例：
 

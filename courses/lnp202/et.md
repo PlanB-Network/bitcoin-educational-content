@@ -1402,9 +1402,9 @@ Tuntuimad tarkvaraprogrammid on järgmised:
 
 
 
-- [Alby Hub] (https://albyhub.com/);
+- [Alby Hub](https://albyhub.com/);
 - [Ride The Lightning](https://www.ridethelightning.info/);
-- [ThunderHub] (https://thunderhub.io/).
+- [ThunderHub](https://thunderhub.io/).
 
 
 

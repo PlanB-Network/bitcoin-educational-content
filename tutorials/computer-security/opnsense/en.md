@@ -106,11 +106,12 @@ You need to take into account the hardware resources required to run OPNsense. T
 **Minimum and recommended resources for production:**
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Features | Minimum | Recommendation |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Processor | 1 GHz - 2 cores | 1.5 GHz - Multi-core |
+| RAM | 2 GB | 8 GB |
+| Storage space for the system | Hard drive, SSD or SD card (4 GB) | 120 GB on SSD |
 
 Finally, **your resource requirements depend above all on the number of connections to be managed**, and therefore on **your bandwidth requirements**. In addition, you need to **keep in mind the services that will be activated and used** (proxy, intrusion detection, etc...) as they can be CPU and/or RAM-hungry.
 

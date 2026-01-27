@@ -554,13 +554,14 @@ Ente Auth न्यूनतम डेटा संग्रह पर आधा
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| आवेदन              | ओपन सोर्स | क्लाउड बैकअप | E2EE | मल्टी-डिवाइस सिंक | प्लेटफॉर्म                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (E2EE के बिना)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(डेस्कटॉप ऐप्स अगस्त 2024 में हटाए गए)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(हाल ही में, कम प्रतिष्ठित)*              |
 
 एन्टे ऑथ उन कुछ समाधानों में से एक है जो सभी लाभों को एक साथ प्रदान करता है: स्रोत कोड पारदर्शिता, एन्क्रिप्टेड क्लाउड बैकअप और क्रॉस-प्लेटफॉर्म सिंक्रोनाइजेशन।
 

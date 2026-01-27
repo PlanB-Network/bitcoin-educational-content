@@ -75,17 +75,18 @@ Dưới đây là bảng tóm tắt thông số kỹ thuật chung của Nano 3S
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Đặc tính                                      | Giá trị                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Tốc độ Hash                                      | 6 Th/s +- 5%                                            |
+| Tiêu thụ Điện năng                               | 140 W                                                   |
+| Tiếng ồn                                                | 30 - 40 dB                                              |
+| Phạm vi Nhiệt độ Không khí Ra                 | 60-70°C (ở nhiệt độ môi trường 25°C)                |
+| Yêu cầu Nhiệt độ Môi trường để Sử dụng | -5 đến 30°C                                            |
+| Phạm vi Điện áp Đầu vào Thiết bị                         | 28V 5A liên tục                                          |
+| Phạm vi Điện áp Đầu vào Bộ Chuyển đổi                       | 110-240V AC 50/60Hz                                     |
+| Kích thước Thiết bị                                 | Chiều dài: 205 mm / Chiều rộng: 115 mm / Chiều cao: 58.5 mm |
+| Trọng lượng Thiết bị                                  | 0.86 kg                                                 |
 
 ## Bật nguồn và kết nối với mạng cục bộ
 

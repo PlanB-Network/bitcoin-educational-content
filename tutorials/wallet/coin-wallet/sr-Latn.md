@@ -211,11 +211,12 @@ Da pošaljete Bitcoin:
 4. Izaberite brzinu transakcije:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Brzina   | Približno vreme potvrde | Nivo naknade     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Spora**    | ~120 minuta              | Najniža
+| **Podrazumevana** | ~60 minuta               | Srednja
+| **Brza**    | ~20 minuta               | Viša
 
 5. Potvrdite sa vašim 4-cifrenim PIN-om → transakcija se emituje
 
@@ -251,12 +252,13 @@ Više o Replace-by-fee (RBF): https://bitcoinops.org/en/topics/replace-by-fee/
 (99 % korisnika to nikada ne uradi — 12-rečeni passphrase je dovoljan)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Situacija                                      | Zašto trebate privatni ključ                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Čišćenje stare papirne novčanice                   | Premještanje sredstava u vašu trenutnu novčanicu             |
+| Uvoz u potpisnik hardvera (npr. Coldcard) | Za potpisivanje van mreže                              |
+| Hitna oporavka (izgubljeno sjeme, ali je aplikacija još uvijek otvorena) | Za spasavanje novčića prije nego što aplikacija nestane           |
+| Korištenje alata koji ne prihvataju fraze sjemena     | Neki alati samo za nadzor ili potpisivanje             |
 
 ### Kako izvesti privatne ključeve u Coin Wallet
 
@@ -313,14 +315,16 @@ Coin Wallet strogo prati zvanične Bitcoin standarde koje koristi gotovo svaki o
 Od jednog glavnog ključa wallet može generate milijarde adresa u strogo definisanom redosledu. Zato će istih 12 reči unetih u Electrum, Sparrow, Trezor, Ledger, BlueWallet, itd. prikazati tačno iste adrese i stanja.
 
 
+
+
+
 **Putanje derivacije korišćene u Coin Wallet za Bitcoin**
 
-
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+| Tip adrese              | Standard | Putanja derivacije       | Počinje sa | Komentar                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| Prirodni SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Moderni format, najniže naknade           |
+| Ugniježđeni SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Omot kompatibilnosti za stare usluge |
+| Nasleđe (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Najstariji format, najviše naknade          |
 
 Unutar svake staze:
 

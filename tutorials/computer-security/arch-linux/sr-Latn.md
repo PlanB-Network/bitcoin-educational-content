@@ -265,11 +265,12 @@ Izaberite **GPT** ako ste u UEFI, **DOS** ako ste u BIOS-u.
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Tačka montiranja na instaliranom sistemu | Particija                 | Tip particije       | Predložena veličina |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI sistemska particija   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Prostor za razmenu (swap) | Najmanje 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 koren (/) | Ostatak diska |
 
 - U BIOS-u
 

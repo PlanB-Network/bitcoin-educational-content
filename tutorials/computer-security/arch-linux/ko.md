@@ -265,11 +265,12 @@ UEFI를 사용하는 경우 **GPT**를, BIOS를 사용하는 경우 **DOS**를 �
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| 설치된 시스템의 마운트 지점 | 파티션                 | 파티션 유형       | 권장 크기 |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI 시스템 파티션   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | 스왑 공간 (swap) | 최소 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 루트 (/) | 디스크의 나머지 |
 
 - BIOS에서
 

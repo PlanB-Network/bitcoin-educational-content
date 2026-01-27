@@ -265,11 +265,12 @@ Wählen Sie **GPT**, wenn Sie sich in UEFI befinden, **DOS**, wenn Sie sich in B
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Einhängepunkt auf dem installierten System | Partition                 | Partitionstyp       | Empfohlene Größe |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI-Systempartition   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Swap-Speicher (swap) | Mindestens 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 Root (/) | Rest der Festplatte |
 
 - Im BIOS
 

@@ -265,11 +265,12 @@ Valige **GPT**, kui olete UEFI-s, **DOS**, kui olete BIOS-s.
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Paigaldusmisõige paigaldatud süsteemis | Partitsioon                 | Partitsiooni tüüp       | Soovitatud suurus |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI-i süsteemipartitsioon   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Vahetuspind (swap) | Vähemalt 4 GB   |
+| /                                        | /dev/root_partition       | Linuxi x86-64 juur (/) | Ülejäänud ketas |
 
 - BIOSis
 

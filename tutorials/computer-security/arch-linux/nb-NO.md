@@ -265,11 +265,12 @@ Velg **GPT** hvis du bruker UEFI, og **DOS** hvis du bruker BIOS.
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Monteringspunkt på det installerte systemet | Partisjon                 | Partisjonstype       | Foreslått størrelse |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI-systempartisjon   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Vekslingsminne (swap) | Minst 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 rot (/) | Rest av disken |
 
 - I BIOS
 

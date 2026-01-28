@@ -1,6 +1,6 @@
 ---
 term: Cel trudności
-definition:
+definition: 256-bitowa wartość liczbowa określająca limit akceptowalności dla hashowania nagłówków bloków.
 ---
 
 Współczynnik trudności, znany również jako cel trudności, jest parametrem wykorzystywanym w mechanizmie konsensusu przez Proof of Work (Proof of Work, PoW) na Bitcoin. Wartość docelowa reprezentuje wartość liczbową, która określa trudność dla górników w rozwiązaniu określonego problemu kryptograficznego, zwanego Proof of Work, podczas tworzenia nowego bloku na Blockchain.

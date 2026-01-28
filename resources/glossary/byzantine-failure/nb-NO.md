@@ -1,7 +1,7 @@
 ---
 term: Byzantinsk feil
 
-definition:
+definition: Oppførsel hos et system som ikke overholder spesifikasjonene, noe som kan være naturlig eller tilsiktet.
 ---
 Bysantinske feil, eller bysantinsk oppførsel, refererer til enhver oppførsel fra et system som ikke er i samsvar med dets egne spesifikasjoner, og som gir resultater som ikke er i samsvar med spesifikasjonene.
 

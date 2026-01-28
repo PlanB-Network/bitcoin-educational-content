@@ -1,7 +1,7 @@
 ---
 term: Jalur derivasi
 
-definition:
+definition: Urutan indeks yang mendeskripsikan jalur derivasi kunci turunan dari master key dalam dompet HD.
 ---
 Dalam konteks dompet _Hierarchical Deterministic_ (HD), sebuah jalur derivasi mengacu pada urutan indeks yang digunakan untuk derivasi kunci anak dari kunci _master_. Dijelaskan dalam BIP32, jalur ini mengidentifikasi struktur pohon untuk menurunkan anak kunci. Jalur derivasi diwakili oleh serangkaian indeks yang dipisahkan oleh garis miring, dan selalu dimulai dengan kunci utama (dilambangkan sebagai `m/`). Sebagai contoh, sebuah jalur yang umum adalah `m/84'/0'/0'/0/0`. Setiap tingkat derivasi dikaitkan dengan kedalaman tertentu:
 

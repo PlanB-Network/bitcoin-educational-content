@@ -1,6 +1,6 @@
 ---
 term: Igitero c'inguvu z'indani
-definition:
+definition: Uburyo bwo gusesengura inyandiko nsobanuramwebwe mu kugerageza amayeri yose ashoboka y'imfunguruzo canke amajambo banga.
 ---
 
 Uburyo bwo gusesangura amakuru bukoreshwa mu kurondera ijambobanga canke urufunguzo rw’ibanga mu kugerageza mu buryo butunganye ihuriro ryose rishoboka gushika habonetse iryo ryiza, bikaba bituma umuntu ashobora kuronka amakuru canke uburenganzira akinzwe.

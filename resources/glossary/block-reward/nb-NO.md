@@ -1,7 +1,7 @@
 ---
 term: Blokkbelønning
 
-definition:
+definition: Totalt antall bitcoins (subsidie + gebyrer) som en utvinner mottar når hen finner en gyldig blokk.
 ---
 Den totale summen bitcoins som en utvinner mottar når vedkommende finner en gyldig blokk på Bitcoin. Denne belønningen består av to elementer: blokktilskuddet og transaksjonsgebyrene. Blokktilskuddet er en fast mengde bitcoins som utvinneren kan skape ut av ingenting. Dette beløpet reduseres gradvis over tid gjennom hendelser som kalles halveringer. Transaksjonsgebyrene er de kumulative avgiftene brukerne betaler for å utføre transaksjonene som inngår i den utvunnede blokken. Gebyrene er også bitcoins skapt av utvinneren, men beløpet er begrenset til mengden bitcoins som ødelegges i transaksjonene. Gebyrene for en transaksjon representerer differansen mellom de totale inngangene og de totale utgangene.
 

@@ -1,6 +1,6 @@
 ---
 term: Eclair
-definition:
+definition: Utekelezaji wa itifaki ya Lightning Network katika lugha ya Scala, iliyoendelezwa na Acinq.
 ---
 
 Utekelezaji mkubwa wa itifaki ya Lightning Network iliyoandikwa kwa lugha ya Scala. Eclair imetengenezwa na kampuni ya Ufaransa ya Acinq.

@@ -1,6 +1,6 @@
 ---
 term: Guhindura ingorane
-definition:
+definition: Uburyo buba uko ibice 2016 bitowe busubira kwerekana intumbero y'ugukomera kugira hagumyeho iminota 10 mu gice kimwe.
 ---
 
 Guhindura ingorane ni urugendo rugenda ruhinduka rusobanura ingorane zigenewe uburyo bwa Proof of Work (Mining) kuri Bitcoin. Ivyo bishika buri 2016 blocks (hafi buri ndwi zibiri). Bifasha kwongera canke kugabanya ikintu c’ingorane (citwa kandi intumbero y’ingorane), bivanye n’ingene amabuye ya nyuma yo mu 2016 yabonetse ningoga. Iryo hinduka rigamije kuguma rifise igipimo c’uguhingura amabuye kidahinduka kandi gishobora gutegekanirwa, ku nshuro y’amabuye imwe buri minota 10, naho nyene hariho uguhinduka mu bushobozi bwo guharura bukoreshwa n’abacukuzi. Ihinduka ry’ingorane mu gihe c’uguhindura rigarukira ku rugero rwa 4. Formule ikoreshwa n’ibihimba vy’umubiri kugira ngo habare intumbero nshasha ni iyi:

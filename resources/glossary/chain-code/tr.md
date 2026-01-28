@@ -1,6 +1,6 @@
 ---
 term: Zincir kodu
-definition:
+definition: Cüzdan anahtarlarının HD türetilmesinde kullanılan 256 bitlik kriptografik tuz (salt) değeri.
 ---
 
 Bitcoin cüzdanlarının hiyerarşik deterministik (HD) türetilmesi bağlamında chain code, BIP32 standardına göre bir ana anahtardan generate alt anahtarlarını türetmek için kullanılan 256 bitlik bir kriptografik tuz değeridir. chain code, ana anahtar ve alt anahtar dizini ile birlikte, ana anahtarı veya türetilen diğer alt anahtarları açığa çıkarmadan yeni bir anahtar çiftini (özel anahtar ve açık anahtar) deterministik olarak generate yapmak için kullanılır.

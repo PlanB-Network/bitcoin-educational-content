@@ -1,6 +1,6 @@
 ---
 term: Bloom filter
-definition:
+definition: Imitako y'amakuru y'ivyago yerekana namba ikintu kiri mu murwi, ikoreshwa mu nsumba za SPV.
 ---
 
 Akayunguruzo ka Bloom ni ubuhinga bw'amakuru bukoreshwa mu kugerageza nimba ikintu ari umunyamuryango w'umugwi.

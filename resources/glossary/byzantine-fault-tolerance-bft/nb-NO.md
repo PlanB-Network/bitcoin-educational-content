@@ -1,7 +1,7 @@
 ---
 term: Byzantinsk feiltoleranse (BFT)
 
-definition:
+definition: Konsept som sikrer pålitelig konsensus i et distribuert system til tross for defekte eller ondsinnede noder.
 ---
 Et konsept som brukes i distribuerte systemer for å sikre pålitelig og sikker konsensus, selv i nærvær av feilaktige eller ondsinnede noder.
 

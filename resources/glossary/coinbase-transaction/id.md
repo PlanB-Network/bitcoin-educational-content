@@ -1,7 +1,7 @@
 ---
 term: Transaksi coinbase
 
-definition:
+definition: Transaksi pertama dari sebuah blok yang dibuat oleh penambang untuk menerima hadiah blok dan subsidi.
 ---
 Transaksi _coinbase_ adalah transaksi khusus dan unik yang disertakan dalam setiap blok _blockchain_ Bitcoin. Transaksi ini merupakan transaksi pertama dalam sebuah blok dan dibuat oleh penambang yang telah berhasil menemukan _header_ yang memvalidasi bukti kerja (*Proof-of-Work*) kurang dari atau sama dengan target.
 

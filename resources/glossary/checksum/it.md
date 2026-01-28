@@ -1,6 +1,6 @@
 ---
 term: Checksum
-definition:
+definition: Valore calcolato per verificare l'integrità dei dati, utilizzato negli indirizzi e nelle frasi di recupero.
 ---
 
 Il checksum è un valore calcolato da un insieme di dati, utilizzato per verificare l'integrità e la validità di tali dati durante la trasmissione o la memorizzazione. Gli algoritmi di checksum sono progettati per rilevare errori accidentali o alterazioni non intenzionali dei dati, come errori di trasmissione o corruzione dei file. Esistono diversi tipi di algoritmi di checksum, come i controlli di parità, i checksum modulari, le funzioni crittografiche Hash o i codici BCH (*Bose, Ray-Chaudhuri e Hocquenghem*).

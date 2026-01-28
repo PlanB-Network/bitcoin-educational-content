@@ -1,6 +1,6 @@
 ---
 term: Zorluk hedefi
-definition:
+definition: Blok başlıklarının hashlenmesi için kabul edilebilirlik sınırını belirleyen 256 bitlik sayısal değer.
 ---
 
 Zorluk hedefi olarak da bilinen zorluk faktörü, Bitcoin üzerinde Proof of Work (Proof of Work, PoW) tarafından mutabakat mekanizmasında kullanılan bir parametredir. Hedef, madencilerin Blockchain üzerinde yeni bir blok oluştururken Proof of Work adı verilen belirli bir kriptografik problemi çözme zorluğunu belirleyen sayısal bir değeri temsil eder.

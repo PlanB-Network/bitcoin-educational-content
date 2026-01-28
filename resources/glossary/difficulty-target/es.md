@@ -1,7 +1,7 @@
 ---
 term: Objetivo de dificultad
 
-definition:
+definition: Valor numérico de 256 bits que determina el límite de aceptabilidad para el hash de las cabeceras de los bloques.
 ---
 El factor de dificultad, también conocido como objetivo de dificultad, es un parámetro utilizado en el mecanismo de consenso por prueba de trabajo (Proof of Work, PoW) en Bitcoin. El objetivo representa un valor numérico que determina la dificultad para que los mineros resuelvan un problema criptográfico específico, denominado prueba de trabajo, al crear un nuevo bloque en la blockchain.
 

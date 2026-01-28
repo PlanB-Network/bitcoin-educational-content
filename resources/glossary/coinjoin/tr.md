@@ -1,6 +1,6 @@
 ---
 term: Coinjoin
-definition:
+definition: Birkaç kullanıcının bitcoin takibini zorlaştırmak için işlemlerini birleştirdiği karıştırma tekniği.
 ---
 
 CoinJoin, bitcoinlerin izlenebilirliğini kırmak için kullanılan bir tekniktir. Aynı adı taşıyan belirli bir yapıya sahip işbirlikçi bir işleme dayanır: CoinJoin işlemi. CoinJoin işlemleri, dışarıdan gözlemcilerin işlemleri analiz etmesini daha zor hale getirerek Bitcoin kullanıcılarının gizlilik korumasını geliştirmeye yardımcı olur. Bu yapı, tek bir işlemde birden fazla coinin karıştırılmasına olanak tanıyarak giriş ve çıkış adresleri arasındaki bağlantıların belirlenmesini zorlaştırır.

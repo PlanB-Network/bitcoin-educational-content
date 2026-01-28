@@ -1,6 +1,6 @@
 ---
 term: Checksum
-definition:
+definition: Thamani iliyohesabiwa ili kuthibitisha uaminifu wa data, inayotumiwa katika anwani na vishazi vya urejesho.
 ---
 
 Cheki ni thamani iliyohesabiwa kutoka kwa seti ya data, inayotumiwa kuthibitisha uadilifu na uhalali wa data hiyo wakati wa kutuma au kuhifadhi. Algorithms za Checksum zimeundwa kugundua hitilafu za kiajali au mabadiliko yasiyokusudiwa kwa data, kama vile hitilafu za utumaji au ufisadi wa faili. Kuna aina tofauti za algoriti za hundi, kama vile ukaguzi wa usawa, hesabu za moduli, vitendaji vya siri vya Hash, au misimbo ya BCH (*Bose, Ray-Chaudhuri na Hocquenghem*).

@@ -1,7 +1,7 @@
 ---
 term: Artefatos digitais
 
-definition:
+definition: Satoshi inscrito com dados através do protocolo Ordinals, ligado a conteúdos digitais como imagens ou textos.
 ---
 No contexto do protocolo Ordinals, é um satoshi que foi inscrito com dados específicos através do mecanismo de inscrição. Estes artefactos podem incluir imagens, textos ou qualquer outro tipo de conteúdo digital e estão inseparavelmente ligados ao satoshi correspondente.
 

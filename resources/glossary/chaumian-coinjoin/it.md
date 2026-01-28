@@ -1,7 +1,7 @@
 ---
 term: Chaumian coinjoin
 
-definition:
+definition: Protocollo coinjoin che utilizza le firme cieche di Chaum per garantire la privacy dei partecipanti.
 ---
 Un protocollo coinjoin che utilizza le firme cieche di David Chaum e Tor per le comunicazioni tra i partecipanti e il server del coordinatore. L'obiettivo di una coinjoin chaumiana è garantire ai partecipanti che il coordinatore non possa rubare i bitcoin, né collegare tra loro gli input e gli output.
 

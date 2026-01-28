@@ -1,6 +1,6 @@
 ---
 term: Urinyenyeri rw'icintunza
-definition:
+definition: Uruhererekane rw'ibice (blocks) bifise igihe vyashiriweko bikundira kwemeza kahise k'ivunjisha no kwirinda gukoresha amafaranga kabiri.
 ---
 
 Blockchain ni ijambo rikoreshwa cane ku bijanye n’umurongo wa Bitcoin wa Timestamp.  Ni uruhererekane rw’ibice, aho igice cose gifatanye n’icabanjirije biciye ku gicapo caco c’ibanga Hash.

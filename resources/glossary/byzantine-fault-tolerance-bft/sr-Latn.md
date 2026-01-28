@@ -1,6 +1,6 @@
 ---
 term: Vizantijska tolerancija na greške (BFT)
-definition:
+definition: Koncept koji osigurava pouzdan konsenzus u distribuiranom sistemu uprkos neispravnim ili zlonamernim čvorovima.
 ---
 
 Koncept koji se koristi u distribuiranim sistemima kako bi se osigurao pouzdan i siguran konsenzus, čak i u prisustvu neispravnih ili zlonamernih čvorova.

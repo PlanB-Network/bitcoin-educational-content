@@ -1,7 +1,7 @@
 ---
 term: Odolnost vůči byzantským chybám (BFT)
 
-definition:
+definition: Koncept zajišťující spolehlivý konsenzus v distribuovaném systému navzdory vadným nebo škodlivým uzlům.
 ---
 Koncept používaný v distribuovaných systémech k zajištění spolehlivého a bezpečného konsensu i v přítomnosti chybných nebo škodlivých uzlů.
 

@@ -1,7 +1,7 @@
 ---
 term: Covenant
 
-definition:
+definition: Mekanismi, joka asettaa ehtoja sille, miten bitcoinia voidaan käyttää tulevissa siirroissa.
 ---
 Mekanismi, joka mahdollistaa tiettyjen ehtojen asettamisen sille, miten tietty valuutta voidaan käyttää, myös tulevissa transaktioissa. UTXO:n käsikirjoituskielen tavallisesti sallimien ehtojen lisäksi liitto asettaa lisärajoituksia sille, miten tämä Bitcoin voidaan käyttää myöhemmissä transaktioissa. Teknisesti ottaen sopimus syntyy, kun UTXO:n `scriptPubKey` määrittelee rajoituksia UTXO:n käyttävän transaktion tuotosten `scriptPubKey`:lle. Laajentamalla käsikirjoituksen soveltamisalaa liitot mahdollistaisivat lukuisia Bitcoinin kehityskohteita, kuten drivechainsin kahdenvälisen ankkuroinnin, holvien toteuttamisen tai Lightningin kaltaisten overlay-järjestelmien parantamisen. Covenant-ehdotukset erotellaan kolmen kriteerin perusteella:
 

@@ -1,6 +1,6 @@
 ---
 term: Uburebure bw'icitunza
-definition:
+definition: Inomero y'ukurikirana kw'igice bivanye n'igice ca Genèse, ikoreshwa mu kumenya igice mu ruhererekane.
 ---
 
 Uburebure bw’ibarabara ni umubare w’urutonde rw’ibarabara ugereranije n’ibarabara rya mbere, rizwi kw’izina rya Genesis Block, rifise urutonde ku burebure bwa 0. Rigereranya umubare w’ibarabara ribanza ibarabara rivugwa.

@@ -1,6 +1,6 @@
 ---
 term: Coinbase işlemi
-definition:
+definition: Blok ödülünü ve sübvansiyonu almak için madenci tarafından oluşturulan bloğun ilk işlemi.
 ---
 
 Coinbase Transaction, Bitcoin Blockchain'ün her bloğunda yer alan özel ve benzersiz bir işlemdir. Bir bloğun ilk işlemini temsil eder ve Proof of Work'i (*Proof-of-Work*) doğrulayan, yani hedeften küçük veya hedefe eşit bir başlığı başarıyla bulan Miner tarafından oluşturulur.

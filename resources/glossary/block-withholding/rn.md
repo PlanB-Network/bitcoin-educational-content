@@ -1,6 +1,6 @@
 ---
 term: Izigama ry'icitunza
-definition:
+definition: Igitero aho uwuriko aricukura mw'itsinda (pool) agumya igice (block) cemewe yabonye kugira ngo agabanye inyungu z'itsinda.
 ---
 
 Igitero kidasanzwe mu kidengeri Mining. Ni umugenzo w’ububisha aho uwuriko aragira uruhara mu kidengeri asanga ibuye rifise Proof of Work ibereye ariko ntagisangire n’ikidengeri.

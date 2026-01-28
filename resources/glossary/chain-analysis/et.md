@@ -1,7 +1,7 @@
 ---
 term: Ahelanalüüs
 
-definition:
+definition: Bitcoini voogude jälitamine plokiahelas, kasutades heuristikat ja mustreid.
 ---
 Praktika, mis hõlmab kõiki meetodeid, mida kasutatakse bitcoinide liikumise jälgimiseks plokiahelas. Üldiselt tugineb ahelaanalüüs varasemate tehingute näidiste omaduste vaatlusele. Seejärel hõlmab see samade tunnuste tuvastamist tehingus, mida soovitakse analüüsida, ja usutavate tõlgenduste tuletamist. Seda probleemi lahendamise meetodit, mis põhineb praktilisel lähenemisel piisavalt hea lahenduse leidmiseks, nimetatakse heuristikaks. Lihtsustatult tehakse ahelanalüüs kahes põhietapis:
 

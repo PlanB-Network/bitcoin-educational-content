@@ -1,7 +1,7 @@
 ---
 term: Covenant
 
-definition:
+definition: Mechanismus ukládající podmínky pro způsob, jakým lze bitcoin utratit v budoucích transakcích.
 ---
 Mechanismus, který umožňuje stanovit specifické podmínky pro to, jak lze danou měnu utratit, a to i v budoucích transakcích. Nad rámec podmínek, které obvykle umožňuje skriptovací jazyk na UTXO, vynucuje smlouva další omezení, jak lze tento Bitcoin utratit v následných transakcích. Z technického hlediska dochází k vytvoření smlouvy, když `scriptPubKey` UTXO definuje omezení pro `scriptPubKey` výstupů transakce, která utrácí uvedené UTXO. Rozšířením rozsahu skriptu by covenanty umožnily četný vývoj na Bitcoinu, jako je například oboustranné ukotvení drivechainů, implementace trezorů nebo vylepšení překryvných systémů, jako je Lightning. Návrhy paktů se rozlišují na základě tří kritérií:
 

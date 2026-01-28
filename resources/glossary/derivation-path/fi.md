@@ -1,7 +1,7 @@
 ---
 term: Derivaatiopolku
 
-definition:
+definition: Indeksien sarja, joka kuvaa lapsiavainten johtamispolun pääavaimesta HD-lompakossa.
 ---
 Hierarkkisen deterministisen (HD) lompakon yhteydessä derivaatiopolulla tarkoitetaan indeksien sarjaa, jota käytetään johdettaessa pääavaimesta lapsiavaimia. BIP32:ssa kuvattu polku määrittää puurakenteen, josta johdetaan lapsiavaimet. Derivointipolku on sarja viivaimilla erotettuja indeksejä, ja se alkaa aina pääavaimella (merkintä "m/"). Tyypillinen polku voi olla esimerkiksi `m/84'/0'/0'/0'/0/0`. Jokaiseen derivaatiotasoon liittyy tietty syvyys:
 

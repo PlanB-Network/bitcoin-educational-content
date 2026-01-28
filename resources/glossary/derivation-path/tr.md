@@ -1,6 +1,6 @@
 ---
 term: Türetme yolu
-definition:
+definition: Bir HD cüzdanda, çocuk anahtarların ana anahtardan itibaren türetme yolunu tanımlayan endeks dizisi.
 ---
 
 Hiyerarşik Deterministik (HD) cüzdanlar bağlamında, türetme yolu, bir ana anahtardan alt anahtarları türetmek için kullanılan indeks dizisini ifade eder. BIP32'de açıklanan bu yol, alt anahtarların türetilmesi için ağaç yapısını tanımlar. Türetme yolu eğik çizgilerle ayrılmış bir dizi indisle temsil edilir ve her zaman ana anahtarla başlar (`m/` olarak gösterilir). Örneğin, tipik bir yol `m/84'/0'/0'/0/0` şeklinde olabilir. Her türetme seviyesi belirli bir derinlikle ilişkilendirilir:

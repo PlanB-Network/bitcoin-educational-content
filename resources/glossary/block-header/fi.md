@@ -1,7 +1,7 @@
 ---
 term: Lohkon otsake
 
-definition:
+definition: 80 tavun pituinen rakenne, joka sisältää lohkon metatiedot (versio, edellinen tiiviste, Merkle-juuri, aikaleima, tavoitearvo, nonce).
 ---
 Lohkon otsikko on tietorakenne, joka on Bitcoin-lohkon rakentamisen pääkomponentti. Jokainen lohko koostuu otsikosta ja transaktioiden luettelosta. Lohko-otsikko sisältää ratkaisevia tietoja, joilla varmistetaan lohkon eheys ja pätevyys lohkoketjussa. Lohkootsikko sisältää 80 tavua metatietoa, ja se koostuu seuraavista elementeistä:
 

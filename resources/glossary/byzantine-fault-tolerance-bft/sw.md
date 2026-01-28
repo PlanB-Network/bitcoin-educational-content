@@ -1,6 +1,6 @@
 ---
 term: Uvumilivu wa makosa wa Byzantine (BFT)
-definition:
+definition: Dhana inayohakikisha makubaliano ya kuaminika katika mfumo uliotawanywa licha ya nodi mbovu au zenye nia mbaya.
 ---
 
 Dhana inayotumiwa katika mifumo iliyosambazwa ili kuhakikisha maelewano ya kuaminika na salama, hata mbele ya nodi mbovu au hasidi.

@@ -1,6 +1,6 @@
 ---
 term: Agashimwe k'icitunza
-definition:
+definition: Ingano yose ya bitcoins (intererano + amafaranga y'ivunjisha) umucukuzi aronka iyo atoronse igice (block) cemewe.
 ---
 
 Block reward ni umubare wose w’ama bitcoins yaronswa na Miner iyo ashoboye gucukura neza igice gifise akamaro.

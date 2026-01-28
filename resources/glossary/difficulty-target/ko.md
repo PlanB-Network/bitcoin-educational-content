@@ -1,6 +1,6 @@
 ---
 term: 난이도 목표
-definition:
+definition: 블록 헤더의 해시값이 수용 가능한지 결정하는 256비트 수치.
 ---
 
 난이도 목표라고도 하는 난이도 계수는 Bitcoin의 합의 메커니즘에 사용되는 파라미터로, Proof of Work(Proof of Work, 작업 증명)에 의해 사용됩니다. 목표는 채굴자가 Blockchain에서 새 블록을 생성할 때 Proof of Work이라고 하는 특정 암호화 문제를 풀어야 하는 난이도를 결정하는 수치입니다.

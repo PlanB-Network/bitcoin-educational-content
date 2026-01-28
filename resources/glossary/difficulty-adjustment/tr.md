@@ -1,6 +1,6 @@
 ---
 term: Zorluk ayarlaması
-definition:
+definition: Blok başına ortalama 10 dakikalık süreyi korumak için her 2016 blokta bir zorluk hedefini yeniden tanımlayan periyodik süreç.
 ---
 
 Zorluk ayarlaması, Bitcoin'deki Proof of Work mekanizması (Mining) için zorluk hedefini yeniden tanımlayan periyodik bir süreçtir. Bu olay her 2016 blokta bir (yaklaşık iki haftada bir) gerçekleşir. Son 2016 bloklarının ne kadar hızlı bulunduğuna bağlı olarak zorluk faktörünü (zorluk hedefi olarak da adlandırılır) artırmaya veya azaltmaya yarar. Ayarlama, madenciler tarafından kullanılan hesaplama gücündeki değişikliklere rağmen, her 10 dakikada bir blok sıklığında istikrarlı ve öngörülebilir bir blok üretim oranını korumayı amaçlamaktadır. Ayarlama sırasında zorluk derecesindeki değişiklik 4 faktörle sınırlıdır. Yeni hedefi hesaplamak için düğümler tarafından yürütülen formül aşağıdaki gibidir:

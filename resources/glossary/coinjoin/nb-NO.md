@@ -1,7 +1,7 @@
 ---
 term: Coinjoin
 
-definition:
+definition: Mikseteknikk der flere brukere kombinerer sine transaksjoner for å skjule sporingen av bitcoin.
 ---
 Coinjoin er en teknikk som brukes til å bryte sporbarheten til bitcoins. Den baserer seg på en samarbeidstransaksjon med en spesifikk struktur med samme navn: coinjoin-transaksjonen. Coinjoin-transaksjoner bidrar til å forbedre personvernet til Bitcoin-brukere ved å gjøre det vanskeligere for eksterne observatører å analysere transaksjoner. Denne strukturen gjør det mulig å blande flere mynter i én enkelt transaksjon, noe som gjør det vanskelig å fastslå koblingene mellom inngangs- og utgangsadresser.
 

@@ -1,6 +1,6 @@
 ---
 term: Byzantinsk feltolerans (BFT)
-definition:
+definition: Koncept som säkerställer tillförlitlig konsensus i ett distribuerat system trots felaktiga eller illasinnade noder.
 ---
 
 Ett koncept som används i distribuerade system för att säkerställa tillförlitlig och säker konsensus, även i närvaro av felaktiga eller illvilliga noder.

@@ -1,7 +1,7 @@
 ---
 term: Komprimert offentlig nøkkel
 
-definition:
+definition: Kompakt form av en offentlig nøkkel som kun bruker x-koordinaten og et paritetsprefiks (02 eller 03).
 ---
 En offentlig nøkkel brukes i skript (enten direkte i form av en offentlig nøkkel eller som en adresse) for å motta og sikre bitcoins. En rå offentlig nøkkel representeres av et punkt på en elliptisk kurve, som består av to koordinater (`x, y`) på 256 bits hver. I råformat måler en offentlig nøkkel derfor 512 bits, uten å regne med den ekstra byten som identifiserer formatet. En komprimert offentlig nøkkel er derimot en mer kompakt form for offentlig nøkkelrepresentasjon. Den bruker bare x-koordinaten og et prefiks (02 eller 03) som angir pariteten til y-koordinaten (partall eller oddetall).
 

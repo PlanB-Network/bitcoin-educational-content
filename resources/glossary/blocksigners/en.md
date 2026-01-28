@@ -1,6 +1,6 @@
 ---
 term: Blocksigners
-definition:
+definition: Entities responsible for building and validating blocks in the Liquid sidechain.
 ---
 
 In the context of Liquid (a Bitcoin sidechain), blocksigners are the entities responsible for constructing and validating blocks on the network. 

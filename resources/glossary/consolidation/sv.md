@@ -1,6 +1,6 @@
 ---
 term: Konsolidering
-definition:
+definition: Transaktion som slår samman flera små UTXOer till en enda större för att minska framtida avgifter.
 ---
 
 En specifik transaktion där flera små UTXO:er slås samman till en input för att bilda en enda större UTXO som output. Denna operation är en transaktion som görs till ens egen Wallet. Målet med konsolidering är att dra nytta av perioder när avgifterna i Bitcoin-nätverket är låga för att slå samman flera små UTXO:er till en som är större i värde. På så sätt förutser man obligatoriska utgifter vid avgiftshöjningar, vilket möjliggör besparingar på framtida transaktionsavgifter.

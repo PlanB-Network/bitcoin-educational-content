@@ -1,6 +1,6 @@
 ---
 term: 難度目標
-definition:
+definition: 256 位元的數值，決定了區塊頭雜湊值的接受上限。
 ---
 
 難度因數也稱為難度目標，是 Proof of Work (Proof of Work，PoW) 在 Bitcoin 上的共識機制中使用的參數。該目標代表一個數值，決定礦工在 Blockchain 上建立新區塊時，解決特定加密問題的難度，稱為 Proof of Work。

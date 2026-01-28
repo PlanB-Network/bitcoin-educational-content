@@ -1,7 +1,7 @@
 ---
 term: Blinde Signatur
 
-definition:
+definition: Digitale Signatur, bei der der Aussteller den signierten Inhalt nicht kennt, verwendet in Chaumian CoinJoins und ecash.
 ---
 Die Blindsignatur nach Chaum ist eine Form der digitalen Signatur, bei der der Aussteller der Signatur den Inhalt der Nachricht, die er signiert, nicht kennt. Die Signatur kann jedoch später mit der Originalnachricht überprüft werden. Diese Technik wurde 1983 von dem Kryptographen David Chaum entwickelt.
 

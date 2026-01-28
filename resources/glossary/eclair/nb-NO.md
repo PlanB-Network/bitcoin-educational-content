@@ -1,7 +1,7 @@
 ---
 term: Eclair
 
-definition:
+definition: Implementering av Lightning Network-protokollen i språket Scala, utviklet av Acinq.
 ---
 En viktig implementering av Lightning Network-protokollen skrevet i Scala-språket. Eclair er utviklet av det franske selskapet Acinq.
 

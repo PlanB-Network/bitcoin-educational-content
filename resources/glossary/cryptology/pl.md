@@ -1,6 +1,6 @@
 ---
 term: Kryptologia
-definition:
+definition: Nauka matematyczna łącząca kryptoanalizę i kryptografię.
 ---
 
 Nauka matematyczna zajmująca się kryptoanalizą i kryptografią.

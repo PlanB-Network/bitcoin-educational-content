@@ -1,6 +1,6 @@
 ---
 term: Chaumian coinjoin
-definition:
+definition: Protokół coinjoin wykorzystujący ślepe podpisy Chauma w celu zapewnienia prywatności uczestników.
 ---
 
 Protokół CoinJoin, który wykorzystuje ślepe podpisy Davida Chauma i Tor do komunikacji między uczestnikami a serwerem koordynatora. Celem Chaumian CoinJoin jest zapewnienie uczestnikom, że koordynator nie może ukraść bitcoinów ani połączyć ze sobą wejść i wyjść.

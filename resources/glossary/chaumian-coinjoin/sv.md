@@ -1,6 +1,6 @@
 ---
 term: Chaumian coinjoin
-definition:
+definition: Coinjoin-protokoll som använder Chaums blinda signaturer för att säkerställa deltagarnas integritet.
 ---
 
 Ett CoinJoin-protokoll som använder David Chaums blinda signaturer och Tor för kommunikation mellan deltagare och koordinatorns server. Målet med ett Chaumian CoinJoin är att säkerställa att deltagarna vet att koordinatorn inte kan stjäla bitcoins eller länka samman in- och utgångar.

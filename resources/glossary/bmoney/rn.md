@@ -1,7 +1,7 @@
 ---
 term: B-money
 
-definition:
+definition: Icyitegererezo c'ifaranga rya dijital ritarangwa n'ubuyobozi bwo hagati ryateguwe na Wei Dai mu 1998, ryabanjirije Bitcoin.
 ---
 
 Igishushanyo c’amahera y’ibanga yegerejwe abantu bose yatunganijwe na Wei Dai mu 1998. Yari yiyumvira urubuga aho abayigize bomenyekana gusa biciye ku mfunguruzo za bose, kandi igikorwa cose coba carashizweko umukono n’uwurungitse.

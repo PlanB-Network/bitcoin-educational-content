@@ -1,7 +1,7 @@
 ---
 term: BTCPay Server
 
-definition:
+definition: 중개자 없이 비트코인 결제를 수락할 수 있게 해주는 오픈 소스 결제 프로세서.
 ---
 
 BTCPay 서버는 오픈 소스 결제 프로세서로, 판매자와 사용자가 거래 처리를 위해 제3자에 의존하지 않고도 Bitcoin 결제를 수락할 수 있도록 지원합니다.

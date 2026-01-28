@@ -1,6 +1,6 @@
 ---
 term: Gecomprimeerde publieke sleutel
-definition:
+definition: Compacte vorm van een publieke sleutel die alleen de x-coördinaat en een pariteitsprefix (02 of 03) gebruikt.
 ---
 
 Een publieke sleutel wordt gebruikt in scripts (direct in de vorm van een publieke sleutel of als Address) om bitcoins te ontvangen en te beveiligen. Een ruwe publieke sleutel wordt voorgesteld door een punt op een elliptische curve, bestaande uit twee coördinaten (`x, y`) van elk 256 bits. In onbewerkt formaat is een openbare sleutel dus 512 bits groot, de extra byte om het formaat te identificeren niet meegerekend. Een gecomprimeerde openbare sleutel daarentegen is een compactere vorm van openbare sleutelrepresentatie. Het gebruikt alleen de `x` coördinaat en een voorvoegsel (`02` of `03`) dat de pariteit van de `y` coördinaat aangeeft (even of oneven).

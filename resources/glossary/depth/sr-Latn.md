@@ -1,6 +1,6 @@
 ---
 term: Dubina
-definition:
+definition: Nivo ključa u strukturi derivacije HD novčanika u odnosu na master ključ.
 ---
 
 U kontekstu HD (Hijerarhijski Deterministički) novčanika, dubina se odnosi na specifičan nivo ključa (javnog ili privatnog), lanca koda, proširenog ključa, ili Address unutar Wallet strukture derivacije iz glavnog ključa. Svaki nivo ove strukture može se posmatrati kao sprat u stablu ključeva, gde je glavni ključ u korenu (dubina 0) i naredni nivoi definišu različite atribute kao što su:

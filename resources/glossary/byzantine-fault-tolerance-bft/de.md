@@ -1,7 +1,7 @@
 ---
 term: Byzantinische Fehlertoleranz (BFT)
 
-definition:
+definition: Konzept, das einen zuverlässigen Konsens in einem verteilten System trotz fehlerhafter oder böswilliger Knoten gewährleistet.
 ---
 Ein Konzept, das in verteilten Systemen verwendet wird, um einen zuverlässigen und sicheren Konsens zu gewährleisten, selbst wenn fehlerhafte oder böswillige Knoten vorhanden sind.
 

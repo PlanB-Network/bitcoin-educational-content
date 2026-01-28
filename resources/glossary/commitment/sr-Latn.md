@@ -1,6 +1,6 @@
 ---
 term: Obavezivanje
-definition:
+definition: Kriptografski objekat koji omogućava dokazivanje postojanja podataka bez njihovog otkrivanja.
 ---
 
 Commitment (u kriptografskom smislu) je matematički objekat, označen sa $C$, izveden deterministički iz operacije na strukturisanim podacima $m$ (poruka) i nasumične vrednosti $r$. Pišemo :

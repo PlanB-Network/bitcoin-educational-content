@@ -1,7 +1,7 @@
 ---
 term: Ableitungspfad
 
-definition:
+definition: Folge von Indizes, die den Ableitungspfad von Child-Keys ausgehend vom Master-Key in einem HD-Wallet beschreibt.
 ---
 Im Zusammenhang mit hierarchisch-deterministischen (HD) Geldbörsen bezieht sich ein Ableitungspfad auf die Abfolge von Indizes, die zur Ableitung von Unterschlüsseln aus einem Hauptschlüssel verwendet werden. In BIP32 beschrieben, identifiziert dieser Pfad die Baumstruktur für die Ableitung von Unterschlüsseln. Ein Ableitungspfad wird durch eine Reihe von Indizes dargestellt, die durch Schrägstriche getrennt sind, und beginnt immer mit dem Hauptschlüssel (bezeichnet als "m/"). Ein typischer Pfad könnte zum Beispiel `m/84'/0'/0'/0/0` lauten. Jede Ableitungsebene ist mit einer bestimmten Tiefe verbunden:
 

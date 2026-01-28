@@ -1,7 +1,7 @@
 ---
 term: Konsolidointi
 
-definition:
+definition: Siirto, joka yhdistää useita pieniä UTXOita yhdeksi suuremmaksi tulevien kulujen pienentämiseksi.
 ---
 Erikoistapahtuma, jossa useita pieniä UTXO:ita yhdistetään yhteen syötteeseen, jolloin tuloksena on yksi suurempi UTXO. Tämä operaatio on omaan lompakkoon tehty transaktio. Yhdistämisen tavoitteena on hyödyntää aikoja, jolloin Bitcoin-verkon maksut ovat alhaiset, ja yhdistää useita pieniä UTXO:ita yhdeksi arvoltaan suuremmaksi. Näin se ennakoi pakollisia kuluja maksujen noustessa, mikä mahdollistaa säästöt tulevissa transaktiomaksuissa.
 

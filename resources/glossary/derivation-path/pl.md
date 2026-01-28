@@ -1,6 +1,6 @@
 ---
 term: Ścieżka derywacji
-definition:
+definition: Sekwencja indeksów opisująca ścieżkę derywacji kluczy potomnych z klucza głównego w portfelu HD.
 ---
 
 W kontekście portfeli Hierarchical Deterministic (HD), ścieżka derywacji odnosi się do sekwencji indeksów używanych do wyprowadzania kluczy podrzędnych z klucza głównego. Opisana w BIP32, ścieżka ta identyfikuje strukturę drzewa do wyprowadzania kluczy podrzędnych. Ścieżka wyprowadzania jest reprezentowana przez serię indeksów oddzielonych ukośnikami i zawsze zaczyna się od klucza głównego (oznaczonego jako `m/`). Na przykład, typową ścieżką może być `m/84'/0'/0'/0/0`. Każdy poziom derywacji jest powiązany z określoną głębokością:

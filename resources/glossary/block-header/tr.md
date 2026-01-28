@@ -1,6 +1,6 @@
 ---
 term: Blok başlığı
-definition:
+definition: Bir bloğun meta verilerini (sürüm, önceki özet, Merkle kökü, zaman damgası, hedef, nonce) içeren 80 baytlık yapı.
 ---
 
 The block header is a data structure that serves as the main component in the construction of a Bitcoin block. Each block consists of a header and a list of transactions. The block header contains crucial information that ensures the integrity and validity of a block within the Blockchain. The block header contains 80 bytes of metadata and is composed of the following Elements:

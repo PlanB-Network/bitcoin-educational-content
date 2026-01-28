@@ -1,7 +1,7 @@
 ---
 term: Tolerancia a faltas bizantinas (BFT)
 
-definition:
+definition: Concepto que garantiza un consenso fiable en un sistema distribuido a pesar de la existencia de nodos defectuosos o malintencionados.
 ---
 Concepto utilizado en los sistemas distribuidos para garantizar un consenso fiable y seguro, incluso en presencia de nodos defectuosos o maliciosos.
 

@@ -1,6 +1,6 @@
 ---
 term: Chain code
-definition:
+definition: 256-bitowa kryptograficzna wartość soli używana w procesie wyprowadzania kluczy HD portfela.
 ---
 
 W kontekście hierarchicznej deterministycznej derywacji (HD) portfeli Bitcoin, kod łańcucha jest 256-bitową kryptograficzną wartością soli używaną do generate kluczy potomnych z klucza nadrzędnego, zgodnie ze standardem BIP32. Kod łańcucha jest używany w połączeniu z kluczem nadrzędnym i indeksem podrzędnym w celu deterministycznego generate nowej pary kluczy (klucza prywatnego i klucza publicznego) bez ujawniania klucza nadrzędnego lub innych pochodnych kluczy podrzędnych.

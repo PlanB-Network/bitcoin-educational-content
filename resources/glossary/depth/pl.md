@@ -1,6 +1,6 @@
 ---
 term: Głębokość
-definition:
+definition: Poziom klucza w strukturze derywacji portfela HD względem klucza głównego (master key).
 ---
 
 W kontekście portfeli HD (Hierarchical Deterministic) głębokość odnosi się do konkretnego poziomu klucza (publicznego lub prywatnego), kodu łańcucha, klucza rozszerzonego lub Address w strukturze wyprowadzania Wallet z klucza głównego. Każdy poziom tej struktury może być postrzegany jako piętro w drzewie kluczy, gdzie klucz główny znajduje się w korzeniu (głębokość 0), a kolejne poziomy definiują różne atrybuty, takie jak:

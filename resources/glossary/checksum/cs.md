@@ -1,6 +1,6 @@
 ---
 term: Kontrolní součet
-definition:
+definition: Vypočítaná hodnota pro ověření integrity dat, používaná v adresách a obnovovacích frázích.
 ---
 
 Kontrolní součet je hodnota vypočtená ze souboru dat, která se používá k ověření integrity a platnosti těchto dat při přenosu nebo ukládání. Algoritmy kontrolních součtů jsou určeny k odhalování náhodných chyb nebo neúmyslných změn dat, jako jsou chyby při přenosu nebo poškození souboru. Existují různé typy algoritmů kontrolních součtů, například paritní kontroly, modulární kontrolní součty, kryptografické funkce Hash nebo kódy BCH (*Bose, Ray-Chaudhuri a Hocquenghem*).

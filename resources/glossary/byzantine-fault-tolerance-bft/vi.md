@@ -1,7 +1,7 @@
 ---
 term: Khả năng chịu lỗi Byzantine (BFT)
 
-definition:
+definition: Khái niệm đảm bảo sự đồng thuận đáng tin cậy trong một hệ thống phân tán bất chấp các nút bị lỗi hoặc độc hại.
 ---
 A concept used in distributed systems to ensure reliable and secure consensus, even in the presence of faulty or malicious nodes.
 

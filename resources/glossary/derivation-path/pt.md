@@ -1,7 +1,7 @@
 ---
 term: Caminho de derivação
 
-definition:
+definition: Sequência de índices que descreve o caminho de derivação das chaves filhas a partir da chave mestra numa carteira HD.
 ---
 No contexto das carteiras Determinísticas Hierárquicas (HD), um caminho de derivação refere-se à sequência de índices utilizados para derivar chaves-filhas a partir de uma chave-mestra. Descrito na BIP32, este caminho identifica a estrutura em árvore para derivar chaves-filhas. Um caminho de derivação é representado por uma série de índices separados por barras, e sempre começa com a chave mestra (denotada como `m/`). Por exemplo, um caminho típico pode ser `m/84'/0'/0'/0'/0/0`. Cada nível de derivação está associado a uma profundidade específica:
 

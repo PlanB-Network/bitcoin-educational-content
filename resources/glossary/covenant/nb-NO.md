@@ -1,7 +1,7 @@
 ---
 term: Covenant
 
-definition:
+definition: Mekanisme som pålegger betingelser for hvordan en bitcoin kan brukes i fremtidige transaksjoner.
 ---
 En mekanisme som gjør det mulig å pålegge spesifikke betingelser for hvordan en gitt del av valutaen kan brukes, inkludert i fremtidige transaksjoner. Utover de betingelsene som vanligvis tillates av skriptspråket på en UTXO, håndhever pakten ytterligere begrensninger for hvordan denne Bitcoin kan brukes i påfølgende transaksjoner. Teknisk sett oppstår etableringen av en pakt når `scriptPubKey` av en UTXO definerer restriksjoner på `scriptPubKey` av utdataene til en transaksjon som bruker UTXO-en. Ved å utvide omfanget av skriptet, vil pakter muliggjøre en rekke utviklinger på Bitcoin, for eksempel bilateral forankring av drivkjeder, implementering av hvelv eller forbedring av overleggssystemer som Lightning. Paktforslag er differensiert basert på tre kriterier:
 

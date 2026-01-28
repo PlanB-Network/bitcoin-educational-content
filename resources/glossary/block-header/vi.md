@@ -1,7 +1,7 @@
 ---
 term: Tiêu đề khối
 
-definition:
+definition: Cấu trúc 80 byte chứa siêu dữ liệu của một khối (phiên bản, băm trước đó, gốc Merkle, dấu thời gian, mục tiêu, nonce).
 ---
 The block header is a data structure that serves as the main component in the construction of a Bitcoin block. Each block consists of a header and a list of transactions. The block header contains crucial information that ensures the integrity and validity of a block within the blockchain. The block header contains 80 bytes of metadata and is composed of the following elements:
 

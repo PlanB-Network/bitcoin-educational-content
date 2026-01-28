@@ -1,7 +1,7 @@
 ---
 term: Kedalaman
 
-definition:
+definition: Level kunci dalam struktur derivasi dompet HD dari master key.
 ---
 Dalam konteks dompet HD (_Hierarchical Deterministic_), kedalaman mengacu pada level spesifik dari sebuah kunci (publik atau privat), kode rantai, kunci tambahan, atau alamat dalam struktur turunan dompet dari kunci utama. Setiap level dari struktur ini dapat dilihat sebagai sebuah lantai pada pohon kunci, dimana kunci utama berada pada akar (kedalaman 0) dan level selanjutnya mendefinisikan berbagai atribut seperti:
 

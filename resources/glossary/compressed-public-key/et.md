@@ -1,7 +1,7 @@
 ---
 term: Pakitud avalik võti
 
-definition:
+definition: Avaliku võtme kompaktne vorm, mis kasutab ainult x-koordinaati ja pariteedi eesliidet (02 või 03).
 ---
 Avalikku võtit kasutatakse skriptides (kas otse avaliku võtme või aadressi kujul) bitcoinide vastuvõtmiseks ja kaitsmiseks. Toores avalik võti on kujutatud punktina elliptilisel kõveral, mis koosneb kahest koordinaadist (`x, y`), millest igaühe pikkus on 256 bitti. Toorformaadis on avaliku võtme pikkus seega 512 bitti, arvestamata täiendavat baiti formaadi identifitseerimiseks. Pakitud avalik võti on seevastu avaliku võtme kompaktsem esitusviis. See kasutab ainult koordinaati "x" ja eesliidet ("02" või "03"), mis näitab "y" koordinaadi pariteeti (paariline või paaritu).
 

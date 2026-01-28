@@ -1,7 +1,7 @@
 ---
 term: Coinjoin
 
-definition:
+definition: Mixing-Technik, bei der mehrere Benutzer ihre Transaktionen kombinieren, um die Rückverfolgung von Bitcoins zu verschleiern.
 ---
 Coinjoin ist eine Technik, die dazu dient, die Rückverfolgbarkeit von Bitcoins zu umgehen. Sie beruht auf einer kollaborativen Transaktion mit einer spezifischen Struktur gleichen Namens: der Coinjoin-Transaktion. Coinjoin-Transaktionen tragen dazu bei, den Schutz der Privatsphäre von Bitcoin-Nutzern zu verbessern, indem sie es externen Beobachtern erschweren, Transaktionen zu analysieren. Diese Struktur ermöglicht es, mehrere Münzen in einer einzigen Transaktion zu mischen, was es schwierig macht, die Verbindungen zwischen Eingangs- und Ausgangsadressen zu bestimmen.
 

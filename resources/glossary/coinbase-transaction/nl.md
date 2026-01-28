@@ -1,6 +1,6 @@
 ---
 term: Coinbase-transactie
-definition:
+definition: Eerste transactie van een blok gemaakt door de miner om de blokbeloning en subsidie te ontvangen.
 ---
 
 De Coinbase Transaction is een speciale en unieke transactie die in elk blok van de Bitcoin Blockchain zit. Het vertegenwoordigt de eerste transactie van een blok en wordt aangemaakt door de Miner die met succes een header heeft gevonden die de Proof of Work (*Proof-of-Work*) valideert, dat wil zeggen, kleiner dan of gelijk aan het doel.

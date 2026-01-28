@@ -1,7 +1,7 @@
 ---
 term: CIOH
 
-definition:
+definition: Heurística que asume que todas las entradas de una transacción pertenecen a la misma entidad.
 ---
 Abreviatura de "*Common Input Ownership Heuristic*". Es una heurística utilizada en el campo del análisis de cadenas Bitcoin que asume que todas las entradas de una transacción pertenecen a la misma entidad o usuario. Cuando se observan los datos públicos de una transacción Bitcoin, y se detectan múltiples entradas, entonces, si no hay patrones u otra información que lo refute, se puede estimar que todas las entradas de esta transacción pertenecían a una única persona (o entidad).
 

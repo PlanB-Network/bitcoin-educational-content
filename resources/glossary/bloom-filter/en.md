@@ -1,6 +1,6 @@
 ---
 term: Bloom filter
-definition:
+definition: Probabilistic data structure allowing for quick testing of set membership, used in SPV wallets.
 ---
 
 A Bloom filter is a probabilistic data structure used to test whether an element is a member of a set. 

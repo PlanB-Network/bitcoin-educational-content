@@ -1,6 +1,6 @@
 ---
 term: Kontrolna suma
-definition:
+definition: Izračunata vrednost za proveru integriteta podataka, koristi se u adresama i frazama za oporavak.
 ---
 
 Kontrolni zbir je vrednost izračunata iz skupa podataka, koja se koristi za proveru integriteta i validnosti tih podataka tokom prenosa ili skladištenja. Algoritmi za kontrolni zbir su dizajnirani da otkriju slučajne greške ili nenamerne izmene podataka, kao što su greške u prenosu ili oštećenje datoteka. Postoje različite vrste algoritama za kontrolni zbir, kao što su paritetne provere, modularni kontrolni zbir, kriptografske Hash funkcije ili BCH (*Bose, Ray-Chaudhuri i Hocquenghem*) kodovi.

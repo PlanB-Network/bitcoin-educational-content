@@ -1,7 +1,7 @@
 ---
 term: Konsolideerimine
 
-definition:
+definition: Tehing, mis liidab mitu väikest UTXO-d üheks suuremaks, et vähendada tulevasi tasusid.
 ---
 Konkreetne tehing, mille puhul mitu väikest UTXOd liidetakse ühte sisendisse, et moodustada väljundiks üks suurem UTXO. See operatsioon on oma rahakotile tehtud tehing. Konsolideerimise eesmärk on kasutada ära perioode, mil tasud Bitcoini võrgus on madalad, et ühendada mitu väikest UTXOd üheks suuremaks väärtusega UTXOks. Seega ennetab see kohustuslikke kulutusi tasude tõusu korral, võimaldades säästa tulevaste tehingutasude pealt.
 

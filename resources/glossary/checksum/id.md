@@ -1,6 +1,6 @@
 ---
 term: Checksum
-definition:
+definition: Nilai yang dihitung untuk memverifikasi integritas data, digunakan dalam alamat dan frasa pemulihan.
 ---
 
 _Checksum_ adalah nilai yang dihitung dari sekumpulan data, yang digunakan untuk memverifikasi integritas dan keabsahan data tersebut selama transmisi atau penyimpanan. Algoritma _checksum_ dirancang untuk mendeteksi kesalahan yang tidak disengaja atau perubahan yang tidak disengaja pada data, seperti kesalahan transmisi atau kerusakan file. Terdapat berbagai jenis algoritma checksum, seperti pemeriksaan paritas, _checksum_ modular, fungsi kriptografi Hash, atau kode BCH (*Bose, Ray-Chaudhuri, dan Hocquenghem*).

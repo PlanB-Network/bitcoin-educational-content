@@ -1,7 +1,7 @@
 ---
 term: Độ sâu
 
-definition:
+definition: Cấp độ của một khóa trong cấu trúc dẫn xuất của ví HD tính từ khóa chính.
 ---
 In the context of HD (Hierarchical Deterministic) wallets, depth refers to the specific level of a key (public or private), a chain code, an extended key, or an address within the wallet's derivation structure from the master key. Each level of this structure can be seen as a floor in a key tree, where the master key is at the root (depth 0) and the subsequent levels define various attributes such as:
 

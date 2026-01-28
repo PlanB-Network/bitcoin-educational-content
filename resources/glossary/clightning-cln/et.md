@@ -1,6 +1,6 @@
 ---
 term: C-lightning (CLN)
 
-definition:
+definition: Lightning Networki protokolli Core-Lightningi rakenduse endine nimi.
 ---
 Core-Lightning rakenduse endine nimi.

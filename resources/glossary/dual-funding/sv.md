@@ -1,6 +1,6 @@
 ---
 term: Dual funding
-definition:
+definition: Metod som gör det möjligt för båda parter att finansiera en Lightning-kanal när den öppnas.
 ---
 
 När en Lightning-kanal öppnas gör dubbel finansiering att båda deltagarna kan låsa bitcoins i kanalen. Till skillnad från den traditionella modellen, där endast en nod finansierar kanalen, tillåter denna metod båda parter att finansiera den, vilket möjliggör omedelbar likviditetsbalansering.

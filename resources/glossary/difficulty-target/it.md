@@ -1,7 +1,7 @@
 ---
 term: Target di difficoltà
 
-definition:
+definition: Valore numerico a 256 bit che determina il limite di accettabilità per l'hashing degli header dei blocchi.
 ---
 Il fattore di difficoltà, noto anche come obiettivo di difficoltà, è un parametro utilizzato nel meccanismo di consenso per prova di lavoro (Proof of Work, PoW) su Bitcoin. Il target rappresenta un valore numerico che determina la difficoltà per i minatori di risolvere uno specifico problema crittografico, chiamato proof of work, quando si crea un nuovo blocco sulla blockchain.
 

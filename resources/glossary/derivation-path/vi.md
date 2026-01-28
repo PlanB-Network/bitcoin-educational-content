@@ -1,7 +1,7 @@
 ---
 term: Đường dẫn dẫn xuất
 
-definition:
+definition: Chuỗi các chỉ số mô tả đường dẫn dẫn xuất của các khóa con từ khóa chính trong ví HD.
 ---
 In the context of Hierarchical Deterministic (HD) wallets, a derivation path refers to the sequence of indices used to derive child keys from a master key. Described in BIP32, this path identifies the tree structure for deriving child keys. A derivation path is represented by a series of indices separated by slashes, and always starts with the master key (denoted as `m/`). For example, a typical path might be `m/84'/0'/0'/0/0`. Each level of derivation is associated with a specific depth:
 

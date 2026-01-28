@@ -1,6 +1,6 @@
 ---
 term: Djup
-definition:
+definition: Nivån för en nyckel i härledningsstrukturen för en HD-plånbok från masternyckeln.
 ---
 
 I samband med HD-plånböcker (Hierarchical Deterministic) avser djup den specifika nivån för en nyckel (offentlig eller privat), en chain code, en utökad nyckel eller en Address inom Wallet:s härledningsstruktur från huvudnyckeln. Varje nivå i denna struktur kan ses som en våning i ett nyckelträd, där huvudnyckeln är roten (djup 0) och de efterföljande nivåerna definierar olika attribut som t.ex:

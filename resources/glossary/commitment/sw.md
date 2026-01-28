@@ -1,6 +1,6 @@
 ---
 term: Ahadi
-definition:
+definition: Kitu cha kriptografia kinachoruhusu kuthibitisha uwepo wa data bila kuifunua.
 ---
 
 Commitment (katika maana ya kriptografia) ni kitu cha hisabati, kinachoashiria $C$, kinachotokana na operesheni kwenye data iliyopangwa $m$ (ujumbe) na thamani ya nasibu $r$. Tunaandika:

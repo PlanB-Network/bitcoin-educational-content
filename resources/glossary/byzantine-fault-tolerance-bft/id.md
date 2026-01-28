@@ -1,7 +1,7 @@
 ---
 term: Toleransi Kesalahan Bizantium (BFT)
 
-definition:
+definition: Konsep yang memastikan konsensus yang andal dalam sistem terdistribusi meskipun ada node yang rusak atau jahat.
 ---
 Sebuah konsep yang digunakan dalam sistem terdistribusi untuk memastikan konsensus yang andal dan aman, meski ada node yang rusak atau berbahaya.
 

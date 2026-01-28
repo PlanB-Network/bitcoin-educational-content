@@ -1,7 +1,7 @@
 ---
 term: Kunci publik terkompresi
 
-definition:
+definition: Bentuk ringkas dari kunci publik yang hanya menggunakan koordinat-x dan awalan paritas (02 atau 03).
 ---
 Kunci publik yang digunakan dalam skrip (baik secara langsung dalam bentuk kunci publik atau sebagai alamat) untuk menerima dan mengamankan bitcoin. Sebuah kunci publik mentah diwakili oleh sebuah titik pada kurva elips, yang terdiri dari dua koordinat (`x, y`) yang nilainya masing-masing terdiri dari 256 bit. Dalam format mentah, kunci publik berukuran 512 bit, tidak termasuk byte tambahan untuk mengidentifikasi format. Kunci publik terkompresi, di sisi lain, adalah bentuk representasi kunci publik yang lebih ringkas. Kunci publik ini hanya menggunakan koordinat `x` dan sebuah awalan (`02` atau `03`) yang mengindikasikan paritas dari koordinat `y` (genap atau ganjil).
 

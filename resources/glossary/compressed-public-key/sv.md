@@ -1,6 +1,6 @@
 ---
 term: Komprimerad publik nyckel
-definition:
+definition: Kompakt form av en offentlig nyckel som endast använder x-koordinaten och ett paritetsprefix (02 eller 03).
 ---
 
 En publik nyckel används i skript (antingen direkt i form av en publik nyckel eller som en Address) för att ta emot och säkra bitcoins. En rå publik nyckel representeras av en punkt på en elliptisk kurva som består av två koordinater (`x, y`) på vardera 256 bitar. I råformat mäter en offentlig nyckel därför 512 bitar, utan att räkna den extra byte som identifierar formatet. En komprimerad publik nyckel är å andra sidan en mer kompakt form av representation av publika nycklar. Den använder endast koordinaten `x` och ett prefix (`02` eller `03`) som anger pariteten för koordinaten `y` (jämn eller udda).

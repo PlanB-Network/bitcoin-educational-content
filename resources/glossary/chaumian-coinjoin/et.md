@@ -1,7 +1,7 @@
 ---
 term: Chaumian coinjoin
 
-definition:
+definition: Coinjoin protokoll, mis kasutab osalejate privaatsuse tagamiseks Chaumi pimeallkirju.
 ---
 Coinjoin-protokoll, mis kasutab David Chaumi pimesi allkirju ja Tor'i osalejate ja koordinaatori serveri vaheliseks suhtluseks. Chaumi coinjoini eesmärk on tagada osalejatele, et koordinaator ei saa bitcoine varastada ega sisendeid ja väljundeid omavahel siduda.
 

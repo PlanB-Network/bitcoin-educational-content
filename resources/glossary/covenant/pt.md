@@ -1,7 +1,7 @@
 ---
 term: Covenant
 
-definition:
+definition: Mecanismo que impõe condições sobre como um bitcoin pode ser gasto em transações futuras.
 ---
 Um mecanismo que permite a imposição de condições específicas sobre a forma como uma determinada moeda pode ser gasta, incluindo em transacções futuras. Para além das condições normalmente permitidas pela linguagem de script de um UTXO, o covenant impõe restrições adicionais sobre a forma como esta Bitcoin pode ser gasta em transacções subsequentes. Tecnicamente, o estabelecimento de um covenant ocorre quando a `scriptPubKey` de um UTXO define restrições na `scriptPubKey` dos outputs de uma transação que gasta o referido UTXO. Ao alargar o âmbito do script, os covenants permitiriam inúmeros desenvolvimentos na Bitcoin, como a ancoragem bilateral de drivechains, a implementação de vaults ou a melhoria de sistemas de sobreposição como o Lightning. As propostas de convénio são diferenciadas com base em três critérios:
 

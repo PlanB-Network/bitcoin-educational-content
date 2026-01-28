@@ -1,7 +1,7 @@
 ---
 term: Kegagalan Bizantium
 
-definition:
+definition: Perilaku sistem yang tidak sesuai dengan spesifikasinya, yang dapat bersifat alami atau disengaja.
 ---
 Kegagalan Byzantium, atau perilaku Byzantium, mengacu pada perilaku sistem yang tidak sesuai dengan spesifikasinya sendiri, menghasilkan hasil yang tidak sesuai.
 

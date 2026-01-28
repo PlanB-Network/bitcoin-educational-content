@@ -1,6 +1,6 @@
 ---
 term: Ibikorwa vya coinbase
-definition:
+definition: Ivunjisha rya mbere mu gice ryakozwe n'umucukuzi kugira ngo yakire agashimwe k'igice n'imfashanyo.
 ---
 
 Coinbase Transaction ni igikorwa kidasanzwe kandi kidasanzwe kiri muri buri gice ca Bitcoin Blockchain. Igereranya igikorwa ca mbere c’ububiko kandi iremwa na Miner yaronse neza umutwe wemeza Proof of Work (*Proof-of-Work*), ni ukuvuga ko ari muto canke ungana n’ico yipfuza.

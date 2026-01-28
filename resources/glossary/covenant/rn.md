@@ -1,6 +1,6 @@
 ---
 term: Isezerano
-definition:
+definition: Uburyo bushiraho amategeko ku kuntu bitcoin ishobora gukoreshwa mu vunjisha ryo hanyuma.
 ---
 
 Uburyo bwemerera gushinga amategeko yihariye ku buryo amafaranga kanaka yoshobora gukoreshwa, harimwo no mu bikorwa vyo muri kazoza. Uretse ibintu bisanzwe vyemewe n’ururimi rw’inyandiko ku UTXO, iryo sezerano rishiraho izindi ngingo zijanye n’ingene iyo Bitcoin ishobora gukoreshwa mu bikorwa bikurikira. Mu buryo bw'ubuhinga, ugushinga isezerano bishika iyo `scriptPubKey` ya UTXO isobanura uburenganzira ku `scriptPubKey` y'ibisohoka vy'ugucuruza bikoresha iyo UTXO. Mu kwagura urugero rw’inyandiko, amasezerano yoshobora gutuma habaho iterambere ryinshi kuri Bitcoin nk’ugushiramwo amabarabara y’ibinyabiziga, gushirwa mu ngiro kw’ibibanza vy’ububiko, canke gutegura neza uburyo bwo gupfuka nk’umuravyo. Ivyiyumviro vy’isezerano biratandukanywa bishingiye ku ngingo zitatu:

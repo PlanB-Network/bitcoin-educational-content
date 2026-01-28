@@ -1,6 +1,6 @@
 ---
 term: Uburebure
-definition:
+definition: Urugero rw'urufunguruzo mu mufungururiro wa HD wallet kuva ku rufunguruzo nyamukuru.
 ---
 
 Mu bijanye n’amasakoshi ya HD (Hierarchical Deterministic), uburebure buvuga urugero rwihariye rw’urufunguzo (rwa bose canke rw’abikorera ku giti cabo), chain code, urufunguzo rwagutse, canke Address mu mibumbe y’ugukomoka kwa Wallet kuva ku rufunguzo nyamukuru. Urugero rwose rw’iyi mibumbe rushobora kubonwa nk’igorofa mu giti c’urufunguzo, aho urufunguzo nyamukuru ruri ku muzi (uburebure 0) kandi ingero zikurikira zisobanura ibiranga bitandukanye nka:

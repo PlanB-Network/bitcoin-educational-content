@@ -1,6 +1,6 @@
 ---
 term: CIOH
-definition:
+definition: Heuristiek die ervan uitgaat dat alle inputs van een transactie tot dezelfde entiteit behoren.
 ---
 
 Afkorting voor "*Common Input Ownership Heuristic*". Het is een heuristiek die gebruikt wordt op het gebied van Bitcoin ketenanalyse, die ervan uitgaat dat alle ingangen van een transactie toebehoren aan dezelfde entiteit of gebruiker. Wanneer de openbare gegevens van een Bitcoin transactie worden bekeken en er worden meerdere ingangen gezien, dan kan, als er geen patronen of andere informatie zijn om dit te weerleggen, worden geschat dat alle ingangen van deze transactie aan één persoon (of entiteit) toebehoorden.

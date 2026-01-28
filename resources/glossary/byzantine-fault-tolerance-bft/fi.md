@@ -1,7 +1,7 @@
 ---
 term: Bysanttilainen vikasietoisuus (BFT)
 
-definition:
+definition: Konsepti, joka varmistaa luotettavan konsensuksen hajautetussa järjestelmässä viallisista tai vihamielisistä solmuista huolimatta.
 ---
 Käsite, jota käytetään hajautetuissa järjestelmissä varmistamaan luotettava ja turvallinen konsensus myös silloin, kun solmut ovat viallisia tai pahantahtoisia.
 

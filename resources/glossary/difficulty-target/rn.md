@@ -1,6 +1,6 @@
 ---
 term: Icipimo c'ingorane
-definition:
+definition: Iharuro rya bit 256 ryerekana ingere ntarengwa yo kwemererwa hashing y'imitwe y'ibice.
 ---
 
 Ikibazo c'ingorane, kizwi kandi nk'intumbero y'ingorane, ni ikigereranyo gikoreshwa mu buryo bwo kwumvikana na Proof of Work (Proof of Work, PoW) kuri Bitcoin. Ico ciyumviro kigereranya agaciro k’imibare kagena ingorane abacukuzi bashobora gutorera umuti ingorane yihariye y’ubuhinga bwo gukingira amakuru, yitwa Proof of Work, igihe barema igice gishasha kuri Blockchain.

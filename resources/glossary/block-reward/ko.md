@@ -1,6 +1,6 @@
 ---
 term: 블록 보상
-definition:
+definition: 마이너가 유효한 블록을 찾았을 때 받는 비트코인 총액(보조금 + 수수료).
 ---
 
 Block reward은 유효한 블록을 성공적으로 채굴했을 때 Miner가 받은 총 비트코인 수입니다.

@@ -1,7 +1,7 @@
 ---
 term: Hlavička bloku
 
-definition:
+definition: Struktura o velikosti 80 bajtů obsahující metadata bloku (verze, hash předchozího bloku, Merkle root, časové razítko, cíl, nonce).
 ---
 Záhlaví bloku je datová struktura, která slouží jako hlavní součást při vytváření bloku Bitcoinu. Každý blok se skládá ze záhlaví a seznamu transakcí. Záhlaví bloku obsahuje klíčové informace, které zajišťují integritu a platnost bloku v rámci blockchainu. Záhlaví bloku obsahuje 80 bajtů metadat a skládá se z následujících prvků:
 

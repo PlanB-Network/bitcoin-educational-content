@@ -1,6 +1,6 @@
 ---
 term: Covenant
-definition:
+definition: Bir bitcoinin gelecekteki işlemlerde nasıl harcanabileceğine dair koşullar getiren mekanizma.
 ---
 
 Gelecekteki işlemler de dahil olmak üzere, belirli bir para biriminin nasıl harcanabileceğine ilişkin belirli koşulların uygulanmasına izin veren bir mekanizma. Bir UTXO üzerinde komut dosyası dili tarafından genellikle izin verilen koşulların ötesinde, sözleşme, bu Bitcoin'ın sonraki işlemlerde nasıl harcanabileceğine ilişkin ek kısıtlamalar getirir. Teknik olarak, bir UTXO'in `scriptPubKey'i, söz konusu UTXO'i harcayan bir işlemin çıktılarının `scriptPubKey'i üzerinde kısıtlamalar tanımladığında bir sözleşmenin kurulması gerçekleşir. Senaryonun kapsamını genişleterek, sözleşmeler Bitcoin üzerinde drivechain'lerin iki taraflı olarak sabitlenmesi, kasaların uygulanması veya Lightning gibi kaplama sistemlerinin iyileştirilmesi gibi çok sayıda gelişmeyi mümkün kılacaktır. Sözleşme teklifleri üç kritere göre farklılaştırılmaktadır:

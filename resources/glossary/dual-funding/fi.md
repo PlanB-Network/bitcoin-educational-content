@@ -1,6 +1,6 @@
 ---
 term: Dual funding
-definition:
+definition: Menetelmä, jonka avulla molemmat osapuolet voivat rahoittaa Lightning-kanavan sen avaamisen yhteydessä.
 ---
 
 Kun Lightning-kanava avataan, kaksoisrahoituksen avulla molemmat osallistujat voivat lukita bitcoineja kanavaan. Toisin kuin perinteisessä mallissa, jossa vain yksi solmu rahoittaa kanavaa, tässä menetelmässä molemmat osapuolet voivat rahoittaa kanavaa, mikä mahdollistaa välittömän likviditeetin tasapainottamisen.

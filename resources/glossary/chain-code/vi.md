@@ -1,7 +1,7 @@
 ---
 term: Mã chuỗi
 
-definition:
+definition: Giá trị muối mật mã 256 bit được sử dụng trong quá trình tạo khóa HD của ví.
 ---
 In the context of hierarchical deterministic (HD) derivation of Bitcoin wallets, the chain code is a 256-bit cryptographic salt value used to generate child keys from a parent key, according to the BIP32 standard. The chain code is used in combination with the parent key and the child's index to deterministically generate a new pair of keys (private key and public key) without revealing the parent key or other derived child keys.
 

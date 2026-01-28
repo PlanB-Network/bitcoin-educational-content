@@ -1,6 +1,6 @@
 ---
 term: Urubufunguzo rwegeranijwe
-definition:
+definition: Ifomu nto y'urufunguruzo rusangi ikoresha gusa koordinat-x n'intangamarambo (02 canke 03).
 ---
 
 Urufunguzo rwa bose rukoreshwa mu nyandiko (rwaba mu buryo butaziguye mu buryo bw’urufunguzo rwa bose canke nk’urufunguzo rwa Address) kugira ngo umuntu yakire kandi akingire ama bitcoins. Urufunguzo rwa bose rudasanzwe rugereranywa n'akarongo ku nzira y'uruzitiro, rugizwe n'ibiharuro bibiri (`x, y`) kimwe cose gifise ibice 256. Mu buryo butagiramwo ivyiza, urufunguzo rwa bose rero rupima ibice 512, rudaharura byte y’inyongera kugira ngo umenye uburyo. Urufunguzo rwa bose rwacitse, ku rundi ruhande, ni uburyo bukomeye bwo guserukira urufunguzo rwa bose. Ikoresha gusa `x` n'intango (`02` canke `03`) yerekana uburinganire bw'umurongo wa `y` (ungana canke udasanzwe).

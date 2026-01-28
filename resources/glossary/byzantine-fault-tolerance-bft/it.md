@@ -1,7 +1,7 @@
 ---
 term: Tolleranza ai guasti bizantini (BFT)
 
-definition:
+definition: Concetto che garantisce un consenso affidabile in un sistema distribuito nonostante nodi guasti o malevoli.
 ---
 Un concetto utilizzato nei sistemi distribuiti per garantire un consenso affidabile e sicuro, anche in presenza di nodi difettosi o maligni.
 

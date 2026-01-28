@@ -1,6 +1,6 @@
 ---
 term: Byzantine fault tolerance (BFT)
-definition:
+definition: Uburyo butuma haba iyemezwa ryizigika mu buryo bukwiragijwe naho haba hari ama-nodes afise ibibazo canke mabi.
 ---
 
 Iciyumviro gikoreshwa mu mice ikwiragijwe kugira ngo habeho ukwiyumvikana kwizigirwa kandi gutekanye, mbere n’aho hariho utugingo ngengabuzima dufise amakosa canke dufise ububi.

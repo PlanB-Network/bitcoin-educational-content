@@ -1,6 +1,6 @@
 ---
 term: Block reward
-definition:
+definition: Total bitcoins (subsidy + fees) collected by a miner when they find a valid block.
 ---
 
 The block reward is the total number of bitcoins received by a miner when they successfully mine a valid block. 

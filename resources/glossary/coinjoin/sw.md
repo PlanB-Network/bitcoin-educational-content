@@ -1,6 +1,6 @@
 ---
 term: Coinjoin
-definition:
+definition: Mbinu ya kuchanganya ambapo watumiaji kadhaa huchanganya miamala yao ili kutatiza ufuatiliaji wa bitcoin.
 ---
 
 CoinJoin ni mbinu inayotumiwa kuvunja ufuatiliaji wa bitcoins. Inategemea shughuli ya ushirikiano na muundo maalum wa jina moja: shughuli ya CoinJoin. Shughuli za CoinJoin husaidia kuboresha ulinzi wa faragha wa watumiaji wa Bitcoin kwa kufanya iwe vigumu kwa waangalizi wa nje kuchanganua miamala. Muundo huu unaruhusu kuchanganya sarafu nyingi katika shughuli moja, na kuifanya kuwa vigumu kuamua viungo kati ya anwani za pembejeo na pato.

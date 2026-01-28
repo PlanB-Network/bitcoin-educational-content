@@ -1,6 +1,6 @@
 ---
 term: Brute-force attack
-definition:
+definition: Cryptanalysis method consisting of trying all possible combinations of keys or passwords.
 ---
 
 A cryptanalysis method used to find a password or cryptographic key by systematically trying every possible combination until the correct one is found, granting access to protected information or privileges. 

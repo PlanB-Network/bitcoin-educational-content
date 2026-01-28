@@ -1,6 +1,6 @@
 ---
 term: Coinbase transaction
-definition:
+definition: First transaction of a block created by the miner to receive the block reward and subsidy.
 ---
 
 The coinbase transaction is a special and unique transaction included in every block of the Bitcoin blockchain. It represents the first transaction of a block and is created by the miner who has successfully found a header validating the proof of work (*Proof-of-Work*), that is, less than or equal to the target.

@@ -1,6 +1,6 @@
 ---
 term: C-lightning (CLN)
-definition:
+definition: Dawna nazwa implementacji Core-Lightning protokołu Lightning Network.
 ---
 
 Dawna nazwa implementacji Core-Lightning.

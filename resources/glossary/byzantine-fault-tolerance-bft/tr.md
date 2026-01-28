@@ -1,6 +1,6 @@
 ---
 term: Bizans hata toleransı (BFT)
-definition:
+definition: Hatalı veya kötü niyetli düğümlere rağmen dağıtık bir sistemde güvenilir mutabakat sağlayan kavram.
 ---
 
 Hatalı veya kötü niyetli düğümlerin varlığında bile güvenilir ve güvenli fikir birliği sağlamak için dağıtılmış sistemlerde kullanılan bir kavram.

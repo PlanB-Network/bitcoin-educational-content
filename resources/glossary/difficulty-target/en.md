@@ -1,6 +1,6 @@
 ---
 term: Difficulty target
-definition:
+definition: 256-bit numerical value determining the acceptability limit for hashing block headers.
 ---
 
 The difficulty factor, also known as the difficulty target, is a parameter used in the consensus mechanism by proof of work (Proof of Work, PoW) on Bitcoin. The target represents a numerical value that determines the difficulty for miners to solve a specific cryptographic problem, called proof of work, when creating a new block on the blockchain.

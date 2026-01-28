@@ -1,6 +1,6 @@
 ---
 term: Chaumian coinjoin
-definition:
+definition: Coinjoin-protocol dat gebruikmaakt van Chaum's blinde handtekeningen om de privacy van deelnemers te waarborgen.
 ---
 
 Een CoinJoin protocol dat gebruik maakt van David Chaum's blinde handtekeningen en Tor voor communicatie tussen deelnemers en de server van de coördinator. Het doel van een Chaumiaanse CoinJoin is om deelnemers te verzekeren dat de coördinator geen bitcoins kan stelen, noch de inputs en outputs aan elkaar kan koppelen.

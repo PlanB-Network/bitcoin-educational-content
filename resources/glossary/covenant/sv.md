@@ -1,6 +1,6 @@
 ---
 term: Covenant
-definition:
+definition: Mekanism som ställer villkor för hur en bitcoin kan spenderas i framtida transaktioner.
 ---
 
 En mekanism som gör det möjligt att införa specifika villkor för hur en viss valuta kan spenderas, inklusive i framtida transaktioner. Utöver de villkor som vanligtvis tillåts av skriptspråket på en UTXO, verkställer avtalet ytterligare begränsningar för hur denna Bitcoin kan spenderas i efterföljande transaktioner. Tekniskt sett uppstår en överenskommelse när `scriptPubKey` för en UTXO definierar restriktioner för `scriptPubKey` för utdata från en transaktion som spenderar nämnda UTXO. Genom att utvidga skriptets omfattning skulle avtal möjliggöra många utvecklingar på Bitcoin, såsom bilateral förankring av drivkedjor, implementering av valv eller förbättring av överlagringssystem som Lightning. Förslag till avtal differentieras baserat på tre kriterier:

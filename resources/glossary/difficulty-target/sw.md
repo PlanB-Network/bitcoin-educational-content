@@ -1,6 +1,6 @@
 ---
 term: Lengo la ugumu
-definition:
+definition: Thamani ya nambari ya biti 256 inayoamua kikomo cha kukubalika kwa hashing za vichwa vya vitalu.
 ---
 
 Sababu ya ugumu, pia inajulikana kama lengo la ugumu, ni kigezo kinachotumiwa katika utaratibu wa makubaliano na Proof of Work (Proof of Work, PoW) kwenye Bitcoin. Lengo linawakilisha thamani ya nambari ambayo huamua ugumu wa wachimbaji kutatua shida maalum ya kriptografia, inayoitwa Proof of Work, wakati wa kuunda kizuizi kipya kwenye Blockchain.

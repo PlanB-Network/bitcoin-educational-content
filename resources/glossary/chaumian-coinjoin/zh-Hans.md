@@ -1,7 +1,7 @@
 ---
 term: 肖姆式硬币混洗
 
-definition:
+definition: 使用 Chaum 盲签名以确保参与者隐私的 coinjoin 协议。
 ---
 一种利用 David Chaum 的盲签名和 Tor 进行参与者与协调者服务器之间通信的混币协议。Chaumian 混币协议的目标是确保参与者的比特币不会被协调者窃取，也不会将输入和输出连接在一起。
 

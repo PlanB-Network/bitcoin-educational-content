@@ -1,6 +1,6 @@
 ---
 term: Aset kripto
 
-definition:
+definition: Istilah hukum dan peraturan yang menetapkan berbagai jenis mata uang kripto, termasuk bitcoin.
 ---
 Istilah yang digunakan dalam konteks hukum dan peraturan untuk merujuk pada berbagai jenis mata uang kripto, termasuk bitcoin.

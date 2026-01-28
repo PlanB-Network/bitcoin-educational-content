@@ -1,6 +1,6 @@
 ---
 term: Muamala wa coinbase
-definition:
+definition: Muamala wa kwanza wa kitalu ulioundwa na mchimba migodi ili kupokea zawadi ya kitalu na ruzuku.
 ---
 
 Coinbase Transaction ni shughuli maalum na ya kipekee iliyojumuishwa katika kila block ya Bitcoin Blockchain. Inawakilisha shughuli ya kwanza ya kizuizi na imeundwa na Miner ambaye amefanikiwa kupata kichwa kinachothibitisha Proof of Work (*Proof-of-Work*), yaani, chini ya au sawa na lengo.

@@ -1,6 +1,6 @@
 ---
 term: Svårighetsjustering
-definition:
+definition: Periodisk process var 2016e block som omdefinierar svårighetsmålet för att bibehålla en genomsnittlig tid på 10 minuter per block.
 ---
 
 Svårighetsjustering är en periodisk process som omdefinierar svårighetsmålet för Proof of Work-mekanismen (Mining) på Bitcoin. Denna händelse inträffar vart 2016:e block (ungefär varannan vecka). Den används för att öka eller minska svårighetsfaktorn (även kallat svårighetsmålet), beroende på hur snabbt de senaste 2016 blocken hittades. Justeringen syftar till att upprätthålla en stabil och förutsägbar blockproduktionshastighet, med en frekvens på ett block var 10:e minut, trots variationer i den beräkningskraft som används av miners. Förändringen i svårighetsgrad under justeringen är begränsad till en faktor 4. Formeln som utförs av noderna för att beräkna det nya målet är följande:

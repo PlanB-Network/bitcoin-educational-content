@@ -1,7 +1,7 @@
 ---
 term: Kjedekode
 
-definition:
+definition: 256-bit kryptografisk saltverdi brukt i HD-utledning av lommeboknøkler.
 ---
 I forbindelse med hierarkisk deterministisk (HD) avledning av Bitcoin-lommebøker er kjedekoden en 256-bits kryptografisk saltverdi som brukes til å generere underordnede nøkler fra en overordnet nøkkel, i henhold til BIP32-standarden. Kjedekoden brukes i kombinasjon med den overordnede nøkkelen og barnets indeks for å generere et nytt nøkkelpar (privat nøkkel og offentlig nøkkel) på en deterministisk måte uten å avsløre den overordnede nøkkelen eller andre avledede underordnede nøkler.
 

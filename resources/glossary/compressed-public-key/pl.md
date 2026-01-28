@@ -1,6 +1,6 @@
 ---
 term: Skompresowany klucz publiczny
-definition:
+definition: Kompaktowa forma klucza publicznego wykorzystująca tylko współrzędną x oraz prefiks parzystości (02 lub 03).
 ---
 
 Klucz publiczny jest używany w skryptach (bezpośrednio w formie klucza publicznego lub jako Address) do odbierania i zabezpieczania bitcoinów. Surowy klucz publiczny jest reprezentowany przez punkt na krzywej eliptycznej, składający się z dwóch współrzędnych (`x, y`) po 256 bitów każda. W surowym formacie klucz publiczny mierzy zatem 512 bitów, nie licząc dodatkowego bajtu identyfikującego format. Z drugiej strony, skompresowany klucz publiczny jest bardziej kompaktową formą reprezentacji klucza publicznego. Używa tylko współrzędnej `x` i prefiksu (`02` lub `03`), który wskazuje parzystość współrzędnej `y` (parzysta lub nieparzysta).

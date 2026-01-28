@@ -1,6 +1,6 @@
 ---
 term: Umukono uhumye
-definition:
+definition: Umukono wa dijital aho uwushizeko umukono ataba azi ibiri mumpapuro asinyye, ukoreshwa muri Chaumian CoinJoins na ecash.
 ---
 
 Imikono y’impumyi ya Chaum ni uburyo bw’imikono y’ubuhinga bwa none aho uwuyisinye atamenya ibirimwo mu butumwa buriko burasinywa. Ariko rero, umukono uva muri ivyo urashobora kugenzurwa ugereranije n’ubutumwa bw’intango. Ubu buhinga bwateguwe n'umuhinga mu vy'amabanga David Chaum mu 1983.

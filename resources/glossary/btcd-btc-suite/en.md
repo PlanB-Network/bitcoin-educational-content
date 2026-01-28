@@ -1,6 +1,6 @@
 ---
 term: Btcd (btc suite)
-definition:
+definition: Minority implementation of the Bitcoin protocol coded in Go, an alternative to Bitcoin Core.
 ---
 
 Minority implementation of the Bitcoin protocol. BTCD is an alternative to the dominant Bitcoin Core software (notably bitcoind). 

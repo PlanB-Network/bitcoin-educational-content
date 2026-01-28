@@ -1,7 +1,7 @@
 ---
 term: Schwierigkeitsanpassung
 
-definition:
+definition: Periodischer Prozess alle 2016 Blöcke, der das Schwierigkeitsziel neu definiert, um eine durchschnittliche Zeit von 10 Minuten pro Block beizubehalten.
 ---
 Die Schwierigkeitsanpassung ist ein periodischer Prozess, der das Schwierigkeitsziel für den Proof-of-Work-Mechanismus (Mining) von Bitcoin neu definiert. Dieses Ereignis findet alle 2016 Blöcke (etwa alle zwei Wochen) statt. Es dient dazu, den Schwierigkeitsfaktor (auch Schwierigkeitsziel genannt) zu erhöhen oder zu senken, je nachdem, wie schnell die letzten 2016er Blöcke gefunden wurden. Die Anpassung zielt darauf ab, eine stabile und vorhersehbare Blockproduktionsrate aufrechtzuerhalten, mit einer Frequenz von einem Block alle 10 Minuten, trotz Schwankungen in der von den Minern eingesetzten Rechenleistung. Die Änderung der Schwierigkeit während der Anpassung ist auf einen Faktor von 4 begrenzt. Die Formel, die von den Knoten ausgeführt wird, um das neue Ziel zu berechnen, lautet wie folgt:
 

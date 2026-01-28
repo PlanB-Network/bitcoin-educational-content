@@ -1,6 +1,6 @@
 ---
 term: Åtagande
-definition:
+definition: Kryptografiskt objekt som gör det möjligt att bevisa existensen av data utan att avslöja dem.
 ---
 
 En Commitment (i kryptografisk mening) är ett matematiskt objekt, betecknat $C$, som härleds deterministiskt från en operation på strukturerade data $m$ (meddelandet) och ett slumpmässigt värde $r$. Vi skriver :

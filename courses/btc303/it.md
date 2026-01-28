@@ -1051,80 +1051,77 @@ Dopo la conferenza di Hong Kong del dicembre 2015, Gregory Maxwell [ha riassunto
 
 Parla del compromesso tra throughput (capacità della rete) e decentralizzazione. Se si consentono blocchi più grandi, si spingeranno alcune persone fuori dalla rete perché non avranno le risorse necessarie per convalidare i blocchi. D'altra parte, se l'accesso allo spazio dei blocchi diventa più costoso, meno persone potranno permettersi di utilizzarlo come meccanismo di risoluzione delle controversie. In entrambi i casi, gli utenti sono spinti verso servizi di fiducia esterni.
 
-Continua riassumendo i numerosi approcci alla scalabilità presentati alla conferenza. Tra questi vi sono verifiche delle firme più efficienti dal punto di vista computazionale, *testimoni segregati* che includono una modifica del limite delle dimensioni dei blocchi, un meccanismo di propagazione dei blocchi più efficiente dal punto di vista dello spazio e la costruzione di protocolli a strati sopra Bitcoin. Molti di questi
-
-da allora sono stati implementati approcci di questo tipo.
+Continua riassumendo i numerosi approcci alla scalabilità presentati alla conferenza. Tra questi vi sono verifiche delle firme più efficienti dal punto di vista computazionale, *segregated witness* (SegWit) che includono una modifica del limite delle dimensioni dei blocchi, un meccanismo di propagazione dei blocchi più efficiente dal punto di vista dello spazio e la costruzione di protocolli a layer sopra Bitcoin. Molti approcci di questo tipo sono stati implementati da allora.
 
 ### Approcci di scala
 
 
-Come accennato in precedenza, per scalare Bitcoin non è necessario aumentare la dimensione dei blocchi o altri limiti. Ora esaminiamo alcuni approcci generali al ridimensionamento, alcuni dei quali non soffrono del compromesso throughput-decentralizzazione menzionato nella sezione precedente.
+Come accennato in precedenza, per migliorare la scalabilità di Bitcoin non è necessario aumentare la dimensione dei blocchi o altri limiti. Ora esaminiamo alcuni approcci generali al ridimensionamento, alcuni dei quali non soffrono del compromesso throughput-decentralizzazione menzionato nella sezione precedente.
 
-#### Scala verticale
+#### Scalabilità verticale
 
 
-Il vertical scaling è il processo di aumento delle risorse di calcolo delle macchine che elaborano i dati. Nel contesto di  Bitcoin, queste ultime sarebbero i full nodes, ossia le macchine che convalidano la blockchain per conto dei loro utenti.
+Il vertical scaling è il processo di aumento delle risorse di calcolo dei computer che elaborano i dati. Nel contesto di Bitcoin, questi ultimi sarebbero i full nodes, ossia i dispositivi che convalidano la blockchain per conto dei loro utenti.
 
-La tecnica più discussa per il vertical scaling nel Bitcoin è l'aumento del limite di dimensione dei blocchi. Ciò richiederebbe che alcuni full nodes aggiornino il loro hardware per tenere il passo con le crescenti richieste di calcolo. Lo svantaggio è che ciò avviene al costo della centralizzazione.
+La tecnica più discussa per la scalabilità verticale di Bitcoin è l'aumento del limite di dimensione dei blocchi. Ciò richiederebbe che alcuni full nodes aggiornino il loro hardware per tenere il passo con le crescenti richieste di calcolo. Lo svantaggio è che ciò avviene a discapito della centralizzazione.
 
-Oltre agli effetti negativi sulla decentralizzazione del full node, il vertical scaling potrebbe avere un impatto negativo anche sulla decentralizzazione e sulla sicurezza di  Bitcoin del Mining in modi meno evidenti. Diamo un'occhiata a come i miner "dovrebbero" operare. Supponiamo che un miner estragga un blocco a quota 7 e lo pubblichi sulla rete Bitcoin. Ci vorrà un po' di tempo prima che questo blocco raggiunga un'ampia accettazione, principalmente a causa di due fattori:
-
+Oltre agli effetti negativi sulla decentralizzazione del full node, la scalabilità verticale potrebbe incidere negativamente anche sulla decentralizzazione e sulla sicurezza del mining di Bitcoin, in modi meno evidenti. Vediamo come "dovrebbero" operare i miner. Supponiamo che un miner estragga un blocco all'altezza 7 e lo pubblichi sul network di Bitcoin. Ci vorrà un po' di tempo prima che questo blocco venga ampiamente accettato, principalmente per due motivi:
 - Il trasferimento del blocco tra i peer richiede tempo a causa delle limitazioni della larghezza di banda.
-- La convalida del blocco richiede tempo.
+- La validazione del blocco richiede tempo.
 
-Mentre il blocco 7 viene propagato attraverso la rete, molti miner sono ancora Mining in cima al blocco 6 perché non hanno ancora ricevuto e convalidato il blocco 7. Durante questo periodo, se uno di questi miner trova un nuovo blocco all'altezza 7, ci saranno due blocchi in competizione a quell'altezza. Durante questo periodo, se uno di questi miner trova un nuovo blocco all'altezza 7, ci saranno due blocchi concorrenti a quell'altezza. Ci può essere solo un blocco all'altezza 7 (o a qualsiasi altra altezza), il che significa che uno dei due candidati deve diventare stantio.
+Mentre il blocco 7 viene propagato attraverso il network, molti miner stanno ancora minando sul blocco 6 perché non hanno ancora ricevuto e validato il blocco 7. Durante questo periodo, se uno di questi miner trova un nuovo blocco all'altezza 7, ci saranno due blocchi in competizione a quell'altezza. Ci può essere solo un blocco all'altezza 7 (o a qualsiasi altra altezza), il che significa che uno dei due candidati deve diventare obsoleto.
 
-In breve, i blocchi stantii si verificano perché ogni blocco impiega del tempo per propagarsi e più tempo impiega la propagazione, più alta è la probabilità di blocchi stantii.
+In breve, i blocchi obsoleti si verificano perché ogni blocco impiega del tempo per propagarsi e più tempo impiega la propagazione, più alta è la probabilità di blocchi obsoleti.
 
-Supponiamo che il limite di dimensione dei blocchi venga eliminato e che la dimensione media dei blocchi aumenti notevolmente. I blocchi si propagheranno più lentamente attraverso la rete a causa delle limitazioni della larghezza di banda e del tempo di verifica. Un aumento del tempo di propagazione aumenterà anche le possibilità di blocchi stantii.
+Supponiamo che il limite di dimensione dei blocchi venga eliminato e che la dimensione media dei blocchi aumenti notevolmente. I blocchi si propagheranno più lentamente attraverso il network a causa delle limitazioni della larghezza di banda e del tempo di verifica. Un aumento del tempo di propagazione aumenterà anche le possibilità di blocchi obsoleti.
 
-Ai miner non piace che i loro blocchi vengano bloccati perché perderebbero il loro Block reward, quindi faranno tutto il possibile per evitare tale scenario. Le misure che possono adottare comprendono:
+Ai miner non piace che i loro blocchi vengano bloccati perché perderebbero il loro block reward, quindi faranno tutto il possibile per evitare tale scenario. Le misure che possono adottare comprendono:
 
-- Posticipare la convalida di un blocco in arrivo, noto anche come *validationless Mining*. I miner possono limitarsi a controllare il Proof-of-Work dell'intestazione del blocco e minare su di esso, mentre nel frattempo scaricano il blocco completo e lo convalidano.
-- Collegamento a un Mining pool con maggiore larghezza di banda e connettività.
+- Posticipare la convalida di un blocco in arrivo, noto anche come *validationless mining*(mining senza validazione). I miner possono limitarsi a controllare il proof-of-work dell'intestazione del blocco e minare su di esso, mentre nel frattempo scaricano il blocco completo e lo convalidano.
+- Collegarsi a una mining pool con maggiore larghezza di banda e connettività.
 
-Il Mining senza validazione mina ulteriormente la decentralizzazione del full node, poiché il miner ricorre alla fiducia nei blocchi in arrivo, almeno temporaneamente. Inoltre, questo danneggia in qualche modo la sicurezza, perché una parte della potenza di calcolo della rete si basa potenzialmente su un Blockchain non valido, invece che sulla catena più forte e valida.
+Il mining senza validazione mina ulteriormente la decentralizzazione del full node, poiché il miner ricorre alla fiducia nei blocchi in arrivo, almeno temporaneamente. Inoltre, questo danneggia in qualche modo la sicurezza, perché una parte della potenza di calcolo della rete si basa potenzialmente su una blockchain non valida, invece che sulla catena più forte e quindi valida.
 
-Il secondo punto ha un effetto negativo sulla decentralizzazione di miner, perché di solito i pool con la migliore connettività di rete e larghezza di banda sono anche i più grandi, facendo sì che i miner gravitino verso pochi grandi pool.
+Collegarsi a pool con maggiore larghezza di banda incide negativamente sulla decentralizzazione del mining, perché di solito le pool con la migliore connettività di rete e larghezza di banda sono anche i più grandi, facendo sì che i miner gravitino verso poche grandi pool.
 
-#### Scala orizzontale
+#### Scalabilità orizzontale
 
 
-La scalatura orizzontale si riferisce a tecniche che dividono il carico di lavoro su più macchine. Sebbene si tratti di un approccio di scalatura prevalente nei siti web e nei database più diffusi, non è facile da realizzare in Bitcoin.
+La scalabilità orizzontale si riferisce a tecniche che dividono il carico di lavoro su più macchine. Sebbene si tratti di un approccio di scalabilità prevalente nei siti web e nei database più diffusi, non è facile da realizzare in Bitcoin.
 
-Molti si riferiscono a questo approccio di scalatura Bitcoin come *sharding*. In pratica, consiste nel lasciare che ogni full node verifichi solo una parte della blockchain. Peter Todd ha riflettuto molto sul concetto di sharding. Ha scritto un [blog post](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) che spiega lo sharding in termini generali e presenta anche la sua idea chiamata *treechains*. L'articolo è di difficile lettura, ma Todd espone alcuni punti che sono abbastanza digeribili:
+Molti si riferiscono a questo approccio di scalabilità di Bitcoin come *sharding*. In pratica, consiste nel lasciare che ogni full node verifichi solo una parte della blockchain. Peter Todd ha riflettuto molto sul concetto di sharding. Ha scritto un [blog post](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) che spiega lo sharding in termini generali e presenta anche la sua idea chiamata *treechains*. L'articolo è di difficile lettura, ma Todd espone alcuni punti che sono abbastanza digeribili:
 
-> Nei sistemi sharded la "difesa full node" non funziona, almeno direttamente. Il punto è che non tutti hanno tutti i dati, quindi bisogna decidere cosa succede quando non sono disponibili.
+> Nei sistemi che utilizzano _sharding_ la "difesa dei full node" non funziona, almeno non direttamente. Il punto è che non tutti hanno tutti i dati, quindi bisogna decidere cosa succede quando le informazioni non sono disponibili.
 
 Poi presenta varie idee su come affrontare lo sharding, o scaling orizzontale. Verso la fine del post conclude:
 
-> C'è però un grosso problema: santo cielo, quanto è complesso rispetto a Bitcoin! Persino la versione "kiddy" dello sharding - il mio schema di linearizzazione piuttosto che zk-SNARKS - è probabilmente uno o due ordini di grandezza più complessa di quanto non lo sia l'uso del protocollo Bitcoin in questo momento, eppure al momento un'enorme percentuale di aziende in questo spazio sembra aver alzato le mani e usato invece fornitori di API centralizzati. Implementare effettivamente quanto sopra e farlo arrivare nelle mani degli utenti finali non sarà facile.
+> C'è però un grosso problema: santo cielo, quanto è complesso rispetto a Bitcoin! Persino la versione "kiddy" dello sharding - il mio schema di linearizzazione piuttosto che zk-SNARKS - è probabilmente uno o due ordini di grandezza più complessa del protocollo Bitcoin attuale. Eppure, al momento, un'enorme percentuale di aziende in questo spazio sembra aver alzato le mani e usato invece fornitori di API centralizzati. Implementare effettivamente quanto descritto e metterlo nelle mani degli utenti finali non sarà facile.
 >
 > D'altra parte, la decentralizzazione non è a buon mercato: usare PayPal è uno o due ordini di grandezza più semplice del protocollo Bitcoin.
 
-La conclusione a cui giunge è che lo sharding *potrebbe* essere tecnicamente possibile, ma al costo di un'enorme complessità. Dato che molti utenti trovano già Bitcoin troppo complesso e preferiscono usare servizi centralizzati, sarà Hard convincerli a usare qualcosa di ancora più complesso.
+La conclusione a cui giunge è che lo sharding *potrebbe* essere tecnicamente possibile, ma al costo di un'enorme complessità. Dato che molti utenti trovano già Bitcoin troppo complesso e preferiscono usare servizi centralizzati, sarà difficile convincerli a usare qualcosa di ancora più complesso.
 
-#### Scala verso l'interno
+#### Scalabilità verso l'interno
 
 
-Mentre lo scaling orizzontale e verticale hanno storicamente funzionato bene in sistemi centralizzati come i database e i server web, non sembrano essere adatti a una rete decentralizzata come Bitcoin a causa dei loro effetti di centralizzazione.
+Mentre la scalabilità orizzontale e verticale hanno storicamente funzionato bene in sistemi centralizzati come i database e i server web, non sembrano essere adatti a un network decentralizzato come Bitcoin a causa dei loro effetti di centralizzazione.
 
 Un approccio che viene troppo poco apprezzato è quello che possiamo chiamare *inward scaling*, che si traduce in "fare di più con meno". Si riferisce al lavoro continuo svolto da molti sviluppatori per ottimizzare gli algoritmi già esistenti, in modo da poter fare di più entro i limiti esistenti del sistema.
 
-I miglioramenti ottenuti grazie all'inward scaling sono a dir poco impressionanti. Per dare un'idea generale dei miglioramenti ottenuti nel corso degli anni, Jameson Lopp [ha eseguito dei test di benchmark](https://blog.lopp.net/Bitcoin-core-performance-evolution/) sulla sincronizzazione di Blockchain, confrontando molte versioni diverse di Bitcoin Core a partire dalla versione 0.8.
+I miglioramenti ottenuti grazie all'inward scaling sono a dir poco impressionanti. Per dare un'idea generale dei miglioramenti ottenuti nel corso degli anni, Jameson Lopp [ha eseguito dei test di benchmark](https://blog.lopp.net/Bitcoin-core-performance-evolution/) sulla sincronizzazione della blockchain, confrontando molte versioni diverse di Bitcoin Core a partire dalla versione 0.8.
 
 ![](assets/it/012.webp)
 
-Prestazioni di download del blocco iniziale di varie versioni di Bitcoin Core. Sull'asse Y è riportata l'altezza del blocco sincronizzato e sull'asse X il tempo impiegato per sincronizzarsi a tale altezza
+Nel grafico mostrato, puoi vedere le performance iniziali del download dei blocchi, per le varie versioni di Bitcoin Core. Sull'asse Y è riportata l'altezza del blocco sincronizzato e sull'asse X il tempo impiegato per sincronizzarsi a tale altezza.
 
-Le diverse linee rappresentano le diverse versioni di Bitcoin Core. La linea più a sinistra è la più recente, ossia la versione 0.22, che è stata rilasciata nel settembre 2021 e ha richiesto 396 minuti per la sincronizzazione completa. Quella più a destra è la versione 0.8 del novembre 2013, che ha richiesto 3452 minuti. Tutti questi miglioramenti (circa 10 volte) sono dovuti all'inward scaling.
+Le diverse linee rappresentano le diverse versioni di Bitcoin Core. La linea più a sinistra è la più recente, ossia la versione 0.22, che è stata rilasciata nel settembre 2021 e ha richiesto 396 minuti per la sincronizzazione completa. Quella più a destra è la versione 0.8 del novembre 2013, che ha richiesto 3452 minuti. Tutto questo (circa 10 volte meglio) è dovuto all'inward scaling.
 I miglioramenti possono essere classificati come risparmio di spazio (RAM, disco, larghezza di banda, ecc.) o risparmio di potenza di calcolo. Entrambe le categorie contribuiscono ai miglioramenti del diagramma precedente.
 
-Un buon esempio di miglioramento computazionale si trova nella libreria [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), che, tra le altre cose, implementa le primitive crittografiche necessarie per realizzare e verificare le firme digitali. Pieter Wuille è uno dei collaboratori di questa libreria e ha scritto un [thread su Twitter](https://twitter.com/pwuille/status/1450471673321381896) che illustra i miglioramenti delle prestazioni ottenuti grazie a varie richieste di pull.
+Un buon esempio di miglioramento computazionale si trova nella libreria [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), che, tra le altre cose, implementa le primitive crittografiche necessarie per realizzare e verificare le firme digitali. Pieter Wuille è uno dei collaboratori di questa libreria e ha scritto un [thread su Twitter](https://twitter.com/pwuille/status/1450471673321381896) che illustra i miglioramenti delle prestazioni ottenuti grazie a varie PR.
 
 ![](assets/it/013.webp)
 
-Prestazioni della verifica della firma nel tempo, con richieste di pull significative segnate sulla timeline
+Prestazioni della verifica della firma nel tempo, con richieste di pull significative segnate sulla timeline.
 
 Il grafico mostra l'andamento di due diversi tipi di CPU a 64 bit, ovvero ARM e x86. La differenza di prestazioni è dovuta al maggior numero di istruzioni specializzate disponibili su x86 rispetto all'architettura ARM, che ha un numero inferiore di istruzioni generiche. Tuttavia, la tendenza generale è la stessa per entrambe le architetture. Si noti che l'asse delle Y è logaritmico, il che fa sembrare i miglioramenti meno impressionanti di quanto non siano in realtà.
 

@@ -1,8 +1,8 @@
 question: Que se passe-t-il lorsqu'une variable sort du cadre dans le système de propriété de Rust ?
-answer: La valeur est automatiquement abandonnée et sa mémoire est libérée
+answer: La valeur est automatiquement abandonnée et sa mémoire est libérée.
 wrong_answers:
-  - La valeur est déplacée dans le champ d'application global pour être réutilisée
-  - La valeur devient immuable et reste en mémoire
-  - La valeur est copiée dans un emplacement de sauvegarde pour des raisons de sécurité
+  - La valeur est déplacée dans le champ d'application global pour être réutilisée.
+  - La valeur devient immuable et reste en mémoire.
+  - La valeur est copiée dans un emplacement de sauvegarde pour des raisons de sécurité.
 explanation: |
   Dans le système de propriété de Rust, lorsqu'une variable sort de la portée (typiquement lorsque l'exécution quitte un bloc défini par des accolades), la valeur est automatiquement abandonnée et sa mémoire est libérée. Ce nettoyage automatique est mis en œuvre par le mécanisme drop de Rust, où le langage appelle implicitement une fonction drop sur les variables qui sortent du champ d'application. Cela garantit une bonne gestion des ressources sans nécessiter de code de nettoyage explicite de la part du programmeur, conformément au modèle RAII emprunté au C++.

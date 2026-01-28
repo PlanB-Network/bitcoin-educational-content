@@ -3952,12 +3952,13 @@ counter += 1 // dasselbe wie counter = counter + 1
 
 Hier sind die häufigsten:
 
-| Operator | Bedeutung                  |
-| -------- | ---------------------------|
-| `+=`     | addiere und weise zu       |
-| `-=`     | subtrahiere und weise zu   |
-| `*=`     | multipliziere und weise zu |
-| `/=`     | dividiere und weise zu     |
+
+| Operator | Bedeutung |
+| -------- | ------------------- |
+| `+=` | addieren und zuweisen |
+| `-=` | subtrahieren und zuweisen |
+| `*=` | multiplizieren und zuweisen |
+| `/=` | dividieren und zuweisen |
 
 Beispiele:
 
@@ -5097,30 +5098,30 @@ Mit einem beschreibbaren Stream kannst du Daten Stück für Stück irgendwo hins
 Hier ist ein Beispiel für das Schreiben in eine Datei `target.txt` unter Verwendung eines Streams:
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-  console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-  console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 Das passiert folgendermaßen:
 
-1. `fs.createWriteStream()` erzeugt einen beschreibbaren Stream.
-2. Wir schreiben einen Text mit `.write()` hinein.
-3. Wenn wir fertig sind, rufen wir `.end()` auf, um den Stream zu schließen.
-4. Wenn alle Daten geschrieben worden sind, wird das Ereignis "finish" ausgelöst.
-5. Wenn etwas schief geht, wird das Ereignis `error` ausgelöst.
+1. `fs.createWriteStream()` erstellt einen beschreibbaren Stream.
+2. Wir registrieren Handler für die Ereignisse `error` und `finish`.
+3. Wir schreiben mit `.write()` Text hinein.
+4. Wenn wir fertig sind, rufen wir `.end()` auf, um den Stream zu schließen.
+5. Sobald alle gepufferten Daten geleert und geschrieben wurden, wird das Ereignis `finish` ausgelöst. Wenn etwas schief geht, wird ein Ereignis `error` ausgelöst.
 
 Genau wie lesbare Streams eignen sich auch beschreibbare Streams gut für große Datenmengen, da nicht alles gleichzeitig im Speicher gehalten werden muss.
 

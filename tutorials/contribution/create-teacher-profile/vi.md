@@ -1,40 +1,46 @@
 ---
 name: Giáo sư Plan ₿ Academy
-description: Làm thế nào để thêm hoặc sửa đổi hồ sơ giáo viên của tôi trên Plan ₿ Academy?
+description: Làm thế nào để thêm hoặc sửa đổi hồ sơ giảng viên của tôi trên Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
-Nếu bạn có kế hoạch đóng góp cho Plan ₿ Academy bằng cách viết một hướng dẫn hoặc khóa học mới, bạn sẽ cần một hồ sơ giáo viên. Hồ sơ này sẽ cho phép bạn nhận được các khoản tín dụng phù hợp cho nội dung bạn đóng góp cho nền tảng.
+Nếu bạn có kế hoạch đóng góp cho Plan ₿ Academy bằng cách viết bài hướng dẫn hoặc khóa học mới, bạn sẽ cần tạo một hồ sơ giảng viên. Hồ sơ này sẽ giúp hệ thống ghi nhận đóng góp và xác nhận quyền tác giả tương ứng cho những nội dung mà bạn cung cấp trên nền tảng.
 
-Đối với những bạn đã tham gia tạo nội dung giáo dục trên Plan ₿ Academy, có lẽ bạn đã có hồ sơ giáo viên. Bạn có thể tìm thấy hồ sơ này trong thư mục `/professors` [trên kho lưu trữ GitHub của chúng tôi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Nếu hồ sơ của bạn đã tồn tại, hãy tìm thông tin đăng nhập của bạn trong tệp `professor.yml`.
+Đối với những ai đã từng tham gia xây dựng nội dung giáo dục trên Plan ₿ Academy, có thể bạn đã có hồ sơ giảng viên. Bạn có thể tìm thông tin trong thư mục `/professors` [trên repository (repository) GitHub của chúng tôi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Nếu hồ sơ của bạn đã tồn tại, hãy tìm tên định danh của bạn trong file `professor.yml`.
 
-Để thay đổi hồ sơ của bạn, hãy vào phần "Chỉnh sửa hồ sơ giáo viên" ở cuối hướng dẫn này.
+Để thay đổi hồ sơ của bạn, hãy xem phần "Sửa đổi hồ sơ giảng viên của bạn" ở cuối bài hướng dẫn này.
 
-## Thêm giáo viên mới bằng phần mềm của chúng tôi
+## Thêm giảng viên mới bằng phần mềm của chúng tôi
 
-Cách dễ nhất để tạo hồ sơ giáo viên của bạn trên Plan ₿ Academy là sử dụng công cụ Python tích hợp của chúng tôi. Đây là cách thức hoạt động.
+Cách đơn giản nhất để tạo hồ sơ giảng viên trên Plan ₿ Academy là sử dụng công cụ tích hợp được viết bằng Python của chúng tôi. Dưới đây là quy trình vận hành của công cụ này.
 
 ### 1 - Cấu hình môi trường cục bộ của bạn
 
-Bạn phải có Fork của riêng mình từ [kho lưu trữ Plan ₿ Academy trên GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
+Bạn phải có bản fork của riêng mình từ [repository của Plan ₿ Academy trên GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
-Đồng bộ hóa nhánh chính (`dev`) của Fork với kho lưu trữ nguồn.
+Đồng bộ hóa nhánh chính (`dev`) của bản fork với repository gốc.
 
-Cập nhật bản sao cục bộ của bạn.
+Cập nhật bản sao cục bộ (local clone) của bạn.
 
 ```bash
-# Cloner votre fork (si ce n'est pas déjà fait)
+# Tạo bản sao cục bộ (clone) cho bản fork của bạn (nếu bạn chưa làm)
 git clone https://github.com/<username>/bitcoin-educational-content.git
+
 cd bitcoin-educational-content
-# Ajouter le dépôt source en tant que remote upstream
+
+# Thêm repository gốc làm remote upstream
 git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
-# Récupérer les dernières modifications depuis le dépôt source
+
+# Cập nhật các thay đổi mới nhất từ repository gốc
 git fetch upstream
-# Se positionner sur la branche principale 'dev'
+
+# Chuyển sang nhánh chính "dev"
 git checkout dev
-# Fusionner les modifications de la branche 'dev' du dépôt source dans votre fork
+
+# Merge những thay đổi từ nhánh "dev" của repository gốc vào bản fork của bạn
 git merge upstream/dev
-# Pousser les mises à jour vers votre fork sur GitHub
+
+# Đẩy các bản cập nhật lên bản fork của bạn trên GitHub
 git push origin dev
 ```
 
@@ -42,127 +48,131 @@ git push origin dev
 
 Đảm bảo bạn đang ở nhánh `dev`. Tạo một nhánh mới với tên mô tả (ví dụ: `add-professor-loic-morel`).
 
-Xuất bản nhánh này trên Fork trực tuyến của bạn.
+Đẩy nhánh này lên bản fork trực tuyến
 
 ```bash
-# Assurez-vous d’être sur la branche 'dev'
+# Đảm bảo bạn vẫn đang ở nhánh 'dev'
 git checkout dev
-# Créez une nouvelle branche avec un nom descriptif
+
+# Tạo một nhánh với tên dễ nhớ
 git checkout -b add-professor-loic-morel
-# Publiez cette branche sur votre fork en ligne
+
+# Đẩy nhánh này lên bản fork trực tuyến
 git push -u origin add-professor-loic-morel
 ```
 
-### 3 - Tạo hồ sơ giáo viên của bạn
+### 3 - Tạo hồ sơ giảng viên của bạn
 
-Đi đến thư mục `scripts/tutorial-related/data-creator/` trên bản sao cục bộ của bạn. Đảm bảo bạn đã cài đặt tất cả các phụ thuộc cần thiết cho phần mềm, trước tiên hãy cài đặt Python:
+Đi đến thư mục `scripts/tutorial-related/data-creator/` trong bản clone trên máy tính của bạn. Hãy đảm bảo rằng bạn đã cài đặt Python và tất cả các thư viện phụ thuộc (dependencies) cần thiết cho phần mềm:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Sau đó khởi chạy phần mềm bằng lệnh:
+Sau đó, khởi chạy phần mềm bằng lệnh:
 
 ```bash
 python3 main.py
 ```
 
-Khi đã vào trang chủ, hãy nhập đường dẫn cục bộ đến bản sao kho lưu trữ của bạn, ngôn ngữ bạn đang viết và GitHub ID của bạn. Nếu bạn đang tạo hồ sơ này cho người khác và đã có hồ sơ Giáo sư, hãy nhập ID của bạn vào trường "*Plan ₿ Academy Professor's ID*". Nếu bạn đang tạo hồ sơ của riêng mình, bạn sẽ chưa có ID Giáo sư vì bạn đang trong quá trình tạo hồ sơ, vì vậy hãy để trống trường này.
+Khi đã vào trang chủ, hãy nhập đường dẫn cục bộ đến bản clone, ngôn ngữ bạn đang viết và GitHub ID của bạn. Nếu bạn đang tạo hồ sơ này cho người khác và đã có hồ sơ Professor, hãy nhập ID vào trường `Plan ₿ Academy Professor's ID`. Nếu bạn đang tạo hồ sơ của riêng mình, bạn sẽ chưa có Professor's ID  vì bạn đang trong quá trình khởi tạo, vì vậy hãy để trống trường này.
 
-Sau đó nhấp vào nút "*Giáo sư mới*".
+Sau đó nhấp vào nút `New Professor`.
 
 ![Image](assets/fr/01.webp)
 
-Điền thông tin bắt buộc (vui lòng lưu ý rằng tất cả thông tin này sẽ được công khai trên nền tảng của chúng tôi cũng như trên GitHub):
+Điền đầy đủ các thông tin bắt buộc (vui lòng lưu ý rằng tất cả các thông tin này sẽ được công khai trên nền tảng của chúng tôi cũng như trên GitHub):
 
 
-- Tên hồ sơ giáo viên của bạn (sử dụng tên và họ hoặc bút danh, viết thường);
+- Tên hồ sơ giảng viên của bạn (sử dụng tên và họ hoặc bút danh, viết chữ thường không dấu);
 - Tên hoặc biệt danh của bạn;
-- Trang web và hồ sơ của bạn X (tùy chọn);
-- Một chiếc Lightning Address để nhận tiền quyên góp từ độc giả (tùy chọn);
-- Chọn 2 hoặc 3 thẻ từ danh sách;
-- Nhấp vào "*Chọn ảnh*" để chọn ảnh đại diện từ thư mục cục bộ của bạn (có thể sử dụng bất kỳ tên và định dạng nào cho ảnh và phần mềm sẽ tự động điều chỉnh. Chỉ cần đảm bảo ảnh là hình vuông);
-- Viết mô tả ngắn về hồ sơ của bạn.
+- Website và hồ sơ của bạn X (không bắt buộc);
+- Địa chỉ Lightning để nhận đóng góp từ độc giả (tùy chọn);
+- Chọn 2 hoặc 3 thẻ (tags) từ danh sách;
+- Nhấn vào "*Select Image*" để chọn ảnh đại diện từ máy tính (phần mềm sẽ tự động xử lý mọi định dạng và tên file. Bạn chỉ cần đảm bảo ảnh có tỷ lệ khung hình vuông);
+- Viết mô tả ngắn cho hồ sơ của bạn.
 
-Hoàn tất việc tạo bằng cách nhấp vào "*Tạo Giáo sư*". Thao tác này sẽ tự động generate tất cả các tệp cần thiết cho hồ sơ của bạn.
+Hoàn tất việc tạo bằng cách nhấn vào `Create Professor`. Thao tác này sẽ tự động tạo tất cả các file cần thiết cho hồ sơ của bạn.
 
 ![Image](assets/fr/02.webp)
 
-Lưu các thay đổi cục bộ của bạn bằng cách tạo một cam kết có thông báo giải thích. Đẩy các thay đổi lên GitHub Fork của bạn.
+Lưu các thay đổi cục bộ của bạn bằng cách tạo một commit kèm mô tả. Đẩy các thay đổi lên bản fork trên GitHub.
 
 ```bash
-# Créez un commit avec un message descriptif
+# Tạo một commit với mô tả rõ ràng.
 git commit -m "*new professor Loïc Morel*"
-# Poussez vos modifications sur votre fork
+
+# Đẩy các thay đổi của bạn lên bản fork của bạn.
 git push origin add-professor-loic-morel
 ```
 
-Sau khi hoàn tất, hãy tạo Pull Request (PR) trên GitHub để đề xuất tích hợp các sửa đổi của bạn. Thêm tiêu đề và mô tả ngắn gọn vào PR.
+Sau khi hoàn tất, hãy tạo Pull Request (PR) trên GitHub để tạo 1 bản đề xuất merge các sửa đổi của bạn. Thêm tiêu đề và mô tả ngắn gọn vào PR.
 
-### 4 - Kiểm tra và hợp nhất
+### 4 - Hiệu đính (proofreading) và merge
 
-Chờ xác thực hoặc phản hồi từ quản trị viên. Nếu cần, hãy sửa lỗi và đẩy các cam kết mới.
+Hãy chờ quản trị viên phê duyệt hoặc phản hồi. Nếu cần thiết, hãy thực hiện các chỉnh sửa và đẩy thêm các commit mới.
 
 ```bash
-# Créez un commit décrivant les corrections apportées
+# Tạo một commit mô tả các chỉnh sửa đã thực hiện
 git commit -m "*Corrections suite à la revue du tutoriel green-wallet*"
-# Poussez les corrections sur votre fork
+
+# Đẩy các thay đổi lên bản fork của bạn
 git push origin add-professor-loic-morel
 ```
 
-Sau khi PR đã được hợp nhất, bạn có thể xóa nhánh đang hoạt động của mình.
+Sau khi PR đã được merge, bạn có thể xóa nhánh làm việc của mình.
 
-## Sửa đổi hồ sơ giáo viên của bạn
+## Chỉnh sửa hồ sơ giảng viên của bạn
 
-Nếu bạn đã thành thạo cách sử dụng Git, hãy sửa đổi hồ sơ giáo viên của bạn bằng cách tạo một nhánh mới và chỉnh sửa tệp có liên quan trực tiếp trong thư mục hiện tại của bạn. Có thể thực hiện thay đổi trong tệp `professor.yml` hoặc trong tệp markdown, tùy thuộc vào thông tin cần sửa. Sau khi bạn đã thực hiện thay đổi cục bộ, hãy đẩy chúng lên Fork của bạn và gửi PR.
+Nếu bạn đã thành thạo Git, hãy chỉnh sửa hồ sơ giảng viên bằng cách tạo một nhánh mới và thực hiện chỉnh sửa trực tiếp file tin liên quan trong thư mục hiện có của bạn. Các thay đổi có thể thực hiện trong file `professor.yml` hoặc trong file markdown, tùy thuộc vào thông tin cần sửa. Sau khi thay đổi cục bộ, hãy đẩy chúng lên bản fork và gửi một PR.
 
-Đối với người mới bắt đầu, tôi khuyên bạn nên thực hiện sửa đổi trực tiếp thông qua trang web Interface của GitHub. Đảm bảo bạn có tài khoản GitHub. Nếu bạn không biết cách tạo tài khoản, hãy làm theo hướng dẫn này:
+Đối với người mới bắt đầu, tôi khuyên bạn nên thực hiện chỉnh sửa trực tiếp thông qua giao diện web của GitHub. Hãy đảm bảo bạn đã có tài khoản GitHub. Nếu chưa biết cách tạo, hãy theo dõi bài hướng dẫn này:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Truy cập [kho lưu trữ GitHub Plan ₿ Academy dành riêng cho dữ liệu](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+Truy cập [repository Plan ₿ Academy dành riêng cho dữ liệu trên GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 
-Nhấp vào thư mục "*giáo sư*", sau đó chuyển đến thư mục cá nhân của bạn.
+Nhấ vào thư mục `professors`, sau đó tìm đến thư mục cá nhân của bạn.
 
 ![Image](assets/fr/04.webp)
 
-Để thay đổi siêu dữ liệu hồ sơ của bạn, chẳng hạn như Lightning Address, tên hoặc liên kết, hãy chọn tệp "*professor.yml*". Để thay đổi mô tả của bạn, hãy nhấp vào tệp YAML cho ngôn ngữ của bạn (ví dụ: "*en.yml*" hoặc "*fr.yml*").
+Để thay đổi metadata của hồ sơ như địa chỉ Lightning, tên hoặc các liên kết, hãy chọn file `professor.yml`. Để thay đổi phần mô tả, hãy nhấn vào file YAML tương ứng với ngôn ngữ của bạn (ví dụ: `en.yml` hoặc `vi.yml`).
 
-Nếu bạn sửa đổi mô tả của mình, hãy nhớ xóa tất cả các bản dịch lỗi thời. Sau đó, bạn có thể tự dịch mô tả của mình sang các ngôn ngữ khác với sự trợ giúp của LLM hoặc chỉ để lại mô tả bằng ngôn ngữ mẹ đẻ của bạn và đề cập trong Yêu cầu kéo rằng mô tả của bạn cần được nhóm của chúng tôi dịch.
+Nếu bạn sửa đổi phần mô tả, hãy nhớ xóa bỏ tất cả các bản dịch đã cũ. Sau đó, bạn có thể tự dịch mô tả sang các ngôn ngữ khác với sự trợ giúp của LLM, hoặc chỉ cần để lại phần mô tả bằng ngôn ngữ mẹ đẻ và ghi chú trong Pull Request rằng phần mô tả này cần được đội ngũ của chúng tôi hỗ trợ dịch thuật.
 
 ![Image](assets/fr/05.webp)
 
-Khi đã vào tệp bạn muốn sửa đổi, hãy nhấp vào biểu tượng bút chì.
+Khi đã mở file bạn muốn sửa đổi, hãy nhấp vào biểu tượng bút chì.
 
 ![Image](assets/fr/06.webp)
 
-Nếu bạn chưa có Fork từ kho lưu trữ Plan ₿ Academy, GitHub sẽ gợi ý bạn tạo một kho lưu trữ. Nhấp vào "*Fork kho lưu trữ này*".
+Nếu bạn chưa có có bản fork từ repository của Plan ₿ Academy, GitHub sẽ gợi ý bạn tạo một bản. Nhấp vào `Fork this repository`.
 
 ![Image](assets/fr/07.webp)
 
-Thực hiện những thay đổi mong muốn cho tệp. Khi hoàn tất, hãy nhấp vào "*Cam kết thay đổi*".
+Thực hiện các thay đổi mong muốn trong file này. Sau khi hoàn tất, nhấn chọn `Commit changes`.
 
 ![Image](assets/fr/08.webp)
 
-Nhập tin nhắn mô tả thay đổi của bạn, sau đó chọn "*Đề xuất thay đổi*".
+Nhập mô tả thay đổi của bạn, sau đó chọn `Propose changes`.
 
 ![Image](assets/fr/09.webp)
 
-Tóm tắt các thay đổi của bạn sẽ được hiển thị. Nếu bạn muốn thực hiện thêm các thay đổi cho hồ sơ của mình, bạn có thể quay lại các thư mục và thực hiện thêm các cam kết. Khi bạn hoàn tất, hãy nhấp vào "*Create pull request*".
+Một bảng tóm tắt các thay đổi sẽ hiển thị. Nếu muốn thực hiện thêm các chỉnh sửa khác cho hồ sơ, bạn có thể quay lại các thư mục và tạo thêm các commit khác. Khi đã thực hiện xong, nhấn chọn `Create pull request`.
 
-Yêu cầu kéo là yêu cầu được đưa ra để tích hợp các thay đổi từ nhánh của bạn vào nhánh chính của kho lưu trữ Plan ₿ Academy, cho phép xem xét và thảo luận về các thay đổi trước khi chúng được hợp nhất.
+Pull Request là một yêu cầu được gửi đi để tích hợp các thay đổi từ nhánh của bạn vào nhánh chính của repository Plan ₿ Academy, cho phép xem xét và thảo luận về các thay đổi trước khi chúng được merge chính thức.
 
 ![Image](assets/fr/10.webp)
 
-Đảm bảo rằng ở đầu Interface, nhánh làm việc của bạn đã được hợp nhất với nhánh `dev` của kho lưu trữ Plan ₿ Academy (là nhánh chính).
+Hãy đảm bảo rằng ở phía trên cùng của giao diện, nhánh làm việc của bạn đang được merge vào nhánh `dev` (đây là nhánh chính) của repository Plan ₿ Academy.
 
-Nhập tiêu đề tóm tắt ngắn gọn những thay đổi bạn muốn hợp nhất với kho lưu trữ nguồn. Thêm một bình luận ngắn gọn mô tả những thay đổi này, sau đó nhấp vào nút "*Create pull request*" của Green để xác nhận yêu cầu kéo:
+Nhập tiêu đề tóm tắt ngắn gọn các thay đổi bạn muốn merge vào repository gốc. Thêm một bình luận ngắn mô tả những thay đổi này, sau đó nhấn vào nút `Create pull request` để xác nhận:
 
 ![Image](assets/fr/11.webp)
 
-PR của bạn sau đó sẽ hiển thị trong tab "*Pull Request*" của kho lưu trữ Plan ₿ Academy chính. Tất cả những gì bạn phải làm bây giờ là đợi quản trị viên hợp nhất sửa đổi của bạn.
+PR của bạn sẽ hiển thị trong tab `Pull Request` của repository gốc Plan ₿ Academy. Việc cuối cùng bạn cần làm là chờ quản trị viên merge những thay đổi của mình.
 
 ![Image](assets/fr/12.webp)
 
-Nếu bạn gặp bất kỳ khó khăn kỹ thuật nào khi gửi thay đổi của mình, vui lòng đừng ngần ngại yêu cầu trợ giúp trên [nhóm Telegram của chúng tôi dành riêng cho các đóng góp](https://t.me/PlanBNetwork_ContentBuilder). Cảm ơn bạn rất nhiều!
+Nếu bạn gặp bất kỳ khó khăn kỹ thuật nào trong quá trình gửi thay đổi, đừng ngần ngại gửi yêu cầu hỗ trợ tại [nhóm Telegram của chúng tôi dành riêng cho các đóng góp](https://t.me/PlanBNetwork_ContentBuilder). Xin chân thành cảm ơn!

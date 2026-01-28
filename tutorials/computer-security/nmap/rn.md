@@ -2238,23 +2238,24 @@ Izo nyandiko zitunganijwe hakurikijwe ivyiciro, kandi inyandiko imwe ishobora ku
 
 
 
-| Catégorie       | Description |
-|----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
+
+| Igice | Insiguro |
+|----------------|-------------|
+| **auth** | Ikubiyemwo amaskripti ajanye n'ukwemeza umwirondoro ku mahinguriro (services), harimwo ukwinjira nk'utazwi canke ukurondora abakoresha. Akarorero: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast** | Ikubiyemwo amaskripti ajanye n'ibikorwa vya broadcast ku muhora w'itumatumanako, na canecane mu ntumbero yo gukoresha canke gutahura amahinguriro amwamwa, abashitsi canke imigirire (protocols) ishingiye kuri broadcast (IPv6, wake on lan, IGMP, n'ibindi). Akarorero: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute** | Ikubiyemwo amaskripti ajanye n'ibikorwa vyo kugerageza kwinjira ku nguvu (brute force) ku mahinguriro (SSH, MSSQL, n'ibindi). Akarorero: `ssh-brute`, `vnc-brute`. |
+| **default** | Ikubiyemwo amaskripti akoreshwa mu buryo busanzwe (ukoresheje `-sC`). Ibintu vyinshi biraraba kugira ngo skripti yemerwe muri iki gice, harimwo umuvuduko w'iyizwa, ukuntu ibisohoka bimeze, ukwizigirwa kw'ico kigeragezo, ukuntu yinjira mu bintu cane canke iteza ikibazo, n'ibindi. |
+| **discovery** | Ikubiyemwo amaskripti ajanye n'ugutahura mu buryo bw'imbere umuhora w'itumatumanako n'amahinguriro. Twovuga nk'ukurondora ibiri mu gusangira (sharing) kwa SMB, verisiyo y'ihinguriro rya VNC, ivyo SNMP isaba, n'ibindi. Akarorero: `mysql-info`, `http-security-headers`. |
+| **dos** | Ikubiyemwo amaskripti ashobora gutuma ihinguriro rihagarara (denial of service). Ashobora kuba ari amaskripti yakozwe kugira akoreshe ubugoyagoye bwo guhagarika ihinguriro canke amaskripti abigira bitari vyo yari agenewe. Ni ukuba maso rero (akuwe mu gice ca `default`). Akarorero: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit** | Ikubiyemwo amaskripti yakozwe kugira akoreshe mu buryo butumbereye ubugoyagoye (vulnerability). Akarorero: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external** | Ikubiyemwo amaskripti asaba gukoresha ibikoresho vyo hanze, nk'ikigega c'amakuru kuri interineti. Ivyo vyerekana na canecane ukugerageza kwinjira hanze (mwibuke kugumya amabanga). Akarorero: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer** | Ikubiyemwo amaskripti yakozwe kugira arungike ibintu bititezwe (frames, packets, parameters) ku ihinguriro. Ivyo bituma hashobora kuba amakosa canke ibintu bitagenda neza kugira ngo haboneke aho ihinguriro rigoyagoya canke amakuru yerekeye ubuhinga. Akarorero: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive** | Ikubiyemwo amaskripti afatwa nk'ateye inkeke mu bijanye n'ukuboneka canke ugutahurwa. Ashobora gutuma sisitemu ihagarara canke agafatwa nk'ikintu kibi n'ivyuma bikingira umutekano. Ni ikinyurane c'igice ca `safe`. Akarorero: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware** | Ikubiyemwo amaskripti yakozwe kugira atahure ibimenyetso vy'ubumara (malware), nk'umuryango (port) wuguruye ukoreshwa na backdoor izwi. Akarorero: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe** | Ikubiyemwo amaskripti afatwa nk'adafise ikibazo mu bijanye n'ugutahurwa canke ugukomera. Ni ikinyurane c'igice ca `intrusive` kandi ahanini ikubiyemwo amaskripti agezweho yo gutahura verisiyo canke kuraba ukuntu ibintu bimeze. Akarorero: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version** | Ikubiyemwo amaskripti atuma habaho ugutahura verisiyo mu buryo bw'imbere. Ashobora gukoreshwa bunganira Probes na Matchs zize imbere iyo gutahura verisiyo bisaba ibikorwa bitoroshe cane. Akarorero: `http-php-version`, `vmware-version`. |
+| **vuln** | Ikubiyemwo amaskripti yakozwe kugira atahure ubugoyagoye buzwi (CVE) ariko atabukoresheje nabi (mu buryo butandukanye n'igice ca `exploit`). Ashira imbere gusa kwerekana ko ihinguriro rifise ubugoyagoye canke atabwo. Akarorero: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 Mu buryo bw’ubuhinga, ivyiciro inyandiko irimwo vyerekanywe ata guca ku ruhande muri kode yayo.
 

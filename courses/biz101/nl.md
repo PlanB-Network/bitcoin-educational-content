@@ -200,11 +200,11 @@ Samen maken deze componenten van Bitcoin een **toonderactief (bearer asset)** en
 
 ![BIZ101](assets/nl/003.webp)
 
-Bitcoin heeft een vast monetair beleid, met een **maximum van 21 miljoen bitcoins**, waarvan er al ~19,8 miljoen zijn uitgegeven. Dit maakt het **deflatoir**, waarbij de waarde in de loop van de tijd stijgt als gebruikers er spaargeld en productiviteitswinsten in opslaan.
+Bitcoin heeft een vast monetair beleid, met een **maximum van 21 miljoen bitcoins**, waarvan er al ~19,8 (2024) miljoen zijn gemined. Dit maakt het **deflatoir**, waarbij de waarde in de loop van de tijd stijgt naarmate gebruikers er spaargeld en productiviteitswinsten in opslaan.
 
 De technische eigenschappen overtreffen die van goud en de dollar samen, waardoor het de hardste financiële activa ooit is. Bitcoin is zowel een opslagplaats van waarde als een medium van Exchange, een valuta in wording. Stelt u zich eens voor: een snelle waardeoverdracht van de kas van een bedrijf naar een ander, zonder tussenpersonen, tegen minimale kosten, zonder fraude, 24 uur per dag, 7 dagen per week en zonder tussenkomst van derden.
 
-![BIZ101](assets/en/03.webp)
+![BIZ101](assets/en/004.webp)
 
 Bitcoin behoudt effectief waarde omdat het grootboek (de ledger) niet te manipuleren is is. De waarde stijgt door het zeldzame en beperkte aanbod in combinatie met het groeiende aantal uitwisselingsmogelijkheden, gedreven door het toenemende aantal gebruikers.
 
@@ -212,7 +212,7 @@ Bitcoin is ontwrichtend omdat het ons stimuleert om concepten in wiskunde, crypt
 
 Bitcoin daagt ons uit om de aard van geld zelf opnieuw te overdenken. Kun jij uitleggen wat geld echt is? Een werknemer of ondernemer in loondienst besteedt misschien 50.000 tot 100.000 uur van zijn leven aan het verdienen van geld, maar hoeveel mensen **besteden zelfs maar 100 uur aan het beter begrijpen en behouden ervan**? Bitcoin moedigt ons aan om na te denken over de fundamentele redenen achter onze behoefte aan geld en onze kijk op tijd. Is geld voor directe luxe of voor veerkracht en weerbaarheid op lange termijn? Als we een waardevast actief hadden dat ons in staat stelde aankopen uit te stellen, welke keuzes zouden we dan maken. Welke gesprekken zouden we over 20 of 30 jaar met onszelf willen voeren?
 
-**BITCOIN IDENTITEITSKAART**
+**BITCOIN IDENTITEITSKAART (in 2024)**
 
 - **Leeftijd:** 15 jaar (3 januari 2009)
 - **Dagelijkse uitwisselingswaarde:** $10 miljard (> CAC40)
@@ -289,7 +289,7 @@ De Lightning Network is ideaal voor Bitcoin betalingen in fysieke of online wink
 - **Finaliteit:** Zodra een betaling is gedaan op Lightning, is deze definitief. Er is geen mogelijkheid voor terugboekingen door derden of fraudegerelateerde geschillen.
 - **Kosten:** Transactiekosten op het Lightning Network zijn minimaal en worden betaald door de gebruiker, niet door de handelaar of winkelier. Handelaren betalen alleen kosten als ze hun Bitcoin later moeten overzetten naar een ander netwerk of een andere dienst.
 
-**LIGHTNING IDENTITEITSKAART**
+**LIGHTNING IDENTITEITSKAART (in 2024)**
 
 - **Uitvinding:** 2015
 - **Lancering:** 2016

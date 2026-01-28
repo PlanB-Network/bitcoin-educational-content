@@ -10,7 +10,8 @@ objectives:
 
 # Langkah Pertama Anda dalam Penambangan!
 
-Dalam pelatihan ini, kita akan mendalami industri penambangan untuk membuka tabir subjek kompleks ini! Pelatihan ini terbuka untuk semua orang dan tidak memerlukan investasi awal.
+Dalam pelatihan ini, kita akan menyelami industri pertambangan untuk mengungkap misteri di balik subjek yang kompleks ini! 
+Pelatihan ini dapat diakses oleh siapa saja dan tidak memerlukan investasi awal apa pun.
 
 Bagian pertama akan bersifat teoritis, di mana Ajelex dan saya akan memiliki diskusi mendalam tentang berbagai topik terkait penambangan. Ini akan membantu kita lebih memahami industri ini dan isu-isu ekonomi serta geopolitik yang terkait dengannya.
 Di bagian kedua, kita akan menangani kasus praktis. Memang, kita akan belajar cara mengubah penambang S9 bekas menjadi sistem pemanas rumah! Melalui panduan tertulis dan video, kita akan menunjukkan dan menjelaskan semua langkah untuk mencapai ini di rumah Anda :)
@@ -150,7 +151,7 @@ Membuka Sumber Perangkat Lunak Penambangan
 
 Kesimpulan umum adalah bahwa desentralisasi sangat penting untuk keamanan dan ketahanan jaringan Bitcoin. Meskipun sentralisasi dapat menawarkan manfaat efisiensi, itu memaparkan jaringan terhadap risiko signifikan, termasuk sensor dan serangan 51%. Inisiatif seperti Takai dan adopsi protokol baru seperti Stratum V2 adalah langkah penting menuju desentralisasi dan melindungi jaringan Bitcoin terhadap ancaman ini.
 
-## Nuansa industri penambangan
+## Seluk beluk industri penambangan
 
 <chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
@@ -284,7 +285,7 @@ Dalam konteks ini, memilih pendekatan otonom dan terdidik terhadap penambangan t
 
 ### Apakah penambangan dilarang di Eropa?
 
-Dengan isu potensi larangan penambangan di Eropa, diskusi tentang regulasi menjadi semakin relevan. Lanskap regulasi yang berfluktuasi memang dapat sangat mempengaruhi industri penambangan Bitcoin. Larangan penambangan di Eropa adalah skenario yang dapat dibayangkan, terutama mengingat preseden di China. Meskipun operasi penambangan terus berlangsung di China meskipun ada larangan, Eropa bisa mengikuti jalur serupa. Distribusi hashrate yang lebih luas di berbagai wilayah dapat membantu memperkuat komunitas penambangan di Eropa, memungkinkan mereka untuk secara efektif melawan kesalahpahaman dan konsepsi salah tentang penambangan, dampak lingkungannya, dan jejaknya pada jaringan listrik.
+Dengan isu potensi larangan penambangan di Eropa, diskusi tentang regulasi menjadi semakin relevan. Lanskap regulasi yang berfluktuasi memang dapat sangat mempengaruhi industri penambangan Bitcoin. Larangan penambangan di Eropa adalah skenario yang dapat dibayangkan, terutama mengingat presiden di China. Meskipun operasi penambangan terus berlangsung di China meskipun ada larangan, Eropa bisa mengikuti jalur serupa. Distribusi hashrate yang lebih luas di berbagai wilayah dapat membantu memperkuat komunitas penambangan di Eropa, memungkinkan mereka untuk secara efektif melawan kesalahpahaman dan konsepsi salah tentang penambangan, dampak lingkungannya, dan jejaknya pada jaringan listrik.
 ![image](assets/en/014.webp)
 
 Menghadapi kampanye seperti yang dilakukan oleh Greenpeace dan angka-angka menyesatkan dari beberapa studi, senjata terbaik tetaplah informasi yang benar. Sangat penting untuk menginformasikan masyarakat umum dan pembuat keputusan tentang realitas penambangan, kompleksitasnya, dan nuansanya, daripada membiarkan mereka mengandalkan stereotip dan informasi yang tidak akurat. Semakin banyak orang yang terinformasi dan sadar tentang apa itu penambangan, semakin baik industri dapat mempertahankan diri dari regulasi yang berpotensi membatasi.
@@ -310,13 +311,14 @@ Bitcoin secara otomatis menyesuaikan kesulitan penambangan dan memberi hadiah ke
 
 Penting untuk memahami hubungan antara energi dan produksi panas dalam sistem listrik.
 
-Untuk investasi 1 kW energi listrik, radiator listrik menghasilkan 1 kW panas, tidak lebih, tidak kurang. Radiator baru tidak lebih efisien daripada radiator tradisional. Keuntungan mereka terletak pada kemampuan mereka untuk terus-menerus dan merata mendistribusikan panas dalam sebuah ruangan, memberikan lebih banyak kenyamanan dibandingkan dengan radiator tradisional yang bergantian antara daya pemanasan tinggi dan tidak ada pemanasan, sehingga menghasilkan variasi suhu reguler dan ketidaknyamanan.
+Dengan investasi energi listrik sebesar 1 kW, radiator listrik menghasilkan panas sebesar 1 kW, tidak lebih, tidak kurang. Radiator baru tidak lebih efisien daripada radiator tradisional. Keunggulannya terletak pada kemampuannya untuk mendistribusikan panas secara terus menerus dan merata ke seluruh ruangan, memberikan kenyamanan yang lebih besar dibandingkan dengan radiator tradisional yang bergantian antara daya pemanasan tinggi dan tanpa pemanasan, sehingga menghasilkan variasi suhu yang teratur dan ketidaknyamanan.
 
 Komputer, atau lebih luas lagi papan elektronik, tidak mengonsumsi energi untuk melakukan perhitungan, ia hanya membutuhkan energi untuk mengalir melalui komponennya agar dapat berfungsi. Konsumsi energi disebabkan oleh resistansi listrik dari komponen, yang menghasilkan kerugian dan menghasilkan panas, dikenal sebagai efek Joule.
 
 Beberapa perusahaan telah datang dengan ide untuk menggabungkan kebutuhan kekuatan komputasi dengan kebutuhan pemanasan melalui radiator/server. Ide ini adalah untuk mendistribusikan server perusahaan ke dalam unit-unit kecil yang bisa ditempatkan di rumah atau kantor. Namun, ide ini menghadapi beberapa masalah. Kebutuhan akan server tidak terkait dengan kebutuhan akan pemanasan, dan perusahaan tidak dapat menggunakan kemampuan komputasi server mereka secara fleksibel. Ada juga batasan pada bandwidth yang dapat dimiliki individu. Semua kendala ini mencegah perusahaan dari membuat instalasi mahal ini menguntungkan atau menyediakan penawaran server online yang stabil tanpa pusat data yang dapat mengambil alih ketika pemanasan tidak diperlukan.
 
 > Panas yang dihasilkan oleh komputer Anda tidak terbuang jika Anda perlu memanaskan rumah Anda. Jika Anda menggunakan pemanas listrik di tempat Anda tinggal, maka panas dari komputer Anda tidak terbuang. Biayanya sama untuk menghasilkan panas ini dengan komputer Anda. Jika Anda memiliki sistem pemanasan yang lebih murah daripada pemanas listrik, maka pemborosan hanya pada perbedaan biaya. Jika musim panas dan Anda menggunakan pendingin udara, maka itu adalah pemborosan ganda. Penambangan Bitcoin harus dilakukan di tempat yang lebih murah. Mungkin itu akan berada di tempat dengan iklim dingin dan di mana pemanasan adalah listrik, di mana penambangan akan menjadi gratis.
+> 
 > Satoshi Nakamoto - 8 Agustus 2010
 
 Bitcoin dan sistem bukti kerjanya menonjol karena secara otomatis menyesuaikan kesulitan penambangan berdasarkan jumlah perhitungan yang dilakukan oleh seluruh jaringan. Jumlah ini disebut hashrate dan dinyatakan dalam hash per detik. Saat ini, diperkirakan sebesar 380 exahash per detik, yang berarti 380 miliar miliar hash per detik. Hashrate ini mewakili pekerjaan dan oleh karena itu jumlah energi yang digunakan. Semakin tinggi hashrate, semakin tinggi kesulitannya, dan sebaliknya. Dengan demikian, seorang penambang Bitcoin dapat diaktifkan atau dinonaktifkan kapan saja tanpa mempengaruhi jaringan, tidak seperti radiator/server yang perlu tetap stabil untuk menyediakan layanannya. Penambang diberi imbalan atas partisipasinya, relatif terhadap yang lain, tidak peduli seberapa kecil mungkin.
@@ -556,7 +558,7 @@ Di halaman pertama ini, Anda dapat mengamati kinerja mesin Anda secara real-time
 
 ![image](assets/en/042.webp)
 
-- Lebih lanjut ke bawah, Anda akan menemukan tampilan detil dari setiap hashboard. Suhu rata-rata papan dan chip yang terkandung di dalamnya, serta tegangan dan frekuensi.
+- Lebih lanjut ke bawah, Anda akan menemukan tampilan detail dari setiap hashboard. Suhu rata-rata papan dan chip yang terkandung di dalamnya, serta tegangan dan frekuensi.
 - Detail tentang kolam penambangan aktif di Pools.
 - Status autotuning di Tuner Status.
 - Di sebelah kanan, detail tentang data yang ditransmisikan ke kolam.
@@ -588,7 +590,7 @@ Di halaman pertama ini, Anda dapat mengamati kinerja mesin Anda secara real-time
 ### Bahan yang Diperlukan
 
 - 1 kipas Noctua NF-A6x25 PWM
-- Gula listrik 2.5mm2
+- Kawat baja listrik 2,5mm2
 
 > PERINGATAN: Pertama-tama, sebelum memulai, pastikan Anda telah mencabut penambang Anda untuk menghindari risiko tersengat listrik.
 
@@ -605,7 +607,7 @@ Setelah kipas asli dilepas, Anda akan menyadari bahwa konektor kipas Noctua baru
 
 ![image](assets/en/051.webp)
 
-Jika Anda tidak memiliki adaptor ini, Anda masih dapat melanjutkan untuk menghubungkan kipas baru menggunakan gula listrik. Untuk melakukan ini, Anda perlu memotong kabel kipas lama dan baru.
+Jika Anda tidak memiliki adaptor ini, Anda tetap dapat menghubungkan kipas baru menggunakan steker listrik. Untuk melakukan ini, Anda perlu memotong kabel kipas lama dan kipas baru.
 
 ![image](assets/en/052.webp)
 ![image](assets/en/053.webp)
@@ -627,7 +629,7 @@ Setelah kabel merah dan hitam terpapar, potong selubungnya dengan hati-hati untu
 
 ![image](assets/en/058.webp)
 
-Kemudian, hubungkan kabel dengan gula, kabel hitam dengan hitam dan kabel merah dengan merah. Anda juga dapat menambahkan isolasi listrik.
+Kemudian, sambungkan kabel-kabel tersebut dengan penjepit, kabel hitam dengan kabel hitam, dan kabel merah dengan kabel merah. Anda juga bisa menambahkan selotip listrik.
 
 ![image](assets/en/059.webp)
 ![image](assets/en/060.webp)
@@ -661,7 +663,7 @@ Akhirnya, pasang kembali penutup casing dan sekrup 6 sekrup di sisi untuk menaha
 - 2 kipas Noctua NF-A14 iPPC-2000 PWM
 - 2 gril kipas 140mm
 
-> PERINGATAN: Pertama-tama, sebelum memulai, pastikan untuk memutuskan penambang Anda untuk menghindari risiko tersengat listrik.
+> PERINGATAN: Pertama-tama, sebelum memulai, pastikan untuk memutuskan perangkat penambang Anda untuk menghindari risiko tersengat listrik.
 
 1. Pertama, lepaskan kipas dan buka bautnya.
 
@@ -670,7 +672,9 @@ Akhirnya, pasang kembali penutup casing dan sekrup 6 sekrup di sisi untuk menaha
 2. Konektor kipas Noctua baru tidak cocok dengan yang asli, tapi jangan khawatir! Keluarkan cutter Anda dan potong dengan hati-hati tab plastik kecil agar konektor pas sempurna pada penambang Anda.
 
 ![image](assets/en/066.webp)
-![image](assets/en/067.webp) 3. Saatnya memasang bagian 3D!
+![image](assets/en/067.webp) 
+
+3. Saatnya memasang bagian 3D!
 Pasang mereka di kedua sisi penambang menggunakan baut yang Anda lepas dari kipas. Pasang baut sampai kepala baut sejajar dengan bagian 3D dan terpasang dengan aman. Hati-hati jangan terlalu kencang, karena Anda bisa merusak bagian tersebut dan salah satu baut mungkin menyentuh kapasitor!
 
 ![image](assets/en/068.webp)
@@ -705,7 +709,7 @@ Dan selesai, selamat! Anda baru saja mengganti seluruh bagian mekanis dari penam
 ## Bergabung dengan kolam penambangan
 
 <chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
-Seseorang dapat membayangkan kolam penambangan seperti koperasi pertanian. Para petani menggabungkan produksi mereka bersama-sama untuk mengurangi varians pasokan dan permintaan dan dengan demikian memperoleh pendapatan yang lebih stabil untuk operasi mereka. Kolam penambangan beroperasi dengan cara yang sama, dengan sumber daya yang dibagi adalah hash. Memang, penemuan satu hash yang valid memungkinkan untuk pembuatan sebuah blok dan memenangkan coinbase atau hadiah, saat ini 6,25 BTC ditambah biaya transaksi yang termasuk dalam blok.
+Kita dapat membayangkan mining pool sebagai koperasi pertanian. Petani menggabungkan hasil produksi mereka untuk mengurangi perbedaan antara penawaran dan permintaan, sehingga memperoleh pendapatan yang lebih stabil untuk usaha mereka. Mining pool beroperasi dengan cara yang serupa, dengan sumber daya bersama berupa hash. Penemuan satu hash yang valid memungkinkan pembuatan blok dan penerimaan hadiah coinbase, saat ini sebesar 6,25 BTC ditambah biaya transaksi yang termasuk dalam blok tersebut.
 
 Jika Anda menambang sendirian, Anda hanya akan diberi hadiah ketika Anda menemukan sebuah blok. Berada dalam kompetisi melawan semua penambang lain di planet ini, Anda akan memiliki peluang yang sangat kecil untuk memenangkan lotere ini dan Anda masih harus membayar biaya yang terkait dengan penggunaan penambang Anda tanpa jaminan keberhasilan. Kolam penambangan mengatasi masalah ini dengan menggabungkan kekuatan komputasi dari beberapa (ribuan) penambang dan membagikan hadiah mereka berdasarkan persentase partisipasi dalam hashrate kolam ketika sebuah blok ditemukan. Untuk memvisualisasikan peluang Anda menambang sebuah blok sendirian, Anda dapat menggunakan alat ini. Dengan memasukkan informasi untuk Antminer S9, kita dapat melihat bahwa peluang menemukan hash yang memungkinkan untuk pembuatan sebuah blok adalah 1 dalam 24,777,849 untuk setiap blok atau 1 dalam 172,068 per hari. Rata-rata (dengan hashrate dan kesulitan yang konstan), akan memakan waktu 471 tahun untuk menemukan sebuah blok.
 

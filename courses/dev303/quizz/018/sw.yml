@@ -1,7 +1,7 @@
 question: Je, Rust hutumia utaratibu gani kusafisha kiotomatiki vigezo na rasilimali zake vinapopotea?
 answer: Utaratibu wa kushuka unaoita chaguo za kukokotoa kwenye vigeu
 wrong_answers:
-  - Kikusanya takataka ambacho huchanganua mara kwa mara kumbukumbu isiyotumika
+  - Kikusanya ttaka ambacho huchanganua mara kwa mara kumbukumbu isiyotumika
   - Ugawaji wa kumbukumbu kwa mikono kupitia simu za kazi za bure () wazi
   - Hesabu ya marejeleo inayofuatilia ni viashiria vingapi vinavyorejelea kila thamani
 explanation: |

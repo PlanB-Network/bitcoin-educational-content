@@ -6,4 +6,4 @@ wrong_answers:
   - SegWit
 explanation: |
   HTLC mengondisikan pembayaran pada pengungkapan sebuah rahasia, sehingga menjamin keberhasilan penuh atau kegagalan tanpa kerugian.
-reviewed: false
+reviewed: true

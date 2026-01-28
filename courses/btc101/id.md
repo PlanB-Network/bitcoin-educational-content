@@ -28,7 +28,7 @@ Tidak diperlukan pengetahuan sebelumnya untuk memulai kursus ini. BTC 101 diranc
 
 Selamat datang di kursus BTC101!
 
-Bitcoin adalah revolusi teknologi dan moneter, yang mampu membuat kita mempertanyakan hubungan kita dengan uang dan masyarakat. Faktanya, Bitcoin (disebut sebagai BTC) adalah mata uang yang **netral** dan **terdesentralisasi**, yang berarti tidak dikontrol oleh entitas atau institusi mana pun. Ini adalah sebuah inovasi yang lebih dari sekadar "mata uang internet": Bitcoin adalah protokol komputer (Bitcoin) dan unit moneter (bitcoin).
+Bitcoin adalah revolusi teknologi dan moneter, yang mampu membuat kita mempertanyakan hubungan kita dengan uang dan masyarakat. Faktanya, Bitcoin (disebut sebagai BTC) adalah mata uang yang **netral** dan **terdesentralisasi**, yang berarti tidak dikontrol oleh entitas atau institusi manapun. Ini adalah sebuah inovasi yang lebih dari sekadar "mata uang internet": Bitcoin adalah protokol komputer (Bitcoin) dan unit moneter (bitcoin).
 
 Protokol ini menggunakan teknologi dasar seperti kriptografi, komunikasi jaringan, dan "[blockchain](https://planb.academy/resources/glossary/blockchain)" yang terkenal, sementara unit bitcoin berfungsi sebagai mata uang yang diperlukan untuk berfungsinya protokol ini. Dalam kehidupan sehari-hari, warga El Salvador dan para pengguna bitcoin di seluruh dunia menggunakan mata uang bitcoin untuk membeli dan menjual barang dan jasa, dengan mengandalkan teknologi ini untuk membuat hidup mereka lebih baik.
 
@@ -93,7 +93,7 @@ meskipun tidak secara eksklusif cypherpunk, teks ini mencerminkan sentimen dari 
 
 Sebelum kemunculan Bitcoin, telah ada beberapa upaya untuk menciptakan mata uang digital. Sebagai contoh, David Chaum memperkenalkan konsep "uang elektronik anonim" dengan proyeknya "DigiCash" pada tahun 1980-an. Sayangnya, karena berbagai kendala, DigiCash tidak pernah berkembang pesat.
 
-Prekursor penting lainnya adalah "B-money" dari Wei Dai. Meskipun tidak pernah diimplementasikan, ini menyajikan ide mata uang digital anonim di mana pendeteksi penipuan dilakukan oleh komunitas penilai dan bukan oleh otoritas sentral.
+Pendahulu penting lainnya adalah "B-money" dari Wei Dai. Meskipun tidak pernah diimplementasikan, ini menyajikan ide mata uang digital anonim di mana pendeteksi penipuan dilakukan oleh komunitas penilai dan bukan oleh otoritas sentral.
 
 Gambar di bawah ini dengan jelas menggambarkan perkembangan gerakan ini melalui berbagai inovasi teknologinya.
 
@@ -131,7 +131,7 @@ Evolusi uang adalah aspek menarik dari sejarah manusia yang mencerminkan kecerdi
 
 Pada awalnya, mata uang adalah aset berwujud, seperti biji-bijian, ternak, atau komoditas lainnya. Namun, barang-barang ini memiliki kelemahan utama yaitu mudah rusak, sehingga sulit untuk menggunakannya sebagai media tabungan jangka panjang. Misalnya, panen yang buruk atau hama hewan dapat menghancurkan kekayaan seseorang dalam semalam.
 
-Dengan demikian, ketika peradaban maju dan perdagangan meluas ke daerah-daerah baru, kebutuhan akan alat tukar yang universal muncul. Orang-orang pertama kali bereksperimen dengan benda-benda seperti kerang dan batu permata, tetapi benda-benda tersebut tidak tahan lama atau langka seperti yang mereka yakini. Akhirnya, emas menjadi standar, karena kelangkaan, daya tahan, dan kemampuannya untuk dibagi-bagi. Emas adalah, dan tetap menjadi simbol kekayaan dan kekuasaan hingga hari ini.
+Dengan demikian, ketika peradaban maju dan perdagangan meluas ke daerah-daerah baru, kebutuhan akan alat tukar yang universal muncul. Orang-orang pertama kali bereksperimen dengan benda-benda seperti kerang dan batu permata, tetapi benda-benda tersebut tidak tahan lama atau langka seperti yang mereka yakini. Akhirnya, emas menjadi standar, karena kelangkaan, daya tahan, dan kemampuannya untuk dibagi-bagi. Emas, dan tetap menjadi simbol kekayaan dan kekuasaan hingga hari ini.
 
 ![image](assets/id/007.webp)
 
@@ -158,7 +158,7 @@ Karena alasan ini, emas sebagai uang adalah hasil dari 4.000 tahun Darwinisme mo
 
 ### Karakteristik uang
 
-Emas secara ideal memenuhi kriteria mata uang yang efisien: kelangkaan alaminya membuatnya berharga, sementara sifat kimianya memastikan nilai emas tidak terkikis seiring waktu. Fitur-fitur ini menjadikan emas sebagai penyimpan nilai yang hebat, tetapi bukan mata uang yang umum, karena bentuk uang ini tidak mudah dibagi atau diangkut dalam jarak jauh. Di dunia yang mengglobal dan digital, emas berjuang untuk mengimbangi dan membutuhkan entitas pusat untuk membuatnya dapat dibagi dan mudah ditukar (misalnya melalui koin yang dicetak).
+Emas secara ideal memenuhi kriteria mata uang yang efisien: kelangkaan alaminya membuatnya berharga, sementara sifat kimianya memastikan nilai emas tidak terkikis seiring waktu. Fitur-fitur ini menjadikan emas sebagai penyimpan nilai yang hebat, tetapi bukan mata uang yang umum, karena bentuk uang ini tidak mudah dibagi atau diangkut dalam jarak jauh. Di dunia yang terglobalisasi dan digital, emas berjuang untuk mengimbangi dan membutuhkan entitas pusat untuk membuatnya dapat dibagi dan mudah ditukar (misalnya melalui koin yang dicetak).
 
 Sebaliknya, mata uang yang di akui negara (fiat) dapat digunakan dengan mudah, tetapi nilainya berkurang terus-menerus oleh entitas yang mengendalikannya (raja, bank sentral, kaisar, diktator).
 
@@ -290,7 +290,7 @@ Salah satu contoh hiperinflasi yang paling mencolok terjadi di Republik Weimar J
 
 Jerman telah meminjam uang dalam jumlah yang sangat besar untuk membiayai perang. Namun, Jerman tidak hanya kehilangan uang tersebut, tetapi juga harus membayar miliaran dolar untuk reparasi. Tingkat inflasi tertinggi adalah pada bulan Oktober 1923, yang mencapai puncaknya pada 29.500%, yang setara dengan tingkat inflasi 20,9% per hari. Harga-harga naik dua kali lipat setiap 3,7 hari!
 
-Mata uang Jerman menjadi sangat tidak berguna sehingga beberapa warga lebih memilih untuk membakar uang kertas mereka daripada kayu karena lebih murah. Bahkan diceritakan bahwa di restoran-restoran, para pelayan harus mengumumkan harga menu setiap 30 menit untuk memperhitungkan inflasi.
+Mata uang Jerman menjadi sangat tidak berguna sehingga beberapa warga lebih memilih untuk membakar uang kertas mereka dari pada kayu karena lebih murah. Bahkan diceritakan bahwa di restoran-restoran, para pelayan harus mengumumkan harga menu setiap 30 menit untuk memperhitungkan inflasi.
 
 Pada akhirnya, pihak berwenang menciptakan mata uang baru, yang didukung oleh utang Jerman, Prancis, dan Inggris, dan dijamin oleh tanah Jerman.
 
@@ -300,7 +300,7 @@ Pada akhirnya, pihak berwenang menciptakan mata uang baru, yang didukung oleh ut
 
 Negara yang mengalami periode hiperinflasi terburuk hingga saat ini adalah Hungaria setelah Perang Dunia II.
 
-Hongaria berada di pihak yang kalah dalam konflik ini, dengan sebagian besar kapasitas produksi industrinya hancur. Bulan dengan inflasi tertinggi adalah Juli 1946, yang mengalami inflasi harga yang mengejutkan sebesar 41.900.000.000.000%, setara dengan 207% per hari. Harga naik dua kali lipat setiap 15 jam!
+Hungaria berada di pihak yang kalah dalam konflik ini, dengan sebagian besar kapasitas produksi industrinya hancur. Bulan dengan inflasi tertinggi adalah Juli 1946, yang mengalami inflasi harga yang mengejutkan sebesar 41.900.000.000.000%, setara dengan 207% per hari. Harga naik dua kali lipat setiap 15 jam!
 
 Uang kertas terakhir yang diedarkan adalah 100 juta miliar Pengo (100.000.000.000.000) pada tahun 1946.
 
@@ -574,7 +574,7 @@ Silakan lihat contoh cara menyusun makalah di bawah ini: kata-kata tersebut pals
 
 ![image](assets/id/034.webp)
 
-### Kiat kami untuk melakukannya dengan benar
+### Tips kami untuk melakukannya dengan benar
 
 Selain itu, pastikan untuk tidak membuat kesalahan saat menyalin, jika tidak, ahli waris Anda mungkin akan kesulitan membacanya dan mungkin tidak dapat memulihkan dana tersebut. Selain itu, setelah Anda menyimpan kata-katanya, disarankan untuk membuat salinan kedua dan menyimpannya di lokasi yang berbeda dari yang pertama. Hal ini memastikan Anda memiliki cadangan jika dokumen asli hilang atau rusak.
 
@@ -964,13 +964,13 @@ Perkembangan dan evolusi Bitcoin sebagian besar terkait dengan berbagai kelompok
 
 ![image](assets/id/068.webp)
 
-- Orang-orang yang beriman:
+- Para pendukungnya:
 
 Pengguna awal Bitcoin sebagian besar adalah para technophiles, cypherpunks, libertarian, dan penggemar emas. Kelompok-kelompok ini tertarik dengan Bitcoin karena nilainya sebagai uang elektronik yang tidak memerlukan kepercayaan pihak ketiga, ketahanannya terhadap sensor, dan kebijakan moneternya yang transparan dan tidak dapat diubah.
 
 - Web gelap & penjahat
 
-Kemudian, penggunaan Bitcoin meluas ke pasar web gelap seperti Silk Road, sebagian besar karena sifatnya yang tidak dapat dikontrol dan pseudonim, yang juga menarik orang-orang di luar platform tersebut, termasuk beberapa orang yang terlibat dalam kegiatan kriminal. Akan tetapi, penting untuk ditekankan bahwa yang menentukan legalitas adalah penggunaan sebuah alat, dan bukan alat itu sendiri. Penggunaan Bitcoin secara ilegal tidak secara inheren membuat seseorang menjadi seorang kriminal; namun, tindakan-tindakan tertentu yang dapat diklasifikasikan sebagai ilegal. Sebagai contoh, menggunakan Bitcoin untuk membeli obat-obatan tertentu dapat dianggap legal atau ilegal tergantung pada peraturan yang mengatur wilayah tempat transaksi terjadi.
+Kemudian, penggunaan Bitcoin meluas ke pasar web gelap seperti Silk Road, sebagian besar karena sifatnya yang tidak dapat dikontrol dan pseudonim, yang juga menarik orang-orang di luar platform tersebut, termasuk beberapa orang yang terlibat dalam kegiatan kriminal. Akan tetapi, penting untuk ditekankan bahwa yang menentukan legalitas adalah penggunaan sebuah alat, dan bukan alat itu sendiri. Penggunaan Bitcoin secara ilegal tidak serta merta membuat seseorang menjadi seorang kriminal; namun, tindakan-tindakan tertentu yang dapat diklasifikasikan sebagai ilegal. Sebagai contoh, menggunakan Bitcoin untuk membeli obat-obatan tertentu dapat dianggap legal atau ilegal tergantung pada peraturan yang mengatur wilayah tempat transaksi terjadi.
 
 - Kegilaan ICO dan kedatangan masyarakat umum.
 
@@ -1202,9 +1202,9 @@ Lightning Network justru merupakan jawaban atas permasalahan ini. Gagasan Lightn
 
 ![image](assets/id/080.webp)
 
-### Kanal pembayaran yang berjangkar pada Bitcoin
+### Kanal pembayaran yang berbasis Bitcoin
 
-Lightning bergantung pada kanal pembayaran dua arah. Sebuah kanal adalah hubungan teknis antara dua peserta, yang memungkinkan mereka bertukar sat secara offchain, yaitu tanpa mencatat setiap pembayaran di blockchain.
+Lightning bergantung pada kanal pembayaran dua arah. Sebuah kanal adalah hubungan teknis antara dua peserta, yang memungkinkan mereka bertukar sats secara offchain, yaitu tanpa mencatat setiap pembayaran di blockchain.
 
 Dari sudut pandang Bitcoin (onchain), membuka sebuah kanal berarti mengunci dana dalam sebuah transaksi khusus. Ini dapat dilihat sebagai bentuk escrow: dana dikunci sedemikian rupa sehingga hanya penutupan kanal yang valid yang dapat mendistribusikannya kembali.
 
@@ -1220,11 +1220,11 @@ Dengan demikian, dua orang yang berbagi sebuah kanal Lightning dapat melakukan s
 
 ### Jaringan kanal yang saling terhubung
 
-Lightning bukan sekadar kumpulan kanal yang terisolasi. Ini adalah sebuah jaringan: ribuan node saling terhubung melalui kanal, membentuk sebuah graf koneksi.
+Lightning bukan sekadar kumpulan kanal yang terisolasi. Ini adalah sebuah jaringan: ribuan node saling terhubung melalui kanal, membentuk sebuah grafik koneksi.
 
 ![image](assets/id/082.webp)
 
-Berkat jaringan ini, Anda dapat membayar seorang penerima bahkan jika Anda tidak memiliki kanal langsung dengannya, selama terdapat jalur kanal yang memungkinkan pembayaran tersebut dirutekan. Pembayaran tersebut kemudian melewati beberapa node perantara, dari satu hop ke hop berikutnya.
+Berkat jaringan ini, Anda dapat membayar seorang penerima bahkan jika Anda tidak memiliki kanal langsung dengannya, selama terdapat jalur kanal yang memungkinkan pembayaran tersebut dialihkan. Pembayaran tersebut kemudian melewati beberapa node perantara, dari satu hop ke hop berikutnya.
 
 Di sinilah muncul konsep penting dalam Lightning: likuiditas. Kapasitas sebuah kanal adalah total dana yang terkunci di kanal tersebut, dan likuiditas adalah distribusi dana tersebut di antara kedua sisi kanal, dan dengan demikian arah di mana sat dapat mengalir. Dengan kata lain, sebuah kanal dapat memiliki kapasitas besar, namun tetap tidak dapat digunakan ke satu arah tertentu jika likuiditas berada di sisi yang salah. Keberhasilan pembayaran bergantung tidak hanya pada keberadaan jalur, tetapi juga pada likuiditas yang tersedia di sepanjang jalur tersebut.
 
@@ -1271,7 +1271,7 @@ Kemampuan untuk mengirim jumlah yang sangat kecil membuka model ekonomi baru: pe
 
 - **Kreator konten, podcast, dan donasi**
 
-Lightning sering digunakan untuk mikro-donasi atau mekanisme penghargaan. Aplikasi seperti Fountain atau Rumble menggambarkan logika ini dengan baik: pembayaran menjadi granular dan menyatu secara alami dengan pengalaman, alih-alih menjadi tindakan yang berat dan sesekali. Kami juga telah mengintegrasikan logika ini di Plan ₿ Academy, karena Anda dapat dengan mudah mengirim donasi kecil kepada pengajar favorit Anda sebagai bentuk terima kasih.
+Lightning sering digunakan untuk mikro-donasi atau mekanisme penghargaan. Aplikasi seperti Fountain atau Rumble menggambarkan logika ini dengan baik: pembayaran menjadi lebih detail dan terintegrasi dengan pengalaman pengguna, bukan lagi menjadi tindakan yang berat untuk sesekali dilakukan. Kami juga telah mengintegrasikan logika ini di Plan ₿ Academy, karena Anda dapat dengan mudah mengirim donasi kecil kepada pengajar favorit Anda sebagai bentuk terima kasih.
 
 - **Game dan ekonomi digital**
 
@@ -1307,7 +1307,7 @@ https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
-Seperti yang telah kita lihat pada bab-bab sebelumnya, Bitcoin dirancang sebagai lapisan dasar yang sangat kuat: sebuah buku besar publik yang sederhana dan aman, tetapi secara alami terbatas dalam kecepatan, kemampuan pemrograman, dan throughput pembayaran. Alih-alih memaksa lapisan ini untuk melakukan segalanya (seperti yang dilakukan pada Ethereum, misalnya), ekosistem Bitcoin secara bertahap mengadopsi pendekatan berlapis: blockchain berfungsi sebagai fondasi (penyelesaian akhir), sementara lapisan di atasnya menambahkan properti baru, seperti pembayaran yang lebih cepat, privasi yang lebih baik, atau penerbitan aset (stablecoin, sekuritas yang ditokenisasi...).
+Seperti yang telah kita lihat pada bab-bab sebelumnya, Bitcoin dirancang sebagai lapisan dasar yang sangat kuat: sebuah buku besar publik yang sederhana dan aman, tetapi secara alami terbatas dalam kecepatan, kemampuan pemrograman, dan kapasitas pembayaran. Alih-alih memaksa lapisan ini untuk melakukan segalanya (seperti yang dilakukan pada Ethereum, misalnya), ekosistem Bitcoin secara bertahap mengadopsi pendekatan berlapis: blockchain berfungsi sebagai fondasi (penyelesaian akhir), sementara lapisan di atasnya menambahkan properti baru, seperti pembayaran yang lebih cepat, privasi yang lebih baik, atau penerbitan aset (stablecoin, sekuritas yang ditokenisasi...).
 
 Bitcoin tidak hanya berkembang dengan memodifikasi protokol dasarnya. Ia juga berkembang dengan membangun di atasnya, dengan solusi yang membuat kompromi berbeda tergantung pada tujuan yang dicari. Beberapa berfokus pada skalabilitas pembayaran, yang lain pada kemampuan pemrograman (dalam arti luas) dan penerbitan aset, dan yang lain lagi mencoba menggabungkan keduanya.
 
@@ -1333,7 +1333,7 @@ Ark merujuk pada sekumpulan proposal dan implementasi yang bertujuan meningkatka
 
 Gagasan protokol lapisan kedua ini diperkenalkan oleh Burak pada Mei 2023. Seperti Lightning Network, Ark adalah sistem yang diterapkan di atas rantai utama Bitcoin. Ark memungkinkan pembayaran bitcoin secara offchain dengan cepat, anonim, dan berbiaya rendah. Dibandingkan Lightning, Ark tidak memerlukan likuiditas masuk untuk menerima pembayaran, sehingga secara signifikan meningkatkan pengalaman pengguna. Selain itu, Ark memberikan tingkat privasi yang mendekati transaksi coinjoin. Ark juga dapat bersifat non-interaktif jika covenant ditambahkan ke Bitcoin.
 
-Burak sering mengkritik kemampuan Lightning untuk diskalakan karena ketergantungannya pada rantai utama, dan menyarankan bahwa Ark secara teoretis dapat mengintegrasikan seluruh populasi dunia dalam self-custody. Meskipun Ark dapat dipandang sebagai protokol yang bersaing dengan Lightning Network, keduanya sebenarnya dapat hidup berdampingan, bahkan bersifat saling melengkapi.
+Burak sering mengkritik kemampuan Lightning untuk berkembang karena ketergantungannya pada rantai utama, dan menyarankan bahwa Ark secara teoretis dapat mengintegrasikan seluruh populasi dunia dalam self-custody. Meskipun Ark dapat dipandang sebagai protokol yang bersaing dengan Lightning Network, keduanya sebenarnya dapat hidup berdampingan, bahkan bersifat saling melengkapi.
 
 Ark tetap menjadi bidang yang sangat aktif namun masih muda: tujuannya menjanjikan (mengurangi jejak onchain per pengguna secara drastis), tetapi perlu diingat bahwa ini adalah arsitektur yang lebih kompleks, dengan asumsi dan risiko yang berbeda dari Bitcoin dan Lightning.
 

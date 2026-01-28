@@ -390,12 +390,13 @@ https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| सेवा | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | न्यूनतम राशि |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + माइनिंग शुल्क | 0.5% + माइनिंग शुल्क | 25,000 sats |
+| **Boltz** | 0.2% + माइनिंग शुल्क | 0.5% + माइनिंग शुल्क | 50,000 sats |
+| **Phoenix** | केवल माइनिंग शुल्क | 0.4% स्थिर | 10,000 sats |
+| **Breez** | 0.25% + नेटवर्क शुल्क | 0.5% + माइनिंग शुल्क | 50,000 sats |
 
 ज़ीउस स्वैप उपयोग में आसानी और तकनीकी नियंत्रण के बीच संतुलन प्रदान करता है: बोल्ट्ज़ की तुलना में अधिक सुलभ, फीनिक्स/ब्रीज़ की तुलना में अधिक लचीला, तथा सख्त गैर-हिरासत दृष्टिकोण के साथ।
 

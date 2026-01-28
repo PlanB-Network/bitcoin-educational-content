@@ -143,10 +143,11 @@ Nie zapomnij ponownie uruchomić oprogramowania po wprowadzeniu tych zmian.
 Następnie wróć do Sparrow Wallet i wprowadź ścieżkę do pliku cookie, zwykle znajdującego się w tym samym folderze co `Bitcoin.conf`, w zależności od systemu operacyjnego:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -177,10 +178,11 @@ server=1
 Po edycji pliku upewnij się, że zapisałeś go w odpowiednim folderze dla swojego systemu operacyjnego:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Tę operację można również wykonać za pomocą graficznego Bitcoin-QT Interface. Przejdź do menu "*Ustawienia*", a następnie "*Opcje...*" i aktywuj opcję "*Włącz serwer RPC*", zaznaczając odpowiednie pole. Jeśli plik `Bitcoin.conf` nie istnieje, można go utworzyć bezpośrednio z tego Interface klikając na "*Open Configuration File*".
 

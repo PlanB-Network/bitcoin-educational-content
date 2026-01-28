@@ -263,11 +263,12 @@ Amaç: Röleyi uzaktan kumanda üzerindeki AÇMA/KAPAMA düğmesine bağlayın
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Terminal**         | **Açıklama**           | **Fonksiyon**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Normaliter Açık)   | Devre varsayılan olarak açık | Rölesi etkinleştirildiğinde kapanır |
+| NC (Normaliter Kapalı) | Devre varsayılan olarak kapalı  | Rölesi etkinleştirildiğinde açılır  |
+| COM (Ortak)         | Merkez terminal          | NO ve NC arasında geçiş yapar              |
 
 **Uzaktan kumandadan röle modülüne kablolama:**
 
@@ -301,11 +302,12 @@ ESP32 röleyi kestiğinde, COM ve NO ayrılır, bu da düğmeyi bırakmaya eşde
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Rölü Modülü** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Giriş)        |
 
 **Doğrulama:**
 
@@ -894,14 +896,15 @@ Son testten önce kontrol edin :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Sorun**                        | **Olası Neden**              | **Çözüm**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 bağlanmıyor            | USB sürücüsü eksik             | [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) yükle |
+| Rölü tıklamıyor                | Yanlış GPIO kablolama            | GPIO 21 → IN'i kontrol et                                                                        |
+| Duman makinesi yanıt vermiyor         | Uzaktan kumanda yanlış kablolu         | NO/NC/COM'u kontrol et                                                                           |
+| WebSocket zaman aşımı                   | Yanlış URL                  | wss:// ve /bitcoinswitch'i kontrol et                                                            |
+| WiFi bağlanmıyor             | SSID/Şifre yanlış            | WiFi yapılandırmasını yeniden flash et                                                                    |
+| Ödeme alındı ama hiçbir şey olmuyor | ESP32 WebSocket'e bağlı değil | RESET günlüklerini kontrol et                                                                      |
 
 ## Kaynaklar
 

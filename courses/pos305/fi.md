@@ -727,14 +727,15 @@ BTCPay Server sisältää seuraavat Wallet:n vakio-ominaisuudet:
 Järjestelmänvalvojat näkevät tapahtumanäkymässä kyseiseen varastoon liitettyjen On-Chain Wallet:n saapuvat ja lähtevät tapahtumat. Jokaisessa tapahtumassa on eroteltu vastaanotetut ja lähetetyt summat. Vastaanotetut tapahtumat ovat Green, ja lähtevät tapahtumat ovat punaisia. BTCPay-palvelimen tapahtumanäkymässä ylläpitäjät näkevät myös joukon vakiotarroja.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Tapahtumatyyppi | Kuvaus                                           |
+| ---------------- | ------------------------------------------------- |
+| Sovellus         | Maksu vastaanotettiin sovelluksen luoman laskun kautta |
+| Lasku            | Maksu vastaanotettiin laskun kautta               |
+| Payjoin          | Ei maksettu, laskun ajastin ei ole vielä umpeutunut |
+| Payjoin-paljastettu | UTXO paljastettiin laskun payjoin-ehdotuksen kautta |
+| Maksupyyntö      | Maksu vastaanotettiin maksupyynnön kautta         |
+| Maksu            | Maksu lähetettiin maksun tai hyvityksen kautta    |
 
 ### Kuinka lähettää
 
@@ -1805,28 +1806,30 @@ Jokaisella tyypillä on omat täytettävät parametrit. Kaupan omistaja voi aset
 BTCPay Serverin avulla voit myös rakentaa lomakkeita koodilla. Erityisesti JSON. Sen sijaan, että katsoisit editoria, kaupan omistajat voivat klikata CODE-painiketta editorin vieressä ja päästä lomakkeidensa koodiin. Kenttämäärittelyssä voidaan asettaa vain seuraavat kentät; kenttien arvot tallennetaan Invoice:n metatietoihin:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Kenttä | Kuvaus |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Jos true, .value on määritettävä lomakkeen määrittelyssä, eikä käyttäjä voi muuttaa kentän arvoa. (esimerkki: lomakkeen määrittelyn versio) |
+| .fields.type | HTML-syötetyyppi: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Jos .fields.type on select, valittavissa olevien arvojen luettelo |
+| .fields.options.text | Tälle vaihtoehdolle näytettävä teksti |
+| .fields.options.value | Kentän arvo, jos tämä vaihtoehto on valittuna |
+| .fields.type=fieldset | Luo HTML-fieldset-elementin lapsikenttien .fields.fields ympärille (katso alta) |
+| .fields.name | Kentän JSON-ominaisuuden nimi sellaisena kuin se näkyy laskun metatiedoissa |
+| .fields.value | Kentän oletusarvo |
+| .fields.required | jos true, kenttä on pakollinen |
+| .fields.label | Kentän nimiö |
+| .fields.helpText | Lisäteksti, joka antaa selityksen kentälle. |
+| .fields.fields | Voit järjestää kentät hierarkiaan, jolloin alikentät voidaan sisällyttää laskun metatietoihin. Tämä rakenne auttaa sinua järjestämään ja hallitsemaam kerättyjä tietoja paremmin, mikä helpottaa niiden käyttöä ja tulkintaa. Jos sinulla on esimerkiksi lomake, joka kerää asiakastietoja, voit ryhmitellä kentät yläkentän customer alle. Tämän yläkentän alla voi olla alikenttiä, kuten name, Email ja address. |
 
 Kentän nimi edustaa JSON-ominaisuuden nimeä, joka tallentaa käyttäjän antaman arvon Invoice:n metatietoihin. Joitakin tunnettuja nimiä voidaan tulkita ja muuttaa Invoice:n asetusten mukauttamiseksi.
 
 
-| Field name       | Description            |
+
+| Kentän nimi      | Kuvaus                |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Laskun summa          |
+| invoice_currency | Laskun valuutta       |
 
 Voit esitäyttää Invoice-lomakkeen kentät automaattisesti lisäämällä lomakkeen URL-osoitteeseen kyselymerkkijonoja, kuten "?your_field=value".
 
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Lokit         | Säiliön nimi                       |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2467,21 +2471,22 @@ Ellet käytä sisäänrakennettua [Wallet](https://docs.btcpayserver.org/Wallet/
 Alla olevassa taulukossa luetellaan ja kuvataan BTCPayn Invoice-standarditilat sekä ehdotetut yleiset toimenpiteet. Toimenpiteet ovat vain suosituksia. Käyttäjien on itse määriteltävä omaan käyttötilanteeseensa ja liiketoimintaansa parhaiten sopiva toimintatapa.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Laskun tila | Kuvaus | Toimenpide |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Ei maksettu, laskun ajastin ei ole vielä umpeutunut | Ei mitään |
+| New (paidPartial) | Maksettu osittain, laskun ajastin ei ole vielä umpeutunut | Ei mitään |
+| Expired | Ei maksettu, laskun ajastin on umpeutunut | Ei mitään |
+| Expired (paidPartial) ** | Maksettu osittain ja umpeutunut | Ota yhteyttä ostajaan palautuksen järjestämiseksi tai pyydä maksua. Merkitse lasku valinnaisesti tilaan settled tai invalid |
+| Expired (paidLate) | Maksettu kokonaisuudessaan laskun ajastimen umpeutumisen jälkeen | Ota yhteyttä ostajaan palautuksen järjestämiseksi tai käsittele tilaus, jos myöhäiset vahvistukset hyväksytään. |
+| Settled (paidOver) | Maksettu yli laskun summan, tilitys valmis, riittävä määrä vahvistuksia saatu | Ota yhteyttä ostajaan liian suuren summan palauttamiseksi tai odota valinnaisesti ostajan yhteydenottoa |
+| Processing | Maksettu kokonaan, mutta kaupan asetuksissa määritettyä riittävää vahvistusmäärää ei ole saatu | Ota yhteyttä ostajaan liian suuren summan palauttamiseksi tai odota valinnaisesti ostajan yhteydenottoa |
+| Processing (paidOver) | Maksettu yli laskun summan, riittävää määrää vahvistuksia ei ole saatu | Odota tilitystä, ota sitten yhteyttä ostajaan palautuksen järjestämiseksi tai odota ostajan yhteydenottoa |
+| Settled | Maksettu kokonaan, riittävä määrä vahvistuksia saatu kaupassa | Toimita tilaus |
+| Settled (marked) | Tila muutettiin manuaalisesti tilasta processing tai invalid tilaan settled | Kaupan ylläpitäjä on merkinnyt maksun tilaksi settled |
+| Invalid* | Maksettu, mutta riittävää määrää vahvistuksia ei saatu kaupan asetuksissa määritetyssä ajassa | Tarkista tapahtuma lohkoketjun selaimesta; jos vahvistuksia on riittävästi, merkitse tilaksi settled |
+| Invalid (marked) | Tila muutettiin manuaalisesti tilasta settled tai expired tilaan invalid | Kaupan ylläpitäjä on merkinnyt maksun tilaksi invalid |
+| Invalid (paidOver) | Maksettu yli laskun summan, mutta riittävää määrää vahvistuksia ei saatu kaupan asetusten puitteissa | Tarkista tapahtuma lohkoketjun selaimesta; jos vahvistuksia on riittävästi, merkitse tilaksi settled |
 
 #### Invoice tiedot
 

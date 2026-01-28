@@ -6,4 +6,4 @@ wrong_answers:
   - Sharding
 explanation: |
   Mekanisme two-way peg memungkinkan BTC dikunci di Bitcoin dan direpresentasikan di sidechain.
-reviewed: false
+reviewed: true

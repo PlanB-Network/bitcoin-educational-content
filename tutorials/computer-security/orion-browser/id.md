@@ -282,15 +282,16 @@ Untuk menjaga Orion tetap cepat dan privat:
 
 ## Perbandingan dengan alternatif
 
-|Kriteria |	Orion	| Safari	| Chrome |	Firefox |	Brave |
+
+| Kriteria | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-|**Telemetry** |	Tidak Ada |	Minimal |	Ekstensif |	Sedang |	Minimal |
-|**Blokir Bawaan**| 99,9% efektif |	Dasar |Tidak Ada	|Parsial	|Lengkap |
-|**Ekstensi** |	Chrome + Firefox |	Terbatas |	Chrome saja |	Firefox saja |	Chrome saja |
-|**Performa Mac** |	Sangat Baik |	Sangat Baik |	Baik |	Sedang |	Baik |
-|**Konsumsi RAM**|	Sangat Rendah |	Rendah |	Tinggi |	Sedang |	Sedang |
-|**Open Source** | 	Parsial |	Parsial (WebKit) |	Parsial |	Lengkap |	Lengkap |
-|**Platform**	| Mac/iOS |	Mac/iOS |	Semua |	Semua	| Semua |
+| **Telemetri** | Tidak ada | Minimal | Ekstensif | Sedang | Minimal |
+| **Pemblokir bawaan** | 99,9% efektif | Dasar | Tidak ada | Sebagian | Lengkap |
+| **Ekstensi** | Chrome + Firefox | Terbatas | Hanya Chrome | Hanya Firefox | Hanya Chrome |
+| **Kinerja Mac** | Sangat bagus | Sangat bagus | Baik | Rata-rata | Baik |
+| **Konsumsi RAM** | Sangat rendah | Rendah | Tinggi | Rata-rata | Rata-rata |
+| **Open Source** | Sebagian | Sebagian (WebKit) | Sebagian | Lengkap | Lengkap |
+| **Platform** | Mac/iOS | Mac/iOS | Semua | Semua | Semua |
 
 **VS Safari**: Orion menawarkan perlindungan superior dengan pemblokir canggih dan dukungan ekstensinya, sambil mempertahankan performa WebKit.
 **VS Chrome**: privasi yang tak tertandingi tanpa mengorbankan kompatibilitas, berkat dukungan untuk ekstensi Chrome.

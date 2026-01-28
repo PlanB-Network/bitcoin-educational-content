@@ -2142,7 +2142,7 @@ Kuri telefone yawe, shiramwo porogarama Alby Go:
 
 
 - [Iduka ry'imikino ya Google](https://imikino.com/iduka/amaporogarama/ibisobanuro?id=com.getalby.mobile);
-- [Iduka ry'amaporogarama y'ipome] (iporogarama y'ipome
+- [Iduka ry'amaporogarama y'ipome](iporogarama y'ipome
 - [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq3jhml5fvklgnq9fxpete767txn9zfzqdkc0sxfptmnchfrexje7qqfxxmmd9enk2jxpd3).
 
 

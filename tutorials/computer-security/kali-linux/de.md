@@ -459,29 +459,30 @@ Lassen Sie uns einige grundlegende Kali Linux-Aufgaben in einer Tabelle zusammen
 
 
 
-| **Catégorie**              | **Tâche de base**                      | **Description / Objectif**                                 | **Méthode principale**                                       |
+
+| **Kategorie** | **Basisaufgabe** | **Beschreibung / Ziel** | **Hauptmethode** |
 | -------------------------- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| **Navigation système**     | Ouvrir le terminal                     | Accéder à la ligne de commande principale de Kali          | Cliquez sur l’icône du terminal ou utilisez `Ctrl + Alt + T` |
-|                            | Parcourir les dossiers                 | Se déplacer dans l’arborescence du système                 | `cd /chemin/du/dossier`, `ls` pour lister les fichiers       |
-|                            | Créer / supprimer un dossier           | Organiser les fichiers                                     | `mkdir nom_dossier`, `rm -r nom_dossier`                     |
-| **Gestion des fichiers**   | Copier / déplacer un fichier           | Manipuler des fichiers dans le terminal                    | `cp fichier destination`, `mv fichier destination`           |
-|                            | Supprimer un fichier                   | Libérer de l’espace disque                                 | `rm nom_du_fichier`                                          |
-|                            | Afficher le contenu d’un fichier texte | Lire rapidement un fichier                                 | `cat fichier.txt`, `less fichier.txt`                        |
-| **Gestion du système**     | Mettre à jour Kali Linux               | Installer les dernières versions et correctifs de sécurité | `sudo apt update && sudo apt full-upgrade -y`                |
-|                            | Installer un logiciel                  | Ajouter un nouvel outil ou utilitaire                      | `sudo apt install nom_du_paquet`                             |
-|                            | Supprimer un logiciel                  | Nettoyer le système                                        | `sudo apt remove nom_du_paquet`                              |
-|                            | Nettoyer les dépendances inutiles      | Gagner de l’espace disque                                  | `sudo apt autoremove`                                        |
-| **Réseau et Internet**     | Vérifier la connexion réseau           | Tester l’accès à Internet                                  | `ping google.com`                                            |
-|                            | Identifier l’adresse IP                | Connaître sa configuration réseau                          | `ip a` ou `ifconfig`                                         |
-|                            | Changer de réseau Wi-Fi                | Se connecter à un autre point d’accès                      | Icône réseau → Sélectionner le Wi-Fi voulu                   |
-| **Comptes et permissions** | Exécuter une commande administrateur   | Obtenir les droits root temporairement                     | `sudo commande`                                              |
-|                            | Créer un nouvel utilisateur            | Ajouter un compte local                                    | `sudo adduser nom_utilisateur`                               |
-|                            | Modifier un mot de passe               | Sécuriser un compte                                        | `passwd`                                                     |
-| **Apparence et confort**   | Changer le fond d’écran                | Personnaliser le bureau                                    | Clic droit sur le bureau → **Paramètres du bureau**          |
-|                            | Modifier le thème / icônes             | Améliorer la lisibilité et l’esthétique                    | Paramètres → Apparence / Thèmes                              |
-| **Outils Kali**            | Ouvrir le menu des outils              | Explorer les outils de test et de sécurité                 | Menu **Applications → Kali Linux**                           |
-|                            | Lancer un outil (ex : nmap, wireshark) | Découverte pratique des utilitaires de sécurité            | `sudo nmap`, `wireshark`, etc.                               |
-| **Aide et documentation**  | Obtenir de l’aide sur une commande     | Comprendre une commande avant de l’utiliser                | `man commande` ou `commande --help`                          |
+| **Systemnavigation** | Terminal öffnen | Zugriff auf die Hauptbefehlszeile von Kali | Klicken Sie auf das Terminal-Symbol oder nutzen Sie `Ctrl + Alt + T` |
+| | Ordner durchsuchen | Navigieren in der Systemstruktur | `cd /pfad/zum/ordner`, `ls` zum Auflisten von Dateien |
+| | Ordner erstellen / löschen | Dateien organisieren | `mkdir ordnername`, `rm -r ordnername` |
+| **Dateiverwaltung** | Datei kopieren / verschieben | Dateien im Terminal manipulieren | `cp datei ziel`, `mv datei ziel` |
+| | Datei löschen | Festplattenspeicher freigeben | `rm dateiname` |
+| | Inhalt einer Textdatei anzeigen | Eine Datei schnell lesen | `cat datei.txt`, `less datei.txt` |
+| **Systemverwaltung** | Kali Linux aktualisieren | Installieren der neuesten Versionen und Sicherheitspatches | `sudo apt update && sudo apt full-upgrade -y` |
+| | Software installieren | Ein neues Tool oder Dienstprogramm hinzufügen | `sudo apt install paketname` |
+| | Software löschen | Das System bereinigen | `sudo apt remove paketname` |
+| | Unnötige Abhängigkeiten entfernen | Festplattenspeicher gewinnen | `sudo apt autoremove` |
+| **Netzwerk und Internet** | Netzwerkverbindung prüfen | Den Internetzugang testen | `ping google.com` |
+| | IP-Adresse identifizieren | Die Netzwerkkonfiguration kennen | `ip a` oder `ifconfig` |
+| | Wi-Fi-Netzwerk wechseln | Verbindung zu einem anderen Zugangspunkt herstellen | Netzwerksymbol → Gewünschtes Wi-Fi auswählen |
+| **Konten und Berechtigungen** | Administratorbefehl ausführen | Vorübergehend Root-Rechte erhalten | `sudo befehl` |
+| | Neuen Benutzer erstellen | Ein lokales Konto hinzufügen | `sudo adduser benutzername` |
+| | Passwort ändern | Ein Konto sichern | `passwd` |
+| **Aussehen und Komfort** | Hintergrundbild ändern | Den Desktop personalisieren | Rechtsklick auf den Desktop → **Schreibtischeinstellungen** |
+| | Design / Icons ändern | Lesbarkeit und Ästhetik verbessern | Einstellungen → Erscheinungsbild / Designs |
+| **Kali-Tools** | Tool-Menü öffnen | Test- und Sicherheits-Tools erkunden | Menü **Anwendungen → Kali Linux** |
+| | Ein Tool starten (z.B. nmap, wireshark) | Praktische Entdeckung von Sicherheits-Utilities | `sudo nmap`, `wireshark`, etc. |
+| **Hilfe und Dokumentation** | Hilfe zu einem Befehl erhalten | Einen Befehl vor der Verwendung verstehen | `man befehl` oder `befehl --help` |
 
 ## Schlussfolgerung
 

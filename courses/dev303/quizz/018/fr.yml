@@ -1,8 +1,8 @@
 question: Quel mécanisme Rust utilise-t-il pour nettoyer automatiquement les variables et leurs ressources lorsqu'elles sortent du champ d'application ?
-answer: Le mécanisme d'abandon qui appelle les fonctions d'abandon sur les variables
+answer: Le mécanisme d'abandon qui appelle les fonctions d'abandon sur les variables.
 wrong_answers:
-  - Un collecteur d'ordures qui recherche périodiquement la mémoire inutilisée
-  - Désallocation manuelle de la mémoire par des appels explicites à la fonction free()
-  - Le comptage des références permet de savoir combien de pointeurs référencent chaque valeur
+  - Un collecteur d'ordures qui recherche périodiquement la mémoire inutilisée.
+  - Désallocation manuelle de la mémoire par des appels explicites à la fonction free().
+  - Le comptage des références permet de savoir combien de pointeurs référencent chaque valeur.
 explanation: |
   Rust utilise le mécanisme d'abandon pour nettoyer automatiquement les ressources lorsque les variables sortent du champ d'application. Ce système appelle implicitement une fonction drop sur chaque variable lorsqu'elle sort de son champ d'application, marquant la mémoire comme disponible pour la réutilisation et effectuant toutes les opérations de nettoyage nécessaires, comme la fermeture des handles de fichiers. Cette approche, empruntée au modèle RAII de C++, garantit une gestion automatique des ressources sans nécessiter de garbage collection, de gestion manuelle de la mémoire ou de systèmes de comptage de références utilisés par d'autres langages.

@@ -727,14 +727,15 @@ BTCPay Server består av følgende standard Wallet-funksjoner:
 Administratorer kan se innkommende og utgående transaksjoner for On-Chain Wallet som er koblet til denne spesifikke butikken i transaksjonsvisningen. Hver transaksjon har et skille mellom mottatte og sendte beløp. Mottatte vil være Green, og utgående transaksjoner vil være røde. I BTCPay Server-transaksjonsvisningen vil administratorer også se et sett med standardetiketter.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Transaksjonstype | Beskrivelse                                      |
+| ----------------- | ------------------------------------------------ |
+| App               | Betaling ble mottatt via en app-opprettet faktura |
+| Faktura           | Betaling ble mottatt via en faktura               |
+| Payjoin           | Ikke betalt, fakturatimeren har ennå ikke utløpt  |
+| Payjoin-eksponert | UTXO ble eksponert via et payjoin-forslag i en faktura |
+| Betalingsforespørsel | Betaling ble mottatt via en betalingsforespørsel |
+| Utbetaling        | Betaling ble sendt via en utbetaling eller refusjon |
 
 ### Hvordan sende
 
@@ -1805,28 +1806,30 @@ Hver type har sine egne parametere som skal fylles ut. Butikkeieren kan stille d
 BTCPay Server lar deg også bygge skjemaer i kode. JSON, spesielt. I stedet for å se på redigeringsverktøyet kan butikkeiere klikke på CODE-knappen rett ved siden av redigeringsverktøyet og gå inn i koden til skjemaene sine. I en feltdefinisjon kan bare følgende felt angis; verdiene til feltene lagres i metadataene til Invoice:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Felt | Beskrivelse |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Hvis true, må .value settes i skjema-definisjonen, og brukeren vil ikke kunne endre feltets verdi. (eksempel: skjema-definisjonens versjon) |
+| .fields.type | HTML-inputtypen text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Hvis .fields.type er select, listen over valgbare verdier |
+| .fields.options.text | Teksten som vises for dette alternativet |
+| .fields.options.value | Verdien av feltet hvis dette alternativet er valgt |
+| .fields.type=fieldset | Opprett et HTML-fieldset rundt barna .fields.fields (se nedenfor) |
+| .fields.name | JSON-egenskapsnavnet til feltet slik det vil vises i fakturaens metadata |
+| .fields.value | Standardverdien for feltet |
+| .fields.required | hvis true, vil feltet være obligatorisk |
+| .fields.label | Ledeteksten (label) til feltet |
+| .fields.helpText | Tilleggstekst for å gi en forklaring av feltet. |
+| .fields.fields | Du kan organisere feltene dine i et hierarki, slik at underfelt kan nøstes inn i fakturaens metadata. Denne strukturen kan hjelpe deg med å organisere og administrere den innsamlede informasjonen bedre, noe som gjør den enklere å få tilgang til og tolke. For eksempel, hvis du har et skjema som samler inn kundeinformasjon, kan du gruppere feltene under et foreldrefelt kalt customer. Innenfor dette foreldrefeltet kan du ha underfelt som name, Email og address. |
 
 Feltnavnet representerer JSON-egenskapsnavnet som lagrer den brukerdefinerte verdien i Invoices metadata. Noen velkjente navn kan tolkes og endres for å justere Invoices innstillinger.
 
 
-| Field name       | Description            |
+
+| Feltnavn         | Beskrivelse           |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Fakturabeløp          |
+| invoice_currency | Fakturavaluta         |
 
 Du kan forhåndsutfylle feltene i et Invoice-skjema automatisk ved å legge til spørringsstrenger i skjemaets URL-adresse, for eksempel "?your_field=value".
 
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Logg for      | Beholdernavn                       |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2467,21 +2471,22 @@ Med mindre du bruker en innebygd [Wallet](https://docs.btcpayserver.org/Wallet/)
 Tabellen nedenfor viser og beskriver standard Invoice-statusene i BTCPay, sammen med forslag til vanlige tiltak. Handlingene er bare anbefalinger. Det er opp til brukerne å definere hva som er best for deres brukstilfelle og virksomhet.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Fakturastatus | Beskrivelse | Handling |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Ikke betalt, fakturatimeren har ennå ikke utløpt | Ingen |
+| New (paidPartial) | Betalt, ikke fullt beløp, fakturatimeren har ennå ikke utløpt | Ingen |
+| Expired | Ikke betalt, fakturatimeren er utløpt | Ingen |
+| Expired (paidPartial) ** | Betalt, ikke fullt beløp, og utløpt | Kontakt kjøper for å avtale refusjon eller be dem betale restbeløpet. Marker eventuelt fakturaen som settled eller invalid |
+| Expired (paidLate) | Betalt, fullt beløp, etter at fakturatimeren er utløpt | Kontakt kjøper for å avtale refusjon eller behandle ordren dersom sene bekreftelser aksepteres. |
+| Settled (paidOver) | Betalt mer enn fakturabeløpet, oppgjort, mottatt tilstrekkelig antall bekreftelser | Kontakt kjøper for å avtale refusjon av det overskytende beløpet, eller vent på at kjøper kontakter deg |
+| Processing | Betalt fullt ut, men har ikke mottatt tilstrekkelig antall bekreftelser spesifisert i butikkinnstillingene | Kontakt kjøper for å avtale refusjon av det overskytende beløpet, eller vent på at kjøper kontakter deg |
+| Processing (paidOver) | Betalt mer enn fakturabeløpet, ikke mottatt tilstrekkelig antall bekreftelser | Vent til status blir settled, kontakt deretter kjøper for refusjon av overskytende beløp, eller vent på kontakt |
+| Settled | Betalt, fullt ut, mottatt tilstrekkelig antall bekreftelser i butikken | Fullfør ordren |
+| Settled (marked) | Status ble manuelt endret til settled fra en processing- eller invalid-status | Butikkadministrator har markert betalingen som settled |
+| Invalid* | Betalt, men mottok ikke tilstrekkelig antall bekreftelser innen tiden spesifisert i butikkinnstillingene | Sjekk transaksjonen på en blockchain-utforsker; hvis den har fått nok bekreftelser, marker som settled |
+| Invalid (marked) | Status ble manuelt endret til invalid fra en settled- eller expired-status | Butikkadministrator har markert betalingen som invalid |
+| Invalid (paidOver) | Betalt mer enn fakturabeløpet, men mottok ikke nok bekreftelser innen fristen i butikkinnstillingene | Sjekk transaksjonen på en blockchain-utforsker; hvis den har fått nok bekreftelser, marker som settled |
 
 #### Detaljer om Invoice
 

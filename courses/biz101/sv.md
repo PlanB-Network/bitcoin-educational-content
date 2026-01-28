@@ -196,7 +196,7 @@ Tillsammans gör de Bitcoin till en **innehavartillgång** och en digital valuta
 
 ![BIZ101](assets/sv/003.webp)
 
-Bitcoin har en fast penningpolitik, med ett **tak på 21 miljoner bitcoins**, av vilka ~19,8 miljoner redan har distribuerats. Detta gör den **deflationär**, med ett värde som ökar över tid när användarna förvarar besparingar och produktivitetsvinster i den.
+Bitcoin har en fast penningpolitik, med ett **maximum på 21 miljoner bitcoins**, varav ~19,8 (2024) miljoner redan har brutits. Detta gör den **deflationär**, där dess värde ökar över tid i takt med att användare lagrar besparingar och produktivitetsvinster i den.
 
 Dess tekniska egenskaper överträffar guld och dollar tillsammans, vilket gör den till den hårdaste finansiella tillgången som någonsin skapats. Bitcoin är både en värdebevarare och ett bytesmedel, en valuta som håller på att formas. Föreställ dig att snabbt överföra värde från ett företags kassa till ett annat, utan mellanhänder, till minimal kostnad, utan bedrägeri, dygnet runt och utan att någon tredje part är inblandad.
 
@@ -208,7 +208,7 @@ Bitcoin är omvälvande eftersom det uppmuntrar oss att lära oss begrepp inom m
 
 Bitcoin får oss att tänka om kring pengars grundläggande natur. Kan du förklara vad pengar egentligen är? En löntagare eller entreprenör kan ägna 50 000 till 100 000 timmar av sitt liv åt att tjäna pengar, men hur många **ägnar ens 100 timmar åt att förstå det bättre** och bevara det? Bitcoin uppmuntrar oss att ifrågasätta de grundläggande orsakerna bakom vårt behov av pengar och vårt tidsperspektiv. Är pengar till för omedelbar lyx eller långsiktig motståndskraft? Vilka val skulle vi göra om vi hade en tillgång med värdeökning som gjorde att vi kunde skjuta upp våra inköp? Vilka samtal skulle vi vilja ha med oss själva om 20 eller 30 år?
 
-**BITCOINS IDENTITETSKORT**
+**BITCOIN IDENTITETSKORT (år 2024)**
 
 - **Ålder:** 15 år (3 januari 2009)
 - **Dagligt växlingsvärde:** 10 miljarder USD (> CAC40)
@@ -290,7 +290,7 @@ Lightning Network är idealisk för Bitcoin-betalningar i fysiska butiker eller 
 - **Finalitet:** När en betalning har gjorts på Lightning är den slutgiltig. Det finns ingen möjlighet till återbetalningar från tredje part eller bedrägerirelaterade tvister.
 - **Avgifter:** Transaktionsavgifterna på Lightning Network är minimala och betalas av användaren, inte av säljaren. Handlare drabbas endast av avgifter om de senare behöver överföra sina bitcoins till ett annat nätverk eller en annan tjänst.
 
-**LIGHTNINGS IDENTITETSKORT**
+**LIGHTNING IDENTITETSKORT (år 2024)**
 
 
 - **Uppfinning:** 2015

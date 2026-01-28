@@ -522,15 +522,16 @@ För att hålla Orion snabbt och privat:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Kriterium | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Telemetri** | Ingen | Minimal | Omfattande | Måttlig | Minimal |
+| **Inbyggd blockerare** | 99,9% effektiv | Grundläggande | Frånvarande | Partiell | Fullständig |
+| **Tillägg** | Chrome + Firefox | Begränsad | Endast Chrome | Endast Firefox | Endast Chrome |
+| **Mac-prestanda** | Utmärkt | Utmärkt | Bra | Genomsnittlig | Bra |
+| **RAM-förbrukning** | Mycket låg | Låg | Höga | Genomsnittlig | Genomsnittlig |
+| **Open Source** | Partiell | Partiell (WebKit) | Partiell | Fullständig | Fullständig |
+| **Plattformar** | Mac/iOS | Mac/iOS | Alla | Alla | Alla |
 
 **I motsats till Safari**: Orion erbjuder ett överlägset skydd med avancerade blockerare och tilläggsstöd, samtidigt som WebKit-prestandan bibehålls.
 

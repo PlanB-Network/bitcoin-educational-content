@@ -211,11 +211,12 @@ Odeslání Bitcoin:
 4. Zvolte rychlost transakce:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Rychlost   | Přibližný čas potvrzení | Úroveň poplatku     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Pomalá**    | ~120 minut              | Nejnižší
+| **Výchozí** | ~60 minut               | Střední
+| **Rychlá**    | ~20 minut               | Vyšší
 
 5. Potvrďte čtyřmístným kódem PIN → transakce se vysílá
 
@@ -251,12 +252,13 @@ Více o Replace-by-fee (RBF): https://bitcoinops.org/en/topics/replace-by-fee/
 (99 % uživatelů to nikdy neudělá - stačí jim 12 slov passphrase)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Situace                                      | Proč potřebujete soukromý klíč                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Vyprázdnění staré papírové peněženky                   | Přesunout prostředky do vaší aktuální peněženky             |
+| Import do podpisu hardwaru (např. Coldcard) | Pro offline podpisování                              |
+| Nouzové obnovení (ztracený počátek, ale aplikace je stále otevřená) | Zachránit mince před tím, než aplikace zmizí           |
+| Použití nástrojů, které nepřijímají fráze semen     | Některé nástroje pouze pro sledování nebo podpisování             |
 
 ### Jak exportovat soukromé klíče v Coin Wallet
 
@@ -313,14 +315,16 @@ Coin Wallet striktně dodržuje oficiální standardy Bitcoin, které používaj
 Z jednoho hlavního klíče wallet může generate získat miliardy adres v přesně definovaném pořadí. Proto stejných 12 slov zadaných do Electrum, Sparrow, Trezoru, Ledger, BlueWallet atd. zobrazí přesně stejné adresy a zůstatky.
 
 
-**Derivační cesty používané v Coin Wallet pro Bitcoin**
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+**Cesty derivace používané v Coin Wallet pro Bitcoin**
+
+| Typ adresy              | Standard | Cesta odvozování       | Začíná | Komentář                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| Nativní SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Moderní formát, nejnižší poplatky           |
+| Vnořený SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Obálka kompatibility pro staré služby |
+| Starší (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Nejstarší formát, nejvyšší poplatky          |
 
 Uvnitř každé cesty:
 

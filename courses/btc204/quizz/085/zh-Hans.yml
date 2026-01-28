@@ -1,6 +1,6 @@
-question: JoinMarket使用的特定用户匹配模型是什么？
+question: JoinMarket 使用的特定用户匹配模型是什么？
 
-answer: 制造者和接受者之间的P2P市场。
+answer: “maker” 和 “taker” 之间的 P2P 市场。
 
 wrong_answers:
   - 随机分配参与者的服务器。
@@ -8,6 +8,6 @@ wrong_answers:
   - 手动选择参与者的调解服务。
 
 explanation: |
-  JoinMarket运作在一个P2P交换市场上，一些用户，即“制造者”，提供他们的比特币进行混合，而其他用户，即“接受者”，使用这些资金来执行coinjoins交换，以换取一定的费用。
+  JoinMarket 运作在一个P2P交换市场上，一些用户，即 “maker”，提供他们的比特币进行混合，而其他用户，即 “taker”，使用这些资金来执行混币交换，以换取一定的费用。
 
 reviewed: false

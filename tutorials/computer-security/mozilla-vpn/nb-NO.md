@@ -153,7 +153,7 @@ Med Mozilla VPN kan du velge plassering i to formater:
 
 
 
-- Single-Hop: som flytter datamaskinens IP Address og krypterer dataene til en server i en bestemt valgt region, i vårt eksempel Sofia i Hviterussland.
+- Single-Hop: som flytter datamaskinens IP Address og krypterer dataene til en server i en bestemt valgt region, i vårt eksempel Sofia i Bulgaria.
 
 
 

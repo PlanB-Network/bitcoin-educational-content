@@ -1,8 +1,8 @@
 question: Ni faida gani kuu ya usanifu inayowezesha Breez SDK kuondoa kizuizi cha jadi cha Lightning Network cha kufungua njia kwa mikono kwa watumiaji wapya?
-answer: Utendaji wa Mtoa Huduma Jumuishi wa Umeme (LSP) ambao hutoa kiotomatiki ukwasi unaoingia wakati wa usakinishaji wa wallet
+answer: Integrated Lightning Service Provider (LSP) ambao hutoa kiotomatiki ukwasi unaoingia wakati wa usakinishaji wa wallet
 wrong_answers:
   - Huduma za kubadilishana manowari zilizojengewa ndani zinazobadilisha on-chain Bitcoin kuwa njia za umeme bila kuingilia kati kwa mtumiaji
-  - Mabwawa ya njia yanayofadhiliwa awali yanayosimamiwa na Greenlight ambayo hugawanywa kwa watumiaji kulingana na mahitaji
+  - Pools za njia yanayofadhiliwa awali yanayosimamiwa na Greenlight ambayo hugawanywa kwa watumiaji kulingana na mahitaji
   - Mifumo ya ugunduzi wa rika kiotomatiki inayounganisha pochi mpya kwenye nodi zenye umajimaji mwingi kwa ajili ya uundaji wa njia papo hapo
 explanation: |
   Utendaji jumuishi wa LSP wa Breez SDK umeundwa mahsusi ili kuondoa kizuizi cha ufunguzi wa njia kwa mikono kwa kutoa kiotomatiki ukwasi unaoingia wakati watumiaji wanaposakinisha wallet yao. Hii inaruhusu upokeaji wa malipo ya haraka bila usanidi wa kiufundi. Ubadilishaji wa manowari hushughulikia ubadilishaji wa safu lakini haushughulikii utoaji wa njia za awali. Mabwawa yaliyofadhiliwa awali na ugunduzi wa rika sio njia ambazo Breez hutumia - badala yake, ujumuishaji wa LSP hutoa moja kwa moja uwezo unaohitajika wa kuingia kwa watumiaji wapya kupokea malipo mara moja.

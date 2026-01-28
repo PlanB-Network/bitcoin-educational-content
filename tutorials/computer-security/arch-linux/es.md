@@ -265,20 +265,22 @@ Elige **GPT** si estás en UEFI, **DOS** si estás en BIOS.
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Punto de montaje en el sistema instalado | Partición                 | Tipo de partición       | Tamaño sugerido |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | Partición del Sistema EFI   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Espacio de intercambio (swap) | Al menos 4 GB   |
+| /                                        | /dev/root_partition       | Raíz de Linux x86-64 (/) | Resto del disco |
 
 - En BIOS
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Punto de montaje en el sistema instalado | Partición           | Tipo de partición       | Tamaño sugerido |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Espacio de intercambio (swap) | Al menos 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Resto del disco |
 
 ![0_10](assets/fr/10.webp)
 

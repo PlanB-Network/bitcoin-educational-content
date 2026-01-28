@@ -153,7 +153,7 @@ Mozilla VPN hukuruhusu kuchagua eneo lako katika miundo miwili:
 
 
 
-- Single-Hop: ambayo huhamisha IP Address ya kompyuta yako na kusimba data kwa server katika eneo mahususi lililochaguliwa, kwa mfano wetu Sofia huko Belarus.
+- Single-Hop: ambayo huhamisha IP Address ya kompyuta yako na kusimba data kwa server katika eneo mahususi lililochaguliwa, kwa mfano wetu Sofia huko Bulgaria.
 
 
 

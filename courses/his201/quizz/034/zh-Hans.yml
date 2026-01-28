@@ -1,8 +1,8 @@
-question: 谁在2009年10月建立了比特币与美元之间的首个交换服务？
+question: 谁于 2009 年 10 月建立了比特币与美元之间的首个交换服务？
 answer: NewLibertyStandard
 wrong_answers:
   - sirius-m
   - dwdollar
   - SmokeTooMuch
 explanation:
-  这项服务是初级的：交易通过电子邮件协商，通过PayPal支付。汇率基于NewLibertyStandard自己的挖矿成本。
+  这项服务是初级的：交易通过电子邮件协商，通过 PayPal 支付。汇率基于 NewLibertyStandard 自己的挖矿成本。

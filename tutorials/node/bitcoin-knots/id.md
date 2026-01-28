@@ -212,13 +212,14 @@ Jangan lupa untuk memulai ulang perangkat lunak setelah melakukan perubahan ini.
 
 Lalu buka perangkat lunak manajemen wallet kamu (misalnya Sparrow Wallet atau Liana) dan masukkan path menuju file cookie kamu, yang biasanya ada di folder yang sama dengan `bitcoin.conf`, tergantung sistem operasi kamu:
 
-|**macOS**|~/Perpustakaan/Dukungan Aplikasi/Bitcoin
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -236,13 +237,14 @@ server=1
 
 Setelah mengedit file, pastikan kamu menyimpannya dalam folder yang sesuai untuk sistem operasi:
 
-|**macOS**|~/Perpustakaan/Dukungan Aplikasi/Bitcoin
 
+
+
+
+|**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Operasi ini juga bisa dilakukan lewat antarmuka grafik Bitcoin-QT. Buka menu Settings, lalu Options..., dan aktifkan Enable RPC server dengan mencentang kotaknya. Jika file bitcoin.conf belum ada, kamu bisa membuatnya langsung dari antarmuka ini dengan klik *Open Configuration File.*
 

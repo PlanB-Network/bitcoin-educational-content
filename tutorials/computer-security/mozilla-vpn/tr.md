@@ -153,7 +153,7 @@ Mozilla VPN, konumunuzu iki biçimde seçmenize olanak tanır:
 
 
 
-- Single-Hop: bilgisayarınızın IP Address'sını yeniden konumlandırır ve verileri seçilen belirli bir bölgedeki (örneğimizde Belarus'taki Sofya) bir sunucuya şifreler.
+- Single-Hop: bilgisayarınızın IP Address'sını yeniden konumlandırır ve verileri seçilen belirli bir bölgedeki (örneğimizde Bulgaristan'daki Sofya) bir sunucuya şifreler.
 
 
 

@@ -265,20 +265,22 @@ Välj **GPT** om du använder UEFI och **DOS** om du använder BIOS.
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Monteringspunkt på det installerade systemet | Partition                 | Partitionstyp       | Föreslagen storlek |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI-systempartition   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Swaputrymme (swap) | Minst 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 rot (/) | Resten av disken |
 
 - I BIOS
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Monteringspunkt på det installerade systemet | Partition           | Partitionstyp       | Föreslagen storlek |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Swaputrymme (swap) | Minst 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Resten av disken |
 
 ![0_10](assets/fr/10.webp)
 

@@ -75,17 +75,18 @@ Nachstehend finden Sie eine Tabelle mit den allgemeinen technischen Daten des Na
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Merkmal                                      | Wert                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hash-Rate                                      | 6 Th/s +- 5%                                            |
+| Stromverbrauch                               | 140 W                                                   |
+| Lärm                                                | 30 - 40 dB                                              |
+| Bereich der Ausgangslufttemperatur                 | 60-70°C (bei Umgebungstemperatur 25°C)                |
+| Umgebungstemperaturanforderungen für den Betrieb | von -5 bis 30°C                                            |
+| Eingangsspannungsbereich des Geräts                         | 28V 5A kontinuierlich                                          |
+| Eingangsspannungsbereich des Adapters                       | 110-240V AC 50/60Hz                                     |
+| Gerätegröße                                 | Länge: 205 mm / Breite: 115 mm / Höhe: 58.5 mm |
+| Gerätegewicht                                  | 0.86 kg                                                 |
 
 ## Einschalten und Verbinden mit dem lokalen Netzwerk
 

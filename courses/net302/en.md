@@ -1322,9 +1322,9 @@ Finally, unique local addresses (_ULA_, for _Unique Local Addresses_) are intern
 
 Conceptually, IPv6 addresses are often represented as a binary structure where the first half (the first 64 bits) identifies the network prefix, and the second half (also 64 bits) uniquely identifies the device's interface on that network. This split makes address autoconfiguration easier through mechanisms like SLAAC (_Stateless Address Autoconfiguration_), which allow machines to automatically generate a stable address based on the MAC address or a pseudo-random identifier.
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
-|-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+| Field | Prefix | L   | Global ID | Subnet | Interface ID |
+| ----- | ------ | --- | --------- | ------ | ------------ |
+| Bits  | 7      | 1   | 40        | 16     | 64           |
 
 The IPv6 architecture follows the hierarchical global routing model of today's Internet. Prefix partitioning enables regional registries and network operators to manage address allocation in a decentralized way, while ensuring global uniqueness. Within this framework the same host can simultaneously hold a global unicast address for internet communication and a link-local address for local interactions, e.g. with immediate neighborhood or for router discovery messages.
 
@@ -1352,9 +1352,9 @@ The structure of an IPv6 multicast address includes:
 - a _Scope_ field (4 bits) defines the scope, 
 - an identification field (112 bits) identifying the multicast group number.
 
-| Field      | Prefix | Flags | Scope | Group ID |
-|------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Field | Prefix | Flags | Scope | Group ID |
+| ----- | ------ | ----- | ----- | -------- |
+| Bits  | 8      | 4     | 4     | 112      |
 
 A well-known example of IPv6 multicast in action is the _Neighbor Discovery Protocol_ (NDP). Rather than using ARP as in IPv4, NDP relies on multicast addresses such as `ff02::1:ff00:0/104` to broadcast neighbor discovery requests, targeting only the relevant hosts on the same link.
 

@@ -212,13 +212,14 @@ Não se esqueça de reiniciar o software depois de efetuar estas alterações.
 
 Em seguida, vá para o seu software de gestão de carteiras (por exemplo, Sparrow Wallet ou Liana) e introduza o caminho para o seu ficheiro cookie, normalmente localizado na mesma pasta que o `Bitcoin.conf`, dependendo do seu sistema operativo:
 
-|**macOS**|~/Biblioteca/Suporte a aplicativos/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -236,13 +237,14 @@ server=1
 
 Depois de editar o ficheiro, certifique-se de que o guarda na pasta adequada ao seu sistema operativo:
 
-|**macOS**|~/Biblioteca/Suporte a aplicativos/Bitcoin|
 
+
+
+
+|**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Esta operação também pode ser efectuada através dos gráficos Bitcoin-QT do Interface. Vá ao menu "*Settings*", depois "*Options...*", e active a opção "*Enable RPC server*" marcando a caixa correspondente. Se o ficheiro `Bitcoin.conf` não existir, pode criá-lo diretamente a partir deste Interface, clicando em "*Open Configuration File*".
 

@@ -1,8 +1,8 @@
-question: Ni sintaksia gani ya muundo wa makro ingeweza kulinganisha kwa usahihi semi sifuri au zaidi zilizotenganishwa na koma katika makro maalum inayofanana na kitendakazi?
+question: Ni syntax gani ya muundo wa makro ingeweza kulinganisha kwa usahihi semi sifuri au zaidi zilizotenganishwa na koma katika makro maalum inayofanana na kitendakazi?
 answer: $($x:expr)*
 wrong_answers:
   - $($x:expr)*,
   - $[x:expr]*
   - ${$x:expr},*
 explanation: |
-  Sintaksia sahihi $($x:expr),* hutumia muundo wa marudio wa Rust ambapo ishara ya dola huanzisha kikundi cha marudio, $x:expr hulinganisha kila usemi na kibainishi cha kipande cha expr, koma hufanya kazi kama kitenganishi kati ya misemo, na kinyota (*) huonyesha marudio sifuri au zaidi. Majibu yasiyo sahihi yana makosa ya sintaksia: $($x:expr)*, huweka koma nje ya kikundi cha marudio, $[x:expr]* hutumia mabano ya mraba badala ya mabano na kuacha ishara ya dola kabla ya x, na ${$x:expr},* hutumia vibandiko vilivyopinda badala ya mabano kwa kikundi cha marudio.
+  Syntax sahihi $($x:expr),* hutumia muundo wa marudio wa Rust ambapo ishara ya dola huanzisha kikundi cha marudio, $x:expr hulinganisha kila usemi na kibainishi cha kipande cha expr, koma hufanya kazi kama kitenganishi kati ya misemo, na kinyota (*) huonyesha marudio sifuri au zaidi. Majibu yasiyo sahihi yana makosa ya sintaksia: $($x:expr)*, huweka koma nje ya kikundi cha marudio, $[x:expr]* hutumia mabano ya mraba badala ya mabano na kuacha ishara ya dola kabla ya x, na ${$x:expr},* hutumia vibandiko vilivyopinda badala ya mabano kwa kikundi cha marudio.

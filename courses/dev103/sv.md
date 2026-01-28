@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 Här är de vanligaste:
 
 
-| Operator | Meaning             |
+
+| Operator | Betydelse |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | addera och tilldela |
+| `-=` | subtrahera och tilldela |
+| `*=` | multiplicera och tilldela |
+| `/=` | dividera och tilldela |
 
 Exempel på detta:
 
@@ -6517,21 +6518,21 @@ Här är ett exempel på hur man skriver till filen `target.txt` med hjälp av e
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
@@ -6540,13 +6541,13 @@ Så här går det till:
 
 1. `fs.createWriteStream()` skapar en skrivbar ström.
 
-2. Vi skriver lite text till den med hjälp av `.write()`.
+2. Vi registrerar hanterare för händelserna `error` och `finish`.
 
-3. När vi är klara anropar vi `.end()` för att stänga strömmen.
+3. Vi skriver text till den med `.write()`.
 
-4. När all data har skrivits ut skickas eventet "Finish".
+4. När vi är klara anropar vi `.end()` för att stänga strömmen.
 
-5. Om något går fel utlöses händelsen `error`.
+5. När all buffrad data har tömts och skrivits skickas händelsen `finish`. Om något går fel skickas händelsen `error`.
 
 
 Precis som läsbara strömmar är skrivbara strömmar bra för stora datamängder eftersom de inte behöver hålla allt i minnet på en gång.

@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 Zde jsou ty nejčastější:
 
 
-| Operator | Meaning             |
+
+| Operátor | Význam |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | přičíst a přiřadit |
+| `-=` | odečíst a přiřadit |
+| `*=` | vynásobit a přiřadit |
+| `/=` | vydělit a přiřadit |
 
 Příklady:
 
@@ -6517,36 +6518,36 @@ Zde je příklad zápisu do souboru `target.txt` pomocí proudu:
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Děje se toto:
 
 
-1. `fs.createWriteStream()` vytvoří zapisovatelný datový tok.
+1. `fs.createWriteStream()` vytvoří zapisovatelný stream.
 
-2. Pomocí `.write()` do něj zapíšeme nějaký text.
+2. Zaregistrujeme obslužné rutiny pro události `error` a `finish`.
 
-3. Po dokončení zavoláme `.end()`, čímž se datový tok uzavře.
+3. Pomocí `.write()` do něj zapíšeme nějaký text.
 
-4. Po zapsání všech dat je vyslána událost `finish`.
+4. Jakmile budeme hotovi, zavoláme `.end()` k uzavření streamu.
 
-5. Pokud se něco pokazí, spustí se událost `error`.
+5. Jakmile jsou všechna data z vyrovnávací paměti vyprázdněna a zapsána, je vyvolána událost `finish`. Pokud se něco pokazí, je vyvolána událost `error`.
 
 
 Stejně jako čitelné datové proudy jsou i zapisovatelné datové proudy vhodné pro velká data, protože nepotřebují uchovávat vše v paměti najednou.

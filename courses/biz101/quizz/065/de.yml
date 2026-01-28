@@ -1,9 +1,9 @@
-question: Welches ist die primäre Zahlungslösung, die für Unternehmen mit essenziellem Profil empfohlen wird?
-answer: Schweizer Bitcoin Pay
+question: Welches ist die primäre Zahlungslösung, die für Unternehmen mit dem wesentlichen Profil empfohlen wird?
+answer: Swiss Bitcoin Pay
 wrong_answers:
-  - Knotenpunkt öffnen
-  - BTCPay-Server
+  - Open Node
+  - BTCPay Server
   - Bitcoinize PoS
 explanation: |
-  Wir heben Swiss Bitcoin Pay als die empfohlene Lösung für ein essentielles Profil hervor, das Einfachheit und Sicherheit vereint.
-reviewed: false
+  Wir heben Swiss Bitcoin Pay als die empfohlene Lösung für das wesenliche Profil hervor, da sie Einfachheit und Sicherheit vereint.
+reviewed: true

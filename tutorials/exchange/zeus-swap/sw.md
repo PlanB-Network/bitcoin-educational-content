@@ -390,12 +390,13 @@ Mbinu hii iliyorahisishwa zaidi inafaa kabisa kwa wanaoanza, lakini inazuia uele
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| Huduma | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Kiasi cha chini |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + ada za uchimbaji | 0.5% + ada za uchimbaji | sats 25,000 |
+| **Boltz** | 0.2% + ada za uchimbaji | 0.5% + ada za uchimbaji | sats 50,000 |
+| **Phoenix** | Ada za uchimbaji pekee | 0.4% fasta | sats 10,000 |
+| **Breez** | 0.25% + ada za mtandao | 0.5% + ada za uchimbaji | sats 50,000 |
 
 Ubadilishanaji wa Zeus hutoa usawa kati ya urahisi wa matumizi na udhibiti wa kiufundi: kufikiwa zaidi kuliko Boltz, rahisi zaidi kuliko Phoenix/Breez, kwa mbinu kali isiyo ya ulezi.
 

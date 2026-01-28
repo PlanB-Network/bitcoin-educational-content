@@ -10,7 +10,7 @@ description: Konfigurera LN VPN med Lightning för en anonym och skräddarsydd V
 LN VPN är en anpassningsbar VPN-tjänst som bara accepterar blixtbetalningar. Idag ska jag visa dig hur du använder den och lämnar färre spår när du surfar på interwebben.
 
 
-Det finns många VPN-tjänsteleverantörer av hög kvalitet, och vi har genomfört en omfattande granskning i den här artikeln (hyperlänk). LN VPN sticker dock ut, och vi kunde inte missa chansen att presentera det för dig.
+Det finns många VPN-tjänsteleverantörer av hög kvalitet, men LN VPN sticker ut, och vi kunde inte missa chansen att presentera det för dig.
 
 
 De flesta VPN-tjänsteleverantörer som ProtonVPN och Mullvad erbjuder möjligheten att betala med bitcoins men kräver att man skapar ett konto och köper en plan för en längre eller kortare period, vilket kanske inte passar allas budget.

@@ -211,11 +211,12 @@ Kugira ngo wohereze Bitcoin:
 4. Hitamwo umuvuduko wo gucuruza:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Umwimerere   | Umwanya w'ubwigire bugenguye | Ikinini cy'intambiko     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Gake**    | ~120 iminsi              | Kinini
+| **Igishushanyo** | ~60 iminsi               | Rimwe
+| **Hagati**    | ~20 iminsi               | Kirimpa
 
 5. Wemeze ukoresheje PIN yawe y'imirongo 4 → amafaranga yawe aratangazwa
 
@@ -251,12 +252,13 @@ Ibindi ku vyerekeye Replace-by-fee (RBF): Ibiganiro/gusubirira-n'amahera/
 (99 % vy’abakoresha ntibagira ico bakora — amajambo 12 passphrase arahagije)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Icyo mvugo                                      | Impamvu yo gukenera umwibutsi w'icyingenzi                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Gusukura amapurusi agakomeye                   | Gutwika amafaranga mu masaka yatwacu             |
+| Kwinjiza mu mushinzani w'imashini (urugero: Coldcard) | Kugira ngo dushinze nta murengerazuba                              |
+| Kurungika mu bigira ngo gutunga (amazi yaguhishuwe naho porogaramu iracyari) | Gukiza amafaranga mbere y'uko porogaramu ihishe           |
+| Gukoresha ibikoresho bitabyemera amagambo ya zimwe     | Ikindi kivuguzi cyonka gushinzwa             |
 
 ### Uko worungika hanze imfunguruzo z'ibanga muri Coin Wallet
 
@@ -313,14 +315,16 @@ Coin Wallet ikurikiza cane ingingo ngenderwako za Bitcoin zikoreshwa hafi n’am
 Kuva ku rufunguzo rumwe rwa mbere, wallet irashobora generate amamiliyaridi y’amaderesi mu buryo butomoye. Ni co gituma ayo majambo 12 nyene yinjijwe muri Electrum, Sparrow, Trezor, Ledger, BlueWallet, n’ayandi azokwerekana neza na neza aderesi n’imibare imwe.
 
 
-**Inzira z'inkomoko zakoreshejwe muri Coin Wallet ku Bitcoin**
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+**Inzira z'inzira zikoreshwa muri Coin Wallet kuri Bitcoin**
+
+| Ubwoko bwa mujyi              | Icyerekezo | Inzira y'inzira       | Bisubirwo | Ibigaragambwe                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| SegWit Nyamukuru (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Imiterere y'imbere, imfashabigambo ya hakoze           |
+| SegWit Ifuzwa (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Ikiniga cy'ubwiyunge kwa serivisi zungurutse |
+| Impilo (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Imiterere y'icya kera, imfashabigambo y'ijuru          |
 
 Imbere muri buri nzira:
 

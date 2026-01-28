@@ -153,7 +153,7 @@ Mozilla VPN võimaldab teil valida oma asukoha kahes formaadis:
 
 
 
-- Single-Hop: mis paigutab teie arvuti IP Address ümber ja krüpteerib andmed konkreetses valitud piirkonnas asuvasse serverisse, meie näites Sofiasse Valgevenes.
+- Single-Hop: mis paigutab teie arvuti IP Address ümber ja krüpteerib andmed konkreetses valitud piirkonnas asuvasse serverisse, meie näites Sofiasse Bulgaarias.
 
 
 

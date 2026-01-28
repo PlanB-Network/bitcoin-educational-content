@@ -6,4 +6,4 @@ wrong_answers:
   - Permitiendo transacciones globales instantáneas
 explanation: |
   Las diversas stablecoins de Tether están vinculadas a activos estables como el dólar estadounidense o el oro. Esta estabilidad permite que las personas en economías inestables muevan su dinero a una moneda que no está sujeta a las mismas tasas de inflación, ayudándoles a mantener el valor de sus ahorros.
-reviewed: false
+reviewed: true

@@ -95,13 +95,14 @@ server=1
 
 その後、Sparrow Walletに戻り、Cookieファイルのパスを入力します。Cookieファイルは、OSにもよりますが、通常`Bitcoin.conf`と同じフォルダにあります：
 
-| ~/Library/Application Support/Bitcoin | **macOS** | ~/Library/Application Support/Bitcoin | **macOS** | ~/Library/Application Support/Bitcoin
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%Bitcoin | %APPDATA%Bitcoin | %APPDATA%Bitcoin | %APPDATA%Bitcoin
-
-|**Linux** | ~/.Bitcoin
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -123,13 +124,14 @@ server=1
 
 ファイルを編集したら、お使いのオペレーティングシステムに適したフォルダに保存してください：
 
-**MacOS** | ~/Library/Application Support/Bitcoin | ~/Library/Application Support/Bitcoin | ~/Library/Application Support/Bitcoin
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| ウィンドウズ | %APPDATA%Bitcoin
-
-|**Linux** | ~/.Bitcoin
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 この操作は、Bitcoin-QT Interface グラフィカル Interface からも実行できます。メニューの "*Settings*"から "*Options...*"を選択し、"*Enable RPC server*"にチェックを入れて有効にします。Bitcoin.conf`ファイルが存在しない場合は、"*Open Configuration File*"をクリックして、このInterfaceから直接作成することができます。
 

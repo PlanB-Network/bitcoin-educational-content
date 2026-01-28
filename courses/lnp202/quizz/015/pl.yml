@@ -1,0 +1,9 @@
+question: Co można dostosować w zaawansowanych ustawieniach węzła Lightning?
+answer: Publiczna nazwa węzła
+wrong_answers:
+  - Zasady konsensusu węzłów
+  - Klucze prywatne węzła
+  - Trasy wybrane przez węzeł
+explanation: |
+  Zaawansowane ustawienia pozwalają dostosować elementy identyfikacji węzłów bez wpływu na konsensus lub działanie sieci Lightning.
+reviewed: false

@@ -1,8 +1,8 @@
-question: Faida kuu ya kutumia amri ya `uchunguzi wa mizigo` wakati wa uundaji ni ipi?
+question: Faida kuu ya kutumia amri ya `cargo check` wakati wa uundaji ni ipi?
 answer: Inafanya ukaguzi wa mkusanyiko haraka kuliko ujenzi kamili bila kutoa utekelezaji
 wrong_answers:
   - Hurekebisha kiotomatiki hitilafu za mkusanyiko na matatizo ya mtindo wa msimbo katika mradi wako
   - Inapakua na kusasisha utegemezi wote wa mradi kwa matoleo yao ya hivi karibuni
   - Inaendesha programu yako ikiwa na taarifa za utatuzi wa hitilafu na kuripoti makosa kwa kina
 explanation: |
-  Amri ya `uchunguzi wa mizigo` imeundwa kwa ajili ya uundaji wa haraka wa maendeleo kwa kufanya ukaguzi wote wa mkusanyiko kama `uundaji wa mizigo` lakini kuruka hatua ya mwisho ya uzalishaji unaoweza kutekelezwa. Hii inafanya iwe haraka zaidi kuliko ujenzi kamili wakati unahitaji tu kuthibitisha kwamba msimbo wako unakusanywa kwa usahihi. Majibu yasiyo sahihi yanaelezea utendaji kazi wa zana zingine: Clippy na linter zingine zinaweza kupendekeza marekebisho lakini haziyatumii kiotomatiki, `usasishaji wa mizigo` hushughulikia masasisho ya utegemezi, na `uendeshaji wa mizigo` hutekeleza programu zenye uwezo wa kurekebisha matatizo.
+  Amri ya `cargo check` imeundwa kwa ajili ya uundaji wa haraka wa maendeleo kwa kufanya ukaguzi wote wa mkusanyiko kama `cargo build` lakini kuruka hatua ya mwisho ya uzalishaji unaoweza kutekelezwa. Hii inafanya iwe haraka zaidi kuliko ujenzi kamili wakati unahitaji tu kuthibitisha kwamba msimbo wako unakusanywa kwa usahihi. Majibu yasiyo sahihi yanaelezea utendaji kazi wa zana zingine: Clippy na linter zingine zinaweza kupendekeza marekebisho lakini haziyatumii kiotomatiki, `cargo run` hushughulikia masasisho ya utegemezi, na `uendeshaji wa mizigo` hutekeleza programu zenye uwezo wa kurekebisha matatizo.

@@ -1,11 +1,13 @@
-question: Apa status Bitcoin di beberapa negara?
-answer: Dilarang dan dikriminalisasi
+question:  Bagaimana status Bitcoin di El Salvador
+answer: Alat pembayaran yang sah.
 wrong_answers:
-  - Sepenuhnya diadopsi
-  - Sebagian diadopsi
-  - Tidak diatur
+  - Kriminalisasi.
+  - Tidak diketahui.
+  - Tidak diatur.
 explanation: >-
-  Teks tersebut menyebutkan bahwa beberapa negara telah melarang dan mengkriminalisasi
-  penggunaan Bitcoin, menambah kompleksitas adopsi Bitcoin berdasarkan budaya,
-  era, dan negara-negara.
-reviewed: false
+  Teks kuliah menyebutkan bahwa beberapa negara telah melarang
+  dan mengkriminalisasi penggunaan Bitcoin, yang menambah
+  kompleksitas adopsi Bitcoin berdasarkan budaya, era, dan
+  negara. Namun, El Salvador cukup berani untuk mengadopsinya
+  sebagai alat pembayaran yang sah.
+reviewed: true

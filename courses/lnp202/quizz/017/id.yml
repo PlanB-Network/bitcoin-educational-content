@@ -1,0 +1,9 @@
+question: Apa yang diwakili oleh saldo Lightning wallet yang ditampilkan pada antarmuka aplikasi LND?
+answer: Jumlah likuiditas keluar
+wrong_answers:
+  - Jumlah rantai
+  - Jumlah likuiditas yang masuk
+  - Jumlah kapasitas saluran
+explanation: |
+  Saldo Lightning sesuai dengan sats yang tersedia untuk dibelanjakan melalui saluran, yaitu jumlah likuiditas keluar dari semua saluran node.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 托管闪电 wallet 的财务风险是什么？
+answer: 部分准备金
+wrong_answers:
+  - 任意增加 mining 费用
+  - 51% 攻击
+  - 熊市终结
+explanation: |
+  用户无法核实显示的余额是否与持有的比特币相符。因此存在部分准备金风险。
+reviewed: false

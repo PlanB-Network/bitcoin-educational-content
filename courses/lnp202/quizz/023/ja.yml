@@ -1,0 +1,9 @@
+question: LND特有のseedフォーマットの名称は？
+answer: エーゼッド
+wrong_answers:
+  - BIP39
+  - レンズシード
+  - BIP32
+explanation: |
+  LNDはエーズィードと呼ばれる特殊なseedを使っており、クラシックなBIP39のseedとは異なる。
+reviewed: false

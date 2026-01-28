@@ -1165,23 +1165,24 @@ Skrip NSE Nmap memungkinkan Anda untuk memperluas kemampuannya dengan cara yang 
 
 Skrip ini diorganisir berdasarkan kategori, dan satu skrip dapat termasuk dalam lebih dari satu kategori:
 
-| Kategori       | Deskripsi |
-|----------------|-------------|
-| **auth**       | Berisi skrip yang berkaitan dengan otentikasi pada layanan, termasuk akses anonim atau penghitungan pengguna. Contoh : `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Berisi skrip yang berkaitan dengan operasi siaran (broadcast) pada jaringan, terutama dengan tujuan untuk mengeksploitasi dan menemukan layanan, host, atau protokol tertentu yang bergantung pada siaran (IPv6, wake on lan, IGMP, dll.). Contoh : `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Berisi skrip yang berkaitan dengan operasi otentikasi brute force pada layanan (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, dll.). Contoh: `ssh-brute`, `vnc-brute`. |
-| **default**    | Berisi skrip yang digunakan dalam kasus default (penggunaan -`-sC`). Beberapa kriteria digunakan untuk memvalidasi entri skrip dalam kategori ini, termasuk kecepatan eksekusi, struktur keluaran, keandalan pengujian, sifat "intrusif" atau "berisiko", dll. |
-| **discovery**  | Berisi skrip yang berkaitan dengan penemuan lanjutan dari jaringan dan layanan. Ini termasuk, misalnya, penghitungan konten dari berbagi SMB, versi layanan VNC, permintaan SNMP, dll. Contoh: `mysql-info`, `http-security-headers`. |
-| **dos**        | Berisi skrip yang dapat menyebabkan penolakan layanan (denial of service). Ini bisa berupa skrip yang dibuat untuk mengeksploitasi kerentanan jenis penolakan layanan atau skrip yang memiliki efek samping penolakan layanan. Berhati-hatilah karenanya (mereka dikecualikan dari kategori default). Contoh:  `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Berisi skrip yang dibuat untuk mengeksploitasi kerentanan secara langsung. Contoh: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Berisi skrip yang memerlukan penggunaan sumber daya pihak ketiga, seperti basis informasi daring. Ini secara khusus menunjukkan upaya koneksi ke luar (perhatikan kerahasiaan). Contoh: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Berisi skrip yang dirancang untuk mengirim frame, paket, atau parameter tak terduga oleh layanan. Ini memungkinkan untuk menyebabkan kesalahan atau malfungsi guna mendapatkan petunjuk kerentanan atau informasi teknis. Contoh:  `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Berisi skrip yang dikategorikan sebagai "berisiko" dari sudut pandang ketersediaan, atau deteksi. Mereka dapat menyebabkan crash pada sistem atau terdeteksi sebagai berbahaya oleh solusi keamanan. Ini adalah kategori kebalikan dari safe. Contoh: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Berisi skrip yang dirancang untuk mendeteksi keberadaan elemen bersifat malware, seperti port untuk berkomunikasi yang umumnya digunakan oleh backdoor. Contoh: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Berisi skrip yang dianggap aman dari sudut pandang deteksi atau stabilitas. Ini adalah kategori kebalikan dari `intrusive` dan sebagian besar berisi skrip lanjutan dari identifikasi versi atau pencatatan elemen konfigurasi. Contoh: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Berisi skrip yang memungkinkan deteksi versi lanjutan. Mereka dapat digunakan sebagai pelengkap dari Probes dan Matches yang dipelajari sebelumnya ketika deteksi versi membutuhkan operasi yang sedikit lebih kompleks. Contoh: `http-php-version`, `vmware-version`. |
-| **vuln**       | Berisi skrip yang dirancang untuk mendeteksi keberadaan kerentanan yang diketahui (CVE) tanpa mengeksploitasinya (berlawanan dengan kategori `exploit`). Mereka umumnya hanya melaporkan status "rentan" atau tidak dari sebuah layanan. Contoh: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
  
+| Kategori | Deskripsi |
+|----------------|-------------|
+| **auth** | Berisi skrip yang berkaitan dengan autentikasi pada layanan, termasuk akses anonim atau enumerasi pengguna. Contoh: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast** | Berisi skrip yang berkaitan dengan operasi broadcast di jaringan, terutama untuk mengeksploitasi dan menemukan layanan, host, atau protokol tertentu yang mengandalkan broadcast (IPv6, wake on lan, IGMP, dll.). Contoh: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute** | Berisi skrip yang berkaitan dengan operasi brute force autentikasi pada layanan (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, dll.). Contoh: `ssh-brute`, `vnc-brute`. |
+| **default** | Berisi skrip yang digunakan dalam kasus default (penggunaan `-sC`). Beberapa kriteria digunakan untuk memvalidasi masuknya skrip ke dalam kategori ini, termasuk kecepatan eksekusi, struktur keluaran, keandalan pengujian, sifat "intrusif" hoặc "berisiko", dll. |
+| **discovery** | Berisi skrip yang berkaitan dengan penemuan jaringan dan layanan tingkat lanjut. Misalnya, enumerasi konten berbagi SMB, versi layanan VNC, kueri SNMP, dll. Contoh: `mysql-info`, `http-security-headers`. |
+| **dos** | Berisi skrip yang dapat menyebabkan denial of service. Ini bisa berupa skrip yang dibuat untuk mengeksploitasi kerentanan jenis denial of service atau skrip yang memiliki efek samping denial of service. Oleh karena itu, berhati-hatilah (skrip ini dikecualikan dari kategori `default`). Contoh: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit** | Berisi skrip yang dibuat untuk mengeksploitasi kerentanan secara langsung. Contoh: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external** | Berisi skrip yang memerlukan penggunaan sumber daya pihak ketiga, seperti basis informasi daring. Ini terutama menunjukkan upaya koneksi ke luar (perhatikan kerahasiaan). Contoh: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer** | Berisi skrip yang dirancang untuk mengirim frame, paket, atau parameter yang tidak diharapkan oleh suatu layanan. Hal ini terutama memungkinkan terjadinya kesalahan atau malfungsi untuk mendapatkan petunjuk kerentanan atau informasi teknis. Contoh: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive** | Berisi skrip yang dikategorikan sebagai "berisiko" dari sudut pandang ketersediaan atau deteksi. Skrip ini dapat menyebabkan sistem crash atau terdeteksi sebagai malware oleh solusi keamanan. Ini adalah kategori kebalikan dari `safe`. Contoh: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware** | Berisi skrip yang dirancang untuk mendeteksi keberadaan elemen karakteristik malware, seperti port mendengarkan yang umum digunakan bởi backdoor yang dikenal. Contoh: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe** | Berisi skrip yang dianggap aman dari sudut pandang deteksi atau stabilitas. Ini adalah kategori kebalikan dari `intrusive` và sebagian besar berisi skrip identifikasi versi tingkat lanjut atau pengumpulan elemen konfigurasi. Contoh: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version** | Berisi skrip yang memungkinkan deteksi versi tingkat lanjut. Skrip ini dapat digunakan sebagai pelengkap Probes dan Matchs yang dipelajari sebelumnya ketika deteksi versi memerlukan operasi yang sedikit lebih kompleks. Contoh: `http-php-version`, `vmware-version`. |
+| **vuln** | Berisi skrip yang dirancang untuk mendeteksi keberadaan kerentanan yang diketahui (CVE) tanpa mengeksploitasinya (kebalikan dari kategori `exploit`). Skrip ini umumnya hanya melaporkan status "vulnerable" atau tidak dari suatu layanan. Contoh: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
+
 Secara teknis, kategori yang dimiliki skrip ditunjukkan secara langsung dalam kodenya.
 
 ![nmap-image](assets/fr/41.webp)

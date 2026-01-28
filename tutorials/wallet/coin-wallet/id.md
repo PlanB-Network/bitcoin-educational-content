@@ -211,11 +211,12 @@ Untuk mengirim Bitcoin:
 4. Pilih kecepatan transaksi:
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| Kecepatan   | Waktu konfirmasi perkiraan | Tingkat biaya     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **Lambat**    | ~120 menit              | Terendah
+| **Default** | ~60 menit               | Sedang
+| **Cepat**    | ~20 menit               | Lebih tinggi
 
 5. Konfirmasi dengan 4 digit PIN Anda → transaksi disiarkan
 
@@ -251,12 +252,13 @@ Lebih lanjut tentang Replace-by-fee (RBF): https://bitcoinops.org/en/topics/repl
 (99% pengguna tidak pernah melakukannya - 12 kata passphrase sudah cukup)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Situasi                                      | Mengapa Anda memerlukan kunci pribadi                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Membersihkan dompet kertas lama                   | Untuk memindahkan dana ke dompet Anda saat ini             |
+| Mengimpor ke penandatangan perangkat keras (misalnya Coldcard) | Untuk penandatanganan offline                              |
+| Pemulihan darurat (benih hilang tetapi aplikasi masih terbuka) | Untuk menyelamatkan koin sebelum aplikasi hilang           |
+| Menggunakan alat yang tidak menerima frasa benih     | Beberapa utilitas hanya pantau atau tanda tangan             |
 
 ### Cara mengekspor kunci privat di Coin Wallet
 
@@ -313,14 +315,16 @@ Coin Wallet secara ketat mengikuti standar resmi Bitcoin yang digunakan oleh ham
 Dari satu kunci utama, wallet dapat mengakses milyaran alamat dengan urutan yang ditentukan secara ketat. Inilah sebabnya mengapa 12 kata yang sama yang dimasukkan ke dalam Electrum, Sparrow, Trezor, Ledger, BlueWallet, dll. akan menunjukkan alamat dan saldo yang sama persis.
 
 
+
+
+
 **Jalur derivasi yang digunakan dalam Coin Wallet untuk Bitcoin**
 
-
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+| Jenis alamat              | Standar | Jalur derivasi       | Dimulai dengan | Komentar                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| SegWit Asli (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Format modern, biaya terendah           |
+| SegWit Bersarang (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Pembungkus kompatibilitas untuk layanan lama |
+| Warisan (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Format tertua, biaya tertinggi          |
 
 Di dalam setiap jalur:
 

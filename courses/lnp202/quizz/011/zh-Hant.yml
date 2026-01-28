@@ -1,0 +1,9 @@
+question: 哪種解決方案能為 Lightning 使用者提供最大的主權？
+answer: 經典閃電節點
+wrong_answers:
+  - Wallet 與原子交換
+  - 板載 LN 節點
+  - 保管閃電 wallet
+explanation: |
+  經典節點提供對渠道、流動性和費用政策的完全控制。只有它能讓您真正獨立。
+reviewed: false

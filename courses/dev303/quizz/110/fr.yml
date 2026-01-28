@@ -1,8 +1,8 @@
 question: Comment l'intégration du Lightning Service Provider (LSP) du SDK Breez résout-elle le problème de la gestion des liquidités pour la réception des paiements ?
-answer: Les PSL ouvrent automatiquement de nouveaux canaux Lightning avec des liquidités entrantes au moment où un paiement arrive, grâce à la création de canaux en flux tendu
+answer: Les LSP ouvrent automatiquement de nouveaux canaux Lightning avec des liquidités entrantes au moment où un paiement arrive, grâce à la création de canaux en flux tendu.
 wrong_answers:
-  - Les FSL préfinancent tous les canaux d'utilisateurs avec une capacité de liquidité maximale et rééquilibrent périodiquement les fonds dans la topologie du réseau
-  - Les prestataires de services financiers maintiennent un pool de liquidités partagé qui prête temporairement des fonds aux utilisateurs lors de la réception des paiements avant que le règlement n'intervienne
-  - Les PSL acheminent les paiements par de multiples canaux intermédiaires afin de trouver les voies de liquidité existantes sans créer de nouvelles relations entre les canaux
+  - Les LSP préfinancent tous les canaux d'utilisateurs avec une capacité de liquidité maximale et rééquilibrent périodiquement les fonds dans la topologie du réseau.
+  - Les prestataires de services financiers maintiennent un pool de liquidités partagé qui prête temporairement des fonds aux utilisateurs lors de la réception des paiements avant que le règlement n'intervienne.
+  - Les LSP acheminent les paiements par de multiples canaux intermédiaires afin de trouver les voies de liquidité existantes sans créer de nouvelles relations entre les canaux.
 explanation: |
   Le SDK Breez met en œuvre des canaux "juste à temps" où les LSP ouvrent automatiquement de nouveaux canaux Lightning précisément lorsqu'un utilisateur a besoin de recevoir un paiement mais n'a pas suffisamment de liquidités entrantes. Cela se produit de manière transparente sans intervention de l'utilisateur, ce qui résout la contrainte fondamentale de liquidité de Lightning où les fonds ne peuvent circuler que dans des directions où la capacité du canal existe. Les autres options décrivent des approches différentes qui ne correspondent pas à la mise en œuvre réelle de la création dynamique de canaux par le SDK.

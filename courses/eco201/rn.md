@@ -783,10 +783,9 @@ Inkurikizi z’ukwo gutanga nabi ni nk’ingorane z’ivy’ubutunzi, ukugabanya
 Ubu, impari z’uguharura ubutunzi zisubira kuvyuka ahanini mu biganiro vyerekeye amasoko ntanga inguvu, aho gushira imitahe nabi birongowe n’umugambi wa Green(ibidukikije) ririko rirushiriza kugaragara. Bizuka kandi mu biganiro vyerekeye amasoko y’amahera, aho abahinga mu vy’ubutunzi bo muri Otirishibbagaragaza ko ingorane zo mu 2008, izo abahinga mu vy’ubutunzi bakuru bananiwe kuvuga, zari ingorane za kera z’iterambere n’ugusenyuka zirangwa n’ugushiramwo amahera menshi mw’isoko ry’amazu kubera ibihe birebire vy’inyungu nto. Ikindi kandi, aba neo-marxiste n’iyindi migwi y’abasosiyalisiti barakwiragiza iciyumviro c’uko ukuza kw’ubuhinga bwa none kwoshobora gutorera umuti ingorane y’uguharura ubutunzi. Ariko rero, iyo nzira y’ukubona ibintu iva ku gutahura nabi ikibazo; ingorane y’uguharura ubutunzi si ikibazo c’ububasha bwo guharura ahubwo ni ikibazo co gutanga no gukwiragiza amakuru ajanye n’uguhingura n’ugutanga ubutunzi. Aya makuru ashobora gushikirizwa gusa mu karere n’abakozi bafise ubumenyi bwihariye kandi bafise inyungu mu vyo bazovamwo. AI ntishobora gusubirira iyo nzira iva hasi ija hejuru kandi, rero, ntishobora gufasha abategura imigambi yo hagati; ingorane yo gutanga ubutunzi. Ikibabaje, kubera imyaka ijana y’ukutumvikana, turiteze ukwiyongera kw’ibivugwa ko AI izozana ikiringo gishasha c’uguterimbere mu vy’ubutunzi kirongowe n’abategura ivy’ubuhinga bwa none bafise umuco, bafashijwe na AI, bashobora gukosora ukunanirwa kw’amasoko yidegemvya.
 
 
-Kugira ngo ubone neza ingene ingorane y’uguharura ubutunzi ikoreshwa mu buryo bubereye mu gihe ca none, urashobora kuraba iyi ngingo ivuga ku ngorane yo gutanga ubutunzi(amafaranga) mu Bushinwa bwa none.
+Ku bijanye n’ikoreshwa rifatika ry’ingorane y’ibaruramibare ry’ubutunzi mu bihe vya none, urashobora kwifashisha iyi nkuru ivuga ku isaranganywa ry’ibikoresho mu Bushinwa bwa none: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, ya Théo Mogenet.
 
 
-> Inzira ija mu gukandamiza ivy'amahera: Ubushinwa, Ingwe y'Impapuro, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/inzira-ija-mu-gukandamiza-ivy'amahera
 
 
 ### Ico tugezeko muri rusangi

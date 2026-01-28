@@ -51,7 +51,7 @@ Buku ini ditugaskan dan didanai oleh [Chaincode Labs](https://learning.chaincode
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Selamat datang di kursus PHI 301 tentang filosofi pengembangan Bitcoin.
+Selamat datang di kursus BTC 303 tentang filosofi pengembangan Bitcoin.
 
 
 Bitcoin lebih dari sekadar mata uang kripto, Bitcoin mewujudkan visi filosofis tentang desentralisasi, privasi, tidak dapat dipercaya, dan ketahanan. Kursus ini dirancang khusus untuk para pengembang yang sudah terbiasa dengan dasar-dasar teknis Bitcoin yang sekarang ingin memperdalam pemahaman mereka tentang prinsip-prinsip yang mendasari desain dan tata kelola Bitcoin.
@@ -1168,14 +1168,14 @@ Bitcoin Core mematuhi definisi ini dengan didistribusikan di bawah [Lisensi MIT]
 
 
 ```
-The MIT License (MIT)
+Lisensi MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Pengembang Bitcoin Core
+Copyright (c) 2009-2022 Pengembang Bitcoin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Dengan ini diberikan izin, secara gratis, kepada siapa pun yang memperoleh salinan perangkat lunak ini dan file dokumentasi terkait ("Perangkat Lunak"), untuk menggunakan Perangkat Lunak tanpa batasan, termasuk tanpa batasan hak untuk menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan, dan/atau menjual salinan Perangkat Lunak, dan mengizinkan orang yang menerima Perangkat Lunak untuk melakukan hal yang sama, dengan syarat berikut:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus disertakan dalam semua salinan atau bagian substansial dari Perangkat Lunak.
 ```
 
 

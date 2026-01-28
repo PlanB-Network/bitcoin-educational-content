@@ -1,8 +1,8 @@
-question: 创建了2010年6月第一个比特币水龙头并协助Satoshi开发软件的Gavin Andresen最初来自哪个国家？
+question: Gavin Andresen 于 2010 年 6 月创建了第一个比特币水龙头，他也协助中本聪开发软件。Gavin Andresen 来自哪个国家？
 answer: 澳大利亚
 wrong_answers:
   - 美国
   - 法国
   - 荷兰
 explanation: |
-  他[出生](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html)于澳大利亚，但在2004年获得了美国公民身份。
+  他[出生](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html)于澳大利亚，但在 2004 年获得了美国公民身份。

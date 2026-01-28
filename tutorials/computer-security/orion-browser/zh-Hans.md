@@ -525,17 +525,15 @@ The line has an unbalanced ** marker. Here's the corrected version:
 ## 与替代品的比较
 
 
-
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
-|---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
-
+| 标准                   | Orion            | Safari      | Chrome            | Firefox            | Brave             |
+| -------------------- | ---------------- | ----------- | ----------------- | ------------------ | ----------------- |
+| **遥测**               | 无                | 最少          | 广泛                | 适度                 | 最少                |
+| **原生阻止程序**           | 99.9% 有效         | 基础          | 不存在               | 部分                 | 完整                |
+| **扩展**               | Chrome + Firefox | 有限          | 仅 Chrome          | 仅 Firefox          | 仅 Chrome          |
+| **Mac 性能**           | 卓越               | 卓越          | 良好                | 平均                 | 良好                |
+| **RAM 消耗**           | 非常低              | 低           | 高                 | 平均                 | 平均                |
+| **开源**               | 部分               | 部分 (WebKit) | 部分                | 完整                 | 完整                |
+| **平台**               | Mac/iOS          | Mac/iOS     | 全部                | 全部                 | 全部                |
 **对比 Safari**：Orion 通过高级拦截器和扩展支持提供卓越的保护，同时保持 WebKit 性能。
 
 

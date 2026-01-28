@@ -211,11 +211,12 @@ Bitcoinを送る：
 4.取引速度を選択する：
 
 
-| Speed   | Approx. confirmation time | Fee level     |
+
+| スピード   | 確認までのおおよその時間 | 手数料レベル     |
 |---------|---------------------------|---------------|
-| **Slow**    | ~120 minutes              | Lowest
-| **Default** | ~60 minutes               | Medium
-| **Fast**    | ~20 minutes               | Higher
+| **遅い**    | ~120分              | 最低
+| **デフォルト** | ~60分               | 中程度
+| **速い**    | ~20分               | より高い
 
 5.4桁の暗証番号で確認 → 取引が放送される
 
@@ -251,12 +252,13 @@ Replace-by-fee（RBF）の詳細：https://bitcoinops.org/en/topics/replace-by-f
 (99%のユーザーはそんなことはしない。12語のpassphraseで十分だ)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| 状況                                      | 秘密鍵が必要な理由                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| 古いペーパーウォレットのスイープ                   | 資金を現在のウォレットに移動するため             |
+| ハードウェアサイナーへのインポート（例：Coldcard） | オフライン署名用                              |
+| 緊急リカバリー（シード紛失しているがアプリはまだ開いている） | アプリが消える前にコインを救出するため           |
+| シードフレーズを受け入れないツールの使用     | 一部の監視専用または署名ユーティリティ             |
 
 ### Coin Walletで秘密鍵をエクスポートする方法
 
@@ -313,14 +315,16 @@ BIP32 + BIP44/BIP49/BIP84` - すべてのアドレスの決定論的生成
 walletは1つのマスターキーから、厳密に定義された順序で何十億ものアドレスをgenerateすることができます。このため、Electrum、Sparrow、Trezor、Ledger、BlueWalletなどに同じ12語を入力すると、まったく同じアドレスと残高が表示される。
 
 
-**Coin WalletでBitcoin**に使用された派生パス。
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+**Coin WalletでBitcoinに使用される派生パス**
+
+| アドレスタイプ              | 標準 | 導出パス       | で始まる | コメント                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| ネイティブ SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | モダンフォーマット、最低手数料           |
+| ネストされた SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | 古いサービス向け互換性ラッパー |
+| レガシー (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | 最古のフォーマット、最高手数料          |
 
 それぞれのパスの内側：
 

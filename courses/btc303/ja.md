@@ -51,7 +51,7 @@ objectives:
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-このコースへようこそ！ PHI 301では、ビットコインの開発哲学について学びます。
+このコースへようこそ！ BTC 303では、ビットコインの開発哲学について学びます。
 
 
 ビットコインは単なる暗号通貨ではなく、分散化、プライバシー、トラストレス性、そしてレジリエンスに関する哲学的ビジョンを体現しています。このコースは、ビットコインの技術的基盤にすでに精通している開発者が、ビットコインのデザインとガバナンスを支える原則について理解を深めることを目的としています。
@@ -1164,14 +1164,14 @@ BIP8提案のこのような柔軟性により、BIP8を使用した場合にど
 
 
 ```
-The MIT License (MIT)
+MITライセンス (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Bitcoin Core開発者
+Copyright (c) 2009-2022 Bitcoin開発者
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+以下に定める条件に従い、本ソフトウェアおよび関連文書ファイル（以下「ソフトウェア」）の複製を取得するすべての人に対し、ソフトウェアを無制限に扱うことを無償で許可します。これには、ソフトウェアの複製を使用、複写、変更、結合、掲載、頒布、サブライセンス、および/または販売する権利、およびソフトウェアを提供する相手に同じことを許可する権利が含まれますが、これらに限定されません。上記の許可は、以下の条件に従うものとします：
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+上記の著作権表示および本許諾表示を、ソフトウェアのすべての複製または重要な部分に記載するものとします。
 ```
 
 

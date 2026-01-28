@@ -1,0 +1,9 @@
+question: Ni kikwazo gani maalum kwenye Android kinachotajwa kuhusu matumizi ya Tailscale?
+answer: VPN moja kwa wakati mmoja
+wrong_answers:
+  - Bluetooth lazima kwa VPN
+  - DNS-over-HTTPS haioani
+  - Inahitaji mzizi wa simu
+explanation: |
+  Android haikuruhusu kutumia VPN mbili kwa wakati mmoja, kwa hivyo unahitaji kuzima VPN nyingine yoyote inayotumika kabla ya kutumia Tailscale.
+reviewed: false

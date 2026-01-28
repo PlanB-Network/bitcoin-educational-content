@@ -1,5 +1,5 @@
 ---
-name: The origins of Laissez-Faire economics
+name: The Origins of Laissez-Faire Economics
 goal: Explore the foundations of 18th-century liberal economic thought, with a focus on the doctrine of laissez-faire, its leading thinkers, and lasting influence.
 objectives:
 - Gain a solid understanding of the key concepts behind liberal economic thought and how they evolved during the 18th century

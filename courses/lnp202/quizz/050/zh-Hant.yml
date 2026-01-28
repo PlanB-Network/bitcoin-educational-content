@@ -1,0 +1,9 @@
+question: LND + Tailscale + Zeus 配置的主要目的是什麼？
+answer: 在您的 Lightning 節點上使用行動 wallet
+wrong_answers:
+  - 使用沒有 Lightning 節點的保管 wallet
+  - 多重複用多個 LND 節點
+  - Mining sats 使用 Umbrel
+explanation: |
+  目的是使用在自己的節點上於背景執行的行動 Lightning wallet 應用程式。
+reviewed: false

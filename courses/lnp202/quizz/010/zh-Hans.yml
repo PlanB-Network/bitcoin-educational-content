@@ -1,0 +1,9 @@
+question: 您选择闪电解决方案的标准是什么？
+answer: 使用频率和管理意愿
+wrong_answers:
+  - 交换金额和协议速度
+  - 地理定位与教育
+  - 风险承受能力和软件设计
+explanation: |
+  如何选择主要取决于 "闪电 "的使用频率以及您对技术管理的喜爱程度。
+reviewed: false

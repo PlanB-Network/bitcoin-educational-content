@@ -1,0 +1,9 @@
+question: 哪种通道封闭方式最适合 "闪电"？
+answer: 合作关闭
+wrong_answers:
+  - 强制关闭
+  - 以作弊结束
+  - Watchtower 关闭
+explanation: |
+  合作结账速度更快，并允许您选择链上费用。
+reviewed: false

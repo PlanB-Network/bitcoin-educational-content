@@ -388,15 +388,16 @@ To keep Orion fast and private:
 ## Comparison with alternatives
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Criterion | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Telemetry** | None | Minimal | Extensive | Moderate | Minimal |
+| **Native Blocker** | 99.9% effective | Basic | Absent | Partial | Complete |
+| **Extensions** | Chrome + Firefox | Limited | Chrome only | Firefox only | Chrome only |
+| **Mac Performance** | Excellent | Excellent | Good | Average | Good |
+| **RAM Consumption** | Very low | Low | High | Average | Average |
+| **Open Source** | Partial | Partial (WebKit) | Partial | Complete | Complete |
+| **Platforms** | Mac/iOS | Mac/iOS | All | All | All |
 
 **Versus Safari**: Orion offers superior protection with its advanced blocker and extension support, while maintaining WebKit performance.
 

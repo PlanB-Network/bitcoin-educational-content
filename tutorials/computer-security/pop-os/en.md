@@ -339,24 +339,25 @@ Pop!OS offers a wide range of software via its Pop!Shop, but many essential tool
 ### Terminal installation
 
 
-| Outil                        | Description                                | Commande d’installation                         |
+
+| Tool | Description | Installation Command |
 | ---------------------------- | ------------------------------------------ | ----------------------------------------------- |
-| Firefox                      | Navigateur web libre et populaire          | `sudo apt install firefox`                      |
-| Brave                        | Navigateur web axé sur la confidentialité  | Installation via Pop!_Shop ou site officiel     |
-| Visual Studio Code (VS Code) | Éditeur de code puissant pour développeurs | `flatpak install flathub com.visualstudio.code` |
-| Git                          | Gestionnaire de versions                   | `sudo apt install git`                          |
-| Flatpak                      | Gestionnaire de paquets alternatif         | `sudo apt install flatpak`                      |
-| VLC                          | Lecteur multimédia polyvalent              | `sudo apt install vlc`                          |
-| GNOME Terminal               | Terminal par défaut                        | Préinstallé sur Pop!OS                          |
-| Curl                         | Outil de transfert de données en ligne     | `sudo apt install curl`                         |
-| Wget                         | Téléchargement de fichiers via HTTP/FTP    | `sudo apt install wget`                         |
-| Docker                       | Conteneurisation d’applications            | Installation via script officiel ou `apt`       |
-| Node.js                      | Environnement JavaScript côté serveur      | Installation via `apt` ou NodeSource            |
-| Python3                      | Langage de programmation                   | `sudo apt install python3 python3-pip`          |
-| GIMP                         | Éditeur d’image avancé                     | `sudo apt install gimp`                         |
-| Thunderbird                  | Client mail                                | `sudo apt install thunderbird`                  |
-| Transmission                 | Client BitTorrent léger                    | `sudo apt install transmission-gtk`             |
-| Htop                         | Moniteur de système interactif             | `sudo apt install htop`                         |
+| Firefox | Free and popular web browser | `sudo apt install firefox` |
+| Brave | Privacy-focused web browser | Installation via Pop!_Shop or official site |
+| Visual Studio Code (VS Code) | Powerful code editor for developers | `flatpak install flathub com.visualstudio.code` |
+| Git | Version control manager | `sudo apt install git` |
+| Flatpak | Alternative package manager | `sudo apt install flatpak` |
+| VLC | Versatile media player | `sudo apt install vlc` |
+| GNOME Terminal | Default terminal | Pre-installed on Pop!OS |
+| Curl | Online data transfer tool | `sudo apt install curl` |
+| Wget | File download via HTTP/FTP | `sudo apt install wget` |
+| Docker | Application containerization | Installation via official script or `apt` |
+| Node.js | Server-side JavaScript environment | Installation via `apt` or NodeSource |
+| Python3 | Programming language | `sudo apt install python3 python3-pip` |
+| GIMP | Advanced image editor | `sudo apt install gimp` |
+| Thunderbird | Mail client | `sudo apt install thunderbird` |
+| Transmission | Lightweight BitTorrent client | `sudo apt install transmission-gtk` |
+| Htop | Interactive system monitor | `sudo apt install htop` |
 
 ### Installation via Pop! Shop (graphical interface)
 

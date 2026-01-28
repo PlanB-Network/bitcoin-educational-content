@@ -1,0 +1,9 @@
+question: Dlaczego płatność wychodząca automatycznie tworzy płynność przychodzącą?
+answer: Zmiana płynności
+wrong_answers:
+  - Tworzenie nowych kanałów
+  - Wzrost wydajności
+  - Niższe koszty routingu
+explanation: |
+  Płatność wychodząca przesuwa sats do parytetu, tworząc płynność przychodzącą po tej stronie kanału.
+reviewed: false

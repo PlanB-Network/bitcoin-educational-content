@@ -1,0 +1,8 @@
+question: Selon Carl Menger, qu'est-ce qui détermine la valeur d'un bien?
+answer: Le rapport subjectif de l'individu avec ce bien dans un contexte spécifique
+wrong_answers:
+  - La quantité de travail nécessaire pour produire ce bien
+  - Les coûts de production et les matières premières utilisées
+  - "L'offre et la demande sur le marché global"
+explanation: |
+  Pour Menger, la valeur intrinsèque d'un bien n'existe pas. Elle découle du rapport subjectif de l'individu avec ce bien, dans un contexte spécifique à un moment donné. Cette valeur varie selon la situation du moment, la géographie, l'état psychologique et les besoins de chaque individu. Les autres réponses reflètent des approches objectives traditionnelles que Menger rejette au profit de son subjectivisme dynamique.

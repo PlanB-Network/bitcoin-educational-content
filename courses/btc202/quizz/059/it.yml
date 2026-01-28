@@ -1,4 +1,4 @@
-question: Qual è il modo migliore per accedere a Bitcoin core da remoto?
+question: Qual è il modo migliore per accedere a Bitcoin Core da remoto?
 answer: Esposizione della porta RPC
 wrong_answers:
   - Utilizzo di Tor

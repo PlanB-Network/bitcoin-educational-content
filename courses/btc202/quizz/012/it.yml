@@ -1,9 +1,9 @@
 question: Quale fase fa parte del ruolo di un miner?
-answer: Costruire un blocco candidato da Mempool
+answer: Costruire un blocco candidato dalla Mempool
 wrong_answers:
-  - Convalidare l'intero Blockchain da Mempool
+  - Convalidare l'intera blockchain da Mempool
   - Creare indirizzi Bitcoin per gli utenti
-  - Memorizzare le chiavi private per i portafogli
+  - Memorizzare le chiavi private per i wallet
 explanation: |
-  Un Miner seleziona le transazioni dal Mempool e costruisce un blocco candidato, che tenta di convalidare da parte del Proof of Work.
+  Un miner seleziona le transazioni dalla Mempool e costruisce un blocco candidato, che tenta di convalidare da parte della Proof of Work.
 reviewed: true

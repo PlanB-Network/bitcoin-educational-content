@@ -451,24 +451,25 @@ Pop!OS nabízí širokou škálu softwaru prostřednictvím svého Pop!Shopu, al
 
 
 
-| Outil                        | Description                                | Commande d’installation                         |
+
+| Nástroj | Popis | Instalační příkaz |
 | ---------------------------- | ------------------------------------------ | ----------------------------------------------- |
-| Firefox                      | Navigateur web libre et populaire          | `sudo apt install firefox`                      |
-| Brave                        | Navigateur web axé sur la confidentialité  | Installation via Pop!_Shop ou site officiel     |
-| Visual Studio Code (VS Code) | Éditeur de code puissant pour développeurs | `flatpak install flathub com.visualstudio.code` |
-| Git                          | Gestionnaire de versions                   | `sudo apt install git`                          |
-| Flatpak                      | Gestionnaire de paquets alternatif         | `sudo apt install flatpak`                      |
-| VLC                          | Lecteur multimédia polyvalent              | `sudo apt install vlc`                          |
-| GNOME Terminal               | Terminal par défaut                        | Préinstallé sur Pop!OS                          |
-| Curl                         | Outil de transfert de données en ligne     | `sudo apt install curl`                         |
-| Wget                         | Téléchargement de fichiers via HTTP/FTP    | `sudo apt install wget`                         |
-| Docker                       | Conteneurisation d’applications            | Installation via script officiel ou `apt`       |
-| Node.js                      | Environnement JavaScript côté serveur      | Installation via `apt` ou NodeSource            |
-| Python3                      | Langage de programmation                   | `sudo apt install python3 python3-pip`          |
-| GIMP                         | Éditeur d’image avancé                     | `sudo apt install gimp`                         |
-| Thunderbird                  | Client mail                                | `sudo apt install thunderbird`                  |
-| Transmission                 | Client BitTorrent léger                    | `sudo apt install transmission-gtk`             |
-| Htop                         | Moniteur de système interactif             | `sudo apt install htop`                         |
+| Firefox | Svobodný a populární webový prohlížeč | `sudo apt install firefox` |
+| Brave | Webový prohlížeč zaměřený na soukromí | Instalace přes Pop!_Shop nebo oficiální web |
+| Visual Studio Code (VS Code) | Výkonný editor kódu pro vývojáře | `flatpak install flathub com.visualstudio.code` |
+| Git | Správce verzí | `sudo apt install git` |
+| Flatpak | Alternativní správce balíčků | `sudo apt install flatpak` |
+| VLC | Všestranný multimediální přehrávač | `sudo apt install vlc` |
+| GNOME Terminal | Výchozí terminál | Předinstalováno na Pop!OS |
+| Curl | Nástroj pro online přenos dat | `sudo apt install curl` |
+| Wget | Stahování souborů přes HTTP/FTP | `sudo apt install wget` |
+| Docker | Kontejnerizace aplikací | Instalace přes oficiální skript nebo `apt` |
+| Node.js | JavaScriptové prostředí na straně serveru | Instalace přes `apt` nebo NodeSource |
+| Python3 | Programovací jazyk | `sudo apt install python3 python3-pip` |
+| GIMP | Pokročilý editor obrázků | `sudo apt install gimp` |
+| Thunderbird | E-mailový klient | `sudo apt install thunderbird` |
+| Transmission | Lehký BitTorrent klient | `sudo apt install transmission-gtk` |
+| Htop | Interaktivní monitor systému | `sudo apt install htop` |
 
 ### Instalace prostřednictvím služby Pop! Shop (grafické rozhraní)
 

@@ -685,13 +685,14 @@ fastboot flash boot /chemin/vers/boot.img
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **측면** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **호환성** | Pixels만 | 수백 개의 기기 |
+| **보안** | 고급 완화 | 표준 AOSP 보안 |
+| **Google Play** | 선택적 샌드박싱 | 클래식 설치 가능 |
+| **설치** | 웹 인터페이스 + USB | 기술적 수동 절차 |
+| **철학** | 보안 최우선 | 균형과 선택의 자유 |
 
 ### 사용 권장 사항
 

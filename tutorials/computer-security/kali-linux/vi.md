@@ -459,29 +459,30 @@ Chúng ta hãy tóm tắt một số tác vụ cơ bản của Kali Linux trong 
 
 
 
-| **Catégorie**              | **Tâche de base**                      | **Description / Objectif**                                 | **Méthode principale**                                       |
+
+| **Danh mục** | **Nhiệm vụ cơ bản** | **Mô tả / Mục tiêu** | **Phương pháp chính** |
 | -------------------------- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| **Navigation système**     | Ouvrir le terminal                     | Accéder à la ligne de commande principale de Kali          | Cliquez sur l’icône du terminal ou utilisez `Ctrl + Alt + T` |
-|                            | Parcourir les dossiers                 | Se déplacer dans l’arborescence du système                 | `cd /chemin/du/dossier`, `ls` pour lister les fichiers       |
-|                            | Créer / supprimer un dossier           | Organiser les fichiers                                     | `mkdir nom_dossier`, `rm -r nom_dossier`                     |
-| **Gestion des fichiers**   | Copier / déplacer un fichier           | Manipuler des fichiers dans le terminal                    | `cp fichier destination`, `mv fichier destination`           |
-|                            | Supprimer un fichier                   | Libérer de l’espace disque                                 | `rm nom_du_fichier`                                          |
-|                            | Afficher le contenu d’un fichier texte | Lire rapidement un fichier                                 | `cat fichier.txt`, `less fichier.txt`                        |
-| **Gestion du système**     | Mettre à jour Kali Linux               | Installer les dernières versions et correctifs de sécurité | `sudo apt update && sudo apt full-upgrade -y`                |
-|                            | Installer un logiciel                  | Ajouter un nouvel outil ou utilitaire                      | `sudo apt install nom_du_paquet`                             |
-|                            | Supprimer un logiciel                  | Nettoyer le système                                        | `sudo apt remove nom_du_paquet`                              |
-|                            | Nettoyer les dépendances inutiles      | Gagner de l’espace disque                                  | `sudo apt autoremove`                                        |
-| **Réseau et Internet**     | Vérifier la connexion réseau           | Tester l’accès à Internet                                  | `ping google.com`                                            |
-|                            | Identifier l’adresse IP                | Connaître sa configuration réseau                          | `ip a` ou `ifconfig`                                         |
-|                            | Changer de réseau Wi-Fi                | Se connecter à un autre point d’accès                      | Icône réseau → Sélectionner le Wi-Fi voulu                   |
-| **Comptes et permissions** | Exécuter une commande administrateur   | Obtenir les droits root temporairement                     | `sudo commande`                                              |
-|                            | Créer un nouvel utilisateur            | Ajouter un compte local                                    | `sudo adduser nom_utilisateur`                               |
-|                            | Modifier un mot de passe               | Sécuriser un compte                                        | `passwd`                                                     |
-| **Apparence et confort**   | Changer le fond d’écran                | Personnaliser le bureau                                    | Clic droit sur le bureau → **Paramètres du bureau**          |
-|                            | Modifier le thème / icônes             | Améliorer la lisibilité et l’esthétique                    | Paramètres → Apparence / Thèmes                              |
-| **Outils Kali**            | Ouvrir le menu des outils              | Explorer les outils de test et de sécurité                 | Menu **Applications → Kali Linux**                           |
-|                            | Lancer un outil (ex : nmap, wireshark) | Découverte pratique des utilitaires de sécurité            | `sudo nmap`, `wireshark`, etc.                               |
-| **Aide et documentation**  | Obtenir de l’aide sur une commande     | Comprendre une commande avant de l’utiliser                | `man commande` ou `commande --help`                          |
+| **Điều hướng hệ thống** | Mở terminal | Truy cập vào dòng lệnh chính của Kali | Nhấp vào biểu tượng terminal hoặc sử dụng `Ctrl + Alt + T` |
+| | Duyệt các thư mục | Di chuyển trong cấu trúc thư mục hệ thống | `cd /duong/dan/thu/muc`, `ls` để liệt kê các tệp |
+| | Tạo / xóa thư mục | Tổ chức các tệp | `mkdir ten_thu_muc`, `rm -r ten_thu_muc` |
+| **Quản lý tệp** | Sao chép / di chuyển tệp | Thao tác với các tệp trong terminal | `cp tep dich`, `mv tep dich` |
+| | Xóa tệp | Giải phóng dung lượng ổ đĩa | `rm ten_tep` |
+| | Hiển thị nội dung tệp văn bản | Đọc nhanh một tệp | `cat tep.txt`, `less tep.txt` |
+| **Quản lý hệ thống** | Cập nhật Kali Linux | Cài đặt các phiên bản mới nhất và bản vá bảo mật | `sudo apt update && sudo apt full-upgrade -y` |
+| | Cài đặt phần mềm | Thêm một công cụ hoặc tiện ích mới | `sudo apt install ten_goi` |
+| | Xóa phần mềm | Làm sạch hệ thống | `sudo apt remove ten_goi` |
+| | Dọn dẹp các phụ thuộc không cần thiết | Tiết kiệm dung lượng ổ đĩa | `sudo apt autoremove` |
+| **Mạng và Internet** | Kiểm tra kết nối mạng | Kiểm tra quyền truy cập Internet | `ping google.com` |
+| | Xác định địa chỉ IP | Biết cấu hình mạng của mình | `ip a` hoặc `ifconfig` |
+| | Thay đổi mạng Wi-Fi | Kết nối với một điểm truy cập khác | Biểu tượng mạng → Chọn Wi-Fi mong muốn |
+| **Tài khoản và quyền hạn** | Thực thi lệnh quản trị | Tạm thời lấy quyền root | `sudo lenh` |
+| | Tạo người dùng mới | Thêm một tài khoản cục bộ | `sudo adduser ten_nguoi_dung` |
+| | Thay đổi mật khẩu | Bảo mật tài khoản | `passwd` |
+| **Giao diện và tiện nghi** | Thay đổi hình nền | Cá nhân hóa màn hình nền | Nhấp chuột phải vào màn hình nền → **Cài đặt màn hình nền** |
+| | Thay đổi chủ đề / biểu tượng | Cải thiện khả năng đọc và thẩm mỹ | Cài đặt → Giao diện / Chủ đề |
+| **Công cụ Kali** | Mở menu công cụ | Khám phá các công cụ kiểm tra và bảo mật | Menu **Ứng dụng → Kali Linux** |
+| | Khởi chạy công cụ (vd: nmap, wireshark) | Khám phá thực tế các tiện ích bảo mật | `sudo nmap`, `wireshark`, v.v. |
+| **Trợ giúp và tài liệu** | Nhận trợ giúp về một lệnh | Hiểu một lệnh trước khi sử dụng | `man lenh` hoặc `lenh --help` |
 
 ## Phần kết luận
 

@@ -1,0 +1,9 @@
+question: Welke gegevens kan een Lightning wallet beheerder observeren over zijn gebruikers?
+answer: Al hun stromen
+wrong_answers:
+  - Hun identiteiten
+  - De metadata van hun betalingen, maar zonder de bedragen
+  - De kosten van hun betalingen, maar zonder de bedragen
+explanation: |
+  De operator heeft toegang tot de bedragen, frequenties, ontvangers en betalingsgewoonten van de gebruiker - kortom, hij kan alles observeren, ook al zijn deze diensten vaak KYC-vrij.
+reviewed: false

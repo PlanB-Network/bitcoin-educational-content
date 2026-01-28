@@ -1,0 +1,9 @@
+question: Který krok následuje bezprostředně po zveřejnění požadavku NWC mobilní aplikací na relé?
+answer: Uzel dešifruje a ověří autorizaci
+wrong_answers:
+  - Relé podepisuje požadavek pro uzel
+  - Štafeta provede platbu na LND
+  - Uzel automaticky otevře kanál
+explanation: |
+  Uzel přečte událost, dešifruje ji a před provedením akce zkontroluje, zda je autor autorizován.
+reviewed: false

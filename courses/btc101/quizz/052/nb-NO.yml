@@ -1,11 +1,9 @@
-question: Hva er det maksimale antallet Bitcoin-enheter som noensinne kan eksistere?
-answer: 21 millioner enheter
+question: Hvilken av følgende er ikke en Bitcoin-egenskap?
+answer: Den blir lett sensurert.
 wrong_answers:
-  - 25 millioner enheter
-  - 30 millioner enheter
-  - 50 millioner enheter
+  - Den kan overføres umiddelbart.
+  - Den har ubetydelige verifiseringskostnader.
+  - Den har en fast pengepolitikk.
 explanation: |
-  Bitcoins dataprogramkode og konsensus blant alle brukere som deltar i
-  protokollen bestemmer at det maksimale antallet Bitcoin-enheter som noensinne kan eksistere
-  er 21 millioner.
+  Bitcoin har alle nødvendige egenskaper for å være en effektiv og sunn valuta: delbar, umiddelbart overførbar, sensurresistent, ubetydelige verifiseringskostnader, og med en pengepolitikk som allerede er satt for århundrer fremover med 21 millioner enheter.
 reviewed: true

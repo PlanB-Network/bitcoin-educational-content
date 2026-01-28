@@ -1,8 +1,8 @@
 question: Que permet la syntaxe de mise à jour des structures lors de la création de nouvelles instances de structures dans Rust ?
-answer: Créer une nouvelle instance en spécifiant uniquement les champs modifiés et en copiant les champs restants d'une instance existante
+answer: Créer une nouvelle instance en spécifiant uniquement les champs modifiés et en copiant les champs restants d'une instance existante.
 wrong_answers:
-  - Modifier les champs de la structure existante sans créer une nouvelle instance
-  - Automatiquement generate valeurs par défaut pour les champs non spécifiés à l'aide du trait Défaut
-  - Fusionner plusieurs instances de structure en une seule instance combinée
+  - Modifier les champs de la structure existante sans créer une nouvelle instance.
+  - Automatiquement générer valeurs par défaut pour les champs non spécifiés à l'aide du trait Default.
+  - Fusionner plusieurs instances de structure en une seule instance combinée.
 explanation: |
-  La syntaxe de mise à jour des structures dans Rust vous permet de créer une nouvelle instance de structure en spécifiant uniquement les champs que vous souhaitez modifier, tout en copiant automatiquement tous les autres champs d'une instance existante. Cela se fait en utilisant la syntaxe `..existing_instance`. Les autres options sont incorrectes : la syntaxe struct update crée toujours une nouvelle instance plutôt que de modifier des instances existantes, elle ne prend pas les valeurs par défaut de generate mais les copie à partir d'instances existantes, et elle travaille avec une seule instance source plutôt que de fusionner plusieurs instances ensemble.
+  La syntaxe de mise à jour des structures dans Rust vous permet de créer une nouvelle instance de structure en spécifiant uniquement les champs que vous souhaitez modifier, tout en copiant automatiquement tous les autres champs d'une instance existante. Cela se fait en utilisant la syntaxe `..existing_instance`. Les autres options sont incorrectes : la syntaxe struct update crée toujours une nouvelle instance plutôt que de modifier des instances existantes, elle ne prend pas les valeurs par défaut mais les copie à partir d'instances existantes, et elle travaille avec une seule instance source plutôt que de fusionner plusieurs instances ensemble.

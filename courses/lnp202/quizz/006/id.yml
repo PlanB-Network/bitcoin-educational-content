@@ -1,0 +1,9 @@
+question: Apa risiko finansial dengan kustodian Lightning wallet?
+answer: Cadangan pecahan
+wrong_answers:
+  - Kenaikan biaya mining secara sewenang-wenang
+  - 51% serangan
+  - Penghentian pasti pada pasar bearish
+explanation: |
+  Pengguna tidak dapat memverifikasi bahwa saldo yang ditampilkan benar-benar sesuai dengan bitcoin yang dimiliki. Oleh karena itu, ada risiko cadangan fraksional.
+reviewed: false

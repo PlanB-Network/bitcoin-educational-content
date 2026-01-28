@@ -1,0 +1,9 @@
+question: Ni njia gani ya kufungwa inayomfaa zaidi Lightning?
+answer: Kufungwa kwa ushirika
+wrong_answers:
+  - Kufungwa kwa lazima
+  - Kufunga kwa udanganyifu
+  - Kufungwa kwa Watchtower
+explanation: |
+  Kufunga kwa ushirikiano ni haraka zaidi na hukuruhusu kuchagua ada za mnyororo.
+reviewed: false

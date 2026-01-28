@@ -5,5 +5,6 @@ wrong_answers:
   - Lend bitcoins deposited by customers and collect interest
   - Relay bitcoin payments to the blockchain, receiving transaction fees
 explanation: |
- The idea behind BitPay was to give merchants the possibility of converting their bitcoin payments instantly into dollars, so that they could hedge against volatility. BitPay advanced the dollars to their customers against a processing fee, which was initially 1%.
-reviewed: false
+ The idea behind BitPay was to give merchants the possibility of converting their bitcoin payments instantly into dollars, so that they could hedge against 
+ volatility. BitPay provided clients with dollars upfront, charging a processing fee that was initially 1%.
+reviewed: true

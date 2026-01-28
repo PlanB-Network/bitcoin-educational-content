@@ -1,8 +1,8 @@
 question: Koji je preporučeni minimalni kapacitet SSD-a u 2025. za Bitcoin čvor?
-answer: 2 To
+answer: 2 TB
 wrong_answers:
   - 512 GB
-  - 10 Do
+  - 10 TB
   - 256 GB
 explanation: |
   Sa Blockchain koji prelazi 700 GB i dodatnim aplikacijama, 2 TB je postao razumna minimalna vrednost.

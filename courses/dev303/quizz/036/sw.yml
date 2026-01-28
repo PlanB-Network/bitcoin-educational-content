@@ -1,8 +1,8 @@
-question: Rust hufanya nini wakati wa mchakato wa kupumzika wakati hofu inapotokea?
+question: Rust hufanya nini wakati wa mchakato wa kupumzika wakati panic inapotokea?
 answer: Hurudi nyuma kupitia rundo la simu ili kutoa ufuatiliaji wa kina wa rundo
 wrong_answers:
   - Husimamisha programu mara moja bila usafi wowote au taarifa yoyote
   - Hubadilisha hofu kuwa aina ya matokeo inayoweza kurejeshwa kwa ajili ya kushughulikia hitilafu
   - Huanzisha upya utekelezaji wa kitendakazi cha sasa tangu mwanzo
 explanation: |
-  Wakati hofu inapotokea katika Rust, mchakato wa kufungua upya hupitia kwenye rundo la simu ili kutoa maelezo ya kina ya rundo yanayoonyesha mahali ambapo hofu ilitokea. Hii huwasaidia wasanidi programu kutambua chanzo cha tatizo wakati wa utatuzi wa matatizo. Chaguzi zingine si sahihi: Rust haimaliziki mara moja bila kusafisha (hiyo hutokea tu wakati kufungua upya kumezimwa), hofu haziwezi kubadilishwa kuwa aina za Matokeo kwani zinawakilisha makosa yasiyoweza kurejeshwa, na Rust haianzishi tena utekelezaji wa kazi wakati hofu inapotokea.
+  Wakati panic inapotokea katika Rust, mchakato wa closure upya hupitia kwenye rundo la simu ili kutoa maelezo ya kina ya rundo yanayoonyesha mahali ambapo hofu ilitokea. Hii huwasaidia wasanidi programu kutambua chanzo cha tatizo wakati wa utatuzi wa matatizo. Chaguzi zingine si sahihi: Rust haimaliziki mara moja bila kusafisha (hiyo hutokea tu wakati kufungua upya kumezimwa), hofu haziwezi kubadilishwa kuwa aina za Matokeo kwani zinawakilisha makosa yasiyoweza kurejeshwa, na Rust haianzishi tena utekelezaji wa kazi wakati hofu inapotokea.

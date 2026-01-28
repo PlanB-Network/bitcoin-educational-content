@@ -1,0 +1,9 @@
+question: Ni vigezo gani vinavyoamua uchaguzi wako wa suluhisho la Lightning?
+answer: Mara kwa mara ya matumizi na nia ya kusimamia
+wrong_answers:
+  - Kiasi kilichobadilishwa na kasi ya itifaki
+  - Eneo la kijiografia na elimu
+  - Uvumilivu wa hatari na muundo wa programu
+explanation: |
+  Chaguo hutegemea hasa ni mara ngapi Lightning inatumika, na ni kiasi gani unapenda usimamizi wa kiufundi.
+reviewed: false

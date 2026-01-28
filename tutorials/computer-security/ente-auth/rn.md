@@ -554,13 +554,14 @@ Ubucuruzi bwa Ente bushingiye kuri serivisi ya Ente Photos yishurwa, bikaba bidu
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Porogaramu              | Imvugo Risubirwa | Inzira y'iyikiza mu Iga | E2EE | Kwiyikiza ibinini byinshi | Ibikira                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (atakubaho E2EE)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(porogaramu za gitara cyavunguwe Agustı 2024)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(mushya, kurimba)*              |
 
 Ente Auth igaragara nk’imwe mu nzira nkeyi zo guhuza ivyiza vyose: uguserukira kode y’inkomoko, gucungera igicu gipfutse n’uguhuza ibikorwa bitandukanye.
 

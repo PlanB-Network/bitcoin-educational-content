@@ -1,9 +1,9 @@
-question: Qual è il titolo del libro bianco di Satoshi Nakamoto pubblicato nel 2008?
-answer: Bitcoin Un sistema di contanti elettronici Peer-to-Peer
+question: Qual è il titolo del White Paper di Satoshi Nakamoto pubblicato nel 2008?
+answer: Bitcoin un sistema di contanti elettronici Peer-to-Peer
 wrong_answers:
-  - Bitcoin Un sistema d'oro digitale decentralizzato
-  - Bitcoin Il futuro del denaro
-  - Bitcoin Una rete di pagamento basata sul Blockchain
+  - Bitcoin un sistema di oro digitale decentralizzato
+  - Bitcoin il futuro del denaro
+  - Bitcoin una rete di pagamento basata sulla blockchain
 explanation: |
-  Satoshi Il libro bianco di Nakamoto, Bitcoin A Peer-to-Peer Electronic Cash System, è stato pubblicato nel 2008.
+  Il White Paper di Satoshi Nakamoto, Bitcoin A Peer-to-Peer Electronic Cash System, è stato pubblicato nel 2008.
 reviewed: true

@@ -554,13 +554,14 @@ Ente Auth یک [سیاست حفظ حریم خصوصی نمونه](https://ente.i
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| برنامه              | متن باز | پشتیبان گیری ابری | E2EE | همگام سازی چند دستگاه | پلتفرم ها                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (بدون E2EE)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(برنامه های دسک تاپ در آگوست 2024 حذف شدند)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(اخیر، کمتر تأسیس شده)*              |
 
 Ente Auth به عنوان یکی از معدود راه‌حل‌هایی که تمام مزایا را ترکیب می‌کند، برجسته است: شفافیت کد منبع، پشتیبان‌گیری ابری رمزگذاری‌شده و همگام‌سازی بین‌پلتفرمی.
 

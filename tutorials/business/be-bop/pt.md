@@ -255,12 +255,13 @@ o be-BOP permite-lhe aceitar pagamentos Bitcoin diretamente no Blockchain (On-Ch
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Campo                  | Descrição                                               | Exemplo a Usar                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **Padrão BIP**       | O tipo de endereçamento utilizado                               | BIP84 (para endereços no formato bech32 começando com `bc1`) |
+| **Chave Pública Estendida** | Seu Zpub (ou Xpub dependendo da carteira utilizada)        | `zpub...` (extraído de sua carteira Bitcoin) |
+| **Derivation Index**   | O índice inicial para geração de endereços         | `1`                                              |
+| **URL do Mempool**        | A URL do serviço mempool usado para rastrear transações | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -849,12 +850,13 @@ Esta secção determina **onde** e **como** o produto pode ser visto e comprado:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Plataforma        | Produto Visível | Adicionável ao Carrinho |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (site público)        | ✔️              | ✔️                  |
+| Retail POS (ponto de venda)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (venda via bot)  | ✔️              | ✔️                  |
 
 Marque apenas os canais que pretende utilizar.
 
@@ -1024,14 +1026,15 @@ Utilize **códigos de acesso** no conteúdo das suas páginas CMS:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Objetivo                 | Tag a Inserir                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Exibir um produto      | `[Product=slug?display=img-1]`        |
+| Exibir uma imagem       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integrar um controle deslizante       | `[Slider=slug?autoplay=3000]`         |
+| Adicionar um desafio     | `[Challenge=slug]`                    |
+| Adicionar uma contagem regressiva | `[Countdown=slug]`                 |
+| Integrar um formulário   | `[Form=slug]`                         |
 
 **Parâmetros actuais**:
 
@@ -1813,14 +1816,15 @@ Cartaz:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Função                         | Descrição                                             |
+|----------------------------------|---------------------------------------------------------|
+| Papel POS                         | Atribuído via ARM                                         |
+| Interface Principal             | `/pos` ou `/pos/touch`                                 |
+| Exibição do Cliente (Tela 2)       | `/pos/session`                                         |
+| Pagamento                         | Dinheiro, cartão, Lightning, etc.                         |
+| Adição de Produto                    | Alias ou leitura de código de barras                              |
+| Descontos / IVA                    | Com justificativa gerencial obrigatória              |
 
 Obrigado por seguir cuidadosamente este tutorial.

@@ -255,12 +255,13 @@ be-BOP võimaldab teil lihtsalt ja turvaliselt vastu võtta Bitcoin makseid otse
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Väli                  | Kirjeldus                                               | Kasutatav Näide                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Kasutatava adresseerimise tüüp                               | BIP84 (aadressid bech32 vormingus, mis algavad `bc1`-ga) |
+| **Laiendatud avalik võti** | Teie Zpub (või Xpub olenevalt kasutatavast rahakotist)        | `zpub...` (teie Bitcoin rahakotist eraldatud) |
+| **Derivation Index**   | Aadresside loomise algusindeks         | `1`                                              |
+| **Mempool URL**        | Mempool teenuse URL, mida kasutatakse tehingute jälgimiseks | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -849,12 +850,13 @@ Selles jaotises määratakse kindlaks, **kuidas** ja **kuidas** saab toodet vaad
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platvorm        | Toode nähtav | Ostukorvi lisamiseks sobiv |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (avalik sait)        | ✔️              | ✔️                  |
+| Retail POS (kassa)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (müük boti kaudu)  | ✔️              | ✔️                  |
 
 Märkige ainult need kanalid, mida soovite kasutada.
 
@@ -1024,14 +1026,15 @@ Kasutage oma CMS-lehtede sisus **shortcodes**:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Eesmärk                 | Lisatav silt                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Toote kuvamine      | `[Product=slug?display=img-1]`        |
+| Pildi kuvamine       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Liuguri integreerimine       | `[Slider=slug?autoplay=3000]`         |
+| Väljakutse lisamine     | `[Challenge=slug]`                    |
+| Taandarvu lisamine | `[Countdown=slug]`                 |
+| Vormi integreerimine   | `[Form=slug]`                         |
 
 **Parameetrid**:
 
@@ -1813,14 +1816,15 @@ Plakat:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Funktsioon                         | Kirjeldus                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS roll                         | Määratud ARM-i kaudu                                         |
+| Peamine liides             | `/pos` või `/pos/touch`                                 |
+| Kliendi kuva (ekraan 2)       | `/pos/session`                                         |
+| Makse                         | Sularaha, kaart, Lightning jne.                         |
+| Toote lisamine                    | Pseudonüüm või vöötkoodi skaneerimine                              |
+| Allahindlused / käibemaks                    | Kohustusliku juhtimise põhjendusega              |
 
 Täname teid selle õpetuse hoolika jälgimise eest.

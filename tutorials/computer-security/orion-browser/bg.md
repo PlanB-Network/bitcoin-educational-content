@@ -522,15 +522,16 @@ Orion поддържа естествено разширения за Chrome и 
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Критерий | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Телеметрия** | Няма | Минимална | Обширна | Умерена | Минимална |
+| **Роден блокер** | 99,9% ефикасен | Базов | Отсъствува | Частичен | Пълен |
+| **Разширения** | Chrome + Firefox | Ограничени | Само Chrome | Само Firefox | Само Chrome |
+| **Производителност Mac** | Отлична | Отлична | Добра | Средна | Добра |
+| **Потребление RAM** | Много ниско | Ниско | Високо | Средно | Средно |
+| **Open Source** | Частичен | Частичен (WebKit) | Частичен | Пълен | Пълен |
+| **Платформи** | Mac/iOS | Mac/iOS | Всички | Всички | Всички |
 
 **Според Safari**: Orion предлага превъзходна защита с усъвършенствания си блокер и поддръжка на разширения, като същевременно поддържа производителността на WebKit.
 

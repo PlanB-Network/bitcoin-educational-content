@@ -1,0 +1,9 @@
+question: Šta predstavlja stanje Lightning wallet prikazano na interfejsu aplikacije LND?
+answer: Zbir odlazne likvidnosti
+wrong_answers:
+  - Zbir onchains
+  - Zbir dolazne likvidnosti
+  - Zbir kapaciteta kanala
+explanation: |
+  Ravnoteža Lightning-a odgovara sats dostupnom za trošenje putem kanala, tj. zbir odlazne likvidnosti iz svih kanala čvora.
+reviewed: false

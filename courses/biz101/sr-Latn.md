@@ -200,7 +200,7 @@ Zajedno čine Bitkoin **imovinom na donosioca** i digitalnom valutom **bez izdav
 
 ![BIZ101](assets/sr-Latn/003.webp)
 
-Bitkoin ima fiksnu monetarnu politiku, sa **ograničenjem od 21 milion bitkoina**, od kojih je ~19,8 miliona već distribuirano. Ovo ga čini **deflatornim**, sa vrednošću koja raste tokom vremena kako korisnici u njemu čuvaju ušteđevinu i dobitke u produktivnosti.
+Bitcoin ima fiksnu monetarnu politiku, sa **maksimumom od 21 milion bitkoina**, od kojih je ~19,8 (2024) miliona već izrudareno. To ga čini **deflatornim**, pri čemu njegova vrednost raste tokom vremena jer korisnici u njemu čuvaju uštedevinu i dobitke u produktivnosti.
 
 Njegove tehničke karakteristike nadmašuju one od zlata i dolara zajedno, čineći ga najtvrđim finansijskim sredstvom ikada stvorenim. Bitkoin je i čuvar vrednosti i sredstvo razmene, valuta u nastajanju. Zamislite prenos vrednosti iz trezora jedne kompanije u drugu brzo, bez posrednika, uz minimalne troškove, bez prevare, 24/7, i bez uključivanja treće strane.
 
@@ -212,7 +212,7 @@ Bitkoin je disruptivan jer nas podstiče da učimo koncepte iz matematike, kript
 
 Bitkoin nas izaziva da preispitamo samu prirodu novca. Možete li objasniti šta novac zaista jeste? Radnik sa platom ili preduzetnik može provesti 50.000 do 100.000 sati svog života zarađujući novac, ali koliko njih **posveti čak 100 sati da ga bolje razume** i sačuva? Bitkoin nas podstiče da preispitamo osnovne razloge iza naše potrebe za novcem i našu vremensku perspektivu. Da li je novac za trenutni luksuz ili dugoročnu otpornost? Ako bismo imali imovinu koja raste u vrednosti i omogućava nam da odložimo kupovine, koje bismo izbore napravili? Kakve bismo razgovore želeli da vodimo sa sobom za 20 ili 30 godina?
 
-**Bitkoin LIČNA KARTA**
+**LIČNA KARTA BITKOINA (u 2024. godini)**
 
 
 - **Starost:** 15 godina (3. januar 2009.)
@@ -296,7 +296,7 @@ Lightning Mreža je idealna za Bitkoin plaćanja u fizičkim ili online prodavni
 - **Konačnost:** Jednom kada se uplata izvrši na Lightning mreži, ona je konačna. Ne postoji mogućnost povrata sredstava od strane trećih lica ili sporova vezanih za prevaru.
 - **Naknade:** Naknade za transakcije na Lightning mreži su minimalne i plaća ih korisnik, a ne trgovac. Trgovci snose naknade samo ako kasnije trebaju preneti svoj bitkoin na drugu mrežu ili uslugu.
 
-**LIGHTNING LIČNA KARTA**
+**LIČNA KARTA LAJTNINGA (u 2024. godini)**
 
 
 - **Izumljen:** 2015.

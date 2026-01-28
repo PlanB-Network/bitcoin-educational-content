@@ -1,0 +1,9 @@
+question: Ni taarifa gani inayoonyesha uwezo wa kupokea nodi ya Umeme?
+answer: Ugavi wa fedha unaoingia
+wrong_answers:
+  - Miunganisho inayotumika
+  - Ugavi wa pesa unaotoka
+  - Idadi ya vitalu
+explanation: |
+  Ugavi wa maji unaoingia unawakilisha sats ambayo nodi inaweza kupokea kupitia Lightning.
+reviewed: false

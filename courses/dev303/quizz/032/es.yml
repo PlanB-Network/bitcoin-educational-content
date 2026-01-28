@@ -2,7 +2,7 @@ question: ¿Cuál es la principal diferencia entre errores recuperables e irrecu
 answer: Los errores recuperables pueden tratarse con elegancia, permitiendo que los programas continúen, mientras que los errores irrecuperables terminan el programa
 wrong_answers:
   - Los errores recuperables utilizan la macro panic! mientras que los errores no recuperables utilizan el enum Result para una correcta gestión de errores
-  - Los errores recuperables se producen en tiempo de compilación, mientras que los irrecuperables sólo se producen durante la ejecución del programa
+  - Los errores recuperables se producen en tiempo de compilación, mientras que los irrecuperables solo se producen durante la ejecución del programa
   - Los errores recuperables requieren desenrollar la pila, mientras que los errores no recuperables pueden ser ignorados por el código de llamada
 explanation: |
   Rust clasifica los errores en función de si los programas pueden recuperarse razonablemente de ellos. Los errores recuperables representan condiciones de fallo esperadas, como archivos perdidos o problemas de red que los programas pueden manejar con elegancia utilizando tipos de resultados, permitiendo que la ejecución continúe con el manejo de errores apropiado. Los errores irrecuperables indican problemas fundamentales como violaciones de la seguridad de la memoria o errores lógicos en los que el programa no puede continuar con seguridad, desencadenando pánicos que terminan la ejecución para evitar más corrupción.

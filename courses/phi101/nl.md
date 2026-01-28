@@ -27,7 +27,7 @@ Vanaf de Oudheid tot de Verlichting steeg de vrijheid op naarmate samenlevingen 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
 
-Welkom bij PHI201!
+Welkom bij PHI101!
 
 
 Deze cursus nodigt je uit om de evolutie van vrijheid door de geschiedenis heen te verkennen door de belangrijkste denkrichtingen te analyseren die er vorm aan hebben gegeven. Je verkent hoe het concept van vrijheid door de eeuwen heen is geëvolueerd, in verzet tegen of in samenwerking met macht, door middel van een historische reis van de Oudheid tot hedendaagse debatten.

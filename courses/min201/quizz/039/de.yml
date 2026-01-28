@@ -3,7 +3,7 @@ answer: Ohne ausreichende finanzielle Anreize kann es für Miner schwierig sein,
 wrong_answers:
   - Es kann zu einem Rückgang des Bitcoin-Preises führen
   - Es kann zu einem Anstieg der Hashrate des Netzwerks führen
-  - Es kann zu einem Rückgang der Anzahl aktiver Knoten im Netzwerk führen
+  - Es kann zu einem Rückgang der Anzahl aktiver Nodes im Netzwerk führen
 explanation: |
   Das Mining für das Netzwerk ist eine noble Initiative, die
   zur Sicherheit und Dezentralisierung des Bitcoin-Netzwerks

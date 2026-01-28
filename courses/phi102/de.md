@@ -40,7 +40,6 @@ Sind Sie bereit zu entdecken, warum Freiheit nicht nur ein moralisches Ideal ist
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -96,7 +95,6 @@ Außerdem sind die Empfindungen von Natur aus individuell. Man kann den Hunger n
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -152,7 +150,6 @@ Die französische Geschichte veranschaulicht die Folgen des Fehlens dieser Freih
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -238,7 +235,6 @@ Zusammengenommen stellen diese Beobachtungen keine abstrakte Theorie dar, sonder
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -306,7 +302,6 @@ Die Frage der Ehe veranschaulicht diese Grundsätze: Die Wahl des Ehepartners mu
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -383,7 +378,6 @@ Schließlich sind die Abschaffung der Zinsen auf Geld und die Regulierung der Ge
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -452,7 +446,6 @@ Die historische Analyse zeigt, dass die Freiheit kein verlorener Naturzustand is
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -511,7 +504,6 @@ Bei der Untersuchung der historischen Gründe für die Unfreiheit wird ein grund
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -571,7 +563,6 @@ Bei der Betrachtung der verschiedenen Entwicklungsstufen zeigt sich ein enger Zu
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -630,7 +621,6 @@ Revolutionen haben erhebliche Nachteile: Sie sind mit viel Gewalt verbunden und 
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -684,7 +674,6 @@ Diese Überlegungen führen zu einer wesentlichen Schlussfolgerung: Die heutigen
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -745,7 +734,6 @@ Nachdem diese Voraussetzungen geschaffen wurden, ist es nun möglich, die faktis
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -801,7 +789,6 @@ Aus dieser Analyse ergibt sich eine grundlegende Schlussfolgerung: Ein zunehmend
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -860,7 +847,6 @@ Der entscheidende Vorteil der wirtschaftlichen Freiheit ist, dass nie zu früh o
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -920,7 +906,6 @@ In einer freien Gesellschaft führt das Eigeninteresse zu Innovation und Fortsch
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -976,7 +961,6 @@ Der Übergang zu einer friedlichen Gesellschaft ist ein langer Lernprozess. Die 
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1035,7 +1019,6 @@ Systeme der Unfreiheit zeichnen sich gerade durch Ungleichheit aus: Einige Perso
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1095,7 +1078,6 @@ Umgekehrt funktionieren Beziehungen, die auf politischer Macht beruhen, auf eine
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1167,7 +1149,6 @@ Die Freiheitslehre setzt dieser Logik das Prinzip der individuellen und kollekti
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1227,7 +1208,6 @@ Diese Autoren bezeichneten den Arbeitnehmerprotektionismus als die künftig domi
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1297,7 +1277,6 @@ Diese intellektuelle und faktische Geschichte des Scheiterns der Unfreiheit ist 
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1341,7 +1320,6 @@ Eine wichtige Unterscheidung ist die zwischen negativer und positiver Freiheit. 
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1396,7 +1374,6 @@ Angesichts dieser Gefahren entwickelte das liberale Denken, insbesondere das von
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1456,7 +1433,6 @@ Wirtschaftliche Irrtümer sind jedoch nur eine Kategorie unter vielen. Der intel
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1515,7 +1491,6 @@ Dennoch haben die liberalen Schriftsteller eine starke Sensibilität für Armut 
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1582,7 +1557,6 @@ Diese Analyse ermöglicht es uns auch zu verstehen, wie unfreie Systeme die indi
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1646,7 +1620,6 @@ Courcelle-Seneuil bekräftigte einfach die Ideen der Französischen Revolution z
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1707,7 +1680,6 @@ Die derzeitige Realität offenbart eine paradoxe und traurige Situation. Die Fac
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1771,7 +1743,6 @@ Molinari und die große Mehrheit der französischen Liberalen seiner Zeit stande
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1831,7 +1802,6 @@ Ein solcher Zustand des internationalen Rechts, der die Handlungsfreiheit anerke
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

@@ -317,10 +317,11 @@ Vergeet niet om de software opnieuw op te starten nadat je deze wijzigingen hebt
 Ga dan naar je Wallet beheersoftware (bijv. Sparrow wallet of Liana) en voer het pad naar je cookie-bestand in, meestal in dezelfde map als de `Bitcoin.conf`, afhankelijk van je besturingssysteem:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -345,10 +346,11 @@ server=1
 Nadat je het bestand hebt bewerkt, moet je ervoor zorgen dat je het opslaat in de juiste map voor je besturingssysteem:
 
 
+
 |**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
 |**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Deze handeling kan ook worden uitgevoerd via Bitcoin-QT's Interface graphics. Ga naar het "*Instellingen*" menu, dan "*Opties...*", en activeer de "*RPC server inschakelen*" optie door het overeenkomstige vakje aan te vinken. Als het `Bitcoin.conf` bestand niet bestaat, kun je het direct vanuit deze Interface aanmaken door op "*Open Configuration File*" te klikken.
 

@@ -1,0 +1,8 @@
+question: Comment le processus de marché coordonne-t-il les actions individuelles malgré la dispersion de la connaissance entre tous les acteurs économiques?
+answer: Par le système de prix qui communique les informations dispersées et permet l'allocation des ressources sans centralisation
+wrong_answers:
+  - Par la planification centralisée qui collecte et redistribue toutes les informations économiques nécessaires
+  - "Par l'intervention d'organismes régulateurs qui harmonisent les préférences individuelles contradictoires"
+  - Par la standardisation des comportements économiques qui élimine la subjectivité des choix individuels
+explanation: |
+  Selon Hayek, le processus de marché coordonne les actions malgré la dispersion de la connaissance grâce au système de prix généré par la concurrence. Ces prix servent d'indicateurs socialement accessibles qui communiquent les informations dispersées sans nécessiter de centralisation. Les autres options sont incorrectes car elles impliquent une centralisation impossible selon la théorie autrichienne : la planification centralisée ne peut pas collecter toute l'information dispersée, les organismes régulateurs ne peuvent pas harmoniser des préférences subjectives, et la standardisation contredit le principe de subjectivité individuelle.

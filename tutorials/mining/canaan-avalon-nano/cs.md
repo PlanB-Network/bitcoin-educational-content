@@ -75,17 +75,18 @@ Níže je uvedena tabulka shrnující obecné technické specifikace modelu Nano
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Charakteristika                                      | Hodnota                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hashrate                                      | 6 Th/s +- 5%                                            |
+| Spotřeba energie                               | 140 W                                                   |
+| Hluk                                                | 30 - 40 dB                                              |
+| Rozsah teploty výstupního vzduchu                 | 60-70°C (při okolní teplotě 25°C)                |
+| Požadavky na teplotu okolí pro použití | od -5 do 30°C                                            |
+| Rozsah vstupního napětí zařízení                         | 28V 5A nepřetržitě                                          |
+| Rozsah vstupního napětí adaptéru                       | 110-240V AC 50/60Hz                                     |
+| Rozměry zařízení                                 | Délka: 205 mm / Šířka: 115 mm / Výška: 58.5 mm |
+| Hmotnost zařízení                                  | 0.86 kg                                                 |
 
 ## Zapnutí a připojení k místní síti
 

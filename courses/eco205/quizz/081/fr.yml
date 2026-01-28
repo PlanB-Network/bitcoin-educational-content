@@ -1,0 +1,8 @@
+question: Pourquoi Mises affirme-t-il que l'économie en rotation uniforme est un concept absurde dans la réalité?
+answer: Parce qu'elle suppose un futur certain, ce qui contredit le principe fondamental de l'action humaine basée sur l'incertitude
+wrong_answers:
+  - "Parce qu'elle nécessiterait une planification centrale trop complexe pour être mise en œuvre efficacement"
+  - "Parce qu'elle empêcherait la formation naturelle des prix par le mécanisme de l'offre et de la demande"
+  - "Parce qu'elle éliminerait complètement la concurrence entre les entrepreneurs sur le marché"
+explanation: |
+  L'économie en rotation uniforme est absurde selon Mises car elle implique que toutes les variables restent constantes et que le futur est parfaitement prévisible. Or, l'action humaine se définit précisément par la capacité des individus à faire des choix face à l'incertitude. Si le futur était certain, il n'y aurait plus besoin d'agir, de choisir ou d'entreprendre, ce qui nierait l'essence même de l'activité économique humaine.

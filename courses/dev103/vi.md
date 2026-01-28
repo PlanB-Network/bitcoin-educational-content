@@ -5024,12 +5024,13 @@ counter += 1 // same as counter = counter + 1
 Sau đây là những điều phổ biến nhất:
 
 
-| Operator | Meaning             |
+
+| Toán tử | Ý nghĩa |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | cộng và gán |
+| `-=` | trừ và gán |
+| `*=` | nhân và gán |
+| `/=` | chia và gán |
 
 Ví dụ:
 
@@ -6517,36 +6518,36 @@ Sau đây là ví dụ về cách ghi vào tệp `target.txt` bằng luồng:
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Sau đây là những gì xảy ra:
 
 
-1. `fs.createWriteStream()` tạo một luồng có thể ghi.
+1. `fs.createWriteStream()` tạo ra một luồng có thể ghi (writable stream).
 
-2. Chúng ta viết một số văn bản vào đó bằng cách sử dụng `.write()`.
+2. Chúng ta đăng ký các trình xử lý cho các sự kiện `error` và `finish`.
 
-3. Khi hoàn tất, chúng ta gọi `.end()` để đóng luồng.
+3. Chúng ta ghi một đoạn văn bản vào đó bằng cách sử dụng `.write()`.
 
-4. Khi tất cả dữ liệu đã được ghi, sự kiện `finish` sẽ được phát ra.
+4. Khi hoàn tất, chúng ta gọi `.end()` để đóng luồng.
 
-5. Nếu có điều gì đó không ổn, sự kiện `error` sẽ được kích hoạt.
+5. Sau khi tất cả dữ liệu đệm đã được đẩy ra và ghi xong, sự kiện `finish` sẽ được phát ra. Nếu có lỗi xảy ra, sự kiện `error` sẽ được phát ra.
 
 
 Giống như luồng có thể đọc, luồng có thể ghi rất phù hợp với dữ liệu lớn vì chúng không cần phải lưu trữ mọi thứ trong bộ nhớ cùng một lúc.

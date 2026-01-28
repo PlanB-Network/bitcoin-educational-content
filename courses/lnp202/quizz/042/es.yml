@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal desventaja del cierre forzoso?
+answer: Fondos bloqueados por bloqueo temporal
+wrong_answers:
+  - Pérdida parcial de fondos
+  - Obsolescencia del nodo Lightning
+  - Desincronización de nodos Lightning
+explanation: |
+  Los fondos están bloqueados por un bloqueo temporal y las comisiones suelen ser elevadas.
+reviewed: false

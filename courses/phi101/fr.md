@@ -24,7 +24,7 @@ De l'Antiquité aux Lumières, la liberté s'est élevée à mesure que les soci
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-Bienvenue dans le cours PHI201 !
+Bienvenue dans le cours PHI101 !
 
 Cette formation vous invite à explorer l’évolution de la liberté à travers l’histoire en analysant les grands courants de pensée qui l’ont façonnée. Vous découvrirez comment la notion de liberté s’est construite au fil des siècles, en opposition ou en collaboration avec le pouvoir, à travers un parcours historique allant de l’Antiquité aux débats contemporains.
 

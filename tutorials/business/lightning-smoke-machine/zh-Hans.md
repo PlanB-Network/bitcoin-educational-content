@@ -263,11 +263,12 @@ description: 通过 ESP32 以闪电支付方式触发烟雾机。
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **端子**         | **说明**           | **功能**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (常开)   | 电路默认开启 | 继电器激活时闭合 |
+| NC (常闭) | 电路默认闭合  | 继电器激活时开启  |
+| COM (公共)         | 中心端子          | 在NO和NC之间切换              |
 
 **从遥控器到继电器模块的接线：**
 
@@ -301,11 +302,12 @@ description: 通过 ESP32 以闪电支付方式触发烟雾机。
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **继电器模块** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (输入)        |
 
 **验证：**
 
@@ -894,14 +896,15 @@ WiFi connection established!
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **问题**                        | **可能的原因**              | **解决方案**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32无法连接            | USB驱动程序缺失             | 安装[CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| 继电器无法点击                | GPIO接线错误            | 检查GPIO 21 → IN                                                                        |
+| 烟雾机无法响应         | 遥控器接线错误         | 检查NO/NC/COM                                                                           |
+| WebSocket超时                   | URL不正确                  | 检查wss://和/bitcoinswitch                                                            |
+| WiFi无法连接             | SSID/密码错误            | 重新刷写WiFi配置                                                                    |
+| 已收到付款但没有任何反应 | ESP32未连接到WebSocket | 检查RESET日志                                                                      |
 
 ## 资源
 

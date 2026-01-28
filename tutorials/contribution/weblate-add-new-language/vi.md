@@ -4,69 +4,64 @@ description: Làm thế nào để thêm ngôn ngữ mới vào Plan ₿ Academy
 ---
 ![cover](assets/cover.webp)
 
-Sứ mệnh của Plan ₿ Academy là cung cấp các nguồn tài nguyên giáo dục hạng nhất về Bitcoin và dịch chúng sang nhiều ngôn ngữ nhất có thể. Phần lớn nội dung được xuất bản trên trang web là nguồn mở và được lưu trữ trên GitHub, cho phép bất kỳ ai cũng có thể tham gia làm phong phú nền tảng. Đóng góp có thể ở nhiều hình thức khác nhau: sửa và hiệu đính nội dung hiện có, cập nhật thông tin hoặc tạo hướng dẫn mới để thêm vào nền tảng.
+Sứ mệnh của PlanB là cung cấp nguồn học liệu hàng đầu về Bitcoin bằng nhiều ngôn ngữ nhất có thể. Toàn bộ nội dung được đăng tải trên trang web đều là mã nguồn mở và được lưu trữ trên GitHub, tạo điều kiện cho bất kỳ ai cũng có thể tham gia đóng góp và làm phong phú thêm kho kiến thức chung này. Các đóng góp có thể thực hiện dưới nhiều hình thức: chỉnh sửa và hiệu đính nội dung hiện có, cập nhật thông tin hoặc tạo các bài hướng dẫn mới để bổ sung lên hệ thống.
 
-Trang web của chúng tôi hiện cung cấp nhiều ngôn ngữ và chúng tôi liên tục làm việc để bổ sung thêm nhiều ngôn ngữ hơn. Để cải thiện quy trình dịch cho giao diện người dùng, chúng tôi sử dụng công cụ Weblate, giúp chúng tôi cộng tác và quản lý bản dịch hiệu quả. Đây là công cụ thân thiện với người dùng.
+Trang web của chúng tôi hiện cung cấp nhiều ngôn ngữ và chúng tôi liên tục làm việc để bổ sung thêm nhiều ngôn ngữ hơn. Để cải thiện quy trình dịch thuật cho giao diện người dùng, chúng tôi sử dụng công cụ Weblate. Đây là một nền tảng thân thiện với người dùng, giúp chúng tôi cộng tác và quản lý các bản dịch một cách hiệu quả.
 
-Nếu ngôn ngữ mẹ đẻ của bạn chưa có trên trang web của chúng tôi và bạn muốn thêm ngôn ngữ đó vào thì hướng dẫn này là dành cho bạn!
+Nếu ngôn ngữ mẹ đẻ của bạn chưa có trên trang web, và bạn muốn trực tiếp bổ sung nó, thì hướng dẫn này là dành cho bạn!
 
-Trước tiên, hãy đảm bảo liên hệ với nhóm Plan ₿ Academy qua [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) của chúng tôi. Nếu bạn không có Telegram, bạn có thể gửi email đến mari@planb.network. Đảm bảo viết một bài thuyết trình ngắn về bạn là ai và ngôn ngữ bạn nói.
+Trước tiên, hãy liên hệ với nhóm Plan ₿ Academy qua [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder). Nếu bạn không có Telegram, bạn có thể gửi email đến mari@planb.network. Đừng quên viết một đoạn giới thiệu ngắn về bản thân và các ngôn ngữ mà bạn có thể sử dụng thành thạo.
 
-## Kiểm tra xem một ngôn ngữ có hiện diện trên Weblate không
+## Kiểm tra xem ngôn ngữ có tồn tại trên Weblate chưa
 
-Để kiểm tra xem ngôn ngữ của bạn có nằm trong danh sách ngôn ngữ chúng tôi đang xử lý hay không.
+Trước khi bắt đầu, bạn cần kiểm tra xem ngôn ngữ của mình đã nằm trong danh sách đang được triển khai hay chưa.
 
-
-- Truy cập [nền tảng Weblate của chúng tôi](https://weblate.planb.network/projects/planb-network-website/):
+- Truy cập vào [nền tảng Weblate của chúng tôi](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 
-
-- Trong menu `Thành phần trang web`, bạn sẽ tìm thấy danh sách tất cả các ngôn ngữ đang được tiến hành:
+- Trong menu `Website elements`, bạn sẽ tìm thấy danh sách tất cả các ngôn ngữ đang trong quá trình xử lý:
 
 ![language](assets/02.webp)
 
-Nếu ngôn ngữ của bạn nằm trong danh sách này, bạn không cần phải thêm lại. Để đóng góp bằng cách hiệu đính bản weblate, hãy khám phá hướng dẫn sau:
+Nếu ngôn ngữ của bạn đã xuất hiện trong danh sách này, bạn không cần phải thêm lại. Để đóng góp việc hiệu đính trên Weblate, bạn có thể tìm hiểu bài hướng dẫn sau:
 
 https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
-Nếu ngôn ngữ của bạn không có ở đó, hãy làm theo hướng dẫn bên dưới để thêm ngôn ngữ.
+
+Nếu ngôn ngữ của bạn chưa có, hãy thực hiện các bước dưới đây để thêm mới.
 
 ## Thêm ngôn ngữ mới vào Plan ₿ Academy
 
+- Bước đầu tiên là tạo một tài khoản trên Weblate bằng cách nhấn vào "Register" ở góc trên bên phải (nếu cần hỗ trợ, bạn có thể xem lại bài hướng dẫn đã đề cập ở trên).
 
-- Bước đầu tiên là tạo một tài khoản trên Weblate bằng cách nhấp vào "Đăng ký" ở góc trên bên phải (nếu bạn cần trợ giúp, bạn có thể quay lại hướng dẫn được đề cập ở trên).
-- Sau khi tài khoản của bạn được tạo, hãy vào menu `Thành phần trang web` và chọn tab `Ngôn ngữ`:
+- Sau khi tài khoản của bạn được tạo, hãy vào menu Website elements và chọn tab Languages:
 
 ![language](assets/03.webp)
 
-
-- Nhấp vào dấu `+` ở góc trên bên trái của cửa sổ:
+- Nhấn vào biểu tượng dấu `+` ở góc trên bên trái của cửa sổ:
 
 ![language](assets/04.webp)
 
-
-- Mở danh sách thả xuống và chọn ngôn ngữ bạn muốn thêm. Nếu ngôn ngữ bạn đang tìm kiếm không có trong danh sách thả xuống, bạn có thể liên hệ qua [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) để nhóm của chúng tôi có thể tạo thủ công:
+- Mở danh sách thả xuống và chọn ngôn ngữ bạn muốn thêm. Nếu ngôn ngữ bạn tìm kiếm không có sẵn trong danh sách, hãy liên hệ qua [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) để đội ngũ kỹ thuật của chúng tôi khởi tạo thủ công:
 
 ![language](assets/05.webp)
 
-
-- Nhấp vào `Bắt đầu bản dịch mới`:
+- Nhấp vào `Start new translation`:
 
 ![language](assets/06.webp)
 
-
-- Sau đó, bạn sẽ đến trang quản lý bản dịch cho ngôn ngữ của mình:
+- Sau đó, bạn sẽ được chuyển đến trang quản lý dịch thuật dành riêng cho ngôn ngữ của mình:
 
 ![language](assets/07.webp)
 
+- Để bắt đầu dịch các thành phần tĩnh (static elements) của trang web, hãy nhấn vào nút `Translate`: ![language](assets/08.webp)
 
-- Để bắt đầu dịch các thành phần tĩnh của trang web, hãy nhấp vào nút `Dịch`: ![language](assets/08.webp)
-
-Để được hướng dẫn trong suốt quá trình dịch, hãy xem hướng dẫn chuyên sâu của chúng tôi bên dưới:
+Để được hướng dẫn chi tiết về quy trình dịch thuật, mời bạn xem bài hướng dẫn của chúng tôi tại đây:
 
 https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
-Xin chúc mừng, bạn đã bắt đầu quá trình dịch các thành phần tĩnh trên trang web Plan ₿ Academy!
 
-Chúng bao gồm tất cả các chuỗi trên trang web, ngoại trừ nội dung giáo dục (khóa học, hướng dẫn...) mà chúng tôi sử dụng phương pháp bán tự động khác (dịch AI + hiệu đính của cộng tác viên).
+Chúc mừng bạn! Bạn đã bắt đầu quy trình dịch các thành phần tĩnh cho trang web của Plan ₿ Academy.
 
-Xin chân thành cảm ơn sự đóng góp quý báu của bạn!
+Các thành phần này bao gồm tất cả các chuỗi ký tự (strings) trên giao diện web, ngoại trừ nội dung giáo dục (khóa học, bài hướng dẫn...) - vốn được chúng tôi xử lý bằng một phương pháp bán tự động khác (Dịch bằng AI + Cộng tác viên hiệu đính).
+
+Chân thành cảm ơn đóng góp quý báu của bạn cho dự án!

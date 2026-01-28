@@ -29,9 +29,9 @@ Dans cet exemple, j'ai intentionnellement négligé les frais de minage afin de 
 
 ## Quelle est la différence entre Stonewall et Stonewall x2 ?
 
-Une transaction StonewallX2 fonctionne exactement comme une transaction Stonewall, à la différence près que la première est collaborative, alors que la seconde non. Comme nous l'avons vu, une transaction Stonewall x2 implique la participation d'une tierce personne, qui est extérieure au paiement, et qui va mettre à disposition ses bitcoins pour améliorer la confidentialité de la transaction. Dans une transaction Stonewall classique, le rôle du collaborateur est pris par l'émetteur. 
+Une transaction StonewallX2 fonctionne exactement comme une transaction Stonewall, à la différence près que la première est collaborative, alors que la seconde ne l’est pas. Comme nous l'avons vu, une transaction Stonewall x2 implique la participation d'une tierce personne, qui est extérieure au paiement, et qui va mettre à disposition ses bitcoins pour améliorer la confidentialité de la transaction. Dans une transaction Stonewall classique, le rôle du collaborateur est pris par l'émetteur. 
 
-Reprenons notre exemple d'Alice à la boulangerie. Si elle n'avait pas pu trouver une personne comme Bob pour l'accompagner dans sa dépense, elle aurait pu faire un Stonewall toute seule. Ainsi, les deux UTXO en entrée auraient été les siens, et elle en aurait récupéré 3 à la sortie.
+Reprenons notre exemple d'Alice à la boulangerie. Si elle n'avait pas pu trouver une personne comme Bob pour l'accompagner dans sa dépense, elle aurait pu faire un Stonewall toute seule. Ainsi, les deux UTXO en entrée auraient été les siens, et elle en aurait récupéré trois à la sortie.
 
 ![image](assets/fr/02.webp)
 
@@ -62,7 +62,7 @@ Cette interprétation est inexacte, car, comme vous le savez, un UTXO a été en
 
 ![image](assets/fr/01.webp)
 
-Même si l'observateur extérieur parvient à identifier le paterne de la transaction Stonewall x2, il ne disposera pas de toutes les informations. Il ne pourra pas déterminer lequel des deux UTXO de mêmes montants correspond au paiement. De plus, il ne sera pas en mesure de savoir si c'est Alice ou Bob qui a effectué le paiement. Enfin, il ne pourra pas déterminer si les deux UTXO en entrée proviennent de deux personnes différentes ou s'ils appartiennent à une seule personne qui les a fusionnés. Ce dernier point est dû au fait que les transactions Stonewall classiques, dont nous avons parlé au-dessus, suivent exactement le même paterne que les transactions Stonewall x2. Vu de l'extérieur et sans informations supplémentaires sur le contexte, il est impossible de différencier une transaction Stonewall d'une transaction Stonewall x2. Or, les premières ne sont pas des transactions collaboratives, alors que les secondes le sont. Cela permet d'ajouter encore plus de doutes sur cette dépense.
+Même si l'observateur extérieur parvient à identifier le pattern de la transaction Stonewall x2, il ne disposera pas de toutes les informations. Il ne pourra pas déterminer lequel des deux UTXO de mêmes montants correspond au paiement. De plus, il ne sera pas en mesure de savoir si c'est Alice ou Bob qui a effectué le paiement. Enfin, il ne pourra pas déterminer si les deux UTXO en entrée proviennent de deux personnes différentes ou s'ils appartiennent à une seule personne qui les a fusionnés. Ce dernier point est dû au fait que les transactions Stonewall classiques, dont nous avons parlé au-dessus, suivent exactement le même pattern que les transactions Stonewall x2. Vu de l'extérieur et sans informations supplémentaires sur le contexte, il est impossible de différencier une transaction Stonewall d'une transaction Stonewall x2. Or, les premières ne sont pas des transactions collaboratives, alors que les secondes le sont. Cela permet d'ajouter encore plus de doutes sur cette dépense.
 
 ![image](assets/fr/05.webp)
 

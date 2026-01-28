@@ -1,11 +1,11 @@
-question: 哪种启发式方法可以用来链接一次整合的所有输入？
+question: 哪种启发式方法可以用来推断出一次整合所有输入的连接？
 
-answer: CIOH。
+answer: CIOH（共同输入所有权启发式）
 
 wrong_answers:
   - 地址重用。
   - 最大输出。
-  - 固定支付。
+  - 整数支付
 
 explanation:
   外部观察者可以应用CIOH来假设一次整合的所有输入属于同一个实体。

@@ -1,8 +1,8 @@
 question: ¿Cuál es el reto de recuperación más crítico al que se enfrentan los usuarios cuando sus fondos se gestionan a través de la arquitectura de nodos Lightning basada en la nube de Greenlight?
 answer: Los usuarios necesitarían conocimientos técnicos para crear nodos Core Lightning independientes y restaurar los estados de los canales sin la infraestructura de Greenlight
 wrong_answers:
-  - "Los usuarios pierden el acceso a sus claves privadas, que se almacenan exclusivamente en los servidores de Blockstream"
-  - "Los estados de los canales se encriptan con claves propias de Greenlight, lo que hace matemáticamente imposible la recuperación de fondos"
-  - "Los canales relámpago caducan automáticamente a los 30 días sin los servicios de mantenimiento continuo de Greenlight"
+  - Los usuarios pierden el acceso a sus claves privadas, que se almacenan exclusivamente en los servidores de Blockstream
+  - Los estados de los canales se encriptan con claves propias de Greenlight, lo que hace matemáticamente imposible la recuperación de fondos
+  - Los canales relámpago caducan automáticamente a los 30 días sin los servicios de mantenimiento continuo de Greenlight
 explanation: |
   La respuesta correcta pone de manifiesto la auténtica complejidad técnica de la recuperación de fondos en la arquitectura de Greenlight. Aunque los usuarios conservan sus claves privadas, acceder a los fondos sin Greenlight requiere ejecutar nodos Core Lightning y restaurar manualmente los estados de los canales, un proceso que supera las capacidades de la mayoría de los usuarios. Las respuestas erróneas son incorrectas porque: los usuarios sí controlan sus claves privadas (no se almacenan en servidores), los estados de canal utilizan protocolos Lightning estándar (no cifrado propietario) y los canales Lightning no tienen temporizadores de caducidad automáticos vinculados a proveedores de servicios.

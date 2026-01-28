@@ -7,7 +7,7 @@ description: Chunguza safu kuu ya Bitcoin na Liquid Network
 
 
 
-Blockstream Explorer ni mradi unaowezesha uchunguzi wa miamala na hali ya kimataifa ya itifaki ya Bitcoin, pamoja na [*sidechain*](https://planb.academy/en/resources/glossary/sidechain) Liquid iliyotengenezwa na kampuni ya Blockstream.
+Blockstream Explorer ni mradi unaowezesha uchunguzi wa miamala na hali ya kimataifa ya protocol ya Bitcoin, pamoja na [*sidechain*](https://planb.academy/en/resources/glossary/sidechain) Liquid iliyotengenezwa na kampuni ya Blockstream.
 
 
 
@@ -27,13 +27,13 @@ Katika somo hili, tutaangalia ni nini kinachoitofautisha, huduma zake, na jinsi 
 
 
 
-Unapoenda kwa kichunguzi cha Blockstream.info, kwenye "**Dashibodi**", mlolongo mkuu wa itifaki ya Bitcoin huchaguliwa kwa chaguo-msingi. Kutoka kwa kiolesura hiki, unayo muhtasari wa:
+Unapoenda kwa explorer ya Blockstream.info, kwenye "**Dashibodi**", mlolongo mkuu wa protocol ya Bitcoin huchaguliwa kwa chaguo-msingi. Kutoka kwa kiolesura hiki, unayo muhtasari wa:
 
 
 
 
 
-- Saizi kuu ya mnyororo: Vitalu vilivyochimbwa hivi majuzi.
+- Saizi kuu ya chain: Blocks zilizokua mined hivi majuzi.
 
 
 
@@ -41,7 +41,7 @@ Unapoenda kwa kichunguzi cha Blockstream.info, kwenye "**Dashibodi**", mlolongo 
 
 
 
-Sehemu hii inatoa taarifa kuhusu vitalu vya hivi majuzi vilivyochimbwa, muhuri wa muda, idadi ya miamala iliyojumuishwa katika kila kizuizi, saizi ya kilobaiti (kB) na kipimo cha kila kizuizi katika vitengo vya uzito (**WU** = *Vitengo vya Uzito*). Kipimo hiki cha mwisho ni cha manufaa, kwa vile hutuwezesha kutathmini uboreshaji wa kizuizi, ikizingatiwa kwamba kila sehemu ya msururu mkuu ni `4,000,000 WU`, au `4,000 kWU`.
+Sehemu hii inatoa taarifa kuhusu blocks za hivi majuzi vilivyochimbwa, muhuri wa muda, idadi ya miamala iliyojumuishwa katika kila block, saizi ya kilobaiti (kB) na kipimo cha kila block katika vitengo vya uzito (**WU** = *Weight Units*). Kipimo hiki cha mwisho ni cha manufaa, kwa vile hutuwezesha kutathmini uboreshaji wa block, ikizingatiwa kwamba kila sehemu ya msururu mkuu ni `4,000,000 WU`, au `4,000 kWU`.
 
 
 
@@ -63,7 +63,7 @@ Sehemu ya muamala hutoa maelezo kuhusu kitambulisho cha kipekee cha muamala, tha
 
 
 
-Kutoka kwa menyu ya "**Vizuizi**", unaweza kufuatilia historia ya msururu mzima hadi kwenye kizuizi cha mwisho kilichochimbwa.
+Kutoka kwa menyu ya "**Blocks**", unaweza kufuatilia historia ya msururu mzima hadi kwenye block ya mwisho iliyokua mined.
 
 
 
@@ -71,7 +71,7 @@ Kutoka kwa menyu ya "**Vizuizi**", unaweza kufuatilia historia ya msururu mzima 
 
 
 
-Kwa kubofya kizuizi maalum, unaweza kupata maelezo zaidi kuhusu habari na shughuli zilizojumuishwa ndani yake. Kwa mfano, kwa block 919330: utaona heshi ya block. Unaweza pia kuelekea kwenye kizuizi kilichotangulia, kwani kila kizuizi kilichochimbwa (mbali na Genesis) kimeunganishwa na kilichotangulia, na kubakiza heshi ya mtangulizi wake.
+Kwa kubofya blocjs maalum, unaweza kupata maelezo zaidi kuhusu habari na miamala iliyojumuishwa ndani yake. Kwa mfano, kwa block 919330: utaona hash ya block. Unaweza pia kuelekea kwenye block iliyotangulia, kwani kila block iliyochimbwa (mbali na Genesis) imeunganishwa na iliyotangulia, na kubakiza hash ya mtangulizi wake.
 
 
 
@@ -79,7 +79,7 @@ Kwa kubofya kizuizi maalum, unaweza kupata maelezo zaidi kuhusu habari na shughu
 
 
 
-Kwa kubofya kitufe cha **"Maelezo "**, unaweza kupata maelezo zaidi kuhusu kizuizi hiki, kama vile hali yake, ambayo inathibitisha kuwa kimeongezwa kwenye mnyororo mkuu uliobaki na kuenezwa. Pia una ugumu ambapo kizuizi hiki kinachimbwa: ugumu huu unawakilisha nguvu ya kompyuta inayohitajika kutatua tatizo la kriptografia ya mining na hurekebishwa kila vitalu vya 2016 (kama wiki 2).
+Kwa kubofya kitufe cha **"Maelezo "**, unaweza kupata maelezo zaidi kuhusu block hii, kama vile hali yake, ambayo inathibitisha kuwa kimeongezwa kwenye mnyororo mkuu uliobaki na kuenezwa. Pia una ugumu ambapo block hii inaminiwa: ugumu huu unawakilisha nguvu ya kompyuta inayohitajika kutatua tatizo la cryptography ya mining na hurekebishwa na blocks za 2016 (kama wiki 2).
 
 
 
@@ -87,15 +87,15 @@ Kwa kubofya kitufe cha **"Maelezo "**, unaweza kupata maelezo zaidi kuhusu kizui
 
 
 
-Chini ya sehemu hii ya maelezo, tunapata shughuli zote zilizojumuishwa kwenye kizuizi hiki.
+Chini ya sehemu hii ya maelezo, tunapata miamala yote iliyojumuishwa kwenye block  hii.
 
 
 
-Muamala wa kwanza kabisa kwenye block unaitwa **transaction coinbase**. Inatumika kutenga zawadi ya mchimbaji mining (ada zote zinazohusiana na miamala iliyojumuishwa kwenye kizuizi na ruzuku ya kizuizi). Bitcoins zilizoundwa na shughuli hii zinaweza tu kutumika mara tu vitalu vingine 100 mfululizo vimechimbwa. Kwa maneno mengine, ili kuweza kuzitumia, mchimbaji atalazimika kusubiri uzalishaji wa block **919430**. Hiki kinajulikana kama [*"kipindi cha ukomavu "*](https://planb.academy/fr/resources/glossary/maturity-period).
+Muamala wa kwanza kabisa kwenye block unaitwa **transaction coinbase**. Inatumika kutenga miner reward  mining (ada zote zinazohusiana na miamala iliyojumuishwa kwenye block na block reward). Bitcoin zilizoundwa na miamala hii inaweza tu kutumika blocks ingine 100 mfululizo zimechimbwa. Kwa maneno mengine, ili kuweza kuzitumia, miner atalazimika kusubiri uzalishaji wa block **919430**. Hiki kinajulikana kama [*"kipindi cha ukomavu "*](https://planb.academy/fr/resources/glossary/maturity-period).
 
 
 
-Coinbase ni shughuli maalum: ndiyo pekee isiyo na pembejeo halisi, kwani haitumii bitcoins yoyote kutoka kwa shughuli ya awali.
+Coinbase ni shughuli maalum: ndiyo pekee isiyo na pembejeo halisi, kwani haitumii bitcoin yoyote kutoka kwa shughuli ya awali.
 
 
 
@@ -108,7 +108,7 @@ Shughuli nyingine zote zimegawanywa katika sehemu mbili: pembejeo na matokeo.
 
 
 
-Ili bitcoins zitumike kama pembejeo katika shughuli mpya, mwanzilishi wa muamala lazima athibitishe umiliki wake kwa kutoa saini inayolingana na hati mahususi. Kila kipande cha bitcoins (UTXO) kina hati inayohitaji saini mahususi ambayo ufunguo wa faragha wa mmiliki pekee ndio unaweza kutoa. Maandishi haya ni ***scriptSig*** (katika ASM), yaliyoandikwa katika Hati ya Bitcoin, na yanaweza kuwa ya aina mbalimbali. Katika mfano huu, tunaweza kuona kwamba UTXO zilizotumiwa zilikuwa za aina ya P2SH kwa pato la aina ya P2WPKH (*Pay-to-Witness-Public-Key-Hash*).
+Ili bitcoin zitumike kama pembejeo katika shughuli mpya, mwanzilishi wa muamala lazima athibitishe umiliki wake kwa kutoa saini inayolingana na hati mahususi. Kila kipande cha bitcoin (UTXO) kina hati inayohitaji saini mahususi ambayo ufunguo wa faragha wa mmiliki pekee ndio unaweza kutoa. Maandishi haya ni ***scriptSig*** (katika ASM), yaliyoandikwa katika Hati ya Bitcoin, na yanaweza kuwa ya aina mbalimbali. Katika mfano huu, tunaweza kuona kwamba UTXO zilizotumiwa zilikuwa za aina ya P2SH kwa pato la aina ya P2WPKH (*Pay-to-Witness-Public-Key-Hash*).
 
 
 
@@ -130,7 +130,7 @@ Hebu tuchukue mfano wa gharama zinazotoka za muamala huu. Kwa kubofya kitambulis
 
 
 
-Kutoka kwa ukurasa huu, unaweza kujua ni kizuizi kipi muamala ulijumuishwa. Kulingana na aina ya anwani iliyotumika, muamala unaweza kuboresha data yake (*virtual byte*) na kwa hivyo ulipe ada kidogo za muamala. Muamala huu, kwa mfano, uliokoa 53% ya ada kwa kutumia umbizo asili la SegWit Bech32 la anwani inayoanza na `bc1q`.
+Kutoka kwa ukurasa huu, unaweza kujua ni block ipi muamala ulijumuishwa. Kulingana na aina ya address iliyotumika, muamala unaweza kuboresha data yake (*virtual byte*) na kwa hivyo ulipe ada kidogo za muamala. Muamala huu, kwa mfano, uliokoa 53% ya ada kwa kutumia umbizo asili la SegWit Bech32 la address inayoanza na `bc1q`.
 
 
 
@@ -142,11 +142,11 @@ Kutoka kwa ukurasa huu, unaweza kujua ni kizuizi kipi muamala ulijumuishwa. Kuli
 
 
 
-Liquid Network ni [*sidechain*](https://planb.academy/en/resources/glossary/sidechain) na suluhisho la chanzo huria cha kiwango cha 2 cha itifaki ya Bitcoin. Hasa, inawezesha shughuli za haraka na za siri zaidi za bitcoin.
+Liquid Network ni [*sidechain*](https://planb.academy/en/resources/glossary/sidechain) na suluhisho la chanzo huria cha kiwango cha 2 cha protocol ya Bitcoin. Hasa, inawezesha miamala ya haraka sirya siri zaidi za bitcoin.
 
 
 
-Kwenye kichunguzi cha Blockstream.info, bofya kitufe cha **"Liquid"** ili kubadili mtandao wa Liquid.
+Kwenye explorer ya Blockstream.info, bofya kitufe cha **"Liquid"** ili kubadili mtandao wa Liquid.
 
 
 
@@ -162,7 +162,7 @@ Kubofya kwenye moja ya shughuli tunazotaka kufuatilia, tunaona kwamba kiasi cha 
 
 
 
-Hata hivyo, tunaona kwamba kanuni na taratibu zilizopo kwenye safu kuu ya itifaki ya Bitcoin ni sawa: scripts za kufunga bitcoin na ufuatiliaji wa UTXO.
+Hata hivyo, tunaona kwamba kanuni na taratibu zilizopo kwenye safu kuu ya protocol ya Bitcoin ni sawa: scripts za kufunga bitcoin na ufuatiliaji wa UTXO.
 
 
 
@@ -199,7 +199,7 @@ Kichunguzi cha Blockstream.info pia kinajumuisha taswira na ufuatiliaji wa miama
 
 
 
-Unapoenda kwenye mtandao wa Testnet, hutumii bitcoins halisi, lakini una vipengele vyote vilivyoelezwa hapo juu.
+Unapoenda kwenye mtandao wa Testnet, hutumii bitcoin halisi, lakini una vipengele vyote vilivyoelezwa hapo juu.
 
 
 

@@ -1,0 +1,9 @@
+question: Lightning 节点必须连接什么？
+answer: 一个 Bitcoin 节点
+wrong_answers:
+  - 一名矿工
+  - 区块资源管理器
+  - 联合服务器
+explanation: |
+  闪电节点依赖 Bitcoin 节点从主区块链获取信息。
+reviewed: false

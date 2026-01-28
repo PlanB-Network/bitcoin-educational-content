@@ -1,0 +1,9 @@
+question: Tổ chức Watchtower nhận được những thông tin gì để theo dõi hành vi gian lận?
+answer: Mã TXID một phần của giao dịch gian lận
+wrong_answers:
+  - khóa kênh riêng tư
+  - Trạng thái kênh hoàn chỉnh
+  - Mã giao dịch (TXID) của giao dịch gian lận
+explanation: |
+  Tháp canh chỉ nhận được một phần TXID của giao dịch gian lận để xác định giao dịch đáng ngờ mà không cần biết kênh giao dịch.
+reviewed: false

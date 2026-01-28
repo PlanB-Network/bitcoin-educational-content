@@ -1,8 +1,8 @@
 question: Ni amri gani ya Cargo inayofanya ukaguzi wa mkusanyiko bila kutoa faili inayoweza kutekelezwa?
-answer: ukaguzi wa mizigo
+answer: cargo check
 wrong_answers:
-  - ujenzi wa mizigo
-  - usafirishaji wa mizigo
-  - jaribio la mizigo
+  - cargo build
+  - cargo run
+  - cargo test
 explanation: |
-  Amri ya 'uhakiki wa mizigo' hufanya ukaguzi wote wa mkusanyiko na kuthibitisha kwamba msimbo wako unakusanywa kwa usahihi bila kutoa faili ya mwisho inayoweza kutekelezwa. Hii inafanya iwe haraka zaidi kuliko ujenzi kamili unapotaka tu kuthibitisha usahihi wa msimbo. Kwa upande mwingine, 'ujenzi wa mizigo' hukusanya na kutoa faili zinazoweza kutekelezwa, 'uendeshaji wa mizigo' hujenga na kutekeleza programu, na 'ujaribu wa mizigo' hukusanya na kuendesha majaribio.
+  Amri ya 'cargo check' hufanya ukaguzi wote wa mkusanyiko na kuthibitisha kwamba msimbo wako unakusanywa kwa usahihi bila kutoa faili ya mwisho inayoweza kutekelezwa. Hii inafanya iwe haraka zaidi kuliko ujenzi kamili unapotaka tu kuthibitisha usahihi wa msimbo. Kwa upande mwingine, ''cargo build' hukusanya na kutoa faili zinazoweza kutekelezwa, 'cargo run' hujenga na kutekeleza programu, na 'cargo test' hukusanya na kuendesha majaribio.

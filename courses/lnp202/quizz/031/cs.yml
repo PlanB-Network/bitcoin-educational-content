@@ -1,0 +1,9 @@
+question: Co představuje ID uzlu Lightning?
+answer: Veřejný klíč a adresa uzlu
+wrong_answers:
+  - Uzel seed a adresa
+  - Alias uzlu a veřejný klíč
+  - Alias uzlu Hash a seed
+explanation: |
+  ID uzlu kombinuje veřejný klíč uzlu s jeho síťovou adresou a portem.
+reviewed: false

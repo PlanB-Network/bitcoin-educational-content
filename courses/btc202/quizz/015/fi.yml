@@ -1,7 +1,7 @@
 question: Mikä on Bitcoin core:n tärkein vaihtoehtoinen toteutus?
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin Käteinen
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

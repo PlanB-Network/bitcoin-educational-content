@@ -1,0 +1,9 @@
+question: Por que é que o backup de um nó Lightning é mais complexo do que um Bitcoin onchain wallet?
+answer: O estado dos canais está a evoluir
+wrong_answers:
+  - A liquidez do canal depende do mempool
+  - Registar as fofocas da rede Lightning
+  - As chaves de revogação expiram com o tempo
+explanation: |
+  Os canais de iluminação mudam de estado com cada pagamento, tornando perigoso um simples backup fixo ou periódico.
+reviewed: false

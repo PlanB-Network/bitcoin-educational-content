@@ -1,0 +1,9 @@
+question: Qual destes critérios é o mais importante para a conetividade entre pares?
+answer: Posição central no gráfico
+wrong_answers:
+  - Nome do nó no gráfico
+  - Cor do nó no gráfico
+  - Número de mensagens no gráfico
+explanation: |
+  Um nó bem posicionado no gráfico Lightning facilita o encaminhamento para muitos destinos.
+reviewed: false

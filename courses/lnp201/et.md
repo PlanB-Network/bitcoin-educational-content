@@ -1020,6 +1020,10 @@ Oleme näinud, et likviidsuse haldamine on Lightningis väljakutse, et tagada ma
 
 ![LNP201](assets/en/084.webp)
 
+Nüüd, kui olete mõistnud Lightning Networki teoreetilist toimimist, saate liikuda praktika juurde ja seadistada oma esimese Lightningi sõlme, et saavutada suurem iseseisvus selle kasutamisel. Selleks järgige kursust LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # Lõpusektsioon
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>

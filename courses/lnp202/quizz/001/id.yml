@@ -1,0 +1,9 @@
+question: Mekanisme apa yang mencegah pelepasan status saluran Lightning yang lama?
+answer: Kunci pencabutan
+wrong_answers:
+  - Biaya transaksi
+  - Pengunci waktu absolut
+  - Gosip jaringan
+explanation: |
+  Kunci pencabutan digunakan untuk menghukum sebuah node yang mencoba mempublikasikan status saluran yang lama.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bu Lightning işlemlerinden hangisi zincir üzerinde bir işlemin yayınlanmasını gerektirir?
+answer: Kanal açma
+wrong_answers:
+  - Yıldırım ödemesi
+  - Çok atlamalı yönlendirme
+  - Mobil istemci bağlantısı
+explanation: |
+  Bir kanalın açılması, blok zincirinde yayınlanan bir Bitcoin işlemine karşılık gelir.
+reviewed: false

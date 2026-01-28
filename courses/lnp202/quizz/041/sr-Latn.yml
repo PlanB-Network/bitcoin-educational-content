@@ -1,0 +1,9 @@
+question: Gde da instaliram ThunderHub na Umbrel?
+answer: App Store
+wrong_answers:
+  - SSH konzola
+  - Postavke sistema
+  - Interface Bitcoin Jezgro
+explanation: |
+  ThunderHub je instaliran kao aplikacija putem Umbrel App Store-a.
+reviewed: false

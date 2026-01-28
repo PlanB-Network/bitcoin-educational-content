@@ -212,13 +212,14 @@ Seda saate teha ka Bitcoin-QT Interface graafiku kaudu, kui navigeerite "*Settin
 
 Seejärel minge oma portfellihaldusprogrammi (nt Sparrow Wallet või Liana) ja sisestage tee oma küpsiste faili, mis tavaliselt asub samas kaustas nagu `Bitcoin.conf`, sõltuvalt teie operatsioonisüsteemist:
 
-|**macOS**|~/Library/Application Support/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -236,13 +237,14 @@ server=1
 
 Pärast faili redigeerimist salvestage see kindlasti oma operatsioonisüsteemi jaoks sobivasse kausta:
 
+
+
+
+
 |**macOS**|~/Library/Application Support/Bitcoin|
-
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Seda toimingut saab teha ka Bitcoin-QT Interface graafika abil. Mine menüüsse "*Settings*", seejärel "*Options...*" ja aktiveeri valik "*Enable RPC server*", märgistades vastava kasti. Kui `Bitcoin.conf` faili ei ole olemas, saate selle luua otse sellest Interface-st, klõpsates "*Open Configuration File*".
 

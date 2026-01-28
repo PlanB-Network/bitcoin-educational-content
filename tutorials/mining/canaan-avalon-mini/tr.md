@@ -122,16 +122,17 @@ Aşağıda Mini 3'ün genel teknik özelliklerine ilişkin özet bir tablo yer a
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Özellik                                      | Değer                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Güç Tüketimi                              | 800 W                                                     |
+| Gürültü                                                | 35-55 dB                                                  |
+| Çıkış Hava Sıcaklığı                       | 60-70°C (ortam sıcaklığında 25°C)                  |
+| Kullanım için Ortam Sıcaklığı Gereksinimleri | -5° C - 40°C                                              |
+| Cihaz Giriş Voltajı Aralığı                         | 110V-240V AC 50/60Hz                                      |
+| Makine Boyutu                                 | Uzunluk: 760 mm / Derinlik: 104 mm / Yükseklik: 214.5 mm |
+| Makine Ağırlığı                                  |  8.35 kg                                                  |
 
 ## Bir Mining pool'ya Bağlanma
 

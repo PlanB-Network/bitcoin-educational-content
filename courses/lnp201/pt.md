@@ -1018,6 +1018,10 @@ Vimos que a gestão de liquidez é um desafio na Lightning para garantir o fluxo
 
 ![LNP201](assets/en/084.webp)
 
+Agora que já compreendeu o funcionamento teórico da Lightning Network, pode passar à prática e configurar o seu primeiro nó Lightning para ganhar maior autonomia na sua utilização. Para isso, siga o curso LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # Seção final
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>

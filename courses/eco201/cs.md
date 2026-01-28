@@ -493,9 +493,8 @@ Důsledky takového špatného rozdělení zahrnují finanční a ekonomické kr
 
 Dnes se debata o ekonomickém výpočtu znovu objevuje především v diskusích o energii, kde se stávají stále zřetelnějšími špatné investice řízené zelenou agendou. Objektivně se také vyskytuje v diskusích o peněžních trzích, kde rakouští ekonomové poukazují na to, že krize z roku 2008, kterou hlavní ekonomové nedokázali předpovědět, byla klasickým cyklem boomu a krachu charakterizovaným nadměrnými investicemi do trhu s bydlením v důsledku dlouhých období nízkých úrokových sazeb. Navíc neo-marxisté a další socialistické frakce šíří názor, že vznik AI by mohl vyřešit problém ekonomického výpočtu. Tento pohled však vychází z chybného pochopení problému; problém ekonomického výpočtu není otázkou výpočetního výkonu, ale spíše otázkou generování a distribuce informací souvisejících s produkcí a alokací zdrojů. Tyto informace mohou být generovány pouze lokálně subjekty se specializovanými znalostmi a zájmem na výsledku. AI nemůže nahradit tento proces zdola nahoru a tudíž nemůže pomoci centrálním plánovačům řešit problém alokace zdrojů. Bohužel, kvůli století nedorozumění, očekáváme rozšíření tvrzení, že AI zahájí novou éru ekonomické prosperity vedenou osvícenými centrálními plánovači, kteří s pomocí AI mohou napravit selhání volných trhů.
 
-Pro konkrétní aplikaci problému ekonomického výpočtu na současnou situaci se můžete odkázat na tento článek, který se zabývá problémem alokace zdrojů v moderní Číně.
+Pro konkrétní aplikaci problému ekonomické kalkulace na současnou situaci se můžete odkázat na tento článek pojednávající o alokaci zdrojů v moderní Číně: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, autor Théo Mogenet.
 
-> Cesta k finanční represi: Čína papírový tygr, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Závěr
 

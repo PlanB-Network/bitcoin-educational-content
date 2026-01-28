@@ -1,9 +1,9 @@
 question: Wat is de huidige grootte van de Bitcoin Blockchain?
-answer: Ongeveer 500 GB.
+answer: Ongeveer 660GB
 wrong_answers:
-  - Ongeveer 100 GB.
-  - Ongeveer 1 TB.
-  - Ongeveer 2TB.
+  - Ongeveer 110GB
+  - Ongeveer 1TB
+  - Ongeveer 2TB
 explanation: |
-  De Bitcoin Blockchain is ongeveer 500 GB groot vanaf 2023.
+  De Bitcoin Blockchain is ongeveer 660GB groot in 2025.
 reviewed: true

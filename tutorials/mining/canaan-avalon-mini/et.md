@@ -122,16 +122,17 @@ Allpool on esitatud kokkuvõtlik tabel Mini 3 üldiste tehniliste näitajate koh
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Omadus                                      | Väärtus                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Elektritarbimine                              | 800 W                                                     |
+| Müra                                                | 35-55 dB                                                  |
+| Väljundõhu temperatuur                       | 60-70°C (ümbrtingimuse temperatuuril 25°C)                  |
+| Kasutamise ümbritseva temperatuuri nõuded | -5° C - 40°C                                              |
+| Seadme sisendpingepiirkond                         | 110V-240V AC 50/60Hz                                      |
+| Masina suurus                                 | Pikkus: 760 mm / Sügavus: 104 mm / Kõrgus: 214.5 mm |
+| Masina mass                                  |  8.35 kg                                                  |
 
 ## Ühendamine Mining pool-ga
 

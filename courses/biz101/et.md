@@ -199,7 +199,7 @@ Bitcoin on **peer-to-peer digitaalne valuutavahetussüsteem** (elektrooniline su
 
 ![BIZ101](assets/et/003.webp)
 
-Bitcoinil on fikseeritud rahapoliitika, mille **ülemmäär on 21 miljonit bitcoinit**, millest ~19,8 miljonit on juba jaotatud. See muudab selle **deflatsiooniliseks**, mille väärtus kasvab aja jooksul, kuna kasutajad hoiustavad sinna säästusid ja tootlikkuse kasvu.
+Bitcoinil on fikseeritud rahapoliitika, **maksimaalselt 21 miljonit bitcoini**, millest ~19,8 (2024) miljonit on juba kaevandatud. See muudab selle **deflatsiooniliseks**, kusjuures selle väärtus ajas kasvab, kuna kasutajad hoiustavad selles sääste ja tootlikkuse kasvu.
 
 Selle tehnilised omadused ületavad kulla ja dollari omadusi kokku, mis teeb sellest kõige raskema finantsvara, mis on kunagi loodud. Bitcoin on nii väärtuse säilitaja kui ka vahetusvahend, valmiv valuuta. Kujutage ette väärtuse ülekandmist ühe ettevõtte kassast teise kiiresti, ilma vahendajateta, minimaalsete kuludega, ilma pettusteta, 24/7 ja ilma kolmanda osapoole osaluseta.
 
@@ -211,7 +211,7 @@ Bitcoin on häiriv, sest see julgustab meid õppima matemaatika, krüptograafia,
 
 Bitcoin kutsub meid üles mõtlema uuesti raha enda olemuse üle. Kas te võiksite selgitada, mis on raha tegelikult? Palgatöötaja või ettevõtja võib kulutada 50 000 kuni 100 000 tundi oma elust raha teenimiseks, kuid kui paljud ** pühendavad isegi 100 tundi selle paremale mõistmisele** ja säilitamisele? Bitcoin julgustab meid kahtlema meie rahavajaduse ja ajalise perspektiivi põhilistes põhjustes. Kas raha on koheseks luksuseks või pikaajaliseks vastupidavuseks? Kui meil oleks väärtustatav vara, mis võimaldaks meil ostusid edasi lükata, milliseid valikuid me teeksime? Milliseid vestlusi me sooviksime pidada 20 või 30 aasta pärast?
 
-**BITCOINI ISIKUTUNNISTUS**
+**BITCOINI IDENTIFITSEERIMISKAART (2024. aastal)**
 
 
 - **Vanus:** 15 aastat (3. jaanuar 2009)
@@ -296,7 +296,7 @@ Lightning Network on ideaalne Bitcoini maksete tegemiseks füüsilistes või vee
 - **Lõplikkus:** Kui makse on Lightningile tehtud, on see lõplik. Kolmandate osapoolte poolt tehtavate tagasimaksete või pettusega seotud vaidluste võimalus puudub.
 - **Tasud:** Lightning Networki tehingutasud on minimaalsed ja neid maksab kasutaja, mitte kaupmees. Kaupmeestele tekivad tasud ainult siis, kui nad peavad hiljem oma Bitcoini teise võrku või teenusesse üle kandma.
 
-**VALGUSTUSKAART**
+**LIGHTNINGU IDENTIFITSEERIMISKAART (2024. aastal)**
 
 
 - **Leiutis:** 2015

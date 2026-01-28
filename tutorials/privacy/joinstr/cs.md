@@ -542,13 +542,14 @@ Společnost Joinstr v současné době vytváří v průměru skupiny **2 až 5 
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| Aspekt | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **Účastníci na fond** | 50-100 | 5-10 | Variabilní (P2P) | **2-5** |
+| **Koordinátor** | Centralizovaný (uzavřen 2024) | Centralizovaný (aktivní) | P2P maker/taker | **Žádný (Nostr)** |
+| **Odolnost vůči cenzuře** | Nízká | Střední | Velmi vysoká | **Velmi vysoká** |
+| **Poplatky za koordinaci** | Procento | Vstupní poplatek | Placeno výrobcům | **Žádný** |
+| **Diskriminace UTXO** | Ano (černé listiny) | Ne | Ne | **Ne** |
 
 💡 **Další aktivní roztoky CoinJoin** :
 

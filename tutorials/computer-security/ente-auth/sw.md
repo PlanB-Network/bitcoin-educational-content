@@ -554,13 +554,14 @@ Muundo wa biashara wa Ente unategemea huduma ya kulipia ya Ente Photos, ambayo i
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Programu              | Chanzo Huria | Kumfanya Kazi Mtandaoni | E2EE | Kulinganisha vifaa vingi | Midadimizi                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (bila E2EE)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(programu za kompyuta ziliondolezwa Agosti 2024)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(hivi karibuni, zaidi zilizo imara)*              |
 
 Ente Auth inajitokeza kama mojawapo ya suluhu chache za kuchanganya manufaa yote: uwazi wa msimbo wa chanzo, hifadhi rudufu ya cloud iliyosimbwa kwa njia fiche na usawazishaji wa majukwaa mbalimbali.
 

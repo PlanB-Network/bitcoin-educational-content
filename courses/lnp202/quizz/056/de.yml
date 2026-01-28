@@ -1,0 +1,9 @@
+question: Welcher Schritt folgt unmittelbar auf die Veröffentlichung einer NWC-Anforderung durch die mobile Anwendung auf einem Relais?
+answer: Knoten entschlüsselt und verifiziert Autorisierung
+wrong_answers:
+  - Der Relay signiert die Anfrage für den Knoten
+  - Relais führt Zahlung an LND aus
+  - Der Knoten öffnet automatisch einen Kanal
+explanation: |
+  Der Knoten liest das Ereignis, entschlüsselt es und prüft dann, ob der Autor autorisiert ist, bevor er die Aktion ausführt.
+reviewed: false

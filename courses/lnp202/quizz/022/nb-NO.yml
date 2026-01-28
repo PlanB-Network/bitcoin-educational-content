@@ -1,0 +1,9 @@
+question: Hva kan LND seed gjenopprette på egen hånd?
+answer: Onchain wallet
+wrong_answers:
+  - Åpne kanaler
+  - Kanaltilstander
+  - Ingenting
+explanation: |
+  seed henter Bitcoin i kjeden wallet, men ikke de aktive Lightning-kanalene.
+reviewed: false

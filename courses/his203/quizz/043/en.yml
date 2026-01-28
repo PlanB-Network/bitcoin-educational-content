@@ -5,5 +5,7 @@ wrong_answers:
   - The existence of a recursion flaw in the OP_EVAL instruction
   - Removal of an excess element by the OP_CHECKMULTISIG operator
 explanation: |
- These were reward transactions with the same identifier included in different blocks. On February 4, 2012, Russell O'Connor discovered a vulnerability that allowed all transactions arising from one of these duplicate transactions to be deleted outright by means of chain recoordination. The patch, described in BIP 30 by Pieter Wuille, was applied to the network on March 15.
-reviewed: false
+ These were reward transactions with the same identifier included in different blocks. On February 4, 2012, Russell O'Connor discovered a vulnerability that 
+ allowed all transactions arising from one of these duplicate transactions to be deleted outright by means of chain reorganization. The patch, described in 
+ BIP 30 by Pieter Wuille, was applied to the network on March 15.
+reviewed: true

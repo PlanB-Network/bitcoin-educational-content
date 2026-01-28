@@ -554,13 +554,14 @@ Mô hình kinh doanh của Ente dựa trên dịch vụ Ente Photos trả phí, 
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Ứng dụng              | Mã nguồn mở | Sao lưu đám mây | E2EE | Đồng bộ hóa nhiều thiết bị | Nền tảng                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (không E2EE)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(các ứng dụng máy tính để bàn đã bị xóa tháng 8 năm 2024)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(gần đây, ít được thiết lập)*              |
 
 Ente Auth nổi bật là một trong số ít giải pháp kết hợp tất cả các ưu điểm: tính minh bạch của mã nguồn, sao lưu đám mây được mã hóa và đồng bộ hóa đa nền tảng.
 

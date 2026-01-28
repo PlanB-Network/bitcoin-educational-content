@@ -2,7 +2,7 @@ question: Sintaksia ya sasisho la muundo inakuruhusu kufanya nini wakati wa kuun
 answer: Unda mfano mpya kwa kubainisha sehemu zilizobadilishwa pekee huku ukinakili sehemu zilizobaki kutoka kwa mfano uliopo
 wrong_answers:
   - Rekebisha sehemu za muundo zilizopo bila kuunda mfano mpya
-  - Thamani chaguo-msingi za generate kiotomatiki kwa sehemu ambazo hazijabainishwa kwa kutumia sifa Chaguo-msingi
+  - Thamani chaguo-msingi za kugenerate kiotomatiki kwa sehemu ambazo hazijabainishwa kwa kutumia sifa Chaguo-msingi
   - Unganisha mifano mingi ya muundo pamoja katika mfano mmoja uliojumuishwa
 explanation: |
   Sintaksia ya usasishaji wa muundo katika Rust hukuruhusu kuunda mfano mpya wa muundo kwa kubainisha sehemu unazotaka kubadilisha pekee, huku ukinakili kiotomatiki sehemu zingine zote kutoka kwa mfano uliopo. Hii inafanywa kwa kutumia sintaksia ya `..existing_instance`. Chaguzi zingine si sahihi: sintaksia ya usasishaji wa muundo daima huunda mfano mpya badala ya kurekebisha zilizopo, haitoi thamani chaguo-msingi za generate lakini inakili kutoka kwa mifano iliyopo, na inafanya kazi na mfano mmoja chanzo badala ya kuunganisha mifano mingi pamoja.

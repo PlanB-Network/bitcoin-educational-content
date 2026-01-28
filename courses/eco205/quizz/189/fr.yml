@@ -1,0 +1,8 @@
+question: Selon la révolution marginaliste, pourquoi les évaluations subjectives des individus sont-elles considérées comme ordinales plutôt que cardinales dans la formation de la valeur?
+answer: Parce qu'on peut préférer un bien à un autre sans pouvoir mesurer précisément l'écart de cette préférence
+wrong_answers:
+  - "Parce que la valeur dépend uniquement de l'ordre chronologique d'acquisition des biens par les consommateurs"
+  - Parce que les préférences individuelles suivent nécessairement un classement numérique basé sur les prix du marché
+  - Parce que la mesure cardinale nécessite une quantification objective du travail incorporé dans chaque bien
+explanation: |
+  La réponse correcte reflète l'innovation fondamentale de Menger : les préférences sont ordinales car elles établissent un classement (je préfère A à B) sans quantifier l'intensité de cette préférence. Les autres réponses sont incorrectes car elles confondent l'ordre temporel avec l'ordre de préférence, supposent une dépendance aux prix du marché (ce qui inverserait la causalité), ou reviennent à la théorie de la valeur travail que Menger rejette précisément.

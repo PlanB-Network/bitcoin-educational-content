@@ -1,0 +1,9 @@
+question: Mengapa mencadangkan node Lightning lebih kompleks daripada Bitcoin onchain wallet?
+answer: Keadaan saluran sedang berkembang
+wrong_answers:
+  - Likuiditas saluran tergantung pada mempool
+  - Rekam gosip jaringan Lightning
+  - Kunci pencabutan akan kedaluwarsa seiring waktu
+explanation: |
+  Saluran petir berubah statusnya setiap kali pembayaran, sehingga membuat pencadangan tetap atau berkala menjadi berbahaya.
+reviewed: false

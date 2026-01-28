@@ -1,0 +1,9 @@
+question: Quel phénomène rend le délai entre deux blocs fondamentalement variable ?
+answer: Le caractère probabiliste du hachage
+wrong_answers:
+  - Le caractère déterministe du hachage
+  - Le caractère récursif du hachage
+  - Le caractère périodique du hachage
+explanation: |
+  Chaque hachage est un essai indépendant, ce qui rend les temps de découverte aléatoires même à hashrate constant.
+reviewed: false

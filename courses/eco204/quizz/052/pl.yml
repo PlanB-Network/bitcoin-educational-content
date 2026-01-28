@@ -1,12 +1,11 @@
 question: Jaki jest kluczowy czynnik sukcesu lub porażki reformy monetarnej według Bernholza?
-answer: Zaufanie, jakim darzą ją mieszkańcy
+answer: Zaufanie, jakim reformę darzy społeczeństwo.
 wrong_answers:
-  - Ilość pieniędzy w obiegu
-  - Wartość waluty
-  - Polityka gospodarcza rządu
+  - Ilość pieniędzy w obiegu.
+  - Wartość waluty.
+  - Polityka gospodarcza rządu.
 explanation: |
   Bernholz sugeruje, że sukces reformy monetarnej zależy nie tylko
   od jej technicznego znaczenia, ale także od zaufania, jakie pokłada w niej społeczeństwo.
-  Percepcja i zaufanie społeczne są zatem kluczowymi czynnikami Elements dla sukcesu lub porażki reformy
-  reformy monetarnej.
-reviewed: false
+  Percepcja i zaufanie społeczne są zatem kluczowymi czynnikami sukcesu lub porażki reformy monetarnej.
+reviewed: true

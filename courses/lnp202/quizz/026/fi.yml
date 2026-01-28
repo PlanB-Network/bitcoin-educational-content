@@ -1,0 +1,9 @@
+question: Mitä normaalisti toimiva vartiotorni te päätellä suojaamastaan kanavasta?
+answer: Kuinka usein sen tila päivitetään
+wrong_answers:
+  - Liquidity jako
+  - Sen kapasiteetti
+  - Kulupolitiikka
+explanation: |
+  Se vastaanottaa salattuja paketteja jokaisesta uudesta tilasta, mikä paljastaa vain normaalin toimintanopeuden.
+reviewed: false

@@ -372,14 +372,15 @@ For å forstå Arkades posisjonering bedre, kan vi sammenligne den med de to and
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Kriterium | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Modell** | Delt UTXO koordinert av server (ASP) | P2P-nettverk av betalingskanaler | Blinde tokens utstedt av en bank (Mint) |
+| **Oppbevaring** | **Ikke-depot** (du har nøklene) | **Ikke-depot** (du har nøklene) | **Depot** (Mint har midlene) |
+| **Personvern** | **Høy** (Innebygd CoinJoin, blind for offentligheten) | **Middels** (Onion-ruting, men synlige kanaler) | **Svært høy** (Blind selv for Mint) |
+| **Skalerbarhet** | Utmerket (Massiv on-chain batching) | Utmerket (Uendelige off-chain transaksjoner) | Utmerket (Simple serversignaturer) |
+| **Erfaring** | Enkel (ligner en on-chain wallet) | Kompleks (kanalstyring, likviditet) | Svært enkel (som digitale kontanter) |
+| **Hovedrisiko** | ASP-tilgjengelighet og utløp | Kanalstyring og sikkerhetskopier | Tillit til Mint (risiko for tyveri) |
 
 **Arkade** er det ideelle kompromisset: enkelheten og konfidensialiteten til Cashu, men med suvereniteten (ikke-frihetsberøvende) til Lightning.
 

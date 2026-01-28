@@ -263,11 +263,12 @@ Eesmärk: Ühendage relee kaugjuhtimispuldi ON/OFF nupu külge
 
 
 
-| **Terminal**         | **Description**           | **Fonction**                        |
+
+| **Klemm**         | **Kirjeldus**           | **Funktsioon**                        |
 | -------------------- | ------------------------- | ----------------------------------- |
-| NO (Normally Open)   | Circuit ouvert par défaut | Se ferme quand le relais est activé |
-| NC (Normally Closed) | Circuit fermé par défaut  | S'ouvre quand le relais est activé  |
-| COM (Common)         | Terminal central          | Bascule entre NO et NC              |
+| NO (Tavaliselt avatud)   | Ahel on vaikimisi avatud | Sulgub, kui rele aktiveeritakse |
+| NC (Tavaliselt suletud) | Ahel on vaikimisi suletud  | Avaneb, kui rele aktiveeritakse  |
+| COM (Ühine)         | Keskne klemm          | Lülitub NO ja NC vahel              |
 
 **Puldi juhtmestik releemoodulile:**
 
@@ -301,11 +302,12 @@ Kui ESP32 katkestab relee, eralduvad COM ja NO, mis on samaväärne nupu vabasta
 
 
 
-| **ESP32** | **→** | **Module relais** |
+
+| **ESP32** | **→** | **Relee moodul** |
 | --------- | ----- | ----------------- |
 | V5 (5V)   | **→** | VCC               |
 | GND       | **→** | GND               |
-| GPIO 21   | **→** | IN (Input)        |
+| GPIO 21   | **→** | IN (Sisend)        |
 
 **Kontroll:**
 
@@ -894,14 +896,15 @@ Enne lõppkatset kontrollige :
 
 
 
-| **Problème**                        | **Cause probable**              | **Solution**                                                                                 |
+
+| **Probleem**                        | **Tõenäoline põhjus**              | **Lahendus**                                                                                 |
 | ----------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| ESP32 ne se connecte pas            | Driver USB manquant             | Installer [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
-| Relais ne clique pas                | Mauvais câblage GPIO            | Vérifier GPIO 21 → IN                                                                        |
-| Smoke machine ne réagit pas         | Télécommande mal câblée         | Vérifier NO/NC/COM                                                                           |
-| WebSocket timeout                   | URL incorrecte                  | Vérifier wss:// et /bitcoinswitch                                                            |
-| WiFi ne se connecte pas             | SSID/Password erroné            | Re-flasher la config WiFi                                                                    |
-| Paiement reçu mais rien ne se passe | ESP32 non connecté au WebSocket | Vérifier les logs RESET                                                                      |
+| ESP32 ei ühenda            | Puudub USB-draiver             | Installige [CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers) |
+| Rele ei kliki                | Vale GPIO-kaablitamine            | Kontrollige GPIO 21 → IN                                                                        |
+| Suitsumachine ei reageeri         | Kaugjuhtimise vale kaablitamine         | Kontrollige NO/NC/COM                                                                           |
+| WebSocket ajalõpp                   | Vale URL                  | Kontrollige wss:// ja /bitcoinswitch                                                            |
+| WiFi ei ühenda             | SSID/Parool vale            | Kirjutage WiFi-seadistus uuesti                                                                    |
+| Makse saadud, kuid midagi ei juhtu | ESP32 pole WebSocketiga ühendatud | Kontrollige RESET-logisid                                                                      |
 
 ## Ressursid
 

@@ -203,7 +203,7 @@ Em conjunto, fazem da Bitcoin um **ativo portador** e uma moeda digital **sem em
 
 ![BIZ101](assets/pt/003.webp)
 
-A Bitcoin tem uma política monetária fixa, com um **capítulo de 21 milhões de bitcoins**, dos quais ~19,8 milhões já foram distribuídos. Isto torna-a **deflacionária**, com o seu valor a aumentar ao longo do tempo, à medida que os utilizadores armazenam nela poupanças e ganhos de produtividade.
+O Bitcoin tem uma política monetária fixa, com um **máximo de 21 milhões de bitcoins**, dos quais ~19,8 (2024) milhões já foram minerados. Isso o torna **deflacionário**, com seu valor aumentando ao longo do tempo à medida que os usuários armazenam nele poupanças e ganhos de produtividade.
 
 As suas caraterísticas técnicas ultrapassam as do ouro e do dólar combinadas, tornando-o o ativo financeiro mais difícil alguma vez criado. A Bitcoin é simultaneamente uma reserva de valor e um meio de troca, uma moeda em construção. Imagine transferir valor da tesouraria de uma empresa para outra rapidamente, sem intermediários, a um custo mínimo, sem fraude, 24 horas por dia, 7 dias por semana, e sem qualquer terceiro envolvido.
 
@@ -215,7 +215,7 @@ A Bitcoin é disruptiva porque nos incentiva a aprender conceitos de matemática
 
 A Bitcoin desafia-nos a reconsiderar a natureza do próprio dinheiro. Pode explicar-nos o que é verdadeiramente o dinheiro? Um trabalhador assalariado ou um empresário pode passar 50.000 a 100.000 horas da sua vida a ganhar dinheiro, mas quantos **dedicam sequer 100 horas a compreendê-lo melhor** e a preservá-lo? A Bitcoin incita-nos a questionar as razões fundamentais da nossa necessidade de dinheiro e da nossa perspetiva temporal. O dinheiro é para luxo imediato ou para resiliência a longo prazo? Se tivéssemos um ativo em valorização que nos permitisse adiar as compras, que escolhas faríamos? Que conversas gostaríamos de ter connosco próprios daqui a 20 ou 30 anos?
 
-**CARTÃO DE IDENTIDADE DE BITCOIN**
+**CARTÃO DE IDENTIDADE DO BITCOIN (em 2024)**
 
 
 - **Idade:** 15 anos (3 de janeiro de 2009)
@@ -300,7 +300,7 @@ A Lightning Network é ideal para pagamentos com Bitcoin em lojas físicas ou on
 - **Finalidade:** Uma vez efectuado um pagamento no Lightning, este é definitivo. Não há possibilidade de estornos por terceiros ou litígios relacionados com fraude.
 - **Taxas:** As taxas de transação na Lightning Network são mínimas e pagas pelo utilizador, não pelo comerciante. Os comerciantes só incorrem em taxas se mais tarde precisarem de transferir a sua Bitcoin para outra rede ou serviço.
 
-**CARTÃO DE IDENTIDADE RELÂMPAGO**
+**CARTÃO DE IDENTIDADE DO LIGHTNING (em 2024)**
 
 
 - **Invenção:** 2015

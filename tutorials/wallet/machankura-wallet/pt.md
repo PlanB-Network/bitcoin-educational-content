@@ -80,18 +80,19 @@ O Machankura é um serviço desenvolvido e associado a um código GSM que permit
 
 
 
-| PAYS           | CODE USSD              |
+
+| PAÍS           | CÓDIGO USSD              |
 | -------------- | ---------------------- |
-| Ghana          | `*920*8333#`           |
-| Kenya          | `*483*8333#`           |
+| Gana          | `*920*8333#`           |
+| Quênia          | `*483*8333#`           |
 | Malawi         | `*384*8333#`           |
-| Namibie        | `*142*8333#`           |
-| Nigeria        | `*347*8333#`           |
-| Afrique du Sud | `54052.co.za`          |
-| Tanzanie       | `SMS +255 679 066 977` |
-| Ouganda        | `SMS +256 744 830 624` |
-| Zambie         | `*384*8333#`           |
-| Côte d’Ivoire  | `*9141#`               |
+| Namíbia        | `*142*8333#`           |
+| Nigéria        | `*347*8333#`           |
+| África do Sul | `54052.co.za`          |
+| Tanzânia       | `SMS +255 679 066 977` |
+| Uganda        | `SMS +256 744 830 624` |
+| Zâmbia         | `*384*8333#`           |
+| Costa do Marfim  | `*9141#`               |
 
 Com base nesta tabela, podemos ver que países como a Tanzânia, o Uganda e a África do Sul não têm um código USSD específico para o serviço.
 

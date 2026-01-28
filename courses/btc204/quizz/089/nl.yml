@@ -1,10 +1,10 @@
 question: Hoe worden makers bij JoinMarket gecompenseerd?
 answer: Door middel van vergoedingen die door de ontvangers worden betaald.
 wrong_answers:
-  - Via Mining vergoedingen.
+  - Via mining vergoedingen.
   - Door vrijwillige donaties van de deelnemers.
-  - Door subsidies van de Bitcoin gemeenschap.
+  - Door subsidies van de Bitcoin-gemeenschap.
 explanation: |
-  De makers stellen hun bitcoins beschikbaar voor de takers en ontvangen een vergoeding voor hun service. De takers betalen op hun beurt om de bitcoins van de makers te gebruiken om hun eigen CoinJoin transacties uit te voeren.
+  De makers stellen hun bitcoins beschikbaar voor de nemers en ontvangen een vergoeding voor hun service. De nemers betalen op hun beurt om de bitcoins van de makers te gebruiken om hun eigen CoinJoin-transacties uit te voeren.
   
 reviewed: false

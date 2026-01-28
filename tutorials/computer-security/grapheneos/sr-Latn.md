@@ -141,7 +141,7 @@ Video koji detaljno prikazuje jednostavne korake navedene iznad
 
 
 
-Ako ti jednostavni koraci deluju kao previše, možete razmisliti o kupovini Pixel telefona sa GrapheneOS softverom [pre-instaliranim](https://ronindojo.io/en/roninmobile). Samo budite svesni da time ukazujete malu količinu poverenja dobavljaču.
+Ako ti jednostavni koraci deluju kao previše, možete razmisliti o kupovini Pixel telefona sa GrapheneOS softverom pre-instaliranim (postoje kompanije koje ih prodaju). Samo budite svesni da time ukazujete malu količinu poverenja dobavljaču.
 
 
 ### Unapred instalirane aplikacije
@@ -332,10 +332,10 @@ Većina ljudi koji nisu zainteresovani za privatnost verovatno koristi WhatsApp 
 
 
 
-- [Signal](https://signal.org/) je jedan od popularnijih end-to-end enkriptovanih (E2EE) mesindžera koji ima dobar dosadašnji učinak i bogat skup funkcija. Signal zahteva broj telefona za registraciju, tako da ako planirate da ćaskate sa ljudima za koje biste radije da ne znaju vaš broj telefona, možda bi trebalo da razmotrite neke od alternativa. Signal mora biti preuzet putem Aurora Store-a.
+- [Signal](https://signal.org/) je jedan od popularnijih end-to-end enkriptovanih (E2EE) mesindžera koji ima dobar dosadašnji učinak i bogat skup funkcija. Signal zahteva broj telefona za registraciju, tako da ako planirate da ćaskate sa ljudima za koje biste radije da ne znaju vaš broj telefona, možda bi trebalo da razmotrite neke od alternativa **_[ili sakrijte svoj broj u podešavanjima profila](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames)_**. Signal mora biti preuzet putem Aurora Store-a.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) je prilično nov E2EE mesindžer. Nema korisnički ID, ne zahteva broj telefona ili lične informacije. Ljudi vas pronalaze skeniranjem vašeg ličnog QR koda ili posetom vašeg jedinstvenog linka. Simplex takođe omogućava naprednim korisnicima da pokrenu sopstveni server kako bi dodatno smanjili oslanjanje na bilo koji centralizovani entitet. Simplex nema desktop klijent, pa možda nije pogodan ako vam je multi-uređaj na listi prioriteta. Simplex za Android je dostupan putem F-Droid.
 - [Threema](https://threema.ch/en/faq/libre_installation) nudi slično iskustvo kao Simplex, ali postoji duže vreme i kao rezultat toga, deluje malo uglađenije. Threema nije besplatan, doživotna licenca košta $4.99 i može se kupiti sa bitcoinom. Threema nudi web klijent i izvorne desktop aplikacije. Android aplikacija je dostupna putem F-Droid.
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) je nezvanični FOSS fork zvanične Telegram aplikacije za Android. Telegram ima E2EE 'tajne četove', ali podrazumevana opcija nije privatna. Telegram FOSS se može preuzeti sa F-Droid.
+- [Mercurygram](https://f-droid.org/en/packages/it.belloworld.mercurygram/) je nezvanični FOSS fork zvanične Telegram aplikacije za Android. Telegram ima E2EE 'tajne četove', ali podrazumevana opcija nije privatna. Mercurygram se može preuzeti sa F-Droid.
 
 
 ![image](assets/fr/9.webp)
@@ -358,14 +358,13 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) je višeplatformski Spotify klijent koji ne zahteva Premium nalog. Spotube je dostupan putem F-Droid-a.
-- [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/) je fantastična aplikacija za strimovanje bilo koje muzike sa YouTube Music, besplatno. ViMusic je dostupan na F-Droid.
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) nudi YouTube iskustvo bez dosadnih reklama i sumnjivih dozvola. Sa NewPipe možete se pretplatiti na kanale, slušati u pozadini, pa čak i preuzeti za gledanje van mreže. NewPipe je dostupan putem F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) je plejer za podkaste koji vam omogućava da se pretplatite i upravljate svim vašim omiljenim emisijama. AntennaPod je dostupan putem F-Droid-a.
 
 
 ![image](assets/fr/11.webp)
 
-Levo: Spotube, Desno: ViMusic
+Spotube
 
 
 ### Mape
@@ -403,7 +402,7 @@ Levo: Proton Mail, Desno: Tutanota
 
 
 
-- [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/) je program za sinhronizaciju fajlova. Sinhronizuje fajlove između dva ili više uređaja u realnom vremenu, sigurno zaštićeno od znatiželjnih očiju. Vaši podaci su samo vaši i zaslužujete da izaberete gde će biti uskladišteni, da li će biti podeljeni sa nekom trećom stranom i kako će biti preneti preko interneta. Syncthing je dostupan putem F-Droid-a.
+- [Syncthing Fork](https://f-droid.org/en/packages/com.github.catfriend1.syncthingfork/) je fork programa za sinhronizaciju fajlova. Sinhronizuje fajlove između dva ili više uređaja u realnom vremenu, sigurno zaštićeno od znatiželjnih očiju. Vaši podaci su samo vaši i zaslužujete da izaberete gde će biti uskladišteni, da li će biti podeljeni sa nekom trećom stranom i kako će biti preneti preko interneta. Syncthing Fork je dostupan putem F-Droid-a.
 - [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/) povezuje sve vaše uređaje kako bi lako komunicirali jedni s drugima kada su povezani na vašu kućnu mrežu. Jednostavno šaljite datoteke, fotografije, podatke iz međuspremnika na sve vaše uređaje (čak i na iOS!). KDE Connect se može preuzeti sa F-Droid.
 - [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/) je E2EE aplikacija za beleške koja omogućava sinhronizaciju vaših misli i lista zadataka na svim vašim uređajima. Njihov besplatni plan bi trebalo da pokrije većinu ličnih potreba. Notesnook je dostupan na F-Droid.
 - [Standard Notes](https://f-droid.org/en/packages/com.standardnotes/) je veoma sličan Notesnook-u, ali zahteva plaćeni plan da bi se podudaralo sa skupom funkcija. Standard Notes je dostupan putem F-Droid-a.
@@ -420,7 +419,7 @@ Levo: Notesnook, Desno: KDE Connect
 
 
 
-- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) je prelepo dizajnirana aplikacija za vremensku prognozu otvorenog koda dostupna putem F-Droid-a. Takođe podržava mnogo različitih veličina widgeta, tako da možete videti vremensku prognozu za izabranu lokaciju direktno sa vašeg početnog ekrana.
+- [Breezy Weather](https://f-droid.org/en/packages/org.breezyweather/) je aplikacija za vremensku prognozu otvorenog koda bogata funkcijama sa Material 3 Expressive interfejsom; nudi promišljene vizualizacije, prognoze, uslove u realnom vremenu, kvalitet vazduha, polen, vremenska upozorenja iz preko 50 izvora.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) je aplikacija otvorenog koda koja čuva privatnost i podržava više od 200 jezika. Translate You je dostupan putem F-Droid-a.
 - [Proton Calendar](https://proton.me/calendar/download) je jednostavan za korišćenje E2EE koji besprekorno komunicira sa vašim Proton email nalozima. Proton Calendar se može preuzeti kao APK ili putem Aurora prodavnice.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) je aplikacija za prikazivanje i čuvanje boarding karata, kupona, karata za filmove i članskih kartica itd. Jednostavno preuzmite odgovarajući `pkpass` ili `espass` fajl i otvorite ga pomoću aplikacije. PassAndroid je dostupan putem F-Droid-a.
@@ -439,7 +438,7 @@ Levo: Geometrijsko vreme, Desno: Proton kalendar
 - [Proton Pass](https://proton.me/pass/download) nudi sličnu besplatnu uslugu kao Bitwarden, ali korisnici [Proton Unlimited](https://proton.me/pricing) mogu pristupiti dodatnim naprednim funkcijama. Proton Pass je dostupan putem APK ili Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) je aplikacija za dvofaktorsku autentifikaciju za sisteme koji koriste protokole jednokratnih lozinki. Tokeni se mogu lako dodati skeniranjem QR koda. FreeOTP je dostupan putem F-Droid-a.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) je besplatna, sigurna i otvorenog koda aplikacija za Android za upravljanje vašim tokenima za dvostepenu verifikaciju za vaše onlajn usluge. Aegis je dostupan putem F-Droid-a.
-- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) je plaćena, višeplatformska usluga koja šifrira vaše podatke lokalno kako biste ih mogli sigurno otpremiti na vašu omiljenu uslugu u oblaku. Cryptomator se može preuzeti putem F-Droid-a.
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) je besplatna višeplatformska usluga (_plaćena samo putem Google Play na Android-u_) koja šifrira vaše podatke lokalno kako biste ih mogli sigurno otpremiti na vašu omiljenu uslugu u oblaku. Cryptomator se može preuzeti putem F-Droid-a.
 
 
 ![image](assets/fr/21.webp)

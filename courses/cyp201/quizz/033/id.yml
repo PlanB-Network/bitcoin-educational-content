@@ -6,4 +6,4 @@ wrong_answers:
   - Membatasi modifikasi hanya pada satu output
 explanation: |
   SIGHASH_NONE hanya menutupi input, meninggalkan output dapat dimodifikasi setelah penandatanganan.
-ditinjau: true
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Menghindari penggunaan kunci publik sepenuhnya
 explanation: |
   Dompet HD menghasilkan semua kunci privat dari satu seed unik, yang mempermudah pencadangan dan secara tidak langsung meningkatkan privasi.
-ditinjau: true
+reviewed: true

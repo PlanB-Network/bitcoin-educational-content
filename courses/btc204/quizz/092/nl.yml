@@ -1,10 +1,10 @@
-question: Wat is de naam van het account dat gebruikt wordt voor UTXO's die niet in een Whirlpool CoinJoin pool kunnen komen?
-answer: Doxxic wijzigingsaccount.
+question: Wat is de naam van de account die gebruikt wordt voor UTXO's die niet in een Whirlpool CoinJoin-pool kunnen komen?
+answer: Slecht bank account (Doxxic change account).
 wrong_answers:
   - Postmix-account.
   - Premix rekening.
   - Depositorekening.
 explanation: |
-  De verandering die niet kon toetreden tot de pool wordt geïsoleerd in de "doxxic change account, om een strikte scheiding met de andere UTXO's in de Wallet te garanderen.
+  Het wisselgeld dat niet kon toetreden tot de pool wordt geïsoleerd in de "doxxic change account", om een strikte scheiding met de andere UTXO's in de wallet te garanderen.
   
 reviewed: false

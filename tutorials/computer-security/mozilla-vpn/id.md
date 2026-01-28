@@ -80,7 +80,7 @@ Anda dapat mengaktifkan VPN dengan mengeklik radio button di bawah ini, yang aka
 
 Mozilla VPN memungkinkan Anda untuk memilih lokasi Anda dalam dua format:
 
-- Single-Hop: yang merelokasi IP Address komputer Anda dan mengenkripsi data ke server di wilayah tertentu yang dipilih, dalam contoh Sofia di Belarus.
+- Single-Hop: yang merelokasi IP Address komputer Anda dan mengenkripsi data ke server di wilayah tertentu yang dipilih, dalam contoh Sofia di Bulgaria.
 
 - Multi-Hop: membuat koneksi terenkripsi dari komputer Anda ke dua server jarak jauh. Ini adalah enkripsi ganda: data Anda dienkripsi melalui server A, kemudian dari server A, data dienkripsi lagi ke server B.
 

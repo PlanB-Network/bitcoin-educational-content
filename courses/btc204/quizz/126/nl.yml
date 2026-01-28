@@ -1,10 +1,10 @@
-question: Welke cryptografische methode kan worden gebruikt bij coinswaps om de veiligheid van de Exchange te garanderen zonder dat er vertrouwen nodig is?
-answer: Handtekeningen van adapters
+question: Welke cryptografische methode kan worden gebruikt bij coinswaps om de veiligheid van de omwisseling te garanderen zonder dat er vertrouwen nodig is?
+answer: Adaptor Signatures
 wrong_answers:
   - Symmetrische encryptie
   - ECDH
   - Asymmetrische encryptie
 explanation: |
-  Om een coinswap uit te voeren, kan men HTLC's of PTLC's gebruiken. Deze twee protocollen werken op een vergelijkbare manier door gebruik te maken van een tijdslotsysteem dat ervoor zorgt dat de Exchange succesvol wordt voltooid of volledig wordt geannuleerd, waardoor de integriteit van de fondsen van beide partijen wordt beschermd. Het belangrijkste verschil tussen HTLC's en PTLC's is dat HTLC's hashes en preimages gebruiken om de transactie te beveiligen, terwijl PTLC's gebruik maken van adapterhandtekeningen.
+  Om een coinswap uit te voeren, kan men HTLC's of PTLC's gebruiken. Deze twee protocollen werken op een vergelijkbare manier door gebruik te maken van een tijdslotsysteem dat ervoor zorgt dat de omwisseling succesvol wordt voltooid of volledig wordt geannuleerd, waardoor de integriteit van de fondsen van beide partijen wordt beschermd. Het belangrijkste verschil tussen HTLC's en PTLC's is dat HTLC's hashes en pre-images gebruiken om de transactie te beveiligen, terwijl PTLC's gebruik maken van Adaptor Signatures.
   
 reviewed: false

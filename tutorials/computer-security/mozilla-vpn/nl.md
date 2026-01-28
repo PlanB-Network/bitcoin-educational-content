@@ -153,7 +153,7 @@ Met Mozilla VPN kunt u uw locatie in twee formaten selecteren:
 
 
 
-- Single-Hop: hiermee wordt het IP Address van je computer verplaatst en worden de gegevens versleuteld naar een server in een specifieke geselecteerde regio, in ons voorbeeld Sofia in Wit-Rusland.
+- Single-Hop: hiermee wordt het IP Address van je computer verplaatst en worden de gegevens versleuteld naar een server in een specifieke geselecteerde regio, in ons voorbeeld Sofia in Bulgarije.
 
 
 

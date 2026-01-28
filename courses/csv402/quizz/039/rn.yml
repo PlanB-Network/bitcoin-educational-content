@@ -1,9 +1,9 @@
-question: Ni itegeko irihe rirungika Contract kuva kuri Stash ikaja muri dosiye yo hanze?
-answer: RGB yohereza hanze '<Id y'amasezerano>' amasezerano yanjePBN.RGB.
+question: Ni itegeko irihe rirungika Amasezerano kuva kuri Stash ikaja muri dosiye yo hanze?
+answer: RGB yohereza hanze '<Id y'amasezerano>' myContractPBN.rgb.
 wrong_answers:
-  - RGB gukuraho '<Id y'amasezerano>' amasezerano yanjePBN.RGB.
-  - RGB dump '<Id y'amasezerano>' amasezerano yanjePBN.RGB.
-  - RGB ikibazo '<Id y'amasezerano>' amasezerano yanjePBN.RGB.
+  - Guteresharija RGB '<Id y'amasezerano>' amasezerano yanjePBN.RGB.
+  - Dump ya RGB '<Id y'amasezerano>' amasezerano myContractPBN.rgb.
+  - Ikibazo ca RGB '<Id y'amasezerano>' amasezerano myContractPBN.rgb
 explanation: |
-  Itegeko rya "RGB export" rikoreshwa mu gukura Contract muri Stash ukayibika nk'idosiye kugira ngo uyisangire vyoroshe.
-reviewed: false
+  Itegeko rya "RGB export" rikoreshwa mu gukura Amasezerano muri Stash ukayibika nk'idosiye kugira ngo uyisangire vyoroshe.
+reviewed: true

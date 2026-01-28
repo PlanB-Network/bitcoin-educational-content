@@ -1,4 +1,4 @@
-question: Wat is een Stonewall x2 transactie?
+question: Wat is een Stonewall x2-transactie?
 answer: Een betalingstransactie in de vorm van een mini-CoinJoin
 wrong_answers:
   - Een transactie die een mini-CoinJoin nabootst zonder er een te zijn
